@@ -2,8 +2,38 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-09-09T18:30:31+00:00</updated>
+<updated>2026-09-09T20:30:24+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wbtgoo/easy_ref2v_wf_for_dummies_like_me_automatic/</id><title>Easy Ref2V WF for dummies like me - [Automatic Video/Image Transcription + Prompt Formatting]</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wbtgoo/easy_ref2v_wf_for_dummies_like_me_automatic/"/>
+<published>2026-09-09T18:14:32+00:00</published><updated>2026-09-09T18:14:32+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="image-to-video"/>
+<category term="sam3"/>
+<summary>I have seen a lot of people post on here saying that they have been having difficults getting R2V to work correctly. I have been one of them, so I have been working on this workflow and custom node for the last 2 and a half weeks. I preface this by saying it does not do anything that the native H3 m</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · image-to-video, sam3&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I have seen a lot of people post on here saying that they have been having difficults getting R2V to work correctly. I have been one of them, so I have been working on this workflow and custom node for the last 2 and a half weeks. I preface this by saying it does not do anything that the native H3 model doesn't do. I just wanted a dead simple way to use H3 R2V mode and up my chances of success. The workflow includes two custom nodes which transcribe your media and adds your prompt and create a formatted R2V prompt, ready for the reference model. My next goal would be to get longer form R2V going with chaining shorter gens to have a consistent output. Workflow and nodes: https://huggingface.c&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wbtgoo/easy_ref2v_wf_for_dummies_like_me_automatic/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wbt2ey/a_little_solution_for_the_plastic_skin_with/</id><title>A little solution for the plastic skin with Minimax H3</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wbt2ey/a_little_solution_for_the_plastic_skin_with/"/>
+<published>2026-09-09T18:00:51+00:00</published><updated>2026-09-09T18:00:51+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="minimax"/>
+<summary>I found out a little solution that can add much more details on everything including skin without any additional computational cost. The idea is to add a node between SamplerCostumAdvanced and the VAE Decode (video) and make it less contrasty, it will bring so much more details but don't go to far b</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I found out a little solution that can add much more details on everything including skin without any additional computational cost. The idea is to add a node between SamplerCostumAdvanced and the VAE Decode (video) and make it less contrasty, it will bring so much more details but don't go to far because it can cause loss of quality. Enjoy! submitted by /u/Cequejedisestvrai [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wbt2ey/a_little_solution_for_the_plastic_skin_with/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1wbsm93/how_do_i_practice_vfx/</id><title>How do I practice vfx?</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wbsm93/how_do_i_practice_vfx/"/>
+<published>2026-09-09T17:45:07+00:00</published><updated>2026-09-09T17:45:07+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="video editing"/>
+<category term="vfx"/>
+<category term="blender"/>
+<summary>I want to make a film that needs to be finished by next summer. I already have some experience with blender, basic video editing, and graphic design if it’s of any help, but I struggle with finding material to actually practice. Do I think of a project idea and learn as I go or do I use stock footag</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 4 · video editing, vfx, blender&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I want to make a film that needs to be finished by next summer. I already have some experience with blender, basic video editing, and graphic design if it’s of any help, but I struggle with finding material to actually practice. Do I think of a project idea and learn as I go or do I use stock footage? Also, is there a vfx equivalent to the blender donut tutorial? submitted by /u/UhhAddyn [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wbsm93/how_do_i_practice_vfx/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wbs56o/amazing_minimax_h3_circle_on_the_reference_image/</id><title>AMAZING Minimax H3 - Circle on the reference image WHERE you want your scene to be!!</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wbs56o/amazing_minimax_h3_circle_on_the_reference_image/"/>
@@ -12,6 +42,17 @@
 <category term="minimax"/>
 <summary>Look at the buildings in the background! It works - Drawing a red circle in the water will also make the scene happen in the water, but I forgot to include it here. It is not perfect and some details are missing if you look carefully but this might be because I am using "match" on the image referenc</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Look at the buildings in the background! It works - Drawing a red circle in the water will also make the scene happen in the water, but I forgot to include it here. It is not perfect and some details are missing if you look carefully but this might be because I am using "match" on the image reference rather than "max." Have fun! Edit: Circle probably doesn't have to be red. Change your prompt accordingly. submitted by /u/TheDerminator1337 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wbs56o/amazing_minimax_h3_circle_on_the_reference_image/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1wbrjhs/ai_vfx_experiment_comfyui_ltx_video_23/</id><title>AI VFX Experiment — ComfyUI + LTX Video 2.3</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wbrjhs/ai_vfx_experiment_comfyui_ltx_video_23/"/>
+<published>2026-09-09T17:06:49+00:00</published><updated>2026-09-09T17:06:49+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="vfx"/>
+<category term="comfyui"/>
+<category term="ltx"/>
+<summary>submitted by /u/mowaism [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 6 · vfx, comfyui, ltx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/mowaism [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wbrjhs/ai_vfx_experiment_comfyui_ltx_video_23/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1wbr279/a_quick_minimax_h3_news_roundup_9th_september_2026/</id><title>A quick Minimax H3 news round-up - 9th September 2026</title>
@@ -228,6 +269,15 @@
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 7 · flux, minimax, ltx, storyboard&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Qwen 3.8 27B for generating the Visual Script. Flux 2 Klein for making the storyboard. Minimax H3 and LTX 2.5 for generating the videos using I2V workflow from the storyboard images. Breeze TTS for voice cloning and text to speech. submitted by /u/CQDSN [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wbg55u/this_video_was_made_with_qwen_38_flux_2_klein/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wbg40k/anyone_having_this_issue_where_videos_look_super/</id><title>Anyone having this issue where videos look super compressed with Minimax H3 ?</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wbg40k/anyone_having_this_issue_where_videos_look_super/"/>
+<published>2026-09-09T08:54:53+00:00</published><updated>2026-09-09T08:54:53+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="minimax"/>
+<summary>Hey there, Semothing I've noticed using Minimax H3 is that no matter what encoding settings I use, or resolution I use, the video always ends up looking super compressed, like it has h264 compression artefacts. It's like it's been trained on 720p Youtube videos. That makes the model sadly unusable f</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey there, Semothing I've noticed using Minimax H3 is that no matter what encoding settings I use, or resolution I use, the video always ends up looking super compressed, like it has h264 compression artefacts. It's like it's been trained on 720p Youtube videos. That makes the model sadly unusable for anything above 720p it seems. The below example is supposed to be a 1440x1440 video, so pretty high quality. But it looks like a bad youtube :( No matter how many steps, no matter if I export ProRes, H264, or PNGs, same thing Here is the video and some stills from it (because Reddit compression bad) https://preview.redd.it/0dckein0lgoh1.png?width=1440&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=4abbd24f6fcce8a95ba6&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wbg40k/anyone_having_this_issue_where_videos_look_super/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wbfptw/precise_control_of_the_eyes_direction_with_this/</id><title>Precise control of the Eyes direction with this Flux 2 Klein 9b LoRa</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wbfptw/precise_control_of_the_eyes_direction_with_this/"/>
 <published>2026-09-09T08:31:01+00:00</published><updated>2026-09-09T08:31:01+00:00</updated>
@@ -283,6 +333,16 @@
 <category term="vfx"/>
 <summary>submitted by /u/Ok-Storage3530 [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/Ok-Storage3530 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wbbrg3/1004_life_mask_vfx_lecture_at_momi/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wbbpw8/gta_vi_pixel_art_animation_minimax_h3_ref2vid/</id><title>GTA VI pixel art animation | Minimax H3 ref2vid</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wbbpw8/gta_vi_pixel_art_animation_minimax_h3_ref2vid/"/>
+<published>2026-09-09T04:45:49+00:00</published><updated>2026-09-09T04:45:49+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="animation"/>
+<category term="minimax"/>
+<summary>submitted by /u/Time-Ad-7720 [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · animation, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/Time-Ad-7720 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wbbpw8/gta_vi_pixel_art_animation_minimax_h3_ref2vid/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1wbbpgj/gta_vi_pixel_art_animation_minimax_h3_ref2vid/</id><title>GTA VI pixel art animation | Minimax H3 ref2vid</title>
