@@ -2,12 +2,12 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-09-09T15:32:51+00:00</updated>
+<updated>2026-09-09T15:34:47+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
 <entry>
 <id>https://github.com/hpcaitech/Open-Sora</id><title>hpcaitech/Open-Sora</title>
 <link rel="alternate" href="https://github.com/hpcaitech/Open-Sora"/>
-<published>2026-09-09T15:32:51+00:00</published><updated>2026-09-09T15:32:51+00:00</updated>
+<published>2026-09-09T15:34:47+00:00</published><updated>2026-09-09T15:34:47+00:00</updated>
 <author><name>GitHub trending (Python)</name></author>
 <category term="video generation"/>
 <category term="text-to-video"/>
@@ -20,7 +20,7 @@
 <entry>
 <id>https://github.com/AgriciDaniel/claude-ads</id><title>AgriciDaniel/claude-ads</title>
 <link rel="alternate" href="https://github.com/AgriciDaniel/claude-ads"/>
-<published>2026-09-09T15:32:51+00:00</published><updated>2026-09-09T15:32:51+00:00</updated>
+<published>2026-09-09T15:34:47+00:00</published><updated>2026-09-09T15:34:47+00:00</updated>
 <author><name>GitHub trending (Python)</name></author>
 <category term="tracking"/>
 <category term="render"/>
@@ -30,7 +30,7 @@
 <entry>
 <id>https://github.com/heygen-com/hyperframes</id><title>heygen-com/hyperframes</title>
 <link rel="alternate" href="https://github.com/heygen-com/hyperframes"/>
-<published>2026-09-09T15:32:51+00:00</published><updated>2026-09-09T15:32:51+00:00</updated>
+<published>2026-09-09T15:34:47+00:00</published><updated>2026-09-09T15:34:47+00:00</updated>
 <author><name>GitHub trending (all)</name></author>
 <category term="render"/>
 <category term="rendering"/>
@@ -191,30 +191,6 @@
 <content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 6 · relighting, rendering, multi-view, multiview&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.07414v1 Announce Type: new Abstract: Image relighting is traditionally tackled via complex inverse rendering pipelines, which suffer from ill-posed optimization, or single-image generative models that ignore crucial multi-view cues necessary for understanding 3D geometry and material interactions. To address these limitations, we introduce a feed-forward generative Transformer for direct single- and multi-view image relighting that entirely bypasses explicit intrinsic property estimation. Adapted from a video foundation model, our architecture features a latent illumination module that dynamically injects target environment maps into spatial features via cross-attention. Furthermo&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.07414"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
-<id>https://arxiv.org/abs/2609.08043</id><title>A Quantitative Evaluation Framework for Temporal Explainability in Echocardiographic Video Segmentation</title>
-<link rel="alternate" href="https://arxiv.org/abs/2609.08043"/>
-<published>2026-09-09T04:00:00+00:00</published><updated>2026-09-09T04:00:00+00:00</updated>
-<author><name>arXiv cs.CV</name></author>
-<category term="segmentation"/>
-<category term="video segmentation"/>
-<category term="consistency"/>
-<summary>arXiv:2609.08043v1 Announce Type: new Abstract: Deep learning has achieved state-of-the-art performance in echocardiographic video segmentation, with an increasing number of models incorporating temporal information. However, quantitative evaluation of temporal explainability remains largely unexplo</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · segmentation, video segmentation, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.08043v1 Announce Type: new Abstract: Deep learning has achieved state-of-the-art performance in echocardiographic video segmentation, with an increasing number of models incorporating temporal information. However, quantitative evaluation of temporal explainability remains largely unexplored. We propose a quantitative framework for evaluating Grad-CAM explanations using four complementary metrics measuring temporal consistency, saliency motion, anatomical overlap, and temporal overlap. Using EchoNet-Dynamic, we compare a baseline 2D U-Net with ConvLSTM U-Net models trained across multiple temporal strides. While segmentation performance remained comparable across all models, inter&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.08043"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2609.08084</id><title>Marigold V2: Revisiting Diffusion Transformers for Monocular Depth Estimation</title>
-<link rel="alternate" href="https://arxiv.org/abs/2609.08084"/>
-<published>2026-09-09T04:00:00+00:00</published><updated>2026-09-09T04:00:00+00:00</updated>
-<author><name>arXiv cs.CV</name></author>
-<category term="depth estimation"/>
-<category term="monocular depth"/>
-<category term="diffusion transformer"/>
-<category term="dit"/>
-<category term="scene reconstruction"/>
-<summary>arXiv:2609.08084v1 Announce Type: new Abstract: Monocular depth estimation is a ubiquitous yet highly ill-posed computer vision task, with downstream applications in scene reconstruction, computational photography, and robotics, among others. Despite the field's maturity, recent models still struggl</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 7 · depth estimation, monocular depth, diffusion transformer, dit, scene reconstruction&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.08084v1 Announce Type: new Abstract: Monocular depth estimation is a ubiquitous yet highly ill-posed computer vision task, with downstream applications in scene reconstruction, computational photography, and robotics, among others. Despite the field's maturity, recent models still struggle to generalize to out-of-distribution inputs and to produce sharp and detailed depth maps. In this paper, we revisit Marigold, a set of techniques for repurposing modern image generation and editing models, powered by the diffusion transformer (DiT) architecture, into state-of-the-art monocular depth estimators. Our recipes target single-step inference from pretrained multi-step flow-matching mod&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.08084"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
 <id>https://arxiv.org/abs/2609.08215</id><title>PhysFlow: Physics-Aware Optical Flow for Motion Controllable Video Generation</title>
 <link rel="alternate" href="https://arxiv.org/abs/2609.08215"/>
 <published>2026-09-09T04:00:00+00:00</published><updated>2026-09-09T04:00:00+00:00</updated>
@@ -235,17 +211,6 @@
 <category term="scene reconstruction"/>
 <summary>arXiv:2609.08332v1 Announce Type: new Abstract: We present EdMCGS (Event-driven Markov chain Gaussian Splatting), an end-to-end method for reconstructing dynamic 3D scenes from extreme-low-frame-rate RGB together with an event stream, which can then be rendered at any intermediate timestamp. Methods</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · gaussian splatting, rendering, scene reconstruction&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.08332v1 Announce Type: new Abstract: We present EdMCGS (Event-driven Markov chain Gaussian Splatting), an end-to-end method for reconstructing dynamic 3D scenes from extreme-low-frame-rate RGB together with an event stream, which can then be rendered at any intermediate timestamp. Methods relying solely on RGB images generate numerous artifacts due to the lack of evidence from between consecutive frames. To supply this missing evidence, we model the scene motion as an event-driven Markov chain, in which the sparse RGB frames anchor the state at their own timestamps while the events recorded within an interval drive the transition across it. Since the transition reads the events of&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.08332"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2609.08346</id><title>Segment Any Motion with Radar: Robust Multimodal Moving-Object Segmentation and Tracking</title>
-<link rel="alternate" href="https://arxiv.org/abs/2609.08346"/>
-<published>2026-09-09T04:00:00+00:00</published><updated>2026-09-09T04:00:00+00:00</updated>
-<author><name>arXiv cs.CV</name></author>
-<category term="segmentation"/>
-<category term="tracking"/>
-<category term="optical flow"/>
-<summary>arXiv:2609.08346v1 Announce Type: new Abstract: Moving-object perception must decide which image regions correspond to real motion and keep every instance identified over time. Methods that read motion from appearance, optical flow, or estimated trajectories lose that evidence under poor illuminatio</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · segmentation, tracking, optical flow&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.08346v1 Announce Type: new Abstract: Moving-object perception must decide which image regions correspond to real motion and keep every instance identified over time. Methods that read motion from appearance, optical flow, or estimated trajectories lose that evidence under poor illumination, adverse weather, reflections, and occlusion. Radar is a natural remedy because it measures radial velocity directly instead of inferring it from photometric correspondence. However, existing benchmarks do not jointly provide radar measurements, dense moving-instance masks, and temporally consistent identities for surveillance. We therefore introduce RGBTR-Motion, a synchronized and calibrated f&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.08346"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://arxiv.org/abs/2609.08730</id><title>CVT-GS: Learning to Simplify 3D Gaussian Splatting with Centroidal Voronoi Tessellation</title>
@@ -296,18 +261,6 @@
 <category term="consistency"/>
 <summary>arXiv:2511.03272v2 Announce Type: replace Abstract: Diffusion-based text-to-video models are increasingly capable, but mask-based editing over hundreds of frames remains challenging: na\"ive long-video generation suffers from memory blow-up, window seams, and temporal drift, while existing editors o</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 8 · text-to-video, inpainting, outpainting, wan, lora, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2511.03272v2 Announce Type: replace Abstract: Diffusion-based text-to-video models are increasingly capable, but mask-based editing over hundreds of frames remains challenging: na\"ive long-video generation suffers from memory blow-up, window seams, and temporal drift, while existing editors often require specialized modules or heavy fine-tuning. We present Overlapping High-Order Co-Denoising, a lightweight framework that turns a single pre-trained text-to-video model into a unified inpainting-outpainting editor. We train only LoRA adapters using mixed interior and border masks together with a dual-region loss that improves synthesis inside the mask while explicitly preserving known co&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2511.03272"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2512.04313</id><title>Mind-to-Face: Neural-Driven Photorealistic Avatar Synthesis via EEG Decoding</title>
-<link rel="alternate" href="https://arxiv.org/abs/2512.04313"/>
-<published>2026-09-09T04:00:00+00:00</published><updated>2026-09-09T04:00:00+00:00</updated>
-<author><name>arXiv cs.CV</name></author>
-<category term="gaussian splatting"/>
-<category term="3d gaussian"/>
-<category term="avatar"/>
-<category term="multi-view"/>
-<summary>arXiv:2512.04313v2 Announce Type: replace Abstract: Current expressive avatar systems rely heavily on visual cues, failing when faces are occluded or when emotions remain internal. We present Mind-to-Face, the first framework that decodes non-invasive electroencephalogram (EEG) signals directly into</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · gaussian splatting, 3d gaussian, avatar, multi-view&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2512.04313v2 Announce Type: replace Abstract: Current expressive avatar systems rely heavily on visual cues, failing when faces are occluded or when emotions remain internal. We present Mind-to-Face, the first framework that decodes non-invasive electroencephalogram (EEG) signals directly into high-fidelity facial expressions. We build a dual-modality recording setup to obtain synchronized EEG and multi-view facial video during emotion-eliciting stimuli, enabling precise supervision for neural-to-visual learning. Our model uses a CNN-Transformer encoder to map EEG signals into dense 3D position maps, capable of sampling over 65k vertices, capturing fine-scale geometry and subtle emotio&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2512.04313"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://arxiv.org/abs/2609.07557</id><title>Heat Kernel Textures: the Geodesic Gaussians That Do Not Splat</title>
