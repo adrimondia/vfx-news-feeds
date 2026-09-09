@@ -2,12 +2,12 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-09-09T15:30:45+00:00</updated>
+<updated>2026-09-09T15:32:51+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
 <entry>
 <id>https://github.com/hpcaitech/Open-Sora</id><title>hpcaitech/Open-Sora</title>
 <link rel="alternate" href="https://github.com/hpcaitech/Open-Sora"/>
-<published>2026-09-09T15:30:45+00:00</published><updated>2026-09-09T15:30:45+00:00</updated>
+<published>2026-09-09T15:32:51+00:00</published><updated>2026-09-09T15:32:51+00:00</updated>
 <author><name>GitHub trending (Python)</name></author>
 <category term="video generation"/>
 <category term="text-to-video"/>
@@ -20,7 +20,7 @@
 <entry>
 <id>https://github.com/AgriciDaniel/claude-ads</id><title>AgriciDaniel/claude-ads</title>
 <link rel="alternate" href="https://github.com/AgriciDaniel/claude-ads"/>
-<published>2026-09-09T15:30:45+00:00</published><updated>2026-09-09T15:30:45+00:00</updated>
+<published>2026-09-09T15:32:51+00:00</published><updated>2026-09-09T15:32:51+00:00</updated>
 <author><name>GitHub trending (Python)</name></author>
 <category term="tracking"/>
 <category term="render"/>
@@ -30,7 +30,7 @@
 <entry>
 <id>https://github.com/heygen-com/hyperframes</id><title>heygen-com/hyperframes</title>
 <link rel="alternate" href="https://github.com/heygen-com/hyperframes"/>
-<published>2026-09-09T15:30:45+00:00</published><updated>2026-09-09T15:30:45+00:00</updated>
+<published>2026-09-09T15:32:51+00:00</published><updated>2026-09-09T15:32:51+00:00</updated>
 <author><name>GitHub trending (all)</name></author>
 <category term="render"/>
 <category term="rendering"/>
@@ -101,16 +101,6 @@
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · upscaler&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/gerryn [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wbecyq/a_standalone_rtx_vsr_upscaler_which_is_very_very/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
-<id>https://arxiv.org/abs/2609.05816</id><title>CoRe-SAM3: Conditional Semantic--Visual Reconciliation for SAM3 Crack Segmentation</title>
-<link rel="alternate" href="https://arxiv.org/abs/2609.05816"/>
-<published>2026-09-09T04:00:00+00:00</published><updated>2026-09-09T04:00:00+00:00</updated>
-<author><name>arXiv cs.CV</name></author>
-<category term="segmentation"/>
-<category term="sam3"/>
-<summary>arXiv:2609.05816v1 Announce Type: new Abstract: Crack segmentation requires a model to recognize target semantics while accurately recovering thin, low-contrast, and topologically continuous local structures. Although SAM3 provides strong open-concept segmentation, its direct application to the crac</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 4 · segmentation, sam3&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.05816v1 Announce Type: new Abstract: Crack segmentation requires a model to recognize target semantics while accurately recovering thin, low-contrast, and topologically continuous local structures. Although SAM3 provides strong open-concept segmentation, its direct application to the crack domain still misses weak cracks, activates crack-like background regions, and produces local boundary errors. We first diagnose the functional differences between the internal prompt-conditioned semantic representation and native visual representation of SAM3 on five crack datasets. The results show that the semantic representation already carries most task information for crack prediction, wher&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.05816"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
 <id>https://arxiv.org/abs/2609.05888</id><title>UniFusion: Sparse-View 4D Reconstruction via Unified Spatio-temporal Depth Alignment</title>
 <link rel="alternate" href="https://arxiv.org/abs/2609.05888"/>
 <published>2026-09-09T04:00:00+00:00</published><updated>2026-09-09T04:00:00+00:00</updated>
@@ -177,62 +167,6 @@
 <content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 6 · gaussian splatting, 3d gaussian, 3d reconstruction, smoke&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.06017v1 Announce Type: new Abstract: The appearance of a smoky scene is shaped by two processes that a camera records together: the participating medium alters scene radiance in a view-dependent way, and the image signal processor (ISP) then remaps the result through a nonlinear tone and color transformation. Recovering a clean 3D scene requires separating both. Per-view sRGB dehazing acts only after the ISP has entangled them; standard 3D reconstruction ignores the medium and absorbs it into scene geometry and radiance. FujinSplat addresses the problem in the RAW domain, where the two processes remain separable. A per-scene Base ISP is fitted from the scene's hazy RAW captures to&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.06017"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
-<id>https://arxiv.org/abs/2609.06074</id><title>NSFlow: End-to-End Differentiable Neuro-Symbolic Optical Flow for Visual Odometry</title>
-<link rel="alternate" href="https://arxiv.org/abs/2609.06074"/>
-<published>2026-09-09T04:00:00+00:00</published><updated>2026-09-09T04:00:00+00:00</updated>
-<author><name>arXiv cs.CV</name></author>
-<category term="tracking"/>
-<category term="optical flow"/>
-<category term="consistency"/>
-<summary>arXiv:2609.06074v1 Announce Type: new Abstract: Sparse optical flow provides stable inter-frame correspondence, playing a key role in Visual Odometry (VO) and Visual-Inertial Odometry (VIO). Classical optimization-based methods, such as Lucas-Kanade (LK), perform well under small displacements but a</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 4 · tracking, optical flow, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.06074v1 Announce Type: new Abstract: Sparse optical flow provides stable inter-frame correspondence, playing a key role in Visual Odometry (VO) and Visual-Inertial Odometry (VIO). Classical optimization-based methods, such as Lucas-Kanade (LK), perform well under small displacements but are sensitive to large motions and illumination changes. Modern regression-based learning methods, while more robust in complex scenes, are often computationally heavy and lack explicit geometric consistency, making them less suitable for efficient VO/VIO front-ends. To bridge this gap, we propose a hybrid neuro-symbolic framework that combines the strengths of both paradigms. Our method uses a Con&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.06074"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2609.06078</id><title>Report of the 8th LSVOS Challenge: Complex and Multimodal Video Object Segmentation</title>
-<link rel="alternate" href="https://arxiv.org/abs/2609.06078"/>
-<published>2026-09-09T04:00:00+00:00</published><updated>2026-09-09T04:00:00+00:00</updated>
-<author><name>arXiv cs.CV</name></author>
-<category term="segmentation"/>
-<category term="video segmentation"/>
-<category term="tracking"/>
-<summary>arXiv:2609.06078v1 Announce Type: new Abstract: This report summarizes the 8th Large-scale Video Object Segmentation (LSVOS) Challenge, held in conjunction with ECCV 2026. The challenge evaluates video segmentation in three complementary settings: complex semi-supervised video object segmentation on</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 4 · segmentation, video segmentation, tracking&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.06078v1 Announce Type: new Abstract: This report summarizes the 8th Large-scale Video Object Segmentation (LSVOS) Challenge, held in conjunction with ECCV 2026. The challenge evaluates video segmentation in three complementary settings: complex semi-supervised video object segmentation on MOSEv2, text-guided referring video object segmentation on MeViSv2-Text, and audio-guided referring video object segmentation on MeViSv2-Audio. We describe the tasks and evaluation protocols and review the methods of the top three teams in each track. Across the nine leading solutions, foundation segmentation models are combined with target-aware memory, multimodal reasoning, explicit target-exis&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.06078"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2609.06099</id><title>PASTEL: Panoramic Alignment for Monocular 4D Scene Reconstruction</title>
-<link rel="alternate" href="https://arxiv.org/abs/2609.06099"/>
-<published>2026-09-09T04:00:00+00:00</published><updated>2026-09-09T04:00:00+00:00</updated>
-<author><name>arXiv cs.CV</name></author>
-<category term="novel view synthesis"/>
-<category term="4d"/>
-<category term="scene reconstruction"/>
-<summary>arXiv:2609.06099v1 Announce Type: new Abstract: Reconstructing 4D scenes from casually captured monocular video is vital for applications in virtual reality (VR) and embodied AI. Recent advances in 4D reconstruction and novel view synthesis have substantially propelled this capability. However, exis</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · novel view synthesis, 4d, scene reconstruction&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.06099v1 Announce Type: new Abstract: Reconstructing 4D scenes from casually captured monocular video is vital for applications in virtual reality (VR) and embodied AI. Recent advances in 4D reconstruction and novel view synthesis have substantially propelled this capability. However, existing reconstruction methods generally cannot recover regions beyond visible camera limits. Consequently, we introduce a new paradigm that achieves 4D scene synthesis by combining visible-region reconstruction from monocular input with invisible-region generation beyond observable camera boundaries. We present Panoramic Alignment for Strategic Exploitation of Generative Priors (PASTEL). Specificall&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.06099"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2609.06144</id><title>TBDub: Production-Oriented Visual Dubbing</title>
-<link rel="alternate" href="https://arxiv.org/abs/2609.06144"/>
-<published>2026-09-09T04:00:00+00:00</published><updated>2026-09-09T04:00:00+00:00</updated>
-<author><name>arXiv cs.CV</name></author>
-<category term="video editing"/>
-<category term="lip-sync"/>
-<category term="dit"/>
-<category term="consistency"/>
-<summary>arXiv:2609.06144v1 Announce Type: new Abstract: Visual dubbing must synchronize mouth motion with replacement speech while preserving identity, appearance, and temporal consistency. Although X-Dub provides a strong mask-free video-editing baseline, its application to livestream and generated-video c</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 4 · video editing, lip-sync, dit, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.06144v1 Announce Type: new Abstract: Visual dubbing must synchronize mouth motion with replacement speech while preserving identity, appearance, and temporal consistency. Although X-Dub provides a strong mask-free video-editing baseline, its application to livestream and generated-video content reveals limitations in production-domain robustness, temporal and motion stability, identity and oral-detail preservation, and inference efficiency. We present \textbf{TBDub}, a production-oriented extension of X-Dub that combines task-adaptive post-training with task-aware few-step distillation. Post-training adapts the video DiT using production-domain data, production-specific conditioni&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.06144"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2609.06302</id><title>CST-WM: A Causally Structured World Model for Embodied Visual Tracking</title>
-<link rel="alternate" href="https://arxiv.org/abs/2609.06302"/>
-<published>2026-09-09T04:00:00+00:00</published><updated>2026-09-09T04:00:00+00:00</updated>
-<author><name>arXiv cs.CV</name></author>
-<category term="world model"/>
-<category term="tracking"/>
-<category term="consistency"/>
-<summary>arXiv:2609.06302v1 Announce Type: new Abstract: Embodied visual tracking requires a robot not only to react to the current view, but to choose actions that preserve or recover future evidence of a moving target under ego-motion, occlusion, and distractors. It is therefore a predictive decision probl</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · world model, tracking, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.06302v1 Announce Type: new Abstract: Embodied visual tracking requires a robot not only to react to the current view, but to choose actions that preserve or recover future evidence of a moving target under ego-motion, occlusion, and distractors. It is therefore a predictive decision problem over future target observability and apparent scale. A central difficulty is a task-specific form of causal hallucination: in action-conditioned prediction, a model can exploit the strong correlation between robot control and target-related observations by hallucinating a direct causal effect from the current action to target evidence, rather than letting action influence that evidence only thr&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.06302"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
 <id>https://arxiv.org/abs/2609.06373</id><title>Multi-Grid Post-Training for Long-Form Multi-Shot Video Generation</title>
 <link rel="alternate" href="https://arxiv.org/abs/2609.06373"/>
 <published>2026-09-09T04:00:00+00:00</published><updated>2026-09-09T04:00:00+00:00</updated>
@@ -245,72 +179,6 @@
 <content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · video generation, segmentation, denoising, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.06373v1 Announce Type: new Abstract: Generating long-form multi-shot videos requires coherent within-shot motion and visually consistent narratives across shots. Existing video generators favor continuous motion and struggle to present complete shot sets when an entire narrative is packed along one temporal axis. We propose MovieGrid, a Multi-Grid Post-Training paradigm that decomposes a long video into shorter, temporally ordered chunks and arranges them on a spatial grid for joint modeling. This design reduces the number of shots handled by each temporal axis while enabling global information exchange across chunks. We construct the Multi-Grid Long Video (MGLV) dataset from 1,00&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.06373"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
-<id>https://arxiv.org/abs/2609.06385</id><title>Scaling 3D Generative Priors to Large-Scale Scene Meshes from Multi-View Images</title>
-<link rel="alternate" href="https://arxiv.org/abs/2609.06385"/>
-<published>2026-09-09T04:00:00+00:00</published><updated>2026-09-09T04:00:00+00:00</updated>
-<author><name>arXiv cs.CV</name></author>
-<category term="mesh generation"/>
-<category term="consistency"/>
-<category term="multi-view"/>
-<summary>arXiv:2609.06385v1 Announce Type: new Abstract: Pretrained 3D generative models produce detailed geometry and appearance but are primarily designed for object-centric generation within a limited spatial extent. Recent approaches address this limitation by partitioning large scenes into smaller spati</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 4 · mesh generation, consistency, multi-view&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.06385v1 Announce Type: new Abstract: Pretrained 3D generative models produce detailed geometry and appearance but are primarily designed for object-centric generation within a limited spatial extent. Recent approaches address this limitation by partitioning large scenes into smaller spatial regions and applying pretrained 3D generative priors to each region. However, scaling tiled generation to large multi-view scenes makes it challenging to maintain local geometric continuity and global appearance consistency. We present a training-free framework for large-scale textured mesh generation from multi-view images. Our key idea is to scale tiled generation to large scenes with increas&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.06385"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2609.06665</id><title>TransNormal-2: Geometry-Grounded Rectified Flow with Edge-Aware Decoding for Precise Normal Estimation</title>
-<link rel="alternate" href="https://arxiv.org/abs/2609.06665"/>
-<published>2026-09-09T04:00:00+00:00</published><updated>2026-09-09T04:00:00+00:00</updated>
-<author><name>arXiv cs.CV</name></author>
-<category term="normal estimation"/>
-<category term="rendering"/>
-<category term="flux"/>
-<summary>arXiv:2609.06665v1 Announce Type: new Abstract: Diffusion-based models enable monocular geometry estimation, yet their pixel-space precision is limited by a shared, under-studied error source: VAE reconstruction degradation. The 8x spatial compression in the VAE encoder-decoder degrades surface norm</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 4 · normal estimation, rendering, flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.06665v1 Announce Type: new Abstract: Diffusion-based models enable monocular geometry estimation, yet their pixel-space precision is limited by a shared, under-studied error source: VAE reconstruction degradation. The 8x spatial compression in the VAE encoder-decoder degrades surface normals at object boundaries; even encoding and decoding ground-truth normals introduces 1.3--8.5{\deg} of mean angular error (MAE), with edge MAE reaching 2.8x the global MAE. We present TransNormal-2, a FLUX.2-based rectified-flow framework with single-step deterministic inference that addresses this degradation on both sides of the VAE decoder: in how latent predictions are supervised during traini&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.06665"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2609.07013</id><title>ARNAI: Artifact Removal Network based on Autoencoding and Inpainting for Robust Spinal Image Segmentation and Measurement</title>
-<link rel="alternate" href="https://arxiv.org/abs/2609.07013"/>
-<published>2026-09-09T04:00:00+00:00</published><updated>2026-09-09T04:00:00+00:00</updated>
-<author><name>arXiv cs.CV</name></author>
-<category term="segmentation"/>
-<category term="inpainting"/>
-<summary>arXiv:2609.07013v1 Announce Type: new Abstract: Purpose: This study aims to develop an AI framework applicable for postoperative imaging for automated measurement of spinopelvic parameters on radiographs with robustness to the presence of spinal implants. Materials and Methods: We retrospectively re</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 4 · segmentation, inpainting&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.07013v1 Announce Type: new Abstract: Purpose: This study aims to develop an AI framework applicable for postoperative imaging for automated measurement of spinopelvic parameters on radiographs with robustness to the presence of spinal implants. Materials and Methods: We retrospectively reviewed lateral lumbar spine radiographs from two institutions (Internal: January 2017--December 2024; External: October 2021--September 2025). We developed the Restore, Segment, and Measure (RSM) framework, incorporating a novel Artifact Removal Network based on Autoencoding and Inpainting (ARNAI) to mitigate implant-related artifacts in postoperative radiographs. Segmentation and spinopelvic para&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.07013"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2609.07029</id><title>LoGAN: Multilingual Font Localization with Generative Agents</title>
-<link rel="alternate" href="https://arxiv.org/abs/2609.07029"/>
-<published>2026-09-09T04:00:00+00:00</published><updated>2026-09-09T04:00:00+00:00</updated>
-<author><name>arXiv cs.CV</name></author>
-<category term="image editing"/>
-<category term="rendering"/>
-<category term="flux"/>
-<category term="consistency"/>
-<summary>arXiv:2609.07029v1 Announce Type: new Abstract: Localizing a font into new languages is a highly intricate task requiring precise design adaptation of glyphs, color/texture, and spacing/kerning, from source to target languages. Most existing methods focus on single glyph generation with limited capa</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 4 · image editing, rendering, flux, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.07029v1 Announce Type: new Abstract: Localizing a font into new languages is a highly intricate task requiring precise design adaptation of glyphs, color/texture, and spacing/kerning, from source to target languages. Most existing methods focus on single glyph generation with limited capability in handling multilingual font rendering. In this work, we propose LoGAN, a VLM-based agentic framework for few-shot multilingual font localization, which takes in a small number of individual glyphs from a font or letters from a logo and uses them to generate complete character sets in other languages. LoGAN breaks down this task into multiple components: a glyph-level diffusion model, a st&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.07029"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2609.07216</id><title>The Price of Consistency: Exploiting Visual Anchors for Multimodal Jailbreaking in Video Generation</title>
-<link rel="alternate" href="https://arxiv.org/abs/2609.07216"/>
-<published>2026-09-09T04:00:00+00:00</published><updated>2026-09-09T04:00:00+00:00</updated>
-<author><name>arXiv cs.CV</name></author>
-<category term="video generation"/>
-<category term="consistency"/>
-<summary>arXiv:2609.07216v1 Announce Type: new Abstract: The rapid evolution of video generation has shifted the paradigm from pure text-driven to multi-conditional controllable generation, with reference images now widely adopted as conditional inputs to achieve superior spatiotemporal consistency. While th</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 4 · video generation, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.07216v1 Announce Type: new Abstract: The rapid evolution of video generation has shifted the paradigm from pure text-driven to multi-conditional controllable generation, with reference images now widely adopted as conditional inputs to achieve superior spatiotemporal consistency. While these reference images serve as powerful visual anchors that significantly enhance controllability, their impact on safety remains largely unexplored. In this work, we reveal the visual anchoring effect: by enforcing consistency, the mechanism prevents the generated content from drifting away from the original harmful intent, thereby eliminating the model's natural safety escape route from harmful t&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.07216"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2609.07346</id><title>From Explicit References to Scene Manifolds: Distributional Fidelity and Realism for Radiance Field Quality Assessment</title>
-<link rel="alternate" href="https://arxiv.org/abs/2609.07346"/>
-<published>2026-09-09T04:00:00+00:00</published><updated>2026-09-09T04:00:00+00:00</updated>
-<author><name>arXiv cs.CV</name></author>
-<category term="novel view synthesis"/>
-<category term="gaussian splatting"/>
-<category term="3d gaussian"/>
-<category term="rendering"/>
-<summary>arXiv:2609.07346v1 Announce Type: new Abstract: Radiance field representations such as 3D Gaussian Splatting (3DGS) enable high-quality novel view synthesis but can introduce complex, view-dependent artifacts from reconstruction, rendering, and compression. Reliable perceptual quality assessment (QA</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 4 · novel view synthesis, gaussian splatting, 3d gaussian, rendering&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.07346v1 Announce Type: new Abstract: Radiance field representations such as 3D Gaussian Splatting (3DGS) enable high-quality novel view synthesis but can introduce complex, view-dependent artifacts from reconstruction, rendering, and compression. Reliable perceptual quality assessment (QA) is thus essential for evaluating rendered views and guiding the design of perceptually faithful scene representations. Existing full-reference QA metrics require an aligned reference image, while recent cross-reference metrics relax this requirement by comparing a test view with non-aligned references. However, under wide-baseline radiance field settings, selecting a reliable nearby reference ca&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.07346"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
 <id>https://arxiv.org/abs/2609.07414</id><title>RelightFormer: Feed-forward Generative Transformer for Multiview Object Relighting</title>
 <link rel="alternate" href="https://arxiv.org/abs/2609.07414"/>
 <published>2026-09-09T04:00:00+00:00</published><updated>2026-09-09T04:00:00+00:00</updated>
@@ -321,61 +189,6 @@
 <category term="multiview"/>
 <summary>arXiv:2609.07414v1 Announce Type: new Abstract: Image relighting is traditionally tackled via complex inverse rendering pipelines, which suffer from ill-posed optimization, or single-image generative models that ignore crucial multi-view cues necessary for understanding 3D geometry and material inte</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 6 · relighting, rendering, multi-view, multiview&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.07414v1 Announce Type: new Abstract: Image relighting is traditionally tackled via complex inverse rendering pipelines, which suffer from ill-posed optimization, or single-image generative models that ignore crucial multi-view cues necessary for understanding 3D geometry and material interactions. To address these limitations, we introduce a feed-forward generative Transformer for direct single- and multi-view image relighting that entirely bypasses explicit intrinsic property estimation. Adapted from a video foundation model, our architecture features a latent illumination module that dynamically injects target environment maps into spatial features via cross-attention. Furthermo&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.07414"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2609.07557</id><title>Heat Kernel Textures: the Geodesic Gaussians That Do Not Splat</title>
-<link rel="alternate" href="https://arxiv.org/abs/2609.07557"/>
-<published>2026-09-09T04:00:00+00:00</published><updated>2026-09-09T04:00:00+00:00</updated>
-<author><name>arXiv cs.CV</name></author>
-<category term="novel view synthesis"/>
-<category term="gaussian splatting"/>
-<category term="3d gaussian"/>
-<category term="multi-view"/>
-<summary>arXiv:2609.07557v1 Announce Type: new Abstract: 3D Gaussian Splatting has recently revolutionised novel view synthesis as well as many other 3D vision methods and applications. Drawing inspiration from this representation, we now rethink textures to overcome the main issues of UV mapping while consi</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 4 · novel view synthesis, gaussian splatting, 3d gaussian, multi-view&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.07557v1 Announce Type: new Abstract: 3D Gaussian Splatting has recently revolutionised novel view synthesis as well as many other 3D vision methods and applications. Drawing inspiration from this representation, we now rethink textures to overcome the main issues of UV mapping while considerably lowering their memory footprint. Heat Kernel Textures (HKTex) eliminate UV unwrapping as well as their persistent issues of wasted UV space, seams, distortions, vertex-duplication, and varying resolution. Grounded in discrete Riemannian geometry and intrinsically defined on any manifold surface discretised as a triangular mesh, HKTex uses anisotropic heat kernels as geodesic equivalents to&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.07557"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2609.07724</id><title>Zero-Shot 3D Plant Organ Segmentation with SAM3 and Semantic NeRFs</title>
-<link rel="alternate" href="https://arxiv.org/abs/2609.07724"/>
-<published>2026-09-09T04:00:00+00:00</published><updated>2026-09-09T04:00:00+00:00</updated>
-<author><name>arXiv cs.CV</name></author>
-<category term="nerf"/>
-<category term="segmentation"/>
-<category term="sam3"/>
-<category term="multi-view"/>
-<summary>arXiv:2609.07724v1 Announce Type: new Abstract: Accurate 3D plant organ segmentation is fundamental to automated phenotyping. Existing approaches rely on annotated training data or species-specific model configurations. We present an annotation-free pipeline for 3D plant organ segmentation, combinin</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 6 · nerf, segmentation, sam3, multi-view&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.07724v1 Announce Type: new Abstract: Accurate 3D plant organ segmentation is fundamental to automated phenotyping. Existing approaches rely on annotated training data or species-specific model configurations. We present an annotation-free pipeline for 3D plant organ segmentation, combining text-prompted SAM3 segmentation with semantic neural radiance fields (NeRFs). Given only multi-view RGB images and a list of class names, our zero-shot pipeline produces semantically labeled 3D point clouds without manual annotation, per-species fine-tuning, or domain-specific preprocessing. Multi-view NeRF fusion acts as effective implicit consensus mechanism that lifts imperfect per-frame mask&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.07724"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2609.07734</id><title>TV-SGS: Gaussian Splatting with Geometric Information Propagation via Tensor Voting under sparse views</title>
-<link rel="alternate" href="https://arxiv.org/abs/2609.07734"/>
-<published>2026-09-09T04:00:00+00:00</published><updated>2026-09-09T04:00:00+00:00</updated>
-<author><name>arXiv cs.CV</name></author>
-<category term="novel view synthesis"/>
-<category term="gaussian splatting"/>
-<category term="rendering"/>
-<summary>arXiv:2609.07734v1 Announce Type: new Abstract: Gaussian Splatting has been effective in inferring scene representations that excel in novel view synthesis. Multiple splats cooperate seamlessly to synthesize the pixels of novel views and are jointly optimized even though they only affect each other </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 4 · novel view synthesis, gaussian splatting, rendering&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.07734v1 Announce Type: new Abstract: Gaussian Splatting has been effective in inferring scene representations that excel in novel view synthesis. Multiple splats cooperate seamlessly to synthesize the pixels of novel views and are jointly optimized even though they only affect each other indirectly, via pixels they project to in common. We present an approach that enables direct communication among splats to enhance the geometric structures they form in 3D. This is accomplished by Tensor Voting, which was originally designed to infer structures from noisy inputs and has been adapted here to provide supervision during test-time optimization, leading to more accurate scene geometry.&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.07734"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2609.07738</id><title>TFTrack: A Template-Free Framework for Efficient 3D Point Cloud Tracking</title>
-<link rel="alternate" href="https://arxiv.org/abs/2609.07738"/>
-<published>2026-09-09T04:00:00+00:00</published><updated>2026-09-09T04:00:00+00:00</updated>
-<author><name>arXiv cs.CV</name></author>
-<category term="tracking"/>
-<category term="point cloud"/>
-<summary>arXiv:2609.07738v1 Announce Type: new Abstract: LiDAR-based 3D Single Object Tracking (3D SOT) is critical for robotic perception and navigation and aims to localize dynamic objects across frames in sparse point clouds. Existing methods, rooted in the Siamese tracking paradigm from 2D vision, rely o</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 4 · tracking, point cloud&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.07738v1 Announce Type: new Abstract: LiDAR-based 3D Single Object Tracking (3D SOT) is critical for robotic perception and navigation and aims to localize dynamic objects across frames in sparse point clouds. Existing methods, rooted in the Siamese tracking paradigm from 2D vision, rely on costly dual-input designs and excessive motion modeling guided by template priors, hindering their efficiency. Our in-depth analysis reveals: (i) the template paradigm is redundant, as the previous bounding box center encodes sufficient historical context; (ii) complex motion modeling is unnecessary, as geometric alignment provides adequate motion priors. Based on the above findings, we propose &lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.07738"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2609.07916</id><title>Poisson Image Denoising Using Minimax Concave and Reweighted $\ell_1$ Penalties: Nonblind and Blind Approaches</title>
-<link rel="alternate" href="https://arxiv.org/abs/2609.07916"/>
-<published>2026-09-09T04:00:00+00:00</published><updated>2026-09-09T04:00:00+00:00</updated>
-<author><name>arXiv cs.CV</name></author>
-<category term="denoising"/>
-<category term="minimax"/>
-<summary>arXiv:2609.07916v1 Announce Type: new Abstract: Images are important tools in various sciences. Despite the development of photo-taking tools, creating clear and image without noise remains challenging in practice. In particular, Poisson noise has an effect on medical and astronomical images, and re</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 4 · denoising, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.07916v1 Announce Type: new Abstract: Images are important tools in various sciences. Despite the development of photo-taking tools, creating clear and image without noise remains challenging in practice. In particular, Poisson noise has an effect on medical and astronomical images, and reduces their quality. Additionally, blur is another factor that has an effect on image quality. The problem of image restoration becomes very complicated when we have no information about the Point Spread Function (PSF). These types of problems are known as blind case. However, in some images, such as some astronomical images, the type of PSF can be specified, and these types of problems are known &lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.07916"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://arxiv.org/abs/2609.08043</id><title>A Quantitative Evaluation Framework for Temporal Explainability in Echocardiographic Video Segmentation</title>
@@ -435,18 +248,6 @@
 <content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · segmentation, tracking, optical flow&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.08346v1 Announce Type: new Abstract: Moving-object perception must decide which image regions correspond to real motion and keep every instance identified over time. Methods that read motion from appearance, optical flow, or estimated trajectories lose that evidence under poor illumination, adverse weather, reflections, and occlusion. Radar is a natural remedy because it measures radial velocity directly instead of inferring it from photometric correspondence. However, existing benchmarks do not jointly provide radar measurements, dense moving-instance masks, and temporally consistent identities for surveillance. We therefore introduce RGBTR-Motion, a synchronized and calibrated f&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.08346"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
-<id>https://arxiv.org/abs/2609.08496</id><title>SignRefine: Adapting Foundational Video Models for Sign Language Generation</title>
-<link rel="alternate" href="https://arxiv.org/abs/2609.08496"/>
-<published>2026-09-09T04:00:00+00:00</published><updated>2026-09-09T04:00:00+00:00</updated>
-<author><name>arXiv cs.CV</name></author>
-<category term="video generation"/>
-<category term="video diffusion"/>
-<category term="render"/>
-<category term="diffusion transformer"/>
-<summary>arXiv:2609.08496v1 Announce Type: new Abstract: Sign language video generation demands precise hand and facial articulation, yet modern video diffusion models, trained predominantly on spoken-language video, produce artifacts that render signing unintelligible. We propose SignRefine, a sign language</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 4 · video generation, video diffusion, render, diffusion transformer&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.08496v1 Announce Type: new Abstract: Sign language video generation demands precise hand and facial articulation, yet modern video diffusion models, trained predominantly on spoken-language video, produce artifacts that render signing unintelligible. We propose SignRefine, a sign language video generation model that produces comprehensible signing from 2D keypoint conditioning alone, generalizing across appearances and visual conditions. Our approach builds on a pretrained video diffusion transformer and introduces local adapters with spatial grounding to selectively refine hand and face regions, steering the strong base model's prior toward accurate articulation. To enable this w&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.08496"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
 <id>https://arxiv.org/abs/2609.08730</id><title>CVT-GS: Learning to Simplify 3D Gaussian Splatting with Centroidal Voronoi Tessellation</title>
 <link rel="alternate" href="https://arxiv.org/abs/2609.08730"/>
 <published>2026-09-09T04:00:00+00:00</published><updated>2026-09-09T04:00:00+00:00</updated>
@@ -457,53 +258,6 @@
 <category term="rendering"/>
 <summary>arXiv:2609.08730v1 Announce Type: new Abstract: While 3D Gaussian Splatting (3DGS) has emerged as a powerful representation for real-time novel view synthesis, rendering high-fidelity scenes often relies on a massive number of Gaussian primitives, incurring substantial storage and computational over</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 6 · novel view synthesis, gaussian splatting, 3d gaussian, rendering&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.08730v1 Announce Type: new Abstract: While 3D Gaussian Splatting (3DGS) has emerged as a powerful representation for real-time novel view synthesis, rendering high-fidelity scenes often relies on a massive number of Gaussian primitives, incurring substantial storage and computational overhead. Existing simplification techniques are largely intrusive, requiring training-time pruning, architectural modifications, or computationally expensive per-scene fine-tuning. These drawbacks limit their deployment on off-the-shelf pretrained models. In this paper, we propose CVT-GS, a novel optimization-free post-hoc simplification framework that directly compresses trained 3DGS scenes without &lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.08730"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2609.08949</id><title>Prior-free relative 6D pose estimation of multiple object instances</title>
-<link rel="alternate" href="https://arxiv.org/abs/2609.08949"/>
-<published>2026-09-09T04:00:00+00:00</published><updated>2026-09-09T04:00:00+00:00</updated>
-<author><name>arXiv cs.CV</name></author>
-<category term="pose estimation"/>
-<category term="consistency"/>
-<category term="multi-view"/>
-<summary>arXiv:2609.08949v1 Announce Type: new Abstract: Object 6D pose estimation formulations have progressively reduced reliance on object-specific priors, evolving from explicit 3D models to multi-view object captures to single reference images. We take this progression to its extreme by introducing prio</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 4 · pose estimation, consistency, multi-view&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.08949v1 Announce Type: new Abstract: Object 6D pose estimation formulations have progressively reduced reliance on object-specific priors, evolving from explicit 3D models to multi-view object captures to single reference images. We take this progression to its extreme by introducing prior-free relative 6D pose estimation, which lifts the assumption of knowing which object is to be posed within the scene. This novel setting aims to estimate the relative poses of multiple instances of an unknown object within the same image, without requiring CAD models, templates, or reference images. We solve this by formulating a novel method (PROSE) that finds coarse correspondences between obj&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.08949"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2609.09123</id><title>Mask Forcing: Improving Autoregressive Video Diffusion Distillation via Dual-Noise Masking Rollout</title>
-<link rel="alternate" href="https://arxiv.org/abs/2609.09123"/>
-<published>2026-09-09T04:00:00+00:00</published><updated>2026-09-09T04:00:00+00:00</updated>
-<author><name>arXiv cs.CV</name></author>
-<category term="video generation"/>
-<category term="video diffusion"/>
-<category term="denoising"/>
-<summary>arXiv:2609.09123v1 Announce Type: new Abstract: Autoregressive (AR) video diffusion models have shown great potential in real-time video generation. Recent methods distill pretrained bidirectional video diffusion models into causal AR students through Distribution Matching Distillation (DMD), but th</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 4 · video generation, video diffusion, denoising&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.09123v1 Announce Type: new Abstract: Autoregressive (AR) video diffusion models have shown great potential in real-time video generation. Recent methods distill pretrained bidirectional video diffusion models into causal AR students through Distribution Matching Distillation (DMD), but the generated videos often suffer from over-saturation and over-smoothing issues, resulting in limited visual quality and realism. The key contributing factor is the mode-seeking behavior of the reverse KL objective in DMD, which can cause the student distribution to collapse onto only a few modes of the teacher distribution. To address this, we propose Mask Forcing, a Dual-Noise Masking Rollout str&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.09123"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2609.06242</id><title>Task-Oriented Semantic Communication for Hazard Warning and Remote Operation in Connected Vehicle Platoons</title>
-<link rel="alternate" href="https://arxiv.org/abs/2609.06242"/>
-<published>2026-09-09T04:00:00+00:00</published><updated>2026-09-09T04:00:00+00:00</updated>
-<author><name>arXiv cs.CV</name></author>
-<category term="segmentation"/>
-<category term="depth estimation"/>
-<category term="monocular depth"/>
-<category term="stable diffusion"/>
-<category term="scene reconstruction"/>
-<summary>arXiv:2609.06242v1 Announce Type: cross Abstract: Connected and automated vehicle platoons require reliable dissemination of task-relevant hazard information to enable appropriate downstream responses, with unresolved situations additionally requiring remote human intervention. However, the limited </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · segmentation, depth estimation, monocular depth, stable diffusion, scene reconstruction&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.06242v1 Announce Type: cross Abstract: Connected and automated vehicle platoons require reliable dissemination of task-relevant hazard information to enable appropriate downstream responses, with unresolved situations additionally requiring remote human intervention. However, the limited channel bandwidth of V2X communication makes high-volume sensor data transmission challenging, motivating the exchange of only task-relevant information rather than raw sensor data. This paper proposes an integrated semantic and task-oriented communication framework for cooperative hazard response and remote operation in automated vehicle platoons. The framework combines onboard instance segmentat&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.06242"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2609.06874</id><title>MedGSSR: Generalizable Medical Image Super-Resolution 3D Reconstruction via Hierarchical Feed-forward Gaussian Splatting</title>
-<link rel="alternate" href="https://arxiv.org/abs/2609.06874"/>
-<published>2026-09-09T04:00:00+00:00</published><updated>2026-09-09T04:00:00+00:00</updated>
-<author><name>arXiv cs.CV</name></author>
-<category term="gaussian splatting"/>
-<category term="3d gaussian"/>
-<category term="3d reconstruction"/>
-<category term="super-resolution"/>
-<summary>arXiv:2609.06874v1 Announce Type: cross Abstract: High-resolution volumetric medical imaging is critical for clinical diagnosis, yet acquisition is often limited by scanner hardware, scan time, and for CT, radiation dose. Medical 3D Super-Resolution (Med3DSR) offers a computational alternative, but </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 7 · gaussian splatting, 3d gaussian, 3d reconstruction, super-resolution&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.06874v1 Announce Type: cross Abstract: High-resolution volumetric medical imaging is critical for clinical diagnosis, yet acquisition is often limited by scanner hardware, scan time, and for CT, radiation dose. Medical 3D Super-Resolution (Med3DSR) offers a computational alternative, but existing methods commonly rely on per-subject optimization, pretrained priors, or coordinate-based implicit representations, which compromise anatomical fidelity and limit efficiency. To address these limitations, we present MedGSSR, a fully end-to-end feed-forward framework that represents volumes as an explicit 3D Gaussian field for Med3DSR. Unlike coordinate-based implicit functions, our explic&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.06874"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://arxiv.org/abs/2609.07274</id><title>LightSplat: Real-Time High-Fidelity 3D Gaussian SLAM with Loop Closure</title>
@@ -519,17 +273,6 @@
 <content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 7 · gaussian splatting, 3d gaussian, tracking, consistency, slam&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.07274v1 Announce Type: cross Abstract: SLAM systems based on 3D Gaussian Splatting (3DGS) have recently demonstrated promising reconstruction accuracy for dense 3D scene representations. However, current 3DGS systems struggle to meet the strict demands of real-world deployments due to severe limitations in operational performance and map adaptability. To this end, we propose LightSplat, a hybrid-representation RGB-D SLAM framework. It synergizes local sparse features for robust and fast tracking with a dual-thread backend that progressively constructs dense Gaussian submaps. Crucially, we enable online loop closure through feature-accelerated 3DGS registration, refining overall ma&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.07274"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
-<id>https://arxiv.org/abs/2609.08153</id><title>Geodesic-informed Generative Diffusion Model For Topology-preserved Image Video Generation</title>
-<link rel="alternate" href="https://arxiv.org/abs/2609.08153"/>
-<published>2026-09-09T04:00:00+00:00</published><updated>2026-09-09T04:00:00+00:00</updated>
-<author><name>arXiv cs.CV</name></author>
-<category term="video generation"/>
-<category term="segmentation"/>
-<category term="consistency"/>
-<summary>arXiv:2609.08153v1 Announce Type: cross Abstract: Generative diffusion models have emerged as a class of powerful techniques for various imaging applications, including but not limited to synthesis, reconstruction, and segmentation. Despite their success, current generative models pose two key limit</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 4 · video generation, segmentation, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.08153v1 Announce Type: cross Abstract: Generative diffusion models have emerged as a class of powerful techniques for various imaging applications, including but not limited to synthesis, reconstruction, and segmentation. Despite their success, current generative models pose two key limitations. First, they primarily rely on image intensity and texture information, with limited attention to underlying object geometry. As a result, they do not guarantee geometric or topological consistency during the generation process, which is a crucial requirement for high-stakes domains such as computational anatomy, biology, and robotics, where preserving object structure is critical. Second, &lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.08153"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
 <id>https://arxiv.org/abs/2508.11431</id><title>Remove360: Benchmarking Residuals After Object Removal in 3D Gaussian Splatting</title>
 <link rel="alternate" href="https://arxiv.org/abs/2508.11431"/>
 <published>2026-09-09T04:00:00+00:00</published><updated>2026-09-09T04:00:00+00:00</updated>
@@ -539,16 +282,6 @@
 <category term="inpainting"/>
 <summary>arXiv:2508.11431v3 Announce Type: replace Abstract: An object can disappear from a 3D scene, yet still be detectable. Even after visual removal, modern vision models may infer what was originally present. In this work, we introduce a novel benchmark and evaluation framework to quantify semantic resi</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · gaussian splatting, 3d gaussian, inpainting&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2508.11431v3 Announce Type: replace Abstract: An object can disappear from a 3D scene, yet still be detectable. Even after visual removal, modern vision models may infer what was originally present. In this work, we introduce a novel benchmark and evaluation framework to quantify semantic residuals, the unintended cues left behind after object removal in 3D Gaussian Splatting. We conduct experiments across a diverse set of indoor and outdoor scenes, showing that current methods often preserve semantic information despite the absence of visual geometry. Notably, even when removal is followed by inpainting, residual cues frequently remain detectable by foundation models. We also present &lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2508.11431"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2510.10471</id><title>DAGLFNet: Deep Feature Attention Guided Global and Local Feature Fusion for Pseudo-Image Point Cloud Segmentation</title>
-<link rel="alternate" href="https://arxiv.org/abs/2510.10471"/>
-<published>2026-09-09T04:00:00+00:00</published><updated>2026-09-09T04:00:00+00:00</updated>
-<author><name>arXiv cs.CV</name></author>
-<category term="segmentation"/>
-<category term="point cloud"/>
-<summary>arXiv:2510.10471v3 Announce Type: replace Abstract: Environmental perception systems are crucial for high-precision mapping and autonomous navigation, with LiDAR serving as a core sensor providing accurate 3D point cloud data. Efficiently processing unstructured point clouds while extracting structu</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 4 · segmentation, point cloud&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2510.10471v3 Announce Type: replace Abstract: Environmental perception systems are crucial for high-precision mapping and autonomous navigation, with LiDAR serving as a core sensor providing accurate 3D point cloud data. Efficiently processing unstructured point clouds while extracting structured semantic information remains a significant challenge. In recent years, numerous pseudo-image-based representation methods have emerged to balance efficiency and performance by fusing 3D point clouds with 2D grids. However, the fundamental inconsistency between the pseudo-image representation and the original 3D information critically undermines 2D-3D feature fusion, posing a primary obstacle f&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2510.10471"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://arxiv.org/abs/2511.03272</id><title>Unified Long Video Inpainting and Outpainting via Overlapping High-Order Co-Denoising</title>
@@ -565,17 +298,6 @@
 <content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 8 · text-to-video, inpainting, outpainting, wan, lora, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2511.03272v2 Announce Type: replace Abstract: Diffusion-based text-to-video models are increasingly capable, but mask-based editing over hundreds of frames remains challenging: na\"ive long-video generation suffers from memory blow-up, window seams, and temporal drift, while existing editors often require specialized modules or heavy fine-tuning. We present Overlapping High-Order Co-Denoising, a lightweight framework that turns a single pre-trained text-to-video model into a unified inpainting-outpainting editor. We train only LoRA adapters using mixed interior and border masks together with a dual-region loss that improves synthesis inside the mask while explicitly preserving known co&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2511.03272"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
-<id>https://arxiv.org/abs/2511.09057</id><title>PAN: A World Model for General, Actionable, and Long-Horizon World Simulation</title>
-<link rel="alternate" href="https://arxiv.org/abs/2511.09057"/>
-<published>2026-09-09T04:00:00+00:00</published><updated>2026-09-09T04:00:00+00:00</updated>
-<author><name>arXiv cs.CV</name></author>
-<category term="video generation"/>
-<category term="world model"/>
-<category term="consistency"/>
-<summary>arXiv:2511.09057v4 Announce Type: replace Abstract: A world model is a cognitive simulator of the real-world environment allowing biological agents to reason about how the world evolves, whether spontaneously or in response to their actions, and accordingly to plan and strategize. In building Artifi</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 4 · video generation, world model, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2511.09057v4 Announce Type: replace Abstract: A world model is a cognitive simulator of the real-world environment allowing biological agents to reason about how the world evolves, whether spontaneously or in response to their actions, and accordingly to plan and strategize. In building Artificial Intelligence (AI) systems, world models represent the next frontier beyond large language models (LLMs) to enable physical and embodied intelligence in AI agents, allowing them to perform decision-making through simulative reasoning and reinforcement-learning through simulative trials. Recent advancements in world modeling have yielded impressive progress in video generation, 3-D scene evolut&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2511.09057"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
 <id>https://arxiv.org/abs/2512.04313</id><title>Mind-to-Face: Neural-Driven Photorealistic Avatar Synthesis via EEG Decoding</title>
 <link rel="alternate" href="https://arxiv.org/abs/2512.04313"/>
 <published>2026-09-09T04:00:00+00:00</published><updated>2026-09-09T04:00:00+00:00</updated>
@@ -588,35 +310,27 @@
 <content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · gaussian splatting, 3d gaussian, avatar, multi-view&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2512.04313v2 Announce Type: replace Abstract: Current expressive avatar systems rely heavily on visual cues, failing when faces are occluded or when emotions remain internal. We present Mind-to-Face, the first framework that decodes non-invasive electroencephalogram (EEG) signals directly into high-fidelity facial expressions. We build a dual-modality recording setup to obtain synchronized EEG and multi-view facial video during emotion-eliciting stimuli, enabling precise supervision for neural-to-visual learning. Our model uses a CNN-Transformer encoder to map EEG signals into dense 3D position maps, capable of sampling over 65k vertices, capturing fine-scale geometry and subtle emotio&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2512.04313"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
-<id>https://arxiv.org/abs/2609.05738</id><title>RenderFormer-V2: Neural Rendering with Heterogeneous Scene Primitives</title>
-<link rel="alternate" href="https://arxiv.org/abs/2609.05738"/>
+<id>https://arxiv.org/abs/2609.07557</id><title>Heat Kernel Textures: the Geodesic Gaussians That Do Not Splat</title>
+<link rel="alternate" href="https://arxiv.org/abs/2609.07557"/>
 <published>2026-09-09T04:00:00+00:00</published><updated>2026-09-09T04:00:00+00:00</updated>
 <author><name>arXiv cs.GR</name></author>
-<category term="render"/>
-<category term="rendering"/>
-<summary>arXiv:2609.05738v1 Announce Type: cross Abstract: We present 'RenderFormer-V2', a unified learned transformer-based neural rendering model, complementary to modern physics-based rendering systems, that can handle diverse light-transport effects such as caustics, volumetric scattering, environment li</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.GR · score 3 · render, rendering&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.05738v1 Announce Type: cross Abstract: We present 'RenderFormer-V2', a unified learned transformer-based neural rendering model, complementary to modern physics-based rendering systems, that can handle diverse light-transport effects such as caustics, volumetric scattering, environment lighting, textured and displaced surfaces and out-of-distribution materials without per-scene training or specialized code. RenderFormer-V2 models global light transport as a sequence-to-sequence transformation. Following its predecessor, RenderFormer-V2 also employs a two stage process: a view-independent stage that resolves intra-scene primitive to primitive transport, and a view-dependent stage t&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.05738"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2609.06157</id><title>From Splats to Silicon: Rethinking Computational Efficiency of 3DGS</title>
-<link rel="alternate" href="https://arxiv.org/abs/2609.06157"/>
-<published>2026-09-09T04:00:00+00:00</published><updated>2026-09-09T04:00:00+00:00</updated>
-<author><name>arXiv cs.GR</name></author>
+<category term="novel view synthesis"/>
 <category term="gaussian splatting"/>
 <category term="3d gaussian"/>
-<category term="rendering"/>
-<summary>arXiv:2609.06157v1 Announce Type: cross Abstract: 3D Gaussian splatting (3DGS) represents scenes with explicit primitives and supports real-time novel-view synthesis, yet its system efficiency varies substantially across scenes, viewpoints, rendering paths, and platform constraints. Existing studies</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.GR · score 3 · gaussian splatting, 3d gaussian, rendering&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.06157v1 Announce Type: cross Abstract: 3D Gaussian splatting (3DGS) represents scenes with explicit primitives and supports real-time novel-view synthesis, yet its system efficiency varies substantially across scenes, viewpoints, rendering paths, and platform constraints. Existing studies pursue efficiency through representation and algorithm design, GPU runtime optimization, and architectural support, but their reported gains correspond to different points along the rendering and update paths. Connecting these indicators to end-to-end system benefit requires tracing how each optimization changes Gaussian selection, screen-space work, data movement, and stage or frame time. We the&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.06157"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+<category term="multi-view"/>
+<summary>arXiv:2609.07557v1 Announce Type: cross Abstract: 3D Gaussian Splatting has recently revolutionised novel view synthesis as well as many other 3D vision methods and applications. Drawing inspiration from this representation, we now rethink textures to overcome the main issues of UV mapping while con</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.GR · score 4 · novel view synthesis, gaussian splatting, 3d gaussian, multi-view&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.07557v1 Announce Type: cross Abstract: 3D Gaussian Splatting has recently revolutionised novel view synthesis as well as many other 3D vision methods and applications. Drawing inspiration from this representation, we now rethink textures to overcome the main issues of UV mapping while considerably lowering their memory footprint. Heat Kernel Textures (HKTex) eliminate UV unwrapping as well as their persistent issues of wasted UV space, seams, distortions, vertex-duplication, and varying resolution. Grounded in discrete Riemannian geometry and intrinsically defined on any manifold surface discretised as a triangular mesh, HKTex uses anisotropic heat kernels as geodesic equivalents &lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.07557"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
-<id>https://arxiv.org/abs/2609.06436</id><title>PLSR: Progressive and Localized Super-Resolution of 3D Objects via Localized Latent Voxel Diffusion</title>
-<link rel="alternate" href="https://arxiv.org/abs/2609.06436"/>
+<id>https://arxiv.org/abs/2609.08153</id><title>Geodesic-informed Generative Diffusion Model For Topology-preserved Image Video Generation</title>
+<link rel="alternate" href="https://arxiv.org/abs/2609.08153"/>
 <published>2026-09-09T04:00:00+00:00</published><updated>2026-09-09T04:00:00+00:00</updated>
 <author><name>arXiv cs.GR</name></author>
-<category term="super-resolution"/>
-<category term="denoising"/>
-<summary>arXiv:2609.06436v1 Announce Type: cross Abstract: High-resolution 3D asset generation is vital in various 3D applications. Existing state-of-the-art diffusion-based models remain constrained by fixed resolutions, limiting their ability to produce details. In this paper, we tackle the challenge of ge</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.GR · score 3 · super-resolution, denoising&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.06436v1 Announce Type: cross Abstract: High-resolution 3D asset generation is vital in various 3D applications. Existing state-of-the-art diffusion-based models remain constrained by fixed resolutions, limiting their ability to produce details. In this paper, we tackle the challenge of generating more detailed, higher-resolution 3D objects by introducing a 3D super-resolution (SR) framework built on existing 3D generative foundation models. To this end, we design PLSR, a progressive and localized super-resolution solution to achieve this goal effectively and memory efficiently. Technically, given a coarse geometry from a pretrained 3D generator, we decompose the global SR task int&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.06436"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+<category term="video generation"/>
+<category term="segmentation"/>
+<category term="consistency"/>
+<summary>arXiv:2609.08153v1 Announce Type: cross Abstract: Generative diffusion models have emerged as a class of powerful techniques for various imaging applications, including but not limited to synthesis, reconstruction, and segmentation. Despite their success, current generative models pose two key limit</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.GR · score 4 · video generation, segmentation, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.08153v1 Announce Type: cross Abstract: Generative diffusion models have emerged as a class of powerful techniques for various imaging applications, including but not limited to synthesis, reconstruction, and segmentation. Despite their success, current generative models pose two key limitations. First, they primarily rely on image intensity and texture information, with limited attention to underlying object geometry. As a result, they do not guarantee geometric or topological consistency during the generation process, which is a crucial requirement for high-stakes domains such as computational anatomy, biology, and robotics, where preserving object structure is critical. Second, &lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.08153"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://arxiv.org/abs/2504.14373</id><title>SEGA: Drivable 3D Gaussian Head Avatar from a Single Image</title>
@@ -647,37 +361,6 @@
 <content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.GR · score 6 · 3d gaussian, relighting, rendering, path tracing&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2606.09606v4 Announce Type: replace Abstract: Ray tracing enables 3D Gaussian fields to serve as a representation for physically based light transport. Faithful inverse rendering requires forward rendering and backward optimization to be defined within a consistent light-transport pipeline. Existing Gaussian inverse-rendering methods typically rely on splatting-derived G-buffers and screen-space optimization. The local affine approximation of perspective projection can introduce inconsistencies with path tracing, while simplified rendering formulations often neglect or approximate indirect illumination and visibility. Therefore, we propose a splatting-free path-traced inverse-rendering&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2606.09606"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
-<id>https://arxiv.org/abs/2604.08547</id><title>GaussiAnimate: Rig Animatable Categories with Level of Dynamics</title>
-<link rel="alternate" href="https://arxiv.org/abs/2604.08547"/>
-<published>2026-09-09T04:00:00+00:00</published><updated>2026-09-09T04:00:00+00:00</updated>
-<author><name>arXiv cs.GR</name></author>
-<category term="4d"/>
-<category term="rigging"/>
-<category term="rendering"/>
-<summary>arXiv:2604.08547v2 Announce Type: replace-cross Abstract: We propose Skelebones, a Scaffold-Skin Rigging System built on three steps: (1) Bones compress temporally consistent Gaussian or mesh sequences into free-form bones with smooth skinning weights, approximating non-rigid deformations via linear</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.GR · score 3 · 4d, rigging, rendering&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2604.08547v2 Announce Type: replace-cross Abstract: We propose Skelebones, a Scaffold-Skin Rigging System built on three steps: (1) Bones compress temporally consistent Gaussian or mesh sequences into free-form bones with smooth skinning weights, approximating non-rigid deformations via linear blend skinning (LBS); (2) Skeleton extracts the Mean Curvature Skeleton (MCS) from the canonical shape and temporally refines its topology and kinematics into a compact skeletal structure; and (3) Binding connects the skeleton and bones through non-parametric Partwise Motion Matching (PartMM), which synthesizes novel bone motions by matching, retrieving, and blending existing ones. Together, thes&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2604.08547"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2605.11696</id><title>WildRelight: A Real-World Benchmark and Physics-Guided Adaptation for Single-Image Relighting</title>
-<link rel="alternate" href="https://arxiv.org/abs/2605.11696"/>
-<published>2026-09-09T04:00:00+00:00</published><updated>2026-09-09T04:00:00+00:00</updated>
-<author><name>arXiv cs.GR</name></author>
-<category term="relighting"/>
-<category term="multi-view"/>
-<summary>arXiv:2605.11696v2 Announce Type: replace-cross Abstract: Recent single-image relighting methods, powered by advanced generative models, have achieved impressive photorealism on synthetic benchmarks. However, their effectiveness in the complex visual landscape of the real world remains largely unver</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.GR · score 3 · relighting, multi-view&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2605.11696v2 Announce Type: replace-cross Abstract: Recent single-image relighting methods, powered by advanced generative models, have achieved impressive photorealism on synthetic benchmarks. However, their effectiveness in the complex visual landscape of the real world remains largely unverified. A critical gap exists, as current datasets are typically designed for multi-view reconstruction and fail to address the unique challenges of single-image relighting. To bridge this synthetic-to-real gap, we introduce WildRelight, the first in-the-wild dataset specifically created for evaluating single-image relighting models. WildRelight features a diverse collection of high-resolution outd&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2605.11696"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2606.28215</id><title>HAT-4D: Lifting Monocular Video for 4D Multi-Object Interactions via Human-Agent Collaboration</title>
-<link rel="alternate" href="https://arxiv.org/abs/2606.28215"/>
-<published>2026-09-09T04:00:00+00:00</published><updated>2026-09-09T04:00:00+00:00</updated>
-<author><name>arXiv cs.GR</name></author>
-<category term="4d"/>
-<category term="consistency"/>
-<summary>arXiv:2606.28215v2 Announce Type: replace-cross Abstract: Extracting dynamic 4D object interactions from massive, in-the-wild monocular videos offers a highly efficient data collection pathway for scaling Embodied AI and training VLAs. However, existing monocular 4D reconstruction methods primarily </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.GR · score 3 · 4d, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2606.28215v2 Announce Type: replace-cross Abstract: Extracting dynamic 4D object interactions from massive, in-the-wild monocular videos offers a highly efficient data collection pathway for scaling Embodied AI and training VLAs. However, existing monocular 4D reconstruction methods primarily focus on isolated objects, often failing under the severe occlusions and complex dynamics inherent in multi-object interactions. To bridge this gap, we propose HAT-4D, the first agentic framework designed to reconstruct the 3D geometry, temporal dynamics, and physical interactions of multiple objects from a single video. By integrating VLMs with a multi-level human-in-the-loop feedback mechanism, &lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2606.28215"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
 <id>https://arxiv.org/abs/2606.29400</id><title>Adaptive Densification for High-Fidelity and Efficient Sparse Gaussian Splatting in Arbitrary-Scale Super-Resolution</title>
 <link rel="alternate" href="https://arxiv.org/abs/2606.29400"/>
 <published>2026-09-09T04:00:00+00:00</published><updated>2026-09-09T04:00:00+00:00</updated>
@@ -697,17 +380,6 @@
 <category term="rendering"/>
 <summary>arXiv:2606.29453v3 Announce Type: replace-cross Abstract: Arbitrary-Scale Super-Resolution (ASR) reconstructs images at continuous magnification factors. Recent methods accelerate inference by replacing computationally heavy implicit neural decoders with explicit 2D Gaussian Splatting (GS). However,</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.GR · score 4 · gaussian splatting, super-resolution, rendering&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2606.29453v3 Announce Type: replace-cross Abstract: Arbitrary-Scale Super-Resolution (ASR) reconstructs images at continuous magnification factors. Recent methods accelerate inference by replacing computationally heavy implicit neural decoders with explicit 2D Gaussian Splatting (GS). However, since standard Gaussians are smooth low-pass primitives, modeling edges and fine textures requires multiple overlapping, well-aligned splats, which creates severe bottlenecks during rasterization. To address this, we introduce Resonant Brane Splatting (RBS), a feed-forward ASR framework. RBS replaces flat Gaussians with Branes: expressive primitives that emit spatially varying colors to natively &lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2606.29453"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2609.02134</id><title>Unified Motion Retargeting for Humanoids with Learned Point Cloud Correspondence</title>
-<link rel="alternate" href="https://arxiv.org/abs/2609.02134"/>
-<published>2026-09-09T04:00:00+00:00</published><updated>2026-09-09T04:00:00+00:00</updated>
-<author><name>arXiv cs.GR</name></author>
-<category term="human motion"/>
-<category term="retargeting"/>
-<category term="point cloud"/>
-<summary>arXiv:2609.02134v2 Announce Type: replace-cross Abstract: Humanoid learning increasingly relies on transforming vast and diverse human motion data into high-quality robot reference trajectories. However, retargeting human motion to humanoid robots is challenging due to substantial differences in mor</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.GR · score 5 · human motion, retargeting, point cloud&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.02134v2 Announce Type: replace-cross Abstract: Humanoid learning increasingly relies on transforming vast and diverse human motion data into high-quality robot reference trajectories. However, retargeting human motion to humanoid robots is challenging due to substantial differences in morphology, degrees of freedom, joint ranges, and kinematic constraints between humans and robots. Existing retargeting methods typically address these differences by defining human-robot correspondence through hand-crafted sparse keypoints or body-part pairs. As a result, retargeting quality depends heavily on manual semantic design, limiting scalability across motion sources and robot morphologies &lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.02134"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wb8ib0/h3_fight_choreography_with_no_lora/</id><title>H3 - fight choreography with no Lora?</title>
