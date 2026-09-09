@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-09-09T16:21:21+00:00</updated>
+<updated>2026-09-09T16:30:23+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
 <entry>
 <id>https://github.com/hpcaitech/Open-Sora</id><title>hpcaitech/Open-Sora</title>
@@ -420,6 +420,15 @@
 <category term="cinematic"/>
 <summary>Im fairly confident Marvel rivals used AI to in-between a 2D pass because the in-betweens are shit and it doesn't make sense for a 2D approach that would have theses kind of renders/budget. Its especially disappointing knowing how good their first cinematic was... https://youtu.be/BtvXnqqPfko?si=VUw</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 1 · cinematic&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Im fairly confident Marvel rivals used AI to in-between a 2D pass because the in-betweens are shit and it doesn't make sense for a 2D approach that would have theses kind of renders/budget. Its especially disappointing knowing how good their first cinematic was... https://youtu.be/BtvXnqqPfko?si=VUwPmAbfzxIqma34 submitted by /u/Tasty_Bank_6844 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wb57iy/is_it_me_or_ai_have_been_used/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wb45e4/local_video_generation_on_android/</id><title>Local Video Generation on Android</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wb45e4/local_video_generation_on_android/"/>
+<published>2026-09-08T23:01:57+00:00</published><updated>2026-09-08T23:01:57+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="video generation"/>
+<summary>I have done further experiments regarding local image and video generation on Android smartphones. This Cat video was generated on my OnePlus 12, utilizing Neodragon int8/Z Image Turbo int4 on the CPU and GPU. A generation typically takes approximately 550-600 seconds on a Snapdragon 8 Gen 3. The st</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · video generation&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I have done further experiments regarding local image and video generation on Android smartphones. This Cat video was generated on my OnePlus 12, utilizing Neodragon int8/Z Image Turbo int4 on the CPU and GPU. A generation typically takes approximately 550-600 seconds on a Snapdragon 8 Gen 3. The start frame is rendered on the GPU via OpenCL. I am not currently using "sd.cpp", because GPU inference on Android is much slower using SD.cpp or crashes due to OOM. While an NPU would likely enhance inference times, my objective is to maximize support across a broad range of Android devices. Consequently, my current testing focuses on CPU/GPU backends, but it is slow 😂 Resolution: 512x320 (49frames&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wb45e4/local_video_generation_on_android/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/vfx/comments/1wb2qqx/visual_effects_graduation_and_questions/</id><title>visual effects graduation and questions</title>
