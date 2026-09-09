@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-09-09T15:34:47+00:00</updated>
+<updated>2026-09-09T16:21:21+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
 <entry>
 <id>https://github.com/hpcaitech/Open-Sora</id><title>hpcaitech/Open-Sora</title>
@@ -36,6 +36,15 @@
 <category term="rendering"/>
 <summary>Write HTML. Render video. Built for agents. Write HTML. Render video. Built for agents. Quickstart | Showcase | Playground | Catalog | Docs | Discord HyperFrames is an open-source framework for turning HTML, CSS, media, and seekable animations into deterministic MP4 videos. Use it locally with the C</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;GitHub trending (all) · score 2 · render, rendering&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Write HTML. Render video. Built for agents. Write HTML. Render video. Built for agents. Quickstart | Showcase | Playground | Catalog | Docs | Discord HyperFrames is an open-source framework for turning HTML, CSS, media, and seekable animations into deterministic MP4 videos. Use it locally with the CLI, from AI coding agents with skills, or as the rendering core behind hosted authoring workflows. Quick Start With an AI coding agent Install the HyperFrames skills, then describe the video you want: npx skills add heygen-com/hyperframes The picker opens with nothing pre-selected — the Core Skills group is all you need: the /hyperframes router installs each creation workflow on demand. Agents and&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.com/heygen-com/hyperframes"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1wbn5g6/i_wouldnt_want_to_be_in_the_visual_effects/</id><title>"I wouldn't want to be in the visual effects business... they are in trouble"</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wbn5g6/i_wouldnt_want_to_be_in_the_visual_effects/"/>
+<published>2026-09-09T14:27:52+00:00</published><updated>2026-09-09T14:27:52+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="visual effects"/>
+<summary>Ben Affleck mentioned this back in 2024, the topic was discussed a number of times in this sub, but at the time, a lot of comments were like "he's funny and clueless hahahha", "he doesnt know what he is talking about", "no one can replace... blah blah blah", etc. Over the couple years, all of this i</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · visual effects&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Ben Affleck mentioned this back in 2024, the topic was discussed a number of times in this sub, but at the time, a lot of comments were like "he's funny and clueless hahahha", "he doesnt know what he is talking about", "no one can replace... blah blah blah", etc. Over the couple years, all of this is making a lot more sense now. Just curious to know what do y'all think? submitted by /u/tylerdurden_3040 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wbn5g6/i_wouldnt_want_to_be_in_the_visual_effects/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wblzu5/building_a_localfirst_desktop_app_for_longform_ai/</id><title>Building a local-first desktop app for long-form AI video on MiniMax H3, runs through ComfyUI</title>
@@ -82,6 +91,25 @@
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hello, I'm not an author but for some reason haven't seen this being published here. Quote from the huggingface: A rank-32 LoRA for Krea 2 Turbo that restores the sampling diversity the Turbo distillation removed , without degrading image quality or prompt adherence. Trained with SDA (Semantic Directional Alignment) — a teacher-guided diversity alignment loss — wrapped in Forward XM best-of-5 candidate exploration, on a single high-noise sigma node (σ = 0.9567). So I tested it and it seems to work for me, I've created a simple test with prompt " dog sitting on a bench " and these are results: With lora off : IMHO dogs are looking similar here (similar \"composition\" or whatever it's called)&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wbit1s/krea_2_turbo_sda_diversity_lora_restores_the/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
+<id>https://www.reddit.com/r/vfx/comments/1wbip41/flaming_truck_houdini/</id><title>FLAMING TRUCK - Houdini</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wbip41/flaming_truck_houdini/"/>
+<published>2026-09-09T11:17:17+00:00</published><updated>2026-09-09T11:17:17+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="render"/>
+<category term="houdini"/>
+<summary>Flaming truck simulated using Houdini Pyro sparse and rendered in XPU. Main challenge was getting proper feel of fire when subjected to high speed wind without using 100's of sub-steps and making simulation times too high. A very basic and straightforward setup with No Vex/Vops with complete focus b</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 3 · render, houdini&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Flaming truck simulated using Houdini Pyro sparse and rendered in XPU. Main challenge was getting proper feel of fire when subjected to high speed wind without using 100's of sub-steps and making simulation times too high. A very basic and straightforward setup with No Vex/Vops with complete focus being put on problem solving and artistic controls. -------------------------------------------------------- Simulation details : Ram Consumption ~ 62 GB Cache Size ~ 500 GB Render Time ~ 3 Days (KARMA XPU + Mantra) --------------------------------------------------------- PC Specs - 128GB RAM AMD 7950X RTX 3060 submitted by /u/IndianVFXSchool [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wbip41/flaming_truck_houdini/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1wbi7gg/in_need_of_a_vfx_artist_paid/</id><title>In need of a VFX artist (Paid)</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wbi7gg/in_need_of_a_vfx_artist_paid/"/>
+<published>2026-09-09T10:52:34+00:00</published><updated>2026-09-09T10:52:34+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="vfx"/>
+<summary>I need an artist to do 2 separate paint outs on a short film I’m working on. The short would be for a festival run and then a release on socials. Both shots are against a flat wall. the camera pans in one where I need a thermostat removed and pushes in for the other where I need some crayon on the w</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I need an artist to do 2 separate paint outs on a short film I’m working on. The short would be for a festival run and then a release on socials. Both shots are against a flat wall. the camera pans in one where I need a thermostat removed and pushes in for the other where I need some crayon on the wall to be painted out. It’s a bit beyond what I can do cleanly so I need someone with more skill than I. This is paid but I’m not super familiar with the market prices so although im low budget, I’m open to negotiating. Our goal is to have this finished by the end of September so we are trying to get someone brought on quickly. submitted by /u/Bman0002 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wbi7gg/in_need_of_a_vfx_artist_paid/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wbfptw/precise_control_of_the_eyes_direction_with_this/</id><title>Precise control of the Eyes direction with this Flux 2 Klein 9b LoRa</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wbfptw/precise_control_of_the_eyes_direction_with_this/"/>
 <published>2026-09-09T08:31:01+00:00</published><updated>2026-09-09T08:31:01+00:00</updated>
@@ -99,6 +127,24 @@
 <category term="upscaler"/>
 <summary>submitted by /u/gerryn [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · upscaler&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/gerryn [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wbecyq/a_standalone_rtx_vsr_upscaler_which_is_very_very/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1wbdrw5/is_anyone_using_maxons_autograph_free_video/</id><title>Is anyone using maxons autograph (free video editing software, alternate to after effects)</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wbdrw5/is_anyone_using_maxons_autograph_free_video/"/>
+<published>2026-09-09T06:36:40+00:00</published><updated>2026-09-09T06:36:40+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="video editing"/>
+<summary>After effects files can be converted to autograph It can also open Photoshop files submitted by /u/ThatGuySittingAlone [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · video editing&lt;/small&gt;&lt;/p&gt;&lt;p&gt;After effects files can be converted to autograph It can also open Photoshop files submitted by /u/ThatGuySittingAlone [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wbdrw5/is_anyone_using_maxons_autograph_free_video/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1wbbrg3/1004_life_mask_vfx_lecture_at_momi/</id><title>10/04 Life Mask VFX Lecture at MOMI</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wbbrg3/1004_life_mask_vfx_lecture_at_momi/"/>
+<published>2026-09-09T04:48:02+00:00</published><updated>2026-09-09T04:48:02+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="vfx"/>
+<summary>submitted by /u/Ok-Storage3530 [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/Ok-Storage3530 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wbbrg3/1004_life_mask_vfx_lecture_at_momi/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://arxiv.org/abs/2609.05888</id><title>UniFusion: Sparse-View 4D Reconstruction via Unified Spatio-temporal Depth Alignment</title>
@@ -356,6 +402,36 @@
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Used this Custom node: https://github.com/HECer/ComfyUI-DLSS5 submitted by /u/jib_reddit [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wb5n57/dlss_5_showcase_in_comfyui/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
+<id>https://www.reddit.com/r/vfx/comments/1wb5fut/3d_logo_animation_projecting_footage_onto/</id><title>3D Logo Animation - Projecting Footage onto Extruded Logo Walls</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wb5fut/3d_logo_animation_projecting_footage_onto/"/>
+<published>2026-09-08T23:57:04+00:00</published><updated>2026-09-08T23:57:04+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="animation"/>
+<category term="nuke"/>
+<category term="blender"/>
+<summary>How would you approach this? I’m trying to do a 3D logo animation for a client. I’ve extruded the various parts of the logo into separate 3D objects. I’m flying a camera through/past these shapes and I’d like different bits of footage playing on the “walls” of the extruded shapes. My first instinct </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 4 · animation, nuke, blender&lt;/small&gt;&lt;/p&gt;&lt;p&gt;How would you approach this? I’m trying to do a 3D logo animation for a client. I’ve extruded the various parts of the logo into separate 3D objects. I’m flying a camera through/past these shapes and I’d like different bits of footage playing on the “walls” of the extruded shapes. My first instinct is to do this in comp with UVs, but it’s like 100 different objects, I’ve never really comped with UVs in nuke beyond just like a single object here and there. I guess the alternative would be to export the camera with a bunch of reference planes and place the footage on cards? I don’t have a super huge time budget, and knowing this client they can be nitpicky so I’m trying to avoid working myself&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wb5fut/3d_logo_animation_projecting_footage_onto/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1wb57iy/is_it_me_or_ai_have_been_used/</id><title>Is it me or AI have been used</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wb57iy/is_it_me_or_ai_have_been_used/"/>
+<published>2026-09-08T23:47:01+00:00</published><updated>2026-09-08T23:47:01+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="cinematic"/>
+<summary>Im fairly confident Marvel rivals used AI to in-between a 2D pass because the in-betweens are shit and it doesn't make sense for a 2D approach that would have theses kind of renders/budget. Its especially disappointing knowing how good their first cinematic was... https://youtu.be/BtvXnqqPfko?si=VUw</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 1 · cinematic&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Im fairly confident Marvel rivals used AI to in-between a 2D pass because the in-betweens are shit and it doesn't make sense for a 2D approach that would have theses kind of renders/budget. Its especially disappointing knowing how good their first cinematic was... https://youtu.be/BtvXnqqPfko?si=VUwPmAbfzxIqma34 submitted by /u/Tasty_Bank_6844 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wb57iy/is_it_me_or_ai_have_been_used/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1wb2qqx/visual_effects_graduation_and_questions/</id><title>visual effects graduation and questions</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wb2qqx/visual_effects_graduation_and_questions/"/>
+<published>2026-09-08T22:05:20+00:00</published><updated>2026-09-08T22:05:20+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="vfx"/>
+<category term="visual effects"/>
+<summary>hi guys! i'm a teenager and i've been really interested in a vfx graduation. i took a look at artfx (france) and mds (new zealand), and both are really expensive and i'm not sure if my folks and i can afford it. i wanted to know more about professionals in the area. what yall choose to graduate to f</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 3 · vfx, visual effects&lt;/small&gt;&lt;/p&gt;&lt;p&gt;hi guys! i'm a teenager and i've been really interested in a vfx graduation. i took a look at artfx (france) and mds (new zealand), and both are really expensive and i'm not sure if my folks and i can afford it. i wanted to know more about professionals in the area. what yall choose to graduate to follow this career path? how's the industry now? is it profitable? how long was your course? where did you study? i really need some tips and help! from brazil submitted by /u/licezinha-173 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wb2qqx/visual_effects_graduation_and_questions/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wb22iu/thundercats_mummra_reacts_to_your_comments/</id><title>Thundercats: Mumm-Ra Reacts to Your Comments - MiniMax H3</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wb22iu/thundercats_mummra_reacts_to_your_comments/"/>
 <published>2026-09-08T21:39:45+00:00</published><updated>2026-09-08T21:39:45+00:00</updated>
@@ -395,6 +471,16 @@
 <category term="minimax"/>
 <summary>I decided I would try to lean *into* low resolution rendering to make it part of the story. Still a few mistakes here and there. Created with ComfyUI, Minimax H3, Flux Klein Edit, and Davinci Resolve. Sound FX from StarTrekSounds website and Pixabay. Just using mostly default Minimax H3 comfyUI work</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 6 · render, rendering, comfyui, flux, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I decided I would try to lean *into* low resolution rendering to make it part of the story. Still a few mistakes here and there. Created with ComfyUI, Minimax H3, Flux Klein Edit, and Davinci Resolve. Sound FX from StarTrekSounds website and Pixabay. Just using mostly default Minimax H3 comfyUI workflows. Update: There's a weird audio glitch about 35 seconds in, I'm not sure what I touched wrong in Davinci to cause that, sorry if that hurts your right ear. I'll fix it with updates later submitted by /u/Perfect-Campaign9551 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1waz23z/my_contribution_to_the_star_trek_clips_mini/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1ways27/steffen_hampel_senior_ilm_gen_interview/</id><title>Steffen Hampel - Senior ILM Gen | Interview</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1ways27/steffen_hampel_senior_ilm_gen_interview/"/>
+<published>2026-09-08T19:41:05+00:00</published><updated>2026-09-08T19:41:05+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="animation"/>
+<category term="vfx"/>
+<summary>ILM Generalist Team - Usually responsible for huge one-off environments 01 Tell us a bit about your background. How did you get into VFX, specifically as a generalist? I studied VFX &amp; 3D animation in hamburg starting 2017. 2019 I started my first job as a junior generalst in germany for a company ca</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · animation, vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;ILM Generalist Team - Usually responsible for huge one-off environments 01 Tell us a bit about your background. How did you get into VFX, specifically as a generalist? I studied VFX &amp;amp; 3D animation in hamburg starting 2017. 2019 I started my first job as a junior generalst in germany for a company called nhb studios. In february 2021 I got hired by ILM as a generalist and the rest is history! Now why VFX? I was always into world building, whether its lego or at the sims. At the age of 13, when I watched a Lord of the Rings Making of on DVD and they showed how Weta created CGI for set extensions. I was amazed by how they tricked the audience and how real everything looked. From then on I kind &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1ways27/steffen_hampel_senior_ilm_gen_interview/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wayp69/viggleanimate_for_character_swap/</id><title>viggle-animate for character swap</title>
