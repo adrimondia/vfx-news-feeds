@@ -2,8 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-09-10T18:30:39+00:00</updated>
+<updated>2026-09-10T20:30:26+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wcsrtu/kirby_but_its_the_truman_show_minimax_h3_test_7/</id><title>Kirby but it's the Truman Show / MiniMAX H3 Test #7</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wcsrtu/kirby_but_its_the_truman_show_minimax_h3_test_7/"/>
+<published>2026-09-10T19:13:26+00:00</published><updated>2026-09-10T19:13:26+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="minimax"/>
+<summary>Hi everyone! When I saw the new trailer for Kirby &amp; The World Beyond I couldn't help but come up with this video, where Kirby finds the door out to the world beyond. Please let me know if you like it! Done with 30 different workflow files and a ton of heavy editing using KDEnlive. Thanks! submitted </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi everyone! When I saw the new trailer for Kirby &amp;amp; The World Beyond I couldn't help but come up with this video, where Kirby finds the door out to the world beyond. Please let me know if you like it! Done with 30 different workflow files and a ton of heavy editing using KDEnlive. Thanks! submitted by /u/dramaton42 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wcsrtu/kirby_but_its_the_truman_show_minimax_h3_test_7/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wcsk7l/comfyui_vdnh3_24gb_v110_update_better_prompt/</id><title>ComfyUI VDN-H3 24GB v1.1.0 update — better prompt following + memory fixes</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wcsk7l/comfyui_vdnh3_24gb_v110_update_better_prompt/"/>
+<published>2026-09-10T19:06:01+00:00</published><updated>2026-09-10T19:06:01+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<category term="lora"/>
+<summary>https://reddit.com/link/1wcsk7l/video/ld6ca2jxqqoh1/player I’ve just updated my VDN-H3 24GB node to v1.1.0. This update started because I noticed that something wasn’t quite right with the released adapter mapping. After fixing that, I also made a couple of changes around memory handling, especially</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;https://reddit.com/link/1wcsk7l/video/ld6ca2jxqqoh1/player I’ve just updated my VDN-H3 24GB node to v1.1.0. This update started because I noticed that something wasn’t quite right with the released adapter mapping. After fixing that, I also made a couple of changes around memory handling, especially for longer generations. The main changes are: restored the complete token-refiner adapter mapping improved temporary memory handling for longer clips fixed CUDA stream lifetime handling for prefetched weights kept the same AutoMemory / AutoLongCache behavior from the previous version I tested it on my RTX 3090 24GB with 5s, 10s, 15s and 20s generations at 0.4MP, and also 10s at 0.8MP. I also test&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wcsk7l/comfyui_vdnh3_24gb_v110_update_better_prompt/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wcqctw/followup_to_my_last_star_trek_post_i_made_a_star/</id><title>Follow-up to my last Star Trek post – I made a Star Trek vs Star Wars fan film with MiniMax H3 in ComfyUI</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wcqctw/followup_to_my_last_star_trek_post_i_made_a_star/"/>
@@ -57,6 +76,16 @@
 <category term="flux"/>
 <summary>So, first of all: there is no finished workflow yet and my nodes are still under development. I’ve asked the ComfyUI team to add a 3D compositing node to the new 3D toolset like the one in the video, hopefully, they’ll add something similar soon. In the meantime, you can build a very similar setup q</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 5 · 3d gaussian, compositing, comfyui, flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;So, first of all: there is no finished workflow yet and my nodes are still under development. I’ve asked the ComfyUI team to add a 3D compositing node to the new 3D toolset like the one in the video, hopefully, they’ll add something similar soon. In the meantime, you can build a very similar setup quite quickly. Here’s how the basic concept works: First, you feed an image of the furniture you want into the new native ComfyUI Image to Gaussian Splat (TripoSplat) node. At the moment, there is a Gaussian Splat Preview node, but it doesn’t provide an image output yet. There is also a Load 3D node with the correct outputs, but it currently cannot open Gaussian Splat files. Ideally, the new 3D Com&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wcoztq/ai_archviz_fast_3d_gaussian_splat_methods_for/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1wcorjz/flux_video_edit_fast_is_out_now/</id><title>FLUX Video Edit [fast] is out now</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wcorjz/flux_video_edit_fast_is_out_now/"/>
+<published>2026-09-10T16:53:19+00:00</published><updated>2026-09-10T16:53:19+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="video editing"/>
+<category term="flux"/>
+<summary>https://bfl.ai/video-edit Precision video editing, made with everything you hate doing in mind (wire removals, actors wearing branded clothing they shouldn't have worn but someone in management fucked up, boom guy lacking the arm strength to keep it out of frame, etc etc), so you can focus on what y</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 3 · video editing, flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;https://bfl.ai/video-edit Precision video editing, made with everything you hate doing in mind (wire removals, actors wearing branded clothing they shouldn't have worn but someone in management fucked up, boom guy lacking the arm strength to keep it out of frame, etc etc), so you can focus on what you actually enjoy working on. submitted by /u/MoistRecognition69 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wcorjz/flux_video_edit_fast_is_out_now/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wcm9az/minimax_camera_control_comfyui/</id><title>Minimax Camera Control ComfyUI</title>
@@ -123,6 +152,15 @@
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;4070 ti Super, 16gb vram, 64 gb ram. Tutorial: https://www.reddit.com/r/StableDiffusion/comments/1w4gvjb/comment/p7aht6e/?utm_source=share&amp;amp;utm_medium=web3x&amp;amp;utm_name=web3xcss&amp;amp;utm_term=1&amp;amp;utm_content=share_button Example prompt + assets: https://www.reddit.com/r/StableDiffusion/comments/1w8vmkz/comment/p8dqus0/?utm_source=share&amp;amp;utm_medium=web3x&amp;amp;utm_name=web3xcss&amp;amp;utm_term=1&amp;amp;utm_content=share_button Example prompt + assets: https://www.reddit.com/r/StableDiffusion/comments/1w98qnv/comment/p8duzy3/?utm_source=share&amp;amp;utm_medium=web3x&amp;amp;utm_name=web3xcss&amp;amp;utm_term=1&amp;amp;utm_content=share_button submitted by /u/darthfurbyyoutube [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wcishz/batman_the_animated_series_harley_quinns_red_flag/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
+<id>https://www.reddit.com/r/vfx/comments/1wcid4e/tracking_my_arm_in_syntheyes/</id><title>Tracking my arm in syntheyes</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wcid4e/tracking_my_arm_in_syntheyes/"/>
+<published>2026-09-10T12:52:46+00:00</published><updated>2026-09-10T12:52:46+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="tracking"/>
+<summary>i got the student license and i want to learn how to track my arm so i can add a cgi arm as an occluder to for example add a ring that spins around my arm or an armor piece but when i try to track it in syntheyes it doesnt work. it just says solving failed, are there any good tutorials on how i can </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · tracking&lt;/small&gt;&lt;/p&gt;&lt;p&gt;i got the student license and i want to learn how to track my arm so i can add a cgi arm as an occluder to for example add a ring that spins around my arm or an armor piece but when i try to track it in syntheyes it doesnt work. it just says solving failed, are there any good tutorials on how i can do this? submitted by /u/Out-exit4 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wcid4e/tracking_my_arm_in_syntheyes/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
 <id>https://www.reddit.com/r/comfyui/comments/1wchvg3/a_quick_minimax_h3_news_roundup_10th_september/</id><title>A quick Minimax H3 news round-up - 10th September 2026</title>
 <link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wchvg3/a_quick_minimax_h3_news_roundup_10th_september/"/>
 <published>2026-09-10T12:31:57+00:00</published><updated>2026-09-10T12:31:57+00:00</updated>
@@ -145,6 +183,15 @@
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 5 · video generation, comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;My setup: AMD RX 7900 XT, 20GB VRAM, 64GB RAM, Windows 11, ComfyUI Desktop. I couldn't find any decent information anywhere on how to optimize video generation with Minimax H3 on Windows with ComfyUI desktop. AI assistants give conflicting advice, constantly suggesting all sorts of nonsense that doesn't actually work. I had to experiment on my own, and here is the configuration I’ve settled on. The speed boost compared to the default settings is very significant, and I haven't noticed any loss in quality. If you have any other suggestions, please let me know. ~25s/it with 0.8mp (1216 x 672, 16:9) or total ~4min for 5 sec video generation in text to video workflow https://preview.redd.it/vl17&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wchnn6/guide_amd_rdna3_optimizations_for_comfyui_desktop/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
+<id>https://www.reddit.com/r/vfx/comments/1wcg45k/tracking_my_arm_in_syntheyes/</id><title>tracking my arm in syntheyes</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wcg45k/tracking_my_arm_in_syntheyes/"/>
+<published>2026-09-10T11:10:14+00:00</published><updated>2026-09-10T11:10:14+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="tracking"/>
+<summary>i got the student license and i want to learn how to track my arm so i can add a cgi arm as an occluder to for example add a ring that spins around my arm, but when i try to track it in syntheyes it doesnt work. it just says solving failed, are there any good tutorials on how i can do this? submitte</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · tracking&lt;/small&gt;&lt;/p&gt;&lt;p&gt;i got the student license and i want to learn how to track my arm so i can add a cgi arm as an occluder to for example add a ring that spins around my arm, but when i try to track it in syntheyes it doesnt work. it just says solving failed, are there any good tutorials on how i can do this? submitted by /u/Due-Traffic5899 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wcg45k/tracking_my_arm_in_syntheyes/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wcg1xw/h3_80s_character_generationswardrobe_swap/</id><title>H3 - 80s character generations+wardrobe swap</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wcg1xw/h3_80s_character_generationswardrobe_swap/"/>
 <published>2026-09-10T11:07:07+00:00</published><updated>2026-09-10T11:07:07+00:00</updated>
@@ -153,6 +200,15 @@
 <category term="cinematic"/>
 <summary>The 80s was the best era, not seen through a nostalgic lens--it just was. Big hair, big colors, big music, big... everything! Sadly I was born 10 years too late to really experience it, but I love how H3 can feel like a way-back-machine, a portal to any era from film or video it was trained on. It d</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · animation, cinematic&lt;/small&gt;&lt;/p&gt;&lt;p&gt;The 80s was the best era, not seen through a nostalgic lens--it just was. Big hair, big colors, big music, big... everything! Sadly I was born 10 years too late to really experience it, but I love how H3 can feel like a way-back-machine, a portal to any era from film or video it was trained on. It does also a great job with the actual feel, the film grain, the lighting that modern TV or movies cannot do: in fact, I learned what we see nowadays that time period didn't exist at all, because it vomit of nostalgia and peak 80s that never happened. Anyways, having fun generating character sheets with H3 via T2VA. Are you guys seed hunting to find the best version of an actor or scene? Also can yo&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wcg1xw/h3_80s_character_generationswardrobe_swap/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1wcfkzt/french_animation_sales_plunge_30_as_export_market/</id><title>French Animation Sales Plunge 30% as Export Market Contracts</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wcfkzt/french_animation_sales_plunge_30_as_export_market/"/>
+<published>2026-09-10T10:43:14+00:00</published><updated>2026-09-10T10:43:14+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="animation"/>
+<summary>submitted by /u/manuce94 [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · animation&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/manuce94 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wcfkzt/french_animation_sales_plunge_30_as_export_market/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wcffhb/minimax_h3_is_generating_sound_only_possible/</id><title>Minimax H3 - is generating sound only possible?</title>
