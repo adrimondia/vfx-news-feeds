@@ -2,8 +2,67 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-09-10T02:30:32+00:00</updated>
+<updated>2026-09-10T04:30:20+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://arxiv.org/abs/2609.09606</id><title>RouteBridge: Reliability-Routed Bidirectional Distillation Between Neural Radiance Fields and 3D Gaussian Splatting</title>
+<link rel="alternate" href="https://arxiv.org/abs/2609.09606"/>
+<published>2026-09-10T04:00:00+00:00</published><updated>2026-09-10T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="gaussian splatting"/>
+<category term="3d gaussian"/>
+<category term="nerf"/>
+<summary>arXiv:2609.09606v1 Announce Type: new Abstract: Neural radiance fields (NeRFs) and 3D Gaussian Splatting (3DGS) encode a scene with complementary inductive biases, but existing cross-representation distillation typically fixes one representation as teacher for the entire scene. A globally fixed teac</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · gaussian splatting, 3d gaussian, nerf&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.09606v1 Announce Type: new Abstract: Neural radiance fields (NeRFs) and 3D Gaussian Splatting (3DGS) encode a scene with complementary inductive biases, but existing cross-representation distillation typically fixes one representation as teacher for the entire scene. A globally fixed teacher can propagate local reconstruction errors. We present RouteBridge, a bidirectional framework that selects the teaching direction for each ray. Its reliability estimator combines photometric residuals with representation-specific geometric evidence and routes supervision from NeRF to 3DGS, from 3DGS to NeRF, or abstains. A renderer-independent interface transfers color, opacity, and normalized &lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.09606"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2609.09890</id><title>StreetDiff: Multi-view Street Scenes Generation via Cross-view Consistent Multi-view Stable Diffusion with Structure Prompts</title>
+<link rel="alternate" href="https://arxiv.org/abs/2609.09890"/>
+<published>2026-09-10T04:00:00+00:00</published><updated>2026-09-10T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="hdr"/>
+<category term="denoising"/>
+<category term="stable diffusion"/>
+<category term="consistency"/>
+<category term="multi-view"/>
+<summary>arXiv:2609.09890v1 Announce Type: new Abstract: Multi-view diffusion models have shown strong performance in scenes with strong geometric priors and sparse semantics, such as indoor rooms or simple outdoor environments (e.g., fields, courtyards). However, they often fail to maintain cross-view consi</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 7 · hdr, denoising, stable diffusion, consistency, multi-view&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.09890v1 Announce Type: new Abstract: Multi-view diffusion models have shown strong performance in scenes with strong geometric priors and sparse semantics, such as indoor rooms or simple outdoor environments (e.g., fields, courtyards). However, they often fail to maintain cross-view consistency under camera rotation, especially in structurally complex urban environments. Without explicit modeling of spherical correspondence across views, existing approaches tend to produce object duplication, structural distortion, and layout inconsistency. To address this limitation, we propose StreetDiff, a multi-view diffusion framework that explicitly enforces cross-view alignment during denoi&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.09890"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2609.10095</id><title>LinearMask-GS: Stable-Mask Importance Pruning for Compact 3D Gaussian Splatting</title>
+<link rel="alternate" href="https://arxiv.org/abs/2609.10095"/>
+<published>2026-09-10T04:00:00+00:00</published><updated>2026-09-10T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="novel view synthesis"/>
+<category term="gaussian splatting"/>
+<category term="3d gaussian"/>
+<category term="rendering"/>
+<summary>arXiv:2609.10095v1 Announce Type: new Abstract: 3D Gaussian Splatting (3DGS) enables real-time novel view synthesis but produces millions of primitives through adaptive densification, leading to significant storage overhead. Learned-mask pruning methods such as LP-3DGS address this by assigning each</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 6 · novel view synthesis, gaussian splatting, 3d gaussian, rendering&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.10095v1 Announce Type: new Abstract: 3D Gaussian Splatting (3DGS) enables real-time novel view synthesis but produces millions of primitives through adaptive densification, leading to significant storage overhead. Learned-mask pruning methods such as LP-3DGS address this by assigning each Gaussian a learnable mask to identify and prune redundant primitives. However, we identify a limitation of this paradigm: the steep slope of the Gumbel-Sigmoid activation drives mask values to the extremes within the short mask-training window, before the importance ranking has stabilized, producing a sharply bimodal distribution from which that ranking can no longer be reliably recovered. We pro&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.10095"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2607.26694</id><title>Visko Orbis 1.0: A Live Model for Real-Time Interactive Long Video Generation</title>
+<link rel="alternate" href="https://arxiv.org/abs/2607.26694"/>
+<published>2026-09-10T04:00:00+00:00</published><updated>2026-09-10T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="video generation"/>
+<category term="text-to-video"/>
+<category term="image-to-video"/>
+<category term="upscaler"/>
+<category term="consistency"/>
+<summary>arXiv:2607.26694v3 Announce Type: replace Abstract: We present Visko Orbis 1.0, a Live Model for real-time, interactive long video generation. Users can change the prompt at any moment during generation, and the update becomes visible in real time. Visko Orbis 1.0 supports long-form text-to-video, i</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 6 · video generation, text-to-video, image-to-video, upscaler, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2607.26694v3 Announce Type: replace Abstract: We present Visko Orbis 1.0, a Live Model for real-time, interactive long video generation. Users can change the prompt at any moment during generation, and the update becomes visible in real time. Visko Orbis 1.0 supports long-form text-to-video, image-to-video, and video continuation, with multilingual prompts and prompt switching while generation is in progress. A bounded multi-scale memory preserves subjects, scenes, and style across chunks, sustaining hour-scale rollouts without evident quality or color drift. The generator is factorized causally in time, matching the causal structure of physical dynamics, and is aligned with a latent w&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2607.26694"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2609.10385</id><title>MOONWALK: Mediating Operations with Intent-Evidence-Action Alignment Across Junior-Supervisor Review Workflows in Animation/VFX Pre-Production</title>
+<link rel="alternate" href="https://arxiv.org/abs/2609.10385"/>
+<published>2026-09-10T04:00:00+00:00</published><updated>2026-09-10T04:00:00+00:00</updated>
+<author><name>arXiv cs.GR</name></author>
+<category term="animation"/>
+<category term="vfx"/>
+<summary>arXiv:2609.10385v1 Announce Type: cross Abstract: Animation and VFX pre-production review requires teams to translate loosely specified creative intent--briefs, evolving specifications, heterogeneous references, and verbal decisions--into revisions that junior artists can execute without repeated cl</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.GR · score 4 · animation, vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.10385v1 Announce Type: cross Abstract: Animation and VFX pre-production review requires teams to translate loosely specified creative intent--briefs, evolving specifications, heterogeneous references, and verbal decisions--into revisions that junior artists can execute without repeated clarification. In practice, criteria drift across iterations, review judgments lose their evidential basis, and the reasoning behind a request rarely survives the senior-junior handoff. We contribute a design framework for intent-evidence-action alignment: intent is articulated into a shared project record, judgments are anchored to grounded evidence, and authorized decisions are converted into clea&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.10385"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1wc3pzr/minimax_studio_with_comfyui_local_ai_only_as_a/</id><title>Minimax Studio - With ComfyUI LOCAL AI ONLY as a backend.</title>
 <link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wc3pzr/minimax_studio_with_comfyui_local_ai_only_as_a/"/>
