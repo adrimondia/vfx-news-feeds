@@ -2,8 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-09-10T08:00:28+00:00</updated>
+<updated>2026-09-10T08:30:27+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wcbw24/i_just_released_v21_of_minimax_music_production/</id><title>I just released v2.1 of MiniMax Music Production Toolkit for ComfyUI</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wcbw24/i_just_released_v21_of_minimax_music_production/"/>
+<published>2026-09-10T07:15:12+00:00</published><updated>2026-09-10T07:15:12+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<category term="flux"/>
+<category term="minimax"/>
+<summary>I released the introductory version of this about a week ago, but did a lot of improvements! So this is release v.2.1 of the production toolkit, along with custom nodes and a workflow. It turns MiniMax Music 3 into an end-to-end local production workflow: idea → structured prompt → Music 3 → audio r</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 5 · comfyui, flux, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I released the introductory version of this about a week ago, but did a lot of improvements! So this is release v.2.1 of the production toolkit, along with custom nodes and a workflow. It turns MiniMax Music 3 into an end-to-end local production workflow: idea → structured prompt → Music 3 → audio restoration / FlashSR → release prep → FLUX.2 cover → tagged FLAC/MP3 + production JSON Highlights: • 239 curated genre templates • Local GGUF LLM for Caption / Lyrics / Title / Cover prompt • Custom Mode • Integrated Declip + FlashSR + HF shimmer repair • LUFS / true-peak release prep • 11 bundled system-prompt profiles in v2.1 • Separate Audio Enhancement Lab • MIT licensed 🎧 35-track demo: demo &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wcbw24/i_just_released_v21_of_minimax_music_production/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wcbko9/curbing_ai_monkeying_around/</id><title>Curbing AI Monkeying Around</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wcbko9/curbing_ai_monkeying_around/"/>
+<published>2026-09-10T06:58:01+00:00</published><updated>2026-09-10T06:58:01+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="denoising"/>
+<category term="minimax"/>
+<category term="consistency"/>
+<summary>I will begin by saying I love Minimax H3, it is so much more advanced than any of the other open source alternatives in my view. I use Minimax for everything, including image generation. I just run a 0.3 second burst video and pick a frame. The IQ built into H3, ability to understand and follow dire</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · denoising, minimax, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I will begin by saying I love Minimax H3, it is so much more advanced than any of the other open source alternatives in my view. I use Minimax for everything, including image generation. I just run a 0.3 second burst video and pick a frame. The IQ built into H3, ability to understand and follow directions is better than any other AI. But I recently blew days trying to set up a workflow that can process my character sheets. When generating a character, I had been forced to use a trick to get the full head to display, with white space around it, namely telling H3 to place a clear plastic halo above the character's head. So, naturally, I needed to run a subroutine to later remove the halo. I al&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wcbko9/curbing_ai_monkeying_around/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://github.com/OpenDCAI/GameFactory-3A</id><title>OpenDCAI/GameFactory-3A</title>
 <link rel="alternate" href="https://github.com/OpenDCAI/GameFactory-3A"/>
@@ -49,6 +71,16 @@
 <category term="blender"/>
 <summary>Hi, Im working on a project where I am putting a character from real footage into a 3D world in blender. I have a 5-6 minute take, and a good key. But I need to track the motion of the camera for the whole take. It was filmed on a gimbal and there is good tracking points (was filmed in a car park, a</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · tracking, blender&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi, Im working on a project where I am putting a character from real footage into a 3D world in blender. I have a 5-6 minute take, and a good key. But I need to track the motion of the camera for the whole take. It was filmed on a gimbal and there is good tracking points (was filmed in a car park, and has nice contrasty asphalt and line markings etc.) But I’m having issues with solving the camera on such long footage. In after effects it just gets to “Solving” and I’m not sure if it’s actually doing anything or is stuck. In Fusion (resolve), it just keeps crashing when it gets close to finishing. I’m wondering if there’s any ideas on how to do this, or if there’s different camera solving sof&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wc9zsm/better_tool_for_solving_camera_on_long_take/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wc9sxb/minimax_h3_music_broken_on_035_works_in_0346/</id><title>Minimax H3 Music broken on 0.35 works in 0.34.6</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wc9sxb/minimax_h3_music_broken_on_035_works_in_0346/"/>
+<published>2026-09-10T05:22:11+00:00</published><updated>2026-09-10T05:22:11+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<category term="minimax"/>
+<summary>Just wanted to check others and else raise awareness to any team of comfyui that whatever they did in 0.35 broke the output of minimax h3 music. i made a second instance with 0.34.6 and music is back fine. anyone else with similar experience or no issues at all on 0.35? I have a AMD AI pro R9700 if </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Just wanted to check others and else raise awareness to any team of comfyui that whatever they did in 0.35 broke the output of minimax h3 music. i made a second instance with 0.34.6 and music is back fine. anyone else with similar experience or no issues at all on 0.35? I have a AMD AI pro R9700 if it is an amd issue and not nvidia issue submitted by /u/Only4uArt [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wc9sxb/minimax_h3_music_broken_on_035_works_in_0346/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://arxiv.org/abs/2609.09606</id><title>RouteBridge: Reliability-Routed Bidirectional Distillation Between Neural Radiance Fields and 3D Gaussian Splatting</title>
@@ -494,6 +526,15 @@
 <category term="lora"/>
 <summary>Hello again everyone, I'm sharing a major new feature added to SmartGallery DAM: ComfyUI Queue Deck . You can now monitor and control your ComfyUI generation queue directly from inside the gallery, without switching browser tabs or managing separate tools. It connects over a live WebSocket stream to</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 5 · tracking, render, comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hello again everyone, I'm sharing a major new feature added to SmartGallery DAM: ComfyUI Queue Deck . You can now monitor and control your ComfyUI generation queue directly from inside the gallery, without switching browser tabs or managing separate tools. It connects over a live WebSocket stream to your local or network ComfyUI instance. What’s inside Queue Deck: Real-Time Step Tracking: Progress bar, step counter, active sampler indicator, and current node execution. Works across KSampler, SamplerCustom, WanVideo, and other sampler nodes. Live Previews: Stream intermediate latent preview frames and intermediate outputs directly on screen as generations progress. Hardware &amp;amp; System Telemetry&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wbgjos/monitor_control_your_comfyui_queue_from_your/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wbgd8x/is_minimax_h3_an_edit_model/</id><title>Is Minimax H3 an Edit Model?</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wbgd8x/is_minimax_h3_an_edit_model/"/>
+<published>2026-09-09T09:09:42+00:00</published><updated>2026-09-09T09:09:42+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="minimax"/>
+<summary>I’m using the Ref2V model. I input a video—for example, a simple, continuous 5-second movie scene—and ask for edits. I provide precise instructions to add or remove elements while maintaining exact character movement, camera work, timing, and so on, because I want the same video but edited. It seems</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I’m using the Ref2V model. I input a video—for example, a simple, continuous 5-second movie scene—and ask for edits. I provide precise instructions to add or remove elements while maintaining exact character movement, camera work, timing, and so on, because I want the same video but edited. It seems like the model interprets my request as a command to change everything entirely rather than just applying the specific edits, and I rarely get a decent result. Is there anything I can do—such as a technical workaround or a specific prompting strategy—or should I just accept that this model isn't trained for editing tasks? submitted by /u/Weird_Ad4978 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wbgd8x/is_minimax_h3_an_edit_model/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1wbg55u/this_video_was_made_with_qwen_38_flux_2_klein/</id><title>This video was made with Qwen 3.8, Flux 2 Klein, Minimax H3, LTX 2.5 and Breeze TTS.</title>
