@@ -2,8 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-09-10T14:30:51+00:00</updated>
+<updated>2026-09-10T16:31:04+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wcm9az/minimax_camera_control_comfyui/</id><title>Minimax Camera Control ComfyUI</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wcm9az/minimax_camera_control_comfyui/"/>
+<published>2026-09-10T15:22:24+00:00</published><updated>2026-09-10T15:22:24+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="camera control"/>
+<category term="vfx"/>
+<category term="comfyui"/>
+<category term="minimax"/>
+<summary>Bruxos do VFX H3 Camera #bruxosdovfx https://reddit.com/link/1wcm9az/video/bubuef39npoh1/player https://reddit.com/link/1wcm9az/video/r1j8vg1anpoh1/player Visual camera planner for MiniMax H3 inside ComfyUI. You drag the camera around a 3D sphere, place keyframes on a timeline, and the node compiles</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 7 · camera control, vfx, comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Bruxos do VFX H3 Camera #bruxosdovfx https://reddit.com/link/1wcm9az/video/bubuef39npoh1/player https://reddit.com/link/1wcm9az/video/r1j8vg1anpoh1/player Visual camera planner for MiniMax H3 inside ComfyUI. You drag the camera around a 3D sphere, place keyframes on a timeline, and the node compiles that trajectory into prompts that H3 understands. It compiles prompts, not camera embeddings . There is no geometric adapter here: H3 is still free to miss the angle, timing, and scale. What this node does is write the instruction in the most precise and least ambiguous way possible, and several of its design decisions exist because the previous approach failed in specific ways. It does not call &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wcm9az/minimax_camera_control_comfyui/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wciz7m/i_trained_a_210m_texttoimage_diffusion/</id><title>I trained a 210M text-to-image diffusion transformer from scratch on one GPU in 3.5 days</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wciz7m/i_trained_a_210m_texttoimage_diffusion/"/>
