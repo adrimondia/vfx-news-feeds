@@ -2,8 +2,38 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-09-10T12:31:03+00:00</updated>
+<updated>2026-09-10T14:30:51+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wciz7m/i_trained_a_210m_texttoimage_diffusion/</id><title>I trained a 210M text-to-image diffusion transformer from scratch on one GPU in 3.5 days</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wciz7m/i_trained_a_210m_texttoimage_diffusion/"/>
+<published>2026-09-10T13:18:06+00:00</published><updated>2026-09-10T13:18:06+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="flux"/>
+<category term="diffusion transformer"/>
+<summary>My goal was hands-on experience training a flow model from scratch, not just fine-tuning someone else's. So I built and trained one: a 210M-parameter diffusion transformer, 4.2M curated images at 256², rectified flow on the FLUX.2 VAE, flan-t5-base for text (128 tokens max). Only those two frozen pi</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · flux, diffusion transformer&lt;/small&gt;&lt;/p&gt;&lt;p&gt;My goal was hands-on experience training a flow model from scratch, not just fine-tuning someone else's. So I built and trained one: a 210M-parameter diffusion transformer, 4.2M curated images at 256², rectified flow on the FLUX.2 VAE, flan-t5-base for text (128 tokens max). Only those two frozen pieces are pretrained; the transformer, the recipe, the data pipeline and the evaluation are mine. The video is the same six prompts and seeds at every checkpoint of the 3.5-day run on one RTX PRO 6000. What mattered most, in the order I found out: Captions that actually fit the images. A web crawl I tried first made the model worse; curated photos with good captions fixed it. A timestep shift for t&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wciz7m/i_trained_a_210m_texttoimage_diffusion/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wcishz/batman_the_animated_series_harley_quinns_red_flag/</id><title>Batman The Animated Series: Harley Quinn's Red Flag - MiniMax H3</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wcishz/batman_the_animated_series_harley_quinns_red_flag/"/>
+<published>2026-09-10T13:10:25+00:00</published><updated>2026-09-10T13:10:25+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="minimax"/>
+<summary>4070 ti Super, 16gb vram, 64 gb ram. Tutorial: https://www.reddit.com/r/StableDiffusion/comments/1w4gvjb/comment/p7aht6e/?utm_source=share&amp;utm_medium=web3x&amp;utm_name=web3xcss&amp;utm_term=1&amp;utm_content=share_button Example prompt + assets: https://www.reddit.com/r/StableDiffusion/comments/1w8vmkz/comment</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;4070 ti Super, 16gb vram, 64 gb ram. Tutorial: https://www.reddit.com/r/StableDiffusion/comments/1w4gvjb/comment/p7aht6e/?utm_source=share&amp;amp;utm_medium=web3x&amp;amp;utm_name=web3xcss&amp;amp;utm_term=1&amp;amp;utm_content=share_button Example prompt + assets: https://www.reddit.com/r/StableDiffusion/comments/1w8vmkz/comment/p8dqus0/?utm_source=share&amp;amp;utm_medium=web3x&amp;amp;utm_name=web3xcss&amp;amp;utm_term=1&amp;amp;utm_content=share_button Example prompt + assets: https://www.reddit.com/r/StableDiffusion/comments/1w98qnv/comment/p8duzy3/?utm_source=share&amp;amp;utm_medium=web3x&amp;amp;utm_name=web3xcss&amp;amp;utm_term=1&amp;amp;utm_content=share_button submitted by /u/darthfurbyyoutube [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wcishz/batman_the_animated_series_harley_quinns_red_flag/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wchnn6/guide_amd_rdna3_optimizations_for_comfyui_desktop/</id><title>[GUIDE] AMD RDNA3 optimizations for ComfyUI Desktop, windows 11, Minimax H3</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wchnn6/guide_amd_rdna3_optimizations_for_comfyui_desktop/"/>
+<published>2026-09-10T12:22:22+00:00</published><updated>2026-09-10T12:22:22+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="video generation"/>
+<category term="comfyui"/>
+<category term="minimax"/>
+<summary>My setup: AMD RX 7900 XT, 20GB VRAM, 64GB RAM, Windows 11, ComfyUI Desktop. I couldn't find any decent information anywhere on how to optimize video generation with Minimax H3 on Windows with ComfyUI desktop. AI assistants give conflicting advice, constantly suggesting all sorts of nonsense that doe</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 5 · video generation, comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;My setup: AMD RX 7900 XT, 20GB VRAM, 64GB RAM, Windows 11, ComfyUI Desktop. I couldn't find any decent information anywhere on how to optimize video generation with Minimax H3 on Windows with ComfyUI desktop. AI assistants give conflicting advice, constantly suggesting all sorts of nonsense that doesn't actually work. I had to experiment on my own, and here is the configuration I’ve settled on. The speed boost compared to the default settings is very significant, and I haven't noticed any loss in quality. If you have any other suggestions, please let me know. ~25s/it with 0.8mp (1216 x 672, 16:9) or total ~4min for 5 sec video generation in text to video workflow https://preview.redd.it/vl17&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wchnn6/guide_amd_rdna3_optimizations_for_comfyui_desktop/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wcg1xw/h3_80s_character_generationswardrobe_swap/</id><title>H3 - 80s character generations+wardrobe swap</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wcg1xw/h3_80s_character_generationswardrobe_swap/"/>
