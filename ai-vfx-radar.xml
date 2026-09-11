@@ -2,8 +2,77 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-09-11T02:30:30+00:00</updated>
+<updated>2026-09-11T04:30:25+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://arxiv.org/abs/2609.10943</id><title>CamPilot: A Multi-Agent Cinematic Assistant for Camera-Controlled Movie Generation</title>
+<link rel="alternate" href="https://arxiv.org/abs/2609.10943"/>
+<published>2026-09-11T04:00:00+00:00</published><updated>2026-09-11T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="video generation"/>
+<category term="text-to-video"/>
+<category term="filmmaking"/>
+<category term="cinematic"/>
+<summary>arXiv:2609.10943v1 Announce Type: new Abstract: The integration of large language models (LLMs) into video generation has enabled rapid text-to-video creation and improved visual quality. However, it still falls short of professional filmmaking, where cinematographic language is less refined than hu</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · video generation, text-to-video, filmmaking, cinematic&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.10943v1 Announce Type: new Abstract: The integration of large language models (LLMs) into video generation has enabled rapid text-to-video creation and improved visual quality. However, it still falls short of professional filmmaking, where cinematographic language is less refined than human-crafted camera work and multi-shot continuity remains challenging. To address these limitations, we introduce CamPilot, a multi-agent framework that integrates cinematographic planning and camera-work control to produce more coherent, logically structured, and human-aesthetic movies. CamPilot adopts a GRPO-based learning paradigm to learn camera work planning from 14K real-world professional m&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.10943"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2508.07769</id><title>Dream4D: Lifting Camera-Controlled I2V towards Spatiotemporally Consistent 4D Generation</title>
+<link rel="alternate" href="https://arxiv.org/abs/2508.07769"/>
+<published>2026-09-11T04:00:00+00:00</published><updated>2026-09-11T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="video generation"/>
+<category term="video diffusion"/>
+<category term="4d"/>
+<category term="consistency"/>
+<category term="multi-view"/>
+<summary>arXiv:2508.07769v3 Announce Type: replace Abstract: The synthesis of spatiotemporally coherent 4D content presents fundamental challenges in computer vision, requiring simultaneous modeling of high-fidelity spatial representations and physically plausible temporal dynamics. Current approaches often </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 6 · video generation, video diffusion, 4d, consistency, multi-view&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2508.07769v3 Announce Type: replace Abstract: The synthesis of spatiotemporally coherent 4D content presents fundamental challenges in computer vision, requiring simultaneous modeling of high-fidelity spatial representations and physically plausible temporal dynamics. Current approaches often struggle to maintain view consistency while handling complex scene dynamics, particularly in large-scale environments with multiple interacting elements. This work introduces Dream4D, a novel framework that bridges this gap through a synergy of controllable video generation and neural 4D reconstruction. Our approach seamlessly combines a two-stage architecture: it first predicts optimal camera tra&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2508.07769"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2603.11298</id><title>InstantHDR: Single-forward Gaussian Splatting Initialization for HDR 3D Reconstruction</title>
+<link rel="alternate" href="https://arxiv.org/abs/2603.11298"/>
+<published>2026-09-11T04:00:00+00:00</published><updated>2026-09-11T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="novel view synthesis"/>
+<category term="gaussian splatting"/>
+<category term="3d reconstruction"/>
+<category term="hdr"/>
+<summary>arXiv:2603.11298v3 Announce Type: replace Abstract: High dynamic range (HDR) novel view synthesis (NVS) aims to reconstruct HDR scenes from multi-exposure low dynamic range (LDR) images. Existing HDR pipelines heavily rely on known camera poses, well-initialized dense point clouds, and time-consumin</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 7 · novel view synthesis, gaussian splatting, 3d reconstruction, hdr&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2603.11298v3 Announce Type: replace Abstract: High dynamic range (HDR) novel view synthesis (NVS) aims to reconstruct HDR scenes from multi-exposure low dynamic range (LDR) images. Existing HDR pipelines heavily rely on known camera poses, well-initialized dense point clouds, and time-consuming per-scene optimization. Current feed-forward alternatives overlook the HDR problem by assuming exposure-invariant appearance. To bridge this gap, we propose InstantHDR, a feed-forward network that initializes 3D HDR scenes from uncalibrated multi-exposure LDR collections in a fast single forward pass. Specifically, we design a geometry-guided appearance modeling for multi-exposure fusion, and a &lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2603.11298"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2609.00610</id><title>Streaming4D: Accelerate 4D World Models via Block-wise Video Generation and Incremental Reconstruction</title>
+<link rel="alternate" href="https://arxiv.org/abs/2609.00610"/>
+<published>2026-09-11T04:00:00+00:00</published><updated>2026-09-11T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="video generation"/>
+<category term="4d"/>
+<category term="3d reconstruction"/>
+<category term="consistency"/>
+<category term="multi-view"/>
+<summary>arXiv:2609.00610v2 Announce Type: replace Abstract: Current 4D generation paradigms are often bottlenecked by a sequential decoupling design: video is generated first, followed by 3D reconstruction, leading to high interaction latency. This limits applications in interactive real-time scenarios. To </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 7 · video generation, 4d, 3d reconstruction, consistency, multi-view&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.00610v2 Announce Type: replace Abstract: Current 4D generation paradigms are often bottlenecked by a sequential decoupling design: video is generated first, followed by 3D reconstruction, leading to high interaction latency. This limits applications in interactive real-time scenarios. To this end, we propose \textbf{Streaming4D}, a tightly coupled synchronous pipeline that integrates block-wise autoregressive video generation with incremental 3D reconstruction. Unlike traditional frame-by-frame emission and delayed geometry recovery, Streaming4D generates temporal video blocks and immediately triggers reconstruction for each completed block, enabling parallel execution between syn&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.00610"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wd4zf2/frameforge_motion_context_video_editor_for_comfyui/</id><title>FrameForge Motion Context Video Editor for ComfyUI</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wd4zf2/frameforge_motion_context_video_editor_for_comfyui/"/>
+<published>2026-09-11T03:38:47+00:00</published><updated>2026-09-11T03:38:47+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<category term="minimax"/>
+<summary>Expanding on motion context workflows I created a video editor designed for quickly chaining together Minimax H3 generations to create longer videos. It comes with an asset library for managing inputs and a easy to use timeline that allows you to chain generations, regenerate segments easily, and qu</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Expanding on motion context workflows I created a video editor designed for quickly chaining together Minimax H3 generations to create longer videos. It comes with an asset library for managing inputs and a easy to use timeline that allows you to chain generations, regenerate segments easily, and quickly set up input references. When you're done, export individual video files or the whole sequence. All of it runs on top of ComfyUI as an app you control from your browser. Uses python, works on Windows, Mac, Linux and is opensource. https://github.com/spacesimeco-hue/Chain-Motion-AI-Video-Editor submitted by /u/Super_Range45 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wd4zf2/frameforge_motion_context_video_editor_for_comfyui/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1wd0xde/what_vfx_sorcery_is_this_need_some/</id><title>What vfx sorcery is this need some</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wd0xde/what_vfx_sorcery_is_this_need_some/"/>
+<published>2026-09-11T00:32:36+00:00</published><updated>2026-09-11T00:32:36+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="vfx"/>
+<summary>Delete if not allowed guidance submitted by /u/QuirkyDiscount772 [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Delete if not allowed guidance submitted by /u/QuirkyDiscount772 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wd0xde/what_vfx_sorcery_is_this_need_some/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wd0ldc/the_primordial_hand/</id><title>The Primordial Hand</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wd0ldc/the_primordial_hand/"/>
@@ -87,6 +156,17 @@
 <category term="minimax"/>
 <summary>5090 with 64gb ram. Hey guys, is there a new development recently? or is upscaling still effed? submitted by /u/Infinite-Emptiness [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · upscaling, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;5090 with 64gb ram. Hey guys, is there a new development recently? or is upscaling still effed? submitted by /u/Infinite-Emptiness [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wcxa0h/any_newer_way_to_upscale_h3_minimax_native_768_x/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1wcvv0y/my_vfx_compositing_i_need_an_advice/</id><title>My VFX Compositing (I Need an Advice)</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wcvv0y/my_vfx_compositing_i_need_an_advice/"/>
+<published>2026-09-10T21:06:08+00:00</published><updated>2026-09-10T21:06:08+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="compositing"/>
+<category term="vfx"/>
+<category term="blender"/>
+<summary>https://drive.google.com/drive/folders/1zQFFjjbnq5-KL2gJ-nXuXV1Ks-2zYnGC Inside this drive file is a video containing my recent project which is a school project (only half a minute tho since we 're not done completing all the footage), well the main concept is like for the upcoming sport fest and t</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 5 · compositing, vfx, blender&lt;/small&gt;&lt;/p&gt;&lt;p&gt;https://drive.google.com/drive/folders/1zQFFjjbnq5-KL2gJ-nXuXV1Ks-2zYnGC Inside this drive file is a video containing my recent project which is a school project (only half a minute tho since we 're not done completing all the footage), well the main concept is like for the upcoming sport fest and the program we're trying to represent is College of Computer Studies, yes, you read it right, we're just a bunch of college student including me a first year BSCS and I never truly had a proper training when it comes to after effects and blender but only through my experiences. I've been using blender and after effects for about a year now, but like I said I never truly had a proper education on vf&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wcvv0y/my_vfx_compositing_i_need_an_advice/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1wcupw7/retrotape_vhs_ntsc_effects_with_live_preview/</id><title>RetroTape, VHS / NTSC effects with live preview</title>
