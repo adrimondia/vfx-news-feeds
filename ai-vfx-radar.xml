@@ -2,8 +2,50 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-09-11T16:30:34+00:00</updated>
+<updated>2026-09-11T18:30:31+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wdo4iy/a_quick_minimax_h3_news_roundup_11th_september/</id><title>A quick Minimax H3 news round-up - 11th September 2026</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wdo4iy/a_quick_minimax_h3_news_roundup_11th_september/"/>
+<published>2026-09-11T18:16:46+00:00</published><updated>2026-09-11T18:16:46+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<category term="minimax"/>
+<category term="controlnet"/>
+<category term="lora"/>
+<summary>Another quick Minimax H3 news and goodies round-up, for those who may have missed some items. -&gt; Do you have eight GPUs handy? Then you won't be needing a space-heater, but you may need the new RunningHub H3 Lightning. This aims to offer a multi-GPU... "inference acceleration recipe for MiniMax H3".</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 5 · comfyui, minimax, controlnet, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Another quick Minimax H3 news and goodies round-up, for those who may have missed some items. -&amp;gt; Do you have eight GPUs handy? Then you won't be needing a space-heater, but you may need the new RunningHub H3 Lightning. This aims to offer a multi-GPU... "inference acceleration recipe for MiniMax H3". https://github.com/RH-RunningHub/MiniMax-H3-MultiGPU-Lightning -&amp;gt; Talking of eight graphics cards, there's a new VideoDeltaNet (VDN) for those running "8 x B200 GPUs", and also a new VDN runtime for those who have to make do only with a humble 24Gb VRAM card. https://huggingface.co/OpenVDN/vdn-minimax-h3 https://github.com/Speach1sdef178/ComfyUI-VDN-H3-24GB -&amp;gt; A set of experimental DMD turbo 8-st&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wdo4iy/a_quick_minimax_h3_news_roundup_11th_september/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wdn4lf/ltx_silently_updated_the_ingredients_iclora_for/</id><title>LTX silently updated the Ingredients IC-LoRA for 2.5 - Basically, allows reference2video using a sheet image</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wdn4lf/ltx_silently_updated_the_ingredients_iclora_for/"/>
+<published>2026-09-11T17:41:02+00:00</published><updated>2026-09-11T17:41:02+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="ltx"/>
+<summary>submitted by /u/kabachuha [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · ltx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/kabachuha [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wdn4lf/ltx_silently_updated_the_ingredients_iclora_for/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wdn30w/i_managed_to_extend_videos_to_any_length_in/</id><title>I managed to extend videos to any length in ComfyUI without losing consistency (Minimax-H3 + Visual Context Trick)</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wdn30w/i_managed_to_extend_videos_to_any_length_in/"/>
+<published>2026-09-11T17:39:29+00:00</published><updated>2026-09-11T17:39:29+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<category term="consistency"/>
+<category term="ai video"/>
+<summary>Hey everyone! One of the biggest headaches with AI video has always been extending shots without the style degrading, characters morphing, or the cut being obvious. I’ve been testing a method using Minimax-H3 in ComfyUI to seamlessly cut and extend footage, and the results are honestly wild: Pixel-p</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 5 · comfyui, consistency, ai video&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey everyone! One of the biggest headaches with AI video has always been extending shots without the style degrading, characters morphing, or the cut being obvious. I’ve been testing a method using Minimax-H3 in ComfyUI to seamlessly cut and extend footage, and the results are honestly wild: Pixel-perfect transitions: The continuation aligns perfectly with the last frame of the original clip. Context retention: By feeding the model the visual context of the previous video, it actually remembers the specific assets (like the boat and character features) instead of hallucinating new ones. Preserves aesthetic: Keeps the lighting, colors, and overall camera style identical across cuts. (Watch th&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wdn30w/i_managed_to_extend_videos_to_any_length_in/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wdlzvx/smack_lora_beta_2_impacts_gunshots_blood_squibs/</id><title>SMACK! LORA Beta 2 - Impacts &amp; Gunshots &amp; Blood Squibs and more for Minimax H3</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wdlzvx/smack_lora_beta_2_impacts_gunshots_blood_squibs/"/>
+<published>2026-09-11T17:00:23+00:00</published><updated>2026-09-11T17:00:23+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="minimax"/>
+<category term="lora"/>
+<summary>SMACK! Right now, only on Hugginface, Civitai deleted the older version for gore (which came from minimax...) Download https://huggingface.co/LeechTM/SMACK Beta 2 · MiniMax H3 (Ref2V) · No trigger word Model description Beta 1 taught MiniMax H3 that getting hit should actually hurt. Almost 2,000 of </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;SMACK! Right now, only on Hugginface, Civitai deleted the older version for gore (which came from minimax...) Download https://huggingface.co/LeechTM/SMACK Beta 2 · MiniMax H3 (Ref2V) · No trigger word Model description Beta 1 taught MiniMax H3 that getting hit should actually hurt. Almost 2,000 of you downloaded it, which means either you agreed or you just really wanted to see people get punched. Both are valid. Beta 2 raises the stakes considerably. Things explode now. People get hit by the explosion, then by the ground, then briefly by their own life choices. Cars stop being scenery and start being weapons. Fights no longer politely take turns: three guys can come at the hero at once, wh&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wdlzvx/smack_lora_beta_2_impacts_gunshots_blood_squibs/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wdk1zm/comfyuiolmyue2_staged_yue2_music_generation_with/</id><title>ComfyUI-Olm-YuE2 - staged YuE2 music generation with editable score/ABC workflow</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wdk1zm/comfyuiolmyue2_staged_yue2_music_generation_with/"/>
@@ -138,6 +180,16 @@
 <category term="lora"/>
 <summary>This update: lora preview catalog node added (You need to organise your lora) Put your lora files in a file the lora folder and name it the Model for example Krea 2, in the Krea 2 folder you can make more folders for the kind of lora they are for example anime, sliders, or what ever group of lora th</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;This update: lora preview catalog node added (You need to organise your lora) Put your lora files in a file the lora folder and name it the Model for example Krea 2, in the Krea 2 folder you can make more folders for the kind of lora they are for example anime, sliders, or what ever group of lora they belong to. the lora gallery will add dropdowns for you do navigate and find them easily. when you generate a preview image you like for that Lora you can click save and it adds it to the gallery. you can also safe the trigger words from the node so you never forget! export catalog and previews to share with others Bug fix where images were not saving correctly when a previous name was used in a&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wd9xd1/update_to_my_comfyui_style_explorer/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wd9hal/true_10bit_video_workflow/</id><title>True 10bit Video Workflow</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wd9hal/true_10bit_video_workflow/"/>
+<published>2026-09-11T07:41:54+00:00</published><updated>2026-09-11T07:41:54+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="rendering"/>
+<category term="comfyui"/>
+<summary>I have had little luck finding a tutorial on building a true H3 10bit (ProRes HQ) workflow. AI claims you just need to install an advanced save node that allows you to pick ProRes and HQ or 4444, etc. But then when you dig into it, and begin to ask questions, while ComfyUI processes in full floating</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · rendering, comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I have had little luck finding a tutorial on building a true H3 10bit (ProRes HQ) workflow. AI claims you just need to install an advanced save node that allows you to pick ProRes and HQ or 4444, etc. But then when you dig into it, and begin to ask questions, while ComfyUI processes in full floating point, there are bottlenecks that crush the full bits down to 8bit, rendering the final result 8bit. One example is preview nodes, that apparently force 8bit, another is supposedly a plain jane VAE Decode, and the deeper I dig the more mysterious things get. I can't imagine nobody in the Open Source community does not want to output TRUE 10bit or higher output. The problem with 8bit becomes clear&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wd9hal/true_10bit_video_workflow/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1wd8wlg/cueforge_for_comfyui_aka_comfyuimobilefrontend/</id><title>CueForge for ComfyUI (a.k.a. comfyui-mobile-frontend) version 3.3.2 released!</title>
