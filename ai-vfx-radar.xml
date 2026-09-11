@@ -2,8 +2,28 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-09-11T10:30:47+00:00</updated>
+<updated>2026-09-11T12:31:04+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wddeh8/fasth3live_v120_update/</id><title>FastH3-Live v1.2.0 update</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wddeh8/fasth3live_v120_update/"/>
+<published>2026-09-11T11:20:03+00:00</published><updated>2026-09-11T11:20:03+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="denoising"/>
+<category term="comfyui"/>
+<category term="lora"/>
+<summary>FastH3-Live update. Full details here: https://huggingface.co/datasets/jacokon/fasth3-live v1.1.0 ran at 18 fps, which is 75% of 24 fps. v1.2.0 runs at 22 fps, which is 91.6% of 24 fps. https://reddit.com/link/1wddeh8/video/lyz02ql0gvoh1/player Besides the speed, it now ships a borderless player tha</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · denoising, comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;FastH3-Live update. Full details here: https://huggingface.co/datasets/jacokon/fasth3-live v1.1.0 ran at 18 fps, which is 75% of 24 fps. v1.2.0 runs at 22 fps, which is 91.6% of 24 fps. https://reddit.com/link/1wddeh8/video/lyz02ql0gvoh1/player Besides the speed, it now ships a borderless player that makes streaming and watching easier, plus 400 new scenes. At this speed it is hard to notice that it is running slow at all. The gain came from two places: 1. Acceleration nodes I was using a sage attention I compiled myself. A lot of new acceleration nodes have shown up recently, so I downloaded the well-known ones and tested them. Results: accel stack sampler saved fps sage (baseline) 12.65s 0&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wddeh8/fasth3live_v120_update/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wdc3py/could_anyone_give_me_some_tips_on_how_to_preserve/</id><title>Could anyone give me some tips on how to preserve the character's likeness when creating different expressions with FLUX.2 Klein?</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wdc3py/could_anyone_give_me_some_tips_on_how_to_preserve/"/>
+<published>2026-09-11T10:13:29+00:00</published><updated>2026-09-11T10:13:29+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="flux"/>
+<summary>Hi, I'm using FLUX.2 Klein 9B/4B, and I'm trying to create new facial expressions for a character I have. The character comes from a character sheet I've created, which includes front, back, and side views. I've done a lot of tests over the last two days, and I've noticed that FLUX.2 Klein 9B/4B dri</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi, I'm using FLUX.2 Klein 9B/4B, and I'm trying to create new facial expressions for a character I have. The character comes from a character sheet I've created, which includes front, back, and side views. I've done a lot of tests over the last two days, and I've noticed that FLUX.2 Klein 9B/4B drifts quite "a lot" from the original model when generating different facial expressions. I tried the same thing with the free version of Gemini, and it keeps the likeness and features much, much better. Could the highly quantized 9B model be the problem? If you've been able to preserve the character's facial features and expressions, would you mind sharing some tips on how to improve my results? Th&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wdc3py/could_anyone_give_me_some_tips_on_how_to_preserve/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wdb7is/native_yue2_support_coming_to_comfyui/</id><title>Native YuE2 support coming to ComfyUI!</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wdb7is/native_yue2_support_coming_to_comfyui/"/>
