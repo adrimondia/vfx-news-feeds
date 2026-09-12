@@ -2,8 +2,29 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-09-12T12:30:20+00:00</updated>
+<updated>2026-09-12T14:30:19+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1webl6b/h3_studio_local_web_ui_for_minimaxh3_videoaudio/</id><title>h3 studio - local web UI for MiniMax-H3 video/audio gen on Apple Silicon (Go, MIT)</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1webl6b/h3_studio_local_web_ui_for_minimaxh3_videoaudio/"/>
+<published>2026-09-12T12:39:52+00:00</published><updated>2026-09-12T12:39:52+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="video diffusion"/>
+<category term="render"/>
+<category term="comfyui"/>
+<summary>I've been doing video diffusion work on my Mac and kept running into the same wall: ComfyUI doesn't have real MLX support yet, and going through PyTorch's mps backend is slow and eats far more unified memory than the model actually needs - which hurts more on a Mac, where that memory is shared with </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · video diffusion, render, comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I've been doing video diffusion work on my Mac and kept running into the same wall: ComfyUI doesn't have real MLX support yet, and going through PyTorch's mps backend is slow and eats far more unified memory than the model actually needs - which hurts more on a Mac, where that memory is shared with everything else you're running. So instead of working around it each time, I built on top of [h3.c]( https://github.com/janishar/h3c-studio ) (a native Metal engine for MiniMax-H3) and put a proper UI on it. h3 studio is a Go server, stdlib-only, basically no dependencies. It wraps h3.c's CLI into something usable day to day: Model loads once and stays resident — iterate on prompts without repayin&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1webl6b/h3_studio_local_web_ui_for_minimaxh3_videoaudio/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1webccc/i_built_an_ai_video_plugin_to_connect_comfyui_to/</id><title>I Built an AI Video Plugin To Connect Comfyui to DaVinci Resolve!</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1webccc/i_built_an_ai_video_plugin_to_connect_comfyui_to/"/>
+<published>2026-09-12T12:28:01+00:00</published><updated>2026-09-12T12:28:01+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<category term="ai video"/>
+<summary>Hey everyone! I just released a new free custom node plugin called ComfyUI-SecondUnit that bridges ComfyUI directly with DaVinci Resolve. You can now generate video transitions, create music/SFX, synthesize voiceovers, and auto-generate subtitles, then send them right into your DaVinci timeline with</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · comfyui, ai video&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey everyone! I just released a new free custom node plugin called ComfyUI-SecondUnit that bridges ComfyUI directly with DaVinci Resolve. You can now generate video transitions, create music/SFX, synthesize voiceovers, and auto-generate subtitles, then send them right into your DaVinci timeline without manually importing or exporting files. IT'S‌ COMPLETELY‌ FREE!! submitted by /u/lumos_ai [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1webccc/i_built_an_ai_video_plugin_to_connect_comfyui_to/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wea9vb/h3_scraping_70s_character_sheets_from/</id><title>H3 - scraping 70s Character Sheets from T2VA+surprise Cameo</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wea9vb/h3_scraping_70s_character_sheets_from/"/>
@@ -135,6 +156,16 @@
 <category term="lora"/>
 <summary>Hello! I'm looking for helping on my workflow. I've created a Krea 2 character Lora that frequently has the face change somewhat when I add additional Loras. I've created a workflow to pass the image data back through a Lora node with only the character Lora, but I can't seem to get great results. I</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hello! I'm looking for helping on my workflow. I've created a Krea 2 character Lora that frequently has the face change somewhat when I add additional Loras. I've created a workflow to pass the image data back through a Lora node with only the character Lora, but I can't seem to get great results. I chatted with Google AI quite a bit trying various different KSampler setups, and some worked somewhat, but would remove objects on the face like makeup, and sometimes added extra details like freckles/moles on the body. Some options also ended up with total slop. I'm attaching images of my work flow (I know it's messy) and current KSampler Settings. Any help would be appreciated! submitted by /u/&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wdxlpb/krea_2_t2i_lora_second_pass/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wdxfm8/has_anyone_trained_a_minimax_h3style_lora_yet_is/</id><title>Has anyone trained a MiniMax H3-style LoRA yet? Is it worth it?</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wdxfm8/has_anyone_trained_a_minimax_h3style_lora_yet_is/"/>
+<published>2026-09-12T00:19:45+00:00</published><updated>2026-09-12T00:19:45+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="minimax"/>
+<category term="lora"/>
+<summary>I want to train a style LoRA for MiniMax H3 , but I’m trying to figure out the right workflow before burning a bunch of money on RunPod. A few questions for anyone who has actually tried this: 1. Has anyone successfully trained a style LoRA for H3 ? How good were the results, and is it worth doing? </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I want to train a style LoRA for MiniMax H3 , but I’m trying to figure out the right workflow before burning a bunch of money on RunPod. A few questions for anyone who has actually tried this: 1. Has anyone successfully trained a style LoRA for H3 ? How good were the results, and is it worth doing? Can I train a style LoRA using images only , or do I need video clips in the dataset? Do I need to train Ref2VA and FL2VA separately , or can one LoRA work with both? Should I train against the BF16 or INT8 H3 weights ? Does it make a noticeable difference in LoRA quality? What toolkit/platform would you recommend for H3 LoRA training? Something like Ostris AI Toolkit , Musubi Tuner, DiffSynth-Stu&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wdxfm8/has_anyone_trained_a_minimax_h3style_lora_yet_is/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wdw14w/minimax_h3_neon_genesis_evangelion_cello/</id><title>Minimax H3 - Neon Genesis Evangelion Cello</title>
