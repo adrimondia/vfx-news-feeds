@@ -2,8 +2,40 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-09-12T20:30:19+00:00</updated>
+<updated>2026-09-12T22:30:19+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1weonhe/i_created_a_comfyui_node_that_makes_it_easier_to/</id><title>I created a ComfyUI node that makes it easier to compare generated videos with their timed prompts</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1weonhe/i_created_a_comfyui_node_that_makes_it_easier_to/"/>
+<published>2026-09-12T21:21:38+00:00</published><updated>2026-09-12T21:21:38+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<category term="minimax"/>
+<category term="seedance"/>
+<summary>The node is called PromptSync. I made it for people who generate videos using timed prompts and want to see how closely the model follows the intended actions and scenes. The video plays on the left, with the original prompt on the right. During playback, the text matching the current moment is high</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · comfyui, minimax, seedance&lt;/small&gt;&lt;/p&gt;&lt;p&gt;The node is called PromptSync. I made it for people who generate videos using timed prompts and want to see how closely the model follows the intended actions and scenes. The video plays on the left, with the original prompt on the right. During playback, the text matching the current moment is highlighted, and auto-scroll follows the scenes. This makes it easier to spot what the model followed, what it skipped, and where the timing drifted. Features: - Seek through the video by clicking the timeline or audio waveform. - Display the audio waveform beneath the video. - Highlight the current scene separately from general camera, lighting, and style instructions. - Choose from four prompt displ&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1weonhe/i_created_a_comfyui_node_that_makes_it_easier_to/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1wenizu/pocket_hdri_capture_production_hdris_on_your_phone/</id><title>Pocket HDRI - Capture production HDRIs on your phone</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wenizu/pocket_hdri_capture_production_hdris_on_your_phone/"/>
+<published>2026-09-12T20:36:27+00:00</published><updated>2026-09-12T20:36:27+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="vfx"/>
+<category term="houdini"/>
+<summary>Hello everyone, my name is Anton, Houdini FX Artist and I am developing Pocket HDRI for iPhone (Android soon) that captures a 360° true-scene-linear 32-bit HDRI with up to 14 stops of dynamic range. The app processes local on your device, no login, no cloud. I was always frustrated that capturing an</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · vfx, houdini&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hello everyone, my name is Anton, Houdini FX Artist and I am developing Pocket HDRI for iPhone (Android soon) that captures a 360° true-scene-linear 32-bit HDRI with up to 14 stops of dynamic range. The app processes local on your device, no login, no cloud. I was always frustrated that capturing an HDRI on set was too time consuming or simply impossible because of missing gear. I thought "I am carrying my phone in my pocket all day, so why can't it just shoot HDRIs for me, whenever I need them?" This is how Pocket HDRI came to life and we are currently in Beta v0.3 on iOS. The app will launch on App Store soon and will be a one time purchase, no subscription. Learn more at https://pocket-hd&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wenizu/pocket_hdri_capture_production_hdris_on_your_phone/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wemybp/krea2_turbo_distill_2_step_lora_follow_up_project/</id><title>Krea2 Turbo Distill 2 step LoRA - follow up project to my 4 Step Krea 2 Turbo LoRA - initial Alpha version released for the curious</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wemybp/krea2_turbo_distill_2_step_lora_follow_up_project/"/>
+<published>2026-09-12T20:13:43+00:00</published><updated>2026-09-12T20:13:43+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="denoising"/>
+<category term="render"/>
+<category term="lora"/>
+<summary>Krea 2 Turbo — 2-Step Distillation LoRA ( work in progress, early days alpha preview, only for the curious; don't judge the quality as if this is final version, instead consider it as open welcome for you to join this journey early on... ) For those of you familiar with my previous project - 4 Step </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · denoising, render, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Krea 2 Turbo — 2-Step Distillation LoRA ( work in progress, early days alpha preview, only for the curious; don't judge the quality as if this is final version, instead consider it as open welcome for you to join this journey early on... ) For those of you familiar with my previous project - 4 Step Krea 2 Turbo LoRA , this is the promised experimental follow up , halved the steps even further from 8 (official Turbo) to 4 (previous LoRA project) to just 2 (this project). With even slower training and with DMD2 at play this time, getting reasonable results out of just 2 steps is a real challenge. 🧪 This 2-step LoRA gives you a fast-preview adapter, from a project still in training. The publish&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wemybp/krea2_turbo_distill_2_step_lora_follow_up_project/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/vfx/comments/1wek9sw/can_i_realistically_recreate_this_shot_with_a/</id><title>Can I realistically recreate this shot with a fake background on a low budget?</title>
 <link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wek9sw/can_i_realistically_recreate_this_shot_with_a/"/>
@@ -24,6 +56,15 @@
 <category term="minimax"/>
 <summary>submitted by /u/Citadel_Employee [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/Citadel_Employee [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1weh5gg/how_to_create_a_refmod_for_minimax_h3_in_comfyui/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wegvgf/is_stable_diffusion_what_im_looking_for/</id><title>Is Stable Diffusion what I’m looking for?</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wegvgf/is_stable_diffusion_what_im_looking_for/"/>
+<published>2026-09-12T16:21:39+00:00</published><updated>2026-09-12T16:21:39+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="stable diffusion"/>
+<summary>submitted by /u/nicoska [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · stable diffusion&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/nicoska [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wegvgf/is_stable_diffusion_what_im_looking_for/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/vfx/comments/1wefebh/cpu_render_farm/</id><title>CPU render farm</title>
