@@ -2,8 +2,40 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-09-12T06:30:19+00:00</updated>
+<updated>2026-09-12T08:00:36+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1we5nzn/minimax_h3_on_rented_gpus_measured_seconds_and/</id><title>MiniMax H3 on rented GPUs: measured seconds and dollars per clip on four cards at four providers (same weights, same graph, same seeds)</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1we5nzn/minimax_h3_on_rented_gpus_measured_seconds_and/"/>
+<published>2026-09-12T07:12:07+00:00</published><updated>2026-09-12T07:12:07+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="text-to-video"/>
+<category term="comfyui"/>
+<category term="minimax"/>
+<category term="lora"/>
+<category term="dit"/>
+<summary>Disclosure: I'm building a service around this, so read me as an interested party. Every number below is from runs we paid for ourselves yesterday ($1.67 total); the only link is the raw data at the bottom. The job: MiniMax H3 text-to-video, one 5-second clip at 864x480 (the 0.4 MP row of the templa</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 6 · text-to-video, comfyui, minimax, lora, dit&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Disclosure: I'm building a service around this, so read me as an interested party. Every number below is from runs we paid for ourselves yesterday ($1.67 total); the only link is the raw data at the bottom. The job: MiniMax H3 text-to-video, one 5-second clip at 864x480 (the 0.4 MP row of the template), 20 steps, the stock ComfyUI T2V graph from v0.35.0 with the official int8_convrot weights (34 GB DiT + 27 GB Qwen3-VL encoder + VAEs, 67 GB total), no LoRA, no reference frames, same prompt and seeds on every card, torch cu130 everywhere so the int8 kernels are the native ones. Three clips per card; "steady" is the average of clips 2 and 3 at the rate you actually pay (disk and public IP incl&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1we5nzn/minimax_h3_on_rented_gpus_measured_seconds_and/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1we4hw9/krea2_what_is_the_best_way_to_train_character/</id><title>Krea2 What is the best way to train character lora? (including body type, face etc)</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1we4hw9/krea2_what_is_the_best_way_to_train_character/"/>
+<published>2026-09-12T06:08:08+00:00</published><updated>2026-09-12T06:08:08+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="lora"/>
+<summary>I am overwhelmed by the amount of different ways to train character lora. There are so many videos from 1-2 months ago, but what will be the most popular and accurate way to train character lora for the Krea2 model? Any specific resources like huggingface i can look into? submitted by /u/HardS_X [li</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I am overwhelmed by the amount of different ways to train character lora. There are so many videos from 1-2 months ago, but what will be the most popular and accurate way to train character lora for the Krea2 model? Any specific resources like huggingface i can look into? submitted by /u/HardS_X [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1we4hw9/krea2_what_is_the_best_way_to_train_character/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1we1y88/updated_christmas_carol_film/</id><title>Updated Christmas Carol Film</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1we1y88/updated_christmas_carol_film/"/>
+<published>2026-09-12T03:54:58+00:00</published><updated>2026-09-12T03:54:58+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="flux"/>
+<category term="seedance"/>
+<summary>Hey all! Once upon a time I uploaded a small video of “A Christmas Carol” it was fairly well received and I was beyond honored at the response because I didn’t think it was that great. Anyway, fast forward to bit ahead and the landscape has changed dramatically. So many new image and video models to</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · flux, seedance&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey all! Once upon a time I uploaded a small video of “A Christmas Carol” it was fairly well received and I was beyond honored at the response because I didn’t think it was that great. Anyway, fast forward to bit ahead and the landscape has changed dramatically. So many new image and video models to make your head spin. So I decided to attempt my short film again, this time a more dark/realistic tone. Most of my source images were generated with Ideogram, then I would modify those with Flux Klein or Qwen Edit, just depended on what generated the best result. Then along came H3. My piddly little 4070 ti couldn’t hit the resolution I needed for most shots, so I set up a runpod with a RTX 6000 &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1we1y88/updated_christmas_carol_film/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/vfx/comments/1we1nug/astra_somehow_letting_ppl_learn_vfx/</id><title>astra somehow letting ppl learn vfx.</title>
 <link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1we1nug/astra_somehow_letting_ppl_learn_vfx/"/>
@@ -28,6 +60,16 @@
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;All 4 diffrent model tested with same prompt with diffrent steps / Only Cofmykithchen speed enhancer ,no spectrum or sage attention or anything else fastest one Fused 1:11sec and all other about same 1:40sec best audio Fused if you want more testing give me model or lora model , i will test and put comparation here RTX 5090 RAM 128GB submitted by /u/agapes1270 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wdyc7o/minimax_testing_10eros_fused_fast_vsa_and_larry/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wdxsvj/has_anyone_trained_a_minimax_h3style_lora_yet_is/</id><title>Has anyone trained a MiniMax H3-style LoRA yet? Is it worth it?</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wdxsvj/has_anyone_trained_a_minimax_h3style_lora_yet_is/"/>
+<published>2026-09-12T00:36:28+00:00</published><updated>2026-09-12T00:36:28+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="minimax"/>
+<category term="lora"/>
+<summary>submitted by /u/NoSmell3236 [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/NoSmell3236 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wdxsvj/has_anyone_trained_a_minimax_h3style_lora_yet_is/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wdxmj7/fun_experiment_krea2/</id><title>Fun Experiment Krea2</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wdxmj7/fun_experiment_krea2/"/>
 <published>2026-09-12T00:28:22+00:00</published><updated>2026-09-12T00:28:22+00:00</updated>
@@ -38,6 +80,15 @@
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · lora, dit&lt;/small&gt;&lt;/p&gt;&lt;p&gt;https://preview.redd.it/iw8a0c2oezoh1.png?width=3085&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=de945ed21c8bb1cc1856a0886a11743c9c5cc66b First of all I hate operating on a black box :D.. I know this may be a bit stale about Krea2 refusal behaviour but I think I have discovered an extremely CLEAN approach to the suppression behaviour without shifting the actual intended image in my tests, so everything stays the same but with the suppression out of the door. I trained 100s of loras and they all have unique traits, but what I am testing here is how much of their effect I can reproduce through the resulting RMS changes. These loras are not trained to hit any DIT blocks, so I hooked the lora to this node and measur&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wdxmj7/fun_experiment_krea2/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wdxlpb/krea_2_t2i_lora_second_pass/</id><title>Krea 2 T2I Lora Second Pass</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wdxlpb/krea_2_t2i_lora_second_pass/"/>
+<published>2026-09-12T00:27:17+00:00</published><updated>2026-09-12T00:27:17+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="lora"/>
+<summary>Hello! I'm looking for helping on my workflow. I've created a Krea 2 character Lora that frequently has the face change somewhat when I add additional Loras. I've created a workflow to pass the image data back through a Lora node with only the character Lora, but I can't seem to get great results. I</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hello! I'm looking for helping on my workflow. I've created a Krea 2 character Lora that frequently has the face change somewhat when I add additional Loras. I've created a workflow to pass the image data back through a Lora node with only the character Lora, but I can't seem to get great results. I chatted with Google AI quite a bit trying various different KSampler setups, and some worked somewhat, but would remove objects on the face like makeup, and sometimes added extra details like freckles/moles on the body. Some options also ended up with total slop. I'm attaching images of my work flow (I know it's messy) and current KSampler Settings. Any help would be appreciated! submitted by /u/&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wdxlpb/krea_2_t2i_lora_second_pass/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wdw14w/minimax_h3_neon_genesis_evangelion_cello/</id><title>Minimax H3 - Neon Genesis Evangelion Cello</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wdw14w/minimax_h3_neon_genesis_evangelion_cello/"/>
 <published>2026-09-11T23:18:31+00:00</published><updated>2026-09-11T23:18:31+00:00</updated>
@@ -45,6 +96,25 @@
 <category term="minimax"/>
 <summary>submitted by /u/Certain_Potato_4509 [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/Certain_Potato_4509 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wdw14w/minimax_h3_neon_genesis_evangelion_cello/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wduxzw/i_create_custom_nodes_for_problems_i_have/</id><title>I create custom nodes for problems I have...</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wduxzw/i_create_custom_nodes_for_problems_i_have/"/>
+<published>2026-09-11T22:32:04+00:00</published><updated>2026-09-11T22:32:04+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<category term="minimax"/>
+<summary>I'm impatient, and when using Ollama, I have zero idea what's going on behind the scenes. So, I built a ComfyUI node to display the live logcat and a progress bar. I also did the same for the MiniMax H3 multi-shot chaining node—it tracks which chunk of video it's currently processing, gives live log</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I'm impatient, and when using Ollama, I have zero idea what's going on behind the scenes. So, I built a ComfyUI node to display the live logcat and a progress bar. I also did the same for the MiniMax H3 multi-shot chaining node—it tracks which chunk of video it's currently processing, gives live logs, and shows chunk progress alongside an ETA. If enough people are interested, I might put these custom nodes on GitHub or maybe the ComfyUI Manager registry, but we'll see. Let me know what you think! submitted by /u/giantcandy2001 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wduxzw/i_create_custom_nodes_for_problems_i_have/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wdtju5/clean_pov_for_minimax_h3/</id><title>Clean POV for Minimax h3?</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wdtju5/clean_pov_for_minimax_h3/"/>
+<published>2026-09-11T21:35:45+00:00</published><updated>2026-09-11T21:35:45+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="minimax"/>
+<summary>I've been following the doucmentation for construction of prompts and having better luck. What's not working is keeping the camera as POV. Ideally, it would just be a 1st person perspective walking through a scene, doing the actions etc. I've had luck registering the viewer themselves as a subject, </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I've been following the doucmentation for construction of prompts and having better luck. What's not working is keeping the camera as POV. Ideally, it would just be a 1st person perspective walking through a scene, doing the actions etc. I've had luck registering the viewer themselves as a subject, but then they enter and interact with the scene in weird ways. submitted by /u/trollkin34 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wdtju5/clean_pov_for_minimax_h3/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/vfx/comments/1wdscmn/early_unrealblender_character_piece_thoughts/</id><title>Early Unreal/Blender character piece. Thoughts?</title>
@@ -58,6 +128,21 @@
 <category term="unreal engine"/>
 <summary>Hi. I made this short piece for an audiovisual project I’ve been working on using Unreal Engine, Blender, Adobe Substance and DaVinci Resolve. The idea is to create visuals for music I’m planning to release, while gradually building a mythology around this. I know this video is ambiguous, but the or</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 7 · color grading, rendering, blender, unreal, unreal engine&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi. I made this short piece for an audiovisual project I’ve been working on using Unreal Engine, Blender, Adobe Substance and DaVinci Resolve. The idea is to create visuals for music I’m planning to release, while gradually building a mythology around this. I know this video is ambiguous, but the original idea was to suggest that her appearance is fictional by showing moments of her being drawn. It’s an early experiment, and later videos will show more of the process and the character interacting with a CG environment. I’m not a formally trained 3D artist; I’ve simply been working on this for some time, and with social media becoming increasingly saturated with AI, I honestly find it difficu&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wdscmn/early_unrealblender_character_piece_thoughts/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wdr8q4/quibble_case_02_pineapple_for_president_minimax/</id><title>Quibble Case 02 — Pineapple for President | MiniMax H3 + ComfyUI persistent-character dialogue test</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wdr8q4/quibble_case_02_pineapple_for_president_minimax/"/>
+<published>2026-09-11T20:08:16+00:00</published><updated>2026-09-11T20:08:16+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="character animation"/>
+<category term="animation"/>
+<category term="color grading"/>
+<category term="comfyui"/>
+<category term="minimax"/>
+<category term="consistency"/>
+<category term="character consistency"/>
+<summary>Follow-up to my first Quibble H3 experiment. This time I focused less on generating more shots and more on keeping one stylized character consistent across a short dialogue scene. A few things that helped: fixed seeds while developing individual shots mostly locked cameras rather than AI-generated p</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 9 · character animation, animation, color grading, comfyui, minimax, consistency, character consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Follow-up to my first Quibble H3 experiment. This time I focused less on generating more shots and more on keeping one stylized character consistent across a short dialogue scene. A few things that helped: fixed seeds while developing individual shots mostly locked cameras rather than AI-generated push-ins a recurring GPT terminal as a cutaway between dialogue beats restrained character acting rather than large gestures explicit prompting to stop H3 from literally displaying the spoken objects on the terminal — it kept trying to put fruit on screen :) All Quibble/GPT dialogue and character animation were generated with MiniMax H3 inside ComfyUI. Final edit, pacing and color grading were hand&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wdr8q4/quibble_case_02_pineapple_for_president_minimax/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/vfx/comments/1wdq74f/looking_for_an_unreal_engine_cinematicsvirtual/</id><title>Looking for an Unreal Engine Cinematics/Virtual Production Collaborator (Passion Project)</title>
@@ -92,6 +177,16 @@
 <category term="lora"/>
 <summary>Another quick Minimax H3 news and goodies round-up, for those who may have missed some items. -&gt; Do you have eight GPUs handy? Then you won't be needing a space-heater, but you may need the new RunningHub H3 Lightning. This aims to offer a multi-GPU... "inference acceleration recipe for MiniMax H3".</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 5 · comfyui, minimax, controlnet, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Another quick Minimax H3 news and goodies round-up, for those who may have missed some items. -&amp;gt; Do you have eight GPUs handy? Then you won't be needing a space-heater, but you may need the new RunningHub H3 Lightning. This aims to offer a multi-GPU... "inference acceleration recipe for MiniMax H3". https://github.com/RH-RunningHub/MiniMax-H3-MultiGPU-Lightning -&amp;gt; Talking of eight graphics cards, there's a new VideoDeltaNet (VDN) for those running "8 x B200 GPUs", and also a new VDN runtime for those who have to make do only with a humble 24Gb VRAM card. https://huggingface.co/OpenVDN/vdn-minimax-h3 https://github.com/Speach1sdef178/ComfyUI-VDN-H3-24GB -&amp;gt; A set of experimental DMD turbo 8-st&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wdo4iy/a_quick_minimax_h3_news_roundup_11th_september/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wdnb5t/pay_for_upscale/</id><title>Pay for upscale ?</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wdnb5t/pay_for_upscale/"/>
+<published>2026-09-11T17:47:28+00:00</published><updated>2026-09-11T17:47:28+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="upscaling"/>
+<category term="upscaler"/>
+<summary>Hello everyone, I’m taking the liberty of posting here, and I apologise in advance if this isn’t the right place. Here’s my problem: for quite some time now, I’ve been looking for upscales of certain 1080p REMUX films to 2160p, but I can’t find any. I’d also like to improve the visual quality of som</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · upscaling, upscaler&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hello everyone, I’m taking the liberty of posting here, and I apologise in advance if this isn’t the right place. Here’s my problem: for quite some time now, I’ve been looking for upscales of certain 1080p REMUX films to 2160p, but I can’t find any. I’d also like to improve the visual quality of some of my favourite anime and manga, but again, I can’t find any proper work on this. As I don’t have the necessary hardware at all, I thought perhaps the best option might be to pay for an upscaling service or a really good upscaler (an individual) to do what I’d like. What do you think? Thanks for your time, and apologies for my English – I’m French :) submitted by /u/BadakkuDoragonBoru [link] [co&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wdnb5t/pay_for_upscale/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wdn4lf/ltx_silently_updated_the_ingredients_iclora_for/</id><title>LTX silently updated the Ingredients IC-LoRA for 2.5 - Basically, allows reference2video using a sheet image</title>
