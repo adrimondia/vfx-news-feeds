@@ -2,8 +2,38 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-09-12T22:30:19+00:00</updated>
+<updated>2026-09-13T00:30:21+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1werxhr/flux2klein9b_refmods/</id><title>FLUX.2-klein-9B RefMods</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1werxhr/flux2klein9b_refmods/"/>
+<published>2026-09-12T23:43:40+00:00</published><updated>2026-09-12T23:43:40+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="flux"/>
+<summary>submitted by /u/malcolmrey [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/malcolmrey [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1werxhr/flux2klein9b_refmods/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wepgl5/team_red_encounter_on_proximax_h3_or_how_to_setup/</id><title>Team Red: Encounter on ProxiMax H3, or How to setup ComfyUI+MMH3 with AMD GPUs: RDNA 4 (rx9070, AI Pro R9700), and RDNA 3 (rx7900)</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wepgl5/team_red_encounter_on_proximax_h3_or_how_to_setup/"/>
+<published>2026-09-12T21:55:21+00:00</published><updated>2026-09-12T21:55:21+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<category term="minimax"/>
+<summary>TL;DR summary: For MMH3, you need to run ComfyUI with ROCm 7.14.0 (see https://rocm.docs.amd.com/en/latest/reference/gpu-specs.html for the vaue of gfx???? corresponding to your AMD GPU): pip install --index-url https://repo.amd.com/rocm/whl-multi-arch/ "torch[device-gfx????]==2.12.0+rocm7.14.0" "to</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;TL;DR summary: For MMH3, you need to run ComfyUI with ROCm 7.14.0 (see https://rocm.docs.amd.com/en/latest/reference/gpu-specs.html for the vaue of gfx???? corresponding to your AMD GPU): pip install --index-url https://repo.amd.com/rocm/whl-multi-arch/ "torch[device-gfx????]==2.12.0+rocm7.14.0" "torchvision[device-gfx????]==0.27.0+rocm7.14.0" "torchaudio==2.11.0+rocm7.14.0" Read on if you want the step-by-step instructions (scroll to the bottom of the post if you just want to see the MMH3 prompt for the video 😹) These instructions are for Windows 11 (Ubuntu version: https://www.reddit.com/r/StableDiffusion/comments/1wer1mz/comment/p9g0kxg/ ). Nevertheless, many of the same comfy-cli command&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wepgl5/team_red_encounter_on_proximax_h3_or_how_to_setup/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wepbmm/is_minimax_h3_is_extremely_slow_when_it_comes_to/</id><title>Is MiniMax H3 is extremely slow when it comes to ref2va compared to fl2va?</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wepbmm/is_minimax_h3_is_extremely_slow_when_it_comes_to/"/>
+<published>2026-09-12T21:49:24+00:00</published><updated>2026-09-12T21:49:24+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<category term="minimax"/>
+<category term="lora"/>
+<summary>I am running MiniMax H3 ref2va int8 convrot on comfyui using 5070ti 16GB + 64GB system ram, OS is windows 11. Default comfyui ref2va template is being used (Turbo lora is enabled/true) it is taking about 150s per step for 9:16, 0.2 megapixels and 10 sec duration with single image &amp; video input. For </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · comfyui, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I am running MiniMax H3 ref2va int8 convrot on comfyui using 5070ti 16GB + 64GB system ram, OS is windows 11. Default comfyui ref2va template is being used (Turbo lora is enabled/true) it is taking about 150s per step for 9:16, 0.2 megapixels and 10 sec duration with single image &amp;amp; video input. For reference, image2video takes about ~27sec per step for 10 sec 0.5 megapixels video. Having such slow speeds in ref2va expected? Maybe I am doing something wrong? Help/Guide is much appreciated! submitted by /u/Most-Trainer-8876 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wepbmm/is_minimax_h3_is_extremely_slow_when_it_comes_to/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1weonhe/i_created_a_comfyui_node_that_makes_it_easier_to/</id><title>I created a ComfyUI node that makes it easier to compare generated videos with their timed prompts</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1weonhe/i_created_a_comfyui_node_that_makes_it_easier_to/"/>
@@ -74,6 +104,15 @@
 <category term="render"/>
 <summary>Not sure if this is the right place, lmk if otherwise. Cloud bills are getting out of hand and we are thinking of getting servers instead, ddr4 servers are out of this world here in Canada and we can only afford ddr3 so we started looking for some and need some advice. Is the difference between ddr3</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · render&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Not sure if this is the right place, lmk if otherwise. Cloud bills are getting out of hand and we are thinking of getting servers instead, ddr4 servers are out of this world here in Canada and we can only afford ddr3 so we started looking for some and need some advice. Is the difference between ddr3 and ddr4 worth it? We found a studio going out of business and they agreed to sell us their whole setup of multi servers. They are not willing to partout just a couple for us as we dont need that many. Not sure on what to do and how much to offer as we have no experience with hardware and would need to hire someone to setup and configure them, who do we contact or where to ask if this isn't the r&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wefebh/cpu_render_farm/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1wecm4n/what_is_the_best_way_to_get_humanoid_animations/</id><title>What is the best way to get humanoid animations done as a solo developer?</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wecm4n/what_is_the_best_way_to_get_humanoid_animations/"/>
+<published>2026-09-12T13:26:03+00:00</published><updated>2026-09-12T13:26:03+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="mocap"/>
+<summary>Hi, im developing my own project and I need to get some 3D animations for a human character. There are several possible routes I've explored and I'm basically confused at which offers the most flexibility or accuracy for what I want. So here's some context: - I'm not an animator - I've hired animato</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 1 · mocap&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi, im developing my own project and I need to get some 3D animations for a human character. There are several possible routes I've explored and I'm basically confused at which offers the most flexibility or accuracy for what I want. So here's some context: - I'm not an animator - I've hired animators for creatures. Its taken a lot out of my budget. - I won't ever use or consider AI for anything creative - but i don't mind if it solves technical issues (like cleanup of jittering etc.) Here's some options I explored: - Hiring an animator again (but my budget is running thin) - Buying marketplace animations. (Problem is theyre too generic) - Buying a mocap suit (the cheapest one...but even the&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wecm4n/what_is_the_best_way_to_get_humanoid_animations/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1webl6b/h3_studio_local_web_ui_for_minimaxh3_videoaudio/</id><title>h3 studio - local web UI for MiniMax-H3 video/audio gen on Apple Silicon (Go, MIT)</title>
