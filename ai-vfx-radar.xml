@@ -2,8 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-09-13T06:30:18+00:00</updated>
+<updated>2026-09-13T08:00:19+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1wf0p1m/trained_a_free_model_that_turns_a_painted_doodle/</id><title>Trained a free model that turns a painted doodle into a smoke or fire element, about a minute per 5s clip. Art directable stock footage for bg elements.</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wf0p1m/trained_a_free_model_that_turns_a_painted_doodle/"/>
+<published>2026-09-13T07:10:03+00:00</published><updated>2026-09-13T07:10:03+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="smoke"/>
+<category term="vfx"/>
+<category term="comfyui"/>
+<category term="ltx"/>
+<summary>Hello lovely VFX people, Sharing another "AI" tool, but after showing it to a few compositors, I think it could be useful. What it is : you paint flat colour blobs on a first frame and a last frame, roughly where you want a volume and roughly what colour, black everywhere else. The model replaces th</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 5 · smoke, vfx, comfyui, ltx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hello lovely VFX people, Sharing another "AI" tool, but after showing it to a few compositors, I think it could be useful. What it is : you paint flat colour blobs on a first frame and a last frame, roughly where you want a volume and roughly what colour, black everywhere else. The model replaces the paint with smoke, steam or fire and animates between your keyframes. Think of it as a stock footage library that draws to your frame instead of a static library you search and can be hard to match with your creative expectations. What it is not: Not a replacement for a hero FX simulation. No interaction, no collisions, no simulation you can rerun with different parameters. Not a plate matcher. F&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wf0p1m/trained_a_free_model_that_turns_a_painted_doodle/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wf02dk/i_got_several_old_models_running_locally_wanna/</id><title>I got several old models running locally - Wanna test some prompts?</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wf02dk/i_got_several_old_models_running_locally_wanna/"/>
+<published>2026-09-13T06:34:01+00:00</published><updated>2026-09-13T06:34:01+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="video model"/>
+<category term="stable diffusion"/>
+<summary>The models I can run locally are: First Order Motion Model (remember the Dame Da Ne meme?) (February 29, 2020) (I will also need the source image and reference video) DeepDaze (where one generation takes over 2 hours with GPU acceleration, may or may not test this one for you) (January 17, 2021) Big</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · video model, stable diffusion&lt;/small&gt;&lt;/p&gt;&lt;p&gt;The models I can run locally are: First Order Motion Model (remember the Dame Da Ne meme?) (February 29, 2020) (I will also need the source image and reference video) DeepDaze (where one generation takes over 2 hours with GPU acceleration, may or may not test this one for you) (January 17, 2021) Big Sleep (Similar case as DeepDaze cause the multiple epochs but more immediate results on just one epoch are kinda usable) (January 18, 2021) VQGAN+CLIP (April 2021) OG DALLE-Mini, with Jax GPU acceleration through WSL (July 2021) Disco Diffusion (October 29, 2021) Latent Diffusion (Pre stable diffusion) (December 20, 2021) Stable Diffusion 1.1 (August 2022) Stable Diffusion 1.4 (August 22, 2022) S&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wf02dk/i_got_several_old_models_running_locally_wanna/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://github.com/multimodal-art-projection/YuE</id><title>multimodal-art-projection/YuE</title>
 <link rel="alternate" href="https://github.com/multimodal-art-projection/YuE"/>
