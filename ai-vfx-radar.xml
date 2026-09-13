@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-09-13T00:30:21+00:00</updated>
+<updated>2026-09-13T02:30:19+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1werxhr/flux2klein9b_refmods/</id><title>FLUX.2-klein-9B RefMods</title>
@@ -12,6 +12,16 @@
 <category term="flux"/>
 <summary>submitted by /u/malcolmrey [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/malcolmrey [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1werxhr/flux2klein9b_refmods/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wer1mz/team_red_from_proximax_h3_part_2_ubuntu_edition/</id><title>Team Red from ProxiMax H3 Part 2 (Ubuntu edition): ComfyUI+MMH3 with AMD GPUsRDNA 4 (rx9070, AI Pro R9700), and RDNA 3 (rx7900)</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wer1mz/team_red_from_proximax_h3_part_2_ubuntu_edition/"/>
+<published>2026-09-12T23:03:37+00:00</published><updated>2026-09-12T23:03:37+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<category term="minimax"/>
+<summary>For Windows 11 (Part 1): https://www.reddit.com/r/StableDiffusion/comments/1wepgl5/team_red_encounter_on_proximax_h3_or_how_to_setup/ TL;DR summary: For MMH3, you need to run ComfyUI with ROCm 7.14.0 (see https://rocm.docs.amd.com/en/latest/reference/gpu-specs.html for the vaue of gfx???? correspond</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;For Windows 11 (Part 1): https://www.reddit.com/r/StableDiffusion/comments/1wepgl5/team_red_encounter_on_proximax_h3_or_how_to_setup/ TL;DR summary: For MMH3, you need to run ComfyUI with ROCm 7.14.0 (see https://rocm.docs.amd.com/en/latest/reference/gpu-specs.html for the vaue of gfx???? corresponding to your AMD GPU): pip install --index-url https://repo.amd.com/rocm/whl-multi-arch/ "torch[device-gfx????]==2.12.0+rocm7.14.0" "torchvision[device-gfx????]==0.27.0+rocm7.14.0" "torchaudio==2.11.0+rocm7.14.0" Read on if you want the step-by-step instructions (scroll to the bottom of the post if you just want to see the MMH3 prompt for the video 😹) Why use Linux instead of Windows? Because Minim&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wer1mz/team_red_from_proximax_h3_part_2_ubuntu_edition/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wepgl5/team_red_encounter_on_proximax_h3_or_how_to_setup/</id><title>Team Red: Encounter on ProxiMax H3, or How to setup ComfyUI+MMH3 with AMD GPUs: RDNA 4 (rx9070, AI Pro R9700), and RDNA 3 (rx7900)</title>
@@ -76,6 +86,16 @@
 <category term="vfx"/>
 <summary>https://preview.redd.it/r0rzdfwru4ph1.png?width=1672&amp;format=png&amp;auto=webp&amp;s=0a46bd47857ea057c572dff549ddda91a2224764 https://preview.redd.it/fygmpewru4ph1.png?width=1590&amp;format=png&amp;auto=webp&amp;s=7d725a6fe35acab79a8cfe99bfff18bb538f9ea8 Hi! I’m making a Kickstarter video for a board game and I’d like t</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 3 · green screen, compositing, vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;https://preview.redd.it/r0rzdfwru4ph1.png?width=1672&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=0a46bd47857ea057c572dff549ddda91a2224764 https://preview.redd.it/fygmpewru4ph1.png?width=1590&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=7d725a6fe35acab79a8cfe99bfff18bb538f9ea8 Hi! I’m making a Kickstarter video for a board game and I’d like to recreate the feeling of this Jumanji scene (reference image attached). The shot would be completely static: two real people sitting opposite each other, playing my board game and reacting as the miniatures start moving by themselves. Instead of renting an old attic/location, I was thinking about shooting the actors + table separately (green screen if necessary) and compositing them over the atta&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wek9sw/can_i_realistically_recreate_this_shot_with_a/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wek8mj/audio_lora_for_h3_question_for_you_smart_people/</id><title>Audio Lora for H3? Question for you smart people...</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wek8mj/audio_lora_for_h3_question_for_you_smart_people/"/>
+<published>2026-09-12T18:30:19+00:00</published><updated>2026-09-12T18:30:19+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="minimax"/>
+<category term="lora"/>
+<summary>Minimax H3 is awesome of course, but I find the voices it creates (either from a reference audio stream or purely from the model's training) are too loud and sound 'pasted in' and do not 'fit' acoustically within the environment. Specifically, to the point, does anyone know if its possible to train </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Minimax H3 is awesome of course, but I find the voices it creates (either from a reference audio stream or purely from the model's training) are too loud and sound 'pasted in' and do not 'fit' acoustically within the environment. Specifically, to the point, does anyone know if its possible to train a LoRA that will make H3's generated voices quieter and more 'distant' so it doesn't sound like the character(s) are talking directly into a microphone a foot away? I've tried a million different prompt combinations, I've tried passing low-volume reference audio streams in, etc... nothing works. Any ideas are greatly appreciated. submitted by /u/Dogluvr2905 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wek8mj/audio_lora_for_h3_question_for_you_smart_people/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1weh5gg/how_to_create_a_refmod_for_minimax_h3_in_comfyui/</id><title>How to Create a RefMod for MiniMax H3 in ComfyUI</title>
