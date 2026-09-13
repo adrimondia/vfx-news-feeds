@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-09-13T12:30:19+00:00</updated>
+<updated>2026-09-13T14:30:19+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wf3zco/taomate_h3_3_step_lora_now_working_in_comfyui/</id><title>TaoMate H3 3 Step LoRA now working in ComfyUI</title>
@@ -33,6 +33,17 @@
 <category term="luma"/>
 <summary>At IBC? Come have a beer with Redditors from r/editors , r/colorists , r/premiere , r/davinciresolve and more. Tonight, 18:00 to 20:00. Bring someone. They don't need to be on Reddit. Location and RSVP on Luma so I can give the bar a headcount. First round's on OWC , with Avid , Loraverse , Digital </summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 1 · luma&lt;/small&gt;&lt;/p&gt;&lt;p&gt;At IBC? Come have a beer with Redditors from r/editors , r/colorists , r/premiere , r/davinciresolve and more. Tonight, 18:00 to 20:00. Bring someone. They don't need to be on Reddit. Location and RSVP on Luma so I can give the bar a headcount. First round's on OWC , with Avid , Loraverse , Digital Anarchy and RE:Vision Effects also sponsoring. submitted by /u/greenysmac [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wf293s/ibc_reddit_meetup_is_tonight_sunday_1800_free/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wf0v6o/a_fluid_stock_shot_generator_for_comfyui_ltx_25/</id><title>A fluid stock shot generator for ComfyUI - LTX 2.5 IC-LoRA (free model + workflow + 45 min tutorial)</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wf0v6o/a_fluid_stock_shot_generator_for_comfyui_ltx_25/"/>
+<published>2026-09-13T07:19:37+00:00</published><updated>2026-09-13T07:19:37+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="smoke"/>
+<category term="comfyui"/>
+<category term="ltx"/>
+<summary>Hi lovely StableDiffusion people, Trained an IC-LoRA for LTX 2.5 that takes a painted doodle and turns it into a fluid element. You paint flat blobs on a first and a last frame, black frames in between, and the model fills in smoke, steam or fire and animates between them. Trigger word is ainvfxflui</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 5 · smoke, comfyui, ltx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi lovely StableDiffusion people, Trained an IC-LoRA for LTX 2.5 that takes a painted doodle and turns it into a fluid element. You paint flat blobs on a first and a last frame, black frames in between, and the model fills in smoke, steam or fire and animates between them. Trigger word is ainvfxfluid , and a two word prompt like "ainvfxfluid, smoke plume" is usually enough. About 50 seconds for a 5 second 512x512 clip on a laptop 4090 with the distilled model. The workflow paints both frames directly in ComfyUI with two Painter nodes and ships pre-painted, so you can load it and queue it before changing anything. Everything else is core nodes (Empty Image, Batch Images, Create Video) plus th&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wf0v6o/a_fluid_stock_shot_generator_for_comfyui_ltx_25/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/vfx/comments/1wf0p1m/trained_a_free_model_that_turns_a_painted_doodle/</id><title>Trained a free model that turns a painted doodle into a smoke or fire element, about a minute per 5s clip. Art directable stock footage for bg elements.</title>
