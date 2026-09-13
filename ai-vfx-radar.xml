@@ -2,8 +2,26 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-09-13T18:30:19+00:00</updated>
+<updated>2026-09-13T20:30:19+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wfhioq/illustrious_lora_required_for_this_artstyle/</id><title>Illustrious Lora required for this artstyle</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wfhioq/illustrious_lora_required_for_this_artstyle/"/>
+<published>2026-09-13T19:41:24+00:00</published><updated>2026-09-13T19:41:24+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="lora"/>
+<summary>Hey guy, does anyone know how to replicate this artstyle, i have tried finding lora on civitai, took help from claude and chatgpt but i am unable to recreate this. submitted by /u/Negative-Rise-9250 [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey guy, does anyone know how to replicate this artstyle, i have tried finding lora on civitai, took help from claude and chatgpt but i am unable to recreate this. submitted by /u/Negative-Rise-9250 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wfhioq/illustrious_lora_required_for_this_artstyle/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1wfgdil/what_am_i_doing_wrong_and_what_should_i_focus_on/</id><title>What am I doing wrong and what should I focus on?</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wfgdil/what_am_i_doing_wrong_and_what_should_i_focus_on/"/>
+<published>2026-09-13T18:59:34+00:00</published><updated>2026-09-13T18:59:34+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="vfx"/>
+<summary>work - https://readymag.website/u1171308523/Aryamik/ Hi everyone. I'm an entirely self taught cg artist and now that I'm finally done with college I want to actually join a studio, preferably working in cinematics/ shot building or lookdev and lighting. The problem is when I first started creating a</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 1 · vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;work - https://readymag.website/u1171308523/Aryamik/ Hi everyone. I'm an entirely self taught cg artist and now that I'm finally done with college I want to actually join a studio, preferably working in cinematics/ shot building or lookdev and lighting. The problem is when I first started creating art or these pieces I started off with a the goal of being a concept artist. but the lighting side and motion part is what caught my attention over time and now here I am with half baked skills and not enough work to prove that I can work a role. Thus, I seek help from the lovely people on this server. any feedback would be greatly appreciated :) (p.s My degree had nothing to do with vfx or cgi) su&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wfgdil/what_am_i_doing_wrong_and_what_should_i_focus_on/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wfdzad/style_transfer_capabilities_of_different/</id><title>Style transfer capabilities of different open-source methods 2026 Update</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wfdzad/style_transfer_capabilities_of_different/"/>
@@ -24,6 +42,15 @@
 <category term="lora"/>
 <summary>The lora itself at 3 steps is nothing to write home about. If the scene isn't mostly static, you can expect slowmo jerky motion, smearing and straight broken output with butchered sound. HOWEVER, it has VERY good visual quality without obvious overcooking plaguing the turbo loras. You add as much st</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;The lora itself at 3 steps is nothing to write home about. If the scene isn't mostly static, you can expect slowmo jerky motion, smearing and straight broken output with butchered sound. HOWEVER, it has VERY good visual quality without obvious overcooking plaguing the turbo loras. You add as much steps of non accelerated generation to achieve what you want and just finish it with 3 steps of euler @ 0.7str as a visual refiner. This lora seems to "close" the low step generation pretty well, without smearing, flickering or fuzzy edges while preserve the physics, material texture, prompt adherence and movement of non accelerated generation. Mandatory 1girl video included. 9 steps. I think the id&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wfdptw/taomate_h3_3_steps_lora_used_as_a_refiner/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wfcbjy/how_can_i_keep_audio_consistent_across_minimax_h3/</id><title>How can I keep audio consistent across MiniMax H3 clips?</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wfcbjy/how_can_i_keep_audio_consistent_across_minimax_h3/"/>
+<published>2026-09-13T16:29:00+00:00</published><updated>2026-09-13T16:29:00+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="minimax"/>
+<summary>I’m working on creating long-form content with MiniMax H3, but I’m struggling to keep the audio consistent when stitching clips together. I’ve attached an example. Is there a way to continue the audio from a previous clip, or use it as a reference for the next generation? Ideally, I’d like to preser</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I’m working on creating long-form content with MiniMax H3, but I’m struggling to keep the audio consistent when stitching clips together. I’ve attached an example. Is there a way to continue the audio from a previous clip, or use it as a reference for the next generation? Ideally, I’d like to preserve the same tone and background sound throughout. If H3 doesn’t support this, has anyone found a tool or workflow that works well? submitted by /u/mnm9678 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wfcbjy/how_can_i_keep_audio_consistent_across_minimax_h3/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wfbud0/minimax_singularity_4step_generates_good_results/</id><title>Minimax Singularity 4step generates good results</title>
