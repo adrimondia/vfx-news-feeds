@@ -2,8 +2,128 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-09-14T02:30:32+00:00</updated>
+<updated>2026-09-14T04:30:21+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://arxiv.org/abs/2609.12417</id><title>Spectral Consistency-Guided Multiview Point Cloud Registration for Low-Overlap Scenes</title>
+<link rel="alternate" href="https://arxiv.org/abs/2609.12417"/>
+<published>2026-09-14T04:00:00+00:00</published><updated>2026-09-14T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="pose estimation"/>
+<category term="consistency"/>
+<category term="multiview"/>
+<category term="point cloud"/>
+<summary>arXiv:2609.12417v1 Announce Type: new Abstract: Multiview point cloud registration is particularly challenging in low-overlap scenes, where reliable correspondences are limited and incorrect pairwise transformations can affect global pose estimation. In addition, registering all scan pairs is comput</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 6 · pose estimation, consistency, multiview, point cloud&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.12417v1 Announce Type: new Abstract: Multiview point cloud registration is particularly challenging in low-overlap scenes, where reliable correspondences are limited and incorrect pairwise transformations can affect global pose estimation. In addition, registering all scan pairs is computationally expensive because many pairs provide weak geometric information. To address these problems, we propose GMPCR, a non-learning-based spectral consistency-guided framework for efficient and robust multiview point cloud registration. GMPCR builds a refined second-order compatibility structure from initial correspondences and uses its dominant spectral response to evaluate both correspondence&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.12417"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2609.12682</id><title>NOVA-GS: Noise-Aware View-Consistent Gaussian Splatting for Low-Light Novel View Synthesis</title>
+<link rel="alternate" href="https://arxiv.org/abs/2609.12682"/>
+<published>2026-09-14T04:00:00+00:00</published><updated>2026-09-14T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="novel view synthesis"/>
+<category term="gaussian splatting"/>
+<category term="3d gaussian"/>
+<category term="denoising"/>
+<category term="consistency"/>
+<summary>arXiv:2609.12682v1 Announce Type: new Abstract: Reconstructing 3D scenes under real-world low-light conditions remains challenging due to severe sensor noise, low signal-to-noise ratios, and degraded photometric consistency, which destabilize geometry estimation and novel view synthesis. Existing ap</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 7 · novel view synthesis, gaussian splatting, 3d gaussian, denoising, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.12682v1 Announce Type: new Abstract: Reconstructing 3D scenes under real-world low-light conditions remains challenging due to severe sensor noise, low signal-to-noise ratios, and degraded photometric consistency, which destabilize geometry estimation and novel view synthesis. Existing approaches often rely on well-lit reference data for reliable Structure-from-Motion (SfM) initialization under degraded inputs or apply per-view enhancement methods that introduce cross-view inconsistencies. To address these limitations, we propose \textbf{NOVA-GS}, a unified noise-aware framework for low-light 3D Gaussian Splatting that subsumes enhancement, denoising, and geometry optimization wit&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.12682"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2609.12850</id><title>MGAvatar: Mesh-Bound Gaussians for Head Avatar Geometry and Appearance Modeling</title>
+<link rel="alternate" href="https://arxiv.org/abs/2609.12850"/>
+<published>2026-09-14T04:00:00+00:00</published><updated>2026-09-14T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="avatar"/>
+<category term="rendering"/>
+<category term="consistency"/>
+<category term="multi-view"/>
+<summary>arXiv:2609.12850v1 Announce Type: new Abstract: Accurate head modeling requires a stable yet expressive geometric representation. Existing Gaussian-based head avatars commonly rely on parametric templates (e.g., FLAME) for Gaussian initialization and deformation, but these templates lack personalize</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · avatar, rendering, consistency, multi-view&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.12850v1 Announce Type: new Abstract: Accurate head modeling requires a stable yet expressive geometric representation. Existing Gaussian-based head avatars commonly rely on parametric templates (e.g., FLAME) for Gaussian initialization and deformation, but these templates lack personalized priors and struggle to represent structures such as hair and clothing. To address this issue, we propose MGAvatar, a Gaussian-mesh hybrid representation that jointly models geometry and appearance through two Gaussian-mesh binding modes. Specifically, we introduce vertex-bound Gaussians and constrain their learnable parameters, enabling progressive mesh deformation to represent complex head geom&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.12850"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2512.07197</id><title>SUCCESS-GS: Survey of Compactness and Compression for Efficient Static and Dynamic Gaussian Splatting</title>
+<link rel="alternate" href="https://arxiv.org/abs/2512.07197"/>
+<published>2026-09-14T04:00:00+00:00</published><updated>2026-09-14T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="novel view synthesis"/>
+<category term="gaussian splatting"/>
+<category term="3d gaussian"/>
+<category term="4d"/>
+<category term="3d reconstruction"/>
+<category term="render"/>
+<summary>arXiv:2512.07197v2 Announce Type: replace Abstract: 3D Gaussian Splatting (3DGS) has emerged as a powerful explicit representation enabling real-time, high-fidelity 3D reconstruction and novel view synthesis. However, its practical use is hindered by the massive memory and computational demands requ</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 7 · novel view synthesis, gaussian splatting, 3d gaussian, 4d, 3d reconstruction, render&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2512.07197v2 Announce Type: replace Abstract: 3D Gaussian Splatting (3DGS) has emerged as a powerful explicit representation enabling real-time, high-fidelity 3D reconstruction and novel view synthesis. However, its practical use is hindered by the massive memory and computational demands required to store and render millions of Gaussians. These challenges become even more severe in 4D dynamic scenes. To address these issues, the field of Efficient Gaussian Splatting has rapidly evolved, proposing methods that reduce redundancy while preserving reconstruction quality. This survey provides the first unified overview of efficient 3D and 4D Gaussian Splatting techniques. For both 3D and 4&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2512.07197"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2601.16982</id><title>AnyView: Synthesizing Any Novel View in Dynamic Scenes</title>
+<link rel="alternate" href="https://arxiv.org/abs/2601.16982"/>
+<published>2026-09-14T04:00:00+00:00</published><updated>2026-09-14T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="video generation"/>
+<category term="4d"/>
+<category term="consistency"/>
+<category term="multi-view"/>
+<category term="generative video"/>
+<summary>arXiv:2601.16982v2 Announce Type: replace Abstract: Modern generative video models excel at producing convincing, high-quality outputs, but struggle to maintain multi-view and spatiotemporal consistency in highly dynamic real-world environments. In this work, we introduce $\textbf{AnyView}$, a diffu</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · video generation, 4d, consistency, multi-view, generative video&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2601.16982v2 Announce Type: replace Abstract: Modern generative video models excel at producing convincing, high-quality outputs, but struggle to maintain multi-view and spatiotemporal consistency in highly dynamic real-world environments. In this work, we introduce $\textbf{AnyView}$, a diffusion-based video generation framework for $\textit{dynamic view synthesis}$ with minimal inductive biases or geometric assumptions. We leverage multiple data sources with various levels of supervision, including monocular (2D), multi-view static (3D) and multi-view dynamic (4D) datasets, to train a generalist spatiotemporal implicit representation capable of producing zero-shot novel videos from a&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2601.16982"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2603.12064</id><title>Dense Dynamic Scene Reconstruction and Camera Pose Estimation from Multi-View Videos</title>
+<link rel="alternate" href="https://arxiv.org/abs/2603.12064"/>
+<published>2026-09-14T04:00:00+00:00</published><updated>2026-09-14T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="tracking"/>
+<category term="camera pose"/>
+<category term="camera tracking"/>
+<category term="optical flow"/>
+<category term="motion capture"/>
+<category term="pose estimation"/>
+<category term="consistency"/>
+<category term="multi-view"/>
+<summary>arXiv:2603.12064v3 Announce Type: replace Abstract: We address the challenging problem of dense dynamic scene reconstruction and camera pose estimation from multiple freely moving cameras -- a setting that arises naturally when multiple observers capture a shared event. Prior approaches either handl</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 14 · tracking, camera pose, camera tracking, optical flow, motion capture, pose estimation, consistency, multi-view&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2603.12064v3 Announce Type: replace Abstract: We address the challenging problem of dense dynamic scene reconstruction and camera pose estimation from multiple freely moving cameras -- a setting that arises naturally when multiple observers capture a shared event. Prior approaches either handle only single-camera input or require rigidly mounted, pre-calibrated camera rigs, limiting their practical applicability. We propose a two-stage optimization framework that decouples the task into robust camera tracking and dense depth refinement. In the first stage, we extend single-camera visual SLAM to the multi-camera setting by constructing a spatiotemporal connection graph that exploits bot&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2603.12064"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2607.24495</id><title>NSL-SLAM: High-Fidelity Neural Structured-Light Depth for Practical SLAM and Reconstruction</title>
+<link rel="alternate" href="https://arxiv.org/abs/2607.24495"/>
+<published>2026-09-14T04:00:00+00:00</published><updated>2026-09-14T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="tracking"/>
+<category term="monocular depth"/>
+<category term="stereo"/>
+<category term="slam"/>
+<summary>arXiv:2607.24495v2 Announce Type: replace Abstract: Structured-light (SL) cameras power depth sensing in millions of devices, and recent neural SL decoding methods have substantially improved their depth quality. SLAM systems can benefit greatly from such strong depth sensing, where reliable geometr</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · tracking, monocular depth, stereo, slam&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2607.24495v2 Announce Type: replace Abstract: Structured-light (SL) cameras power depth sensing in millions of devices, and recent neural SL decoding methods have substantially improved their depth quality. SLAM systems can benefit greatly from such strong depth sensing, where reliable geometry enables stable tracking and faithful reconstruction. In this work, we present NSL-SLAM, a practical SLAM system tailored for high-fidelity structured-light depth. We first strengthen SL depth sensing: inspired by the neural structured-light (NSL) method, we further incorporate strong monocular depth priors into the SL stereo decoding, reducing depth RMSE by 35% on Replica-SL compared to NSL. We &lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2607.24495"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1wfry26/vfx_producer_here/</id><title>VFX Producer here!</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wfry26/vfx_producer_here/"/>
+<published>2026-09-14T03:15:08+00:00</published><updated>2026-09-14T03:15:08+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="vfx"/>
+<summary>Hi everyone, I'm a VFX producer with over a decade in VFX (NA). This one is for the students, aspiring artists, or aspiring production personnel. I am offering to do free portfolio reviews and give feedback. I have been in the position of hiring for multiple projects and can give general feedback. I</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi everyone, I'm a VFX producer with over a decade in VFX (NA). This one is for the students, aspiring artists, or aspiring production personnel. I am offering to do free portfolio reviews and give feedback. I have been in the position of hiring for multiple projects and can give general feedback. I've also worked at most of the larger VFX houses in the industry. Feel free to DM if interested! Thanks. submitted by /u/MaxMiuu [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wfry26/vfx_producer_here/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1wfrl9w/how_would_you_approach_this_screen_comp/</id><title>how would you approach this screen comp?</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wfrl9w/how_would_you_approach_this_screen_comp/"/>
+<published>2026-09-14T02:57:43+00:00</published><updated>2026-09-14T02:57:43+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="tracking"/>
+<summary>I'm at my wit's end with this shot. I've tried all I know from 3d to 2d to manual tracking. what am i missing? what can i do? please help!!! submitted by /u/n2591 [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 1 · tracking&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I'm at my wit's end with this shot. I've tried all I know from 3d to 2d to manual tracking. what am i missing? what can i do? please help!!! submitted by /u/n2591 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wfrl9w/how_would_you_approach_this_screen_comp/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wfrc3k/refmods_a_little_easier_to_create_edit_and_use/</id><title>RefMods - A little easier to create, edit, and use with Fantastic Minimax H3 Promptbuilder</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wfrc3k/refmods_a_little_easier_to_create_edit_and_use/"/>
+<published>2026-09-14T02:45:12+00:00</published><updated>2026-09-14T02:45:12+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="minimax"/>
+<category term="lora"/>
+<summary>Repo here- https://github.com/Adudeguyman/ComfyUI-Fantastic-MiniMaxH3-PromptBuilder Alrighty, back again with an update to my (manual, no LLM connected) Fantastic MiniMax H3 Prompt Builder. Yeah it's all vibe-coded to make things work the way that makes sense to me, and I publish it in case anyone e</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Repo here- https://github.com/Adudeguyman/ComfyUI-Fantastic-MiniMaxH3-PromptBuilder Alrighty, back again with an update to my (manual, no LLM connected) Fantastic MiniMax H3 Prompt Builder. Yeah it's all vibe-coded to make things work the way that makes sense to me, and I publish it in case anyone else finds it useful. This now includes RefMods, which if you aren't familiar, is basically a bunch of reference files you give it, packing them into .safetensors latent format for quick loading and surpassing the native built-in reference limit. In the end the idea is to make a somewhat training-free reference you can use on the fly, instead of having to train a LoRa or manually re-load media. The&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wfrc3k/refmods_a_little_easier_to_create_edit_and_use/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wfo9wm/minimax_3step_turbo_lora_taomate_testing/</id><title>Minimax 3Step Turbo Lora Taomate Testing</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wfo9wm/minimax_3step_turbo_lora_taomate_testing/"/>
@@ -82,6 +202,15 @@
 <category term="vfx"/>
 <summary>work - https://readymag.website/u1171308523/Aryamik/ Hi everyone. I'm an entirely self taught cg artist and now that I'm finally done with college I want to actually join a studio, preferably working in cinematics/ shot building or lookdev and lighting. The problem is when I first started creating a</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 1 · vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;work - https://readymag.website/u1171308523/Aryamik/ Hi everyone. I'm an entirely self taught cg artist and now that I'm finally done with college I want to actually join a studio, preferably working in cinematics/ shot building or lookdev and lighting. The problem is when I first started creating art or these pieces I started off with a the goal of being a concept artist. but the lighting side and motion part is what caught my attention over time and now here I am with half baked skills and not enough work to prove that I can work a role. Thus, I seek help from the lovely people on this server. any feedback would be greatly appreciated :) (p.s My degree had nothing to do with vfx or cgi) su&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wfgdil/what_am_i_doing_wrong_and_what_should_i_focus_on/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wffbv1/minimax_h3_neon_genesis_evangelion_gendo_the/</id><title>Minimax H3 - Neon Genesis Evangelion Gendo The Teacher</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wffbv1/minimax_h3_neon_genesis_evangelion_gendo_the/"/>
+<published>2026-09-13T18:20:45+00:00</published><updated>2026-09-13T18:20:45+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="minimax"/>
+<summary>submitted by /u/Certain_Potato_4509 [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/Certain_Potato_4509 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wffbv1/minimax_h3_neon_genesis_evangelion_gendo_the/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wfdzad/style_transfer_capabilities_of_different/</id><title>Style transfer capabilities of different open-source methods 2026 Update</title>
