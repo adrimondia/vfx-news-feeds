@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-09-14T08:30:25+00:00</updated>
+<updated>2026-09-14T10:30:52+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
 <entry>
 <id>https://www.reddit.com/r/vfx/comments/1wfvxlc/just_saw_hope_whaaaaaat/</id><title>Just saw Hope. Whaaaaaat??</title>
@@ -26,6 +26,17 @@
 <category term="cinematic"/>
 <summary>World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio. https://www.openmontage.video/ Monty the Clapper — the official mascot of OpenMontage O</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;GitHub trending (Python) · score 5 · video generation, animation, blender, kling, cinematic&lt;/small&gt;&lt;/p&gt;&lt;p&gt;World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio. https://www.openmontage.video/ Monty the Clapper — the official mascot of OpenMontage OpenMontage The first open-source, agentic video production system. Paste A Video · Quick Start · Try These Prompts · Pipelines · How It Works · Sponsors · Providers · Review Guide · Agent Guide Follow The Build Sponsors Want to support OpenMontage? Sponsor the project . Click to collapse Bloome lets multiple AI agents (Claude, ChatGPT, DeepSeek, and more) collaborate in one conversation for agenti&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.com/calesthio/OpenMontage"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wfu6ow/seed_hunting_tips_in_minimax/</id><title>Seed hunting tips in Minimax?</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wfu6ow/seed_hunting_tips_in_minimax/"/>
+<published>2026-09-14T05:08:47+00:00</published><updated>2026-09-14T05:08:47+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="wan"/>
+<category term="minimax"/>
+<category term="ltx"/>
+<summary>With Wan and LTX I used to test prompts and seed hunt at low res then once I found a good prompt and seed id generate at high res for the final video, unfortunately with Minimax if you change any variable (steps, resolution, duration, loras, etc) the same seed seems to generate a totally different v</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · wan, minimax, ltx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;With Wan and LTX I used to test prompts and seed hunt at low res then once I found a good prompt and seed id generate at high res for the final video, unfortunately with Minimax if you change any variable (steps, resolution, duration, loras, etc) the same seed seems to generate a totally different video. Has anyone found a way to “seed hunt” for a good seed at lower res for quicker generations then somehow crank up the res and or steps and get that same output? submitted by /u/fluce13 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wfu6ow/seed_hunting_tips_in_minimax/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://arxiv.org/abs/2609.12417</id><title>Spectral Consistency-Guided Multiview Point Cloud Registration for Low-Overlap Scenes</title>
@@ -155,6 +166,19 @@
 <category term="animation"/>
 <summary>I did not have much time to work on, but enjoy. submitted by /u/Wakaiko [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · animation&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I did not have much time to work on, but enjoy. submitted by /u/Wakaiko [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wfqx3j/blue_archive_ai_animation_second_progress/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wfp508/generations_turn_out_smearedsmushedwarped_every/</id><title>Generations Turn Out Smeared/Smushed/Warped Every Time?</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wfp508/generations_turn_out_smearedsmushedwarped_every/"/>
+<published>2026-09-14T01:01:37+00:00</published><updated>2026-09-14T01:01:37+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="upscaler"/>
+<category term="comfyui"/>
+<category term="minimax"/>
+<category term="hailuo"/>
+<category term="consistency"/>
+<summary>Not sure what's going on here and could really use some help. This occurs whether I'm trying to describe 2D or 3D videos and across different workflows. I've stepped up my current workflow to 20 steps and the issues persists. Sometimes it will be at the beginning of a video, middle or end. There's n</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 5 · upscaler, comfyui, minimax, hailuo, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Not sure what's going on here and could really use some help. This occurs whether I'm trying to describe 2D or 3D videos and across different workflows. I've stepped up my current workflow to 20 steps and the issues persists. Sometimes it will be at the beginning of a video, middle or end. There's no consistency to when it occurs or which workflow I'm using. Rtx 3090, 13700K, 96GB DDR5 https://preview.redd.it/gcp215w4xdph1.png?width=2131&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=2ab8504bafda6be058f214e39a47af63171dc61d Currently testing with: Default minimax H3 model in ComfyUI This one: Minimax SEED HUNTER Workflow - Latent Upscaler + Seamless Video Continuation + Speedups - v1.6 | Hailuo H3 by MiniMax Workfl&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wfp508/generations_turn_out_smearedsmushedwarped_every/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wfo9wm/minimax_3step_turbo_lora_taomate_testing/</id><title>Minimax 3Step Turbo Lora Taomate Testing</title>
@@ -1849,6 +1873,15 @@
 <category term="lora"/>
 <summary>Live Wallpapers experiment [MiniMax H3 and DLSS 5] Here is the creation process: (video) Initial clips with MiniMax H3 and Lightx2v 8-step Turbo Lora (video) 2x upscale using Ultimate SD Upscale node (up to 1440p): https://github.com/lisitskyaa/ComfyUI_UltimateSDUpscaleGuider_H3 (video) Interpolatio</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 5 · comfyui, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Live Wallpapers experiment [MiniMax H3 and DLSS 5] Here is the creation process: (video) Initial clips with MiniMax H3 and Lightx2v 8-step Turbo Lora (video) 2x upscale using Ultimate SD Upscale node (up to 1440p): https://github.com/lisitskyaa/ComfyUI_UltimateSDUpscaleGuider_H3 (video) Interpolation with GIMM-VFI (24 fps to 48 fps): https://github.com/kijai/ComfyUI-GIMM-VFI (video) Quality enhancement with DLSS 5: https://github.com/lisitskyaa/ComfyUI-DLSS5-NR (audio) Initial music using ACE-Step 1.5XL Turbo (audio) Further music quality enhancement with AudioSR node: https://github.com/Saganaki22/ComfyUI-AudioSR submitted by /u/alisitskii [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wc3feg/peaceful_moments_live_wallpapers_with_minimax_h3/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://huggingface.co/blog/asyncgrpo-lora-hfjobs</id><title>Async GRPO with LoRA across HF Jobs: a bucket, a proxy, and no NCCL</title>
+<link rel="alternate" href="https://huggingface.co/blog/asyncgrpo-lora-hfjobs"/>
+<published>2026-09-10T00:00:00+00:00</published><updated>2026-09-10T00:00:00+00:00</updated>
+<author><name>Hugging Face blog</name></author>
+<category term="lora"/>
+<summary></summary>
+<content type="html">&lt;p&gt;&lt;small&gt;Hugging Face blog · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://huggingface.co/blog/asyncgrpo-lora-hfjobs"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wc2dpx/minimax_h3_quantizations/</id><title>Minimax H3 Quantizations</title>
