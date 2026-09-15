@@ -2,8 +2,55 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-09-15T20:30:47+00:00</updated>
+<updated>2026-09-15T21:37:41+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1whc6py/looking_for_a_specific_lora_i_am_100_sure_i_have/</id><title>Looking for a specific lora, i am 100% sure i have seen it before, can't find it now :(</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1whc6py/looking_for_a_specific_lora_i_am_100_sure_i_have/"/>
+<published>2026-09-15T20:38:43+00:00</published><updated>2026-09-15T20:38:43+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="minimax"/>
+<category term="lora"/>
+<summary>It was a lora that was supposed to help with taking off a bra, for Minimax H3, was released on civitai a few days ago. Can't find it now on civitaired or civarchive :( Has anyone else seen this? Or are my eyes playing tricks on me now? submitted by /u/IRLMainCharacter [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;It was a lora that was supposed to help with taking off a bra, for Minimax H3, was released on civitai a few days ago. Can't find it now on civitaired or civarchive :( Has anyone else seen this? Or are my eyes playing tricks on me now? submitted by /u/IRLMainCharacter [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1whc6py/looking_for_a_specific_lora_i_am_100_sure_i_have/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1whbdje/minimax_h3_latents_as_reference/</id><title>Minimax H3 - Latents as reference</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1whbdje/minimax_h3_latents_as_reference/"/>
+<published>2026-09-15T20:08:40+00:00</published><updated>2026-09-15T20:08:40+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="render"/>
+<category term="blender"/>
+<category term="minimax"/>
+<category term="cinematic"/>
+<summary>Like Flux2 Klein, I've found that Minimax H3 ref2va model is very literal when it comes to interpreting reference images. It's great sometimes, but when you just want "something similar, but not quite this", it can become frustrating. To mitigate this, using a latent instead of an image and adding n</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 5 · render, blender, minimax, cinematic&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Like Flux2 Klein, I've found that Minimax H3 ref2va model is very literal when it comes to interpreting reference images. It's great sometimes, but when you just want "something similar, but not quite this", it can become frustrating. To mitigate this, using a latent instead of an image and adding noise is a good way to get more variety from the reference images, without having to rely on heavy prompting (because that also works). Example Here is a simple block render I made for a completely other purpose than this article. Blender render Here's what happens when I use this as a reference image, with the prompt: integrated_multimodal_description: Scene: Use &amp;lt;Picture 1&amp;gt; ONLY as a compoisition&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1whbdje/minimax_h3_latents_as_reference/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wh9bi4/minimax_h3_ref2v_best_practices_to_keep/</id><title>Minimax H3 Ref2V - best practices to keep consistent character or object scale?</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wh9bi4/minimax_h3_ref2v_best_practices_to_keep/"/>
+<published>2026-09-15T18:55:05+00:00</published><updated>2026-09-15T18:55:05+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="minimax"/>
+<summary>Is there a good method, either in prompting or in designing a character sheet reference image, to enforce relative scale on a person or object? In my experiments with referencing character sheets I’ve tried prompting with something like &lt;subject 1&gt; is slightly taller than &lt;subject 2&gt;, or &lt;subject 1&gt;</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Is there a good method, either in prompting or in designing a character sheet reference image, to enforce relative scale on a person or object? In my experiments with referencing character sheets I’ve tried prompting with something like &amp;lt;subject 1&amp;gt; is slightly taller than &amp;lt;subject 2&amp;gt;, or &amp;lt;subject 1&amp;gt; is much taller than the surrounding crowd This method has limited success, it’s just that the scale variations can at times be inconsistent even in the same shot. Would Minimax be able to read a scale-bar or “object for scale” in a character reference sheet? Or can have some understanding of a high measurement in centimeters? I suspect that some inconsistency is unavoidable but it would be nice t&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wh9bi4/minimax_h3_ref2v_best_practices_to_keep/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wh8hov/lynnrealomni_built_on_minmax_h3_weights_comfy/</id><title>LynnReal-Omni - built on Minmax H3 - weights Comfy nodes available</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wh8hov/lynnrealomni_built_on_minmax_h3_weights_comfy/"/>
+<published>2026-09-15T18:25:44+00:00</published><updated>2026-09-15T18:25:44+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="video generation"/>
+<category term="text-to-video"/>
+<category term="image-to-video"/>
+<category term="video editing"/>
+<category term="rendering"/>
+<category term="comfyui"/>
+<category term="minimax"/>
+<category term="diffusion transformer"/>
+<summary>Github: https://github.com/LynnReal-AI/LynnReal-Omni Models: https://huggingface.co/stdstu123/LynnReal-Onmi-beta-0.1/tree/main/comfyui/models/diffusion_models One model, unified across many video tasks. Built on a 32B shared multimodal diffusion transformer (following the MiniMax H3 architecture), L</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 8 · video generation, text-to-video, image-to-video, video editing, rendering, comfyui, minimax, diffusion transformer&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Github: https://github.com/LynnReal-AI/LynnReal-Omni Models: https://huggingface.co/stdstu123/LynnReal-Onmi-beta-0.1/tree/main/comfyui/models/diffusion_models One model, unified across many video tasks. Built on a 32B shared multimodal diffusion transformer (following the MiniMax H3 architecture), LynnReal-Omni brings text-to-video, image-to-video, human- and hand-pose guided generation, structural control, omni-reference generation, style transfer, video editing, degraded-video restoration (we find that it also repairs videos affected by accumulated error) and streaming long-video generation into a single framework, all at four-step fast generation. It also accepts heterogeneous inputs such&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wh8hov/lynnrealomni_built_on_minmax_h3_weights_comfy/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wh89rt/meridian_camera_control_fov_and_bullet_time_for/</id><title>Meridian: camera control, FOV, and bullet time for existing videos, based on Minimax-h3</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wh89rt/meridian_camera_control_fov_and_bullet_time_for/"/>
@@ -24,6 +71,26 @@
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/JamesSlade [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wh6qfc/ilm_alum_fon_davis_featured_in_this_3_generations/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wh62po/scale_reel_creation/</id><title>Scale reel creation</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wh62po/scale_reel_creation/"/>
+<published>2026-09-15T17:00:33+00:00</published><updated>2026-09-15T17:00:33+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="video generation"/>
+<category term="comfyui"/>
+<category term="minimax"/>
+<summary>Hello guys, I’m new to the ComfyUI space and currently using some relatively basic workflows, mainly Minimax H3. The main issue I’m running into is scaling. Even a 6–8 second video can take around 20–30 minutes to generate, and obviously the first result might not be usable, so sometimes I need mult</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · video generation, comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hello guys, I’m new to the ComfyUI space and currently using some relatively basic workflows, mainly Minimax H3. The main issue I’m running into is scaling. Even a 6–8 second video can take around 20–30 minutes to generate, and obviously the first result might not be usable, so sometimes I need multiple generations just to get one video I’m happy with. This is fine when generating a few videos manually, but I’m trying to understand how people scale this when they need much higher volume, for example 30-50+ videos per day. Right now I’m running ComfyUI on a cloud GPU, but generating everything sequentially clearly won’t scale. So I’m trying to understand what the normal setup is for larger-sc&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wh62po/scale_reel_creation/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wh5you/searching_old_comfyui_generations_by_their_recipe/</id><title>Searching old ComfyUI generations by their recipe (early open-source project, looking for feedback)</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wh5you/searching_old_comfyui_generations_by_their_recipe/"/>
+<published>2026-09-15T16:56:38+00:00</published><updated>2026-09-15T16:56:38+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<summary>I'm working on an open-source, local desktop app for organizing AI-generated images. This is a 1-minute look at our ComfyUI extension at its current, very early stage. It reads the recipe already embedded in your ComfyUI images (prompt, parameters, workflow), lets you search across all of them, and </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I'm working on an open-source, local desktop app for organizing AI-generated images. This is a 1-minute look at our ComfyUI extension at its current, very early stage. It reads the recipe already embedded in your ComfyUI images (prompt, parameters, workflow), lets you search across all of them, and lets you edit from within Picteus. It's basic right now, I'm just sharing here in case anyone would like to share their feedback on this or would like to test the application. That's all. The project is built so the extension can be changed quickly, and you can extend it yourself with a few lines of code if you want. A few questions if you have a minute: When you need an old generation, how do you&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wh5you/searching_old_comfyui_generations_by_their_recipe/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wh5711/character_consistency/</id><title>Character Consistency</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wh5711/character_consistency/"/>
 <published>2026-09-15T16:28:44+00:00</published><updated>2026-09-15T16:28:44+00:00</updated>
@@ -35,6 +102,37 @@
 <category term="character consistency"/>
 <summary>Howdy! I'm new to Generative AI, have only been tinkering with it for about a month or two, but I'm having issues with keeping my characters consistent in appearance when doing image-to-video. I'm using Wan2gp through Pinokio (ComfyUI is just way too complicated for my liking) and mostly using LTX 2</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 7 · image-to-video, comfyui, ltx, consistency, character consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Howdy! I'm new to Generative AI, have only been tinkering with it for about a month or two, but I'm having issues with keeping my characters consistent in appearance when doing image-to-video. I'm using Wan2gp through Pinokio (ComfyUI is just way too complicated for my liking) and mostly using LTX 2.3. Any suggestions/recommendations? submitted by /u/BrianChristgau [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wh5711/character_consistency/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wh55ag/maintaining_character_consistency_for_non_humans/</id><title>Maintaining character consistency for non humans</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wh55ag/maintaining_character_consistency_for_non_humans/"/>
+<published>2026-09-15T16:26:56+00:00</published><updated>2026-09-15T16:26:56+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="consistency"/>
+<category term="character consistency"/>
+<summary>I’m planning to put together a comic book style recap of my dnd sessions. I’ve played around with some different image generation models and have a small collection of pictures that I like for everyone. Now I need to train some character loras and I’m feeling a bit lost with all of the options. Is t</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · consistency, character consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I’m planning to put together a comic book style recap of my dnd sessions. I’ve played around with some different image generation models and have a small collection of pictures that I like for everyone. Now I need to train some character loras and I’m feeling a bit lost with all of the options. Is there an option that will work well for training character loras for dnd races? I’m not too worried about the human or the elves, but I am worried about the tortle, Dragonborn, and aarakocra. submitted by /u/theblackcrayon4 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wh55ag/maintaining_character_consistency_for_non_humans/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wh4tu3/a_quick_minimax_h3_news_roundup_15th_september/</id><title>A quick Minimax H3 news round-up - 15th September 2026</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wh4tu3/a_quick_minimax_h3_news_roundup_15th_september/"/>
+<published>2026-09-15T16:15:03+00:00</published><updated>2026-09-15T16:15:03+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<category term="minimax"/>
+<category term="lora"/>
+<summary>Another quick Minimax H3 news and goodies round-up, for those who may have missed some items. -&gt; Who knew? The official Minimax H3 repository has a Skills folder. Eight of these Skills are style/narrative specific. e.g. "Explain science, education, or general knowledge through tactile handmade paper</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · comfyui, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Another quick Minimax H3 news and goodies round-up, for those who may have missed some items. -&amp;gt; Who knew? The official Minimax H3 repository has a Skills folder. Eight of these Skills are style/narrative specific. e.g. "Explain science, education, or general knowledge through tactile handmade papercraft visuals." The Skills should work with anything that... "can read a SKILL.md local file". https://github.com/MiniMax-AI/MiniMax-H3/tree/main/skills https://www.jan.ai/docs/agent/skills (readme for Skills in the local desktop llama.cpp GGUF-runner Jan.ai) -&amp;gt; There are now a couple more ComfyUI-friendly versions of the TaoMate 3-step LoRA. https://huggingface.co/Asirus/TaoMate_H3_3_Step_LoRA/tr&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wh4tu3/a_quick_minimax_h3_news_roundup_15th_september/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wh4k58/how_do_you_organize_parameter_sweeps_and_revisit/</id><title>How do you organize parameter sweeps and revisit the best results?</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wh4k58/how_do_you_organize_parameter_sweeps_and_revisit/"/>
+<published>2026-09-15T16:04:57+00:00</published><updated>2026-09-15T16:04:57+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<category term="lora"/>
+<summary>For people who run parameter sweeps in ComfyUI, how do you handle the process from setting up the variations to revisiting the results? Say you vary CFG against LoRA strength and get a grid of results. You pick a few good ones, then come back a week later to continue experimenting. How do you keep t</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;For people who run parameter sweeps in ComfyUI, how do you handle the process from setting up the variations to revisiting the results? Say you vary CFG against LoRA strength and get a grid of results. You pick a few good ones, then come back a week later to continue experimenting. How do you keep track of what worked? What do you use to run the sweep: XY plots, custom nodes, scripts, or manual changes? How do you set up the parameters and values to test? Do you put parameter values into filenames or folders, rely on embedded metadata, or use something else? How do you get from a promising image back to the setup that produced it? Does your current setup make this straightforward, or is ther&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wh4k58/how_do_you_organize_parameter_sweeps_and_revisit/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wh43wk/an_easier_way_to_control_pose_in_minimax_h3/</id><title>An easier way to control pose in MiniMax H3</title>
@@ -56,6 +154,21 @@
 <category term="blender"/>
 <summary>Hello. We are the team at Toiki3D (Which includes me and my pet potato plant). I would like to announce Toiki3D, a procedural DCC application designed for 3D artists that want all of the steps of their work to persist through time. Every sculpting/modeling/painting step you take in the application g</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 1 · blender&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hello. We are the team at Toiki3D (Which includes me and my pet potato plant). I would like to announce Toiki3D, a procedural DCC application designed for 3D artists that want all of the steps of their work to persist through time. Every sculpting/modeling/painting step you take in the application gets stored as a node and can be replayed and adjusted with automatic propagation down history steps. Here is a little timelapse of the sculpt in the post: https://www.youtube.com/watch?v=U49gA7jS8Ns Here is a little showcaase of the nonlinear history workflow in the program: https://youtu.be/VkJLCEZjxTk This project of mine has been in the works for over 3 years now, I've poured my heart and soul &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wh3voh/introducing_toiki3d_the_worlds_first_dedicated/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wh2kcc/hey_everyone_im_relatively_new_to_video/</id><title>Hey everyone, I’m relatively new to video generation in ComfyUI and want to start making short clips?</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wh2kcc/hey_everyone_im_relatively_new_to_video/"/>
+<published>2026-09-15T14:52:01+00:00</published><updated>2026-09-15T14:52:01+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="video generation"/>
+<category term="text-to-video"/>
+<category term="image-to-video"/>
+<category term="comfyui"/>
+<category term="wan"/>
+<category term="hunyuanvideo"/>
+<category term="controlnet"/>
+<summary>Hey everyone, I’m relatively new to video generation in ComfyUI and want to start making short clips. My Specs: GPU: RTX 5080 (16GB VRAM) RAM: 32GB DDR5-6000 I’m looking for recommendations on the most efficient models and workflow paths for: Image-to-Video (I2V) &amp; Text-to-Video (T2V): Between LTX-V</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 9 · video generation, text-to-video, image-to-video, comfyui, wan, hunyuanvideo, controlnet&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey everyone, I’m relatively new to video generation in ComfyUI and want to start making short clips. My Specs: GPU: RTX 5080 (16GB VRAM) RAM: 32GB DDR5-6000 I’m looking for recommendations on the most efficient models and workflow paths for: Image-to-Video (I2V) &amp;amp; Text-to-Video (T2V): Between LTX-Video, HunyuanVideo (GGUF/FP8), and Wan 2.1, what runs smoothest on this setup without choking the VRAM? Styling &amp;amp; Motion Control: Best practices for combining LoRAs and ControlNet/motion control with these newer video architectures. If you have tested starter JSON workflow templates or essential custom node packs to recommend, please share. Thanks! submitted by /u/sultan_2020 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wh2kcc/hey_everyone_im_relatively_new_to_video/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wh2994/should_i_drop_8k_on_this/</id><title>Should I drop €8k on this..</title>
@@ -105,6 +218,17 @@
 <category term="houdini"/>
 <summary>"The Floating Palazzo" — my gateway project into Houdini for architecture. Rendered in Redshift. submitted by /u/k_johnyim [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 1 · houdini&lt;/small&gt;&lt;/p&gt;&lt;p&gt;"The Floating Palazzo" — my gateway project into Houdini for architecture. Rendered in Redshift. submitted by /u/k_johnyim [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wgyhuq/a_house_on_the_water_premiered_at_the_first_ever/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wgy75q/minimax_h3_t2v_keeps_generating_similar_faces/</id><title>MiniMax H3 T2V keeps generating similar faces</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wgy75q/minimax_h3_t2v_keeps_generating_similar_faces/"/>
+<published>2026-09-15T11:51:53+00:00</published><updated>2026-09-15T11:51:53+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<category term="wan"/>
+<category term="minimax"/>
+<summary>I’m using MiniMax H3 T2V in ComfyUI and noticed that with the same prompt, the generated characters often have very similar faces, even with different/random seeds. With WAN, this worked much better for me every generation usually gave me a clearly different character/face. I actually want maximum f</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · comfyui, wan, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I’m using MiniMax H3 T2V in ComfyUI and noticed that with the same prompt, the generated characters often have very similar faces, even with different/random seeds. With WAN, this worked much better for me every generation usually gave me a clearly different character/face. I actually want maximum face/identity variation between generations. Has anyone had the same issue with H3 and found a way to make the faces more random/different? submitted by /u/ThrowAwayBiCall911 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wgy75q/minimax_h3_t2v_keeps_generating_similar_faces/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wgy5wa/minimax_h3_fixing_face_distortion_with_a/</id><title>MiniMax H3: Fixing Face Distortion with a Portrait-Distance Lock</title>
@@ -211,6 +335,16 @@
 <category term="lora"/>
 <summary>I'm using the comfyui ref2va template for minimax h3 with the H3 motion context extender and the clips seem to keep getting brighter and more exposed over time. Any tips to fix this? I'm also running the turbo lora. submitted by /u/superdeathkillers [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · comfyui, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I'm using the comfyui ref2va template for minimax h3 with the H3 motion context extender and the clips seem to keep getting brighter and more exposed over time. Any tips to fix this? I'm also running the turbo lora. submitted by /u/superdeathkillers [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wgs8np/continuing_from_clips_seems_to_brighten_video/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wgrps6/why_is_everyone_minimax_h3_over_ltx_25/</id><title>Why is everyone Minimax H3 over LTX 2.5?</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wgrps6/why_is_everyone_minimax_h3_over_ltx_25/"/>
+<published>2026-09-15T05:47:16+00:00</published><updated>2026-09-15T05:47:16+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="minimax"/>
+<category term="ltx"/>
+<summary>submitted by /u/ForesterAI [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · minimax, ltx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/ForesterAI [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wgrps6/why_is_everyone_minimax_h3_over_ltx_25/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1wgpyi4/yet_another_is_amd_good_at_comfyui_things_now_post/</id><title>Yet Another "Is AMD Good at ComfyUI Things now?" Post</title>
