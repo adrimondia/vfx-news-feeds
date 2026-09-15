@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-09-15T21:37:41+00:00</updated>
+<updated>2026-09-15T22:30:18+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1whc6py/looking_for_a_specific_lora_i_am_100_sure_i_have/</id><title>Looking for a specific lora, i am 100% sure i have seen it before, can't find it now :(</title>
@@ -27,6 +27,15 @@
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 5 · render, blender, minimax, cinematic&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Like Flux2 Klein, I've found that Minimax H3 ref2va model is very literal when it comes to interpreting reference images. It's great sometimes, but when you just want "something similar, but not quite this", it can become frustrating. To mitigate this, using a latent instead of an image and adding noise is a good way to get more variety from the reference images, without having to rely on heavy prompting (because that also works). Example Here is a simple block render I made for a completely other purpose than this article. Blender render Here's what happens when I use this as a reference image, with the prompt: integrated_multimodal_description: Scene: Use &amp;lt;Picture 1&amp;gt; ONLY as a compoisition&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1whbdje/minimax_h3_latents_as_reference/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
+<id>https://www.reddit.com/r/vfx/comments/1whahan/spiderman_3d_animation/</id><title>Spider-Man 3D animation</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1whahan/spiderman_3d_animation/"/>
+<published>2026-09-15T19:36:31+00:00</published><updated>2026-09-15T19:36:31+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="animation"/>
+<summary>submitted by /u/wurq8 [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · animation&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/wurq8 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1whahan/spiderman_3d_animation/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wh9bi4/minimax_h3_ref2v_best_practices_to_keep/</id><title>Minimax H3 Ref2V - best practices to keep consistent character or object scale?</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wh9bi4/minimax_h3_ref2v_best_practices_to_keep/"/>
 <published>2026-09-15T18:55:05+00:00</published><updated>2026-09-15T18:55:05+00:00</updated>
@@ -34,6 +43,15 @@
 <category term="minimax"/>
 <summary>Is there a good method, either in prompting or in designing a character sheet reference image, to enforce relative scale on a person or object? In my experiments with referencing character sheets I’ve tried prompting with something like &lt;subject 1&gt; is slightly taller than &lt;subject 2&gt;, or &lt;subject 1&gt;</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Is there a good method, either in prompting or in designing a character sheet reference image, to enforce relative scale on a person or object? In my experiments with referencing character sheets I’ve tried prompting with something like &amp;lt;subject 1&amp;gt; is slightly taller than &amp;lt;subject 2&amp;gt;, or &amp;lt;subject 1&amp;gt; is much taller than the surrounding crowd This method has limited success, it’s just that the scale variations can at times be inconsistent even in the same shot. Would Minimax be able to read a scale-bar or “object for scale” in a character reference sheet? Or can have some understanding of a high measurement in centimeters? I suspect that some inconsistency is unavoidable but it would be nice t&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wh9bi4/minimax_h3_ref2v_best_practices_to_keep/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1wh98ug/crate_open_source_nuke_asset_browser_with/</id><title>Crate - Open source Nuke asset browser with Gaussian splats support</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wh98ug/crate_open_source_nuke_asset_browser_with/"/>
+<published>2026-09-15T18:52:27+00:00</published><updated>2026-09-15T18:52:27+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="nuke"/>
+<summary>Crate is an open source asset browser and processing suite that runs inside Nuke. Gaussian splats and geometry with 3D preview before import, sequences, video, images, a camera database and batch conversion panels. Built for multi-user network asset sharing. repo: https://github.com/CrateTools/Crate</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · nuke&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Crate is an open source asset browser and processing suite that runs inside Nuke. Gaussian splats and geometry with 3D preview before import, sequences, video, images, a camera database and batch conversion panels. Built for multi-user network asset sharing. repo: https://github.com/CrateTools/Crate https://preview.redd.it/zxrsu4899qph1.png?width=1875&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=a292d75ea5eb577e98ad3d8fd1f7a005a6db0881 submitted by /u/Select_Page9496 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wh98ug/crate_open_source_nuke_asset_browser_with/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wh8hov/lynnrealomni_built_on_minmax_h3_weights_comfy/</id><title>LynnReal-Omni - built on Minmax H3 - weights Comfy nodes available</title>
