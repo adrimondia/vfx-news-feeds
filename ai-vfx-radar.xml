@@ -2,8 +2,40 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-09-15T16:30:53+00:00</updated>
+<updated>2026-09-15T18:30:28+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wh89rt/meridian_camera_control_fov_and_bullet_time_for/</id><title>Meridian: camera control, FOV, and bullet time for existing videos, based on Minimax-h3</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wh89rt/meridian_camera_control_fov_and_bullet_time_for/"/>
+<published>2026-09-15T18:17:59+00:00</published><updated>2026-09-15T18:17:59+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="video-to-video"/>
+<category term="camera control"/>
+<summary>Meridian is a video-to-video model based on MiniMax-H3 that generates new viewpoints of existing footage. Three highlights: Camera paths + FOV: combine orbits, dollies, and slides into complex paths, controlling camera position, viewing direction, and field of view. Bullet time: freeze the action wh</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · video-to-video, camera control&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Meridian is a video-to-video model based on MiniMax-H3 that generates new viewpoints of existing footage. Three highlights: Camera paths + FOV: combine orbits, dollies, and slides into complex paths, controlling camera position, viewing direction, and field of view. Bullet time: freeze the action while the camera keeps moving. Fast preview: once geometry is reconstructed, preview framing and camera movement before spending GPU time on generation. Still early: large viewpoint changes can produce artifacts X: https://x.com/ViggleAI/status/2099917946420117996 Hugging Face: https://huggingface.co/Viggle/Meridian Try it online: https://huggingface.co/spaces/Viggle/Meridian submitted by /u/init-5 &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wh89rt/meridian_camera_control_fov_and_bullet_time_for/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1wh6qfc/ilm_alum_fon_davis_featured_in_this_3_generations/</id><title>ILM Alum Fon Davis featured in this 3 Generations of VFX Artists video</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wh6qfc/ilm_alum_fon_davis_featured_in_this_3_generations/"/>
+<published>2026-09-15T17:23:39+00:00</published><updated>2026-09-15T17:23:39+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="vfx"/>
+<summary>submitted by /u/JamesSlade [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/JamesSlade [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wh6qfc/ilm_alum_fon_davis_featured_in_this_3_generations/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wh5711/character_consistency/</id><title>Character Consistency</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wh5711/character_consistency/"/>
+<published>2026-09-15T16:28:44+00:00</published><updated>2026-09-15T16:28:44+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="image-to-video"/>
+<category term="comfyui"/>
+<category term="ltx"/>
+<category term="consistency"/>
+<category term="character consistency"/>
+<summary>Howdy! I'm new to Generative AI, have only been tinkering with it for about a month or two, but I'm having issues with keeping my characters consistent in appearance when doing image-to-video. I'm using Wan2gp through Pinokio (ComfyUI is just way too complicated for my liking) and mostly using LTX 2</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 7 · image-to-video, comfyui, ltx, consistency, character consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Howdy! I'm new to Generative AI, have only been tinkering with it for about a month or two, but I'm having issues with keeping my characters consistent in appearance when doing image-to-video. I'm using Wan2gp through Pinokio (ComfyUI is just way too complicated for my liking) and mostly using LTX 2.3. Any suggestions/recommendations? submitted by /u/BrianChristgau [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wh5711/character_consistency/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wh43wk/an_easier_way_to_control_pose_in_minimax_h3/</id><title>An easier way to control pose in MiniMax H3</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wh43wk/an_easier_way_to_control_pose_in_minimax_h3/"/>
@@ -15,6 +47,15 @@
 <category term="controlnet"/>
 <summary>For me, figuring out how to use H3's reference video to control character motion in generated videos has been a deep and difficult challenge. Most of the time the results are imperfect, and the sampling time is significantly longer than normal generation. Of course, fun controlnet gives us a "tradit</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 5 · outpainting, flux, minimax, controlnet&lt;/small&gt;&lt;/p&gt;&lt;p&gt;For me, figuring out how to use H3's reference video to control character motion in generated videos has been a deep and difficult challenge. Most of the time the results are imperfect, and the sampling time is significantly longer than normal generation. Of course, fun controlnet gives us a "traditional" way to control poses and motion, but its limitations are well known — you have to convert the control video to open pose first, which not only adds processing time, but also struggles to produce good results when body proportions are inconsistent. Just as I was struggling with this, I suddenly thought of another "traditional" approach — the same way I used when I achieved consistent charact&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wh43wk/an_easier_way_to_control_pose_in_minimax_h3/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1wh3voh/introducing_toiki3d_the_worlds_first_dedicated/</id><title>Introducing Toiki3D, the world's first dedicated procedural sculpting and modeling software</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wh3voh/introducing_toiki3d_the_worlds_first_dedicated/"/>
+<published>2026-09-15T15:40:45+00:00</published><updated>2026-09-15T15:40:45+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="blender"/>
+<summary>Hello. We are the team at Toiki3D (Which includes me and my pet potato plant). I would like to announce Toiki3D, a procedural DCC application designed for 3D artists that want all of the steps of their work to persist through time. Every sculpting/modeling/painting step you take in the application g</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 1 · blender&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hello. We are the team at Toiki3D (Which includes me and my pet potato plant). I would like to announce Toiki3D, a procedural DCC application designed for 3D artists that want all of the steps of their work to persist through time. Every sculpting/modeling/painting step you take in the application gets stored as a node and can be replayed and adjusted with automatic propagation down history steps. Here is a little timelapse of the sculpt in the post: https://www.youtube.com/watch?v=U49gA7jS8Ns Here is a little showcaase of the nonlinear history workflow in the program: https://youtu.be/VkJLCEZjxTk This project of mine has been in the works for over 3 years now, I've poured my heart and soul &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wh3voh/introducing_toiki3d_the_worlds_first_dedicated/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wh2994/should_i_drop_8k_on_this/</id><title>Should I drop €8k on this..</title>
@@ -55,6 +96,15 @@
 <category term="storyboard"/>
 <summary>Been messing with LTX and a few others in ComfyUI on a single box. Get decent clips, but stitching them into anything longer than 5 seconds turns into a mess of manual steps. Want to see how people actually run it end to end: 1. Prompt/storyboard → what tool 2. Generation → which model and why 3. Up</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, ltx, storyboard&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Been messing with LTX and a few others in ComfyUI on a single box. Get decent clips, but stitching them into anything longer than 5 seconds turns into a mess of manual steps. Want to see how people actually run it end to end: 1. Prompt/storyboard → what tool 2. Generation → which model and why 3. Upscale / frame interp / fixing the wobble 4. Cutting it together and audio Especially interested if you've automated any of the glue between steps. Not after cloud services — local only. submitted by /u/Normal_Frosting8519 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wgzbdf/local_video_gen_what_does_your_actual_pipeline/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1wgyhuq/a_house_on_the_water_premiered_at_the_first_ever/</id><title>A house on the water 🏛️🌊 — premiered at the first ever HIVEalt, London</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wgyhuq/a_house_on_the_water_premiered_at_the_first_ever/"/>
+<published>2026-09-15T12:04:58+00:00</published><updated>2026-09-15T12:04:58+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="houdini"/>
+<summary>"The Floating Palazzo" — my gateway project into Houdini for architecture. Rendered in Redshift. submitted by /u/k_johnyim [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 1 · houdini&lt;/small&gt;&lt;/p&gt;&lt;p&gt;"The Floating Palazzo" — my gateway project into Houdini for architecture. Rendered in Redshift. submitted by /u/k_johnyim [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wgyhuq/a_house_on_the_water_premiered_at_the_first_ever/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wgy5wa/minimax_h3_fixing_face_distortion_with_a/</id><title>MiniMax H3: Fixing Face Distortion with a Portrait-Distance Lock</title>
