@@ -2,8 +2,40 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-09-15T14:30:50+00:00</updated>
+<updated>2026-09-15T16:30:53+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wh43wk/an_easier_way_to_control_pose_in_minimax_h3/</id><title>An easier way to control pose in MiniMax H3</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wh43wk/an_easier_way_to_control_pose_in_minimax_h3/"/>
+<published>2026-09-15T15:48:51+00:00</published><updated>2026-09-15T15:48:51+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="outpainting"/>
+<category term="flux"/>
+<category term="minimax"/>
+<category term="controlnet"/>
+<summary>For me, figuring out how to use H3's reference video to control character motion in generated videos has been a deep and difficult challenge. Most of the time the results are imperfect, and the sampling time is significantly longer than normal generation. Of course, fun controlnet gives us a "tradit</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 5 · outpainting, flux, minimax, controlnet&lt;/small&gt;&lt;/p&gt;&lt;p&gt;For me, figuring out how to use H3's reference video to control character motion in generated videos has been a deep and difficult challenge. Most of the time the results are imperfect, and the sampling time is significantly longer than normal generation. Of course, fun controlnet gives us a "traditional" way to control poses and motion, but its limitations are well known — you have to convert the control video to open pose first, which not only adds processing time, but also struggles to produce good results when body proportions are inconsistent. Just as I was struggling with this, I suddenly thought of another "traditional" approach — the same way I used when I achieved consistent charact&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wh43wk/an_easier_way_to_control_pose_in_minimax_h3/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wh2994/should_i_drop_8k_on_this/</id><title>Should I drop €8k on this..</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wh2994/should_i_drop_8k_on_this/"/>
+<published>2026-09-15T14:40:01+00:00</published><updated>2026-09-15T14:40:01+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="video generation"/>
+<category term="animation"/>
+<summary>I’m debating spending about €8k on a 5090 + 128GB RAM workstation for local AI inference. I have a full-time job, but I also run an AI side business that already makes real money, and my goal is potentially to take it full time eventually. My workloads are mainly image generation, video generation a</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · video generation, animation&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I’m debating spending about €8k on a 5090 + 128GB RAM workstation for local AI inference. I have a full-time job, but I also run an AI side business that already makes real money, and my goal is potentially to take it full time eventually. My workloads are mainly image generation, video generation and animation, not really LLMs. Because it’s a business purchase, I can deduct the VAT and get roughly another €2k benefit through tax write-offs, so the actual cost is meaningfully lower than €8k. My dilemma is whether I’m being stupid buying at current insane GPU/RAM prices when cloud GPUs like RunPod/Vast are still relatively affordable. I could realistically see myself running image/video workl&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wh2994/should_i_drop_8k_on_this/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wh10ee/yue2_instrumental_lora/</id><title>YuE2 Instrumental LoRA</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wh10ee/yue2_instrumental_lora/"/>
+<published>2026-09-15T13:52:01+00:00</published><updated>2026-09-15T13:52:01+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<category term="lora"/>
+<summary>Edit: I forgot ComfyUI does goofy stuff with their layer naming conventions. I'll have a comfyUI compatible version available in just a few minutes. Apologies for the oversight. Trained on 2,700 instrumental tracks across 100+ genres and includes three different options for how to prompt the lyrics </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Edit: I forgot ComfyUI does goofy stuff with their layer naming conventions. I'll have a comfyUI compatible version available in just a few minutes. Apologies for the oversight. Trained on 2,700 instrumental tracks across 100+ genres and includes three different options for how to prompt the lyrics field: 1. Bare — let the model choose the structure and length. [instrumental] 2. Untimed tags — you choose the section order, the model chooses the timing. [intro] [verse] [chorus] [bridge] [chorus] [outro] 3. Timed tags — you also give each section a start and end in m:ss . The model was trained with exact section times from real tracks, so this is the strongest structural steer. Treat the times&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wh10ee/yue2_instrumental_lora/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wgzlx2/looking_for_a_free_ai_model_for_highquality/</id><title>Looking for a free AI model for high-quality architectural rendering</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wgzlx2/looking_for_a_free_ai_model_for_highquality/"/>
