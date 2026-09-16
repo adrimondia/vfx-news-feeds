@@ -2,8 +2,19 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-09-16T20:30:23+00:00</updated>
+<updated>2026-09-16T22:30:23+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wi85by/for_anyone_wondering_how_i_manage_to_do_this/</id><title>For anyone wondering how I manage to do this, here’s a quick explanation with a small tutorial</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wi85by/for_anyone_wondering_how_i_manage_to_do_this/"/>
+<published>2026-09-16T20:02:49+00:00</published><updated>2026-09-16T20:02:49+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="gaussian splatting"/>
+<category term="minimax"/>
+<category term="ai video"/>
+<summary>First, in Minimax, I use a prompt like this: “The character remains completely frozen in place, perfectly still like a statue. The camera smoothly orbits 360 degrees around the character in one continuous shot. No character movement, no pose change, no cuts.” Then I use COLMAP: Create a new database</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · gaussian splatting, minimax, ai video&lt;/small&gt;&lt;/p&gt;&lt;p&gt;First, in Minimax, I use a prompt like this: “The character remains completely frozen in place, perfectly still like a statue. The camera smoothly orbits 360 degrees around the character in one continuous shot. No character movement, no pose change, no cuts.” Then I use COLMAP: Create a new database and import the frames extracted from the Minimax video. Go to Processing → Feature Extraction. The important part is to select SIMPLE_PINHOLE as the camera model, then click "Extract". Next, go to "Feature Matching" and click "Run". After that, go to Reconstruction → Start Reconstruction. Once the reconstruction is finished, select "Export Model" to export the camera and reconstruction data. You &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wi85by/for_anyone_wondering_how_i_manage_to_do_this/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/vfx/comments/1wi6yr5/the_sidefx_houdini_docs_are_actually_readable_now/</id><title>The SideFX Houdini Docs Are Actually Readable Now !</title>
 <link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wi6yr5/the_sidefx_houdini_docs_are_actually_readable_now/"/>
@@ -145,6 +156,15 @@
 <category term="stereo"/>
 <summary>I've been hearing a lot of people talk about this model and decided to give it a try. Suffice to say, i'm really impressed with it. The quality is certainly above any previous local model i've tried, like Ace and Minimax Music 3. I would go ever as far as to say it rivals Suno in certain cases. The </summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · smoke, comfyui, minimax, stereo&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I've been hearing a lot of people talk about this model and decided to give it a try. Suffice to say, i'm really impressed with it. The quality is certainly above any previous local model i've tried, like Ace and Minimax Music 3. I would go ever as far as to say it rivals Suno in certain cases. The only thing i've noticed is that if the music is too long, like in this example, it's more likely for distortions to occur and for lyrics to be messed up or skipped towards the end. Anyway, for anyone who wants to generate their own music locally without paying for credits or a subscription, YuE2 is currently the best option in my opinion. To generate this music i've used the standard YuE2 text to &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1whx7kp/ive_been_playing_around_with_yue2_and_i_must_say/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1whwwft/cyberpunk_graphic_animation/</id><title>Cyberpunk graphic animation</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1whwwft/cyberpunk_graphic_animation/"/>
+<published>2026-09-16T13:13:53+00:00</published><updated>2026-09-16T13:13:53+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="animation"/>
+<summary>Made a quick clip for cp77 and i thought it turned out nice but a bit of the text was off submitted by /u/Ok-Brain-5729 [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · animation&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Made a quick clip for cp77 and i thought it turned out nice but a bit of the text was off submitted by /u/Ok-Brain-5729 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1whwwft/cyberpunk_graphic_animation/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1whwscf/sensenovau15_technical_report_vaefree_native_4k/</id><title>SenseNova-U1.5 Technical Report: VAE-free Native 4K Generation with Spatial Patch Reconstruction</title>
