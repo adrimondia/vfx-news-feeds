@@ -2,8 +2,97 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-09-16T02:30:37+00:00</updated>
+<updated>2026-09-16T04:30:19+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://arxiv.org/abs/2609.16310</id><title>Racing in Volume with Flow Ensembles</title>
+<link rel="alternate" href="https://arxiv.org/abs/2609.16310"/>
+<published>2026-09-16T04:00:00+00:00</published><updated>2026-09-16T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="gaussian splatting"/>
+<category term="4d"/>
+<category term="optical flow"/>
+<category term="unreal"/>
+<category term="unreal engine"/>
+<summary>arXiv:2609.16310v1 Announce Type: new Abstract: Streaming 4D reconstruction has been demonstrated only indoors, on dense camera rigs surrounding subjects that move at human pace. Outdoor 4D reconstruction exists but relies either on cameras mounted on the moving vehicle itself, or on limited-coverag</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · gaussian splatting, 4d, optical flow, unreal, unreal engine&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.16310v1 Announce Type: new Abstract: Streaming 4D reconstruction has been demonstrated only indoors, on dense camera rigs surrounding subjects that move at human pace. Outdoor 4D reconstruction exists but relies either on cameras mounted on the moving vehicle itself, or on limited-coverage arrays observing quasi-static subjects offline. The case that actually matters for spectators is a fast-moving subject, watched from a sparse ring of allocentric cameras, streaming. No method targets this, and no benchmark exists to evaluate one. To this end, we introduce FastFlowGS, a streaming 4D Gaussian Splatting method for reconstructing fast-moving subjects from a small set of fixed extern&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.16310"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2609.16684</id><title>MEgoVista: Multi-view Ego-aware Motion Estimation for Metric 4D Hands and Head in the Wild</title>
+<link rel="alternate" href="https://arxiv.org/abs/2609.16684"/>
+<published>2026-09-16T04:00:00+00:00</published><updated>2026-09-16T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="4d"/>
+<category term="multi-view"/>
+<category term="stereo"/>
+<summary>arXiv:2609.16684v1 Announce Type: new Abstract: Learning manipulation from human video requires high-fidelity hand-motion reconstruction in metric units. Today's metric hand labels come from studio rigs and instrumented headsets, and both are confined in the same two ways: neither leaves a prepared </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · 4d, multi-view, stereo&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.16684v1 Announce Type: new Abstract: Learning manipulation from human video requires high-fidelity hand-motion reconstruction in metric units. Today's metric hand labels come from studio rigs and instrumented headsets, and both are confined in the same two ways: neither leaves a prepared setting, and neither is checked against an independent reference. Unconstrained head-worn recording promises the opposite trade-off, scaling with the number of people wearing a device. We therefore introduce MEgoVista, an offline pipeline that turns a single unprepared MEgo View recording into metric two-hand and head motion in one gravity-aligned world frame. Three properties set it apart from ex&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.16684"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2609.17039</id><title>Bi-FlowGS: Bridging Generative View Completion and Gaussian Geometry through Bidirectional Flow Co-Refinement</title>
+<link rel="alternate" href="https://arxiv.org/abs/2609.17039"/>
+<published>2026-09-16T04:00:00+00:00</published><updated>2026-09-16T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="gaussian splatting"/>
+<category term="3d gaussian"/>
+<category term="optical flow"/>
+<category term="rendering"/>
+<category term="consistency"/>
+<category term="scene reconstruction"/>
+<summary>arXiv:2609.17039v1 Announce Type: new Abstract: Sparse-view 3D scene reconstruction with 3D Gaussian Splatting (3DGS) is inherently underconstrained. Plausible renderings can also coexist with erroneous Gaussian geometry, as errors in positions or depths may be concealed by opacity, scale, and appea</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 6 · gaussian splatting, 3d gaussian, optical flow, rendering, consistency, scene reconstruction&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.17039v1 Announce Type: new Abstract: Sparse-view 3D scene reconstruction with 3D Gaussian Splatting (3DGS) is inherently underconstrained. Plausible renderings can also coexist with erroneous Gaussian geometry, as errors in positions or depths may be concealed by opacity, scale, and appearance; we term this failure mode Geometry Cheating. Existing regularization methods constrain geometry but remain limited to observed views, while video-diffusion-based methods complete unseen views yet mainly use them as RGB pseudo-supervision, underusing motion and temporal priors and lacking explicit geometry supervision. We present Bi-FlowGS, which uses optical flow to bridge generative view c&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.17039"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2609.17521</id><title>PhysStream: Streaming Physics-Grounded Video Generation with Structured Scene Memory and Fine-Grained Motion Control</title>
+<link rel="alternate" href="https://arxiv.org/abs/2609.17521"/>
+<published>2026-09-16T04:00:00+00:00</published><updated>2026-09-16T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="video generation"/>
+<category term="image-to-video"/>
+<category term="tracking"/>
+<category term="consistency"/>
+<summary>arXiv:2609.17521v1 Announce Type: new Abstract: Interactive control for video generation is moving from coarse prompts toward fine-grained, physically meaningful manipulation of dynamic scenes. Yet existing controllable methods either require the full control schedule before generation starts, or us</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · video generation, image-to-video, tracking, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.17521v1 Announce Type: new Abstract: Interactive control for video generation is moving from coarse prompts toward fine-grained, physically meaningful manipulation of dynamic scenes. Yet existing controllable methods either require the full control schedule before generation starts, or use pixel-space signals that dictate object positions rather than physical dynamics. To address these limitations, we propose PhysStream, an autoregressive model for physics-grounded image-to-video synthesis that incorporates structured scene memory---positional maps and object tracking maps derived online from previously generated frames---and supports fine-grained motion control via sparse velocit&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.17521"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2511.20186</id><title>Exo2EgoSyn: Unlocking Foundation Video Generation Models for Exocentric-to-Egocentric Video Synthesis</title>
+<link rel="alternate" href="https://arxiv.org/abs/2511.20186"/>
+<published>2026-09-16T04:00:00+00:00</published><updated>2026-09-16T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="video generation"/>
+<category term="camera pose"/>
+<category term="wan"/>
+<category term="wan2"/>
+<category term="multi-view"/>
+<summary>arXiv:2511.20186v2 Announce Type: replace Abstract: Foundation video generation models such as WAN 2.2 exhibit strong text- and image-conditioned synthesis abilities but remain constrained to the same-view generation setting. In this work, we introduce Exo2EgoSyn, an adaptation of WAN 2.2 that unloc</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 6 · video generation, camera pose, wan, wan2, multi-view&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2511.20186v2 Announce Type: replace Abstract: Foundation video generation models such as WAN 2.2 exhibit strong text- and image-conditioned synthesis abilities but remain constrained to the same-view generation setting. In this work, we introduce Exo2EgoSyn, an adaptation of WAN 2.2 that unlocks Exocentric-to-Egocentric(Exo2Ego) cross-view video synthesis. Our framework consists of three key modules. Ego-Exo View Alignment(EgoExo-Align) enforces latent-space alignment between exocentric and egocentric first-frame representations, reorienting the generative space from the given exo view toward the ego view. Multi-view Exocentric Video Conditioning (MultiExoCon) aggregates multi-view exo&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2511.20186"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2608.25479</id><title>4DStreamCtrl: Interactive Video Generation with Online 4D Control</title>
+<link rel="alternate" href="https://arxiv.org/abs/2608.25479"/>
+<published>2026-09-16T04:00:00+00:00</published><updated>2026-09-16T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="video generation"/>
+<category term="video diffusion"/>
+<category term="4d"/>
+<category term="denoising"/>
+<category term="generative video"/>
+<summary>arXiv:2608.25479v3 Announce Type: replace Abstract: Generative video models now synthesize footage nearly indistinguishable from reality. Their promise as interactive tools hinges on fine-grained control of how objects and the camera move over time, yet each existing approach captures only part of t</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 7 · video generation, video diffusion, 4d, denoising, generative video&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2608.25479v3 Announce Type: replace Abstract: Generative video models now synthesize footage nearly indistinguishable from reality. Their promise as interactive tools hinges on fine-grained control of how objects and the camera move over time, yet each existing approach captures only part of this: camera-parameter methods steer the viewpoint but cannot move objects, 2D-trajectory methods act in the image plane and ignore depth and occlusion, and recent 3D methods add geometry but run only offline at a fixed length. In particular, none combines 3D-consistent control of both camera and objects with real-time, streaming generation. Here we show that camera motion, object trajectories, and&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2608.25479"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1whl930/fullsong_lipsynced_mv_with_minimax_h3_at_3_steps/</id><title>Full-song lip-synced MV with MiniMax H3 at 3 steps — Extender audio slicing + fully_copy (method + measured results)</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1whl930/fullsong_lipsynced_mv_with_minimax_h3_at_3_steps/"/>
+<published>2026-09-16T03:02:14+00:00</published><updated>2026-09-16T03:02:14+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="upscaler"/>
+<category term="rendering"/>
+<category term="minimax"/>
+<category term="lora"/>
+<category term="consistency"/>
+<summary>What: A ~2:50 K-pop style MV ("Cry, But Dance", an original song with AI vocals) of a virtual singer performing at a studio microphone. It's fully lip-synced as one continuous performance: 17 clips at 1024×576. The method that made lipsync work (the hard part): Audio splitting: I split the song at l</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 6 · upscaler, rendering, minimax, lora, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;What: A ~2:50 K-pop style MV ("Cry, But Dance", an original song with AI vocals) of a virtual singer performing at a studio microphone. It's fully lip-synced as one continuous performance: 17 clips at 1024×576. The method that made lipsync work (the hard part): Audio splitting: I split the song at lyric-line boundaries into 17 chunks (5.2–15.1s). The lengths match H3's 17k+5 frame grid at 24fps, and every cut falls in the quietest vocal pause. Vocal isolation: I separated the vocals with htdemucs . With the full mix, the backing track completely buries the vocal conditioning. Sequential graph wiring: The isolated vocals go into MiniMax H3 Extender's ref_audio_1 , which slices the track seque&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1whl930/fullsong_lipsynced_mv_with_minimax_h3_at_3_steps/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1whij0t/generative_ai_full_course_lecture_1_comfyui/</id><title>Generative AI Full Course - Lecture 1: ComfyUI Tutorial from Windows Setup to Your First Image - Fully generated with Index TTS 2.5 Voice Training + LTX 2.5 Audio + Image = Video Lip Snyching - Computer usage made with Claude + CODEX</title>
 <link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1whij0t/generative_ai_full_course_lecture_1_comfyui/"/>
