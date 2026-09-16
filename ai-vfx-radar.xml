@@ -2,8 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-09-16T06:30:21+00:00</updated>
+<updated>2026-09-16T08:00:18+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wholoz/yue2_epic_instrumental_comfyui/</id><title>yue2 - epic instrumental comfyui</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wholoz/yue2_epic_instrumental_comfyui/"/>
+<published>2026-09-16T05:55:19+00:00</published><updated>2026-09-16T05:55:19+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<category term="cinematic"/>
+<summary>first few tries with yue2 in comfyui. so far looking good. prompt was - "cinematic epic orchestral, french horns, then cinematic impact drums are added in the middle, slowly build up to an epic high speed crescendo" i donno how to prompt yue2, so simply slapped this in style node. in lyrics node - [</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, cinematic&lt;/small&gt;&lt;/p&gt;&lt;p&gt;first few tries with yue2 in comfyui. so far looking good. prompt was - "cinematic epic orchestral, french horns, then cinematic impact drums are added in the middle, slowly build up to an epic high speed crescendo" i donno how to prompt yue2, so simply slapped this in style node. in lyrics node - [intro] next line [outro]. submitted by /u/pravbk100 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wholoz/yue2_epic_instrumental_comfyui/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://arxiv.org/abs/2609.16310</id><title>Racing in Volume with Flow Ensembles</title>
 <link rel="alternate" href="https://arxiv.org/abs/2609.16310"/>
@@ -81,6 +91,25 @@
 <content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 7 · video generation, video diffusion, 4d, denoising, generative video&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2608.25479v3 Announce Type: replace Abstract: Generative video models now synthesize footage nearly indistinguishable from reality. Their promise as interactive tools hinges on fine-grained control of how objects and the camera move over time, yet each existing approach captures only part of this: camera-parameter methods steer the viewpoint but cannot move objects, 2D-trajectory methods act in the image plane and ignore depth and occlusion, and recent 3D methods add geometry but run only offline at a fixed length. In particular, none combines 3D-consistent control of both camera and objects with real-time, streaming generation. Here we show that camera motion, object trajectories, and&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2608.25479"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1whlxq5/yue2_studio_music_creation_and_lora_training_for/</id><title>Yue2 Studio - Music Creation and LoRa training for Yue2 in a clean user interface.</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1whlxq5/yue2_studio_music_creation_and_lora_training_for/"/>
+<published>2026-09-16T03:35:20+00:00</published><updated>2026-09-16T03:35:20+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="lora"/>
+<summary>I built YuE2 Studio, a local web UI for YuE2 that brings the main workflow into one place: 🔗 GitHub: https://github.com/vrgamegirl19/Yue2_Studio Features include: • Normal song creation — enter a musical style and section-tagged lyrics, choose Full, Melody, or Direct audio mode, preview an ABC plan,</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I built YuE2 Studio, a local web UI for YuE2 that brings the main workflow into one place: 🔗 GitHub: https://github.com/vrgamegirl19/Yue2_Studio Features include: • Normal song creation — enter a musical style and section-tagged lyrics, choose Full, Melody, or Direct audio mode, preview an ABC plan, then generate and manage songs in the built-in library. • Covers — upload a source recording or import ABC, transcribe and review the melody with SheetSage2, then generate a new version with different lyrics and style. This uses symbolic melody conditioning and does not clone the original singer. • Style LoRA training — train experimental acoustic/style adapters from your own songs, then select t&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1whlxq5/yue2_studio_music_creation_and_lora_training_for/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1whlu5a/when_are_we_getting_the_fixed_ref_minimax_h3/</id><title>When are we getting the fixed REF Minimax H3?</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1whlu5a/when_are_we_getting_the_fixed_ref_minimax_h3/"/>
+<published>2026-09-16T03:30:25+00:00</published><updated>2026-09-16T03:30:25+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="minimax"/>
+<category term="lora"/>
+<summary>Just did a test in ref workflow, using the fl2va I got very good image quality but approximative reference resemblance (even with the kijai's ref lora) and the same prompt with the same seed but with the ref2va I got pixelated and mushy results. Also If I remember correctly the devs spoke about that</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Just did a test in ref workflow, using the fl2va I got very good image quality but approximative reference resemblance (even with the kijai's ref lora) and the same prompt with the same seed but with the ref2va I got pixelated and mushy results. Also If I remember correctly the devs spoke about that and they said they will fix it but we have no news. Edit: after reading my post again I sound like an ungrateful dumbf**k, I want to thank the devs for this amazing model. submitted by /u/Cequejedisestvrai [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1whlu5a/when_are_we_getting_the_fixed_ref_minimax_h3/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
 <id>https://www.reddit.com/r/comfyui/comments/1whl930/fullsong_lipsynced_mv_with_minimax_h3_at_3_steps/</id><title>Full-song lip-synced MV with MiniMax H3 at 3 steps — Extender audio slicing + fully_copy (method + measured results)</title>
 <link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1whl930/fullsong_lipsynced_mv_with_minimax_h3_at_3_steps/"/>
 <published>2026-09-16T03:02:14+00:00</published><updated>2026-09-16T03:02:14+00:00</updated>
@@ -92,6 +121,40 @@
 <category term="consistency"/>
 <summary>What: A ~2:50 K-pop style MV ("Cry, But Dance", an original song with AI vocals) of a virtual singer performing at a studio microphone. It's fully lip-synced as one continuous performance: 17 clips at 1024×576. The method that made lipsync work (the hard part): Audio splitting: I split the song at l</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 6 · upscaler, rendering, minimax, lora, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;What: A ~2:50 K-pop style MV ("Cry, But Dance", an original song with AI vocals) of a virtual singer performing at a studio microphone. It's fully lip-synced as one continuous performance: 17 clips at 1024×576. The method that made lipsync work (the hard part): Audio splitting: I split the song at lyric-line boundaries into 17 chunks (5.2–15.1s). The lengths match H3's 17k+5 frame grid at 24fps, and every cut falls in the quietest vocal pause. Vocal isolation: I separated the vocals with htdemucs . With the full mix, the backing track completely buries the vocal conditioning. Sequential graph wiring: The isolated vocals go into MiniMax H3 Extender's ref_audio_1 , which slices the track seque&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1whl930/fullsong_lipsynced_mv_with_minimax_h3_at_3_steps/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1whkf17/new_comfyui_release_is_out_with_yue2_now_merged/</id><title>New ComfyUI release is out, with YuE2 now merged into stable</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1whkf17/new_comfyui_release_is_out_with_yue2_now_merged/"/>
+<published>2026-09-16T02:23:12+00:00</published><updated>2026-09-16T02:23:12+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<summary>Since my post about YuE2 yesterday got quite a bit of attention, just a quick heads-up: a new ComfyUI version was released a few hours ago, and YuE2 support is now officially part of the stable release. https://github.com/Comfy-Org/ComfyUI/releases submitted by /u/lazyspock [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Since my post about YuE2 yesterday got quite a bit of attention, just a quick heads-up: a new ComfyUI version was released a few hours ago, and YuE2 support is now officially part of the stable release. https://github.com/Comfy-Org/ComfyUI/releases submitted by /u/lazyspock [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1whkf17/new_comfyui_release_is_out_with_yue2_now_merged/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1whk48n/solo_cinematic_pipeline_seeking_advice_on_scope/</id><title>Solo Cinematic Pipeline – Seeking Advice on Scope &amp; Efficiency</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1whk48n/solo_cinematic_pipeline_seeking_advice_on_scope/"/>
+<published>2026-09-16T02:09:27+00:00</published><updated>2026-09-16T02:09:27+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="mocap"/>
+<category term="character animation"/>
+<category term="animation"/>
+<category term="post-production"/>
+<category term="color grading"/>
+<category term="houdini"/>
+<category term="blender"/>
+<category term="unreal"/>
+<summary>Hey everyone, (I am in need of guidance &amp; friends to be frank) I’m currently building out an independent 3D animated series on my own. My goal is to produce a high-end cinematic pilot to show investors, producers, and an audience what I’m capable of, so I can secure funding and assemble a full team.</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 11 · mocap, character animation, animation, post-production, color grading, houdini, blender, unreal&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey everyone, (I am in need of guidance &amp;amp; friends to be frank) I’m currently building out an independent 3D animated series on my own. My goal is to produce a high-end cinematic pilot to show investors, producers, and an audience what I’m capable of, so I can secure funding and assemble a full team. Visually, I’m pushing for a high-end benchmark (think Starcraft or Blizzard cinematic trailers). I want to create a product people actually want to watch on par with great TV series, not just an amateur who’s ambitious. Because I don't have a team or funding yet, I am handling the entire production pipeline solo across every single department: Pre-Production: Story writing, world-building, charac&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1whk48n/solo_cinematic_pipeline_seeking_advice_on_scope/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1whiqw8/cge_sculpt_gpu_based_sculpting_toolset_inside_maya/</id><title>CGE Sculpt - GPU Based Sculpting Toolset Inside Maya</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1whiqw8/cge_sculpt_gpu_based_sculpting_toolset_inside_maya/"/>
+<published>2026-09-16T01:08:07+00:00</published><updated>2026-09-16T01:08:07+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="maya"/>
+<summary>submitted by /u/dAnim8or [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · maya&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/dAnim8or [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1whiqw8/cge_sculpt_gpu_based_sculpting_toolset_inside_maya/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1whij0t/generative_ai_full_course_lecture_1_comfyui/</id><title>Generative AI Full Course - Lecture 1: ComfyUI Tutorial from Windows Setup to Your First Image - Fully generated with Index TTS 2.5 Voice Training + LTX 2.5 Audio + Image = Video Lip Snyching - Computer usage made with Claude + CODEX</title>
