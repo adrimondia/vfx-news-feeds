@@ -2,8 +2,39 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-09-16T14:30:41+00:00</updated>
+<updated>2026-09-16T16:30:50+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wi0mpd/krea_2_pixel_art_loras_32x32_64x64_128x128/</id><title>Krea 2 Pixel Art LoRAs (32x32, 64x64, 128x128)</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wi0mpd/krea_2_pixel_art_loras_32x32_64x64_128x128/"/>
+<published>2026-09-16T15:35:26+00:00</published><updated>2026-09-16T15:35:26+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<category term="lora"/>
+<summary>It turns out Krea 2 was trained on a number of different pixel art resolutions. These loras help you get some of these resolutions more consistently and avoid ugly "mixel" resolutions with inconsistent pixel sizes. CivitAI: https://civitai.com/models/2942217/krea-2-pixel-art HF: https://huggingface.</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;It turns out Krea 2 was trained on a number of different pixel art resolutions. These loras help you get some of these resolutions more consistently and avoid ugly "mixel" resolutions with inconsistent pixel sizes. CivitAI: https://civitai.com/models/2942217/krea-2-pixel-art HF: https://huggingface.co/e-n-v-y/Krea-2-Pixel-Art I've also created a ComfyUI node that does the minimal post-processing that this lora requires in order to produce clean pixel art: https://github.com/envy-ai/ComfyUI-Krea2-Pixel-Art-Refiner (Note that there are other, heavier pixel cleanup nodes out there, but they're "too smart" for this already mostly clean pixel art because they try to guess where the rows and colum&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wi0mpd/krea_2_pixel_art_loras_32x32_64x64_128x128/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1whywxw/minimax_h3_ref2va_question_when_ref_image_size_is/</id><title>Minimax H3 Ref2VA question: when ref_image_size is set to max, why does latent image generation period (10-60 minutes) not cause GPU temps to rise even though usage is 100%?</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1whywxw/minimax_h3_ref2va_question_when_ref_image_size_is/"/>
+<published>2026-09-16T14:31:48+00:00</published><updated>2026-09-16T14:31:48+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="minimax"/>
+<summary>In the first part of the Ref2VA generation process, when the Minimax H3 Reference node is working, my GPU usage is at 100% with VRAM nearly maxed out and half my RAM filled. But the GPU temperature is the same as when it is idle. The time it takes for this process to complete is directly proportiona</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;In the first part of the Ref2VA generation process, when the Minimax H3 Reference node is working, my GPU usage is at 100% with VRAM nearly maxed out and half my RAM filled. But the GPU temperature is the same as when it is idle. The time it takes for this process to complete is directly proportional to how many reference image inputs I have, and can take much longer than the actual sample step generation time. I assume that the GPU is taking a long time to build a latent image, which is of significantly higher resolution than it would be if it were set to ‘match’ instead of ‘max’. But why does this part of the process not cause the GPU to work as hard as the sampler steps, even though it’s &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1whywxw/minimax_h3_ref2va_question_when_ref_image_size_is/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1whx7kp/ive_been_playing_around_with_yue2_and_i_must_say/</id><title>I've been playing around with YuE2, and i must say, i'm impressed.</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1whx7kp/ive_been_playing_around_with_yue2_and_i_must_say/"/>
+<published>2026-09-16T13:26:11+00:00</published><updated>2026-09-16T13:26:11+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="smoke"/>
+<category term="comfyui"/>
+<category term="minimax"/>
+<category term="stereo"/>
+<summary>I've been hearing a lot of people talk about this model and decided to give it a try. Suffice to say, i'm really impressed with it. The quality is certainly above any previous local model i've tried, like Ace and Minimax Music 3. I would go ever as far as to say it rivals Suno in certain cases. The </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · smoke, comfyui, minimax, stereo&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I've been hearing a lot of people talk about this model and decided to give it a try. Suffice to say, i'm really impressed with it. The quality is certainly above any previous local model i've tried, like Ace and Minimax Music 3. I would go ever as far as to say it rivals Suno in certain cases. The only thing i've noticed is that if the music is too long, like in this example, it's more likely for distortions to occur and for lyrics to be messed up or skipped towards the end. Anyway, for anyone who wants to generate their own music locally without paying for credits or a subscription, YuE2 is currently the best option in my opinion. To generate this music i've used the standard YuE2 text to &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1whx7kp/ive_been_playing_around_with_yue2_and_i_must_say/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1whwscf/sensenovau15_technical_report_vaefree_native_4k/</id><title>SenseNova-U1.5 Technical Report: VAE-free Native 4K Generation with Spatial Patch Reconstruction</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1whwscf/sensenovau15_technical_report_vaefree_native_4k/"/>
