@@ -2,8 +2,21 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-09-16T10:30:55+00:00</updated>
+<updated>2026-09-16T12:31:12+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wht2yl/astra_blender_minimax/</id><title>Astra + Blender + Minimax</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wht2yl/astra_blender_minimax/"/>
+<published>2026-09-16T10:10:27+00:00</published><updated>2026-09-16T10:10:27+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="animation"/>
+<category term="retargeting"/>
+<category term="blender"/>
+<category term="minimax"/>
+<category term="previs"/>
+<summary>Hey everyone, Wanted to share a quick breakdown of an experimental hybrid pipeline I’ve been messing around with in Blender. The goal was to see how far automated tools could take a creature from scratch before needing manual intervention. The Workflow Concept &amp; Motion: Generated the initial creatur</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 7 · animation, retargeting, blender, minimax, previs&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey everyone, Wanted to share a quick breakdown of an experimental hybrid pipeline I’ve been messing around with in Blender. The goal was to see how far automated tools could take a creature from scratch before needing manual intervention. The Workflow Concept &amp;amp; Motion: Generated the initial creature design and grabbed an animation reference using MiniMax in comfy 3D Mesh &amp;amp; Rig: Used AI tools (incorporating OpenAI/Astra) to draft the low-poly 3D model and auto-generate the rig structure. Retargeting: Brought everything into Blender to transfer the generated walk cycle made using Minimax onto the rigged mesh. What Worked vs. What Didn't The Good: Speed is the obvious win here. For rapid itera&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wht2yl/astra_blender_minimax/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1whrxh8/minimax_h3_how_to_get_rid_of_elastic_skin/</id><title>Minimax H3: How to get rid of elastic skin?</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1whrxh8/minimax_h3_how_to_get_rid_of_elastic_skin/"/>
