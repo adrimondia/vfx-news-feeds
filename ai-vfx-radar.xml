@@ -2,8 +2,32 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-09-17T12:31:05+00:00</updated>
+<updated>2026-09-17T14:30:46+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1witluc/i_tested_11_jiggle_loras_on_wan_21_heres_the/</id><title>I tested 11 jiggle LoRAs on WAN 2.1 — here's the ranking</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1witluc/i_tested_11_jiggle_loras_on_wan_21_heres_the/"/>
+<published>2026-09-17T13:11:03+00:00</published><updated>2026-09-17T13:11:03+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="optical flow"/>
+<category term="wan"/>
+<category term="lora"/>
+<category term="identity preservation"/>
+<summary>Same seed, same prompt, same driving video. Only the LoRA changes. I scored two things: Physics — does the motion behave like real tissue? Shape — does the form look anatomically real? The results LoRA Physics Shape Winner? Bouncing_Breasts ...HIGH_v1.0 ★★★★★ ★★★★☆ 🏆 best overall big_breasts_v2 ★★★☆</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 5 · optical flow, wan, lora, identity preservation&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Same seed, same prompt, same driving video. Only the LoRA changes. I scored two things: Physics — does the motion behave like real tissue? Shape — does the form look anatomically real? The results LoRA Physics Shape Winner? Bouncing_Breasts ...HIGH_v1.0 ★★★★★ ★★★★☆ 🏆 best overall big_breasts_v2 ★★★☆☆ ★★★☆☆ solid BoobPhysic_HighNoise ★★★★☆ ★☆☆☆☆ moves great, looks fake BounceHighWan2_2 ★★☆☆☆ ★★☆☆☆ weak N5FW-22-L-e8 ★★☆☆☆ ★★☆☆☆ weak jiggle_tits-14b ☆☆☆☆☆ ★★★★★ best shape, zero effect Perky Breasts LOW ★☆☆☆☆ ★★★★☆ barely moves BounceLowWan2_2 ★☆☆☆☆ ★★★★☆ barely moves N5FW-22-H-e8 ☆☆☆☆☆ ★★☆☆☆ none genitals_helper ☆☆☆☆☆ ★★★★☆ none Perky Breasts HIGH ☆☆☆☆☆ ★★☆☆☆ none no LoRA (control) — — referenc&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1witluc/i_tested_11_jiggle_loras_on_wan_21_heres_the/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wirzno/project_idea_audio_refmods_for_minimaxh3_bringing/</id><title>[Project Idea] Audio RefMods for MiniMax-H3: Bringing IP-Adapter mechanics to Voice Timbre &amp; Sound Style</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wirzno/project_idea_audio_refmods_for_minimaxh3_bringing/"/>
+<published>2026-09-17T11:59:37+00:00</published><updated>2026-09-17T11:59:37+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="lip-sync"/>
+<category term="comfyui"/>
+<category term="minimax"/>
+<category term="dit"/>
+<summary>TL;DR: Visual RefMods (Latent Adapters) revolutionized image conditioning by compressing references into a few pooled tokens, saving massive VRAM and speeding up inference. I propose we build the exact same architecture for Audio . By stripping away the temporal dimension (timeline) and pooling audi</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · lip-sync, comfyui, minimax, dit&lt;/small&gt;&lt;/p&gt;&lt;p&gt;TL;DR: Visual RefMods (Latent Adapters) revolutionized image conditioning by compressing references into a few pooled tokens, saving massive VRAM and speeding up inference. I propose we build the exact same architecture for Audio . By stripping away the temporal dimension (timeline) and pooling audio latents, we could inject a "global audio style" (voice timbre, room acoustics, music genre) into MiniMax-H3 using only 4 to 16 tokens. I'm looking for community feedback and potential collaborators to build a POC. 🔴 The Problem with Current Audio Conditioning Right now, when we feed audio into video/audio DiTs (like MiniMax-H3), the model processes it temporally. It reads the audio latents frame&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wirzno/project_idea_audio_refmods_for_minimaxh3_bringing/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wir6yt/updated_video_enhancing_lora/</id><title>Updated Video Enhancing Lora</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wir6yt/updated_video_enhancing_lora/"/>
