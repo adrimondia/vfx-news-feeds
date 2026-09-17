@@ -2,8 +2,29 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-09-17T06:30:23+00:00</updated>
+<updated>2026-09-17T08:00:45+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wimkoc/why_havent_we_got_an_sota_open_image_edit_model/</id><title>Why haven't we got an SOTA open image edit model yet?</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wimkoc/why_havent_we_got_an_sota_open_image_edit_model/"/>
+<published>2026-09-17T06:55:17+00:00</published><updated>2026-09-17T06:55:17+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="video generation"/>
+<category term="minimax"/>
+<summary>Hey guys, really wondering now why we got (SOTA or at least good enough) open weights on nearly every use case, like LLMs, T2I (Krea2), music (Yue2), video generation (Minimax H3), but not image edit? Don't get me wrong. Flux2-Klein 9B ist fine, for small image edits but out of the box reference2i o</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · video generation, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey guys, really wondering now why we got (SOTA or at least good enough) open weights on nearly every use case, like LLMs, T2I (Krea2), music (Yue2), video generation (Minimax H3), but not image edit? Don't get me wrong. Flux2-Klein 9B ist fine, for small image edits but out of the box reference2i or major edits will completely fail. Additional tools might help to improve but that also counts for SOTA models which also will get even better. Additionally, flux2-Klein came out 9 months ago which is ancient in AI terms. Since Qwen Image 2.0 their models got gatekept by Alibaba, also Hidream image o1.5 edit is also not open source. A Z-image edit or krea2 edit are not on the horizon. Is there an&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wimkoc/why_havent_we_got_an_sota_open_image_edit_model/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wimekd/minimax_h3_pose_controlnet_on_a_single_3090/</id><title>MiniMax H3 pose ControlNet on a single 3090</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wimekd/minimax_h3_pose_controlnet_on_a_single_3090/"/>
+<published>2026-09-17T06:45:43+00:00</published><updated>2026-09-17T06:45:43+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<category term="minimax"/>
+<category term="controlnet"/>
+<summary>The Fun ControlNet checkpoint for MiniMax H3 has been unloadable in ComfyUI — Alibaba's full-width release wants around 124GB. A loader for Kijai's pruned curve-form variant shipped yesterday (github.com/wyzborrero/ComfyUI-H3-FunControl) and it runs fine on a 3090. Nothing novel here, just confirmin</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 5 · comfyui, minimax, controlnet&lt;/small&gt;&lt;/p&gt;&lt;p&gt;The Fun ControlNet checkpoint for MiniMax H3 has been unloadable in ComfyUI — Alibaba's full-width release wants around 124GB. A loader for Kijai's pruned curve-form variant shipped yesterday (github.com/wyzborrero/ComfyUI-H3-FunControl) and it runs fine on a 3090. Nothing novel here, just confirming it works and posting the numbers. Setup: RTX 3090 24GB, 1312x736, 294 frames (12.25s at 24fps), strength 0.8, control window 0.0-0.6. The test: the prompt describes only who and where — a woman in a 1960s colour-blocked mini dress, studio, locked-off camera. It says nothing about any action. The control video is a pose skeleton of someone kneeling to open a briefcase and assemble a tripod. So an&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wimekd/minimax_h3_pose_controlnet_on_a_single_3090/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://github.com/meituan-longcat/LongCat-Video</id><title>meituan-longcat/LongCat-Video</title>
 <link rel="alternate" href="https://github.com/meituan-longcat/LongCat-Video"/>
