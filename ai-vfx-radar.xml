@@ -2,8 +2,73 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-09-17T02:30:37+00:00</updated>
+<updated>2026-09-17T04:30:22+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1wijvbv/outlook_vfx_ceo_trevor_pryce_accused_of_not/</id><title>Outlook VFX CEO Trevor Pryce Accused of Not Paying Employees and Contractors</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wijvbv/outlook_vfx_ceo_trevor_pryce_accused_of_not/"/>
+<published>2026-09-17T04:28:28+00:00</published><updated>2026-09-17T04:28:28+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="vfx"/>
+<category term="unreal"/>
+<category term="unreal engine"/>
+<summary>The words speak for themselves. I was a Lighting &amp; Comp Supervisor at Outlook VFX on both the Feature Film/VFX side and Gaming side for 3 years. Feature is currently still unreleased but it is being shopped around to go to American theaters as an IMAX film made completely with Unreal Engine 5. I hea</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 4 · vfx, unreal, unreal engine&lt;/small&gt;&lt;/p&gt;&lt;p&gt;The words speak for themselves. I was a Lighting &amp;amp; Comp Supervisor at Outlook VFX on both the Feature Film/VFX side and Gaming side for 3 years. Feature is currently still unreleased but it is being shopped around to go to American theaters as an IMAX film made completely with Unreal Engine 5. I headed the project. Worked directly under Trevor Pryce, and trust me when I say that after reading this article and seeing the travesties being inflicted on others besides myself, this only scratches the surface of what we actually dealt with. Just take 30 seconds to look up "Outlook VFX Glassdoor". You'll see what I'm talking about. I'm very glad to see others speaking out against this asshole. No m&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wijvbv/outlook_vfx_ceo_trevor_pryce_accused_of_not/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2609.18473</id><title>CADSplat: Sparse-View 3D Gaussian Splatting Aided by CAD Models for Robust, Photorealistic Digital-Twin Reconstruction</title>
+<link rel="alternate" href="https://arxiv.org/abs/2609.18473"/>
+<published>2026-09-17T04:00:00+00:00</published><updated>2026-09-17T04:00:00+00:00</updated>
+<author><name>arXiv cs.GR</name></author>
+<category term="gaussian splatting"/>
+<category term="3d gaussian"/>
+<category term="pose estimation"/>
+<category term="rendering"/>
+<summary>arXiv:2609.18473v1 Announce Type: cross Abstract: We present CADSplat, a framework that reconstructs photorealistic, geometrically accurate digital twins from sparse ($&lt;15$ views), wide-baseline posed images of an object by regularizing 3D Gaussian Splatting (3DGS) with an explicit CAD shape prior. </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.GR · score 6 · gaussian splatting, 3d gaussian, pose estimation, rendering&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.18473v1 Announce Type: cross Abstract: We present CADSplat, a framework that reconstructs photorealistic, geometrically accurate digital twins from sparse ($&amp;lt;15$ views), wide-baseline posed images of an object by regularizing 3D Gaussian Splatting (3DGS) with an explicit CAD shape prior. Using such a prior requires finding a CAD model whose shape resembles the object depicted in the images and determining the pose of each camera relative to the object. We obtain both by matching segmented object silhouettes against silhouettes rendered from a CAD library and keeping the camera-to-object poses of the best-matching model. We then anchor 3D Gaussian primitives to the surface of the r&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.18473"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2609.18624</id><title>MoQSplat: Adaptive Progressive Streaming of 3D Gaussian Splatting via MoQ</title>
+<link rel="alternate" href="https://arxiv.org/abs/2609.18624"/>
+<published>2026-09-17T04:00:00+00:00</published><updated>2026-09-17T04:00:00+00:00</updated>
+<author><name>arXiv cs.GR</name></author>
+<category term="novel view synthesis"/>
+<category term="gaussian splatting"/>
+<category term="3d gaussian"/>
+<summary>arXiv:2609.18624v1 Announce Type: cross Abstract: 3D Gaussian Splatting (3DGS) enables photorealistic novel view synthesis, but transmitting gigabyte-scale scene data remains challenging for immersive applications. Traditional HTTP Adaptive Streaming over TCP introduces Head-of-Line (HOL) blocking a</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.GR · score 5 · novel view synthesis, gaussian splatting, 3d gaussian&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.18624v1 Announce Type: cross Abstract: 3D Gaussian Splatting (3DGS) enables photorealistic novel view synthesis, but transmitting gigabyte-scale scene data remains challenging for immersive applications. Traditional HTTP Adaptive Streaming over TCP introduces Head-of-Line (HOL) blocking and coarse segmenting ill-suited to fine-grained 3DGS delivery. We propose MoQSplat, which maps 3DGS content onto the Media over QUIC (MoQ) transport hierarchy. MoQSplat partitions scenes into spatial Tracks, clusters splats into semantically coherent Groups, and constructs progressive-quality Subgroups mapped to independent QUIC streams to eliminate connection-level HOL blocking. Using a stateless&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.18624"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2607.05598</id><title>SSA-3DGS: Unsupervised Removal of Screen-Space Artifacts for 3D Gaussian Splatting</title>
+<link rel="alternate" href="https://arxiv.org/abs/2607.05598"/>
+<published>2026-09-17T04:00:00+00:00</published><updated>2026-09-17T04:00:00+00:00</updated>
+<author><name>arXiv cs.GR</name></author>
+<category term="novel view synthesis"/>
+<category term="gaussian splatting"/>
+<category term="3d gaussian"/>
+<category term="rendering"/>
+<category term="multi-view"/>
+<summary>arXiv:2607.05598v2 Announce Type: replace Abstract: Novel View Synthesis (NVS) methods, such as 3D Gaussian Splatting (3DGS), rely on the assumption of clean, multi-view consistent, posed input images. Real-world captures can violate this assumption due to \textbf{screen-space artifacts}---static oc</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.GR · score 7 · novel view synthesis, gaussian splatting, 3d gaussian, rendering, multi-view&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2607.05598v2 Announce Type: replace Abstract: Novel View Synthesis (NVS) methods, such as 3D Gaussian Splatting (3DGS), rely on the assumption of clean, multi-view consistent, posed input images. Real-world captures can violate this assumption due to \textbf{screen-space artifacts}---static occlusions fixed to the 2D image plane rather than to the 3D world. Common examples include physical sensor defects, environmental obstructions (such as rain or mud on the lens enclosure), capture obstructions (such as a thumb over the camera sensor or a dashboard visible in dashcam footage), and digital overlays (such as watermarks or UI elements). When present, they are erroneously baked into the &lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2607.05598"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wihy9m/taomata_3step_lora_vs_fasth3_v2_check_point/</id><title>Taomata 3step lora vs fasth3 v2 check point</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wihy9m/taomata_3step_lora_vs_fasth3_v2_check_point/"/>
+<published>2026-09-17T02:53:56+00:00</published><updated>2026-09-17T02:53:56+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="lora"/>
+<summary>Fast h3 v2 8steps submitted by /u/Sad_Coach_1433 [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Fast h3 v2 8steps submitted by /u/Sad_Coach_1433 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wihy9m/taomata_3step_lora_vs_fasth3_v2_check_point/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wih5rg/i_fed_minimax_h3_3_pages_of_a_comic_and_it_spit/</id><title>I fed minimax h3 3 pages of a comic and it spit this out.</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wih5rg/i_fed_minimax_h3_3_pages_of_a_comic_and_it_spit/"/>
+<published>2026-09-17T02:16:32+00:00</published><updated>2026-09-17T02:16:32+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="minimax"/>
+<summary>sauce in comments: subject_definitions: &lt;Picture 1&gt; is a continuity reference for Mikey's Magick Shoppe and for the ending state of the previous scene. &lt;Subject 1&gt;'s winter cloak has already been removed and is hanging on the nearby garment rack. &lt;Picture 2&gt; is the primary scene and performance refe</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;sauce in comments: subject_definitions: &amp;lt;Picture 1&amp;gt; is a continuity reference for Mikey's Magick Shoppe and for the ending state of the previous scene. &amp;lt;Subject 1&amp;gt;'s winter cloak has already been removed and is hanging on the nearby garment rack. &amp;lt;Picture 2&amp;gt; is the primary scene and performance reference for this generation. Use it for the stack of books, &amp;lt;Subject 1&amp;gt;'s cloak-free appearance, cursed shackles, &amp;lt;Subject 2&amp;gt;'s expressions and gestures, counter staging, and physical confrontation. &amp;lt;Picture 3&amp;gt; is a secondary continuity reference for the calmer post-confrontation poses that follow. &amp;lt;Subject 1&amp;gt; is the elf-like young woman. Use &amp;lt;Picture 2&amp;gt; as the primary reference for her appearance, &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wih5rg/i_fed_minimax_h3_3_pages_of_a_comic_and_it_spit/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1wig2ya/katarina_lost_in_space/</id><title>Katarina lost in space</title>
 <link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wig2ya/katarina_lost_in_space/"/>
@@ -29,6 +94,15 @@
 <category term="lora"/>
 <summary>I've been training character LoRAs specifically for Krea 2 and wanted a simple place where people could browse everything instead of having the models scattered across individual posts. I currently have 18 character LoRAs available, all free on Hugging Face. I also built a small visual browser for t</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I've been training character LoRAs specifically for Krea 2 and wanted a simple place where people could browse everything instead of having the models scattered across individual posts. I currently have 18 character LoRAs available, all free on Hugging Face. I also built a small visual browser for the collection so you can see the results before downloading anything. Each LoRA includes: preview and sample generations trigger words recommended strength training steps optional detail/identity prompt They're trained for Krea 2 and intended for local use in workflows like ComfyUI. Browse the collection: LoRA Browser Hugging Face repository: Huggingface Repo I'm continuing to add characters as I &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wif3rw/ive_been_building_a_free_krea_2_character_lora/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1wiesdh/mota_crewing_platform/</id><title>Mota crewing platform</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wiesdh/mota_crewing_platform/"/>
+<published>2026-09-17T00:31:07+00:00</published><updated>2026-09-17T00:31:07+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="vfx"/>
+<summary>Does anyone have experience signing up or working with Mota? mota-hub.com They're positioned as a source to pair up VFX vendors with production studios, and artist crew with vendors. I was wondering if anyone from the artist or supervision side has joined up and what their experience has been? submi</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 1 · vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Does anyone have experience signing up or working with Mota? mota-hub.com They're positioned as a source to pair up VFX vendors with production studios, and artist crew with vendors. I was wondering if anyone from the artist or supervision side has joined up and what their experience has been? submitted by /u/RickySeasack [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wiesdh/mota_crewing_platform/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1wiejia/comfyuiagnesai_v120_free_cloud_text_image_video/</id><title>ComfyUI-Agnes-AI v1.2.0: Free cloud text, image &amp; video gen with dynamic growing slots, external prompt presets &amp; native progress bar (Zero GPU required)</title>
@@ -83,6 +157,16 @@
 <category term="ai video"/>
 <summary>First, in Minimax, I use a prompt like this: “The character remains completely frozen in place, perfectly still like a statue. The camera smoothly orbits 360 degrees around the character in one continuous shot. No character movement, no pose change, no cuts.” Then I use COLMAP: Create a new database</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · gaussian splatting, minimax, ai video&lt;/small&gt;&lt;/p&gt;&lt;p&gt;First, in Minimax, I use a prompt like this: “The character remains completely frozen in place, perfectly still like a statue. The camera smoothly orbits 360 degrees around the character in one continuous shot. No character movement, no pose change, no cuts.” Then I use COLMAP: Create a new database and import the frames extracted from the Minimax video. Go to Processing → Feature Extraction. The important part is to select SIMPLE_PINHOLE as the camera model, then click "Extract". Next, go to "Feature Matching" and click "Run". After that, go to Reconstruction → Start Reconstruction. Once the reconstruction is finished, select "Export Model" to export the camera and reconstruction data. You &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wi85by/for_anyone_wondering_how_i_manage_to_do_this/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wi73ri/do_loras_still_matter_in_the_new_generation_of/</id><title>Do LoRAs still matter in the new generation of image models?</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wi73ri/do_loras_still_matter_in_the_new_generation_of/"/>
+<published>2026-09-16T19:24:47+00:00</published><updated>2026-09-16T19:24:47+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="upscaling"/>
+<category term="lora"/>
+<summary>incorrect generation made with the trained LoRA target image input images used for training Title: Can’t seem to get the LoRA right in Qwen 2511 Hi everyone, I’m trying to train a material/style LoRA for Qwen Image Edit 2511, but I can’t seem to get the result right. The goal is to change only the u</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · upscaling, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;incorrect generation made with the trained LoRA target image input images used for training Title: Can’t seem to get the LoRA right in Qwen 2511 Hi everyone, I’m trying to train a material/style LoRA for Qwen Image Edit 2511, but I can’t seem to get the result right. The goal is to change only the upholstery of a piece of furniture to a specific material called Velvet 506 , while preserving the furniture design, cushion shape, seams, folds, lighting and camera angle. How I created the dataset I started with 10 original furniture images showing the correct Velvet 506 upholstery. These are my target/output images. For each original image, I generated three altered versions using AI. In these a&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wi73ri/do_loras_still_matter_in_the_new_generation_of/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/vfx/comments/1wi6yr5/the_sidefx_houdini_docs_are_actually_readable_now/</id><title>The SideFX Houdini Docs Are Actually Readable Now !</title>
