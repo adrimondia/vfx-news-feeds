@@ -2,8 +2,19 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-09-18T14:30:36+00:00</updated>
+<updated>2026-09-18T16:30:43+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wjsfck/minimax_h3_flux_2_pro_japan_bicycle_street_video/</id><title>Minimax H3+ Flux 2 pro japan bicycle street video workflow</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wjsfck/minimax_h3_flux_2_pro_japan_bicycle_street_video/"/>
+<published>2026-09-18T14:54:50+00:00</published><updated>2026-09-18T14:54:50+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="animation"/>
+<category term="flux"/>
+<category term="minimax"/>
+<summary>I say a skating video on this sub and decided to try cycling video myself with Minimax. I started in morphic with the character generation, used Flux 2 pro for the image, it did not need and reference and the result was pretty good for a simple prompt. The bicycle was the next component , I generate</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 5 · animation, flux, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I say a skating video on this sub and decided to try cycling video myself with Minimax. I started in morphic with the character generation, used Flux 2 pro for the image, it did not need and reference and the result was pretty good for a simple prompt. The bicycle was the next component , I generated both cycle and character separately again no reference and I just asked it for red cycle with black design common anime plot. The third step again was an image where I generated multiple japanese animated street view selected few which I like. This part took a lot of time before animating straight up I wanted to start with still scene of the character with bike on the street, this is where it to&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wjsfck/minimax_h3_flux_2_pro_japan_bicycle_street_video/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wjqc50/how_to_make_character_take_turns_in_speech/</id><title>How to make character take turns in speech CONSISTENTLY in Minimax H3?</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wjqc50/how_to_make_character_take_turns_in_speech/"/>
@@ -74,6 +85,17 @@
 <category term="minimax"/>
 <summary>This is a recreation of Mario's talking-head video using MiniMax H3. Original on the left, recreation on the right. For this kind of clip, "make something similar" leaves a lot unspecified. How close is the camera? What's happening on screen while the person talks? Which parts need to stay consisten</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;This is a recreation of Mario's talking-head video using MiniMax H3. Original on the left, recreation on the right. For this kind of clip, "make something similar" leaves a lot unspecified. How close is the camera? What's happening on screen while the person talks? Which parts need to stay consistent? Here's the workflow: Extract reference frames. Pick frames where the expression, pose, or on-screen content changes. These give you something concrete to work from. Break down what's happening. Describe the framing, setting, delivery, and overlays separately. In this example, the presenter, ranking numbers, and airplane card are separate parts of the scene. Decide what to keep. Use that breakdo&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wjlvxg/an_easier_way_to_reverse_videos_with_effects_in/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wjlcip/minimax_video_generation_contact_sheet_grid_vs/</id><title>MiniMax video generation: Contact sheet grid vs. video input for character face swap and precise motion? Results are too basic...</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wjlcip/minimax_video_generation_contact_sheet_grid_vs/"/>
+<published>2026-09-18T09:22:37+00:00</published><updated>2026-09-18T09:22:37+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="video generation"/>
+<category term="face swap"/>
+<category term="minimax"/>
+<summary>Hey everyone, I'm trying to figure out how to properly make MiniMax work for a specific task and I really need some advice. The Goal: I want to perform a character-to-character face swap/transfer on a 4-second sequence. I need to take a specific character and make the AI replicate her features onto </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 6 · video generation, face swap, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey everyone, I'm trying to figure out how to properly make MiniMax work for a specific task and I really need some advice. The Goal: I want to perform a character-to-character face swap/transfer on a 4-second sequence. I need to take a specific character and make the AI replicate her features onto an existing sequence that includes complex camera motion, facial expressions, eye movements, and micro-expressions, keeping everything consistent with zero subtitles. The Problem with MiniMax: No matter what I try, MiniMax keeps generating extremely basic and lazy movements (it just does a slight zoom or barely moves the eyes), completely ignoring detailed prompt instructions and failing to follow&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wjlcip/minimax_video_generation_contact_sheet_grid_vs/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wjkncu/any_simple_web_ui_wrapper_for_comfyui_so_nontech/</id><title>Any simple web UI wrapper for ComfyUI so non-tech friends can generate videos in one click?</title>
