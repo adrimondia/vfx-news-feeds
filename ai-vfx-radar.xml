@@ -2,8 +2,162 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-09-18T02:30:30+00:00</updated>
+<updated>2026-09-18T04:30:20+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://arxiv.org/abs/2609.19421</id><title>RGS: Reflection-aware Gaussian Splatting via Learning Geometry Continuity for Reflective Objects</title>
+<link rel="alternate" href="https://arxiv.org/abs/2609.19421"/>
+<published>2026-09-18T04:00:00+00:00</published><updated>2026-09-18T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="novel view synthesis"/>
+<category term="gaussian splatting"/>
+<category term="3d gaussian"/>
+<category term="render"/>
+<category term="rendering"/>
+<category term="consistency"/>
+<summary>arXiv:2609.19421v1 Announce Type: new Abstract: Gaussian Splatting has significantly improved the quality of novel view synthesis with explicit Gaussian representation. However, we observed that existing 3D Gaussian Splatting methods (3DGS) often suffer from surface collapse issues on reflective reg</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 7 · novel view synthesis, gaussian splatting, 3d gaussian, render, rendering, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.19421v1 Announce Type: new Abstract: Gaussian Splatting has significantly improved the quality of novel view synthesis with explicit Gaussian representation. However, we observed that existing 3D Gaussian Splatting methods (3DGS) often suffer from surface collapse issues on reflective regions, and thus produce inferior geometry and low-quality specular. In this work, we propose a physically-based deferred rendering framework, named Reflection-aware Gaussian Splatting (RGS), that can accurately model specular regions and improve novel view synthesis performance. Specifically, we found that a powerful 3D foundation model can provide a strong 3D geometric prior to foster correct geom&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.19421"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2609.19518</id><title>AMB3R-SLAM: Kilometer-scale SLAM with Hierarchical Backend</title>
+<link rel="alternate" href="https://arxiv.org/abs/2609.19518"/>
+<published>2026-09-18T04:00:00+00:00</published><updated>2026-09-18T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="tracking"/>
+<category term="camera tracking"/>
+<category term="consistency"/>
+<category term="stereo"/>
+<category term="slam"/>
+<summary>arXiv:2609.19518v1 Announce Type: new Abstract: We present AMB3R-SLAM, a real-time monocular SLAM system capable of reconstructing kilometer-scale trajectories over 10k frames on a single consumer-grade GPU. Our model couples a lightweight front-end for low-latency online tracking with a hierarchica</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 6 · tracking, camera tracking, consistency, stereo, slam&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.19518v1 Announce Type: new Abstract: We present AMB3R-SLAM, a real-time monocular SLAM system capable of reconstructing kilometer-scale trajectories over 10k frames on a single consumer-grade GPU. Our model couples a lightweight front-end for low-latency online tracking with a hierarchical backend that progressively enforces local, mid-level, and global consistency. By avoiding bundle adjustment that relies on the static world assumption, our system naturally handles complex dynamic scenes out of the box. Furthermore, we demonstrate that our method can be extended to leverage stereo, RGB-D, and LiDAR as additional inputs. AMB3R-SLAM achieves strong camera tracking performance acro&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.19518"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2609.19628</id><title>VGGT-GS SLAM: Uncalibrated Monocular Gaussian Splatting SLAM with Feed-Forward Priors</title>
+<link rel="alternate" href="https://arxiv.org/abs/2609.19628"/>
+<published>2026-09-18T04:00:00+00:00</published><updated>2026-09-18T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="gaussian splatting"/>
+<category term="3d gaussian"/>
+<category term="rendering"/>
+<category term="consistency"/>
+<category term="slam"/>
+<summary>arXiv:2609.19628v1 Announce Type: new Abstract: We present VGGT-GS SLAM, a monocular 3D Gaussian Splatting SLAM system designed for uncalibrated videos. Starting from feed-forward VGGT pose and depth priors, our system performs submap differentiable bundle adjustment that jointly refines camera pose</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 7 · gaussian splatting, 3d gaussian, rendering, consistency, slam&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.19628v1 Announce Type: new Abstract: We present VGGT-GS SLAM, a monocular 3D Gaussian Splatting SLAM system designed for uncalibrated videos. Starting from feed-forward VGGT pose and depth priors, our system performs submap differentiable bundle adjustment that jointly refines camera poses and a 3D Gaussian map, while optimizing submap-shared intrinsics and radial--tangential distortion through analytic calibration Jacobians. To improve global consistency, we introduce Gaussian-native alignment (GNA) for camera-anchored scale refinement between sequential submaps and verification of loop-closure candidates. Extensive experiments on standard indoor benchmarks show consistent improv&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.19628"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2609.19716</id><title>GAPrompt++: Multi-Granular Geometry-Aware Point Cloud Prompt for 3D Vision Model</title>
+<link rel="alternate" href="https://arxiv.org/abs/2609.19716"/>
+<published>2026-09-18T04:00:00+00:00</published><updated>2026-09-18T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="gaussian splatting"/>
+<category term="3d gaussian"/>
+<category term="multi-view"/>
+<category term="stereo"/>
+<category term="point cloud"/>
+<summary>arXiv:2609.19716v1 Announce Type: new Abstract: Pre-trained 3D vision models have substantially advanced point cloud analysis, yet adapting them to downstream tasks via full fine-tuning is computationally expensive and storage-intensive. Parameter-Efficient Fine-Tuning (PEFT) offers a promising alte</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 6 · gaussian splatting, 3d gaussian, multi-view, stereo, point cloud&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.19716v1 Announce Type: new Abstract: Pre-trained 3D vision models have substantially advanced point cloud analysis, yet adapting them to downstream tasks via full fine-tuning is computationally expensive and storage-intensive. Parameter-Efficient Fine-Tuning (PEFT) offers a promising alternative by reducing both adaptation cost and storage burden. However, existing prompting-based approaches ignore the intrinsic geometric structures of point clouds, thereby limiting their adaptation capability. This limitation stems from their inability to encode both fine-grained geometric cues and coarse-grained structural semantics, as well as failing to propagate such information effectively t&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.19716"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2609.19907</id><title>GS-PI: An Optimization-Decoupled Appearance Decomposition Approach for Generating PBR Gaussian Assets</title>
+<link rel="alternate" href="https://arxiv.org/abs/2609.19907"/>
+<published>2026-09-18T04:00:00+00:00</published><updated>2026-09-18T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="gaussian splatting"/>
+<category term="pbr"/>
+<category term="rendering"/>
+<category term="consistency"/>
+<category term="multi-view"/>
+<category term="point cloud"/>
+<summary>arXiv:2609.19907v1 Announce Type: new Abstract: Gaussian Splatting (GS) excels at novel-view synthesis but encodes baked-in radiance, tightly entangling illumination with geometry and preventing seamless integration into physically based rendering (PBR) pipelines. Existing inverse-rendering methods </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 7 · gaussian splatting, pbr, rendering, consistency, multi-view, point cloud&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.19907v1 Announce Type: new Abstract: Gaussian Splatting (GS) excels at novel-view synthesis but encodes baked-in radiance, tightly entangling illumination with geometry and preventing seamless integration into physically based rendering (PBR) pipelines. Existing inverse-rendering methods attempt to disentangle materials via joint optimization, but often suffer from competing objectives that cause severe ambiguities and residual lighting artifacts. To overcome this, we present GS-PI, a novel optimization-decoupled framework that casts PBR material generation as a geometry-conditioned diffusion process on 3D point clouds. By operating directly in the 3D domain, our method inherently&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.19907"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2609.19927</id><title>DirtyMoCap: Robust Motion Capture from Unconstrained Markers</title>
+<link rel="alternate" href="https://arxiv.org/abs/2609.19927"/>
+<published>2026-09-18T04:00:00+00:00</published><updated>2026-09-18T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="tracking"/>
+<category term="motion capture"/>
+<category term="mocap"/>
+<category term="human motion"/>
+<summary>arXiv:2609.19927v1 Announce Type: new Abstract: Optical motion capture delivers high-fidelity human motion, but its reliance on strict marker layouts and clean trajectories severely limits its real-world applicability. In practice, tracking systems frequently output unconstrained markers: sparse, no</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · tracking, motion capture, mocap, human motion&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.19927v1 Announce Type: new Abstract: Optical motion capture delivers high-fidelity human motion, but its reliance on strict marker layouts and clean trajectories severely limits its real-world applicability. In practice, tracking systems frequently output unconstrained markers: sparse, noisy, and unordered point clouds with unknown or varying configurations. To bridge the gap between corrupted raw markers and parametric human models, we introduce DirtyMoCap, a robust, marker-layout-free framework. Our core insight is to map unordered marker observations to a fixed set of "proxy anchors" comprising skeletal joints and body surface points, which serve as a stable intermediate repres&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.19927"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2609.20034</id><title>Astronex-World 1.0: Real-Time Interactive World Model Foundation</title>
+<link rel="alternate" href="https://arxiv.org/abs/2609.20034"/>
+<published>2026-09-18T04:00:00+00:00</published><updated>2026-09-18T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="text-to-video"/>
+<category term="image-to-video"/>
+<category term="world model"/>
+<category term="wan2"/>
+<summary>arXiv:2609.20034v1 Announce Type: new Abstract: We present Astronex-World 1.0, an open controllable video world-model foundation. Given a text prompt (text-to-video) or an initial observation (image-to-video), the model predicts future visual states under frame-aligned camera trajectories, continuou</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · text-to-video, image-to-video, world model, wan2&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.20034v1 Announce Type: new Abstract: We present Astronex-World 1.0, an open controllable video world-model foundation. Given a text prompt (text-to-video) or an initial observation (image-to-video), the model predicts future visual states under frame-aligned camera trajectories, continuous actions, and an embodiment identifier, and accepts text events inserted at a specified position of a rollout. The family provides a bidirectional model for full-context generation and a causal model with block-causal attention and cross-block KV caching for persistent generation, both built on the Wan2.2-TI2V-5B prior. PRoPE injects camera intrinsics and extrinsics, while a 64-dimensional action&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.20034"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2609.20589</id><title>RawSLAM: Online HDR Gaussian SLAM from Linear Radiance</title>
+<link rel="alternate" href="https://arxiv.org/abs/2609.20589"/>
+<published>2026-09-18T04:00:00+00:00</published><updated>2026-09-18T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="gaussian splatting"/>
+<category term="tracking"/>
+<category term="hdr"/>
+<category term="rendering"/>
+<category term="slam"/>
+<summary>arXiv:2609.20589v1 Announce Type: new Abstract: Current dense visual SLAM systems rely almost exclusively on 8-bit tonemapped Low Dynamic Range (LDR) inputs, limiting their robustness in extreme lighting where shadows and highlights trigger tracking drift and mapping collapse. Conversely, existing r</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 7 · gaussian splatting, tracking, hdr, rendering, slam&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.20589v1 Announce Type: new Abstract: Current dense visual SLAM systems rely almost exclusively on 8-bit tonemapped Low Dynamic Range (LDR) inputs, limiting their robustness in extreme lighting where shadows and highlights trigger tracking drift and mapping collapse. Conversely, existing raw and High Dynamic Range (HDR) reconstruction pipelines operate strictly offline. They depend on Structure-from-Motion preprocessing and are not suited for large inter-frame motion. We present, to the best of our knowledge, the first online Gaussian SLAM framework that tracks and maps directly on single-exposure 16-bit linear HDR imagery. Our method rests on three core components: an architecture&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.20589"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2609.20623</id><title>PhGS: Post-Hoc Pruning and Refinement of Single-View Feed-Forward 3D Gaussian Reconstructions</title>
+<link rel="alternate" href="https://arxiv.org/abs/2609.20623"/>
+<published>2026-09-18T04:00:00+00:00</published><updated>2026-09-18T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="gaussian splatting"/>
+<category term="3d gaussian"/>
+<category term="rendering"/>
+<category term="consistency"/>
+<category term="multi-view"/>
+<summary>arXiv:2609.20623v1 Announce Type: new Abstract: Recent single-view feed-forward 3D Gaussian Splatting (3DGS) generation predicts a fixed number of Gaussians per camera ray, introducing severe spatial redundancy. Most existing compaction strategies target multi-view setups to exploit cross-view consi</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 6 · gaussian splatting, 3d gaussian, rendering, consistency, multi-view&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.20623v1 Announce Type: new Abstract: Recent single-view feed-forward 3D Gaussian Splatting (3DGS) generation predicts a fixed number of Gaussians per camera ray, introducing severe spatial redundancy. Most existing compaction strategies target multi-view setups to exploit cross-view consistency and are incompatible with single-image models. Instead of retraining the base feed-forward network to directly output compact representations, our insight is to keep the base models frozen and apply post-hoc pruning and recurrent refinement to the generated Gaussians. Consequently, we propose a backbone-agnostic compaction pipeline for single-view feed-forward 3DGS that couples an importanc&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.20623"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2609.20818</id><title>SplashSplat: Reconstructing Splashing Liquids from Real-World Multi-View Videos</title>
+<link rel="alternate" href="https://arxiv.org/abs/2609.20818"/>
+<published>2026-09-18T04:00:00+00:00</published><updated>2026-09-18T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="gaussian splatting"/>
+<category term="smoke"/>
+<category term="rendering"/>
+<category term="multi-view"/>
+<summary>arXiv:2609.20818v1 Announce Type: new Abstract: A splash lives for a fraction of a second: sheets tear into ligaments and droplets, appearance is view-dependent and nearly textureless, and little persists long enough to track. Reconstruction research has consequently focused on smoke, synthetic liqu</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · gaussian splatting, smoke, rendering, multi-view&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.20818v1 Announce Type: new Abstract: A splash lives for a fraction of a second: sheets tear into ligaments and droplets, appearance is view-dependent and nearly textureless, and little persists long enough to track. Reconstruction research has consequently focused on smoke, synthetic liquids, or gently deforming surfaces. To our knowledge, no synchronized multi-view dataset of splashing liquids exists. We therefore introduce a benchmark of 20 real scenes, from coherent streams to violent splashes, captured by seven synchronized, calibrated 4K cameras at 60 fps, with manually refined per-view liquid and container masks and fixed evaluation splits. We further present SplashSplat, bu&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.20818"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2412.18783</id><title>ArtNVG: Content-Style Separated Artistic Neighboring-View Gaussian Stylization</title>
+<link rel="alternate" href="https://arxiv.org/abs/2412.18783"/>
+<published>2026-09-18T04:00:00+00:00</published><updated>2026-09-18T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="gaussian splatting"/>
+<category term="3d gaussian"/>
+<category term="rendering"/>
+<category term="controlnet"/>
+<category term="consistency"/>
+<summary>arXiv:2412.18783v3 Announce Type: replace Abstract: As demand from the film and gaming industries for 3D scenes with target styles grows, the importance of advanced 3D stylization techniques increases. However, recent methods often struggle to maintain local consistency in color and texture througho</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · gaussian splatting, 3d gaussian, rendering, controlnet, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2412.18783v3 Announce Type: replace Abstract: As demand from the film and gaming industries for 3D scenes with target styles grows, the importance of advanced 3D stylization techniques increases. However, recent methods often struggle to maintain local consistency in color and texture throughout stylized scenes, which is essential for maintaining aesthetic coherence. To solve this problem, this paper introduces ArtNVG, an innovative 3D stylization framework that efficiently generates stylized 3D scenes by leveraging reference style images. Built on 3D Gaussian Splatting (3DGS), ArtNVG achieves rapid optimization and rendering while upholding high reconstruction quality. Our framework r&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2412.18783"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2512.06438</id><title>AGORA: Adversarial Generation Of Real-time Animatable 3D Gaussian Head Avatars</title>
+<link rel="alternate" href="https://arxiv.org/abs/2512.06438"/>
+<published>2026-09-18T04:00:00+00:00</published><updated>2026-09-18T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="gaussian splatting"/>
+<category term="3d gaussian"/>
+<category term="avatar"/>
+<category term="rendering"/>
+<summary>arXiv:2512.06438v4 Announce Type: replace Abstract: The generation of high-fidelity, animatable 3D human avatars remains a core challenge in computer graphics and vision, with applications in VR, telepresence, and entertainment. Existing approaches based on implicit representations like NeRFs suffer</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · gaussian splatting, 3d gaussian, avatar, rendering&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2512.06438v4 Announce Type: replace Abstract: The generation of high-fidelity, animatable 3D human avatars remains a core challenge in computer graphics and vision, with applications in VR, telepresence, and entertainment. Existing approaches based on implicit representations like NeRFs suffer from slow rendering and dynamic inconsistencies, while 3D Gaussian Splatting (3DGS) methods are typically limited to static head generation, lacking dynamic control. We bridge this gap by introducing AGORA, a novel framework that extends 3DGS within a generative adversarial network to produce animatable avatars. Our key contribution is a lightweight, FLAME-conditioned deformation branch that pred&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2512.06438"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wjd48u/testing_minimax_realism_combat_and_environment/</id><title>Testing Minimax realism, combat, and environment continuity</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wjd48u/testing_minimax_realism_combat_and_environment/"/>
