@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-09-18T08:00:40+00:00</updated>
+<updated>2026-09-18T08:30:24+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wjiskj/minimax_h3_faceswapface_replacement_for_vfx/</id><title>Minimax H3 Faceswap/Face Replacement For VFX</title>
@@ -13,6 +13,16 @@
 <category term="minimax"/>
 <summary>submitted by /u/ShroakzGaming [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · vfx, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/ShroakzGaming [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wjiskj/minimax_h3_faceswapface_replacement_for_vfx/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wjirqm/minimax_h3_faceswap_for_vfx/</id><title>Minimax H3 Faceswap For VFX</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wjirqm/minimax_h3_faceswap_for_vfx/"/>
+<published>2026-09-18T06:49:26+00:00</published><updated>2026-09-18T06:49:26+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="vfx"/>
+<category term="minimax"/>
+<summary>submitted by /u/ShroakzGaming [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · vfx, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/ShroakzGaming [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wjirqm/minimax_h3_faceswap_for_vfx/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://github.com/hao-ai-lab/FastVideo</id><title>hao-ai-lab/FastVideo</title>
@@ -26,6 +36,25 @@
 <content type="html">&lt;p&gt;&lt;small&gt;GitHub trending (Python) · score 3 · video generation, denoising, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;A unified inference and post-training framework for accelerated video generation. https://hao-ai-lab.github.io/FastVideo | Documentation | Cookbook | Quick Start | Weekly Dev Meeting | 🟣💬 Slack | 🟣💬 WeChat | FastVideo is a unified post-training and real-time inference framework for accelerated video generation. NEWS 2026/09/15 : Release FastH3 8-Step V2 , an eight-forward data-free DMD2 checkpoint distilled from MiniMax-H3 with 80% Video Sparse Attention. Run it with examples/inference/basic/basic_fasth3_8step.py or the FastH3 8-Step V2 recipe . 2026/09/01 : FastH3 now runs locally on Apple Silicon through MLX and on NVIDIA DGX Spark through CUDA 13, including two-Spark inference. Follow the&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.com/hao-ai-lab/FastVideo"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wjigpf/ai_video_final_polishing_tips_and_tricks/</id><title>AI Video Final Polishing Tips and Tricks</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wjigpf/ai_video_final_polishing_tips_and_tricks/"/>
+<published>2026-09-18T06:28:50+00:00</published><updated>2026-09-18T06:28:50+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="upscaling"/>
+<category term="ai video"/>
+<summary>In making AI Video look professional, I have heard whispers of final polishing steps being used, but have had no luck finding tip or tricks or open source solutions to achieving this. Is it really just about producing the better mouse trap, the better workflow that just spits out the result wholesal</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · upscaling, ai video&lt;/small&gt;&lt;/p&gt;&lt;p&gt;In making AI Video look professional, I have heard whispers of final polishing steps being used, but have had no luck finding tip or tricks or open source solutions to achieving this. Is it really just about producing the better mouse trap, the better workflow that just spits out the result wholesale, straight from ref inputs? I did pull together a rudimentary workflow last night using the concept of downscaling, adding noise then upscaling again, and it seemed to help clean things up a bit, but I am kind of surprised there are no prebuilt workflows for it. Maybe I presume too much. Is downscaling &amp;gt; upscaling and adding noise the only way to do it, or are there other methods, nodes, techniqu&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wjigpf/ai_video_final_polishing_tips_and_tricks/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wjhri9/i_made_a_little_game_to_make_comfyui_feel_a/</id><title>I made a little game to make ComfyUI feel a little comfier</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wjhri9/i_made_a_little_game_to_make_comfyui_feel_a/"/>
+<published>2026-09-18T05:49:57+00:00</published><updated>2026-09-18T05:49:57+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<summary>Comfy can be…awkward when you’re starting out. So I made this game as a quick interactive intro. Would love feedback if you try it out: https://www.fuzzpuppy.com/comfier-ui submitted by /u/SeveralFridays [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Comfy can be…awkward when you’re starting out. So I made this game as a quick interactive intro. Would love feedback if you try it out: https://www.fuzzpuppy.com/comfier-ui submitted by /u/SeveralFridays [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wjhri9/i_made_a_little_game_to_make_comfyui_feel_a/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wjhb4n/h3_camera_control_v3_new_updates_coming/</id><title>H3 Camera Control v3 - New Updates Coming</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wjhb4n/h3_camera_control_v3_new_updates_coming/"/>
 <published>2026-09-18T05:24:42+00:00</published><updated>2026-09-18T05:24:42+00:00</updated>
@@ -33,6 +62,16 @@
 <category term="camera control"/>
 <summary>Camera control on video is coming new update is almost ready submitted by /u/Emotional_Example_12 [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · camera control&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Camera control on video is coming new update is almost ready submitted by /u/Emotional_Example_12 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wjhb4n/h3_camera_control_v3_new_updates_coming/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wjh9um/h3_camera_control_v3_new_updates_coming/</id><title>H3 Camera Control v3 - New Updates Coming</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wjh9um/h3_camera_control_v3_new_updates_coming/"/>
+<published>2026-09-18T05:22:44+00:00</published><updated>2026-09-18T05:22:44+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="camera control"/>
+<category term="render"/>
+<summary>Gonna have Camera control on Video, and Fast Render. Cooking Updates submitted by /u/Emotional_Example_12 [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · camera control, render&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Gonna have Camera control on Video, and Fast Render. Cooking Updates submitted by /u/Emotional_Example_12 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wjh9um/h3_camera_control_v3_new_updates_coming/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/vfx/comments/1wjg6w8/footages/</id><title>Footages</title>
@@ -210,6 +249,17 @@
 <category term="cinematic"/>
 <summary>When MiniMax-H3 launched I found myself wanting to test how well it handled things. Specifically I wanted to look at cinematic realism, combat, and environment continuity. I shifted to a different project for a few weeks, but wanted to come back to this to edit it into a scene. This is what I ended </summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 6 · frame interpolation, minimax, lora, consistency, cinematic&lt;/small&gt;&lt;/p&gt;&lt;p&gt;When MiniMax-H3 launched I found myself wanting to test how well it handled things. Specifically I wanted to look at cinematic realism, combat, and environment continuity. I shifted to a different project for a few weeks, but wanted to come back to this to edit it into a scene. This is what I ended up with. Some take aways I found (most likely well known by now) - Realism is improved via prompt and generation MP. The higher the better. About 3/4 of the way through making these videos I switched to PlagueKind's workflow and a fast version of the model minimax_h3_fastvideo_vsa_datafree_1300step_4step_int8_convrot and found myself able to produce better overall quality videos at higher MP in le&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wjd48u/testing_minimax_realism_combat_and_environment/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wjcz72/comfyui_just_made_minimax_ai_video_5x_faster_fast/</id><title>ComfyUI Just Made MiniMax AI Video 5X Faster (Fast H3 Workflow)</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wjcz72/comfyui_just_made_minimax_ai_video_5x_faster_fast/"/>
+<published>2026-09-18T01:51:50+00:00</published><updated>2026-09-18T01:51:50+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<category term="minimax"/>
+<category term="ai video"/>
+<summary>This workflow is really cool. Would you have a use case for it? Edit: 5090/128gb ram. Tested with a 5060ti as well (took 4 mins for a ten second video) submitted by /u/cointalkz [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 6 · comfyui, minimax, ai video&lt;/small&gt;&lt;/p&gt;&lt;p&gt;This workflow is really cool. Would you have a use case for it? Edit: 5090/128gb ram. Tested with a 5060ti as well (took 4 mins for a ten second video) submitted by /u/cointalkz [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wjcz72/comfyui_just_made_minimax_ai_video_5x_faster_fast/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wjb3n9/i_trained_an_industrial_rock_lora_for_yue2/</id><title>I trained an industrial rock lora for YUE2</title>
@@ -484,6 +534,17 @@
 <category term="lora"/>
 <summary>I have updated the video enhancing lora for LTX 2.5, it is now free from visual artifacts. The demo above is an old Madonna music video. It is enhanced with the new lora, it looks more natural than the old version and there are no more ghosting artifacts when the scene changes. On a small mobile scr</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · ltx, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I have updated the video enhancing lora for LTX 2.5, it is now free from visual artifacts. The demo above is an old Madonna music video. It is enhanced with the new lora, it looks more natural than the old version and there are no more ghosting artifacts when the scene changes. On a small mobile screen it may not display the difference distinctly, so please view it on a computer or tablet, Download the workflow and new model here: https://huggingface.co/CQdesign/LTX-2.5-CQ-Video-and-Image-Enhancer-LoRAs/tree/main If you have tried my enhancer lora before, you need to grab the new workflow as well - or else you'll see artifacts in the video. submitted by /u/CQDSN [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wir693/updated_video_enhancing_lora/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wiqvx5/ltx_25_load_lora_node_not_working/</id><title>Ltx 2.5 Load Lora node not working</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wiqvx5/ltx_25_load_lora_node_not_working/"/>
+<published>2026-09-17T11:03:21+00:00</published><updated>2026-09-17T11:03:21+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<category term="ltx"/>
+<category term="lora"/>
+<summary>https://preview.redd.it/ugzufa6za2qh1.png?width=1182&amp;format=png&amp;auto=webp&amp;s=766c2a0865ae65db35b21c32620dad5a5560b467 Ever since I updated comfyui i havent been able to fix this node, I have tried installing the node pack Ltx Video pack but it never resolves. Anyone else faced it and fixed it? Thanks</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 5 · comfyui, ltx, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;https://preview.redd.it/ugzufa6za2qh1.png?width=1182&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=766c2a0865ae65db35b21c32620dad5a5560b467 Ever since I updated comfyui i havent been able to fix this node, I have tried installing the node pack Ltx Video pack but it never resolves. Anyone else faced it and fixed it? Thanks submitted by /u/Reckless_Venom1507 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wiqvx5/ltx_25_load_lora_node_not_working/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wiqbuh/playing_around_with_local_sdxllighting_on_iphone/</id><title>Playing around with local SDXL-Lighting on iPhone 16 Pro</title>
