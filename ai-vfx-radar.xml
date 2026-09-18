@@ -2,8 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-09-18T10:31:01+00:00</updated>
+<updated>2026-09-18T12:31:00+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wjniii/vcattention_for_minimax_h3_looks_very_promising/</id><title>VC-Attention for MiniMax H3 looks very promising</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wjniii/vcattention_for_minimax_h3_looks_very_promising/"/>
+<published>2026-09-18T11:23:18+00:00</published><updated>2026-09-18T11:23:18+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<category term="minimax"/>
+<summary>New VC-Attention paper: https://arxiv.org/abs/2609.15810 https://arxiv.org/html/2609.15810v1 They tested it with MiniMax H3 and report around 1.6x faster attention at 1344x768, with up to 3.58x attention speedup on RTX 5090. What makes it interesting is that it can work together with PDD / step redu</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;New VC-Attention paper: https://arxiv.org/abs/2609.15810 https://arxiv.org/html/2609.15810v1 They tested it with MiniMax H3 and report around 1.6x faster attention at 1344x768, with up to 3.58x attention speedup on RTX 5090. What makes it interesting is that it can work together with PDD / step reduction methods instead of replacing them. I couldn’t find public code yet. Has anyone found an implementation or heard anything about a ComfyUI integration? submitted by /u/robomar_ai_art [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wjniii/vcattention_for_minimax_h3_looks_very_promising/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wjlvxg/an_easier_way_to_reverse_videos_with_effects_in/</id><title>An easier way to reverse videos with effects in MiniMax H3</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wjlvxg/an_easier_way_to_reverse_videos_with_effects_in/"/>
+<published>2026-09-18T09:54:29+00:00</published><updated>2026-09-18T09:54:29+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="minimax"/>
+<summary>This is a recreation of Mario's talking-head video using MiniMax H3. Original on the left, recreation on the right. For this kind of clip, "make something similar" leaves a lot unspecified. How close is the camera? What's happening on screen while the person talks? Which parts need to stay consisten</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;This is a recreation of Mario's talking-head video using MiniMax H3. Original on the left, recreation on the right. For this kind of clip, "make something similar" leaves a lot unspecified. How close is the camera? What's happening on screen while the person talks? Which parts need to stay consistent? Here's the workflow: Extract reference frames. Pick frames where the expression, pose, or on-screen content changes. These give you something concrete to work from. Break down what's happening. Describe the framing, setting, delivery, and overlays separately. In this example, the presenter, ranking numbers, and airplane card are separate parts of the scene. Decide what to keep. Use that breakdo&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wjlvxg/an_easier_way_to_reverse_videos_with_effects_in/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wjkncu/any_simple_web_ui_wrapper_for_comfyui_so_nontech/</id><title>Any simple web UI wrapper for ComfyUI so non-tech friends can generate videos in one click?</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wjkncu/any_simple_web_ui_wrapper_for_comfyui_so_nontech/"/>
