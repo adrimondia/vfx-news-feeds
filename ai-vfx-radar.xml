@@ -2,8 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-09-17T22:30:25+00:00</updated>
+<updated>2026-09-18T00:30:21+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wj9r1q/do_we_have_a_consensus_yet_on_fast_h3_v2_3step/</id><title>Do we have a consensus yet on FAST H3 V2 &amp; 3-Step LoRA?</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wj9r1q/do_we_have_a_consensus_yet_on_fast_h3_v2_3step/"/>
+<published>2026-09-17T23:25:06+00:00</published><updated>2026-09-17T23:25:06+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="lora"/>
+<summary>H3 Optimizations are now dropping faster than any single person can test so - do we have a consensus/findings yet on (atleast on I2V) CK + FAST H3 V2 CK + 3-Step LoRA Sparse + CK + 3 Step LoRA u/plaguekind / u/zeronic - any adjustments needed in nodes? Sparse + CK + Fast H3 V2 Any other combo my fin</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;H3 Optimizations are now dropping faster than any single person can test so - do we have a consensus/findings yet on (atleast on I2V) CK + FAST H3 V2 CK + 3-Step LoRA Sparse + CK + 3 Step LoRA u/plaguekind / u/zeronic - any adjustments needed in nodes? Sparse + CK + Fast H3 V2 Any other combo my findings in a nutshell- Quality -&amp;gt; CK + FAST H3 V2 8 Steps (faster) == Sparse + CK + int8 + 4-8 Step LoRAs Quality -&amp;gt; CK + 3 Step LoRA (faster) == Sparse + CK + 4-8 Step LoRAs Sparse + CK + 3 Step LoRA is faster but introduce artifacts more often than with Sparse + CK + int 8 + 4-8 Step LoRAs while quality is same Sparse + CK + FAST H3 V2 - testing ongoing PS: I know some findings are obvious (as in &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wj9r1q/do_we_have_a_consensus_yet_on_fast_h3_v2_3step/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wj9kea/easyai_a_free_opensource_desktop_gui_for_comfyui/</id><title>EasyAI — a free, open-source desktop GUI for ComfyUI aimed at total beginners (Z-Image, Krea 2, Flux 2 Klein, LTX-2.5, MiniMax H3)</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wj9kea/easyai_a_free_opensource_desktop_gui_for_comfyui/"/>
+<published>2026-09-17T23:17:02+00:00</published><updated>2026-09-17T23:17:02+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="video generation"/>
+<category term="comfyui"/>
+<category term="stable diffusion"/>
+<category term="flux"/>
+<category term="minimax"/>
+<summary>I kept running into the same problem: people were interested in Stable Diffusion and ComfyUI, but a lot of them would get stuck on the node graph, custom nodes, model files, and workflow setup before they ever generated their first image. So I ended up building my own solution: EasyAI . It’s a small</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 8 · video generation, comfyui, stable diffusion, flux, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I kept running into the same problem: people were interested in Stable Diffusion and ComfyUI, but a lot of them would get stuck on the node graph, custom nodes, model files, and workflow setup before they ever generated their first image. So I ended up building my own solution: EasyAI . It’s a small PySide6 desktop app that sits in front of ComfyUI and reduces the process to something closer to: Pick a style → type a prompt → choose a shape → Create There’s no node graph to deal with. What it currently does Image, Video, and Prompt Helper tabs Includes ready-to-use workflows for Z-Image Turbo, Krea 2, Anima, FLUX.2 Klein, LTX-2.5, and MiniMax H3 Generation queue — add multiple jobs and let t&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wj9kea/easyai_a_free_opensource_desktop_gui_for_comfyui/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wj1vib/best_minimax_configuration/</id><title>Best Minimax configuration</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wj1vib/best_minimax_configuration/"/>
