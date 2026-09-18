@@ -2,8 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-09-18T00:30:21+00:00</updated>
+<updated>2026-09-18T02:30:30+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wjd48u/testing_minimax_realism_combat_and_environment/</id><title>Testing Minimax realism, combat, and environment continuity</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wjd48u/testing_minimax_realism_combat_and_environment/"/>
+<published>2026-09-18T01:58:29+00:00</published><updated>2026-09-18T01:58:29+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="frame interpolation"/>
+<category term="minimax"/>
+<category term="lora"/>
+<category term="consistency"/>
+<category term="cinematic"/>
+<summary>When MiniMax-H3 launched I found myself wanting to test how well it handled things. Specifically I wanted to look at cinematic realism, combat, and environment continuity. I shifted to a different project for a few weeks, but wanted to come back to this to edit it into a scene. This is what I ended </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 6 · frame interpolation, minimax, lora, consistency, cinematic&lt;/small&gt;&lt;/p&gt;&lt;p&gt;When MiniMax-H3 launched I found myself wanting to test how well it handled things. Specifically I wanted to look at cinematic realism, combat, and environment continuity. I shifted to a different project for a few weeks, but wanted to come back to this to edit it into a scene. This is what I ended up with. Some take aways I found (most likely well known by now) - Realism is improved via prompt and generation MP. The higher the better. About 3/4 of the way through making these videos I switched to PlagueKind's workflow and a fast version of the model minimax_h3_fastvideo_vsa_datafree_1300step_4step_int8_convrot and found myself able to produce better overall quality videos at higher MP in le&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wjd48u/testing_minimax_realism_combat_and_environment/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wjb3n9/i_trained_an_industrial_rock_lora_for_yue2/</id><title>I trained an industrial rock lora for YUE2</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wjb3n9/i_trained_an_industrial_rock_lora_for_yue2/"/>
+<published>2026-09-18T00:24:30+00:00</published><updated>2026-09-18T00:24:30+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="lora"/>
+<summary>submitted by /u/MonsterovichIsBack [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/MonsterovichIsBack [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wjb3n9/i_trained_an_industrial_rock_lora_for_yue2/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wj9r1q/do_we_have_a_consensus_yet_on_fast_h3_v2_3step/</id><title>Do we have a consensus yet on FAST H3 V2 &amp; 3-Step LoRA?</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wj9r1q/do_we_have_a_consensus_yet_on_fast_h3_v2_3step/"/>
@@ -25,6 +47,48 @@
 <category term="minimax"/>
 <summary>I kept running into the same problem: people were interested in Stable Diffusion and ComfyUI, but a lot of them would get stuck on the node graph, custom nodes, model files, and workflow setup before they ever generated their first image. So I ended up building my own solution: EasyAI . It’s a small</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 8 · video generation, comfyui, stable diffusion, flux, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I kept running into the same problem: people were interested in Stable Diffusion and ComfyUI, but a lot of them would get stuck on the node graph, custom nodes, model files, and workflow setup before they ever generated their first image. So I ended up building my own solution: EasyAI . It’s a small PySide6 desktop app that sits in front of ComfyUI and reduces the process to something closer to: Pick a style → type a prompt → choose a shape → Create There’s no node graph to deal with. What it currently does Image, Video, and Prompt Helper tabs Includes ready-to-use workflows for Z-Image Turbo, Krea 2, Anima, FLUX.2 Klein, LTX-2.5, and MiniMax H3 Generation queue — add multiple jobs and let t&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wj9kea/easyai_a_free_opensource_desktop_gui_for_comfyui/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wj82ga/minimax_h3_camera_arc_shot_refuses_to_orbit_in/</id><title>Minimax H3 camera arc shot refuses to orbit in the right direction.</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wj82ga/minimax_h3_camera_arc_shot_refuses_to_orbit_in/"/>
+<published>2026-09-17T22:14:11+00:00</published><updated>2026-09-17T22:14:11+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<category term="minimax"/>
+<category term="lora"/>
+<category term="cinematic"/>
+<summary>I am trying to control an arc shot and have it spin in a specific direction around my main character. It mostly doesn't work and i have to wait for the preview to clear up and hop to the next seed, which sometimes can take ages and is very frustrating. I have mentioned multiple times here that i hav</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 5 · comfyui, minimax, lora, cinematic&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I am trying to control an arc shot and have it spin in a specific direction around my main character. It mostly doesn't work and i have to wait for the preview to clear up and hop to the next seed, which sometimes can take ages and is very frustrating. I have mentioned multiple times here that i have lots of trouble with Minimax H3 prompt adherence, and the usual response is that my prompt is wrong, i am not following the guide, and all the common "tricks" that are supposed to help. So here I am, and it's your chance to shine. I am using: bf16 ref2va, no turbo, no lora, no attention, no spektrum, 0.98MP, 5 seconds, comfyui 0.36.0, fantastic H3 prompt builder &amp;amp; project suite. Here is a test p&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wj82ga/minimax_h3_camera_arc_shot_refuses_to_orbit_in/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wj7ek3/implement_generic_loops_candidate_iii_implemented/</id><title>Implement Generic Loops (Candidate III - implemented ✅) (CORE-14) by rattus128 · Pull Request #16227 · Comfy-Org/ComfyUI</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wj7ek3/implement_generic_loops_candidate_iii_implemented/"/>
+<published>2026-09-17T21:47:55+00:00</published><updated>2026-09-17T21:47:55+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<summary>Comfy 0.36.0 adds Generic Loops. This link shows a couple use cases: "Feeding Back" and "Last → First Video Loop" look interesting submitted by /u/geekierone [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Comfy 0.36.0 adds Generic Loops. This link shows a couple use cases: "Feeding Back" and "Last → First Video Loop" look interesting submitted by /u/geekierone [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wj7ek3/implement_generic_loops_candidate_iii_implemented/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wj6bkb/is_turbo_necessary_for_minimax_h3/</id><title>Is Turbo Necessary For MiniMax H3?</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wj6bkb/is_turbo_necessary_for_minimax_h3/"/>
+<published>2026-09-17T21:05:15+00:00</published><updated>2026-09-17T21:05:15+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<category term="minimax"/>
+<summary>Hi everyone. I have a question. I’m using ComfyUI Cloud, and time or credits are not an issue for me. My main goal is to create videos while preserving the face, identity, and body structure of my main reference model as accurately as possible. This is very important to me. Do you think using Turbo </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi everyone. I have a question. I’m using ComfyUI Cloud, and time or credits are not an issue for me. My main goal is to create videos while preserving the face, identity, and body structure of my main reference model as accurately as possible. This is very important to me. Do you think using Turbo models would reduce the overall video quality or cause more identity/body drift compared to the non-Turbo models? submitted by /u/Serssader [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wj6bkb/is_turbo_necessary_for_minimax_h3/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wj4yeo/fasth3_by_fastvideo_is_available_in_comfyui/</id><title>FastH3 by FastVideo is available in ComfyUI</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wj4yeo/fasth3_by_fastvideo_is_available_in_comfyui/"/>
+<published>2026-09-17T20:13:17+00:00</published><updated>2026-09-17T20:13:17+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="render"/>
+<category term="comfyui"/>
+<category term="stereo"/>
+<summary>Video and native stereo audio, generated together, in seconds. Best for: → Previz and animatics that need lots of takes, quickly → Timing and dialogue tests before committing to a full-quality render → Short-form and social work on tight turnarounds Click the links below to run it locally in ComfyUI</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · render, comfyui, stereo&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Video and native stereo audio, generated together, in seconds. Best for: → Previz and animatics that need lots of takes, quickly → Timing and dialogue tests before committing to a full-quality render → Short-form and social work on tight turnarounds Click the links below to run it locally in ComfyUI: Text 2 Video Image 2 Video submitted by /u/crystal_alpine [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wj4yeo/fasth3_by_fastvideo_is_available_in_comfyui/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wj1vib/best_minimax_configuration/</id><title>Best Minimax configuration</title>
@@ -55,6 +119,19 @@
 <category term="segmentation"/>
 <summary>Hi all ! It's been a while, but we have just shipped a very cool new feature, and we're excited to get your opinion about it. What is new ? Our GS Splats to Mesh algorithm is now available in app ! You can now launch meshing of new sequences you capture or of old ones and download a .glb format. Our</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 4 · 3d gaussian, pbr, segmentation&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi all ! It's been a while, but we have just shipped a very cool new feature, and we're excited to get your opinion about it. What is new ? Our GS Splats to Mesh algorithm is now available in app ! You can now launch meshing of new sequences you capture or of old ones and download a .glb format. Our meshing algorithm takes full advantage of our GS Splatting for sharp results. We will keep pushing for more details and will improve on our V1 in the next few weeks. What is next ? PBR textures will be released in the next version of the algorithm, including Roughness, Base Color, Metallic and Segmentation. We still need to improve our work on these, but our V1 is almost there. How to can I try t&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wj11d7/we_have_launched_our_3d_gaussian_splat_to_mesh/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wj08mp/a_quick_minimax_h3_news_roundup_17th_september/</id><title>A quick Minimax H3 news round-up - 17th September 2026</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wj08mp/a_quick_minimax_h3_news_roundup_17th_september/"/>
+<published>2026-09-17T17:20:37+00:00</published><updated>2026-09-17T17:20:37+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="render"/>
+<category term="comfyui"/>
+<category term="minimax"/>
+<category term="lora"/>
+<category term="storyboard"/>
+<summary>Another quick Minimax H3 news and goodies round-up, for those who may have missed some items. -&gt; ComfyUI-H3-ExactAudioLock. This... "provides a human Audio Review / Accept Gate for choosing one approved [audio] take, before it continues through the workflow. [It is designed for H3 productions] where</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 6 · render, comfyui, minimax, lora, storyboard&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Another quick Minimax H3 news and goodies round-up, for those who may have missed some items. -&amp;gt; ComfyUI-H3-ExactAudioLock. This... "provides a human Audio Review / Accept Gate for choosing one approved [audio] take, before it continues through the workflow. [It is designed for H3 productions] where the picture needs to respond to exact user-supplied audio, instead of regenerated or approximate audio". https://github.com/badgids/ComfyUI-H3-ExactAudioLock -&amp;gt; The Fizgig LoRA trainer and dataset wrangler is now at version 6.0.1. New in 6.x is the ability to make RefMods, as well as LoRAs. Presumably this change now makes Fizgig a tool for those with 12Gb VRAM. https://github.com/shootthesound/F&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wj08mp/a_quick_minimax_h3_news_roundup_17th_september/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wiz8p5/doing_the_desktop_girl_with_minimax_h3/</id><title>Doing the Desktop girl with Minimax h3</title>
@@ -97,6 +174,18 @@
 <category term="multiview"/>
 <summary>Learn how to use Pixal3D Multiview in ComfyUI to generate more accurate 3D models from multiple image views, plus how to use the new Load 3D and Save 3D Pixaroma nodes. In this tutorial, I show how to set up the latest Pixaroma Nodes, enable Kitchen Attention for faster workflows, and use front, bac</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 6 · render, comfyui, flux, multiview&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Learn how to use Pixal3D Multiview in ComfyUI to generate more accurate 3D models from multiple image views, plus how to use the new Load 3D and Save 3D Pixaroma nodes. In this tutorial, I show how to set up the latest Pixaroma Nodes, enable Kitchen Attention for faster workflows, and use front, back, left, and right reference images with Pixal3D Multiview. Using multiple views gives the AI more information about the object, reducing how much it has to invent when generating the sides and back. We test several Pixal3D workflows, including faster geometry generation, higher-quality geometry, vertex colors, and textured 3D models. I also cover common problems such as holes, broken edges, topol&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wiwok3/pixal3d_multiview_in_comfyui_load_save_3d_nodes/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wiwl2r/flux_2_lora_workflow_like_higgsfield_soul_20/</id><title>Flux 2 LORA workflow like Higgsfield Soul 2.0 ?</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wiwl2r/flux_2_lora_workflow_like_higgsfield_soul_20/"/>
+<published>2026-09-17T15:07:11+00:00</published><updated>2026-09-17T15:07:11+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="upscaler"/>
+<category term="flux"/>
+<category term="controlnet"/>
+<category term="lora"/>
+<summary>Higgsfield Soul 2.0 has amazing facial similarity and realism. Problem: very little control about background and pose. Anyone knows a good workflow to replicate HF results but with better background/pose ? Yes, I do know, Controlnet, Upscaler, Face detailer will probably give good results, but I'd l</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 6 · upscaler, flux, controlnet, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Higgsfield Soul 2.0 has amazing facial similarity and realism. Problem: very little control about background and pose. Anyone knows a good workflow to replicate HF results but with better background/pose ? Yes, I do know, Controlnet, Upscaler, Face detailer will probably give good results, but I'd love to see a complete workflow, e.g. LORA -&amp;gt; Flux.2 dev FP8 -&amp;gt; [whatever] = amazingworkflow.json ? If you can provide a truly GREAT workflow which is on par with Higgsfield realism etc. , and you can prove your workflow is doing the job (tests, examples, whatever), we can discuss payment. submitted by /u/MaxHrd [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wiwl2r/flux_2_lora_workflow_like_higgsfield_soul_20/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1wiuwyn/minimax_h3_generation_time_for_different_nvidia/</id><title>Minimax H3 generation time for different Nvidia GPUs</title>
@@ -160,6 +249,16 @@
 <category term="kling"/>
 <summary>Hi guys, So I'm a 3D artist with loads of experience in CGI Motion Graphics (C4D, Unreal Engine, and Houdini). I've done loads of cool freelance work and I'm now in a senior permanent position in a large brand that pays very well, but at the cost of doing mostly AI work instead of using traditional </summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 6 · render, houdini, blender, unreal, unreal engine, kling&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi guys, So I'm a 3D artist with loads of experience in CGI Motion Graphics (C4D, Unreal Engine, and Houdini). I've done loads of cool freelance work and I'm now in a senior permanent position in a large brand that pays very well, but at the cost of doing mostly AI work instead of using traditional CG skills. The thing is, I still get a nice paycheck at the end of the month, so I started not complaining that much and enjoyed seeing what AI is capable of. I use Nano Banana Pro, Seedream, Kling AI, Midjourney... And it's incredibly impressive. As someone that's entered this career because of passion, I always enjoyed making 3D projects on the side, for myself or improving my skills. As a liter&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wisptu/trying_to_make_sense_of_ai_with_the_pleasure_of/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wise3k/custom_comfyui_node_for_reframing_360_images/</id><title>Custom comfyui node for reframing 360 images.</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wise3k/custom_comfyui_node_for_reframing_360_images/"/>
+<published>2026-09-17T12:18:00+00:00</published><updated>2026-09-17T12:18:00+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="vfx"/>
+<category term="comfyui"/>
+<summary>Hello community. This is my first post, perhaps more to come. I wanted to share my custom node that interactively re-frames any 360 image inside comfyui. Hope it'll be useful for you all. Let me know if you wish. Here is the short description to what it does. Put a virtual camera inside a 360° image</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · vfx, comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hello community. This is my first post, perhaps more to come. I wanted to share my custom node that interactively re-frames any 360 image inside comfyui. Hope it'll be useful for you all. Let me know if you wish. Here is the short description to what it does. Put a virtual camera inside a 360° image and pull real shots out of it. Drag the preview to frame by eye, then read exact numbers off the sliders. Both write to the same values, so rough framing and precise repeatable output are the same operation. Built for VFX work: real focal lengths, real sensor sizes, correct field-of-view maths, and four lens projections. Cheers. submitted by /u/ylmzsn [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wise3k/custom_comfyui_node_for_reframing_360_images/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wirzno/project_idea_audio_refmods_for_minimaxh3_bringing/</id><title>[Project Idea] Audio RefMods for MiniMax-H3: Bringing IP-Adapter mechanics to Voice Timbre &amp; Sound Style</title>
@@ -307,6 +406,15 @@
 <content type="html">&lt;p&gt;&lt;small&gt;GitHub trending (all) · score 2 · hunyuan, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki. https://weknora.weixin.qq.com | English | 简体中文 | 日本語 | 한국어 | Overview • Architecture • Key Features • Getting Started • API Reference • Developer Guide 💡 WeKnora — Turn Documents into Living Knowledge with RAG, Agents and Auto-Wiki 📌 Overview WeKnora is an open-source, LLM-powered knowledge framework built for enterprise-grade document understanding, semantic retrieval, and autonomous reasoning. https://github.com/user-attachments/assets/19b28ce2-a62f-4f54-b289-c983576259bc 2:25 · 1080p · English narration &amp;amp; captions. It is organized around three core capab&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.com/Tencent/WeKnora"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wikpbb/yue2_how_to_make_instrumental_only_with_comfyui/</id><title>YuE2, how to make instrumental only with ComfyUI workflow?</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wikpbb/yue2_how_to_make_instrumental_only_with_comfyui/"/>
+<published>2026-09-17T05:11:37+00:00</published><updated>2026-09-17T05:11:37+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<summary>I'm using the t2m from Comfy templates. I can't get instrumental. I tried to leave lyrics panel empty or put meta-data, add "instrumental only" everywhere. In my 30s test, after few seconds intro there's always some random lyrics. submitted by /u/big-boss_97 [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I'm using the t2m from Comfy templates. I can't get instrumental. I tried to leave lyrics panel empty or put meta-data, add "instrumental only" everywhere. In my 30s test, after few seconds intro there's always some random lyrics. submitted by /u/big-boss_97 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wikpbb/yue2_how_to_make_instrumental_only_with_comfyui/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
 <id>https://www.reddit.com/r/vfx/comments/1wikl91/this_clip_of_the_movie_transformers_is_still_100x/</id><title>This clip of the movie Transformers is still 100x better than modern VFX... even after 15 years</title>
 <link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wikl91/this_clip_of_the_movie_transformers_is_still_100x/"/>
 <published>2026-09-17T05:05:44+00:00</published><updated>2026-09-17T05:05:44+00:00</updated>
@@ -335,6 +443,16 @@
 <category term="unreal engine"/>
 <summary>The words speak for themselves. I was a Lighting &amp; Comp Supervisor at Outlook VFX on both the Feature Film/VFX side and Gaming side for 3 years. Feature is currently still unreleased but it is being shopped around to go to American theaters as an IMAX film made completely with Unreal Engine 5. I hea</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 4 · vfx, unreal, unreal engine&lt;/small&gt;&lt;/p&gt;&lt;p&gt;The words speak for themselves. I was a Lighting &amp;amp; Comp Supervisor at Outlook VFX on both the Feature Film/VFX side and Gaming side for 3 years. Feature is currently still unreleased but it is being shopped around to go to American theaters as an IMAX film made completely with Unreal Engine 5. I headed the project. Worked directly under Trevor Pryce, and trust me when I say that after reading this article and seeing the travesties being inflicted on others besides myself, this only scratches the surface of what we actually dealt with. Just take 30 seconds to look up "Outlook VFX Glassdoor". You'll see what I'm talking about. I'm very glad to see others speaking out against this asshole. No m&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wijvbv/outlook_vfx_ceo_trevor_pryce_accused_of_not/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wijk9y/is_the_civitai_anima_and_minimax_lora_trainers/</id><title>Is the Civitai Anima and MiniMax Lora Trainers broken?</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wijk9y/is_the_civitai_anima_and_minimax_lora_trainers/"/>
+<published>2026-09-17T04:13:04+00:00</published><updated>2026-09-17T04:13:04+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="minimax"/>
+<category term="lora"/>
+<summary>I can train SDXL and Illustrious Loras without Issue, but if I try to train datasets for Anima and MiniMax, when I being the training, after some few minutes the Lora fails to train and I get my Buzz refunded. And this has been over a week now. Do you guys are having the same problem? Or maybe my da</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I can train SDXL and Illustrious Loras without Issue, but if I try to train datasets for Anima and MiniMax, when I being the training, after some few minutes the Lora fails to train and I get my Buzz refunded. And this has been over a week now. Do you guys are having the same problem? Or maybe my datasets are too big? They're around 200 images, I don't know if I need to reduce them to 50 images or so with these new formats. Can anyone help me or provide feedback about this? Thanks! submitted by /u/Ok-Goose9891 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wijk9y/is_the_civitai_anima_and_minimax_lora_trainers/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://arxiv.org/abs/2609.18473</id><title>CADSplat: Sparse-View 3D Gaussian Splatting Aided by CAD Models for Robust, Photorealistic Digital-Twin Reconstruction</title>
@@ -371,6 +489,56 @@
 <category term="multi-view"/>
 <summary>arXiv:2607.05598v2 Announce Type: replace Abstract: Novel View Synthesis (NVS) methods, such as 3D Gaussian Splatting (3DGS), rely on the assumption of clean, multi-view consistent, posed input images. Real-world captures can violate this assumption due to \textbf{screen-space artifacts}---static oc</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.GR · score 7 · novel view synthesis, gaussian splatting, 3d gaussian, rendering, multi-view&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2607.05598v2 Announce Type: replace Abstract: Novel View Synthesis (NVS) methods, such as 3D Gaussian Splatting (3DGS), rely on the assumption of clean, multi-view consistent, posed input images. Real-world captures can violate this assumption due to \textbf{screen-space artifacts}---static occlusions fixed to the 2D image plane rather than to the 3D world. Common examples include physical sensor defects, environmental obstructions (such as rain or mud on the lens enclosure), capture obstructions (such as a thumb over the camera sensor or a dashboard visible in dashcam footage), and digital overlays (such as watermarks or UI elements). When present, they are erroneously baked into the &lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2607.05598"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2609.17810</id><title>Wind on Trees: Testing Physical Grounding in Dynamic 4D Gaussian Splatting</title>
+<link rel="alternate" href="https://arxiv.org/abs/2609.17810"/>
+<published>2026-09-17T04:00:00+00:00</published><updated>2026-09-17T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="gaussian splatting"/>
+<category term="4d"/>
+<category term="consistency"/>
+<summary>arXiv:2609.17810v1 Announce Type: new Abstract: Monocular reconstruction of wind-driven vegetation is severely underconstrained: motion along the viewing direction is largely unobservable, a moving canopy offers few reliable correspondences, and nearly the entire scene is dynamic, providing little s</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · gaussian splatting, 4d, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.17810v1 Announce Type: new Abstract: Monocular reconstruction of wind-driven vegetation is severely underconstrained: motion along the viewing direction is largely unobservable, a moving canopy offers few reliable correspondences, and nearly the entire scene is dynamic, providing little static reference. Directly-learned deformation fields in 4D Gaussian Splatting therefore optimize photometric consistency rather than recover the motion that produced it. We replace that field with a physically parameterized deformation prior: one damped harmonic oscillator per rigid part, driven by the observed wind and integrated by differentiable RK4, supervised photometrically alone. To test wh&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.17810"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2609.18737</id><title>Geometry beneath the Waves: Dense Priors for Sparse-View Underwater 3D Gaussian Splatting</title>
+<link rel="alternate" href="https://arxiv.org/abs/2609.18737"/>
+<published>2026-09-17T04:00:00+00:00</published><updated>2026-09-17T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="gaussian splatting"/>
+<category term="3d gaussian"/>
+<category term="3d reconstruction"/>
+<category term="rendering"/>
+<summary>arXiv:2609.18737v1 Announce Type: new Abstract: Underwater 3D reconstruction supports applications ranging from marine ecosystem monitoring and subsea inspection to underwater archaeology, education, and immersive visualisation. 3D Gaussian Splatting has made real-time photorealistic novel-view rend</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 6 · gaussian splatting, 3d gaussian, 3d reconstruction, rendering&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.18737v1 Announce Type: new Abstract: Underwater 3D reconstruction supports applications ranging from marine ecosystem monitoring and subsea inspection to underwater archaeology, education, and immersive visualisation. 3D Gaussian Splatting has made real-time photorealistic novel-view rendering practical, while underwater variants incorporate physically based image-formation models to separate medium effects from scene radiance. Their reconstruction quality, however, remains fundamentally limited by the geometry used for initialisation.&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.18737"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2609.18898</id><title>NormLift: From Lifted Features To Semantic Reliability In 3D Gaussian Splatting</title>
+<link rel="alternate" href="https://arxiv.org/abs/2609.18898"/>
+<published>2026-09-17T04:00:00+00:00</published><updated>2026-09-17T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="gaussian splatting"/>
+<category term="3d gaussian"/>
+<category term="segmentation"/>
+<category term="rendering"/>
+<category term="consistency"/>
+<category term="multi-view"/>
+<summary>arXiv:2609.18898v1 Announce Type: new Abstract: Training-free weighted aggregation is widely used to lift 2D semantic features onto 3D Gaussians for open-vocabulary scene understanding, yet its theoretical role remains insufficiently understood. Existing analyses typically justify this operation fro</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 8 · gaussian splatting, 3d gaussian, segmentation, rendering, consistency, multi-view&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.18898v1 Announce Type: new Abstract: Training-free weighted aggregation is widely used to lift 2D semantic features onto 3D Gaussians for open-vocabulary scene understanding, yet its theoretical role remains insufficiently understood. Existing analyses typically justify this operation from the rendering side, treating Gaussian features as linearly composable Euclidean variables for reconstructing 2D feature maps. However, this view does not match downstream 3D usage, where each Gaussian is often queried independently in a cosine-based embedding space. We revisit feature lifting from the 3D side and formulate per-Gaussian assignment as a cosine alignment problem on the CLIP unit sp&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.18898"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2609.02036</id><title>SelfLift: Accelerating Few-Step Diffusion via Self-Recovering Resolution Transition</title>
+<link rel="alternate" href="https://arxiv.org/abs/2609.02036"/>
+<published>2026-09-17T04:00:00+00:00</published><updated>2026-09-17T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="super-resolution"/>
+<category term="denoising"/>
+<category term="denoiser"/>
+<category term="flux"/>
+<category term="consistency"/>
+<summary>arXiv:2609.02036v2 Announce Type: replace Abstract: Few-step diffusion models substantially compress temporal computation, making the spatial cost of each model evaluation an increasingly dominant source of inference latency. Progressive-resolution inference reduces this cost by performing early den</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · super-resolution, denoising, denoiser, flux, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.02036v2 Announce Type: replace Abstract: Few-step diffusion models substantially compress temporal computation, making the spatial cost of each model evaluation an increasingly dominant source of inference latency. Progressive-resolution inference reduces this cost by performing early denoising at low resolution and reserving high-resolution computation for refinement. However, existing methods typically lift intermediate latents directly and rely on subsequent steps to absorb the induced distribution mismatch. In the few-step regime, the limited recovery budget leaves these errors as visible artifacts, constraining how late the transition can occur and, consequently, how efficien&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.02036"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1wiin9p/rtx_3070_monitor_turns_off_when_rendering_ai/</id><title>RTX 3070 monitor turns off when rendering AI videos with ComfyUI Minimax H3</title>
