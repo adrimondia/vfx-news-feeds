@@ -2,8 +2,47 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-09-19T00:30:19+00:00</updated>
+<updated>2026-09-19T02:30:18+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wk8f92/minimax_h3_speedup_comparisons/</id><title>MiniMax H3 Speed-up comparisons</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wk8f92/minimax_h3_speedup_comparisons/"/>
+<published>2026-09-19T01:20:01+00:00</published><updated>2026-09-19T01:20:01+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<category term="minimax"/>
+<category term="consistency"/>
+<summary>Speed-up methods comparison page for MiniMax H3, you can compare with baseline - very user friendly design. https://plox-1.github.io/h3-speedups/ Important: Quality was rated by AI (Fable 5.1 @ xHigh) with 5 frames extraction. So you'd have to rate the audio and temporal consistency part youself. Cl</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · comfyui, minimax, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Speed-up methods comparison page for MiniMax H3, you can compare with baseline - very user friendly design. https://plox-1.github.io/h3-speedups/ Important: Quality was rated by AI (Fable 5.1 @ xHigh) with 5 frames extraction. So you'd have to rate the audio and temporal consistency part youself. Click "Advanced" checkbox on the page to find each speed-ups and more info on each speedup row. This was at first personal, so I could get a feel of what was fastest, it was done by Claude Code (Fable 5.1) with ComfyUI MCP that generated on my RTX 5090, then thought I could share it here. If you have a speed-up you'd like me to test out, let me know in the comment. Snapshot of the website Snapshot o&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wk8f92/minimax_h3_speedup_comparisons/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wk85pc/taking_yue2_lora_requests_with_major_caveat/</id><title>TAKING YUE2 LORA REQUESTS (WITH MAJOR CAVEAT)</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wk85pc/taking_yue2_lora_requests_with_major_caveat/"/>
+<published>2026-09-19T01:07:32+00:00</published><updated>2026-09-19T01:07:32+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="lora"/>
+<summary>Alright people, we finally have a frontier-level music model, and it takes LoRAs beautifully. I've trained four so far, all at the edges: militant roots reggae, Sanremo-era Italian pop, French chanson (with a spoken-word trick that works), and a Bulgarian choir + Tuvan throat-singing set that's cook</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Alright people, we finally have a frontier-level music model, and it takes LoRAs beautifully. I've trained four so far, all at the edges: militant roots reggae, Sanremo-era Italian pop, French chanson (with a spoken-word trick that works), and a Bulgarian choir + Tuvan throat-singing set that's cooking right now. Demos and weights are on my Hugging Face if you want to hear what a LoRA does to this thing. I'm going to take a few requests and run the training on my 5090. You bring the idea and the dataset, I bring the compute, the captioning pipeline and the release. Result goes up public on HF with demos and a README so everyone can use it. What makes a good idea: interesting, melodic, unusua&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wk85pc/taking_yue2_lora_requests_with_major_caveat/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wk7rft/off_panel_minimax_h3_raunchy_teaser_episode_you/</id><title>Off Panel - Minimax H3 raunchy teaser episode. You can make anime at home!</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wk7rft/off_panel_minimax_h3_raunchy_teaser_episode_you/"/>
+<published>2026-09-19T00:49:43+00:00</published><updated>2026-09-19T00:49:43+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="minimax"/>
+<summary>submitted by /u/stateofartist [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/stateofartist [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wk7rft/off_panel_minimax_h3_raunchy_teaser_episode_you/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1wk7fkq/gnm_monocular_3d_head_tracker/</id><title>GNM Monocular 3D Head Tracker</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wk7fkq/gnm_monocular_3d_head_tracker/"/>
+<published>2026-09-19T00:34:26+00:00</published><updated>2026-09-19T00:34:26+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="tracking"/>
+<category term="blender"/>
+<summary>I trained a new model to do monocular 3D head tracking with Google’s new GNM parametric 3DMM. I generated a dataset of about 200k images in Blender. After plenty of experimentation I’ve landed on some really good results. I think this is the first model that also does neck tracking. This is primaril</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · tracking, blender&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I trained a new model to do monocular 3D head tracking with Google’s new GNM parametric 3DMM. I generated a dataset of about 200k images in Blender. After plenty of experimentation I’ve landed on some really good results. I think this is the first model that also does neck tracking. This is primarily being used to do digital beauty work for film and TV. submitted by /u/ericcpfx [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wk7fkq/gnm_monocular_3d_head_tracker/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/vfx/comments/1wk5gmf/vfx_shot_using_blender_nuke/</id><title>VFX Shot Using Blender &amp; Nuke</title>
 <link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wk5gmf/vfx_shot_using_blender_nuke/"/>
