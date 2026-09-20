@@ -2,8 +2,37 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-09-20T16:30:18+00:00</updated>
+<updated>2026-09-20T18:30:19+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1wlmwti/pool_trick_shot_blender/</id><title>Pool Trick Shot Blender</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wlmwti/pool_trick_shot_blender/"/>
+<published>2026-09-20T17:19:05+00:00</published><updated>2026-09-20T17:19:05+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="render"/>
+<category term="blender"/>
+<summary>Proud of my render here 🤩 submitted by /u/ABrutalDuck [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 3 · render, blender&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Proud of my render here 🤩 submitted by /u/ABrutalDuck [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wlmwti/pool_trick_shot_blender/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wlltxm/fix_for_the_minimax_h3_vae_grid_tileseam_artifact/</id><title>Fix for the MiniMax H3 VAE grid / tile-seam artifact in ComfyUI Core — usable now via PR #16422</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wlltxm/fix_for_the_minimax_h3_vae_grid_tileseam_artifact/"/>
+<published>2026-09-20T16:37:53+00:00</published><updated>2026-09-20T16:37:53+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<category term="minimax"/>
+<summary>I tracked down and fixed the rectangular grid / tile-seam artifact that can appear when decoding MiniMax H3 video in ComfyUI. PR: https://github.com/Comfy-Org/ComfyUI/pull/16422 The video in this post shows without the fix first, then with the fix . This is not an exact A/B because I was testing oth</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I tracked down and fixed the rectangular grid / tile-seam artifact that can appear when decoding MiniMax H3 video in ComfyUI. PR: https://github.com/Comfy-Org/ComfyUI/pull/16422 The video in this post shows without the fix first, then with the fix . This is not an exact A/B because I was testing other H3/Flow changes at the same time, so differences in the generated content itself are irrelevant here. What matters is the VAE artifact: the first run shows the fixed spatial lattice/grid, while the run with the corrected compositor does not. What was wrong? The H3 VAE decodes large frames in overlapping spatial tiles. ComfyUI's existing compositor blended those tiles pairwise, which can lose co&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wlltxm/fix_for_the_minimax_h3_vae_grid_tileseam_artifact/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1wllfx4/paid_looking_for_a_vfx_artist_for_short_horror/</id><title>[PAID] Looking for a VFX Artist for Short Horror Film</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wllfx4/paid_looking_for_a_vfx_artist_for_short_horror/"/>
+<published>2026-09-20T16:23:11+00:00</published><updated>2026-09-20T16:23:11+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="vfx"/>
+<summary>First time posting here. I have a Youtube channel and every year we do a "short" film for Halloween. I have never needed a VFX artist for any of the others but for our newest one, the work is just way out of my skill range. At the end of the film the "witch" or whatever you want to call her reveals </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;First time posting here. I have a Youtube channel and every year we do a "short" film for Halloween. I have never needed a VFX artist for any of the others but for our newest one, the work is just way out of my skill range. At the end of the film the "witch" or whatever you want to call her reveals herself to the others in the room. I'd be looking for someone that can "enhance" her appearance by making her a bit more otherworldly and additionally smooth out a throat slit practical effect. I think it's around 11 shots with the longest being about 16 seconds. This is paid but the budget for the whole short is pretty low and I have no idea what someone might be paid for this kind of work. If in&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wllfx4/paid_looking_for_a_vfx_artist_for_short_horror/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/vfx/comments/1wlhxo0/hello_heres_a_scene_i_put_together_from_scratch/</id><title>Hello 👋 Here’s a scene I put together from scratch for a short film, centered around a snowstorm simulation. It’s a 3D/VFX project created in Houdini with Karma XPU. I had a great time putting everything together and working on the snow ❄️ Let me know what you think!</title>
 <link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wlhxo0/hello_heres_a_scene_i_put_together_from_scratch/"/>
