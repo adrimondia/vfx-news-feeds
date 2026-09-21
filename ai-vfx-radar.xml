@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-09-21T10:30:59+00:00</updated>
+<updated>2026-09-21T12:30:52+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wm77xo/some_very_simple_qwenimage21_workflows/</id><title>Some very simple Qwen-Image-2.1 workflows</title>
@@ -33,6 +33,17 @@
 <category term="render"/>
 <summary>The Generative UI framework https://json-render.dev json-render The Generative UI framework. Generate dynamic, personalized UIs from prompts without sacrificing reliability. Predefined components and actions for safe, predictable output. # for React npm install @json-render/core @json-render/react #</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;GitHub trending (all) · score 2 · gaussian splatting, render&lt;/small&gt;&lt;/p&gt;&lt;p&gt;The Generative UI framework https://json-render.dev json-render The Generative UI framework. Generate dynamic, personalized UIs from prompts without sacrificing reliability. Predefined components and actions for safe, predictable output. # for React npm install @json-render/core @json-render/react # for React with pre-built shadcn/ui components npm install @json-render/shadcn # or for React Native npm install @json-render/core @json-render/react-native # or for video npm install @json-render/core @json-render/remotion # or for PDF documents npm install @json-render/core @json-render/react-pdf # or for HTML email npm install @json-render/core @json-render/react-email @react-email/components @&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.com/vercel-labs/json-render"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wm4hvk/setting_up_expectation/</id><title>Setting up expectation</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wm4hvk/setting_up_expectation/"/>
+<published>2026-09-21T06:07:30+00:00</published><updated>2026-09-21T06:07:30+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="image editing"/>
+<category term="comfyui"/>
+<category term="flux"/>
+<summary>https://preview.redd.it/bge17afpatqh1.png?width=675&amp;format=png&amp;auto=webp&amp;s=3f89ebb3a4278fa7d09e757a41c7e3a3dc498a5f Qwen 2.1 is a fucking 7B model with T2I and, IMO, quite good I2I image editing compared to Klein 9B. Krea 2 is 12.9B and was trained hard to be an absolute monster at T2I. Want somethi</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · image editing, comfyui, flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;https://preview.redd.it/bge17afpatqh1.png?width=675&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=3f89ebb3a4278fa7d09e757a41c7e3a3dc498a5f Qwen 2.1 is a fucking 7B model with T2I and, IMO, quite good I2I image editing compared to Klein 9B. Krea 2 is 12.9B and was trained hard to be an absolute monster at T2I. Want something around Nano Banana level that you can run locally? Flux 2 Dev. It’s a 30B model capable of both I2I and T2I. On AA Arena, its Elo is around 1000, while GPT Image 1 is at 1007 and NBP is around 1100. “But it won’t fit in my VRAM.” As long as your RAM + VRAM is roughly equal to or greater than the model size, you can run it. Modern ComfyUI detects your available VRAM by default and uses block off&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wm4hvk/setting_up_expectation/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://arxiv.org/abs/2609.21176</id><title>4DGS-Fixer: Generative Sparse-View 4D Gaussian Splatting with Iterative Refinement Guided by Video Diffusion Priors</title>
