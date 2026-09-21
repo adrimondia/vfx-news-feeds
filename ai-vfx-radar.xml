@@ -2,8 +2,104 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-09-21T02:30:27+00:00</updated>
+<updated>2026-09-21T04:30:20+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://arxiv.org/abs/2609.21176</id><title>4DGS-Fixer: Generative Sparse-View 4D Gaussian Splatting with Iterative Refinement Guided by Video Diffusion Priors</title>
+<link rel="alternate" href="https://arxiv.org/abs/2609.21176"/>
+<published>2026-09-21T04:00:00+00:00</published><updated>2026-09-21T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="video diffusion"/>
+<category term="gaussian splatting"/>
+<category term="4d"/>
+<category term="consistency"/>
+<category term="multi-view"/>
+<summary>arXiv:2609.21176v1 Announce Type: new Abstract: This paper addresses the challenges of dynamic scene synthesis from sparse-view videos. Existing methods employ geometric priors, adaptive optimization, or density-control strategies to improve 4D Gaussian modeling under sparse observations. However, t</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 8 · video diffusion, gaussian splatting, 4d, consistency, multi-view&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.21176v1 Announce Type: new Abstract: This paper addresses the challenges of dynamic scene synthesis from sparse-view videos. Existing methods employ geometric priors, adaptive optimization, or density-control strategies to improve 4D Gaussian modeling under sparse observations. However, they cannot fundamentally resolve the ill-posed problem caused by insufficient observations and missing scene information. Moreover, sparse-view 4D Gaussian Splatting (4DGS) often suffers from poor geometric initialization: with only a few input views, COLMAP typically reconstructs sparse and incomplete point clouds, leaving large scene regions without sufficient Gaussian support and making them di&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.21176"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2609.21347</id><title>Cube-Splat: High-Fidelity 360{\deg} Gaussian Splatting SLAM via Cubemap Factorization and Adjoint-Consistent Optimization</title>
+<link rel="alternate" href="https://arxiv.org/abs/2609.21347"/>
+<published>2026-09-21T04:00:00+00:00</published><updated>2026-09-21T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="gaussian splatting"/>
+<category term="3d gaussian"/>
+<category term="tracking"/>
+<category term="consistency"/>
+<category term="slam"/>
+<summary>arXiv:2609.21347v1 Announce Type: new Abstract: Recent progress in 3D Gaussian Splatting (3DGS) has enabled dense visual SLAM with pinhole cameras, yet most pipelines are not designed for panoramic imagery. We present Cube-Splat, the first panoramic GS-SLAM framework that factorizes each 360{\deg} f</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 7 · gaussian splatting, 3d gaussian, tracking, consistency, slam&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.21347v1 Announce Type: new Abstract: Recent progress in 3D Gaussian Splatting (3DGS) has enabled dense visual SLAM with pinhole cameras, yet most pipelines are not designed for panoramic imagery. We present Cube-Splat, the first panoramic GS-SLAM framework that factorizes each 360{\deg} frame into a cubemap of four fixed-orientation virtual pinhole views sharing a single optical center. By designating the front face as the primary pose state, we accumulate gradients from all faces via an adjoint mapping, thereby enabling multi-face observations to coherently update a single state while strictly preserving cross-view geometric consistency. Concurrently, our mapping module densifies&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.21347"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2609.21437</id><title>Think Locally, Refine Globally for Memory-Efficient 3D Reconstruction</title>
+<link rel="alternate" href="https://arxiv.org/abs/2609.21437"/>
+<published>2026-09-21T04:00:00+00:00</published><updated>2026-09-21T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="3d reconstruction"/>
+<category term="camera pose"/>
+<category term="pose estimation"/>
+<category term="consistency"/>
+<summary>arXiv:2609.21437v1 Announce Type: new Abstract: We propose LoG-VGGT, a memory-efficient framework for long-sequence 3D reconstruction that balances local temporal modeling with global camera consistency. Instead of relying on full global attention, our method introduces cross-window attention at a s</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · 3d reconstruction, camera pose, pose estimation, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.21437v1 Announce Type: new Abstract: We propose LoG-VGGT, a memory-efficient framework for long-sequence 3D reconstruction that balances local temporal modeling with global camera consistency. Instead of relying on full global attention, our method introduces cross-window attention at a small subset of transformer blocks, enabling effective information propagation across adjacent temporal windows while keeping memory usage bounded. To mitigate long-term pose drift, we further design a global camera consistency refinement module, where camera tokens interact with compact register tokens via cross-attention to enforce scene-level constraints across the entire sequence. This design e&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.21437"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2609.21498</id><title>VoxelTTO: Voxel-Aligned Feed-Forward 3D Gaussian Splatting with Test-Time Optimization</title>
+<link rel="alternate" href="https://arxiv.org/abs/2609.21498"/>
+<published>2026-09-21T04:00:00+00:00</published><updated>2026-09-21T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="gaussian splatting"/>
+<category term="3d gaussian"/>
+<category term="rendering"/>
+<category term="lora"/>
+<summary>arXiv:2609.21498v1 Announce Type: new Abstract: Recent feed-forward 3D Gaussian Splatting (3DGS) methods typically regress pixel-aligned Gaussian primitives, often causing excessive overlap and artifacts, while inaccuracies in predicted camera poses can lead to misalignment in novel-view synthesis (</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 6 · gaussian splatting, 3d gaussian, rendering, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.21498v1 Announce Type: new Abstract: Recent feed-forward 3D Gaussian Splatting (3DGS) methods typically regress pixel-aligned Gaussian primitives, often causing excessive overlap and artifacts, while inaccuracies in predicted camera poses can lead to misalignment in novel-view synthesis (NVS). We present VoxelTTO, a feed-forward framework for reconstructing geometrically accurate 3DGS scenes from an arbitrary number of images and optional camera parameters. VoxelTTO aggregates dense image features into a global voxel representation and decodes Gaussians from voxel features, breaking the pixel-to-Gaussian correspondence. To exploit known camera parameters while keeping the pretrain&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.21498"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2609.21597</id><title>HAT: Hypothesis-Anchored Tracking for Video Monocular Spacecraft Pose Estimation</title>
+<link rel="alternate" href="https://arxiv.org/abs/2609.21597"/>
+<published>2026-09-21T04:00:00+00:00</published><updated>2026-09-21T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="segmentation"/>
+<category term="tracking"/>
+<category term="pose estimation"/>
+<category term="slam"/>
+<summary>arXiv:2609.21597v1 Announce Type: new Abstract: Monocular 6-DoF pose estimation of non-cooperative targets is important for on-orbit servicing and debris removal. A single-image estimator can confuse near-symmetric spacecraft orientations, and tracking can preserve an incorrect pose. We present Hypo</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 6 · segmentation, tracking, pose estimation, slam&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.21597v1 Announce Type: new Abstract: Monocular 6-DoF pose estimation of non-cooperative targets is important for on-orbit servicing and debris removal. A single-image estimator can confuse near-symmetric spacecraft orientations, and tracking can preserve an incorrect pose. We present Hypothesis-Anchored Tracking (HAT), a causal framework that uses inter-frame motion to select among competing CAD-based pose hypotheses before alignment and fusion. Rather than independently choosing the highest-scoring hypothesis in each image, HAT retains competing orientation histories and selects a pose to anchor the relative trajectory estimated by monocular SLAM. Sparse anchors and pose fusion p&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.21597"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2609.21712</id><title>ZYT-World: A Real-Time Controllable World Model for Closed-Loop Autonomous-Driving Simulation</title>
+<link rel="alternate" href="https://arxiv.org/abs/2609.21712"/>
+<published>2026-09-21T04:00:00+00:00</published><updated>2026-09-21T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="world model"/>
+<category term="wan"/>
+<category term="consistency"/>
+<category term="multi-view"/>
+<summary>arXiv:2609.21712v1 Announce Type: new Abstract: Generative world models offer controllable and repeatable closed-loop simulation for end-to-end and vision-language-action driving policies, but production deployment exposes three unresolved requirements: faithfully reproducing a mixed fisheye-pinhole</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · world model, wan, consistency, multi-view&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.21712v1 Announce Type: new Abstract: Generative world models offer controllable and repeatable closed-loop simulation for end-to-end and vision-language-action driving policies, but production deployment exposes three unresolved requirements: faithfully reproducing a mixed fisheye-pinhole rig at native resolutions; reconciling causal, per-timestep interaction with long-horizon stability and low latency; and preserving scene identity when a location is revisited. We present ZYT-World, a single architecture that natively generates four fisheye views with field of view &amp;gt; 180{\deg} and three pinhole views. Projection-specific Plucker adapters encode camera geometry, ego-motion adaptiv&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.21712"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2609.21938</id><title>Info3R: Information-Adaptive Test-Time Training for 3D Reconstruction</title>
+<link rel="alternate" href="https://arxiv.org/abs/2609.21938"/>
+<published>2026-09-21T04:00:00+00:00</published><updated>2026-09-21T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="3d reconstruction"/>
+<category term="camera pose"/>
+<category term="depth estimation"/>
+<category term="pose estimation"/>
+<summary>arXiv:2609.21938v1 Announce Type: new Abstract: Transformer-based models have recently achieved strong performance on 3D reconstruction from images, and recent works extend them to process video streams in an online manner for real-world deployment. However, existing methods overlook two key signals</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · 3d reconstruction, camera pose, depth estimation, pose estimation&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.21938v1 Announce Type: new Abstract: Transformer-based models have recently achieved strong performance on 3D reconstruction from images, and recent works extend them to process video streams in an online manner for real-world deployment. However, existing methods overlook two key signals when handling long image streams: the importance of each incoming frame and the information saturation of the model's internal state. In this paper, we propose Info3R, a novel information-adaptive test-time training method for the online 3D reconstruction. We introduce an information-aware state update that modulates the state update strength based on the redundancy and informativeness of each in&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.21938"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wltqsp/interview_sep_17_2026_fals_minimax_h3_max_mini_is/</id><title>Interview (Sep 17, 2026): FAL's MiniMax H3 Max Mini is Not Coming</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wltqsp/interview_sep_17_2026_fals_minimax_h3_max_mini_is/"/>
+<published>2026-09-20T21:38:18+00:00</published><updated>2026-09-20T21:38:18+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="lip sync"/>
+<category term="minimax"/>
+<summary>He says H3 Max is 35x faster than the original model and has better quality. Then he spends the rest of the interview explaining how they are building a commercial ecosystem for it: They're working on adding 2 minutes of memory to remember the past when making long videos. Adding lip sync so you sup</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · lip sync, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;He says H3 Max is 35x faster than the original model and has better quality. Then he spends the rest of the interview explaining how they are building a commercial ecosystem for it: They're working on adding 2 minutes of memory to remember the past when making long videos. Adding lip sync so you supply audio and it perfectly follows. Camera controls to direct the camera movement. Reference motion videos for more controllability. Even better prompt adherence, which "is already very good". He says all of this work is for their "closed-source frontier models". He talks about how it's the most popular and cheap model for professionals, that it's 2x more popular than other video models on their i&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wltqsp/interview_sep_17_2026_fals_minimax_h3_max_mini_is/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wls094/change_the_camera_movementangle_for_your_existing/</id><title>Change the camera movement/angle for your existing video clip - Minimax H3 V2V CrossView-Warp LoRA</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wls094/change_the_camera_movementangle_for_your_existing/"/>
