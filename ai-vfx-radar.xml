@@ -2,8 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-09-21T04:30:20+00:00</updated>
+<updated>2026-09-21T06:30:20+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://github.com/vercel-labs/json-render</id><title>vercel-labs/json-render</title>
+<link rel="alternate" href="https://github.com/vercel-labs/json-render"/>
+<published>2026-09-21T06:30:20+00:00</published><updated>2026-09-21T06:30:20+00:00</updated>
+<author><name>GitHub trending (all)</name></author>
+<category term="gaussian splatting"/>
+<category term="render"/>
+<summary>The Generative UI framework https://json-render.dev json-render The Generative UI framework. Generate dynamic, personalized UIs from prompts without sacrificing reliability. Predefined components and actions for safe, predictable output. # for React npm install @json-render/core @json-render/react #</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;GitHub trending (all) · score 2 · gaussian splatting, render&lt;/small&gt;&lt;/p&gt;&lt;p&gt;The Generative UI framework https://json-render.dev json-render The Generative UI framework. Generate dynamic, personalized UIs from prompts without sacrificing reliability. Predefined components and actions for safe, predictable output. # for React npm install @json-render/core @json-render/react # for React with pre-built shadcn/ui components npm install @json-render/shadcn # or for React Native npm install @json-render/core @json-render/react-native # or for video npm install @json-render/core @json-render/remotion # or for PDF documents npm install @json-render/core @json-render/react-pdf # or for HTML email npm install @json-render/core @json-render/react-email @react-email/components @&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.com/vercel-labs/json-render"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://arxiv.org/abs/2609.21176</id><title>4DGS-Fixer: Generative Sparse-View 4D Gaussian Splatting with Iterative Refinement Guided by Video Diffusion Priors</title>
 <link rel="alternate" href="https://arxiv.org/abs/2609.21176"/>
@@ -89,6 +99,16 @@
 <category term="pose estimation"/>
 <summary>arXiv:2609.21938v1 Announce Type: new Abstract: Transformer-based models have recently achieved strong performance on 3D reconstruction from images, and recent works extend them to process video streams in an online manner for real-world deployment. However, existing methods overlook two key signals</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · 3d reconstruction, camera pose, depth estimation, pose estimation&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.21938v1 Announce Type: new Abstract: Transformer-based models have recently achieved strong performance on 3D reconstruction from images, and recent works extend them to process video streams in an online manner for real-world deployment. However, existing methods overlook two key signals when handling long image streams: the importance of each incoming frame and the information saturation of the model's internal state. In this paper, we propose Info3R, a novel information-adaptive test-time training method for the online 3D reconstruction. We introduce an information-aware state update that modulates the state update strength based on the redundancy and informativeness of each in&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.21938"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wm1mgy/integration_of_jev_into_minimax_h3_video/</id><title>Integration of Jev into Minimax H3 Video Generation</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wm1mgy/integration_of_jev_into_minimax_h3_video/"/>
+<published>2026-09-21T03:35:25+00:00</published><updated>2026-09-21T03:35:25+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="video generation"/>
+<category term="minimax"/>
+<summary>Apparently, someone genius came up with this brilliant idea of using Jev for sparsification of attention processing. The result was speed up of generation time over 40 percent, 06:07 to 03:34. Here is the github page of the author: https://github.com/sepiablue-ai/ComfyUI-MiniMax-H3-W4A4-VSA/tree/exp</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · video generation, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Apparently, someone genius came up with this brilliant idea of using Jev for sparsification of attention processing. The result was speed up of generation time over 40 percent, 06:07 to 03:34. Here is the github page of the author: https://github.com/sepiablue-ai/ComfyUI-MiniMax-H3-W4A4-VSA/tree/exp/jev-adaptive-vsa Since there are many open-source alternatives of jev at the moment, I guess we will soon have further optimizations made soon. Has anyone tried the repo? submitted by /u/Repulsive_Gap_1678 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wm1mgy/integration_of_jev_into_minimax_h3_video/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wltqsp/interview_sep_17_2026_fals_minimax_h3_max_mini_is/</id><title>Interview (Sep 17, 2026): FAL's MiniMax H3 Max Mini is Not Coming</title>
