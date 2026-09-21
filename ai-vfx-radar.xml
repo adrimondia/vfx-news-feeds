@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-09-21T12:30:52+00:00</updated>
+<updated>2026-09-21T14:30:52+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wm77xo/some_very_simple_qwenimage21_workflows/</id><title>Some very simple Qwen-Image-2.1 workflows</title>
@@ -44,6 +44,15 @@
 <category term="flux"/>
 <summary>https://preview.redd.it/bge17afpatqh1.png?width=675&amp;format=png&amp;auto=webp&amp;s=3f89ebb3a4278fa7d09e757a41c7e3a3dc498a5f Qwen 2.1 is a fucking 7B model with T2I and, IMO, quite good I2I image editing compared to Klein 9B. Krea 2 is 12.9B and was trained hard to be an absolute monster at T2I. Want somethi</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · image editing, comfyui, flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;https://preview.redd.it/bge17afpatqh1.png?width=675&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=3f89ebb3a4278fa7d09e757a41c7e3a3dc498a5f Qwen 2.1 is a fucking 7B model with T2I and, IMO, quite good I2I image editing compared to Klein 9B. Krea 2 is 12.9B and was trained hard to be an absolute monster at T2I. Want something around Nano Banana level that you can run locally? Flux 2 Dev. It’s a 30B model capable of both I2I and T2I. On AA Arena, its Elo is around 1000, while GPT Image 1 is at 1007 and NBP is around 1100. “But it won’t fit in my VRAM.” As long as your RAM + VRAM is roughly equal to or greater than the model size, you can run it. Modern ComfyUI detects your available VRAM by default and uses block off&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wm4hvk/setting_up_expectation/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wm2y0h/talespin_chillwave_minimax_yue2/</id><title>TaleSpin Chillwave (Minimax + YuE2)</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wm2y0h/talespin_chillwave_minimax_yue2/"/>
+<published>2026-09-21T04:43:32+00:00</published><updated>2026-09-21T04:43:32+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="minimax"/>
+<summary>submitted by /u/the_bollo [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/the_bollo [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wm2y0h/talespin_chillwave_minimax_yue2/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://arxiv.org/abs/2609.21176</id><title>4DGS-Fixer: Generative Sparse-View 4D Gaussian Splatting with Iterative Refinement Guided by Video Diffusion Priors</title>
@@ -140,6 +149,36 @@
 <category term="minimax"/>
 <summary>Apparently, someone genius came up with this brilliant idea of using Jev for sparsification of attention processing. The result was speed up of generation time over 40 percent, 06:07 to 03:34. Here is the github page of the author: https://github.com/sepiablue-ai/ComfyUI-MiniMax-H3-W4A4-VSA/tree/exp</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · video generation, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Apparently, someone genius came up with this brilliant idea of using Jev for sparsification of attention processing. The result was speed up of generation time over 40 percent, 06:07 to 03:34. Here is the github page of the author: https://github.com/sepiablue-ai/ComfyUI-MiniMax-H3-W4A4-VSA/tree/exp/jev-adaptive-vsa Since there are many open-source alternatives of jev at the moment, I guess we will soon have further optimizations made soon. Has anyone tried the repo? submitted by /u/Repulsive_Gap_1678 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wm1mgy/integration_of_jev_into_minimax_h3_video/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wly3jp/minimax_h3_max_still_no_weights/</id><title>Minimax H3 Max Still no weights</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wly3jp/minimax_h3_max_still_no_weights/"/>
+<published>2026-09-21T00:46:55+00:00</published><updated>2026-09-21T00:46:55+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="minimax"/>
+<summary>Last month, Fal released their Max “model,” a fine-tune of MiniMax’s open-source H3 model, that promised faster speeds. Then, after Hao Labs released the weights for their own fast model (FastH3), Fal had a meltdown on Twitter, basically crapping on Hao Labs’ FastH3 and calling it a “random pixel ge</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Last month, Fal released their Max “model,” a fine-tune of MiniMax’s open-source H3 model, that promised faster speeds. Then, after Hao Labs released the weights for their own fast model (FastH3), Fal had a meltdown on Twitter, basically crapping on Hao Labs’ FastH3 and calling it a “random pixel generator.” After the bad press from that meltdown, they told the community they’d release their own weights within a couple of weeks. Nearly a month later, and still no weights have been released. So, with so many more Turbo LoRAs and fast fine-tunes having been released since then, my question is: Should the community still care? And should we still trust a company that bashes other open-source pr&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wly3jp/minimax_h3_max_still_no_weights/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wlww3l/link_refights_calamity_ganon_every_blood_moon/</id><title>Link re-fights Calamity Ganon every blood moon [Exit Song (For a Film)] - MiniMAX H3 Test... IDK anymore</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wlww3l/link_refights_calamity_ganon_every_blood_moon/"/>
+<published>2026-09-20T23:53:27+00:00</published><updated>2026-09-20T23:53:27+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="minimax"/>
+<category term="lora"/>
+<summary>Hey guys, I've been thinking about this one for a while, I had to scrap so many ideas because they were super difficult to get right, but I hope you like what you see here! For some context, Zelda died in this timeline, and the only way for Link to see her again is... Well... You'll see! I promise I</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey guys, I've been thinking about this one for a while, I had to scrap so many ideas because they were super difficult to get right, but I hope you like what you see here! For some context, Zelda died in this timeline, and the only way for Link to see her again is... Well... You'll see! I promise I will post my workflow either here or on my next post, it's really nothing special, but I was able to figure out a somewhat decent 1080p on a 3090 set up (5s in 6 minutes!) WITHOUT the Turbo Lora prompt adherence issues! submitted by /u/dramaton42 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wlww3l/link_refights_calamity_ganon_every_blood_moon/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wlu4jk/qwenimage21_image_upscaling/</id><title>Qwen-Image-2.1 Image Upscaling</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wlu4jk/qwenimage21_image_upscaling/"/>
+<published>2026-09-20T21:54:03+00:00</published><updated>2026-09-20T21:54:03+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="upscaling"/>
+<category term="upscaler"/>
+<category term="comfyui"/>
+<summary>Qwen-Image-2.1 supports native 2K image generation, so I gave it a try as an upscaling/detail-enhancement method without using any additional upscaler nodes or LoRAs. If you see a “missing node” warning on the Math Expression nodes, you can replace them with ComfyUI’s native Math Expression node and</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · upscaling, upscaler, comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Qwen-Image-2.1 supports native 2K image generation, so I gave it a try as an upscaling/detail-enhancement method without using any additional upscaler nodes or LoRAs. If you see a “missing node” warning on the Math Expression nodes, you can replace them with ComfyUI’s native Math Expression node and copy the same expressions. The Math Expression nodes automatically calculate the output resolution while preserving the input aspect ratio. The calculation uses approximately 2048×2048 worth of total pixels (~4.2 MP) as the maximum 2K pixel budget, rather than limiting each side to 2048 px. For example, a 16:9 image can end up around 2730×1536 , which is close to Qwen’s officially recommended 275&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wlu4jk/qwenimage21_image_upscaling/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wltqsp/interview_sep_17_2026_fals_minimax_h3_max_mini_is/</id><title>Interview (Sep 17, 2026): FAL's MiniMax H3 Max Mini is Not Coming</title>
