@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-09-22T04:30:22+00:00</updated>
+<updated>2026-09-22T06:30:24+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
 <entry>
 <id>https://arxiv.org/abs/2609.22283</id><title>Rethinking Streaming Video Diffusion Model: Context, Execution, and Training</title>
@@ -296,6 +296,16 @@
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Using Wrangler VFX on-set database to sync shot data directly into ShotGrid Full video: https://youtu.be/JlWrUgugjbI?si=0azwA37jfx30vIVU App: https://www.wranglervfx.com submitted by /u/Azura675r [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wmx0th/if_you_ever_wanted_your_onset_vfx_database_to/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wmwi9z/how_do_i_use_minimax_h3_as_an_image_edit_model/</id><title>How do I use Minimax H3 as an image edit model?</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wmwi9z/how_do_i_use_minimax_h3_as_an_image_edit_model/"/>
+<published>2026-09-22T02:02:17+00:00</published><updated>2026-09-22T02:02:17+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<category term="minimax"/>
+<summary>I have seen a couple of comments about using H3 as an image model but I haven't been able to find any workflows or settings. I am aware you need an image vae, but I'm still not sure how I'm supposed to produce exactly one frame as the comfyui nodes require a duration of at least 0.1. Then there's th</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I have seen a couple of comments about using H3 as an image model but I haven't been able to find any workflows or settings. I am aware you need an image vae, but I'm still not sure how I'm supposed to produce exactly one frame as the comfyui nodes require a duration of at least 0.1. Then there's the other settings. Do I change the shift values? Which sampler/scheduler is necessary? Total number of steps required? Is it a good idea to combine turbo loras/spectrum? I've tried 50 steps with spectrum and it seems ok but it still outputs a video which I would have to extract a frame. There's also some banding so any tips for that would be awesome thanks. submitted by /u/ItwasCompromised [link] [&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wmwi9z/how_do_i_use_minimax_h3_as_an_image_edit_model/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
 <id>https://www.reddit.com/r/comfyui/comments/1wmtrci/system_lag_during_prolonged_image_generation/</id><title>System lag during prolonged image generation.</title>
 <link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wmtrci/system_lag_during_prolonged_image_generation/"/>
 <published>2026-09-21T23:59:42+00:00</published><updated>2026-09-21T23:59:42+00:00</updated>
@@ -458,6 +468,16 @@
 <category term="comfyui"/>
 <summary>I don't have a GPU. I tried running ComfyUI on a Mac mini M4 and couldn't get much past Z-Image Turbo, so I went looking for one to rent. The name that kept coming up was RunPod, so that's where I started. It works. After Civitai, with the failed jobs and the waiting, it felt good to have my own thi</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · render, comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I don't have a GPU. I tried running ComfyUI on a Mac mini M4 and couldn't get much past Z-Image Turbo, so I went looking for one to rent. The name that kept coming up was RunPod, so that's where I started. It works. After Civitai, with the failed jobs and the waiting, it felt good to have my own thing. Two things got in the way though. A pod stays on until you stop it. Obviously... But what I wanted was the opposite: wake the GPU when I generate and put it back to sleep after. A 1k image with Krea 2 takes about 9 seconds on a warm worker, and waking one up takes three to four minutes: roughly 80 seconds to boot, then another 90 or so to move 18 GB of weights from the volume into VRAM. Then..&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wmgqdk/went_looking_for_a_gpu_to_rent_for_comfyui_and/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wmglkz/my_tests_with_krea_2_local/</id><title>My tests with krea 2 local</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wmglkz/my_tests_with_krea_2_local/"/>
+<published>2026-09-21T15:49:45+00:00</published><updated>2026-09-21T15:49:45+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="rendering"/>
+<category term="consistency"/>
+<summary>I can say comfortably that krea 2 is much better than qwen-image-2.1 (if you follow the official prompting guide) Official Krea 2 Prompting Guides Krea 2 Prompting Guide: Exploration, Style References, Moodboards This is the most comprehensive official guide, covering the three layers of prompting: </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · rendering, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I can say comfortably that krea 2 is much better than qwen-image-2.1 (if you follow the official prompting guide) Official Krea 2 Prompting Guides Krea 2 Prompting Guide: Exploration, Style References, Moodboards This is the most comprehensive official guide, covering the three layers of prompting: starting vague, using style references, and building moodboards. It explains the exploratory philosophy behind Krea 2. https://www.krea.ai/blog/krea-2-deep-dive-walkthrough Krea 2 Prompting Guide: Start Vague, Get Better Results A shorter, focused guide on the "start vague, then narrow down" workflow. It includes a helpful FAQ section on how to get more consistency from the model. https://www.krea&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wmglkz/my_tests_with_krea_2_local/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1wmg6a4/a_quick_minimax_h3_news_roundup_21st_september/</id><title>A quick Minimax H3 news round-up - 21st September 2026</title>
