@@ -2,8 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-09-22T18:30:25+00:00</updated>
+<updated>2026-09-22T20:30:26+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wni6ui/all_the_tricks_i_used_to_make_proper_anime_in/</id><title>All the tricks I used to make proper anime in MiniMaxH3</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wni6ui/all_the_tricks_i_used_to_make_proper_anime_in/"/>
+<published>2026-09-22T18:48:07+00:00</published><updated>2026-09-22T18:48:07+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="upscaler"/>
+<category term="animation"/>
+<category term="render"/>
+<category term="minimax"/>
+<category term="lora"/>
+<summary>The most important part is quality of references: images should look like they are from anime, not just value "anime-style" but flat color shading with clean lines. It's the only way I know (besides loras of dubious quality) to push generation into native 2s and 3s animation. Anything else will have</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 5 · upscaler, animation, render, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;The most important part is quality of references: images should look like they are from anime, not just value "anime-style" but flat color shading with clean lines. It's the only way I know (besides loras of dubious quality) to push generation into native 2s and 3s animation. Anything else will have that typical "AI-3D" look. And of course mandatory The target video is 2d colored anime in detailed_description. Second is MiniMax H3 Latent Upscaler node - with ref2va turbo lora and 4 step with 50% denoise gives me Full HD resolution (5 seconds take about 15 minutes to render). Third one is Add Guide To MiniMax H3 node - allows you to inject prepared image or clip at any part of the timeline - &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wni6ui/all_the_tricks_i_used_to_make_proper_anime_in/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wnhfp8/a_wizard_is_nothing_without_his_hat_h3_t2v/</id><title>A Wizard is nothing without his hat. H3 T2V + spectrum + combat lora</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wnhfp8/a_wizard_is_nothing_without_his_hat_h3_t2v/"/>
+<published>2026-09-22T18:20:54+00:00</published><updated>2026-09-22T18:20:54+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="lora"/>
+<summary>submitted by /u/warzone_afro [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/warzone_afro [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wnhfp8/a_wizard_is_nothing_without_his_hat_h3_t2v/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wnfwq5/help_me_to_choose_the_best_minimax_h3_combination/</id><title>Help me to choose the Best Minimax H3 Combination</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wnfwq5/help_me_to_choose_the_best_minimax_h3_combination/"/>
@@ -7213,77 +7235,5 @@
 <category term="controlnet"/>
 <summary>Hey everyone, I've been working on some characters in ComfyUI with a very specific design and aesthetic, and the results turned out absolutely amazing. My problem now is that I want to create new versions of these exact same characters, in the exact same poses, but wearing completely different outfi</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · inpainting, comfyui, controlnet&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey everyone, I've been working on some characters in ComfyUI with a very specific design and aesthetic, and the results turned out absolutely amazing. My problem now is that I want to create new versions of these exact same characters, in the exact same poses, but wearing completely different outfits. What do you recommend for this? Are there any specific workflows, custom nodes, or techniques (like a specific IP-Adapter + ControlNet + Inpainting setup) that work best for swapping clothes without losing the character's likeness, pose, or the original art style? Any advice, tips, or workflow links would be hugely appreciated. Thanks in advance! submitted by /u/Any-Security4098 [link] [commen&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wb0d9f/need_recommendation_changing_outfits_while/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wb06gv/new_top_level_requeue_mode_for_minimaxh3_context/</id><title>New `top_level_requeue` mode for MiniMaxH3 Context Loop - much better RAM behavior on long sequences</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wb06gv/new_top_level_requeue_mode_for_minimaxh3_context/"/>
-<published>2026-09-08T20:30:16+00:00</published><updated>2026-09-08T20:30:16+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<category term="minimax"/>
-<summary>I built a new top_level_requeue mode for MiniMaxH3 Context Loop to stop long runs from eating system RAM I recently built and contributed a new feature to ComfyUI MiniMaxH3 Context Loop called: top_level_requeue It has now been reviewed, accepted, and merged into the upstream project. I created it b</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I built a new top_level_requeue mode for MiniMaxH3 Context Loop to stop long runs from eating system RAM I recently built and contributed a new feature to ComfyUI MiniMaxH3 Context Loop called: top_level_requeue It has now been reviewed, accepted, and merged into the upstream project. I created it because I kept running into a problem with long MiniMax H3 sequences. The problem I was having Context Loop is great for making long, connected video sequences. But the original execution method can keep many scenes inside one long-running ComfyUI prompt. In simple terms, it can work like this: ```text Start one big ComfyUI job Scene 1 -&amp;gt; Scene 2 -&amp;gt; Scene 3 -&amp;gt; Scene 4 -&amp;gt; Scene 5 -&amp;gt; ... Finish the C&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wb06gv/new_top_level_requeue_mode_for_minimaxh3_context/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wb0353/how_important_is_the_17k5_frame_count_restriction/</id><title>How important is the 17k+5 frame count restriction for MiniMax H3 generation and training?</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wb0353/how_important_is_the_17k5_frame_count_restriction/"/>
-<published>2026-09-08T20:27:01+00:00</published><updated>2026-09-08T20:27:01+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="minimax"/>
-<category term="lora"/>
-<summary>I'm investigating training an H3 LoRA using video clips, and adhering to the 17k+5 frame count seems quite burdensome. So it made me wonder how important this restriction is, really. The model's architecture can handle any of 17k+0, 17k+1, 17k+5, 17k+9, 17k+13. So I had Fable adjust the code to perm</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I'm investigating training an H3 LoRA using video clips, and adhering to the 17k+5 frame count seems quite burdensome. So it made me wonder how important this restriction is, really. The model's architecture can handle any of 17k+0, 17k+1, 17k+5, 17k+9, 17k+13. So I had Fable adjust the code to permit generation at these non-standard phases and generated some videos, and I did not observe any extreme artifacts. There might be some intermittent artifacts related to dialogue timing and the ending frame, but I would need a more rigorous experiment to distinguish it from noise. I have not tried training with non-standard phases. But it seems that some approaches to training on still images use a&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wb0353/how_important_is_the_17k5_frame_count_restriction/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1waz23z/my_contribution_to_the_star_trek_clips_mini/</id><title>My contribution to the Star Trek clips. Mini episode "The Cosmic Render"</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1waz23z/my_contribution_to_the_star_trek_clips_mini/"/>
-<published>2026-09-08T19:50:46+00:00</published><updated>2026-09-08T19:50:46+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="render"/>
-<category term="rendering"/>
-<category term="comfyui"/>
-<category term="flux"/>
-<category term="minimax"/>
-<summary>I decided I would try to lean *into* low resolution rendering to make it part of the story. Still a few mistakes here and there. Created with ComfyUI, Minimax H3, Flux Klein Edit, and Davinci Resolve. Sound FX from StarTrekSounds website and Pixabay. Just using mostly default Minimax H3 comfyUI work</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 6 · render, rendering, comfyui, flux, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I decided I would try to lean *into* low resolution rendering to make it part of the story. Still a few mistakes here and there. Created with ComfyUI, Minimax H3, Flux Klein Edit, and Davinci Resolve. Sound FX from StarTrekSounds website and Pixabay. Just using mostly default Minimax H3 comfyUI workflows. Update: There's a weird audio glitch about 35 seconds in, I'm not sure what I touched wrong in Davinci to cause that, sorry if that hurts your right ear. I'll fix it with updates later submitted by /u/Perfect-Campaign9551 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1waz23z/my_contribution_to_the_star_trek_clips_mini/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1ways27/steffen_hampel_senior_ilm_gen_interview/</id><title>Steffen Hampel - Senior ILM Gen | Interview</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1ways27/steffen_hampel_senior_ilm_gen_interview/"/>
-<published>2026-09-08T19:41:05+00:00</published><updated>2026-09-08T19:41:05+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="animation"/>
-<category term="vfx"/>
-<summary>ILM Generalist Team - Usually responsible for huge one-off environments 01 Tell us a bit about your background. How did you get into VFX, specifically as a generalist? I studied VFX &amp; 3D animation in hamburg starting 2017. 2019 I started my first job as a junior generalst in germany for a company ca</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · animation, vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;ILM Generalist Team - Usually responsible for huge one-off environments 01 Tell us a bit about your background. How did you get into VFX, specifically as a generalist? I studied VFX &amp;amp; 3D animation in hamburg starting 2017. 2019 I started my first job as a junior generalst in germany for a company called nhb studios. In february 2021 I got hired by ILM as a generalist and the rest is history! Now why VFX? I was always into world building, whether its lego or at the sims. At the age of 13, when I watched a Lord of the Rings Making of on DVD and they showed how Weta created CGI for set extensions. I was amazed by how they tricked the audience and how real everything looked. From then on I kind &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1ways27/steffen_hampel_senior_ilm_gen_interview/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wayp69/viggleanimate_for_character_swap/</id><title>viggle-animate for character swap</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wayp69/viggleanimate_for_character_swap/"/>
-<published>2026-09-08T19:38:09+00:00</published><updated>2026-09-08T19:38:09+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="lip-sync"/>
-<category term="comfyui"/>
-<summary>From: https://x.com/cocktailpeanut/status/2097332291844399514 Actually I want to take back my words, it's not bad in lip-sync and facial expression Huggingface: https://huggingface.co/Viggle/Viggle-Animate comfyui: https://huggingface.co/drbaph/Viggle-Animate-ComfyUI/ submitted by /u/init-5 [link] [</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · lip-sync, comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;From: https://x.com/cocktailpeanut/status/2097332291844399514 Actually I want to take back my words, it's not bad in lip-sync and facial expression Huggingface: https://huggingface.co/Viggle/Viggle-Animate comfyui: https://huggingface.co/drbaph/Viggle-Animate-ComfyUI/ submitted by /u/init-5 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wayp69/viggleanimate_for_character_swap/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1waxe5f/paul_kidbydiscworld_style_lora_for_krea_2_civitai/</id><title>Paul Kidby/Discworld Style LoRA for Krea 2 CivitAI and HF links in description</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1waxe5f/paul_kidbydiscworld_style_lora_for_krea_2_civitai/"/>
-<published>2026-09-08T18:52:38+00:00</published><updated>2026-09-08T18:52:38+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="lora"/>
-<summary>A style LoRA trained on the artwork of Paul Kidby, the acclaimed British illustrator best known as the primary cover artist for Terry Pratchett's Discworld novels. Kidby's work is instantly recognizable for its detailed fantasy realism bringing Discworld's characters and settings to life with a dist</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;A style LoRA trained on the artwork of Paul Kidby, the acclaimed British illustrator best known as the primary cover artist for Terry Pratchett's Discworld novels. Kidby's work is instantly recognizable for its detailed fantasy realism bringing Discworld's characters and settings to life with a distinct blend of whimsy and gravity. This is a style LoRA only, no specific characters, creatures, or locations were trained into it, so there are no name triggers to use. Instead, describe what you want visually (a wizard, a skeletal figure with a scythe, a giant turtle carrying a world on its back, etc.). It can handle quite a bit, you may have to use "Painting" or "Illustration" on more verbose/ha&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1waxe5f/paul_kidbydiscworld_style_lora_for_krea_2_civitai/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wawvfy/made_this_coraline_dialogue_meme_with_minimax_h3/</id><title>Made this Coraline dialogue meme with MiniMax H3</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wawvfy/made_this_coraline_dialogue_meme_with_minimax_h3/"/>
-<published>2026-09-08T18:34:43+00:00</published><updated>2026-09-08T18:34:43+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="minimax"/>
-<category term="consistency"/>
-<summary>H3 impressed me here: it generated the dialogue performances, reactions, and camera cuts from character stills plus an existing audio recording. Here’s the workflow: Images: Krea 2 Turbo generated the Coraline/Other Mother scene. Krea 2 Identity Edit handled corrections and matching vertical referen</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · minimax, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;H3 impressed me here: it generated the dialogue performances, reactions, and camera cuts from character stills plus an existing audio recording. Here’s the workflow: Images: Krea 2 Turbo generated the Coraline/Other Mother scene. Krea 2 Identity Edit handled corrections and matching vertical references. Keeping the mother’s button eyes distinct from Coraline’s natural eyes needed attention. Audio: - I split the original 30-second recording into 9-, 10-, and 11-second clips, preserving every awkward pause. - Video: Each clip went through H3 Standard R2V on Sogni, with a reference still and its audio slice. Structured prompts assigned speakers and requested two-shots, close-ups, and reaction c&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wawvfy/made_this_coraline_dialogue_meme_with_minimax_h3/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
