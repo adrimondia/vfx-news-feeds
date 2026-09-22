@@ -2,8 +2,19 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-09-22T14:31:17+00:00</updated>
+<updated>2026-09-22T16:30:43+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wnb7m3/qwen_21_detail_enhancer_lora/</id><title>Qwen 2.1 Detail Enhancer LoRA</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wnb7m3/qwen_21_detail_enhancer_lora/"/>
+<published>2026-09-22T14:34:55+00:00</published><updated>2026-09-22T14:34:55+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="upscaling"/>
+<category term="flux"/>
+<category term="lora"/>
+<summary>This LoRA can do a lot of good things such as detail enhancement, creative upscaling, photo restoration and quality improvements. It's a Image-to-Image(I2I) edit LoRA, so it will require image input, but you can use with Text-to-Image as well. I will be honest here; model itself is quite capable of </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · upscaling, flux, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;This LoRA can do a lot of good things such as detail enhancement, creative upscaling, photo restoration and quality improvements. It's a Image-to-Image(I2I) edit LoRA, so it will require image input, but you can use with Text-to-Image as well. I will be honest here; model itself is quite capable of improving the image, just by prompting it, without needing of this LoRA, yet this LoRA improves the quality and guidance of the model itself on these tasks because it's trained on a dataset that contains pretty good pairs. If you are aiming for upscaling to higher pixels, please use this very simple workflow + add Load LoRA node between Load Diffusion Model and KSampler as usual and load this LoRA&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wnb7m3/qwen_21_detail_enhancer_lora/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://the-decoder.com/a-tiny-software-layer-from-lab-grown-neurons-promises-faster-cheaper-ai-video/</id><title>A tiny software layer from lab-grown neurons promises faster, cheaper AI video</title>
 <link rel="alternate" href="https://the-decoder.com/a-tiny-software-layer-from-lab-grown-neurons-promises-faster-cheaper-ai-video/"/>
@@ -13,6 +24,25 @@
 <category term="ai video"/>
 <summary>The Biological Computing Co. wants to team up with AWS to sell a text-to-video model that's supposed to run five times faster and 80 percent cheaper thanks to a software layer derived from real nerve cells. The tiny layer adds less than 0.1 percent to the base model, but the startup won't say which </summary>
 <content type="html">&lt;p&gt;&lt;small&gt;The Decoder · score 3 · text-to-video, ai video&lt;/small&gt;&lt;/p&gt;&lt;p&gt;The Biological Computing Co. wants to team up with AWS to sell a text-to-video model that's supposed to run five times faster and 80 percent cheaper thanks to a software layer derived from real nerve cells. The tiny layer adds less than 0.1 percent to the base model, but the startup won't say which model that is. The article A tiny software layer from lab-grown neurons promises faster, cheaper AI video appeared first on The Decoder .&lt;/p&gt;&lt;p&gt;&lt;a href="https://the-decoder.com/a-tiny-software-layer-from-lab-grown-neurons-promises-faster-cheaper-ai-video/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wn96zc/flux2klein9bkv_vs_sensenova_u15/</id><title>FLUX.2-klein-9b-kv vs SenseNova U1.5 Lite(multi-reference image fusion comparison)</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wn96zc/flux2klein9bkv_vs_sensenova_u15/"/>
+<published>2026-09-22T13:14:48+00:00</published><updated>2026-09-22T13:14:48+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="flux"/>
+<summary>I tested SenseNova U1.5 Lite against FLUX.2-klein-9b-kv with five multi-reference image fusion tasks. Across the first four examples, SenseNova generally makes fewer reference errors, uses a wider range of elements from the input images, produces richer colors, and generates less garbled text overal</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I tested SenseNova U1.5 Lite against FLUX.2-klein-9b-kv with five multi-reference image fusion tasks. Across the first four examples, SenseNova generally makes fewer reference errors, uses a wider range of elements from the input images, produces richer colors, and generates less garbled text overall. The biggest difference appears in the final winter scene. The prompt says that the woman’s other hand should reach toward the camera while catching or tossing a snowball. FLUX.2-klein-9b-kv keeps the original foreground hand holding the snowball, so it does not establish the requested action. SenseNova U1.5 Lite instead renders the snowball in the woman’s outstretched hand, following both the r&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wn96zc/flux2klein9bkv_vs_sensenova_u15/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wn5yy7/made_my_second_aipowered_movie_fanedit_the_savage/</id><title>Made my second AI-powered movie fanedit - The Savage Sword of Conan the Destroyer</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wn5yy7/made_my_second_aipowered_movie_fanedit_the_savage/"/>
+<published>2026-09-22T10:40:52+00:00</published><updated>2026-09-22T10:40:52+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="inpainting"/>
+<category term="wan"/>
+<summary>After doing fanedit for Alien vs. Predator almost a year back: Alien vs. Predator (2004): Re-enGORED Edition - a fanedit adding proper R-rated violence to Anderson's movie : r/fanedits , I'm back with another project. This time, while having started with Wan, a lot of new footage ended up coming fro</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · inpainting, wan&lt;/small&gt;&lt;/p&gt;&lt;p&gt;After doing fanedit for Alien vs. Predator almost a year back: Alien vs. Predator (2004): Re-enGORED Edition - a fanedit adding proper R-rated violence to Anderson's movie : r/fanedits , I'm back with another project. This time, while having started with Wan, a lot of new footage ended up coming from H3. This includes new action/violence shots, character replacement, video inpainting, new dialogue, and a couple entirely new scenes. Write me on chat to get the link to the whole thing, and feel free to ask any questions about my work process. submitted by /u/Itchy-Advertising857 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wn5yy7/made_my_second_aipowered_movie_fanedit_the_savage/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wn3ur1/i_spent_a_day_fighting_ai_video_prompts_before/</id><title>I spent a day fighting AI video prompts before realizing I was missing the right inputs</title>
@@ -358,6 +388,15 @@
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I have seen a couple of comments about using H3 as an image model but I haven't been able to find any workflows or settings. I am aware you need an image vae, but I'm still not sure how I'm supposed to produce exactly one frame as the comfyui nodes require a duration of at least 0.1. Then there's the other settings. Do I change the shift values? Which sampler/scheduler is necessary? Total number of steps required? Is it a good idea to combine turbo loras/spectrum? I've tried 50 steps with spectrum and it seems ok but it still outputs a video which I would have to extract a frame. There's also some banding so any tips for that would be awesome thanks. submitted by /u/ItwasCompromised [link] [&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wmwi9z/how_do_i_use_minimax_h3_as_an_image_edit_model/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wmw7oq/qwen_image_21_lightning_lora/</id><title>Qwen Image 2.1 Lightning Lora</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wmw7oq/qwen_image_21_lightning_lora/"/>
+<published>2026-09-22T01:48:53+00:00</published><updated>2026-09-22T01:48:53+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="lora"/>
+<summary>Any have link for lightning lora from this model? Quite pain to do 25 step on 5 year old gpu submitted by /u/yakasantera1 [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Any have link for lightning lora from this model? Quite pain to do 25 step on 5 year old gpu submitted by /u/yakasantera1 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wmw7oq/qwen_image_21_lightning_lora/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
 <id>https://www.reddit.com/r/comfyui/comments/1wmtrci/system_lag_during_prolonged_image_generation/</id><title>System lag during prolonged image generation.</title>
 <link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wmtrci/system_lag_during_prolonged_image_generation/"/>
 <published>2026-09-21T23:59:42+00:00</published><updated>2026-09-21T23:59:42+00:00</updated>
@@ -487,6 +526,15 @@
 <category term="vfx"/>
 <summary>The process: We used an RS4 Mini gimbal so I could create a motion-controlled move. We also used a metronome to create a “choreography” for the movement: 1, 2, 3, 4 — hand, gun, push. Using marks on the floor, I could make sure he was standing in exactly the same position every time. In the first cl</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;The process: We used an RS4 Mini gimbal so I could create a motion-controlled move. We also used a metronome to create a “choreography” for the movement: 1, 2, 3, 4 — hand, gun, push. Using marks on the floor, I could make sure he was standing in exactly the same position every time. In the first clip, he walks from his first mark, places his hand over the second mark, and performs the movements and acting. In the second clip, he stands still while I perform the choreography from the first clip. The only part of my performance that was used was my hand. The timing was very important so that the two performances matched perfectly. I then rotoscoped the standing clip and graded it. Always open&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wmlfzm/breakdown_of_advanced_clone_vfx/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wmk25k/minimax_h3ref2va_keeps_partially_unclothing/</id><title>Minimax H3Ref2VA keeps partially unclothing characters in certain types of shots and delivering body horror.</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wmk25k/minimax_h3ref2va_keeps_partially_unclothing/"/>
+<published>2026-09-21T17:52:10+00:00</published><updated>2026-09-21T17:52:10+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="minimax"/>
+<summary>Iv’e been having a bit of a funny problem with sometimes horrifying results while working on something burlesque but not pornographic. I’m using minimax_h3_hybrid_fl2va_ref2va_b30-49-int8 model without loras and with CK in my Ref2VA workflow. For example, I have a prompt referencing a detailed chara</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Iv’e been having a bit of a funny problem with sometimes horrifying results while working on something burlesque but not pornographic. I’m using minimax_h3_hybrid_fl2va_ref2va_b30-49-int8 model without loras and with CK in my Ref2VA workflow. For example, I have a prompt referencing a detailed character sheet of a woman fully clothed in lingerie that might say something like “her legs are spread, hand resting on her inner thigh, her arm slides in front of her crotch firmly on the chair”. And there’s a decent chance that the generation will not include or only partially include her panties, instead revealing a horrifyingly detailed version of what it thinks female genitalia should look like a&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wmk25k/minimax_h3ref2va_keeps_partially_unclothing/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/vfx/comments/1wmi0db/is_it_still_worth_learning_nuke_and_houdini/</id><title>Is it still worth learning Nuke and Houdini?</title>
