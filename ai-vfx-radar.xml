@@ -2,8 +2,31 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-09-22T00:30:23+00:00</updated>
+<updated>2026-09-22T02:30:33+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wmtrci/system_lag_during_prolonged_image_generation/</id><title>System lag during prolonged image generation.</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wmtrci/system_lag_during_prolonged_image_generation/"/>
+<published>2026-09-21T23:59:42+00:00</published><updated>2026-09-21T23:59:42+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="upscaling"/>
+<category term="comfyui"/>
+<category term="wan2"/>
+<category term="controlnet"/>
+<summary>My configuration: Processor: i7-9700K (stock speeds) Graphics card: RTX 2080 (stock speeds) RAM: 16 GB, 2133 MHz OS: Windows 11 Pro SSD (system): 230 GB HDD (file storage): 1000 GB I installed ComfyUI about 2–3 weeks ago; I always install the program on the 1 TB HDD because I lack space on the SSD. </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · upscaling, comfyui, wan2, controlnet&lt;/small&gt;&lt;/p&gt;&lt;p&gt;My configuration: Processor: i7-9700K (stock speeds) Graphics card: RTX 2080 (stock speeds) RAM: 16 GB, 2133 MHz OS: Windows 11 Pro SSD (system): 230 GB HDD (file storage): 1000 GB I installed ComfyUI about 2–3 weeks ago; I always install the program on the 1 TB HDD because I lack space on the SSD. After five days, the generation process began causing severe system slowdowns—it feels like everything is running at 1–2 frames per second. My workflow involves ControlNet, initial image generation, a secondary generation stage with upscaling, and face/hand processing. Now, during generation, HDD usage hits 100% and RAM fills up completely; I can't figure out why it worked fine before. Before thes&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wmtrci/system_lag_during_prolonged_image_generation/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wmtora/quick_test_of_some_popular_minimax_h3_loras/</id><title>Quick test of some popular MiniMax H3 LoRAs</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wmtora/quick_test_of_some_popular_minimax_h3_loras/"/>
+<published>2026-09-21T23:56:31+00:00</published><updated>2026-09-21T23:56:31+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="lip-sync"/>
+<category term="minimax"/>
+<category term="lora"/>
+<summary>Hello everyone.. did a quick test of some of the more popular H3 LoRAs using: minimax_h3_fl2va_pruned_int8_convrot.safetensors same Will Smith reference image, same seed, same prompt, same general settings for all tests.. Resolution: 2144 × 1216 ~2.5 MP Duration: 5s Sampler: Euler Scheduler: Simple </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · lip-sync, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hello everyone.. did a quick test of some of the more popular H3 LoRAs using: minimax_h3_fl2va_pruned_int8_convrot.safetensors same Will Smith reference image, same seed, same prompt, same general settings for all tests.. Resolution: 2144 × 1216 ~2.5 MP Duration: 5s Sampler: Euler Scheduler: Simple LoRA strength: 1.0 Prompt used: subject_definitions: &amp;lt;Subject 1&amp;gt; is Will Smith shown in &amp;lt;Picture 1&amp;gt;. Preserve his facial identity, hairstyle, skin tone, facial proportions, body proportions, and overall recognizable appearance from &amp;lt;Picture 1&amp;gt;. summary: [reference generation] The target video is a realistic live-action restaurant scene showing &amp;lt;Subject 1&amp;gt; seated at a restaurant table eating spaghe&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wmtora/quick_test_of_some_popular_minimax_h3_loras/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wmpjd8/yue2_steps_from_hell_lora_epic_cinematic/</id><title>"YuE2 Steps From Hell" Lora - epic cinematic orchestral trailer music lora</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wmpjd8/yue2_steps_from_hell_lora_epic_cinematic/"/>
@@ -15,6 +38,16 @@
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · lora, cinematic&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/MonsterovichIsBack [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wmpjd8/yue2_steps_from_hell_lora_epic_cinematic/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wmp1ph/ltx_outpaint_issue/</id><title>LTX outpaint issue</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wmp1ph/ltx_outpaint_issue/"/>
+<published>2026-09-21T20:50:58+00:00</published><updated>2026-09-21T20:50:58+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="outpainting"/>
+<category term="ltx"/>
+<summary>I'm currently outpainting 4:3 video to widescreen. I'm having issues with dark scenes. I've tried raising gamma and changing prompts. Does anybody have any tips? submitted by /u/Nemonutz [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · outpainting, ltx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I'm currently outpainting 4:3 video to widescreen. I'm having issues with dark scenes. I've tried raising gamma and changing prompts. Does anybody have any tips? submitted by /u/Nemonutz [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wmp1ph/ltx_outpaint_issue/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
 <id>https://www.reddit.com/r/vfx/comments/1wmnrvi/kineticafx_a_new_realtime_motion_graphics_and/</id><title>KineticaFX: A New Real-Time Motion Graphics and Compositing App, Now in Public Playtest</title>
 <link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wmnrvi/kineticafx_a_new_realtime_motion_graphics_and/"/>
 <published>2026-09-21T20:04:41+00:00</published><updated>2026-09-21T20:04:41+00:00</updated>
@@ -22,6 +55,17 @@
 <category term="compositing"/>
 <summary>submitted by /u/NyxTheShield [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · compositing&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/NyxTheShield [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wmnrvi/kineticafx_a_new_realtime_motion_graphics_and/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wmngoq/tiltshift_videos_with_minimax_h3_ultimate_sd/</id><title>Tilt-Shift videos with MiniMax H3 + Ultimate SD Upscale + DLSS 5</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wmngoq/tiltshift_videos_with_minimax_h3_ultimate_sd/"/>
+<published>2026-09-21T19:53:55+00:00</published><updated>2026-09-21T19:53:55+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="minimax"/>
+<category term="lora"/>
+<category term="cinematic"/>
+<summary>A quick showcase of tilt-shift videos you can create with MiniMax H3. Initial gen at 0.98 MP (~7 mins, turbo lora), then upscale to 2K using Ultimate SD Upscale nodes (~30 mins), and final touch by DLSS 5. Music made with YuE2 + instrumental lora. My PC specs: 4080s 16gb VRAM, 64gb RAM. Here is one </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · minimax, lora, cinematic&lt;/small&gt;&lt;/p&gt;&lt;p&gt;A quick showcase of tilt-shift videos you can create with MiniMax H3. Initial gen at 0.98 MP (~7 mins, turbo lora), then upscale to 2K using Ultimate SD Upscale nodes (~30 mins), and final touch by DLSS 5. Music made with YuE2 + instrumental lora. My PC specs: 4080s 16gb VRAM, 64gb RAM. Here is one of the prompts, but the idea is similar: "integrated_multimodal_description: [Shot 1] Live-action, photorealistic tilt-shift miniature photography with a strongly pronounced miniature-lens effect and a minimalist cinematic visual style. An extreme wide, distant high-angle establishing shot of a lunar base, viewed from a remote elevated vantage point looking down across the settlement. The full moo&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wmngoq/tiltshift_videos_with_minimax_h3_ultimate_sd/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/vfx/comments/1wmncdh/vfx_plates/</id><title>VFX plates</title>
@@ -85,6 +129,59 @@
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 5 · vfx, nuke, houdini&lt;/small&gt;&lt;/p&gt;&lt;p&gt;So a friend of mine works with generative AI for creating adds, memes, etc. for different clients. We had a small chat and told him I want to get into high-end vfx with nuke and Houdini and he told me like vfx will disappear in the next 2-3 years. I want to know your insights of where the industry is heading and if this could happen at all, like vfx disappearing. submitted by /u/JPach_53 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wmi0db/is_it_still_worth_learning_nuke_and_houdini/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wmhxuq/h3_quality_on_5070ti_part_2/</id><title>H3 quality on 5070ti (part 2)</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wmhxuq/h3_quality_on_5070ti_part_2/"/>
+<published>2026-09-21T16:37:00+00:00</published><updated>2026-09-21T16:37:00+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="tracking"/>
+<category term="upscaler"/>
+<summary>Added example output and prompt . Too many workflows used to show one. I am really struggling with getting decent quality output at times. I have a prompt of a woman walking down a UK street. There are cars and people's passing by. But the faces are smudged and the brickwork on the buildings are low</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · tracking, upscaler&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Added example output and prompt . Too many workflows used to show one. I am really struggling with getting decent quality output at times. I have a prompt of a woman walking down a UK street. There are cars and people's passing by. But the faces are smudged and the brickwork on the buildings are low quality. I have tried multiple workflows both the official template and other falls, giving the same low quality look. I have used all the models I have from the bog standard to singularity to eros and even pinkcherry. I have tried with and without turbos, realism loss etc. Is this what I have to expect. I have done both workflows with single pass, latent upscaler pass etc .steps from 4 to 25 The&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wmhxuq/h3_quality_on_5070ti_part_2/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wmgzvx/best_method_for_minimax_h3_identical_scene/</id><title>Best method for Minimax H3 identical scene consistency between generations?</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wmgzvx/best_method_for_minimax_h3_identical_scene/"/>
+<published>2026-09-21T16:03:40+00:00</published><updated>2026-09-21T16:03:40+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="minimax"/>
+<category term="consistency"/>
+<summary>I’m wondering what people have found works best for maintaining H3 scene consistency, as in keeping scenery, props, lighting, or other aspects identical from one generation to the next. I have a couple methods I want to try but have not done so yet. I’m already using character and scenery references</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · minimax, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I’m wondering what people have found works best for maintaining H3 scene consistency, as in keeping scenery, props, lighting, or other aspects identical from one generation to the next. I have a couple methods I want to try but have not done so yet. I’m already using character and scenery references, but different factors of the scene still change between seeds and prompt alterations. One method would be saving and loading latent images, which seems like it would be best. What are the limitations of this method? Another method would be to generate stills of a scene to use as first and last frames or environmental reference. Depending on what kind of camera work and prompting you’re doing thi&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wmgzvx/best_method_for_minimax_h3_identical_scene/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wmgqdk/went_looking_for_a_gpu_to_rent_for_comfyui_and/</id><title>Went looking for a GPU to rent for ComfyUI and fell into a rabbit hole. Where are you running yours? (runpod, modal, vast etc)</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wmgqdk/went_looking_for_a_gpu_to_rent_for_comfyui_and/"/>
+<published>2026-09-21T15:54:33+00:00</published><updated>2026-09-21T15:54:33+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="render"/>
+<category term="comfyui"/>
+<summary>I don't have a GPU. I tried running ComfyUI on a Mac mini M4 and couldn't get much past Z-Image Turbo, so I went looking for one to rent. The name that kept coming up was RunPod, so that's where I started. It works. After Civitai, with the failed jobs and the waiting, it felt good to have my own thi</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · render, comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I don't have a GPU. I tried running ComfyUI on a Mac mini M4 and couldn't get much past Z-Image Turbo, so I went looking for one to rent. The name that kept coming up was RunPod, so that's where I started. It works. After Civitai, with the failed jobs and the waiting, it felt good to have my own thing. Two things got in the way though. A pod stays on until you stop it. Obviously... But what I wanted was the opposite: wake the GPU when I generate and put it back to sleep after. A 1k image with Krea 2 takes about 9 seconds on a warm worker, and waking one up takes three to four minutes: roughly 80 seconds to boot, then another 90 or so to move 18 GB of weights from the volume into VRAM. Then..&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wmgqdk/went_looking_for_a_gpu_to_rent_for_comfyui_and/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wmg6a4/a_quick_minimax_h3_news_roundup_21st_september/</id><title>A quick Minimax H3 news round-up - 21st September 2026</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wmg6a4/a_quick_minimax_h3_news_roundup_21st_september/"/>
+<published>2026-09-21T15:34:16+00:00</published><updated>2026-09-21T15:34:16+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<category term="minimax"/>
+<category term="lora"/>
+<summary>Another quick Minimax H3 news and goodies round-up, for those who may have missed some items. -&gt; A new CrossView-Warp LoRA for H3, with matching nodes. "Give it a video and a camera offset - azimuth, elevation - and it generates the same scene from that new viewpoint". The process... "reads two vide</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · comfyui, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Another quick Minimax H3 news and goodies round-up, for those who may have missed some items. -&amp;gt; A new CrossView-Warp LoRA for H3, with matching nodes. "Give it a video and a camera offset - azimuth, elevation - and it generates the same scene from that new viewpoint". The process... "reads two videos: a depth-warp of your clip [made by the Comfy node], which carries the geometry, and the [reference] clip itself, which carries identity and appearance." Has a workflow. Trigger word needed: crosswarp https://huggingface.co/Cseti/MiniMax-H3_Ref2VA-LoRA-CrossView-Warp_v1 (LoRA) https://github.com/cseti007/ComfyUI-CrossViewWarp (ComfyUI nodes) https://huggingface.co/datasets/Cseti/ComfyUI-Workflo&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wmg6a4/a_quick_minimax_h3_news_roundup_21st_september/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wmb4ld/comfyuikompressor_v10_int8_convrot_w4a8_convrot/</id><title>ComfyUI-Kompressor v1.0 — INT8 ConvRot / W4A8 ConvRot quantization tools</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wmb4ld/comfyuikompressor_v10_int8_convrot_w4a8_convrot/"/>
+<published>2026-09-21T12:17:05+00:00</published><updated>2026-09-21T12:17:05+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<category term="flux"/>
+<category term="wan"/>
+<category term="minimax"/>
+<summary>I’ve been working on a ComfyUI node pack to quantize models for personal use but decided to release it. The following architectures are supported and auto-detected: Krea 2 Z-Image FLUX.2 Klein 4B/9B Wan 2.2 Anima LTX-2.5 MiniMax H3 and the new Qwen Image 2.1. Includes INT8 ConvRot and W4A8 ConvRot q</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · comfyui, flux, wan, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I’ve been working on a ComfyUI node pack to quantize models for personal use but decided to release it. The following architectures are supported and auto-detected: Krea 2 Z-Image FLUX.2 Klein 4B/9B Wan 2.2 Anima LTX-2.5 MiniMax H3 and the new Qwen Image 2.1. Includes INT8 ConvRot and W4A8 ConvRot quantization, along with model inspection and architecture-aware handling. This is the first public release, so bug reports and feedback are welcome. GitHub: https://github.com/a3nu/ComfyUI-Kompressor submitted by /u/a3tinu [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wmb4ld/comfyuikompressor_v10_int8_convrot_w4a8_convrot/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
 <id>https://www.reddit.com/r/vfx/comments/1wma9bx/my_perspective_when_tracking_in_after_effects_is/</id><title>my perspective when tracking in after effects is way off</title>
 <link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wma9bx/my_perspective_when_tracking_in_after_effects_is/"/>
 <published>2026-09-21T11:36:01+00:00</published><updated>2026-09-21T11:36:01+00:00</updated>
@@ -92,6 +189,27 @@
 <category term="tracking"/>
 <summary>i have filmed a simple shot of the side of a building, and my plan is having a cube or a ragdoll falling off the building and hitting the ground, but when i try to track, the perspective is so off, the solid isnt paralell to the wall that i want it to stuck to, this ruins the possibility of simulati</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · tracking&lt;/small&gt;&lt;/p&gt;&lt;p&gt;i have filmed a simple shot of the side of a building, and my plan is having a cube or a ragdoll falling off the building and hitting the ground, but when i try to track, the perspective is so off, the solid isnt paralell to the wall that i want it to stuck to, this ruins the possibility of simulating the rigid body falling off the roof because i have to use a warped cube/plane to align with the wall, i also tried with a tripod pan track but that went even worse. how do i fix this? i also tried tracking in syntheyes but that didnt work at all submitted by /u/Due-Traffic5899 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wma9bx/my_perspective_when_tracking_in_after_effects_is/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wm8gsq/minimax_h3_now_generates_blurry_faces_distorted/</id><title>MiniMax H3 now generates blurry faces, distorted hands, and sometimes red bar artifacts....</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wm8gsq/minimax_h3_now_generates_blurry_faces_distorted/"/>
+<published>2026-09-21T10:00:43+00:00</published><updated>2026-09-21T10:00:43+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<category term="minimax"/>
+<summary>Hi guys, I'm kinda scared... since yesterday, on ComfyUI while using MiniMax H3, on IMG to Video and even on Text to Video Workflows, I'm getting blurry hands and faces, even on low resolutions like 0.3 MP. And on 0.5 MP, I'm usually getting these annoying red bar artifacts. This didn't happen befor</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi guys, I'm kinda scared... since yesterday, on ComfyUI while using MiniMax H3, on IMG to Video and even on Text to Video Workflows, I'm getting blurry hands and faces, even on low resolutions like 0.3 MP. And on 0.5 MP, I'm usually getting these annoying red bar artifacts. This didn't happen before. I'm barely 2 weeks of using MiniMax H3. I'm scared this might be my GPU, but I'm not getting these artifacts while browsing the net, and for now, when I'm gaming. Have you got this issue out of nowhere? I can generate videos with audio, and without these red bars on 0.3 MP resolutions, but with blurry hands and sometimes blurry faces. Is my GPU dying, did I stress it too much by using Minimax H&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wm8gsq/minimax_h3_now_generates_blurry_faces_distorted/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wm7y1x/how_can_i_achieve_a_consistent_cameraviewpoint/</id><title>How can I achieve a consistent camera/viewpoint change on a complex scene?</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wm7y1x/how_can_i_achieve_a_consistent_cameraviewpoint/"/>
+<published>2026-09-21T09:30:32+00:00</published><updated>2026-09-21T09:30:32+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<category term="flux"/>
+<category term="controlnet"/>
+<summary>Hi everyone, I'm having a hard time achieving a real camera/viewpoint change on complex scenes, and I'd like to understand whether I'm approaching the problem incorrectly or if there are better models/workflows for this. For example, I have a fairly complex urban scene: a city in post-apocalyptic co</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · comfyui, flux, controlnet&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi everyone, I'm having a hard time achieving a real camera/viewpoint change on complex scenes, and I'd like to understand whether I'm approaching the problem incorrectly or if there are better models/workflows for this. For example, I have a fairly complex urban scene: a city in post-apocalyptic conditions a street intersection a large sinkhole in the middle of the intersection a yellow car (taxi), with its front half sticking out over the sinkhole three people on the left side of the car a fourth person hanging from the front of the car I start with a side view of the scene, and I want to generate a new shot where the camera moves upward and looks down at the scene from above, while keepin&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wm7y1x/how_can_i_achieve_a_consistent_cameraviewpoint/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wm77xo/some_very_simple_qwenimage21_workflows/</id><title>Some very simple Qwen-Image-2.1 workflows</title>
@@ -105,6 +223,16 @@
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · outpainting, image editing, comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Nothing fancy here. Qwen-Image-2.1 has a pretty simple architecture, so the workflows end up simple too, and the official templates already cover most of this. But that simplicity is kind of the fun part. Feels like there's a lot you could build on top of it. Anyway, I went through the tasks in the Qwen blog and made each one its own little workflow, so you can just grab whatever you need: https://comfyui.nomadoor.net/en/basic-workflows/qwen-image-2-1/ Text-to-image Ref2Image Basic image editing Marking the edit area with colored circles Marking the edit area with a mask Outpainting Transparent image generation Subject extraction / background removal Panorama generation Plain image generatio&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wm77xo/some_very_simple_qwenimage21_workflows/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wm73j7/h3_sharpness_lms_lora_successes/</id><title>H3 Sharpness LMS LoRa Successes?</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wm73j7/h3_sharpness_lms_lora_successes/"/>
+<published>2026-09-21T08:40:06+00:00</published><updated>2026-09-21T08:40:06+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="minimax"/>
+<category term="lora"/>
+<summary>Has anyone had luck with the new "Sharpness" LMS LoRA Minimax workflow? I tried a dozen ways to Sunday, obediently follow instructions, tweaking it, feeding it different sized input videos, and all it seems to do it little more than a typical sharpen, no AI kicking in to hallucinate detail or anythi</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Has anyone had luck with the new "Sharpness" LMS LoRA Minimax workflow? I tried a dozen ways to Sunday, obediently follow instructions, tweaking it, feeding it different sized input videos, and all it seems to do it little more than a typical sharpen, no AI kicking in to hallucinate detail or anything. Anyone got the trick to getting it to work? I don't want to just discard with it, but maybe I am taken in by marketing puffery. The images sure look convincing over on https://huggingface.co/Alissonerdx/Minimax-H3-ComfyUI . Anyone gotten it to work right and produce actual advantage over other methods? Thx, submitted by /u/robertwellesley [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wm73j7/h3_sharpness_lms_lora_successes/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wm62zl/v5_update_newbie_minimax_h3_sam_31_latent_mask/</id><title>V5 Update Newbie Minimax H3 sam 3.1 latent mask for guided character replacement</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wm62zl/v5_update_newbie_minimax_h3_sam_31_latent_mask/"/>
 <published>2026-09-21T07:39:00+00:00</published><updated>2026-09-21T07:39:00+00:00</updated>
@@ -112,6 +240,28 @@
 <category term="minimax"/>
 <summary>https://github.com/roycho87/minimax_wf/tree/main I added a block audio feature that will force minimax to change your voice everytime. Resolution selector with 2 decimal spaces so you can actually select .98 MP. Sam 3.1 latent mask for guided character replacement. I also added group bypass controls</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;https://github.com/roycho87/minimax_wf/tree/main I added a block audio feature that will force minimax to change your voice everytime. Resolution selector with 2 decimal spaces so you can actually select .98 MP. Sam 3.1 latent mask for guided character replacement. I also added group bypass controls so no more errors. fast forward to 2:42 to see sam 3.1 functionality submitted by /u/roychodraws [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wm62zl/v5_update_newbie_minimax_h3_sam_31_latent_mask/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wm62xx/minimaxh3_on_a_radeon_8060s_igpu_three_weeks/</id><title>MiniMax-H3 on a Radeon 8060S iGPU, three weeks later: 45.7 → 18.3 s per evaluation, and it's one node</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wm62xx/minimaxh3_on_a_radeon_8060s_igpu_three_weeks/"/>
+<published>2026-09-21T07:38:55+00:00</published><updated>2026-09-21T07:38:55+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="render"/>
+<category term="comfyui"/>
+<category term="lora"/>
+<category term="stereo"/>
+<summary>I ran MiniMax-H3 PDD locally on a Radeon 8060S iGPU (gfx1151): 5.17 s video + native stereo audio, 8 steps, no CFG — my post, 3 weeks ago Ryzen AI Max+ 395 / Strix Halo, 128 GB unified memory, ComfyUI + ROCm 10.0.0, official FL2VA 8-step PDD LoRA. End-to-end warm 401 s · per evaluation 45.2 s · comf</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · render, comfyui, lora, stereo&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I ran MiniMax-H3 PDD locally on a Radeon 8060S iGPU (gfx1151): 5.17 s video + native stereo audio, 8 steps, no CFG — my post, 3 weeks ago Ryzen AI Max+ 395 / Strix Halo, 128 GB unified memory, ComfyUI + ROCm 10.0.0, official FL2VA 8-step PDD LoRA. End-to-end warm 401 s · per evaluation 45.2 s · comfy-kitchen 0.2.31 · Triton 3.8 ROCm. Conclusion at the time: the workload looks bandwidth-bound, and Triton buys nothing over the HIP backend (0.13%). Same machine, same graph, same model. The clip now renders in 206 s cold, 177 s warm , and the lever isn't Triton, a flag, or a quantization change. It's a single node that had no kernel behind it when I wrote that post. Caveat up front: these number&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wm62xx/minimaxh3_on_a_radeon_8060s_igpu_three_weeks/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wm5lhy/amd_consumer_gpus_on_comfyui_with_minimax_h3/</id><title>AMD Consumer GPUs On ComfyUI with Minimax H3 1080p Videos</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wm5lhy/amd_consumer_gpus_on_comfyui_with_minimax_h3/"/>
+<published>2026-09-21T07:10:28+00:00</published><updated>2026-09-21T07:10:28+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<category term="minimax"/>
+<summary>5 secs .03 mp then upscaled to 1080p using MMH3 ultimate upscale, minimaxh3 ref2v. Done within 430 seconds I've uploaded the video on how I made it together with workflow link and where i downloaded the models on youtube. https://www.youtube.com/watch?v=Fe4vIRCifoQ My PC Specs: Ryzen 5 7600 32gb 600</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;5 secs .03 mp then upscaled to 1080p using MMH3 ultimate upscale, minimaxh3 ref2v. Done within 430 seconds I've uploaded the video on how I made it together with workflow link and where i downloaded the models on youtube. https://www.youtube.com/watch?v=Fe4vIRCifoQ My PC Specs: Ryzen 5 7600 32gb 6000mhz CL30 16gbx2 RX 9070 Non XT 16gb Vram -Environment- Ubuntu 24.04 ROCM 10.0.0 submitted by /u/mwhjose [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wm5lhy/amd_consumer_gpus_on_comfyui_with_minimax_h3/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://github.com/vercel-labs/json-render</id><title>vercel-labs/json-render</title>
