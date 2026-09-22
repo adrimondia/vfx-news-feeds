@@ -2,8 +2,45 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-09-22T20:30:26+00:00</updated>
+<updated>2026-09-22T22:30:19+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wnmp43/my_new_favourite_workflow_qwen_image_21_ltx_25/</id><title>My new favourite workflow: Qwen image 2.1 + Ltx 2.5</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wnmp43/my_new_favourite_workflow_qwen_image_21_ltx_25/"/>
+<published>2026-09-22T21:31:59+00:00</published><updated>2026-09-22T21:31:59+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="ltx"/>
+<summary>I told Astra to cook me a simple and intuitive front end app for my local generation, here I combine Qwen image 2.1 edit for the keyframe images, then I use LTX-2.5 first-last to interpolate the frames. This is my favourite workflow so far, I’m loving it 😊 submitted by /u/Swaggsz [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · ltx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I told Astra to cook me a simple and intuitive front end app for my local generation, here I combine Qwen image 2.1 edit for the keyframe images, then I use LTX-2.5 first-last to interpolate the frames. This is my favourite workflow so far, I’m loving it 😊 submitted by /u/Swaggsz [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wnmp43/my_new_favourite_workflow_qwen_image_21_ltx_25/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wnlqzu/psa_comfyui_now_support_system_prompt_for_text/</id><title>PSA - comfyUI now support system prompt for Text Generate (Qwen2.1 related)</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wnlqzu/psa_comfyui_now_support_system_prompt_for_text/"/>
+<published>2026-09-22T20:55:58+00:00</published><updated>2026-09-22T20:55:58+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<summary>They just merged it https://github.com/Comfy-Org/ComfyUI/pull/16442 TL;DR: it's a prompt enhancer that you can use to improve Qwen Im age 2.1 prompt Usage: Download these qwen3.5_9b_qwen_image , t2i for text, i2i for edit. They are not text encoders, don't use them as one . https://huggingface.co/Co</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;They just merged it https://github.com/Comfy-Org/ComfyUI/pull/16442 TL;DR: it's a prompt enhancer that you can use to improve Qwen Im age 2.1 prompt Usage: Download these qwen3.5_9b_qwen_image , t2i for text, i2i for edit. They are not text encoders, don't use them as one . https://huggingface.co/Comfy-Org/Qwen-Image-2.1/tree/main/text_encoders Load Clip , type qwen_image &amp;gt; Generate text For System prompt slot. Copy &amp;amp; paste official Qwen 2.1 system prompt (t2i/edit) from https://github.com/QwenLM/Qwen-Image-2.1/tree/fb7ae1d1f9611cd91524d03c53c5246b36ac8577/prompt_rewrite/prompts Recommend settings: T2I ( Temperature: 1.0, Top_P: 0.95, Top_K: 20, Max_length: 16,256, Presence Penalty: 1.5) / E&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wnlqzu/psa_comfyui_now_support_system_prompt_for_text/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wnl1yf/qwen_image_21_generation_fix_lora_and_settings/</id><title>Qwen Image 2.1 generation fix lora and settings</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wnl1yf/qwen_image_21_generation_fix_lora_and_settings/"/>
+<published>2026-09-22T20:30:25+00:00</published><updated>2026-09-22T20:30:25+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<category term="lora"/>
+<summary>I've trained a preliminary lora to fix the image generation issues with Qwen Image 2.1 (also drastically improving edit quality). I've also been doing a lot of a/b testing with negative prompts and various settings, and I've got an accompanying workflow with what I've found to be the best settings s</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I've trained a preliminary lora to fix the image generation issues with Qwen Image 2.1 (also drastically improving edit quality). I've also been doing a lot of a/b testing with negative prompts and various settings, and I've got an accompanying workflow with what I've found to be the best settings so far. Specifically, 20 steps, seeds_2/sgm_uniform, cfg 3-4, Adaptive Projected Guidance, and FreSca (both are vanilla comfy nodes). Comparison images are with the out-of-the-box ComfyUI settings. You can download the lora and workflow both from either of these links: https://civitai.com/models/2957332/qwen-image-21-fix-v10 https://huggingface.co/e-n-v-y/Qwen-Image-2.1-Fix Some caveats: Hands are &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wnl1yf/qwen_image_21_generation_fix_lora_and_settings/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wnjjni/qwen21_can_do_everything_character_sheets_face/</id><title>Qwen2.1 Can Do EVERYTHING! Character Sheets, Face Swap, Outfits &amp; Editin...</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wnjjni/qwen21_can_do_everything_character_sheets_face/"/>
+<published>2026-09-22T19:36:07+00:00</published><updated>2026-09-22T19:36:07+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="face swap"/>
+<summary>Testing the new Qwen2.1 Model submitted by /u/solomars3 [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · face swap&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Testing the new Qwen2.1 Model submitted by /u/solomars3 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wnjjni/qwen21_can_do_everything_character_sheets_face/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wni6ui/all_the_tricks_i_used_to_make_proper_anime_in/</id><title>All the tricks I used to make proper anime in MiniMaxH3</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wni6ui/all_the_tricks_i_used_to_make_proper_anime_in/"/>
@@ -74,6 +111,17 @@
 <category term="flux"/>
 <summary>I tested SenseNova U1.5 Lite against FLUX.2-klein-9b-kv with five multi-reference image fusion tasks. Across the first four examples, SenseNova generally makes fewer reference errors, uses a wider range of elements from the input images, produces richer colors, and generates less garbled text overal</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I tested SenseNova U1.5 Lite against FLUX.2-klein-9b-kv with five multi-reference image fusion tasks. Across the first four examples, SenseNova generally makes fewer reference errors, uses a wider range of elements from the input images, produces richer colors, and generates less garbled text overall. The biggest difference appears in the final winter scene. The prompt says that the woman’s other hand should reach toward the camera while catching or tossing a snowball. FLUX.2-klein-9b-kv keeps the original foreground hand holding the snowball, so it does not establish the requested action. SenseNova U1.5 Lite instead renders the snowball in the woman’s outstretched hand, following both the r&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wn96zc/flux2klein9bkv_vs_sensenova_u15/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wn6av2/sound_problems_with_minimax_h3_turbo_and_fast/</id><title>Sound problems with MiniMax H3 Turbo and Fast LoRas</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wn6av2/sound_problems_with_minimax_h3_turbo_and_fast/"/>
+<published>2026-09-22T10:59:08+00:00</published><updated>2026-09-22T10:59:08+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<category term="minimax"/>
+<category term="lora"/>
+<summary>What are your tricks to fight against the weird screeches that appear near loud noises in the turbo loras? I have tried to fight with shift values etc. in model sampling but nothing seems to really help. I will attach 2 videos here for the same prompt, using i2v (fl2v) flow. Regular H3 - sound quali</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · comfyui, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;What are your tricks to fight against the weird screeches that appear near loud noises in the turbo loras? I have tried to fight with shift values etc. in model sampling but nothing seems to really help. I will attach 2 videos here for the same prompt, using i2v (fl2v) flow. Regular H3 - sound quality is pretty okay The Fast H3 version (and the turbo lora from default template does the same) - prompts like alien space craft landing or giant monster attacking a town produce weird high pitch screeches that just ruin the video, almost like there is a kettle whistling on the stove or smth. I'm using the default templates from comfyui in these samples. Any kind of advice-hints welcome submitted b&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wn6av2/sound_problems_with_minimax_h3_turbo_and_fast/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wn5yy7/made_my_second_aipowered_movie_fanedit_the_savage/</id><title>Made my second AI-powered movie fanedit - The Savage Sword of Conan the Destroyer</title>
@@ -7177,63 +7225,5 @@
 <category term="comfyui"/>
 <summary>I use ComfyUI every day or every other day. It looks like we're getting ComfyUI updates about twice a week? So every other time I start ComfyUI, I see an update is available. Should I update every time I see that? I'd like to be able to skip it when I don't feel like taking the time. submitted by /u</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I use ComfyUI every day or every other day. It looks like we're getting ComfyUI updates about twice a week? So every other time I start ComfyUI, I see an update is available. Should I update every time I see that? I'd like to be able to skip it when I don't feel like taking the time. submitted by /u/MackTuesday [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wb411q/how_often_do_you_update_your_comfyui_installation/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1wb2qqx/visual_effects_graduation_and_questions/</id><title>visual effects graduation and questions</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wb2qqx/visual_effects_graduation_and_questions/"/>
-<published>2026-09-08T22:05:20+00:00</published><updated>2026-09-08T22:05:20+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="vfx"/>
-<category term="visual effects"/>
-<summary>hi guys! i'm a teenager and i've been really interested in a vfx graduation. i took a look at artfx (france) and mds (new zealand), and both are really expensive and i'm not sure if my folks and i can afford it. i wanted to know more about professionals in the area. what yall choose to graduate to f</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 3 · vfx, visual effects&lt;/small&gt;&lt;/p&gt;&lt;p&gt;hi guys! i'm a teenager and i've been really interested in a vfx graduation. i took a look at artfx (france) and mds (new zealand), and both are really expensive and i'm not sure if my folks and i can afford it. i wanted to know more about professionals in the area. what yall choose to graduate to follow this career path? how's the industry now? is it profitable? how long was your course? where did you study? i really need some tips and help! from brazil submitted by /u/licezinha-173 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wb2qqx/visual_effects_graduation_and_questions/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wb22iu/thundercats_mummra_reacts_to_your_comments/</id><title>Thundercats: Mumm-Ra Reacts to Your Comments - MiniMax H3</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wb22iu/thundercats_mummra_reacts_to_your_comments/"/>
-<published>2026-09-08T21:39:45+00:00</published><updated>2026-09-08T21:39:45+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="minimax"/>
-<summary>4070 ti Super, 16gb vram, 64 gb ram. Tutorial: https://www.reddit.com/r/StableDiffusion/comments/1w4gvjb/comment/p7aht6e/?utm_source=share&amp;utm_medium=web3x&amp;utm_name=web3xcss&amp;utm_term=1&amp;utm_content=share_button Example prompt + assets: https://www.reddit.com/r/StableDiffusion/comments/1w8vmkz/comment</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;4070 ti Super, 16gb vram, 64 gb ram. Tutorial: https://www.reddit.com/r/StableDiffusion/comments/1w4gvjb/comment/p7aht6e/?utm_source=share&amp;amp;utm_medium=web3x&amp;amp;utm_name=web3xcss&amp;amp;utm_term=1&amp;amp;utm_content=share_button Example prompt + assets: https://www.reddit.com/r/StableDiffusion/comments/1w8vmkz/comment/p8dqus0/?utm_source=share&amp;amp;utm_medium=web3x&amp;amp;utm_name=web3xcss&amp;amp;utm_term=1&amp;amp;utm_content=share_button Example prompt + assets: https://www.reddit.com/r/StableDiffusion/comments/1w98qnv/comment/p8duzy3/?utm_source=share&amp;amp;utm_medium=web3x&amp;amp;utm_name=web3xcss&amp;amp;utm_term=1&amp;amp;utm_content=share_button submitted by /u/darthfurbyyoutube [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wb22iu/thundercats_mummra_reacts_to_your_comments/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wb0mgn/using_wan_22_fun_control_for_colorization/</id><title>Using Wan 2.2 Fun Control for Colorization</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wb0mgn/using_wan_22_fun_control_for_colorization/"/>
-<published>2026-09-08T20:46:37+00:00</published><updated>2026-09-08T20:46:37+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="wan"/>
-<summary>submitted by /u/GdaTyler [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · wan&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/GdaTyler [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wb0mgn/using_wan_22_fun_control_for_colorization/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wb0mca/using_wan_22_fun_control_for_colorization/</id><title>Using Wan 2.2 Fun Control for Colorization</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wb0mca/using_wan_22_fun_control_for_colorization/"/>
-<published>2026-09-08T20:46:30+00:00</published><updated>2026-09-08T20:46:30+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="wan"/>
-<summary>submitted by /u/GdaTyler [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · wan&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/GdaTyler [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wb0mca/using_wan_22_fun_control_for_colorization/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wb0f4l/updated_my_multidimensional_billboard_for_blender/</id><title>Updated my Multi-Dimensional Billboard for Blender! more options and more stable! just convert a 360-turntable video into image's and remove the background, drop em in a folder and pick the folder in the Blender!</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wb0f4l/updated_my_multidimensional_billboard_for_blender/"/>
-<published>2026-09-08T20:38:54+00:00</published><updated>2026-09-08T20:38:54+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="render"/>
-<category term="blender"/>
-<summary>https://drive.google.com/file/d/1q21Pmun7fh9E0rLWysnwSEwjqOj7xR1R/view?usp=sharing [Add-on] TURNtable Viewer v1.4.3 for Blender 5.0+ – Multi-Dimensional Camera-Facing Billboards &amp; Auto Orbit Tracks Hey everyone! I just updated my Multi-Dimensional Billboard Add-on for Blender (v1.4.3, built for Blen</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · render, blender&lt;/small&gt;&lt;/p&gt;&lt;p&gt;https://drive.google.com/file/d/1q21Pmun7fh9E0rLWysnwSEwjqOj7xR1R/view?usp=sharing [Add-on] TURNtable Viewer v1.4.3 for Blender 5.0+ – Multi-Dimensional Camera-Facing Billboards &amp;amp; Auto Orbit Tracks Hey everyone! I just updated my Multi-Dimensional Billboard Add-on for Blender (v1.4.3, built for Blender 5.0+). If you use 2D/pseudo-3D sprites, pre-rendered 360-degree turntables, pixel art characters, or AI-generated character multi-angle sheets, this add-on automates the entire setup inside the 3D viewport. 🌟 What Is It? The TURNtable Viewer converts a directory of images (a 360° rotation sequence of a subject with transparent or solid backgrounds) into a single, camera-facing billboard object&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wb0f4l/updated_my_multidimensional_billboard_for_blender/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wb0d9f/need_recommendation_changing_outfits_while/</id><title>Need recommendation: Changing outfits while keeping the exact same character, pose, and aesthetic</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wb0d9f/need_recommendation_changing_outfits_while/"/>
-<published>2026-09-08T20:37:03+00:00</published><updated>2026-09-08T20:37:03+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="inpainting"/>
-<category term="comfyui"/>
-<category term="controlnet"/>
-<summary>Hey everyone, I've been working on some characters in ComfyUI with a very specific design and aesthetic, and the results turned out absolutely amazing. My problem now is that I want to create new versions of these exact same characters, in the exact same poses, but wearing completely different outfi</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · inpainting, comfyui, controlnet&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey everyone, I've been working on some characters in ComfyUI with a very specific design and aesthetic, and the results turned out absolutely amazing. My problem now is that I want to create new versions of these exact same characters, in the exact same poses, but wearing completely different outfits. What do you recommend for this? Are there any specific workflows, custom nodes, or techniques (like a specific IP-Adapter + ControlNet + Inpainting setup) that work best for swapping clothes without losing the character's likeness, pose, or the original art style? Any advice, tips, or workflow links would be hugely appreciated. Thanks in advance! submitted by /u/Any-Security4098 [link] [commen&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wb0d9f/need_recommendation_changing_outfits_while/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
