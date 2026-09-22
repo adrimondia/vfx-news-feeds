@@ -2,8 +2,32 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-09-22T06:30:24+00:00</updated>
+<updated>2026-09-22T08:00:36+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wn14xp/i_let_minimax_h3_direct_the_battle_scene/</id><title>I let minimax H3 direct the battle scene</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wn14xp/i_let_minimax_h3_direct_the_battle_scene/"/>
+<published>2026-09-22T05:56:56+00:00</published><updated>2026-09-22T05:56:56+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="minimax"/>
+<category term="storyboard"/>
+<summary>I generally have a workflow for creating AI videos where I write the whole scene either with morphic copilot or claude and generate it scene by scene with a proper storyboard, but I tried something different today. I generated 3 images ( character, wolf and compound), explained my idea to copilot an</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · minimax, storyboard&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I generally have a workflow for creating AI videos where I write the whole scene either with morphic copilot or claude and generate it scene by scene with a proper storyboard, but I tried something different today. I generated 3 images ( character, wolf and compound), explained my idea to copilot and let it write a simple prompt for battle scene , then minimax H3 picked up generated this scene for me total length was 15 but trimmed 3 seconds from beginning as that was horrible and still some inconsistency in the video, ik it won’t work on long sequences but for one scene it did pretty good i think. submitted by /u/Usedependence [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wn14xp/i_let_minimax_h3_direct_the_battle_scene/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wn0fl5/i_made_a_short_product_film_using_blender_for/</id><title>I made a short product film using Blender for camera control and ComfyUI for the final generative video</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wn0fl5/i_made_a_short_product_film_using_blender_for/"/>
+<published>2026-09-22T05:17:48+00:00</published><updated>2026-09-22T05:17:48+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="camera control"/>
+<category term="comfyui"/>
+<category term="blender"/>
+<category term="consistency"/>
+<category term="storyboard"/>
+<category term="generative video"/>
+<summary>I have been experimenting with a workflow that uses Blender as the structural foundation for generative video rather than starting from text prompts alone. For this spec project, I used ChatGPT Astra during concept development, storyboarding, and Blender scene production. I then created the camera m</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 10 · camera control, comfyui, blender, consistency, storyboard, generative video&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I have been experimenting with a workflow that uses Blender as the structural foundation for generative video rather than starting from text prompts alone. For this spec project, I used ChatGPT Astra during concept development, storyboarding, and Blender scene production. I then created the camera movement, composition, timing, and rough scene structure in Blender before processing each shot through a ComfyUI workflow. My main goal was product consistency and directorial control. I wanted to test whether a 3D guided process could preserve the design of the shoe while still getting the visual richness of generative video. The process worked, but it was not as automatic as I expected. Matching&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wn0fl5/i_made_a_short_product_film_using_blender_for/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://arxiv.org/abs/2609.22283</id><title>Rethinking Streaming Video Diffusion Model: Context, Execution, and Training</title>
 <link rel="alternate" href="https://arxiv.org/abs/2609.22283"/>
@@ -287,6 +311,15 @@
 <content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.GR · score 4 · diffusion transformer, consistency, point cloud, scene reconstruction&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.23796v1 Announce Type: cross Abstract: Single-image 3D object generation can now produce high-fidelity assets, yet accurately placing them into a coherent scene layout remains an open challenge. A central difficulty lies in how object layout is represented. Holistic methods absorb placement into a scene-level generation process, sacrificing object-level detail. Compositional methods preserve object fidelity by decoupling geometry from layout, but typically parameterize layout as sparse, unbounded pose variables that are difficult to learn and generalize poorly under scarce scene-level supervision.We present Mira-Scene, a compositional 3D scene reconstruction framework that replace&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.23796"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wmyv74/comfyui_v0370_now_clicking_individual_node/</id><title>Comfyui v0.37.0, now clicking individual node execute runs the whole workflow instead?</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wmyv74/comfyui_v0370_now_clicking_individual_node/"/>
+<published>2026-09-22T03:55:04+00:00</published><updated>2026-09-22T03:55:04+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<summary>I'm talking about the small blue play button above a selected node. Previously when I click it, it will only run the required segments. Now it will execute the entire workflow. I noticed this issue after updating to latest comfyui. Anyone else have the same problem? submitted by /u/bakasora [link] [</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I'm talking about the small blue play button above a selected node. Previously when I click it, it will only run the required segments. Now it will execute the entire workflow. I noticed this issue after updating to latest comfyui. Anyone else have the same problem? submitted by /u/bakasora [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wmyv74/comfyui_v0370_now_clicking_individual_node/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
 <id>https://www.reddit.com/r/vfx/comments/1wmx0th/if_you_ever_wanted_your_onset_vfx_database_to/</id><title>If you ever wanted your On-set VFX Database to sync to ShotGrid</title>
 <link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wmx0th/if_you_ever_wanted_your_onset_vfx_database_to/"/>
 <published>2026-09-22T02:26:38+00:00</published><updated>2026-09-22T02:26:38+00:00</updated>
@@ -329,6 +362,15 @@
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · lip-sync, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hello everyone.. did a quick test of some of the more popular H3 LoRAs using: minimax_h3_fl2va_pruned_int8_convrot.safetensors same Will Smith reference image, same seed, same prompt, same general settings for all tests.. Resolution: 2144 × 1216 ~2.5 MP Duration: 5s Sampler: Euler Scheduler: Simple LoRA strength: 1.0 Prompt used: subject_definitions: &amp;lt;Subject 1&amp;gt; is Will Smith shown in &amp;lt;Picture 1&amp;gt;. Preserve his facial identity, hairstyle, skin tone, facial proportions, body proportions, and overall recognizable appearance from &amp;lt;Picture 1&amp;gt;. summary: [reference generation] The target video is a realistic live-action restaurant scene showing &amp;lt;Subject 1&amp;gt; seated at a restaurant table eating spaghe&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wmtora/quick_test_of_some_popular_minimax_h3_loras/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wmri8p/rick_and_morty_instagram_h3_minimax_turbo/</id><title>Rick and Morty Instagram - H3 Minimax turbo</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wmri8p/rick_and_morty_instagram_h3_minimax_turbo/"/>
+<published>2026-09-21T22:25:28+00:00</published><updated>2026-09-21T22:25:28+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="minimax"/>
+<summary>submitted by /u/Clear-Medium [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/Clear-Medium [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wmri8p/rick_and_morty_instagram_h3_minimax_turbo/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wmpjd8/yue2_steps_from_hell_lora_epic_cinematic/</id><title>"YuE2 Steps From Hell" Lora - epic cinematic orchestral trailer music lora</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wmpjd8/yue2_steps_from_hell_lora_epic_cinematic/"/>
 <published>2026-09-21T21:09:13+00:00</published><updated>2026-09-21T21:09:13+00:00</updated>
@@ -347,6 +389,15 @@
 <category term="ltx"/>
 <summary>I'm currently outpainting 4:3 video to widescreen. I'm having issues with dark scenes. I've tried raising gamma and changing prompts. Does anybody have any tips? submitted by /u/Nemonutz [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · outpainting, ltx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I'm currently outpainting 4:3 video to widescreen. I'm having issues with dark scenes. I've tried raising gamma and changing prompts. Does anybody have any tips? submitted by /u/Nemonutz [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wmp1ph/ltx_outpaint_issue/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wmoope/any_working_clothing_swappers_kontext_or_flux/</id><title>Any working Clothing swappers - Kontext or Flux?</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wmoope/any_working_clothing_swappers_kontext_or_flux/"/>
+<published>2026-09-21T20:37:51+00:00</published><updated>2026-09-21T20:37:51+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="flux"/>
+<summary>I have a working comfy, and would like to incorporate an easy to compile clothing swapper workflow that works well and is non-destructive. If anyone can direct me to a working workflow that would be ideal. Just looked on Civitai but saw some discouraging reviews for the ones I saw. submitted by /u/I</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I have a working comfy, and would like to incorporate an easy to compile clothing swapper workflow that works well and is non-destructive. If anyone can direct me to a working workflow that would be ideal. Just looked on Civitai but saw some discouraging reviews for the ones I saw. submitted by /u/IntrepidScale583 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wmoope/any_working_clothing_swappers_kontext_or_flux/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/vfx/comments/1wmnrvi/kineticafx_a_new_realtime_motion_graphics_and/</id><title>KineticaFX: A New Real-Time Motion Graphics and Compositing App, Now in Public Playtest</title>
@@ -510,6 +561,15 @@
 <category term="tracking"/>
 <summary>i have filmed a simple shot of the side of a building, and my plan is having a cube or a ragdoll falling off the building and hitting the ground, but when i try to track, the perspective is so off, the solid isnt paralell to the wall that i want it to stuck to, this ruins the possibility of simulati</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · tracking&lt;/small&gt;&lt;/p&gt;&lt;p&gt;i have filmed a simple shot of the side of a building, and my plan is having a cube or a ragdoll falling off the building and hitting the ground, but when i try to track, the perspective is so off, the solid isnt paralell to the wall that i want it to stuck to, this ruins the possibility of simulating the rigid body falling off the roof because i have to use a warped cube/plane to align with the wall, i also tried with a tripod pan track but that went even worse. how do i fix this? i also tried tracking in syntheyes but that didnt work at all submitted by /u/Due-Traffic5899 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wma9bx/my_perspective_when_tracking_in_after_effects_is/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wm8ljn/minimax_leads/</id><title>Minimax Leads</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wm8ljn/minimax_leads/"/>
+<published>2026-09-21T10:07:59+00:00</published><updated>2026-09-21T10:07:59+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="minimax"/>
+<summary>Ha, on the Arena.ai leaderboard for Image to Video, Minimax this week beats all other Models, open source and proprietary! Minimax is still a bit behind on the Text to Video front, placing 8th presently, down from sixth, but the point spread among all the top models is less than 50 points out of 150</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Ha, on the Arena.ai leaderboard for Image to Video, Minimax this week beats all other Models, open source and proprietary! Minimax is still a bit behind on the Text to Video front, placing 8th presently, down from sixth, but the point spread among all the top models is less than 50 points out of 1500. submitted by /u/robertwellesley [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wm8ljn/minimax_leads/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1wm8gsq/minimax_h3_now_generates_blurry_faces_distorted/</id><title>MiniMax H3 now generates blurry faces, distorted hands, and sometimes red bar artifacts....</title>
