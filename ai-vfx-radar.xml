@@ -2,8 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-09-22T16:30:43+00:00</updated>
+<updated>2026-09-22T18:30:25+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wnfwq5/help_me_to_choose_the_best_minimax_h3_combination/</id><title>Help me to choose the Best Minimax H3 Combination</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wnfwq5/help_me_to_choose_the_best_minimax_h3_combination/"/>
+<published>2026-09-22T17:26:42+00:00</published><updated>2026-09-22T17:26:42+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="minimax"/>
+<category term="lora"/>
+<summary>Hi , Actualy i Combined 2 Diffrent Model with some lora its har to making decission between 4 result Give me your opnion and the reason to i choose between 4 About Res,Speed,seed, all are same exact all took 2m and 50sec to generate , all audio quality are perfect just dont know which one should i c</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi , Actualy i Combined 2 Diffrent Model with some lora its har to making decission between 4 result Give me your opnion and the reason to i choose between 4 About Res,Speed,seed, all are same exact all took 2m and 50sec to generate , all audio quality are perfect just dont know which one should i choose People Realisim Lora : https://huggingface.co/fal/MiniMax-H3-Realism-People-LoRA/resolve/main/h3-realism-people-t2v-i2v-r2v.safetensors?download=true Mystic xxx Lora : https://civitai.red/models/2856467/mmh3-mystic-xxx Larryvrh Turbo Lora Ema 600: https://huggingface.co/larryvrh/MiniMax-H3-Turbo-Lora/resolve/main/minimax_h3_turbo_v4_step600.safetensors?download=true submitted by /u/agapes127&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wnfwq5/help_me_to_choose_the_best_minimax_h3_combination/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wnb7m3/qwen_21_detail_enhancer_lora/</id><title>Qwen 2.1 Detail Enhancer LoRA</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wnb7m3/qwen_21_detail_enhancer_lora/"/>
@@ -14,6 +24,15 @@
 <category term="lora"/>
 <summary>This LoRA can do a lot of good things such as detail enhancement, creative upscaling, photo restoration and quality improvements. It's a Image-to-Image(I2I) edit LoRA, so it will require image input, but you can use with Text-to-Image as well. I will be honest here; model itself is quite capable of </summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · upscaling, flux, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;This LoRA can do a lot of good things such as detail enhancement, creative upscaling, photo restoration and quality improvements. It's a Image-to-Image(I2I) edit LoRA, so it will require image input, but you can use with Text-to-Image as well. I will be honest here; model itself is quite capable of improving the image, just by prompting it, without needing of this LoRA, yet this LoRA improves the quality and guidance of the model itself on these tasks because it's trained on a dataset that contains pretty good pairs. If you are aiming for upscaling to higher pixels, please use this very simple workflow + add Load LoRA node between Load Diffusion Model and KSampler as usual and load this LoRA&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wnb7m3/qwen_21_detail_enhancer_lora/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1wnaxir/threejs_lighting/</id><title>Three.js lighting</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wnaxir/threejs_lighting/"/>
+<published>2026-09-22T14:24:14+00:00</published><updated>2026-09-22T14:24:14+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="vfx"/>
+<summary>Hey VFX! I'm hoping to get some pointers on my lighting in three.js I took a reference shot using Simulon (an iphone VFX app), and tried to match the output as best I could. Black eyed character = Simulon reference (the ideal) Pink eyed character (whoops) = three.js Im using three.js so i can have t</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 1 · vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey VFX! I'm hoping to get some pointers on my lighting in three.js I took a reference shot using Simulon (an iphone VFX app), and tried to match the output as best I could. Black eyed character = Simulon reference (the ideal) Pink eyed character (whoops) = three.js Im using three.js so i can have the character move dynamically whilst streaming. Any advice on how to make my three.js version look better? I have used claude for this, and the solution is as follows "Split the HDRI into 5 shadow-casting directional lights plus a residual env map, and wrote a shadow catcher that outputs blocked-light ratio like the Cycles pass. It's close, screenshots attached (ours left)." Any tips would be gran&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wnaxir/threejs_lighting/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://the-decoder.com/a-tiny-software-layer-from-lab-grown-neurons-promises-faster-cheaper-ai-video/</id><title>A tiny software layer from lab-grown neurons promises faster, cheaper AI video</title>
@@ -43,6 +62,26 @@
 <category term="wan"/>
 <summary>After doing fanedit for Alien vs. Predator almost a year back: Alien vs. Predator (2004): Re-enGORED Edition - a fanedit adding proper R-rated violence to Anderson's movie : r/fanedits , I'm back with another project. This time, while having started with Wan, a lot of new footage ended up coming fro</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · inpainting, wan&lt;/small&gt;&lt;/p&gt;&lt;p&gt;After doing fanedit for Alien vs. Predator almost a year back: Alien vs. Predator (2004): Re-enGORED Edition - a fanedit adding proper R-rated violence to Anderson's movie : r/fanedits , I'm back with another project. This time, while having started with Wan, a lot of new footage ended up coming from H3. This includes new action/violence shots, character replacement, video inpainting, new dialogue, and a couple entirely new scenes. Write me on chat to get the link to the whole thing, and feel free to ask any questions about my work process. submitted by /u/Itchy-Advertising857 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wn5yy7/made_my_second_aipowered_movie_fanedit_the_savage/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wn52dn/any_way_to_make_minimax_h3_not_distort_the_hell/</id><title>Any way to make MiniMax H3 not distort the hell out of your characters faces?</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wn52dn/any_way_to_make_minimax_h3_not_distort_the_hell/"/>
+<published>2026-09-22T09:50:41+00:00</published><updated>2026-09-22T09:50:41+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<category term="minimax"/>
+<summary>Look at her chin, in 5 seconds it turned her into Jim Carrey in The Mask: https://i.imgur.com/ismwRnU.png I'm using the reference to video/audio template in ComfyUI... any suggestions? submitted by /u/ElatedPyroHippo [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Look at her chin, in 5 seconds it turned her into Jim Carrey in The Mask: https://i.imgur.com/ismwRnU.png I'm using the reference to video/audio template in ComfyUI... any suggestions? submitted by /u/ElatedPyroHippo [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wn52dn/any_way_to_make_minimax_h3_not_distort_the_hell/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1wn4bz0/stereo_3d_conversion_is_mystery_to_me/</id><title>Stereo 3-D conversion, is mystery to me.</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wn4bz0/stereo_3d_conversion_is_mystery_to_me/"/>
+<published>2026-09-22T09:07:39+00:00</published><updated>2026-09-22T09:07:39+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="roto"/>
+<category term="stereo"/>
+<summary>I've a few questions. 1) How do these two (shown in the images) techniques work (Process)? 2) Once the stereo roto is done, how do they extrude the image? Assign depth? 3) Did these studios use proprietary software? Huge respect for stereo conversion artists. Thanks submitted by /u/Inevitable-Syrup6</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 3 · roto, stereo&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I've a few questions. 1) How do these two (shown in the images) techniques work (Process)? 2) Once the stereo roto is done, how do they extrude the image? Assign depth? 3) Did these studios use proprietary software? Huge respect for stereo conversion artists. Thanks submitted by /u/Inevitable-Syrup650 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wn4bz0/stereo_3d_conversion_is_mystery_to_me/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wn3ur1/i_spent_a_day_fighting_ai_video_prompts_before/</id><title>I spent a day fighting AI video prompts before realizing I was missing the right inputs</title>
