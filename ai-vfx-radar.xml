@@ -2,8 +2,39 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-09-23T00:30:22+00:00</updated>
+<updated>2026-09-23T02:30:32+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wns550/the_gap_between_generating_an_image_and_actually/</id><title>The gap between generating an image and actually art directing one is still huge</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wns550/the_gap_between_generating_an_image_and_actually/"/>
+<published>2026-09-23T01:24:51+00:00</published><updated>2026-09-23T01:24:51+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="relighting"/>
+<category term="image editing"/>
+<category term="comfyui"/>
+<summary>I've been doing intensive image generation for about two months now, mostly in ComfyUI, and I feel like I'm starting to see what the current limits are. I really like Krea 2 Turbo. I've found a bunch of useful LoRAs for it. It does good lighting, style and anatomy. But as soon as I try to actually a</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · relighting, image editing, comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I've been doing intensive image generation for about two months now, mostly in ComfyUI, and I feel like I'm starting to see what the current limits are. I really like Krea 2 Turbo. I've found a bunch of useful LoRAs for it. It does good lighting, style and anatomy. But as soon as I try to actually art direct something specific, it starts falling apart. From the outside 2D image generation looks like it has potential, and if you're just experimenting or prompting broadly I guess it's fine. It's not until you actually get your hands dirty with real ideas that the house of cards starts falling apart. Once you try directing the model toward something specific rather than accepting whatever it gi&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wns550/the_gap_between_generating_an_image_and_actually/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wnrq4d/new_to_comfyui/</id><title>New to ComfyUI</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wnrq4d/new_to_comfyui/"/>
+<published>2026-09-23T01:05:45+00:00</published><updated>2026-09-23T01:05:45+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<summary>I am new to ComfyUI and was trying to figure things out. I am trying to come up with my own art style for a science fantasy tabletop game. Does anyone have workflow reccomendations, models, custom nodes, etc they reccomend. submitted by /u/Ok-Inspector1108 [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I am new to ComfyUI and was trying to figure things out. I am trying to come up with my own art style for a science fantasy tabletop game. Does anyone have workflow reccomendations, models, custom nodes, etc they reccomend. submitted by /u/Ok-Inspector1108 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wnrq4d/new_to_comfyui/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wnq7zy/is_this_realistic_enough_minimax_h3_with_only_8/</id><title>Is this realistic enough? (Minimax H3 with only 8 steps)</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wnq7zy/is_this_realistic_enough_minimax_h3_with_only_8/"/>
+<published>2026-09-22T23:59:49+00:00</published><updated>2026-09-22T23:59:49+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<category term="minimax"/>
+<category term="lora"/>
+<summary>If you want the workflow let me know. EDIT: The workflow is incredibly simple, start with the default workflow from comfyui and then: - Euler + Beta at 8 steps. - minimax_h3_turbo_v4_step600_ema lora at 1.1 strength. - MMH3-VideoAgeSlider-V1 lora at 3.0 strength (it's makes the video effect more aut</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · comfyui, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;If you want the workflow let me know. EDIT: The workflow is incredibly simple, start with the default workflow from comfyui and then: - Euler + Beta at 8 steps. - minimax_h3_turbo_v4_step600_ema lora at 1.1 strength. - MMH3-VideoAgeSlider-V1 lora at 3.0 strength (it's makes the video effect more authentic). submitted by /u/Cequejedisestvrai [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wnq7zy/is_this_realistic_enough_minimax_h3_with_only_8/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wnmp43/my_new_favourite_workflow_qwen_image_21_ltx_25/</id><title>My new favourite workflow: Qwen image 2.1 + Ltx 2.5</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wnmp43/my_new_favourite_workflow_qwen_image_21_ltx_25/"/>
@@ -31,6 +62,17 @@
 <category term="lora"/>
 <summary>I've trained a preliminary lora to fix the image generation issues with Qwen Image 2.1 (also drastically improving edit quality). I've also been doing a lot of a/b testing with negative prompts and various settings, and I've got an accompanying workflow with what I've found to be the best settings s</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I've trained a preliminary lora to fix the image generation issues with Qwen Image 2.1 (also drastically improving edit quality). I've also been doing a lot of a/b testing with negative prompts and various settings, and I've got an accompanying workflow with what I've found to be the best settings so far. Specifically, 20 steps, seeds_2/sgm_uniform, cfg 3-4, Adaptive Projected Guidance, and FreSca (both are vanilla comfy nodes). Comparison images are with the out-of-the-box ComfyUI settings. You can download the lora and workflow both from either of these links: https://civitai.com/models/2957332/qwen-image-21-fix-v10 https://huggingface.co/e-n-v-y/Qwen-Image-2.1-Fix Some caveats: Hands are &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wnl1yf/qwen_image_21_generation_fix_lora_and_settings/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wnju55/gpu_upgrade_or_pay_cloud_subscription/</id><title>GPU upgrade OR pay cloud subscription</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wnju55/gpu_upgrade_or_pay_cloud_subscription/"/>
+<published>2026-09-22T19:46:32+00:00</published><updated>2026-09-22T19:46:32+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<category term="minimax"/>
+<category term="lora"/>
+<summary>Started ComfyUI around a week ago , and owning a 3080 10gb and 64gb ram, it was slow as hell to generate video on h3 minimax. I can actually sell it , add money and get a 3090, I'm just trying to understand how much of an upgrade is it and if relevant to my project (would like to create reels for in</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · comfyui, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Started ComfyUI around a week ago , and owning a 3080 10gb and 64gb ram, it was slow as hell to generate video on h3 minimax. I can actually sell it , add money and get a 3090, I'm just trying to understand how much of an upgrade is it and if relevant to my project (would like to create reels for instagram, anime, event promotions, product commercials.). When playing around with template workflows of h3 I get around x4 speed boost from the 3090 rented on runpod. Then I stumbled on an optimized workflow of h3 that upscaled starting from 0.5 mp, also using effecient sage attention and turbo 8 step lora, my 3080 could generate it in 11 min instead of 28 min so a huge boost. But now , I can't te&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wnju55/gpu_upgrade_or_pay_cloud_subscription/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wnjjni/qwen21_can_do_everything_character_sheets_face/</id><title>Qwen2.1 Can Do EVERYTHING! Character Sheets, Face Swap, Outfits &amp; Editin...</title>
@@ -74,6 +116,27 @@
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi , Actualy i Combined 2 Diffrent Model with some lora its har to making decission between 4 result Give me your opnion and the reason to i choose between 4 About Res,Speed,seed, all are same exact all took 2m and 50sec to generate , all audio quality are perfect just dont know which one should i choose People Realisim Lora : https://huggingface.co/fal/MiniMax-H3-Realism-People-LoRA/resolve/main/h3-realism-people-t2v-i2v-r2v.safetensors?download=true Mystic xxx Lora : https://civitai.red/models/2856467/mmh3-mystic-xxx Larryvrh Turbo Lora Ema 600: https://huggingface.co/larryvrh/MiniMax-H3-Turbo-Lora/resolve/main/minimax_h3_turbo_v4_step600.safetensors?download=true submitted by /u/agapes127&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wnfwq5/help_me_to_choose_the_best_minimax_h3_combination/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wnc4lg/a_quick_minimax_h3_news_roundup_22nd_september/</id><title>A quick Minimax H3 news round-up - 22nd September 2026</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wnc4lg/a_quick_minimax_h3_news_roundup_22nd_september/"/>
+<published>2026-09-22T15:09:15+00:00</published><updated>2026-09-22T15:09:15+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<category term="minimax"/>
+<category term="controlnet"/>
+<category term="lora"/>
+<summary>Another quick Minimax H3 news and goodies round-up, for those who may have missed some items. -&gt; MiniMax-H3-Fun-Controlnet-Union-2.0. Version 2.0 is now available and this can accept additional inputs - Scribble, Layout, and Gray. The number of control blocks have also been doubled. Kijai has alread</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 5 · comfyui, minimax, controlnet, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Another quick Minimax H3 news and goodies round-up, for those who may have missed some items. -&amp;gt; MiniMax-H3-Fun-Controlnet-Union-2.0. Version 2.0 is now available and this can accept additional inputs - Scribble, Layout, and Gray. The number of control blocks have also been doubled. Kijai has already uploaded a 4.5Gb INT8 version of v2.0, which should work in the very latest ComfyUI. https://huggingface.co/alibaba-pai/MiniMax-H3-Fun-Controlnet-Union-2.0 https://huggingface.co/Kijai/MiniMax-H3-experimental/tree/main/model_patches https://github.com/Comfy-Org/ComfyUI/pull/16471 -&amp;gt; ComfyUI-ReShot. This updated a few days ago, and now supports Openpose and Canny. ReShot transforms a regular vide&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wnc4lg/a_quick_minimax_h3_news_roundup_22nd_september/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wnb821/qwen_21_detail_enhancer_lora/</id><title>Qwen 2.1 Detail Enhancer LoRA</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wnb821/qwen_21_detail_enhancer_lora/"/>
+<published>2026-09-22T14:35:22+00:00</published><updated>2026-09-22T14:35:22+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="lora"/>
+<summary>submitted by /u/sktksm [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/sktksm [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wnb821/qwen_21_detail_enhancer_lora/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wnb7m3/qwen_21_detail_enhancer_lora/</id><title>Qwen 2.1 Detail Enhancer LoRA</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wnb7m3/qwen_21_detail_enhancer_lora/"/>
 <published>2026-09-22T14:34:55+00:00</published><updated>2026-09-22T14:34:55+00:00</updated>
@@ -104,6 +167,24 @@
 <content type="html">&lt;p&gt;&lt;small&gt;The Decoder · score 3 · text-to-video, ai video&lt;/small&gt;&lt;/p&gt;&lt;p&gt;The Biological Computing Co. wants to team up with AWS to sell a text-to-video model that's supposed to run five times faster and 80 percent cheaper thanks to a software layer derived from real nerve cells. The tiny layer adds less than 0.1 percent to the base model, but the startup won't say which model that is. The article A tiny software layer from lab-grown neurons promises faster, cheaper AI video appeared first on The Decoder .&lt;/p&gt;&lt;p&gt;&lt;a href="https://the-decoder.com/a-tiny-software-layer-from-lab-grown-neurons-promises-faster-cheaper-ai-video/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wna54s/you_can_now_generate_the_fibonacci_sequence/</id><title>You can now generate the Fibonacci sequence inside ComfyUI (a guide to loops)</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wna54s/you_can_now_generate_the_fibonacci_sequence/"/>
+<published>2026-09-22T13:53:46+00:00</published><updated>2026-09-22T13:53:46+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<summary>The title is half a joke, of course 😄 Recently, ComfyUI added a set of nodes for general-purpose loops. This means you can now do some pretty fun things entirely with core nodes — like repeatedly extending a few seconds of generated video into something much longer, or letting an MLLM judge the resu</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;The title is half a joke, of course 😄 Recently, ComfyUI added a set of nodes for general-purpose loops. This means you can now do some pretty fun things entirely with core nodes — like repeatedly extending a few seconds of generated video into something much longer, or letting an MLLM judge the result and automatically edit an image over and over. That said, loops are also quite a bit harder to understand than most things in ComfyUI. Until now, no matter how many nodes a workflow had, it was usually still a one-way graph: you could mostly understand it just by following where the wires go. Loops break that intuition a little. I expect we'll start seeing more workflows that make use of them, &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wna54s/you_can_now_generate_the_fibonacci_sequence/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wn9fwl/minimax_h3_extra_generation_speed_boost_advice/</id><title>Minimax H3 - Extra Generation Speed Boost Advice</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wn9fwl/minimax_h3_extra_generation_speed_boost_advice/"/>
+<published>2026-09-22T13:24:52+00:00</published><updated>2026-09-22T13:24:52+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="minimax"/>
+<summary>Afternoon all - wonder if some kind folk could help. Im new to this but have been picking up what i can from threads on here and tutorials. GPU is 3090 so not perfect but workable, on Comfy i have managed to get my gens down from 18 minutes for a 10 second vid to 10 minutes using Sage Attention and </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Afternoon all - wonder if some kind folk could help. Im new to this but have been picking up what i can from threads on here and tutorials. GPU is 3090 so not perfect but workable, on Comfy i have managed to get my gens down from 18 minutes for a 10 second vid to 10 minutes using Sage Attention and Triton, so a big win. This is at 1280 x736 at 0.9mp. I have read about other methods to do with blocks that dont change, spectrum, other bits and bobs and while i have started to mess with the nodes behind the generic Minimax template, im not great at it yet (for obvious reasons being a noob) and dont fully know what im doing. So...do you have any advice on other thing i can do to bring this 10 mi&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wn9fwl/minimax_h3_extra_generation_speed_boost_advice/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wn96zc/flux2klein9bkv_vs_sensenova_u15/</id><title>FLUX.2-klein-9b-kv vs SenseNova U1.5 Lite(multi-reference image fusion comparison)</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wn96zc/flux2klein9bkv_vs_sensenova_u15/"/>
 <published>2026-09-22T13:14:48+00:00</published><updated>2026-09-22T13:14:48+00:00</updated>
@@ -111,6 +192,46 @@
 <category term="flux"/>
 <summary>I tested SenseNova U1.5 Lite against FLUX.2-klein-9b-kv with five multi-reference image fusion tasks. Across the first four examples, SenseNova generally makes fewer reference errors, uses a wider range of elements from the input images, produces richer colors, and generates less garbled text overal</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I tested SenseNova U1.5 Lite against FLUX.2-klein-9b-kv with five multi-reference image fusion tasks. Across the first four examples, SenseNova generally makes fewer reference errors, uses a wider range of elements from the input images, produces richer colors, and generates less garbled text overall. The biggest difference appears in the final winter scene. The prompt says that the woman’s other hand should reach toward the camera while catching or tossing a snowball. FLUX.2-klein-9b-kv keeps the original foreground hand holding the snowball, so it does not establish the requested action. SenseNova U1.5 Lite instead renders the snowball in the woman’s outstretched hand, following both the r&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wn96zc/flux2klein9bkv_vs_sensenova_u15/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wn92g1/settlement_controlled_miniature_worldbuilding_and/</id><title>SETTLEMENT — controlled miniature worldbuilding and restrained I2V in ComfyUI</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wn92g1/settlement_controlled_miniature_worldbuilding_and/"/>
+<published>2026-09-22T13:09:32+00:00</published><updated>2026-09-22T13:09:32+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<summary>SETTLEMENT is a title sequence for an imagined series built around the idea of a settlement as something that can be selected, relocated, modified and catalogued by a larger system. I kept the geography and political identity deliberately undefined, so the miniature city could function more as a bro</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;SETTLEMENT is a title sequence for an imagined series built around the idea of a settlement as something that can be selected, relocated, modified and catalogued by a larger system. I kept the geography and political identity deliberately undefined, so the miniature city could function more as a broader metaphor for control over place rather than point to one specific location or conflict. Visually, I treated the city as a physical archive: rigid miniature architecture, removable structures, mechanical systems and very restrained camera movement. Most of the work was about getting the video models to do less—preserving scale, geometry, materials and composition while allowing only the motion&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wn92g1/settlement_controlled_miniature_worldbuilding_and/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wn8ivq/charachter_consistency_trained_lora_vs_qwenimage21/</id><title>Charachter consistency: Trained LoRA vs Qwen-Image-2.1</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wn8ivq/charachter_consistency_trained_lora_vs_qwenimage21/"/>
+<published>2026-09-22T12:46:10+00:00</published><updated>2026-09-22T12:46:10+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="image editing"/>
+<category term="lora"/>
+<category term="consistency"/>
+<summary>Is training a character lora still worth it for photorealistic characters? I’ve been looking at some Qwen-Image-2.1 posts and it seems like you can get pretty good consistency from ref images. For anyone doing realistic/photorealistic characters, how do image editing models compare to a properly tra</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 5 · image editing, lora, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Is training a character lora still worth it for photorealistic characters? I’ve been looking at some Qwen-Image-2.1 posts and it seems like you can get pretty good consistency from ref images. For anyone doing realistic/photorealistic characters, how do image editing models compare to a properly trained character LoRA? Also is Qwen-Image-2.1 the best one? submitted by /u/GranDaddyP [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wn8ivq/charachter_consistency_trained_lora_vs_qwenimage21/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wn74i0/state_of_the_art_vectorizer_for_ai_art_inkvec/</id><title>State of the art vectorizer for AI art - InkVec ComfyUI - Need help with testing the ComfyUI integration. NEEDING BETA TESTERS!</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wn74i0/state_of_the_art_vectorizer_for_ai_art_inkvec/"/>
+<published>2026-09-22T11:41:03+00:00</published><updated>2026-09-22T11:41:03+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="super-resolution"/>
+<category term="denoising"/>
+<category term="comfyui"/>
+<summary>Hi, I've built a Rust vectorizer that is meant to help optimize graphics for web delivery. It is pareto frontier, from my research SoTA open-source/open-weight solution (from both traditional and neural network based approaches), and runs in &lt;2 seconds on CPU when ran as a standalone app. The soluti</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · super-resolution, denoising, comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi, I've built a Rust vectorizer that is meant to help optimize graphics for web delivery. It is pareto frontier, from my research SoTA open-source/open-weight solution (from both traditional and neural network based approaches), and runs in &amp;lt;2 seconds on CPU when ran as a standalone app. The solution implements a chain of recent mathematics papers to significantly beat VTracer's algorithm, support gradients natively, and more. I'm still iterating on it, I hope to release tooling in multiple languages to allow this to be used in most major languages through native interfaces in Java, Python, etc. The vectorizer now comes with two different sister models, one for denoising JPEGs/WEBPs/VAE out&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wn74i0/state_of_the_art_vectorizer_for_ai_art_inkvec/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wn6obq/in_comfyui_saveimage_node_captures_ollamas_system/</id><title>In ComfyUI, SaveImage node captures Ollama's System Prompt instead of the generated prompt inside PNG Metadata - Need advice</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wn6obq/in_comfyui_saveimage_node_captures_ollamas_system/"/>
+<published>2026-09-22T11:18:17+00:00</published><updated>2026-09-22T11:18:17+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<summary>Hi everyone, I am facing a persistent issue with PNG Metadata saving in ComfyUI when using an LLM node ( OllamaGenerateV2 ) to generate my prompts. My Setup: An outer workflow where text input goes into OllamaGenerateV2 . The result output (STRING) goes into a Custom Subgraph . Inside the Subgraph, </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi everyone, I am facing a persistent issue with PNG Metadata saving in ComfyUI when using an LLM node ( OllamaGenerateV2 ) to generate my prompts. My Setup: An outer workflow where text input goes into OllamaGenerateV2 . The result output (STRING) goes into a Custom Subgraph . Inside the Subgraph, it connects to a Concatenate Text node, which then feeds into CLIPTextEncode and KSampler . The final image output goes into the SaveImage node on the main canvas. The Problem: Even though the layout visually works and generates the correct images (e.g., generating an image based on the dynamic prompt), the SaveImage node completely ignores the dynamically generated text result. Instead, it backtr&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wn6obq/in_comfyui_saveimage_node_captures_ollamas_system/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wn6av2/sound_problems_with_minimax_h3_turbo_and_fast/</id><title>Sound problems with MiniMax H3 Turbo and Fast LoRas</title>
@@ -161,6 +282,17 @@
 <category term="ai video"/>
 <summary>I started making AI videos by giving the model one image and a very detailed prompt. I described the camera movement, character actions, timing, and all the small details I wanted to happen. I thought being more specific would make the result closer to my idea, but most attempts were frustrating. So</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · ai video&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I started making AI videos by giving the model one image and a very detailed prompt. I described the camera movement, character actions, timing, and all the small details I wanted to happen. I thought being more specific would make the result closer to my idea, but most attempts were frustrating. Sometimes the generation failed completely. Other times the video followed a few words from the prompt but created something totally different from what I imagined. After spending a whole day rewriting prompts, I realized the problem was not always the prompt itself. I was asking the AI to invent too many things without enough visual information. A long description cannot replace missing references.&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wn3ur1/i_spent_a_day_fighting_ai_video_prompts_before/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wn229o/turning_2d_drawing_into_photorealistic_renders/</id><title>Turning 2D Drawing into photorealistic renders using small dataset</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wn229o/turning_2d_drawing_into_photorealistic_renders/"/>
+<published>2026-09-22T06:49:27+00:00</published><updated>2026-09-22T06:49:27+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="render"/>
+<category term="comfyui"/>
+<category term="controlnet"/>
+<summary>Hi everyone, I am looking for some technical advice on creating a ComfyUI workflow for specific use case. I manufacture custom wooden stairs and want to automate generating photorealistic client visualisations directly from my 2D drawing. Let's say i paired exactly 50-100 technical drawings with the</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · render, comfyui, controlnet&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi everyone, I am looking for some technical advice on creating a ComfyUI workflow for specific use case. I manufacture custom wooden stairs and want to automate generating photorealistic client visualisations directly from my 2D drawing. Let's say i paired exactly 50-100 technical drawings with their corresponding real-life photos , is it enough to create a working setup? I've had some success creating photo-realistic close'ups of a product using ControlNet and that gives me hope. The goal is to input a new drawing -&amp;gt; output a accurate, photorealistic render with the exact geometry. I've attached a simple pair to show the exact input im working with. Thanks in advance for any insights or su&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wn229o/turning_2d_drawing_into_photorealistic_renders/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wn14xp/i_let_minimax_h3_direct_the_battle_scene/</id><title>I let minimax H3 direct the battle scene</title>
@@ -7153,30 +7285,5 @@
 <category term="rendering"/>
 <summary>arXiv:2606.29453v3 Announce Type: replace-cross Abstract: Arbitrary-Scale Super-Resolution (ASR) reconstructs images at continuous magnification factors. Recent methods accelerate inference by replacing computationally heavy implicit neural decoders with explicit 2D Gaussian Splatting (GS). However,</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.GR · score 4 · gaussian splatting, super-resolution, rendering&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2606.29453v3 Announce Type: replace-cross Abstract: Arbitrary-Scale Super-Resolution (ASR) reconstructs images at continuous magnification factors. Recent methods accelerate inference by replacing computationally heavy implicit neural decoders with explicit 2D Gaussian Splatting (GS). However, since standard Gaussians are smooth low-pass primitives, modeling edges and fine textures requires multiple overlapping, well-aligned splats, which creates severe bottlenecks during rasterization. To address this, we introduce Resonant Brane Splatting (RBS), a feed-forward ASR framework. RBS replaces flat Gaussians with Branes: expressive primitives that emit spatially varying colors to natively &lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2606.29453"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wb8ib0/h3_fight_choreography_with_no_lora/</id><title>H3 - fight choreography with no Lora?</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wb8ib0/h3_fight_choreography_with_no_lora/"/>
-<published>2026-09-09T02:11:04+00:00</published><updated>2026-09-09T02:11:04+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="animation"/>
-<category term="render"/>
-<category term="lora"/>
-<category term="cinematic"/>
-<summary>Long day at work so just wanted some AI slop fighting. In the John Wick universe, but no gunfu. int8/32 steps. T2VA. NGL, that ending looks like it friggin hurts! What fighting style should we do next? Prompt: integrated_multimodal_description: [Shot 1] Live-action, cinematic, PHOTOREALISTIC film fo</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 5 · animation, render, lora, cinematic&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Long day at work so just wanted some AI slop fighting. In the John Wick universe, but no gunfu. int8/32 steps. T2VA. NGL, that ending looks like it friggin hurts! What fighting style should we do next? Prompt: integrated_multimodal_description: [Shot 1] Live-action, cinematic, PHOTOREALISTIC film footage — this is footage from a real camera, not animation, not anime, not illustration, not a CG render. An action sequence in the John Wick universe: its night-city palette, its poise, its clean brutal fight grammar — no guns anywhere, this fight is hands only. Anamorphic glass with soft oval bokeh, fine film grain, deep true blacks; the night reads as a real exposure, practicals blooming, nothin&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wb8ib0/h3_fight_choreography_with_no_lora/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wb8cao/minimax_workflow_designed_to_be_user_friendly_for/</id><title>MiniMax Workflow Designed to be User Friendly for the Inexperienced User</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wb8cao/minimax_workflow_designed_to_be_user_friendly_for/"/>
-<published>2026-09-09T02:03:40+00:00</published><updated>2026-09-09T02:03:40+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="frame interpolation"/>
-<category term="comfyui"/>
-<category term="stable diffusion"/>
-<category term="minimax"/>
-<category term="lora"/>
-<summary>(Reposting from stable diffusion, hence the edits) Some guy on civitai made this workflow and i gave him some valid criticism, then he called me a gooner that doesn't know anything about workflows and blocked me. This offended me because I know plenty about workflows. I'm not going to share his name</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 6 · frame interpolation, comfyui, stable diffusion, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;(Reposting from stable diffusion, hence the edits) Some guy on civitai made this workflow and i gave him some valid criticism, then he called me a gooner that doesn't know anything about workflows and blocked me. This offended me because I know plenty about workflows. I'm not going to share his name because he's apparently active on reddit under a similar name but I tried to point out some problems with his workflow. So, instead, I just decided to fix them fueled by pure pettiness. Here it is. https://github.com/roycho87/minimax_wf After dissecting the thing I was able to get many of the features that weren't working in the original to work and I added some features as well like the ability &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wb8cao/minimax_workflow_designed_to_be_user_friendly_for/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
