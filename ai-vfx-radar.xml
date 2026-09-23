@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-09-23T16:31:53+00:00</updated>
+<updated>2026-09-23T18:31:06+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wo6d82/qwen_image_21_4_steps_turbo_lora_is_here_by_viggle/</id><title>Qwen Image 2.1 4 Steps Turbo Lora is here by Viggle</title>
@@ -6746,79 +6746,5 @@
 <category term="lora"/>
 <summary>I would love to make something that looks like a late 2000's early 2010's webcam recording, with like, iffy FPS, webcam compression, etc, but can't seem to create this with prompting and haven't seen a lora that would pull it off. Has anyone accomplished this? submitted by /u/noaxxx2 [link] [comment</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I would love to make something that looks like a late 2000's early 2010's webcam recording, with like, iffy FPS, webcam compression, etc, but can't seem to create this with prompting and haven't seen a lora that would pull it off. Has anyone accomplished this? submitted by /u/noaxxx2 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wbxobw/has_anyone_been_able_to_use_minimax_h3_to_make_an/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wbtn70/minimax_h3_baseline_at_50_steps_vs_popular_turbo/</id><title>Minimax H3, baseline at 50 steps vs popular turbo loras at 8 steps, plastic skin test</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wbtn70/minimax_h3_baseline_at_50_steps_vs_popular_turbo/"/>
-<published>2026-09-09T18:20:46+00:00</published><updated>2026-09-09T18:20:46+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="minimax"/>
-<category term="lora"/>
-<category term="cinematic"/>
-<summary>Test Settings Checkpoint: FL2VA_Int8_Convrot (Comfy official) Acceleration: Comfy Kitchen Attention Sampler / Scheduler: Euler / Simple Resolution: 1344x768 (Native Res) Video/Audio Shift: 12/3 Seed: 517405563399433 Baseline: 50 steps (No LoRA) Turbo LoRAs: 8 steps Prompt integrated_multimodal_descr</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · minimax, lora, cinematic&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Test Settings Checkpoint: FL2VA_Int8_Convrot (Comfy official) Acceleration: Comfy Kitchen Attention Sampler / Scheduler: Euler / Simple Resolution: 1344x768 (Native Res) Video/Audio Shift: 12/3 Seed: 517405563399433 Baseline: 50 steps (No LoRA) Turbo LoRAs: 8 steps Prompt integrated_multimodal_description: [Shot 1] Live-action, cinematic, an extreme close-up frames the face of a 22-year-old brunette woman with striking supermodel features. Her skin possesses a realistic, natural texture with visible pores, soft highlights, and authentic depth. The camera holds a static shot as she slowly turns her head to face the lens, offering a subtle, gentle smile while her eyes catch the light. overall_&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wbtn70/minimax_h3_baseline_at_50_steps_vs_popular_turbo/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wbtgoo/easy_ref2v_wf_for_dummies_like_me_automatic/</id><title>Easy Ref2V WF for dummies like me - [Automatic Video/Image Transcription + Prompt Formatting]</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wbtgoo/easy_ref2v_wf_for_dummies_like_me_automatic/"/>
-<published>2026-09-09T18:14:32+00:00</published><updated>2026-09-09T18:14:32+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="image-to-video"/>
-<category term="sam3"/>
-<summary>I have seen a lot of people post on here saying that they have been having difficults getting R2V to work correctly. I have been one of them, so I have been working on this workflow and custom node for the last 2 and a half weeks. I preface this by saying it does not do anything that the native H3 m</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · image-to-video, sam3&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I have seen a lot of people post on here saying that they have been having difficults getting R2V to work correctly. I have been one of them, so I have been working on this workflow and custom node for the last 2 and a half weeks. I preface this by saying it does not do anything that the native H3 model doesn't do. I just wanted a dead simple way to use H3 R2V mode and up my chances of success. The workflow includes two custom nodes which transcribe your media and adds your prompt and create a formatted R2V prompt, ready for the reference model. My next goal would be to get longer form R2V going with chaining shorter gens to have a consistent output. Workflow and nodes: https://huggingface.c&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wbtgoo/easy_ref2v_wf_for_dummies_like_me_automatic/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wbt2ey/a_little_solution_for_the_plastic_skin_with/</id><title>A little solution for the plastic skin with Minimax H3</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wbt2ey/a_little_solution_for_the_plastic_skin_with/"/>
-<published>2026-09-09T18:00:51+00:00</published><updated>2026-09-09T18:00:51+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="minimax"/>
-<summary>I found out a little solution that can add much more details on everything including skin without any additional computational cost. The idea is to add a node between SamplerCostumAdvanced and the VAE Decode (video) and make it less contrasty, it will bring so much more details but don't go to far b</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I found out a little solution that can add much more details on everything including skin without any additional computational cost. The idea is to add a node between SamplerCostumAdvanced and the VAE Decode (video) and make it less contrasty, it will bring so much more details but don't go to far because it can cause loss of quality. Enjoy! submitted by /u/Cequejedisestvrai [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wbt2ey/a_little_solution_for_the_plastic_skin_with/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1wbsm93/how_do_i_practice_vfx/</id><title>How do I practice vfx?</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wbsm93/how_do_i_practice_vfx/"/>
-<published>2026-09-09T17:45:07+00:00</published><updated>2026-09-09T17:45:07+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="video editing"/>
-<category term="vfx"/>
-<category term="blender"/>
-<summary>I want to make a film that needs to be finished by next summer. I already have some experience with blender, basic video editing, and graphic design if it’s of any help, but I struggle with finding material to actually practice. Do I think of a project idea and learn as I go or do I use stock footag</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 4 · video editing, vfx, blender&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I want to make a film that needs to be finished by next summer. I already have some experience with blender, basic video editing, and graphic design if it’s of any help, but I struggle with finding material to actually practice. Do I think of a project idea and learn as I go or do I use stock footage? Also, is there a vfx equivalent to the blender donut tutorial? submitted by /u/UhhAddyn [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wbsm93/how_do_i_practice_vfx/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wbs56o/amazing_minimax_h3_circle_on_the_reference_image/</id><title>AMAZING Minimax H3 - Circle on the reference image WHERE you want your scene to be!!</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wbs56o/amazing_minimax_h3_circle_on_the_reference_image/"/>
-<published>2026-09-09T17:28:16+00:00</published><updated>2026-09-09T17:28:16+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="minimax"/>
-<summary>Look at the buildings in the background! It works - Drawing a red circle in the water will also make the scene happen in the water, but I forgot to include it here. It is not perfect and some details are missing if you look carefully but this might be because I am using "match" on the image referenc</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Look at the buildings in the background! It works - Drawing a red circle in the water will also make the scene happen in the water, but I forgot to include it here. It is not perfect and some details are missing if you look carefully but this might be because I am using "match" on the image reference rather than "max." Have fun! Edit: Circle probably doesn't have to be red. Change your prompt accordingly. submitted by /u/TheDerminator1337 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wbs56o/amazing_minimax_h3_circle_on_the_reference_image/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1wbrjhs/ai_vfx_experiment_comfyui_ltx_video_23/</id><title>AI VFX Experiment — ComfyUI + LTX Video 2.3</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wbrjhs/ai_vfx_experiment_comfyui_ltx_video_23/"/>
-<published>2026-09-09T17:06:49+00:00</published><updated>2026-09-09T17:06:49+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="vfx"/>
-<category term="comfyui"/>
-<category term="ltx"/>
-<summary>submitted by /u/mowaism [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 6 · vfx, comfyui, ltx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/mowaism [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wbrjhs/ai_vfx_experiment_comfyui_ltx_video_23/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wbr279/a_quick_minimax_h3_news_roundup_9th_september_2026/</id><title>A quick Minimax H3 news round-up - 9th September 2026</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wbr279/a_quick_minimax_h3_news_roundup_9th_september_2026/"/>
-<published>2026-09-09T16:50:02+00:00</published><updated>2026-09-09T16:50:02+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="flux"/>
-<category term="minimax"/>
-<category term="controlnet"/>
-<category term="lora"/>
-<summary>Another quick Minimax H3 news and goodies round-up, for those who may have missed some items. -&gt; The Comfy.org changelog has details of ComfyUI in the latest 0.35.0 version. Among other items... ~ MiniMax-H3 PDD LoRA: Load Parallel Decoding Distillation LoRAs for faster H3 sampling. ~ MiniMax-H3 Fun</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 6 · comfyui, flux, minimax, controlnet, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Another quick Minimax H3 news and goodies round-up, for those who may have missed some items. -&amp;gt; The Comfy.org changelog has details of ComfyUI in the latest 0.35.0 version. Among other items... ~ MiniMax-H3 PDD LoRA: Load Parallel Decoding Distillation LoRAs for faster H3 sampling. ~ MiniMax-H3 Fun Union: Use reference and keyframe conditioning together with Fun Union ControlNet. ~ MiniMax-H3 text-encoder refs: Make VAE optional, so references can condition the text encoder only. ~ MiniMax-H3 LoRAs: Load DiffSynth-Studio and ModelScope-trained LoRAs that previously skipped every key. ~ Sparse Attention: Model Sparse Attention node for comfy-kitchen sparse backends. ~ Comfy Compiler: Aimdo m&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wbr279/a_quick_minimax_h3_news_roundup_9th_september_2026/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
