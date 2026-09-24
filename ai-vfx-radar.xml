@@ -2,8 +2,26 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-09-24T16:30:49+00:00</updated>
+<updated>2026-09-24T18:30:28+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wp8pin/update_my_free_krea_2_character_lora_library_went/</id><title>Update: my free Krea 2 character LoRA library went from 18 → 70 models. Here’s the full workflow I’m using to train them.</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wp8pin/update_my_free_krea_2_character_lora_library_went/"/>
+<published>2026-09-24T17:57:06+00:00</published><updated>2026-09-24T17:57:06+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="lora"/>
+<summary>Last week I posted the Krea 2 character LoRA library I've been working on. There were 18 models at the time. There are 70 now. Krea 2 Character LoRA Browser A bunch of people asked how I was training them, and I realized afterward that my original post was pretty light on the actual training details</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Last week I posted the Krea 2 character LoRA library I've been working on. There were 18 models at the time. There are 70 now. Krea 2 Character LoRA Browser A bunch of people asked how I was training them, and I realized afterward that my original post was pretty light on the actual training details. I promised I'd put together something more useful once I had the process nailed down, so here it is. Everything is still free. I've also continued working on the visual browser so you can see sample generations, triggers, recommended strengths, selected training epoch, and optional identity prompts before downloading anything. But the more interesting part is the training workflow... How I'm Mak&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wp8pin/update_my_free_krea_2_character_lora_library_went/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wp6la7/new_fewstep_lora_adapters_for_qwenimage21_5x/</id><title>New few-step LoRA adapters for Qwen-Image-2.1, ~5x faster</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wp6la7/new_fewstep_lora_adapters_for_qwenimage21_5x/"/>
+<published>2026-09-24T16:38:10+00:00</published><updated>2026-09-24T16:38:10+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="lora"/>
+<summary>Hey! We published a set of a few-step LoRAs: https://huggingface.co/PrunaAI/Pruna-Qwen-Image-2.1 - Generate or edit images in just 5 or 8 steps instead of 40. Choose 5 steps for maximum speed or 8 steps for the best balance. - The 8-step adapter is our recommended default. It supports text-to-image </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey! We published a set of a few-step LoRAs: https://huggingface.co/PrunaAI/Pruna-Qwen-Image-2.1 - Generate or edit images in just 5 or 8 steps instead of 40. Choose 5 steps for maximum speed or 8 steps for the best balance. - The 8-step adapter is our recommended default. It supports text-to-image and single- or multi-image editing at 1K resolution, with up to three reference images. - The LoRA adapters load directly on top of Qwen-Image-2.1, while the pipeline remains unchanged. Each adapter uses its own optimized sigma schedule and runs without CFG. submitted by /u/sdiazlor [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wp6la7/new_fewstep_lora_adapters_for_qwenimage21_5x/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/</id><title>Introducing Gemini 3.8 Live with Live Avatar</title>
 <link rel="alternate" href="https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/"/>
@@ -12,6 +30,20 @@
 <category term="avatar"/>
 <summary></summary>
 <content type="html">&lt;p&gt;&lt;small&gt;Google DeepMind · score 2 · avatar&lt;/small&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wp5cmi/minimax_h3/</id><title>Minimax H3</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wp5cmi/minimax_h3/"/>
+<published>2026-09-24T15:51:35+00:00</published><updated>2026-09-24T15:51:35+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="tracking"/>
+<category term="camera tracking"/>
+<category term="comfyui"/>
+<category term="minimax"/>
+<category term="lora"/>
+<category term="cinematic"/>
+<summary>The workflow is incredibly simple, start with the default workflow from comfyui and then: - Euler + Beta at 8 steps. - minimax_h3_turbo_v4_step600_ema lora at 1.1 strength. - MMH3-VideoAgeSlider-V1 lora at 3.0 strength (it's makes the video effect more authentic). (at 0 seconds: wide shot showing th</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 7 · tracking, camera tracking, comfyui, minimax, lora, cinematic&lt;/small&gt;&lt;/p&gt;&lt;p&gt;The workflow is incredibly simple, start with the default workflow from comfyui and then: - Euler + Beta at 8 steps. - minimax_h3_turbo_v4_step600_ema lora at 1.1 strength. - MMH3-VideoAgeSlider-V1 lora at 3.0 strength (it's makes the video effect more authentic). (at 0 seconds: wide shot showing the fat man standing in the street, a massive giant shark emerging behind him, street cracking and dust rising). (at 1 second: the man jumps backward onto the shark’s back as it bursts fully from the ground, camera tracking the motion from a side angle, debris and dust flying). (at 2 seconds: medium shot from the side, the man balances heroically on the shark’s back as it glides forward, slow-motion&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wp5cmi/minimax_h3/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wp392j/minimax_h3_speedups_measured/</id><title>MiniMax H3 speed-ups, measured</title>
@@ -6848,89 +6880,5 @@
 <category term="lora"/>
 <summary>https://reddit.com/link/1wcsk7l/video/ld6ca2jxqqoh1/player I’ve just updated my VDN-H3 24GB node to v1.1.0. This update started because I noticed that something wasn’t quite right with the released adapter mapping. After fixing that, I also made a couple of changes around memory handling, especially</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;https://reddit.com/link/1wcsk7l/video/ld6ca2jxqqoh1/player I’ve just updated my VDN-H3 24GB node to v1.1.0. This update started because I noticed that something wasn’t quite right with the released adapter mapping. After fixing that, I also made a couple of changes around memory handling, especially for longer generations. The main changes are: restored the complete token-refiner adapter mapping improved temporary memory handling for longer clips fixed CUDA stream lifetime handling for prefetched weights kept the same AutoMemory / AutoLongCache behavior from the previous version I tested it on my RTX 3090 24GB with 5s, 10s, 15s and 20s generations at 0.4MP, and also 10s at 0.8MP. I also test&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wcsk7l/comfyui_vdnh3_24gb_v110_update_better_prompt/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wcr9hb/wip_cinematic_dark_fantasy_short_wanderers/</id><title>[WIP] Cinematic Dark Fantasy Short: «Wanderers» (AI-generated)</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wcr9hb/wip_cinematic_dark_fantasy_short_wanderers/"/>
-<published>2026-09-10T18:20:50+00:00</published><updated>2026-09-10T18:20:50+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="consistency"/>
-<category term="cinematic"/>
-<summary>Working on a dark fantasy cinematic short inspired by classic atmospheres: "Wanderers" 🕯️❄️ Hey everyone! I wanted to share a sneak peek of a project I'm building using AI tools. The story follows Martha—who loses everything in a village fire and sees her brother abducted—and her fateful encounter w</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · consistency, cinematic&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Working on a dark fantasy cinematic short inspired by classic atmospheres: "Wanderers" 🕯️❄️ Hey everyone! I wanted to share a sneak peek of a project I'm building using AI tools. The story follows Martha—who loses everything in a village fire and sees her brother abducted—and her fateful encounter with the weary alchemist Orlando in a grim, snow-covered mountain forest. I’ve been heavily focusing on maintaining visual consistency for the characters across different lighting conditions, transitioning from the burning ruins into the freezing pre-dawn mountain twilight where Orlando finds her. Let me know what you think of the atmosphere and the workflow! #AIArt #DarkFantasy #Cinematic #Grimdar&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wcr9hb/wip_cinematic_dark_fantasy_short_wanderers/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wcqg5q/help_me_captioning_a_minimax_h3_action_fight_lora/</id><title>Help me captioning a MiniMax H3 action fight LoRA...</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wcqg5q/help_me_captioning_a_minimax_h3_action_fight_lora/"/>
-<published>2026-09-10T17:52:35+00:00</published><updated>2026-09-10T17:52:35+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="minimax"/>
-<category term="lora"/>
-<summary>I only need help with captioning the training clips for a MiniMax H3 action fight LoRA. I am planning to train it on karate/fighting type action, and I have clips varying from around 5-15 seconds. I also have some 20-25 second segments too. why I am confused is cause should I follow the prompt forma</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I only need help with captioning the training clips for a MiniMax H3 action fight LoRA. I am planning to train it on karate/fighting type action, and I have clips varying from around 5-15 seconds. I also have some 20-25 second segments too. why I am confused is cause should I follow the prompt format officials has released for H3, or should training captions be written in some completely different/simple way? Like if a 10 second clip has multiple punches, kicks, blocks, dodges, body movement, camera movement and angle changes, should I describe every action in sequence? or should I just write the overall action happening in the clip? for example should the caption be something detailed like:&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wcqg5q/help_me_captioning_a_minimax_h3_action_fight_lora/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wcqctw/followup_to_my_last_star_trek_post_i_made_a_star/</id><title>Follow-up to my last Star Trek post – I made a Star Trek vs Star Wars fan film with MiniMax H3 in ComfyUI</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wcqctw/followup_to_my_last_star_trek_post_i_made_a_star/"/>
-<published>2026-09-10T17:49:27+00:00</published><updated>2026-09-10T17:49:27+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="text-to-video"/>
-<category term="upscaling"/>
-<category term="comfyui"/>
-<category term="minimax"/>
-<category term="ai video"/>
-<summary>A few weeks ago I posted here about the workflow I used to make a 6-minute Star Trek: TNG fan film with MiniMax H3 in ComfyUI. This is basically a follow-up to that post. Since then I've made another one, this time Star Trek vs Star Wars, and I've learned quite a bit more about H3 while making it. T</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 7 · text-to-video, upscaling, comfyui, minimax, ai video&lt;/small&gt;&lt;/p&gt;&lt;p&gt;A few weeks ago I posted here about the workflow I used to make a 6-minute Star Trek: TNG fan film with MiniMax H3 in ComfyUI. This is basically a follow-up to that post. Since then I've made another one, this time Star Trek vs Star Wars, and I've learned quite a bit more about H3 while making it. The basic workflow is still similar. I create the starting images first, use MiniMax H3 in ComfyUI to generate the individual shots, and then assemble everything in Adobe Premiere Pro. The finished film is made from a large number of relatively short generations rather than trying to get the model to produce whole scenes in one go. One of the biggest things I've learned is to treat H3 less like a t&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wcqctw/followup_to_my_last_star_trek_post_i_made_a_star/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wcq8w8/my_first_actual_tv_work_only_took_4_hours_to_make/</id><title>my first actual tv work (only took 4 hours to make).</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wcq8w8/my_first_actual_tv_work_only_took_4_hours_to_make/"/>
-<published>2026-09-10T17:45:43+00:00</published><updated>2026-09-10T17:45:43+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="rendering"/>
-<category term="minimax"/>
-<category term="lora"/>
-<summary>Minimax h3, ofc. Far from my best work but I respected the script I was given and finished this in record time (excluding the 4k upscale) and including around 3 hours of rendering time (720p, 10 seconds clips, 5090). I only used gemma locally for prompting, and avoided using any non local models exc</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · rendering, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Minimax h3, ofc. Far from my best work but I respected the script I was given and finished this in record time (excluding the 4k upscale) and including around 3 hours of rendering time (720p, 10 seconds clips, 5090). I only used gemma locally for prompting, and avoided using any non local models except suno for the song. There are some artefacts with people in the senate from far away, but did not have any bad feedback for it., so... :) I only used references for the romanian flag, the rest is prompt only. Also no lighting lora, no shortcuts ti improve speed (any shortcuts I tried ruined everything FUBAR) submitted by /u/aurelm [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wcq8w8/my_first_actual_tv_work_only_took_4_hours_to_make/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wcpomr/minimax_turbo_of_choice/</id><title>Minimax Turbo of choice?</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wcpomr/minimax_turbo_of_choice/"/>
-<published>2026-09-10T17:25:44+00:00</published><updated>2026-09-10T17:25:44+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="minimax"/>
-<summary>So there's a bunch of turbo loras for minimax h3 now, which one did you end up using? So many choices it's hard to pick one! submitted by /u/Radiant-Photograph46 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;So there's a bunch of turbo loras for minimax h3 now, which one did you end up using? So many choices it's hard to pick one! submitted by /u/Radiant-Photograph46 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wcpomr/minimax_turbo_of_choice/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wcp4dy/ai_archviz_fast_3d_gaussian_splat_methods_for/</id><title>AI Archviz: Fast 3D Gaussian Splat Methods for Precise Furniture Placement — Virtual Staging &amp; Interior Design</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wcp4dy/ai_archviz_fast_3d_gaussian_splat_methods_for/"/>
-<published>2026-09-10T17:06:00+00:00</published><updated>2026-09-10T17:06:00+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="3d gaussian"/>
-<summary>submitted by /u/TBG______ [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · 3d gaussian&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/TBG______ [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wcp4dy/ai_archviz_fast_3d_gaussian_splat_methods_for/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wcoztq/ai_archviz_fast_3d_gaussian_splat_methods_for/</id><title>AI Archviz: Fast 3D Gaussian Splat Methods for Precise Furniture Placement — Virtual Staging &amp; Interior Design</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wcoztq/ai_archviz_fast_3d_gaussian_splat_methods_for/"/>
-<published>2026-09-10T17:01:35+00:00</published><updated>2026-09-10T17:01:35+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="3d gaussian"/>
-<category term="compositing"/>
-<category term="comfyui"/>
-<category term="flux"/>
-<summary>So, first of all: there is no finished workflow yet and my nodes are still under development. I’ve asked the ComfyUI team to add a 3D compositing node to the new 3D toolset like the one in the video, hopefully, they’ll add something similar soon. In the meantime, you can build a very similar setup q</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 5 · 3d gaussian, compositing, comfyui, flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;So, first of all: there is no finished workflow yet and my nodes are still under development. I’ve asked the ComfyUI team to add a 3D compositing node to the new 3D toolset like the one in the video, hopefully, they’ll add something similar soon. In the meantime, you can build a very similar setup quite quickly. Here’s how the basic concept works: First, you feed an image of the furniture you want into the new native ComfyUI Image to Gaussian Splat (TripoSplat) node. At the moment, there is a Gaussian Splat Preview node, but it doesn’t provide an image output yet. There is also a Load 3D node with the correct outputs, but it currently cannot open Gaussian Splat files. Ideally, the new 3D Com&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wcoztq/ai_archviz_fast_3d_gaussian_splat_methods_for/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1wcorjz/flux_video_edit_fast_is_out_now/</id><title>FLUX Video Edit [fast] is out now</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wcorjz/flux_video_edit_fast_is_out_now/"/>
-<published>2026-09-10T16:53:19+00:00</published><updated>2026-09-10T16:53:19+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="video editing"/>
-<category term="flux"/>
-<summary>https://bfl.ai/video-edit Precision video editing, made with everything you hate doing in mind (wire removals, actors wearing branded clothing they shouldn't have worn but someone in management fucked up, boom guy lacking the arm strength to keep it out of frame, etc etc), so you can focus on what y</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 3 · video editing, flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;https://bfl.ai/video-edit Precision video editing, made with everything you hate doing in mind (wire removals, actors wearing branded clothing they shouldn't have worn but someone in management fucked up, boom guy lacking the arm strength to keep it out of frame, etc etc), so you can focus on what you actually enjoy working on. submitted by /u/MoistRecognition69 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wcorjz/flux_video_edit_fast_is_out_now/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
