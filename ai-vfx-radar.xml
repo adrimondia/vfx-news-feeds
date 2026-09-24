@@ -2,8 +2,22 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-09-24T08:30:29+00:00</updated>
+<updated>2026-09-24T10:30:58+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wowztq/qwen_image_21s_editing_capabilities_are/</id><title>Qwen Image 2.1's editing capabilities are mind-blowing! Generating Character Design Sheets without any LoRAs</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wowztq/qwen_image_21s_editing_capabilities_are/"/>
+<published>2026-09-24T09:27:14+00:00</published><updated>2026-09-24T09:27:14+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="video generation"/>
+<category term="image editing"/>
+<category term="minimax"/>
+<category term="seedance"/>
+<category term="lora"/>
+<category term="consistency"/>
+<summary>Hey everyone! In my previous post , I mentioned that alongside Qwen Image 2.1, fine-tuned models called Prompt Enhancers (PE) were released to optimize user prompts. They help refine prompts for standard text-to-image (T2I), image-to-image (I2I), and reference-based generation. Back then, we noticed</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 6 · video generation, image editing, minimax, seedance, lora, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey everyone! In my previous post , I mentioned that alongside Qwen Image 2.1, fine-tuned models called Prompt Enhancers (PE) were released to optimize user prompts. They help refine prompts for standard text-to-image (T2I), image-to-image (I2I), and reference-based generation. Back then, we noticed that using PE for T2I isn't always worth it, as the results often fall short compared to using raw prompts. However, when it comes to I2I , the PE setup truly shines - its ability to write precise instructions and strictly follow the prompt is genuinely impressive. Today, I want to show you what Qwen Image 2.1 combined with PE is capable of. I created a Workflow that takes a reference image of an&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wowztq/qwen_image_21s_editing_capabilities_are/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://github.com/HKUDS/CLI-Anything</id><title>HKUDS/CLI-Anything</title>
 <link rel="alternate" href="https://github.com/HKUDS/CLI-Anything"/>
@@ -57,6 +71,15 @@
 <category term="lora"/>
 <summary>u/Many-Ad-6225 recently posed a great little tutorial on how to use video models to create Gaussian splats. I wanted to investigate this a little more (and also play with it in VR). Here is another tutorial, all done on 12GB VRAM. Image Edit: You may pick an input image where the subject is standing</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 8 · video generation, camera pose, upscaling, render, rendering, comfyui, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;u/Many-Ad-6225 recently posed a great little tutorial on how to use video models to create Gaussian splats. I wanted to investigate this a little more (and also play with it in VR). Here is another tutorial, all done on 12GB VRAM. Image Edit: You may pick an input image where the subject is standing close to a wall, and rendering a full 360° orbit would collide with geometry. In these cases, you can solve the issue with image edit (I used Qwen Image 2.1) and a prompt like "Change the background to a scene on a red carpet with palm trees in the background." . Image edit: https://imgur.com/a/30MiUVJ Image resolution: Even if you don't render the video at a high resolution, it's still worth hav&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wothsh/from_a_single_image_to_gaussian_splats_another/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wosaku/anyone_skip_comfyui_and_just_generate_from_the/</id><title>Anyone skip ComfyUI and just generate from the terminal?</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wosaku/anyone_skip_comfyui_and_just_generate_from_the/"/>
+<published>2026-09-24T04:44:24+00:00</published><updated>2026-09-24T04:44:24+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<summary>I've messed around with comfyui and honestly I prefer just firing off generations from the terminal. Especially for simple t2i generations it's hard to beat when you set a custom interactive script. I just type Qwen-image and then it asks me to enter prompt, I enter prompt and press enter and it gen</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I've messed around with comfyui and honestly I prefer just firing off generations from the terminal. Especially for simple t2i generations it's hard to beat when you set a custom interactive script. I just type Qwen-image and then it asks me to enter prompt, I enter prompt and press enter and it generates 10. For presice editing I could see comfy being superior but for experimentation and general creative fucking around, I think terminal is underrated. submitted by /u/JayoTree [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wosaku/anyone_skip_comfyui_and_just_generate_from_the/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/vfx/comments/1wory2v/should_i_choose_5060ti_or_5070ti_for_my_old/</id><title>Should I choose 5060ti or 5070ti for my old existing pc?</title>
@@ -396,6 +419,16 @@
 <category term="minimax"/>
 <summary>Learn how to use MiniMax Fast H3 in ComfyUI with three video workflows: text to video, first frame to video, and first and last frame to video. I’ll show you how to set up the model, choose your video size and duration, create prompts with Google Gemini, and run each workflow. I’ll also compare gene</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Learn how to use MiniMax Fast H3 in ComfyUI with three video workflows: text to video, first frame to video, and first and last frame to video. I’ll show you how to set up the model, choose your video size and duration, create prompts with Google Gemini, and run each workflow. I’ll also compare generation times at different resolutions and show the results, including a video transition between two images. The workflows use Pixaroma Nodes, Kitchen Attention, and Sparse Attention. You can run them locally or try the cloud versions on RunningHub. submitted by /u/pixaromadesign [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wo8itc/minimax_fasth3_in_comfyui_text_to_video_and_image/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wo73t5/live_wallpaper_10_using_minimax_h3_ref2va_by/</id><title>Live Wallpaper 1.0 - Using MiniMax H3 Ref2VA By Alisson</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wo73t5/live_wallpaper_10_using_minimax_h3_ref2va_by/"/>
+<published>2026-09-23T14:10:48+00:00</published><updated>2026-09-23T14:10:48+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="minimax"/>
+<category term="lora"/>
+<summary>Lora: https://huggingface.co/Alissonerdx/Minimax-H3-ComfyUI/tree/main/loras Workflow: https://huggingface.co/Alissonerdx/Minimax-H3-ComfyUI/tree/main/workflows submitted by /u/fruesome [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Lora: https://huggingface.co/Alissonerdx/Minimax-H3-ComfyUI/tree/main/loras Workflow: https://huggingface.co/Alissonerdx/Minimax-H3-ComfyUI/tree/main/workflows submitted by /u/fruesome [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wo73t5/live_wallpaper_10_using_minimax_h3_ref2va_by/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wo6d82/qwen_image_21_4_steps_turbo_lora_is_here_by_viggle/</id><title>Qwen Image 2.1 4 Steps Turbo Lora is here by Viggle</title>
@@ -6990,33 +7023,5 @@
 <category term="minimax"/>
 <summary>Hi everyone! Minimax H3 is surprisingly solid at generating audio - I’ve been using it for SFX and foley in my videos. Is there a way to generate audio-only with this model? It would save a lot of rendering time if we didn't have to generate the full video alongside it. I know H3 creates video and a</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · rendering, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi everyone! Minimax H3 is surprisingly solid at generating audio - I’ve been using it for SFX and foley in my videos. Is there a way to generate audio-only with this model? It would save a lot of rendering time if we didn't have to generate the full video alongside it. I know H3 creates video and audio natively together, so audio-only generation might not be natively supported. But given all the clever workflows and custom node workarounds floating around, has anyone found a way to pull this off? submitted by /u/ZombieBrainYT [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wcffhb/minimax_h3_is_generating_sound_only_possible/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wceqt3/the_minimax_machine/</id><title>The MiniMax Machine</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wceqt3/the_minimax_machine/"/>
-<published>2026-09-10T09:58:42+00:00</published><updated>2026-09-10T09:58:42+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="minimax"/>
-<summary>submitted by /u/RhetoricaLReturD [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/RhetoricaLReturD [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wceqt3/the_minimax_machine/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wcepge/jerry_springer_ai_sailor_moon_part_1/</id><title>Jerry Springer Ai - Sailor Moon Part 1</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wcepge/jerry_springer_ai_sailor_moon_part_1/"/>
-<published>2026-09-10T09:56:33+00:00</published><updated>2026-09-10T09:56:33+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="wan"/>
-<category term="minimax"/>
-<summary>In the first half, this was back when I was first starting to get into MiniMax, the second half, I have gotten more experienced with it. I dont know if I should continue this or make more Jerry Springer parodies with other weird or toxic relationships (Example, Beth and Jerry from Rick and Morty). I</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · wan, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;In the first half, this was back when I was first starting to get into MiniMax, the second half, I have gotten more experienced with it. I dont know if I should continue this or make more Jerry Springer parodies with other weird or toxic relationships (Example, Beth and Jerry from Rick and Morty). I used Kinovi.ai for MiniMax, Wan and Nanobanana. I used Fish.audio for the audience freaking out lol. For more customized and harder Minimax generations, I used it locally. submitted by /u/Ok-Giraffe-8670 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wcepge/jerry_springer_ai_sailor_moon_part_1/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wcd74q/so_ive_been_playing_around_with_minimax_and/</id><title>So I've been playing around with minimax and ref2vid.</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wcd74q/so_ive_been_playing_around_with_minimax_and/"/>
-<published>2026-09-10T08:31:35+00:00</published><updated>2026-09-10T08:31:35+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="minimax"/>
-<summary>I used krea2 images to create character sheets and have used them with a pic of the wagon, campfire and the gold in the back of the wagon. Added some music and hawk squark. The faces blur at a couple of points but its been fun to make. submitted by /u/StandWorth9165 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I used krea2 images to create character sheets and have used them with a pic of the wagon, campfire and the gold in the back of the wagon. Added some music and hawk squark. The faces blur at a couple of points but its been fun to make. submitted by /u/StandWorth9165 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wcd74q/so_ive_been_playing_around_with_minimax_and/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
