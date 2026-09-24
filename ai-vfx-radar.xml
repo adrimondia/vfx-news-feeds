@@ -2,8 +2,19 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-09-24T18:30:28+00:00</updated>
+<updated>2026-09-24T20:30:26+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1wpabph/so_whos_moving_to_the_states/</id><title>So…. who’s moving to the states ?</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wpabph/so_whos_moving_to_the_states/"/>
+<published>2026-09-24T18:57:11+00:00</published><updated>2026-09-24T18:57:11+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="vfx"/>
+<category term="visual effects"/>
+<category term="post-production"/>
+<summary>•Provide a 20% base credit for qualifying traditional post-production and visual effects work when at least 75% of the total costs for the respective VFX and TPP services are incurred in the United States. submitted by /u/KidFl4sh [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 3 · vfx, visual effects, post-production&lt;/small&gt;&lt;/p&gt;&lt;p&gt;•Provide a 20% base credit for qualifying traditional post-production and visual effects work when at least 75% of the total costs for the respective VFX and TPP services are incurred in the United States. submitted by /u/KidFl4sh [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wpabph/so_whos_moving_to_the_states/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wp8pin/update_my_free_krea_2_character_lora_library_went/</id><title>Update: my free Krea 2 character LoRA library went from 18 → 70 models. Here’s the full workflow I’m using to train them.</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wp8pin/update_my_free_krea_2_character_lora_library_went/"/>
@@ -30,6 +41,15 @@
 <category term="avatar"/>
 <summary></summary>
 <content type="html">&lt;p&gt;&lt;small&gt;Google DeepMind · score 2 · avatar&lt;/small&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wp5vix/qwenimage_21_prompt_enhancer_in_comfyui_1417/</id><title>Qwen-Image 2.1 prompt enhancer in ComfyUI: 1.4–1.7× faster with MTP, plus uncensored (heretic) versions</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wp5vix/qwenimage_21_prompt_enhancer_in_comfyui_1417/"/>
+<published>2026-09-24T16:11:03+00:00</published><updated>2026-09-24T16:11:03+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<summary>I really like using Generate Text node in ComfyUI for end to end VRAM management by ComfyUI. But using the Qwen-Image 2.1 prompt enhancers from https://huggingface.co/Comfy-Org/Qwen-Image-2.1/tree/main/text_encoders in ComfyUI is quite slow. Above prompt enhancers are a fine-tune of Qwen3.5-9B, but </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I really like using Generate Text node in ComfyUI for end to end VRAM management by ComfyUI. But using the Qwen-Image 2.1 prompt enhancers from https://huggingface.co/Comfy-Org/Qwen-Image-2.1/tree/main/text_encoders in ComfyUI is quite slow. Above prompt enhancers are a fine-tune of Qwen3.5-9B, but its checkpoints don't include an MTP head. So, I tested if attaching an MTP head to the above models increase the generation speed and was quite happy to find out that it does. Below are my benchmarks on RTX 4090 Laptop, 16 GB, 1 input image for editing: Mode max_length Comfy-Org checkpoint With MTP head Speed-up Text-to-image 8192 35 tok/s 47 tok/s 1.36× Text-to-image 16256 (official) 27 tok/s 38&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wp5vix/qwenimage_21_prompt_enhancer_in_comfyui_1417/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wp5cmi/minimax_h3/</id><title>Minimax H3</title>
@@ -6830,55 +6850,5 @@
 <category term="blender"/>
 <summary>https://drive.google.com/drive/folders/1zQFFjjbnq5-KL2gJ-nXuXV1Ks-2zYnGC Inside this drive file is a video containing my recent project which is a school project (only half a minute tho since we 're not done completing all the footage), well the main concept is like for the upcoming sport fest and t</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 5 · compositing, vfx, blender&lt;/small&gt;&lt;/p&gt;&lt;p&gt;https://drive.google.com/drive/folders/1zQFFjjbnq5-KL2gJ-nXuXV1Ks-2zYnGC Inside this drive file is a video containing my recent project which is a school project (only half a minute tho since we 're not done completing all the footage), well the main concept is like for the upcoming sport fest and the program we're trying to represent is College of Computer Studies, yes, you read it right, we're just a bunch of college student including me a first year BSCS and I never truly had a proper training when it comes to after effects and blender but only through my experiences. I've been using blender and after effects for about a year now, but like I said I never truly had a proper education on vf&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wcvv0y/my_vfx_compositing_i_need_an_advice/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wcupw7/retrotape_vhs_ntsc_effects_with_live_preview/</id><title>RetroTape, VHS / NTSC effects with live preview</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wcupw7/retrotape_vhs_ntsc_effects_with_live_preview/"/>
-<published>2026-09-10T20:23:31+00:00</published><updated>2026-09-10T20:23:31+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="tracking"/>
-<category term="comfyui"/>
-<summary>I’ve been working on a VHS / NTSC node called RetroTape. It works with both images and video, and includes 19 presets and 26 sliders for tracking, chroma bleed, noise, tape warp, dropouts, ghosting, scanlines, interlacing and more. There’s also a live preview inside the node, so you can adjust the s</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · tracking, comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I’ve been working on a VHS / NTSC node called RetroTape. It works with both images and video, and includes 19 presets and 26 sliders for tracking, chroma bleed, noise, tape warp, dropouts, ghosting, scanlines, interlacing and more. There’s also a live preview inside the node, so you can adjust the settings and see the result without running the workflow again every time. CPU and CUDA are supported. Available through ComfyUI Manager and GitHub: Github/ComfyUI_RetroTape submitted by /u/skbphy [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wcupw7/retrotape_vhs_ntsc_effects_with_live_preview/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wcu6ul/minimax_h3_new_acc_lora_with_pdd_8step_node_is/</id><title>Minimax H3 - New ACC lora with PDD 8step node is kinda cool !</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wcu6ul/minimax_h3_new_acc_lora_with_pdd_8step_node_is/"/>
-<published>2026-09-10T20:04:11+00:00</published><updated>2026-09-10T20:04:11+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="minimax"/>
-<category term="lora"/>
-<summary>For potato pcs MINIMAX H3 fans - I have built my own custom node which integrates new acc lora &amp; PDD workflow and H3 extender + 2nd pass latent upscale upto 720p under 5 minutes per 14s 24fps clips, has easy reference attachments &amp; better context continuity with features like save projects, load pro</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;For potato pcs MINIMAX H3 fans - I have built my own custom node which integrates new acc lora &amp;amp; PDD workflow and H3 extender + 2nd pass latent upscale upto 720p under 5 minutes per 14s 24fps clips, has easy reference attachments &amp;amp; better context continuity with features like save projects, load projects etc. (16gb VRAM + 16gb system RAM) if you guys interested ill share the workflow let me know.. this video took 10~ minutes to generate with both pass. Edit - published repo - https://github.com/only2uuuu-hub/ComfyUI-MiniMax-H3-Master-Extender-Custom-built-with-Astra-6-/tree/main Ps i am not an expert coder or engineer so dont ask me technical questions 😭 peace! submitted by /u/dxprincee [lin&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wcu6ul/minimax_h3_new_acc_lora_with_pdd_8step_node_is/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wcu5cl/i_built_a_comfyui_model_manager_just_for_myself/</id><title>I built a ComfyUI model manager just for myself. 1.0.0 should've been enough, but then I thought "what if someone finds this repo?" ...Anyway, just shipped v1.5.0 with Hugging Face &amp; GGUF auto-sorting...</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wcu5cl/i_built_a_comfyui_model_manager_just_for_myself/"/>
-<published>2026-09-10T20:02:41+00:00</published><updated>2026-09-10T20:02:41+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="flux"/>
-<category term="wan"/>
-<summary>I’ve been building Renegade Core Model Manager (CMM) over the past several months (only recently decided to actually put it up on GitHub). It’s a standalone desktop app built specifically to deal with the headaches of organizing, downloading, and deduplicating multi-gigabyte models for ComfyUI. With</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · comfyui, flux, wan&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I’ve been building Renegade Core Model Manager (CMM) over the past several months (only recently decided to actually put it up on GitHub). It’s a standalone desktop app built specifically to deal with the headaches of organizing, downloading, and deduplicating multi-gigabyte models for ComfyUI. With the explosion of FLUX, Wan 2.1, and SD3.5 GGUF models, the manual juggling between Hugging Face, CivitAI, and ComfyUI's folder tree has gotten pretty messy. So for the v1.5.0 release , I went down a rabbit hole building a proper native download and routing engine from scratch: What I built into v1.5.0: Zero-RAM Binary GGUF Header Parser : Instead of loading massive 15GB–30GB weights into memory j&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wcu5cl/i_built_a_comfyui_model_manager_just_for_myself/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wcsrtu/kirby_but_its_the_truman_show_minimax_h3_test_7/</id><title>Kirby but it's the Truman Show / MiniMAX H3 Test #7</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wcsrtu/kirby_but_its_the_truman_show_minimax_h3_test_7/"/>
-<published>2026-09-10T19:13:26+00:00</published><updated>2026-09-10T19:13:26+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="minimax"/>
-<summary>Hi everyone! When I saw the new trailer for Kirby &amp; The World Beyond I couldn't help but come up with this video, where Kirby finds the door out to the world beyond. Please let me know if you like it! Done with 30 different workflow files and a ton of heavy editing using KDEnlive. Thanks! submitted </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi everyone! When I saw the new trailer for Kirby &amp;amp; The World Beyond I couldn't help but come up with this video, where Kirby finds the door out to the world beyond. Please let me know if you like it! Done with 30 different workflow files and a ton of heavy editing using KDEnlive. Thanks! submitted by /u/dramaton42 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wcsrtu/kirby_but_its_the_truman_show_minimax_h3_test_7/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wcsk7l/comfyui_vdnh3_24gb_v110_update_better_prompt/</id><title>ComfyUI VDN-H3 24GB v1.1.0 update — better prompt following + memory fixes</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wcsk7l/comfyui_vdnh3_24gb_v110_update_better_prompt/"/>
-<published>2026-09-10T19:06:01+00:00</published><updated>2026-09-10T19:06:01+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<category term="lora"/>
-<summary>https://reddit.com/link/1wcsk7l/video/ld6ca2jxqqoh1/player I’ve just updated my VDN-H3 24GB node to v1.1.0. This update started because I noticed that something wasn’t quite right with the released adapter mapping. After fixing that, I also made a couple of changes around memory handling, especially</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;https://reddit.com/link/1wcsk7l/video/ld6ca2jxqqoh1/player I’ve just updated my VDN-H3 24GB node to v1.1.0. This update started because I noticed that something wasn’t quite right with the released adapter mapping. After fixing that, I also made a couple of changes around memory handling, especially for longer generations. The main changes are: restored the complete token-refiner adapter mapping improved temporary memory handling for longer clips fixed CUDA stream lifetime handling for prefetched weights kept the same AutoMemory / AutoLongCache behavior from the previous version I tested it on my RTX 3090 24GB with 5s, 10s, 15s and 20s generations at 0.4MP, and also 10s at 0.8MP. I also test&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wcsk7l/comfyui_vdnh3_24gb_v110_update_better_prompt/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
