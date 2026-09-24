@@ -2,8 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-09-24T14:30:59+00:00</updated>
+<updated>2026-09-24T16:30:49+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/</id><title>Introducing Gemini 3.8 Live with Live Avatar</title>
+<link rel="alternate" href="https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/"/>
+<published>2026-09-24T16:20:39+00:00</published><updated>2026-09-24T16:20:39+00:00</updated>
+<author><name>Google DeepMind</name></author>
+<category term="avatar"/>
+<summary></summary>
+<content type="html">&lt;p&gt;&lt;small&gt;Google DeepMind · score 2 · avatar&lt;/small&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wp392j/minimax_h3_speedups_measured/</id><title>MiniMax H3 speed-ups, measured</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wp392j/minimax_h3_speedups_measured/"/>
+<published>2026-09-24T14:31:46+00:00</published><updated>2026-09-24T14:31:46+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="render"/>
+<category term="minimax"/>
+<summary>Every known way to make MiniMax H3 render faster, run on one RTX 5090 with the same prompt and seed. Each row shows its real frames and clip. submitted by /u/fruesome [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · render, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Every known way to make MiniMax H3 render faster, run on one RTX 5090 with the same prompt and seed. Each row shows its real frames and clip. submitted by /u/fruesome [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wp392j/minimax_h3_speedups_measured/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wp2v7p/qwenimage_21_lora_testing/</id><title>Qwen-Image 2.1 LoRA testing</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wp2v7p/qwenimage_21_lora_testing/"/>
@@ -12,6 +31,15 @@
 <category term="lora"/>
 <summary>submitted by /u/FortranUA [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/FortranUA [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wp2v7p/qwenimage_21_lora_testing/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wp1zju/we_open_sourced_the_controlnet_and_4_steps_acc/</id><title>We open sourced the ControlNet and 4 steps Acc LoRAs for Qwen-Image-2.1! Give it a try — we'd love your feedbacks.</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wp1zju/we_open_sourced_the_controlnet_and_4_steps_acc/"/>
+<published>2026-09-24T13:42:20+00:00</published><updated>2026-09-24T13:42:20+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="controlnet"/>
+<summary>code: https://github.com/aigc-apps/VideoX-Fun Qwen-Image-2.1-Fun-Controlnet-Union: https://huggingface.co/alibaba-pai/Qwen-Image-2.1-Fun-Controlnet-Union Qwen-Image-2.1-Fun-Acc-LoRAs: https://huggingface.co/alibaba-pai/Qwen-Image-2.1-Fun-Acc-LoRAs Feedback and needs from the open-source community ar</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · controlnet&lt;/small&gt;&lt;/p&gt;&lt;p&gt;code: https://github.com/aigc-apps/VideoX-Fun Qwen-Image-2.1-Fun-Controlnet-Union: https://huggingface.co/alibaba-pai/Qwen-Image-2.1-Fun-Controlnet-Union Qwen-Image-2.1-Fun-Acc-LoRAs: https://huggingface.co/alibaba-pai/Qwen-Image-2.1-Fun-Acc-LoRAs Feedback and needs from the open-source community are essential for the ongoing training and iteration of our models. submitted by /u/hkunzhe [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wp1zju/we_open_sourced_the_controlnet_and_4_steps_acc/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1woyyjn/qwen_image_21_fun_controlnet_union_from_alibaba/</id><title>Qwen Image 2.1 Fun ControlNet Union From Alibaba</title>
@@ -6904,57 +6932,5 @@
 <category term="flux"/>
 <summary>https://bfl.ai/video-edit Precision video editing, made with everything you hate doing in mind (wire removals, actors wearing branded clothing they shouldn't have worn but someone in management fucked up, boom guy lacking the arm strength to keep it out of frame, etc etc), so you can focus on what y</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 3 · video editing, flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;https://bfl.ai/video-edit Precision video editing, made with everything you hate doing in mind (wire removals, actors wearing branded clothing they shouldn't have worn but someone in management fucked up, boom guy lacking the arm strength to keep it out of frame, etc etc), so you can focus on what you actually enjoy working on. submitted by /u/MoistRecognition69 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wcorjz/flux_video_edit_fast_is_out_now/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1wcn1en/realtime_vfx_made_with_ue5_popcornfx/</id><title>Realtime VFX made with UE5 + PopcornFX 🍿</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wcn1en/realtime_vfx_made_with_ue5_popcornfx/"/>
-<published>2026-09-10T15:51:13+00:00</published><updated>2026-09-10T15:51:13+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="vfx"/>
-<summary>Elenna Raguin created this effect using custom materials within UE5 to reinforce the flow of the effect. Breakdown coming soon. If you want to create similar effects, check out the free edition of PopcornFX submitted by /u/Official_PopcornFX [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Elenna Raguin created this effect using custom materials within UE5 to reinforce the flow of the effect. Breakdown coming soon. If you want to create similar effects, check out the free edition of PopcornFX submitted by /u/Official_PopcornFX [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wcn1en/realtime_vfx_made_with_ue5_popcornfx/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1wcmn4z/realtime_vfx_made_with_ue5_popcornfx/</id><title>Realtime VFX made with UE5 + PopcornFX 🍿</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wcmn4z/realtime_vfx_made_with_ue5_popcornfx/"/>
-<published>2026-09-10T15:36:41+00:00</published><updated>2026-09-10T15:36:41+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="vfx"/>
-<summary>Elenna Raguin created this effect using custom materials within UE5 to reinforce the flow of the effect. Breakdown coming soon. If you want to create similar effects, check out the free edition of PopcornFX : https://popcornfx.com/download/ submitted by /u/Official_PopcornFX [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Elenna Raguin created this effect using custom materials within UE5 to reinforce the flow of the effect. Breakdown coming soon. If you want to create similar effects, check out the free edition of PopcornFX : https://popcornfx.com/download/ submitted by /u/Official_PopcornFX [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wcmn4z/realtime_vfx_made_with_ue5_popcornfx/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wcm9az/minimax_camera_control_comfyui/</id><title>Minimax Camera Control ComfyUI</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wcm9az/minimax_camera_control_comfyui/"/>
-<published>2026-09-10T15:22:24+00:00</published><updated>2026-09-10T15:22:24+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="camera control"/>
-<category term="vfx"/>
-<category term="comfyui"/>
-<category term="minimax"/>
-<summary>Bruxos do VFX H3 Camera #bruxosdovfx https://reddit.com/link/1wcm9az/video/bubuef39npoh1/player https://reddit.com/link/1wcm9az/video/r1j8vg1anpoh1/player Visual camera planner for MiniMax H3 inside ComfyUI. You drag the camera around a 3D sphere, place keyframes on a timeline, and the node compiles</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 7 · camera control, vfx, comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Bruxos do VFX H3 Camera #bruxosdovfx https://reddit.com/link/1wcm9az/video/bubuef39npoh1/player https://reddit.com/link/1wcm9az/video/r1j8vg1anpoh1/player Visual camera planner for MiniMax H3 inside ComfyUI. You drag the camera around a 3D sphere, place keyframes on a timeline, and the node compiles that trajectory into prompts that H3 understands. It compiles prompts, not camera embeddings . There is no geometric adapter here: H3 is still free to miss the angle, timing, and scale. What this node does is write the instruction in the most precise and least ambiguous way possible, and several of its design decisions exist because the previous approach failed in specific ways. It does not call &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wcm9az/minimax_camera_control_comfyui/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wcm4j7/minimax_comfyui_camera_control/</id><title>Minimax ComfyUi Camera Control</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wcm4j7/minimax_comfyui_camera_control/"/>
-<published>2026-09-10T15:17:23+00:00</published><updated>2026-09-10T15:17:23+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="camera control"/>
-<category term="vfx"/>
-<category term="comfyui"/>
-<category term="minimax"/>
-<summary>https://reddit.com/link/1wcm4j7/video/82e5gerlmpoh1/player Bruxos do VFX H3 Camera #bruxosdovfx https://reddit.com/link/1wcm4j7/video/3bitqyhempoh1/player Visual camera planner for MiniMax H3 inside ComfyUI. You drag the camera around a 3D sphere, place keyframes on a timeline, and the node compiles</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 7 · camera control, vfx, comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;https://reddit.com/link/1wcm4j7/video/82e5gerlmpoh1/player Bruxos do VFX H3 Camera #bruxosdovfx https://reddit.com/link/1wcm4j7/video/3bitqyhempoh1/player Visual camera planner for MiniMax H3 inside ComfyUI. You drag the camera around a 3D sphere, place keyframes on a timeline, and the node compiles that trajectory into prompts that H3 understands. It compiles prompts, not camera embeddings . There is no geometric adapter here: H3 is still free to miss the angle, timing, and scale. What this node does is write the instruction in the most precise and least ambiguous way possible, and several of its design decisions exist because the previous approach failed in specific ways. It does not call &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wcm4j7/minimax_comfyui_camera_control/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wclxbj/h3_refmods_are_great_i_highly_advice_trying_it/</id><title>H3 RefMods are great I highly advice trying it out [+ basic resources included]</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wclxbj/h3_refmods_are_great_i_highly_advice_trying_it/"/>
-<published>2026-09-10T15:09:57+00:00</published><updated>2026-09-10T15:09:57+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<category term="lora"/>
-<summary>Created by /u/LuisaPinguinnn under their github https://github.com/Luisacaotica/ComfyUI-MiniMaxH3Mod Took me at most a couple of minutes to make my own RefMod with 8 image as the base. The entire technique works exactly as advertised acting as "Light Lora" for H3 Ref models - but you can even use it</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Created by /u/LuisaPinguinnn under their github https://github.com/Luisacaotica/ComfyUI-MiniMaxH3Mod Took me at most a couple of minutes to make my own RefMod with 8 image as the base. The entire technique works exactly as advertised acting as "Light Lora" for H3 Ref models - but you can even use it with FL2VA as well. I followed the guides here: Installing/running RefMods https://huggingface.co/datasets/malcolmrey/various/blob/main/h3-center/docs/MINIMAX_H3_REFMODS_INSTALLATION_AND_USAGE_GUIDE.md Ready to use Comfy workflow (you can remove lora power loader and spectrum nodes) https://huggingface.co/datasets/malcolmrey/workflows/blob/main/H3/workflow_minimaxh3_refmod.json Creating own RefMo&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wclxbj/h3_refmods_are_great_i_highly_advice_trying_it/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
