@@ -2,8 +2,29 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-09-24T12:31:08+00:00</updated>
+<updated>2026-09-24T14:30:59+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wp2v7p/qwenimage_21_lora_testing/</id><title>Qwen-Image 2.1 LoRA testing</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wp2v7p/qwenimage_21_lora_testing/"/>
+<published>2026-09-24T14:16:58+00:00</published><updated>2026-09-24T14:16:58+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="lora"/>
+<summary>submitted by /u/FortranUA [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/FortranUA [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wp2v7p/qwenimage_21_lora_testing/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1woyyjn/qwen_image_21_fun_controlnet_union_from_alibaba/</id><title>Qwen Image 2.1 Fun ControlNet Union From Alibaba</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1woyyjn/qwen_image_21_fun_controlnet_union_from_alibaba/"/>
+<published>2026-09-24T11:21:23+00:00</published><updated>2026-09-24T11:21:23+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="inpainting"/>
+<category term="comfyui"/>
+<category term="controlnet"/>
+<category term="dit"/>
+<summary>Qwen-Image-2.1-Fun-Controlnet-Union is a ControlNet-Union branch for Qwen-Image 2.1 (the flow-matching text-to-image DiT). A single checkpoint drives 8 structural control conditions (Canny, Depth, Grayscale, HED, Lineart, MLSD, Pose, Scribble) and image inpainting, without per-condition weights. The</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 5 · inpainting, comfyui, controlnet, dit&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Qwen-Image-2.1-Fun-Controlnet-Union is a ControlNet-Union branch for Qwen-Image 2.1 (the flow-matching text-to-image DiT). A single checkpoint drives 8 structural control conditions (Canny, Depth, Grayscale, HED, Lineart, MLSD, Pose, Scribble) and image inpainting, without per-condition weights. The checkpoint holds only the control branch ( control_img_in plus 16 control_blocks , about 7.0 GB) and is loaded on top of the base Qwen-Image 2.1 transformer. Kijai is working on comfy support: https://github.com/Comfy-Org/ComfyUI/pull/16519 https://huggingface.co/alibaba-pai/Qwen-Image-2.1-Fun-Controlnet-Union https://huggingface.co/Kijai/MiniMax-H3-experimental/tree/main/model_patches submitted &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1woyyjn/qwen_image_21_fun_controlnet_union_from_alibaba/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wowztq/qwen_image_21s_editing_capabilities_are/</id><title>Qwen Image 2.1's editing capabilities are mind-blowing! Generating Character Design Sheets without any LoRAs</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wowztq/qwen_image_21s_editing_capabilities_are/"/>
@@ -6935,55 +6956,5 @@
 <category term="lora"/>
 <summary>Created by /u/LuisaPinguinnn under their github https://github.com/Luisacaotica/ComfyUI-MiniMaxH3Mod Took me at most a couple of minutes to make my own RefMod with 8 image as the base. The entire technique works exactly as advertised acting as "Light Lora" for H3 Ref models - but you can even use it</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Created by /u/LuisaPinguinnn under their github https://github.com/Luisacaotica/ComfyUI-MiniMaxH3Mod Took me at most a couple of minutes to make my own RefMod with 8 image as the base. The entire technique works exactly as advertised acting as "Light Lora" for H3 Ref models - but you can even use it with FL2VA as well. I followed the guides here: Installing/running RefMods https://huggingface.co/datasets/malcolmrey/various/blob/main/h3-center/docs/MINIMAX_H3_REFMODS_INSTALLATION_AND_USAGE_GUIDE.md Ready to use Comfy workflow (you can remove lora power loader and spectrum nodes) https://huggingface.co/datasets/malcolmrey/workflows/blob/main/H3/workflow_minimaxh3_refmod.json Creating own RefMo&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wclxbj/h3_refmods_are_great_i_highly_advice_trying_it/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wcj0wc/vram_guard_handover_for_local_llm_comfy/</id><title>VRAM "GUARD" / HANDOVER for Local LLM + Comfy</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wcj0wc/vram_guard_handover_for_local_llm_comfy/"/>
-<published>2026-09-10T13:20:03+00:00</published><updated>2026-09-10T13:20:03+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="video generation"/>
-<category term="comfyui"/>
-<category term="minimax"/>
-<summary>Hi, im sure a lot of you already know but as always some ppl dont and im one of them who noticed way too late... you can totally ask Hermes to use Comfy ui for minimax h3, the "fun" part: ask it to unload the local model (IMPORTANT! tell it to add a VRAM GUARD that blocks LLM loading for the generat</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · video generation, comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi, im sure a lot of you already know but as always some ppl dont and im one of them who noticed way too late... you can totally ask Hermes to use Comfy ui for minimax h3, the "fun" part: ask it to unload the local model (IMPORTANT! tell it to add a VRAM GUARD that blocks LLM loading for the generation time!!! Hermes does memory and clenup calls when idle!) - generate the videos (max speed, no VRAM OOM) and load the LLM back after Q is completed and Comfyui models unloaded - Hermes will write the script, send the batch to comfy, unload, wait for the videos (or images) and send them to telegram or whatever channel you talk in. Hermes can also use multiple workflows for example you send a phot&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wcj0wc/vram_guard_handover_for_local_llm_comfy/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wciz7m/i_trained_a_210m_texttoimage_diffusion/</id><title>I trained a 210M text-to-image diffusion transformer from scratch on one GPU in 3.5 days</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wciz7m/i_trained_a_210m_texttoimage_diffusion/"/>
-<published>2026-09-10T13:18:06+00:00</published><updated>2026-09-10T13:18:06+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="flux"/>
-<category term="diffusion transformer"/>
-<summary>My goal was hands-on experience training a flow model from scratch, not just fine-tuning someone else's. So I built and trained one: a 210M-parameter diffusion transformer, 4.2M curated images at 256², rectified flow on the FLUX.2 VAE, flan-t5-base for text (128 tokens max). Only those two frozen pi</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · flux, diffusion transformer&lt;/small&gt;&lt;/p&gt;&lt;p&gt;My goal was hands-on experience training a flow model from scratch, not just fine-tuning someone else's. So I built and trained one: a 210M-parameter diffusion transformer, 4.2M curated images at 256², rectified flow on the FLUX.2 VAE, flan-t5-base for text (128 tokens max). Only those two frozen pieces are pretrained; the transformer, the recipe, the data pipeline and the evaluation are mine. The video is the same six prompts and seeds at every checkpoint of the 3.5-day run on one RTX PRO 6000. What mattered most, in the order I found out: Captions that actually fit the images. A web crawl I tried first made the model worse; curated photos with good captions fixed it. A timestep shift for t&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wciz7m/i_trained_a_210m_texttoimage_diffusion/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wcishz/batman_the_animated_series_harley_quinns_red_flag/</id><title>Batman The Animated Series: Harley Quinn's Red Flag - MiniMax H3</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wcishz/batman_the_animated_series_harley_quinns_red_flag/"/>
-<published>2026-09-10T13:10:25+00:00</published><updated>2026-09-10T13:10:25+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="minimax"/>
-<summary>4070 ti Super, 16gb vram, 64 gb ram. Tutorial: https://www.reddit.com/r/StableDiffusion/comments/1w4gvjb/comment/p7aht6e/?utm_source=share&amp;utm_medium=web3x&amp;utm_name=web3xcss&amp;utm_term=1&amp;utm_content=share_button Example prompt + assets: https://www.reddit.com/r/StableDiffusion/comments/1w8vmkz/comment</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;4070 ti Super, 16gb vram, 64 gb ram. Tutorial: https://www.reddit.com/r/StableDiffusion/comments/1w4gvjb/comment/p7aht6e/?utm_source=share&amp;amp;utm_medium=web3x&amp;amp;utm_name=web3xcss&amp;amp;utm_term=1&amp;amp;utm_content=share_button Example prompt + assets: https://www.reddit.com/r/StableDiffusion/comments/1w8vmkz/comment/p8dqus0/?utm_source=share&amp;amp;utm_medium=web3x&amp;amp;utm_name=web3xcss&amp;amp;utm_term=1&amp;amp;utm_content=share_button Example prompt + assets: https://www.reddit.com/r/StableDiffusion/comments/1w98qnv/comment/p8duzy3/?utm_source=share&amp;amp;utm_medium=web3x&amp;amp;utm_name=web3xcss&amp;amp;utm_term=1&amp;amp;utm_content=share_button submitted by /u/darthfurbyyoutube [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wcishz/batman_the_animated_series_harley_quinns_red_flag/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1wcid4e/tracking_my_arm_in_syntheyes/</id><title>Tracking my arm in syntheyes</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wcid4e/tracking_my_arm_in_syntheyes/"/>
-<published>2026-09-10T12:52:46+00:00</published><updated>2026-09-10T12:52:46+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="tracking"/>
-<summary>i got the student license and i want to learn how to track my arm so i can add a cgi arm as an occluder to for example add a ring that spins around my arm or an armor piece but when i try to track it in syntheyes it doesnt work. it just says solving failed, are there any good tutorials on how i can </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · tracking&lt;/small&gt;&lt;/p&gt;&lt;p&gt;i got the student license and i want to learn how to track my arm so i can add a cgi arm as an occluder to for example add a ring that spins around my arm or an armor piece but when i try to track it in syntheyes it doesnt work. it just says solving failed, are there any good tutorials on how i can do this? submitted by /u/Out-exit4 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wcid4e/tracking_my_arm_in_syntheyes/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wchvg3/a_quick_minimax_h3_news_roundup_10th_september/</id><title>A quick Minimax H3 news round-up - 10th September 2026</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wchvg3/a_quick_minimax_h3_news_roundup_10th_september/"/>
-<published>2026-09-10T12:31:57+00:00</published><updated>2026-09-10T12:31:57+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="minimax"/>
-<category term="lora"/>
-<summary>Another quick Minimax H3 news and goodies round-up, for those who may have missed some items. -&gt; ComfyUI Portable is now officially at version 0.35.0. See yesterday's post for details of Minimax-relevant update items and bug-fixes. https://github.com/Comfy-Org/ComfyUI/releases -&gt; A new W4A8 quantiza</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · comfyui, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Another quick Minimax H3 news and goodies round-up, for those who may have missed some items. -&amp;gt; ComfyUI Portable is now officially at version 0.35.0. See yesterday's post for details of Minimax-relevant update items and bug-fixes. https://github.com/Comfy-Org/ComfyUI/releases -&amp;gt; A new W4A8 quantization of the MiniMax-H3 Fun ControlNet-Union model patch, for ComfyUI. Weighs in at 1.45Gb, compared to 2.13Gb. https://huggingface.co/berryber09/MiniMax-H3-Fun-Controlnet-Union-w4a8 -&amp;gt; A Minimax H3 visual 'RefMods picker' with thumbnails, in ComfyUI. https://old.reddit.com/r/StableDiffusion/comments/1wc8tvv/created_a_visual_refmod_picker/ -&amp;gt; H3-pixel-art-video-guide. "Pixel-perfect animated pixel &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wchvg3/a_quick_minimax_h3_news_roundup_10th_september/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
