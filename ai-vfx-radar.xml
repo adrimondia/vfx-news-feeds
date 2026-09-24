@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-09-24T06:30:29+00:00</updated>
+<updated>2026-09-24T08:00:42+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
 <entry>
 <id>https://github.com/HKUDS/CLI-Anything</id><title>HKUDS/CLI-Anything</title>
@@ -81,6 +81,18 @@
 <category term="blender"/>
 <summary>I accidentally rendered a sequence earlier without transparency, and that one opens fine, but the images are wrong. I've just rendered a bunch of other sequences but when I try to check them in photoshop they won't open and give me that error. I need to send these to someone in after effects, are th</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 4 · render, rendering, blender&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I accidentally rendered a sequence earlier without transparency, and that one opens fine, but the images are wrong. I've just rendered a bunch of other sequences but when I try to check them in photoshop they won't open and give me that error. I need to send these to someone in after effects, are these all screwed? It's taking a long time to render them and I'm halfway through the whole set. I just want to make sure I'm not rendering them with some critical error so the people using AE can't open them. Any ideas why this is happening and how to get around it? submitted by /u/jacob-makes-stuff [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1woruue/rendered_exr_in_blender_but_cant_open_it_in/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wormcl/i_built_an_opensource_mcp_server_for_comfyui/</id><title>I built an open-source MCP server for ComfyUI — build and run workflows from Claude / Cursor with 50+ tools (demo inside)</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wormcl/i_built_an_opensource_mcp_server_for_comfyui/"/>
+<published>2026-09-24T04:08:11+00:00</published><updated>2026-09-24T04:08:11+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="inpainting"/>
+<category term="comfyui"/>
+<category term="controlnet"/>
+<category term="lora"/>
+<summary>Hey everyone! I was getting tired of manually dragging and rewiring noodles in ComfyUI every time I wanted to test a prompt idea or chain LoRAs. So I built mcp-comfy-ui-builder — an open-source Model Context Protocol server that connects Claude Desktop, Claude Code, and Cursor directly to your local</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 5 · inpainting, comfyui, controlnet, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey everyone! I was getting tired of manually dragging and rewiring noodles in ComfyUI every time I wanted to test a prompt idea or chain LoRAs. So I built mcp-comfy-ui-builder — an open-source Model Context Protocol server that connects Claude Desktop, Claude Code, and Cursor directly to your local ComfyUI instance. Instead of manually editing JSON or clicking nodes: You : "Generate a portrait of an astronaut exploring neon ruins with LoRA, upscale 2x" Claude : Checks GPU VRAM → assembles the node graph using built-in templates → validates compatibility → fires execution via WebSockets → streams node-by-node progress (&amp;lt;100ms updates) → displays the finished image. Key Features: 50+ MCP Tool&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wormcl/i_built_an_opensource_mcp_server_for_comfyui/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://arxiv.org/abs/2609.27264</id><title>GaussPDE: Graph-Based Partial Differential Equation-Driven Rendering for 3D Gaussian Splatting</title>
@@ -192,6 +204,15 @@
 <content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.GR · score 4 · relighting, avatar, animation, multi-view&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.27600v1 Announce Type: new Abstract: Creating animatable and relightable human avatars from multi-view images remains challenging, as pose-dependent deformation, materials, and light visibility are intrinsically coupled in images. In this paper, we present ARS-Avatar, a novel method using surfel representation for high-quality, animatable, and relightable human avatars from multi-view images captured under unknown illumination. We first extract deformation priors from the template mesh and leverage as additional details beyond driving poses to facilitate faithful estimation of surfel attributes and reconstruction of animatable avatar. To support relighting, the deferred shading is&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.27600"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
+<id>https://www.reddit.com/r/comfyui/comments/1woray9/multishot_anime_style_sequence_using_minimax_h3/</id><title>Multishot anime style sequence using Minimax H3 Ref2Vid</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1woray9/multishot_anime_style_sequence_using_minimax_h3/"/>
+<published>2026-09-24T03:52:04+00:00</published><updated>2026-09-24T03:52:04+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="minimax"/>
+<summary>I tried a multishot workflow with MiniMax H3 Ref2Vid: I generated a separate reference image for each shot, then used them to build a short anime montage. The interesting part was seeing how well H3 kept the character, colours and hand-painted style consistent as the framing changed from wide shots </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I tried a multishot workflow with MiniMax H3 Ref2Vid: I generated a separate reference image for each shot, then used them to build a short anime montage. The interesting part was seeing how well H3 kept the character, colours and hand-painted style consistent as the framing changed from wide shots to close-ups. The music is my track “What’s Coming Is Better Than What’s Gone,” produced and performed by yours truly using the Teenage Engineering EP-133 KO II. Workflow: https://drive.google.com/file/d/1M1XgXv8h4NQDSikVpAebB7FGu-TeHZQT/view?usp=drive_link Prompt: Create one 12-second video using Images 1–4 as four consecutive shots. Each image defines its shot’s composition and details. Make a c&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1woray9/multishot_anime_style_sequence_using_minimax_h3/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
 <id>https://www.reddit.com/r/vfx/comments/1wopb9t/does_anyone_here_use_vfx_skills_for_real_estate/</id><title>Does anyone here use VFX skills for real estate or small business marketing?</title>
 <link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wopb9t/does_anyone_here_use_vfx_skills_for_real_estate/"/>
 <published>2026-09-24T02:13:52+00:00</published><updated>2026-09-24T02:13:52+00:00</updated>
@@ -258,6 +279,16 @@
 <category term="minimax"/>
 <summary>Kijai put his magic to good use to improve your MiniMax H3 workflows. The video VAE now encodes up to ~2.2x faster and decodes ~1.4-2.7x faster on Nvidia GPU. Checkout the blog post how to use it: https://blog.comfy.org/p/making-the-minimax-h3-video-vae-2x submitted by /u/Lexius2129 [link] [comments</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Kijai put his magic to good use to improve your MiniMax H3 workflows. The video VAE now encodes up to ~2.2x faster and decodes ~1.4-2.7x faster on Nvidia GPU. Checkout the blog post how to use it: https://blog.comfy.org/p/making-the-minimax-h3-video-vae-2x submitted by /u/Lexius2129 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1woj0is/making_the_minimax_h3_video_vae_2x_faster/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1woielf/custom_node_for_extract_prompt_target_aspect/</id><title>Custom Node for Extract Prompt &amp; Target Aspect Ratio/Dimensions from Qwen Image 2.1 PE</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1woielf/custom_node_for_extract_prompt_target_aspect/"/>
+<published>2026-09-23T21:12:02+00:00</published><updated>2026-09-23T21:12:02+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<category term="flux"/>
+<summary>Hey everyone! I've been experimenting with Qwen Image 2.1 Prompt Enhancer (PE) lately and noticed an interesting detail in Qwen's official system prompts. The PE models output structured JSON containing not just the refined prompt, but also aspect ratio information: For T2I: {"rewritten_prompt": "&lt;d</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui, flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey everyone! I've been experimenting with Qwen Image 2.1 Prompt Enhancer (PE) lately and noticed an interesting detail in Qwen's official system prompts. The PE models output structured JSON containing not just the refined prompt, but also aspect ratio information: For T2I: {"rewritten_prompt": "&amp;lt;description&amp;gt;", "wh_ratio": "&amp;lt;e.g. 3:2&amp;gt;"} For I2I: {"rewritten_prompt": "&amp;lt;instruction&amp;gt;", "wh_ratio": "&amp;lt;aspect ratio or empty&amp;gt;", "ratio_follow": "&amp;lt;'&amp;lt;image1&amp;gt;' / '&amp;lt;image2&amp;gt;' / ''&amp;gt;"} To make workflow automation seamless, I wrote a custom node called Prompt &amp;amp; Dimensions from LLM . It parses the JSON output from PE and automatically calculates the exact target Width and Height for your latent image. ⚙️ How&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1woielf/custom_node_for_extract_prompt_target_aspect/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1woiei8/might_be_late_to_the_party_but_i_just_realized_i/</id><title>Might be late to the party, but I just realized I can edit Blender 3D textures directly in ComfyUI (Flux Klein + Qwen) and the UV atlas workflow actually works!</title>
@@ -6987,36 +7018,5 @@
 <category term="minimax"/>
 <summary>I used krea2 images to create character sheets and have used them with a pic of the wagon, campfire and the gold in the back of the wagon. Added some music and hawk squark. The faces blur at a couple of points but its been fun to make. submitted by /u/StandWorth9165 [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I used krea2 images to create character sheets and have used them with a pic of the wagon, campfire and the gold in the back of the wagon. Added some music and hawk squark. The faces blur at a couple of points but its been fun to make. submitted by /u/StandWorth9165 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wcd74q/so_ive_been_playing_around_with_minimax_and/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wcc7bf/open_manager_for_comfyui/</id><title>Open Manager for ComfyUI</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wcc7bf/open_manager_for_comfyui/"/>
-<published>2026-09-10T07:33:04+00:00</published><updated>2026-09-10T07:33:04+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<summary>I'd like to introduce Open Manager, a MIT developer forward manager that doesn't arbitrarily block you or silently install other versions of nodes because of Comfy Registry philosophy. The only resource blocked from Comfy Registry is banned nodes under the assumption of viruses, etc. I say this beca</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I'd like to introduce Open Manager, a MIT developer forward manager that doesn't arbitrarily block you or silently install other versions of nodes because of Comfy Registry philosophy. The only resource blocked from Comfy Registry is banned nodes under the assumption of viruses, etc. I say this because Comfy Registry has a reason for flags, bans, but are not being filled out by Comfy team. So a custom node could be flagged and the author and users don't know why, meanwhile it simultaneously installs a older version, which is checked against a small subset of blacklisted nodes. Thus, that silent install of an old version could be a deprecated version that wrecks your environment. Open Manager&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wcc7bf/open_manager_for_comfyui/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wcbw24/i_just_released_v21_of_minimax_music_production/</id><title>I just released v2.1 of MiniMax Music Production Toolkit for ComfyUI</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wcbw24/i_just_released_v21_of_minimax_music_production/"/>
-<published>2026-09-10T07:15:12+00:00</published><updated>2026-09-10T07:15:12+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="flux"/>
-<category term="minimax"/>
-<summary>I released the introductory version of this about a week ago, but did a lot of improvements! So this is release v.2.1 of the production toolkit, along with custom nodes and a workflow. It turns MiniMax Music 3 into an end-to-end local production workflow: idea → structured prompt → Music 3 → audio r</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 5 · comfyui, flux, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I released the introductory version of this about a week ago, but did a lot of improvements! So this is release v.2.1 of the production toolkit, along with custom nodes and a workflow. It turns MiniMax Music 3 into an end-to-end local production workflow: idea → structured prompt → Music 3 → audio restoration / FlashSR → release prep → FLUX.2 cover → tagged FLAC/MP3 + production JSON Highlights: • 239 curated genre templates • Local GGUF LLM for Caption / Lyrics / Title / Cover prompt • Custom Mode • Integrated Declip + FlashSR + HF shimmer repair • LUFS / true-peak release prep • 11 bundled system-prompt profiles in v2.1 • Separate Audio Enhancement Lab • MIT licensed 🎧 35-track demo: demo &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wcbw24/i_just_released_v21_of_minimax_music_production/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wcbko9/curbing_ai_monkeying_around/</id><title>Curbing AI Monkeying Around</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wcbko9/curbing_ai_monkeying_around/"/>
-<published>2026-09-10T06:58:01+00:00</published><updated>2026-09-10T06:58:01+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="denoising"/>
-<category term="minimax"/>
-<category term="consistency"/>
-<summary>I will begin by saying I love Minimax H3, it is so much more advanced than any of the other open source alternatives in my view. I use Minimax for everything, including image generation. I just run a 0.3 second burst video and pick a frame. The IQ built into H3, ability to understand and follow dire</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · denoising, minimax, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I will begin by saying I love Minimax H3, it is so much more advanced than any of the other open source alternatives in my view. I use Minimax for everything, including image generation. I just run a 0.3 second burst video and pick a frame. The IQ built into H3, ability to understand and follow directions is better than any other AI. But I recently blew days trying to set up a workflow that can process my character sheets. When generating a character, I had been forced to use a trick to get the full head to display, with white space around it, namely telling H3 to place a clear plastic halo above the character's head. So, naturally, I needed to run a subroutine to later remove the halo. I al&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wcbko9/curbing_ai_monkeying_around/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
