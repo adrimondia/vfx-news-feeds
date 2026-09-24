@@ -2,8 +2,19 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-09-24T20:30:26+00:00</updated>
+<updated>2026-09-24T22:30:27+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wpaqsu/krea_2_inpainting_edit_lora/</id><title>Krea 2 inpainting edit LoRA</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wpaqsu/krea_2_inpainting_edit_lora/"/>
+<published>2026-09-24T19:13:17+00:00</published><updated>2026-09-24T19:13:17+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="inpainting"/>
+<category term="outpainting"/>
+<category term="lora"/>
+<summary>krea2-inpaint-edit — LoRAs for Krea-2-Raw that do inpainting the simple way: give the model an image with the region to (re)generate filled in solid black and a text prompt. It paints the black area and leaves the rest of the image untouched. Three strength variants: default mild — least changes out</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 5 · inpainting, outpainting, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;krea2-inpaint-edit — LoRAs for Krea-2-Raw that do inpainting the simple way: give the model an image with the region to (re)generate filled in solid black and a text prompt. It paints the black area and leaves the rest of the image untouched. Three strength variants: default mild — least changes outside the mask; best when the mask covers the main focus point strong — best for outpainting; follows the prompt most aggressively The attached gallery compares this LoRA against yijunwang2/krea2-anypaint (columns: masked input→ krea2-inpaint-edit → anypaint, with reference images and difference maps below each test): Toy island — filling a jagged black hole in the sky after MoGe pass and rotation.&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wpaqsu/krea_2_inpainting_edit_lora/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/vfx/comments/1wpabph/so_whos_moving_to_the_states/</id><title>So…. who’s moving to the states ?</title>
 <link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wpabph/so_whos_moving_to_the_states/"/>
@@ -6807,48 +6818,5 @@
 <category term="minimax"/>
 <summary>Link to my workflow: https://gist.github.com/aicinema5090/f02348ff0c4082dbe4f63f16206fe7f9 submitted by /u/Tryingmybestmama [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Link to my workflow: https://gist.github.com/aicinema5090/f02348ff0c4082dbe4f63f16206fe7f9 submitted by /u/Tryingmybestmama [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wcy59y/minimax_h3_is_so_fun/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wcxl7i/perfect_loop_test_in_minimax_h3_using_reference_2/</id><title>Perfect loop test in minimax h3 using reference 2 video workflow</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wcxl7i/perfect_loop_test_in_minimax_h3_using_reference_2/"/>
-<published>2026-09-10T22:13:18+00:00</published><updated>2026-09-10T22:13:18+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="animation"/>
-<category term="comfyui"/>
-<category term="minimax"/>
-<summary>Day 13 of generating and testing AI anime scenes locally in ComfyUI using the Minimax H3 reference-to-video model. For this one, I wanted to test two things: Using multiple props inside a single reference image instead of giving each object its own reference Creating a perfect 5-second seamless loop</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · animation, comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Day 13 of generating and testing AI anime scenes locally in ComfyUI using the Minimax H3 reference-to-video model. For this one, I wanted to test two things: Using multiple props inside a single reference image instead of giving each object its own reference Creating a perfect 5-second seamless loop with very subtle motion The scene uses the character, headphones, Rubik’s Cube, yo-yo, cassette, and keyboard as references, while the animation itself is intentionally minimal: slight movement in the leaves and hair, plus shifting sunlight/shadows from a gentle breeze. Generation time was around 2 minutes locally. Prompt: Use Image 1 as the exact character reference for the boy’s face, hairstyle&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wcxl7i/perfect_loop_test_in_minimax_h3_using_reference_2/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wcxl4g/need_help_with_prompt_adherence_on_mmh3/</id><title>NEED HELP WITH PROMPT ADHERENCE ON MMH3</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wcxl4g/need_help_with_prompt_adherence_on_mmh3/"/>
-<published>2026-09-10T22:13:13+00:00</published><updated>2026-09-10T22:13:13+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="minimax"/>
-<category term="seedance"/>
-<category term="storyboard"/>
-<summary>Vídeo sai totalmente diferente do que fiz no seedance usando o mesmo prompt só que formatado para ele, neste do MMH3 estou utilizando a formatação de prompt oficial da Minimax H3 para criar o prompt e mesmo assim ele gera algo totalmente aleatório, mesmo eu indicando referencias e até storyboard. Vo</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · minimax, seedance, storyboard&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Vídeo sai totalmente diferente do que fiz no seedance usando o mesmo prompt só que formatado para ele, neste do MMH3 estou utilizando a formatação de prompt oficial da Minimax H3 para criar o prompt e mesmo assim ele gera algo totalmente aleatório, mesmo eu indicando referencias e até storyboard. Vou enviar o vídeo do seedance no comentário abaixo. submitted by /u/AiCreatorCamp [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wcxl4g/need_help_with_prompt_adherence_on_mmh3/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wcxa0h/any_newer_way_to_upscale_h3_minimax_native_768_x/</id><title>Any newer way to upscale h3 minimax native 768 x 768 videos to 2k or 4k locally that does not destroy everything? without relying on paid Topaz.</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wcxa0h/any_newer_way_to_upscale_h3_minimax_native_768_x/"/>
-<published>2026-09-10T22:01:05+00:00</published><updated>2026-09-10T22:01:05+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="upscaling"/>
-<category term="minimax"/>
-<summary>5090 with 64gb ram. Hey guys, is there a new development recently? or is upscaling still effed? submitted by /u/Infinite-Emptiness [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · upscaling, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;5090 with 64gb ram. Hey guys, is there a new development recently? or is upscaling still effed? submitted by /u/Infinite-Emptiness [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wcxa0h/any_newer_way_to_upscale_h3_minimax_native_768_x/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1wcvv0y/my_vfx_compositing_i_need_an_advice/</id><title>My VFX Compositing (I Need an Advice)</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wcvv0y/my_vfx_compositing_i_need_an_advice/"/>
-<published>2026-09-10T21:06:08+00:00</published><updated>2026-09-10T21:06:08+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="compositing"/>
-<category term="vfx"/>
-<category term="blender"/>
-<summary>https://drive.google.com/drive/folders/1zQFFjjbnq5-KL2gJ-nXuXV1Ks-2zYnGC Inside this drive file is a video containing my recent project which is a school project (only half a minute tho since we 're not done completing all the footage), well the main concept is like for the upcoming sport fest and t</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 5 · compositing, vfx, blender&lt;/small&gt;&lt;/p&gt;&lt;p&gt;https://drive.google.com/drive/folders/1zQFFjjbnq5-KL2gJ-nXuXV1Ks-2zYnGC Inside this drive file is a video containing my recent project which is a school project (only half a minute tho since we 're not done completing all the footage), well the main concept is like for the upcoming sport fest and the program we're trying to represent is College of Computer Studies, yes, you read it right, we're just a bunch of college student including me a first year BSCS and I never truly had a proper training when it comes to after effects and blender but only through my experiences. I've been using blender and after effects for about a year now, but like I said I never truly had a proper education on vf&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wcvv0y/my_vfx_compositing_i_need_an_advice/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
