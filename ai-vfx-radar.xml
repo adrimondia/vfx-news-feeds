@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-09-24T10:30:58+00:00</updated>
+<updated>2026-09-24T12:31:08+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wowztq/qwen_image_21s_editing_capabilities_are/</id><title>Qwen Image 2.1's editing capabilities are mind-blowing! Generating Character Design Sheets without any LoRAs</title>
@@ -55,6 +55,17 @@
 <category term="rendering"/>
 <summary>Cross-vendor 3D Gaussian Splatting trainer - video to splat to mesh, Vulkan or CUDA. Spirula Studio Download • Build from Source • Gallery • Web Viewer Spirula Studio trains 3D Gaussian Splatting models – from raw photo/video to splat to textured mesh – in one self-contained binary. No Python/PyTorc</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;GitHub trending (all) · score 3 · gaussian splatting, 3d gaussian, rendering&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Cross-vendor 3D Gaussian Splatting trainer - video to splat to mesh, Vulkan or CUDA. Spirula Studio Download • Build from Source • Gallery • Web Viewer Spirula Studio trains 3D Gaussian Splatting models – from raw photo/video to splat to textured mesh – in one self-contained binary. No Python/PyTorch, no separate COLMAP install. Runs on NVIDIA, AMD, Intel, and Apple GPUs via Vulkan, trains 10M full-SH Gaussians in 8 GB VRAM, and has native support for fisheye and 360° cameras. Dataset credit: Garage by Simon Bethke (CC BY-SA 4.0); Flight Systems and Control Lab at UTIAS; MegaDepth-X; Mip-NeRF 360. Features Cross vendor support via Vulkan compute – Runs on NVIDIA, AMD, Intel, and Apple GPUs O&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.com/harry7557558/spirula-studio"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wotubr/prompt_composer_now_with_refmod_and_lora_support/</id><title>Prompt Composer, now with RefMod and Lora Support.</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wotubr/prompt_composer_now_with_refmod_and_lora_support/"/>
+<published>2026-09-24T06:11:29+00:00</published><updated>2026-09-24T06:11:29+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="compositing"/>
+<category term="minimax"/>
+<category term="lora"/>
+<summary>Hey Guys, Two weeks ago I introduced a Visual RefMod Picker, that provided a visual approach to work with RefMod, while also including a Batch RefMod Generator. A user on Github asked for ways to be able to change the Prompt_Hint they return as well as have it generate the subject_definitions for Mi</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · compositing, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey Guys, Two weeks ago I introduced a Visual RefMod Picker, that provided a visual approach to work with RefMod, while also including a Batch RefMod Generator. A user on Github asked for ways to be able to change the Prompt_Hint they return as well as have it generate the subject_definitions for Minimax. Thinking about it, the simplest way to achieve this was to add all of that to the experimental Prompt Composer I had created a while back. As I was getting back into playing with Krea 2, I realized that I could also add Lora support and have be useful for both. The idea behind Prompt Composer is to define characters, environments, attire, styles or more and then easily mix and match them, a&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wotubr/prompt_composer_now_with_refmod_and_lora_support/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wothsh/from_a_single_image_to_gaussian_splats_another/</id><title>From a Single Image to Gaussian Splats (another tutorial)</title>
@@ -6974,54 +6985,5 @@
 <category term="lora"/>
 <summary>Another quick Minimax H3 news and goodies round-up, for those who may have missed some items. -&gt; ComfyUI Portable is now officially at version 0.35.0. See yesterday's post for details of Minimax-relevant update items and bug-fixes. https://github.com/Comfy-Org/ComfyUI/releases -&gt; A new W4A8 quantiza</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · comfyui, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Another quick Minimax H3 news and goodies round-up, for those who may have missed some items. -&amp;gt; ComfyUI Portable is now officially at version 0.35.0. See yesterday's post for details of Minimax-relevant update items and bug-fixes. https://github.com/Comfy-Org/ComfyUI/releases -&amp;gt; A new W4A8 quantization of the MiniMax-H3 Fun ControlNet-Union model patch, for ComfyUI. Weighs in at 1.45Gb, compared to 2.13Gb. https://huggingface.co/berryber09/MiniMax-H3-Fun-Controlnet-Union-w4a8 -&amp;gt; A Minimax H3 visual 'RefMods picker' with thumbnails, in ComfyUI. https://old.reddit.com/r/StableDiffusion/comments/1wc8tvv/created_a_visual_refmod_picker/ -&amp;gt; H3-pixel-art-video-guide. "Pixel-perfect animated pixel &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wchvg3/a_quick_minimax_h3_news_roundup_10th_september/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wchnn6/guide_amd_rdna3_optimizations_for_comfyui_desktop/</id><title>[GUIDE] AMD RDNA3 optimizations for ComfyUI Desktop, windows 11, Minimax H3</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wchnn6/guide_amd_rdna3_optimizations_for_comfyui_desktop/"/>
-<published>2026-09-10T12:22:22+00:00</published><updated>2026-09-10T12:22:22+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="video generation"/>
-<category term="comfyui"/>
-<category term="minimax"/>
-<summary>My setup: AMD RX 7900 XT, 20GB VRAM, 64GB RAM, Windows 11, ComfyUI Desktop. I couldn't find any decent information anywhere on how to optimize video generation with Minimax H3 on Windows with ComfyUI desktop. AI assistants give conflicting advice, constantly suggesting all sorts of nonsense that doe</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 5 · video generation, comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;My setup: AMD RX 7900 XT, 20GB VRAM, 64GB RAM, Windows 11, ComfyUI Desktop. I couldn't find any decent information anywhere on how to optimize video generation with Minimax H3 on Windows with ComfyUI desktop. AI assistants give conflicting advice, constantly suggesting all sorts of nonsense that doesn't actually work. I had to experiment on my own, and here is the configuration I’ve settled on. The speed boost compared to the default settings is very significant, and I haven't noticed any loss in quality. If you have any other suggestions, please let me know. ~25s/it with 0.8mp (1216 x 672, 16:9) or total ~4min for 5 sec video generation in text to video workflow https://preview.redd.it/vl17&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wchnn6/guide_amd_rdna3_optimizations_for_comfyui_desktop/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1wcg45k/tracking_my_arm_in_syntheyes/</id><title>tracking my arm in syntheyes</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wcg45k/tracking_my_arm_in_syntheyes/"/>
-<published>2026-09-10T11:10:14+00:00</published><updated>2026-09-10T11:10:14+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="tracking"/>
-<summary>i got the student license and i want to learn how to track my arm so i can add a cgi arm as an occluder to for example add a ring that spins around my arm, but when i try to track it in syntheyes it doesnt work. it just says solving failed, are there any good tutorials on how i can do this? submitte</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · tracking&lt;/small&gt;&lt;/p&gt;&lt;p&gt;i got the student license and i want to learn how to track my arm so i can add a cgi arm as an occluder to for example add a ring that spins around my arm, but when i try to track it in syntheyes it doesnt work. it just says solving failed, are there any good tutorials on how i can do this? submitted by /u/Due-Traffic5899 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wcg45k/tracking_my_arm_in_syntheyes/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wcg1xw/h3_80s_character_generationswardrobe_swap/</id><title>H3 - 80s character generations+wardrobe swap</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wcg1xw/h3_80s_character_generationswardrobe_swap/"/>
-<published>2026-09-10T11:07:07+00:00</published><updated>2026-09-10T11:07:07+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="animation"/>
-<category term="cinematic"/>
-<summary>The 80s was the best era, not seen through a nostalgic lens--it just was. Big hair, big colors, big music, big... everything! Sadly I was born 10 years too late to really experience it, but I love how H3 can feel like a way-back-machine, a portal to any era from film or video it was trained on. It d</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · animation, cinematic&lt;/small&gt;&lt;/p&gt;&lt;p&gt;The 80s was the best era, not seen through a nostalgic lens--it just was. Big hair, big colors, big music, big... everything! Sadly I was born 10 years too late to really experience it, but I love how H3 can feel like a way-back-machine, a portal to any era from film or video it was trained on. It does also a great job with the actual feel, the film grain, the lighting that modern TV or movies cannot do: in fact, I learned what we see nowadays that time period didn't exist at all, because it vomit of nostalgia and peak 80s that never happened. Anyways, having fun generating character sheets with H3 via T2VA. Are you guys seed hunting to find the best version of an actor or scene? Also can yo&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wcg1xw/h3_80s_character_generationswardrobe_swap/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1wcfkzt/french_animation_sales_plunge_30_as_export_market/</id><title>French Animation Sales Plunge 30% as Export Market Contracts</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wcfkzt/french_animation_sales_plunge_30_as_export_market/"/>
-<published>2026-09-10T10:43:14+00:00</published><updated>2026-09-10T10:43:14+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="animation"/>
-<summary>submitted by /u/manuce94 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · animation&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/manuce94 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wcfkzt/french_animation_sales_plunge_30_as_export_market/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wcffhb/minimax_h3_is_generating_sound_only_possible/</id><title>Minimax H3 - is generating sound only possible?</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wcffhb/minimax_h3_is_generating_sound_only_possible/"/>
-<published>2026-09-10T10:35:13+00:00</published><updated>2026-09-10T10:35:13+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="rendering"/>
-<category term="minimax"/>
-<summary>Hi everyone! Minimax H3 is surprisingly solid at generating audio - I’ve been using it for SFX and foley in my videos. Is there a way to generate audio-only with this model? It would save a lot of rendering time if we didn't have to generate the full video alongside it. I know H3 creates video and a</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · rendering, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi everyone! Minimax H3 is surprisingly solid at generating audio - I’ve been using it for SFX and foley in my videos. Is there a way to generate audio-only with this model? It would save a lot of rendering time if we didn't have to generate the full video alongside it. I know H3 creates video and audio natively together, so audio-only generation might not be natively supported. But given all the clever workflows and custom node workarounds floating around, has anyone found a way to pull this off? submitted by /u/ZombieBrainYT [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wcffhb/minimax_h3_is_generating_sound_only_possible/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
