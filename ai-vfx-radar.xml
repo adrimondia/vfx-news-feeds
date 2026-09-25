@@ -2,8 +2,39 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-09-25T14:30:41+00:00</updated>
+<updated>2026-09-25T16:30:40+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wpzpic/i_recreated_a_gatekept_comfyui_prompter_node_as_a/</id><title>I recreated a gatekept ComfyUI prompter node as a local browser app</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wpzpic/i_recreated_a_gatekept_comfyui_prompter_node_as_a/"/>
+<published>2026-09-25T15:43:23+00:00</published><updated>2026-09-25T15:43:23+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<summary>submitted by /u/Jolanoff [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/Jolanoff [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wpzpic/i_recreated_a_gatekept_comfyui_prompter_node_as_a/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wpygf7/i_made_an_easier_way_to_use_minimax_h3_references/</id><title>I made an easier way to use MiniMax H3 references in ComfyUI - Sonder Editor</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wpygf7/i_made_an_easier_way_to_use_minimax_h3_references/"/>
+<published>2026-09-25T14:54:15+00:00</published><updated>2026-09-25T14:54:15+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<category term="wan"/>
+<category term="minimax"/>
+<category term="ltx"/>
+<category term="lora"/>
+<summary>I used the workflow from my Comfy H3 Sync Challenge submission for this video: MiniMax H3 References workflow The first pass was at about 0.2 MP with er_sde , sgm_uniform , 10 steps and the turbo LoRA at 0.8. Then a second pass at about 1 MP with the same sampler and scheduler, 12 steps, denoise at </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 7 · comfyui, wan, minimax, ltx, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I used the workflow from my Comfy H3 Sync Challenge submission for this video: MiniMax H3 References workflow The first pass was at about 0.2 MP with er_sde , sgm_uniform , 10 steps and the turbo LoRA at 0.8. Then a second pass at about 1 MP with the same sampler and scheduler, 12 steps, denoise at 0.75 and the turbo LoRA at 0.5. After that, a 1080p pass with 4 steps and denoise at 0.4. I also tried running the final video through a DLSS5 workflow and liked the results enough to keep them. For the audio, I tried generating the sound effects and soundtrack together, but gave up and did them separately with H3. If you want to look through the setup, here’s the project with all the assets used &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wpygf7/i_made_an_easier_way_to_use_minimax_h3_references/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wpwys7/qwen_image_21_bestfaceswap_lora_bfs/</id><title>Qwen image 2.1 bestfaceswap lora (bfs)</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wpwys7/qwen_image_21_bestfaceswap_lora_bfs/"/>
+<published>2026-09-25T13:54:18+00:00</published><updated>2026-09-25T13:54:18+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="lora"/>
+<summary>Swap the woman's head in &lt;image1&gt; with the woman in &lt;image2&gt; submitted by /u/Ant_6431 [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Swap the woman's head in &amp;lt;image1&amp;gt; with the woman in &amp;lt;image2&amp;gt; submitted by /u/Ant_6431 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wpwys7/qwen_image_21_bestfaceswap_lora_bfs/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1wpwgwz/selfportrait/</id><title>Self-Portrait</title>
 <link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wpwgwz/selfportrait/"/>
@@ -64,6 +95,16 @@
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 5 · wan, minimax, lora, cinematic&lt;/small&gt;&lt;/p&gt;&lt;p&gt;The Workflow : https://drive.google.com/file/d/185D3_3QBxBFViXENL0lIDen-tp3Vab6M This is an update to my earlier worflow. I left it at three parts that generate three clips based on the same two references. Part two and three also get 10 seconds of a reduced resolution look at what came before. It doesn't have to be full res to get the vibe. The way I use this is keep generating until I like section one, let it run into section two and either tweak the seed or prompt to make it better. Then let it go on to section three. It's similar to a wan SVI workflow I liked. You can run it at low resolution for fast output and only set it higher when you have an output that's good. There is no real ben&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wpra5i/frankly_workflow_longish_and_consistent_h3_minimax/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wpqd82/sharing_asian_character_lora_for_krea_2aitoolkit/</id><title>Sharing Asian Character LoRA for Krea 2(AI-Toolkit Training Settings Included)</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wpqd82/sharing_asian_character_lora_for_krea_2aitoolkit/"/>
+<published>2026-09-25T07:55:51+00:00</published><updated>2026-09-25T07:55:51+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="flux"/>
+<category term="lora"/>
+<summary>https://preview.redd.it/pvetvjp4ynrh1.jpg?width=814&amp;format=pjpg&amp;auto=webp&amp;s=baf368a204d190bd1c14bcf822929f5ded9572d0 Hey everyone! Sharing my Asian Character LoRA trained specifically on Krea 2 Raw and Turbo . You can check out the showcase and download it out here: 👉 Hugging Face Space Showcase 📷 D</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · flux, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;https://preview.redd.it/pvetvjp4ynrh1.jpg?width=814&amp;amp;format=pjpg&amp;amp;auto=webp&amp;amp;s=baf368a204d190bd1c14bcf822929f5ded9572d0 Hey everyone! Sharing my Asian Character LoRA trained specifically on Krea 2 Raw and Turbo . You can check out the showcase and download it out here: 👉 Hugging Face Space Showcase 📷 Dataset &amp;amp; Framing Hand-Cherry-Picked Dataset: I usually use photobook as the dataset, and combination of qwen, gemini, and grok to caption it. I usually use around 20-30 images, quality over quantity Balanced Framing: Includes a varied mix of close-up, medium shot, and full-body shot angles Note: Sometimes I use image editor (photoshop/flux klein/gemini) to edit and seedvr to upscale. Creating lora&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wpqd82/sharing_asian_character_lora_for_krea_2aitoolkit/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
 <id>https://www.reddit.com/r/comfyui/comments/1wpq2w8/comfyui_cloud_shows_imported_images_that_i_never/</id><title>ComfyUI cloud shows imported images that I never imported</title>
 <link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wpq2w8/comfyui_cloud_shows_imported_images_that_i_never/"/>
 <published>2026-09-25T07:36:15+00:00</published><updated>2026-09-25T07:36:15+00:00</updated>
@@ -71,6 +112,16 @@
 <category term="comfyui"/>
 <summary>I have a cloud account and I've imported a few pictures for my I2V workflows. But since the past 2-3 days I'm seeing a lot of images in my imported section, even though I never imported them. They all look like reference images of some example workflows. Are they just putting these generic images in</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I have a cloud account and I've imported a few pictures for my I2V workflows. But since the past 2-3 days I'm seeing a lot of images in my imported section, even though I never imported them. They all look like reference images of some example workflows. Are they just putting these generic images in the accounts of all users? Where are they coming from? submitted by /u/Efficient_Heron5978 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wpq2w8/comfyui_cloud_shows_imported_images_that_i_never/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wpp6uq/please_help_preventing_minimax_h3_making_this/</id><title>Please help preventing MiniMax H3 making this caterpillar smile</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wpp6uq/please_help_preventing_minimax_h3_making_this/"/>
+<published>2026-09-25T06:40:02+00:00</published><updated>2026-09-25T06:40:02+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="minimax"/>
+<category term="ltx"/>
+<summary>I plan to create a short animated video about "bored caterpillars". I generated the attached image to test offline models. The prompt tells the caterpillar to make few steps, then stop, then say something with bored, annoyed voice. LTX 2.5 nailed the face expression but the body movement and overall</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · minimax, ltx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I plan to create a short animated video about "bored caterpillars". I generated the attached image to test offline models. The prompt tells the caterpillar to make few steps, then stop, then say something with bored, annoyed voice. LTX 2.5 nailed the face expression but the body movement and overall audio quality was not good. MiniMax H3 produces fantastic, clear audio, better anatomy and movement, but whatever I try, however I change the prompt the caterpillar is smiling while saying the words... It just totally breaks the immersion and this is the main theme of the video so I can't just live with it. I think H3 would get me overall better results (especially that there will be quite a lot &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wpp6uq/please_help_preventing_minimax_h3_making_this/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://github.com/leejet/stable-diffusion.cpp</id><title>leejet/stable-diffusion.cpp</title>
@@ -6796,15 +6847,5 @@
 <category term="lora"/>
 <summary>SMACK! Right now, only on Hugginface, Civitai deleted the older version for gore (which came from minimax...) Download https://huggingface.co/LeechTM/SMACK Beta 2 · MiniMax H3 (Ref2V) · No trigger word Model description Beta 1 taught MiniMax H3 that getting hit should actually hurt. Almost 2,000 of </summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;SMACK! Right now, only on Hugginface, Civitai deleted the older version for gore (which came from minimax...) Download https://huggingface.co/LeechTM/SMACK Beta 2 · MiniMax H3 (Ref2V) · No trigger word Model description Beta 1 taught MiniMax H3 that getting hit should actually hurt. Almost 2,000 of you downloaded it, which means either you agreed or you just really wanted to see people get punched. Both are valid. Beta 2 raises the stakes considerably. Things explode now. People get hit by the explosion, then by the ground, then briefly by their own life choices. Cars stop being scenery and start being weapons. Fights no longer politely take turns: three guys can come at the hero at once, wh&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wdlzvx/smack_lora_beta_2_impacts_gunshots_blood_squibs/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wdk1zm/comfyuiolmyue2_staged_yue2_music_generation_with/</id><title>ComfyUI-Olm-YuE2 - staged YuE2 music generation with editable score/ABC workflow</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wdk1zm/comfyuiolmyue2_staged_yue2_music_generation_with/"/>
-<published>2026-09-11T15:50:20+00:00</published><updated>2026-09-11T15:50:20+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<category term="stereo"/>
-<summary>YuE2 ( https://map-yue2.github.io/ ) was released recently and I thought I'd spend a little time getting it running properly in ComfyUI. That turned into hours of going considerably further than intended. I made this mainly for myself to be able to run the model the way I want, but thought I'd share</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui, stereo&lt;/small&gt;&lt;/p&gt;&lt;p&gt;YuE2 ( https://map-yue2.github.io/ ) was released recently and I thought I'd spend a little time getting it running properly in ComfyUI. That turned into hours of going considerably further than intended. I made this mainly for myself to be able to run the model the way I want, but thought I'd share this. It can do the straightforward thing, you can just give a musical style and lyrics and generate a stereo 48 kHz song. But for learning purposes I wanted the integration to expose more of what makes YuE2 interesting rather than hiding everything behind one Generate button. The generation pipeline is split: Plan &amp;gt; Semantic &amp;gt; Synthesize &amp;gt; Decode Intermediate results can be inspected, saved, reu&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wdk1zm/comfyuiolmyue2_staged_yue2_music_generation_with/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
