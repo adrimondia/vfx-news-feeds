@@ -2,8 +2,90 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-09-25T02:30:32+00:00</updated>
+<updated>2026-09-25T04:30:22+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://arxiv.org/abs/2609.28645</id><title>PePESeg3D: Perception Prior Enhances Multi-Scale Segmentation for 3D Gaussian Splatting</title>
+<link rel="alternate" href="https://arxiv.org/abs/2609.28645"/>
+<published>2026-09-25T04:00:00+00:00</published><updated>2026-09-25T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="gaussian splatting"/>
+<category term="3d gaussian"/>
+<category term="segmentation"/>
+<category term="monocular depth"/>
+<category term="scene reconstruction"/>
+<summary>arXiv:2609.28645v1 Announce Type: new Abstract: Recent advancements in 3D Gaussian Splatting (3DGS) have extended its capabilities to multi-scale segmentation. Existing methods reconstruct a scene with Gaussian primitives and learn multi-scale segmentation features separately, which leaves the geome</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 8 · gaussian splatting, 3d gaussian, segmentation, monocular depth, scene reconstruction&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.28645v1 Announce Type: new Abstract: Recent advancements in 3D Gaussian Splatting (3DGS) have extended its capabilities to multi-scale segmentation. Existing methods reconstruct a scene with Gaussian primitives and learn multi-scale segmentation features separately, which leaves the geometry unaware of semantic structure and the feature learning dependent on incomplete mask supervision. To address these limitations, we present PePESeg3D, a novel framework that injects perception priors into a multi-scale 3D Gaussian segmentation pipeline. To fully exploit perception priors, we integrate them not only into contrastive feature learning but also into the upstream geometry reconstruct&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.28645"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2609.29985</id><title>OceanXL: Large-scale Underwater 3D Gaussian Splatting via Block Partitioning and Adaptive Pruning</title>
+<link rel="alternate" href="https://arxiv.org/abs/2609.29985"/>
+<published>2026-09-25T04:00:00+00:00</published><updated>2026-09-25T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="gaussian splatting"/>
+<category term="3d gaussian"/>
+<category term="3d reconstruction"/>
+<category term="rendering"/>
+<category term="consistency"/>
+<summary>arXiv:2609.29985v1 Announce Type: new Abstract: Underwater 3D reconstruction is critical for marine exploration, ecological monitoring, and subsea infrastructure inspection, yet remains challenging at large scale due to light attenuation, scattering, and limited capture coverage. While 3D Gaussian S</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 7 · gaussian splatting, 3d gaussian, 3d reconstruction, rendering, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.29985v1 Announce Type: new Abstract: Underwater 3D reconstruction is critical for marine exploration, ecological monitoring, and subsea infrastructure inspection, yet remains challenging at large scale due to light attenuation, scattering, and limited capture coverage. While 3D Gaussian Splatting (3DGS) enables high-quality real-time rendering, its application to large underwater scenes is constrained by high memory consumption and inefficient optimization over extensive areas. We propose OceanXL, a fast and scalable 3DGS-based framework for large-scale underwater reconstruction. OceanXL adopts a divide-and-conquer strategy, partitioning scenes into spatially coherent blocks to en&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.29985"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2609.30221</id><title>WanPE: Towards Cinematic Prompt Enhancement for Modern Text-to-Video Generation</title>
+<link rel="alternate" href="https://arxiv.org/abs/2609.30221"/>
+<published>2026-09-25T04:00:00+00:00</published><updated>2026-09-25T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="video generation"/>
+<category term="text-to-video"/>
+<category term="seedance"/>
+<category term="cinematic"/>
+<summary>arXiv:2609.30221v1 Announce Type: new Abstract: Video generation begins in text space by authoring a cinematic screenplay, then materializes into pixels. As contemporary video generators scale to 30 seconds and faithfully follow complex conditions, the textual prompt largely directs the production, </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 6 · video generation, text-to-video, seedance, cinematic&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.30221v1 Announce Type: new Abstract: Video generation begins in text space by authoring a cinematic screenplay, then materializes into pixels. As contemporary video generators scale to 30 seconds and faithfully follow complex conditions, the textual prompt largely directs the production, planning how actions, camera trajectories, lighting, and sound unfold across multi-shot sequences. In this paper, we present WanPE, a 397B-parameter prompt enhancement model trained on 1.05M real-world videos to master director-level cinematic planning. WanPE formulates shot-level cinematic plans via video-grounded reverse construction and employs Semantic-Consistency GRPO (SC-GRPO) to faithfully &lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.30221"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2609.30245</id><title>Towards Practical Compression of 3D Gaussian Splatting</title>
+<link rel="alternate" href="https://arxiv.org/abs/2609.30245"/>
+<published>2026-09-25T04:00:00+00:00</published><updated>2026-09-25T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="gaussian splatting"/>
+<category term="3d gaussian"/>
+<category term="consistency"/>
+<summary>arXiv:2609.30245v1 Announce Type: new Abstract: 3D Gaussian Splatting (3DGS) enables high-quality novel-view synthesis but requires substantial storage. Existing compression methods often rely on spatial context modeling over irregular 3D representations, increasing the complexity of training and co</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · gaussian splatting, 3d gaussian, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.30245v1 Announce Type: new Abstract: 3D Gaussian Splatting (3DGS) enables high-quality novel-view synthesis but requires substantial storage. Existing compression methods often rely on spatial context modeling over irregular 3D representations, increasing the complexity of training and coding. Meanwhile, floating-point context inference can introduce numerical inconsistencies across platforms, causing entropy-decoding failures. To address these practical challenges, we propose COSA-GS, which constructs context without spatial aggregation through anchor-wise causal factorization. Specifically, we use geometry context derived from each anchor's coordinates to model a compact learnab&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.30245"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2601.19753</id><title>WaterClear-GS: Optical-Aware Gaussian Splatting for Underwater Reconstruction and Restoration</title>
+<link rel="alternate" href="https://arxiv.org/abs/2601.19753"/>
+<published>2026-09-25T04:00:00+00:00</published><updated>2026-09-25T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="novel view synthesis"/>
+<category term="gaussian splatting"/>
+<category term="3d gaussian"/>
+<category term="nerf"/>
+<category term="3d reconstruction"/>
+<category term="rendering"/>
+<category term="consistency"/>
+<summary>arXiv:2601.19753v2 Announce Type: replace Abstract: Underwater 3D reconstruction and appearance restoration remain challenging due to the complex optical properties of water, such as wavelength-dependent attenuation and scattering. Existing Neural Radiance Fields (NeRF)-based approaches often suffer</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 8 · novel view synthesis, gaussian splatting, 3d gaussian, nerf, 3d reconstruction, rendering, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2601.19753v2 Announce Type: replace Abstract: Underwater 3D reconstruction and appearance restoration remain challenging due to the complex optical properties of water, such as wavelength-dependent attenuation and scattering. Existing Neural Radiance Fields (NeRF)-based approaches often suffer from slow rendering and limited practicality, while vanilla 3D Gaussian Splatting (3DGS) lacks an effective mechanism to account for underwater degradation. To address this, we propose WaterClear-GS, a physics-informed reformulation of underwater Gaussian splatting that models degradation as intrinsic Gaussian attributes rather than external medium fields. Furthermore, we adopt a dual-branch opti&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2601.19753"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wpls3i/redness_and_excess_contrast_using_minimax_h3/</id><title>Redness and Excess contrast using Minimax H3</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wpls3i/redness_and_excess_contrast_using_minimax_h3/"/>
+<published>2026-09-25T03:26:54+00:00</published><updated>2026-09-25T03:26:54+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="minimax"/>
+<summary>need some assist, the people of reddit. submitted by /u/kyahinaamrakhe-1 [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;need some assist, the people of reddit. submitted by /u/kyahinaamrakhe-1 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wpls3i/redness_and_excess_contrast_using_minimax_h3/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wpl8nt/piercings_lora_for_h3/</id><title>piercings lora for H3?</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wpl8nt/piercings_lora_for_h3/"/>
+<published>2026-09-25T02:59:29+00:00</published><updated>2026-09-25T02:59:29+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="lora"/>
+<summary>I have been hunting through civit for any lora's that will help with giving a realistic character various body piercings (nose, belly button, lip, other body parts) but have not had any luck so far. does anyone know of any they can point me to? thanks! submitted by /u/rpratt72086 [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I have been hunting through civit for any lora's that will help with giving a realistic character various body piercings (nose, belly button, lip, other body parts) but have not had any luck so far. does anyone know of any they can point me to? thanks! submitted by /u/rpratt72086 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wpl8nt/piercings_lora_for_h3/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wpjjcd/minimax_h3_running_as_a_realtime_interactive/</id><title>MiniMax H3 running as a real-time interactive avatar on Intel Arc Pro B70s</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wpjjcd/minimax_h3_running_as_a_realtime_interactive/"/>
@@ -38,6 +120,15 @@
 <category term="runway"/>
 <summary>I have a kawaii blob character (no arms/legs, minimal face) I want to animate by copying motion from a reference video, in this case an 11s clip of a plush toy dancing. Everything I've tried assumes a human body somewhere in the pipeline: Kling Motion Control — rejects the plush video ("no valid cha</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · image-to-video, comfyui, kling, runway&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I have a kawaii blob character (no arms/legs, minimal face) I want to animate by copying motion from a reference video, in this case an 11s clip of a plush toy dancing. Everything I've tried assumes a human body somewhere in the pipeline: Kling Motion Control — rejects the plush video ("no valid characters detected") Viggle Mix — transfers the motion but morphs my blob into a human anime girl Runway Act-2 and YouCam's motion swap — both hard-fail face detection on the blob's face Is there an open-source approach (ComfyUI workflow, WanAnimate, MimicMotion, or similar) that can do motion transfer where both the reference and the character are non-humanoid? Or is pose/skeleton-based transfer fu&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wphoaf/motion_transfer_onto_a_nonhumanoid_blob_character/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wph9ax/error_this_workflow_was_created_with_a_newer/</id><title>Error: This workflow was created with a newer version of ComfyUI (0.33.1)</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wph9ax/error_this_workflow_was_created_with_a_newer/"/>
+<published>2026-09-24T23:43:32+00:00</published><updated>2026-09-24T23:43:32+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<summary>Someone please help, I'm getting this error and I'm using browser version of comfyui not the desktop app. submitted by /u/PronitaSen [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Someone please help, I'm getting this error and I'm using browser version of comfyui not the desktop app. submitted by /u/PronitaSen [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wph9ax/error_this_workflow_was_created_with_a_newer/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1wpb80s/minimax_h3_ref2va_how_do_you_get_a_character_from/</id><title>MiniMax H3 Ref2VA: how do you get a character from a flat studio reference sheet lit by the environment reference?</title>
@@ -6807,95 +6898,5 @@
 <category term="cinema 4d"/>
 <summary>submitted by /u/Hassangtn [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 4 · 4d, cinema 4d&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/Hassangtn [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wd7jnh/first_images_from_shuaa_renderer_for_cinema_4d/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wd60cj/relight_node_for_h3_comfyui/</id><title>Relight Node For h3 ComfyUI</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wd60cj/relight_node_for_h3_comfyui/"/>
-<published>2026-09-11T04:28:20+00:00</published><updated>2026-09-11T04:28:20+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="relight"/>
-<category term="vfx"/>
-<category term="comfyui"/>
-<category term="minimax"/>
-<summary>Bruxos do VFX H3 Relight #bruxosdovfx Im doing a node for relight is a lighting studio for MiniMax H3 inside ComfyUI. You can position up to three lights on a 3D dome around the image, choose the type, intensity, and color of each light, configure the background and atmosphere, or start from one of </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 6 · relight, vfx, comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Bruxos do VFX H3 Relight #bruxosdovfx Im doing a node for relight is a lighting studio for MiniMax H3 inside ComfyUI. You can position up to three lights on a 3D dome around the image, choose the type, intensity, and color of each light, configure the background and atmosphere, or start from one of 20 presets. The node provides two things to H3 Edit: is not ready yet The package includes two nodes: Bruxos do VFX H3 Relight — the lighting studio. Bruxos do VFX H3 Sun — calculates the real position of the sun for a location, date, time, and camera direction, ready to connect to Light 1 of the Relight node. The Panel Dome. The photo sits in the center, the purple camera indicates the side from &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wd60cj/relight_node_for_h3_comfyui/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2609.10943</id><title>CamPilot: A Multi-Agent Cinematic Assistant for Camera-Controlled Movie Generation</title>
-<link rel="alternate" href="https://arxiv.org/abs/2609.10943"/>
-<published>2026-09-11T04:00:00+00:00</published><updated>2026-09-11T04:00:00+00:00</updated>
-<author><name>arXiv cs.CV</name></author>
-<category term="video generation"/>
-<category term="text-to-video"/>
-<category term="filmmaking"/>
-<category term="cinematic"/>
-<summary>arXiv:2609.10943v1 Announce Type: new Abstract: The integration of large language models (LLMs) into video generation has enabled rapid text-to-video creation and improved visual quality. However, it still falls short of professional filmmaking, where cinematographic language is less refined than hu</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · video generation, text-to-video, filmmaking, cinematic&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.10943v1 Announce Type: new Abstract: The integration of large language models (LLMs) into video generation has enabled rapid text-to-video creation and improved visual quality. However, it still falls short of professional filmmaking, where cinematographic language is less refined than human-crafted camera work and multi-shot continuity remains challenging. To address these limitations, we introduce CamPilot, a multi-agent framework that integrates cinematographic planning and camera-work control to produce more coherent, logically structured, and human-aesthetic movies. CamPilot adopts a GRPO-based learning paradigm to learn camera work planning from 14K real-world professional m&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.10943"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2508.07769</id><title>Dream4D: Lifting Camera-Controlled I2V towards Spatiotemporally Consistent 4D Generation</title>
-<link rel="alternate" href="https://arxiv.org/abs/2508.07769"/>
-<published>2026-09-11T04:00:00+00:00</published><updated>2026-09-11T04:00:00+00:00</updated>
-<author><name>arXiv cs.CV</name></author>
-<category term="video generation"/>
-<category term="video diffusion"/>
-<category term="4d"/>
-<category term="consistency"/>
-<category term="multi-view"/>
-<summary>arXiv:2508.07769v3 Announce Type: replace Abstract: The synthesis of spatiotemporally coherent 4D content presents fundamental challenges in computer vision, requiring simultaneous modeling of high-fidelity spatial representations and physically plausible temporal dynamics. Current approaches often </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 6 · video generation, video diffusion, 4d, consistency, multi-view&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2508.07769v3 Announce Type: replace Abstract: The synthesis of spatiotemporally coherent 4D content presents fundamental challenges in computer vision, requiring simultaneous modeling of high-fidelity spatial representations and physically plausible temporal dynamics. Current approaches often struggle to maintain view consistency while handling complex scene dynamics, particularly in large-scale environments with multiple interacting elements. This work introduces Dream4D, a novel framework that bridges this gap through a synergy of controllable video generation and neural 4D reconstruction. Our approach seamlessly combines a two-stage architecture: it first predicts optimal camera tra&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2508.07769"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2603.11298</id><title>InstantHDR: Single-forward Gaussian Splatting Initialization for HDR 3D Reconstruction</title>
-<link rel="alternate" href="https://arxiv.org/abs/2603.11298"/>
-<published>2026-09-11T04:00:00+00:00</published><updated>2026-09-11T04:00:00+00:00</updated>
-<author><name>arXiv cs.CV</name></author>
-<category term="novel view synthesis"/>
-<category term="gaussian splatting"/>
-<category term="3d reconstruction"/>
-<category term="hdr"/>
-<summary>arXiv:2603.11298v3 Announce Type: replace Abstract: High dynamic range (HDR) novel view synthesis (NVS) aims to reconstruct HDR scenes from multi-exposure low dynamic range (LDR) images. Existing HDR pipelines heavily rely on known camera poses, well-initialized dense point clouds, and time-consumin</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 7 · novel view synthesis, gaussian splatting, 3d reconstruction, hdr&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2603.11298v3 Announce Type: replace Abstract: High dynamic range (HDR) novel view synthesis (NVS) aims to reconstruct HDR scenes from multi-exposure low dynamic range (LDR) images. Existing HDR pipelines heavily rely on known camera poses, well-initialized dense point clouds, and time-consuming per-scene optimization. Current feed-forward alternatives overlook the HDR problem by assuming exposure-invariant appearance. To bridge this gap, we propose InstantHDR, a feed-forward network that initializes 3D HDR scenes from uncalibrated multi-exposure LDR collections in a fast single forward pass. Specifically, we design a geometry-guided appearance modeling for multi-exposure fusion, and a &lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2603.11298"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2609.00610</id><title>Streaming4D: Accelerate 4D World Models via Block-wise Video Generation and Incremental Reconstruction</title>
-<link rel="alternate" href="https://arxiv.org/abs/2609.00610"/>
-<published>2026-09-11T04:00:00+00:00</published><updated>2026-09-11T04:00:00+00:00</updated>
-<author><name>arXiv cs.CV</name></author>
-<category term="video generation"/>
-<category term="4d"/>
-<category term="3d reconstruction"/>
-<category term="consistency"/>
-<category term="multi-view"/>
-<summary>arXiv:2609.00610v2 Announce Type: replace Abstract: Current 4D generation paradigms are often bottlenecked by a sequential decoupling design: video is generated first, followed by 3D reconstruction, leading to high interaction latency. This limits applications in interactive real-time scenarios. To </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 7 · video generation, 4d, 3d reconstruction, consistency, multi-view&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.00610v2 Announce Type: replace Abstract: Current 4D generation paradigms are often bottlenecked by a sequential decoupling design: video is generated first, followed by 3D reconstruction, leading to high interaction latency. This limits applications in interactive real-time scenarios. To this end, we propose \textbf{Streaming4D}, a tightly coupled synchronous pipeline that integrates block-wise autoregressive video generation with incremental 3D reconstruction. Unlike traditional frame-by-frame emission and delayed geometry recovery, Streaming4D generates temporal video blocks and immediately triggers reconstruction for each completed block, enabling parallel execution between syn&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.00610"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wd4zt9/frameforge_motion_context_video_editor_for_comfyui/</id><title>FrameForge Motion Context Video Editor for ComfyUI</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wd4zt9/frameforge_motion_context_video_editor_for_comfyui/"/>
-<published>2026-09-11T03:39:21+00:00</published><updated>2026-09-11T03:39:21+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<summary>submitted by /u/Super_Range45 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/Super_Range45 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wd4zt9/frameforge_motion_context_video_editor_for_comfyui/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wd4zf2/frameforge_motion_context_video_editor_for_comfyui/</id><title>FrameForge Motion Context Video Editor for ComfyUI</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wd4zf2/frameforge_motion_context_video_editor_for_comfyui/"/>
-<published>2026-09-11T03:38:47+00:00</published><updated>2026-09-11T03:38:47+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<category term="minimax"/>
-<summary>Expanding on motion context workflows I created a video editor designed for quickly chaining together Minimax H3 generations to create longer videos. It comes with an asset library for managing inputs and a easy to use timeline that allows you to chain generations, regenerate segments easily, and qu</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Expanding on motion context workflows I created a video editor designed for quickly chaining together Minimax H3 generations to create longer videos. It comes with an asset library for managing inputs and a easy to use timeline that allows you to chain generations, regenerate segments easily, and quickly set up input references. When you're done, export individual video files or the whole sequence. All of it runs on top of ComfyUI as an app you control from your browser. Uses python, works on Windows, Mac, Linux and is opensource. https://github.com/spacesimeco-hue/Chain-Motion-AI-Video-Editor submitted by /u/Super_Range45 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wd4zf2/frameforge_motion_context_video_editor_for_comfyui/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wd49kz/camera_path_comfyui_h3/</id><title>Camera Path ComfyUI h3</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wd49kz/camera_path_comfyui_h3/"/>
-<published>2026-09-11T03:04:37+00:00</published><updated>2026-09-11T03:04:37+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<summary>https://civitai.com/models/2928691/minimax-h3-camera-control submitted by /u/Emotional_Example_12 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;https://civitai.com/models/2928691/minimax-h3-camera-control submitted by /u/Emotional_Example_12 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wd49kz/camera_path_comfyui_h3/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
