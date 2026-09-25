@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-09-25T08:00:54+00:00</updated>
+<updated>2026-09-25T08:30:20+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
 <entry>
 <id>https://github.com/leejet/stable-diffusion.cpp</id><title>leejet/stable-diffusion.cpp</title>
@@ -6846,25 +6846,5 @@
 <category term="lora"/>
 <summary>Hey everyone, I'm setting up MiniMax H3 in ComfyUI and trying to figure out the sweet spot between generation speed and output quality for my specs: GPU: RTX 4070 (12GB VRAM) RAM: 32GB DDR5 Target: 5s clips at 768p (mostly First-to-Last / I2V) Given the 12GB VRAM limit and 32GB system RAM, loading t</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 5 · render, comfyui, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey everyone, I'm setting up MiniMax H3 in ComfyUI and trying to figure out the sweet spot between generation speed and output quality for my specs: GPU: RTX 4070 (12GB VRAM) RAM: 32GB DDR5 Target: 5s clips at 768p (mostly First-to-Last / I2V) Given the 12GB VRAM limit and 32GB system RAM, loading the unpruned / full FP8 models causes heavy paging to system memory and slows everything down. I’m trying to narrow down the current community consensus on three things: Model &amp;amp; Quant format: What's the fastest option that doesn't ruin faces and audio? Are people having better results with official pruned INT8 convrot, or GGUF quants (Q4_K_M vs Q3_K_M) using the GGUF loader? What text encoder quant&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wdatsw/best_minimax_h3_setup_for_rtx_4070_12gb_vram_32gb/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1wd9ydj/nike_scorpion_cinematic_product_film_material/</id><title>Nike Scorpion — Cinematic Product Film / Material Formation</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wd9ydj/nike_scorpion_cinematic_product_film_material/"/>
-<published>2026-09-11T08:10:15+00:00</published><updated>2026-09-11T08:10:15+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="vfx"/>
-<category term="cinematic"/>
-<summary>I developed this as an independent product-film concept focused on material formation, product cinematography and motion design. The main challenge was making the shoe progressively construct itself from textile fibers and volumetric material rather than simply morphing from one state to another. I'</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 3 · vfx, cinematic&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I developed this as an independent product-film concept focused on material formation, product cinematography and motion design. The main challenge was making the shoe progressively construct itself from textile fibers and volumetric material rather than simply morphing from one state to another. I'd genuinely appreciate feedback from people working in motion/design/VFX especially on the pacing, camera work and visual direction. submitted by /u/Smart-Proof-1861 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wd9ydj/nike_scorpion_cinematic_product_film_material/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wd9xd1/update_to_my_comfyui_style_explorer/</id><title>Update to My Comfyui style explorer</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wd9xd1/update_to_my_comfyui_style_explorer/"/>
-<published>2026-09-11T08:08:37+00:00</published><updated>2026-09-11T08:08:37+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="lora"/>
-<summary>This update: lora preview catalog node added (You need to organise your lora) Put your lora files in a file the lora folder and name it the Model for example Krea 2, in the Krea 2 folder you can make more folders for the kind of lora they are for example anime, sliders, or what ever group of lora th</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;This update: lora preview catalog node added (You need to organise your lora) Put your lora files in a file the lora folder and name it the Model for example Krea 2, in the Krea 2 folder you can make more folders for the kind of lora they are for example anime, sliders, or what ever group of lora they belong to. the lora gallery will add dropdowns for you do navigate and find them easily. when you generate a preview image you like for that Lora you can click save and it adds it to the gallery. you can also safe the trigger words from the node so you never forget! export catalog and previews to share with others Bug fix where images were not saving correctly when a previous name was used in a&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wd9xd1/update_to_my_comfyui_style_explorer/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
