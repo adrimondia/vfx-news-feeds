@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-09-25T06:30:25+00:00</updated>
+<updated>2026-09-25T08:00:54+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
 <entry>
 <id>https://github.com/leejet/stable-diffusion.cpp</id><title>leejet/stable-diffusion.cpp</title>
@@ -121,6 +121,15 @@
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 4 · compositing, vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;https://www.facebook.com/share/v/1C7uZV1yBy/ Hey guys, look at my first vfx breakdown as a visual effect artist beginner, no professional training just DIY, im a computer science student and planning to shift jn multimedia arts, do you think I have what it takes to become a good VFX Artist,😔 submitted by /u/Time_Comfortable_314 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wpkzzk/my_first_vfx_compositing/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wpkigs/fight_h3_consistency_experiment_1/</id><title>FIGHT - H3 CONSISTENCY EXPERIMENT #1</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wpkigs/fight_h3_consistency_experiment_1/"/>
+<published>2026-09-25T02:22:07+00:00</published><updated>2026-09-25T02:22:07+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="consistency"/>
+<summary>Playing with methods to keep consistency over time. All clips were created in one generation. The two character sheets were fed in for each of three sections and in section 2 and 3 the last 3 seconds of video (at half the resolution) was fed in as reference. As soon as I dial this in I'll post the w</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Playing with methods to keep consistency over time. All clips were created in one generation. The two character sheets were fed in for each of three sections and in section 2 and 3 the last 3 seconds of video (at half the resolution) was fed in as reference. As soon as I dial this in I'll post the workflow. submitted by /u/Tokyo_Jab [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wpkigs/fight_h3_consistency_experiment_1/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wpjjcd/minimax_h3_running_as_a_realtime_interactive/</id><title>MiniMax H3 running as a real-time interactive avatar on Intel Arc Pro B70s</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wpjjcd/minimax_h3_running_as_a_realtime_interactive/"/>
 <published>2026-09-25T01:33:56+00:00</published><updated>2026-09-25T01:33:56+00:00</updated>
@@ -163,6 +172,15 @@
 <category term="comfyui"/>
 <summary>Someone please help, I'm getting this error and I'm using browser version of comfyui not the desktop app. submitted by /u/PronitaSen [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Someone please help, I'm getting this error and I'm using browser version of comfyui not the desktop app. submitted by /u/PronitaSen [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wph9ax/error_this_workflow_was_created_with_a_newer/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wpdrhp/has_anyone_figured_out_a_segmented_long_video/</id><title>Has anyone figured out a segmented long video generation with H3 that doesn't degrade quality?</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wpdrhp/has_anyone_figured_out_a_segmented_long_video/"/>
+<published>2026-09-24T21:11:27+00:00</published><updated>2026-09-24T21:11:27+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="video generation"/>
+<summary>I've tried a few workflows that used latents and still, there is always degradation, very noticable by the third segment. submitted by /u/Delphoi_Studio [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · video generation&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I've tried a few workflows that used latents and still, there is always degradation, very noticable by the third segment. submitted by /u/Delphoi_Studio [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wpdrhp/has_anyone_figured_out_a_segmented_long_video/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1wpb80s/minimax_h3_ref2va_how_do_you_get_a_character_from/</id><title>MiniMax H3 Ref2VA: how do you get a character from a flat studio reference sheet lit by the environment reference?</title>
@@ -328,6 +346,21 @@
 <category term="controlnet"/>
 <summary>code: https://github.com/aigc-apps/VideoX-Fun Qwen-Image-2.1-Fun-Controlnet-Union: https://huggingface.co/alibaba-pai/Qwen-Image-2.1-Fun-Controlnet-Union Qwen-Image-2.1-Fun-Acc-LoRAs: https://huggingface.co/alibaba-pai/Qwen-Image-2.1-Fun-Acc-LoRAs Feedback and needs from the open-source community ar</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · controlnet&lt;/small&gt;&lt;/p&gt;&lt;p&gt;code: https://github.com/aigc-apps/VideoX-Fun Qwen-Image-2.1-Fun-Controlnet-Union: https://huggingface.co/alibaba-pai/Qwen-Image-2.1-Fun-Controlnet-Union Qwen-Image-2.1-Fun-Acc-LoRAs: https://huggingface.co/alibaba-pai/Qwen-Image-2.1-Fun-Acc-LoRAs Feedback and needs from the open-source community are essential for the ongoing training and iteration of our models. submitted by /u/hkunzhe [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wp1zju/we_open_sourced_the_controlnet_and_4_steps_acc/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wp1e4a/h3_for_16mp_images_and_image_editing_comfyui_edit/</id><title>H3 for 16mp images and image editing. ComfyUI edit + inpaint workflows for Mac + Cuda</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wp1e4a/h3_for_16mp_images_and_image_editing_comfyui_edit/"/>
+<published>2026-09-24T13:17:22+00:00</published><updated>2026-09-24T13:17:22+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="upscaling"/>
+<category term="upscaler"/>
+<category term="inpainting"/>
+<category term="image editing"/>
+<category term="rendering"/>
+<category term="comfyui"/>
+<category term="minimax"/>
+<summary>&gt;&gt;&gt; Qwen-image 2.1 is great for image editing, but this is what I'd been using up until the release, and still have some uses for. I've been using MiniMax H3 as an image generator and editor. This all runs fine locally on my M5 Macbook pro with 48 GB. You don't need a big GPU, but 36gb of ram probab</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 9 · upscaling, upscaler, inpainting, image editing, rendering, comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;&amp;gt;&amp;gt;&amp;gt; Qwen-image 2.1 is great for image editing, but this is what I'd been using up until the release, and still have some uses for. I've been using MiniMax H3 as an image generator and editor. This all runs fine locally on my M5 Macbook pro with 48 GB. You don't need a big GPU, but 36gb of ram probably to be comfortable. I'm keeping H3 as an extra tool because it goes a lot bigger than Qwen. It also uses the H3 weights I already have for video, so there's no second model to download on a pod for a quick edit. Mostly I use it for clients: large images for high DPI prints. Going straight to 16 MP looked fine until I zoomed in, and more steps barely helped. Rendering at 4 MP, upscaling 2x with t&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wp1e4a/h3_for_16mp_images_and_image_editing_comfyui_edit/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1woyyzm/qwen_image_21_fun_controlnet_union_from_alibaba/</id><title>Qwen Image 2.1 Fun ControlNet Union From Alibaba</title>
@@ -6833,34 +6866,5 @@
 <category term="lora"/>
 <summary>This update: lora preview catalog node added (You need to organise your lora) Put your lora files in a file the lora folder and name it the Model for example Krea 2, in the Krea 2 folder you can make more folders for the kind of lora they are for example anime, sliders, or what ever group of lora th</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;This update: lora preview catalog node added (You need to organise your lora) Put your lora files in a file the lora folder and name it the Model for example Krea 2, in the Krea 2 folder you can make more folders for the kind of lora they are for example anime, sliders, or what ever group of lora they belong to. the lora gallery will add dropdowns for you do navigate and find them easily. when you generate a preview image you like for that Lora you can click save and it adds it to the gallery. you can also safe the trigger words from the node so you never forget! export catalog and previews to share with others Bug fix where images were not saving correctly when a previous name was used in a&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wd9xd1/update_to_my_comfyui_style_explorer/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wd9hal/true_10bit_video_workflow/</id><title>True 10bit Video Workflow</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wd9hal/true_10bit_video_workflow/"/>
-<published>2026-09-11T07:41:54+00:00</published><updated>2026-09-11T07:41:54+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="rendering"/>
-<category term="comfyui"/>
-<summary>I have had little luck finding a tutorial on building a true H3 10bit (ProRes HQ) workflow. AI claims you just need to install an advanced save node that allows you to pick ProRes and HQ or 4444, etc. But then when you dig into it, and begin to ask questions, while ComfyUI processes in full floating</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · rendering, comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I have had little luck finding a tutorial on building a true H3 10bit (ProRes HQ) workflow. AI claims you just need to install an advanced save node that allows you to pick ProRes and HQ or 4444, etc. But then when you dig into it, and begin to ask questions, while ComfyUI processes in full floating point, there are bottlenecks that crush the full bits down to 8bit, rendering the final result 8bit. One example is preview nodes, that apparently force 8bit, another is supposedly a plain jane VAE Decode, and the deeper I dig the more mysterious things get. I can't imagine nobody in the Open Source community does not want to output TRUE 10bit or higher output. The problem with 8bit becomes clear&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wd9hal/true_10bit_video_workflow/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1wd9h2m/how_i_learnt_blender_and_transitioned_from_film/</id><title>How I learnt blender and transitioned from film to VFX in the last 2 years</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wd9h2m/how_i_learnt_blender_and_transitioned_from_film/"/>
-<published>2026-09-11T07:41:29+00:00</published><updated>2026-09-11T07:41:29+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="vfx"/>
-<category term="blender"/>
-<summary>submitted by /u/Lawson_Cross [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 4 · vfx, blender&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/Lawson_Cross [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wd9h2m/how_i_learnt_blender_and_transitioned_from_film/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wd8wlg/cueforge_for_comfyui_aka_comfyuimobilefrontend/</id><title>CueForge for ComfyUI (a.k.a. comfyui-mobile-frontend) version 3.3.2 released!</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wd8wlg/cueforge_for_comfyui_aka_comfyuimobilefrontend/"/>
-<published>2026-09-11T07:07:12+00:00</published><updated>2026-09-11T07:07:12+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<summary>Hey all! squashed a few bugs and fixed some cosmetic issues in this latest smallish release. https://github.com/cosmicbuffalo/comfyui-mobile-frontend/releases/tag/v3.3.2 Stay tuned for the next one, which is going to ship alongside a new standalone custom node aimed at providing a solid multi-user a</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey all! squashed a few bugs and fixed some cosmetic issues in this latest smallish release. https://github.com/cosmicbuffalo/comfyui-mobile-frontend/releases/tag/v3.3.2 Stay tuned for the next one, which is going to ship alongside a new standalone custom node aimed at providing a solid multi-user auth layer for both the stock and CueForge frontends! Once that multi-user auth release ships, the CueForge iOS app will come shortly after! (I needed something to be able to provide a publicly accessible server to apple for review with, and I've gotten a few requests to do something about authentication 😄 ). submitted by /u/galactic_lobster [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wd8wlg/cueforge_for_comfyui_aka_comfyuimobilefrontend/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
