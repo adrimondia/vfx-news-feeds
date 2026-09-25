@@ -2,8 +2,57 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-09-25T00:30:25+00:00</updated>
+<updated>2026-09-25T02:30:32+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wpjjcd/minimax_h3_running_as_a_realtime_interactive/</id><title>MiniMax H3 running as a real-time interactive avatar on Intel Arc Pro B70s</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wpjjcd/minimax_h3_running_as_a_realtime_interactive/"/>
+<published>2026-09-25T01:33:56+00:00</published><updated>2026-09-25T01:33:56+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="video generation"/>
+<category term="avatar"/>
+<category term="render"/>
+<category term="minimax"/>
+<category term="generative video"/>
+<summary>I got MiniMax H3 running as a real-time interactive avatar on Intel Arc Pro B70s. Instead of generating a video, waiting for it to finish, and playing it back, I built a pipeline where the avatar can actually respond to questions as they come in. The basic flow is: User asks a question → LLM generat</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 7 · video generation, avatar, render, minimax, generative video&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I got MiniMax H3 running as a real-time interactive avatar on Intel Arc Pro B70s. Instead of generating a video, waiting for it to finish, and playing it back, I built a pipeline where the avatar can actually respond to questions as they come in. The basic flow is: User asks a question → LLM generates the response → speech is generated → H3 renders the avatar → frames are streamed back in near real time. I’m running the workload locally across Intel Arc Pro B70 32GB GPUs. The interesting part has been figuring out how to keep generation moving fast enough that the experience feels more like talking to someone than watching an AI-generated clip. H3 is doing the visual/avatar generation, while&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wpjjcd/minimax_h3_running_as_a_realtime_interactive/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wpj7io/krea_2_crashes_my_pc_any_help/</id><title>Krea 2 Crashes My PC... any help?</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wpj7io/krea_2_crashes_my_pc_any_help/"/>
+<published>2026-09-25T01:17:23+00:00</published><updated>2026-09-25T01:17:23+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="minimax"/>
+<category term="ltx"/>
+<summary>Ive tried safetensors and ggufs... Krea 2 will always crash my PC after a few generations. I can run Minimax H3, LTX 2.5, Qwen Image Edit, Klein, EVERYTHING else. I can run Pony with Zimage Turb and qwen in the same workflow... But Krea 2, I love... but crashes everytime. RTX 3070 w/8GB RAM, 80 GB S</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · minimax, ltx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Ive tried safetensors and ggufs... Krea 2 will always crash my PC after a few generations. I can run Minimax H3, LTX 2.5, Qwen Image Edit, Klein, EVERYTHING else. I can run Pony with Zimage Turb and qwen in the same workflow... But Krea 2, I love... but crashes everytime. RTX 3070 w/8GB RAM, 80 GB System RAM... Anyone else have this happen? EDIT: Startup Params. --windows-standalone-build --disable-cuda-malloc --disable-pinned-memory --disable-async-offload --fast fp16_accumulation --disable-api-nodes --disable-metadata --cache-classic --disable-auto-launch submitted by /u/peigelee [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wpj7io/krea_2_crashes_my_pc_any_help/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wphoaf/motion_transfer_onto_a_nonhumanoid_blob_character/</id><title>Motion transfer onto a non-humanoid blob character, does any open workflow handle this?</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wphoaf/motion_transfer_onto_a_nonhumanoid_blob_character/"/>
+<published>2026-09-25T00:02:39+00:00</published><updated>2026-09-25T00:02:39+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="image-to-video"/>
+<category term="comfyui"/>
+<category term="kling"/>
+<category term="runway"/>
+<summary>I have a kawaii blob character (no arms/legs, minimal face) I want to animate by copying motion from a reference video, in this case an 11s clip of a plush toy dancing. Everything I've tried assumes a human body somewhere in the pipeline: Kling Motion Control — rejects the plush video ("no valid cha</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · image-to-video, comfyui, kling, runway&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I have a kawaii blob character (no arms/legs, minimal face) I want to animate by copying motion from a reference video, in this case an 11s clip of a plush toy dancing. Everything I've tried assumes a human body somewhere in the pipeline: Kling Motion Control — rejects the plush video ("no valid characters detected") Viggle Mix — transfers the motion but morphs my blob into a human anime girl Runway Act-2 and YouCam's motion swap — both hard-fail face detection on the blob's face Is there an open-source approach (ComfyUI workflow, WanAnimate, MimicMotion, or similar) that can do motion transfer where both the reference and the character are non-humanoid? Or is pose/skeleton-based transfer fu&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wphoaf/motion_transfer_onto_a_nonhumanoid_blob_character/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wpb80s/minimax_h3_ref2va_how_do_you_get_a_character_from/</id><title>MiniMax H3 Ref2VA: how do you get a character from a flat studio reference sheet lit by the environment reference?</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wpb80s/minimax_h3_ref2va_how_do_you_get_a_character_from/"/>
+<published>2026-09-24T19:31:41+00:00</published><updated>2026-09-24T19:31:41+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="relighting"/>
+<category term="relight"/>
+<category term="render"/>
+<category term="comfyui"/>
+<category term="minimax"/>
+<category term="multi-view"/>
+<summary>I'm using MiniMax H3 reference-to-video (int8, native ComfyUI node, 3 reference images) to place a consistent character into a specific location: Picture 1: a multi-view character sheet, flat neutral studio light, white backdrop, the way every guide says to shoot identity references Picture 2: a gra</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 7 · relighting, relight, render, comfyui, minimax, multi-view&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I'm using MiniMax H3 reference-to-video (int8, native ComfyUI node, 3 reference images) to place a consistent character into a specific location: Picture 1: a multi-view character sheet, flat neutral studio light, white backdrop, the way every guide says to shoot identity references Picture 2: a gray mannequin render for the pose only Picture 3: an empty photo of the location (snowy city street, blue hour, no people) The prompt follows the official ref-mode guide: the location is declared as its own Subject with its features listed and fully_preserved, the character is partially_preserved with an explicit statement that her lighting, skin tone and contrast come from the location and that Pic&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wpb80s/minimax_h3_ref2va_how_do_you_get_a_character_from/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wpaqsu/krea_2_inpainting_edit_lora/</id><title>Krea 2 inpainting edit LoRA</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wpaqsu/krea_2_inpainting_edit_lora/"/>
@@ -27,6 +76,16 @@
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 3 · vfx, visual effects, post-production&lt;/small&gt;&lt;/p&gt;&lt;p&gt;•Provide a 20% base credit for qualifying traditional post-production and visual effects work when at least 75% of the total costs for the respective VFX and TPP services are incurred in the United States. submitted by /u/KidFl4sh [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wpabph/so_whos_moving_to_the_states/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wp8zah/louisstanislasxavier_of_france_future_king_louis/</id><title>Louis-Stanislas-Xavier of France, future King Louis XV of France</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wp8zah/louisstanislasxavier_of_france_future_king_louis/"/>
+<published>2026-09-24T18:06:53+00:00</published><updated>2026-09-24T18:06:53+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="animation"/>
+<category term="comfyui"/>
+<summary>Reviving the timeless masterpieces of the Old Masters with AI ✨ Watch as Louis-Stanislas-Xavier of France, future King Louis XV of France by Élisabeth Vigée Le Brun comes to life in this beautiful animation created with ComfyUI. Classic art meets modern technology — every detail, brushstroke, and em</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · animation, comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Reviving the timeless masterpieces of the Old Masters with AI ✨ Watch as Louis-Stanislas-Xavier of France, future King Louis XV of France by Élisabeth Vigée Le Brun comes to life in this beautiful animation created with ComfyUI. Classic art meets modern technology — every detail, brushstroke, and emotion brought into gentle motion. From the Golden Age of painting to your screen. Pure aesthetic bliss . submitted by /u/VictorVisuals [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wp8zah/louisstanislasxavier_of_france_future_king_louis/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wp8pin/update_my_free_krea_2_character_lora_library_went/</id><title>Update: my free Krea 2 character LoRA library went from 18 → 70 models. Here’s the full workflow I’m using to train them.</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wp8pin/update_my_free_krea_2_character_lora_library_went/"/>
 <published>2026-09-24T17:57:06+00:00</published><updated>2026-09-24T17:57:06+00:00</updated>
@@ -45,6 +104,16 @@
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey! We published a set of a few-step LoRAs: https://huggingface.co/PrunaAI/Pruna-Qwen-Image-2.1 - Generate or edit images in just 5 or 8 steps instead of 40. Choose 5 steps for maximum speed or 8 steps for the best balance. - The 8-step adapter is our recommended default. It supports text-to-image and single- or multi-image editing at 1K resolution, with up to three reference images. - The LoRA adapters load directly on top of Qwen-Image-2.1, while the pipeline remains unchanged. Each adapter uses its own optimized sigma schedule and runs without CFG. submitted by /u/sdiazlor [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wp6la7/new_fewstep_lora_adapters_for_qwenimage21_5x/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wp6l43/prompt_studio_a_multimodel_prompt_writer/</id><title>Prompt Studio - a multi-model prompt writer</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wp6l43/prompt_studio_a_multimodel_prompt_writer/"/>
+<published>2026-09-24T16:37:59+00:00</published><updated>2026-09-24T16:37:59+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<category term="minimax"/>
+<summary>Big credit first: this is heavily inspired by and forked from duckyshell/ComfyUI-MiniMaxH3-Prompt-Writer . That project is the base this is built on and most of the credit goes to them. I just generalized the idea from a single target into a multi-target workspace. What it is: pick a generation targ</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Big credit first: this is heavily inspired by and forked from duckyshell/ComfyUI-MiniMaxH3-Prompt-Writer . That project is the base this is built on and most of the credit goes to them. I just generalized the idea from a single target into a multi-target workspace. What it is: pick a generation target, write a plain language brief, add optional media references, and get an editable prompt in the format that target expects. It's a UI extension, not a workflow node, it doesn't run models or queue renders, it writes the prompt text you paste into your workflow. There's also a standalone version (Windows, with a Linux launcher for repo checkouts) if you'd rather not run it inside ComfyUI. Curren&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wp6l43/prompt_studio_a_multimodel_prompt_writer/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
 <id>https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/</id><title>Introducing Gemini 3.8 Live with Live Avatar</title>
 <link rel="alternate" href="https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/"/>
 <published>2026-09-24T16:20:39+00:00</published><updated>2026-09-24T16:20:39+00:00</updated>
@@ -52,6 +121,15 @@
 <category term="avatar"/>
 <summary></summary>
 <content type="html">&lt;p&gt;&lt;small&gt;Google DeepMind · score 2 · avatar&lt;/small&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wp5wtd/qwenimage_21_prompt_enhancer_in_comfyui_1417/</id><title>Qwen-Image 2.1 prompt enhancer in ComfyUI: 1.4–1.7× faster with MTP, plus uncensored (heretic) versions</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wp5wtd/qwenimage_21_prompt_enhancer_in_comfyui_1417/"/>
+<published>2026-09-24T16:12:24+00:00</published><updated>2026-09-24T16:12:24+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<summary>submitted by /u/mozophe [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/mozophe [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wp5wtd/qwenimage_21_prompt_enhancer_in_comfyui_1417/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wp5vix/qwenimage_21_prompt_enhancer_in_comfyui_1417/</id><title>Qwen-Image 2.1 prompt enhancer in ComfyUI: 1.4–1.7× faster with MTP, plus uncensored (heretic) versions</title>
@@ -75,6 +153,28 @@
 <category term="cinematic"/>
 <summary>The workflow is incredibly simple, start with the default workflow from comfyui and then: - Euler + Beta at 8 steps. - minimax_h3_turbo_v4_step600_ema lora at 1.1 strength. - MMH3-VideoAgeSlider-V1 lora at 3.0 strength (it's makes the video effect more authentic). (at 0 seconds: wide shot showing th</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 7 · tracking, camera tracking, comfyui, minimax, lora, cinematic&lt;/small&gt;&lt;/p&gt;&lt;p&gt;The workflow is incredibly simple, start with the default workflow from comfyui and then: - Euler + Beta at 8 steps. - minimax_h3_turbo_v4_step600_ema lora at 1.1 strength. - MMH3-VideoAgeSlider-V1 lora at 3.0 strength (it's makes the video effect more authentic). (at 0 seconds: wide shot showing the fat man standing in the street, a massive giant shark emerging behind him, street cracking and dust rising). (at 1 second: the man jumps backward onto the shark’s back as it bursts fully from the ground, camera tracking the motion from a side angle, debris and dust flying). (at 2 seconds: medium shot from the side, the man balances heroically on the shark’s back as it glides forward, slow-motion&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wp5cmi/minimax_h3/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wp51s9/64_video_clips_27_audio_clips_and_9_references/</id><title>64 video clips, 27 audio clips and 9 references, all staged on one timeline inside ComfyUI: References update for Sonder Editor, a free and open-source timeline video editor</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wp51s9/64_video_clips_27_audio_clips_and_9_references/"/>
+<published>2026-09-24T15:40:27+00:00</published><updated>2026-09-24T15:40:27+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<category term="wan"/>
+<category term="minimax"/>
+<category term="ltx"/>
+<category term="lora"/>
+<summary>I used the workflow from my Comfy H3 Sync Challenge submission for this video: MiniMax H3 References workflow The first pass was at about 0.2 MP with er_sde , sgm_uniform , 10 steps and the turbo LoRA at 0.8. Then a second pass at about 1 MP with the same sampler and scheduler, 12 steps, denoise at </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 6 · comfyui, wan, minimax, ltx, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I used the workflow from my Comfy H3 Sync Challenge submission for this video: MiniMax H3 References workflow The first pass was at about 0.2 MP with er_sde , sgm_uniform , 10 steps and the turbo LoRA at 0.8. Then a second pass at about 1 MP with the same sampler and scheduler, 12 steps, denoise at 0.75 and the turbo LoRA at 0.5. After that, a 1080p pass with 4 steps and denoise at 0.4. I also tried running the final video through a DLSS5 workflow and liked the results enough to keep them. For the audio, I tried generating the sound effects and soundtrack together, but gave up and did them separately with H3. If you want to look through the setup, here’s the project with all the assets used &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wp51s9/64_video_clips_27_audio_clips_and_9_references/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wp3ydl/i_built_a_resumable_huggingfacecivitai_downloader/</id><title>I built a resumable HuggingFace/Civitai downloader that also sorts and manages your ComfyUI model folders</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wp3ydl/i_built_a_resumable_huggingfacecivitai_downloader/"/>
+<published>2026-09-24T14:59:17+00:00</published><updated>2026-09-24T14:59:17+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<summary>I got tired of 20 GB downloads starting over whenever Civitai's or HuggingFace's expiring links broke, so I wrote a small downloader. It grew into a manager for my whole models folder. **Downloading** - Paste any HF or Civitai link. Big files resume after a dropped connection, sleep or a reboot: it </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I got tired of 20 GB downloads starting over whenever Civitai's or HuggingFace's expiring links broke, so I wrote a small downloader. It grew into a manager for my whole models folder. **Downloading** - Paste any HF or Civitai link. Big files resume after a dropped connection, sleep or a reboot: it gets a fresh link instead of restarting. - Several connections per file, and the SHA256 is checked before the file is put in place. - It asks where each file goes, and suggests the folder where your similar models already are. **Your library** - Reads all your model folders, including several roots like ComfyUI's extra_model_paths. It shows what's there, what went missing and what didn't come from&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wp3ydl/i_built_a_resumable_huggingfacecivitai_downloader/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wp392j/minimax_h3_speedups_measured/</id><title>MiniMax H3 speed-ups, measured</title>
@@ -105,6 +205,15 @@
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · controlnet&lt;/small&gt;&lt;/p&gt;&lt;p&gt;code: https://github.com/aigc-apps/VideoX-Fun Qwen-Image-2.1-Fun-Controlnet-Union: https://huggingface.co/alibaba-pai/Qwen-Image-2.1-Fun-Controlnet-Union Qwen-Image-2.1-Fun-Acc-LoRAs: https://huggingface.co/alibaba-pai/Qwen-Image-2.1-Fun-Acc-LoRAs Feedback and needs from the open-source community are essential for the ongoing training and iteration of our models. submitted by /u/hkunzhe [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wp1zju/we_open_sourced_the_controlnet_and_4_steps_acc/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
+<id>https://www.reddit.com/r/comfyui/comments/1woyyzm/qwen_image_21_fun_controlnet_union_from_alibaba/</id><title>Qwen Image 2.1 Fun ControlNet Union From Alibaba</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1woyyzm/qwen_image_21_fun_controlnet_union_from_alibaba/"/>
+<published>2026-09-24T11:22:06+00:00</published><updated>2026-09-24T11:22:06+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="controlnet"/>
+<summary>submitted by /u/fruesome [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · controlnet&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/fruesome [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1woyyzm/qwen_image_21_fun_controlnet_union_from_alibaba/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1woyyjn/qwen_image_21_fun_controlnet_union_from_alibaba/</id><title>Qwen Image 2.1 Fun ControlNet Union From Alibaba</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1woyyjn/qwen_image_21_fun_controlnet_union_from_alibaba/"/>
 <published>2026-09-24T11:21:23+00:00</published><updated>2026-09-24T11:21:23+00:00</updated>
@@ -115,6 +224,15 @@
 <category term="dit"/>
 <summary>Qwen-Image-2.1-Fun-Controlnet-Union is a ControlNet-Union branch for Qwen-Image 2.1 (the flow-matching text-to-image DiT). A single checkpoint drives 8 structural control conditions (Canny, Depth, Grayscale, HED, Lineart, MLSD, Pose, Scribble) and image inpainting, without per-condition weights. The</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 5 · inpainting, comfyui, controlnet, dit&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Qwen-Image-2.1-Fun-Controlnet-Union is a ControlNet-Union branch for Qwen-Image 2.1 (the flow-matching text-to-image DiT). A single checkpoint drives 8 structural control conditions (Canny, Depth, Grayscale, HED, Lineart, MLSD, Pose, Scribble) and image inpainting, without per-condition weights. The checkpoint holds only the control branch ( control_img_in plus 16 control_blocks , about 7.0 GB) and is loaded on top of the base Qwen-Image 2.1 transformer. Kijai is working on comfy support: https://github.com/Comfy-Org/ComfyUI/pull/16519 https://huggingface.co/alibaba-pai/Qwen-Image-2.1-Fun-Controlnet-Union https://huggingface.co/Kijai/MiniMax-H3-experimental/tree/main/model_patches submitted &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1woyyjn/qwen_image_21_fun_controlnet_union_from_alibaba/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1woxjp5/custom_node_enhance_comfyuis_template_library/</id><title>Custom Node: enhance ComfyUI's Template Library with instant filters for Free/Local, Partner, and Credit workflows, smart Model Families, and custom sorting</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1woxjp5/custom_node_enhance_comfyuis_template_library/"/>
+<published>2026-09-24T10:01:35+00:00</published><updated>2026-09-24T10:01:35+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<summary>Hi, everyone. This custom node, which is purely UX-focused, is designed to address an issue caused by the latest changes to ComfyUI’s template search interface. In fact, some of the filters and sorting options that were previously available have disappeared. Since I couldn’t find any similar solutio</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi, everyone. This custom node, which is purely UX-focused, is designed to address an issue caused by the latest changes to ComfyUI’s template search interface. In fact, some of the filters and sorting options that were previously available have disappeared. Since I couldn’t find any similar solutions—and because I found them useful—I decided to restore this functionality using a dedicated custom node. https://github.com/linus74/ComfyUI-Clean-Templates It simply excludes or includes ComfyUI templates from the visible results based on whether they come from a local source or via the API, and on the template type. I’m sharing this in the hope that it might be useful to someone. And I’m happy t&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1woxjp5/custom_node_enhance_comfyuis_template_library/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wowztq/qwen_image_21s_editing_capabilities_are/</id><title>Qwen Image 2.1's editing capabilities are mind-blowing! Generating Character Design Sheets without any LoRAs</title>
@@ -129,6 +247,16 @@
 <category term="consistency"/>
 <summary>Hey everyone! In my previous post , I mentioned that alongside Qwen Image 2.1, fine-tuned models called Prompt Enhancers (PE) were released to optimize user prompts. They help refine prompts for standard text-to-image (T2I), image-to-image (I2I), and reference-based generation. Back then, we noticed</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 6 · video generation, image editing, minimax, seedance, lora, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey everyone! In my previous post , I mentioned that alongside Qwen Image 2.1, fine-tuned models called Prompt Enhancers (PE) were released to optimize user prompts. They help refine prompts for standard text-to-image (T2I), image-to-image (I2I), and reference-based generation. Back then, we noticed that using PE for T2I isn't always worth it, as the results often fall short compared to using raw prompts. However, when it comes to I2I , the PE setup truly shines - its ability to write precise instructions and strictly follow the prompt is genuinely impressive. Today, I want to show you what Qwen Image 2.1 combined with PE is capable of. I created a Workflow that takes a reference image of an&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wowztq/qwen_image_21s_editing_capabilities_are/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wowdp8/intel_arc_b580_supports_int8_convrot_acceleration/</id><title>Intel Arc B580 supports INT8 ConvRot acceleration!</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wowdp8/intel_arc_b580_supports_int8_convrot_acceleration/"/>
+<published>2026-09-24T08:47:35+00:00</published><updated>2026-09-24T08:47:35+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<category term="flux"/>
+<summary>https://preview.redd.it/v9ikxpyflfrh1.png?width=946&amp;format=png&amp;auto=webp&amp;s=d35a7c6fd5d571ec96532a9ff6b585714328d5e4 I managed to get INT8 ConvRot acceleration working properly on an Intel Arc B580 using Intel LLM Scaler in ComfyUI. I used Codex for the installation. I gave it the path to my portable</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui, flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;https://preview.redd.it/v9ikxpyflfrh1.png?width=946&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=d35a7c6fd5d571ec96532a9ff6b585714328d5e4 I managed to get INT8 ConvRot acceleration working properly on an Intel Arc B580 using Intel LLM Scaler in ComfyUI. I used Codex for the installation. I gave it the path to my portable ComfyUI build and asked it to integrate LLM Scaler so that all the acceleration features would work. After a warm-up run, I got the following average results: Krea 2 INT8 ConvRot 768×768 — 10.27 seconds 1024×1024 — 15.71 seconds 1920×1088 — 30.21 seconds Flux 2 Klein 9B INT8 ConvRot 768×768 — 3.90 seconds 1024×1024 — 6.11 seconds 1920×1088 — 12.58 seconds The acceleration really works, generation&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wowdp8/intel_arc_b580_supports_int8_convrot_acceleration/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://github.com/HKUDS/CLI-Anything</id><title>HKUDS/CLI-Anything</title>
@@ -178,6 +306,18 @@
 <category term="lora"/>
 <summary>Hey Guys, Two weeks ago I introduced a Visual RefMod Picker, that provided a visual approach to work with RefMod, while also including a Batch RefMod Generator. A user on Github asked for ways to be able to change the Prompt_Hint they return as well as have it generate the subject_definitions for Mi</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · compositing, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey Guys, Two weeks ago I introduced a Visual RefMod Picker, that provided a visual approach to work with RefMod, while also including a Batch RefMod Generator. A user on Github asked for ways to be able to change the Prompt_Hint they return as well as have it generate the subject_definitions for Minimax. Thinking about it, the simplest way to achieve this was to add all of that to the experimental Prompt Composer I had created a while back. As I was getting back into playing with Krea 2, I realized that I could also add Lora support and have be useful for both. The idea behind Prompt Composer is to define characters, environments, attire, styles or more and then easily mix and match them, a&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wotubr/prompt_composer_now_with_refmod_and_lora_support/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wothwy/generate_seedance_25_through_higgsfield_in/</id><title>🔥 Generate Seedance 2.5 through Higgsfield in ComfyUI with SOYLAB Comfy Router</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wothwy/generate_seedance_25_through_higgsfield_in/"/>
+<published>2026-09-24T05:52:01+00:00</published><updated>2026-09-24T05:52:01+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="image-to-video"/>
+<category term="image editing"/>
+<category term="comfyui"/>
+<category term="seedance"/>
+<summary>[🔥 Generate Seedance 2.5 through Higgsfield in ComfyUI with SOYLAB Comfy Router] SOYLAB Comfy Router is a local ComfyUI custom node that calls Comfy Router using your personal Comfy API key. You can choose the model and execution provider separately, then connect image, video, or audio inputs suppor</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 6 · image-to-video, image editing, comfyui, seedance&lt;/small&gt;&lt;/p&gt;&lt;p&gt;[🔥 Generate Seedance 2.5 through Higgsfield in ComfyUI with SOYLAB Comfy Router] SOYLAB Comfy Router is a local ComfyUI custom node that calls Comfy Router using your personal Comfy API key. You can choose the model and execution provider separately, then connect image, video, or audio inputs supported by that model. Key features • Model selection: According to the repository, 154 image and video models are registered. You can search by model name or ID. • Provider selection: Choose a supported execution route, such as Comfy, Higgsfield, or fal. Available providers vary by model. • Inputs for each task: With Seedance 2.5, you can connect text, first and last frames, or reference images accor&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wothwy/generate_seedance_25_through_higgsfield_in/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wothsh/from_a_single_image_to_gaussian_splats_another/</id><title>From a Single Image to Gaussian Splats (another tutorial)</title>
@@ -6757,14 +6897,5 @@
 <category term="comfyui"/>
 <summary>https://civitai.com/models/2928691/minimax-h3-camera-control submitted by /u/Emotional_Example_12 [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;https://civitai.com/models/2928691/minimax-h3-camera-control submitted by /u/Emotional_Example_12 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wd49kz/camera_path_comfyui_h3/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1wd0xde/what_vfx_sorcery_is_this_need_some/</id><title>What vfx sorcery is this need some</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wd0xde/what_vfx_sorcery_is_this_need_some/"/>
-<published>2026-09-11T00:32:36+00:00</published><updated>2026-09-11T00:32:36+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="vfx"/>
-<summary>Delete if not allowed guidance submitted by /u/QuirkyDiscount772 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Delete if not allowed guidance submitted by /u/QuirkyDiscount772 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wd0xde/what_vfx_sorcery_is_this_need_some/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
