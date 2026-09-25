@@ -2,8 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-09-25T10:30:54+00:00</updated>
+<updated>2026-09-25T12:31:01+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wpt3lp/qwen_image_21_new_bsf_lora_head_swap_test_results/</id><title>Qwen Image 2.1 + new BSF lora head swap test results.</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wpt3lp/qwen_image_21_new_bsf_lora_head_swap_test_results/"/>
+<published>2026-09-25T10:48:05+00:00</published><updated>2026-09-25T10:48:05+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="face swap"/>
+<category term="lora"/>
+<summary>Lora strength @ 1.0, sampler res_multistep/beta @ 20steps. Euler/simple makes images more soft/blurred. Seed is 42 if you want to reproduce. Lora links: BFS - Best Face Swap - Qwen 2.1 Image | Qwen 2.1 LoRA | Civitai bfs_head_v1_qwen_2.1.safetensors · Alissonerdx/BFS-Best-Face-Swap at main And big t</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · face swap, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Lora strength @ 1.0, sampler res_multistep/beta @ 20steps. Euler/simple makes images more soft/blurred. Seed is 42 if you want to reproduce. Lora links: BFS - Best Face Swap - Qwen 2.1 Image | Qwen 2.1 LoRA | Civitai bfs_head_v1_qwen_2.1.safetensors · Alissonerdx/BFS-Best-Face-Swap at main And big thanks for making this lora! submitted by /u/Dunc4n1d4h0 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wpt3lp/qwen_image_21_new_bsf_lora_head_swap_test_results/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wpra5i/frankly_workflow_longish_and_consistent_h3_minimax/</id><title>FRANKLY (WORKFLOW) - Longish and consistent H3 Minimax</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wpra5i/frankly_workflow_longish_and_consistent_h3_minimax/"/>
+<published>2026-09-25T08:57:05+00:00</published><updated>2026-09-25T08:57:05+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="wan"/>
+<category term="minimax"/>
+<category term="lora"/>
+<category term="cinematic"/>
+<summary>The Workflow : https://drive.google.com/file/d/185D3_3QBxBFViXENL0lIDen-tp3Vab6M This is an update to my earlier worflow. I left it at three parts that generate three clips based on the same two references. Part two and three also get 10 seconds of a reduced resolution look at what came before. It d</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 5 · wan, minimax, lora, cinematic&lt;/small&gt;&lt;/p&gt;&lt;p&gt;The Workflow : https://drive.google.com/file/d/185D3_3QBxBFViXENL0lIDen-tp3Vab6M This is an update to my earlier worflow. I left it at three parts that generate three clips based on the same two references. Part two and three also get 10 seconds of a reduced resolution look at what came before. It doesn't have to be full res to get the vibe. The way I use this is keep generating until I like section one, let it run into section two and either tweak the seed or prompt to make it better. Then let it go on to section three. It's similar to a wan SVI workflow I liked. You can run it at low resolution for fast output and only set it higher when you have an output that's good. There is no real ben&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wpra5i/frankly_workflow_longish_and_consistent_h3_minimax/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://github.com/leejet/stable-diffusion.cpp</id><title>leejet/stable-diffusion.cpp</title>
 <link rel="alternate" href="https://github.com/leejet/stable-diffusion.cpp"/>
@@ -6776,45 +6798,5 @@
 <category term="minimax"/>
 <summary>This is a test to recreate a song i generated with Minimax Music3, second half is from YuE2. YuE2 sounded sexy smooth with great clarity but somehow I like that imperfection off tune instrument heard in music3 and vocal :D I just throw everything to Hermes, asking to install YuE2, SheetSage2 and dow</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;This is a test to recreate a song i generated with Minimax Music3, second half is from YuE2. YuE2 sounded sexy smooth with great clarity but somehow I like that imperfection off tune instrument heard in music3 and vocal :D I just throw everything to Hermes, asking to install YuE2, SheetSage2 and download models + setup in CLI. Tell hermes to learn the YuE2 agent SKILL, give hermes the lyric + flac ask to recreate the song. It run into OOM but Hermes saved the day by tinkering with YuE2 setting to make it run on low vram. my system: 5070ti 16gb vram + 32gb sys ram. submitted by /u/wzwowzw0002 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wdf5do/trying_yue2_sheetsage2_on_hermes_cli_no_comfyui/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wdeonx/for_ltx_user_did_you_notice_a_good_difference/</id><title>For LTX user , did you notice a good difference between LTX 2.3 and 2.5 ?</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wdeonx/for_ltx_user_did_you_notice_a_good_difference/"/>
-<published>2026-09-11T12:19:13+00:00</published><updated>2026-09-11T12:19:13+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="ltx"/>
-<summary>submitted by /u/PhilosopherSweaty826 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · ltx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/PhilosopherSweaty826 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wdeonx/for_ltx_user_did_you_notice_a_good_difference/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wddeh8/fasth3live_v120_update/</id><title>FastH3-Live v1.2.0 update</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wddeh8/fasth3live_v120_update/"/>
-<published>2026-09-11T11:20:03+00:00</published><updated>2026-09-11T11:20:03+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="denoising"/>
-<category term="comfyui"/>
-<category term="lora"/>
-<summary>FastH3-Live update. Full details here: https://huggingface.co/datasets/jacokon/fasth3-live v1.1.0 ran at 18 fps, which is 75% of 24 fps. v1.2.0 runs at 22 fps, which is 91.6% of 24 fps. https://reddit.com/link/1wddeh8/video/lyz02ql0gvoh1/player Besides the speed, it now ships a borderless player tha</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · denoising, comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;FastH3-Live update. Full details here: https://huggingface.co/datasets/jacokon/fasth3-live v1.1.0 ran at 18 fps, which is 75% of 24 fps. v1.2.0 runs at 22 fps, which is 91.6% of 24 fps. https://reddit.com/link/1wddeh8/video/lyz02ql0gvoh1/player Besides the speed, it now ships a borderless player that makes streaming and watching easier, plus 400 new scenes. At this speed it is hard to notice that it is running slow at all. The gain came from two places: 1. Acceleration nodes I was using a sage attention I compiled myself. A lot of new acceleration nodes have shown up recently, so I downloaded the well-known ones and tested them. Results: accel stack sampler saved fps sage (baseline) 12.65s 0&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wddeh8/fasth3live_v120_update/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wdd0lj/after_generating_a_video_and_turning_off_the/</id><title>After generating a video and turning off the computer, ComfyUI always crashes when I try to generate a video the following day.</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wdd0lj/after_generating_a_video_and_turning_off_the/"/>
-<published>2026-09-11T11:01:15+00:00</published><updated>2026-09-11T11:01:15+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="minimax"/>
-<summary>I installed the portable version of ComfyUI and use the Minimax H3 Easy model. After installation, I can successfully generate videos from images. However, if I shut down ComfyUI and then try to generate a video later—either shortly after or the next day—it crashes. I try running simple test videos </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I installed the portable version of ComfyUI and use the Minimax H3 Easy model. After installation, I can successfully generate videos from images. However, if I shut down ComfyUI and then try to generate a video later—either shortly after or the next day—it crashes. I try running simple test videos right after launching ComfyUI—low resolution, 3 seconds, 8 steps, and a simple "wave and smile" prompt—or I try generating images via SDXL Turbo. It crashes regardless. I have successfully generated 10-second videos at 512 resolution and 20 steps without any issues—even doing more than 20 in a row. But whenever I shut down and restart ComfyUI, I always get an error. I use a Lenovo ThinkBook laptop&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wdd0lj/after_generating_a_video_and_turning_off_the/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wdcrqh/just_released_minimax_music_production_toolkit_25/</id><title>Just released: MiniMax Music Production Toolkit 2.5 for ComfyUI - new mastering tools and redesigned workflows</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wdcrqh/just_released_minimax_music_production_toolkit_25/"/>
-<published>2026-09-11T10:48:40+00:00</published><updated>2026-09-11T10:48:40+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="minimax"/>
-<summary>Sorry to bother you all again, but I made some huge progress over the last two days with this release. Version 2.5 of my MiniMax Music Production Toolkit is out! This is a big step forward: A complete mastering section, clearer workflows and improvements throughout the toolkit. And sound quality is </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Sorry to bother you all again, but I made some huge progress over the last two days with this release. Version 2.5 of my MiniMax Music Production Toolkit is out! This is a big step forward: A complete mastering section, clearer workflows and improvements throughout the toolkit. And sound quality is even better than the last release. If you’re new to the project, it takes a song idea through prompt creation, MiniMax Music 3 generation, audio enhancement, mastering, cover artwork and export. A separate Audio Enhancement Lab lets you process existing recordings without generating a new song. What’s new in 2.5? Auto-EQ for gentle tonal shaping or reference-track matching Manual 8-band parametric&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wdcrqh/just_released_minimax_music_production_toolkit_25/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
