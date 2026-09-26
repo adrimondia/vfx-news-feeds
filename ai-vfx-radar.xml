@@ -2,8 +2,17 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-09-26T02:30:19+00:00</updated>
+<updated>2026-09-26T04:30:19+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wqdazi/qwen_image_21_turbo_lora_a_curious_case_settings/</id><title>Qwen Image 2.1 + Turbo Lora - A curious case (settings)</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wqdazi/qwen_image_21_turbo_lora_a_curious_case_settings/"/>
+<published>2026-09-26T01:07:07+00:00</published><updated>2026-09-26T01:07:07+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="lora"/>
+<summary>Many of you are enjoying this particular Turbo Lora: (EDIT: specified wrong version initially) https://huggingface.co/Viggle/Qwen-Image-2.1-viggle-turbo/blob/main/Qwen-Image-2.1-viggle-turbo-v0.2.1-6step-lora-r128.safetensors (or r128 variant) I noticed a strange and amazing thing with my particular</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Many of you are enjoying this particular Turbo Lora: (EDIT: specified wrong version initially) https://huggingface.co/Viggle/Qwen-Image-2.1-viggle-turbo/blob/main/Qwen-Image-2.1-viggle-turbo-v0.2.1-6step-lora-r128.safetensors (or r128 variant) I noticed a strange and amazing thing with my particular inference settings: when I use this lora at 14 inference steps (strength 0.5) - 'by default' - it produces fried results, like this one: Fried, 14 steps with lora, 'default' But! When I concatenate an extra empty conditioning to main prompt (first positive prompt, then concat an empty conditioning), it produces very nice results every time, like this: Nice, 14 steps with lora + empty extra cond F&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wqdazi/qwen_image_21_turbo_lora_a_curious_case_settings/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wqcah9/possible_with_minimax_h3/</id><title>Possible with MInimax H3?</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wqcah9/possible_with_minimax_h3/"/>
@@ -6759,28 +6768,5 @@
 <category term="comfyui"/>
 <summary>First Impressions submitted by /u/Lividmusic1 [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;First Impressions submitted by /u/Lividmusic1 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1we3rl4/yue2_in_comfyui_ai_music_with_an_editable_piano/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1we1y88/updated_christmas_carol_film/</id><title>Updated Christmas Carol Film</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1we1y88/updated_christmas_carol_film/"/>
-<published>2026-09-12T03:54:58+00:00</published><updated>2026-09-12T03:54:58+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="flux"/>
-<category term="seedance"/>
-<summary>Hey all! Once upon a time I uploaded a small video of “A Christmas Carol” it was fairly well received and I was beyond honored at the response because I didn’t think it was that great. Anyway, fast forward to bit ahead and the landscape has changed dramatically. So many new image and video models to</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · flux, seedance&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey all! Once upon a time I uploaded a small video of “A Christmas Carol” it was fairly well received and I was beyond honored at the response because I didn’t think it was that great. Anyway, fast forward to bit ahead and the landscape has changed dramatically. So many new image and video models to make your head spin. So I decided to attempt my short film again, this time a more dark/realistic tone. Most of my source images were generated with Ideogram, then I would modify those with Flux Klein or Qwen Edit, just depended on what generated the best result. Then along came H3. My piddly little 4070 ti couldn’t hit the resolution I needed for most shots, so I set up a runpod with a RTX 6000 &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1we1y88/updated_christmas_carol_film/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1we1nug/astra_somehow_letting_ppl_learn_vfx/</id><title>astra somehow letting ppl learn vfx.</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1we1nug/astra_somehow_letting_ppl_learn_vfx/"/>
-<published>2026-09-12T03:40:42+00:00</published><updated>2026-09-12T03:40:42+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="vfx"/>
-<category term="render"/>
-<category term="rendering"/>
-<category term="blender"/>
-<category term="seedance"/>
-<summary>saw a post saying 'astra let me connect blender and render the video with using seedance 2.5! i could fix a tiny direction by using program called blender! and i could export the whole scene with using thing calle rendering! don't have to pay for seedance credit!' well.. that's called vfx duh submit</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 6 · vfx, render, rendering, blender, seedance&lt;/small&gt;&lt;/p&gt;&lt;p&gt;saw a post saying 'astra let me connect blender and render the video with using seedance 2.5! i could fix a tiny direction by using program called blender! and i could export the whole scene with using thing calle rendering! don't have to pay for seedance credit!' well.. that's called vfx duh submitted by /u/jungseungoh97 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1we1nug/astra_somehow_letting_ppl_learn_vfx/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
