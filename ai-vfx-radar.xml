@@ -2,8 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-09-26T20:30:20+00:00</updated>
+<updated>2026-09-26T22:30:20+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wr04se/i_built_a_fooocusstyle_local_studio_for_qwenimage/</id><title>I built a Fooocus-style local studio for Qwen-Image 2.1: masks, annotations, outpainting, OpenPose poses and sketches as references. Looking for honest criticism</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wr04se/i_built_a_fooocusstyle_local_studio_for_qwenimage/"/>
+<published>2026-09-26T20:03:00+00:00</published><updated>2026-09-26T20:03:00+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="outpainting"/>
+<category term="lora"/>
+<summary>Hi all! I'd like to share a tool I've been building and hear your criticism: what's missing, what's awkward, what's plain wrong. Fooocus-Qwen-Image-2.1 is a local Gradio studio for Qwen-Image 2.1 ( https://huggingface.co/Qwen/Qwen-Image-2.1 ), inspired by Fooocus ( https://github.com/lllyasviel/Fooo</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · outpainting, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi all! I'd like to share a tool I've been building and hear your criticism: what's missing, what's awkward, what's plain wrong. Fooocus-Qwen-Image-2.1 is a local Gradio studio for Qwen-Image 2.1 ( https://huggingface.co/Qwen/Qwen-Image-2.1 ), inspired by Fooocus ( https://github.com/lllyasviel/Fooocus ) by lllyasviel. The idea is the same: a short prompt and one button, with the complexity hidden under "Advanced". The pose library is inspired by openposes.com ( https://openposes.com/ ) and uses the OpenPose ( https://github.com/CMU-Perceptual-Computing-Lab/openpose ) skeleton format. Fooocus-Qwen-Image 2.1 Repo What it does - Text to image: three quality presets plus Turbo (a 6-step distill&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wr04se/i_built_a_fooocusstyle_local_studio_for_qwenimage/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wqz6gu/a_quick_note_about_new_models_for_fizgig/</id><title>A quick note about new models for Fizgig</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wqz6gu/a_quick_note_about_new_models_for_fizgig/"/>
@@ -30,6 +40,16 @@
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 10 · render, comfyui, blender, minimax, lora, consistency, ai video&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I've been experimenting with building the camera move in Blender before generating the AI video. This example combines a five-second mannequin render with a character reference sheet and a waterfront background image in MiniMax H3's reference-to-video workflow. How I made it: Used Codex CLI with Blender MCP to build a simple mannequin scene and animate the camera. Kept the body planted while the head and eyes followed the lens. Refined the move to stay mostly waist-up, with fast eased transitions, short holds and one extreme closeup near the end. Rendered the Blender reference at 1080 x 1080, 30 fps, for five seconds. Loaded that clip and the two reference images into ComfyUI, then used a pr&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wqydpg/blender_camera_motion_minimax_h3_ref2vid_in/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wqx621/gokuk_a_free_opensource_windows_app_for_making/</id><title>Gokuk — a free, open-source Windows app for making full AI songs locally with YuE2 (no ComfyUI, no subscription)</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wqx621/gokuk_a_free_opensource_windows_app_for_making/"/>
+<published>2026-09-26T18:03:07+00:00</published><updated>2026-09-26T18:03:07+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<category term="lora"/>
+<summary>I kept running into the same problem: YuE2 is one of the best open models for full songs with vocals, but a lot of people who want to try it get stuck on Python environments, command-line flags, and out-of-memory errors before they ever hear a single note. So I ended up building my own solution: Gok</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I kept running into the same problem: YuE2 is one of the best open models for full songs with vocals, but a lot of people who want to try it get stuck on Python environments, command-line flags, and out-of-memory errors before they ever hear a single note. So I ended up building my own solution: Gokuk (歌曲, Cantonese for "song"). It's a portable desktop app that wraps YuE2 and reduces the process to something closer to: Pick a sound → write lyrics → Create song There's no ComfyUI and no command line to deal with. What it currently does Create tab : pick language, genre, mood, voice, instruments, and tempo from simple chips, write lyrics with [Verse] / [Chorus] tags, and hit Create Cover tab :&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wqx621/gokuk_a_free_opensource_windows_app_for_making/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wqsvca/qwen_21_might_be_just_too_good_at_face_swap_free/</id><title>Qwen 2.1 Might Be Just TOO Good at Face Swap... [Free Workflow]</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wqsvca/qwen_21_might_be_just_too_good_at_face_swap_free/"/>
 <published>2026-09-26T15:08:06+00:00</published><updated>2026-09-26T15:08:06+00:00</updated>
@@ -37,6 +57,18 @@
 <category term="face swap"/>
 <summary>submitted by /u/solomars3 [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · face swap&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/solomars3 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wqsvca/qwen_21_might_be_just_too_good_at_face_swap_free/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1wqq5e0/help_problems_with_inserted_objects/</id><title>Help- problems with inserted objects</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wqq5e0/help_problems_with_inserted_objects/"/>
+<published>2026-09-26T13:08:59+00:00</published><updated>2026-09-26T13:08:59+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="compositing"/>
+<category term="render"/>
+<category term="rendering"/>
+<category term="point cloud"/>
+<summary>Hi all, I’m experimenting with inserting a 3D object into casual monocular video (VFX-style compositing) and I’m stuck on anchoring the object to the scene. Pipeline: 1. Generate a 3D object with TRELLIS2 -&gt; GLB (mesh + mask). 2. Reconstruct the video scene with MegaSAM (UniDepth as depth backbone),</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 4 · compositing, render, rendering, point cloud&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi all, I’m experimenting with inserting a 3D object into casual monocular video (VFX-style compositing) and I’m stuck on anchoring the object to the scene. Pipeline: 1. Generate a 3D object with TRELLIS2 -&amp;gt; GLB (mesh + mask). 2. Reconstruct the video scene with MegaSAM (UniDepth as depth backbone), export to .npz. 3. Place the GLB into the reconstructed scene and render it back into every frame. Reconstruction output looks fine: • T=100, H=328, W=584 • depth range [0.342, 23.559] • intrinsics: fx=301.70, fy=301.30, cx=295.5, cy=166 • dense point cloud (stride=6): 539K points • 0 tracks The problem: 1. The object isn’t bound to a specific point on the surface. I place it on a wall in the vie&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wqq5e0/help_problems_with_inserted_objects/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/vfx/comments/1wqoyx7/starship_troopers_cg_vfx_still_holds_up_so_well/</id><title>Starship Troopers CG/ VFX still holds up so well</title>
@@ -6739,47 +6771,5 @@
 <category term="minimax"/>
 <summary>For Windows 11 (Part 1): https://www.reddit.com/r/StableDiffusion/comments/1wepgl5/team_red_encounter_on_proximax_h3_or_how_to_setup/ TL;DR summary: For MMH3, you need to run ComfyUI with ROCm 7.14.0 (see https://rocm.docs.amd.com/en/latest/reference/gpu-specs.html for the vaue of gfx???? correspond</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;For Windows 11 (Part 1): https://www.reddit.com/r/StableDiffusion/comments/1wepgl5/team_red_encounter_on_proximax_h3_or_how_to_setup/ TL;DR summary: For MMH3, you need to run ComfyUI with ROCm 7.14.0 (see https://rocm.docs.amd.com/en/latest/reference/gpu-specs.html for the vaue of gfx???? corresponding to your AMD GPU): pip install --index-url https://repo.amd.com/rocm/whl-multi-arch/ "torch[device-gfx????]==2.12.0+rocm7.14.0" "torchvision[device-gfx????]==0.27.0+rocm7.14.0" "torchaudio==2.11.0+rocm7.14.0" Read on if you want the step-by-step instructions (scroll to the bottom of the post if you just want to see the MMH3 prompt for the video 😹) Why use Linux instead of Windows? Because Minim&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wer1mz/team_red_from_proximax_h3_part_2_ubuntu_edition/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wepgl5/team_red_encounter_on_proximax_h3_or_how_to_setup/</id><title>Team Red: Encounter on ProxiMax H3, or How to setup ComfyUI+MMH3 with AMD GPUs: RDNA 4 (rx9070, AI Pro R9700), and RDNA 3 (rx7900)</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wepgl5/team_red_encounter_on_proximax_h3_or_how_to_setup/"/>
-<published>2026-09-12T21:55:21+00:00</published><updated>2026-09-12T21:55:21+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<category term="minimax"/>
-<summary>TL;DR summary: For MMH3, you need to run ComfyUI with ROCm 7.14.0 (see https://rocm.docs.amd.com/en/latest/reference/gpu-specs.html for the vaue of gfx???? corresponding to your AMD GPU): pip install --index-url https://repo.amd.com/rocm/whl-multi-arch/ "torch[device-gfx????]==2.12.0+rocm7.14.0" "to</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;TL;DR summary: For MMH3, you need to run ComfyUI with ROCm 7.14.0 (see https://rocm.docs.amd.com/en/latest/reference/gpu-specs.html for the vaue of gfx???? corresponding to your AMD GPU): pip install --index-url https://repo.amd.com/rocm/whl-multi-arch/ "torch[device-gfx????]==2.12.0+rocm7.14.0" "torchvision[device-gfx????]==0.27.0+rocm7.14.0" "torchaudio==2.11.0+rocm7.14.0" Read on if you want the step-by-step instructions (scroll to the bottom of the post if you just want to see the MMH3 prompt for the video 😹) These instructions are for Windows 11 (Ubuntu version: https://www.reddit.com/r/StableDiffusion/comments/1wer1mz/comment/p9g0kxg/ ). Nevertheless, many of the same comfy-cli command&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wepgl5/team_red_encounter_on_proximax_h3_or_how_to_setup/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wepbmm/is_minimax_h3_is_extremely_slow_when_it_comes_to/</id><title>Is MiniMax H3 is extremely slow when it comes to ref2va compared to fl2va?</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wepbmm/is_minimax_h3_is_extremely_slow_when_it_comes_to/"/>
-<published>2026-09-12T21:49:24+00:00</published><updated>2026-09-12T21:49:24+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<category term="minimax"/>
-<category term="lora"/>
-<summary>I am running MiniMax H3 ref2va int8 convrot on comfyui using 5070ti 16GB + 64GB system ram, OS is windows 11. Default comfyui ref2va template is being used (Turbo lora is enabled/true) it is taking about 150s per step for 9:16, 0.2 megapixels and 10 sec duration with single image &amp; video input. For </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · comfyui, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I am running MiniMax H3 ref2va int8 convrot on comfyui using 5070ti 16GB + 64GB system ram, OS is windows 11. Default comfyui ref2va template is being used (Turbo lora is enabled/true) it is taking about 150s per step for 9:16, 0.2 megapixels and 10 sec duration with single image &amp;amp; video input. For reference, image2video takes about ~27sec per step for 10 sec 0.5 megapixels video. Having such slow speeds in ref2va expected? Maybe I am doing something wrong? Help/Guide is much appreciated! submitted by /u/Most-Trainer-8876 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wepbmm/is_minimax_h3_is_extremely_slow_when_it_comes_to/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1weonhe/i_created_a_comfyui_node_that_makes_it_easier_to/</id><title>I created a ComfyUI node that makes it easier to compare generated videos with their timed prompts</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1weonhe/i_created_a_comfyui_node_that_makes_it_easier_to/"/>
-<published>2026-09-12T21:21:38+00:00</published><updated>2026-09-12T21:21:38+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<category term="minimax"/>
-<category term="seedance"/>
-<summary>The node is called PromptSync. I made it for people who generate videos using timed prompts and want to see how closely the model follows the intended actions and scenes. The video plays on the left, with the original prompt on the right. During playback, the text matching the current moment is high</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · comfyui, minimax, seedance&lt;/small&gt;&lt;/p&gt;&lt;p&gt;The node is called PromptSync. I made it for people who generate videos using timed prompts and want to see how closely the model follows the intended actions and scenes. The video plays on the left, with the original prompt on the right. During playback, the text matching the current moment is highlighted, and auto-scroll follows the scenes. This makes it easier to spot what the model followed, what it skipped, and where the timing drifted. Features: - Seek through the video by clicking the timeline or audio waveform. - Display the audio waveform beneath the video. - Highlight the current scene separately from general camera, lighting, and style instructions. - Choose from four prompt displ&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1weonhe/i_created_a_comfyui_node_that_makes_it_easier_to/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1wenizu/pocket_hdri_capture_production_hdris_on_your_phone/</id><title>Pocket HDRI - Capture production HDRIs on your phone</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wenizu/pocket_hdri_capture_production_hdris_on_your_phone/"/>
-<published>2026-09-12T20:36:27+00:00</published><updated>2026-09-12T20:36:27+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="vfx"/>
-<category term="houdini"/>
-<summary>Hello everyone, my name is Anton, Houdini FX Artist and I am developing Pocket HDRI for iPhone (Android soon) that captures a 360° true-scene-linear 32-bit HDRI with up to 14 stops of dynamic range. The app processes local on your device, no login, no cloud. I was always frustrated that capturing an</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · vfx, houdini&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hello everyone, my name is Anton, Houdini FX Artist and I am developing Pocket HDRI for iPhone (Android soon) that captures a 360° true-scene-linear 32-bit HDRI with up to 14 stops of dynamic range. The app processes local on your device, no login, no cloud. I was always frustrated that capturing an HDRI on set was too time consuming or simply impossible because of missing gear. I thought "I am carrying my phone in my pocket all day, so why can't it just shoot HDRIs for me, whenever I need them?" This is how Pocket HDRI came to life and we are currently in Beta v0.3 on iOS. The app will launch on App Store soon and will be a one time purchase, no subscription. Learn more at https://pocket-hd&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wenizu/pocket_hdri_capture_production_hdris_on_your_phone/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
