@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-09-26T04:30:19+00:00</updated>
+<updated>2026-09-26T06:30:23+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wqdazi/qwen_image_21_turbo_lora_a_curious_case_settings/</id><title>Qwen Image 2.1 + Turbo Lora - A curious case (settings)</title>
@@ -6750,23 +6750,5 @@
 <category term="dit"/>
 <summary>Disclosure: I'm building a service around this, so read me as an interested party. Every number below is from runs we paid for ourselves yesterday ($1.67 total); the only link is the raw data at the bottom. The job: MiniMax H3 text-to-video, one 5-second clip at 864x480 (the 0.4 MP row of the templa</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 6 · text-to-video, comfyui, minimax, lora, dit&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Disclosure: I'm building a service around this, so read me as an interested party. Every number below is from runs we paid for ourselves yesterday ($1.67 total); the only link is the raw data at the bottom. The job: MiniMax H3 text-to-video, one 5-second clip at 864x480 (the 0.4 MP row of the template), 20 steps, the stock ComfyUI T2V graph from v0.35.0 with the official int8_convrot weights (34 GB DiT + 27 GB Qwen3-VL encoder + VAEs, 67 GB total), no LoRA, no reference frames, same prompt and seeds on every card, torch cu130 everywhere so the int8 kernels are the native ones. Three clips per card; "steady" is the average of clips 2 and 3 at the rate you actually pay (disk and public IP incl&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1we5nzn/minimax_h3_on_rented_gpus_measured_seconds_and/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1we4hw9/krea2_what_is_the_best_way_to_train_character/</id><title>Krea2 What is the best way to train character lora? (including body type, face etc)</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1we4hw9/krea2_what_is_the_best_way_to_train_character/"/>
-<published>2026-09-12T06:08:08+00:00</published><updated>2026-09-12T06:08:08+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="lora"/>
-<summary>I am overwhelmed by the amount of different ways to train character lora. There are so many videos from 1-2 months ago, but what will be the most popular and accurate way to train character lora for the Krea2 model? Any specific resources like huggingface i can look into? submitted by /u/HardS_X [li</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I am overwhelmed by the amount of different ways to train character lora. There are so many videos from 1-2 months ago, but what will be the most popular and accurate way to train character lora for the Krea2 model? Any specific resources like huggingface i can look into? submitted by /u/HardS_X [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1we4hw9/krea2_what_is_the_best_way_to_train_character/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1we3rl4/yue2_in_comfyui_ai_music_with_an_editable_piano/</id><title>YuE2 in ComfyUI: AI Music with an Editable Piano Roll</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1we3rl4/yue2_in_comfyui_ai_music_with_an_editable_piano/"/>
-<published>2026-09-12T05:29:04+00:00</published><updated>2026-09-12T05:29:04+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<summary>First Impressions submitted by /u/Lividmusic1 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;First Impressions submitted by /u/Lividmusic1 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1we3rl4/yue2_in_comfyui_ai_music_with_an_editable_piano/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
