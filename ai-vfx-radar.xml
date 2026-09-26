@@ -2,8 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-09-26T00:30:28+00:00</updated>
+<updated>2026-09-26T02:30:19+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wqcah9/possible_with_minimax_h3/</id><title>Possible with MInimax H3?</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wqcah9/possible_with_minimax_h3/"/>
+<published>2026-09-26T00:17:54+00:00</published><updated>2026-09-26T00:17:54+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="wan"/>
+<category term="minimax"/>
+<category term="seedance"/>
+<category term="ltx"/>
+<summary>Hello wizards, I'm trying to achieve this video with MH3, but I'm only getting bad reference style and awful transformation effect. I'm using reference character sheets for init and final state, not first and last frame. I'm using the original anime video, not this one. I'm using the Seedhunter from</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 5 · wan, minimax, seedance, ltx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hello wizards, I'm trying to achieve this video with MH3, but I'm only getting bad reference style and awful transformation effect. I'm using reference character sheets for init and final state, not first and last frame. I'm using the original anime video, not this one. I'm using the Seedhunter from Foxydits, but maybe I'm using an incorrect model (hybrid and fused ones) Does anybody have an idea on how can I achieve this with MH3 or LTX or even WAN? The video is done with Seedance (I think) Any guidance will be appreciated. Edit: I just added in comments a comparison side by side of reference and output submitted by /u/Voxyfernus [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wqcah9/possible_with_minimax_h3/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wq9jyt/character_design_sheet_v20_update_a_practical/</id><title>Character Design Sheet V2.0 Update: A Practical Approach to Character Sheet Generation.</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wq9jyt/character_design_sheet_v20_update_a_practical/"/>
@@ -25,6 +37,15 @@
 <category term="lora"/>
 <summary>8mp Example here where it sings more with less plastic and more skin detail when you go for the higher res: https://www.reddit.com/r/StableDiffusion/comments/1wq9dnt/comment/pc2mg4c/?utm_source=share&amp;utm_medium=web3x&amp;utm_name=web3xcss&amp;utm_term=1&amp;utm_content=share_button 3840x2176 still at 50 steps w</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;8mp Example here where it sings more with less plastic and more skin detail when you go for the higher res: https://www.reddit.com/r/StableDiffusion/comments/1wq9dnt/comment/pc2mg4c/?utm_source=share&amp;amp;utm_medium=web3x&amp;amp;utm_name=web3xcss&amp;amp;utm_term=1&amp;amp;utm_content=share_button 3840x2176 still at 50 steps with no turbo lora takes 80 secs on my 5090 fyi if you want a benchmark. I dug deep into H3 Latents and VAE Decoding the last few days and this is the result. Its not perfect, but its a big big improvement I feel. Its FAST too (single frame latent is MUCH faster than 5 frame) , and as per the readme I use the turbo lora only on a low setting in the provided workflow. But you can easily turn it off &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wq9dnt/a_new_stills_mode_for_minimax_with_a_new_latent/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wq92rg/i_trained_a_krea_2_lora_on_356_real_portraits/</id><title>I trained a Krea 2 LoRA on 356 real portraits with a multi-parameter face vocabulary - you can prompt face features directly</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wq92rg/i_trained_a_krea_2_lora_on_356_real_portraits/"/>
+<published>2026-09-25T21:54:05+00:00</published><updated>2026-09-25T21:54:05+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="lora"/>
+<summary>Identical facial description for both images, no LoRA vs LoRA 1.0 Identical facial description for both images, no LoRA vs LoRA 1.0 Identical facial description for both images, no LoRA vs LoRA 1.6 Identical facial description for both images, no LoRA vs LoRA 1.2 https://preview.redd.it/v7oybpmm9qrh</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Identical facial description for both images, no LoRA vs LoRA 1.0 Identical facial description for both images, no LoRA vs LoRA 1.0 Identical facial description for both images, no LoRA vs LoRA 1.6 Identical facial description for both images, no LoRA vs LoRA 1.2 https://preview.redd.it/v7oybpmm9qrh1.jpg?width=2560&amp;amp;format=pjpg&amp;amp;auto=webp&amp;amp;s=4d7f78b5c4544fce7d733c610df75543a97fb908 https://preview.redd.it/8ucqiqmm9qrh1.jpg?width=2560&amp;amp;format=pjpg&amp;amp;auto=webp&amp;amp;s=cc8c9ef3e92861aa7de7273039bcee9147d92f1c https://preview.redd.it/brdoormm9qrh1.jpg?width=2560&amp;amp;format=pjpg&amp;amp;auto=webp&amp;amp;s=443b816e236e215574b59ed88222b2e4a3c0a2d4 https://preview.redd.it/iqcl4pmm9qrh1.jpg?width=2304&amp;amp;format=pjpg&amp;amp;auto=webp&amp;amp;s=4df1e&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wq92rg/i_trained_a_krea_2_lora_on_356_real_portraits/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wq8sz4/yue2_melodic_death_metal_lora/</id><title>YuE2 Melodic Death Metal Lora</title>
@@ -6761,25 +6782,5 @@
 <category term="seedance"/>
 <summary>saw a post saying 'astra let me connect blender and render the video with using seedance 2.5! i could fix a tiny direction by using program called blender! and i could export the whole scene with using thing calle rendering! don't have to pay for seedance credit!' well.. that's called vfx duh submit</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 6 · vfx, render, rendering, blender, seedance&lt;/small&gt;&lt;/p&gt;&lt;p&gt;saw a post saying 'astra let me connect blender and render the video with using seedance 2.5! i could fix a tiny direction by using program called blender! and i could export the whole scene with using thing calle rendering! don't have to pay for seedance credit!' well.. that's called vfx duh submitted by /u/jungseungoh97 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1we1nug/astra_somehow_letting_ppl_learn_vfx/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wdyc7o/minimax_testing_10eros_fused_fast_vsa_and_larry/</id><title>Minimax Testing : 10Eros , Fused ,Fast VSA and Larry 600ema</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wdyc7o/minimax_testing_10eros_fused_fast_vsa_and_larry/"/>
-<published>2026-09-12T01:01:24+00:00</published><updated>2026-09-12T01:01:24+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="minimax"/>
-<category term="lora"/>
-<summary>All 4 diffrent model tested with same prompt with diffrent steps / Only Cofmykithchen speed enhancer ,no spectrum or sage attention or anything else fastest one Fused 1:11sec and all other about same 1:40sec best audio Fused if you want more testing give me model or lora model , i will test and put </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;All 4 diffrent model tested with same prompt with diffrent steps / Only Cofmykithchen speed enhancer ,no spectrum or sage attention or anything else fastest one Fused 1:11sec and all other about same 1:40sec best audio Fused if you want more testing give me model or lora model , i will test and put comparation here RTX 5090 RAM 128GB submitted by /u/agapes1270 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wdyc7o/minimax_testing_10eros_fused_fast_vsa_and_larry/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wdxsvj/has_anyone_trained_a_minimax_h3style_lora_yet_is/</id><title>Has anyone trained a MiniMax H3-style LoRA yet? Is it worth it?</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wdxsvj/has_anyone_trained_a_minimax_h3style_lora_yet_is/"/>
-<published>2026-09-12T00:36:28+00:00</published><updated>2026-09-12T00:36:28+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="minimax"/>
-<category term="lora"/>
-<summary>submitted by /u/NoSmell3236 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/NoSmell3236 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wdxsvj/has_anyone_trained_a_minimax_h3style_lora_yet_is/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
