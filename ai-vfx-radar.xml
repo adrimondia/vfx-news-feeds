@@ -2,8 +2,37 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-09-26T10:30:21+00:00</updated>
+<updated>2026-09-26T12:30:20+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1wqnx2a/sequence_player_exr_sequence_player_and/</id><title>Sequence Player - exr sequence player and conversion app</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wqnx2a/sequence_player_exr_sequence_player_and/"/>
+<published>2026-09-26T11:13:46+00:00</published><updated>2026-09-26T11:13:46+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="nuke"/>
+<summary>Built this for our own reviews at a product-viz studio and decided to release it as open source (MIT): - instant start (sequence detection from any frame, multi-threaded RAM cache); - OCIO 2.5 on the GPU: ACES 2.0/1.3, custom configs with file rules and looks, EV/gamma, pixel inspector with float va</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 1 · nuke&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Built this for our own reviews at a product-viz studio and decided to release it as open source (MIT): - instant start (sequence detection from any frame, multi-threaded RAM cache); - OCIO 2.5 on the GPU: ACES 2.0/1.3, custom configs with file rules and looks, EV/gamma, pixel inspector with float values; - EXR layers/parts, Cryptomatte IDs/overlay/masked/matte, external Cryptomatte sequences; - export H.264/H.265 (x264/x265/NVENC) and ProRes Proxy→4444, 16-bit source for H.265/ProRes, color tags written; - batch conversion of folder trees, command line for pipeline use. https://github.com/polloviz/Layerbase-Sequence-Player/releases/latest. Not trying to replace RV or Nuke: it's the quick "do&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wqnx2a/sequence_player_exr_sequence_player_and/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1wqnn95/earths_wrath_a_stylized_realtime_earthbending_vfx/</id><title>Earth’s Wrath, a stylized real-time earthbending VFX</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wqnn95/earths_wrath_a_stylized_realtime_earthbending_vfx/"/>
+<published>2026-09-26T10:58:28+00:00</published><updated>2026-09-26T10:58:28+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="vfx"/>
+<category term="unreal"/>
+<category term="unreal engine"/>
+<summary>It was a really fun project to continue exploring Unreal Engine and Niagara, especially with all the rock smashing involved :) You can check out the full project on ArtStation here: https://www.artstation.com/artwork/Y8GGPK I’d appreciate any feedback, thank youu :) submitted by /u/northmakesgames [</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 4 · vfx, unreal, unreal engine&lt;/small&gt;&lt;/p&gt;&lt;p&gt;It was a really fun project to continue exploring Unreal Engine and Niagara, especially with all the rock smashing involved :) You can check out the full project on ArtStation here: https://www.artstation.com/artwork/Y8GGPK I’d appreciate any feedback, thank youu :) submitted by /u/northmakesgames [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wqnn95/earths_wrath_a_stylized_realtime_earthbending_vfx/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wqmsmn/i_trained_a_krea_2_lora_on_356_real_portraits/</id><title>I trained a Krea 2 LoRA on 356 real portraits with a multi-parameter face vocabulary - you can prompt face features directly</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wqmsmn/i_trained_a_krea_2_lora_on_356_real_portraits/"/>
+<published>2026-09-26T10:06:20+00:00</published><updated>2026-09-26T10:06:20+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="lora"/>
+<summary>I use Krea2 for fashion photoshoots and editorials, but that same polished, inoffensively attractive face has been bothering me for a while. I wanted more realistic images with more control over the result. So I trained a LoRA on 356 snapshot portraits of real people, and captioned every single one </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I use Krea2 for fashion photoshoots and editorials, but that same polished, inoffensively attractive face has been bothering me for a while. I wanted more realistic images with more control over the result. So I trained a LoRA on 356 snapshot portraits of real people, and captioned every single one with a structured vocabulary: Face type: feminine, masculine, androgyne, baby face, tired, aggressive, gaunt Eyes: downturned, upturned, hooded, wide-set, close-set, deep-set, protruding, monolid, round (heterochromia works too - just name both eye colors and add some weight to the phrase) Nose: big, long, straight, tiny, short, bumpy, fleshy, roman, hawk Lips: big, wide, thin, narrow, heavy upper&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wqmsmn/i_trained_a_krea_2_lora_on_356_real_portraits/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1wqj7n9/minimax_and_detail_daemon/</id><title>Minimax and Detail Daemon</title>
 <link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wqj7n9/minimax_and_detail_daemon/"/>
@@ -6779,46 +6808,5 @@
 <category term="comfyui"/>
 <summary>I've been doing video diffusion work on my Mac and kept running into the same wall: ComfyUI doesn't have real MLX support yet, and going through PyTorch's mps backend is slow and eats far more unified memory than the model actually needs - which hurts more on a Mac, where that memory is shared with </summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · video diffusion, render, comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I've been doing video diffusion work on my Mac and kept running into the same wall: ComfyUI doesn't have real MLX support yet, and going through PyTorch's mps backend is slow and eats far more unified memory than the model actually needs - which hurts more on a Mac, where that memory is shared with everything else you're running. So instead of working around it each time, I built on top of [h3.c]( https://github.com/janishar/h3c-studio ) (a native Metal engine for MiniMax-H3) and put a proper UI on it. h3 studio is a Go server, stdlib-only, basically no dependencies. It wraps h3.c's CLI into something usable day to day: Model loads once and stays resident — iterate on prompts without repayin&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1webl6b/h3_studio_local_web_ui_for_minimaxh3_videoaudio/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1webccc/i_built_an_ai_video_plugin_to_connect_comfyui_to/</id><title>I Built an AI Video Plugin To Connect Comfyui to DaVinci Resolve!</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1webccc/i_built_an_ai_video_plugin_to_connect_comfyui_to/"/>
-<published>2026-09-12T12:28:01+00:00</published><updated>2026-09-12T12:28:01+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<category term="ai video"/>
-<summary>Hey everyone! I just released a new free custom node plugin called ComfyUI-SecondUnit that bridges ComfyUI directly with DaVinci Resolve. You can now generate video transitions, create music/SFX, synthesize voiceovers, and auto-generate subtitles, then send them right into your DaVinci timeline with</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · comfyui, ai video&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey everyone! I just released a new free custom node plugin called ComfyUI-SecondUnit that bridges ComfyUI directly with DaVinci Resolve. You can now generate video transitions, create music/SFX, synthesize voiceovers, and auto-generate subtitles, then send them right into your DaVinci timeline without manually importing or exporting files. IT'S‌ COMPLETELY‌ FREE!! submitted by /u/lumos_ai [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1webccc/i_built_an_ai_video_plugin_to_connect_comfyui_to/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1webc3c/final_fantasy_vii_alt_ending/</id><title>Final Fantasy VII - Alt Ending</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1webc3c/final_fantasy_vii_alt_ending/"/>
-<published>2026-09-12T12:27:41+00:00</published><updated>2026-09-12T12:27:41+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="smoke"/>
-<category term="minimax"/>
-<summary>It was very lucky that Earth/Gaia was saved in the OG FF7. So I figured, what if Sephiroth won in the end? I used Minimax H3 to upscale the first half of the original footage so it doesnt look so blocky and out of place compared to the new footage and to animate the parts that were original (Like Ci</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · smoke, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;It was very lucky that Earth/Gaia was saved in the OG FF7. So I figured, what if Sephiroth won in the end? I used Minimax H3 to upscale the first half of the original footage so it doesnt look so blocky and out of place compared to the new footage and to animate the parts that were original (Like Cid taking a smoke, Tifa crying, RedXIII being visibly scared for the first time and etc). I created the screenshots using the new GPT 2.5 Sunburst. This was actually fun. FF7 has beautiful music so it was fun to extend the existing music so it sounds more gloomy and doom. Hope you enjoy it!! submitted by /u/Ok-Giraffe-8670 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1webc3c/final_fantasy_vii_alt_ending/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wea9vb/h3_scraping_70s_character_sheets_from/</id><title>H3 - scraping 70s Character Sheets from T2VA+surprise Cameo</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wea9vb/h3_scraping_70s_character_sheets_from/"/>
-<published>2026-09-12T11:35:51+00:00</published><updated>2026-09-12T11:35:51+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="video generation"/>
-<category term="render"/>
-<category term="wan"/>
-<category term="ltx"/>
-<summary>First of all, we're not even 45 days into this and I can truly say I love Mini Max! I know some of you enjoyed my recent H3 music video of the 70s bombshell, even ignoring all the endless rooms, the ghost apparitions, and cars in the middle of the living room, so here they are, non-shifting. In any </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · video generation, render, wan, ltx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;First of all, we're not even 45 days into this and I can truly say I love Mini Max! I know some of you enjoyed my recent H3 music video of the 70s bombshell, even ignoring all the endless rooms, the ghost apparitions, and cars in the middle of the living room, so here they are, non-shifting. In any case, I've replaced Krea 2 for my goto character generations with H3's T2VA and been harvesting or scraping stills and generating them into 1-2s animated character sheet, and then rebuilding them into reusable .chars. I really enjoy this workflow because there's something magic about H3's T2VA (superior quality in my opinion), and with R2VA you can transfer any style and always get a consistent ac&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wea9vb/h3_scraping_70s_character_sheets_from/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1we9pok/minimax_refmod_reusable_identities_without/</id><title>MiniMax RefMod - Reusable identities without training - workflows &amp; tutorial</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1we9pok/minimax_refmod_reusable_identities_without/"/>
-<published>2026-09-12T11:06:09+00:00</published><updated>2026-09-12T11:06:09+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="minimax"/>
-<summary>You can get the workflows here: https://drive.google.com/drive/folders/1kOHLJZto1VAtXEATT9vUvsvM1VHtkOO_ The workflows create reusable refmods for either image/video/audio. I cover training images in the tutorial. All the workflows, models and custom nodes are preloaded on my Runpod template. https:</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;You can get the workflows here: https://drive.google.com/drive/folders/1kOHLJZto1VAtXEATT9vUvsvM1VHtkOO_ The workflows create reusable refmods for either image/video/audio. I cover training images in the tutorial. All the workflows, models and custom nodes are preloaded on my Runpod template. https://get.runpod.io/minimax-template submitted by /u/Hearmeman98 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1we9pok/minimax_refmod_reusable_identities_without/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
