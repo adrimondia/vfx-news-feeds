@@ -2,8 +2,38 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-09-26T06:30:23+00:00</updated>
+<updated>2026-09-26T08:00:38+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wqj7n9/minimax_and_detail_daemon/</id><title>Minimax and Detail Daemon</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wqj7n9/minimax_and_detail_daemon/"/>
+<published>2026-09-26T06:22:33+00:00</published><updated>2026-09-26T06:22:33+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="minimax"/>
+<summary>Anybody had good results with this combo? Seems it ought to work well as I am getting somewhat less sharp output than I like despite using RTX and sharpening. submitted by /u/robertwellesley [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Anybody had good results with this combo? Seems it ought to work well as I am getting somewhat less sharp output than I like despite using RTX and sharpening. submitted by /u/robertwellesley [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wqj7n9/minimax_and_detail_daemon/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wqiclu/wan_22_vs_minimax_h3_vs_ltx_23/</id><title>Wan 2.2 vs Minimax H3 vs LTX 2.3</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wqiclu/wan_22_vs_minimax_h3_vs_ltx_23/"/>
+<published>2026-09-26T05:33:03+00:00</published><updated>2026-09-26T05:33:03+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="wan"/>
+<category term="minimax"/>
+<category term="ltx"/>
+<summary>Which one gives better results for reference video object and outfit replace? With identical skin texture and exact motion.. Specially for Low VRAM. submitted by /u/Juggernaut_Wrecker [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 6 · wan, minimax, ltx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Which one gives better results for reference video object and outfit replace? With identical skin texture and exact motion.. Specially for Low VRAM. submitted by /u/Juggernaut_Wrecker [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wqiclu/wan_22_vs_minimax_h3_vs_ltx_23/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wqfce3/dlss_5_neural_rendering_in_comfyui_on_a_tesla/</id><title>DLSS 5 Neural Rendering in ComfyUI on a Tesla V100 — no NGX, so the architecture gate isn't there</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wqfce3/dlss_5_neural_rendering_in_comfyui_on_a_tesla/"/>
+<published>2026-09-26T02:50:36+00:00</published><updated>2026-09-26T02:50:36+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="rendering"/>
+<category term="comfyui"/>
+<summary>Every DLSS 5 NR node pack I came across runs NVIDIA's NGX runtime through D3D12, which cuts off at Turing. On a V100 (Volta, SM 7.0), `CreateFeature(18)` just hands back 0xBAD00001. No driver version fixes it. No Wine prefix either. So I skipped NGX entirely. The network runs as plain PyTorch: no NG</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · rendering, comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Every DLSS 5 NR node pack I came across runs NVIDIA's NGX runtime through D3D12, which cuts off at Turing. On a V100 (Volta, SM 7.0), `CreateFeature(18)` just hands back 0xBAD00001. No driver version fixes it. No Wine prefix either. So I skipped NGX entirely. The network runs as plain PyTorch: no NGX, no D3D12, no ReShade, no Wine, just tensor code pointed at whatever `torch` device you've got. The architecture gate isn't bypassed. It's absent. Weight extraction is the only step that ever needed an NVIDIA GPU, and that part runs on CPU. Here's what I measured on a Tesla V100-SXM2-16GB: - 1920x1080 — 0.700 s/frame, 1732 MB peak VRAM - 320x320 — 0.295 s/frame, 730 MB peak - roughly 0.83 GB per&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wqfce3/dlss_5_neural_rendering_in_comfyui_on_a_tesla/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wqdazi/qwen_image_21_turbo_lora_a_curious_case_settings/</id><title>Qwen Image 2.1 + Turbo Lora - A curious case (settings)</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wqdazi/qwen_image_21_turbo_lora_a_curious_case_settings/"/>
@@ -12,6 +42,17 @@
 <category term="lora"/>
 <summary>Many of you are enjoying this particular Turbo Lora: (EDIT: specified wrong version initially) https://huggingface.co/Viggle/Qwen-Image-2.1-viggle-turbo/blob/main/Qwen-Image-2.1-viggle-turbo-v0.2.1-6step-lora-r128.safetensors (or r128 variant) I noticed a strange and amazing thing with my particular</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Many of you are enjoying this particular Turbo Lora: (EDIT: specified wrong version initially) https://huggingface.co/Viggle/Qwen-Image-2.1-viggle-turbo/blob/main/Qwen-Image-2.1-viggle-turbo-v0.2.1-6step-lora-r128.safetensors (or r128 variant) I noticed a strange and amazing thing with my particular inference settings: when I use this lora at 14 inference steps (strength 0.5) - 'by default' - it produces fried results, like this one: Fried, 14 steps with lora, 'default' But! When I concatenate an extra empty conditioning to main prompt (first positive prompt, then concat an empty conditioning), it produces very nice results every time, like this: Nice, 14 steps with lora + empty extra cond F&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wqdazi/qwen_image_21_turbo_lora_a_curious_case_settings/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wqco2j/new_release_comfyui_nodes_included/</id><title>[NEW RELEASE] [COMFYUI NODES INCLUDED] Agate-001-preview, 260M parameter (including text encoder), pareto frontier model with performance close to SD 1.5. MIT licensed &amp; open weight. Novel thinker-renderer architecture.</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wqco2j/new_release_comfyui_nodes_included/"/>
+<published>2026-09-26T00:35:58+00:00</published><updated>2026-09-26T00:35:58+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="denoising"/>
+<category term="comfyui"/>
+<category term="dit"/>
+<summary>https://preview.redd.it/hms6dpiyhprh1.png?width=1672&amp;format=png&amp;auto=webp&amp;s=5b71cab7e350ed02d3824566e76d28ae412e8734 We're launching AGATE-001-PREVIEW, our attempt at maximizing the parameter-efficiency of current AI models. Our approach has yielded pareto-frontier results, with the model significan</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · denoising, comfyui, dit&lt;/small&gt;&lt;/p&gt;&lt;p&gt;https://preview.redd.it/hms6dpiyhprh1.png?width=1672&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=5b71cab7e350ed02d3824566e76d28ae412e8734 We're launching AGATE-001-PREVIEW, our attempt at maximizing the parameter-efficiency of current AI models. Our approach has yielded pareto-frontier results, with the model significantly outperforming models twice it's size, with the closemost competitor being SD 1.5 with 3x more parameters in total. https://preview.redd.it/kqkanmw8iprh1.png?width=2912&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=21bc2eb9e6d4f43ee791caac8f7d7532136646b6 While the model is limited to 256x256 px, and uses an older VAE (SD-1.5 VAE), it is showing impresive learning capacity, being able to mix complex concepts, underst&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wqco2j/new_release_comfyui_nodes_included/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wqcah9/possible_with_minimax_h3/</id><title>Possible with MInimax H3?</title>
@@ -24,6 +65,17 @@
 <category term="ltx"/>
 <summary>Hello wizards, I'm trying to achieve this video with MH3, but I'm only getting bad reference style and awful transformation effect. I'm using reference character sheets for init and final state, not first and last frame. I'm using the original anime video, not this one. I'm using the Seedhunter from</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 5 · wan, minimax, seedance, ltx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hello wizards, I'm trying to achieve this video with MH3, but I'm only getting bad reference style and awful transformation effect. I'm using reference character sheets for init and final state, not first and last frame. I'm using the original anime video, not this one. I'm using the Seedhunter from Foxydits, but maybe I'm using an incorrect model (hybrid and fused ones) Does anybody have an idea on how can I achieve this with MH3 or LTX or even WAN? The video is done with Seedance (I think) Any guidance will be appreciated. Edit: I just added in comments a comparison side by side of reference and output submitted by /u/Voxyfernus [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wqcah9/possible_with_minimax_h3/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wqb1gv/i_rebuilt_my_comfyui_music_toolkit_from_scratch/</id><title>I rebuilt my ComfyUI music toolkit from scratch: Plenio - YuE2, YuE2 covers and MiniMax Music 3, and you see (and can edit) exactly what the model gets</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wqb1gv/i_rebuilt_my_comfyui_music_toolkit_from_scratch/"/>
+<published>2026-09-25T23:20:07+00:00</published><updated>2026-09-25T23:20:07+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<category term="flux"/>
+<category term="minimax"/>
+<summary>It makes songs locally in ComfyUI with YuE2 and MiniMax Music 3 , covers your own recordings with YuE2 Cover , and masters and exports the result. Nothing leaves your machine, there is no API key, and it installs no Python packages. What is different from the old toolkit: One template per model (YuE</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 5 · comfyui, flux, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;It makes songs locally in ComfyUI with YuE2 and MiniMax Music 3 , covers your own recordings with YuE2 Cover , and masters and exports the result. Nothing leaves your machine, there is no API key, and it installs no Python packages. What is different from the old toolkit: One template per model (YuE2 Song, YuE2 Cover, MiniMax Song, Enhance &amp;amp; Master, System Check) - no switch that half the graph ignores. Song Sheet : you see the exact title, style, lyrics and score the model receives, you can edit them, and manual edits are never overwritten. Score editor : YuE2's ABC score as notation + text + playback, with transpose, note and section edits. Covers from the real music : SheetSage2 reads the&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wqb1gv/i_rebuilt_my_comfyui_music_toolkit_from_scratch/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wq9jyt/character_design_sheet_v20_update_a_practical/</id><title>Character Design Sheet V2.0 Update: A Practical Approach to Character Sheet Generation.</title>
@@ -66,6 +118,16 @@
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;So i was tired not getting real death metal from native yue2! and i train a lora, is not perfect but now i can get much better style and vocals style submitted by /u/smereces [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wq8sz4/yue2_melodic_death_metal_lora/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wq7s1v/krea_2_bboxbounding_box_text_to_image/</id><title>Krea 2 BBOX(Bounding box) Text to image</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wq7s1v/krea_2_bboxbounding_box_text_to_image/"/>
+<published>2026-09-25T20:59:57+00:00</published><updated>2026-09-25T20:59:57+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<category term="lora"/>
+<summary>Hello! Since there's loads of information online, i created simple workflow with only using KJnodes. This is made for using bounding boxes for KREA 2 model. You can draw box and write prompt. Drive link to workflow json: https://drive.google.com/file/d/199n29Ht20oWHc5ls5d0M-E3bmOWPniHA/view?usp=driv</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hello! Since there's loads of information online, i created simple workflow with only using KJnodes. This is made for using bounding boxes for KREA 2 model. You can draw box and write prompt. Drive link to workflow json: https://drive.google.com/file/d/199n29Ht20oWHc5ls5d0M-E3bmOWPniHA/view?usp=drive_link CivitAI link for those who can't access: https://civitai.com/articles/35782/krea-2-bboxbounding-box-text-to-image There were not much info available online. I wanted to share what works for me. ________________________________________________________________________________________________________ 1) Installation Requirements: KJnodes 2)Lora: https://civitai.com/models/2897864/krea2-bbox 3)&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wq7s1v/krea_2_bboxbounding_box_text_to_image/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wq72ps/i_really_like_anima/</id><title>I really like Anima</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wq72ps/i_really_like_anima/"/>
 <published>2026-09-25T20:31:24+00:00</published><updated>2026-09-25T20:31:24+00:00</updated>
@@ -97,6 +159,16 @@
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 5 · denoising, render, comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Krea 2 Turbo — 2-Step Distillation LoRA ( work in progress ) Previous posts/releases - here and here . 🧪 A fast-preview adapter, from a project still in training. When the subject is close and fills a good part of the frame — a portrait, a single figure, an object seen up close — two steps already hold up well, and you can rely on this adapter for those images. Small subjects are where it still falls short, people and objects alike: faces in a crowd, figures in a wide scene, the machines at the back of a gym — anything that takes up little of the frame can come out ghosted or smeared. For those, and whenever quality matters more than speed, use the 4-step LoRA . Every figure on the model car&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wq51t8/krea2_turbo_distill_2_step_lora_new_checkpoint/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wq4yre/krea2_i2i_but_prompt_based_not_latent/</id><title>Krea2 i2i but PROMPT based not latent ?</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wq4yre/krea2_i2i_but_prompt_based_not_latent/"/>
+<published>2026-09-25T19:07:46+00:00</published><updated>2026-09-25T19:07:46+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<category term="lora"/>
+<summary>What I am looking for is to build a workflow for i2i BUT I don't want to use the input image as latent space but rather to have a model that that looks at the input image and generated the prompt for krea2 based on that image, almost like a Lora captioner, but in-line in a comfyui workflow for one i</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;What I am looking for is to build a workflow for i2i BUT I don't want to use the input image as latent space but rather to have a model that that looks at the input image and generated the prompt for krea2 based on that image, almost like a Lora captioner, but in-line in a comfyui workflow for one input image to create the prompt used for the output image. Has anyone seen anything that can do this? Does this approach have a better name I should using rather than "i2i but not i2i" ? Thanks for any help ! submitted by /u/AkaToraX [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wq4yre/krea2_i2i_but_prompt_based_not_latent/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
 <id>https://www.reddit.com/r/vfx/comments/1wq49jp/hows_this_showreel_feedback_please/</id><title>How's this Showreel? Feedback please!</title>
 <link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wq49jp/hows_this_showreel_feedback_please/"/>
 <published>2026-09-25T18:40:34+00:00</published><updated>2026-09-25T18:40:34+00:00</updated>
@@ -125,6 +197,26 @@
 <category term="character consistency"/>
 <summary>I'm sharing the results of my long experimentation with the new Qwen Image 2.1 model. My first generation was disappointing and I was about to give up. But I told myself I should give it more time, and the fast generation speed really encouraged me. With my RTX 3060, I had to find a solution for spe</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · lora, consistency, character consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I'm sharing the results of my long experimentation with the new Qwen Image 2.1 model. My first generation was disappointing and I was about to give up. But I told myself I should give it more time, and the fast generation speed really encouraged me. With my RTX 3060, I had to find a solution for speed, so I tested every acceleration LoRA published so far. I settled on Pruna-Qwen-Image-2.1 with a strength between 2 and 2.5. The higher the value, the sharper the image gets, so adjust it depending on your LoRA combination. I followed their workflow instructions and used a custom sampler with sigmas (Claude helped me implement it). The best sampler I found is euler ancestral . Character consiste&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wq3lga/qwen_image_21_experimentation_results/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wq2txe/video_generation_what_can_i_do_with_these_specs/</id><title>Video generation, what can I do with these specs</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wq2txe/video_generation_what_can_i_do_with_these_specs/"/>
+<published>2026-09-25T17:44:30+00:00</published><updated>2026-09-25T17:44:30+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="video generation"/>
+<summary>https://preview.redd.it/h83mg2sjdprh1.png?width=515&amp;format=png&amp;auto=webp&amp;s=31bf7c3717bff7df8bc83567028788cb8b6eb9e3 Help please. What model and what are the output that I can expect and how long usually takes for that output. Other than vga card change(of course I cant get 5090) any suggestion that </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · video generation&lt;/small&gt;&lt;/p&gt;&lt;p&gt;https://preview.redd.it/h83mg2sjdprh1.png?width=515&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=31bf7c3717bff7df8bc83567028788cb8b6eb9e3 Help please. What model and what are the output that I can expect and how long usually takes for that output. Other than vga card change(of course I cant get 5090) any suggestion that can improve the output. Any useful advises are welcome. submitted by /u/LowReference5460 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wq2txe/video_generation_what_can_i_do_with_these_specs/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wq0ryg/a_quick_minimax_h3_news_roundup_25th_september/</id><title>A quick Minimax H3 news round-up - 25th September 2026</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wq0ryg/a_quick_minimax_h3_news_roundup_25th_september/"/>
+<published>2026-09-25T16:24:07+00:00</published><updated>2026-09-25T16:24:07+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="vfx"/>
+<category term="minimax"/>
+<category term="lora"/>
+<summary>Another quick Minimax H3 news and goodies round-up, for those who may have missed some items. -&gt; New experimental LoRAs for style transfer ("restyles an entire video while attempting to preserve its motion, framing and timing"), and also for adding VFX ("return the same take with only the requested </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · vfx, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Another quick Minimax H3 news and goodies round-up, for those who may have missed some items. -&amp;gt; New experimental LoRAs for style transfer ("restyles an entire video while attempting to preserve its motion, framing and timing"), and also for adding VFX ("return the same take with only the requested change applied"). https://huggingface.co/Alissonerdx/Minimax-H3-ComfyUI https://huggingface.co/Alissonerdx/Minimax-H3-ComfyUI/blob/main/docs/style-transfer.md (Style readme) https://huggingface.co/Alissonerdx/Minimax-H3-ComfyUI/blob/main/docs/vfx-edit.md (VFX readme) -&amp;gt; Minimax-H3-ref2v_Anime_2_Realism, which aims to assist with your attempts at anime-to-photoreal conversion. https://huggingface.c&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wq0ryg/a_quick_minimax_h3_news_roundup_25th_september/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wq0fzu/character_lora_for_noobai_what_do_you_think_about/</id><title>character lora for noobai what do you think about the results?</title>
@@ -6737,18 +6829,5 @@
 <category term="vfx"/>
 <summary>I've been out of the vfx industry studying uni again for close to a year now and i wanted to know how bad things are right now? submitted by /u/Professional-Doubt30 [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I've been out of the vfx industry studying uni again for close to a year now and i wanted to know how bad things are right now? submitted by /u/Professional-Doubt30 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1we75uk/how_bad_is_the_vfx_industry_atm/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1we5nzn/minimax_h3_on_rented_gpus_measured_seconds_and/</id><title>MiniMax H3 on rented GPUs: measured seconds and dollars per clip on four cards at four providers (same weights, same graph, same seeds)</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1we5nzn/minimax_h3_on_rented_gpus_measured_seconds_and/"/>
-<published>2026-09-12T07:12:07+00:00</published><updated>2026-09-12T07:12:07+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="text-to-video"/>
-<category term="comfyui"/>
-<category term="minimax"/>
-<category term="lora"/>
-<category term="dit"/>
-<summary>Disclosure: I'm building a service around this, so read me as an interested party. Every number below is from runs we paid for ourselves yesterday ($1.67 total); the only link is the raw data at the bottom. The job: MiniMax H3 text-to-video, one 5-second clip at 864x480 (the 0.4 MP row of the templa</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 6 · text-to-video, comfyui, minimax, lora, dit&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Disclosure: I'm building a service around this, so read me as an interested party. Every number below is from runs we paid for ourselves yesterday ($1.67 total); the only link is the raw data at the bottom. The job: MiniMax H3 text-to-video, one 5-second clip at 864x480 (the 0.4 MP row of the template), 20 steps, the stock ComfyUI T2V graph from v0.35.0 with the official int8_convrot weights (34 GB DiT + 27 GB Qwen3-VL encoder + VAEs, 67 GB total), no LoRA, no reference frames, same prompt and seeds on every card, torch cu130 everywhere so the int8 kernels are the native ones. Three clips per card; "steady" is the average of clips 2 and 3 at the rate you actually pay (disk and public IP incl&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1we5nzn/minimax_h3_on_rented_gpus_measured_seconds_and/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
