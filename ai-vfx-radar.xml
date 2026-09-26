@@ -2,8 +2,33 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-09-26T18:30:21+00:00</updated>
+<updated>2026-09-26T20:30:20+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wqz6gu/a_quick_note_about_new_models_for_fizgig/</id><title>A quick note about new models for Fizgig</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wqz6gu/a_quick_note_about_new_models_for_fizgig/"/>
+<published>2026-09-26T19:24:22+00:00</published><updated>2026-09-26T19:24:22+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="ltx"/>
+<category term="lora"/>
+<summary>Qwen Image 2.1 support is nearly in, and the way it's been added I want to discuss/get ideas etc. From now on, new models are added through a driver-style system. Each model gets its own driver holding everything specific to it: model files, turbo LoRA settings, training adapters and so on. The rest</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · ltx, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Qwen Image 2.1 support is nearly in, and the way it's been added I want to discuss/get ideas etc. From now on, new models are added through a driver-style system. Each model gets its own driver holding everything specific to it: model files, turbo LoRA settings, training adapters and so on. The rest of Fizgig talks to that driver rather than to the model directly. Once a model is added this way, support in Repair Studio, LoRA Explorer and the other tools comes with it rather than being built per model. It will also be documented, so anyone can add a model, including older ones, via a PR. Some new models will always have their own quirks and unique requirements, so the layer itself will evolv&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wqz6gu/a_quick_note_about_new_models_for_fizgig/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wqydpg/blender_camera_motion_minimax_h3_ref2vid_in/</id><title>Blender camera motion + MiniMax H3 ref2vid in ComfyUI (workflow + prompts)</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wqydpg/blender_camera_motion_minimax_h3_ref2vid_in/"/>
+<published>2026-09-26T18:52:04+00:00</published><updated>2026-09-26T18:52:04+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="render"/>
+<category term="comfyui"/>
+<category term="blender"/>
+<category term="minimax"/>
+<category term="lora"/>
+<category term="consistency"/>
+<category term="ai video"/>
+<summary>I've been experimenting with building the camera move in Blender before generating the AI video. This example combines a five-second mannequin render with a character reference sheet and a waterfront background image in MiniMax H3's reference-to-video workflow. How I made it: Used Codex CLI with Ble</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 10 · render, comfyui, blender, minimax, lora, consistency, ai video&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I've been experimenting with building the camera move in Blender before generating the AI video. This example combines a five-second mannequin render with a character reference sheet and a waterfront background image in MiniMax H3's reference-to-video workflow. How I made it: Used Codex CLI with Blender MCP to build a simple mannequin scene and animate the camera. Kept the body planted while the head and eyes followed the lens. Refined the move to stay mostly waist-up, with fast eased transitions, short holds and one extreme closeup near the end. Rendered the Blender reference at 1080 x 1080, 30 fps, for five seconds. Loaded that clip and the two reference images into ComfyUI, then used a pr&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wqydpg/blender_camera_motion_minimax_h3_ref2vid_in/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wqsvca/qwen_21_might_be_just_too_good_at_face_swap_free/</id><title>Qwen 2.1 Might Be Just TOO Good at Face Swap... [Free Workflow]</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wqsvca/qwen_21_might_be_just_too_good_at_face_swap_free/"/>
@@ -6756,36 +6781,5 @@
 <category term="houdini"/>
 <summary>Hello everyone, my name is Anton, Houdini FX Artist and I am developing Pocket HDRI for iPhone (Android soon) that captures a 360° true-scene-linear 32-bit HDRI with up to 14 stops of dynamic range. The app processes local on your device, no login, no cloud. I was always frustrated that capturing an</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · vfx, houdini&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hello everyone, my name is Anton, Houdini FX Artist and I am developing Pocket HDRI for iPhone (Android soon) that captures a 360° true-scene-linear 32-bit HDRI with up to 14 stops of dynamic range. The app processes local on your device, no login, no cloud. I was always frustrated that capturing an HDRI on set was too time consuming or simply impossible because of missing gear. I thought "I am carrying my phone in my pocket all day, so why can't it just shoot HDRIs for me, whenever I need them?" This is how Pocket HDRI came to life and we are currently in Beta v0.3 on iOS. The app will launch on App Store soon and will be a one time purchase, no subscription. Learn more at https://pocket-hd&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wenizu/pocket_hdri_capture_production_hdris_on_your_phone/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wemybp/krea2_turbo_distill_2_step_lora_follow_up_project/</id><title>Krea2 Turbo Distill 2 step LoRA - follow up project to my 4 Step Krea 2 Turbo LoRA - initial Alpha version released for the curious</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wemybp/krea2_turbo_distill_2_step_lora_follow_up_project/"/>
-<published>2026-09-12T20:13:43+00:00</published><updated>2026-09-12T20:13:43+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="denoising"/>
-<category term="render"/>
-<category term="lora"/>
-<summary>Krea 2 Turbo — 2-Step Distillation LoRA ( work in progress, early days alpha preview, only for the curious; don't judge the quality as if this is final version, instead consider it as open welcome for you to join this journey early on... ) For those of you familiar with my previous project - 4 Step </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · denoising, render, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Krea 2 Turbo — 2-Step Distillation LoRA ( work in progress, early days alpha preview, only for the curious; don't judge the quality as if this is final version, instead consider it as open welcome for you to join this journey early on... ) For those of you familiar with my previous project - 4 Step Krea 2 Turbo LoRA , this is the promised experimental follow up , halved the steps even further from 8 (official Turbo) to 4 (previous LoRA project) to just 2 (this project). With even slower training and with DMD2 at play this time, getting reasonable results out of just 2 steps is a real challenge. 🧪 This 2-step LoRA gives you a fast-preview adapter, from a project still in training. The publish&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wemybp/krea2_turbo_distill_2_step_lora_follow_up_project/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wela3n/questions_about_training_a_character_lora_for/</id><title>Questions about training a character LoRA for Anima</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wela3n/questions_about_training_a_character_lora_for/"/>
-<published>2026-09-12T19:09:36+00:00</published><updated>2026-09-12T19:09:36+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="lora"/>
-<summary>I want to train a LoRA for the Anima model using Colab. My goal is to train character LoRAs, but I have a few things I'm unsure about: Dataset size: Since I caption every image manually, I usually keep my character LoRA datasets relatively small, around 20–30 images. Is that a reasonable amount? Ima</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I want to train a LoRA for the Anima model using Colab. My goal is to train character LoRAs, but I have a few things I'm unsure about: Dataset size: Since I caption every image manually, I usually keep my character LoRA datasets relatively small, around 20–30 images. Is that a reasonable amount? Image variety: How many images should I have for each angle/view? How varied should the poses be? Backgrounds: Should I keep the backgrounds simple, with different solid colors like yellow, green, blue, etc. to keep the focus on the character? Or is it better to include some more detailed backgrounds as well? Captioning: How detailed should my captions be? Should I keep them relatively short and to t&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wela3n/questions_about_training_a_character_lora_for/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1wek9sw/can_i_realistically_recreate_this_shot_with_a/</id><title>Can I realistically recreate this shot with a fake background on a low budget?</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wek9sw/can_i_realistically_recreate_this_shot_with_a/"/>
-<published>2026-09-12T18:31:25+00:00</published><updated>2026-09-12T18:31:25+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="green screen"/>
-<category term="compositing"/>
-<category term="vfx"/>
-<summary>https://preview.redd.it/r0rzdfwru4ph1.png?width=1672&amp;format=png&amp;auto=webp&amp;s=0a46bd47857ea057c572dff549ddda91a2224764 https://preview.redd.it/fygmpewru4ph1.png?width=1590&amp;format=png&amp;auto=webp&amp;s=7d725a6fe35acab79a8cfe99bfff18bb538f9ea8 Hi! I’m making a Kickstarter video for a board game and I’d like t</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 3 · green screen, compositing, vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;https://preview.redd.it/r0rzdfwru4ph1.png?width=1672&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=0a46bd47857ea057c572dff549ddda91a2224764 https://preview.redd.it/fygmpewru4ph1.png?width=1590&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=7d725a6fe35acab79a8cfe99bfff18bb538f9ea8 Hi! I’m making a Kickstarter video for a board game and I’d like to recreate the feeling of this Jumanji scene (reference image attached). The shot would be completely static: two real people sitting opposite each other, playing my board game and reacting as the miniatures start moving by themselves. Instead of renting an old attic/location, I was thinking about shooting the actors + table separately (green screen if necessary) and compositing them over the atta&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wek9sw/can_i_realistically_recreate_this_shot_with_a/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
