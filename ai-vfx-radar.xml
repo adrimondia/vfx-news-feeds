@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-09-27T10:30:21+00:00</updated>
+<updated>2026-09-27T12:30:19+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wreoey/artist_here_minimax_h3_is_amazing_for_creating/</id><title>Artist here, Minimax H3 is amazing for creating images for my OCs in ref2v using Fizgig H3 Still custom node.</title>
@@ -33,6 +33,16 @@
 <category term="lora"/>
 <summary>https://civitai.red/models/2967466/hm1girl-realism-lora-for-krea-2?modelVersionId=3362360 submitted by /u/Hearmeman98 [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;https://civitai.red/models/2967466/hm1girl-realism-lora-for-krea-2?modelVersionId=3362360 submitted by /u/Hearmeman98 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wrd580/yet_another_1girl_realism_lora_for_krea_2_details/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wrbw4m/speedup_comparisons_page_updated_with_new_raw/</id><title>Speed-up comparisons page updated with new raw baseline video and a new 15-second video comparison</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wrbw4m/speedup_comparisons_page_updated_with_new_raw/"/>
+<published>2026-09-27T05:34:05+00:00</published><updated>2026-09-27T05:34:05+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="video generation"/>
+<category term="lora"/>
+<summary>The website has a new 15-second video tab (' Night market ') with all the speed-ups that includes different shots, fast movements, medium, close-up, audio, music. https://plox-1.github.io/h3-speedups/#p=15s As many have requested; the 5- and 15-second tabs also now use a new baseline video that's ra</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · video generation, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;The website has a new 15-second video tab (' Night market ') with all the speed-ups that includes different shots, fast movements, medium, close-up, audio, music. https://plox-1.github.io/h3-speedups/#p=15s As many have requested; the 5- and 15-second tabs also now use a new baseline video that's raw 25-step euler with comfy-kitchen attention and no Turbo LoRA. Added a few new Turbo LoRAs and distilled models like FastH3, Tao. More to come. Added Detailed-view toggle: Shows nodes' widget values for you to make a workflow based on. Night market (15 s) comparison page My own quick observations on the results: LightX2V Turbo LoRA yield better results than Baseline: https://plox-1.github.io/h3-s&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wrbw4m/speedup_comparisons_page_updated_with_new_raw/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/vfx/comments/1wr7kb3/seeking_vfx_artist_for_micro_budget_feature_paid/</id><title>Seeking VFX Artist for Micro Budget Feature [Paid]</title>
@@ -6874,15 +6884,5 @@
 <category term="vfx"/>
 <summary>I'm figuring a Day for night and apparition scene. The apparition looks at a couple in the distance, giggles, turns around then floats away. 2 small scenes. Still figuring out the look - dont want it to look scary. Dont want it to look cheesy. submitted by /u/mishratv [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I'm figuring a Day for night and apparition scene. The apparition looks at a couple in the distance, giggles, turns around then floats away. 2 small scenes. Still figuring out the look - dont want it to look scary. Dont want it to look cheesy. submitted by /u/mishratv [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wf897u/looking_for_critique_of_apparition_vfx/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wf5q5t/will_minimax_h3_be_able_to_naively_support_longer/</id><title>Will Minimax H3 be able to naively support longer videos?</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wf5q5t/will_minimax_h3_be_able_to_naively_support_longer/"/>
-<published>2026-09-13T11:58:22+00:00</published><updated>2026-09-13T11:58:22+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<category term="minimax"/>
-<summary>I am a person who likes his workflows clean and clearly laid out / readable. And only use the least necessary amount of custom nodes in ComfyUI. That been said Minimax seems to have a problem with videos that are longer than like 30 seconds. In the sense that it then seem to get confused with order </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I am a person who likes his workflows clean and clearly laid out / readable. And only use the least necessary amount of custom nodes in ComfyUI. That been said Minimax seems to have a problem with videos that are longer than like 30 seconds. In the sense that it then seem to get confused with order of prompts and various shots. From the information that I gathered, there seem to be workarounds with a couple of custom nodes. But this would then also would only inflate the workflow again. I mean, I have done cohered 1 minute plus videos with LTX2.3 with no problem. So I wonder if we can expect some "upgrade" for Minimax models in the nearer future. To be able to natively prompt longer videos w&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wf5q5t/will_minimax_h3_be_able_to_naively_support_longer/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
