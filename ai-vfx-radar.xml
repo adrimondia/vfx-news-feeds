@@ -2,8 +2,29 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-09-27T08:30:21+00:00</updated>
+<updated>2026-09-27T10:30:21+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wreoey/artist_here_minimax_h3_is_amazing_for_creating/</id><title>Artist here, Minimax H3 is amazing for creating images for my OCs in ref2v using Fizgig H3 Still custom node.</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wreoey/artist_here_minimax_h3_is_amazing_for_creating/"/>
+<published>2026-09-27T08:18:34+00:00</published><updated>2026-09-27T08:18:34+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<category term="minimax"/>
+<summary>I am an artist working on a worldbuilding, character design and art toy project, handdrawn using Procreate on iPad with no AI use at all. However, I use AI a lot as a hobby and messing around locally and really enjoy it. I thought I'd test out u/shootthesound 's custom node for ComfyUI that allows t</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I am an artist working on a worldbuilding, character design and art toy project, handdrawn using Procreate on iPad with no AI use at all. However, I use AI a lot as a hobby and messing around locally and really enjoy it. I thought I'd test out u/shootthesound 's custom node for ComfyUI that allows the MMH3 VAE to decode still images: https://github.com/shootthesound/ComfyUI-Fizgig-H3-Still It is mostly tested for Text2Image but I went ahead and tried ref2v (or ref2image in this case) and it WORKS. The first image I referenced my OC design, a chow chow dog (photorealistic but prompted to be similar artstyle) and a street in Melbourne and as you could see above, its MAGNIFICENT. I also tried t&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wreoey/artist_here_minimax_h3_is_amazing_for_creating/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wrdhbr/most_important_tip_ive_learned_so_far_with/</id><title>Most important tip I've learned so far with MiniMax-H3</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wrdhbr/most_important_tip_ive_learned_so_far_with/"/>
+<published>2026-09-27T07:05:56+00:00</published><updated>2026-09-27T07:05:56+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="video generation"/>
+<category term="veo"/>
+<category term="minimax"/>
+<summary>Same tip applies to almost any video generation solution.. and that is to think out your scene first. Before writing that long, complicated prompt, consider breaking it up into separate scenes. I've spent all day tweaking a prompt today until I remembered this tactic I used back when Google Veo firs</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · video generation, veo, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Same tip applies to almost any video generation solution.. and that is to think out your scene first. Before writing that long, complicated prompt, consider breaking it up into separate scenes. I've spent all day tweaking a prompt today until I remembered this tactic I used back when Google Veo first launched. Example: Prompt I worked on today was relatively simple, static shot of 3 people sitting at a table in a bar... they notice something across the room, react and then one guy sprays his drink everywhere a few other things happen, laughter, spilled drinks, etc. Kept having issues doing one prompt for the whole scene.. so I broke it up into two. Scene 1 was up until the character got his &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wrdhbr/most_important_tip_ive_learned_so_far_with/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wrd580/yet_another_1girl_realism_lora_for_krea_2_details/</id><title>Yet another 1girl realism LoRA for Krea 2 (details in comments)</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wrd580/yet_another_1girl_realism_lora_for_krea_2_details/"/>
@@ -6863,35 +6884,5 @@
 <category term="minimax"/>
 <summary>I am a person who likes his workflows clean and clearly laid out / readable. And only use the least necessary amount of custom nodes in ComfyUI. That been said Minimax seems to have a problem with videos that are longer than like 30 seconds. In the sense that it then seem to get confused with order </summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I am a person who likes his workflows clean and clearly laid out / readable. And only use the least necessary amount of custom nodes in ComfyUI. That been said Minimax seems to have a problem with videos that are longer than like 30 seconds. In the sense that it then seem to get confused with order of prompts and various shots. From the information that I gathered, there seem to be workarounds with a couple of custom nodes. But this would then also would only inflate the workflow again. I mean, I have done cohered 1 minute plus videos with LTX2.3 with no problem. So I wonder if we can expect some "upgrade" for Minimax models in the nearer future. To be able to natively prompt longer videos w&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wf5q5t/will_minimax_h3_be_able_to_naively_support_longer/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wf3zco/taomate_h3_3_step_lora_now_working_in_comfyui/</id><title>TaoMate H3 3 Step LoRA now working in ComfyUI</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wf3zco/taomate_h3_3_step_lora_now_working_in_comfyui/"/>
-<published>2026-09-13T10:23:41+00:00</published><updated>2026-09-13T10:23:41+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<category term="minimax"/>
-<category term="lora"/>
-<summary>For anyone using MiniMax H3 in ComfyUI I made the official TaoMate H3 3 Step LoRA available in a ComfyUI compatible safetensors format. No retraining, no merge, no extra fine tuning. The model itself was not changed, only the format needed for ComfyUI compatibility. Hugging Face: https://huggingface</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 5 · comfyui, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;For anyone using MiniMax H3 in ComfyUI I made the official TaoMate H3 3 Step LoRA available in a ComfyUI compatible safetensors format. No retraining, no merge, no extra fine tuning. The model itself was not changed, only the format needed for ComfyUI compatibility. Hugging Face: https://huggingface.co/Robert1212star/TaoMate-H3-3Step-ComfyUI Put the file here: ComfyUI/models/loras/ Then use it with MiniMax H3 at 3 sampling steps. Original TaoMate H3: https://huggingface.co/TaoLiveAIGC/TaoMate-H3 submitted by /u/robomar_ai_art [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wf3zco/taomate_h3_3_step_lora_now_working_in_comfyui/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wf2ylf/minimax_h3_3_step_lora/</id><title>Minimax H3 3 Step Lora</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wf2ylf/minimax_h3_3_step_lora/"/>
-<published>2026-09-13T09:24:12+00:00</published><updated>2026-09-13T09:24:12+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="minimax"/>
-<category term="lora"/>
-<summary>Give TaoMate-H3-3step a try. Details and links in the comments. submitted by /u/EinhornArt [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Give TaoMate-H3-3step a try. Details and links in the comments. submitted by /u/EinhornArt [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wf2ylf/minimax_h3_3_step_lora/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1wf293s/ibc_reddit_meetup_is_tonight_sunday_1800_free/</id><title>IBC Reddit meetup is TONIGHT, Sunday 18:00. Free. Bring someone.</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wf293s/ibc_reddit_meetup_is_tonight_sunday_1800_free/"/>
-<published>2026-09-13T08:41:59+00:00</published><updated>2026-09-13T08:41:59+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="luma"/>
-<summary>At IBC? Come have a beer with Redditors from r/editors , r/colorists , r/premiere , r/davinciresolve and more. Tonight, 18:00 to 20:00. Bring someone. They don't need to be on Reddit. Location and RSVP on Luma so I can give the bar a headcount. First round's on OWC , with Avid , Loraverse , Digital </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 1 · luma&lt;/small&gt;&lt;/p&gt;&lt;p&gt;At IBC? Come have a beer with Redditors from r/editors , r/colorists , r/premiere , r/davinciresolve and more. Tonight, 18:00 to 20:00. Bring someone. They don't need to be on Reddit. Location and RSVP on Luma so I can give the bar a headcount. First round's on OWC , with Avid , Loraverse , Digital Anarchy and RE:Vision Effects also sponsoring. submitted by /u/greenysmac [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wf293s/ibc_reddit_meetup_is_tonight_sunday_1800_free/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
