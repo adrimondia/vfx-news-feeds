@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-09-27T02:30:19+00:00</updated>
+<updated>2026-09-27T04:30:18+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1wr6h1x/lora_training/</id><title>LoRA Training</title>
@@ -173,6 +173,25 @@
 <category term="minimax"/>
 <summary>Setup: i5-14400 + RTX 4070 + 32GB RAM Running MiniMax H3 in ComfyUI with CPU offload, hitting a 25s ceiling per generation at 0.4MP. CPU usage during offload sits around 7%, so there's clearly headroom there. Considering zram to effectively extend usable RAM for offloaded layers. Rough math with zst</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Setup: i5-14400 + RTX 4070 + 32GB RAM Running MiniMax H3 in ComfyUI with CPU offload, hitting a 25s ceiling per generation at 0.4MP. CPU usage during offload sits around 7%, so there's clearly headroom there. Considering zram to effectively extend usable RAM for offloaded layers. Rough math with zstd on fp16 weights suggests maybe 1.3-1.4x compression (weights are near-random entropy, so nowhere near the 2-4x you'd get with text), which would add ~10-15GB of effective capacity. My concern: with offload, layers get read on every forward pass, not just once at load time — so decompression happens continuously in the hot path rather than as a one-time cost. RAM bandwidth is roughly 35-50GB/s, w&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wqwaod/zram_for_model_weight_offloading_how_much_of_a/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wqvkkr/geminichatgpt_like_image_editing/</id><title>gemini/chatgpt like image editing ?</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wqvkkr/geminichatgpt_like_image_editing/"/>
+<published>2026-09-26T16:59:52+00:00</published><updated>2026-09-26T16:59:52+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="image editing"/>
+<category term="comfyui"/>
+<summary>Does anybody know any workflow or something that i can edit,inpaint any himan images in comfyui ? ( I have huslyorealism chexkpoint and i find its best of most of the text to image things ) submitted by /u/Mountain_File5543 [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · image editing, comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Does anybody know any workflow or something that i can edit,inpaint any himan images in comfyui ? ( I have huslyorealism chexkpoint and i find its best of most of the text to image things ) submitted by /u/Mountain_File5543 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wqvkkr/geminichatgpt_like_image_editing/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wqtjbp/how_do_you_add_more_reference_pictures_in_qwen/</id><title>How do you add more reference Pictures in Qwen ComfyUI?</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wqtjbp/how_do_you_add_more_reference_pictures_in_qwen/"/>
+<published>2026-09-26T15:35:57+00:00</published><updated>2026-09-26T15:35:57+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<summary>In this example I have the original picture and a reference picture, I want qwen to replace the spiderman suit from the original picture with the one in the reference image, not only he doesn't do it but a lot of time he also ignores the originals pose and background, etc... I've tried adding an ''I</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;In this example I have the original picture and a reference picture, I want qwen to replace the spiderman suit from the original picture with the one in the reference image, not only he doesn't do it but a lot of time he also ignores the originals pose and background, etc... I've tried adding an ''Image Node'' and connecting it to Image 2(Optional) but that doesn't seem to work, it just generates the same image with no changes. submitted by /u/Crayonlover2001Fps [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wqtjbp/how_do_you_add_more_reference_pictures_in_qwen/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1wqsvkr/qwen_21_might_be_just_too_good_at_face_swap_free/</id><title>Qwen 2.1 Might Be Just TOO Good at Face Swap... [Free Workflow]</title>
@@ -6928,14 +6947,5 @@
 <category term="camera control"/>
 <summary>Fix and add english version https://github.com/NyckM/3d-Camera-control-H3-Minimax/tree/main submitted by /u/Emotional_Example_12 [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · camera control&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Fix and add english version https://github.com/NyckM/3d-Camera-control-H3-Minimax/tree/main submitted by /u/Emotional_Example_12 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wey8t7/h3_camera_control_update/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1wewrsi/anyone_want_to_test_a_tool_i_made_for_pulling/</id><title>Anyone want to test a tool I made for pulling stills and social posts out of finished work?</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wewrsi/anyone_want_to_test_a_tool_i_made_for_pulling/"/>
-<published>2026-09-13T03:36:55+00:00</published><updated>2026-09-13T03:36:55+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="vfx"/>
-<summary>Quick confession before anything else: EFFIXX (my teeny tiny generalist studio) has been around for like 18 years and we've never once sold a digital product. I'm not here to jump on the $aaS gold rush. I genuinely can't stand that everything's a subscription now. So this feels cringe for me to post</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 1 · vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Quick confession before anything else: EFFIXX (my teeny tiny generalist studio) has been around for like 18 years and we've never once sold a digital product. I'm not here to jump on the $aaS gold rush. I genuinely can't stand that everything's a subscription now. So this feels cringe for me to post, but bear with me... Some of you may have used MoviePrint. It generated contact sheets and frame grabs from video, free, open source. It was the last step of every project for me for years and then it died on the vine in like 2021. Doesn't work on apple silicon an the win version is barely hanging on. The dev was a motion/VFX artist himself, and my honest guess is he just couldn't keep maintainin&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wewrsi/anyone_want_to_test_a_tool_i_made_for_pulling/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
