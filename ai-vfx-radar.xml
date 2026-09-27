@@ -2,8 +2,17 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-09-27T04:30:18+00:00</updated>
+<updated>2026-09-27T06:30:19+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1wr7kb3/seeking_vfx_artist_for_micro_budget_feature_paid/</id><title>Seeking VFX Artist for Micro Budget Feature [Paid]</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wr7kb3/seeking_vfx_artist_for_micro_budget_feature_paid/"/>
+<published>2026-09-27T01:43:23+00:00</published><updated>2026-09-27T01:43:23+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="vfx"/>
+<summary>Looking for a VFX artist for a micro-budget feature film I’ve been working on the past couple years. The film is an offbeat sci-fi thriller with some campy horror thrown in. I was planning on doing all the vfx myself, but I’m trying to hit a festival deadline on November 1st and would benefit from s</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Looking for a VFX artist for a micro-budget feature film I’ve been working on the past couple years. The film is an offbeat sci-fi thriller with some campy horror thrown in. I was planning on doing all the vfx myself, but I’m trying to hit a festival deadline on November 1st and would benefit from splitting out the energy vfx to someone else. With that in mind, I’d like to get someone on board in the next week or so. I'm mostly looking for help with energy blasts/shields/distortion vfx for psychic battles, so if you have any samples showcasing that sort of thing, that would be hugely helpful to see. There are a lot of shots, but the level of polish for this project is relatively low (outside&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wr7kb3/seeking_vfx_artist_for_micro_budget_feature_paid/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1wr6h1x/lora_training/</id><title>LoRA Training</title>
 <link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wr6h1x/lora_training/"/>
@@ -80,6 +89,16 @@
 <category term="lora"/>
 <summary>Hi all! I'd like to share a tool I've been building and hear your criticism: what's missing, what's awkward, what's plain wrong. Fooocus-Qwen-Image-2.1 is a local Gradio studio for Qwen-Image 2.1 ( https://huggingface.co/Qwen/Qwen-Image-2.1 ), inspired by Fooocus ( https://github.com/lllyasviel/Fooo</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · outpainting, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi all! I'd like to share a tool I've been building and hear your criticism: what's missing, what's awkward, what's plain wrong. Fooocus-Qwen-Image-2.1 is a local Gradio studio for Qwen-Image 2.1 ( https://huggingface.co/Qwen/Qwen-Image-2.1 ), inspired by Fooocus ( https://github.com/lllyasviel/Fooocus ) by lllyasviel. The idea is the same: a short prompt and one button, with the complexity hidden under "Advanced". The pose library is inspired by openposes.com ( https://openposes.com/ ) and uses the OpenPose ( https://github.com/CMU-Perceptual-Computing-Lab/openpose ) skeleton format. Fooocus-Qwen-Image 2.1 Repo What it does - Text to image: three quality presets plus Turbo (a 6-step distill&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wr04se/i_built_a_fooocusstyle_local_studio_for_qwenimage/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wr01ei/i_got_qwenimage_21_f16_texttoimage_and_image/</id><title>I got Qwen-Image 2.1 (f16) text-to-image and image editing running on an M1 Max ~24s at 512x512</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wr01ei/i_got_qwenimage_21_f16_texttoimage_and_image/"/>
+<published>2026-09-26T19:59:33+00:00</published><updated>2026-09-26T19:59:33+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="image editing"/>
+<category term="lora"/>
+<summary>I've been building open source and free qwen-image-cplus a native runtime for Qwen-Image 2.1 on Apple Silicon, I recorded a short demo of both text-to-image and image editing on my MacBook Pro (M1 Max, 32 GB memory) https://www.youtube.com/watch?v=RllI2ZY0S_g Some other end-to-end runs on the same m</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · image editing, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I've been building open source and free qwen-image-cplus a native runtime for Qwen-Image 2.1 on Apple Silicon, I recorded a short demo of both text-to-image and image editing on my MacBook Pro (M1 Max, 32 GB memory) https://www.youtube.com/watch?v=RllI2ZY0S_g Some other end-to-end runs on the same machine: - 1024×1024 text-to-image, four-step Viggle: 38–39s - 832×1248 image edit, six-step Viggle LoRA: ~102s - 1024×1024 base model, 40 steps, cache off: ~451s - 1024×1024 base model, 40 steps, Cache-DiT: ~127s The transformer weights are FP16, without quantization, for additional speed context, stable-diffusion.cpp base model run took ~1006s at 1024×1024 on this machine, which the main motivati&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wr01ei/i_got_qwenimage_21_f16_texttoimage_and_image/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1wqzcfj/qwen_21_fast_consistent_character_flows/</id><title>Qwen 2.1 Fast consistent character flows.</title>
@@ -6908,44 +6927,5 @@
 <category term="stable diffusion"/>
 <summary>The models I can run locally are: First Order Motion Model (remember the Dame Da Ne meme?) (February 29, 2020) (I will also need the source image and reference video) DeepDaze (where one generation takes over 2 hours with GPU acceleration, may or may not test this one for you) (January 17, 2021) Big</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · video model, stable diffusion&lt;/small&gt;&lt;/p&gt;&lt;p&gt;The models I can run locally are: First Order Motion Model (remember the Dame Da Ne meme?) (February 29, 2020) (I will also need the source image and reference video) DeepDaze (where one generation takes over 2 hours with GPU acceleration, may or may not test this one for you) (January 17, 2021) Big Sleep (Similar case as DeepDaze cause the multiple epochs but more immediate results on just one epoch are kinda usable) (January 18, 2021) VQGAN+CLIP (April 2021) OG DALLE-Mini, with Jax GPU acceleration through WSL (July 2021) Disco Diffusion (October 29, 2021) Latent Diffusion (Pre stable diffusion) (December 20, 2021) Stable Diffusion 1.1 (August 2022) Stable Diffusion 1.4 (August 22, 2022) S&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wf02dk/i_got_several_old_models_running_locally_wanna/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://github.com/multimodal-art-projection/YuE</id><title>multimodal-art-projection/YuE</title>
-<link rel="alternate" href="https://github.com/multimodal-art-projection/YuE"/>
-<published>2026-09-13T06:30:18+00:00</published><updated>2026-09-13T06:30:18+00:00</updated>
-<author><name>GitHub trending (Python)</name></author>
-<category term="rendering"/>
-<category term="stereo"/>
-<summary>YuE2: frontier music generation with symbolic planning, zero-shot covers, and agentic music editing. https://map-yue2.github.io/ Looking for the original YuE? Its code, documentation, and license are preserved on the YuE-v1 branch . YuE2: Unifying Symbolic and Audio Music Generation at Frontier Qual</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;GitHub trending (Python) · score 2 · rendering, stereo&lt;/small&gt;&lt;/p&gt;&lt;p&gt;YuE2: frontier music generation with symbolic planning, zero-shot covers, and agentic music editing. https://map-yue2.github.io/ Looking for the original YuE? Its code, documentation, and license are preserved on the YuE-v1 branch . YuE2: Unifying Symbolic and Audio Music Generation at Frontier Quality Compose in symbols. Create in sound. 🎧 Demos · 🤗 YuE2 · 🚀 Quick start · 🤖 Agent skill · 📊 Benchmarks · 🤗 MERT2 · 🤗 SheetSage2 · 🤗 WSB · 📦 Release · YuE2 brings frontier song quality to music generation with an editable composition. Give it lyrics and a style prompt: it writes a melody-and-chord plan, then realizes that plan as a complete song with vocals and accompaniment. Frontier quality. Yu&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.com/multimodal-art-projection/YuE"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://github.com/google-gemini/gemini-skills</id><title>google-gemini/gemini-skills</title>
-<link rel="alternate" href="https://github.com/google-gemini/gemini-skills"/>
-<published>2026-09-13T06:30:18+00:00</published><updated>2026-09-13T06:30:18+00:00</updated>
-<author><name>GitHub trending (Python)</name></author>
-<category term="video editing"/>
-<category term="ai video"/>
-<summary>Skills for the Gemini API, SDK and model/agent interactions https://ai.google.dev/gemini-api/docs Gemini API skills A library of skills for the Gemini API, SDK and model interactions. About LLMs have fixed knowledge, being trained at a specific point in time. Software dev is fast paced and changes o</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;GitHub trending (Python) · score 2 · video editing, ai video&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Skills for the Gemini API, SDK and model/agent interactions https://ai.google.dev/gemini-api/docs Gemini API skills A library of skills for the Gemini API, SDK and model interactions. About LLMs have fixed knowledge, being trained at a specific point in time. Software dev is fast paced and changes often, where new libraries are launched every day and best practices evolve quickly. This leaves a knowledge gap that language models can't solve on their own. For example, models don't know about themselves when they're trained, and they aren't necessarily aware of subtle changes in best practices (like thought circulation ) or SDK changes. Skills are a lightweight technique for adding relevant co&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.com/google-gemini/gemini-skills"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://github.com/vxcontrol/pentagi</id><title>vxcontrol/pentagi</title>
-<link rel="alternate" href="https://github.com/vxcontrol/pentagi"/>
-<published>2026-09-13T06:30:18+00:00</published><updated>2026-09-13T06:30:18+00:00</updated>
-<author><name>GitHub trending (all)</name></author>
-<category term="tracking"/>
-<category term="minimax"/>
-<summary>Fully autonomous AI Agents system capable of performing complex penetration testing tasks https://pentagi.com PentAGI P enetration testing A rtificial G eneral I ntelligence Join the Community! Connect with security researchers, AI enthusiasts, and fellow ethical hackers. Get support, share insights</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;GitHub trending (all) · score 2 · tracking, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Fully autonomous AI Agents system capable of performing complex penetration testing tasks https://pentagi.com PentAGI P enetration testing A rtificial G eneral I ntelligence Join the Community! Connect with security researchers, AI enthusiasts, and fellow ethical hackers. Get support, share insights, and stay updated with the latest PentAGI developments. ⠀ Table of Contents Overview Features Architecture Agent Supervision Quick Start Agent Docker Access Running Several Instances How to Use PentAGI After Login API Access LLM Provider Configuration Ollama OpenAI Anthropic Google AI (Gemini) AWS Bedrock DeepSeek GLM Kimi Qwen MiniMax Advanced Setup Langfuse Integration Monitoring and Observabil&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.com/vxcontrol/pentagi"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wey8t7/h3_camera_control_update/</id><title>H3 camera control Update</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wey8t7/h3_camera_control_update/"/>
-<published>2026-09-13T04:53:30+00:00</published><updated>2026-09-13T04:53:30+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="camera control"/>
-<summary>Fix and add english version https://github.com/NyckM/3d-Camera-control-H3-Minimax/tree/main submitted by /u/Emotional_Example_12 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · camera control&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Fix and add english version https://github.com/NyckM/3d-Camera-control-H3-Minimax/tree/main submitted by /u/Emotional_Example_12 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wey8t7/h3_camera_control_update/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
