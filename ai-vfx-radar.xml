@@ -2,8 +2,117 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-09-28T02:30:26+00:00</updated>
+<updated>2026-09-28T04:30:18+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://arxiv.org/abs/2609.30393</id><title>LiTe-GS: Oracle-Efficient Next Best View Selection for 3D Gaussian Splatting</title>
+<link rel="alternate" href="https://arxiv.org/abs/2609.30393"/>
+<published>2026-09-28T04:00:00+00:00</published><updated>2026-09-28T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="gaussian splatting"/>
+<category term="3d gaussian"/>
+<category term="blender"/>
+<summary>arXiv:2609.30393v1 Announce Type: new Abstract: Selecting informative camera views is critical for efficient training and adaptive refinement in 3D Gaussian Splatting, where each observation significantly influences model parameters. However, information-driven view-selection strategies can require </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · gaussian splatting, 3d gaussian, blender&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.30393v1 Announce Type: new Abstract: Selecting informative camera views is critical for efficient training and adaptive refinement in 3D Gaussian Splatting, where each observation significantly influences model parameters. However, information-driven view-selection strategies can require repeated evaluations of expensive information-gain oracles as the number of candidate views increases. We propose LiTe-GS, an oracle-efficient method for next best view selection in 3D Gaussian Splatting. LiTe-GS reduces the number of information-oracle evaluations by performing randomized subset evaluation of candidate views rather than exhaustively scoring the full candidate pool. The resulting &lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.30393"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2609.30741</id><title>From Mono to Stereo: Accelerating Binocular Gaussian Splatting via Reprojection and Selective Patching</title>
+<link rel="alternate" href="https://arxiv.org/abs/2609.30741"/>
+<published>2026-09-28T04:00:00+00:00</published><updated>2026-09-28T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="gaussian splatting"/>
+<category term="rendering"/>
+<category term="stereo"/>
+<summary>arXiv:2609.30741v1 Announce Type: new Abstract: Binocular rendering requires two nearby views of the same scene and therefore repeats substantial visibility and shading work. We present a 2D Gaussian Splatting (2DGS) pipeline that fully renders a dominant-eye RGB image and an alpha-weighted depth pr</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · gaussian splatting, rendering, stereo&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.30741v1 Announce Type: new Abstract: Binocular rendering requires two nearby views of the same scene and therefore repeats substantial visibility and shading work. We present a 2D Gaussian Splatting (2DGS) pipeline that fully renders a dominant-eye RGB image and an alpha-weighted depth proxy, reprojects that image to the affiliated eye, and repairs uncovered pixels. Small interior gaps are interpolated, whereas larger disoccluded regions are identified as regions of interest (ROIs) and selectively re-rendered. The depth proxy reuses the alpha-blending weights computed during dominant-eye rasterization, avoiding a separate depth-rendering pass. An adaptive ROI generator localizes t&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.30741"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2609.30865</id><title>Reliability-Regulated Trajectory Optimization for Progressive COLMAP-Free 3D Gaussian Splatting</title>
+<link rel="alternate" href="https://arxiv.org/abs/2609.30865"/>
+<published>2026-09-28T04:00:00+00:00</published><updated>2026-09-28T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="gaussian splatting"/>
+<category term="3d gaussian"/>
+<category term="tracking"/>
+<category term="camera pose"/>
+<category term="rendering"/>
+<category term="consistency"/>
+<summary>arXiv:2609.30865v1 Announce Type: new Abstract: COLMAP-free 3D Gaussian Splatting (3DGS) bypasses computationally expensive structure-from-motion (SfM) pipelines, yet progressive camera pose tracking remains fundamentally vulnerable to error compounding---early pairwise tracking inaccuracies both co</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 8 · gaussian splatting, 3d gaussian, tracking, camera pose, rendering, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.30865v1 Announce Type: new Abstract: COLMAP-free 3D Gaussian Splatting (3DGS) bypasses computationally expensive structure-from-motion (SfM) pipelines, yet progressive camera pose tracking remains fundamentally vulnerable to error compounding---early pairwise tracking inaccuracies both corrupt subsequent frame initializations and remain permanently frozen in the scene representation. Rather than relying on heavyweight external neural priors or treating progressive tracking through isolated heuristic fixes, we propose a unified reliability-regulated trajectory optimization framework for progressive COLMAP-free 3DGS. At its core, our framework establishes an intrinsic, self-supervis&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.30865"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2609.30952</id><title>MVVBench: Benchmarking 4D Reasoning in Vision-Language Models</title>
+<link rel="alternate" href="https://arxiv.org/abs/2609.30952"/>
+<published>2026-09-28T04:00:00+00:00</published><updated>2026-09-28T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="4d"/>
+<category term="tracking"/>
+<category term="camera pose"/>
+<category term="multi-view"/>
+<summary>arXiv:2609.30952v1 Announce Type: new Abstract: Multi-view video understanding requires integrating spatial and temporal evidence across multiple, often non-overlapping camera streams: tracking entities as they transition between viewpoints, aligning events across time, and reasoning about latent 4D</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · 4d, tracking, camera pose, multi-view&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.30952v1 Announce Type: new Abstract: Multi-view video understanding requires integrating spatial and temporal evidence across multiple, often non-overlapping camera streams: tracking entities as they transition between viewpoints, aligning events across time, and reasoning about latent 4D continuity rather than any single visible frame. We introduce MVVBench, a benchmark for multi-view video reasoning built from real world multi camera datasets. Questions are curated to be monocular-ambiguous along both the view and the temporal axis: each question is unanswerable from any single view in the designated input set, and the majority are further unanswerable from any single moment. Ea&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.30952"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2609.31050</id><title>Where Compute Matters: Heterogeneous Attention for Efficient Video Diffusion</title>
+<link rel="alternate" href="https://arxiv.org/abs/2609.31050"/>
+<published>2026-09-28T04:00:00+00:00</published><updated>2026-09-28T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="video generation"/>
+<category term="video diffusion"/>
+<category term="denoising"/>
+<category term="wan2"/>
+<summary>arXiv:2609.31050v1 Announce Type: new Abstract: Efficient video generation requires reducing the quadratic cost of self-attention over long spatio-temporal token sequences. Existing efficient-attention methods typically apply the same computation pattern to every token, even though denoising difficu</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · video generation, video diffusion, denoising, wan2&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.31050v1 Announce Type: new Abstract: Efficient video generation requires reducing the quadratic cost of self-attention over long spatio-temporal token sequences. Existing efficient-attention methods typically apply the same computation pattern to every token, even though denoising difficulty varies substantially across video regions and evolves throughout the generation process. We introduce HetA-DiT, a heterogeneous attention mechanism that adaptively allocates computation according to token difficulty. A lightweight uncertainty branch predicts a token-wise estimate of denoising difficulty, which is used to route uncertain tokens through dense global attention while processing mo&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.31050"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2609.31198</id><title>Light Field Primitive for Novel View Synthesis</title>
+<link rel="alternate" href="https://arxiv.org/abs/2609.31198"/>
+<published>2026-09-28T04:00:00+00:00</published><updated>2026-09-28T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="novel view synthesis"/>
+<category term="4d"/>
+<category term="compositing"/>
+<category term="rendering"/>
+<summary>arXiv:2609.31198v1 Announce Type: new Abstract: We present Light Field Primitives (LFP), a formulation for novel view synthesis that replaces the dense ray database with a compact set of differentiable primitives in the classical two-plane parameterization. Each primitive condenses a group of rays i</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · novel view synthesis, 4d, compositing, rendering&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.31198v1 Announce Type: new Abstract: We present Light Field Primitives (LFP), a formulation for novel view synthesis that replaces the dense ray database with a compact set of differentiable primitives in the classical two-plane parameterization. Each primitive condenses a group of rays into one learned record, and its response to a query is governed by how closely that query belongs to the group. Rendering a camera ray then reduces to compositing all responses it elicits, and a scene can be optimized directly from posed images and rendered in real time with rays. Beyond its competitive performance on standard benchmarks, the main advantage of LFP is structural: its primitives res&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.31198"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2512.18640</id><title>Geometric-Photometric Event-based 3D Gaussian Ray Tracing</title>
+<link rel="alternate" href="https://arxiv.org/abs/2512.18640"/>
+<published>2026-09-28T04:00:00+00:00</published><updated>2026-09-28T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="gaussian splatting"/>
+<category term="3d gaussian"/>
+<category term="3d reconstruction"/>
+<category term="rendering"/>
+<summary>arXiv:2512.18640v3 Announce Type: replace Abstract: Event cameras offer a high temporal resolution over traditional frame-based cameras, which makes them suitable for motion and structure estimation. However, it has been unclear how event-based 3D Gaussian Splatting (3DGS) approaches could leverage </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · gaussian splatting, 3d gaussian, 3d reconstruction, rendering&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2512.18640v3 Announce Type: replace Abstract: Event cameras offer a high temporal resolution over traditional frame-based cameras, which makes them suitable for motion and structure estimation. However, it has been unclear how event-based 3D Gaussian Splatting (3DGS) approaches could leverage fine-grained temporal information of sparse events. This work proposes GPERT, a framework to address the trade-off between accuracy and temporal resolution in event-based 3DGS. Our key idea is to decouple the rendering into two branches: event-by-event geometry (depth) rendering and snapshot-based radiance (intensity) rendering, by using ray-tracing and the image of warped events. The extensive ev&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2512.18640"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2606.01900</id><title>Auteur: Language-Driven Cinematographic Framing for Human-Centric Video Generation</title>
+<link rel="alternate" href="https://arxiv.org/abs/2606.01900"/>
+<published>2026-09-28T04:00:00+00:00</published><updated>2026-09-28T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="video generation"/>
+<category term="camera control"/>
+<category term="human motion"/>
+<category term="generative video"/>
+<summary>arXiv:2606.01900v4 Announce Type: replace Abstract: Generative video models have achieved remarkable visual fidelity and temporal coherence, yet intentional camera control remains elusive. Existing frameworks treat camera motion as a byproduct of pixel synthesis, producing trajectories that are stoc</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · video generation, camera control, human motion, generative video&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2606.01900v4 Announce Type: replace Abstract: Generative video models have achieved remarkable visual fidelity and temporal coherence, yet intentional camera control remains elusive. Existing frameworks treat camera motion as a byproduct of pixel synthesis, producing trajectories that are stochastic, spatially inconsistent, and indifferent to the human subject driving the scene. In this work, we present Auteur, a method for language-driven, human-centric camera framing in generative video. Our core insight is that professional filmmakers conceive shots not as world-space trajectories but as framings defined relative to the actor, encoding shot size, angle, and composition as functions &lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2606.01900"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2606.15848</id><title>EmoZone-Talker: Regional Semantic Control of Audio-Driven 3DGS Talking Heads via Facial Action Units</title>
+<link rel="alternate" href="https://arxiv.org/abs/2606.15848"/>
+<published>2026-09-28T04:00:00+00:00</published><updated>2026-09-28T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="gaussian splatting"/>
+<category term="3d gaussian"/>
+<category term="talking head"/>
+<category term="animation"/>
+<category term="rendering"/>
+<summary>arXiv:2606.15848v2 Announce Type: replace Abstract: 3D Gaussian Splatting (3DGS) has shown strong potential for high-fidelity talking head synthesis. However, enabling fine-grained, interpretable, and editable facial expression control remains fundamentally challenging due to intrinsic conflicts bet</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · gaussian splatting, 3d gaussian, talking head, animation, rendering&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2606.15848v2 Announce Type: replace Abstract: 3D Gaussian Splatting (3DGS) has shown strong potential for high-fidelity talking head synthesis. However, enabling fine-grained, interpretable, and editable facial expression control remains fundamentally challenging due to intrinsic conflicts between speech-driven facial dynamics and explicit expression signals. Existing methods rely on implicit multimodal fusion, leading to spatial entanglement and temporal instability. We present EmoZone-Talker, a novel framework that reformulates audio-driven facial animation as a structured spatial-temporal coordination problem under cross-modal conflicts. Our approach introduces an explicit spatial d&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2606.15848"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1ws14es/neon_stick_figures_fl2va_20b_a_full_219_music/</id><title>Neon stick figures + FL2VA 20B = a full 2:19 music video</title>
 <link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1ws14es/neon_stick_figures_fl2va_20b_a_full_219_music/"/>
@@ -25,6 +134,15 @@
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I have ComfyUI v0.30.0 and ran a workflow with H3 and Ideagram 4.0 no problem - takes about 5 minutes to generate a clip with H3. I run the exact same workflow with ComfyUI v0.37.0 after sitting for 20 minutes it says it will take 3 hours to run the workflow. Something seems very wrong. Same exact settings, same exact workflow, same exact models - I'm just using V0.30.0, but it's annoying since i have to close it and swap to 0.37.0 to run qwen 2.1 - which runs fine, as does Krea 2. submitted by /u/siegekeebsofficial [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1ws0rl7/comfyui_fails_to_run_heavy_models_with_version/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
+<id>https://www.reddit.com/r/vfx/comments/1ws0c23/need_feedback_on_my_north_tower_plane_impact/</id><title>Need feedback on my North Tower plane impact animation, what is making it feel “off”?</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1ws0c23/need_feedback_on_my_north_tower_plane_impact/"/>
+<published>2026-09-28T00:32:56+00:00</published><updated>2026-09-28T00:32:56+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="animation"/>
+<summary>submitted by /u/Startestlt [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · animation&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/Startestlt [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1ws0c23/need_feedback_on_my_north_tower_plane_impact/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
 <id>https://www.reddit.com/r/comfyui/comments/1wrzi00/i_still_cant_believe_i_can_generate_this_all/</id><title>I still can't believe I can generate this all locally (Minimax H3)</title>
 <link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wrzi00/i_still_cant_believe_i_can_generate_this_all/"/>
 <published>2026-09-27T23:53:55+00:00</published><updated>2026-09-27T23:53:55+00:00</updated>
@@ -34,6 +152,17 @@
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/Clasyc [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wrzi00/i_still_cant_believe_i_can_generate_this_all/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wrzcwy/i_still_cant_believe_i_can_generate_this_all/</id><title>I still can't believe I can generate this all locally (Minimax H3)</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wrzcwy/i_still_cant_believe_i_can_generate_this_all/"/>
+<published>2026-09-27T23:47:12+00:00</published><updated>2026-09-27T23:47:12+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<category term="minimax"/>
+<category term="consistency"/>
+<summary>Spent the whole day today trying to create this random transformation video. In total, I generated around 180 videos. A few initial images were generated with Krea2, and later all edits were done with the Qwen 2.1 edit model. All done using i2v with first / last frame technique. Everything was done </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · comfyui, minimax, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Spent the whole day today trying to create this random transformation video. In total, I generated around 180 videos. A few initial images were generated with Krea2, and later all edits were done with the Qwen 2.1 edit model. All done using i2v with first / last frame technique. Everything was done in ComfyUI with multiple workflows and later stitched together in a video editor. The video was upscaled locally with my custom-trained model " Skrisp Texture " (it's not released yet, but I'm planning to release it in the future; still in progress) and with many custom nodes for colors and so on. It's still nowhere near where I would like it to be with consistency, and there are some badly paced &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wrzcwy/i_still_cant_believe_i_can_generate_this_all/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
 <id>https://www.reddit.com/r/comfyui/comments/1wrytj3/bfs_best_face_swap_body_swap_loras_by_alissonerdx/</id><title>BFS Best Face Swap &amp; Body Swap Loras By Alissonerdx</title>
 <link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wrytj3/bfs_best_face_swap_body_swap_loras_by_alissonerdx/"/>
 <published>2026-09-27T23:22:22+00:00</published><updated>2026-09-27T23:22:22+00:00</updated>
@@ -41,6 +170,15 @@
 <category term="face swap"/>
 <summary>submitted by /u/fruesome [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · face swap&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/fruesome [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wrytj3/bfs_best_face_swap_body_swap_loras_by_alissonerdx/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wryt89/bfs_best_face_swap_body_swap_loras_by_alissonerdx/</id><title>BFS Best Face Swap &amp; Body Swap Loras By Alissonerdx</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wryt89/bfs_best_face_swap_body_swap_loras_by_alissonerdx/"/>
+<published>2026-09-27T23:21:59+00:00</published><updated>2026-09-27T23:21:59+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="face swap"/>
+<summary>https://huggingface.co/Alissonerdx/BFS-Best-Face-Swap/tree/main https://huggingface.co/Alissonerdx/BFS-Best-Face-Swap/blob/main/workflows/Body%20Swap%20Qwen%20Image%202.1%20-%20V1.json https://huggingface.co/Alissonerdx/BFS-Best-Face-Swap/blob/main/bfs_head_v1.1_alternative_qwen_2.1.safetensors http</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · face swap&lt;/small&gt;&lt;/p&gt;&lt;p&gt;https://huggingface.co/Alissonerdx/BFS-Best-Face-Swap/tree/main https://huggingface.co/Alissonerdx/BFS-Best-Face-Swap/blob/main/workflows/Body%20Swap%20Qwen%20Image%202.1%20-%20V1.json https://huggingface.co/Alissonerdx/BFS-Best-Face-Swap/blob/main/bfs_head_v1.1_alternative_qwen_2.1.safetensors https://huggingface.co/Alissonerdx/BFS-Best-Face-Swap/blob/main/workflows/Head%20Swap%20V1%20Qwen%202.1%20Workflow.json submitted by /u/fruesome [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wryt89/bfs_best_face_swap_body_swap_loras_by_alissonerdx/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wryg54/cinematic_techniques_for_ai_videos/</id><title>Cinematic Techniques for AI- Videos</title>
@@ -6794,137 +6932,5 @@
 <category term="comfyui"/>
 <summary>I've been generating a lot in ComfyUI and got tired of manually dealing with an increasingly messy output library, so I built a custom node called SmartSave . It uses a local Ollama model to read the generation prompt, identify the subject, and automatically save the output into the appropriate subj</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I've been generating a lot in ComfyUI and got tired of manually dealing with an increasingly messy output library, so I built a custom node called SmartSave . It uses a local Ollama model to read the generation prompt, identify the subject, and automatically save the output into the appropriate subject folder. No cloud API or prompt data being sent to an external service. In the demo, the prompt contains the fictional character Nova Mercer . SmartSave identifies the subject and automatically saves the generation as: Raw/Nova_Mercer/Nova_Mercer_00001.png It can also create a compressed JPG copy, preserve ComfyUI workflow/prompt metadata, handle video outputs, and includes an Auto-Sort utility&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wfts4m/i_got_tired_of_comfyui_dumping_everything_into/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2609.12417</id><title>Spectral Consistency-Guided Multiview Point Cloud Registration for Low-Overlap Scenes</title>
-<link rel="alternate" href="https://arxiv.org/abs/2609.12417"/>
-<published>2026-09-14T04:00:00+00:00</published><updated>2026-09-14T04:00:00+00:00</updated>
-<author><name>arXiv cs.CV</name></author>
-<category term="pose estimation"/>
-<category term="consistency"/>
-<category term="multiview"/>
-<category term="point cloud"/>
-<summary>arXiv:2609.12417v1 Announce Type: new Abstract: Multiview point cloud registration is particularly challenging in low-overlap scenes, where reliable correspondences are limited and incorrect pairwise transformations can affect global pose estimation. In addition, registering all scan pairs is comput</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 6 · pose estimation, consistency, multiview, point cloud&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.12417v1 Announce Type: new Abstract: Multiview point cloud registration is particularly challenging in low-overlap scenes, where reliable correspondences are limited and incorrect pairwise transformations can affect global pose estimation. In addition, registering all scan pairs is computationally expensive because many pairs provide weak geometric information. To address these problems, we propose GMPCR, a non-learning-based spectral consistency-guided framework for efficient and robust multiview point cloud registration. GMPCR builds a refined second-order compatibility structure from initial correspondences and uses its dominant spectral response to evaluate both correspondence&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.12417"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2609.12682</id><title>NOVA-GS: Noise-Aware View-Consistent Gaussian Splatting for Low-Light Novel View Synthesis</title>
-<link rel="alternate" href="https://arxiv.org/abs/2609.12682"/>
-<published>2026-09-14T04:00:00+00:00</published><updated>2026-09-14T04:00:00+00:00</updated>
-<author><name>arXiv cs.CV</name></author>
-<category term="novel view synthesis"/>
-<category term="gaussian splatting"/>
-<category term="3d gaussian"/>
-<category term="denoising"/>
-<category term="consistency"/>
-<summary>arXiv:2609.12682v1 Announce Type: new Abstract: Reconstructing 3D scenes under real-world low-light conditions remains challenging due to severe sensor noise, low signal-to-noise ratios, and degraded photometric consistency, which destabilize geometry estimation and novel view synthesis. Existing ap</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 7 · novel view synthesis, gaussian splatting, 3d gaussian, denoising, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.12682v1 Announce Type: new Abstract: Reconstructing 3D scenes under real-world low-light conditions remains challenging due to severe sensor noise, low signal-to-noise ratios, and degraded photometric consistency, which destabilize geometry estimation and novel view synthesis. Existing approaches often rely on well-lit reference data for reliable Structure-from-Motion (SfM) initialization under degraded inputs or apply per-view enhancement methods that introduce cross-view inconsistencies. To address these limitations, we propose \textbf{NOVA-GS}, a unified noise-aware framework for low-light 3D Gaussian Splatting that subsumes enhancement, denoising, and geometry optimization wit&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.12682"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2609.12850</id><title>MGAvatar: Mesh-Bound Gaussians for Head Avatar Geometry and Appearance Modeling</title>
-<link rel="alternate" href="https://arxiv.org/abs/2609.12850"/>
-<published>2026-09-14T04:00:00+00:00</published><updated>2026-09-14T04:00:00+00:00</updated>
-<author><name>arXiv cs.CV</name></author>
-<category term="avatar"/>
-<category term="rendering"/>
-<category term="consistency"/>
-<category term="multi-view"/>
-<summary>arXiv:2609.12850v1 Announce Type: new Abstract: Accurate head modeling requires a stable yet expressive geometric representation. Existing Gaussian-based head avatars commonly rely on parametric templates (e.g., FLAME) for Gaussian initialization and deformation, but these templates lack personalize</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · avatar, rendering, consistency, multi-view&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.12850v1 Announce Type: new Abstract: Accurate head modeling requires a stable yet expressive geometric representation. Existing Gaussian-based head avatars commonly rely on parametric templates (e.g., FLAME) for Gaussian initialization and deformation, but these templates lack personalized priors and struggle to represent structures such as hair and clothing. To address this issue, we propose MGAvatar, a Gaussian-mesh hybrid representation that jointly models geometry and appearance through two Gaussian-mesh binding modes. Specifically, we introduce vertex-bound Gaussians and constrain their learnable parameters, enabling progressive mesh deformation to represent complex head geom&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.12850"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2512.07197</id><title>SUCCESS-GS: Survey of Compactness and Compression for Efficient Static and Dynamic Gaussian Splatting</title>
-<link rel="alternate" href="https://arxiv.org/abs/2512.07197"/>
-<published>2026-09-14T04:00:00+00:00</published><updated>2026-09-14T04:00:00+00:00</updated>
-<author><name>arXiv cs.CV</name></author>
-<category term="novel view synthesis"/>
-<category term="gaussian splatting"/>
-<category term="3d gaussian"/>
-<category term="4d"/>
-<category term="3d reconstruction"/>
-<category term="render"/>
-<summary>arXiv:2512.07197v2 Announce Type: replace Abstract: 3D Gaussian Splatting (3DGS) has emerged as a powerful explicit representation enabling real-time, high-fidelity 3D reconstruction and novel view synthesis. However, its practical use is hindered by the massive memory and computational demands requ</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 7 · novel view synthesis, gaussian splatting, 3d gaussian, 4d, 3d reconstruction, render&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2512.07197v2 Announce Type: replace Abstract: 3D Gaussian Splatting (3DGS) has emerged as a powerful explicit representation enabling real-time, high-fidelity 3D reconstruction and novel view synthesis. However, its practical use is hindered by the massive memory and computational demands required to store and render millions of Gaussians. These challenges become even more severe in 4D dynamic scenes. To address these issues, the field of Efficient Gaussian Splatting has rapidly evolved, proposing methods that reduce redundancy while preserving reconstruction quality. This survey provides the first unified overview of efficient 3D and 4D Gaussian Splatting techniques. For both 3D and 4&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2512.07197"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2601.16982</id><title>AnyView: Synthesizing Any Novel View in Dynamic Scenes</title>
-<link rel="alternate" href="https://arxiv.org/abs/2601.16982"/>
-<published>2026-09-14T04:00:00+00:00</published><updated>2026-09-14T04:00:00+00:00</updated>
-<author><name>arXiv cs.CV</name></author>
-<category term="video generation"/>
-<category term="4d"/>
-<category term="consistency"/>
-<category term="multi-view"/>
-<category term="generative video"/>
-<summary>arXiv:2601.16982v2 Announce Type: replace Abstract: Modern generative video models excel at producing convincing, high-quality outputs, but struggle to maintain multi-view and spatiotemporal consistency in highly dynamic real-world environments. In this work, we introduce $\textbf{AnyView}$, a diffu</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · video generation, 4d, consistency, multi-view, generative video&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2601.16982v2 Announce Type: replace Abstract: Modern generative video models excel at producing convincing, high-quality outputs, but struggle to maintain multi-view and spatiotemporal consistency in highly dynamic real-world environments. In this work, we introduce $\textbf{AnyView}$, a diffusion-based video generation framework for $\textit{dynamic view synthesis}$ with minimal inductive biases or geometric assumptions. We leverage multiple data sources with various levels of supervision, including monocular (2D), multi-view static (3D) and multi-view dynamic (4D) datasets, to train a generalist spatiotemporal implicit representation capable of producing zero-shot novel videos from a&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2601.16982"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2603.12064</id><title>Dense Dynamic Scene Reconstruction and Camera Pose Estimation from Multi-View Videos</title>
-<link rel="alternate" href="https://arxiv.org/abs/2603.12064"/>
-<published>2026-09-14T04:00:00+00:00</published><updated>2026-09-14T04:00:00+00:00</updated>
-<author><name>arXiv cs.CV</name></author>
-<category term="tracking"/>
-<category term="camera pose"/>
-<category term="camera tracking"/>
-<category term="optical flow"/>
-<category term="motion capture"/>
-<category term="pose estimation"/>
-<category term="consistency"/>
-<category term="multi-view"/>
-<summary>arXiv:2603.12064v3 Announce Type: replace Abstract: We address the challenging problem of dense dynamic scene reconstruction and camera pose estimation from multiple freely moving cameras -- a setting that arises naturally when multiple observers capture a shared event. Prior approaches either handl</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 14 · tracking, camera pose, camera tracking, optical flow, motion capture, pose estimation, consistency, multi-view&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2603.12064v3 Announce Type: replace Abstract: We address the challenging problem of dense dynamic scene reconstruction and camera pose estimation from multiple freely moving cameras -- a setting that arises naturally when multiple observers capture a shared event. Prior approaches either handle only single-camera input or require rigidly mounted, pre-calibrated camera rigs, limiting their practical applicability. We propose a two-stage optimization framework that decouples the task into robust camera tracking and dense depth refinement. In the first stage, we extend single-camera visual SLAM to the multi-camera setting by constructing a spatiotemporal connection graph that exploits bot&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2603.12064"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2607.24495</id><title>NSL-SLAM: High-Fidelity Neural Structured-Light Depth for Practical SLAM and Reconstruction</title>
-<link rel="alternate" href="https://arxiv.org/abs/2607.24495"/>
-<published>2026-09-14T04:00:00+00:00</published><updated>2026-09-14T04:00:00+00:00</updated>
-<author><name>arXiv cs.CV</name></author>
-<category term="tracking"/>
-<category term="monocular depth"/>
-<category term="stereo"/>
-<category term="slam"/>
-<summary>arXiv:2607.24495v2 Announce Type: replace Abstract: Structured-light (SL) cameras power depth sensing in millions of devices, and recent neural SL decoding methods have substantially improved their depth quality. SLAM systems can benefit greatly from such strong depth sensing, where reliable geometr</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · tracking, monocular depth, stereo, slam&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2607.24495v2 Announce Type: replace Abstract: Structured-light (SL) cameras power depth sensing in millions of devices, and recent neural SL decoding methods have substantially improved their depth quality. SLAM systems can benefit greatly from such strong depth sensing, where reliable geometry enables stable tracking and faithful reconstruction. In this work, we present NSL-SLAM, a practical SLAM system tailored for high-fidelity structured-light depth. We first strengthen SL depth sensing: inspired by the neural structured-light (NSL) method, we further incorporate strong monocular depth priors into the SL stereo decoding, reducing depth RMSE by 35% on Replica-SL compared to NSL. We &lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2607.24495"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wfst8d/minimax_lora_do_they_work_at_all/</id><title>MINIMAX Lora - do they work at all?</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wfst8d/minimax_lora_do_they_work_at_all/"/>
-<published>2026-09-14T03:58:27+00:00</published><updated>2026-09-14T03:58:27+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="rendering"/>
-<category term="comfyui"/>
-<category term="minimax"/>
-<category term="lora"/>
-<summary>I’m using the comfyui template version H3 I2V. I got a bunch of Lora, wired them in and they make little to difference whatsoever. Is it just me? I’ve set the weights all over - low to high. Used them pre - existing Lora on the template and after, and bypassed the preexisting Lora all together. Stil</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 6 · rendering, comfyui, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I’m using the comfyui template version H3 I2V. I got a bunch of Lora, wired them in and they make little to difference whatsoever. Is it just me? I’ve set the weights all over - low to high. Used them pre - existing Lora on the template and after, and bypassed the preexisting Lora all together. Still nothing. Any one know why or what’s going on with that?. Another thing I noticed is that it’s preset to “fixed” for I2V generation. I set that to randomize and it still spits out the same rendering every single time unless I change the prompt or reference. Any clue there? submitted by /u/SnooMachines1543 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wfst8d/minimax_lora_do_they_work_at_all/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1wfry26/vfx_producer_here/</id><title>VFX Producer here!</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wfry26/vfx_producer_here/"/>
-<published>2026-09-14T03:15:08+00:00</published><updated>2026-09-14T03:15:08+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="vfx"/>
-<summary>Hi everyone, I'm a VFX producer with over a decade in VFX (NA). This one is for the students, aspiring artists, or aspiring production personnel. I am offering to do free portfolio reviews and give feedback. I have been in the position of hiring for multiple projects and can give general feedback. I</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi everyone, I'm a VFX producer with over a decade in VFX (NA). This one is for the students, aspiring artists, or aspiring production personnel. I am offering to do free portfolio reviews and give feedback. I have been in the position of hiring for multiple projects and can give general feedback. I've also worked at most of the larger VFX houses in the industry. Feel free to DM if interested! Thanks. submitted by /u/MaxMiuu [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wfry26/vfx_producer_here/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1wfrl9w/how_would_you_approach_this_screen_comp/</id><title>how would you approach this screen comp?</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wfrl9w/how_would_you_approach_this_screen_comp/"/>
-<published>2026-09-14T02:57:43+00:00</published><updated>2026-09-14T02:57:43+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="tracking"/>
-<summary>I'm at my wit's end with this shot. I've tried all I know from 3d to 2d to manual tracking. what am i missing? what can i do? please help!!! submitted by /u/n2591 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 1 · tracking&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I'm at my wit's end with this shot. I've tried all I know from 3d to 2d to manual tracking. what am i missing? what can i do? please help!!! submitted by /u/n2591 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wfrl9w/how_would_you_approach_this_screen_comp/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wfrc3k/refmods_a_little_easier_to_create_edit_and_use/</id><title>RefMods - A little easier to create, edit, and use with Fantastic Minimax H3 Promptbuilder</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wfrc3k/refmods_a_little_easier_to_create_edit_and_use/"/>
-<published>2026-09-14T02:45:12+00:00</published><updated>2026-09-14T02:45:12+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="minimax"/>
-<category term="lora"/>
-<summary>Repo here- https://github.com/Adudeguyman/ComfyUI-Fantastic-MiniMaxH3-PromptBuilder Alrighty, back again with an update to my (manual, no LLM connected) Fantastic MiniMax H3 Prompt Builder. Yeah it's all vibe-coded to make things work the way that makes sense to me, and I publish it in case anyone e</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Repo here- https://github.com/Adudeguyman/ComfyUI-Fantastic-MiniMaxH3-PromptBuilder Alrighty, back again with an update to my (manual, no LLM connected) Fantastic MiniMax H3 Prompt Builder. Yeah it's all vibe-coded to make things work the way that makes sense to me, and I publish it in case anyone else finds it useful. This now includes RefMods, which if you aren't familiar, is basically a bunch of reference files you give it, packing them into .safetensors latent format for quick loading and surpassing the native built-in reference limit. In the end the idea is to make a somewhat training-free reference you can use on the fly, instead of having to train a LoRa or manually re-load media. The&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wfrc3k/refmods_a_little_easier_to_create_edit_and_use/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
