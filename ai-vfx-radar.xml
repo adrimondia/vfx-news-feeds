@@ -2,8 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-09-27T22:30:19+00:00</updated>
+<updated>2026-09-28T00:30:21+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wryg54/cinematic_techniques_for_ai_videos/</id><title>Cinematic Techniques for AI- Videos</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wryg54/cinematic_techniques_for_ai_videos/"/>
+<published>2026-09-27T23:05:24+00:00</published><updated>2026-09-27T23:05:24+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="color grading"/>
+<category term="minimax"/>
+<category term="cinematic"/>
+<summary>Was looking for some inspiration to get more creative with MiniMax H3 and found this extremely useful cinematic techniques overview. https://melies.co/cinematic-techniques Covering everything from camera movements and angles to composition, lighting, color grading, transitions, film and genre visual</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · color grading, minimax, cinematic&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Was looking for some inspiration to get more creative with MiniMax H3 and found this extremely useful cinematic techniques overview. https://melies.co/cinematic-techniques Covering everything from camera movements and angles to composition, lighting, color grading, transitions, film and genre visuals and more. Each technique is shown by example videos, the intended directorial effect, ideal use cases and prompts. submitted by /u/zetarediculi [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wryg54/cinematic_techniques_for_ai_videos/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wrwrz2/i_ran_a_controlled_krea_2_charactertraining_test/</id><title>I ran a controlled Krea 2 character-training test and wanted to share the results because a few things surprised me.</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wrwrz2/i_ran_a_controlled_krea_2_charactertraining_test/"/>
+<published>2026-09-27T21:51:31+00:00</published><updated>2026-09-27T21:51:31+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="upscaling"/>
+<category term="comfyui"/>
+<category term="lora"/>
+<summary>After my last post documenting my LoRA journey, I received a ton of feedback regarding changes to the training process, and decided to do some experimenting. This is using the Fizgig application on a runpod instance using an RTX5090. https://preview.redd.it/p8v7ws2hv4sh1.png?width=1069&amp;format=png&amp;au</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · upscaling, comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;After my last post documenting my LoRA journey, I received a ton of feedback regarding changes to the training process, and decided to do some experimenting. This is using the Fizgig application on a runpod instance using an RTX5090. https://preview.redd.it/p8v7ws2hv4sh1.png?width=1069&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=b4ab665cf6c6bfdf61783858e6a112d82142074d I used the same curated 35-image Guy Fieri dataset and trained four variants: 0.25 MP LoRA 0.5 MP LoRA 1.0 MP LoRA 0.5 MP LoKR For the LoKR the only other setting change was the recommended 5e-5→1e-4 LR. All runs used: 20 epochs same dataset same prompts same seeds same inference workflow tested at strength 1.0 Training times 0.25 MP LoRA: ~10 min&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wrwrz2/i_ran_a_controlled_krea_2_charactertraining_test/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wrw0k2/fizgig_650_qwen_image_21_and_a_new_qwen_image_21/</id><title>Fizgig 6.5.0 - Qwen Image 2.1 and a new Qwen Image 2.1 Training Adapter</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wrw0k2/fizgig_650_qwen_image_21_and_a_new_qwen_image_21/"/>
@@ -6780,45 +6802,5 @@
 <category term="consistency"/>
 <summary>Not sure what's going on here and could really use some help. This occurs whether I'm trying to describe 2D or 3D videos and across different workflows. I've stepped up my current workflow to 20 steps and the issues persists. Sometimes it will be at the beginning of a video, middle or end. There's n</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 5 · upscaler, comfyui, minimax, hailuo, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Not sure what's going on here and could really use some help. This occurs whether I'm trying to describe 2D or 3D videos and across different workflows. I've stepped up my current workflow to 20 steps and the issues persists. Sometimes it will be at the beginning of a video, middle or end. There's no consistency to when it occurs or which workflow I'm using. Rtx 3090, 13700K, 96GB DDR5 https://preview.redd.it/gcp215w4xdph1.png?width=2131&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=2ab8504bafda6be058f214e39a47af63171dc61d Currently testing with: Default minimax H3 model in ComfyUI This one: Minimax SEED HUNTER Workflow - Latent Upscaler + Seamless Video Continuation + Speedups - v1.6 | Hailuo H3 by MiniMax Workfl&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wfp508/generations_turn_out_smearedsmushedwarped_every/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wfo9wm/minimax_3step_turbo_lora_taomate_testing/</id><title>Minimax 3Step Turbo Lora Taomate Testing</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wfo9wm/minimax_3step_turbo_lora_taomate_testing/"/>
-<published>2026-09-14T00:21:20+00:00</published><updated>2026-09-14T00:21:20+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="minimax"/>
-<category term="lora"/>
-<summary>All 4 test are using base minimax model with 3-step new Taomate turbo Lora Audio are great and video is kind of fine at 0.7 Megapixel taking around 2minute with RTX 5090 and 128GB Ram all using euler+simple except the last one which is er_sde+beta audio and video shift are 12 for Video and Audio 3 a</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;All 4 test are using base minimax model with 3-step new Taomate turbo Lora Audio are great and video is kind of fine at 0.7 Megapixel taking around 2minute with RTX 5090 and 128GB Ram all using euler+simple except the last one which is er_sde+beta audio and video shift are 12 for Video and Audio 3 all video used same seeds and same prompt link for the Lora : https://huggingface.co/Kijai/MiniMax-H3_comfy/resolve/main/loras/minimax_h3_taomate_3step_lora_avg_rank_19_bf16.safetensors?download=true submitted by /u/agapes1270 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wfo9wm/minimax_3step_turbo_lora_taomate_testing/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wfnjjq/release_prompt_library_a_folderbased_prompt/</id><title>[Release] Prompt Library — a folder-based prompt library for ComfyUI</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wfnjjq/release_prompt_library_a_folderbased_prompt/"/>
-<published>2026-09-13T23:48:53+00:00</published><updated>2026-09-13T23:48:53+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<summary>Hi everyone! I made a small ComfyUI custom node called Prompt Library for organizing and reusing prompts. I used ChatGPT for all of the coding and translation/localization for this project. I use the Japanese version myself too, so I decided to let ChatGPT handle the localization for the English ver</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi everyone! I made a small ComfyUI custom node called Prompt Library for organizing and reusing prompts. I used ChatGPT for all of the coding and translation/localization for this project. I use the Japanese version myself too, so I decided to let ChatGPT handle the localization for the English version as well. The idea is to keep commonly used prompts as templates, rather than copying and pasting them between workflows. Some of the main features: - Organize templates in folders - Favorites and recently used templates - Enable/disable individual prompt lines - Adjust the weight of each line - Create, edit, rename, and delete templates directly from the node - Connect multiple Prompt Library&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wfnjjq/release_prompt_library_a_folderbased_prompt/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wfn7en/relight_minimax_h3_comfyu/</id><title>Relight Minimax H3 comfyu</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wfn7en/relight_minimax_h3_comfyu/"/>
-<published>2026-09-13T23:33:25+00:00</published><updated>2026-09-13T23:33:25+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="relight"/>
-<category term="minimax"/>
-<summary>https://civitai.com/models/2936560/relight-h3-minimax-comfyui V1 submitted by /u/Emotional_Example_12 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · relight, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;https://civitai.com/models/2936560/relight-h3-minimax-comfyui V1 submitted by /u/Emotional_Example_12 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wfn7en/relight_minimax_h3_comfyu/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1wfm64d/how_do_you_guys_make_money_from_your_3dvfx_skills/</id><title>How do you guys make money from your 3d/vfx skills?</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wfm64d/how_do_you_guys_make_money_from_your_3dvfx_skills/"/>
-<published>2026-09-13T22:46:45+00:00</published><updated>2026-09-13T22:46:45+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="vfx"/>
-<category term="houdini"/>
-<category term="blender"/>
-<summary>I have been using blender for over 3 years now and I have been using Houdini regularly for around a year, I love Houdini but it is hard to justify renewing my indie license if there is no income in sight. Now I don't want to sound like I am begging for money, I am genuinely interested in what all of</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 4 · vfx, houdini, blender&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I have been using blender for over 3 years now and I have been using Houdini regularly for around a year, I love Houdini but it is hard to justify renewing my indie license if there is no income in sight. Now I don't want to sound like I am begging for money, I am genuinely interested in what all of the different routes are for making money in the industry and if I am ready yet. I am also curious how people build their portfolios, do ideas for portfolio pieces just come to them? or is there a secret way of figuring out what projects you should do based on your skills. submitted by /u/Vegetable-Box-9866 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wfm64d/how_do_you_guys_make_money_from_your_3dvfx_skills/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
