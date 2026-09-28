@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-09-28T08:00:19+00:00</updated>
+<updated>2026-09-28T08:30:22+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1ws7phv/a_lora_i_made_anyangle_lora_for_qwen_image_21/</id><title>A LoRA I made: AnyAngle LoRA for Qwen Image 2.1. Style-Aligned Arbitrary Camera Angles</title>
@@ -12,6 +12,15 @@
 <category term="lora"/>
 <summary>Hello everyone! I made a new LoRA for Qwen Image 2.1 for arbitrary camera angles for any image in (almost) every style. You can read all about it in the huggingface repo here: https://huggingface.co/lilylilith/QI_2.1_AnyAngle . Have a great day, and have fun! submitted by /u/SillyLilithh [link] [com</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hello everyone! I made a new LoRA for Qwen Image 2.1 for arbitrary camera angles for any image in (almost) every style. You can read all about it in the huggingface repo here: https://huggingface.co/lilylilith/QI_2.1_AnyAngle . Have a great day, and have fun! submitted by /u/SillyLilithh [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1ws7phv/a_lora_i_made_anyangle_lora_for_qwen_image_21/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1ws60ea/generating_longer_minimax_h3_videos_locally_on_a/</id><title>Generating longer MiniMax H3 videos locally on a MacBook Pro</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1ws60ea/generating_longer_minimax_h3_videos_locally_on_a/"/>
+<published>2026-09-28T05:27:28+00:00</published><updated>2026-09-28T05:27:28+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="minimax"/>
+<summary>I’ve been experimenting with chaining multiple MiniMax H3 generations together to create longer scenes locally on a Mac. One of the biggest issues is the transition between clips. This is especially noticeable in dark scenes, where small differences in brightness, tone, or geometry can make the seam</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I’ve been experimenting with chaining multiple MiniMax H3 generations together to create longer scenes locally on a Mac. One of the biggest issues is the transition between clips. This is especially noticeable in dark scenes, where small differences in brightness, tone, or geometry can make the seam much easier to spot. Part of the difficulty is that a VAE round-trip tends to darken the shadows of the reference, which makes continuity in darker scenes even harder to preserve. We recently introduced an optional stage in Vpipe that adjusts the appearance and geometry of a continuation with respect to its reference. The video here uses the standard continuation setup, where each new clip starts&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1ws60ea/generating_longer_minimax_h3_videos_locally_on_a/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://arxiv.org/abs/2609.30393</id><title>LiTe-GS: Oracle-Efficient Next Best View Selection for 3D Gaussian Splatting</title>
