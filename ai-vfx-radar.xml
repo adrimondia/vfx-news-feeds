@@ -2,8 +2,40 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-09-28T12:30:48+00:00</updated>
+<updated>2026-09-28T14:31:59+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wsd1xa/qwenimage_21_inpainting_with_lanpaint_alpha/</id><title>Qwen-Image 2.1 Inpainting with LanPaint — alpha channel included</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wsd1xa/qwenimage_21_inpainting_with_lanpaint_alpha/"/>
+<published>2026-09-28T12:18:55+00:00</published><updated>2026-09-28T12:18:55+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="inpainting"/>
+<category term="outpainting"/>
+<category term="flux"/>
+<category term="wan"/>
+<summary>Hi everyone, I wish to announce that LanPaint now supports Qwen-Image 2.1 — both the text-to-image model and the image edit model. Qwen-Image 2.1 can generate transparent PNGs. With LanPaint you can inpaint the alpha channel too, not just the colours. So the transparent part can change shape, not on</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 5 · inpainting, outpainting, flux, wan&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi everyone, I wish to announce that LanPaint now supports Qwen-Image 2.1 — both the text-to-image model and the image edit model. Qwen-Image 2.1 can generate transparent PNGs. With LanPaint you can inpaint the alpha channel too, not just the colours. So the transparent part can change shape, not only the object. The image edit model works under a mask as well: describe the change, paint over the part it should touch, and everything else comes back exactly as it was. LanPaint is a universal inpainting/outpainting tool that works with almost every diffusion model out there (SD, Flux, Wan, Qwen, and now Qwen 2.1)—it is especially useful for models without dedicated inpainting checkpoints. Chec&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wsd1xa/qwenimage_21_inpainting_with_lanpaint_alpha/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wsctqz/layer_extract_layer_remove_loras_for_qwen_image_21/</id><title>Layer Extract &amp; Layer Remove Loras For Qwen Image 2.1</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wsctqz/layer_extract_layer_remove_loras_for_qwen_image_21/"/>
+<published>2026-09-28T12:08:05+00:00</published><updated>2026-09-28T12:08:05+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="compositing"/>
+<category term="lora"/>
+<summary>✂️ LayerExtract isolates a prompt-specified subject and exports it on a transparent background for independent editing. https://modelscope.ai/models/DiffSynth-Studio/Qwen-Image-2.1-LayerExtract ✨ LayerRemove takes the source image and a reference layer, removes the corresponding object, and reconstr</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · compositing, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;✂️ LayerExtract isolates a prompt-specified subject and exports it on a transparent background for independent editing. https://modelscope.ai/models/DiffSynth-Studio/Qwen-Image-2.1-LayerExtract ✨ LayerRemove takes the source image and a reference layer, removes the corresponding object, and reconstructs the scene behind it. https://modelscope.ai/models/DiffSynth-Studio/Qwen-Image-2.1-LayerRemove ⚡ Both are compact Qwen-Image-2.1 LoRAs that can be hot-swapped within the same DiffSynth-Studio pipeline. 🧩 Together they turn flattened images into editable assets for compositing, repositioning, replacement, and design workflows. 📜 LoRA weights: Apache 2.0. Qwen-Image-2.1 base-model terms also app&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wsctqz/layer_extract_layer_remove_loras_for_qwen_image_21/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wsbaut/yeufonic_a_yue2based_music_creationmanagement_app/</id><title>Yeufonic - a YuE2-based music creation/management app with local LoRA training</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wsbaut/yeufonic_a_yue2based_music_creationmanagement_app/"/>
+<published>2026-09-28T10:47:50+00:00</published><updated>2026-09-28T10:47:50+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<category term="lora"/>
+<summary>Hi - hope I'm ok posting this here. I'm one of those who prefers not to fight with ComfyUI and its wiring fetish so wrote this web app to keep all those cables hidden and provide an easy to use way to create and manage music via ComfyUI/Yue2. Requirements and features are in the README but if you ca</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi - hope I'm ok posting this here. I'm one of those who prefers not to fight with ComfyUI and its wiring fetish so wrote this web app to keep all those cables hidden and provide an easy to use way to create and manage music via ComfyUI/Yue2. Requirements and features are in the README but if you can run ComfyUI/YuE2 then you should be able to run this. It runs in Docker (Linux/Windows) containers, or as a standalone Windows app c/w installer. Comes as-is with no warranties etc but if you find it useful then please give it a star, and I'm open for contributions. https://github.com/yeufonic/yeufonic submitted by /u/AcrobaticMaize2408 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wsbaut/yeufonic_a_yue2based_music_creationmanagement_app/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wsb4h3/minimax_h3_ref_fizgig_nodes_as_sota_ref2img/</id><title>MiniMax H3 REF + Fizgig Nodes: As SOTA (Ref2Img \ Img2Img) True Image Editing Model, Native 4096x1536 in 1 Minute, WF + Prompt for Every Example.</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wsb4h3/minimax_h3_ref_fizgig_nodes_as_sota_ref2img/"/>
@@ -6832,37 +6864,5 @@
 <category term="ai video"/>
 <summary>I'm building ChimeraArena , an experimental interactive creature arena designed to explore how far real-time generative AI can be pushed locally on consumer hardware . The goal is simple: run the entire interactive video-generation pipeline on a single NVIDIA RTX 4090 , without relying on cloud GPU </summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · consistency, generative video, ai video&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I'm building ChimeraArena , an experimental interactive creature arena designed to explore how far real-time generative AI can be pushed locally on consumer hardware . The goal is simple: run the entire interactive video-generation pipeline on a single NVIDIA RTX 4090 , without relying on cloud GPU infrastructure. Instead of generating a traditional pre-rendered video, ChimeraArena creates a continuous interactive sequence. A creature enters an arena, receives an action such as: !action leaps forward and slams its tail into the ground to suggest a move. !vote 1 (or another displayed number) to choose from the shortlisted suggestions. !summon CODE to enter the next free draw with a creature f&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wg74pf/chimeraarena_running_interactive_ai_video_locally/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wg4whq/howre_you_running_comfyui_in_the_cloud/</id><title>How're you running ComfyUI in the cloud?</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wg4whq/howre_you_running_comfyui_in_the_cloud/"/>
-<published>2026-09-14T14:25:00+00:00</published><updated>2026-09-14T14:25:00+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<summary>What is the cheapest and yet reliable way of running ComfyUI in the cloud? I'm mostly looking to run H3 for some experimentations. Please share how do you do it. submitted by /u/Individual-Bird-7036 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;What is the cheapest and yet reliable way of running ComfyUI in the cloud? I'm mostly looking to run H3 for some experimentations. Please share how do you do it. submitted by /u/Individual-Bird-7036 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wg4whq/howre_you_running_comfyui_in_the_cloud/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wg3p1a/i_little_lost_setting_up_comfyui/</id><title>I Little Lost… Setting Up ComfyUI</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wg3p1a/i_little_lost_setting_up_comfyui/"/>
-<published>2026-09-14T13:38:19+00:00</published><updated>2026-09-14T13:38:19+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="wan"/>
-<category term="minimax"/>
-<category term="ai video"/>
-<summary>I have recently gotten into NSFW AI video creation using WAN 3.0 on Venice.ai which has gotten expensive overtime. I’ve stumbled onto ComfyUI using MiniMax as an alternative. Since I don’t have an efficient enough GPU, it’s been recommended to just use runpod instead, and I’m lost at setting all of </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 5 · comfyui, wan, minimax, ai video&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I have recently gotten into NSFW AI video creation using WAN 3.0 on Venice.ai which has gotten expensive overtime. I’ve stumbled onto ComfyUI using MiniMax as an alternative. Since I don’t have an efficient enough GPU, it’s been recommended to just use runpod instead, and I’m lost at setting all of this up. There’s so many workflows, Loras, etc it’s overwhelming. I didn’t even realize until last night that I can’t use comfyUI desktop and runpod together, and if that’s the route I want to go with (runpod) I need to use Comfy on an internet browser. I also experimented with minimax on Venice and was underwhelmed with the results, but with all the modifications I’m reading about here, it seems &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wg3p1a/i_little_lost_setting_up_comfyui/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wg27xp/ltx25_ripple_minimax_h3_viggle_wan_22_animate_2/</id><title>LTX-2.5 Ripple, MiniMax H3 Viggle &amp; Wan 2.2 Animate 2 INSANE AI Video To...</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wg27xp/ltx25_ripple_minimax_h3_viggle_wan_22_animate_2/"/>
-<published>2026-09-14T12:36:58+00:00</published><updated>2026-09-14T12:36:58+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="wan"/>
-<category term="minimax"/>
-<category term="ai video"/>
-<summary>submitted by /u/Maleficent-Tell-2718 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 6 · wan, minimax, ai video&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/Maleficent-Tell-2718 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wg27xp/ltx25_ripple_minimax_h3_viggle_wan_22_animate_2/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
