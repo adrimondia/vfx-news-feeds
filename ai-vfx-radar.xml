@@ -2,8 +2,60 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-09-29T12:31:00+00:00</updated>
+<updated>2026-09-29T14:30:37+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wt9y1m/whats_your_favourite_modelsworkflow_for_character/</id><title>What’s your favourite models/workflow for character consistency w/lora?</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wt9y1m/whats_your_favourite_modelsworkflow_for_character/"/>
+<published>2026-09-29T13:20:33+00:00</published><updated>2026-09-29T13:20:33+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<category term="flux"/>
+<category term="lora"/>
+<category term="consistency"/>
+<category term="character consistency"/>
+<summary>Sorry for the long read!! What’s your favourite workflow/model for consistent single-character image and H3 generation? I’m trying to improve my image-generation pipeline and feel like I’m currently not getting the most out of what’s available. My main use case is generating one consistent character</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 8 · comfyui, flux, lora, consistency, character consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Sorry for the long read!! What’s your favourite workflow/model for consistent single-character image and H3 generation? I’m trying to improve my image-generation pipeline and feel like I’m currently not getting the most out of what’s available. My main use case is generating one consistent character across different scenes, while being able to control/lock things like: Character identity Locations/environments Outfits/clothing Poses/actions Lighting/time of day Camera/composition Overall photographic style The character needs to remain recognisable even when I change the location, outfit, pose, etc. At the moment I’m using ZiT + a character LoRA + Forge nodes, and I’ve recently started exper&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wt9y1m/whats_your_favourite_modelsworkflow_for_character/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wt9r6l/recommended_hybrid_model_for_image_references_and/</id><title>Recommended Hybrid model for image references and refmods alongside I2V?</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wt9r6l/recommended_hybrid_model_for_image_references_and/"/>
+<published>2026-09-29T13:12:23+00:00</published><updated>2026-09-29T13:12:23+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<category term="minimax"/>
+<summary>What models would you recommend and suggest for achieve this for consistent scenes? EG Comfyui Minimax H3 Minimax-H3-fl2va-ref2va-hybrid-models submitted by /u/Cumchukka67 [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;What models would you recommend and suggest for achieve this for consistent scenes? EG Comfyui Minimax H3 Minimax-H3-fl2va-ref2va-hybrid-models submitted by /u/Cumchukka67 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wt9r6l/recommended_hybrid_model_for_image_references_and/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wt8z9j/release_update_agate003preview_better_than_sd_15/</id><title>[RELEASE UPDATE] Agate-003-preview / better than SD 1.5 performance at 3x less parameters (&lt;300M param including text encoder &amp; VAE) with only 5000 EUR GPU cost.</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wt8z9j/release_update_agate003preview_better_than_sd_15/"/>
+<published>2026-09-29T12:37:28+00:00</published><updated>2026-09-29T12:37:28+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<category term="lora"/>
+<summary>We've continued pretraining on the Agate-001-preview, releasing an intermediary Agate-002-preview (256x256) as well as a 512x512 native Agate-003-preview by continuing training while keeping the planning part at the same resolution as in 256x256 with a learned downsampler/upsampler. https://preview.</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;We've continued pretraining on the Agate-001-preview, releasing an intermediary Agate-002-preview (256x256) as well as a 512x512 native Agate-003-preview by continuing training while keeping the planning part at the same resolution as in 256x256 with a learned downsampler/upsampler. https://preview.redd.it/9s48sue2egsh1.png?width=1080&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=e900381de31433c564f913438d422f0ed2a383cf The model is SoTA in it's parameter count area, using two approaches which we credit for the improvements observed: A planner architecture, that plans in low resolution before submitting the task to the "painter / renderer". The planner is a transformer and cross-attends to the text tokens, while t&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wt8z9j/release_update_agate003preview_better_than_sd_15/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wt8rg5/workflow_i2v_avec_son_pour_wan/</id><title>Workflow I2V avec son pour Wan</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wt8rg5/workflow_i2v_avec_son_pour_wan/"/>
+<published>2026-09-29T12:27:20+00:00</published><updated>2026-09-29T12:27:20+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<category term="wan"/>
+<summary>Bonjour à tous, j'utilise comfyui en local sur Windows avec Wan pour faire des vidéos. J'ai passé plusieurs heures à tester différents workflow ou a demander à chatgpt ou Claude mais je n'ai jamais réussi à générer une vidéo avec du son. Quels genre de workflow utilisez vous? Merci d'avance submitte</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · comfyui, wan&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Bonjour à tous, j'utilise comfyui en local sur Windows avec Wan pour faire des vidéos. J'ai passé plusieurs heures à tester différents workflow ou a demander à chatgpt ou Claude mais je n'ai jamais réussi à générer une vidéo avec du son. Quels genre de workflow utilisez vous? Merci d'avance submitted by /u/justeduluc [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wt8rg5/workflow_i2v_avec_son_pour_wan/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wt82oz/minimax_h3_blurreddistorted_face_fix_using/</id><title>Minimax H3 blurred/Distorted Face Fix using MMH3ultimate upscale by BBaudio</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wt82oz/minimax_h3_blurreddistorted_face_fix_using/"/>
+<published>2026-09-29T11:54:28+00:00</published><updated>2026-09-29T11:54:28+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="minimax"/>
+<summary>I just increase the steps of the MMH3ultimate upscale from 1 to 2, for the workflow and if you need more details how It was done, I posted a video on youtube https://www.youtube.com/watch?v=Caya_Qd4Q9Q PC Specs: Ryzen 5 7600 32gb Ram AMD RX 9070 Nonxt submitted by /u/mwhjose [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I just increase the steps of the MMH3ultimate upscale from 1 to 2, for the workflow and if you need more details how It was done, I posted a video on youtube https://www.youtube.com/watch?v=Caya_Qd4Q9Q PC Specs: Ryzen 5 7600 32gb Ram AMD RX 9070 Nonxt submitted by /u/mwhjose [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wt82oz/minimax_h3_blurreddistorted_face_fix_using/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wt6gbh/qwen_21_easy_way_to_create_a_consistent_face/</id><title>Qwen 2.1: Easy way to create a consistent face character. No lora. Only prompt and reference image.</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wt6gbh/qwen_21_easy_way_to_create_a_consistent_face/"/>
@@ -15,6 +67,51 @@
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Create a reference image of the face (showing various angles) arranged in a 2x2 grid (in ComfyUI, this is easily done using the "Load Images &amp;amp; Compose (obvpm)" node: https://github.com/chanon/comfyui-obvpm ). In the prompt (created by AI), replace the square brackets with your own prompt: Task: Analyze the provided reference image containing 4 panels. These are four different angles, expressions, and lighting conditions of the same character. Your goal is to merge their facial features into one single, consistent, canonical face. Step 1 (Identity Extraction): Extract the core identity markers from all four panels. Merge the nose shape, jawline, eye shape, eyebrow arch, lip shape, skin textur&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wt6gbh/qwen_21_easy_way_to_create_a_consistent_face/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wt5oe9/endless_minimax_h3_with_endless_lipsync_v15_less/</id><title>Endless MiniMax H3 (with Endless LipSync) v1.5 (less Motion Context degradation)</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wt5oe9/endless_minimax_h3_with_endless_lipsync_v15_less/"/>
+<published>2026-09-29T09:37:07+00:00</published><updated>2026-09-29T09:37:07+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="wan"/>
+<category term="minimax"/>
+<category term="lora"/>
+<summary>Endless MiniMax H3 (with Endless LipSync) v1.5 When MiniMax H3 came out, I was badly missing the Endless Wan 2.2 I2V (SVI 2 Pro) features, so at first I look at other options, but most of them included an AIO node that could do everything, and I couldn't use most of my workflow, because they did eve</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · wan, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Endless MiniMax H3 (with Endless LipSync) v1.5 When MiniMax H3 came out, I was badly missing the Endless Wan 2.2 I2V (SVI 2 Pro) features, so at first I look at other options, but most of them included an AIO node that could do everything, and I couldn't use most of my workflow, because they did everything inside that huge node. The only exception to this, was ComfyUI-H3-Motion-Context , which I could easily integrate into my setup. Its big shortcoming though, was that it just created single videos. No way to concatenate them without the lossy step of decoding and re-encoding in a video editor. So, I created a custom node that could do just that, and voila.. Endless MiniMax H3 (with Endless &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wt5oe9/endless_minimax_h3_with_endless_lipsync_v15_less/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wt5gwv/how_to_get_desired_result_and_consistency/</id><title>How to get desired result and consistency?</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wt5gwv/how_to_get_desired_result_and_consistency/"/>
+<published>2026-09-29T09:24:11+00:00</published><updated>2026-09-29T09:24:11+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="animation"/>
+<category term="comfyui"/>
+<category term="blender"/>
+<category term="minimax"/>
+<category term="lora"/>
+<category term="consistency"/>
+<summary>Hello, I’ve started with ComfyUI not so long time ago. Focusing on creating short movies with MiniMax H3. My workflow is, I describe scene and details for Claude and he writes me ready script prompt with timing etc. I create references like character sheet with Qwen 2.1, use Last frame screenshot as</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 7 · animation, comfyui, blender, minimax, lora, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hello, I’ve started with ComfyUI not so long time ago. Focusing on creating short movies with MiniMax H3. My workflow is, I describe scene and details for Claude and he writes me ready script prompt with timing etc. I create references like character sheet with Qwen 2.1, use Last frame screenshot as reference to get the same scene climate and details. When I hit the wall with camera settings and environment, I create blockout scene in Blender, really simple for another reference. When I don’t get desired result, I write to Claude, what’s bad, what I need, he writes another prompts or suggest me to get this scene simpler then I raise steps and resolution a bit. To test the water I use with Lo&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wt5gwv/how_to_get_desired_result_and_consistency/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wt5bv8/motion_transfer_demo_with_my_experimental_lora/</id><title>Motion transfer demo with my experimental lora and workflow</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wt5bv8/motion_transfer_demo_with_my_experimental_lora/"/>
+<published>2026-09-29T09:15:17+00:00</published><updated>2026-09-29T09:15:17+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="lora"/>
+<summary>submitted by /u/CQDSN [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/CQDSN [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wt5bv8/motion_transfer_demo_with_my_experimental_lora/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wt443j/super_new_beginner_on_comfyui_cloud_best/</id><title>super new beginner on comfyui cloud!!! best workflow/model for recreating ME in pinterest reference photos while controlling pose/background separately ???</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wt443j/super_new_beginner_on_comfyui_cloud_best/"/>
+<published>2026-09-29T07:57:39+00:00</published><updated>2026-09-29T07:57:39+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="face swap"/>
+<category term="comfyui"/>
+<category term="flux"/>
+<summary>hi!!!! 🤍 im a complete comfyui beginner and im using comfyui cloud, not running locally, so gpu/vram limitations arent currently relevant to me. im trying to figure out what model/workflow i should actually learn for a very specific kind of photorealistic reference based image generation/editing i s</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · face swap, comfyui, flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;hi!!!! 🤍 im a complete comfyui beginner and im using comfyui cloud, not running locally, so gpu/vram limitations arent currently relevant to me. im trying to figure out what model/workflow i should actually learn for a very specific kind of photorealistic reference based image generation/editing i started experimenting with qwen image edit 2511, but im not committed to qwen at all. im trying to figure out the best current method for the result, regardless of whether thats qwen, flux, nano banana pro, another model, multiple models chained together, etc. use #1: pinterest reference image + me image i have: image a: a pinterest/inspiration photograph of a REAL LIFE adult woman image b: one or &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wt443j/super_new_beginner_on_comfyui_cloud_best/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wt2pd3/you_do_need_character_swap_lora_for_minimax_h3/</id><title>You do need character swap LoRA for MiniMax H3</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wt2pd3/you_do_need_character_swap_lora_for_minimax_h3/"/>
 <published>2026-09-29T06:29:54+00:00</published><updated>2026-09-29T06:29:54+00:00</updated>
@@ -23,6 +120,15 @@
 <category term="lora"/>
 <summary>... if you want to use the hybrid model. Ref2VA has certain quality issues and struggles with mid‑distance subjects and colors, it's a known issue the Minimax team has acknowledged. Hybrid gives you FL2VA's quality with Ref2VA's flexibility. But some capabilities take a hit, video referencing is one</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;... if you want to use the hybrid model. Ref2VA has certain quality issues and struggles with mid‑distance subjects and colors, it's a known issue the Minimax team has acknowledged. Hybrid gives you FL2VA's quality with Ref2VA's flexibility. But some capabilities take a hit, video referencing is one. The character swap LoRA brings it back and makes it even better. Even Ref2VA strongly benefits from it according to my tests. At 88% denoise plus LoRA, the accuracy is even better but it may not be suitable on all scenarios. It depends on the video. I'm including more tests in the comments. submitted by /u/not_food [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wt2pd3/you_do_need_character_swap_lora_for_minimax_h3/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wt2np1/best_image_upscaler_till_date/</id><title>Best Image Upscaler till date</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wt2np1/best_image_upscaler_till_date/"/>
+<published>2026-09-29T06:27:03+00:00</published><updated>2026-09-29T06:27:03+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="upscaler"/>
+<summary>For the base image, what is the best image upscale model or method , to get the better resolution images, much clearer edges, face, objects, materials, without oily texture and merged objects. submitted by /u/Juggernaut_Wrecker [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · upscaler&lt;/small&gt;&lt;/p&gt;&lt;p&gt;For the base image, what is the best image upscale model or method , to get the better resolution images, much clearer edges, face, objects, materials, without oily texture and merged objects. submitted by /u/Juggernaut_Wrecker [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wt2np1/best_image_upscaler_till_date/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wt2krs/using_controlnet_depth_with_an_end_percent_5_is/</id><title>Using ControlNet Depth with an end_percent &lt; .5 is neat</title>
@@ -6893,35 +6999,5 @@
 <category term="animation"/>
 <summary>I’m debating spending about €8k on a 5090 + 128GB RAM workstation for local AI inference. I have a full-time job, but I also run an AI side business that already makes real money, and my goal is potentially to take it full time eventually. My workloads are mainly image generation, video generation a</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · video generation, animation&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I’m debating spending about €8k on a 5090 + 128GB RAM workstation for local AI inference. I have a full-time job, but I also run an AI side business that already makes real money, and my goal is potentially to take it full time eventually. My workloads are mainly image generation, video generation and animation, not really LLMs. Because it’s a business purchase, I can deduct the VAT and get roughly another €2k benefit through tax write-offs, so the actual cost is meaningfully lower than €8k. My dilemma is whether I’m being stupid buying at current insane GPU/RAM prices when cloud GPUs like RunPod/Vast are still relatively affordable. I could realistically see myself running image/video workl&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wh2994/should_i_drop_8k_on_this/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wh10ee/yue2_instrumental_lora/</id><title>YuE2 Instrumental LoRA</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wh10ee/yue2_instrumental_lora/"/>
-<published>2026-09-15T13:52:01+00:00</published><updated>2026-09-15T13:52:01+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<category term="lora"/>
-<summary>Edit: I forgot ComfyUI does goofy stuff with their layer naming conventions. I'll have a comfyUI compatible version available in just a few minutes. Apologies for the oversight. Trained on 2,700 instrumental tracks across 100+ genres and includes three different options for how to prompt the lyrics </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Edit: I forgot ComfyUI does goofy stuff with their layer naming conventions. I'll have a comfyUI compatible version available in just a few minutes. Apologies for the oversight. Trained on 2,700 instrumental tracks across 100+ genres and includes three different options for how to prompt the lyrics field: 1. Bare — let the model choose the structure and length. [instrumental] 2. Untimed tags — you choose the section order, the model chooses the timing. [intro] [verse] [chorus] [bridge] [chorus] [outro] 3. Timed tags — you also give each section a start and end in m:ss . The model was trained with exact section times from real tracks, so this is the strongest structural steer. Treat the times&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wh10ee/yue2_instrumental_lora/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wgzlx2/looking_for_a_free_ai_model_for_highquality/</id><title>Looking for a free AI model for high-quality architectural rendering</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wgzlx2/looking_for_a_free_ai_model_for_highquality/"/>
-<published>2026-09-15T12:55:16+00:00</published><updated>2026-09-15T12:55:16+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="rendering"/>
-<summary>Hi everyone! I’m looking for an AI model/tool that can help me create high-quality architectural renderings from my sketches, 3D models, or existing images. The most important things I’m looking for are: Really high-quality, realistic architectural images Ideally free or with a generous free option,</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · rendering&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi everyone! I’m looking for an AI model/tool that can help me create high-quality architectural renderings from my sketches, 3D models, or existing images. The most important things I’m looking for are: Really high-quality, realistic architectural images Ideally free or with a generous free option, because I don’t have much budget The ability to edit and improve the same image multiple times without losing its original quality I want to be able to tell the AI what to change (materials, landscape, lighting, furniture, façade, etc.) while keeping the rest of the image consistent It would be great if I could keep working on the same image and make updates without the AI completely changing the&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wgzlx2/looking_for_a_free_ai_model_for_highquality/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wgzbdf/local_video_gen_what_does_your_actual_pipeline/</id><title>Local video gen — what does your actual pipeline look like start to finish?</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wgzbdf/local_video_gen_what_does_your_actual_pipeline/"/>
-<published>2026-09-15T12:42:26+00:00</published><updated>2026-09-15T12:42:26+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<category term="ltx"/>
-<category term="storyboard"/>
-<summary>Been messing with LTX and a few others in ComfyUI on a single box. Get decent clips, but stitching them into anything longer than 5 seconds turns into a mess of manual steps. Want to see how people actually run it end to end: 1. Prompt/storyboard → what tool 2. Generation → which model and why 3. Up</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, ltx, storyboard&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Been messing with LTX and a few others in ComfyUI on a single box. Get decent clips, but stitching them into anything longer than 5 seconds turns into a mess of manual steps. Want to see how people actually run it end to end: 1. Prompt/storyboard → what tool 2. Generation → which model and why 3. Upscale / frame interp / fixing the wobble 4. Cutting it together and audio Especially interested if you've automated any of the glue between steps. Not after cloud services — local only. submitted by /u/Normal_Frosting8519 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wgzbdf/local_video_gen_what_does_your_actual_pipeline/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
