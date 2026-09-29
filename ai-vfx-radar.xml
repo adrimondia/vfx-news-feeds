@@ -2,8 +2,247 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-09-29T04:30:21+00:00</updated>
+<updated>2026-09-29T06:30:21+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://arxiv.org/abs/2609.31756</id><title>3dgs-sc: a controlled static screen-content benchmark for 3d gaussian splatting</title>
+<link rel="alternate" href="https://arxiv.org/abs/2609.31756"/>
+<published>2026-09-29T04:00:00+00:00</published><updated>2026-09-29T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="gaussian splatting"/>
+<category term="3d gaussian"/>
+<category term="multi-view"/>
+<summary>arXiv:2609.31756v1 Announce Type: new Abstract: Does high image fidelity imply readable screen content in 3D Gaussian Splatting (3DGS)? We introduce 3DGS-SC, a controlled static screen-content dataset and benchmark for examining this mismatch. Ten procedural scenes provide fixed multi-view splits, e</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · gaussian splatting, 3d gaussian, multi-view&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.31756v1 Announce Type: new Abstract: Does high image fidelity imply readable screen content in 3D Gaussian Splatting (3DGS)? We introduce 3DGS-SC, a controlled static screen-content dataset and benchmark for examining this mismatch. Ten procedural scenes provide fixed multi-view splits, exact cameras, screen masks, text boxes, and transcripts. The protocol separates whole-image fidelity, screen-region fidelity, OCR readability, and edge preservation. In the reported five-method comparison, LightGaussian exceeds Mip-Splatting in screen PSNR by only 0.08 dB, yet trails it in OCR accuracy by 12.7 percentage points. Across all ten method pairs, screen-PSNR and OCR orderings disagree i&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.31756"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2609.32175</id><title>OneFixer: High-Quality and Consistent One-Step Autoregressive 3DGS Refinement for Driving Scenes</title>
+<link rel="alternate" href="https://arxiv.org/abs/2609.32175"/>
+<published>2026-09-29T04:00:00+00:00</published><updated>2026-09-29T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="video diffusion"/>
+<category term="gaussian splatting"/>
+<category term="3d gaussian"/>
+<category term="rendering"/>
+<category term="consistency"/>
+<summary>arXiv:2609.32175v1 Announce Type: new Abstract: Autoregressive video diffusion is a promising render-time fixer for 3D Gaussian Splatting (3DGS) in autonomous-driving simulation, but deployment demands high visual quality and temporal consistency at low latency. This is especially hard for one-step </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · video diffusion, gaussian splatting, 3d gaussian, rendering, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.32175v1 Announce Type: new Abstract: Autoregressive video diffusion is a promising render-time fixer for 3D Gaussian Splatting (3DGS) in autonomous-driving simulation, but deployment demands high visual quality and temporal consistency at low latency. This is especially hard for one-step causal generation, where each imperfect prediction immediately becomes context for subsequent frames. Existing approaches stabilize rollouts through staged training with multiple modules and rollout-aware regularization, yet one-step quality still falls short of what deployment requires. We introduce OneFixer, a one-step autoregressive video-diffusion fixer trained in a single task-specific adapta&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.32175"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2609.32455</id><title>QuacamFM: Quaternion-Constrained Flow Matching for Camera Pose Estimation</title>
+<link rel="alternate" href="https://arxiv.org/abs/2609.32455"/>
+<published>2026-09-29T04:00:00+00:00</published><updated>2026-09-29T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="4d"/>
+<category term="camera pose"/>
+<category term="pose estimation"/>
+<category term="multi-view"/>
+<summary>arXiv:2609.32455v1 Announce Type: new Abstract: Camera pose estimation from multi-view images remains a challenge in computer vision. Traditional methods often address this problem using Structure-from-Motion (SfM) with bundle adjustment. However, camera poses estimated from sparse views are inheren</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 6 · 4d, camera pose, pose estimation, multi-view&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.32455v1 Announce Type: new Abstract: Camera pose estimation from multi-view images remains a challenge in computer vision. Traditional methods often address this problem using Structure-from-Motion (SfM) with bundle adjustment. However, camera poses estimated from sparse views are inherently ambiguous due to insufficient geometric constraints. Recent work leverages probabilistic models, such as diffusion models, to generate multiple camera pose hypotheses and therefore capture this uncertainty better. Most of these methods represent camera rotations using unit quaternions, but treat them as unconstrained 4D vectors during the generative processes, thereby ignoring the unit-norm co&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.32455"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2609.32518</id><title>UnStep: Training-Free Acceleration of Causal Video Diffusion with Fewer Steps Than Distillation</title>
+<link rel="alternate" href="https://arxiv.org/abs/2609.32518"/>
+<published>2026-09-29T04:00:00+00:00</published><updated>2026-09-29T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="video generation"/>
+<category term="video diffusion"/>
+<category term="diffusion transformer"/>
+<category term="dit"/>
+<summary>arXiv:2609.32518v1 Announce Type: new Abstract: Distilling bidirectional multi-step video diffusion transformers into few-step causal models has become a common approach for streaming video generation. While these few-step students are significantly faster than the teachers they are distilled from, </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · video generation, video diffusion, diffusion transformer, dit&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.32518v1 Announce Type: new Abstract: Distilling bidirectional multi-step video diffusion transformers into few-step causal models has become a common approach for streaming video generation. While these few-step students are significantly faster than the teachers they are distilled from, they remain slow for real-time generation. In this work we present UnStep, a training-free wrapper that accelerates few-step causal video models at inference by running them with fewer diffusion transformer (DiT) steps than during distillation and limiting the temporal window retained in the attention KV cache. We propose two inference-only mechanisms to recover quality lost by step reduction and &lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.32518"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2609.32596</id><title>GAUGE: Group-Wise View-Inconsistency Rectification for Feed-Forward 4D Tracking</title>
+<link rel="alternate" href="https://arxiv.org/abs/2609.32596"/>
+<published>2026-09-29T04:00:00+00:00</published><updated>2026-09-29T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="4d"/>
+<category term="tracking"/>
+<category term="consistency"/>
+<summary>arXiv:2609.32596v1 Announce Type: new Abstract: Feed-forward models regress dense 3D point trajectories directly from monocular video, yet the residual after global alignment is substantial and lacks a structural explanation. Measured on dynamic query points across models and datasets, the error con</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · 4d, tracking, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.32596v1 Announce Type: new Abstract: Feed-forward models regress dense 3D point trajectories directly from monocular video, yet the residual after global alignment is substantial and lacks a structural explanation. Measured on dynamic query points across models and datasets, the error concentrates along the view direction, while the scale correction each motion group requires differs. The predicted displacement direction nevertheless supports reliable grouping, with a median angle far below the 90{\deg} random baseline. The systematic part of the residual is therefore a family of radial degrees of freedom per motion group, along directions 2D observations cannot constrain. We call&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.32596"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2609.32711</id><title>ProDyGS: Dynamic Gaussian Splatting from a Single Static Monocular Camera</title>
+<link rel="alternate" href="https://arxiv.org/abs/2609.32711"/>
+<published>2026-09-29T04:00:00+00:00</published><updated>2026-09-29T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="novel view synthesis"/>
+<category term="gaussian splatting"/>
+<category term="3d gaussian"/>
+<category term="depth estimation"/>
+<category term="monocular depth"/>
+<category term="multi-view"/>
+<summary>arXiv:2609.32711v1 Announce Type: new Abstract: We present ProDyGS, a novel dynamic 3D Gaussian Splatting framework for high-quality novel view synthesis from videos captured by a single static camera. While existing methods rely on multi-view setups or significant camera motion for geometric constr</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 7 · novel view synthesis, gaussian splatting, 3d gaussian, depth estimation, monocular depth, multi-view&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.32711v1 Announce Type: new Abstract: We present ProDyGS, a novel dynamic 3D Gaussian Splatting framework for high-quality novel view synthesis from videos captured by a single static camera. While existing methods rely on multi-view setups or significant camera motion for geometric constraints, our approach addresses the challenging scenario where multi-view supervision is completely absent. We overcome this limitation by generating synthetic multi-view supervision through depth-guided proxy image synthesis. Specifically, we estimate temporally consistent depth maps using foundational monocular depth networks, then construct 3D Gaussian representations that generate proxy images f&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.32711"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2609.32742</id><title>LoCoVSR: Local Context Diffusion Posterior Sampling for Video Super-Resolution</title>
+<link rel="alternate" href="https://arxiv.org/abs/2609.32742"/>
+<published>2026-09-29T04:00:00+00:00</published><updated>2026-09-29T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="optical flow"/>
+<category term="super-resolution"/>
+<category term="upscaling"/>
+<category term="denoising"/>
+<summary>arXiv:2609.32742v1 Announce Type: new Abstract: Video super-resolution (VSR) is an ill-posed inverse problem that aims to reconstruct a high-resolution (HR) video from a noisy, low-resolution (LR) version of it. We present LoCoVSR, a diffusion-based VSR framework that leverages pixel-space denoising</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · optical flow, super-resolution, upscaling, denoising&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.32742v1 Announce Type: new Abstract: Video super-resolution (VSR) is an ill-posed inverse problem that aims to reconstruct a high-resolution (HR) video from a noisy, low-resolution (LR) version of it. We present LoCoVSR, a diffusion-based VSR framework that leverages pixel-space denoising diffusion probabilistic models. LoCoVSR integrates the Diffusion Posterior Sampling technique with spatio-temporal context learning, operating in a moving-average form. A localized window of adjacent LR frames is used for recovering each center frame, while applying a shared noise trajectory across all frames. The localized windowing enables processing of long videos without length limitations, s&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.32742"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2609.33253</id><title>VGGT-Diff: Visual Geometry Meets Diffusion for Sparse-View Novel View Synthesis</title>
+<link rel="alternate" href="https://arxiv.org/abs/2609.33253"/>
+<published>2026-09-29T04:00:00+00:00</published><updated>2026-09-29T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="video diffusion"/>
+<category term="novel view synthesis"/>
+<category term="denoising"/>
+<category term="consistency"/>
+<category term="multi-view"/>
+<summary>arXiv:2609.33253v1 Announce Type: new Abstract: We present VGGT-Diff, a geometry-routed multi-view diffusion model for sparse-view novel view synthesis. Existing novel view synthesis (NVS) methods face a fundamental trade-off: reconstruction-based approaches preserve observed geometry but struggle t</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 6 · video diffusion, novel view synthesis, denoising, consistency, multi-view&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.33253v1 Announce Type: new Abstract: We present VGGT-Diff, a geometry-routed multi-view diffusion model for sparse-view novel view synthesis. Existing novel view synthesis (NVS) methods face a fundamental trade-off: reconstruction-based approaches preserve observed geometry but struggle to synthesize unseen regions, while diffusion-based methods provide strong generative priors yet rely on implicit source-to-query correspondence. VGGT-Diff bridges these regimes by routing visual geometry latents from VGGT-{\Omega} into a pretrained video diffusion model. Each visual token is associated with a 3D point and confidence, then transformed into query-aligned latent conditions through a &lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.33253"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2609.33330</id><title>FeCoSplat: Feedback-Guided Compression for Feed-Forward 3D Gaussian Splatting</title>
+<link rel="alternate" href="https://arxiv.org/abs/2609.33330"/>
+<published>2026-09-29T04:00:00+00:00</published><updated>2026-09-29T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="gaussian splatting"/>
+<category term="3d gaussian"/>
+<category term="multi-view"/>
+<summary>arXiv:2609.33330v1 Announce Type: new Abstract: Feed-forward 3D Gaussian Splatting (3DGS) enables efficient novel-view synthesis from sparse multi-view images, yet its representations remain costly to store and transmit. Existing approaches compress either the input images, incurring heavy receiver-</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · gaussian splatting, 3d gaussian, multi-view&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.33330v1 Announce Type: new Abstract: Feed-forward 3D Gaussian Splatting (3DGS) enables efficient novel-view synthesis from sparse multi-view images, yet its representations remain costly to store and transmit. Existing approaches compress either the input images, incurring heavy receiver-side reconstruction, or the reconstructed Gaussian primitives, which are difficult to compress due to their heterogeneous and irregular attributes. We instead compress compact intermediate features, providing a better balance between compression efficiency and receiver-side complexity. Based on this paradigm, we propose FeCoSplat, a feedback-guided compression framework for feed-forward 3DGS. FeCo&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.33330"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2609.33384</id><title>PulseQuant: Propagation-Guided Subspace Correction for 4-Bit Video Diffusion Transformers</title>
+<link rel="alternate" href="https://arxiv.org/abs/2609.33384"/>
+<published>2026-09-29T04:00:00+00:00</published><updated>2026-09-29T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="video diffusion"/>
+<category term="denoising"/>
+<category term="wan"/>
+<category term="consistency"/>
+<summary>arXiv:2609.33384v1 Announce Type: new Abstract: Quantization errors in video diffusion transformers can be amplified or attenuated by subsequent denoising updates, making local reconstruction error an incomplete predictor of final impact. We introduce PulseQuant, a 4-bit post-training quantization m</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · video diffusion, denoising, wan, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.33384v1 Announce Type: new Abstract: Quantization errors in video diffusion transformers can be amplified or attenuated by subsequent denoising updates, making local reconstruction error an incomplete predictor of final impact. We introduce PulseQuant, a 4-bit post-training quantization method that combines trajectory sensitivity with activation geometry to guide offline calibration. Isolated block--step interventions estimate propagation risk, which prioritizes sensitive trajectory states during row-radius selection. With these radii fixed, response-subspace correction uses neighboring-code edits to reduce residual components along dominant activation directions. Both stages pres&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.33384"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2609.33582</id><title>Fill2SR: Repurposing Inpainting Diffusion Transformers for Real-World Super-Resolution</title>
+<link rel="alternate" href="https://arxiv.org/abs/2609.33582"/>
+<published>2026-09-29T04:00:00+00:00</published><updated>2026-09-29T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="super-resolution"/>
+<category term="inpainting"/>
+<category term="diffusion transformer"/>
+<summary>arXiv:2609.33582v1 Announce Type: new Abstract: Recent real-world image super-resolution (SR) methods often adapt text-to-image (T2I) backbones with ControlNet-style branches or spatial conditioning tokens, which increases memory and computes with resolution and often constrains training to a fixed </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · super-resolution, inpainting, diffusion transformer&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.33582v1 Announce Type: new Abstract: Recent real-world image super-resolution (SR) methods often adapt text-to-image (T2I) backbones with ControlNet-style branches or spatial conditioning tokens, which increases memory and computes with resolution and often constrains training to a fixed scale. We propose Fill2SR, which repurposes a masked-inpainting Diffusion Transformer for SR without extra spatial branches. Our Inpainting-Interface Evidence Adapter (IIEA) writes the low-quality (LQ) observation into the native masked-image slot under a full-image mask, turning inpainting into a reverse-degradation conditional rectified flow trained with LoRA-only tuning. We further introduce RC&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.33582"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2609.34176</id><title>AGILE-GS: Anchor-Guided Fast Next-Best-View Selection for Active 3D Gaussian Splatting</title>
+<link rel="alternate" href="https://arxiv.org/abs/2609.34176"/>
+<published>2026-09-29T04:00:00+00:00</published><updated>2026-09-29T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="gaussian splatting"/>
+<category term="3d gaussian"/>
+<category term="rendering"/>
+<summary>arXiv:2609.34176v1 Announce Type: new Abstract: Radiance fields need hundreds of views, and their placement matters as much as their number. Next-best-view (NBV) selection for 3D Gaussian Splatting (3DGS) usually scores every candidate in the pool and keeps one. Searching for information and choosin</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · gaussian splatting, 3d gaussian, rendering&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.34176v1 Announce Type: new Abstract: Radiance fields need hundreds of views, and their placement matters as much as their number. Next-best-view (NBV) selection for 3D Gaussian Splatting (3DGS) usually scores every candidate in the pool and keeps one. Searching for information and choosing a camera, however, are separable problems. We present AGILE-GS, an anchor-guided NBV method that separates the two. A virtual anchor pose is optimized on SE(3) by Riemannian gradient ascent on expected information gain. It need not be reachable or in the pool; it marks where the model is most uncertain. Candidates are scored against the anchor's viewing geometry, and a greedy ridge-leverage step&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.34176"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2609.34335</id><title>SkillPE: Creativity-Oriented Cinematic Skill Evolution for Text-to-Video Prompt Engineering</title>
+<link rel="alternate" href="https://arxiv.org/abs/2609.34335"/>
+<published>2026-09-29T04:00:00+00:00</published><updated>2026-09-29T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="text-to-video"/>
+<category term="filmmaking"/>
+<category term="cinematic"/>
+<summary>arXiv:2609.34335v1 Announce Type: new Abstract: Achieving high-quality, cinematic results in text-to-video generation remains challenging for non-experts, whose prompts often lack professional narrative and creative design. We propose SkillPE, a prompt engineering (PE) framework that evolves reusabl</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · text-to-video, filmmaking, cinematic&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.34335v1 Announce Type: new Abstract: Achieving high-quality, cinematic results in text-to-video generation remains challenging for non-experts, whose prompts often lack professional narrative and creative design. We propose SkillPE, a prompt engineering (PE) framework that evolves reusable cinematic skills from expert-authored seeds. SkillPE represents shot logic, composition, lighting, sound design, and other filmmaking cues in a fine-grained format, and retrieves movie references categorized as resonators (good matches), dissonants (weak matches), and divergents (creatively useful near-misses). The first two refine when and how a skill should be applied, while divergents inspire&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.34335"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2609.34371</id><title>From Static to Dynamic: On-Policy Distillation from Image to Video Diffusion Models</title>
+<link rel="alternate" href="https://arxiv.org/abs/2609.34371"/>
+<published>2026-09-29T04:00:00+00:00</published><updated>2026-09-29T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="video generation"/>
+<category term="video diffusion"/>
+<category term="image-to-video"/>
+<category term="consistency"/>
+<summary>arXiv:2609.34371v1 Announce Type: new Abstract: On-policy distillation (OPD) specializes pretrained video diffusion models through teacher supervision along the student's own generation trajectory. Although large video models are natural teachers, developing specialized video experts can require cos</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · video generation, video diffusion, image-to-video, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.34371v1 Announce Type: new Abstract: On-policy distillation (OPD) specializes pretrained video diffusion models through teacher supervision along the student's own generation trajectory. Although large video models are natural teachers, developing specialized video experts can require costly video data and training, while querying them incurs substantially higher latency than querying image experts. More readily available and cheaper to query, image experts offer a cost-effective alternative, particularly for largely temporal-agnostic capabilities such as aesthetics and OCR that admit frame-level supervision. However, heterogeneous image and video latent spaces prevent direct supe&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.34371"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2609.34527</id><title>RRG-SLAM: Real-time Reflection-aware Gaussian SLAM for Indoor Scenes</title>
+<link rel="alternate" href="https://arxiv.org/abs/2609.34527"/>
+<published>2026-09-29T04:00:00+00:00</published><updated>2026-09-29T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="tracking"/>
+<category term="camera pose"/>
+<category term="rendering"/>
+<category term="slam"/>
+<summary>arXiv:2609.34527v1 Announce Type: new Abstract: We introduce the first real-time reflection-aware Gaussian SLAM system for indoor scenes. The system features a reflection-aware TSDF-Gaussian hybrid representation that explicitly separates diffuse scene appearance from reflection components. The base</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · tracking, camera pose, rendering, slam&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.34527v1 Announce Type: new Abstract: We introduce the first real-time reflection-aware Gaussian SLAM system for indoor scenes. The system features a reflection-aware TSDF-Gaussian hybrid representation that explicitly separates diffuse scene appearance from reflection components. The base scene is modeled by a TSDF volume and a set of base Gaussians capturing geometry and diffuse appearance, while planar reflections are represented by reflection Gaussian groups associated with detected reflective planes. The rendering is performed in three passes: TSDF raycasting first yields surface color, depth, plane IDs and reflection masks; base Gaussians are then rendered order-independently&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.34527"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2609.34579</id><title>GenNVS: Geometry-enhanced Novel View Synthesis via Disentangled 3D Prior</title>
+<link rel="alternate" href="https://arxiv.org/abs/2609.34579"/>
+<published>2026-09-29T04:00:00+00:00</published><updated>2026-09-29T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="video diffusion"/>
+<category term="novel view synthesis"/>
+<category term="gaussian splatting"/>
+<category term="3d gaussian"/>
+<summary>arXiv:2609.34579v1 Announce Type: new Abstract: Single-image novel view synthesis remains challenging because the underlying 3D geometry is highly ambiguous. Recent diffusion-based approaches produce plausible results, but they often struggle to preserve the geometric structure and spatial coherence</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · video diffusion, novel view synthesis, gaussian splatting, 3d gaussian&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.34579v1 Announce Type: new Abstract: Single-image novel view synthesis remains challenging because the underlying 3D geometry is highly ambiguous. Recent diffusion-based approaches produce plausible results, but they often struggle to preserve the geometric structure and spatial coherence of foreground objects. We present GenNVS, a framework for geometry-enhanced novel view synthesis via a disentangled 3D prior. Specifically, GenNVS models foreground objects and the background with 3D Gaussian Splatting and aligns them through a coarse-to-fine geometric optimization process to form a unified 3D scene. This scene conditions a video diffusion model through the proposed Dual-Stream M&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.34579"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2609.34722</id><title>Geometry as Address: Routing Attention to Visual Memory for Long-Horizon Camera-Controlled Video Generation</title>
+<link rel="alternate" href="https://arxiv.org/abs/2609.34722"/>
+<published>2026-09-29T04:00:00+00:00</published><updated>2026-09-29T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="video generation"/>
+<category term="camera control"/>
+<category term="denoising"/>
+<category term="consistency"/>
+<summary>arXiv:2609.34722v1 Announce Type: new Abstract: Long-horizon camera-controlled video generation requires recovering previously observed content from an ever-growing visual history. Existing approaches either search historical context implicitly or reconstruct it into persistent 3D memory, facing ine</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · video generation, camera control, denoising, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.34722v1 Announce Type: new Abstract: Long-horizon camera-controlled video generation requires recovering previously observed content from an ever-growing visual history. Existing approaches either search historical context implicitly or reconstruct it into persistent 3D memory, facing inefficient memory access or accumulated geometric errors. Our key insight is that geometry need not explain the scene--it only needs to determine where visual memory should be read from, while attention decides what should be recovered. Based on this insight, we introduce GEAR, a Geometry-Enabled Attention Routing framework that uses geometry as an explicit token-level address for visual memory. Rat&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.34722"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2609.35134</id><title>VideoPhysEdit: Physical Counterfactual Video Editing via Rigid-Body Physical Scene Reconstruction</title>
+<link rel="alternate" href="https://arxiv.org/abs/2609.35134"/>
+<published>2026-09-29T04:00:00+00:00</published><updated>2026-09-29T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="video generation"/>
+<category term="video editing"/>
+<category term="scene reconstruction"/>
+<summary>arXiv:2609.35134v1 Announce Type: new Abstract: Video editing has advanced substantially in recent years, with methods increasingly accounting for the visual consequences of edits, such as changes to shadows and occlusions. However, the physical consequences of edits, including changes to subsequent</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · video generation, video editing, scene reconstruction&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.35134v1 Announce Type: new Abstract: Video editing has advanced substantially in recent years, with methods increasingly accounting for the visual consequences of edits, such as changes to shadows and occlusions. However, the physical consequences of edits, including changes to subsequent motion and interactions, remain less explored. We formulate this problem as physical counterfactual video editing (PCVE), which aims to generate a counterfactual video depicting the resulting motion and interactions given a source video, a physical edit, and its execution frame. PCVE is challenging because it requires understanding scene physics and inferring the downstream motion and interaction&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.35134"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2609.35189</id><title>G$^3$-LoRA: Organizing Reward-Weighted Video Data with Gradient-Guided Grouped LoRA</title>
+<link rel="alternate" href="https://arxiv.org/abs/2609.35189"/>
+<published>2026-09-29T04:00:00+00:00</published><updated>2026-09-29T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="text-to-video"/>
+<category term="denoising"/>
+<category term="wan2"/>
+<category term="lora"/>
+<summary>arXiv:2609.35189v1 Announce Type: new Abstract: Post-training foundation video models on heterogeneous reward-weighted data usually assume that all data categories induce compatible updates. This assumption is fragile when categories correspond to different skills, domains, or evaluation dimensions.</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · text-to-video, denoising, wan2, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.35189v1 Announce Type: new Abstract: Post-training foundation video models on heterogeneous reward-weighted data usually assume that all data categories induce compatible updates. This assumption is fragile when categories correspond to different skills, domains, or evaluation dimensions. We study this problem in text-to-video post-training, where VBench2.0 dimensions define data buckets and an external multimodal reward pipeline assigns sample weights. We propose G$^3$-LoRA (Gradient-Guided Grouped LoRA), a data organization procedure that probes category-level gradients induced by reward-weighted video samples, removes the shared global update direction, clusters categories by r&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.35189"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2601.10214</id><title>Beyond Inpainting: Unleash 3D Understanding for Stable Camera-Controlled Video Generation</title>
+<link rel="alternate" href="https://arxiv.org/abs/2601.10214"/>
+<published>2026-09-29T04:00:00+00:00</published><updated>2026-09-29T04:00:00+00:00</updated>
+<author><name>arXiv cs.GR</name></author>
+<category term="video generation"/>
+<category term="video diffusion"/>
+<category term="camera control"/>
+<category term="inpainting"/>
+<category term="unreal"/>
+<category term="unreal engine"/>
+<summary>arXiv:2601.10214v3 Announce Type: replace-cross Abstract: Camera control has been extensively studied in conditioned video generation; however, performing precisely altering the camera trajectories while faithfully preserving the video content remains a challenging task. The mainstream approach to a</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.GR · score 8 · video generation, video diffusion, camera control, inpainting, unreal, unreal engine&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2601.10214v3 Announce Type: replace-cross Abstract: Camera control has been extensively studied in conditioned video generation; however, performing precisely altering the camera trajectories while faithfully preserving the video content remains a challenging task. The mainstream approach to achieving precise camera control is warping a 3D representation according to the target trajectory. However, such methods fail to fully leverage the 3D priors of video diffusion models (VDMs) and often fall into the Inpainting Trap, resulting in subject inconsistency and degraded generation quality. To address this problem, we propose DepthDirector, a video re-rendering framework with precise camer&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2601.10214"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wswrwm/camera_angle_reconstruction_with_3d_triposplat/</id><title>Camera angle reconstruction with 3D Triposplat &amp; Qwen i 2.1</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wswrwm/camera_angle_reconstruction_with_3d_triposplat/"/>
@@ -6770,26 +7009,5 @@
 <category term="wan2"/>
 <summary>Rented a 5090 for an afternoon and ran the official ComfyUI Wan 2.2 5B template seven times, changing one thing each run. Posting the numbers because the VRAM column did something I wasn't expecting. Disclosure up front since there's a provider dashboard in one of the screenshots: I do community wor</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 6 · tracking, camera tracking, comfyui, wan, wan2&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Rented a 5090 for an afternoon and ran the official ComfyUI Wan 2.2 5B template seven times, changing one thing each run. Posting the numbers because the VRAM column did something I wasn't expecting. Disclosure up front since there's a provider dashboard in one of the screenshots: I do community work for gpuhub and rented the box from them. Nothing here is provider specific, it's a single 5090 like any other. https://reddit.com/link/1wgu1jh/video/9vh502aq4nph1/player Setup was the stock template, video_wan2_2_5B_ti2v, text to video mode with the LoadImage node bypassed. wan2.2_ti2v_5B_fp16, umt5_xxl_fp8_e4m3fn_scaled, wan2.2_vae, all from the Comfy-Org repackaged repo. Held fixed across ever&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wgu1jh/cutting_frames_to_fix_oom_doesnt_work_cutting/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wgs8np/continuing_from_clips_seems_to_brighten_video/</id><title>Continuing from clips seems to brighten video</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wgs8np/continuing_from_clips_seems_to_brighten_video/"/>
-<published>2026-09-15T06:16:25+00:00</published><updated>2026-09-15T06:16:25+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="minimax"/>
-<category term="lora"/>
-<summary>I'm using the comfyui ref2va template for minimax h3 with the H3 motion context extender and the clips seem to keep getting brighter and more exposed over time. Any tips to fix this? I'm also running the turbo lora. submitted by /u/superdeathkillers [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · comfyui, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I'm using the comfyui ref2va template for minimax h3 with the H3 motion context extender and the clips seem to keep getting brighter and more exposed over time. Any tips to fix this? I'm also running the turbo lora. submitted by /u/superdeathkillers [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wgs8np/continuing_from_clips_seems_to_brighten_video/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wgrps6/why_is_everyone_minimax_h3_over_ltx_25/</id><title>Why is everyone Minimax H3 over LTX 2.5?</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wgrps6/why_is_everyone_minimax_h3_over_ltx_25/"/>
-<published>2026-09-15T05:47:16+00:00</published><updated>2026-09-15T05:47:16+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="minimax"/>
-<category term="ltx"/>
-<summary>submitted by /u/ForesterAI [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · minimax, ltx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/ForesterAI [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wgrps6/why_is_everyone_minimax_h3_over_ltx_25/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
