@@ -2,8 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-09-29T10:31:15+00:00</updated>
+<updated>2026-09-29T12:31:00+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wt6gbh/qwen_21_easy_way_to_create_a_consistent_face/</id><title>Qwen 2.1: Easy way to create a consistent face character. No lora. Only prompt and reference image.</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wt6gbh/qwen_21_easy_way_to_create_a_consistent_face/"/>
+<published>2026-09-29T10:23:45+00:00</published><updated>2026-09-29T10:23:45+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<category term="lora"/>
+<summary>Create a reference image of the face (showing various angles) arranged in a 2x2 grid (in ComfyUI, this is easily done using the "Load Images &amp; Compose (obvpm)" node: https://github.com/chanon/comfyui-obvpm ). In the prompt (created by AI), replace the square brackets with your own prompt: Task: Anal</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Create a reference image of the face (showing various angles) arranged in a 2x2 grid (in ComfyUI, this is easily done using the "Load Images &amp;amp; Compose (obvpm)" node: https://github.com/chanon/comfyui-obvpm ). In the prompt (created by AI), replace the square brackets with your own prompt: Task: Analyze the provided reference image containing 4 panels. These are four different angles, expressions, and lighting conditions of the same character. Your goal is to merge their facial features into one single, consistent, canonical face. Step 1 (Identity Extraction): Extract the core identity markers from all four panels. Merge the nose shape, jawline, eye shape, eyebrow arch, lip shape, skin textur&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wt6gbh/qwen_21_easy_way_to_create_a_consistent_face/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wt2pd3/you_do_need_character_swap_lora_for_minimax_h3/</id><title>You do need character swap LoRA for MiniMax H3</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wt2pd3/you_do_need_character_swap_lora_for_minimax_h3/"/>
@@ -13,6 +23,15 @@
 <category term="lora"/>
 <summary>... if you want to use the hybrid model. Ref2VA has certain quality issues and struggles with mid‑distance subjects and colors, it's a known issue the Minimax team has acknowledged. Hybrid gives you FL2VA's quality with Ref2VA's flexibility. But some capabilities take a hit, video referencing is one</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;... if you want to use the hybrid model. Ref2VA has certain quality issues and struggles with mid‑distance subjects and colors, it's a known issue the Minimax team has acknowledged. Hybrid gives you FL2VA's quality with Ref2VA's flexibility. But some capabilities take a hit, video referencing is one. The character swap LoRA brings it back and makes it even better. Even Ref2VA strongly benefits from it according to my tests. At 88% denoise plus LoRA, the accuracy is even better but it may not be suitable on all scenarios. It depends on the video. I'm including more tests in the comments. submitted by /u/not_food [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wt2pd3/you_do_need_character_swap_lora_for_minimax_h3/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wt2krs/using_controlnet_depth_with_an_end_percent_5_is/</id><title>Using ControlNet Depth with an end_percent &lt; .5 is neat</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wt2krs/using_controlnet_depth_with_an_end_percent_5_is/"/>
+<published>2026-09-29T06:22:16+00:00</published><updated>2026-09-29T06:22:16+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="controlnet"/>
+<summary>submitted by /u/MaleMaldives [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · controlnet&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/MaleMaldives [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wt2krs/using_controlnet_depth_with_an_end_percent_5_is/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://arxiv.org/abs/2609.31756</id><title>3dgs-sc: a controlled static screen-content benchmark for 3d gaussian splatting</title>
@@ -6904,79 +6923,5 @@
 <category term="storyboard"/>
 <summary>Been messing with LTX and a few others in ComfyUI on a single box. Get decent clips, but stitching them into anything longer than 5 seconds turns into a mess of manual steps. Want to see how people actually run it end to end: 1. Prompt/storyboard → what tool 2. Generation → which model and why 3. Up</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, ltx, storyboard&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Been messing with LTX and a few others in ComfyUI on a single box. Get decent clips, but stitching them into anything longer than 5 seconds turns into a mess of manual steps. Want to see how people actually run it end to end: 1. Prompt/storyboard → what tool 2. Generation → which model and why 3. Upscale / frame interp / fixing the wobble 4. Cutting it together and audio Especially interested if you've automated any of the glue between steps. Not after cloud services — local only. submitted by /u/Normal_Frosting8519 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wgzbdf/local_video_gen_what_does_your_actual_pipeline/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1wgyhuq/a_house_on_the_water_premiered_at_the_first_ever/</id><title>A house on the water 🏛️🌊 — premiered at the first ever HIVEalt, London</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wgyhuq/a_house_on_the_water_premiered_at_the_first_ever/"/>
-<published>2026-09-15T12:04:58+00:00</published><updated>2026-09-15T12:04:58+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="houdini"/>
-<summary>"The Floating Palazzo" — my gateway project into Houdini for architecture. Rendered in Redshift. submitted by /u/k_johnyim [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 1 · houdini&lt;/small&gt;&lt;/p&gt;&lt;p&gt;"The Floating Palazzo" — my gateway project into Houdini for architecture. Rendered in Redshift. submitted by /u/k_johnyim [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wgyhuq/a_house_on_the_water_premiered_at_the_first_ever/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wgy75q/minimax_h3_t2v_keeps_generating_similar_faces/</id><title>MiniMax H3 T2V keeps generating similar faces</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wgy75q/minimax_h3_t2v_keeps_generating_similar_faces/"/>
-<published>2026-09-15T11:51:53+00:00</published><updated>2026-09-15T11:51:53+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="wan"/>
-<category term="minimax"/>
-<summary>I’m using MiniMax H3 T2V in ComfyUI and noticed that with the same prompt, the generated characters often have very similar faces, even with different/random seeds. With WAN, this worked much better for me every generation usually gave me a clearly different character/face. I actually want maximum f</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · comfyui, wan, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I’m using MiniMax H3 T2V in ComfyUI and noticed that with the same prompt, the generated characters often have very similar faces, even with different/random seeds. With WAN, this worked much better for me every generation usually gave me a clearly different character/face. I actually want maximum face/identity variation between generations. Has anyone had the same issue with H3 and found a way to make the faces more random/different? submitted by /u/ThrowAwayBiCall911 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wgy75q/minimax_h3_t2v_keeps_generating_similar_faces/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wgy5wa/minimax_h3_fixing_face_distortion_with_a/</id><title>MiniMax H3: Fixing Face Distortion with a Portrait-Distance Lock</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wgy5wa/minimax_h3_fixing_face_distortion_with_a/"/>
-<published>2026-09-15T11:50:13+00:00</published><updated>2026-09-15T11:50:13+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="minimax"/>
-<summary>1st video with unrestricted prompt , 2nd video - Keeping a portrait-distance constraint in the prompt that encourages closer framing and prevents the camera from moving into a truly distant shot. submitted by /u/Devajyoti1231 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;1st video with unrestricted prompt , 2nd video - Keeping a portrait-distance constraint in the prompt that encourages closer framing and prevents the camera from moving into a truly distant shot. submitted by /u/Devajyoti1231 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wgy5wa/minimax_h3_fixing_face_distortion_with_a/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wgwmpa/minimax_h3_voiceover/</id><title>MiniMax H3 Voice-Over</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wgwmpa/minimax_h3_voiceover/"/>
-<published>2026-09-15T10:32:17+00:00</published><updated>2026-09-15T10:32:17+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="minimax"/>
-<summary>Howdy all. I'm trying to get MiniMax to generate voiced narration, meaning I don't want the onscreen subject to speak but I want the dialogue spoken in their voice. I've been struggling finding a prompt to do this. Does anyone know how to do this reliably with written dialogue in the prompt? submitt</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Howdy all. I'm trying to get MiniMax to generate voiced narration, meaning I don't want the onscreen subject to speak but I want the dialogue spoken in their voice. I've been struggling finding a prompt to do this. Does anyone know how to do this reliably with written dialogue in the prompt? submitted by /u/sarashinai [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wgwmpa/minimax_h3_voiceover/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://github.com/OpenBMB/VoxCPM</id><title>OpenBMB/VoxCPM</title>
-<link rel="alternate" href="https://github.com/OpenBMB/VoxCPM"/>
-<published>2026-09-15T10:31:32+00:00</published><updated>2026-09-15T10:31:32+00:00</updated>
-<author><name>GitHub trending (Python)</name></author>
-<category term="super-resolution"/>
-<category term="lora"/>
-<summary>VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning https://voxcpm.com VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning English | 中文 👋 Join our community for discussion and supp</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;GitHub trending (Python) · score 2 · super-resolution, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning https://voxcpm.com VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning English | 中文 👋 Join our community for discussion and support! Feishu | Discord | 📚 MiniCPM Wiki VoxCPM is a tokenizer-free Text-to-Speech system that directly generates continuous speech representations via an end-to-end diffusion autoregressive architecture , bypassing discrete tokenization to achieve highly natural and expressive synthesis. VoxCPM2 is the latest major release — a 2B parameter model trained on over 2 million hours of multilingual speec&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.com/OpenBMB/VoxCPM"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://github.com/harry0703/MoneyPrinterTurbo</id><title>harry0703/MoneyPrinterTurbo</title>
-<link rel="alternate" href="https://github.com/harry0703/MoneyPrinterTurbo"/>
-<published>2026-09-15T10:31:32+00:00</published><updated>2026-09-15T10:31:32+00:00</updated>
-<author><name>GitHub trending (Python)</name></author>
-<category term="comfyui"/>
-<category term="flux"/>
-<category term="wan"/>
-<category term="kling"/>
-<category term="sora"/>
-<category term="luma"/>
-<category term="minimax"/>
-<category term="seedance"/>
-<summary>利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow. MoneyPrinterTurbo 💸 一站式 AI 短视频生成工具 只需提供视频 主题 或 关键词 ，即可自动生成视频脚本、匹配素材、生成字幕和背景音乐，并合成高清短视频。 简体中文 | English | 日本語 | 版本发布 | 问题反馈 界面预览 🖥️ WebUI API 特别感谢 ❤️ 感谢 Kimi 赞助本项目！ Kimi K3 是 Moonshot AI</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;GitHub trending (Python) · score 8 · comfyui, flux, wan, kling, sora, luma, minimax, seedance&lt;/small&gt;&lt;/p&gt;&lt;p&gt;利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow. MoneyPrinterTurbo 💸 一站式 AI 短视频生成工具 只需提供视频 主题 或 关键词 ，即可自动生成视频脚本、匹配素材、生成字幕和背景音乐，并合成高清短视频。 简体中文 | English | 日本語 | 版本发布 | 问题反馈 界面预览 🖥️ WebUI API 特别感谢 ❤️ 感谢 Kimi 赞助本项目！ Kimi K3 是 Moonshot AI 迄今能力最强的模型，也是全球首个开源 3T 级模型，拥有原生视觉能力与 100 万 Token 上下文，在知识工作、推理和长周期任务中展现前沿性能。在 MoneyPrinterTurbo 中，K3 能直接驱动视频创作，不仅撰写视频文案，还会提炼素材搜索关键词、决定成片画面；对内容理解越准确，匹配到的素材就越贴题。 MoneyPrinterTurbo 用户专属优惠：新用户通过专属链接注册，首次成功充值可获充值金额 10% 的 API 额度，最高赠送 ¥1000。活动截至 2026 年 9 月 30 日。前往 Kimi 开放平台（ 中文站 ｜ Global ）体验 API。 火山引擎 感谢字节火山引擎赞助本项目！火山方舟 Agent/Coding Plan 国模套餐 首购 9.9 ，支持 GLM-5.3、Kimi-K3、DeepSeek、MiniMax、Doubao 等，注册免费领 2500&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.com/harry0703/MoneyPrinterTurbo"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://github.com/ruvnet/RuView</id><title>ruvnet/RuView</title>
-<link rel="alternate" href="https://github.com/ruvnet/RuView"/>
-<published>2026-09-15T10:31:32+00:00</published><updated>2026-09-15T10:31:32+00:00</updated>
-<author><name>GitHub trending (all)</name></author>
-<category term="world model"/>
-<category term="lora"/>
-<summary>π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video. https://Cognitum.One/RuView π RuView See through walls with WiFi Turn ordinary WiFi into a spatial intelligence / sensing system. Detect peo</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;GitHub trending (all) · score 2 · world model, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video. https://Cognitum.One/RuView π RuView See through walls with WiFi Turn ordinary WiFi into a spatial intelligence / sensing system. Detect people, measure breathing and heart rate, track movement, and monitor rooms — through walls, in the dark, with no cameras or wearables. Just physics. Works natively with the four major smart-home ecosystems: Home Assistant via the HA-DISCO MQTT publisher, Apple Home &amp;amp; HomePod as a discoverable HAP-1.1 bridge, Google Home + Amazon Alexa via the same HA bridge or a Matter endpoint. Siri, Google Assista&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.com/ruvnet/RuView"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
