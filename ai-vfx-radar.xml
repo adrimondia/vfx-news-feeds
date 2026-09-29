@@ -2,8 +2,21 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-09-29T14:30:37+00:00</updated>
+<updated>2026-09-29T16:31:05+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wtcitg/people_are_sleeping_on_hyperflow/</id><title>People are sleeping on HyperFlow</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wtcitg/people_are_sleeping_on_hyperflow/"/>
+<published>2026-09-29T15:03:12+00:00</published><updated>2026-09-29T15:03:12+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="render"/>
+<category term="comfyui"/>
+<category term="minimax"/>
+<category term="lora"/>
+<category term="consistency"/>
+<summary>I spent the last two days trying to get good fight scenes out of MiniMax H3 locally (RTX 5090, ComfyUI, the H3 Master Extender for chaining 15 s clips). I ran about two dozen renders with everything frozen except one setting at a time. The thing that won was HyperFlow, which I barely see anyone ment</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 5 · render, comfyui, minimax, lora, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I spent the last two days trying to get good fight scenes out of MiniMax H3 locally (RTX 5090, ComfyUI, the H3 Master Extender for chaining 15 s clips). I ran about two dozen renders with everything frozen except one setting at a time. The thing that won was HyperFlow, which I barely see anyone mention here, so here's what I tried, the numbers, and the traps I hit on the way. Short version: for action, HyperFlow 8-step with no LoRAs at all, plus the taomate 3-step LoRA on the upscale pass, gave the best weapon consistency and the cleanest motion I've had from H3. It costs about 25% more render time than the 4-step turbo. For dialogue and slow drama I'd still use turbo. The test Same 30 s fig&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wtcitg/people_are_sleeping_on_hyperflow/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1wt9y1m/whats_your_favourite_modelsworkflow_for_character/</id><title>What’s your favourite models/workflow for character consistency w/lora?</title>
 <link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wt9y1m/whats_your_favourite_modelsworkflow_for_character/"/>
@@ -99,6 +112,17 @@
 <category term="lora"/>
 <summary>submitted by /u/CQDSN [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/CQDSN [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wt5bv8/motion_transfer_demo_with_my_experimental_lora/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wt501p/i_revisited_the_intro_of_the_faery_tale_adventure/</id><title>I revisited the intro of The Faery Tale Adventure (Amiga, 1987) in realistic style: Flux 2 Klein + Qwen Image Edit for stills, MiniMax H3 for video, YuE 2 for the music</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wt501p/i_revisited_the_intro_of_the_faery_tale_adventure/"/>
+<published>2026-09-29T08:54:43+00:00</published><updated>2026-09-29T08:54:43+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="flux"/>
+<category term="minimax"/>
+<category term="lora"/>
+<summary>I'm having a lot of fun playing with YuE2 and Minimax H3. Everything here ran locally on an RTX 5070 Ti. It's far from perfect, but I love doing this ! Stills: screenshots from the original game, edited with Flux 2 Klein and Qwen Image Edit 2.1 to get a realistic look while keeping the original comp</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 5 · flux, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I'm having a lot of fun playing with YuE2 and Minimax H3. Everything here ran locally on an RTX 5070 Ti. It's far from perfect, but I love doing this ! Stills: screenshots from the original game, edited with Flux 2 Klein and Qwen Image Edit 2.1 to get a realistic look while keeping the original compositions. Video made with MiniMax H3. Music made with YuE2 in cover mode with an instrumental LoRA (ar_lora_inst_v3abc_comfyui.safetensors). Edited in Kdenlive (Linux). Original intro : https://www.youtube.com/watch?v=E5_4DhXWdwo submitted by /u/astrofiles [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wt501p/i_revisited_the_intro_of_the_faery_tale_adventure/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1wt443j/super_new_beginner_on_comfyui_cloud_best/</id><title>super new beginner on comfyui cloud!!! best workflow/model for recreating ME in pinterest reference photos while controlling pose/background separately ???</title>
@@ -6909,95 +6933,5 @@
 <category term="comfyui"/>
 <summary>I'm working on an open-source, local desktop app for organizing AI-generated images. This is a 1-minute look at our ComfyUI extension at its current, very early stage. It reads the recipe already embedded in your ComfyUI images (prompt, parameters, workflow), lets you search across all of them, and </summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I'm working on an open-source, local desktop app for organizing AI-generated images. This is a 1-minute look at our ComfyUI extension at its current, very early stage. It reads the recipe already embedded in your ComfyUI images (prompt, parameters, workflow), lets you search across all of them, and lets you edit from within Picteus. It's basic right now, I'm just sharing here in case anyone would like to share their feedback on this or would like to test the application. That's all. The project is built so the extension can be changed quickly, and you can extend it yourself with a few lines of code if you want. A few questions if you have a minute: When you need an old generation, how do you&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wh5you/searching_old_comfyui_generations_by_their_recipe/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wh5711/character_consistency/</id><title>Character Consistency</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wh5711/character_consistency/"/>
-<published>2026-09-15T16:28:44+00:00</published><updated>2026-09-15T16:28:44+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="image-to-video"/>
-<category term="comfyui"/>
-<category term="ltx"/>
-<category term="consistency"/>
-<category term="character consistency"/>
-<summary>Howdy! I'm new to Generative AI, have only been tinkering with it for about a month or two, but I'm having issues with keeping my characters consistent in appearance when doing image-to-video. I'm using Wan2gp through Pinokio (ComfyUI is just way too complicated for my liking) and mostly using LTX 2</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 7 · image-to-video, comfyui, ltx, consistency, character consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Howdy! I'm new to Generative AI, have only been tinkering with it for about a month or two, but I'm having issues with keeping my characters consistent in appearance when doing image-to-video. I'm using Wan2gp through Pinokio (ComfyUI is just way too complicated for my liking) and mostly using LTX 2.3. Any suggestions/recommendations? submitted by /u/BrianChristgau [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wh5711/character_consistency/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wh55ag/maintaining_character_consistency_for_non_humans/</id><title>Maintaining character consistency for non humans</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wh55ag/maintaining_character_consistency_for_non_humans/"/>
-<published>2026-09-15T16:26:56+00:00</published><updated>2026-09-15T16:26:56+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="consistency"/>
-<category term="character consistency"/>
-<summary>I’m planning to put together a comic book style recap of my dnd sessions. I’ve played around with some different image generation models and have a small collection of pictures that I like for everyone. Now I need to train some character loras and I’m feeling a bit lost with all of the options. Is t</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · consistency, character consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I’m planning to put together a comic book style recap of my dnd sessions. I’ve played around with some different image generation models and have a small collection of pictures that I like for everyone. Now I need to train some character loras and I’m feeling a bit lost with all of the options. Is there an option that will work well for training character loras for dnd races? I’m not too worried about the human or the elves, but I am worried about the tortle, Dragonborn, and aarakocra. submitted by /u/theblackcrayon4 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wh55ag/maintaining_character_consistency_for_non_humans/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wh4tu3/a_quick_minimax_h3_news_roundup_15th_september/</id><title>A quick Minimax H3 news round-up - 15th September 2026</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wh4tu3/a_quick_minimax_h3_news_roundup_15th_september/"/>
-<published>2026-09-15T16:15:03+00:00</published><updated>2026-09-15T16:15:03+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="minimax"/>
-<category term="lora"/>
-<summary>Another quick Minimax H3 news and goodies round-up, for those who may have missed some items. -&gt; Who knew? The official Minimax H3 repository has a Skills folder. Eight of these Skills are style/narrative specific. e.g. "Explain science, education, or general knowledge through tactile handmade paper</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · comfyui, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Another quick Minimax H3 news and goodies round-up, for those who may have missed some items. -&amp;gt; Who knew? The official Minimax H3 repository has a Skills folder. Eight of these Skills are style/narrative specific. e.g. "Explain science, education, or general knowledge through tactile handmade papercraft visuals." The Skills should work with anything that... "can read a SKILL.md local file". https://github.com/MiniMax-AI/MiniMax-H3/tree/main/skills https://www.jan.ai/docs/agent/skills (readme for Skills in the local desktop llama.cpp GGUF-runner Jan.ai) -&amp;gt; There are now a couple more ComfyUI-friendly versions of the TaoMate 3-step LoRA. https://huggingface.co/Asirus/TaoMate_H3_3_Step_LoRA/tr&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wh4tu3/a_quick_minimax_h3_news_roundup_15th_september/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wh4k58/how_do_you_organize_parameter_sweeps_and_revisit/</id><title>How do you organize parameter sweeps and revisit the best results?</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wh4k58/how_do_you_organize_parameter_sweeps_and_revisit/"/>
-<published>2026-09-15T16:04:57+00:00</published><updated>2026-09-15T16:04:57+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="lora"/>
-<summary>For people who run parameter sweeps in ComfyUI, how do you handle the process from setting up the variations to revisiting the results? Say you vary CFG against LoRA strength and get a grid of results. You pick a few good ones, then come back a week later to continue experimenting. How do you keep t</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;For people who run parameter sweeps in ComfyUI, how do you handle the process from setting up the variations to revisiting the results? Say you vary CFG against LoRA strength and get a grid of results. You pick a few good ones, then come back a week later to continue experimenting. How do you keep track of what worked? What do you use to run the sweep: XY plots, custom nodes, scripts, or manual changes? How do you set up the parameters and values to test? Do you put parameter values into filenames or folders, rely on embedded metadata, or use something else? How do you get from a promising image back to the setup that produced it? Does your current setup make this straightforward, or is ther&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wh4k58/how_do_you_organize_parameter_sweeps_and_revisit/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wh43wk/an_easier_way_to_control_pose_in_minimax_h3/</id><title>An easier way to control pose in MiniMax H3</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wh43wk/an_easier_way_to_control_pose_in_minimax_h3/"/>
-<published>2026-09-15T15:48:51+00:00</published><updated>2026-09-15T15:48:51+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="outpainting"/>
-<category term="flux"/>
-<category term="minimax"/>
-<category term="controlnet"/>
-<summary>For me, figuring out how to use H3's reference video to control character motion in generated videos has been a deep and difficult challenge. Most of the time the results are imperfect, and the sampling time is significantly longer than normal generation. Of course, fun controlnet gives us a "tradit</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 5 · outpainting, flux, minimax, controlnet&lt;/small&gt;&lt;/p&gt;&lt;p&gt;For me, figuring out how to use H3's reference video to control character motion in generated videos has been a deep and difficult challenge. Most of the time the results are imperfect, and the sampling time is significantly longer than normal generation. Of course, fun controlnet gives us a "traditional" way to control poses and motion, but its limitations are well known — you have to convert the control video to open pose first, which not only adds processing time, but also struggles to produce good results when body proportions are inconsistent. Just as I was struggling with this, I suddenly thought of another "traditional" approach — the same way I used when I achieved consistent charact&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wh43wk/an_easier_way_to_control_pose_in_minimax_h3/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1wh3voh/introducing_toiki3d_the_worlds_first_dedicated/</id><title>Introducing Toiki3D, the world's first dedicated procedural sculpting and modeling software</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wh3voh/introducing_toiki3d_the_worlds_first_dedicated/"/>
-<published>2026-09-15T15:40:45+00:00</published><updated>2026-09-15T15:40:45+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="blender"/>
-<summary>Hello. We are the team at Toiki3D (Which includes me and my pet potato plant). I would like to announce Toiki3D, a procedural DCC application designed for 3D artists that want all of the steps of their work to persist through time. Every sculpting/modeling/painting step you take in the application g</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 1 · blender&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hello. We are the team at Toiki3D (Which includes me and my pet potato plant). I would like to announce Toiki3D, a procedural DCC application designed for 3D artists that want all of the steps of their work to persist through time. Every sculpting/modeling/painting step you take in the application gets stored as a node and can be replayed and adjusted with automatic propagation down history steps. Here is a little timelapse of the sculpt in the post: https://www.youtube.com/watch?v=U49gA7jS8Ns Here is a little showcaase of the nonlinear history workflow in the program: https://youtu.be/VkJLCEZjxTk This project of mine has been in the works for over 3 years now, I've poured my heart and soul &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wh3voh/introducing_toiki3d_the_worlds_first_dedicated/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wh2kcc/hey_everyone_im_relatively_new_to_video/</id><title>Hey everyone, I’m relatively new to video generation in ComfyUI and want to start making short clips?</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wh2kcc/hey_everyone_im_relatively_new_to_video/"/>
-<published>2026-09-15T14:52:01+00:00</published><updated>2026-09-15T14:52:01+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="video generation"/>
-<category term="text-to-video"/>
-<category term="image-to-video"/>
-<category term="comfyui"/>
-<category term="wan"/>
-<category term="hunyuanvideo"/>
-<category term="controlnet"/>
-<summary>Hey everyone, I’m relatively new to video generation in ComfyUI and want to start making short clips. My Specs: GPU: RTX 5080 (16GB VRAM) RAM: 32GB DDR5-6000 I’m looking for recommendations on the most efficient models and workflow paths for: Image-to-Video (I2V) &amp; Text-to-Video (T2V): Between LTX-V</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 9 · video generation, text-to-video, image-to-video, comfyui, wan, hunyuanvideo, controlnet&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey everyone, I’m relatively new to video generation in ComfyUI and want to start making short clips. My Specs: GPU: RTX 5080 (16GB VRAM) RAM: 32GB DDR5-6000 I’m looking for recommendations on the most efficient models and workflow paths for: Image-to-Video (I2V) &amp;amp; Text-to-Video (T2V): Between LTX-Video, HunyuanVideo (GGUF/FP8), and Wan 2.1, what runs smoothest on this setup without choking the VRAM? Styling &amp;amp; Motion Control: Best practices for combining LoRAs and ControlNet/motion control with these newer video architectures. If you have tested starter JSON workflow templates or essential custom node packs to recommend, please share. Thanks! submitted by /u/sultan_2020 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wh2kcc/hey_everyone_im_relatively_new_to_video/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wh2994/should_i_drop_8k_on_this/</id><title>Should I drop €8k on this..</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wh2994/should_i_drop_8k_on_this/"/>
-<published>2026-09-15T14:40:01+00:00</published><updated>2026-09-15T14:40:01+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="video generation"/>
-<category term="animation"/>
-<summary>I’m debating spending about €8k on a 5090 + 128GB RAM workstation for local AI inference. I have a full-time job, but I also run an AI side business that already makes real money, and my goal is potentially to take it full time eventually. My workloads are mainly image generation, video generation a</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · video generation, animation&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I’m debating spending about €8k on a 5090 + 128GB RAM workstation for local AI inference. I have a full-time job, but I also run an AI side business that already makes real money, and my goal is potentially to take it full time eventually. My workloads are mainly image generation, video generation and animation, not really LLMs. Because it’s a business purchase, I can deduct the VAT and get roughly another €2k benefit through tax write-offs, so the actual cost is meaningfully lower than €8k. My dilemma is whether I’m being stupid buying at current insane GPU/RAM prices when cloud GPUs like RunPod/Vast are still relatively affordable. I could realistically see myself running image/video workl&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wh2994/should_i_drop_8k_on_this/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
