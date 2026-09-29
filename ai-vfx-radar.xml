@@ -2,8 +2,41 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-09-29T00:30:21+00:00</updated>
+<updated>2026-09-29T02:30:32+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wswrwm/camera_angle_reconstruction_with_3d_triposplat/</id><title>Camera angle reconstruction with 3D Triposplat &amp; Qwen i 2.1</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wswrwm/camera_angle_reconstruction_with_3d_triposplat/"/>
+<published>2026-09-29T01:20:33+00:00</published><updated>2026-09-29T01:20:33+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="3d gaussian"/>
+<category term="animation"/>
+<category term="comfyui"/>
+<category term="blender"/>
+<category term="lora"/>
+<summary>I just found a post about this wonderful new Lora for Qwen Image 2.1 by SillyLilithh I designed a workflow including both stages inside ComfyUI without the need to open Blender. Group 1. Create the 3D model using TripoSplat A single reference image is converted into a 3D Gaussian Splat and then expo</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 5 · 3d gaussian, animation, comfyui, blender, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I just found a post about this wonderful new Lora for Qwen Image 2.1 by SillyLilithh I designed a workflow including both stages inside ComfyUI without the need to open Blender. Group 1. Create the 3D model using TripoSplat A single reference image is converted into a 3D Gaussian Splat and then exported as an SPZ 3D model, a GLB mesh and an orbiting video. Group 2. Generate a precise new view with Qwen-Image 2.1 using the 3D model Load your SPZ 3D model into ComfyUI using the {Load 3D &amp;amp; Animation} node. You choose the desired camera angle interactively, and that rendered 3D view is sent as reference image to Qwen-Image 2.1 together with the original image. Qwen i 2.1 then generates the new i&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wswrwm/camera_angle_reconstruction_with_3d_triposplat/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wsvuad/what_benefits_will_i_notice_when_upgrading_from/</id><title>What benefits will I notice when upgrading from 32 GB to 48 GB of RAM? I use comfy and minimax, LTX etc</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wsvuad/what_benefits_will_i_notice_when_upgrading_from/"/>
+<published>2026-09-29T00:35:36+00:00</published><updated>2026-09-29T00:35:36+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="minimax"/>
+<category term="ltx"/>
+<summary>submitted by /u/PhilosopherSweaty826 [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · minimax, ltx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/PhilosopherSweaty826 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wsvuad/what_benefits_will_i_notice_when_upgrading_from/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wsvg3p/face_swap_style_transfer_in_one_pass_qwen_image/</id><title>Face Swap + Style Transfer in One Pass — Qwen Image 2.1 + New Body Swap LoRA</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wsvg3p/face_swap_style_transfer_in_one_pass_qwen_image/"/>
+<published>2026-09-29T00:17:02+00:00</published><updated>2026-09-29T00:17:02+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="face swap"/>
+<category term="lora"/>
+<summary>I’ve been testing the new Qwen Image 2.1 together with my friend Alissonerdx’s new BFS Body Swap LoRA, using the standard workflow from his repo. What surprised me is that this goes beyond a traditional face swap: in a single pass, I can transfer my identity onto a character while Qwen simultaneousl</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · face swap, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I’ve been testing the new Qwen Image 2.1 together with my friend Alissonerdx’s new BFS Body Swap LoRA, using the standard workflow from his repo. What surprised me is that this goes beyond a traditional face swap: in a single pass, I can transfer my identity onto a character while Qwen simultaneously reinterprets my face, hair, beard, body, etc. in the original character’s art style , while preserving the pose, clothing, proportions, and overall visual language. These are some quick tests I made. The results are dope. https://huggingface.co/Alissonerdx/BFS-Best-Face-Swap/blob/main/docs/qwen-image-2.1-body.md submitted by /u/Hoje-Na-IA [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wsvg3p/face_swap_style_transfer_in_one_pass_qwen_image/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wsu1wl/h3_minimax_continous_shot_without_quality_loss/</id><title>[H3 Minimax] Continous Shot without Quality Loss</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wsu1wl/h3_minimax_continous_shot_without_quality_loss/"/>
@@ -15,6 +48,28 @@
 <category term="character consistency"/>
 <summary>People claim that it's still impossible to create sticked together videos without quality loss, that's wrong. This is a video I've made without any video editing tool what so ever, just using a great H3 workflow that enables you to continue the previous shots. In fact I didn't even write the shot/sc</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 5 · video editing, minimax, consistency, character consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;People claim that it's still impossible to create sticked together videos without quality loss, that's wrong. This is a video I've made without any video editing tool what so ever, just using a great H3 workflow that enables you to continue the previous shots. In fact I didn't even write the shot/scenes but let open Gemini decide to write a 1970's martial arts scene according to the H3 prompting guides. I've created 3-4 several 10-12 second long scenes and just asked Gemini to continue by asking for the "next scene following the last one" This took me just about 45 minutes on an RTX 5070 Ti I can easily extend this whole thing to an two hour long movie if I want to, not losing any character &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wsu1wl/h3_minimax_continous_shot_without_quality_loss/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wss6ki/lora_training/</id><title>LoRA training</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wss6ki/lora_training/"/>
+<published>2026-09-28T21:55:19+00:00</published><updated>2026-09-28T21:55:19+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="lora"/>
+<summary>For those of you training LoRAs for film production: How many images are you typically using in your character datasets? And are you also training your recurring locations and environments as LoRAs, or are you only training the characters? submitted by /u/Sea_Dot_153 [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;For those of you training LoRAs for film production: How many images are you typically using in your character datasets? And are you also training your recurring locations and environments as LoRAs, or are you only training the characters? submitted by /u/Sea_Dot_153 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wss6ki/lora_training/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wsmjq1/a_quick_minimax_h3_news_roundup_28th_september/</id><title>A quick Minimax H3 news round-up - 28th September 2026</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wsmjq1/a_quick_minimax_h3_news_roundup_28th_september/"/>
+<published>2026-09-28T18:25:49+00:00</published><updated>2026-09-28T18:25:49+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="animation"/>
+<category term="rendering"/>
+<category term="comfyui"/>
+<category term="minimax"/>
+<category term="lora"/>
+<summary>Another quick Minimax H3 news and goodies round-up, for those who may have missed some items. -&gt; The final 1000-step version of the MiniMax-H3-Character-Swap-LoRA is now available, along with a REF2VA workflow. Takes a source video as &lt;Video 1&gt; and a single-character sheet as &lt;Picture 1&gt;, and assist</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 6 · animation, rendering, comfyui, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Another quick Minimax H3 news and goodies round-up, for those who may have missed some items. -&amp;gt; The final 1000-step version of the MiniMax-H3-Character-Swap-LoRA is now available, along with a REF2VA workflow. Takes a source video as &amp;lt;Video 1&amp;gt; and a single-character sheet as &amp;lt;Picture 1&amp;gt;, and assists with swopping them - while keeping all other elements the same. The rendering medium for the character sheet is also transferred (e.g. comic-book style). The drawback is that even if you have close-up facial expressions they are "often not followed" - though that may not matter if you have a monster, space alien, robot/cyborg, or masked superhero. No trigger word is required. (Note than REF2VA c&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wsmjq1/a_quick_minimax_h3_news_roundup_28th_september/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/vfx/comments/1wsmdr3/career_recommendations_out_of_vfx/</id><title>Career recommendations out of vfx?</title>
@@ -46,6 +101,25 @@
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 8 · sam2, inpainting, video editing, compositing, render, comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey all, vlo is open source video editing and generation software. It is designed for interactivity between generative AI and the timeline, so you can inpaint anywhere on the timeline, extract frames and videos to use as references, use SAM2 for video masking and sam-audio for stem extraction etc. It comes with built-in workflows for Minimax H3, Qwen2.1, Krea2, LTX2.5 and more. You can either use the built-in generation panel or open ComfyUI via the app, whichever you prefer (for built-in workflows though, I recommend the generation panel). It can use an existing ComfyUI install, a remote instance, or it can manage the install for you; ComfyUI is the primary AI engine, how much you directly &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wsmat4/vlo_03_an_open_source_extensible_video_editor_and/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wsm56y/would_you_use_a_remote_h3_textencoder_api_so_the/</id><title>Would you use a remote H3 text-encoder API so the 32B stays off your GPU?</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wsm56y/would_you_use_a_remote_h3_textencoder_api_so_the/"/>
+<published>2026-09-28T18:10:56+00:00</published><updated>2026-09-28T18:10:56+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="text-to-video"/>
+<category term="dit"/>
+<summary>H3 local users already know the pain: the DiT wants ~20–25GB, the encoder is a truncated Qwen3-VL-32B, and they do not co-fit on a 24–32GB card. Leave the encoder loaded and the sampler streams. Unload it and you wait on the next prompt. I’m considering a text-only encode API for T2VA: You send the </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · text-to-video, dit&lt;/small&gt;&lt;/p&gt;&lt;p&gt;H3 local users already know the pain: the DiT wants ~20–25GB, the encoder is a truncated Qwen3-VL-32B, and they do not co-fit on a 24–32GB card. Leave the encoder loaded and the sampler streams. Unload it and you wait on the next prompt. I’m considering a text-only encode API for T2VA: You send the prompt API returns H3-compatible text conditioning tensors You keep the DiT + VAEs local and sample on your own GPU Comfy node that replaces the text-encode step only Not a hosted video API. Not image/ref encode. First/last frames and refs still go through the local video VAE (that part is small). This is only so you do not load the 32B just to read a prompt. Need a signal before I spend GPU on th&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wsm56y/would_you_use_a_remote_h3_textencoder_api_so_the/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wslswo/liminal_spaces_zit_h3_via_comfyui/</id><title>Liminal spaces (ZIT &amp; H3 via ComfyUI)</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wslswo/liminal_spaces_zit_h3_via_comfyui/"/>
+<published>2026-09-28T17:58:37+00:00</published><updated>2026-09-28T17:58:37+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<summary>Sharing something I’ve finished this week. It’s an exploration of a few images I created with Z image turbo using H3 for motion &amp; ambiance. Had a blast making the music for it. Everything else was ai. Comfy made this super easy to organize and work through. Used GPT for structuring the prompt using </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Sharing something I’ve finished this week. It’s an exploration of a few images I created with Z image turbo using H3 for motion &amp;amp; ambiance. Had a blast making the music for it. Everything else was ai. Comfy made this super easy to organize and work through. Used GPT for structuring the prompt using the available guidelines. Lots of fun. Hope ya’ll like! submitted by /u/Fluffmachine [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wslswo/liminal_spaces_zit_h3_via_comfyui/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wsls6o/minimax_h3_hybrid_animal_zoo/</id><title>Minimax H3 - Hybrid Animal Zoo</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wsls6o/minimax_h3_hybrid_animal_zoo/"/>
 <published>2026-09-28T17:57:54+00:00</published><updated>2026-09-28T17:57:54+00:00</updated>
@@ -53,6 +127,18 @@
 <category term="minimax"/>
 <summary>Full Video here submitted by /u/danipaul [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Full Video here submitted by /u/danipaul [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wsls6o/minimax_h3_hybrid_animal_zoo/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wslb6r/scumble_a_free_inpainting_editor_that_runs_on/</id><title>Scumble: a free inpainting editor that runs on your own ComfyUI or API keys</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wslb6r/scumble_a_free_inpainting_editor_that_runs_on/"/>
+<published>2026-09-28T17:41:07+00:00</published><updated>2026-09-28T17:41:07+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="sam2"/>
+<category term="inpainting"/>
+<category term="comfyui"/>
+<category term="flux"/>
+<summary>Hey everyone, for a while now I've been building an editor for the one thing I do all the time: inpainting. I got tired of the loop of drawing a mask in one tool, running a workflow in another and fixing the edges in a third, so I put it all in one app. It's called Scumble , it's free and open sourc</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 6 · sam2, inpainting, comfyui, flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey everyone, for a while now I've been building an editor for the one thing I do all the time: inpainting. I got tired of the loop of drawing a mask in one tool, running a workflow in another and fixing the edges in a third, so I put it all in one app. It's called Scumble , it's free and open source (GPL-3.0), and it's out now. What it does: Select what you want changed by painting over it or just typing its name ("sky", "shirt"), write one line, hit Generate Every result comes back as its own layer, and your original is never touched Only a box around your selection goes to the model, and the result is stitched back in at full resolution. The rest of the picture never changes and never lea&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wslb6r/scumble_a_free_inpainting_editor_that_runs_on/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wsl7tc/free_open_source_inpainting_editor_with_layers/</id><title>Free open source inpainting editor with layers, full-res stitching and MCP support</title>
@@ -65,6 +151,16 @@
 <category term="flux"/>
 <summary>Hey everyone, for a while now I've been building an editor for the one thing I do all the time: inpainting. I got tired of the loop of drawing a mask in one tool, running a workflow in another and fixing the edges in a third, so I put it all in one app. It's called Scumble , it's free and open sourc</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 5 · sam2, inpainting, comfyui, flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey everyone, for a while now I've been building an editor for the one thing I do all the time: inpainting. I got tired of the loop of drawing a mask in one tool, running a workflow in another and fixing the edges in a third, so I put it all in one app. It's called Scumble , it's free and open source (GPL-3.0), and it's out now. What it does: Select what you want changed by painting over it or just typing its name ("sky", "shirt"), write one line, hit Generate Every result comes back as its own layer, and your original is never touched Only a box around your selection goes to the model, and the result is stitched back in at full resolution. The rest of the picture never changes and never lea&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wsl7tc/free_open_source_inpainting_editor_with_layers/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wskrg4/i_tested_qwen_image_21_flux_klein_2_krea_2_and_z/</id><title>I tested Qwen Image 2.1, FLUX Klein 2, Krea 2, and Z Image in ComfyUI using the same prompts. Some interesting differences came out 👀 Full comparison here if you want to check it out!</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wskrg4/i_tested_qwen_image_21_flux_klein_2_krea_2_and_z/"/>
+<published>2026-09-28T17:21:02+00:00</published><updated>2026-09-28T17:21:02+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<category term="flux"/>
+<summary>submitted by /u/aigeek1 [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · comfyui, flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/aigeek1 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wskrg4/i_tested_qwen_image_21_flux_klein_2_krea_2_and_z/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wsknup/you_dont_need_character_swap_lora_for_minimax_h3/</id><title>You don't need character swap LoRA for MiniMax H3</title>
@@ -86,6 +182,25 @@
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · animation&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Does anyone know how this effect is made? It looks like an image slowly turning into a colorful hand-drawn sketch on a white background. I’m trying to find the software, tool, AI, or effect used to create this style. I don’t need the hand-drawing animation itself—just the image gradually appearing as a colorful sketch. What is this effect called, and what software can I use to make it? submitted by /u/Fine-Bed-1729 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wsjm3m/what_tool_or_software_is_used_to_make_this/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wshabo/workflow_comfyui_suppression_objet_qui_ne/</id><title>workflow comfyui: suppression objet qui ne fonctionne plus ???</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wshabo/workflow_comfyui_suppression_objet_qui_ne/"/>
+<published>2026-09-28T15:13:21+00:00</published><updated>2026-09-28T15:13:21+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<summary>le workflow joint fonctionnait parfaitement (suppression d'objets à l'aide du mask editor) et maintenant il ne fonctionne plus alors que je n'ai RIEN changé ???? (je voualis envyer le fichier mais je ne sais pas comment faire !!?? submitted by /u/Low_Worldliness6498 [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;le workflow joint fonctionnait parfaitement (suppression d'objets à l'aide du mask editor) et maintenant il ne fonctionne plus alors que je n'ai RIEN changé ???? (je voualis envyer le fichier mais je ne sais pas comment faire !!?? submitted by /u/Low_Worldliness6498 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wshabo/workflow_comfyui_suppression_objet_qui_ne/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wsh9c6/i_want_to_repair_or_enhance_an_old_photo_taken/</id><title>I want to repair or enhance an old photo taken witch a smartphone about 20 years ago.</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wsh9c6/i_want_to_repair_or_enhance_an_old_photo_taken/"/>
+<published>2026-09-28T15:12:14+00:00</published><updated>2026-09-28T15:12:14+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="flux"/>
+<category term="lora"/>
+<summary>https://preview.redd.it/ysr5ol9c1ash1.png?width=788&amp;format=png&amp;auto=webp&amp;s=e7b08e9064892256fef9f4d551dee6db6256cb03 As you can see the image has a strong tint, artifacts and is pretty bad. I want to build a workflow to enhance images. I just chose a pretty bad one which may help me to restore other </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · flux, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;https://preview.redd.it/ysr5ol9c1ash1.png?width=788&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=e7b08e9064892256fef9f4d551dee6db6256cb03 As you can see the image has a strong tint, artifacts and is pretty bad. I want to build a workflow to enhance images. I just chose a pretty bad one which may help me to restore other images which do not look that bad, but bad enough and worth to rescue somehow. I thought about krea 2 edit lora or something like that. maybe flux? Maybe you can help me. I have so many old images of my Grandma and my Grandpa but they have mostly broken edges. My idea was if a workflow can somewhat rescue this bad image it will do the other ones with ease. Thanks in advance. submitted by /u/mFcCr0&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wsh9c6/i_want_to_repair_or_enhance_an_old_photo_taken/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
 <id>https://www.reddit.com/r/vfx/comments/1wsgwq4/i_made_a_3d_cinematic_for_a_local_esports/</id><title>I made a 3D Cinematic for a local E-Sports Organization</title>
 <link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wsgwq4/i_made_a_3d_cinematic_for_a_local_esports/"/>
 <published>2026-09-28T14:59:01+00:00</published><updated>2026-09-28T14:59:01+00:00</updated>
@@ -94,6 +209,18 @@
 <category term="cinematic"/>
 <summary>I started playing League of Legends this January. Every since, I wanted to do a league project. Two weeks ago I decided to just send it. Figured better to do it for an actual brand than make up one , so I chose a local org. Hope they see it and actually use it. It was fun either way honestly. Made i</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 3 · blender, cinematic&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I started playing League of Legends this January. Every since, I wanted to do a league project. Two weeks ago I decided to just send it. Figured better to do it for an actual brand than make up one , so I chose a local org. Hope they see it and actually use it. It was fun either way honestly. Made in Blender and composited in AE. submitted by /u/Helpful-League5531 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wsgwq4/i_made_a_3d_cinematic_for_a_local_esports/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wsgrh4/make_qwen_image_21_design_like_gpt_image_25/</id><title>Make Qwen Image 2.1 Design Like GPT Image 2.5 | Top-Tier Prompt Template Share! Unlock Elite AI Image Productivity! Match Closed-Source Models!</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wsgrh4/make_qwen_image_21_design_like_gpt_image_25/"/>
+<published>2026-09-28T14:53:28+00:00</published><updated>2026-09-28T14:53:28+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="image editing"/>
+<category term="comfyui"/>
+<category term="lora"/>
+<category term="consistency"/>
+<summary>I tested Qwen Image 2.1 with a prompt template designed for visual decision-making, not just prompt expansion. The workflow uses an external LLM to turn a practical image request into a structured prompt with composition, hierarchy, typography, and layout decisions before sending it to Qwen Image 2.</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · image editing, comfyui, lora, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I tested Qwen Image 2.1 with a prompt template designed for visual decision-making, not just prompt expansion. The workflow uses an external LLM to turn a practical image request into a structured prompt with composition, hierarchy, typography, and layout decisions before sending it to Qwen Image 2.1. The comparison in this test is mainly about the final design result and the user experience compared with several closed-source image models. I am not claiming that a short closed-source prompt can simply be copied into Qwen Image 2.1 and produce the same result. That is not the recommended way to use Qwen Image 2.1. The Qwen outputs in this comparison use prompts prepared by the design-focused&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wsgrh4/make_qwen_image_21_design_like_gpt_image_25/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/vfx/comments/1wsgiul/laser_vfx_breakdown_made_with_popcornfx_and_unity/</id><title>Laser VFX breakdown - Made with PopcornFX and Unity 6</title>
@@ -112,6 +239,16 @@
 <category term="lora"/>
 <summary>hi everyone been testing the h3 character swap lora a bit and so far it seems better than vanilla for character replacement, at least in my tests. it holds the replacement character more consistently and usually does a better job actually replacing the person without drifting back as much. i just us</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;hi everyone been testing the h3 character swap lora a bit and so far it seems better than vanilla for character replacement, at least in my tests. it holds the replacement character more consistently and usually does a better job actually replacing the person without drifting back as much. i just used the normal comfy wf with the original ref2va int8 pruned model with ck, 1.2mp and 20 steps. i probably wouldn’t use a speed-up lora for this. it can work sometimes, but not always.. for prompting i’d definitely start with the recommendations on the lora page, but i wouldn’t just copy the example exactly. what helped me was describing the person in the video that i wanted to replace, then descri&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wsgcuz/tested_h3_character_swap_lora/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wsee1y/character_sheet_workflow_qwen21/</id><title>Character Sheet Workflow - Qwen2.1</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wsee1y/character_sheet_workflow_qwen21/"/>
+<published>2026-09-28T13:17:44+00:00</published><updated>2026-09-28T13:17:44+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="rendering"/>
+<category term="minimax"/>
+<summary>I have found one workflow, edited some (most of it) , actually i removed the local LLM nodes, Now i am usign this Workflow and you can download it directly Tips, make sure you use the exact shown LLM instructions As simple as, i upload 1 image to any LLM (i use Qwen chat) , and provide the exact ins</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · rendering, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I have found one workflow, edited some (most of it) , actually i removed the local LLM nodes, Now i am usign this Workflow and you can download it directly Tips, make sure you use the exact shown LLM instructions As simple as, i upload 1 image to any LLM (i use Qwen chat) , and provide the exact instruction prompt and it respond back with the drafted prompt , which i use the workflow to generate the desired character sheet. I tested the new sheets in minimax video , and results are fantastic. Original workflow (entire credit) https://www.reddit.com/r/StableDiffusion/s/Rjoz79yECS Instructions to LLM You are a Character Sheet Prompt Architect. Input: ONE reference image + entity name. Output: &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wsee1y/character_sheet_workflow_qwen21/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wsdnjs/qwen_image_21_seems_to_be_getting_very_popular/</id><title>Qwen Image 2.1 seems to be getting very popular lately — what am I missing? How are you getting better results?</title>
@@ -135,6 +272,24 @@
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 4 · animation, rendering, maya&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi everyone, I’m a CMGT student at Hanze University in The Netherlands currently doing an AI project focused on Autodesk Maya. Before deciding what to start build on, I’m researching real workflow problems in Maya , repetitive tasks, unnecessary steps, technical issues, rendering/animation workflows, workarounds, etc. I’m specifically trying not to start with "AI is the solution". My goal is to first understand what problems you actually have, and then determine whether AI, normal automation, or something else would make sense. I made a short anonymous survey that should take around 5-10 minutes : Survey: https://docs.google.com/forms/d/e/1FAIpQLSemTA9ZANJprgJKfWJ3qLebSpeKDLV-hLhoPL9S5jFxRwu&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wsdhqm/maya_users_what_parts_of_your_workflow_waste_the/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wsdf0x/cluster_dgx_for_comfyui/</id><title>Cluster DGX for Comfyui</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wsdf0x/cluster_dgx_for_comfyui/"/>
+<published>2026-09-28T12:35:54+00:00</published><updated>2026-09-28T12:35:54+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<summary>Has anyone used a DGX cluster for ComfyUI? I know that many GPUs is overkill for a single model, but I'm wondering if I can run multiple ComfyUI instances in parallel (e.g. one per GPU, each on its own port) and use them simultaneously. Has anyone set this up? How did you manage queues and model loa</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Has anyone used a DGX cluster for ComfyUI? I know that many GPUs is overkill for a single model, but I'm wondering if I can run multiple ComfyUI instances in parallel (e.g. one per GPU, each on its own port) and use them simultaneously. Has anyone set this up? How did you manage queues and model loading across instances? submitted by /u/yusufisman [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wsdf0x/cluster_dgx_for_comfyui/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wsd2bi/qwenimage_21_inpainting_with_lanpaint_alpha/</id><title>Qwen-Image 2.1 Inpainting with LanPaint — alpha channel included</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wsd2bi/qwenimage_21_inpainting_with_lanpaint_alpha/"/>
+<published>2026-09-28T12:19:28+00:00</published><updated>2026-09-28T12:19:28+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="inpainting"/>
+<summary>submitted by /u/Mammoth_Layer444 [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · inpainting&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/Mammoth_Layer444 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wsd2bi/qwenimage_21_inpainting_with_lanpaint_alpha/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wsd1xa/qwenimage_21_inpainting_with_lanpaint_alpha/</id><title>Qwen-Image 2.1 Inpainting with LanPaint — alpha channel included</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wsd1xa/qwenimage_21_inpainting_with_lanpaint_alpha/"/>
 <published>2026-09-28T12:18:55+00:00</published><updated>2026-09-28T12:18:55+00:00</updated>
@@ -155,6 +310,15 @@
 <category term="lora"/>
 <summary>✂️ LayerExtract isolates a prompt-specified subject and exports it on a transparent background for independent editing. https://modelscope.ai/models/DiffSynth-Studio/Qwen-Image-2.1-LayerExtract ✨ LayerRemove takes the source image and a reference layer, removes the corresponding object, and reconstr</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · compositing, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;✂️ LayerExtract isolates a prompt-specified subject and exports it on a transparent background for independent editing. https://modelscope.ai/models/DiffSynth-Studio/Qwen-Image-2.1-LayerExtract ✨ LayerRemove takes the source image and a reference layer, removes the corresponding object, and reconstructs the scene behind it. https://modelscope.ai/models/DiffSynth-Studio/Qwen-Image-2.1-LayerRemove ⚡ Both are compact Qwen-Image-2.1 LoRAs that can be hot-swapped within the same DiffSynth-Studio pipeline. 🧩 Together they turn flattened images into editable assets for compositing, repositioning, replacement, and design workflows. 📜 LoRA weights: Apache 2.0. Qwen-Image-2.1 base-model terms also app&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wsctqz/layer_extract_layer_remove_loras_for_qwen_image_21/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wsc0kn/will_minimax_h3_runs_faster_on_m5_ultra_than_3090/</id><title>Will Minimax H3 runs faster on M5 Ultra than 3090?</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wsc0kn/will_minimax_h3_runs_faster_on_m5_ultra_than_3090/"/>
+<published>2026-09-28T11:26:54+00:00</published><updated>2026-09-28T11:26:54+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="minimax"/>
+<summary>I have a 3090 with 32GB DDR3-1600 RAM and i7-4930K. It took me about 30min to generate a 5sec 720p video using the fl2av workflow. I noticed that about 20GB of RAM is also used. Does that mean there are a lot of memory swapping? I was told that computing power of M5 Ultra is about 80% of 3090 and VR</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I have a 3090 with 32GB DDR3-1600 RAM and i7-4930K. It took me about 30min to generate a 5sec 720p video using the fl2av workflow. I noticed that about 20GB of RAM is also used. Does that mean there are a lot of memory swapping? I was told that computing power of M5 Ultra is about 80% of 3090 and VRAM is faster by 30%. Since I suppose M5 Ultra have enough RAM to fit everything in memory, I suppose it can run faster than 3090's 30min. Is that the case for M5 Ultra users? submitted by /u/Ok_Warning2146 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wsc0kn/will_minimax_h3_runs_faster_on_m5_ultra_than_3090/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/vfx/comments/1wsbeae/envgeneralist_london_wrap_late_oct_whats_actually/</id><title>Env/generalist London, wrap late Oct. What’s actually working for you right now? (UK)</title>
@@ -217,6 +381,26 @@
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I am just thinking is there alot of people using the tao mate lora? and is there any sufficient benefits to using it? since i am trying it out and everytime it needs to load another time in the crown sampler..it really takes some time.. submitted by /u/Leonviz [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1ws9tkm/anyone_using_taomate_lora/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
+<id>https://www.reddit.com/r/comfyui/comments/1ws9fjd/largescale_fantasy_battles/</id><title>Large-scale fantasy battles</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1ws9fjd/largescale_fantasy_battles/"/>
+<published>2026-09-28T08:56:19+00:00</published><updated>2026-09-28T08:56:19+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<category term="flux"/>
+<category term="lora"/>
+<summary>Hello. I'm very new with comfyui and so far the sheer amount of stuff i have achieved even with the built in workflows and minor changes of my own is absolutely mind blowing. One major issue i have though is that generating large scale battles even with the longest and most detailed prompts is nigh-</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · comfyui, flux, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hello. I'm very new with comfyui and so far the sheer amount of stuff i have achieved even with the built in workflows and minor changes of my own is absolutely mind blowing. One major issue i have though is that generating large scale battles even with the longest and most detailed prompts is nigh-impossible without serious problems with formations and individual soldiers sometimes melting together, to name a couple problems. Landscape and atmosphere is completely fine though. I have tried using both ZIT and Flux Klein 9B with a couple LoRAs that should improve skin textures. I also tried messing with cfg, steps and the strengths of individual loras too but no luck at all or major improveme&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1ws9fjd/largescale_fantasy_battles/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1ws9804/a_lora_i_made_anyangle_lora_for_qwen_image_21/</id><title>A LoRA I made: AnyAngle LoRA for Qwen Image 2.1. Style-Aligned Arbitrary Camera Angles</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1ws9804/a_lora_i_made_anyangle_lora_for_qwen_image_21/"/>
+<published>2026-09-28T08:43:03+00:00</published><updated>2026-09-28T08:43:03+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="lora"/>
+<summary>submitted by /u/SillyLilithh [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/SillyLilithh [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1ws9804/a_lora_i_made_anyangle_lora_for_qwen_image_21/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1ws7phv/a_lora_i_made_anyangle_lora_for_qwen_image_21/</id><title>A LoRA I made: AnyAngle LoRA for Qwen Image 2.1. Style-Aligned Arbitrary Camera Angles</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1ws7phv/a_lora_i_made_anyangle_lora_for_qwen_image_21/"/>
 <published>2026-09-28T07:07:19+00:00</published><updated>2026-09-28T07:07:19+00:00</updated>
@@ -224,6 +408,15 @@
 <category term="lora"/>
 <summary>Hello everyone! I made a new LoRA for Qwen Image 2.1 for arbitrary camera angles for any image in (almost) every style. You can read all about it in the huggingface repo here: https://huggingface.co/lilylilith/QI_2.1_AnyAngle . Have a great day, and have fun! submitted by /u/SillyLilithh [link] [com</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hello everyone! I made a new LoRA for Qwen Image 2.1 for arbitrary camera angles for any image in (almost) every style. You can read all about it in the huggingface repo here: https://huggingface.co/lilylilith/QI_2.1_AnyAngle . Have a great day, and have fun! submitted by /u/SillyLilithh [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1ws7phv/a_lora_i_made_anyangle_lora_for_qwen_image_21/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1ws6pq2/sidequested_the_last_few_days_making_this_because/</id><title>Sidequested the last few days making this because my ComfyUI installs were a mess</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1ws6pq2/sidequested_the_last_few_days_making_this_because/"/>
+<published>2026-09-28T06:08:02+00:00</published><updated>2026-09-28T06:08:02+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<summary>I've been working on the next version of my OpenH3-IR project and its node pack , plus a bunch of other LLM-assisted media pipeline stuff around them (the video on this post was made with one of those) and somewhere in the middle of that I looked at the used space on my disk and realized... this was</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I've been working on the next version of my OpenH3-IR project and its node pack , plus a bunch of other LLM-assisted media pipeline stuff around them (the video on this post was made with one of those) and somewhere in the middle of that I looked at the used space on my disk and realized... this was just getting stupid, and it's obviously my own fault. I OCD about keeping some stuff separate, production, experimental stuff, old installs I don't want to touch because something in there "just works" and only god knows why, etc. Which is fine until you realize how bloated your disk can quickly become. So, I sidequested for a few days to clean up the mess and now this exists. ComfyVault https://&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1ws6pq2/sidequested_the_last_few_days_making_this_because/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1ws60ea/generating_longer_minimax_h3_videos_locally_on_a/</id><title>Generating longer MiniMax H3 videos locally on a MacBook Pro</title>
@@ -342,6 +535,17 @@
 <category term="rendering"/>
 <summary>arXiv:2606.15848v2 Announce Type: replace Abstract: 3D Gaussian Splatting (3DGS) has shown strong potential for high-fidelity talking head synthesis. However, enabling fine-grained, interpretable, and editable facial expression control remains fundamentally challenging due to intrinsic conflicts bet</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · gaussian splatting, 3d gaussian, talking head, animation, rendering&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2606.15848v2 Announce Type: replace Abstract: 3D Gaussian Splatting (3DGS) has shown strong potential for high-fidelity talking head synthesis. However, enabling fine-grained, interpretable, and editable facial expression control remains fundamentally challenging due to intrinsic conflicts between speech-driven facial dynamics and explicit expression signals. Existing methods rely on implicit multimodal fusion, leading to spatial entanglement and temporal instability. We present EmoZone-Talker, a novel framework that reformulates audio-driven facial animation as a structured spatial-temporal coordination problem under cross-modal conflicts. Our approach introduces an explicit spatial d&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2606.15848"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1ws3492/more_of_i_have_no_idea_what_im_doingbut_im_having/</id><title>More of I have no Idea what I'm doing...But I'm having fun and kicking ass doing it!</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1ws3492/more_of_i_have_no_idea_what_im_doingbut_im_having/"/>
+<published>2026-09-28T02:52:24+00:00</published><updated>2026-09-28T02:52:24+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="render"/>
+<category term="comfyui"/>
+<category term="blender"/>
+<summary>MakeHuman is a character creator addon for Blender. Very cool and very in-depth character creation! I grabbed the UV atlas, which Gemini can edit it 1:1 pretty well. I’m having a hard time getting that same 1:1 editing in ComfyUI. Auto Reload is a Blender addon that detects changes to external files</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · render, comfyui, blender&lt;/small&gt;&lt;/p&gt;&lt;p&gt;MakeHuman is a character creator addon for Blender. Very cool and very in-depth character creation! I grabbed the UV atlas, which Gemini can edit it 1:1 pretty well. I’m having a hard time getting that same 1:1 editing in ComfyUI. Auto Reload is a Blender addon that detects changes to external files. I haven’t looked yet to see if there’s something similar for Krita. ComfyUI I use (save single image to path) custom node I have a copy of the file I want to edit in a dedicated folder you could cycle the render if you load image from path or folder, and I select that file for my character’s UV texture in Blender. I run ComfyUI, and the output appears on the model in real time. Once I’m happy wi&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1ws3492/more_of_i_have_no_idea_what_im_doingbut_im_having/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1ws1lpv/minimax_blurry_distorted_faces_at_distance/</id><title>Minimax - Blurry distorted faces at distance</title>
@@ -6747,14 +6951,5 @@
 <category term="controlnet"/>
 <summary>Hey All, I'm currently trying to create a square artwork intended to be printed at around the 35" by 35" size. My current image generator does up to 2000×2000px. However, im ideally trying to get my image to 10k by 10k px so that it will print nicely. The compositions of the 2k images are great, but</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · upscaling, controlnet&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey All, I'm currently trying to create a square artwork intended to be printed at around the 35" by 35" size. My current image generator does up to 2000×2000px. However, im ideally trying to get my image to 10k by 10k px so that it will print nicely. The compositions of the 2k images are great, but sometimes contain small AI artefacts in objects/people (such as a missing arm or something) My goal isn't simply to sharpen/upscale the image. I want a workflow that: preserves the original composition and style can selectively regenerate/fix small problematic areas ultimately produces around 10,000×10,000 doesn't hallucinate/change the entire image during upscaling works well for painterly/styli&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wgovx2/best_workflow_for_turning_20002000_ai_artwork/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wglmf0/is_there_a_workflow_to_add_two_lora_characters/</id><title>Is there a workflow to add two LoRA characters into the same image at the same time using Krea 2?</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wglmf0/is_there_a_workflow_to_add_two_lora_characters/"/>
-<published>2026-09-15T00:53:55+00:00</published><updated>2026-09-15T00:53:55+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="lora"/>
-<summary>Hi, do you know if there's any workflow to include two character LoRAs in the same image at the same time using Krea 2? If anyone has it, could you please share it? submitted by /u/Internal-Bet5887 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi, do you know if there's any workflow to include two character LoRAs in the same image at the same time using Krea 2? If anyone has it, could you please share it? submitted by /u/Internal-Bet5887 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wglmf0/is_there_a_workflow_to_add_two_lora_characters/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
