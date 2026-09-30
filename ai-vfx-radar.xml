@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-09-30T00:30:27+00:00</updated>
+<updated>2026-09-30T02:30:28+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1wtq60q/comfy_dials_a_comfyui_server_remote_control/</id><title>[Comfy Dials]: a ComfyUI server remote control native Android app.</title>
@@ -117,6 +117,15 @@
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/fruesome [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wth57y/minimaxh3_general_motion_continuity_repair_v2_lora/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wth4uj/minimaxh3_general_motion_continuity_repair_v2_lora/</id><title>MiniMax-H3 General Motion Continuity Repair V2 Lora</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wth4uj/minimaxh3_general_motion_continuity_repair_v2_lora/"/>
+<published>2026-09-29T17:56:09+00:00</published><updated>2026-09-29T17:56:09+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="lora"/>
+<summary>Lora fixes highspeed flips/spins/rolls/inversions submitted by /u/fruesome [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Lora fixes highspeed flips/spins/rolls/inversions submitted by /u/fruesome [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wth4uj/minimaxh3_general_motion_continuity_repair_v2_lora/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
 <id>https://www.reddit.com/r/comfyui/comments/1wth4dx/remainder_episode_02_continued_experimenting_with/</id><title>Remainder — Episode 02. Continued experimenting with restrained camera language and AI video.</title>
 <link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wth4dx/remainder_episode_02_continued_experimenting_with/"/>
 <published>2026-09-29T17:55:39+00:00</published><updated>2026-09-29T17:55:39+00:00</updated>
@@ -220,6 +229,16 @@
 <category term="flux"/>
 <summary>I already posted about this, but apparently my example wasn't clear enough, so I'm rewriting it. The Flux2Klein Enhancer is actually designed for FLUX, but I tested it with Krea2 , and surprisingly, it works really well there too. The main purpose of the node is to improve prompt adherence and make </summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui, flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I already posted about this, but apparently my example wasn't clear enough, so I'm rewriting it. The Flux2Klein Enhancer is actually designed for FLUX, but I tested it with Krea2 , and surprisingly, it works really well there too. The main purpose of the node is to improve prompt adherence and make the model follow your prompt more closely, while also potentially improving the overall quality of the result. In my example, you can clearly see the difference. Without the node, the prompt is only partially followed and some of the details are missing. With the Enhancer enabled, the prompt is followed much more closely and the result matches what I actually wrote. I've now tested the node quite &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wtemf0/krea_2_enhancer/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wtdpag/reservevram_2_vramheadroom_1_for_stable_comfyui/</id><title>"--reserve-vram 2 --vram-headroom 1" for stable ComfyUI</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wtdpag/reservevram_2_vramheadroom_1_for_stable_comfyui/"/>
+<published>2026-09-29T15:48:23+00:00</published><updated>2026-09-29T15:48:23+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<category term="minimax"/>
+<summary>since posts like this ComfyUI crashes navigating keeps popping up again and again and I don't see the magic answer ComfyUI is not responsive while executing workflow? Finally it's stuck in some doom loop of swapping memory left and right and only option is to restart it? Just add this to launching p</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;since posts like this ComfyUI crashes navigating keeps popping up again and again and I don't see the magic answer ComfyUI is not responsive while executing workflow? Finally it's stuck in some doom loop of swapping memory left and right and only option is to restart it? Just add this to launching params (in run .bat) --reserve-vram 2 --vram-headroom 1 Since I've added this (by randomly testing params) my comfy got stuck ZERO times over a month (previously it was like every couple runs of minimax). Even comfy is responsive as ever while executing. With two browsers open full of opened tabs. Worked for me at least on 94 ram, 24 vram submitted by /u/Luntrixx [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wtdpag/reservevram_2_vramheadroom_1_for_stable_comfyui/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1wtdkma/krea_2_outfitclothes_transfer_with_a_custom/</id><title>Krea 2 outfit/clothes transfer with a custom character LoRA — how do I combine them?</title>
@@ -7004,59 +7023,5 @@
 <category term="minimax"/>
 <summary>How does everyone get rid of the blurry slop that comes with movement? Simple clapping 👏 the hands and face of my generation tests the person is blurry, walking in my comic strip tests are blurry, everything is blurry and faded no matter the steps. Ngl 20 steps hit the worse just flat out ignored th</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;How does everyone get rid of the blurry slop that comes with movement? Simple clapping 👏 the hands and face of my generation tests the person is blurry, walking in my comic strip tests are blurry, everything is blurry and faded no matter the steps. Ngl 20 steps hit the worse just flat out ignored the prompt submitted by /u/WhatsThat-_- [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1whl1s7/help_minimax_advice_needed/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1whkf17/new_comfyui_release_is_out_with_yue2_now_merged/</id><title>New ComfyUI release is out, with YuE2 now merged into stable</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1whkf17/new_comfyui_release_is_out_with_yue2_now_merged/"/>
-<published>2026-09-16T02:23:12+00:00</published><updated>2026-09-16T02:23:12+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<summary>Since my post about YuE2 yesterday got quite a bit of attention, just a quick heads-up: a new ComfyUI version was released a few hours ago, and YuE2 support is now officially part of the stable release. https://github.com/Comfy-Org/ComfyUI/releases submitted by /u/lazyspock [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Since my post about YuE2 yesterday got quite a bit of attention, just a quick heads-up: a new ComfyUI version was released a few hours ago, and YuE2 support is now officially part of the stable release. https://github.com/Comfy-Org/ComfyUI/releases submitted by /u/lazyspock [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1whkf17/new_comfyui_release_is_out_with_yue2_now_merged/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1whk48n/solo_cinematic_pipeline_seeking_advice_on_scope/</id><title>Solo Cinematic Pipeline – Seeking Advice on Scope &amp; Efficiency</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1whk48n/solo_cinematic_pipeline_seeking_advice_on_scope/"/>
-<published>2026-09-16T02:09:27+00:00</published><updated>2026-09-16T02:09:27+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="mocap"/>
-<category term="character animation"/>
-<category term="animation"/>
-<category term="post-production"/>
-<category term="color grading"/>
-<category term="houdini"/>
-<category term="blender"/>
-<category term="unreal"/>
-<summary>Hey everyone, (I am in need of guidance &amp; friends to be frank) I’m currently building out an independent 3D animated series on my own. My goal is to produce a high-end cinematic pilot to show investors, producers, and an audience what I’m capable of, so I can secure funding and assemble a full team.</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 11 · mocap, character animation, animation, post-production, color grading, houdini, blender, unreal&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey everyone, (I am in need of guidance &amp;amp; friends to be frank) I’m currently building out an independent 3D animated series on my own. My goal is to produce a high-end cinematic pilot to show investors, producers, and an audience what I’m capable of, so I can secure funding and assemble a full team. Visually, I’m pushing for a high-end benchmark (think Starcraft or Blizzard cinematic trailers). I want to create a product people actually want to watch on par with great TV series, not just an amateur who’s ambitious. Because I don't have a team or funding yet, I am handling the entire production pipeline solo across every single department: Pre-Production: Story writing, world-building, charac&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1whk48n/solo_cinematic_pipeline_seeking_advice_on_scope/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1whiqw8/cge_sculpt_gpu_based_sculpting_toolset_inside_maya/</id><title>CGE Sculpt - GPU Based Sculpting Toolset Inside Maya</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1whiqw8/cge_sculpt_gpu_based_sculpting_toolset_inside_maya/"/>
-<published>2026-09-16T01:08:07+00:00</published><updated>2026-09-16T01:08:07+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="maya"/>
-<summary>submitted by /u/dAnim8or [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · maya&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/dAnim8or [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1whiqw8/cge_sculpt_gpu_based_sculpting_toolset_inside_maya/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1whij0t/generative_ai_full_course_lecture_1_comfyui/</id><title>Generative AI Full Course - Lecture 1: ComfyUI Tutorial from Windows Setup to Your First Image - Fully generated with Index TTS 2.5 Voice Training + LTX 2.5 Audio + Image = Video Lip Snyching - Computer usage made with Claude + CODEX</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1whij0t/generative_ai_full_course_lecture_1_comfyui/"/>
-<published>2026-09-16T00:58:31+00:00</published><updated>2026-09-16T00:58:31+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="ltx"/>
-<summary>submitted by /u/CeFurkan [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · comfyui, ltx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/CeFurkan [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1whij0t/generative_ai_full_course_lecture_1_comfyui/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1whi3n8/i_know_another_release_already_but_yue2_cover/</id><title>I know, another release already… but YuE2 cover songs were too exciting to sit on [ComfyUI Music Production Toolkit 3.0]</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1whi3n8/i_know_another_release_already_but_yue2_cover/"/>
-<published>2026-09-16T00:39:17+00:00</published><updated>2026-09-16T00:39:17+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="minimax"/>
-<summary>I only just added YuE2 to my Music Production Toolkit, and yes: I'm already back with 3.0. 😅 I got a little too excited about this one: The first version of YuE2 audio covers is ready! You can now load an audio file, describe a new musical direction, and create a cover version inside the same ComfyU</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I only just added YuE2 to my Music Production Toolkit, and yes: I'm already back with 3.0. 😅 I got a little too excited about this one: The first version of YuE2 audio covers is ready! You can now load an audio file, describe a new musical direction, and create a cover version inside the same ComfyUI workflow, with mastering, optional artwork and exports all connected. Regular YuE2 generation and MiniMax Music 3 are still there too. The part I'm especially excited about is what happens to the prompt: Source audio → SheetSage2 → readable ABC score → LLM adapts the cover prompt → YuE2 generates the cover. ABC is a text format for musical notation. The LLM gets the ABC extracted from the source&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1whi3n8/i_know_another_release_already_but_yue2_cover/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
