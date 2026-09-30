@@ -2,8 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-09-30T18:31:17+00:00</updated>
+<updated>2026-09-30T20:30:28+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wuet10/updated_the_h3_minimax_workflow_r2v_for/</id><title>Updated the H3 Minimax workflow R2V for independent continuation for later run</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wuet10/updated_the_h3_minimax_workflow_r2v_for/"/>
+<published>2026-09-30T19:46:23+00:00</published><updated>2026-09-30T19:46:23+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="minimax"/>
+<summary>I stumbled across a continuation workflow from Benji a couple of weeks ago. It is a Gen+Cont workflow which uses a series of passed on internal latents. Its a good workflow there's no doubt in it but if something happened to your comfy, you would have to restart from 0, or let say you wanted to come</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I stumbled across a continuation workflow from Benji a couple of weeks ago. It is a Gen+Cont workflow which uses a series of passed on internal latents. Its a good workflow there's no doubt in it but if something happened to your comfy, you would have to restart from 0, or let say you wanted to come back to it tomorrow - or if you used another workflow after this, it would clear all latent cache and you will again have to start from 0. I updated the workflow by adding support for save-able AV latents which can be worked on later to continue where you left off. Also added another group to generate a filename for latent based on what resolution you are using. It also has a switch where you can&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wuet10/updated_the_h3_minimax_workflow_r2v_for/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wucthp/local_image_to_3d_high_quality_low_poly_preserve/</id><title>Local Image to 3D: High quality, Low poly - preserve minute details like text, logos even after retopo, ~900k faces &gt; ~5k (NVIDIA + Mac)</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wucthp/local_image_to_3d_high_quality_low_poly_preserve/"/>
+<published>2026-09-30T18:31:13+00:00</published><updated>2026-09-30T18:31:13+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="rigging"/>
+<category term="blender"/>
+<summary>Image-to-3D models redraw your picture, and fine detail - text, logos, faces - comes back garbled or scuffed. My local pipeline that fixes it. (repo link at the end of the post) The latest update adds *Pixel Match*. It copies the real pixels from your source image back onto the model, wherever the i</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · rigging, blender&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Image-to-3D models redraw your picture, and fine detail - text, logos, faces - comes back garbled or scuffed. My local pipeline that fixes it. (repo link at the end of the post) The latest update adds *Pixel Match*. It copies the real pixels from your source image back onto the model, wherever the image can see. So "VANGUARD 07" on the chest stays "VANGUARD 07", even after the Finish step retopologises the model down to ~5k faces (as you can see in the video). One step closer to Tripo and Meshy like outputs, but locally. It runs fully on your system - no API calls, no cloud credits, just a once-a-day update check. Works on NVIDIA (tested on Linux, Windows has limited testing) and Apple Silic&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wucthp/local_image_to_3d_high_quality_low_poly_preserve/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/vfx/comments/1wubnxt/all_roads_lead_to_rome_music_video_vfx_breakdown/</id><title>"All Roads Lead to Rome" - Music Video VFX Breakdown (Blender, After Effects, and Resolve - no AI)</title>
 <link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wubnxt/all_roads_lead_to_rome_music_video_vfx_breakdown/"/>
@@ -7090,57 +7109,5 @@
 <category term="minimax"/>
 <summary>I am still happy with PDD 2pass generation submitted by /u/dxprincee [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I am still happy with PDD 2pass generation submitted by /u/dxprincee [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wi9gtz/minimax_h3_getting_consistent_with_neat_outputs/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wi85by/for_anyone_wondering_how_i_manage_to_do_this/</id><title>For anyone wondering how I manage to do this, here’s a quick explanation with a small tutorial</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wi85by/for_anyone_wondering_how_i_manage_to_do_this/"/>
-<published>2026-09-16T20:02:49+00:00</published><updated>2026-09-16T20:02:49+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="gaussian splatting"/>
-<category term="minimax"/>
-<category term="ai video"/>
-<summary>First, in Minimax, I use a prompt like this: “The character remains completely frozen in place, perfectly still like a statue. The camera smoothly orbits 360 degrees around the character in one continuous shot. No character movement, no pose change, no cuts.” Then I use COLMAP: Create a new database</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · gaussian splatting, minimax, ai video&lt;/small&gt;&lt;/p&gt;&lt;p&gt;First, in Minimax, I use a prompt like this: “The character remains completely frozen in place, perfectly still like a statue. The camera smoothly orbits 360 degrees around the character in one continuous shot. No character movement, no pose change, no cuts.” Then I use COLMAP: Create a new database and import the frames extracted from the Minimax video. Go to Processing → Feature Extraction. The important part is to select SIMPLE_PINHOLE as the camera model, then click "Extract". Next, go to "Feature Matching" and click "Run". After that, go to Reconstruction → Start Reconstruction. Once the reconstruction is finished, select "Export Model" to export the camera and reconstruction data. You &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wi85by/for_anyone_wondering_how_i_manage_to_do_this/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wi73ri/do_loras_still_matter_in_the_new_generation_of/</id><title>Do LoRAs still matter in the new generation of image models?</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wi73ri/do_loras_still_matter_in_the_new_generation_of/"/>
-<published>2026-09-16T19:24:47+00:00</published><updated>2026-09-16T19:24:47+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="upscaling"/>
-<category term="lora"/>
-<summary>incorrect generation made with the trained LoRA target image input images used for training Title: Can’t seem to get the LoRA right in Qwen 2511 Hi everyone, I’m trying to train a material/style LoRA for Qwen Image Edit 2511, but I can’t seem to get the result right. The goal is to change only the u</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · upscaling, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;incorrect generation made with the trained LoRA target image input images used for training Title: Can’t seem to get the LoRA right in Qwen 2511 Hi everyone, I’m trying to train a material/style LoRA for Qwen Image Edit 2511, but I can’t seem to get the result right. The goal is to change only the upholstery of a piece of furniture to a specific material called Velvet 506 , while preserving the furniture design, cushion shape, seams, folds, lighting and camera angle. How I created the dataset I started with 10 original furniture images showing the correct Velvet 506 upholstery. These are my target/output images. For each original image, I generated three altered versions using AI. In these a&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wi73ri/do_loras_still_matter_in_the_new_generation_of/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1wi6yr5/the_sidefx_houdini_docs_are_actually_readable_now/</id><title>The SideFX Houdini Docs Are Actually Readable Now !</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wi6yr5/the_sidefx_houdini_docs_are_actually_readable_now/"/>
-<published>2026-09-16T19:19:40+00:00</published><updated>2026-09-16T19:19:40+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="houdini"/>
-<summary>Hi everyone ! You might remember me from a couple of weeks ago. I made HoudiniMD.com , a clean markdown mirror of SideFX's own docs. It aimed to be faster, easier to read and to search. You might also remember that SideFX asked for the site to be taken down (bummer, never heard from them since). So </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · houdini&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi everyone ! You might remember me from a couple of weeks ago. I made HoudiniMD.com , a clean markdown mirror of SideFX's own docs. It aimed to be faster, easier to read and to search. You might also remember that SideFX asked for the site to be taken down (bummer, never heard from them since). So I did what any sane person would do: I rebuilt it as a free, open source, offline app that runs alongside Houdini, and even directly inside it. It turns out, Houdini already ships all ≈10,450 doc pages on your own disk. The app uses those to build a deep search index, which allows for extremely fast search. It then wraps each page inside a pretty interface at runtime, as well as a host of other fe&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wi6yr5/the_sidefx_houdini_docs_are_actually_readable_now/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1wi6pit/vfx_compositor_for_a_few_simple_shots_short_film/</id><title>VFX Compositor for a Few Simple Shots — Short Film</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wi6pit/vfx_compositor_for_a_few_simple_shots_short_film/"/>
-<published>2026-09-16T19:10:53+00:00</published><updated>2026-09-16T19:10:53+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="vfx"/>
-<summary>Looking for a VFX compositor for a few relatively simple shots on a short film. The main one involves two people shot separately on a locked-off camera, who need to be comped together into the same frame. I also need the background extended within that same shot. There may also be one or two small c</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Looking for a VFX compositor for a few relatively simple shots on a short film. The main one involves two people shot separately on a locked-off camera, who need to be comped together into the same frame. I also need the background extended within that same shot. There may also be one or two small cleanup/removal shots. For now, it’s just one, and it’s only about 15 frames during a whip pan. PLEASE DM with a portfolio. I can send over more information and the clips so you can have a look and give me an estimate of how long you think the work will take, along with your rate. Thanks submitted by /u/Niallito_79 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wi6pit/vfx_compositor_for_a_few_simple_shots_short_film/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wi5mni/h3_singularity_but_40_faster_and_better_quality/</id><title>H3 Singularity but 40% Faster AND Better Quality!</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wi5mni/h3_singularity_but_40_faster_and_better_quality/"/>
-<published>2026-09-16T18:33:01+00:00</published><updated>2026-09-16T18:33:01+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="relight"/>
-<category term="upscaler"/>
-<category term="hdr"/>
-<category term="minimax"/>
-<category term="lora"/>
-<summary>Have I got an easy stupid pet trick for you! So I was playing with various upscaler alternatives to the H3 Latent in the Minimax Singularity workflow, such as SeedVR2, and RTX. Here is the win, drop in RTX right before the Video is saved in Step 2. This reduces the amount H3 Latent has to upscale, a</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 5 · relight, upscaler, hdr, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Have I got an easy stupid pet trick for you! So I was playing with various upscaler alternatives to the H3 Latent in the Minimax Singularity workflow, such as SeedVR2, and RTX. Here is the win, drop in RTX right before the Video is saved in Step 2. This reduces the amount H3 Latent has to upscale, and acts as an extra polishing step as well! To top it off, the entire process from 0.5mp to finished 1080p HDR is cut by 40% plus! So, superior quality AND 40% faster. And so easy to implement. I am going to begin using this method on other workflows, wherever it is appropriate. Test it for yourselves, I did extensive testing and the results were smoother and more polished and much faster, with no&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wi5mni/h3_singularity_but_40_faster_and_better_quality/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
