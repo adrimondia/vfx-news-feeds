@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-09-30T12:30:58+00:00</updated>
+<updated>2026-09-30T14:30:44+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
 <entry>
 <id>https://github.com/harry0703/MoneyPrinterTurbo</id><title>harry0703/MoneyPrinterTurbo</title>
@@ -409,6 +409,16 @@
 <category term="minimax"/>
 <summary>I couldn’t find any other workflows that gave decent results so I made my own, just sharing in case it helps anyone else. Giving something back to the community as you’ve taught me a lot since I first started using Comfy a couple of months ago. Obviously use responsibly please. Had to make a post on</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I couldn’t find any other workflows that gave decent results so I made my own, just sharing in case it helps anyone else. Giving something back to the community as you’ve taught me a lot since I first started using Comfy a couple of months ago. Obviously use responsibly please. Had to make a post on CivitAI so I could share it. Need a VPN to access if you're in the UK: https://civitai.com/models/2973199/minimax-h3-faceswap-with-spectrum-and-sparse-attention?modelVersionId=3369491 Think I covered everything in the post but let me know if you run into any problems! submitted by /u/Decaying_Cumsplash [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wtpihb/faceswap_for_minimax_h3/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wtp3a3/looking_for_the_best_comfyui_workflowmodel_for/</id><title>Looking for the best ComfyUI workflow/model for video background replacement</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wtp3a3/looking_for_the_best_comfyui_workflowmodel_for/"/>
+<published>2026-09-29T23:09:37+00:00</published><updated>2026-09-29T23:09:37+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<category term="minimax"/>
+<summary>Hi everyone, I'm looking for the best open-source workflow/model for replacing the background of a video. My setup is: I provide the original video (a fight scene with two people) I provide the new background image I want to keep the original people, movements, clothes, faces, etc. unchanged The goa</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi everyone, I'm looking for the best open-source workflow/model for replacing the background of a video. My setup is: I provide the original video (a fight scene with two people) I provide the new background image I want to keep the original people, movements, clothes, faces, etc. unchanged The goal is essentially to remove the original background and composite the fighters onto the new background I want to preserve the highest possible image quality What would you recommend as the best current solution? I'm already familiar with Minimax but can't get the result I want.... (It does a good work on backgorund integration but keep changing my character's motion, and the loss of quality is too &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wtp3a3/looking_for_the_best_comfyui_workflowmodel_for/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1wtn6iu/brand_new_i_just_released_the_most_complete_and/</id><title>Brand new: I just released the most complete and great sounding YuE2 edition for ComfyUI - with DAW features, stems, built-in effects and mastering</title>
@@ -7178,56 +7188,5 @@
 <category term="minimax"/>
 <summary>In the first part of the Ref2VA generation process, when the Minimax H3 Reference node is working, my GPU usage is at 100% with VRAM nearly maxed out and half my RAM filled. But the GPU temperature is the same as when it is idle. The time it takes for this process to complete is directly proportiona</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;In the first part of the Ref2VA generation process, when the Minimax H3 Reference node is working, my GPU usage is at 100% with VRAM nearly maxed out and half my RAM filled. But the GPU temperature is the same as when it is idle. The time it takes for this process to complete is directly proportional to how many reference image inputs I have, and can take much longer than the actual sample step generation time. I assume that the GPU is taking a long time to build a latent image, which is of significantly higher resolution than it would be if it were set to ‘match’ instead of ‘max’. But why does this part of the process not cause the GPU to work as hard as the sampler steps, even though it’s &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1whywxw/minimax_h3_ref2va_question_when_ref_image_size_is/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1whylfg/workflow_advice_for_a_tomato_sauce_drop/</id><title>Workflow advice for a tomato sauce drop</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1whylfg/workflow_advice_for_a_tomato_sauce_drop/"/>
-<published>2026-09-16T14:20:01+00:00</published><updated>2026-09-16T14:20:01+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="vfx"/>
-<category term="houdini"/>
-<summary>Hi everyone, I’m looking for some workflow advice for a short live-action VFX shot. The camera is very close to a smartphone held by an actor. A small amount of thick tomato sauce enters the frame from above, falls onto the phone display, hits the glass and settles into a sticky puddle. The pizza it</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · vfx, houdini&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi everyone, I’m looking for some workflow advice for a short live-action VFX shot. The camera is very close to a smartphone held by an actor. A small amount of thick tomato sauce enters the frame from above, falls onto the phone display, hits the glass and settles into a sticky puddle. The pizza itself is never visible. Only the falling sauce, impact and settling are required. Later, the actor wipes the sauce away with his thumb, but by then the camera is already farther away, so I don’t need to simulate the wipe interaction. I mainly work in C4D and I have RealFlow integrated into it. I’m struggling to achieve the right result. The sauce either breaks into small droplets, remains a compact&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1whylfg/workflow_advice_for_a_tomato_sauce_drop/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1whx7kp/ive_been_playing_around_with_yue2_and_i_must_say/</id><title>I've been playing around with YuE2, and i must say, i'm impressed.</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1whx7kp/ive_been_playing_around_with_yue2_and_i_must_say/"/>
-<published>2026-09-16T13:26:11+00:00</published><updated>2026-09-16T13:26:11+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="smoke"/>
-<category term="comfyui"/>
-<category term="minimax"/>
-<category term="stereo"/>
-<summary>I've been hearing a lot of people talk about this model and decided to give it a try. Suffice to say, i'm really impressed with it. The quality is certainly above any previous local model i've tried, like Ace and Minimax Music 3. I would go ever as far as to say it rivals Suno in certain cases. The </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · smoke, comfyui, minimax, stereo&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I've been hearing a lot of people talk about this model and decided to give it a try. Suffice to say, i'm really impressed with it. The quality is certainly above any previous local model i've tried, like Ace and Minimax Music 3. I would go ever as far as to say it rivals Suno in certain cases. The only thing i've noticed is that if the music is too long, like in this example, it's more likely for distortions to occur and for lyrics to be messed up or skipped towards the end. Anyway, for anyone who wants to generate their own music locally without paying for credits or a subscription, YuE2 is currently the best option in my opinion. To generate this music i've used the standard YuE2 text to &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1whx7kp/ive_been_playing_around_with_yue2_and_i_must_say/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1whwwft/cyberpunk_graphic_animation/</id><title>Cyberpunk graphic animation</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1whwwft/cyberpunk_graphic_animation/"/>
-<published>2026-09-16T13:13:53+00:00</published><updated>2026-09-16T13:13:53+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="animation"/>
-<summary>Made a quick clip for cp77 and i thought it turned out nice but a bit of the text was off submitted by /u/Ok-Brain-5729 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · animation&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Made a quick clip for cp77 and i thought it turned out nice but a bit of the text was off submitted by /u/Ok-Brain-5729 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1whwwft/cyberpunk_graphic_animation/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1whwscf/sensenovau15_technical_report_vaefree_native_4k/</id><title>SenseNova-U1.5 Technical Report: VAE-free Native 4K Generation with Spatial Patch Reconstruction</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1whwscf/sensenovau15_technical_report_vaefree_native_4k/"/>
-<published>2026-09-16T13:09:10+00:00</published><updated>2026-09-16T13:09:10+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="image editing"/>
-<category term="rendering"/>
-<summary>SenseNova has released the technical report for SenseNova-U1.5, an 8B native unified model for image understanding, generation, and editing. The model does not rely on an external visual encoder or VAE. Images are mapped directly into visual tokens, with each token representing a 32×32-pixel region.</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · image editing, rendering&lt;/small&gt;&lt;/p&gt;&lt;p&gt;SenseNova has released the technical report for SenseNova-U1.5, an 8B native unified model for image understanding, generation, and editing. The model does not rely on an external visual encoder or VAE. Images are mapped directly into visual tokens, with each token representing a 32×32-pixel region. Compared with U1, the main change is the reconstruction method rather than the tokenization scheme. U1 decoded each visual token independently with an MLP head, which kept the interface lightweight but could expose patch boundaries and texture discontinuities at higher resolutions. U1.5 retains the same compact token representation, but restores the tokens to a 2D feature grid and reconstructs ne&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1whwscf/sensenovau15_technical_report_vaefree_native_4k/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1whwr5f/looking_for_workflow_to_generate_sound_for_a_nsfw/</id><title>Looking for workflow to generate sound for a NSFW video</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1whwr5f/looking_for_workflow_to_generate_sound_for_a_nsfw/"/>
-<published>2026-09-16T13:07:42+00:00</published><updated>2026-09-16T13:07:42+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="minimax"/>
-<category term="ltx"/>
-<summary>Greetings, since sounds generated by H3 Minimax for NSFW scenes are wierd and wrong, I need a workflow that could generate a NSFW audio synced with a scene. I tried MMAudio, but I didn't like the quality of it, I also used a workflow that allowed to generate synced audio via LTX 2.3 from RuneXX repo</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · minimax, ltx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Greetings, since sounds generated by H3 Minimax for NSFW scenes are wierd and wrong, I need a workflow that could generate a NSFW audio synced with a scene. I tried MMAudio, but I didn't like the quality of it, I also used a workflow that allowed to generate synced audio via LTX 2.3 from RuneXX repository in past, but now I can't find this exact one for some reason. Also if you could suggest any LoRas that could enhance NSFW sounds (skin on skin slaps, thrusting, skin contact) for generated videos, that would be much appreciated as well submitted by /u/_SirBaboon_ [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1whwr5f/looking_for_workflow_to_generate_sound_for_a_nsfw/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
