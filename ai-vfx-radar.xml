@@ -2,8 +2,37 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-09-30T20:30:28+00:00</updated>
+<updated>2026-09-30T22:30:26+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1wui429/apple_studios_visual_effects_workers_secure_first/</id><title>Apple Studios Visual Effects Workers Secure First IATSE Contract</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wui429/apple_studios_visual_effects_workers_secure_first/"/>
+<published>2026-09-30T21:59:33+00:00</published><updated>2026-09-30T21:59:33+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="vfx"/>
+<category term="visual effects"/>
+<summary>Congrats to everyone in Apple VFX! submitted by /u/pascalachu [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 3 · vfx, visual effects&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Congrats to everyone in Apple VFX! submitted by /u/pascalachu [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wui429/apple_studios_visual_effects_workers_secure_first/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wuh26q/ming_image_01_vs_krea_2_192_prompts_side_by_sides/</id><title>Ming Image 0.1 vs Krea 2. 192 prompts side by sides</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wuh26q/ming_image_01_vs_krea_2_192_prompts_side_by_sides/"/>
+<published>2026-09-30T21:15:38+00:00</published><updated>2026-09-30T21:15:38+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="render"/>
+<category term="comfyui"/>
+<summary>Ming Image is very impressive for a 6B model so let's compare to Krea 2! https://imagebench.ai/gallery?g=1_vxjkf_s0 https://preview.redd.it/es33ck2h4qsh1.png?width=1328&amp;format=png&amp;auto=webp&amp;s=c4ab8a40e5ca6df7fe57b7ed79423c71dc9ba390 Here are the details: I ran it locally on a DGX Spark (GB10) and mo</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · render, comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Ming Image is very impressive for a 6B model so let's compare to Krea 2! https://imagebench.ai/gallery?g=1_vxjkf_s0 https://preview.redd.it/es33ck2h4qsh1.png?width=1328&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=c4ab8a40e5ca6df7fe57b7ed79423c71dc9ba390 Here are the details: I ran it locally on a DGX Spark (GB10) and mostly stuck to the vendor defaults: - 1024x1024 resolution (we changed this one: the model card recommends 2048x2048, but 1024x1024 is officially supported - 12 steps (vendor default) - Unguided sampling, which is equivalent to CFG 1.0. The model has no CFG or negative prompt setting. - Euler sampler with the simple scheduler, max_shift 1.15 and base_shift 0.5 (ComfyUI template defaults) - Fixed se&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wuh26q/ming_image_01_vs_krea_2_192_prompts_side_by_sides/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1wufyog/fourink_print_treatment_with_a_staged_paperandink/</id><title>Four-ink print treatment with a staged paper-and-ink reveal on live-action footage</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wufyog/fourink_print_treatment_with_a_staged_paperandink/"/>
+<published>2026-09-30T20:31:26+00:00</published><updated>2026-09-30T20:31:26+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="rendering"/>
+<summary>For this treatment I wanted the image to look printed without losing the movement of the original shot. The renderer separates each frame into four ink plates, applies halftone coverage and registration offsets, and composites them over textured paper. I’m building the effect in InkWaltz. The transi</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 1 · rendering&lt;/small&gt;&lt;/p&gt;&lt;p&gt;For this treatment I wanted the image to look printed without losing the movement of the original shot. The renderer separates each frame into four ink plates, applies halftone coverage and registration offsets, and composites them over textured paper. I’m building the effect in InkWaltz. The transition is a separate composite. It holds the original for three seconds, then moves an irregular diagonal boundary across the frame over three seconds. A cosine ease drives the front, while staggered smoothstep masks introduce the paper and successive ink passes. The noise defining the boundary stays fixed across frames so the edge has a consistent contour. The source footage is 1080p, scaled before&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wufyog/fourink_print_treatment_with_a_staged_paperandink/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wuet10/updated_the_h3_minimax_workflow_r2v_for/</id><title>Updated the H3 Minimax workflow R2V for independent continuation for later run</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wuet10/updated_the_h3_minimax_workflow_r2v_for/"/>
@@ -7073,41 +7102,5 @@
 <category term="cinematic"/>
 <summary>For creators running ComfyUI on laptops or GPUs with limited VRAM, local video rendering and large multi-modal models can be frustratingly slow or completely out of reach. We just released a major update to **ComfyUI-Agnes-AI (v1.2.0)**, connecting ComfyUI to Agnes AI's cloud infrastructure so you c</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 8 · video generation, text-to-video, inpainting, animation, rendering, comfyui, storyboard, cinematic&lt;/small&gt;&lt;/p&gt;&lt;p&gt;For creators running ComfyUI on laptops or GPUs with limited VRAM, local video rendering and large multi-modal models can be frustratingly slow or completely out of reach. We just released a major update to **ComfyUI-Agnes-AI (v1.2.0)**, connecting ComfyUI to Agnes AI's cloud infrastructure so you can generate high-res images, create videos, and run agent-level reasoning with zero local GPU load. What's new in v1.2.0: Next-Gen Flagship Models : Video : Upgraded to agnes-video-2.5-flash with 4 dedicated modes (T2V, I2V, First &amp;amp; Last Frame, and Multi-modal Reference). Image : agnes-image-2.5-flash with up to 3K resolution and prompt-free image blending. Text : agnes-3.0-flash with a 512K conte&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wiejia/comfyuiagnesai_v120_free_cloud_text_image_video/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wia9eu/no_vocals_create_pure_instrumental_music_with/</id><title>NO VOCALS! Create Pure Instrumental Music with YuE-2 in ComfyUi</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wia9eu/no_vocals_create_pure_instrumental_music_with/"/>
-<published>2026-09-16T21:21:33+00:00</published><updated>2026-09-16T21:21:33+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<summary>submitted by /u/solomars3 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/solomars3 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wia9eu/no_vocals_create_pure_instrumental_music_with/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wia96n/no_vocals_create_pure_instrumental_music_with/</id><title>NO VOCALS! Create Pure Instrumental Music with YuE-2 in ComfyUi</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wia96n/no_vocals_create_pure_instrumental_music_with/"/>
-<published>2026-09-16T21:21:20+00:00</published><updated>2026-09-16T21:21:20+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<summary>submitted by /u/solomars3 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/solomars3 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wia96n/no_vocals_create_pure_instrumental_music_with/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wi9qam/how_to_train_krea_2_lora_model_on_8gb_gpu_32gb_of/</id><title>how to train krea 2 Lora model on 8GB GPU + 32GB of RAM?</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wi9qam/how_to_train_krea_2_lora_model_on_8gb_gpu_32gb_of/"/>
-<published>2026-09-16T21:01:29+00:00</published><updated>2026-09-16T21:01:29+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="lora"/>
-<summary>Over the past few days I have been trying to find a way to train a krea 2 Lora model on my local system. My system already has Ostris AI toolkit but no matter what it always gives a OOM error. I am determined to train locally and not give any cloud services my money or dataset. so if you have experi</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Over the past few days I have been trying to find a way to train a krea 2 Lora model on my local system. My system already has Ostris AI toolkit but no matter what it always gives a OOM error. I am determined to train locally and not give any cloud services my money or dataset. so if you have experience with training a Krea 2 Lora model with my general system limitations locally let me know what worked for you. submitted by /u/mca1169 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wi9qam/how_to_train_krea_2_lora_model_on_8gb_gpu_32gb_of/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wi9gtz/minimax_h3_getting_consistent_with_neat_outputs/</id><title>Minimax H3 getting consistent with neat outputs after months of trial and errors.</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wi9gtz/minimax_h3_getting_consistent_with_neat_outputs/"/>
-<published>2026-09-16T20:51:50+00:00</published><updated>2026-09-16T20:51:50+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="minimax"/>
-<summary>I am still happy with PDD 2pass generation submitted by /u/dxprincee [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I am still happy with PDD 2pass generation submitted by /u/dxprincee [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wi9gtz/minimax_h3_getting_consistent_with_neat_outputs/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
