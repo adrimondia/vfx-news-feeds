@@ -2,8 +2,43 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-01T08:30:48+00:00</updated>
+<updated>2026-10-01T10:31:35+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wuv1gt/can_an_rtx_5090_generate_a_15second_minimax_h3/</id><title>Can an RTX 5090 generate a 15-second MiniMax H3 video in around 1 minute?</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wuv1gt/can_an_rtx_5090_generate_a_15second_minimax_h3/"/>
+<published>2026-10-01T09:36:27+00:00</published><updated>2026-10-01T09:36:27+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="text-to-video"/>
+<category term="comfyui"/>
+<category term="minimax"/>
+<summary>Hey, I’m trying to find a cheaper and faster workflow for MiniMax H3 text-to-video with native audio. My current setup: RunPod L40S 48GB ComfyUI LightX2V MiniMax H3 Turbo 4-step v1.2 1184×672 resolution, around 0.8MP 15 seconds at 24 fps Text-to-video with native audio Video shift 6, audio shift 3 E</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · text-to-video, comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey, I’m trying to find a cheaper and faster workflow for MiniMax H3 text-to-video with native audio. My current setup: RunPod L40S 48GB ComfyUI LightX2V MiniMax H3 Turbo 4-step v1.2 1184×672 resolution, around 0.8MP 15 seconds at 24 fps Text-to-video with native audio Video shift 6, audio shift 3 Euler sampler, simple scheduler One 15-second video currently takes around 8 minutes. The quality is good, but it becomes too slow and expensive when generating a longer video with many scenes. Has anyone tested this on an RTX 5090 with 32GB VRAM? Is it possible to generate the same 15-second, 0.8MP video in around 1 minute without lowering the quality? I’m fine with using FP8, offloading, LightX2V&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wuv1gt/can_an_rtx_5090_generate_a_15second_minimax_h3/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wuupjo/the_5second_talking_loop_that_fits_in_6gb_the/</id><title>The 5-second talking loop that fits in 6gb (the mouth pass doesn't run locally though)</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wuupjo/the_5second_talking_loop_that_fits_in_6gb_the/"/>
+<published>2026-10-01T09:14:40+00:00</published><updated>2026-10-01T09:14:40+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="talking head"/>
+<category term="lip-sync"/>
+<summary>I keep seeing 40-node talking head workflows so i went the other way: what's the smallest graph that takes a 5 second clip and a voice recording and gives back a synced video. Mine is load video, load audio, the sync custom node set (video in, audio in, api key, generate, output, save). The load and</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · talking head, lip-sync&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I keep seeing 40-node talking head workflows so i went the other way: what's the smallest graph that takes a 5 second clip and a voice recording and gives back a synced video. Mine is load video, load audio, the sync custom node set (video in, audio in, api key, generate, output, save). The load and preview run on my 3060 and vram barely moves. The actual lip-sync is a hosted api call, so the local gpu doesn't matter for that step, you pay per second of output instead of waiting on vram. what i'm still figuring out: where do you cache results so a graph re-run doesn't re-bill the same segment, and do you keep the api key in the graph json or in env. How are you splitting local vs hosted stag&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wuupjo/the_5second_talking_loop_that_fits_in_6gb_the/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wuukck/continuity_update_screen_replacement_image_to_3d/</id><title>Continuity update: screen replacement, image to 3D, Qwen Image 2.1, and a lot more since 3.0</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wuukck/continuity_update_screen_replacement_image_to_3d/"/>
+<published>2026-10-01T09:05:09+00:00</published><updated>2026-10-01T09:05:09+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="tracking"/>
+<category term="upscaler"/>
+<category term="render"/>
+<category term="comfyui"/>
+<category term="lora"/>
+<category term="storyboard"/>
+<summary>Quick update on Continuity, my ComfyUI node pack for video and stills. A lot has landed since I last posted at 3.0: Screens (WIP, on main): put a picture or clip on a phone, laptop or TV in the shot. The model only sees a placeholder, then Continuity tracks it through every frame and composites your</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 6 · tracking, upscaler, render, comfyui, lora, storyboard&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Quick update on Continuity, my ComfyUI node pack for video and stills. A lot has landed since I last posted at 3.0: Screens (WIP, on main): put a picture or clip on a phone, laptop or TV in the shot. The model only sees a placeholder, then Continuity tracks it through every frame and composites your file on. It's still a work in progress, so expect some shots where the tracking slips or the edges aren't clean. Feedback and failure cases are very welcome. Image to 3D (3.2): turn a picture into a textured mesh from the tools dashboard (Pixal3D / TRELLIS.2). Qwen Image 2.1: a new model family that both draws and edits, plus storyboard and character-sheet starter presets. Chat: chats are saved, &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wuukck/continuity_update_screen_replacement_image_to_3d/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://github.com/heygen-com/hyperframes</id><title>heygen-com/hyperframes</title>
 <link rel="alternate" href="https://github.com/heygen-com/hyperframes"/>
@@ -13,6 +48,28 @@
 <category term="rendering"/>
 <summary>Write HTML. Render video. Built for agents. Write HTML. Render video. Built for agents. Quickstart | Showcase | Playground | Catalog | Docs | Discord HyperFrames is an open-source framework for turning HTML, CSS, media, and seekable animations into deterministic MP4 videos. Use it locally with the C</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;GitHub trending (all) · score 2 · render, rendering&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Write HTML. Render video. Built for agents. Write HTML. Render video. Built for agents. Quickstart | Showcase | Playground | Catalog | Docs | Discord HyperFrames is an open-source framework for turning HTML, CSS, media, and seekable animations into deterministic MP4 videos. Use it locally with the CLI, from AI coding agents with skills, or as the rendering core behind hosted authoring workflows. Quick Start With an AI coding agent For Claude Code, install the versioned plugin: claude plugin marketplace add heygen-com/hyperframes claude plugin install hyperframes@hyperframes Enable auto-update for the hyperframes marketplace in /plugin → Marketplaces , then use /hyperframes:hyperframes . See &lt;/p&gt;&lt;p&gt;&lt;a href="https://github.com/heygen-com/hyperframes"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wut7sz/minimax_h3_macbook_pro_m3pro_36g/</id><title>MiniMax H3 / MacBook Pro M3PRO 36G</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wut7sz/minimax_h3_macbook_pro_m3pro_36g/"/>
+<published>2026-10-01T07:36:07+00:00</published><updated>2026-10-01T07:36:07+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="minimax"/>
+<summary>Hello. I've been trying for several days to optimize JSON workflows on Minimax H3, especially REF2V, but I'm not making any progress on my setup (Apple Macbook Pro M3 PRO 36GB). The calculations take several days and I can't see the end in sight. Can anyone advise me on optimizing JSON workflows for</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hello. I've been trying for several days to optimize JSON workflows on Minimax H3, especially REF2V, but I'm not making any progress on my setup (Apple Macbook Pro M3 PRO 36GB). The calculations take several days and I can't see the end in sight. Can anyone advise me on optimizing JSON workflows for Silicon? submitted by /u/OppositeNo2939 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wut7sz/minimax_h3_macbook_pro_m3pro_36g/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wuslwv/comfyui_tutorial_qwen_image_2_1_vs_flux_2_krea/</id><title>ComfyUI Tutorial Qwen Image 2 1 vs FLUX 2 Krea Turbo Which Makes Better Character Sheets</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wuslwv/comfyui_tutorial_qwen_image_2_1_vs_flux_2_krea/"/>
+<published>2026-10-01T06:58:30+00:00</published><updated>2026-10-01T06:58:30+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="video generation"/>
+<category term="comfyui"/>
+<category term="flux"/>
+<category term="consistency"/>
+<category term="character consistency"/>
+<summary>Hello everyone, i’ve just finished a new ComfyUI character sheet workflow where I compare Qwen Image 2.1 vs FLUX.2 Krea Turbo using the same input image. The goal was to see which model could create a useful character sheet while preserving the original character’s identity, details, and overall app</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 7 · video generation, comfyui, flux, consistency, character consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hello everyone, i’ve just finished a new ComfyUI character sheet workflow where I compare Qwen Image 2.1 vs FLUX.2 Krea Turbo using the same input image. The goal was to see which model could create a useful character sheet while preserving the original character’s identity, details, and overall appearance across different views and poses. Qwen Image 2.1 performed really well , maintaining good character consistency and producing a high-quality character sheet in a relatively short amount of time. I also tested FLUX.2 Krea Turbo , which was capable of producing good results and showed decent consistency. In my tests the overall consistency and quality were not as strong as Qwen. The biggest &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wuslwv/comfyui_tutorial_qwen_image_2_1_vs_flux_2_krea/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wurpje/minimax_has_made_new_releases_very_delayed_it/</id><title>Minimax has made new releases very delayed it seems</title>
@@ -267,6 +324,15 @@
 <content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 7 · novel view synthesis, gaussian splatting, 3d gaussian, nerf, 4d, rendering&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2605.10360v3 Announce Type: replace Abstract: While novel view synthesis (NVS) for dynamic scenes has seen significant progress, reconstructing temporally consistent geometric surfaces remains a challenge. Neural Radiance Fields (NeRF) and 3D Gaussian Splatting (3DGS) offer powerful dynamic scene rendering capabilities; however, relying solely on photometric optimization often leads to geometric ambiguities. This results in discontinuous surfaces, severe artifacts, and broken surfaces over time. To address these limitations, we present DySurface, a novel framework that bridges the effectiveness of explicit Gaussians with the geometric fidelity of implicit Signed Distance Functions (SDF&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2605.10360"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wup93u/minimax_h3_x2_detail_vae_my_attempt_to_get_more/</id><title>MiniMax H3 X2 Detail VAE – my attempt to get more detail from the H3 VAE or story about fail</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wup93u/minimax_h3_x2_detail_vae_my_attempt_to_get_more/"/>
+<published>2026-10-01T03:42:24+00:00</published><updated>2026-10-01T03:42:24+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="minimax"/>
+<summary>submitted by /u/NoMouse9610 [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/NoMouse9610 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wup93u/minimax_h3_x2_detail_vae_my_attempt_to_get_more/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wuov6t/minimax_h3_x2_detail_vae_my_attempt_to_get_more/</id><title>MiniMax H3 X2 Detail VAE – my attempt to get more detail from the H3 VAE or story about fail</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wuov6t/minimax_h3_x2_detail_vae_my_attempt_to_get_more/"/>
 <published>2026-10-01T03:21:49+00:00</published><updated>2026-10-01T03:21:49+00:00</updated>
@@ -276,6 +342,16 @@
 <category term="minimax"/>
 <summary>Hello all! 😀 I’ve been experimenting with the MiniMax H3 VAE for a while and finally decided to release the result. The original idea was pretty simple😅: I already had mine own working 2X VAE for H3, but I wanted to see if I could make those extra pixels contain actual additional detail instead of b</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · image-to-video, comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hello all! 😀 I’ve been experimenting with the MiniMax H3 VAE for a while and finally decided to release the result. The original idea was pretty simple😅: I already had mine own working 2X VAE for H3, but I wanted to see if I could make those extra pixels contain actual additional detail instead of basically getting a larger version of the same reconstruction. That turned into a much longer experiment than I expected 🥹. I tried modifying the decoder, working around the patch/grid structure, different detail residuals, larger spatial decoders, and eventually started tracing where fine information actually disappears inside the H3 encoder. The interesting part was that the best detail signal I &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wuov6t/minimax_h3_x2_detail_vae_my_attempt_to_get_more/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wunfbh/i_made_a_custom_queue_manager/</id><title>I made a custom queue manager</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wunfbh/i_made_a_custom_queue_manager/"/>
+<published>2026-10-01T02:07:34+00:00</published><updated>2026-10-01T02:07:34+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="rendering"/>
+<category term="comfyui"/>
+<summary>Example in comments. The stock ComfyUI queue tells you almost nothing about what's in it. A queued run shows the workflow name and that's it: no input images, no settings, no preview of what's rendering right now. You also can't do anything with a single run. No reordering, and you can't even delete</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · rendering, comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Example in comments. The stock ComfyUI queue tells you almost nothing about what's in it. A queued run shows the workflow name and that's it: no input images, no settings, no preview of what's rendering right now. You also can't do anything with a single run. No reordering, and you can't even delete one item, only clear the whole queue. So if you queue a batch of the same workflow with different seeds and images and then spot a typo in the prompt, you're back to clearing everything and queueing it all again. And if ComfyUI restarts, whatever was still pending is gone. I got tired of that, so I bitched and moaned to Claude until Queue Workbench was done. What it does: - Every queued run shows&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wunfbh/i_made_a_custom_queue_manager/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wumahn/i_am_blown_away_by_refmods_for_mh3/</id><title>I am blown away by RefMods for MH3</title>
@@ -7196,18 +7272,5 @@
 <category term="cinematic"/>
 <summary>A colleague of mine wanted to re-create this image, which was created with SDXL-Lighting and which (partially) captures the style of the upcoming GTA game. He did not had a strong, lead but could see that the following prompt was used to create the image: https://preview.redd.it/lboy4cu0v1qh1.png?wi</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · rendering, cinematic&lt;/small&gt;&lt;/p&gt;&lt;p&gt;A colleague of mine wanted to re-create this image, which was created with SDXL-Lighting and which (partially) captures the style of the upcoming GTA game. He did not had a strong, lead but could see that the following prompt was used to create the image: https://preview.redd.it/lboy4cu0v1qh1.png?width=984&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=7af267564297bfa4a4e4046825e8663e259ca5dd He started the editing flow with an input image that should act as guide (see thread) and went with the following prompt (and seed 2520901255): stylized comic illustration, semi-realistic comic art, clean bold linework, smooth cel-shaded and painterly shading mix, glossy highlights, warm vibrant colors, cinematic rim lighting,&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wiqbuh/playing_around_with_local_sdxllighting_on_iphone/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wipcva/followup_on_my_solo_ai_anime_pilot_episode_2_is/</id><title>Follow-up on my solo AI anime pilot: episode 2 is done, here is what changed in the pipeline between the two episodes</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wipcva/followup_on_my_solo_ai_anime_pilot_episode_2_is/"/>
-<published>2026-09-17T09:39:42+00:00</published><updated>2026-09-17T09:39:42+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="video model"/>
-<category term="animation"/>
-<category term="consistency"/>
-<category term="character consistency"/>
-<category term="storyboard"/>
-<summary>Hello :) In June I asked here what an open-source pipeline would need to make solo anime episodes possible, with episode 1 as the example. Episode 2 is out (21 min), so here is the follow-up, again as workflow discussion, not "look what the model made". https://youtu.be/z-YRrutXaFE What changed in t</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 5 · video model, animation, consistency, character consistency, storyboard&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hello :) In June I asked here what an open-source pipeline would need to make solo anime episodes possible, with episode 1 as the example. Episode 2 is out (21 min), so here is the follow-up, again as workflow discussion, not "look what the model made". https://youtu.be/z-YRrutXaFE What changed in the pipeline between the two episodes: - Character consistency: I stopped chasing a 100% lock. I fix a few non-negotiables per character (silhouette, palette, one signature detail) and reuse approved reference stills as the source for every shot instead of regenerating from text. It cut a lot of the re-rolling I did on episode 1. - Locations: each new location is blocked once as a reference image, &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wipcva/followup_on_my_solo_ai_anime_pilot_episode_2_is/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
