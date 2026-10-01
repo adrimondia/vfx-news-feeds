@@ -2,8 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-09-30T22:30:26+00:00</updated>
+<updated>2026-10-01T00:30:26+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wuj0rj/updated_updated/</id><title>Updated Updated ComfyUI-SeedVR2-VideoUpscaler-with-TensorRT v1.5.7 - DiT VRAM Spike Stabilization (※For 6GB/8GB users)</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wuj0rj/updated_updated/"/>
+<published>2026-09-30T22:38:46+00:00</published><updated>2026-09-30T22:38:46+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<category term="dit"/>
+<summary>When I published an update on TensorRT the other day, I received enquiries from users of the RTX 4050 6GB and RTX 5060 8GB. https://www.reddit.com/r/comfyui/comments/1wsbar9/updated_comfyuiseedvr2videoupscalerwithtensorrt/ After re-measuring VRAM consumption throughout the entire process, I discover</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, dit&lt;/small&gt;&lt;/p&gt;&lt;p&gt;When I published an update on TensorRT the other day, I received enquiries from users of the RTX 4050 6GB and RTX 5060 8GB. https://www.reddit.com/r/comfyui/comments/1wsbar9/updated_comfyuiseedvr2videoupscalerwithtensorrt/ After re-measuring VRAM consumption throughout the entire process, I discovered that the issue lay not with TensorRT itself, but rather during the DIT processing stage. My code fully supports ConvRot INT8/NVFP4 and, in principle, keeps VRAM consumption low; however, momentary spikes were still occurring. Whilst this does not pose a significant problem on my RTX 5060 Ti 16GB system, it is a major issue for 6GB and 8GB users. I therefore re-examined this spike phenomenon and&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wuj0rj/updated_updated/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/vfx/comments/1wui429/apple_studios_visual_effects_workers_secure_first/</id><title>Apple Studios Visual Effects Workers Secure First IATSE Contract</title>
 <link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wui429/apple_studios_visual_effects_workers_secure_first/"/>
@@ -7086,21 +7096,5 @@
 <category term="vfx"/>
 <summary>Does anyone have experience signing up or working with Mota? mota-hub.com They're positioned as a source to pair up VFX vendors with production studios, and artist crew with vendors. I was wondering if anyone from the artist or supervision side has joined up and what their experience has been? submi</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 1 · vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Does anyone have experience signing up or working with Mota? mota-hub.com They're positioned as a source to pair up VFX vendors with production studios, and artist crew with vendors. I was wondering if anyone from the artist or supervision side has joined up and what their experience has been? submitted by /u/RickySeasack [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wiesdh/mota_crewing_platform/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wiejia/comfyuiagnesai_v120_free_cloud_text_image_video/</id><title>ComfyUI-Agnes-AI v1.2.0: Free cloud text, image &amp; video gen with dynamic growing slots, external prompt presets &amp; native progress bar (Zero GPU required)</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wiejia/comfyuiagnesai_v120_free_cloud_text_image_video/"/>
-<published>2026-09-17T00:20:06+00:00</published><updated>2026-09-17T00:20:06+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="video generation"/>
-<category term="text-to-video"/>
-<category term="inpainting"/>
-<category term="animation"/>
-<category term="rendering"/>
-<category term="comfyui"/>
-<category term="storyboard"/>
-<category term="cinematic"/>
-<summary>For creators running ComfyUI on laptops or GPUs with limited VRAM, local video rendering and large multi-modal models can be frustratingly slow or completely out of reach. We just released a major update to **ComfyUI-Agnes-AI (v1.2.0)**, connecting ComfyUI to Agnes AI's cloud infrastructure so you c</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 8 · video generation, text-to-video, inpainting, animation, rendering, comfyui, storyboard, cinematic&lt;/small&gt;&lt;/p&gt;&lt;p&gt;For creators running ComfyUI on laptops or GPUs with limited VRAM, local video rendering and large multi-modal models can be frustratingly slow or completely out of reach. We just released a major update to **ComfyUI-Agnes-AI (v1.2.0)**, connecting ComfyUI to Agnes AI's cloud infrastructure so you can generate high-res images, create videos, and run agent-level reasoning with zero local GPU load. What's new in v1.2.0: Next-Gen Flagship Models : Video : Upgraded to agnes-video-2.5-flash with 4 dedicated modes (T2V, I2V, First &amp;amp; Last Frame, and Multi-modal Reference). Image : agnes-image-2.5-flash with up to 3K resolution and prompt-free image blending. Text : agnes-3.0-flash with a 512K conte&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wiejia/comfyuiagnesai_v120_free_cloud_text_image_video/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
