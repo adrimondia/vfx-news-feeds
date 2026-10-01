@@ -2,8 +2,41 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-01T04:30:19+00:00</updated>
+<updated>2026-10-01T06:30:25+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wurpje/minimax_has_made_new_releases_very_delayed_it/</id><title>Minimax has made new releases very delayed it seems</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wurpje/minimax_has_made_new_releases_very_delayed_it/"/>
+<published>2026-10-01T06:02:33+00:00</published><updated>2026-10-01T06:02:33+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="flux"/>
+<category term="minimax"/>
+<category term="ltx"/>
+<summary>I think this model really took the AI world by surprise as usually when I would browse through the reddit, there would be a lot of talk about the other models but Minimax is on top. I wonder what is coming next. LTX 3, I really love this model for the speed and safety of my fans haha! (Ltx 2.5) Flux</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · flux, minimax, ltx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I think this model really took the AI world by surprise as usually when I would browse through the reddit, there would be a lot of talk about the other models but Minimax is on top. I wonder what is coming next. LTX 3, I really love this model for the speed and safety of my fans haha! (Ltx 2.5) Flux 3, or something totally out the box or of course a much faster Minimax submitted by /u/sotheysayit [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wurpje/minimax_has_made_new_releases_very_delayed_it/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wuqgkh/viggle_turbo_v03_for_qwen_image_21_less_grain_and/</id><title>Viggle turbo v0.3 for Qwen image 2.1: less grain and cleaner surfaces</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wuqgkh/viggle_turbo_v03_for_qwen_image_21_less_grain_and/"/>
+<published>2026-10-01T04:48:42+00:00</published><updated>2026-10-01T04:48:42+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<category term="lora"/>
+<summary>6 steps, a different balance. Against v0.2.1: less grain and cleaner surfaces, fine texture a little softer; diversity (still close to the base model's) and small-text accuracy about the same. It is not a strict upgrade: if you prefer the crisper look, v0.2.1 is still in the repository. New 9-step m</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;6 steps, a different balance. Against v0.2.1: less grain and cleaner surfaces, fine texture a little softer; diversity (still close to the base model's) and small-text accuracy about the same. It is not a strict upgrade: if you prefer the crisper look, v0.2.1 is still in the repository. New 9-step mode: 7 turbo steps, then the LoRA is switched off and the base model finishes the last two. Finer detail, and small text comes out right more often (not always). It takes about 1.4–1.5× as long as 6 steps (still about 3.5× faster than the base model). It works in diffusers and the demo Space only ( 9 steps ). We think 6 steps is close to its capacity. Since v0.2.1, every gain we found at 6 steps c&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wuqgkh/viggle_turbo_v03_for_qwen_image_21_less_grain_and/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wuq5pg/simple_temporal_upscaling_for_better_results_in/</id><title>Simple Temporal Upscaling for Better Results in MinimaxH3</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wuq5pg/simple_temporal_upscaling_for_better_results_in/"/>
+<published>2026-10-01T04:31:12+00:00</published><updated>2026-10-01T04:31:12+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="video model"/>
+<category term="upscaling"/>
+<category term="lora"/>
+<category term="consistency"/>
+<summary>This is a proof of concept workflow around simple temporal upscaling. Every video model has some blurring when it comes to high motion scenes - both closed and open source. Depending on the model this can be at higher or lower motion with newer models being better than older as a general rule. Some </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 5 · video model, upscaling, lora, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;This is a proof of concept workflow around simple temporal upscaling. Every video model has some blurring when it comes to high motion scenes - both closed and open source. Depending on the model this can be at higher or lower motion with newer models being better than older as a general rule. Some styles tend to make their blurring effects at lower speed - especially anything with lineart, which could be due to training being more on realism or the way latents are compressed temporally. One way people try to solve this is by pixel upscaling and rediffusing over the video which definitely helps but in my experience at least there is a definite limit to how much it can help. This is where tem&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wuq5pg/simple_temporal_upscaling_for_better_results_in/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://arxiv.org/abs/2609.38343</id><title>Learning Semantic Inpainting for Animatable Gaussian Head Avatars</title>
 <link rel="alternate" href="https://arxiv.org/abs/2609.38343"/>
@@ -7225,56 +7258,5 @@
 <category term="lora"/>
 <summary>Holy shit. I played with image gen about a year and a half ago. With my system it took me about a minute to generate an image using ZImageTurbo, and around 15 seconds with SDXL. 4060 8GB, 32GB system RAM. Figured I was just sort of out of luck for making good images if I didn't want it to take all d</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Holy shit. I played with image gen about a year and a half ago. With my system it took me about a minute to generate an image using ZImageTurbo, and around 15 seconds with SDXL. 4060 8GB, 32GB system RAM. Figured I was just sort of out of luck for making good images if I didn't want it to take all day, and videos were totally out of the question. This week I felt like screwing around with again, and I'm stubborn so when I saw everyone talking about Krea2 or Klein 2 9B I decided to see how painful they would be for me. I heard about Wan2GP and set that up. Krea2 was taking about a minute per image. Finally decided to stop avoiding ComfyUI and try to learn to use the damn thing, and that time &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wim8e3/l2x25_10s_24fps_1280x1280_on_a_4060/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://github.com/meituan-longcat/LongCat-Video</id><title>meituan-longcat/LongCat-Video</title>
-<link rel="alternate" href="https://github.com/meituan-longcat/LongCat-Video"/>
-<published>2026-09-17T06:30:23+00:00</published><updated>2026-09-17T06:30:23+00:00</updated>
-<author><name>GitHub trending (Python)</name></author>
-<category term="video generation"/>
-<category term="text-to-video"/>
-<category term="image-to-video"/>
-<category term="character animation"/>
-<category term="animation"/>
-<summary>LongCat-Video Model Introduction We introduce LongCat-Video, a foundational video generation model with 13.6B parameters, delivering strong performance across Text-to-Video , Image-to-Video , and Video-Continuation generation tasks. It particularly excels in efficient and high-quality long video gen</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;GitHub trending (Python) · score 5 · video generation, text-to-video, image-to-video, character animation, animation&lt;/small&gt;&lt;/p&gt;&lt;p&gt;LongCat-Video Model Introduction We introduce LongCat-Video, a foundational video generation model with 13.6B parameters, delivering strong performance across Text-to-Video , Image-to-Video , and Video-Continuation generation tasks. It particularly excels in efficient and high-quality long video generation, representing our first step toward world models. Key Features 🌟 Unified architecture for multiple tasks : LongCat-Video unifies Text-to-Video , Image-to-Video , and Video-Continuation tasks within a single video generation framework. It natively supports all these tasks with a single model and consistently delivers strong performance across each individual task. 🌟 Long video generation : &lt;/p&gt;&lt;p&gt;&lt;a href="https://github.com/meituan-longcat/LongCat-Video"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://github.com/Tencent/WeKnora</id><title>Tencent/WeKnora</title>
-<link rel="alternate" href="https://github.com/Tencent/WeKnora"/>
-<published>2026-09-17T06:30:23+00:00</published><updated>2026-09-17T06:30:23+00:00</updated>
-<author><name>GitHub trending (all)</name></author>
-<category term="hunyuan"/>
-<category term="minimax"/>
-<summary>Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki. https://weknora.weixin.qq.com | English | 简体中文 | 日本語 | 한국어 | Overview • Architecture • Key Features • Getting Started • API Reference • Developer Guide 💡 WeKnora —</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;GitHub trending (all) · score 2 · hunyuan, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki. https://weknora.weixin.qq.com | English | 简体中文 | 日本語 | 한국어 | Overview • Architecture • Key Features • Getting Started • API Reference • Developer Guide 💡 WeKnora — Turn Documents into Living Knowledge with RAG, Agents and Auto-Wiki 📌 Overview WeKnora is an open-source, LLM-powered knowledge framework built for enterprise-grade document understanding, semantic retrieval, and autonomous reasoning. https://github.com/user-attachments/assets/19b28ce2-a62f-4f54-b289-c983576259bc 2:25 · 1080p · English narration &amp;amp; captions. It is organized around three core capab&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.com/Tencent/WeKnora"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wikpbb/yue2_how_to_make_instrumental_only_with_comfyui/</id><title>YuE2, how to make instrumental only with ComfyUI workflow?</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wikpbb/yue2_how_to_make_instrumental_only_with_comfyui/"/>
-<published>2026-09-17T05:11:37+00:00</published><updated>2026-09-17T05:11:37+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<summary>I'm using the t2m from Comfy templates. I can't get instrumental. I tried to leave lyrics panel empty or put meta-data, add "instrumental only" everywhere. In my 30s test, after few seconds intro there's always some random lyrics. submitted by /u/big-boss_97 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I'm using the t2m from Comfy templates. I can't get instrumental. I tried to leave lyrics panel empty or put meta-data, add "instrumental only" everywhere. In my 30s test, after few seconds intro there's always some random lyrics. submitted by /u/big-boss_97 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wikpbb/yue2_how_to_make_instrumental_only_with_comfyui/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1wikl91/this_clip_of_the_movie_transformers_is_still_100x/</id><title>This clip of the movie Transformers is still 100x better than modern VFX... even after 15 years</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wikl91/this_clip_of_the_movie_transformers_is_still_100x/"/>
-<published>2026-09-17T05:05:44+00:00</published><updated>2026-09-17T05:05:44+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="vfx"/>
-<summary>submitted by /u/Builderguy1208 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/Builderguy1208 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wikl91/this_clip_of_the_movie_transformers_is_still_100x/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wijyus/yue2_is_worth_checking_out/</id><title>YuE2 is Worth Checking Out</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wijyus/yue2_is_worth_checking_out/"/>
-<published>2026-09-17T04:33:24+00:00</published><updated>2026-09-17T04:33:24+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="lora"/>
-<category term="stereo"/>
-<summary>After being pretty disappointed by ACE step I was kind of skeptical about this new music model, but it's pretty neat. Tested training a small LoRA for YuE2 based on a handful of niche 80s tracks using ai-toolkit. I'm impressed by how capable this model is for being so small. Used an LLM to build a q</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · lora, stereo&lt;/small&gt;&lt;/p&gt;&lt;p&gt;After being pretty disappointed by ACE step I was kind of skeptical about this new music model, but it's pretty neat. Tested training a small LoRA for YuE2 based on a handful of niche 80s tracks using ai-toolkit. I'm impressed by how capable this model is for being so small. Used an LLM to build a quick threejs visualizer and output a video. There are kinks to workout with captioning, but I can see this picking up steam in the coming weeks. It's nice to have a free local alternative that punches above it's weight, can't believe it's only 3B parameters. The vocals are very clean most of the time; most fun I've had with a model in a while, I hope we get a method for refinement soon. Lyrics: [V&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wijyus/yue2_is_worth_checking_out/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
