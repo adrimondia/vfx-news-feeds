@@ -2,8 +2,229 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-01T02:30:33+00:00</updated>
+<updated>2026-10-01T04:30:19+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://arxiv.org/abs/2609.38343</id><title>Learning Semantic Inpainting for Animatable Gaussian Head Avatars</title>
+<link rel="alternate" href="https://arxiv.org/abs/2609.38343"/>
+<published>2026-10-01T04:00:00+00:00</published><updated>2026-10-01T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="inpainting"/>
+<category term="avatar"/>
+<category term="animation"/>
+<category term="rendering"/>
+<category term="identity preservation"/>
+<category term="multi-view"/>
+<summary>arXiv:2609.38343v1 Announce Type: new Abstract: We present SInGA, a novel method for learning Semantic Inpainting for animatable Gaussian head Avatars from a single image. Existing avatar approaches often rely on multi-view observations and lack effective handling of unobserved regions in single-vie</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 7 · inpainting, avatar, animation, rendering, identity preservation, multi-view&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.38343v1 Announce Type: new Abstract: We present SInGA, a novel method for learning Semantic Inpainting for animatable Gaussian head Avatars from a single image. Existing avatar approaches often rely on multi-view observations and lack effective handling of unobserved regions in single-view settings, limiting their applicability in such scenarios. To address this, we propose a semantic inpainting framework defined in UV space for completing unobserved facial regions. Our key insight lies in the structured topology of the UV representation, which provides consistent spatial correspondences and enables reliable completion of identity-specific features using the inherent symmetry cues&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.38343"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2609.38347</id><title>TrackFish3D: Self-Supervised 3D Tracking of Schooling Fish from Multi-view Videos</title>
+<link rel="alternate" href="https://arxiv.org/abs/2609.38347"/>
+<published>2026-10-01T04:00:00+00:00</published><updated>2026-10-01T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="tracking"/>
+<category term="consistency"/>
+<category term="multi-view"/>
+<summary>arXiv:2609.38347v1 Announce Type: new Abstract: Quantifying collective fish behavior requires accurate trajectories, yet multi-view 3D tracking remains challenging due to frequent occlusions, visually similar individuals, and the long-standing scarcity of identity annotations. We present TrackFish3D</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · tracking, consistency, multi-view&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.38347v1 Announce Type: new Abstract: Quantifying collective fish behavior requires accurate trajectories, yet multi-view 3D tracking remains challenging due to frequent occlusions, visually similar individuals, and the long-standing scarcity of identity annotations. We present TrackFish3D, a geometry-driven self-supervised framework for dense multi-camera 3D tracking of schooling fish. Instead of relying on appearance-based re-identification or manually annotated identities, TrackFish3D turns calibrated multi-view geometry into supervision: triangulation and reprojection consistency provide pseudo-associations, while a geometric encoder and global association transformer learn all&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.38347"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2609.38592</id><title>StereoGaussians: Feed-Forward 3D Gaussian Splatting from Stereo Images</title>
+<link rel="alternate" href="https://arxiv.org/abs/2609.38592"/>
+<published>2026-10-01T04:00:00+00:00</published><updated>2026-10-01T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="gaussian splatting"/>
+<category term="3d gaussian"/>
+<category term="rendering"/>
+<category term="stereo"/>
+<summary>arXiv:2609.38592v1 Announce Type: new Abstract: Feed-forward 3D Gaussian Splatting (3DGS) enables reconstruction without per- scene optimisation, but practical stereo-camera applications require nearby-view extrapolation beyond the input views. Stereo depth anchors visible surfaces, yet rendering ne</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 7 · gaussian splatting, 3d gaussian, rendering, stereo&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.38592v1 Announce Type: new Abstract: Feed-forward 3D Gaussian Splatting (3DGS) enables reconstruction without per- scene optimisation, but practical stereo-camera applications require nearby-view extrapolation beyond the input views. Stereo depth anchors visible surfaces, yet rendering newly exposed regions also requires learned appearance and additional scene capacity. We introduce StereoGaussians, which predicts a metric 3DGS representation from a single calibrated stereo pair. It reuses intermediate repre- sentations from frozen pretrained stereo networks to predict Gaussian attributes, while calibrated disparity anchors the geometry. A second Gaussian layer and an expanded ima&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.38592"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2609.38689</id><title>EPIC: Epipolar-Consistent 360{\deg} Immersive Stereo Video Generation</title>
+<link rel="alternate" href="https://arxiv.org/abs/2609.38689"/>
+<published>2026-10-01T04:00:00+00:00</published><updated>2026-10-01T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="video generation"/>
+<category term="video diffusion"/>
+<category term="stereo"/>
+<summary>arXiv:2609.38689v1 Announce Type: new Abstract: Immersive displays can enable rich and diverse virtual experiences. Manually authoring every possible experience to realize this potential, however, is prohibitively expensive, difficult to scale, and impractical. Generative AI models could remove this</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · video generation, video diffusion, stereo&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.38689v1 Announce Type: new Abstract: Immersive displays can enable rich and diverse virtual experiences. Manually authoring every possible experience to realize this potential, however, is prohibitively expensive, difficult to scale, and impractical. Generative AI models could remove this bottleneck, but today's models are built for conventional displays and cannot generate the high-resolution, stereoscopic $360^\circ$ content required for immersive viewing. Further, temporal and stereo inconsistencies that may be tolerable on conventional displays can become highly disruptive when viewed through an immersive headset. Here, we address this gap with a zero-shot generative pipeline &lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.38689"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2609.38978</id><title>PARK: Accurate Block Retrieval for Sparse Attention in Video Diffusion Transformers</title>
+<link rel="alternate" href="https://arxiv.org/abs/2609.38978"/>
+<published>2026-10-01T04:00:00+00:00</published><updated>2026-10-01T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="video generation"/>
+<category term="video diffusion"/>
+<category term="wan"/>
+<category term="hunyuanvideo"/>
+<summary>arXiv:2609.38978v1 Announce Type: new Abstract: Diffusion Transformers (DiTs) have become a dominant architecture for video generation, but their efficiency is limited by the quadratic complexity of full attention. Sparse attention reduces this cost by retrieving important blocks and computing atten</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · video generation, video diffusion, wan, hunyuanvideo&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.38978v1 Announce Type: new Abstract: Diffusion Transformers (DiTs) have become a dominant architecture for video generation, but their efficiency is limited by the quadratic complexity of full attention. Sparse attention reduces this cost by retrieving important blocks and computing attention only within them, but inaccurate retrieval can either degrade generation quality or yield unnecessary computation. We identify two retrieval mismatches in methods that retrieve blocks using the averaged representations of query and key blocks: (i) query-side aggregation mismatch, where averaging queries before Softmax fails to preserve their individual attention preferences, and (ii) key-side&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.38978"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2609.39089</id><title>UGOD: Uncertainty-Guided Opacity and Dropout for Sparse-View 3D Gaussian Splatting</title>
+<link rel="alternate" href="https://arxiv.org/abs/2609.39089"/>
+<published>2026-10-01T04:00:00+00:00</published><updated>2026-10-01T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="gaussian splatting"/>
+<category term="3d gaussian"/>
+<category term="compositing"/>
+<category term="rendering"/>
+<summary>arXiv:2609.39089v1 Announce Type: new Abstract: Sparse-view 3D Gaussian Splatting is prone to overfitting because limited observations leave many Gaussian primitives weakly constrained, yet their contributions are still accumulated through alpha blending. Without uncertainty estimation, the renderer</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 6 · gaussian splatting, 3d gaussian, compositing, rendering&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.39089v1 Announce Type: new Abstract: Sparse-view 3D Gaussian Splatting is prone to overfitting because limited observations leave many Gaussian primitives weakly constrained, yet their contributions are still accumulated through alpha blending. Without uncertainty estimation, the renderer cannot distinguish unreliable primitives from well-constrained ones, allowing their erroneous contributions to corrupt novel-view synthesis. We introduce UGOD, an uncertainty-guided framework that estimates a view-dependent uncertainty score for each Gaussian and uses it to regulate its rendering contribution. A lightweight uncertainty head conditioned on Gaussian attributes and viewing direction&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.39089"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2609.39096</id><title>DeCoPrune: Efficient KV-Cache Pruning for Autoregressive Video Diffusion via Denoising Consistency</title>
+<link rel="alternate" href="https://arxiv.org/abs/2609.39096"/>
+<published>2026-10-01T04:00:00+00:00</published><updated>2026-10-01T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="video diffusion"/>
+<category term="denoising"/>
+<category term="consistency"/>
+<summary>arXiv:2609.39096v1 Announce Type: new Abstract: Autoregressive video diffusion supports streaming generation and interactive control, but its KV cache grows with the generated history. Existing compression strategies discard history using fixed windows or select tokens through local attention and si</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 6 · video diffusion, denoising, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.39096v1 Announce Type: new Abstract: Autoregressive video diffusion supports streaming generation and interactive control, but its KV cache grows with the generated history. Existing compression strategies discard history using fixed windows or select tokens through local attention and similarity signals, without directly measuring whether a chunk contributes information beyond the retained context. We introduce DeCoPrune, a training-free method that treats cache compression as a denoising-consistency problem. We find that tokens with larger discrepancies between intermediate clean predictions and final denoised values tend to carry visual evidence less predictable from the retain&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.39096"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2609.39132</id><title>Uncertainty-Aware Consistency Distillation for Few-Step Video Generation</title>
+<link rel="alternate" href="https://arxiv.org/abs/2609.39132"/>
+<published>2026-10-01T04:00:00+00:00</published><updated>2026-10-01T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="video generation"/>
+<category term="wan"/>
+<category term="lora"/>
+<category term="consistency"/>
+<summary>arXiv:2609.39132v1 Announce Type: new Abstract: We study few-step video generation, i.e., distilling a multi-step video generator, which typically requires tens of sampling steps, incurring substantial latency and compute, into a few-step student. Consistency distillation is a common recipe, in whic</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 6 · video generation, wan, lora, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.39132v1 Announce Type: new Abstract: We study few-step video generation, i.e., distilling a multi-step video generator, which typically requires tens of sampling steps, incurring substantial latency and compute, into a few-step student. Consistency distillation is a common recipe, in which a multi-step teacher provides the consistency targets for a few-step student. However, these teacher-guided targets are not equally trustworthy, and the content is harder to learn where it varies rapidly over time, e.g., moving foliage shadows or flowing water. We observe that supervision reliability follows the local difficulty of the content rather than semantic complexity: regions that change&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.39132"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2609.39227</id><title>Emergent Multi-View Geometry Through Self-Distillation</title>
+<link rel="alternate" href="https://arxiv.org/abs/2609.39227"/>
+<published>2026-10-01T04:00:00+00:00</published><updated>2026-10-01T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="3d reconstruction"/>
+<category term="camera pose"/>
+<category term="pose estimation"/>
+<category term="multi-view"/>
+<summary>arXiv:2609.39227v1 Announce Type: new Abstract: Over a century ago, Henri Poincar\'e argued that a motionless observer cannot acquire the notion of space. Yet, most visual representation learning methods operate on individual images, while those that leverage multiple views rely on RGB reconstructio</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · 3d reconstruction, camera pose, pose estimation, multi-view&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.39227v1 Announce Type: new Abstract: Over a century ago, Henri Poincar\'e argued that a motionless observer cannot acquire the notion of space. Yet, most visual representation learning methods operate on individual images, while those that leverage multiple views rely on RGB reconstruction, entangling geometry with appearance. We propose Poincar3, a self-supervised method that learns representations from multiple views through self-distillation instead of RGB reconstruction. We combine masked patch and image-level distillation with a teacher that observes additional views, enabling training from scratch without explicit 3D supervision. Poincar3 outperforms both previous single and&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.39227"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2609.39273</id><title>MegaAvatar: Controllable Talking Avatar Generation</title>
+<link rel="alternate" href="https://arxiv.org/abs/2609.39273"/>
+<published>2026-10-01T04:00:00+00:00</published><updated>2026-10-01T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="avatar"/>
+<category term="render"/>
+<category term="wan2"/>
+<category term="identity preservation"/>
+<summary>arXiv:2609.39273v1 Announce Type: new Abstract: This report presents \textbf{MegaAvatar}, a controllable talking avatar generation framework built on top of the Wan2.2-TI2V-5B model. Compared with previous talking-avatar methods that mainly rely on audio or reference-image conditioning, we introduce</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · avatar, render, wan2, identity preservation&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.39273v1 Announce Type: new Abstract: This report presents \textbf{MegaAvatar}, a controllable talking avatar generation framework built on top of the Wan2.2-TI2V-5B model. Compared with previous talking-avatar methods that mainly rely on audio or reference-image conditioning, we introduce additional SMPL-X-derived 3D guidance, enabling global control over body pose and head motion. Specifically, we render the driving SMPL-X sequence into dense mesh frames and encode them with a lightweight 3D convolutional encoder, whose outputs are injected into the latent tokens to provide overall motion control. Furthermore, we extend Wan2.2-TI2V-5B with additional audio and face cross-attentio&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.39273"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2609.39553</id><title>EffGS: Efficient and High-Fidelity Gaussian Splatting</title>
+<link rel="alternate" href="https://arxiv.org/abs/2609.39553"/>
+<published>2026-10-01T04:00:00+00:00</published><updated>2026-10-01T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="novel view synthesis"/>
+<category term="gaussian splatting"/>
+<category term="3d gaussian"/>
+<category term="rendering"/>
+<summary>arXiv:2609.39553v1 Announce Type: new Abstract: 3D Gaussian Splatting (3DGS) enables real-time novel view synthesis, but existing general-purpose acceleration methods suffer severe rendering quality degradation when extended to more complex, large-scale scenes. To address this issue, we propose EffG</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · novel view synthesis, gaussian splatting, 3d gaussian, rendering&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.39553v1 Announce Type: new Abstract: 3D Gaussian Splatting (3DGS) enables real-time novel view synthesis, but existing general-purpose acceleration methods suffer severe rendering quality degradation when extended to more complex, large-scale scenes. To address this issue, we propose EffGS, a more general acceleration framework that improves training and rendering efficiency while maintaining reconstruction quality comparable to or better than vanilla 3DGS across bounded and large-scale scenes. EffGS combines frequency-aware guidance, localized density control, and adaptive primitive scale modulation. First, an importance scoring mechanism combines pixel-wise reconstruction errors&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.39553"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2609.39960</id><title>Reconstructing the Dynamic World: A Representation-Centric View of 4D Scene Reconstruction</title>
+<link rel="alternate" href="https://arxiv.org/abs/2609.39960"/>
+<published>2026-10-01T04:00:00+00:00</published><updated>2026-10-01T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="gaussian splatting"/>
+<category term="3d gaussian"/>
+<category term="nerf"/>
+<category term="4d"/>
+<category term="consistency"/>
+<category term="scene reconstruction"/>
+<summary>arXiv:2609.39960v1 Announce Type: new Abstract: 4D scene reconstruction aims to recover the evolving geometry, appearance, and motion of dynamic environments from visual observations. Despite substantial progress in neural scene representations, reconstructing dynamic scenes remains challenging due </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 8 · gaussian splatting, 3d gaussian, nerf, 4d, consistency, scene reconstruction&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.39960v1 Announce Type: new Abstract: 4D scene reconstruction aims to recover the evolving geometry, appearance, and motion of dynamic environments from visual observations. Despite substantial progress in neural scene representations, reconstructing dynamic scenes remains challenging due to non-rigid motion, occlusions, temporal inconsistencies, and the trade-offs between reconstruction fidelity and computational efficiency. Recent advances in Neural Radiance Fields (NeRF) and 3D Gaussian Splatting (3DGS) have introduced diverse approaches to representing and reconstructing dynamic scenes, yet their relationships, underlying design choices, and evaluation protocols remain fragment&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.39960"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2609.40358</id><title>Physis-Lang: Self-Evolving Language as a Physical Representation for Video World Model</title>
+<link rel="alternate" href="https://arxiv.org/abs/2609.40358"/>
+<published>2026-10-01T04:00:00+00:00</published><updated>2026-10-01T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="video generation"/>
+<category term="world model"/>
+<category term="wan"/>
+<category term="veo"/>
+<summary>arXiv:2609.40358v1 Announce Type: new Abstract: Video world models are expected to predict how the physical world evolves, yet they often produce visually plausible videos that violate basic physical principles. Existing approaches commonly assume that natural language is insufficient to represent t</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · video generation, world model, wan, veo&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.40358v1 Announce Type: new Abstract: Video world models are expected to predict how the physical world evolves, yet they often produce visually plausible videos that violate basic physical principles. Existing approaches commonly assume that natural language is insufficient to represent the physical knowledge required for reliable generation, and therefore introduce additional visual, latent, numerical, or planning-based signals. We revisit this assumption and introduce Physis-Lang, a self-evolving framework that treats physical language as a shared and optimizable representation across data curation, model training, and video generation. Physis-Lang represents physical processes &lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.40358"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2609.38488</id><title>Gaussian Stippling: Efficient Sorting-Free 3D Gaussian Rendering through Hybrid Sampling and Spatiotemporal Reconstruction</title>
+<link rel="alternate" href="https://arxiv.org/abs/2609.38488"/>
+<published>2026-10-01T04:00:00+00:00</published><updated>2026-10-01T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="gaussian splatting"/>
+<category term="3d gaussian"/>
+<category term="render"/>
+<category term="rendering"/>
+<summary>arXiv:2609.38488v1 Announce Type: cross Abstract: Conventional 3D Gaussian Splatting (3DGS) requires depth sorting and ordered alpha blending to correctly render overlapping Gaussian primitives. Stochastic transparency enables sorting-free rendering by replacing fractional alpha contributions with d</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 6 · gaussian splatting, 3d gaussian, render, rendering&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.38488v1 Announce Type: cross Abstract: Conventional 3D Gaussian Splatting (3DGS) requires depth sorting and ordered alpha blending to correctly render overlapping Gaussian primitives. Stochastic transparency enables sorting-free rendering by replacing fractional alpha contributions with discrete stochastic visibility samples, but produces substantial spatial and temporal noise at low sample counts. We refer to this conversion from continuous Gaussian splats to discrete visibility samples as \textit{Gaussian Stippling}. Based on this, we present an efficient order-independent rendering and reconstruction framework that operates directly on unmodified 3DGS assets. Our method adaptiv&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.38488"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2602.08277</id><title>PISCO: Precise Video Instance Insertion with Sparse Control</title>
+<link rel="alternate" href="https://arxiv.org/abs/2602.08277"/>
+<published>2026-10-01T04:00:00+00:00</published><updated>2026-10-01T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="video generation"/>
+<category term="video diffusion"/>
+<category term="inpainting"/>
+<category term="video editing"/>
+<category term="ai video"/>
+<category term="filmmaking"/>
+<summary>arXiv:2602.08277v3 Announce Type: replace Abstract: The landscape of AI video generation is undergoing a pivotal shift: moving beyond general generation - which relies on exhaustive prompt-engineering and "cherry-picking" - towards fine-grained, controllable generation and high-fidelity post-process</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 6 · video generation, video diffusion, inpainting, video editing, ai video, filmmaking&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2602.08277v3 Announce Type: replace Abstract: The landscape of AI video generation is undergoing a pivotal shift: moving beyond general generation - which relies on exhaustive prompt-engineering and "cherry-picking" - towards fine-grained, controllable generation and high-fidelity post-processing. In professional AI-assisted filmmaking, it is crucial to perform precise, targeted modifications. A cornerstone of this transition is video instance insertion, which requires inserting a specific instance into existing footage while maintaining scene integrity. Unlike traditional video editing, this task demands several requirements: precise spatial-temporal placement, physically consistent s&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2602.08277"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2603.01623</id><title>Adaptive Spectral Feature Forecasting for Diffusion Sampling Acceleration</title>
+<link rel="alternate" href="https://arxiv.org/abs/2603.01623"/>
+<published>2026-10-01T04:00:00+00:00</published><updated>2026-10-01T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="video generation"/>
+<category term="video diffusion"/>
+<category term="denoiser"/>
+<category term="flux"/>
+<category term="wan2"/>
+<summary>arXiv:2603.01623v2 Announce Type: replace Abstract: Diffusion models have become the dominant tool for high-fidelity image and video generation, yet are critically bottlenecked by their inference speed due to the numerous iterative passes of Diffusion Transformers. To reduce the exhaustive compute, </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · video generation, video diffusion, denoiser, flux, wan2&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2603.01623v2 Announce Type: replace Abstract: Diffusion models have become the dominant tool for high-fidelity image and video generation, yet are critically bottlenecked by their inference speed due to the numerous iterative passes of Diffusion Transformers. To reduce the exhaustive compute, recent works resort to the feature caching and reusing scheme that skips network evaluations at selected diffusion steps by using cached features in previous steps. However, their preliminary design solely relies on local approximation, causing errors to grow rapidly with large skips and leading to degraded sample quality at high speedups. In this work, we propose spectral diffusion feature foreca&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2603.01623"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2605.10360</id><title>DySurface: Consistent 4D Surface Reconstruction via Bridging Explicit Gaussians and Implicit Functions</title>
+<link rel="alternate" href="https://arxiv.org/abs/2605.10360"/>
+<published>2026-10-01T04:00:00+00:00</published><updated>2026-10-01T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="novel view synthesis"/>
+<category term="gaussian splatting"/>
+<category term="3d gaussian"/>
+<category term="nerf"/>
+<category term="4d"/>
+<category term="rendering"/>
+<summary>arXiv:2605.10360v3 Announce Type: replace Abstract: While novel view synthesis (NVS) for dynamic scenes has seen significant progress, reconstructing temporally consistent geometric surfaces remains a challenge. Neural Radiance Fields (NeRF) and 3D Gaussian Splatting (3DGS) offer powerful dynamic sc</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 7 · novel view synthesis, gaussian splatting, 3d gaussian, nerf, 4d, rendering&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2605.10360v3 Announce Type: replace Abstract: While novel view synthesis (NVS) for dynamic scenes has seen significant progress, reconstructing temporally consistent geometric surfaces remains a challenge. Neural Radiance Fields (NeRF) and 3D Gaussian Splatting (3DGS) offer powerful dynamic scene rendering capabilities; however, relying solely on photometric optimization often leads to geometric ambiguities. This results in discontinuous surfaces, severe artifacts, and broken surfaces over time. To address these limitations, we present DySurface, a novel framework that bridges the effectiveness of explicit Gaussians with the geometric fidelity of implicit Signed Distance Functions (SDF&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2605.10360"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wuov6t/minimax_h3_x2_detail_vae_my_attempt_to_get_more/</id><title>MiniMax H3 X2 Detail VAE – my attempt to get more detail from the H3 VAE or story about fail</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wuov6t/minimax_h3_x2_detail_vae_my_attempt_to_get_more/"/>
+<published>2026-10-01T03:21:49+00:00</published><updated>2026-10-01T03:21:49+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="image-to-video"/>
+<category term="comfyui"/>
+<category term="minimax"/>
+<summary>Hello all! 😀 I’ve been experimenting with the MiniMax H3 VAE for a while and finally decided to release the result. The original idea was pretty simple😅: I already had mine own working 2X VAE for H3, but I wanted to see if I could make those extra pixels contain actual additional detail instead of b</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · image-to-video, comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hello all! 😀 I’ve been experimenting with the MiniMax H3 VAE for a while and finally decided to release the result. The original idea was pretty simple😅: I already had mine own working 2X VAE for H3, but I wanted to see if I could make those extra pixels contain actual additional detail instead of basically getting a larger version of the same reconstruction. That turned into a much longer experiment than I expected 🥹. I tried modifying the decoder, working around the patch/grid structure, different detail residuals, larger spatial decoders, and eventually started tracing where fine information actually disappears inside the H3 encoder. The interesting part was that the best detail signal I &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wuov6t/minimax_h3_x2_detail_vae_my_attempt_to_get_more/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wumahn/i_am_blown_away_by_refmods_for_mh3/</id><title>I am blown away by RefMods for MH3</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wumahn/i_am_blown_away_by_refmods_for_mh3/"/>
@@ -14,6 +235,15 @@
 <category term="lora"/>
 <summary>I've tried different character images, created character-sheets and used of course i2v, I even trained LoRas for Krea2 to achieve my goal. NOTHING comes close to using RefMods. I am really baffled how easy it is to create a so to say "LoRa" of a character with a bunch of images without any tags and </summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I've tried different character images, created character-sheets and used of course i2v, I even trained LoRas for Krea2 to achieve my goal. NOTHING comes close to using RefMods. I am really baffled how easy it is to create a so to say "LoRa" of a character with a bunch of images without any tags and how fucking insane fast it creates you a safetensors file that you can use forever. And the facial-likeness is like absolutely stunning without any distortion or whatsoever, this is crazy. And now comes the even more magical part: throw a mp3 with voice audio in the folder as well and it creates a nearly 1:1 voice clone in just the same safetensors. What kind of crazyness is this?? To anyone who h&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wumahn/i_am_blown_away_by_refmods_for_mh3/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1wum04a/need_post_prod_color_and_vfx_for_a_microbudget/</id><title>Need Post Prod: Color and VFX for a micro-budget indie feature</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wum04a/need_post_prod_color_and_vfx_for_a_microbudget/"/>
+<published>2026-10-01T00:58:11+00:00</published><updated>2026-10-01T00:58:11+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="vfx"/>
+<summary>Looking for a post person/post house to do minor VFX and color correction on my dark comedy indie feature. Can anyone recommend someone who works with or would work with tiny budget films? We are trying to finish the film by mid December. submitted by /u/TortoiseAmazing [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Looking for a post person/post house to do minor VFX and color correction on my dark comedy indie feature. Can anyone recommend someone who works with or would work with tiny budget films? We are trying to finish the film by mid December. submitted by /u/TortoiseAmazing [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wum04a/need_post_prod_color_and_vfx_for_a_microbudget/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wul6vz/minimax_h3_keeping_strong_character_identity/</id><title>Minimax H3 keeping strong character identity - Single Character sheet vs High resolution front images</title>
@@ -7046,149 +7276,5 @@
 <category term="stereo"/>
 <summary>After being pretty disappointed by ACE step I was kind of skeptical about this new music model, but it's pretty neat. Tested training a small LoRA for YuE2 based on a handful of niche 80s tracks using ai-toolkit. I'm impressed by how capable this model is for being so small. Used an LLM to build a q</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · lora, stereo&lt;/small&gt;&lt;/p&gt;&lt;p&gt;After being pretty disappointed by ACE step I was kind of skeptical about this new music model, but it's pretty neat. Tested training a small LoRA for YuE2 based on a handful of niche 80s tracks using ai-toolkit. I'm impressed by how capable this model is for being so small. Used an LLM to build a quick threejs visualizer and output a video. There are kinks to workout with captioning, but I can see this picking up steam in the coming weeks. It's nice to have a free local alternative that punches above it's weight, can't believe it's only 3B parameters. The vocals are very clean most of the time; most fun I've had with a model in a while, I hope we get a method for refinement soon. Lyrics: [V&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wijyus/yue2_is_worth_checking_out/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1wijvbv/outlook_vfx_ceo_trevor_pryce_accused_of_not/</id><title>Outlook VFX CEO Trevor Pryce Accused of Not Paying Employees and Contractors</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wijvbv/outlook_vfx_ceo_trevor_pryce_accused_of_not/"/>
-<published>2026-09-17T04:28:28+00:00</published><updated>2026-09-17T04:28:28+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="vfx"/>
-<category term="unreal"/>
-<category term="unreal engine"/>
-<summary>The words speak for themselves. I was a Lighting &amp; Comp Supervisor at Outlook VFX on both the Feature Film/VFX side and Gaming side for 3 years. Feature is currently still unreleased but it is being shopped around to go to American theaters as an IMAX film made completely with Unreal Engine 5. I hea</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 4 · vfx, unreal, unreal engine&lt;/small&gt;&lt;/p&gt;&lt;p&gt;The words speak for themselves. I was a Lighting &amp;amp; Comp Supervisor at Outlook VFX on both the Feature Film/VFX side and Gaming side for 3 years. Feature is currently still unreleased but it is being shopped around to go to American theaters as an IMAX film made completely with Unreal Engine 5. I headed the project. Worked directly under Trevor Pryce, and trust me when I say that after reading this article and seeing the travesties being inflicted on others besides myself, this only scratches the surface of what we actually dealt with. Just take 30 seconds to look up "Outlook VFX Glassdoor". You'll see what I'm talking about. I'm very glad to see others speaking out against this asshole. No m&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wijvbv/outlook_vfx_ceo_trevor_pryce_accused_of_not/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wijk9y/is_the_civitai_anima_and_minimax_lora_trainers/</id><title>Is the Civitai Anima and MiniMax Lora Trainers broken?</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wijk9y/is_the_civitai_anima_and_minimax_lora_trainers/"/>
-<published>2026-09-17T04:13:04+00:00</published><updated>2026-09-17T04:13:04+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="minimax"/>
-<category term="lora"/>
-<summary>I can train SDXL and Illustrious Loras without Issue, but if I try to train datasets for Anima and MiniMax, when I being the training, after some few minutes the Lora fails to train and I get my Buzz refunded. And this has been over a week now. Do you guys are having the same problem? Or maybe my da</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I can train SDXL and Illustrious Loras without Issue, but if I try to train datasets for Anima and MiniMax, when I being the training, after some few minutes the Lora fails to train and I get my Buzz refunded. And this has been over a week now. Do you guys are having the same problem? Or maybe my datasets are too big? They're around 200 images, I don't know if I need to reduce them to 50 images or so with these new formats. Can anyone help me or provide feedback about this? Thanks! submitted by /u/Ok-Goose9891 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wijk9y/is_the_civitai_anima_and_minimax_lora_trainers/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2609.18473</id><title>CADSplat: Sparse-View 3D Gaussian Splatting Aided by CAD Models for Robust, Photorealistic Digital-Twin Reconstruction</title>
-<link rel="alternate" href="https://arxiv.org/abs/2609.18473"/>
-<published>2026-09-17T04:00:00+00:00</published><updated>2026-09-17T04:00:00+00:00</updated>
-<author><name>arXiv cs.GR</name></author>
-<category term="gaussian splatting"/>
-<category term="3d gaussian"/>
-<category term="pose estimation"/>
-<category term="rendering"/>
-<summary>arXiv:2609.18473v1 Announce Type: cross Abstract: We present CADSplat, a framework that reconstructs photorealistic, geometrically accurate digital twins from sparse ($&lt;15$ views), wide-baseline posed images of an object by regularizing 3D Gaussian Splatting (3DGS) with an explicit CAD shape prior. </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.GR · score 6 · gaussian splatting, 3d gaussian, pose estimation, rendering&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.18473v1 Announce Type: cross Abstract: We present CADSplat, a framework that reconstructs photorealistic, geometrically accurate digital twins from sparse ($&amp;lt;15$ views), wide-baseline posed images of an object by regularizing 3D Gaussian Splatting (3DGS) with an explicit CAD shape prior. Using such a prior requires finding a CAD model whose shape resembles the object depicted in the images and determining the pose of each camera relative to the object. We obtain both by matching segmented object silhouettes against silhouettes rendered from a CAD library and keeping the camera-to-object poses of the best-matching model. We then anchor 3D Gaussian primitives to the surface of the r&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.18473"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2609.18624</id><title>MoQSplat: Adaptive Progressive Streaming of 3D Gaussian Splatting via MoQ</title>
-<link rel="alternate" href="https://arxiv.org/abs/2609.18624"/>
-<published>2026-09-17T04:00:00+00:00</published><updated>2026-09-17T04:00:00+00:00</updated>
-<author><name>arXiv cs.GR</name></author>
-<category term="novel view synthesis"/>
-<category term="gaussian splatting"/>
-<category term="3d gaussian"/>
-<summary>arXiv:2609.18624v1 Announce Type: cross Abstract: 3D Gaussian Splatting (3DGS) enables photorealistic novel view synthesis, but transmitting gigabyte-scale scene data remains challenging for immersive applications. Traditional HTTP Adaptive Streaming over TCP introduces Head-of-Line (HOL) blocking a</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.GR · score 5 · novel view synthesis, gaussian splatting, 3d gaussian&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.18624v1 Announce Type: cross Abstract: 3D Gaussian Splatting (3DGS) enables photorealistic novel view synthesis, but transmitting gigabyte-scale scene data remains challenging for immersive applications. Traditional HTTP Adaptive Streaming over TCP introduces Head-of-Line (HOL) blocking and coarse segmenting ill-suited to fine-grained 3DGS delivery. We propose MoQSplat, which maps 3DGS content onto the Media over QUIC (MoQ) transport hierarchy. MoQSplat partitions scenes into spatial Tracks, clusters splats into semantically coherent Groups, and constructs progressive-quality Subgroups mapped to independent QUIC streams to eliminate connection-level HOL blocking. Using a stateless&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.18624"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2607.05598</id><title>SSA-3DGS: Unsupervised Removal of Screen-Space Artifacts for 3D Gaussian Splatting</title>
-<link rel="alternate" href="https://arxiv.org/abs/2607.05598"/>
-<published>2026-09-17T04:00:00+00:00</published><updated>2026-09-17T04:00:00+00:00</updated>
-<author><name>arXiv cs.GR</name></author>
-<category term="novel view synthesis"/>
-<category term="gaussian splatting"/>
-<category term="3d gaussian"/>
-<category term="rendering"/>
-<category term="multi-view"/>
-<summary>arXiv:2607.05598v2 Announce Type: replace Abstract: Novel View Synthesis (NVS) methods, such as 3D Gaussian Splatting (3DGS), rely on the assumption of clean, multi-view consistent, posed input images. Real-world captures can violate this assumption due to \textbf{screen-space artifacts}---static oc</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.GR · score 7 · novel view synthesis, gaussian splatting, 3d gaussian, rendering, multi-view&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2607.05598v2 Announce Type: replace Abstract: Novel View Synthesis (NVS) methods, such as 3D Gaussian Splatting (3DGS), rely on the assumption of clean, multi-view consistent, posed input images. Real-world captures can violate this assumption due to \textbf{screen-space artifacts}---static occlusions fixed to the 2D image plane rather than to the 3D world. Common examples include physical sensor defects, environmental obstructions (such as rain or mud on the lens enclosure), capture obstructions (such as a thumb over the camera sensor or a dashboard visible in dashcam footage), and digital overlays (such as watermarks or UI elements). When present, they are erroneously baked into the &lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2607.05598"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2609.17810</id><title>Wind on Trees: Testing Physical Grounding in Dynamic 4D Gaussian Splatting</title>
-<link rel="alternate" href="https://arxiv.org/abs/2609.17810"/>
-<published>2026-09-17T04:00:00+00:00</published><updated>2026-09-17T04:00:00+00:00</updated>
-<author><name>arXiv cs.CV</name></author>
-<category term="gaussian splatting"/>
-<category term="4d"/>
-<category term="consistency"/>
-<summary>arXiv:2609.17810v1 Announce Type: new Abstract: Monocular reconstruction of wind-driven vegetation is severely underconstrained: motion along the viewing direction is largely unobservable, a moving canopy offers few reliable correspondences, and nearly the entire scene is dynamic, providing little s</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · gaussian splatting, 4d, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.17810v1 Announce Type: new Abstract: Monocular reconstruction of wind-driven vegetation is severely underconstrained: motion along the viewing direction is largely unobservable, a moving canopy offers few reliable correspondences, and nearly the entire scene is dynamic, providing little static reference. Directly-learned deformation fields in 4D Gaussian Splatting therefore optimize photometric consistency rather than recover the motion that produced it. We replace that field with a physically parameterized deformation prior: one damped harmonic oscillator per rigid part, driven by the observed wind and integrated by differentiable RK4, supervised photometrically alone. To test wh&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.17810"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2609.18737</id><title>Geometry beneath the Waves: Dense Priors for Sparse-View Underwater 3D Gaussian Splatting</title>
-<link rel="alternate" href="https://arxiv.org/abs/2609.18737"/>
-<published>2026-09-17T04:00:00+00:00</published><updated>2026-09-17T04:00:00+00:00</updated>
-<author><name>arXiv cs.CV</name></author>
-<category term="gaussian splatting"/>
-<category term="3d gaussian"/>
-<category term="3d reconstruction"/>
-<category term="rendering"/>
-<summary>arXiv:2609.18737v1 Announce Type: new Abstract: Underwater 3D reconstruction supports applications ranging from marine ecosystem monitoring and subsea inspection to underwater archaeology, education, and immersive visualisation. 3D Gaussian Splatting has made real-time photorealistic novel-view rend</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 6 · gaussian splatting, 3d gaussian, 3d reconstruction, rendering&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.18737v1 Announce Type: new Abstract: Underwater 3D reconstruction supports applications ranging from marine ecosystem monitoring and subsea inspection to underwater archaeology, education, and immersive visualisation. 3D Gaussian Splatting has made real-time photorealistic novel-view rendering practical, while underwater variants incorporate physically based image-formation models to separate medium effects from scene radiance. Their reconstruction quality, however, remains fundamentally limited by the geometry used for initialisation.&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.18737"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2609.18898</id><title>NormLift: From Lifted Features To Semantic Reliability In 3D Gaussian Splatting</title>
-<link rel="alternate" href="https://arxiv.org/abs/2609.18898"/>
-<published>2026-09-17T04:00:00+00:00</published><updated>2026-09-17T04:00:00+00:00</updated>
-<author><name>arXiv cs.CV</name></author>
-<category term="gaussian splatting"/>
-<category term="3d gaussian"/>
-<category term="segmentation"/>
-<category term="rendering"/>
-<category term="consistency"/>
-<category term="multi-view"/>
-<summary>arXiv:2609.18898v1 Announce Type: new Abstract: Training-free weighted aggregation is widely used to lift 2D semantic features onto 3D Gaussians for open-vocabulary scene understanding, yet its theoretical role remains insufficiently understood. Existing analyses typically justify this operation fro</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 8 · gaussian splatting, 3d gaussian, segmentation, rendering, consistency, multi-view&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.18898v1 Announce Type: new Abstract: Training-free weighted aggregation is widely used to lift 2D semantic features onto 3D Gaussians for open-vocabulary scene understanding, yet its theoretical role remains insufficiently understood. Existing analyses typically justify this operation from the rendering side, treating Gaussian features as linearly composable Euclidean variables for reconstructing 2D feature maps. However, this view does not match downstream 3D usage, where each Gaussian is often queried independently in a cosine-based embedding space. We revisit feature lifting from the 3D side and formulate per-Gaussian assignment as a cosine alignment problem on the CLIP unit sp&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.18898"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2609.02036</id><title>SelfLift: Accelerating Few-Step Diffusion via Self-Recovering Resolution Transition</title>
-<link rel="alternate" href="https://arxiv.org/abs/2609.02036"/>
-<published>2026-09-17T04:00:00+00:00</published><updated>2026-09-17T04:00:00+00:00</updated>
-<author><name>arXiv cs.CV</name></author>
-<category term="super-resolution"/>
-<category term="denoising"/>
-<category term="denoiser"/>
-<category term="flux"/>
-<category term="consistency"/>
-<summary>arXiv:2609.02036v2 Announce Type: replace Abstract: Few-step diffusion models substantially compress temporal computation, making the spatial cost of each model evaluation an increasingly dominant source of inference latency. Progressive-resolution inference reduces this cost by performing early den</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · super-resolution, denoising, denoiser, flux, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.02036v2 Announce Type: replace Abstract: Few-step diffusion models substantially compress temporal computation, making the spatial cost of each model evaluation an increasingly dominant source of inference latency. Progressive-resolution inference reduces this cost by performing early denoising at low resolution and reserving high-resolution computation for refinement. However, existing methods typically lift intermediate latents directly and rely on subsequent steps to absorb the induced distribution mismatch. In the few-step regime, the limited recovery budget leaves these errors as visible artifacts, constraining how late the transition can occur and, consequently, how efficien&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.02036"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wiin9p/rtx_3070_monitor_turns_off_when_rendering_ai/</id><title>RTX 3070 monitor turns off when rendering AI videos with ComfyUI Minimax H3</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wiin9p/rtx_3070_monitor_turns_off_when_rendering_ai/"/>
-<published>2026-09-17T03:27:04+00:00</published><updated>2026-09-17T03:27:04+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="video generation"/>
-<category term="render"/>
-<category term="rendering"/>
-<category term="comfyui"/>
-<category term="minimax"/>
-<category term="ai video"/>
-<summary>Hi everyone! I’m pretty new to AI video generation and I’m having a weird issue with ComfyUI. Whenever I try rendering AI videos using Minimax H3 , my monitor suddenly turns off during the render. The PC itself seems to still be running, but I lose display and have to restart the computer. My specs:</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 9 · video generation, render, rendering, comfyui, minimax, ai video&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi everyone! I’m pretty new to AI video generation and I’m having a weird issue with ComfyUI. Whenever I try rendering AI videos using Minimax H3 , my monitor suddenly turns off during the render. The PC itself seems to still be running, but I lose display and have to restart the computer. My specs: GPU: RTX 3070 RAM: 32GB ComfyUI: Latest version Model: Minimax H3 Has anyone experienced this before? Could this be related to GPU temperature, VRAM usage, power supply, or NVIDIA drivers ? Any troubleshooting tips would be greatly appreciated. Thanks! submitted by /u/Eastern_Wealth_2345 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wiin9p/rtx_3070_monitor_turns_off_when_rendering_ai/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wihy9m/taomata_3step_lora_vs_fasth3_v2_check_point/</id><title>Taomata 3step lora vs fasth3 v2 check point</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wihy9m/taomata_3step_lora_vs_fasth3_v2_check_point/"/>
-<published>2026-09-17T02:53:56+00:00</published><updated>2026-09-17T02:53:56+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="lora"/>
-<summary>Fast h3 v2 8steps submitted by /u/Sad_Coach_1433 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Fast h3 v2 8steps submitted by /u/Sad_Coach_1433 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wihy9m/taomata_3step_lora_vs_fasth3_v2_check_point/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wihxft/i_stopped_trying_to_generate_long_ai_videos_in/</id><title>I stopped trying to generate long AI videos in one pass — building an 11-second animation from 2-second Wan 2.2 / FastH3 segments on an RTX 5060 Ti 16GB</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wihxft/i_stopped_trying_to_generate_long_ai_videos_in/"/>
-<published>2026-09-17T02:52:48+00:00</published><updated>2026-09-17T02:52:48+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="video generation"/>
-<category term="video model"/>
-<category term="animation"/>
-<category term="wan"/>
-<category term="minimax"/>
-<category term="lora"/>
-<summary>I've been experimenting with a different approach to producing longer AI animation on consumer hardware. My current main generation PC: - CPU: AMD Ryzen 7 7700 - GPU: NVIDIA RTX 5060 Ti 16GB - RAM: 32GB DDR5 - Storage: NVMe SSD The goal is no longer to generate a perfect long video in one pass. Inst</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 8 · video generation, video model, animation, wan, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I've been experimenting with a different approach to producing longer AI animation on consumer hardware. My current main generation PC: - CPU: AMD Ryzen 7 7700 - GPU: NVIDIA RTX 5060 Ti 16GB - RAM: 32GB DDR5 - Storage: NVMe SSD The goal is no longer to generate a perfect long video in one pass. Instead, I'm building a modular production pipeline where still-image generation establishes the character and scene, video models generate only short actions, and Python handles the repetitive production workflow and continuity. The original problem: longer clips quickly lose continuity My earlier experiments involved connecting several ~5-second AI-generated clips into a longer sequence. Individual &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wihxft/i_stopped_trying_to_generate_long_ai_videos_in/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
