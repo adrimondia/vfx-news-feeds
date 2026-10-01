@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-01T08:00:46+00:00</updated>
+<updated>2026-10-01T08:30:48+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
 <entry>
 <id>https://github.com/heygen-com/hyperframes</id><title>heygen-com/hyperframes</title>
@@ -24,6 +24,15 @@
 <category term="ltx"/>
 <summary>I think this model really took the AI world by surprise as usually when I would browse through the reddit, there would be a lot of talk about the other models but Minimax is on top. I wonder what is coming next. LTX 3, I really love this model for the speed and safety of my fans haha! (Ltx 2.5) Flux</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · flux, minimax, ltx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I think this model really took the AI world by surprise as usually when I would browse through the reddit, there would be a lot of talk about the other models but Minimax is on top. I wonder what is coming next. LTX 3, I really love this model for the speed and safety of my fans haha! (Ltx 2.5) Flux 3, or something totally out the box or of course a much faster Minimax submitted by /u/sotheysayit [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wurpje/minimax_has_made_new_releases_very_delayed_it/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wurlmx/the_sacred_pearl_made_with_minimax/</id><title>The sacred pearl, made with minimax</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wurlmx/the_sacred_pearl_made_with_minimax/"/>
+<published>2026-10-01T05:56:20+00:00</published><updated>2026-10-01T05:56:20+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="minimax"/>
+<summary>How is it guys? submitted by /u/ocean_protocol [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;How is it guys? submitted by /u/ocean_protocol [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wurlmx/the_sacred_pearl_made_with_minimax/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wuqgkh/viggle_turbo_v03_for_qwen_image_21_less_grain_and/</id><title>Viggle turbo v0.3 for Qwen image 2.1: less grain and cleaner surfaces</title>
@@ -7200,21 +7209,5 @@
 <category term="storyboard"/>
 <summary>Hello :) In June I asked here what an open-source pipeline would need to make solo anime episodes possible, with episode 1 as the example. Episode 2 is out (21 min), so here is the follow-up, again as workflow discussion, not "look what the model made". https://youtu.be/z-YRrutXaFE What changed in t</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 5 · video model, animation, consistency, character consistency, storyboard&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hello :) In June I asked here what an open-source pipeline would need to make solo anime episodes possible, with episode 1 as the example. Episode 2 is out (21 min), so here is the follow-up, again as workflow discussion, not "look what the model made". https://youtu.be/z-YRrutXaFE What changed in the pipeline between the two episodes: - Character consistency: I stopped chasing a 100% lock. I fix a few non-negotiables per character (silhouette, palette, one signature detail) and reuse approved reference stills as the source for every shot instead of regenerating from text. It cut a lot of the re-rolling I did on episode 1. - Locations: each new location is blocked once as a reference image, &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wipcva/followup_on_my_solo_ai_anime_pilot_episode_2_is/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wio4eg/i_opensourced_my_comfyui_workflow_for_minimax_h3/</id><title>I open-sourced my ComfyUI workflow for MiniMax H3 long-video generation — high-res, faster, and seamless</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wio4eg/i_opensourced_my_comfyui_workflow_for_minimax_h3/"/>
-<published>2026-09-17T08:26:51+00:00</published><updated>2026-09-17T08:26:51+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="video generation"/>
-<category term="text-to-video"/>
-<category term="image-to-video"/>
-<category term="video editing"/>
-<category term="lip-sync"/>
-<category term="digital human"/>
-<category term="comfyui"/>
-<category term="minimax"/>
-<summary>I’ve been working on this for a while, and I finally decided to open-source it. The plugin is called ComfyUI-MiniMaxH3-TimelineDirector , and the goal is to make MiniMax H3 workflows easier to manage, especially for long-video generation and more complex video tasks. It currently supports things lik</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 10 · video generation, text-to-video, image-to-video, video editing, lip-sync, digital human, comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I’ve been working on this for a while, and I finally decided to open-source it. The plugin is called ComfyUI-MiniMaxH3-TimelineDirector , and the goal is to make MiniMax H3 workflows easier to manage, especially for long-video generation and more complex video tasks. It currently supports things like text-to-video, image-to-video, audio-referenced video generation, image + audio MV generation, video editing, character replacement, motion transfer, lip-sync / digital human workflows, multi-segment long-video generation, and high-resolution secondary sampling. I also recently added support for SelfLift , which can significantly speed up high-resolution video generation. For this test, I used: &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wio4eg/i_opensourced_my_comfyui_workflow_for_minimax_h3/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
