@@ -2,8 +2,47 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-02T20:30:20+00:00</updated>
+<updated>2026-10-02T22:30:30+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1ww58xn/a_quick_minimax_h3_news_roundup_2nd_october_2026/</id><title>A quick Minimax H3 news round-up - 2nd October 2026</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1ww58xn/a_quick_minimax_h3_news_roundup_2nd_october_2026/"/>
+<published>2026-10-02T21:07:15+00:00</published><updated>2026-10-02T21:07:15+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<category term="minimax"/>
+<category term="lora"/>
+<category term="cinematic"/>
+<summary>Another quick Minimax H3 news and goodies round-up, for those who may have missed some items. -&gt; How low can you go? A new 2-step LoRA for H3, 'PDMD 2-NFE', now in ComfyUI format. https://huggingface.co/Iwannapose/minimax_h3_pdmd_2nfe_comfyui -&gt; Another 'Anime to Real' for H3, but this is a slider t</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 5 · comfyui, minimax, lora, cinematic&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Another quick Minimax H3 news and goodies round-up, for those who may have missed some items. -&amp;gt; How low can you go? A new 2-step LoRA for H3, 'PDMD 2-NFE', now in ComfyUI format. https://huggingface.co/Iwannapose/minimax_h3_pdmd_2nfe_comfyui -&amp;gt; Another 'Anime to Real' for H3, but this is a slider that also goes the other way... "Positive values lean towards a 2D anime style". https://huggingface.co/adf99/H3_Ref2V_Anime_Slider_v1 -&amp;gt; Yee-haw! A 1950s westerns LoRA for H3 FL2VA. No trigger, but the maker suggests adding... "The lighting is natural, with [time-of-day] light. The [photograph, video, etc] has a vintage, cinematic quality." He also suggests breaking from Minimax's 16:9 and using t&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1ww58xn/a_quick_minimax_h3_news_roundup_2nd_october_2026/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1ww40hv/for_minimax_h3_we_need_a_perfect_quality_lora_not/</id><title>For Minimax H3 we need a "perfect quality" Lora, not necessary low steps</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1ww40hv/for_minimax_h3_we_need_a_perfect_quality_lora_not/"/>
+<published>2026-10-02T20:16:15+00:00</published><updated>2026-10-02T20:16:15+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="minimax"/>
+<category term="seedance"/>
+<category term="lora"/>
+<summary>Even at 28 steps you still have smeary noise on fast movements and the quality can be better. Now imagine if someone made a lora without being limited to 3, 4 or 8 steps, we could achieve near perfect quality. Imagine a 16 steps lora with near Seedance 2.5 quality... submitted by /u/Cequejedisestvra</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 5 · minimax, seedance, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Even at 28 steps you still have smeary noise on fast movements and the quality can be better. Now imagine if someone made a lora without being limited to 3, 4 or 8 steps, we could achieve near perfect quality. Imagine a 16 steps lora with near Seedance 2.5 quality... submitted by /u/Cequejedisestvrai [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1ww40hv/for_minimax_h3_we_need_a_perfect_quality_lora_not/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1ww3b89/open_call_challenge_lets_opensource_the_creative/</id><title>Open Call Challenge: let's open-source the creative app features people pay a subscription for - $10,000 grand prize - 10/13 SF event</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1ww3b89/open_call_challenge_lets_opensource_the_creative/"/>
+<published>2026-10-02T19:47:41+00:00</published><updated>2026-10-02T19:47:41+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="relight"/>
+<category term="face swap"/>
+<category term="vfx"/>
+<category term="comfyui"/>
+<category term="flux"/>
+<category term="ltx"/>
+<category term="consistency"/>
+<category term="character consistency"/>
+<summary>Cinematic camera controls. Character consistency. Relight. Face swap. Most of these features sit behind a subscription somewhere, but every one of them is a workflow underneath. Open weight models have already caught up on capability, but what’s still closed is the layer on top: the interfaces and a</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 9 · relight, face swap, vfx, comfyui, flux, ltx, consistency, character consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Cinematic camera controls. Character consistency. Relight. Face swap. Most of these features sit behind a subscription somewhere, but every one of them is a workflow underneath. Open weight models have already caught up on capability, but what’s still closed is the layer on top: the interfaces and apps that turn models into features anyone can use. It’s in our DNA to support open-source creativity, and there’s no technical reason that layer has to stay closed. So we're challenging our community to pick a creative app feature people pay for and rebuild it in the open! Top workflows get featured on comfy.org/models , and every entry is eligible for the spotlight reel whether it places or not. &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1ww3b89/open_call_challenge_lets_opensource_the_creative/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/vfx/comments/1ww2qr2/new_ves_award_short_project/</id><title>New VES Award: Short Project</title>
 <link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1ww2qr2/new_ves_award_short_project/"/>
@@ -13,6 +52,18 @@
 <category term="visual effects"/>
 <summary>(Copy paste from the VES announcement, want to make sure it’s seen outside the usual circles) New Category Announced! The VES Award for Outstanding Visual Effects in a Short Project will cover both photoreal and animated projects. Designed to reflect the evolution of today’s media landscape and grow</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · vfx, visual effects&lt;/small&gt;&lt;/p&gt;&lt;p&gt;(Copy paste from the VES announcement, want to make sure it’s seen outside the usual circles) New Category Announced! The VES Award for Outstanding Visual Effects in a Short Project will cover both photoreal and animated projects. Designed to reflect the evolution of today’s media landscape and growing sophistication of social media content, this category will include the growing number of VFX artists working outside of the traditional film and TV framework. Submissions for the 25th Annual VES Awards are due on October 31st! Head to the link to review the full list of submission categories and submit your project today: https://vesglobal.org/25th-annual-ves-awards-rules-procedures/ submitted&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1ww2qr2/new_ves_award_short_project/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1ww2276/is_there_a_fasth3_4step_referencetovideo_workflow/</id><title>Is there a FastH3 4-step reference-to-video workflow for character consistency?</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1ww2276/is_there_a_fasth3_4step_referencetovideo_workflow/"/>
+<published>2026-10-02T18:58:12+00:00</published><updated>2026-10-02T18:58:12+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<category term="minimax"/>
+<category term="consistency"/>
+<category term="character consistency"/>
+<summary>I’m generating multiple 5-second clips with FastH3 4-step and stitching them together. The speed and quality are good, but the character changes between clips. Is there any working Ref2Video / Ref2VA workflow for the 4-step FastH3 model where I can provide a character reference image? I know first-f</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 6 · comfyui, minimax, consistency, character consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I’m generating multiple 5-second clips with FastH3 4-step and stitching them together. The speed and quality are good, but the character changes between clips. Is there any working Ref2Video / Ref2VA workflow for the 4-step FastH3 model where I can provide a character reference image? I know first-frame I2V exists, but I don’t want every clip to begin from basically the same image. Ideally, I’d use one character reference while still allowing different poses, camera angles and scenes. Does the 4-step model support this at all, or is it only available with the full MiniMax H3 model? If anyone has a ComfyUI workflow, custom nodes or another practical method, I’d appreciate a link. submitted by&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1ww2276/is_there_a_fasth3_4step_referencetovideo_workflow/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1wvz6g4/minimaxh3_got_at_least_16_faster_on_comfyui_v038/</id><title>MinimaxH3 got at least 16% faster on ComfyUI v0.38 vs ComfyUI v0.37,</title>
@@ -75,6 +126,15 @@
 <category term="seedance"/>
 <summary>This is a short film I made to push the limits of MiniMax H3 on ComfyUI, mainly using the Hybrid model. It took me about three weeks to complete, running locally for most of the work, with some generations done on RunningHub using a modified workflow by Pixaroma. I used ChatGPT mainly to help create</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · comfyui, minimax, seedance&lt;/small&gt;&lt;/p&gt;&lt;p&gt;This is a short film I made to push the limits of MiniMax H3 on ComfyUI, mainly using the Hybrid model. It took me about three weeks to complete, running locally for most of the work, with some generations done on RunningHub using a modified workflow by Pixaroma. I used ChatGPT mainly to help create prompts for the image generation in Nano Banana, but I wrote all the video prompts myself. There’s a reason I try not to rely on AI for video prompting: I want to understand how H3 actually works. One thing I’ve found is that H3 doesn’t necessarily need the official prompting structure. In some cases, that structure can actually make things more complicated than they need to be. SeeDance 2 fast w&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wvw97s/resistance_scifi_minimax_h3/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wvw01s/comfyui_extension_to_distribute_jobs_across/</id><title>ComfyUI extension to distribute jobs across multiple machines using the native "Run" button, with automatic scheduling and result collection</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wvw01s/comfyui_extension_to_distribute_jobs_across/"/>
+<published>2026-10-02T14:59:04+00:00</published><updated>2026-10-02T14:59:04+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<summary>Hello 👋 This is my first post and first extension to ComfyUI. I could be wrong (or bad at researching) but all the existing extensions allowing spreading jobs between multiple GPUs / multiple nodes require some changes to workflows (they are workflow level nodes). I wanted something that I would set</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hello 👋 This is my first post and first extension to ComfyUI. I could be wrong (or bad at researching) but all the existing extensions allowing spreading jobs between multiple GPUs / multiple nodes require some changes to workflows (they are workflow level nodes). I wanted something that I would set up and forget without changing anything in the workflows or the way I work with ComfyUI in general - this is how the idea for my extension was born. ComfyUI-Fleet appears as a tab in left menu which allows you to: - add nodes (for multiple GPUs I have multiple ComfyUI servers running locally, one per ComfyUI) https://reddit.com/link/1wvw01s/video/j0uakzcai2th1/player - see and reorder batches of &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wvw01s/comfyui_extension_to_distribute_jobs_across/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1wvvtg5/pink_kpop_music_video_minimax_h3/</id><title>PINK [K-Pop Music Video] Minimax H3</title>
@@ -157,6 +217,15 @@
 <category term="lora"/>
 <summary>Lightricks released an SDR to HDR worklflow and lora set. Here I made a quick clip in H3 Minimax and used the new tools to convert it to 32bit so I could take a look in After Effects. It will also convert older clips and clean up and smooth color banding and blocking especially in the very dark area</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · hdr, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Lightricks released an SDR to HDR worklflow and lora set. Here I made a quick clip in H3 Minimax and used the new tools to convert it to 32bit so I could take a look in After Effects. It will also convert older clips and clean up and smooth color banding and blocking especially in the very dark areas and also infers extra dynamic range info convincingly. It fixes all the annoying VAE artifacts. https://github.com/Lightricks/ComfyUI-LTXVideo/tree/master/example\_workflows/2.5/HDR\_workflows . I didn't grade this, or add grain or any of the usual tricks, I just played with the exposure. You can also tweak the workflow to convert 8bit images into 32bit raw images for further editing in Photosho&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wvsg1q/hdr_locally_now/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wvrq8j/flux_3_image_commercial_question/</id><title>Flux 3 Image Commercial - Question.</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wvrq8j/flux_3_image_commercial_question/"/>
+<published>2026-10-02T11:49:02+00:00</published><updated>2026-10-02T11:49:02+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="flux"/>
+<summary>Right so I have seen the introduction to flux 3 Image now and myself do not personally like paying or using frontier or company models, so I am wondering has anyone else tested it out so far to see how effective and generally good flux 3 image is? Since the model has been announced in the coming wee</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Right so I have seen the introduction to flux 3 Image now and myself do not personally like paying or using frontier or company models, so I am wondering has anyone else tested it out so far to see how effective and generally good flux 3 image is? Since the model has been announced in the coming weeks, but that could literally mean months from now and I doubt they would want Flux 3 Video to lose it's hype so I assume this image/edit model will be open sourced after flux 3 video releases open sourced. Please let me know if anyone has used the commercial model and whether it is good enough. submitted by /u/SuddenNeighborhood44 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wvrq8j/flux_3_image_commercial_question/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1wvqt0h/i_made_a_comfyui_extension_that_browses_civitai/</id><title>I made a ComfyUI extension that browses Civitai inside ComfyUI and sets up any workflow in one click (auto-downloads missing models)</title>
@@ -7287,14 +7356,5 @@
 <category term="lora"/>
 <summary>Can be pushed towards more modern interpretations as per demos submitted by /u/-becausereasons- [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Can be pushed towards more modern interpretations as per demos submitted by /u/-becausereasons- [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wk4o8l/enjoy_a_yue2_chanson_francaise_french_ballads_lora/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wk3r7o/enjoy_a_yu2_italian_80s90s_style_canzone_lora/</id><title>Enjoy a Yu2 Italian 80s/90s style Canzone Lora</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wk3r7o/enjoy_a_yu2_italian_80s90s_style_canzone_lora/"/>
-<published>2026-09-18T21:58:21+00:00</published><updated>2026-09-18T21:58:21+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="lora"/>
-<summary>One of my fav childhood genres, very edge, but it may grow on you. submitted by /u/-becausereasons- [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;One of my fav childhood genres, very edge, but it may grow on you. submitted by /u/-becausereasons- [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wk3r7o/enjoy_a_yu2_italian_80s90s_style_canzone_lora/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
