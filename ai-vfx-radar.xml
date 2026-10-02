@@ -2,8 +2,40 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-02T12:31:19+00:00</updated>
+<updated>2026-10-02T14:30:58+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wvsu0d/d_i_opensourced_30000_paired_qrcode_illusions/</id><title>[D] I open-sourced 30,000 paired QR-Code Illusions with multi-decoder verification &amp; robustness scores on Hugging Face (Free for ControlNet / LoRA training)</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wvsu0d/d_i_opensourced_30000_paired_qrcode_illusions/"/>
+<published>2026-10-02T12:44:11+00:00</published><updated>2026-10-02T12:44:11+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="controlnet"/>
+<category term="lora"/>
+<summary>Hey everyone, I just published a clean, curated dataset of 30,000 artistic QR Code illusions on Hugging Face! Unlike synthetic noise blends, each sample is an aesthetic artwork where the QR code is seamlessly woven into foliage, architecture, lighting, and textures. Every single image was rigorously</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · controlnet, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey everyone, I just published a clean, curated dataset of 30,000 artistic QR Code illusions on Hugging Face! Unlike synthetic noise blends, each sample is an aesthetic artwork where the QR code is seamlessly woven into foliage, architecture, lighting, and textures. Every single image was rigorously tested across multiple QR decoders (pyzbar + OpenCV WeChat QR) and stress-tested against rotation, perspective shift, and blur to calculate a normalized robustness score. • 30,000 paired samples (768×768 PNGs) • Packaged as self-contained Parquet shards (instant 1-line load via datasets) • Fully partitioned with zero QR-matrix leakage across train/val/test • Quality tiers: Class A (high scannabil&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wvsu0d/d_i_opensourced_30000_paired_qrcode_illusions/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wvsrhs/minimax_h3_vs_seedance_20_single_line_prompt/</id><title>Minimax H3 vs Seedance 2.0 single line prompt result of dance scene</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wvsrhs/minimax_h3_vs_seedance_20_single_line_prompt/"/>
+<published>2026-10-02T12:40:49+00:00</published><updated>2026-10-02T12:40:49+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="minimax"/>
+<category term="seedance"/>
+<category term="consistency"/>
+<summary>I did this experiment last week, where I used one workflow and at last used both Minima H3 and seedance 2.0 to animate the video with vague prompt to let models generate the dance itself, I only instructed for couple dance with multiple angles. For Minimax H3 the consistency was the better point, it</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 5 · minimax, seedance, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I did this experiment last week, where I used one workflow and at last used both Minima H3 and seedance 2.0 to animate the video with vague prompt to let models generate the dance itself, I only instructed for couple dance with multiple angles. For Minimax H3 the consistency was the better point, it animated the character as it is from the image without making any changes to characters. But the camera movements and multiple angles were not there. It also ended the dance earlier and later became a still. Seedance 2.0 was much better in quality, I would say as it included multiple angles, closeups and camera movements. It also made the characters feel more natural and lively with expressions. &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wvsrhs/minimax_h3_vs_seedance_20_single_line_prompt/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wvsg1q/hdr_locally_now/</id><title>HDR LOCALLY NOW.</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wvsg1q/hdr_locally_now/"/>
+<published>2026-10-02T12:25:17+00:00</published><updated>2026-10-02T12:25:17+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="hdr"/>
+<category term="minimax"/>
+<category term="lora"/>
+<summary>Lightricks released an SDR to HDR worklflow and lora set. Here I made a quick clip in H3 Minimax and used the new tools to convert it to 32bit so I could take a look in After Effects. It will also convert older clips and clean up and smooth color banding and blocking especially in the very dark area</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · hdr, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Lightricks released an SDR to HDR worklflow and lora set. Here I made a quick clip in H3 Minimax and used the new tools to convert it to 32bit so I could take a look in After Effects. It will also convert older clips and clean up and smooth color banding and blocking especially in the very dark areas and also infers extra dynamic range info convincingly. It fixes all the annoying VAE artifacts. https://github.com/Lightricks/ComfyUI-LTXVideo/tree/master/example\_workflows/2.5/HDR\_workflows . I didn't grade this, or add grain or any of the usual tricks, I just played with the exposure. You can also tweak the workflow to convert 8bit images into 32bit raw images for further editing in Photosho&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wvsg1q/hdr_locally_now/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://the-decoder.com/black-forest-labs-launches-flux-3-image-with-multi-step-editing-that-leaves-the-rest-of-your-picture-alone/</id><title>Black Forest Labs launches Flux 3 Image with multi-step editing that leaves the rest of your picture alone</title>
 <link rel="alternate" href="https://the-decoder.com/black-forest-labs-launches-flux-3-image-with-multi-step-editing-that-leaves-the-rest-of-your-picture-alone/"/>
@@ -7212,36 +7244,5 @@
 <category term="minimax"/>
 <summary>I say a skating video on this sub and decided to try cycling video myself with Minimax. I started in morphic with the character generation, used Flux 2 pro for the image, it did not need and reference and the result was pretty good for a simple prompt. The bicycle was the next component , I generate</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 5 · animation, flux, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I say a skating video on this sub and decided to try cycling video myself with Minimax. I started in morphic with the character generation, used Flux 2 pro for the image, it did not need and reference and the result was pretty good for a simple prompt. The bicycle was the next component , I generated both cycle and character separately again no reference and I just asked it for red cycle with black design common anime plot. The third step again was an image where I generated multiple japanese animated street view selected few which I like. This part took a lot of time before animating straight up I wanted to start with still scene of the character with bike on the street, this is where it to&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wjsfck/minimax_h3_flux_2_pro_japan_bicycle_street_video/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wjqc50/how_to_make_character_take_turns_in_speech/</id><title>How to make character take turns in speech CONSISTENTLY in Minimax H3?</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wjqc50/how_to_make_character_take_turns_in_speech/"/>
-<published>2026-09-18T13:32:47+00:00</published><updated>2026-09-18T13:32:47+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<category term="minimax"/>
-<category term="consistency"/>
-<summary>I'm using Minimax H3 R2V on comfyUI cloud. When I generate videos with 2 characters a common problem I face is, that a line that was meant for 1 character is spoken by both characters together. This despite the fact that I explicitly mention who should say it. The prompt would be something like: """</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · comfyui, minimax, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I'm using Minimax H3 R2V on comfyUI cloud. When I generate videos with 2 characters a common problem I face is, that a line that was meant for 1 character is spoken by both characters together. This despite the fact that I explicitly mention who should say it. The prompt would be something like: """ Use the women in &amp;lt;Picture 1&amp;gt; and &amp;lt;Picture 2&amp;gt; as references for main characters. &amp;lt;Picture 3&amp;gt; shows the room in which the scene takes place. CAMERA: Medium shot, steady, no push-out, no push-in. CUT 1: BACKGROUND: ....Stuff describing the background BACKGROUND SOUNDS: ...Stuff describing the noises... CHARACTERS: There are only 2 main characters in the scene: &amp;lt;Subject 1&amp;gt; - The woman in &amp;lt;Picture 1&amp;gt;.&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wjqc50/how_to_make_character_take_turns_in_speech/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wjq7eq/comfyui_canvas_slows_down_immensely_after/</id><title>ComfyUI canvas slows down immensely after generating a video</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wjq7eq/comfyui_canvas_slows_down_immensely_after/"/>
-<published>2026-09-18T13:27:26+00:00</published><updated>2026-09-18T13:27:26+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<summary>Is this normal? Moving the canvas around is super slow and sluggish after I generate a video, and text takes half a second to appear after I type it. submitted by /u/zeroedit [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Is this normal? Moving the canvas around is super slow and sluggish after I generate a video, and text takes half a second to appear after I type it. submitted by /u/zeroedit [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wjq7eq/comfyui_canvas_slows_down_immensely_after/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wjq3ut/how_to_make_character_take_turns_in_speech/</id><title>How to make character take turns in speech CONSISTENTLY in Minimax H3</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wjq3ut/how_to_make_character_take_turns_in_speech/"/>
-<published>2026-09-18T13:23:17+00:00</published><updated>2026-09-18T13:23:17+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="minimax"/>
-<category term="consistency"/>
-<summary>I'm using Minimax H3 R2V on comfyUI cloud. When I generate videos with 2 characters a common problem I face is, that a line that was meant for 1 character is spoken by both characters together. This despite the fact that I explicitly mention who should say it. The prompt would be something like: """</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · comfyui, minimax, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I'm using Minimax H3 R2V on comfyUI cloud. When I generate videos with 2 characters a common problem I face is, that a line that was meant for 1 character is spoken by both characters together. This despite the fact that I explicitly mention who should say it. The prompt would be something like: """ Use the women in &amp;lt;Picture 1&amp;gt; and &amp;lt;Picture 2&amp;gt; as references for main characters. &amp;lt;Picture 3&amp;gt; shows the room in which the scene takes place. CAMERA: Medium shot, steady, no push-out, no push-in. CUT 1: BACKGROUND: ....Stuff describing the background BACKGROUND SOUNDS: ...Stuff describing the noises... CHARACTERS: There are only 2 main characters in the scene: &amp;lt;Subject 1&amp;gt; - The woman in &amp;lt;Picture 1&amp;gt;.&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wjq3ut/how_to_make_character_take_turns_in_speech/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
