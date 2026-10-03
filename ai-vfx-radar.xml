@@ -2,8 +2,44 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-03T12:30:24+00:00</updated>
+<updated>2026-10-03T14:30:19+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wwmywn/one_char_model_consistent_face_body_cloths_are/</id><title>One .char model, Consistent face, body &amp; cloths are now supported in Comfy(Custom node &amp; workflows - Minimax H3 &amp; Flux 2 Klein)</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wwmywn/one_char_model_consistent_face_body_cloths_are/"/>
+<published>2026-10-03T13:13:37+00:00</published><updated>2026-10-03T13:13:37+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<category term="flux"/>
+<category term="minimax"/>
+<category term="lora"/>
+<summary>I have been getting lot of request to publish .char support with ComfyUI, here is a custom node that I created: Node Repo: https://github.com/omnichar/ComfyUI-Omnichar This repo includes few node, that let's you build a portable character model while keeping face, body &amp; cloths. You can build a .cha</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 6 · comfyui, flux, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I have been getting lot of request to publish .char support with ComfyUI, here is a custom node that I created: Node Repo: https://github.com/omnichar/ComfyUI-Omnichar This repo includes few node, that let's you build a portable character model while keeping face, body &amp;amp; cloths. You can build a .char model once &amp;amp; use it across different workflows without a identity drift. Features: Build/encode character into .char Decode .char built in Comfy or anywhere else Decode into reference, character sheet &amp;amp; even LoRA adapter SDK is public for future integration &amp;amp; improvements Nodes: Decode Character gives you the prompt, the reference images, a numbered contact sheet, and conditioning if you wire a &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wwmywn/one_char_model_consistent_face_body_cloths_are/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wwlo18/psa_krea_2_variance_is_easy_in_comfyui_no_loras/</id><title>PSA: Krea 2 variance is easy in ComfyUI (no LoRA-s or custom nodes needed)</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wwlo18/psa_krea_2_variance_is_easy_in_comfyui_no_loras/"/>
+<published>2026-10-03T12:08:48+00:00</published><updated>2026-10-03T12:08:48+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<summary>There are quite often posts here complaining that Krea 2 is too predictable / different seeds give almost the same output / you need to type in extremely long prompts to get good images / there is no surprise factor any more since you get exactly what you typed in. Well - actually there is a very ea</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;There are quite often posts here complaining that Krea 2 is too predictable / different seeds give almost the same output / you need to type in extremely long prompts to get good images / there is no surprise factor any more since you get exactly what you typed in. Well - actually there is a very easy solution for that - use the text encoder model as LLM to do prompt expansion (PE). Here I'm showing one possible workflow for doing that. Funnyly enough I'm actually using the Qwen 2.1 PE system prompt here - I really don't care what it's "meant for" - works well enough for me. I added as an example 5 images - these are first 5 random (not cherrypicked) results that I got with this simple promp&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wwlo18/psa_krea_2_variance_is_easy_in_comfyui_no_loras/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wwkrg8/resistance_workflow/</id><title>Resistance - Workflow</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wwkrg8/resistance_workflow/"/>
+<published>2026-10-03T11:18:09+00:00</published><updated>2026-10-03T11:18:09+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="video generation"/>
+<category term="video model"/>
+<category term="comfyui"/>
+<category term="minimax"/>
+<category term="consistency"/>
+<category term="storyboard"/>
+<category term="cinematic"/>
+<summary>Workflow &amp; Hardware The workflow was originally based on Pixaroma’s ComfyUI workflow. I made some modifications and added Sol Attn optimization and Comfy Kitchen Sink , including the very useful Model Override Preview . This allows me to preview the generation and cancel it if the result is clearly </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 7 · video generation, video model, comfyui, minimax, consistency, storyboard, cinematic&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Workflow &amp;amp; Hardware The workflow was originally based on Pixaroma’s ComfyUI workflow. I made some modifications and added Sol Attn optimization and Comfy Kitchen Sink , including the very useful Model Override Preview . This allows me to preview the generation and cancel it if the result is clearly not going in the direction I want, which saves quite a bit of time and resources. PC setup: AMD Ryzen 5 7500F 32 GB RAM NVIDIA RTX 5060 Ti 16 GB Main Model: Minimax_h3_hybrid_fl2va_ref2va_b25-49 Cloud GPU: Runninghub Storyboard promtp for Nano Banan to generate a panel base on user input to generate additional shots for the scene. Image References I tried to use an image reference for as many shot&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wwkrg8/resistance_workflow/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/vfx/comments/1wwi3ao/game_vfx_database_realtime_vfx_reference_gallery/</id><title>Game VFX Database - Real-Time VFX Reference Gallery</title>
 <link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wwi3ao/game_vfx_database_realtime_vfx_reference_gallery/"/>
@@ -7199,42 +7235,5 @@
 <category term="multiview"/>
 <summary>Links Official changelog GitHub release New Open-Source Model Support FastVideo FastH3 : FastVideo 8-step distilled MiniMax H3 for text-to-video and image-to-video with native audio Marigold V2 : Depth, surface normal, and albedo estimation from a single image YuE2 : Music generation from style prom</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 8 · text-to-video, image-to-video, comfyui, flux, minimax, controlnet, multiview&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Links Official changelog GitHub release New Open-Source Model Support FastVideo FastH3 : FastVideo 8-step distilled MiniMax H3 for text-to-video and image-to-video with native audio Marigold V2 : Depth, surface normal, and albedo estimation from a single image YuE2 : Music generation from style prompts and lyrics New Node Updates Video Concatenate : Join multiple video clips end to end Generic Loops : Loop over lists in the graph, carry heterogeneous items through every iteration, and declare loop boundaries in node schemas Linear color space : Added linear to ImageColorSpace Gemini V3 node : Added GeminiNodeV3 and deprecated the V2 node Partner Node Updates Tripo P2 : Text, image, and multi&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wknwkc/comfyui_v0360/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wknjsg/ai_vfx_are_getting_really_really_good/</id><title>AI VFX are getting really, really good</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wknjsg/ai_vfx_are_getting_really_really_good/"/>
-<published>2026-09-19T14:22:20+00:00</published><updated>2026-09-19T14:22:20+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="vfx"/>
-<summary>XRAY / VFX STUDY - a radiographic intervention. original performance: u/samfine28 x u/scool06 directed / shot / edit: u/keeanjohnson vfx by myself submitted by /u/uisato [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;XRAY / VFX STUDY - a radiographic intervention. original performance: u/samfine28 x u/scool06 directed / shot / edit: u/keeanjohnson vfx by myself submitted by /u/uisato [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wknjsg/ai_vfx_are_getting_really_really_good/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wkniic/ai_vfx_are_getting_really_really_good/</id><title>AI VFX are getting really, really good</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wkniic/ai_vfx_are_getting_really_really_good/"/>
-<published>2026-09-19T14:20:48+00:00</published><updated>2026-09-19T14:20:48+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="vfx"/>
-<summary>XRAY / VFX STUDY - a radiographic intervention. original performance: u/samfine28 x u/scool06 directed / shot / edit: u/keeanjohnson vfx by myself made entirely inside Uisato Studio / audio-reactive performance preset submitted by /u/uisato [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;XRAY / VFX STUDY - a radiographic intervention. original performance: u/samfine28 x u/scool06 directed / shot / edit: u/keeanjohnson vfx by myself made entirely inside Uisato Studio / audio-reactive performance preset submitted by /u/uisato [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wkniic/ai_vfx_are_getting_really_really_good/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wknenp/the_local_dream_3_is_coming_with_some_huge_new/</id><title>The Local Dream 3 is coming with some huge new features!</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wknenp/the_local_dream_3_is_coming_with_some_huge_new/"/>
-<published>2026-09-19T14:16:17+00:00</published><updated>2026-09-19T14:16:17+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="image editing"/>
-<category term="flux"/>
-<summary>Here are just a few highlights from the developer’s page: - Z-Image Turbo and Flux.2 Klein 4B support on mobile - SDXL support on CPU, - Canvas for IMG2IMG and Inpaint modifications. - Image Editing by Flux.2 Klein And all of this on your Adroid phone, offline! Check out the developer’s latest relea</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · image editing, flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Here are just a few highlights from the developer’s page: - Z-Image Turbo and Flux.2 Klein 4B support on mobile - SDXL support on CPU, - Canvas for IMG2IMG and Inpaint modifications. - Image Editing by Flux.2 Klein And all of this on your Adroid phone, offline! Check out the developer’s latest release: https://github.com/xororz/local-dream/releases submitted by /u/mikemend [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wknenp/the_local_dream_3_is_coming_with_some_huge_new/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wkldae/minimax_h3_seamless_loop_ref_2_videos/</id><title>Minimax H3 Seamless Loop REF 2 Videos</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wkldae/minimax_h3_seamless_loop_ref_2_videos/"/>
-<published>2026-09-19T12:47:43+00:00</published><updated>2026-09-19T12:47:43+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="minimax"/>
-<summary>Hi everyone! I started using minimax about 3 days ago and I'm now trying to build a workflow to generate 5-second videos that loop. What I mean: I'd like the video to be generated NOT from the "first frame reference" (that i do not have), but entirely generated by the prompt only with the character </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi everyone! I started using minimax about 3 days ago and I'm now trying to build a workflow to generate 5-second videos that loop. What I mean: I'd like the video to be generated NOT from the "first frame reference" (that i do not have), but entirely generated by the prompt only with the character taken from a reference image, lasting 5 seconds, and then, if looped, being smooth without a hard cut. So far I've tried specifying it clearly in the prompt but with very poor results. Is there any node or method to generate a looping video using a reference image to give the appearance to the character that appears in the completely generated video without using any starting or ending frame? subm&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wkldae/minimax_h3_seamless_loop_ref_2_videos/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
