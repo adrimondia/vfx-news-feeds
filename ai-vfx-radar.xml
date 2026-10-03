@@ -2,8 +2,35 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-03T14:30:19+00:00</updated>
+<updated>2026-10-03T16:30:20+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wwp4ak/vnccs_320_released/</id><title>VNCCS 3.2.0 Released!</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wwp4ak/vnccs_320_released/"/>
+<published>2026-10-03T14:50:25+00:00</published><updated>2026-10-03T14:50:25+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="video model"/>
+<category term="upscaling"/>
+<category term="animation"/>
+<category term="comfyui"/>
+<category term="minimax"/>
+<category term="lora"/>
+<summary>Hi! V-chan here! We got another BIIIG update, and you now have some new toys to play with. New models, transparent sprites, and a Character Creator makeover. We even recruited a video model for sprite duty. Hehe! If you are new here: VNCCS is a ComfyUI pipeline for creating characters and turning th</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 6 · video model, upscaling, animation, comfyui, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi! V-chan here! We got another BIIIG update, and you now have some new toys to play with. New models, transparent sprites, and a Character Creator makeover. We even recruited a video model for sprite duty. Hehe! If you are new here: VNCCS is a ComfyUI pipeline for creating characters and turning them into sprite sets with different poses, outfits, and expressions. For visual novels, games, or whatever your little creative brain is plotting. Here is the fun stuff in 3.2.0 : Qwen Image 2.1 is our new main model now. Qwen Image 2.1 can create your base character, change poses, dress them up, and generate expressions. You can use it in Character Creator, the pose and clothing workflows, and Emo&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wwp4ak/vnccs_320_released/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wwn7c2/ai_slop_game_based_on_batlle_video_in_real_time/</id><title>ai slop game based on batlle video in real time with only open model</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wwn7c2/ai_slop_game_based_on_batlle_video_in_real_time/"/>
+<published>2026-10-03T13:24:42+00:00</published><updated>2026-10-03T13:24:42+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="video model"/>
+<category term="gaussian splatting"/>
+<category term="animation"/>
+<category term="rendering"/>
+<category term="minimax"/>
+<summary>Check out Chimera Arena (https://chimeraarena.com/static/showcase/index.html?lang=en) ! Here’s my slightly scrappy AI-generated teaser for Chimera Arena, my card game combining AI-generated video battles, real-time 2D combat, and creatures you design yourself. It’s built using Krea 2 with custom LoR</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 5 · video model, gaussian splatting, animation, rendering, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Check out Chimera Arena (https://chimeraarena.com/static/showcase/index.html?lang=en) ! Here’s my slightly scrappy AI-generated teaser for Chimera Arena, my card game combining AI-generated video battles, real-time 2D combat, and creatures you design yourself. It’s built using Krea 2 with custom LoRAs , Qwen 2.1, MiniMax, Gemini Flash , and a few other experiments. You can generate your own creature cards and 2D sprites, then challenge other players using generated abilities or inventing your own attacks. That’s the fun part: what you imagine can actually affect your opponent’s health and the outcome of the fight. I’m also experimenting with Gaussian splatting to turn the artwork into textur&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wwn7c2/ai_slop_game_based_on_batlle_video_in_real_time/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wwmywn/one_char_model_consistent_face_body_cloths_are/</id><title>One .char model, Consistent face, body &amp; cloths are now supported in Comfy(Custom node &amp; workflows - Minimax H3 &amp; Flux 2 Klein)</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wwmywn/one_char_model_consistent_face_body_cloths_are/"/>
@@ -41,6 +68,17 @@
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 7 · video generation, video model, comfyui, minimax, consistency, storyboard, cinematic&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Workflow &amp;amp; Hardware The workflow was originally based on Pixaroma’s ComfyUI workflow. I made some modifications and added Sol Attn optimization and Comfy Kitchen Sink , including the very useful Model Override Preview . This allows me to preview the generation and cancel it if the result is clearly not going in the direction I want, which saves quite a bit of time and resources. PC setup: AMD Ryzen 5 7500F 32 GB RAM NVIDIA RTX 5060 Ti 16 GB Main Model: Minimax_h3_hybrid_fl2va_ref2va_b25-49 Cloud GPU: Runninghub Storyboard promtp for Nano Banan to generate a panel base on user input to generate additional shots for the scene. Image References I tried to use an image reference for as many shot&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wwkrg8/resistance_workflow/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wwj47o/krea2_turbo_distill_2_step_lora_new_checkpoint/</id><title>Krea2 Turbo Distill 2 step LoRA - new checkpoint released (chk41320)</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wwj47o/krea2_turbo_distill_2_step_lora_new_checkpoint/"/>
+<published>2026-10-03T09:36:32+00:00</published><updated>2026-10-03T09:36:32+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="denoising"/>
+<category term="render"/>
+<category term="lora"/>
+<summary>Krea 2 Turbo — 2-Step Distillation LoRA ( work in progress ) Previous posts/releases - here , here and here . 🧪 A fast-preview adapter, from a project still in training. When the subject is close and fills a good part of the frame — a portrait, a single figure, an object seen up close — two steps al</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · denoising, render, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Krea 2 Turbo — 2-Step Distillation LoRA ( work in progress ) Previous posts/releases - here , here and here . 🧪 A fast-preview adapter, from a project still in training. When the subject is close and fills a good part of the frame — a portrait, a single figure, an object seen up close — two steps already hold up well, and you can rely on this adapter for those images. Small subjects are where it still falls short, people and objects alike: faces in a crowd, figures in a wide scene, the machines at the back of a gym — anything that takes up little of the frame can come out ghosted or smeared. For those, and whenever quality matters more than speed, use the 4-step LoRA . Every figure on the mo&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wwj47o/krea2_turbo_distill_2_step_lora_new_checkpoint/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
 <id>https://www.reddit.com/r/vfx/comments/1wwi3ao/game_vfx_database_realtime_vfx_reference_gallery/</id><title>Game VFX Database - Real-Time VFX Reference Gallery</title>
 <link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wwi3ao/game_vfx_database_realtime_vfx_reference_gallery/"/>
 <published>2026-10-03T08:30:55+00:00</published><updated>2026-10-03T08:30:55+00:00</updated>
@@ -59,6 +97,27 @@
 <category term="unreal engine"/>
 <summary>Developer-first error tracking and performance monitoring https://sentry.io Users and logs provide clues. Sentry provides answers. What's Sentry? Sentry is the debugging platform that helps every developer detect, trace, and fix issues. Code breaks, fix it faster. Official Sentry SDKs JavaScript Ele</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;GitHub trending (Python) · score 3 · tracking, unreal, unreal engine&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Developer-first error tracking and performance monitoring https://sentry.io Users and logs provide clues. Sentry provides answers. What's Sentry? Sentry is the debugging platform that helps every developer detect, trace, and fix issues. Code breaks, fix it faster. Official Sentry SDKs JavaScript Electron React-Native Python Ruby PHP Laravel Go Rust Java/Kotlin Objective-C/Swift C#/F# C/C++ Dart/Flutter Perl Clojure Elixir Unity Unreal Engine Godot Engine PowerShell Resources Documentation Discussions (Bugs, feature requests, general questions) Discord Contributing Bug Tracker Code Transifex (Translate Sentry!)&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.com/getsentry/sentry"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wwhswz/potionui_is_a_free_opensource_studio_for/</id><title>PotionUI is a free, open-source studio for generating images, video, music, and 3D on your own hardware with diffusion models - version 0.0.14</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wwhswz/potionui_is_a_free_opensource_studio_for/"/>
+<published>2026-10-03T08:12:16+00:00</published><updated>2026-10-03T08:12:16+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<category term="veo"/>
+<summary>Reupload : I'm adding this again, since previous post had a totally stupid title which made people assume this app is some kind of cloud/proprietary models UI - this is totally not the case here. In version 0.0.14 there is just new option to attach OpenRouter as additional backend (you can also atta</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui, veo&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Reupload : I'm adding this again, since previous post had a totally stupid title which made people assume this app is some kind of cloud/proprietary models UI - this is totally not the case here. In version 0.0.14 there is just new option to attach OpenRouter as additional backend (you can also attach ComfyUI or create plugin for other backends). Sorry for this! PotionUI is a self-hosted app for making images, videos, music and 3D with open diffusion models. Instead of one huge settings screen or a web of nodes, every model gets its own simple, hand-made form. What's new in 0.0.14: 1. Qwen-Image 2.1 control guides Keep the pose, edges or depth of any photo while you create something new. The&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wwhswz/potionui_is_a_free_opensource_studio_for/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wwh94x/h3_minimax_continuous_longtake_shot_without/</id><title>[H3 Minimax] Continuous long-take Shot without Quality Loss, can you find the cuts?</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wwh94x/h3_minimax_continuous_longtake_shot_without/"/>
+<published>2026-10-03T07:37:37+00:00</published><updated>2026-10-03T07:37:37+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="post-production"/>
+<category term="minimax"/>
+<category term="consistency"/>
+<summary>I've made this post about a way to create a continuous generation and extension of a scene without quality loss. The biggest critique was, that this was not a "long-take plan-sequence" without any cuts at all though. I've claimed that this doesn't "really matter" since the actual cuts are actually "</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · post-production, minimax, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I've made this post about a way to create a continuous generation and extension of a scene without quality loss. The biggest critique was, that this was not a "long-take plan-sequence" without any cuts at all though. I've claimed that this doesn't "really matter" since the actual cuts are actually "in motion" and not between the scenes. So I did that and created the most difficult kind of scene I could think of, a continuous long-take action scene without any visible cuts. There are 4 actual cuts in this scene, can you find them? What this approach manages to achieve: No quality degradation Consistent characters and locations throughout the scene (the big guy throwing the protagonist back in&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wwh94x/h3_minimax_continuous_longtake_shot_without/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1wwgkyj/minimax_h3_using_comfyui_in_runpod/</id><title>Minimax h3 using ComfyUI in Runpod</title>
@@ -7171,69 +7230,5 @@
 <category term="minimax"/>
 <summary>submitted by /u/No_Stomach1386 [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/No_Stomach1386 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wkqsy7/h3_minimax_swap/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wkptns/mmh3_long_vid_consistency_with_saving_latents/</id><title>MMH3 long vid consistency with saving latents</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wkptns/mmh3_long_vid_consistency_with_saving_latents/"/>
-<published>2026-09-19T15:56:41+00:00</published><updated>2026-09-19T15:56:41+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<category term="consistency"/>
-<summary>Good tutorial on how to make multi-workflow long-form videos with NO compounding drifts in image or voice. YT description has workflows, (not linking directly since he may change them at any time). He said each saved latent is only 5MB. ComfyUI node with another video: https://github.com/SatoDive/Mi</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Good tutorial on how to make multi-workflow long-form videos with NO compounding drifts in image or voice. YT description has workflows, (not linking directly since he may change them at any time). He said each saved latent is only 5MB. ComfyUI node with another video: https://github.com/SatoDive/Minimax-H3-Latent-Continuation submitted by /u/reeight [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wkptns/mmh3_long_vid_consistency_with_saving_latents/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wkoqd5/minimax_flf2v_node_constantly_resizing_once/</id><title>MiniMax FLF2V Node Constantly Resizing Once Rendering Starts</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wkoqd5/minimax_flf2v_node_constantly_resizing_once/"/>
-<published>2026-09-19T15:11:18+00:00</published><updated>2026-09-19T15:11:18+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="render"/>
-<category term="rendering"/>
-<category term="minimax"/>
-<summary>Hey everyone, I'm not sure if this is a new behavior, but each time I go to do a render, as the preview starts to form, the preview window will "expand" to take up most of the space in the node. In the process, it will then cutoff the prompt window such that each time, you have to physically grab th</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 5 · render, rendering, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey everyone, I'm not sure if this is a new behavior, but each time I go to do a render, as the preview starts to form, the preview window will "expand" to take up most of the space in the node. In the process, it will then cutoff the prompt window such that each time, you have to physically grab the corner of the node to readjust it so that you can work on your prompt. Is there any way to "fix" the size of the preview/render window to stop this behavior? It gets pretty annoying when you are constantly having the try and grab the little corner of the window and resize each time. Any help or pointers would be appreciated! submitted by /u/Tuckerdude615 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wkoqd5/minimax_flf2v_node_constantly_resizing_once/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wkombf/comfyui_agent/</id><title>comfyui Agent</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wkombf/comfyui_agent/"/>
-<published>2026-09-19T15:06:35+00:00</published><updated>2026-09-19T15:06:35+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<summary>submitted by /u/Hopeful-Election-783 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/Hopeful-Election-783 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wkombf/comfyui_agent/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wkolo6/comfyui_agent/</id><title>comfyui Agent</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wkolo6/comfyui_agent/"/>
-<published>2026-09-19T15:05:55+00:00</published><updated>2026-09-19T15:05:55+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<summary>Has anyone built an autonomous AI agent for local AI workflows? I’m wondering if something like this already exists. For example, I give the agent a script and tell it to split it into a specific number of lines/scenes, then automatically figure out which local image/video models I have available an</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Has anyone built an autonomous AI agent for local AI workflows? I’m wondering if something like this already exists. For example, I give the agent a script and tell it to split it into a specific number of lines/scenes, then automatically figure out which local image/video models I have available and choose the right ones. If a model is slow, I’d want the agent to research whether there’s a way to speed it up, check the available options, modify the workflow, test it, and improve it automatically. Basically, I want to give the agent a high-level task like “turn this script into a video” , and have it handle the whole workflow by itself — choosing models, building the workflow, generating ima&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wkolo6/comfyui_agent/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wkogz2/will_this_make_youtube_compression_reducing_the/</id><title>Will this make YouTube compression reducing the quality of the video?</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wkogz2/will_this_make_youtube_compression_reducing_the/"/>
-<published>2026-09-19T15:00:45+00:00</published><updated>2026-09-19T15:00:45+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="upscaling"/>
-<category term="minimax"/>
-<summary>I am trying understand the pipeline. I have created videos using MiniMax H3 at 720p. For upscaling, I don't want to use SeedVR2 since it takes hours to just upscale 5 second clip from 720p to 1080p. The Nvidia RTX is very fast but it doesn't make much of a difference. So my question is, if I upscale</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · upscaling, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I am trying understand the pipeline. I have created videos using MiniMax H3 at 720p. For upscaling, I don't want to use SeedVR2 since it takes hours to just upscale 5 second clip from 720p to 1080p. The Nvidia RTX is very fast but it doesn't make much of a difference. So my question is, if I upscale a 720p to 1080p using Nvidia, and then upload the 1080p version on YouTube. Will the 720p (which is automatically compressed by YouTube) quality on YouTube be worse than my original 720p? submitted by /u/Guyserbun007 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wkogz2/will_this_make_youtube_compression_reducing_the/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wknwkc/comfyui_v0360/</id><title>ComfyUI v0.36.0</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wknwkc/comfyui_v0360/"/>
-<published>2026-09-19T14:37:14+00:00</published><updated>2026-09-19T14:37:14+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="text-to-video"/>
-<category term="image-to-video"/>
-<category term="comfyui"/>
-<category term="flux"/>
-<category term="minimax"/>
-<category term="controlnet"/>
-<category term="multiview"/>
-<summary>Links Official changelog GitHub release New Open-Source Model Support FastVideo FastH3 : FastVideo 8-step distilled MiniMax H3 for text-to-video and image-to-video with native audio Marigold V2 : Depth, surface normal, and albedo estimation from a single image YuE2 : Music generation from style prom</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 8 · text-to-video, image-to-video, comfyui, flux, minimax, controlnet, multiview&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Links Official changelog GitHub release New Open-Source Model Support FastVideo FastH3 : FastVideo 8-step distilled MiniMax H3 for text-to-video and image-to-video with native audio Marigold V2 : Depth, surface normal, and albedo estimation from a single image YuE2 : Music generation from style prompts and lyrics New Node Updates Video Concatenate : Join multiple video clips end to end Generic Loops : Loop over lists in the graph, carry heterogeneous items through every iteration, and declare loop boundaries in node schemas Linear color space : Added linear to ImageColorSpace Gemini V3 node : Added GeminiNodeV3 and deprecated the V2 node Partner Node Updates Tripo P2 : Text, image, and multi&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wknwkc/comfyui_v0360/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
