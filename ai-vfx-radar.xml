@@ -2,8 +2,17 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-04T04:30:20+00:00</updated>
+<updated>2026-10-04T06:30:51+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wx6t0v/comfyui_qwen_image_21_enhancer_two_nodes/</id><title>ComfyUI Qwen image 2.1 Enhancer (Two nodes)</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wx6t0v/comfyui_qwen_image_21_enhancer_two_nodes/"/>
+<published>2026-10-04T04:38:58+00:00</published><updated>2026-10-04T04:38:58+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<summary>I put together an enhancer pack for Qwen Image 2.1 with two nodes for controlling what the model pays attention to during editing. Reference Strength lets you select a reference image and increase or decrease its attention priority. If you're working with multiple references, you can adjust them sep</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I put together an enhancer pack for Qwen Image 2.1 with two nodes for controlling what the model pays attention to during editing. Reference Strength lets you select a reference image and increase or decrease its attention priority. If you're working with multiple references, you can adjust them separately instead of giving every image the same treatment, and you also can use it for single image to prevent the loss of likeliness at times ref index starts from 1; meaning image_1 and same for the rest of images, where image_2 is ref index 2 in the node. ( Soon adding mask support) Phrase Weights brings phrase-level attention control to the Qwen Image 2.1 edit encoder. So you can write: Add (wa&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wx6t0v/comfyui_qwen_image_21_enhancer_two_nodes/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wx5tqn/the_museum_of_lost_things_short_film_by_claude/</id><title>The Museum of Lost Things | Short Film by Claude (Minimax H3) NO user input.</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wx5tqn/the_museum_of_lost_things_short_film_by_claude/"/>
@@ -7127,39 +7136,5 @@
 <category term="consistency"/>
 <summary>submitted by /u/klartreumer [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/klartreumer [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wlamrc/free_tool_i_built_a_lightweight_local_html_prompt/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wl7y6j/even_the_fresh_install_is_not_using_all_the_128gb/</id><title>Even the Fresh install is not using all the 128gb ram it stops at 50%</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wl7y6j/even_the_fresh_install_is_not_using_all_the_128gb/"/>
-<published>2026-09-20T05:14:58+00:00</published><updated>2026-09-20T05:14:58+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="minimax"/>
-<summary>https://preview.redd.it/f33y77qzzlqh1.png?width=318&amp;format=png&amp;auto=webp&amp;s=ec48e2188e391c5611ec5b1b1bdc7f8bc2e61f16 Here is the performance chart I read there is a setting but i cannot figure how to change it on the desktop windows version. Has anyone figured this out. this chart is while using mini</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;https://preview.redd.it/f33y77qzzlqh1.png?width=318&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=ec48e2188e391c5611ec5b1b1bdc7f8bc2e61f16 Here is the performance chart I read there is a setting but i cannot figure how to change it on the desktop windows version. Has anyone figured this out. this chart is while using minimax h3 .\python_embeded\python.exe -s ComfyUI\main.py --high-ram --disable-pinned-memory how do i use this switch on the desktop windows comfyui ? please submitted by /u/tostane [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wl7y6j/even_the_fresh_install_is_not_using_all_the_128gb/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wl7gph/meridian_camera_h3_by_bruxos_do_vfx/</id><title>Meridian Camera H3 — by Bruxos do VFX</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wl7gph/meridian_camera_h3_by_bruxos_do_vfx/"/>
-<published>2026-09-20T04:49:15+00:00</published><updated>2026-09-20T04:49:15+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="camera control"/>
-<category term="vfx"/>
-<category term="comfyui"/>
-<category term="minimax"/>
-<summary>https://github.com/NyckM/3d-Camera-control-H3-Minimax/tree/main # H3 Camera Control v3 — by Bruxos do VFX **Depth-based camera re-control for MiniMax H3 + Viggle Meridian inside ComfyUI.** submitted by /u/Emotional_Example_12 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 5 · camera control, vfx, comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;https://github.com/NyckM/3d-Camera-control-H3-Minimax/tree/main # H3 Camera Control v3 — by Bruxos do VFX **Depth-based camera re-control for MiniMax H3 + Viggle Meridian inside ComfyUI.** submitted by /u/Emotional_Example_12 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wl7gph/meridian_camera_h3_by_bruxos_do_vfx/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wl7eqp/meridian_camera_h3_by_bruxos_do_vfx/</id><title>Meridian Camera H3 — by Bruxos do VFX</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wl7eqp/meridian_camera_h3_by_bruxos_do_vfx/"/>
-<published>2026-09-20T04:46:29+00:00</published><updated>2026-09-20T04:46:29+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="camera control"/>
-<category term="vfx"/>
-<category term="comfyui"/>
-<category term="minimax"/>
-<summary>https://github.com/NyckM/3d-Camera-control-H3-Minimax/ # H3 Camera Control v3 — by Bruxos do VFX **Depth-based camera re-control for MiniMax H3 + Viggle Meridian inside ComfyUI.** submitted by /u/Emotional_Example_12 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 5 · camera control, vfx, comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;https://github.com/NyckM/3d-Camera-control-H3-Minimax/ # H3 Camera Control v3 — by Bruxos do VFX **Depth-based camera re-control for MiniMax H3 + Viggle Meridian inside ComfyUI.** submitted by /u/Emotional_Example_12 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wl7eqp/meridian_camera_h3_by_bruxos_do_vfx/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
