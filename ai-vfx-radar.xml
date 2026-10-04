@@ -2,8 +2,26 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-03T22:30:21+00:00</updated>
+<updated>2026-10-04T00:30:19+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1wwziyq/how_to_get_high_quality_background_removal_footage/</id><title>How to get high quality background removal footage</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wwziyq/how_to_get_high_quality_background_removal_footage/"/>
+<published>2026-10-03T22:15:00+00:00</published><updated>2026-10-03T22:15:00+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="green screen"/>
+<summary>I'm looking to record some videos of different people talking in front of a green screen and then get someone to remove the background to a high standard without any pixelation or weird looking hair. What can I do in the filming and creation of the video to make editing easier for the editor? submit</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 1 · green screen&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I'm looking to record some videos of different people talking in front of a green screen and then get someone to remove the background to a high standard without any pixelation or weird looking hair. What can I do in the filming and creation of the video to make editing easier for the editor? submitted by /u/Pure-Researcher-8229 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wwziyq/how_to_get_high_quality_background_removal_footage/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wwyva2/minimax_h3_refmod_consistent_location_trick/</id><title>Minimax H3 + RefMod = consistent location trick</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wwyva2/minimax_h3_refmod_consistent_location_trick/"/>
+<published>2026-10-03T21:44:28+00:00</published><updated>2026-10-03T21:44:28+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="minimax"/>
+<summary>Hey, I found a pretty cool way to keep locations consistent across generations. I took 20 photos of my “office” where I work, making sure each photo included a bit of the previous one so everything connected. I turned them into a refmod, although it probably doesn’t even need to be one. It’s basical</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey, I found a pretty cool way to keep locations consistent across generations. I took 20 photos of my “office” where I work, making sure each photo included a bit of the previous one so everything connected. I turned them into a refmod, although it probably doesn’t even need to be one. It’s basically a grid of all 20 photos in a single image, within 2048×2048 pixels, so I could probably just use that image as a regular reference. Then I added references for the fly, my cat, and the start and end frames. You can see the result — that’s my actual room, and everything looks right and sits exactly where it should :) Workflow + reference images here: link Sorry about the mess, both in the room a&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wwyva2/minimax_h3_refmod_consistent_location_trick/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/vfx/comments/1wwrpn9/window_seat_music_video_vfx_breakdown_after/</id><title>"Window Seat" - Music Video VFX Breakdown (After Effects, and Resolve - no AI)</title>
 <link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wwrpn9/window_seat_music_video_vfx_breakdown_after/"/>
@@ -7123,28 +7141,5 @@
 <category term="lora"/>
 <summary>Like it says in the title. I import a png into lora manager and it doesn't read any metadata for prompt, loras, anything. But if i drop the same png into comfyui it pulls up the exact workflow and every associated lora and setting submitted by /u/Cold-Worldliness5392 [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Like it says in the title. I import a png into lora manager and it doesn't read any metadata for prompt, loras, anything. But if i drop the same png into comfyui it pulls up the exact workflow and every associated lora and setting submitted by /u/Cold-Worldliness5392 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wl4k61/lora_manager_not_pulling_lora_data_from_image_to/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wl1r55/pipeline_guide_integrating_comfyui_video_renders/</id><title>Pipeline Guide: Integrating ComfyUI video renders into an ACES / Color-Managed DaVinci Resolve workflow (Stop grading AI video like JPEGs)</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wl1r55/pipeline_guide_integrating_comfyui_video_renders/"/>
-<published>2026-09-20T00:05:20+00:00</published><updated>2026-09-20T00:05:20+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="post-production"/>
-<category term="comfyui"/>
-<category term="minimax"/>
-<category term="lora"/>
-<category term="ai video"/>
-<summary>Hey everyone, One of the biggest reasons AI video often looks "cheap" or "plasticky" isn't the model itself — it's the fact that most people export standard 8-bit sRGB/Rec.709 MP4s and try to color grade them like compressed JPEGs. The colors clip, highlights burn out, and skin tones turn muddy. If </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 7 · post-production, comfyui, minimax, lora, ai video&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey everyone, One of the biggest reasons AI video often looks "cheap" or "plasticky" isn't the model itself — it's the fact that most people export standard 8-bit sRGB/Rec.709 MP4s and try to color grade them like compressed JPEGs. The colors clip, highlights burn out, and skin tones turn muddy. If you want your ComfyUI generations to look like actual cinema, you need to bring them into a scene-referred, color-managed space (ACES or DaVinci Wide Gamut) . Here is the exact pipeline I used for a recent 4K music video project: 1. ComfyUI Export: Preserving the "Digital Negative" Avoid compressed H.264 exports: Don’t export low-bitrate MP4s directly from ComfyUI for your final grade. Use a node &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wl1r55/pipeline_guide_integrating_comfyui_video_renders/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1wl0fr1/my_first_ever_vfx_short_film_rate_it_out_of_10_be/</id><title>My first ever vfx short film. Rate it out of 10. Be honest. Took me 3 months.</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wl0fr1/my_first_ever_vfx_short_film_rate_it_out_of_10_be/"/>
-<published>2026-09-19T23:06:11+00:00</published><updated>2026-09-19T23:06:11+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="vfx"/>
-<category term="blender"/>
-<summary>So i used beamng.drive for the car crashe. Configuring and performing softbody sim of a car in blender was becoming a one heck of a problem. So i decided to make a whole car crash sequence in beamng.drive and then move that entire thing to blender for texturing. Had spent a week developing a mod ded</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 3 · vfx, blender&lt;/small&gt;&lt;/p&gt;&lt;p&gt;So i used beamng.drive for the car crashe. Configuring and performing softbody sim of a car in blender was becoming a one heck of a problem. So i decided to make a whole car crash sequence in beamng.drive and then move that entire thing to blender for texturing. Had spent a week developing a mod dedicated to this task. Finally created this. 3 months work worth it?? Be brutally honest. Btw everything shot on samsung a52 camera. A mid range phone. submitted by /u/Wise_Huckleberry_902 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wl0fr1/my_first_ever_vfx_short_film_rate_it_out_of_10_be/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
