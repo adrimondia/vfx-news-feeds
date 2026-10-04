@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-04T08:30:18+00:00</updated>
+<updated>2026-10-04T10:30:51+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
 <entry>
 <id>https://github.com/meituan-longcat/LongCat-Video</id><title>meituan-longcat/LongCat-Video</title>
@@ -31,6 +31,16 @@
 <content type="html">&lt;p&gt;&lt;small&gt;GitHub trending (Python) · score 5 · video generation, animation, blender, kling, cinematic&lt;/small&gt;&lt;/p&gt;&lt;p&gt;World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio. https://www.openmontage.video/ Monty the Clapper — the official mascot of OpenMontage OpenMontage The first open-source, agentic video production system. Paste A Video · Quick Start · Try These Prompts · Pipelines · How It Works · Sponsors · Providers · Review Guide · Agent Guide Follow The Build Sponsors Want to support OpenMontage? Sponsor the project . Click to collapse Bloome lets multiple AI agents (Claude, ChatGPT, DeepSeek, and more) collaborate in one conversation for agenti&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.com/calesthio/OpenMontage"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wx73ei/looped_diffusion_transformer/</id><title>Looped Diffusion Transformer</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wx73ei/looped_diffusion_transformer/"/>
+<published>2026-10-04T04:55:50+00:00</published><updated>2026-10-04T04:55:50+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="denoising"/>
+<category term="diffusion transformer"/>
+<summary>I don't understand how it works, but the implication is clear: a small model that can be as good as one that is several times bigger. Improving text-to-image models has traditionally relied on increasing model size or the number of denoising steps. In this work, we explore an alternative way to scal</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · denoising, diffusion transformer&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I don't understand how it works, but the implication is clear: a small model that can be as good as one that is several times bigger. Improving text-to-image models has traditionally relied on increasing model size or the number of denoising steps. In this work, we explore an alternative way to scale computation by repeatedly running shared Transformer blocks within each denoising step, effectively increasing computational depth while keeping the parameter count fixed. This looped computation enables iterative refinement of internal representations without explicit reasoning tokens. However, naive looping fails to consistently improve image quality . We trace this problem to weak supervision&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wx73ei/looped_diffusion_transformer/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wx6t0v/comfyui_qwen_image_21_enhancer_two_nodes/</id><title>ComfyUI Qwen image 2.1 Enhancer (Two nodes)</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wx6t0v/comfyui_qwen_image_21_enhancer_two_nodes/"/>
 <published>2026-10-04T04:38:58+00:00</published><updated>2026-10-04T04:38:58+00:00</updated>
@@ -48,6 +58,17 @@
 <category term="minimax"/>
 <summary>View on YouTube while its pending if needed: https://youtu.be/dS5suoUiNnE?si=6U7bEVLxcWXcy4J3 🤖 How it was made This short film was written, designed, directed and edited by Claude Opus 5.5 from a single prompt, running locally in ComfyUI through my VRGDG Video Builder: All open-source video, image </summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;View on YouTube while its pending if needed: https://youtu.be/dS5suoUiNnE?si=6U7bEVLxcWXcy4J3 🤖 How it was made This short film was written, designed, directed and edited by Claude Opus 5.5 from a single prompt, running locally in ComfyUI through my VRGDG Video Builder: All open-source video, image and music models. [I literally told Claude to create something on its own and provided no user input] More Minimax H3 video's I had Claude create for me are HERE You can find the video builder custom node on GitHub here: https://github.com/vrgamegirl19/comfy... Right now, there is a Main version and a Beta 2.0 version. I recommend starting with Main for now, as that's what I'm still using. It work&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wx5tqn/the_museum_of_lost_things_short_film_by_claude/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wx4ixj/augies_ai_image_browser/</id><title>Augie's AI Image Browser</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wx4ixj/augies_ai_image_browser/"/>
+<published>2026-10-04T02:31:45+00:00</published><updated>2026-10-04T02:31:45+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="tracking"/>
+<category term="comfyui"/>
+<category term="lora"/>
+<summary>After generating thousands of images across multiple models, i realised it was becoming a pain to maintain a decent list of metadata stored in the images to be able to recreate them or re-use prompts with other models to see how the models generate images with similar prompts/seed/cfg/steps etc. I d</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · tracking, comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;After generating thousands of images across multiple models, i realised it was becoming a pain to maintain a decent list of metadata stored in the images to be able to recreate them or re-use prompts with other models to see how the models generate images with similar prompts/seed/cfg/steps etc. I decide to build something that I can use to maintain images to make it easier to find images, copy prompts and see what metadata is embedded into the images. It's effectively an AI image manager based on how ComfyUI generates images and stores metadata. Looking for feedback on whether this is a useful tool or if there's any feature issues that you see. Download: Augie's AI Image Browser Current fea&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wx4ixj/augies_ai_image_browser/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wx3xlk/looking_at_seedance_25_videos_made_me_realize_we/</id><title>Looking at Seedance 2.5 videos made me realize we need the 2K update for Minimax H3</title>
@@ -7149,19 +7170,5 @@
 <category term="unreal engine"/>
 <summary>I’ve rendered quite a bit in Twinmotion and Unreal Engine, but have gone over to V-Ray for the high-quality renders. But I’m struggling with how the highlight roll-off looks. It looks so incredibly bad. It might be a HDR thing; it reminds me of how the first point-and-shoot cameras did highlight rol</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 3 · hdr, unreal, unreal engine&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I’ve rendered quite a bit in Twinmotion and Unreal Engine, but have gone over to V-Ray for the high-quality renders. But I’m struggling with how the highlight roll-off looks. It looks so incredibly bad. It might be a HDR thing; it reminds me of how the first point-and-shoot cameras did highlight roll-off. Does anyone have a solution to this? I´ve worked as a photographer for some years so I might just be sensitive to pixel peeping... who knows. https://preview.redd.it/hnypq5c17oqh1.png?width=552&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=f479adbb2efaae949346cda60318fdce1a007b4c submitted by /u/Ok_Suspect9159 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wlg0nu/vray_for_rhino_question_about_highlight_roll_off/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wlc51g/radio_drama_generator_open_source_multimodel/</id><title>Radio Drama Generator / Open Source Multi-Model Pipeline</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wlc51g/radio_drama_generator_open_source_multimodel/"/>
-<published>2026-09-20T09:08:53+00:00</published><updated>2026-09-20T09:08:53+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="video model"/>
-<category term="comfyui"/>
-<category term="blender"/>
-<category term="flux"/>
-<category term="wan"/>
-<category term="ltx"/>
-<summary>I have been building a node pack that makes a complete radio drama from one press. A local LLM writes the script (or adapts a scene of Shakespeare, a public-domain story, or tonight's news from an RSS feed), a cast lock gives every character one stable neural voice for the whole episode, a music mod</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 6 · video model, comfyui, blender, flux, wan, ltx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I have been building a node pack that makes a complete radio drama from one press. A local LLM writes the script (or adapts a scene of Shakespeare, a public-domain story, or tonight's news from an RSS feed), a cast lock gives every character one stable neural voice for the whole episode, a music model composes the theme, an image or video model draws the scenes, captions get burned in, a credit roll runs, and a finished .mp4 lands in your output folder. Default run: no account, no API key, no paid service. It reaches the internet for the first model download and for the news feed, and for nothing else. Why I'm posting it here rather than in a radio forum: most of the work is not radio. It is&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wlc51g/radio_drama_generator_open_source_multimodel/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
