@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-04T08:00:18+00:00</updated>
+<updated>2026-10-04T08:30:18+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
 <entry>
 <id>https://github.com/meituan-longcat/LongCat-Video</id><title>meituan-longcat/LongCat-Video</title>
@@ -58,6 +58,16 @@
 <category term="seedance"/>
 <summary>For now the quality difference is staggering, Minimax H3 is incredible and far beyond what we had locally but the broken promise of the 2K update is quite noticeable now, just look at how crisp the micro details are with SD2.5, with Minimax H3 it's pixelated and shimmery, if you have a static shot y</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · minimax, seedance&lt;/small&gt;&lt;/p&gt;&lt;p&gt;For now the quality difference is staggering, Minimax H3 is incredible and far beyond what we had locally but the broken promise of the 2K update is quite noticeable now, just look at how crisp the micro details are with SD2.5, with Minimax H3 it's pixelated and shimmery, if you have a static shot you can notice pixels shifting and altering colors every few frames regardless of what happening on the screen. If you still don't know what I'm talking about, generate a scene in a restaurant and look at the glasses or bottles micro details it quiet distracting. The API version of minimax had H3-Regenerate-2K since day I believe. MINIMAX WE NEED THE 2K VERSION PLEASE! submitted by /u/Cequejedisest&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wx3xlk/looking_at_seedance_25_videos_made_me_realize_we/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wx38zs/updated_comfyuiseedvr2videoupscalerwithtensorrt/</id><title>Updated ComfyUI-SeedVR2-VideoUpscaler-with-TensorRT v1.6.0 - DisTorch2 DiT Loader Node &amp; Phase 2 VRAM Controls (※For 6GB/8GB users)</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wx38zs/updated_comfyuiseedvr2videoupscalerwithtensorrt/"/>
+<published>2026-10-04T01:23:18+00:00</published><updated>2026-10-04T01:23:18+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<category term="dit"/>
+<summary>When I published an update on TensorRT the other day, I received enquiries from users of the RTX 4050 6GB and RTX 5060 8GB. https://www.reddit.com/r/comfyui/comments/1wsbar9/updated_comfyuiseedvr2videoupscalerwithtensorrt/ Subsequently, I refined the code, focusing on reducing VRAM spikes during Dit</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, dit&lt;/small&gt;&lt;/p&gt;&lt;p&gt;When I published an update on TensorRT the other day, I received enquiries from users of the RTX 4050 6GB and RTX 5060 8GB. https://www.reddit.com/r/comfyui/comments/1wsbar9/updated_comfyuiseedvr2videoupscalerwithtensorrt/ Subsequently, I refined the code, focusing on reducing VRAM spikes during Dit processing for 6GB/8GB VRAM users. https://www.reddit.com/r/StableDiffusion/comments/1wuj0rj/updated_updated/ However, this measure merely ‘improved the situation to a certain extent’; it did not completely suppress the VRAM spikes. Subsequently, I conducted a thorough analysis of VRAM usage during the Dit processing and identified a stage where the data is momentarily expanded to fp32 size; by c&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wx38zs/updated_comfyuiseedvr2videoupscalerwithtensorrt/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wx15bb/i_may_be_the_stupidest_person_on_this_sub/</id><title>I may be the stupidest person on this sub</title>
