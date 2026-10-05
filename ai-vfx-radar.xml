@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-05T08:30:29+00:00</updated>
+<updated>2026-10-05T10:31:04+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wxziy4/vnccs_320_released_with_qwen_image_21_and_minimax/</id><title>VNCCS 3.2.0 Released with Qwen Image 2.1 and MiniMax H3 support!</title>
@@ -7142,56 +7142,5 @@
 <category term="tracking"/>
 <summary>i have filmed a simple shot of the side of a building, and my plan is having a cube or a ragdoll falling off the building and hitting the ground, but when i try to track, the perspective is so off, the solid isnt paralell to the wall that i want it to stuck to, this ruins the possibility of simulati</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · tracking&lt;/small&gt;&lt;/p&gt;&lt;p&gt;i have filmed a simple shot of the side of a building, and my plan is having a cube or a ragdoll falling off the building and hitting the ground, but when i try to track, the perspective is so off, the solid isnt paralell to the wall that i want it to stuck to, this ruins the possibility of simulating the rigid body falling off the roof because i have to use a warped cube/plane to align with the wall, i also tried with a tripod pan track but that went even worse. how do i fix this? i also tried tracking in syntheyes but that didnt work at all submitted by /u/Due-Traffic5899 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wma9bx/my_perspective_when_tracking_in_after_effects_is/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wm8ljn/minimax_leads/</id><title>Minimax Leads</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wm8ljn/minimax_leads/"/>
-<published>2026-09-21T10:07:59+00:00</published><updated>2026-09-21T10:07:59+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="minimax"/>
-<summary>Ha, on the Arena.ai leaderboard for Image to Video, Minimax this week beats all other Models, open source and proprietary! Minimax is still a bit behind on the Text to Video front, placing 8th presently, down from sixth, but the point spread among all the top models is less than 50 points out of 150</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Ha, on the Arena.ai leaderboard for Image to Video, Minimax this week beats all other Models, open source and proprietary! Minimax is still a bit behind on the Text to Video front, placing 8th presently, down from sixth, but the point spread among all the top models is less than 50 points out of 1500. submitted by /u/robertwellesley [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wm8ljn/minimax_leads/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wm8gsq/minimax_h3_now_generates_blurry_faces_distorted/</id><title>MiniMax H3 now generates blurry faces, distorted hands, and sometimes red bar artifacts....</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wm8gsq/minimax_h3_now_generates_blurry_faces_distorted/"/>
-<published>2026-09-21T10:00:43+00:00</published><updated>2026-09-21T10:00:43+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="minimax"/>
-<summary>Hi guys, I'm kinda scared... since yesterday, on ComfyUI while using MiniMax H3, on IMG to Video and even on Text to Video Workflows, I'm getting blurry hands and faces, even on low resolutions like 0.3 MP. And on 0.5 MP, I'm usually getting these annoying red bar artifacts. This didn't happen befor</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi guys, I'm kinda scared... since yesterday, on ComfyUI while using MiniMax H3, on IMG to Video and even on Text to Video Workflows, I'm getting blurry hands and faces, even on low resolutions like 0.3 MP. And on 0.5 MP, I'm usually getting these annoying red bar artifacts. This didn't happen before. I'm barely 2 weeks of using MiniMax H3. I'm scared this might be my GPU, but I'm not getting these artifacts while browsing the net, and for now, when I'm gaming. Have you got this issue out of nowhere? I can generate videos with audio, and without these red bars on 0.3 MP resolutions, but with blurry hands and sometimes blurry faces. Is my GPU dying, did I stress it too much by using Minimax H&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wm8gsq/minimax_h3_now_generates_blurry_faces_distorted/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wm7y1x/how_can_i_achieve_a_consistent_cameraviewpoint/</id><title>How can I achieve a consistent camera/viewpoint change on a complex scene?</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wm7y1x/how_can_i_achieve_a_consistent_cameraviewpoint/"/>
-<published>2026-09-21T09:30:32+00:00</published><updated>2026-09-21T09:30:32+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="flux"/>
-<category term="controlnet"/>
-<summary>Hi everyone, I'm having a hard time achieving a real camera/viewpoint change on complex scenes, and I'd like to understand whether I'm approaching the problem incorrectly or if there are better models/workflows for this. For example, I have a fairly complex urban scene: a city in post-apocalyptic co</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · comfyui, flux, controlnet&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi everyone, I'm having a hard time achieving a real camera/viewpoint change on complex scenes, and I'd like to understand whether I'm approaching the problem incorrectly or if there are better models/workflows for this. For example, I have a fairly complex urban scene: a city in post-apocalyptic conditions a street intersection a large sinkhole in the middle of the intersection a yellow car (taxi), with its front half sticking out over the sinkhole three people on the left side of the car a fourth person hanging from the front of the car I start with a side view of the scene, and I want to generate a new shot where the camera moves upward and looks down at the scene from above, while keepin&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wm7y1x/how_can_i_achieve_a_consistent_cameraviewpoint/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wm77xo/some_very_simple_qwenimage21_workflows/</id><title>Some very simple Qwen-Image-2.1 workflows</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wm77xo/some_very_simple_qwenimage21_workflows/"/>
-<published>2026-09-21T08:47:16+00:00</published><updated>2026-09-21T08:47:16+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="outpainting"/>
-<category term="image editing"/>
-<category term="comfyui"/>
-<summary>Nothing fancy here. Qwen-Image-2.1 has a pretty simple architecture, so the workflows end up simple too, and the official templates already cover most of this. But that simplicity is kind of the fun part. Feels like there's a lot you could build on top of it. Anyway, I went through the tasks in the </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · outpainting, image editing, comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Nothing fancy here. Qwen-Image-2.1 has a pretty simple architecture, so the workflows end up simple too, and the official templates already cover most of this. But that simplicity is kind of the fun part. Feels like there's a lot you could build on top of it. Anyway, I went through the tasks in the Qwen blog and made each one its own little workflow, so you can just grab whatever you need: https://comfyui.nomadoor.net/en/basic-workflows/qwen-image-2-1/ Text-to-image Ref2Image Basic image editing Marking the edit area with colored circles Marking the edit area with a mask Outpainting Transparent image generation Subject extraction / background removal Panorama generation Plain image generatio&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wm77xo/some_very_simple_qwenimage21_workflows/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wm73j7/h3_sharpness_lms_lora_successes/</id><title>H3 Sharpness LMS LoRa Successes?</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wm73j7/h3_sharpness_lms_lora_successes/"/>
-<published>2026-09-21T08:40:06+00:00</published><updated>2026-09-21T08:40:06+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="minimax"/>
-<category term="lora"/>
-<summary>Has anyone had luck with the new "Sharpness" LMS LoRA Minimax workflow? I tried a dozen ways to Sunday, obediently follow instructions, tweaking it, feeding it different sized input videos, and all it seems to do it little more than a typical sharpen, no AI kicking in to hallucinate detail or anythi</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Has anyone had luck with the new "Sharpness" LMS LoRA Minimax workflow? I tried a dozen ways to Sunday, obediently follow instructions, tweaking it, feeding it different sized input videos, and all it seems to do it little more than a typical sharpen, no AI kicking in to hallucinate detail or anything. Anyone got the trick to getting it to work? I don't want to just discard with it, but maybe I am taken in by marketing puffery. The images sure look convincing over on https://huggingface.co/Alissonerdx/Minimax-H3-ComfyUI . Anyone gotten it to work right and produce actual advantage over other methods? Thx, submitted by /u/robertwellesley [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wm73j7/h3_sharpness_lms_lora_successes/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
