@@ -2,8 +2,21 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-05T10:31:04+00:00</updated>
+<updated>2026-10-05T12:30:45+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wy3sx8/first_try_at_anime_with_h3_minimax/</id><title>First try at anime with H3 minimax</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wy3sx8/first_try_at_anime_with_h3_minimax/"/>
+<published>2026-10-05T09:07:17+00:00</published><updated>2026-10-05T09:07:17+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="upscaler"/>
+<category term="animation"/>
+<category term="comfyui"/>
+<category term="minimax"/>
+<category term="seedance"/>
+<summary>I was trying to do some anime with Minimax since one month but was struggling a lot with the animation, the look who was more 3dish/celshading than real anime version until i found a channel on youtube explaining (with seedance 2 prompts) how he was doing his anime based on DBZ (one of my Adolescenc</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 6 · upscaler, animation, comfyui, minimax, seedance&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I was trying to do some anime with Minimax since one month but was struggling a lot with the animation, the look who was more 3dish/celshading than real anime version until i found a channel on youtube explaining (with seedance 2 prompts) how he was doing his anime based on DBZ (one of my Adolescence anime) I found quite interesting the video and tried it on a concept i had with one song i made with Suno, who was speed and could match perfectly with some kind of anime opening with sakuga style animation I then put the ideas on chatGPT for the characters, the scenes with a 2D semi-flat colors, clean design, not super busy directives on the design and it happened to do quite the job. Then i tr&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wy3sx8/first_try_at_anime_with_h3_minimax/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wxziy4/vnccs_320_released_with_qwen_image_21_and_minimax/</id><title>VNCCS 3.2.0 Released with Qwen Image 2.1 and MiniMax H3 support!</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wxziy4/vnccs_320_released_with_qwen_image_21_and_minimax/"/>
@@ -7121,26 +7134,5 @@
 <category term="lora"/>
 <summary>Another quick Minimax H3 news and goodies round-up, for those who may have missed some items. -&gt; A new CrossView-Warp LoRA for H3, with matching nodes. "Give it a video and a camera offset - azimuth, elevation - and it generates the same scene from that new viewpoint". The process... "reads two vide</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · comfyui, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Another quick Minimax H3 news and goodies round-up, for those who may have missed some items. -&amp;gt; A new CrossView-Warp LoRA for H3, with matching nodes. "Give it a video and a camera offset - azimuth, elevation - and it generates the same scene from that new viewpoint". The process... "reads two videos: a depth-warp of your clip [made by the Comfy node], which carries the geometry, and the [reference] clip itself, which carries identity and appearance." Has a workflow. Trigger word needed: crosswarp https://huggingface.co/Cseti/MiniMax-H3_Ref2VA-LoRA-CrossView-Warp_v1 (LoRA) https://github.com/cseti007/ComfyUI-CrossViewWarp (ComfyUI nodes) https://huggingface.co/datasets/Cseti/ComfyUI-Workflo&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wmg6a4/a_quick_minimax_h3_news_roundup_21st_september/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wmb4ld/comfyuikompressor_v10_int8_convrot_w4a8_convrot/</id><title>ComfyUI-Kompressor v1.0 — INT8 ConvRot / W4A8 ConvRot quantization tools</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wmb4ld/comfyuikompressor_v10_int8_convrot_w4a8_convrot/"/>
-<published>2026-09-21T12:17:05+00:00</published><updated>2026-09-21T12:17:05+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="flux"/>
-<category term="wan"/>
-<category term="minimax"/>
-<summary>I’ve been working on a ComfyUI node pack to quantize models for personal use but decided to release it. The following architectures are supported and auto-detected: Krea 2 Z-Image FLUX.2 Klein 4B/9B Wan 2.2 Anima LTX-2.5 MiniMax H3 and the new Qwen Image 2.1. Includes INT8 ConvRot and W4A8 ConvRot q</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · comfyui, flux, wan, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I’ve been working on a ComfyUI node pack to quantize models for personal use but decided to release it. The following architectures are supported and auto-detected: Krea 2 Z-Image FLUX.2 Klein 4B/9B Wan 2.2 Anima LTX-2.5 MiniMax H3 and the new Qwen Image 2.1. Includes INT8 ConvRot and W4A8 ConvRot quantization, along with model inspection and architecture-aware handling. This is the first public release, so bug reports and feedback are welcome. GitHub: https://github.com/a3nu/ComfyUI-Kompressor submitted by /u/a3tinu [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wmb4ld/comfyuikompressor_v10_int8_convrot_w4a8_convrot/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1wma9bx/my_perspective_when_tracking_in_after_effects_is/</id><title>my perspective when tracking in after effects is way off</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wma9bx/my_perspective_when_tracking_in_after_effects_is/"/>
-<published>2026-09-21T11:36:01+00:00</published><updated>2026-09-21T11:36:01+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="tracking"/>
-<summary>i have filmed a simple shot of the side of a building, and my plan is having a cube or a ragdoll falling off the building and hitting the ground, but when i try to track, the perspective is so off, the solid isnt paralell to the wall that i want it to stuck to, this ruins the possibility of simulati</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · tracking&lt;/small&gt;&lt;/p&gt;&lt;p&gt;i have filmed a simple shot of the side of a building, and my plan is having a cube or a ragdoll falling off the building and hitting the ground, but when i try to track, the perspective is so off, the solid isnt paralell to the wall that i want it to stuck to, this ruins the possibility of simulating the rigid body falling off the roof because i have to use a warped cube/plane to align with the wall, i also tried with a tripod pan track but that went even worse. how do i fix this? i also tried tracking in syntheyes but that didnt work at all submitted by /u/Due-Traffic5899 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wma9bx/my_perspective_when_tracking_in_after_effects_is/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
