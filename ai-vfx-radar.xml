@@ -2,8 +2,41 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-06T04:30:19+00:00</updated>
+<updated>2026-10-06T06:30:35+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wyv29h/character_sheet_generation/</id><title>Character Sheet generation?</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wyv29h/character_sheet_generation/"/>
+<published>2026-10-06T06:02:18+00:00</published><updated>2026-10-06T06:02:18+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<category term="multi-view"/>
+<summary>Hi, I'm new. I'm interested in generating accurate multi-view character sheets from a single character concept art. Preferably in A-pose. Is this something I can achieve with comfyui? Where should I start? My ultimate goal is to draw basic character designs then plug it into a pipeline that automati</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui, multi-view&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi, I'm new. I'm interested in generating accurate multi-view character sheets from a single character concept art. Preferably in A-pose. Is this something I can achieve with comfyui? Where should I start? My ultimate goal is to draw basic character designs then plug it into a pipeline that automatically turn it into A-pose character sheet from 4 angles, which I can then use to generate rough base models I can adjust in Zbrush. I don't need the export model to be perfect but it needs to be more or less symmetrical (hence the A-pose preference) for Zbrush. I need to be able to run it locally on my pc so I'd likely be using Trellis 2. submitted by /u/Constant_Term_6480 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wyv29h/character_sheet_generation/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wyuqj9/generating_at_2k_14s_209mpx_1984x1120_30_minutes/</id><title>Generating at 2K (14s, 2.09mpx, 1984x1120, 30 minutes) | Minimax H3</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wyuqj9/generating_at_2k_14s_209mpx_1984x1120_30_minutes/"/>
+<published>2026-10-06T05:42:37+00:00</published><updated>2026-10-06T05:42:37+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="video generation"/>
+<category term="denoising"/>
+<category term="minimax"/>
+<category term="ai video"/>
+<summary>[INFO] Prompt executed in 00:30:49 Full 1080p vid on https://www.youtube.com/watch?v=ER_5AOteE-8 because Reddit cramps everything to 720p max. From my previous post, I got a message if I could use my off-screen 5090 to showcase what a fullblown 2K generation looks like. So, here it is. Generated at </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 5 · video generation, denoising, minimax, ai video&lt;/small&gt;&lt;/p&gt;&lt;p&gt;[INFO] Prompt executed in 00:30:49 Full 1080p vid on https://www.youtube.com/watch?v=ER_5AOteE-8 because Reddit cramps everything to 720p max. From my previous post, I got a message if I could use my off-screen 5090 to showcase what a fullblown 2K generation looks like. So, here it is. Generated at 2.09mpx, 25 steps, Euler+Beta for time constraints, 30 minutes. I did mistakenly use the 20-49 hybrid fl2va/ref2va instead of the 30-49 which left some visual performance on the table, and I didn't use the BF16 version of the text encoder because my other 5090 and RAM were busy with something else. Otherwise would've done seeds_2 + sgm_uniform, but that would've taken an hour and would've been a l&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wyuqj9/generating_at_2k_14s_209mpx_1984x1120_30_minutes/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wyu1vb/regarding_the_image_quality_of_qwenimage_21/</id><title>Regarding the image quality of Qwen-image 2.1</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wyu1vb/regarding_the_image_quality_of_qwenimage_21/"/>
+<published>2026-10-06T05:01:35+00:00</published><updated>2026-10-06T05:01:35+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="upscaling"/>
+<category term="image editing"/>
+<category term="comfyui"/>
+<summary>I wonder if anyone has encountered this issue. When performing image editing with Qwen-image 2.1 (hereinafter referred to as QI-21), the results often feel unfinished. The attached images are from my tests: Image 1 is the original image, Image 2 is a 2K upscale using QI-21, and Image 3 is a 2K upsca</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · upscaling, image editing, comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I wonder if anyone has encountered this issue. When performing image editing with Qwen-image 2.1 (hereinafter referred to as QI-21), the results often feel unfinished. The attached images are from my tests: Image 1 is the original image, Image 2 is a 2K upscale using QI-21, and Image 3 is a 2K upscale using Krea2Edit. Perhaps I am using the wrong approach, so I have attached the QI-21 workflow (it is a minor tweak based on the official comfyui workflow). Upscaling is just an example; this is not an isolated case. The same problem occurs with most QI-21 editing tasks. Has anyone else experienced this, and how did you resolve it? My Ksample parameters are steps:25 CFG:1 sampler:res_multistep s&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wyu1vb/regarding_the_image_quality_of_qwenimage_21/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://arxiv.org/abs/2610.03771</id><title>LoRA Direction Extraction for Controllable Light Toggling in FLUX.1 Kontext</title>
 <link rel="alternate" href="https://arxiv.org/abs/2610.03771"/>
@@ -290,6 +323,18 @@
 <content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.GR · score 6 · video generation, text-to-video, consistency, storyboard&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2605.23508v2 Announce Type: replace Abstract: Long video generation requires high-fidelity visual synthesis, coherent narrative organization, shot-level structure, and explicit user control. Existing text-to-video methods typically generate videos from a single long-form prompt, making it difficult for creators to directly control character pose, camera composition, spatial layout, and local motion. We propose DrawVideo, a sketch-guided and storyboard-driven framework that grounds multi-shot video generation in creator-provided spatial structure, appearance, and motion. Each shot is specified by a black-and-white sketch, an appearance prompt, and a motion prompt. DrawVideo first genera&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2605.23508"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
+<id>https://arxiv.org/abs/2609.24997</id><title>VideoGen-Agent: Reinforcing Video Generation Agents</title>
+<link rel="alternate" href="https://arxiv.org/abs/2609.24997"/>
+<published>2026-10-06T04:00:00+00:00</published><updated>2026-10-06T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="video generation"/>
+<category term="text-to-video"/>
+<category term="consistency"/>
+<category term="identity preservation"/>
+<summary>arXiv:2609.24997v3 Announce Type: replace Abstract: Recent advances in video generative models have enabled high-fidelity, temporally coherent video generation. However, these models often struggle to satisfy prompts requiring specialized knowledge, specific identities, physical consistency, or orde</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · video generation, text-to-video, consistency, identity preservation&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.24997v3 Announce Type: replace Abstract: Recent advances in video generative models have enabled high-fidelity, temporally coherent video generation. However, these models often struggle to satisfy prompts requiring specialized knowledge, specific identities, physical consistency, or ordered events. In this paper, we present VideoGen-Agent, a multimodal agent trained through multitask agentic reinforcement learning to use external tools for video generation. The agent coordinates augmentation, generation, and verification tools through multi-turn interactions, using the prompt and intermediate observations to guide its decisions. We train a shared policy on a category-balanced dat&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.24997"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wysyuu/it_looks_like_the_code_for_hunyuan_prism_has_been/</id><title>It looks like the code for Hunyuan Prism has been released</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wysyuu/it_looks_like_the_code_for_hunyuan_prism_has_been/"/>
 <published>2026-10-06T03:59:53+00:00</published><updated>2026-10-06T03:59:53+00:00</updated>
@@ -297,6 +342,15 @@
 <category term="hunyuan"/>
 <summary>Prism:Dynamic Sparse Attention for Native 2K Joint Video-Audio Generation Model Training https://huggingface.co/FrancisRing/Prism https://github.com/Tencent-Hunyuan/Prism https://www.youtube.com/watch?v=XEL2IkSOSQw submitted by /u/Diabolicor [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · hunyuan&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Prism:Dynamic Sparse Attention for Native 2K Joint Video-Audio Generation Model Training https://huggingface.co/FrancisRing/Prism https://github.com/Tencent-Hunyuan/Prism https://www.youtube.com/watch?v=XEL2IkSOSQw submitted by /u/Diabolicor [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wysyuu/it_looks_like_the_code_for_hunyuan_prism_has_been/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wyspy0/i_made_a_pose_tool_that_lets_you_easily_create/</id><title>I made a pose tool that lets you easily create the poses you want, with support for OpenPose, ControlNet, and VNCCS output.</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wyspy0/i_made_a_pose_tool_that_lets_you_easily_create/"/>
+<published>2026-10-06T03:46:05+00:00</published><updated>2026-10-06T03:46:05+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="controlnet"/>
+<summary>You can pose the figure, adjust the body, and add multiple people to a scene. Sketch Mode turns the scene into a simple gray drawing reference. You can save it as a PNG or export it as an OBJ. It’s free to use in the browser. There are a few ads, and it’s still a little rough around the hands. If yo</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · controlnet&lt;/small&gt;&lt;/p&gt;&lt;p&gt;You can pose the figure, adjust the body, and add multiple people to a scene. Sketch Mode turns the scene into a simple gray drawing reference. You can save it as a PNG or export it as an OBJ. It’s free to use in the browser. There are a few ads, and it’s still a little rough around the hands. If you try it, let me know where it fights you. Feedback is very welcome! https://poseform.vercel.app/ submitted by /u/Upstairs-Lead-2601 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wyspy0/i_made_a_pose_tool_that_lets_you_easily_create/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/vfx/comments/1wyrgxh/the_first_two_minutes_of_my_short_film_that/</id><title>The First Two Minutes Of My Short Film That Blends Live Action And Unreal Engine</title>
@@ -610,6 +664,15 @@
 <category term="blender"/>
 <summary>Hi, I'm using NukeX 17.0v1 on win, the problem cames in when I view the scanlinerender it's completely broken. The set-up cames from Blender and it's 2 meshes merged and remeshed with geometry nodes, one has an armature and deforms. I'ts Imported as a .usd i've tried also with .abc but I couldn't pr</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 3 · nuke, blender&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi, I'm using NukeX 17.0v1 on win, the problem cames in when I view the scanlinerender it's completely broken. The set-up cames from Blender and it's 2 meshes merged and remeshed with geometry nodes, one has an armature and deforms. I'ts Imported as a .usd i've tried also with .abc but I couldn't project the texture. As you can see from the images the projection works when I am in the 3d view but glitches in the scanlinerender, please help, I am availabe for more in detail description if needed. submitted by /u/onytt [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wy5sy0/3d_projection_on_nuke_problem/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wy44vk/hola_gente_de_reddit_tengo_un_problema_al_tratar/</id><title>hola gente de reddit, tengo un problema al tratar de iniciar comfyui portable para amd, me sale lo de la captura y no se inicia, tengo una rx 6600 xt y un ryzen 5 5600 g</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wy44vk/hola_gente_de_reddit_tengo_un_problema_al_tratar/"/>
+<published>2026-10-05T09:28:33+00:00</published><updated>2026-10-05T09:28:33+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<summary>https://preview.redd.it/5jel645samth1.png?width=1220&amp;format=png&amp;auto=webp&amp;s=508de478a2e9559c6164823a8b7d7a79e158eaab submitted by /u/WPsebas [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;https://preview.redd.it/5jel645samth1.png?width=1220&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=508de478a2e9559c6164823a8b7d7a79e158eaab submitted by /u/WPsebas [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wy44vk/hola_gente_de_reddit_tengo_un_problema_al_tratar/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1wy3y2w/vnccs_322_released_with_qwen_image_21_and_minimax/</id><title>VNCCS 3.2.2 Released with Qwen Image 2.1 and MiniMax H3 support!</title>
@@ -7358,29 +7421,5 @@
 <category term="controlnet"/>
 <summary>Hi everyone, I am looking for some technical advice on creating a ComfyUI workflow for specific use case. I manufacture custom wooden stairs and want to automate generating photorealistic client visualisations directly from my 2D drawing. Let's say i paired exactly 50-100 technical drawings with the</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · render, comfyui, controlnet&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi everyone, I am looking for some technical advice on creating a ComfyUI workflow for specific use case. I manufacture custom wooden stairs and want to automate generating photorealistic client visualisations directly from my 2D drawing. Let's say i paired exactly 50-100 technical drawings with their corresponding real-life photos , is it enough to create a working setup? I've had some success creating photo-realistic close'ups of a product using ControlNet and that gives me hope. The goal is to input a new drawing -&amp;gt; output a accurate, photorealistic render with the exact geometry. I've attached a simple pair to show the exact input im working with. Thanks in advance for any insights or su&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wn229o/turning_2d_drawing_into_photorealistic_renders/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wn14xp/i_let_minimax_h3_direct_the_battle_scene/</id><title>I let minimax H3 direct the battle scene</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wn14xp/i_let_minimax_h3_direct_the_battle_scene/"/>
-<published>2026-09-22T05:56:56+00:00</published><updated>2026-09-22T05:56:56+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="minimax"/>
-<category term="storyboard"/>
-<summary>I generally have a workflow for creating AI videos where I write the whole scene either with morphic copilot or claude and generate it scene by scene with a proper storyboard, but I tried something different today. I generated 3 images ( character, wolf and compound), explained my idea to copilot an</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · minimax, storyboard&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I generally have a workflow for creating AI videos where I write the whole scene either with morphic copilot or claude and generate it scene by scene with a proper storyboard, but I tried something different today. I generated 3 images ( character, wolf and compound), explained my idea to copilot and let it write a simple prompt for battle scene , then minimax H3 picked up generated this scene for me total length was 15 but trimmed 3 seconds from beginning as that was horrible and still some inconsistency in the video, ik it won’t work on long sequences but for one scene it did pretty good i think. submitted by /u/Usedependence [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wn14xp/i_let_minimax_h3_direct_the_battle_scene/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wn0fl5/i_made_a_short_product_film_using_blender_for/</id><title>I made a short product film using Blender for camera control and ComfyUI for the final generative video</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wn0fl5/i_made_a_short_product_film_using_blender_for/"/>
-<published>2026-09-22T05:17:48+00:00</published><updated>2026-09-22T05:17:48+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="camera control"/>
-<category term="comfyui"/>
-<category term="blender"/>
-<category term="consistency"/>
-<category term="storyboard"/>
-<category term="generative video"/>
-<summary>I have been experimenting with a workflow that uses Blender as the structural foundation for generative video rather than starting from text prompts alone. For this spec project, I used ChatGPT Astra during concept development, storyboarding, and Blender scene production. I then created the camera m</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 10 · camera control, comfyui, blender, consistency, storyboard, generative video&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I have been experimenting with a workflow that uses Blender as the structural foundation for generative video rather than starting from text prompts alone. For this spec project, I used ChatGPT Astra during concept development, storyboarding, and Blender scene production. I then created the camera movement, composition, timing, and rough scene structure in Blender before processing each shot through a ComfyUI workflow. My main goal was product consistency and directorial control. I wanted to test whether a 3D guided process could preserve the design of the shoe while still getting the visual richness of generative video. The process worked, but it was not as automatic as I expected. Matching&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wn0fl5/i_made_a_short_product_film_using_blender_for/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
