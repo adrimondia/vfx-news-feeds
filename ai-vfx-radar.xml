@@ -2,8 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-06T12:31:08+00:00</updated>
+<updated>2026-10-06T14:31:05+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wz1zyk/animegen_is_released_now_you_can_run_anima/</id><title>AnimeGen is released. Now you can run Anima locally on your iPhone/iPad in HD!</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wz1zyk/animegen_is_released_now_you_can_run_anima/"/>
+<published>2026-10-06T13:01:16+00:00</published><updated>2026-10-06T13:01:16+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="upscaler"/>
+<category term="image editing"/>
+<category term="controlnet"/>
+<summary>I made AnimeGen , app that allows you to run Anima on your mobile phone. Since last post I added hd image generation, and different aspect ratios. The app is now available on the App Store: https://apps.apple.com/pl/app/animegen-anime-art-generator/id6786438562 I am an iOS developer and unfortunatel</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · upscaler, image editing, controlnet&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I made AnimeGen , app that allows you to run Anima on your mobile phone. Since last post I added hd image generation, and different aspect ratios. The app is now available on the App Store: https://apps.apple.com/pl/app/animegen-anime-art-generator/id6786438562 I am an iOS developer and unfortunately can't make an Android app. Sorry for that. What it can do now Prompt-to-image generation powered by Anima HD and 540r image generation in different ratios Runs locally on your device Performance iPhone 14 : approximately 15–20 seconds per image iPhone 17 : approximately 10–15 seconds per image M1 iPad : approximately 15–20 seconds per image It uses native Apple Neural Engine, so it is very effic&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wz1zyk/animegen_is_released_now_you_can_run_anima/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wz0t47/i_made_a_tiny_8mb_photo_editor_for_ai_images_with/</id><title>I made a tiny (~8MB) photo editor for AI images with batch editing, LUTs, and ComfyUI workflow preservation [Free &amp; Open Source]</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wz0t47/i_made_a_tiny_8mb_photo_editor_for_ai_images_with/"/>
+<published>2026-10-06T12:03:19+00:00</published><updated>2026-10-06T12:03:19+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="color grading"/>
+<category term="comfyui"/>
+<category term="cinematic"/>
+<summary>I was tired of opening heavy photo editors just to tweak lighting or color-grade a folder of AI generations. So I built TinyLuma - an instant, lightweight photo editor designed specifically for finishing AI artwork and photo sets. No installation required, no subscriptions, and the whole app is only</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · color grading, comfyui, cinematic&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I was tired of opening heavy photo editors just to tweak lighting or color-grade a folder of AI generations. So I built TinyLuma - an instant, lightweight photo editor designed specifically for finishing AI artwork and photo sets. No installation required, no subscriptions, and the whole app is only ~8 MB. What’s inside: - All essential controls: Clean sliders for Light (Exposure, Contrast, Highlights, Shadows, Whites, Blacks), Color (Temp, Tint, Vibrance, Saturation), plus Dehaze and natural Film Grain. - Crisp details &amp;amp; texture: Custom Clarity, Texture, and Sharpen sliders to enhance overall sharpness and bring out skin texture, hair strands, and fabric weave without harsh white halos. - C&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wz0t47/i_made_a_tiny_8mb_photo_editor_for_ai_images_with/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wyyolz/comfyui_v0390_released/</id><title>ComfyUI v0.39.0 released</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wyyolz/comfyui_v0390_released/"/>
@@ -7325,71 +7347,5 @@
 <category term="lora"/>
 <summary>This LoRA can do a lot of good things such as detail enhancement, creative upscaling, photo restoration and quality improvements. It's a Image-to-Image(I2I) edit LoRA, so it will require image input, but you can use with Text-to-Image as well. I will be honest here; model itself is quite capable of </summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · upscaling, flux, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;This LoRA can do a lot of good things such as detail enhancement, creative upscaling, photo restoration and quality improvements. It's a Image-to-Image(I2I) edit LoRA, so it will require image input, but you can use with Text-to-Image as well. I will be honest here; model itself is quite capable of improving the image, just by prompting it, without needing of this LoRA, yet this LoRA improves the quality and guidance of the model itself on these tasks because it's trained on a dataset that contains pretty good pairs. If you are aiming for upscaling to higher pixels, please use this very simple workflow + add Load LoRA node between Load Diffusion Model and KSampler as usual and load this LoRA&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wnb7m3/qwen_21_detail_enhancer_lora/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1wnaxir/threejs_lighting/</id><title>Three.js lighting</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wnaxir/threejs_lighting/"/>
-<published>2026-09-22T14:24:14+00:00</published><updated>2026-09-22T14:24:14+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="vfx"/>
-<summary>Hey VFX! I'm hoping to get some pointers on my lighting in three.js I took a reference shot using Simulon (an iphone VFX app), and tried to match the output as best I could. Black eyed character = Simulon reference (the ideal) Pink eyed character (whoops) = three.js Im using three.js so i can have t</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 1 · vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey VFX! I'm hoping to get some pointers on my lighting in three.js I took a reference shot using Simulon (an iphone VFX app), and tried to match the output as best I could. Black eyed character = Simulon reference (the ideal) Pink eyed character (whoops) = three.js Im using three.js so i can have the character move dynamically whilst streaming. Any advice on how to make my three.js version look better? I have used claude for this, and the solution is as follows "Split the HDRI into 5 shadow-casting directional lights plus a residual env map, and wrote a shadow catcher that outputs blocked-light ratio like the Cycles pass. It's close, screenshots attached (ours left)." Any tips would be gran&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wnaxir/threejs_lighting/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://the-decoder.com/a-tiny-software-layer-from-lab-grown-neurons-promises-faster-cheaper-ai-video/</id><title>A tiny software layer from lab-grown neurons promises faster, cheaper AI video</title>
-<link rel="alternate" href="https://the-decoder.com/a-tiny-software-layer-from-lab-grown-neurons-promises-faster-cheaper-ai-video/"/>
-<published>2026-09-22T13:58:20+00:00</published><updated>2026-09-22T13:58:20+00:00</updated>
-<author><name>The Decoder</name></author>
-<category term="text-to-video"/>
-<category term="ai video"/>
-<summary>The Biological Computing Co. wants to team up with AWS to sell a text-to-video model that's supposed to run five times faster and 80 percent cheaper thanks to a software layer derived from real nerve cells. The tiny layer adds less than 0.1 percent to the base model, but the startup won't say which </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;The Decoder · score 3 · text-to-video, ai video&lt;/small&gt;&lt;/p&gt;&lt;p&gt;The Biological Computing Co. wants to team up with AWS to sell a text-to-video model that's supposed to run five times faster and 80 percent cheaper thanks to a software layer derived from real nerve cells. The tiny layer adds less than 0.1 percent to the base model, but the startup won't say which model that is. The article A tiny software layer from lab-grown neurons promises faster, cheaper AI video appeared first on The Decoder .&lt;/p&gt;&lt;p&gt;&lt;a href="https://the-decoder.com/a-tiny-software-layer-from-lab-grown-neurons-promises-faster-cheaper-ai-video/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wna54s/you_can_now_generate_the_fibonacci_sequence/</id><title>You can now generate the Fibonacci sequence inside ComfyUI (a guide to loops)</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wna54s/you_can_now_generate_the_fibonacci_sequence/"/>
-<published>2026-09-22T13:53:46+00:00</published><updated>2026-09-22T13:53:46+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<summary>The title is half a joke, of course 😄 Recently, ComfyUI added a set of nodes for general-purpose loops. This means you can now do some pretty fun things entirely with core nodes — like repeatedly extending a few seconds of generated video into something much longer, or letting an MLLM judge the resu</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;The title is half a joke, of course 😄 Recently, ComfyUI added a set of nodes for general-purpose loops. This means you can now do some pretty fun things entirely with core nodes — like repeatedly extending a few seconds of generated video into something much longer, or letting an MLLM judge the result and automatically edit an image over and over. That said, loops are also quite a bit harder to understand than most things in ComfyUI. Until now, no matter how many nodes a workflow had, it was usually still a one-way graph: you could mostly understand it just by following where the wires go. Loops break that intuition a little. I expect we'll start seeing more workflows that make use of them, &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wna54s/you_can_now_generate_the_fibonacci_sequence/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wn9fwl/minimax_h3_extra_generation_speed_boost_advice/</id><title>Minimax H3 - Extra Generation Speed Boost Advice</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wn9fwl/minimax_h3_extra_generation_speed_boost_advice/"/>
-<published>2026-09-22T13:24:52+00:00</published><updated>2026-09-22T13:24:52+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="minimax"/>
-<summary>Afternoon all - wonder if some kind folk could help. Im new to this but have been picking up what i can from threads on here and tutorials. GPU is 3090 so not perfect but workable, on Comfy i have managed to get my gens down from 18 minutes for a 10 second vid to 10 minutes using Sage Attention and </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Afternoon all - wonder if some kind folk could help. Im new to this but have been picking up what i can from threads on here and tutorials. GPU is 3090 so not perfect but workable, on Comfy i have managed to get my gens down from 18 minutes for a 10 second vid to 10 minutes using Sage Attention and Triton, so a big win. This is at 1280 x736 at 0.9mp. I have read about other methods to do with blocks that dont change, spectrum, other bits and bobs and while i have started to mess with the nodes behind the generic Minimax template, im not great at it yet (for obvious reasons being a noob) and dont fully know what im doing. So...do you have any advice on other thing i can do to bring this 10 mi&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wn9fwl/minimax_h3_extra_generation_speed_boost_advice/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wn96zc/flux2klein9bkv_vs_sensenova_u15/</id><title>FLUX.2-klein-9b-kv vs SenseNova U1.5 Lite(multi-reference image fusion comparison)</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wn96zc/flux2klein9bkv_vs_sensenova_u15/"/>
-<published>2026-09-22T13:14:48+00:00</published><updated>2026-09-22T13:14:48+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="flux"/>
-<summary>I tested SenseNova U1.5 Lite against FLUX.2-klein-9b-kv with five multi-reference image fusion tasks. Across the first four examples, SenseNova generally makes fewer reference errors, uses a wider range of elements from the input images, produces richer colors, and generates less garbled text overal</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I tested SenseNova U1.5 Lite against FLUX.2-klein-9b-kv with five multi-reference image fusion tasks. Across the first four examples, SenseNova generally makes fewer reference errors, uses a wider range of elements from the input images, produces richer colors, and generates less garbled text overall. The biggest difference appears in the final winter scene. The prompt says that the woman’s other hand should reach toward the camera while catching or tossing a snowball. FLUX.2-klein-9b-kv keeps the original foreground hand holding the snowball, so it does not establish the requested action. SenseNova U1.5 Lite instead renders the snowball in the woman’s outstretched hand, following both the r&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wn96zc/flux2klein9bkv_vs_sensenova_u15/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wn92g1/settlement_controlled_miniature_worldbuilding_and/</id><title>SETTLEMENT — controlled miniature worldbuilding and restrained I2V in ComfyUI</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wn92g1/settlement_controlled_miniature_worldbuilding_and/"/>
-<published>2026-09-22T13:09:32+00:00</published><updated>2026-09-22T13:09:32+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<summary>SETTLEMENT is a title sequence for an imagined series built around the idea of a settlement as something that can be selected, relocated, modified and catalogued by a larger system. I kept the geography and political identity deliberately undefined, so the miniature city could function more as a bro</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;SETTLEMENT is a title sequence for an imagined series built around the idea of a settlement as something that can be selected, relocated, modified and catalogued by a larger system. I kept the geography and political identity deliberately undefined, so the miniature city could function more as a broader metaphor for control over place rather than point to one specific location or conflict. Visually, I treated the city as a physical archive: rigid miniature architecture, removable structures, mechanical systems and very restrained camera movement. Most of the work was about getting the video models to do less—preserving scale, geometry, materials and composition while allowing only the motion&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wn92g1/settlement_controlled_miniature_worldbuilding_and/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wn8ivq/charachter_consistency_trained_lora_vs_qwenimage21/</id><title>Charachter consistency: Trained LoRA vs Qwen-Image-2.1</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wn8ivq/charachter_consistency_trained_lora_vs_qwenimage21/"/>
-<published>2026-09-22T12:46:10+00:00</published><updated>2026-09-22T12:46:10+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="image editing"/>
-<category term="lora"/>
-<category term="consistency"/>
-<summary>Is training a character lora still worth it for photorealistic characters? I’ve been looking at some Qwen-Image-2.1 posts and it seems like you can get pretty good consistency from ref images. For anyone doing realistic/photorealistic characters, how do image editing models compare to a properly tra</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 5 · image editing, lora, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Is training a character lora still worth it for photorealistic characters? I’ve been looking at some Qwen-Image-2.1 posts and it seems like you can get pretty good consistency from ref images. For anyone doing realistic/photorealistic characters, how do image editing models compare to a properly trained character LoRA? Also is Qwen-Image-2.1 the best one? submitted by /u/GranDaddyP [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wn8ivq/charachter_consistency_trained_lora_vs_qwenimage21/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
