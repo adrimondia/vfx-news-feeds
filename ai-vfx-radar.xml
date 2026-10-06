@@ -2,8 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-06T18:30:30+00:00</updated>
+<updated>2026-10-06T20:30:21+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wzclz5/hunyuanimage_30_80b_running_natively_in_comfyui/</id><title>HunyuanImage 3.0 (80B) running natively in ComfyUI on a single 12–24 GB GPU: text-to-image, editing and style transfer, ~30 s per image</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wzclz5/hunyuanimage_30_80b_running_natively_in_comfyui/"/>
+<published>2026-10-06T19:59:40+00:00</published><updated>2026-10-06T19:59:40+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="image editing"/>
+<category term="comfyui"/>
+<summary>I've been working on native ComfyUI support for Tencent's HunyuanImage 3.0 , the 80B mixture-of-experts image model (13B active per step). It isn't a wrapper around Tencent's pipeline: it uses the normal KSampler, the normal VAE Decode and ComfyUI's own memory management, which streams the experts f</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · image editing, comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I've been working on native ComfyUI support for Tencent's HunyuanImage 3.0 , the 80B mixture-of-experts image model (13B active per step). It isn't a wrapper around Tencent's pipeline: it uses the normal KSampler, the normal VAE Decode and ComfyUI's own memory management, which streams the experts from system RAM so the model fits on one consumer GPU. What's in the gallery (all Instruct-Distil, 8 steps): 4-bit vs int8 , same prompt and seed. Times are the whole generation on an RTX 3090. image editing with the 4-bit weights. The instruction is at the top of each image. style transfer with the 4-bit weights: two input images, the photo and a style reference. These are picked from a bigger run&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wzclz5/hunyuanimage_30_80b_running_natively_in_comfyui/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1wz9qy1/we_built_a_working_local_ai_filmmaking_pipeline/</id><title>We Built a Working Local AI Filmmaking Pipeline in ComfyUI — RTX 4070 12GB</title>
 <link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wz9qy1/we_built_a_working_local_ai_filmmaking_pipeline/"/>
@@ -31,6 +41,34 @@
 <category term="lora"/>
 <summary>Another quick Minimax H3 news and goodies round-up, for those who may have missed some items. -&gt; ComfyUI Portable 0.39.0 has been released. The Minimax H3 relevant changes are... ~ "Use higher quality defaults for Save Video encoding" ~ "Fix Minimax VAE offload issue" ~ "Release packed MiniMax H3 em</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 6 · render, comfyui, flux, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Another quick Minimax H3 news and goodies round-up, for those who may have missed some items. -&amp;gt; ComfyUI Portable 0.39.0 has been released. The Minimax H3 relevant changes are... ~ "Use higher quality defaults for Save Video encoding" ~ "Fix Minimax VAE offload issue" ~ "Release packed MiniMax H3 embedding temporaries before blocks" https://github.com/Comfy-Org/ComfyUI/releases -&amp;gt; OmniChar now supports voice clips in its .CHAR bundled character definition files, as of yesterday. 12Gb VRAM users can train a portable .CHAR on Flux.2 Klein 4B, and then run it on MiniMax H3. https://github.com/omnichar/OmniChar -&amp;gt; H3 Video Upsampler + H3upscale x2 LoRA. The maker claims... "the 2Mpx result beat &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wz9gmw/a_quick_minimax_h3_news_roundup_6th_october_2026/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1wz8t5j/travelers_cinematic_concept_art/</id><title>Travelers Cinematic concept art</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wz8t5j/travelers_cinematic_concept_art/"/>
+<published>2026-10-06T17:34:56+00:00</published><updated>2026-10-06T17:34:56+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="blender"/>
+<category term="cinematic"/>
+<summary>Hi everyone, I'd like to share this new project I've been working on. I'm continuing to update my portfolio so I can make a living from my art, and I put a lot of love into this project. I love the idea of traveling and having each trip showcased in a piece of art I've created, so I wanted to share </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 3 · blender, cinematic&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi everyone, I'd like to share this new project I've been working on. I'm continuing to update my portfolio so I can make a living from my art, and I put a lot of love into this project. I love the idea of traveling and having each trip showcased in a piece of art I've created, so I wanted to share this project, where I designed and created the characters, part of the site's architecture, and its overall aesthetic, using Photobash, digital painting, and Blender. Thanks for watching ✨️ 😊 submitted by /u/LainerArt [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wz8t5j/travelers_cinematic_concept_art/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1wz7ysw/baraddûr_environment_breakdown_building_the_eye/</id><title>Barad-dûr environment breakdown — building the Eye of Sauron</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wz7ysw/baraddûr_environment_breakdown_building_the_eye/"/>
+<published>2026-10-06T17:02:30+00:00</published><updated>2026-10-06T17:02:30+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="compositing"/>
+<summary>Hi everyone, I’ve been working on a personal Barad-dûr project and just finished the final section of the shot around the Eye of Sauron. The full project is a 60-second continuous camera journey from the bottom of the tower all the way to the top. This section involved a lot of environment work, lig</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 1 · compositing&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi everyone, I’ve been working on a personal Barad-dûr project and just finished the final section of the shot around the Eye of Sauron. The full project is a 60-second continuous camera journey from the bottom of the tower all the way to the top. This section involved a lot of environment work, lighting, atmospherics, lava, compositing and the Eye itself. I put together a breakdown showing the different stages of the process. Curious to hear what you guys think. Full breakdown: https://www.youtube.com/watch?v=5d5iKQNhH_I I also update my progress on the project here, for anyone interested: https://www.instagram.com/zivcg/ submitted by /u/Zivcg [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wz7ysw/baraddûr_environment_breakdown_building_the_eye/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1wz6y8c/motion_tracking_and_hdri_app_free_demo/</id><title>Motion Tracking and HDRI App - FREE DEMO</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wz6y8c/motion_tracking_and_hdri_app_free_demo/"/>
+<published>2026-10-06T16:23:42+00:00</published><updated>2026-10-06T16:23:42+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="tracking"/>
+<summary>submitted by /u/Longjumping_List_888 [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · tracking&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/Longjumping_List_888 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wz6y8c/motion_tracking_and_hdri_app_free_demo/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wz6ulh/i_made_a_forge_neo_extension_for_minimax_h3_text/</id><title>I made a Forge Neo extension for MiniMax H3: text or picture to video with sound, reference pictures, runs on 16 GB</title>
@@ -7428,48 +7466,5 @@
 <category term="lora"/>
 <summary>I've trained a preliminary lora to fix the image generation issues with Qwen Image 2.1 (also drastically improving edit quality). I've also been doing a lot of a/b testing with negative prompts and various settings, and I've got an accompanying workflow with what I've found to be the best settings s</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I've trained a preliminary lora to fix the image generation issues with Qwen Image 2.1 (also drastically improving edit quality). I've also been doing a lot of a/b testing with negative prompts and various settings, and I've got an accompanying workflow with what I've found to be the best settings so far. Specifically, 20 steps, seeds_2/sgm_uniform, cfg 3-4, Adaptive Projected Guidance, and FreSca (both are vanilla comfy nodes). Comparison images are with the out-of-the-box ComfyUI settings. You can download the lora and workflow both from either of these links: https://civitai.com/models/2957332/qwen-image-21-fix-v10 https://huggingface.co/e-n-v-y/Qwen-Image-2.1-Fix Some caveats: Hands are &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wnl1yf/qwen_image_21_generation_fix_lora_and_settings/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wnju55/gpu_upgrade_or_pay_cloud_subscription/</id><title>GPU upgrade OR pay cloud subscription</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wnju55/gpu_upgrade_or_pay_cloud_subscription/"/>
-<published>2026-09-22T19:46:32+00:00</published><updated>2026-09-22T19:46:32+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="minimax"/>
-<category term="lora"/>
-<summary>Started ComfyUI around a week ago , and owning a 3080 10gb and 64gb ram, it was slow as hell to generate video on h3 minimax. I can actually sell it , add money and get a 3090, I'm just trying to understand how much of an upgrade is it and if relevant to my project (would like to create reels for in</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · comfyui, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Started ComfyUI around a week ago , and owning a 3080 10gb and 64gb ram, it was slow as hell to generate video on h3 minimax. I can actually sell it , add money and get a 3090, I'm just trying to understand how much of an upgrade is it and if relevant to my project (would like to create reels for instagram, anime, event promotions, product commercials.). When playing around with template workflows of h3 I get around x4 speed boost from the 3090 rented on runpod. Then I stumbled on an optimized workflow of h3 that upscaled starting from 0.5 mp, also using effecient sage attention and turbo 8 step lora, my 3080 could generate it in 11 min instead of 28 min so a huge boost. But now , I can't te&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wnju55/gpu_upgrade_or_pay_cloud_subscription/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1wnjtap/question_about_linearizing_workflow/</id><title>QUESTION about linearizing workflow.</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wnjtap/question_about_linearizing_workflow/"/>
-<published>2026-09-22T19:45:45+00:00</published><updated>2026-09-22T19:45:45+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="compositing"/>
-<category term="vfx"/>
-<summary>Hi, I’m newer to vfx and compositing on footage that is pre-colored. I’ve heard that it’s best to linearize ur workflow on After effects (which I’ll be using) So I just want to make sure I do this right. When receiving the footage, what questions should I ask the client about the footage that will d</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · compositing, vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi, I’m newer to vfx and compositing on footage that is pre-colored. I’ve heard that it’s best to linearize ur workflow on After effects (which I’ll be using) So I just want to make sure I do this right. When receiving the footage, what questions should I ask the client about the footage that will dictate how to set up my after effects? Also, Is it just a matter of set up?…then that’s it, I can do my thing? Are there specific exporting specs for pre color stuff? How do u mitigate a flat pre color space when trying to see details in footage while working? IF ANYONE COULD HELP ME THANK U! :) I’m pretty comfortable on after effects as a self taught motion designer but newer to higher level pro &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wnjtap/question_about_linearizing_workflow/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wnjjni/qwen21_can_do_everything_character_sheets_face/</id><title>Qwen2.1 Can Do EVERYTHING! Character Sheets, Face Swap, Outfits &amp; Editin...</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wnjjni/qwen21_can_do_everything_character_sheets_face/"/>
-<published>2026-09-22T19:36:07+00:00</published><updated>2026-09-22T19:36:07+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="face swap"/>
-<summary>Testing the new Qwen2.1 Model submitted by /u/solomars3 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · face swap&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Testing the new Qwen2.1 Model submitted by /u/solomars3 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wnjjni/qwen21_can_do_everything_character_sheets_face/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wni6ui/all_the_tricks_i_used_to_make_proper_anime_in/</id><title>All the tricks I used to make proper anime in MiniMaxH3</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wni6ui/all_the_tricks_i_used_to_make_proper_anime_in/"/>
-<published>2026-09-22T18:48:07+00:00</published><updated>2026-09-22T18:48:07+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="upscaler"/>
-<category term="animation"/>
-<category term="render"/>
-<category term="minimax"/>
-<category term="lora"/>
-<summary>The most important part is quality of references: images should look like they are from anime, not just value "anime-style" but flat color shading with clean lines. It's the only way I know (besides loras of dubious quality) to push generation into native 2s and 3s animation. Anything else will have</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 5 · upscaler, animation, render, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;The most important part is quality of references: images should look like they are from anime, not just value "anime-style" but flat color shading with clean lines. It's the only way I know (besides loras of dubious quality) to push generation into native 2s and 3s animation. Anything else will have that typical "AI-3D" look. And of course mandatory The target video is 2d colored anime in detailed_description. Second is MiniMax H3 Latent Upscaler node - with ref2va turbo lora and 4 step with 50% denoise gives me Full HD resolution (5 seconds take about 15 minutes to render). Third one is Add Guide To MiniMax H3 node - allows you to inject prepared image or clip at any part of the timeline - &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wni6ui/all_the_tricks_i_used_to_make_proper_anime_in/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
