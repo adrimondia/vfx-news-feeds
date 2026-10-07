@@ -2,8 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-07T08:30:31+00:00</updated>
+<updated>2026-10-07T10:31:20+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wzskwy/veda_sparse_attention_is_now_available_for/</id><title>VEDA Sparse Attention is now available for MiniMax H3 in ComfyUI</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wzskwy/veda_sparse_attention_is_now_available_for/"/>
+<published>2026-10-07T10:00:38+00:00</published><updated>2026-10-07T10:00:38+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<category term="minimax"/>
+<category term="lora"/>
+<summary>I don't think many people know about this yet, so I wanted to share it. VEDA Sparse Attention is now available as a ComfyUI custom node for MiniMax H3. I tested it today on my setup: RTX 4090 Laptop 16GB 32GB RAM, 4-step LoRA, 15 second video, 1344x768 Without VEDA: 8:05 With VEDA at 90% sparsity: 4</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 5 · comfyui, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I don't think many people know about this yet, so I wanted to share it. VEDA Sparse Attention is now available as a ComfyUI custom node for MiniMax H3. I tested it today on my setup: RTX 4090 Laptop 16GB 32GB RAM, 4-step LoRA, 15 second video, 1344x768 Without VEDA: 8:05 With VEDA at 90% sparsity: 4:32 Same workflow, same LoRA, same settings. The only change was enabling VEDA. I couldn't see any quality loss in the result. VEDA is not a LoRA. It uses a learned predictor to estimate which attention tiles are important and only computes the relevant subset instead of the full attention map. The current predictor works with T2VA, FL2VA and R2VA, and despite the 8NFE name it is not limited to 8 &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wzskwy/veda_sparse_attention_is_now_available_for/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1wzr4ei/arc_overload_a_realtime_stylized_lightning/</id><title>Arc Overload, a real-time stylized lightning ability VFX</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wzr4ei/arc_overload_a_realtime_stylized_lightning/"/>
+<published>2026-10-07T08:24:40+00:00</published><updated>2026-10-07T08:24:40+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="vfx"/>
+<category term="unreal"/>
+<category term="unreal engine"/>
+<summary>I created this in Unreal Engine 5 using Niagara. It was especially fun to work on because it involved integrating lots of lightning tendrils with the characters and animations :) You can check out the full project and breakdown on ArtStation here: https://www.artstation.com/artwork/8vBNVw I’d apprec</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 4 · vfx, unreal, unreal engine&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I created this in Unreal Engine 5 using Niagara. It was especially fun to work on because it involved integrating lots of lightning tendrils with the characters and animations :) You can check out the full project and breakdown on ArtStation here: https://www.artstation.com/artwork/8vBNVw I’d appreciate any feedback from the VFX community, thank youu :) submitted by /u/northmakesgames [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wzr4ei/arc_overload_a_realtime_stylized_lightning/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1wzpyh4/hdr_thumbnails/</id><title>HDR Thumbnails</title>
 <link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wzpyh4/hdr_thumbnails/"/>
@@ -128,6 +150,16 @@
 <category term="filmmaking"/>
 <summary>I’ve been working on Ome Omy CUT , an AI-assisted video editing workflow that runs on your own computer with ComfyUI underneath. I started building it because the tools I’d tried weren’t quite doing what I wanted. It’s still in development, but I’ve put up an introduction on Patreon, where I’ll be s</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · video editing, comfyui, filmmaking&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I’ve been working on Ome Omy CUT , an AI-assisted video editing workflow that runs on your own computer with ComfyUI underneath. I started building it because the tools I’d tried weren’t quite doing what I wanted. It’s still in development, but I’ve put up an introduction on Patreon, where I’ll be sharing demos and progress as it comes together. If you’re experimenting with AI for filmmaking or editing, I’d be interested to hear what you’ve tried and where you’re getting stuck. My own frustrations have pretty much been the development plan so far. The first release of Ome Omy CUT is coming soon. Some of what’s planned: Build scenes shot by shot on a timeline , with controls for shot order, t&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wzhu50/ome_omy_cut_ome_omy_productions/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wzh4yf/has_anyone_tried_minimax_swap_only_clothes/</id><title>has anyone tried minimax swap only clothes?</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wzh4yf/has_anyone_tried_minimax_swap_only_clothes/"/>
+<published>2026-10-06T23:09:14+00:00</published><updated>2026-10-06T23:09:14+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="video editing"/>
+<category term="minimax"/>
+<summary>i searched many times of several communities but only found character/face/head swap loras i already used minimax very well with long sequences videos using grok chat providing official prompting guide of minimax. but, when i tried just replace clothes of character in 10sec videos, it works under 50</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · video editing, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;i searched many times of several communities but only found character/face/head swap loras i already used minimax very well with long sequences videos using grok chat providing official prompting guide of minimax. but, when i tried just replace clothes of character in 10sec videos, it works under 50%. its not probability, literally it is just changed cloth of one character and it get back to original after 5-6sec. although video shows 2 character. of course, i tried several turbo loras, and without turbo, changing models. also tried masked noise latent. and always i define each character in video and reference clothes of pictures. sometimes, put a reference image as target clothes or just pr&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wzh4yf/has_anyone_tried_minimax_swap_only_clothes/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wzf4ym/update_my_free_lora_trainer_studio_now_supports/</id><title>Update: my free LoRA Trainer Studio now supports 10 model families, ERNIE-Image, rsLoRA, LoRA+ and LoKr</title>
@@ -7391,14 +7423,5 @@
 <category term="green screen"/>
 <summary>i have a few clips where i want to separate the person from the original background and replace it with something else. there’s no green screen, so i’m trying to figure out the easiest way to get a reasonably clean result without spending hours masking everything frame by frame. i’ve seen capcut men</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 1 · green screen&lt;/small&gt;&lt;/p&gt;&lt;p&gt;i have a few clips where i want to separate the person from the original background and replace it with something else. there’s no green screen, so i’m trying to figure out the easiest way to get a reasonably clean result without spending hours masking everything frame by frame. i’ve seen capcut mentioned for this, but i’ve also come across tools like adobe after effects, davinci resolve, and runways while looking around. they all seem to approach background removal a little differently, and i’m not sure how much difference that makes when the footage has movement and details like hair around the edges. for relatively simple footage, what are you using to remove the background? i’m mostly tr&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wo2biz/what_app_can_remove_background_from_video_without/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wo1nub/minimax_h3_ref2va_gets_stuck_at_model/</id><title>MiniMax H3 Ref2VA gets stuck at Model Initializing with too many refs?</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wo1nub/minimax_h3_ref2va_gets_stuck_at_model/"/>
-<published>2026-09-23T09:58:50+00:00</published><updated>2026-09-23T09:58:50+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="minimax"/>
-<summary>I'm running H3 Ref2VA at 2MP, 12 sec on a 5090 32GB with 64GB RAM. With 7 reference images + 1 reference video, it works and starts sampling after about 7 minutes. All images are 2048*2048. As soon as I add an 8th reference image, it gets stuck at: 0/20 - Model Initializing... I tested both ref_imag</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I'm running H3 Ref2VA at 2MP, 12 sec on a 5090 32GB with 64GB RAM. With 7 reference images + 1 reference video, it works and starts sampling after about 7 minutes. All images are 2048*2048. As soon as I add an 8th reference image, it gets stuck at: 0/20 - Model Initializing... I tested both ref_image_size=match and max , same issue. Remove the 8th image, it works again. Has anyone else run into this? Is there some kind of reference token / memory threshold with H3 Ref2VA, even though the node supports up to 9 images? submitted by /u/itchplease [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wo1nub/minimax_h3_ref2va_gets_stuck_at_model/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
