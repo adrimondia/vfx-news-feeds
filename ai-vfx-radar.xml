@@ -2,8 +2,48 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-06T22:30:19+00:00</updated>
+<updated>2026-10-07T00:30:38+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wzhu50/ome_omy_cut_ome_omy_productions/</id><title>OME OMY CUT | Ome Omy Productions</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wzhu50/ome_omy_cut_ome_omy_productions/"/>
+<published>2026-10-06T23:43:03+00:00</published><updated>2026-10-06T23:43:03+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="video editing"/>
+<category term="comfyui"/>
+<category term="filmmaking"/>
+<summary>I’ve been working on Ome Omy CUT , an AI-assisted video editing workflow that runs on your own computer with ComfyUI underneath. I started building it because the tools I’d tried weren’t quite doing what I wanted. It’s still in development, but I’ve put up an introduction on Patreon, where I’ll be s</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · video editing, comfyui, filmmaking&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I’ve been working on Ome Omy CUT , an AI-assisted video editing workflow that runs on your own computer with ComfyUI underneath. I started building it because the tools I’d tried weren’t quite doing what I wanted. It’s still in development, but I’ve put up an introduction on Patreon, where I’ll be sharing demos and progress as it comes together. If you’re experimenting with AI for filmmaking or editing, I’d be interested to hear what you’ve tried and where you’re getting stuck. My own frustrations have pretty much been the development plan so far. The first release of Ome Omy CUT is coming soon. Some of what’s planned: Build scenes shot by shot on a timeline , with controls for shot order, t&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wzhu50/ome_omy_cut_ome_omy_productions/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wzdoh3/hunyuanimage_30_80b_running_natively_in_comfyui/</id><title>HunyuanImage 3.0 (80B) running natively in ComfyUI on a single 12–24 GB GPU: text-to-image, editing and style transfer, ~30 s per image</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wzdoh3/hunyuanimage_30_80b_running_natively_in_comfyui/"/>
+<published>2026-10-06T20:41:20+00:00</published><updated>2026-10-06T20:41:20+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<summary>submitted by /u/LatentSpacer [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/LatentSpacer [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wzdoh3/hunyuanimage_30_80b_running_natively_in_comfyui/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wzd7m4/how_to_save_workflow_in_subdirectories_in/</id><title>How to save workflow in subdirectories in ComfyUI/user/default/workflows</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wzd7m4/how_to_save_workflow_in_subdirectories_in/"/>
+<published>2026-10-06T20:22:54+00:00</published><updated>2026-10-06T20:22:54+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<summary>I understand this was not possible before, but it may be worth asking again in case someone has figured this out. On the ComfyUI browser UI, if I do "save as" &gt; "enter the filename", it will automatically be saved under the folder ComfyUI/user/default/workflows, is there a way I can structure this i</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I understand this was not possible before, but it may be worth asking again in case someone has figured this out. On the ComfyUI browser UI, if I do "save as" &amp;gt; "enter the filename", it will automatically be saved under the folder ComfyUI/user/default/workflows, is there a way I can structure this into subfolders when I am saving the files, otherwise it will likely be overpopulated with tons of workflows without organization. I understand there is an export option but it is still inconvenient since it is saved in the download folder and I have to manually move it to the desired location, as well if I click save again, it won't be directed to the desired location. submitted by /u/Guyserbun007&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wzd7m4/how_to_save_workflow_in_subdirectories_in/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wzcu5v/minimax_video_output_looking_really_fake/</id><title>Minimax video output looking really.. fake?</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wzcu5v/minimax_video_output_looking_really_fake/"/>
+<published>2026-10-06T20:08:05+00:00</published><updated>2026-10-06T20:08:05+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="video model"/>
+<category term="minimax"/>
+<category term="lora"/>
+<summary>So, i'm using 0.8mp, 8 step, with the minimax_h3_turbo_v4_step600_ema.safetensors lora. I'm using the ref to video model, with an image and audio ref. Any advice on how to make things look closer to the original appearance? Its like the minimax setup is causing lines to be thickened and textures to </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · video model, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;So, i'm using 0.8mp, 8 step, with the minimax_h3_turbo_v4_step600_ema.safetensors lora. I'm using the ref to video model, with an image and audio ref. Any advice on how to make things look closer to the original appearance? Its like the minimax setup is causing lines to be thickened and textures to be smoothed. submitted by /u/maxiedaniels [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wzcu5v/minimax_video_output_looking_really_fake/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wzclz5/hunyuanimage_30_80b_running_natively_in_comfyui/</id><title>HunyuanImage 3.0 (80B) running natively in ComfyUI on a single 12–24 GB GPU: text-to-image, editing and style transfer, ~30 s per image</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wzclz5/hunyuanimage_30_80b_running_natively_in_comfyui/"/>
@@ -13,6 +53,16 @@
 <category term="comfyui"/>
 <summary>I've been working on native ComfyUI support for Tencent's HunyuanImage 3.0 , the 80B mixture-of-experts image model (13B active per step). It isn't a wrapper around Tencent's pipeline: it uses the normal KSampler, the normal VAE Decode and ComfyUI's own memory management, which streams the experts f</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · image editing, comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I've been working on native ComfyUI support for Tencent's HunyuanImage 3.0 , the 80B mixture-of-experts image model (13B active per step). It isn't a wrapper around Tencent's pipeline: it uses the normal KSampler, the normal VAE Decode and ComfyUI's own memory management, which streams the experts from system RAM so the model fits on one consumer GPU. What's in the gallery (all Instruct-Distil, 8 steps): 4-bit vs int8 , same prompt and seed. Times are the whole generation on an RTX 3090. image editing with the 4-bit weights. The instruction is at the top of each image. style transfer with the 4-bit weights: two input images, the photo and a style reference. These are picked from a bigger run&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wzclz5/hunyuanimage_30_80b_running_natively_in_comfyui/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wzbws9/and_how_does_that_make_you_feel_an_ai_short/</id><title>AND HOW DOES THAT MAKE YOU FEEL? | An AI Short Comedy Film Made by Claude in Minimax H3 and my Video builder in ComfyUI.</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wzbws9/and_how_does_that_make_you_feel_an_ai_short/"/>
+<published>2026-10-06T19:32:32+00:00</published><updated>2026-10-06T19:32:32+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<category term="minimax"/>
+<summary>submitted by /u/Cheap_Credit_3957 [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/Cheap_Credit_3957 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wzbws9/and_how_does_that_make_you_feel_an_ai_short/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1wz9qy1/we_built_a_working_local_ai_filmmaking_pipeline/</id><title>We Built a Working Local AI Filmmaking Pipeline in ComfyUI — RTX 4070 12GB</title>
@@ -7421,25 +7471,5 @@
 <category term="comfyui"/>
 <summary>I am new to ComfyUI and was trying to figure things out. I am trying to come up with my own art style for a science fantasy tabletop game. Does anyone have workflow reccomendations, models, custom nodes, etc they reccomend. submitted by /u/Ok-Inspector1108 [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I am new to ComfyUI and was trying to figure things out. I am trying to come up with my own art style for a science fantasy tabletop game. Does anyone have workflow reccomendations, models, custom nodes, etc they reccomend. submitted by /u/Ok-Inspector1108 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wnrq4d/new_to_comfyui/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wnqrfu/i_need_exact_inpainting_from_wananimate22/</id><title>I need exact inpainting from wanAnimate2.2</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wnqrfu/i_need_exact_inpainting_from_wananimate22/"/>
-<published>2026-09-23T00:22:18+00:00</published><updated>2026-09-23T00:22:18+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="inpainting"/>
-<summary>i using wanAnimate to replace only clothes part of videos and as we know, to fully replace to wanted clothe reference, need to expand mask and blockify. and because of that expansion, mask covered neck or face area that makes result fucked up with ugly weird faces. to avoid this, i tried seperate ma</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · inpainting&lt;/small&gt;&lt;/p&gt;&lt;p&gt;i using wanAnimate to replace only clothes part of videos and as we know, to fully replace to wanted clothe reference, need to expand mask and blockify. and because of that expansion, mask covered neck or face area that makes result fucked up with ugly weird faces. to avoid this, i tried seperate mask and background images. i expand and blockify mask so it spread facial area but dont merged to background images. i made only facial part masks and minus operation from above expanded mask so results are clean facial part masks and merged with background images. so it preserved face parts. although some rest noise masks around face changed to something....(idk solution... anyonce find, please le&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wnqrfu/i_need_exact_inpainting_from_wananimate22/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wnq7zy/is_this_realistic_enough_minimax_h3_with_only_8/</id><title>Is this realistic enough? (Minimax H3 with only 8 steps)</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wnq7zy/is_this_realistic_enough_minimax_h3_with_only_8/"/>
-<published>2026-09-22T23:59:49+00:00</published><updated>2026-09-22T23:59:49+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<category term="minimax"/>
-<category term="lora"/>
-<summary>If you want the workflow let me know. EDIT: The workflow is incredibly simple, start with the default workflow from comfyui and then: - Euler + Beta at 8 steps. - minimax_h3_turbo_v4_step600_ema lora at 1.1 strength. - MMH3-VideoAgeSlider-V1 lora at 3.0 strength (it's makes the video effect more aut</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · comfyui, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;If you want the workflow let me know. EDIT: The workflow is incredibly simple, start with the default workflow from comfyui and then: - Euler + Beta at 8 steps. - minimax_h3_turbo_v4_step600_ema lora at 1.1 strength. - MMH3-VideoAgeSlider-V1 lora at 3.0 strength (it's makes the video effect more authentic). submitted by /u/Cequejedisestvrai [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wnq7zy/is_this_realistic_enough_minimax_h3_with_only_8/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
