@@ -2,8 +2,75 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-07T02:30:28+00:00</updated>
+<updated>2026-10-07T04:30:25+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://arxiv.org/abs/2610.07031</id><title>Artemis: Geometry-Grounded Multi-Agent Driving World Models with Shared 3D State and Progressive Memory Update</title>
+<link rel="alternate" href="https://arxiv.org/abs/2610.07031"/>
+<published>2026-10-07T04:00:00+00:00</published><updated>2026-10-07T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="world model"/>
+<category term="render"/>
+<category term="diffusion transformer"/>
+<category term="consistency"/>
+<category term="multi-view"/>
+<summary>arXiv:2610.07031v1 Announce Type: new Abstract: Recent video world models have witnessed the paradigm shift from single-agent to multi-agent involvements, which can reveal more complicated dynamics and cross-agent interaction in the real world. However, existing approaches commonly adopt implicit in</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · world model, render, diffusion transformer, consistency, multi-view&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2610.07031v1 Announce Type: new Abstract: Recent video world models have witnessed the paradigm shift from single-agent to multi-agent involvements, which can reveal more complicated dynamics and cross-agent interaction in the real world. However, existing approaches commonly adopt implicit inter-agent communications via cross attention, which lack explicit geometry constraints and unified 3D state, thereby leading to poor multi-view consistency and struggling with recovering out-of-sight agents. In addition, most of them assume a static background, failing to represent uncontrolled background dynamics. To address these problems, we propose Artemis: a geometry-grounded multi-agent worl&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2610.07031"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2610.07110</id><title>MoonGS: High-quality Representation of the Lunar Surface via Gaussian Splatting Using Robust Depth Features from Image Pairs</title>
+<link rel="alternate" href="https://arxiv.org/abs/2610.07110"/>
+<published>2026-10-07T04:00:00+00:00</published><updated>2026-10-07T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="gaussian splatting"/>
+<category term="3d gaussian"/>
+<category term="nerf"/>
+<category term="3d reconstruction"/>
+<summary>arXiv:2610.07110v1 Announce Type: new Abstract: High-quality 3D reconstruction of lunar terrain from sparse rover images is indispensable for autonomous lunar exploration, but remains challenging because viewpoint overlap is insufficient, surface textures are weak, and data volume is limited. We pro</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · gaussian splatting, 3d gaussian, nerf, 3d reconstruction&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2610.07110v1 Announce Type: new Abstract: High-quality 3D reconstruction of lunar terrain from sparse rover images is indispensable for autonomous lunar exploration, but remains challenging because viewpoint overlap is insufficient, surface textures are weak, and data volume is limited. We propose MoonGS, the first feed-forward 3D Gaussian Splatting framework tailored to lunar scenes. Given only two input images, MoonGS predicts pixel-aligned Gaussian primitives in a single forward pass and renders photorealistic novel views without any per-scene optimization. MoonGS (i) adopts an adaptable backbone design that seamlessly integrates advanced vision foundation models to extract robust d&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2610.07110"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2610.07566</id><title>AIMS: Anchor-Integrated Multi-View Synthesis for Scalable Novel View Rendering</title>
+<link rel="alternate" href="https://arxiv.org/abs/2610.07566"/>
+<published>2026-10-07T04:00:00+00:00</published><updated>2026-10-07T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="novel view synthesis"/>
+<category term="rendering"/>
+<category term="multi-view"/>
+<summary>arXiv:2610.07566v1 Announce Type: new Abstract: Feed-forward novel view synthesis methods achieve strong generalization from posed multi-view inputs, but scaling them to large input view sets remains challenging. Transformer-based approaches that jointly process all input-view tokens incur rapidly i</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · novel view synthesis, rendering, multi-view&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2610.07566v1 Announce Type: new Abstract: Feed-forward novel view synthesis methods achieve strong generalization from posed multi-view inputs, but scaling them to large input view sets remains challenging. Transformer-based approaches that jointly process all input-view tokens incur rapidly increasing computation and memory as the number of views grows, while simple view subsampling discards potentially useful observations. We introduce Anchor-Integrated Multi-View Synthesis (AIMS), a scalable framework that decouples the number of available observations from the number of views processed by the global synthesis model. AIMS selects a fixed set of spatially distributed anchor views usi&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2610.07566"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2604.09045</id><title>Scene-Agnostic Object-Centric Representation Learning for 3D Gaussian Splatting</title>
+<link rel="alternate" href="https://arxiv.org/abs/2604.09045"/>
+<published>2026-10-07T04:00:00+00:00</published><updated>2026-10-07T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="gaussian splatting"/>
+<category term="3d gaussian"/>
+<category term="segmentation"/>
+<category term="multi-view"/>
+<summary>arXiv:2604.09045v2 Announce Type: replace Abstract: Recent works on 3D scene understanding leverage 2D masks from visual foundation models (VFMs) to supervise radiance fields, enabling instance-level 3D segmentation. However, the supervision signals from foundation models are not fundamentally objec</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 6 · gaussian splatting, 3d gaussian, segmentation, multi-view&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2604.09045v2 Announce Type: replace Abstract: Recent works on 3D scene understanding leverage 2D masks from visual foundation models (VFMs) to supervise radiance fields, enabling instance-level 3D segmentation. However, the supervision signals from foundation models are not fundamentally object-centric and often require additional mask pre/post-processing or specialized training and loss design to resolve mask identity conflicts across views. The learned identity of the 3D scene is scene-dependent, limiting generalizability across scenes. Therefore, we propose a dataset-level, object-centric supervision scheme to learn object representations in 3D Gaussian Splatting (3DGS). Building on&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2604.09045"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2610.08672</id><title>PDB: Point-Based Deformation Blending for Facial Animation Retargeting</title>
+<link rel="alternate" href="https://arxiv.org/abs/2610.08672"/>
+<published>2026-10-07T04:00:00+00:00</published><updated>2026-10-07T04:00:00+00:00</updated>
+<author><name>arXiv cs.GR</name></author>
+<category term="animation"/>
+<category term="retargeting"/>
+<summary>arXiv:2610.08672v1 Announce Type: cross Abstract: Mesh-agnostic facial animation retargeting transfers expressions across meshes with different structures, but preserving facial motion without surface artifacts remains challenging. To address this, we present PDB, Point-Based Deformation Blending fo</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.GR · score 4 · animation, retargeting&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2610.08672v1 Announce Type: cross Abstract: Mesh-agnostic facial animation retargeting transfers expressions across meshes with different structures, but preserving facial motion without surface artifacts remains challenging. To address this, we present PDB, Point-Based Deformation Blending for facial animation retargeting. PDB predicts a compact set of deformed control points from a source neutral-expression pair and blending weights from the target neutral mesh. The weights are computed once per target and reused across frames, while the control points vary with each source expression. ReLU enforces non-negative weights and permits exact zeros, followed by row-wise normalization. The&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2610.08672"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1wzlus1/vfx_smartphone_onset_chat_simulator/</id><title>VFX Smartphone on-set chat simulator</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wzlus1/vfx_smartphone_onset_chat_simulator/"/>
+<published>2026-10-07T03:03:11+00:00</published><updated>2026-10-07T03:03:11+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="vfx"/>
+<summary>Hi everyone! I recently released my first app on the AppStore: PropChat, and I wanted to share it with you. Hope you’ll find it helpful. PropChat is a customizable chat(voice notes, photos, videos)/call/videocall simulator for VFX supervisors and prop masters. The story is that recently I worked on </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi everyone! I recently released my first app on the AppStore: PropChat, and I wanted to share it with you. Hope you’ll find it helpful. PropChat is a customizable chat(voice notes, photos, videos)/call/videocall simulator for VFX supervisors and prop masters. The story is that recently I worked on a TV Series that had a lot of smartphone VFX: call, videocalls, chats, etc. We couldn’t use some platforms because of copyright and sometimes, because of the type of location, we weren’t able to make a real call or send a real message (also, doing real calls on set could be frustrating because of actors and their timing). So I thought about this tool that you can customize however you want and als&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wzlus1/vfx_smartphone_onset_chat_simulator/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wzib3c/a_new_video_model_from_tencent_is_coming_maybe/</id><title>A new video model from Tencent is coming... maybe? "Prism"</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wzib3c/a_new_video_model_from_tencent_is_coming_maybe/"/>
@@ -7335,121 +7402,5 @@
 <category term="cinematic"/>
 <summary>Edit videos with coding agents video-use Introducing video-use — edit videos with Claude Code. 100% open source. Drop raw footage in a folder, chat with Claude Code, get final.mp4 back. Works for any content — talking heads, montages, tutorials, travel, interviews — without presets or menus. Try vid</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;GitHub trending (Python) · score 2 · animation, cinematic&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Edit videos with coding agents video-use Introducing video-use — edit videos with Claude Code. 100% open source. Drop raw footage in a folder, chat with Claude Code, get final.mp4 back. Works for any content — talking heads, montages, tutorials, travel, interviews — without presets or menus. Try video-use in Browser Use Cloud . What it does Cuts out filler words ( umm , uh , false starts) and dead space between takes Auto color grades every segment (warm cinematic, neutral punch, or any custom ffmpeg chain) 30ms audio fades at every cut so you never hear a pop Burns subtitles in your style — 2-word UPPERCASE chunks by default, fully customizable Generates animation overlays via HyperFrames ,&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.com/browser-use/video-use"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2609.25604</id><title>Ultra-fast Neural Inference for Stochastic Gaussian Splatting Denoising</title>
-<link rel="alternate" href="https://arxiv.org/abs/2609.25604"/>
-<published>2026-09-23T04:00:00+00:00</published><updated>2026-09-23T04:00:00+00:00</updated>
-<author><name>arXiv cs.GR</name></author>
-<category term="gaussian splatting"/>
-<category term="denoising"/>
-<category term="denoiser"/>
-<category term="rendering"/>
-<summary>arXiv:2609.25604v1 Announce Type: cross Abstract: Stochastic rendering eliminates the sorting and alpha blending process in Gaussian splatting, at the cost of introducing spatial noise. Formulating temporal denoising over the pixel stream shared by view-consistent stochastic splatting renderers, we </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.GR · score 6 · gaussian splatting, denoising, denoiser, rendering&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.25604v1 Announce Type: cross Abstract: Stochastic rendering eliminates the sorting and alpha blending process in Gaussian splatting, at the cost of introducing spatial noise. Formulating temporal denoising over the pixel stream shared by view-consistent stochastic splatting renderers, we propose a temporal neural denoiser validated on stochastic 2D Gaussian Splatting rendering, combining dual-path exponential moving average accumulation, per-pixel learned trust prediction for history validation, a fixed anisotropic spatial filter and a variance-gated composition with stabilization. The denoiser suppresses the noise, achieving temporally stable, visually compelling outputs during f&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.25604"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2609.26015</id><title>VideoX-Qwen: Data-Centric Instruction-Based Video Editing</title>
-<link rel="alternate" href="https://arxiv.org/abs/2609.26015"/>
-<published>2026-09-23T04:00:00+00:00</published><updated>2026-09-23T04:00:00+00:00</updated>
-<author><name>arXiv cs.GR</name></author>
-<category term="video generation"/>
-<category term="video editing"/>
-<category term="kling"/>
-<summary>arXiv:2609.26015v1 Announce Type: cross Abstract: Progress in general-purpose video editing depends on constructing large-scale paired supervision and effectively adapting video-generation backbones to instruction-driven editing. Unlike video generation, video editing must execute a requested transf</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.GR · score 4 · video generation, video editing, kling&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.26015v1 Announce Type: cross Abstract: Progress in general-purpose video editing depends on constructing large-scale paired supervision and effectively adapting video-generation backbones to instruction-driven editing. Unlike video generation, video editing must execute a requested transformation while preserving unrelated subjects, scene structure, motion, and temporal continuity. We present VideoX-Qwen, an integrated data-construction and model-training framework for general instruction-based video editing. Our scalable production pipeline organizes specialized generation and understanding models into complementary routes for addition, removal, replacement, and attribute editing&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.26015"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2609.25652</id><title>GameDirector: Decoupling Gameplay Logic from Rendering for Player-Configurable Game World Models</title>
-<link rel="alternate" href="https://arxiv.org/abs/2609.25652"/>
-<published>2026-09-23T04:00:00+00:00</published><updated>2026-09-23T04:00:00+00:00</updated>
-<author><name>arXiv cs.CV</name></author>
-<category term="world model"/>
-<category term="tracking"/>
-<category term="render"/>
-<category term="rendering"/>
-<summary>arXiv:2609.25652v1 Announce Type: new Abstract: Recent game world models support realistic visual simulation and interactive gameplay based on player inputs. However, they typically learn environment dynamics from pixel-level supervision, jointly modeling perception, memory, state transitions, and r</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · world model, tracking, render, rendering&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.25652v1 Announce Type: new Abstract: Recent game world models support realistic visual simulation and interactive gameplay based on player inputs. However, they typically learn environment dynamics from pixel-level supervision, jointly modeling perception, memory, state transitions, and rendering within a single end-to-end framework. While this design enables open-ended, action-controllable generation, it still falls short of delivering a complete gameplay experience. Games are governed by explicit mechanics, such as health deduction, skill activation, combat rules, and termination conditions. These mechanics depend on precise and consistent state transitions that generative model&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.25652"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2609.25775</id><title>TRACE: Trajectory Representation and Consistency Estimation for AI-Generated Video Detection</title>
-<link rel="alternate" href="https://arxiv.org/abs/2609.25775"/>
-<published>2026-09-23T04:00:00+00:00</published><updated>2026-09-23T04:00:00+00:00</updated>
-<author><name>arXiv cs.CV</name></author>
-<category term="video generation"/>
-<category term="video model"/>
-<category term="dit"/>
-<category term="consistency"/>
-<category term="generative video"/>
-<summary>arXiv:2609.25775v1 Announce Type: new Abstract: Recent advances in generative video models have enabled the synthesis of visually realistic content, posing significant challenges to synthetic video detection. Existing detectors often rely on appearance artifacts, semantic inconsistencies, and tempor</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 6 · video generation, video model, dit, consistency, generative video&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.25775v1 Announce Type: new Abstract: Recent advances in generative video models have enabled the synthesis of visually realistic content, posing significant challenges to synthetic video detection. Existing detectors often rely on appearance artifacts, semantic inconsistencies, and temporal patterns that may be generator-specific, limitating generalization to unseen synthesis models. We investigate whether responses to a pretrained generative model provide more transferable forensic cues. Our key observation is that real and AI-generated videos exhibit distinct \emph{velocity responses} under a pretrained Flow Matching video model. This distinction persists when different pretrain&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.25775"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2609.26375</id><title>KwaiMind Technical Report</title>
-<link rel="alternate" href="https://arxiv.org/abs/2609.26375"/>
-<published>2026-09-23T04:00:00+00:00</published><updated>2026-09-23T04:00:00+00:00</updated>
-<author><name>arXiv cs.CV</name></author>
-<category term="image editing"/>
-<category term="rendering"/>
-<category term="diffusion transformer"/>
-<category term="consistency"/>
-<category term="identity preservation"/>
-<summary>arXiv:2609.26375v1 Announce Type: new Abstract: Commercial image editing requires product identity preservation, accurate text rendering, and user appeal alongside general editing quality. We present KwaiMind, an image editing system combining general capabilities with e-commerce specialization. An </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · image editing, rendering, diffusion transformer, consistency, identity preservation&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.26375v1 Announce Type: new Abstract: Commercial image editing requires product identity preservation, accurate text rendering, and user appeal alongside general editing quality. We present KwaiMind, an image editing system combining general capabilities with e-commerce specialization. An agent-based data engine maintains approximately 1.8 million high-quality editing pairs. Built on a multimodal diffusion transformer, KwaiMind undergoes continued pre-training and supervised fine-tuning, followed by preference optimization and online reinforcement learning. A general-purpose vision-language judge and specialized rewards for click-through rate (CTR), text rendering, and product cons&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.26375"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2609.25746</id><title>Dual Covariance Gaussian Splatting SLAM: Decoupling Rendering and Registration for Robust Real-Time Tracking</title>
-<link rel="alternate" href="https://arxiv.org/abs/2609.25746"/>
-<published>2026-09-23T04:00:00+00:00</published><updated>2026-09-23T04:00:00+00:00</updated>
-<author><name>arXiv cs.CV</name></author>
-<category term="gaussian splatting"/>
-<category term="3d gaussian"/>
-<category term="tracking"/>
-<category term="rendering"/>
-<category term="slam"/>
-<summary>arXiv:2609.25746v1 Announce Type: cross Abstract: ICP-based 3D Gaussian Splatting (3DGS) SLAM tracks in real time by registering incoming frames against map Gaussians, using each primitive's covariance for both rendering and registration. These two uses place conflicting demands on one covariance. T</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 9 · gaussian splatting, 3d gaussian, tracking, rendering, slam&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.25746v1 Announce Type: cross Abstract: ICP-based 3D Gaussian Splatting (3DGS) SLAM tracks in real time by registering incoming frames against map Gaussians, using each primitive's covariance for both rendering and registration. These two uses place conflicting demands on one covariance. The mapper shapes it to minimize photometric error, often flattening it against surfaces, while robust registration typically benefits from measurement uncertainty. We propose a dual-covariance parameterization. Each Gaussian keeps a single mean but holds two covariances: a rendering covariance optimized by the mapper, and a tracking covariance derived from an RGB-D sensor noise model. We further u&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.25746"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2604.18980</id><title>AdaGScale: Viewpoint-Adaptive Gaussian Scaling in 3D Gaussian Splatting to Reduce Gaussian-Tile Pairs</title>
-<link rel="alternate" href="https://arxiv.org/abs/2604.18980"/>
-<published>2026-09-23T04:00:00+00:00</published><updated>2026-09-23T04:00:00+00:00</updated>
-<author><name>arXiv cs.CV</name></author>
-<category term="gaussian splatting"/>
-<category term="3d gaussian"/>
-<category term="rendering"/>
-<summary>arXiv:2604.18980v3 Announce Type: replace Abstract: Reducing the number of Gaussian-tile pairs is one of the most promising approaches to improve 3D Gaussian Splatting (3D-GS) rendering speed on GPUs. However, the importance difference existing among Gaussian-tile pairs has never been considered in </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · gaussian splatting, 3d gaussian, rendering&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2604.18980v3 Announce Type: replace Abstract: Reducing the number of Gaussian-tile pairs is one of the most promising approaches to improve 3D Gaussian Splatting (3D-GS) rendering speed on GPUs. However, the importance difference existing among Gaussian-tile pairs has never been considered in the previous works. In this paper, we propose AdaGScale, a novel viewpoint-adaptive Gaussian scaling technique for reducing the number of Gaussian-tile pairs. AdaGScale is based on the observation that the peripheral tiles located far from Gaussian center contribute negligibly to pixel color accumulation. This suggests an opportunity for reducing the number of Gaussian-tile pairs based on color co&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2604.18980"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2605.30263</id><title>minWM: A Full-Stack Open-Source Framework for Real-Time Interactive Video World Models</title>
-<link rel="alternate" href="https://arxiv.org/abs/2605.30263"/>
-<published>2026-09-23T04:00:00+00:00</published><updated>2026-09-23T04:00:00+00:00</updated>
-<author><name>arXiv cs.CV</name></author>
-<category term="video generation"/>
-<category term="video diffusion"/>
-<category term="camera control"/>
-<category term="wan2"/>
-<category term="consistency"/>
-<summary>arXiv:2605.30263v2 Announce Type: replace Abstract: Recent video diffusion foundation models have achieved remarkable progress in high-quality video generation, yet turning them into real-time interactive video world models remains challenging. Interactive world models require controllable, causal, </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · video generation, video diffusion, camera control, wan2, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2605.30263v2 Announce Type: replace Abstract: Recent video diffusion foundation models have achieved remarkable progress in high-quality video generation, yet turning them into real-time interactive video world models remains challenging. Interactive world models require controllable, causal, and low-latency rollout, which in practice demands a full pipeline spanning data construction, controllable fine-tuning, autoregressive training, few-step distillation, and streaming inference. In this work, we present minWM, a full-stack open-source framework for building real-time interactive video world models. minWM provides an end-to-end pipeline that converts existing bidirectional T2V/TI2V &lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2605.30263"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wnve7g/talespin_chillwave_2_minimax_yue2/</id><title>TaleSpin Chillwave #2 (Minimax + YuE2)</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wnve7g/talespin_chillwave_2_minimax_yue2/"/>
-<published>2026-09-23T03:58:11+00:00</published><updated>2026-09-23T03:58:11+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="minimax"/>
-<summary>submitted by /u/the_bollo [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/the_bollo [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wnve7g/talespin_chillwave_2_minimax_yue2/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1wnudza/vfx_supervisor_available_this_sunday_september_27/</id><title>VFX Supervisor available this Sunday, September 27 (DC,NY)</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wnudza/vfx_supervisor_available_this_sunday_september_27/"/>
-<published>2026-09-23T03:08:15+00:00</published><updated>2026-09-23T03:08:15+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="vfx"/>
-<summary>Just sharing from Linkedin.... submitted by /u/manuce94 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Just sharing from Linkedin.... submitted by /u/manuce94 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wnudza/vfx_supervisor_available_this_sunday_september_27/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
