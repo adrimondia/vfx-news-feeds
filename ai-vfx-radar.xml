@@ -2,8 +2,31 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-07T16:30:58+00:00</updated>
+<updated>2026-10-07T18:30:33+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1x02vw6/a_quick_minimax_h3_news_roundup_7th_october_2026/</id><title>A quick Minimax H3 news round-up - 7th October 2026</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x02vw6/a_quick_minimax_h3_news_roundup_7th_october_2026/"/>
+<published>2026-10-07T17:36:16+00:00</published><updated>2026-10-07T17:36:16+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="render"/>
+<category term="rendering"/>
+<category term="comfyui"/>
+<category term="minimax"/>
+<category term="lora"/>
+<summary>Another quick Minimax H3 news and goodies round-up, for those who may have missed some items. -&gt; A new LoRA aims to emulate the look of 1970s fantasy films, rather than 1980s. Aims for... "the visual language of older fantasy productions: practical costumes, theatrical sets, matte-painted environmen</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 6 · render, rendering, comfyui, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Another quick Minimax H3 news and goodies round-up, for those who may have missed some items. -&amp;gt; A new LoRA aims to emulate the look of 1970s fantasy films, rather than 1980s. Aims for... "the visual language of older fantasy productions: practical costumes, theatrical sets, matte-painted environments, strange creatures, distant worlds, ancient ruins, dramatic landscapes, soft analog photography". Trigger word is retr0Fantasy - but apparently it doesn't have to be used provided you have a suitable prompt. https://civitai.com/models/2988830/minimax-h3-forgotten-worlds-retro-fantasy -&amp;gt; Minimax-h3-inpainting has updated today. "Add mask_drop_step for single-pass harmonize". https://huggingface.&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x02vw6/a_quick_minimax_h3_news_roundup_7th_october_2026/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1x012ey/erenodes_tagbased_prompting_one_year_in/</id><title>EreNodes: tag-based prompting, one year in</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x012ey/erenodes_tagbased_prompting_one_year_in/"/>
+<published>2026-10-07T16:27:23+00:00</published><updated>2026-10-07T16:27:23+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<category term="lora"/>
+<summary>Over a year ago I posted EreNodes here when it was a handful of nodes that let you click tags on and off instead of editing a wall of text. It didn't stop there. I kept fixing whatever annoyed me during my own generations, and a year (and 44 versions) later it's grown a lot. The core idea is the sam</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Over a year ago I posted EreNodes here when it was a handful of nodes that let you click tags on and off instead of editing a wall of text. It didn't stop there. I kept fixing whatever annoyed me during my own generations, and a year (and 44 versions) later it's grown a lot. The core idea is the same: your prompt is a list of pills. Every tag, lora, embedding or sentence is a pill you can switch off, reweight, drag around or save for later. What's new since the first post: Prompt Composer : one node with customizable categories (character, outfit, background...) instead of a chain of separate prompt nodes Drag and drop everywhere : reorder pills, move them between nodes Tag groups : save any&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x012ey/erenodes_tagbased_prompting_one_year_in/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1x003qm/chillin_in_middle_earth_with_minimax_h3/</id><title>Chillin in Middle Earth with Minimax H3</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x003qm/chillin_in_middle_earth_with_minimax_h3/"/>
@@ -12,6 +35,26 @@
 <category term="minimax"/>
 <summary>submitted by /u/sktksm [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/sktksm [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x003qm/chillin_in_middle_earth_with_minimax_h3/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wzzztt/line_zero_building_a_title_sequence_around_one/</id><title>LINE ZERO — building a title sequence around one visual rule | ComfyUI / LTX / MiniMax H3</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wzzztt/line_zero_building_a_title_sequence_around_one/"/>
+<published>2026-10-07T15:47:00+00:00</published><updated>2026-10-07T15:47:00+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<category term="minimax"/>
+<category term="ltx"/>
+<summary>LINE ZERO is a short title-sequence experiment built around one visual rule: a single yellow line changes function as it moves through the world — map, infrastructure, transport, signal and trajectory. Rather than treating each generated shot independently, I tried to use that line as the connective</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 6 · comfyui, minimax, ltx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;LINE ZERO is a short title-sequence experiment built around one visual rule: a single yellow line changes function as it moves through the world — map, infrastructure, transport, signal and trajectory. Rather than treating each generated shot independently, I tried to use that line as the connective structure for the whole edit. Built through a mix of AI image/video work, ComfyUI, LTX and MiniMax H3, then edited and finished in post. Curious whether the visual rule reads clearly without explanation, and whether the escalation toward the final shot works. submitted by /u/magratheya_64 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wzzztt/line_zero_building_a_title_sequence_around_one/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wzzj2q/stress_test_part2_qwen_image_21_image_edit_8/</id><title>[Stress Test - Part-2] : Qwen Image 2.1 Image Edit — 8 Real-World Scene Editing in ComfyUI</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wzzj2q/stress_test_part2_qwen_image_21_image_edit_8/"/>
+<published>2026-10-07T15:29:00+00:00</published><updated>2026-10-07T15:29:00+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<summary>submitted by /u/CreativeEbb806 [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/CreativeEbb806 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wzzj2q/stress_test_part2_qwen_image_21_image_edit_8/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wzz4vj/how_is_the_performance_of_minimax_h3_on_a_dgx/</id><title>How is the performance of Minimax H3 on a DGX Spark</title>
@@ -23,6 +66,15 @@
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Does any one use Minimax H3 on DGX spark.What are the generation times like? submitted by /u/jumpingbandit [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wzz4vj/how_is_the_performance_of_minimax_h3_on_a_dgx/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wzy4oo/make_easy_transparent_videos_using_minimaxh3_in/</id><title>Make Easy Transparent Videos Using MiniMax-H3 In ComfyUI [Free Workflow]</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wzy4oo/make_easy_transparent_videos_using_minimaxh3_in/"/>
+<published>2026-10-07T14:34:31+00:00</published><updated>2026-10-07T14:34:31+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<summary>submitted by /u/solomars3 [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/solomars3 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wzy4oo/make_easy_transparent_videos_using_minimaxh3_in/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wzy108/make_easy_transparent_videos_using_minimaxh3_in/</id><title>Make Easy Transparent Videos Using MiniMax-H3 In ComfyUI [Free Workflow]</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wzy108/make_easy_transparent_videos_using_minimaxh3_in/"/>
 <published>2026-10-07T14:30:21+00:00</published><updated>2026-10-07T14:30:21+00:00</updated>
@@ -30,6 +82,19 @@
 <category term="comfyui"/>
 <summary>submitted by /u/solomars3 [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/solomars3 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wzy108/make_easy_transparent_videos_using_minimaxh3_in/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wzy0w2/comfyui_tutorial_character_swap_with_minimax_h3/</id><title>ComfyUI Tutorial : Character Swap with MiniMax H3 using LORA LOWVRAM Workflow (6GB)</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wzy0w2/comfyui_tutorial_character_swap_with_minimax_h3/"/>
+<published>2026-10-07T14:30:13+00:00</published><updated>2026-10-07T14:30:13+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="upscaling"/>
+<category term="comfyui"/>
+<category term="flux"/>
+<category term="minimax"/>
+<category term="lora"/>
+<summary>Hello everyone, I new ComfyUI workflow for video character swapping using MiniMax H3 + Character Swap LoRA , and the main advantage is that it works without masking , which can significantly reduce VRAM usage and simplify the process. The workflow generates at 0.4 MP in just 8 steps , supports both </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 8 · upscaling, comfyui, flux, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hello everyone, I new ComfyUI workflow for video character swapping using MiniMax H3 + Character Swap LoRA , and the main advantage is that it works without masking , which can significantly reduce VRAM usage and simplify the process. The workflow generates at 0.4 MP in just 8 steps , supports both portrait and widescreen videos , and can then upscale the result to 1.2 MP using the MiniMax H3 latent upscale model . I tested it on an RTX 3060 6GB with 16GB RAM , so it’s designed with low-VRAM users in mind. To create the character, you first prepare/update a character sheet using workflows such as Qwen Image 2.1, FLUX Krea, or MiniMax H3, load the character sheet into the workflow, and simply&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wzy0w2/comfyui_tutorial_character_swap_with_minimax_h3/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wzxfbq/best_settings_prompts_or_loras_for_more/</id><title>Best settings, prompts or LoRAs for more photorealistic people in Qwen Image 2.1?</title>
@@ -50,6 +115,22 @@
 <category term="comfyui"/>
 <summary>This is the Workflow I use daily and for most purposes. It handles most tasks that occur on my daily basis. Maybe it can be helpful to some of you. Its key feature are image generation, manipulation via references, in- and outpainting in a compact workflow with helpful options. Link to Workflow on P</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · outpainting, comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;This is the Workflow I use daily and for most purposes. It handles most tasks that occur on my daily basis. Maybe it can be helpful to some of you. Its key feature are image generation, manipulation via references, in- and outpainting in a compact workflow with helpful options. Link to Workflow on Pastebin: FluxKleinAllInOne Overview: Model Loading Section: Load FluxKlein Model, Text Encoder, VAE Image Loading Section: Load three Reference Images. You can rescale them, at standard setting the Aspect Ratio of the Input is maintained. Main Menu Section: You can select between four Modes: Reference Mode: Modify Images with up to three Reference Images. Inpaint Mode: Select Parts of the Image to&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wzx73p/fluxkleinallinone_workflow/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wzwkwg/looking_for_the_best_affordable_ai/</id><title>Looking for the best affordable AI video-generation models with fewer restrictions.</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wzwkwg/looking_for_the_best_affordable_ai/"/>
+<published>2026-10-07T13:29:52+00:00</published><updated>2026-10-07T13:29:52+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="text-to-video"/>
+<category term="image-to-video"/>
+<category term="wan"/>
+<category term="kling"/>
+<category term="hailuo"/>
+<category term="ltx"/>
+<category term="consistency"/>
+<category term="character consistency"/>
+<summary>Hi everyone, I’m exploring AI filmmaking and looking for good AI video-generation models that are either free, open-source/open-weight, or affordable. I’m particularly interested in models who allow uncensored content or fewer unnecessary content restrictions and more control over the generation pro</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 10 · text-to-video, image-to-video, wan, kling, hailuo, ltx, consistency, character consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi everyone, I’m exploring AI filmmaking and looking for good AI video-generation models that are either free, open-source/open-weight, or affordable. I’m particularly interested in models who allow uncensored content or fewer unnecessary content restrictions and more control over the generation process. What I’m looking for: Realistic/cinematic text-to-video Image-to-video Good character consistency Realistic human movement High-quality video output Ideally open-source/open-weight Local/self-hosted options are a plus Affordable cloud options are also fine Preferably no expensive subscription required So far I’ve come across models/tools such as Wan, LTX, Kling, Hailuo and Pika, but I’d like&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wzwkwg/looking_for_the_best_affordable_ai/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1wzvo8c/i_kept_losing_track_of_how_my_comfyui_images_were/</id><title>I kept losing track of how my ComfyUI images were generated, so I built GenTrace — a local generation history logger</title>
@@ -7421,36 +7502,5 @@
 <category term="lora"/>
 <summary>Hey everyone! I’m pretty new to AI generation and LoRAs, and I’ve been trying to figure this out for the past few weeks. I’m trying to create a new identity by combining specific features from different reference images. For example: Person A’s eyes + Person B’s nose + Person C’s lips + Person D’s u</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · flux, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey everyone! I’m pretty new to AI generation and LoRAs, and I’ve been trying to figure this out for the past few weeks. I’m trying to create a new identity by combining specific features from different reference images. For example: Person A’s eyes + Person B’s nose + Person C’s lips + Person D’s upper body + Person E’s lower body + Person F’s hands/feet = one new identity The goal would then be to take that identity, generate a consistent character sheet/reference set, and eventually use those images to train a LoRA. What I’m struggling with is the first step: how do I actually create that new identity from the individual features I want? The workflow I’m currently looking at is: FLUX.2 [k&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1woeb8t/creating_a_new_identity_from_multiple_reference/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wodsr1/flux_3_action_7b_action_world_model/</id><title>Flux 3 Action - 7B Action World Model</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wodsr1/flux_3_action_7b_action_world_model/"/>
-<published>2026-09-23T18:18:40+00:00</published><updated>2026-09-23T18:18:40+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="world model"/>
-<category term="flux"/>
-<summary>submitted by /u/Scriabinical [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · world model, flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/Scriabinical [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wodsr1/flux_3_action_7b_action_world_model/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wodkoa/a_quick_minimax_h3_news_roundup_23rd_september/</id><title>A quick Minimax H3 news round-up - 23rd September 2026</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wodkoa/a_quick_minimax_h3_news_roundup_23rd_september/"/>
-<published>2026-09-23T18:10:11+00:00</published><updated>2026-09-23T18:10:11+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="minimax"/>
-<category term="lora"/>
-<summary>Another quick Minimax H3 news and goodies round-up, for those who may have missed some items. -&gt; New on the official ComfyUI blog... "The MiniMax H3 video VAE now encodes up to ~2.2x faster and decodes ~1.4-2.7x faster on Nvidia GPUs." https://blog.comfy.org/p/making-the-minimax-h3-video-vae-2x -&gt; C</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · comfyui, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Another quick Minimax H3 news and goodies round-up, for those who may have missed some items. -&amp;gt; New on the official ComfyUI blog... "The MiniMax H3 video VAE now encodes up to ~2.2x faster and decodes ~1.4-2.7x faster on Nvidia GPUs." https://blog.comfy.org/p/making-the-minimax-h3-video-vae-2x -&amp;gt; ComfyUI-H3-FaceAutoBypass is now newly at v2. Does your generated clip really need a facefix, or not? This node decides for you, potentially saving you time. https://github.com/fukkun2705-commits/ComfyUI-H3-FaceAutoBypass -&amp;gt; Vpakarinen's Natural-face-speech-h3-lora is now newly at v2. This offers... "Face muscle dynamics with clear English speech" and V2 apparently adds... "male/female voice with f&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wodkoa/a_quick_minimax_h3_news_roundup_23rd_september/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wod4sx/i_was_looking_for_a_simple_creative_validation/</id><title>I was looking for a simple creative validation for product design</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wod4sx/i_was_looking_for_a_simple_creative_validation/"/>
-<published>2026-09-23T17:54:03+00:00</published><updated>2026-09-23T17:54:03+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="tracking"/>
-<category term="comfyui"/>
-<summary>I do a lot of product design work in ComfyUI. Packaging mockups, product shots, concept renders. Classic problem: the silhouette looks great to me, then someone says “nobody sees the logo,the feature or the CTA on the pack.” Most attractive eye tracking tools I found were either expensive SaaS dashb</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · tracking, comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I do a lot of product design work in ComfyUI. Packaging mockups, product shots, concept renders. Classic problem: the silhouette looks great to me, then someone says “nobody sees the logo,the feature or the CTA on the pack.” Most attractive eye tracking tools I found were either expensive SaaS dashboards or completely outside my graph. I wanted smth simple. So I’ve found and been testing Trusapien Creative Validation (comfyui-trusapien). Workflow is dumb simple (screenshot attached): Load Image Trusapien Creative Validation Preview Image Example below is a product shot. Heatmap showed ne what pulls first vs what gets ignored.Ofc not a full research lab replacement. For me it’s a fast check: &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wod4sx/i_was_looking_for_a_simple_creative_validation/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
