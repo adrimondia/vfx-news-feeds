@@ -2,8 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-07T04:30:25+00:00</updated>
+<updated>2026-10-07T06:30:23+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wzogxx/fasth3_v2v3_project_status/</id><title>FastH3 V2/V3: Project Status</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wzogxx/fasth3_v2v3_project_status/"/>
+<published>2026-10-07T05:33:01+00:00</published><updated>2026-10-07T05:33:01+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="minimax"/>
+<category term="consistency"/>
+<summary>https://preview.redd.it/pr5bl6rcezth1.png?width=834&amp;format=png&amp;auto=webp&amp;s=dca7440c56e169b53a586182368829f848805c9a They released FastH3 V2 three weeks ago: https://www.reddit.com/r/StableDiffusion/comments/1whh10i/open_weight_fastvideo_fasth3_v2/ Which they claimed was basically identical to the qu</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;https://preview.redd.it/pr5bl6rcezth1.png?width=834&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=dca7440c56e169b53a586182368829f848805c9a They released FastH3 V2 three weeks ago: https://www.reddit.com/r/StableDiffusion/comments/1whh10i/open_weight_fastvideo_fasth3_v2/ Which they claimed was basically identical to the quality of the full H3: https://x.com/haoailab/status/2099969439466942725 https://haoailab.com/FastVideo/cookbook/minimax-h3/ I have to agree, the quality is great and motion consistency is awesome now. I didn't think this small lab could do it, but they got help from NVIDIA and others who are invested in making great open source models. Awesome. The community already made FastH3 V2 run on single GP&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wzogxx/fasth3_v2v3_project_status/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://arxiv.org/abs/2610.07031</id><title>Artemis: Geometry-Grounded Multi-Agent Driving World Models with Shared 3D State and Progressive Memory Update</title>
 <link rel="alternate" href="https://arxiv.org/abs/2610.07031"/>
@@ -90,6 +100,18 @@
 <category term="filmmaking"/>
 <summary>I’ve been working on Ome Omy CUT , an AI-assisted video editing workflow that runs on your own computer with ComfyUI underneath. I started building it because the tools I’d tried weren’t quite doing what I wanted. It’s still in development, but I’ve put up an introduction on Patreon, where I’ll be s</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · video editing, comfyui, filmmaking&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I’ve been working on Ome Omy CUT , an AI-assisted video editing workflow that runs on your own computer with ComfyUI underneath. I started building it because the tools I’d tried weren’t quite doing what I wanted. It’s still in development, but I’ve put up an introduction on Patreon, where I’ll be sharing demos and progress as it comes together. If you’re experimenting with AI for filmmaking or editing, I’d be interested to hear what you’ve tried and where you’re getting stuck. My own frustrations have pretty much been the development plan so far. The first release of Ome Omy CUT is coming soon. Some of what’s planned: Build scenes shot by shot on a timeline , with controls for shot order, t&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wzhu50/ome_omy_cut_ome_omy_productions/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wzf4ym/update_my_free_lora_trainer_studio_now_supports/</id><title>Update: my free LoRA Trainer Studio now supports 10 model families, ERNIE-Image, rsLoRA, LoRA+ and LoKr</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wzf4ym/update_my_free_lora_trainer_studio_now_supports/"/>
+<published>2026-10-06T21:40:16+00:00</published><updated>2026-10-06T21:40:16+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<category term="flux"/>
+<category term="ltx"/>
+<category term="lora"/>
+<summary>Hi again! A while ago I shared my free all-in-one LoRA trainer for consumer GPUs . Since then, the project has grown quite a bit. AcademiaSD LoRAlab Trainer Studio now supports 10 model families: Qwen-Image 2.1 FLUX.2 Klein 9B Krea 2 Z-Image Ideogram 4 Anima SDXL, including Pony, Illustrious and oth</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 5 · comfyui, flux, ltx, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi again! A while ago I shared my free all-in-one LoRA trainer for consumer GPUs . Since then, the project has grown quite a bit. AcademiaSD LoRAlab Trainer Studio now supports 10 model families: Qwen-Image 2.1 FLUX.2 Klein 9B Krea 2 Z-Image Ideogram 4 Anima SDXL, including Pony, Illustrious and other checkpoints LTX 2.3 / 2.5 MiniMax-H3 ERNIE-Image New and expanded features: rsLoRA, LoRA+ and LoKr with a configurable factor for most supported models RunPod support with automatic deployment, so you can train in the cloud without setting everything up by hand Eight selectable languages in the launcher Remote access over your local network: open the trainer from another device, upload your dat&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wzf4ym/update_my_free_lora_trainer_studio_now_supports/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1wzdoh3/hunyuanimage_30_80b_running_natively_in_comfyui/</id><title>HunyuanImage 3.0 (80B) running natively in ComfyUI on a single 12–24 GB GPU: text-to-image, editing and style transfer, ~30 s per image</title>
