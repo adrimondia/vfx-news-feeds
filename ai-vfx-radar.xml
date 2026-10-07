@@ -2,8 +2,17 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-07T08:00:20+00:00</updated>
+<updated>2026-10-07T08:30:31+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wzpyh4/hdr_thumbnails/</id><title>HDR Thumbnails</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wzpyh4/hdr_thumbnails/"/>
+<published>2026-10-07T07:06:42+00:00</published><updated>2026-10-07T07:06:42+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="hdr"/>
+<summary>Maybe others have come across a fix for this. I know it is more of a nuisance thing, but since I have started working with HDR images and video, my HDR thumbnails in Windows Explorer show up darker and grayer than do my normal SDR images. I've had no luck finding solutions online, and the Google AI </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · hdr&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Maybe others have come across a fix for this. I know it is more of a nuisance thing, but since I have started working with HDR images and video, my HDR thumbnails in Windows Explorer show up darker and grayer than do my normal SDR images. I've had no luck finding solutions online, and the Google AI recommendations, using Irfanview for search by thumbnail, cleaning thumb caches, using Sage Thumbs, did not work. submitted by /u/robertwellesley [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wzpyh4/hdr_thumbnails/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wzogxx/fasth3_v2v3_project_status/</id><title>FastH3 V2/V3: Project Status</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wzogxx/fasth3_v2v3_project_status/"/>
@@ -13,6 +22,16 @@
 <category term="consistency"/>
 <summary>https://preview.redd.it/pr5bl6rcezth1.png?width=834&amp;format=png&amp;auto=webp&amp;s=dca7440c56e169b53a586182368829f848805c9a They released FastH3 V2 three weeks ago: https://www.reddit.com/r/StableDiffusion/comments/1whh10i/open_weight_fastvideo_fasth3_v2/ Which they claimed was basically identical to the qu</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;https://preview.redd.it/pr5bl6rcezth1.png?width=834&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=dca7440c56e169b53a586182368829f848805c9a They released FastH3 V2 three weeks ago: https://www.reddit.com/r/StableDiffusion/comments/1whh10i/open_weight_fastvideo_fasth3_v2/ Which they claimed was basically identical to the quality of the full H3: https://x.com/haoailab/status/2099969439466942725 https://haoailab.com/FastVideo/cookbook/minimax-h3/ I have to agree, the quality is great and motion consistency is awesome now. I didn't think this small lab could do it, but they got help from NVIDIA and others who are invested in making great open source models. Awesome. The community already made FastH3 V2 run on single GP&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wzogxx/fasth3_v2v3_project_status/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wzne0h/rtx_5090_minimax_h3_fullsystem_poweroff_no_longer/</id><title>RTX 5090 + MiniMax H3: full-system power-off no longer reproduced after updating the ComfyUI-side stack</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wzne0h/rtx_5090_minimax_h3_fullsystem_poweroff_no_longer/"/>
+<published>2026-10-07T04:28:32+00:00</published><updated>2026-10-07T04:28:32+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<category term="minimax"/>
+<summary>I ran into a pretty unusual MiniMax H3 / RTX 5090 failure and managed to freeze the exact workload before changing anything, so I ended up with a fairly clean A/B. Hardware Ryzen 9 9950X3D RTX 5090 ASUS ROG Strix 1200W Platinum Windows 11 What the failure looked like This was not a normal ComfyUI cr</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I ran into a pretty unusual MiniMax H3 / RTX 5090 failure and managed to freeze the exact workload before changing anything, so I ended up with a fairly clean A/B. Hardware Ryzen 9 9950X3D RTX 5090 ASUS ROG Strix 1200W Platinum Windows 11 What the failure looked like This was not a normal ComfyUI crash, CUDA exception, TDR, black screen, or BSOD. On the failing H3 workload the entire PC would instantly lose main power: fans stopped RGB went off system stayed powered off no bugcheck / no dump no obvious WHEA or nvlddmkm event before it pressing the case power button could immediately boot the PC again The same frozen H3 shot reproduced this behavior more than once. The weird part Normal heavy&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wzne0h/rtx_5090_minimax_h3_fullsystem_poweroff_no_longer/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://arxiv.org/abs/2610.07031</id><title>Artemis: Geometry-Grounded Multi-Agent Driving World Models with Shared 3D State and Progressive Memory Update</title>
@@ -80,6 +99,15 @@
 <category term="vfx"/>
 <summary>Hi everyone! I recently released my first app on the AppStore: PropChat, and I wanted to share it with you. Hope you’ll find it helpful. PropChat is a customizable chat(voice notes, photos, videos)/call/videocall simulator for VFX supervisors and prop masters. The story is that recently I worked on </summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi everyone! I recently released my first app on the AppStore: PropChat, and I wanted to share it with you. Hope you’ll find it helpful. PropChat is a customizable chat(voice notes, photos, videos)/call/videocall simulator for VFX supervisors and prop masters. The story is that recently I worked on a TV Series that had a lot of smartphone VFX: call, videocalls, chats, etc. We couldn’t use some platforms because of copyright and sometimes, because of the type of location, we weren’t able to make a real call or send a real message (also, doing real calls on set could be frustrating because of actors and their timing). So I thought about this tool that you can customize however you want and als&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wzlus1/vfx_smartphone_onset_chat_simulator/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wzljml/workflow_for_minimax_h3_on_3070ti_32_ram_intel_i7/</id><title>WORKFLOW FOR MINIMAX H3 ON 3070TI - 32 RAM - INTEL I7 3G - DOWNLOAD JSON FREE</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wzljml/workflow_for_minimax_h3_on_3070ti_32_ram_intel_i7/"/>
+<published>2026-10-07T02:46:57+00:00</published><updated>2026-10-07T02:46:57+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="minimax"/>
+<summary>submitted by /u/Informal-Check2106 [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/Informal-Check2106 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wzljml/workflow_for_minimax_h3_on_3070ti_32_ram_intel_i7/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wzib3c/a_new_video_model_from_tencent_is_coming_maybe/</id><title>A new video model from Tencent is coming... maybe? "Prism"</title>
