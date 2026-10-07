@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-07T06:30:23+00:00</updated>
+<updated>2026-10-07T08:00:20+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wzogxx/fasth3_v2v3_project_status/</id><title>FastH3 V2/V3: Project Status</title>
@@ -7372,57 +7372,5 @@
 <category term="minimax"/>
 <summary>I'm running H3 Ref2VA at 2MP, 12 sec on a 5090 32GB with 64GB RAM. With 7 reference images + 1 reference video, it works and starts sampling after about 7 minutes. All images are 2048*2048. As soon as I add an 8th reference image, it gets stuck at: 0/20 - Model Initializing... I tested both ref_imag</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I'm running H3 Ref2VA at 2MP, 12 sec on a 5090 32GB with 64GB RAM. With 7 reference images + 1 reference video, it works and starts sampling after about 7 minutes. All images are 2048*2048. As soon as I add an 8th reference image, it gets stuck at: 0/20 - Model Initializing... I tested both ref_image_size=match and max , same issue. Remove the 8th image, it works again. Has anyone else run into this? Is there some kind of reference token / memory threshold with H3 Ref2VA, even though the node supports up to 9 images? submitted by /u/itchplease [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wo1nub/minimax_h3_ref2va_gets_stuck_at_model/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wnzl88/wan_vs_minimax_for_video_outfit_change/</id><title>Wan vs Minimax for video outfit change</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wnzl88/wan_vs_minimax_for_video_outfit_change/"/>
-<published>2026-09-23T07:53:53+00:00</published><updated>2026-09-23T07:53:53+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="video model"/>
-<category term="wan"/>
-<category term="minimax"/>
-<summary>Which video model does the best for changing the outfit of the video while keeping the dance moves the same? Realistic quality. While keeping the identity exact, no alteration in the identity. submitted by /u/Juggernaut_Wrecker [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 5 · video model, wan, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Which video model does the best for changing the outfit of the video while keeping the dance moves the same? Realistic quality. While keeping the identity exact, no alteration in the identity. submitted by /u/Juggernaut_Wrecker [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wnzl88/wan_vs_minimax_for_video_outfit_change/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wnz06c/made_a_horror_mv_with_minimax_h3/</id><title>Made a horror MV with MiniMax H3</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wnz06c/made_a_horror_mv_with_minimax_h3/"/>
-<published>2026-09-23T07:18:03+00:00</published><updated>2026-09-23T07:18:03+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="lip-sync"/>
-<category term="minimax"/>
-<summary>I wanted to see if H3 could hold together across a full music video rather than just a single clip. I generated the shots separately with H3, then edited everything to the music and built the final sequence in post. I noticed a few shots where the lip-sync was slightly off, but otherwise the story c</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · lip-sync, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I wanted to see if H3 could hold together across a full music video rather than just a single clip. I generated the shots separately with H3, then edited everything to the music and built the final sequence in post. I noticed a few shots where the lip-sync was slightly off, but otherwise the story came out pretty close to what I had in mind. I especially like how the final line was presented. submitted by /u/Kylie-Elena190 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wnz06c/made_a_horror_mv_with_minimax_h3/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wny6zq/true_pixel_art_game_asset_workflows_palettes/</id><title>True Pixel Art game asset workflows? Palettes, spritesheets, top-down/side-view, etc.</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wny6zq/true_pixel_art_game_asset_workflows_palettes/"/>
-<published>2026-09-23T06:31:00+00:00</published><updated>2026-09-23T06:31:00+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="animation"/>
-<category term="comfyui"/>
-<category term="consistency"/>
-<summary>Hey! Has anyone found a genuinely successful workflow in ComfyUI for creating actual pixel-art game assets, rather than just images that look vaguely pixel-art-ish? I’m especially interested in workflows that can handle things like: True color limiting / fixed palettes — e.g. forcing the output to u</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · animation, comfyui, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey! Has anyone found a genuinely successful workflow in ComfyUI for creating actual pixel-art game assets, rather than just images that look vaguely pixel-art-ish? I’m especially interested in workflows that can handle things like: True color limiting / fixed palettes — e.g. forcing the output to use a specific 16/32/64-color palette rather than just prompting for those colors. Consistent characters/assets across different perspectives — especially 2D side-scroller versions and top-down / 3/4 top-down versions of the same character or object. Animation sprite sheets — idle, walk, run, attack, etc., while keeping proportions, palette and design consistent between frames. Clean silhouettes an&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wny6zq/true_pixel_art_game_asset_workflows_palettes/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://github.com/superdesigndev/treg</id><title>superdesigndev/treg</title>
-<link rel="alternate" href="https://github.com/superdesigndev/treg"/>
-<published>2026-09-23T06:30:26+00:00</published><updated>2026-09-23T06:30:26+00:00</updated>
-<author><name>GitHub trending (Python)</name></author>
-<category term="video generation"/>
-<category term="render"/>
-<summary>OpenRouter for agent tools. Join community here: https://discord.gg/6mQYYfFMAn https://treg.to Treg (OpenRouter for Tools) OpenRouter, but for agent tools instead of models. Point an agent at one base URL with one token and it can do the job: 3,000+ catalogued endpoints across 60+ providers — SEO an</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;GitHub trending (Python) · score 2 · video generation, render&lt;/small&gt;&lt;/p&gt;&lt;p&gt;OpenRouter for agent tools. Join community here: https://discord.gg/6mQYYfFMAn https://treg.to Treg (OpenRouter for Tools) OpenRouter, but for agent tools instead of models. Point an agent at one base URL with one token and it can do the job: 3,000+ catalogued endpoints across 60+ providers — SEO and backlinks, social and trends, people and company enrichment, ads, scraping, image and video generation — priced per call, from a cent , with no provider signup. Plus your own team's keys, skills and CLIs, callable by every teammate's agent without the credential ever leaving the server. Ask for the task, not the tool. You do not need to know which vendor sells backlink data, or to hold an accoun&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.com/superdesigndev/treg"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://github.com/browser-use/video-use</id><title>browser-use/video-use</title>
-<link rel="alternate" href="https://github.com/browser-use/video-use"/>
-<published>2026-09-23T06:30:26+00:00</published><updated>2026-09-23T06:30:26+00:00</updated>
-<author><name>GitHub trending (Python)</name></author>
-<category term="animation"/>
-<category term="cinematic"/>
-<summary>Edit videos with coding agents video-use Introducing video-use — edit videos with Claude Code. 100% open source. Drop raw footage in a folder, chat with Claude Code, get final.mp4 back. Works for any content — talking heads, montages, tutorials, travel, interviews — without presets or menus. Try vid</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;GitHub trending (Python) · score 2 · animation, cinematic&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Edit videos with coding agents video-use Introducing video-use — edit videos with Claude Code. 100% open source. Drop raw footage in a folder, chat with Claude Code, get final.mp4 back. Works for any content — talking heads, montages, tutorials, travel, interviews — without presets or menus. Try video-use in Browser Use Cloud . What it does Cuts out filler words ( umm , uh , false starts) and dead space between takes Auto color grades every segment (warm cinematic, neutral punch, or any custom ffmpeg chain) 30ms audio fades at every cut so you never hear a pop Burns subtitles in your style — 2-word UPPERCASE chunks by default, fully customizable Generates animation overlays via HyperFrames ,&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.com/browser-use/video-use"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
