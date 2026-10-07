@@ -2,8 +2,37 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-07T12:30:55+00:00</updated>
+<updated>2026-10-07T14:30:38+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wzx73p/fluxkleinallinone_workflow/</id><title>FluxKleinAllInOne Workflow</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wzx73p/fluxkleinallinone_workflow/"/>
+<published>2026-10-07T13:56:06+00:00</published><updated>2026-10-07T13:56:06+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="outpainting"/>
+<category term="comfyui"/>
+<summary>This is the Workflow I use daily and for most purposes. It handles most tasks that occur on my daily basis. Maybe it can be helpful to some of you. Its key feature are image generation, manipulation via references, in- and outpainting in a compact workflow with helpful options. Link to Workflow on P</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · outpainting, comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;This is the Workflow I use daily and for most purposes. It handles most tasks that occur on my daily basis. Maybe it can be helpful to some of you. Its key feature are image generation, manipulation via references, in- and outpainting in a compact workflow with helpful options. Link to Workflow on Pastebin: FluxKleinAllInOne Overview: Model Loading Section: Load FluxKlein Model, Text Encoder, VAE Image Loading Section: Load three Reference Images. You can rescale them, at standard setting the Aspect Ratio of the Input is maintained. Main Menu Section: You can select between four Modes: Reference Mode: Modify Images with up to three Reference Images. Inpaint Mode: Select Parts of the Image to&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wzx73p/fluxkleinallinone_workflow/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wzvo8c/i_kept_losing_track_of_how_my_comfyui_images_were/</id><title>I kept losing track of how my ComfyUI images were generated, so I built GenTrace — a local generation history logger</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wzvo8c/i_kept_losing_track_of_how_my_comfyui_images_were/"/>
+<published>2026-10-07T12:49:55+00:00</published><updated>2026-10-07T12:49:55+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<category term="lora"/>
+<summary>I use ComfyUI through Stability Matrix a lot, and I kept running into the same problem: I could find an old image, but I couldn’t easily remember when I generated it, how long it took, what model/LoRA I used, or what my GPU was doing at the time. So I built GenTrace for my own workflow and decided t</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I use ComfyUI through Stability Matrix a lot, and I kept running into the same problem: I could find an old image, but I couldn’t easily remember when I generated it, how long it took, what model/LoRA I used, or what my GPU was doing at the time. So I built GenTrace for my own workflow and decided to open-source it. It runs alongside Stability Matrix / ComfyUI on Windows and records generation history without modifying the existing ComfyUI environment or requiring custom nodes. It currently tracks: Model / LoRA Seed Sampler / Scheduler Steps / CFG Resolution Generation time GPU usage samples Success / failure / interrupted jobs Everything is stored locally in SQLite. You can also import exis&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wzvo8c/i_kept_losing_track_of_how_my_comfyui_images_were/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wzva64/flux_3_open_weights_image_edit_when/</id><title>Flux 3 open weights image edit when</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wzva64/flux_3_open_weights_image_edit_when/"/>
+<published>2026-10-07T12:31:29+00:00</published><updated>2026-10-07T12:31:29+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="flux"/>
+<summary>TITLE - has this released yet submitted by /u/pornaccount0123987 [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;TITLE - has this released yet submitted by /u/pornaccount0123987 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wzva64/flux_3_open_weights_image_edit_when/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wzuwyd/hunyuanimage_30_face_swap_test/</id><title>HunyuanImage 3.0 face swap test</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wzuwyd/hunyuanimage_30_face_swap_test/"/>
@@ -24,6 +53,16 @@
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;This is my Output using Minimax H3, 8 step larry 600 ema pruned lora, 2 step sampler upscale. submitted by /u/Automatic_Lynx_7777 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wzsucm/naruto_shippuden_heros_come_back_ai_fanmade_mv/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wzsn21/veda_sparse_attention_is_now_available_for/</id><title>VEDA Sparse Attention is now available for MiniMax H3 in ComfyUI</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wzsn21/veda_sparse_attention_is_now_available_for/"/>
+<published>2026-10-07T10:04:06+00:00</published><updated>2026-10-07T10:04:06+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<category term="minimax"/>
+<summary>submitted by /u/robomar_ai_art [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/robomar_ai_art [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wzsn21/veda_sparse_attention_is_now_available_for/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wzskwy/veda_sparse_attention_is_now_available_for/</id><title>VEDA Sparse Attention is now available for MiniMax H3 in ComfyUI</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wzskwy/veda_sparse_attention_is_now_available_for/"/>
 <published>2026-10-07T10:00:38+00:00</published><updated>2026-10-07T10:00:38+00:00</updated>
@@ -33,6 +72,18 @@
 <category term="lora"/>
 <summary>I don't think many people know about this yet, so I wanted to share it. VEDA Sparse Attention is now available as a ComfyUI custom node for MiniMax H3. I tested it today on my setup: RTX 4090 Laptop 16GB 32GB RAM, 4-step LoRA, 15 second video, 1344x768 Without VEDA: 8:05 With VEDA at 90% sparsity: 4</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 5 · comfyui, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I don't think many people know about this yet, so I wanted to share it. VEDA Sparse Attention is now available as a ComfyUI custom node for MiniMax H3. I tested it today on my setup: RTX 4090 Laptop 16GB 32GB RAM, 4-step LoRA, 15 second video, 1344x768 Without VEDA: 8:05 With VEDA at 90% sparsity: 4:32 Same workflow, same LoRA, same settings. The only change was enabling VEDA. I couldn't see any quality loss in the result. VEDA is not a LoRA. It uses a learned predictor to estimate which attention tiles are important and only computes the relevant subset instead of the full attention map. The current predictor works with T2VA, FL2VA and R2VA, and despite the 8NFE name it is not limited to 8 &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wzskwy/veda_sparse_attention_is_now_available_for/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1wzsdjr/i_made_comfyui_nodes_for_projection_mapping_3d/</id><title>I made ComfyUI nodes for projection mapping, 3D and motion design (my first node pack, please be gentle)</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wzsdjr/i_made_comfyui_nodes_for_projection_mapping_3d/"/>
+<published>2026-10-07T09:47:32+00:00</published><updated>2026-10-07T09:47:32+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="render"/>
+<category term="comfyui"/>
+<category term="houdini"/>
+<category term="ltx"/>
+<summary>I do projection mapping, and I got tired of bouncing between Comfy, After Effects and Houdini every time a facade needed a new look. So I did the reasonable thing and spent way too many evenings building it all inside ComfyUI instead. It started as a facade thing: split a building into windows, door</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 5 · render, comfyui, houdini, ltx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I do projection mapping, and I got tired of bouncing between Comfy, After Effects and Houdini every time a facade needed a new look. So I did the reasonable thing and spent way too many evenings building it all inside ComfyUI instead. It started as a facade thing: split a building into windows, doors and cornices, give each part its own prompt, and it diffuses them one by one while the rest stays pixel exact. Then it kind of grew. For 3D people: drop in a .blend, .fbx or .glb (or a cryptomatte / ID pass from Houdini or whatever you render with) and every object becomes its own region you can prompt separately. You can also push, tilt and spin pieces of the model with waves and beats, a bit l&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wzsdjr/i_made_comfyui_nodes_for_projection_mapping_3d/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/vfx/comments/1wzr4ei/arc_overload_a_realtime_stylized_lightning/</id><title>Arc Overload, a real-time stylized lightning ability VFX</title>
@@ -142,6 +193,16 @@
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi everyone! I recently released my first app on the AppStore: PropChat, and I wanted to share it with you. Hope you’ll find it helpful. PropChat is a customizable chat(voice notes, photos, videos)/call/videocall simulator for VFX supervisors and prop masters. The story is that recently I worked on a TV Series that had a lot of smartphone VFX: call, videocalls, chats, etc. We couldn’t use some platforms because of copyright and sometimes, because of the type of location, we weren’t able to make a real call or send a real message (also, doing real calls on set could be frustrating because of actors and their timing). So I thought about this tool that you can customize however you want and als&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wzlus1/vfx_smartphone_onset_chat_simulator/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wzlmnf/heres_a_little_short_tester_i_made_using_minimax/</id><title>Here's a little short tester I made using MiniMax H3, Yue2 for the music. Three 10s clips, first was t2va then rest are ref2va using clips and the voice from previous gens. A little post work for making the dogs barks sound the same, removing the original generated music and isolating vocals.</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wzlmnf/heres_a_little_short_tester_i_made_using_minimax/"/>
+<published>2026-10-07T02:51:17+00:00</published><updated>2026-10-07T02:51:17+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="minimax"/>
+<category term="lora"/>
+<summary>0.6mp, lcm/beta57, 4 steps with the DMAD 4 step lora submitted by /u/urabewe [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;0.6mp, lcm/beta57, 4 steps with the DMAD 4 step lora submitted by /u/urabewe [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wzlmnf/heres_a_little_short_tester_i_made_using_minimax/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
 <id>https://www.reddit.com/r/comfyui/comments/1wzljml/workflow_for_minimax_h3_on_3070ti_32_ram_intel_i7/</id><title>WORKFLOW FOR MINIMAX H3 ON 3070TI - 32 RAM - INTEL I7 3G - DOWNLOAD JSON FREE</title>
 <link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wzljml/workflow_for_minimax_h3_on_3070ti_32_ram_intel_i7/"/>
 <published>2026-10-07T02:46:57+00:00</published><updated>2026-10-07T02:46:57+00:00</updated>
@@ -149,6 +210,17 @@
 <category term="minimax"/>
 <summary>submitted by /u/Informal-Check2106 [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/Informal-Check2106 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wzljml/workflow_for_minimax_h3_on_3070ti_32_ram_intel_i7/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1wzkxqy/ideathinking_outloud_minimax_to_build_lora/</id><title>Idea/Thinking outloud: Minimax to build LoRA datasets?</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wzkxqy/ideathinking_outloud_minimax_to_build_lora/"/>
+<published>2026-10-07T02:15:38+00:00</published><updated>2026-10-07T02:15:38+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="animation"/>
+<category term="minimax"/>
+<category term="lora"/>
+<summary>Since Minimax H3 does such a good job of taking a source or two of a character and doing an animation with them while maintaining the character's integrity, it has me thinking that it could be used to one-shot a dataset for LoRA training. What do you think? Am I onto something or am I completely mis</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 5 · animation, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Since Minimax H3 does such a good job of taking a source or two of a character and doing an animation with them while maintaining the character's integrity, it has me thinking that it could be used to one-shot a dataset for LoRA training. What do you think? Am I onto something or am I completely missing some factor here? submitted by /u/AkaToraX [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wzkxqy/ideathinking_outloud_minimax_to_build_lora/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1wzib3c/a_new_video_model_from_tencent_is_coming_maybe/</id><title>A new video model from Tencent is coming... maybe? "Prism"</title>
@@ -7363,43 +7435,5 @@
 <category term="minimax"/>
 <summary>Learn how to use MiniMax Fast H3 in ComfyUI with three video workflows: text to video, first frame to video, and first and last frame to video. I’ll show you how to set up the model, choose your video size and duration, create prompts with Google Gemini, and run each workflow. I’ll also compare gene</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Learn how to use MiniMax Fast H3 in ComfyUI with three video workflows: text to video, first frame to video, and first and last frame to video. I’ll show you how to set up the model, choose your video size and duration, create prompts with Google Gemini, and run each workflow. I’ll also compare generation times at different resolutions and show the results, including a video transition between two images. The workflows use Pixaroma Nodes, Kitchen Attention, and Sparse Attention. You can run them locally or try the cloud versions on RunningHub. submitted by /u/pixaromadesign [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wo8itc/minimax_fasth3_in_comfyui_text_to_video_and_image/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wo73t5/live_wallpaper_10_using_minimax_h3_ref2va_by/</id><title>Live Wallpaper 1.0 - Using MiniMax H3 Ref2VA By Alisson</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wo73t5/live_wallpaper_10_using_minimax_h3_ref2va_by/"/>
-<published>2026-09-23T14:10:48+00:00</published><updated>2026-09-23T14:10:48+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="minimax"/>
-<category term="lora"/>
-<summary>Lora: https://huggingface.co/Alissonerdx/Minimax-H3-ComfyUI/tree/main/loras Workflow: https://huggingface.co/Alissonerdx/Minimax-H3-ComfyUI/tree/main/workflows submitted by /u/fruesome [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Lora: https://huggingface.co/Alissonerdx/Minimax-H3-ComfyUI/tree/main/loras Workflow: https://huggingface.co/Alissonerdx/Minimax-H3-ComfyUI/tree/main/workflows submitted by /u/fruesome [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wo73t5/live_wallpaper_10_using_minimax_h3_ref2va_by/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wo6d82/qwen_image_21_4_steps_turbo_lora_is_here_by_viggle/</id><title>Qwen Image 2.1 4 Steps Turbo Lora is here by Viggle</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wo6d82/qwen_image_21_4_steps_turbo_lora_is_here_by_viggle/"/>
-<published>2026-09-23T13:42:18+00:00</published><updated>2026-09-23T13:42:18+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="lora"/>
-<summary>https://huggingface.co/Viggle/Qwen-Image-2.1-viggle-turbo/tree/main HF Space: https://huggingface.co/spaces/Viggle/Qwen-Image-2.1-viggle-turbo submitted by /u/fruesome [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;https://huggingface.co/Viggle/Qwen-Image-2.1-viggle-turbo/tree/main HF Space: https://huggingface.co/spaces/Viggle/Qwen-Image-2.1-viggle-turbo submitted by /u/fruesome [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wo6d82/qwen_image_21_4_steps_turbo_lora_is_here_by_viggle/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wo66x5/rented_a_96gb_blackwell_to_test_ltx25_231s_for_10/</id><title>rented a 96GB Blackwell to test LTX-2.5, 231s for 10 seconds of 1080p with audio</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wo66x5/rented_a_96gb_blackwell_to_test_ltx25_231s_for_10/"/>
-<published>2026-09-23T13:35:09+00:00</published><updated>2026-09-23T13:35:09+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="stereo"/>
-<summary>https://reddit.com/link/1wo66x5/video/adhgop21t9rh1/player Rented a Blackwell RTX PRO 6000 (96GB) for an evening to see what the LTX-2.5 template actually costs in wall clock. Stock video_ltx2_5_t2v workflow, no custom nodes, nothing tuned. https://preview.redd.it/ekn39gf9u9rh1.png?width=1389&amp;format</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui, stereo&lt;/small&gt;&lt;/p&gt;&lt;p&gt;https://reddit.com/link/1wo66x5/video/adhgop21t9rh1/player Rented a Blackwell RTX PRO 6000 (96GB) for an evening to see what the LTX-2.5 template actually costs in wall clock. Stock video_ltx2_5_t2v workflow, no custom nodes, nothing tuned. https://preview.redd.it/ekn39gf9u9rh1.png?width=1389&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=13961c806e9961a605f819c40cc715cf9e43c482 Box was a single RTX PRO 6000 Blackwell Server Edition, 96GB VRAM, 22 vCPU, 110GB system RAM, driver 580.95.05 on CUDA 13.0, torch 2.8.0+cu128. Two runs, same workflow https://preview.redd.it/snpbc60ou9rh1.png?width=1901&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=2de1f3a3fcf07846962f64ebf0a36efa62f842ff just duration and megapixels changed: | run | length | re&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wo66x5/rented_a_96gb_blackwell_to_test_ltx25_231s_for_10/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wo51m7/kijai_working_on_comfyui_port/</id><title>(Kijai working on ComfyUI port! - https://huggingface.co/Kijai/Ming-Image-ComfyUI)AntLing releases Ming image models for posters, UI visuals and transparent layers</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wo51m7/kijai_working_on_comfyui_port/"/>
-<published>2026-09-23T12:47:23+00:00</published><updated>2026-09-23T12:47:23+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<summary>submitted by /u/Hrmerder [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/Hrmerder [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wo51m7/kijai_working_on_comfyui_port/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
