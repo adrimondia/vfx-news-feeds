@@ -2,8 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-07T22:30:23+00:00</updated>
+<updated>2026-10-08T00:31:14+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1x0c5d8/github_kandinskylabkandinsky6_kandinsky_60_video/</id><title>GitHub - kandinskylab/kandinsky-6: Kandinsky 6.0 Video: Foundation Models for Synchronized Video and Audio Generation</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x0c5d8/github_kandinskylabkandinsky6_kandinsky_60_video/"/>
+<published>2026-10-07T23:49:37+00:00</published><updated>2026-10-07T23:49:37+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="video model"/>
+<category term="upscaling"/>
+<summary>Looks like Kandinsky has come out with another video model. I tinkered with v5 but wasn't very impressed. Hopefully this one is a bit better. https://huggingface.co/collections/kandinskylab/kandinsky-60-diffusers They also released an upscaling model. https://huggingface.co/collections/kandinskylab/</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · video model, upscaling&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Looks like Kandinsky has come out with another video model. I tinkered with v5 but wasn't very impressed. Hopefully this one is a bit better. https://huggingface.co/collections/kandinskylab/kandinsky-60-diffusers They also released an upscaling model. https://huggingface.co/collections/kandinskylab/kandinsky-60-vsr submitted by /u/q5sys [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x0c5d8/github_kandinskylabkandinsky6_kandinsky_60_video/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1x08p13/psa_fix_latest_comfyui_update_broke_gguf_int8_and/</id><title>PSA / Fix: Latest ComfyUI update broke GGUF, INT8, and LoRAs with shape mismatch / 'input_act' error (Commit 0752bcb / PR #16816)</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x08p13/psa_fix_latest_comfyui_update_broke_gguf_int8_and/"/>
+<published>2026-10-07T21:19:48+00:00</published><updated>2026-10-07T21:19:48+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<category term="minimax"/>
+<category term="ltx"/>
+<category term="lora"/>
+<summary>If you recently updated ComfyUI and your workflows suddenly started crashing on MiniMax, LTX, or newer models with either of these errors: TypeError: ... Linear.forward() got an unexpected keyword argument 'input_act' or RuntimeError: mat1 and mat2 shapes cannot be multiplied (2623x28672 and 14336x3</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 5 · comfyui, minimax, ltx, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;If you recently updated ComfyUI and your workflows suddenly started crashing on MiniMax, LTX, or newer models with either of these errors: TypeError: ... Linear.forward() got an unexpected keyword argument 'input_act' or RuntimeError: mat1 and mat2 shapes cannot be multiplied (2623x28672 and 14336x32) You are not crazy, your workflow isn't broken, and your models are fine. The issue was introduced in commit 0752bcb28cd ( PR #16816: Consolidate Linear forward API with prologue/epilogue fusion paths ). What happened under the hood? In architectures like MiniMax and LTX, ComfyUI used to route linear projections through comfy.ops.linear_input_act() , which safely handled eager activations (like &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x08p13/psa_fix_latest_comfyui_update_broke_gguf_int8_and/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1x08cnn/hunyuan_image_3_goes_hard/</id><title>Hunyuan image 3 goes hard</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x08cnn/hunyuan_image_3_goes_hard/"/>
@@ -13,6 +35,27 @@
 <category term="hunyuan"/>
 <summary>Since i saw a post for native support in comfyui for Hunyuan image 3 i got really exited to try it out locally. On Strix Halo (Ryzen ai max 395+) i'm getting around 300 seconds per generation while on rtx 3090 it gets around 60 to 70 seconds for 1 megapixel (crashes if i go above not because of memo</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, hunyuan&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Since i saw a post for native support in comfyui for Hunyuan image 3 i got really exited to try it out locally. On Strix Halo (Ryzen ai max 395+) i'm getting around 300 seconds per generation while on rtx 3090 it gets around 60 to 70 seconds for 1 megapixel (crashes if i go above not because of memory issues but something with how it's set up ? ) Anyway, i really enjoy the outputs of this model and if we had it working in comfyui 8 month ago when it released it would've dominated this sub :D **the editing capabilities can be a bit better than qwen2,1 (when it works + it's a 4bit quant, details are a mess) **i'll do a krea2 and qwen2.1 comparison with the same prompts, maybe i'll have them he&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x08cnn/hunyuan_image_3_goes_hard/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1x08azi/h3_minimax_seedvr2_upscale_interpolation/</id><title>H3 Minimax Seedvr2 Upscale Interpolation Comparison</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x08azi/h3_minimax_seedvr2_upscale_interpolation/"/>
+<published>2026-10-07T21:04:39+00:00</published><updated>2026-10-07T21:04:39+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="minimax"/>
+<summary>submitted by /u/pwillia7 [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/pwillia7 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x08azi/h3_minimax_seedvr2_upscale_interpolation/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1x087r3/lightweight_browser_tool_to_extract_exact/</id><title>Lightweight browser tool to extract exact reference frames for ControlNet &amp; IP-Adapter pipelines</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x087r3/lightweight_browser_tool_to_extract_exact/"/>
+<published>2026-10-07T21:01:07+00:00</published><updated>2026-10-07T21:01:07+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="video-to-video"/>
+<category term="video editing"/>
+<category term="comfyui"/>
+<category term="controlnet"/>
+<summary>Hey everyone! When setting up video-to-video, AnimateDiff, or ControlNet workflows in ComfyUI, I constantly found myself needing to grab specific reference frames from source clips to feed into IP-Adapter or openpose/depth preprocessors. Opening full video editing software or running FFmpeg commands</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 5 · video-to-video, video editing, comfyui, controlnet&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey everyone! When setting up video-to-video, AnimateDiff, or ControlNet workflows in ComfyUI, I constantly found myself needing to grab specific reference frames from source clips to feed into IP-Adapter or openpose/depth preprocessors. Opening full video editing software or running FFmpeg commands just to grab a couple of clean frames felt like unnecessary friction. So I built a simple, free browser tool to fix this: 🔗 https://extractorframe.com Key highlights for ComfyUI workflows: • ⚡ 100% Client-Side Processing: Your video stays in your browser (no slow uploads or privacy concerns). • 🎯 Frame-Accurate Extraction: Quickly navigate and extract exact keyframes to use as inputs/references. &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x087r3/lightweight_browser_tool_to_extract_exact/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1x05bfi/fizgig_710_zimage_turbo_gets_a_new_training/</id><title>Fizgig 7.1.0 - Z-Image Turbo gets a new Training Adapter</title>
@@ -7453,26 +7496,5 @@
 <category term="minimax"/>
 <summary>a month ago if I was to generate a 10 second clip at (0.9) 1280x736, 16:9 widescreen using reference images and audio to video. it would take roughly around 40 minutes. now after a few updates it is taking an hour and 17 minutes... I am just using the default workflow which I think has been updated </summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;a month ago if I was to generate a 10 second clip at (0.9) 1280x736, 16:9 widescreen using reference images and audio to video. it would take roughly around 40 minutes. now after a few updates it is taking an hour and 17 minutes... I am just using the default workflow which I think has been updated submitted by /u/carmidian [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1woofv8/has_something_changed_in_minimax_h3/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1wokmcu/cool_article_about_the_volume_built_for/</id><title>Cool article about the volume built for Disclosure Day. How much of it was replaced in post?</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wokmcu/cool_article_about_the_volume_built_for/"/>
-<published>2026-09-23T22:42:36+00:00</published><updated>2026-09-23T22:42:36+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="roto"/>
-<category term="vfx"/>
-<summary>was reading this article earlier and all the time and effort that went into it. It espouses the regular talking points of how great it is to have images and lights that faithfully represent in real time on camera. And I’ve read enough of this subreddit to know that you talented people end up having </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · roto, vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;was reading this article earlier and all the time and effort that went into it. It espouses the regular talking points of how great it is to have images and lights that faithfully represent in real time on camera. And I’ve read enough of this subreddit to know that you talented people end up having to go in and roto out the volume used and replace it with VFX. Curious if that happened on this show, since it looks like they were mainly using the volume to represent a bunch of tv monitors. submitted by /u/And-I-Batman-Rises [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wokmcu/cool_article_about_the_volume_built_for/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wokge5/whats_your_most_reliable_comfyui_approach_for/</id><title>What’s your most reliable ComfyUI approach for keeping a character recognizable across scenes?</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wokge5/whats_your_most_reliable_comfyui_approach_for/"/>
-<published>2026-09-23T22:35:25+00:00</published><updated>2026-09-23T22:35:25+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="controlnet"/>
-<category term="lora"/>
-<summary>I’m working on a repeatable set of images for a goblin swamp alchemist. I want the character’s face and recognizable details to stay consistent while the pose, lighting, and background change. What approach has worked best for you, reference images, a character LoRA, ControlNet, prompt structure, or</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · comfyui, controlnet, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I’m working on a repeatable set of images for a goblin swamp alchemist. I want the character’s face and recognizable details to stay consistent while the pose, lighting, and background change. What approach has worked best for you, reference images, a character LoRA, ControlNet, prompt structure, or something else? If you recommend a workflow, I can share the exported graph and model details so people can compare setups. submitted by /u/derekleighstark [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wokge5/whats_your_most_reliable_comfyui_approach_for/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
