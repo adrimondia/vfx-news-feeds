@@ -2,8 +2,40 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-08T04:30:19+00:00</updated>
+<updated>2026-10-08T06:30:27+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1x0j4ld/i_spent_weeks_optimizing_minimax_h3_vdn_vela_10/</id><title>I spent weeks optimizing MiniMax H3 + VDN. VELA 1.0 is finally released</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x0j4ld/i_spent_weeks_optimizing_minimax_h3_vdn_vela_10/"/>
+<published>2026-10-08T05:55:01+00:00</published><updated>2026-10-08T05:55:01+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<category term="minimax"/>
+<summary>I've been working on MiniMax H3 / VDN performance for quite a while, and I finally released the result as VELA H3 1.0 . I'll try to explain what it does without technical language. VELA does not make H3 "smarter" and it is not another model. It changes how some of the heavy calculations inside H3 ar</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I've been working on MiniMax H3 / VDN performance for quite a while, and I finally released the result as VELA H3 1.0 . I'll try to explain what it does without technical language. VELA does not make H3 "smarter" and it is not another model. It changes how some of the heavy calculations inside H3 are executed. During testing I found that simply replacing everything with a faster attention/kernel was a bad idea. Some parts of H3 are very sensitive to small numerical changes, while others can use much faster execution without noticeably changing the final video. So VELA basically does this: use the faster path where it is safe → keep the exact path where it matters. That's the simple version. &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x0j4ld/i_spent_weeks_optimizing_minimax_h3_vdn_vela_10/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1x0imbp/ive_trained_100_krea_2_character_loras_heres_what/</id><title>I’ve trained 100+ Krea 2 character LoRAs. Here’s what actually determines likeness.</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x0imbp/ive_trained_100_krea_2_character_loras_heres_what/"/>
+<published>2026-10-08T05:23:30+00:00</published><updated>2026-10-08T05:23:30+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="lora"/>
+<category term="consistency"/>
+<summary>I’ve spent the last few months training a pretty large number of character LoRAs for Krea 2, and one thing became obvious pretty quickly: More training does not automatically mean better likeness. Some of my best LoRAs came from relatively small, clean datasets. Some larger datasets performed worse </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · lora, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I’ve spent the last few months training a pretty large number of character LoRAs for Krea 2, and one thing became obvious pretty quickly: More training does not automatically mean better likeness. Some of my best LoRAs came from relatively small, clean datasets. Some larger datasets performed worse because they contained too much visual noise, inconsistent styling, bad angles, or repeated images. These are the things that have mattered most for me. 1. Dataset quality matters more than dataset size I would take 30 genuinely useful images over 100 mediocre ones. The biggest problems I see in datasets are: too many near-duplicates heavy filters or face editing lots of low-resolution images one &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x0imbp/ive_trained_100_krea_2_character_loras_heres_what/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1x0h9ye/i_adapted_the_loopeddit_concept_into_a_tiny_anime/</id><title>I adapted the Looped-DiT concept into a tiny anime upscaler (Baikal LoopSR x2) [ComfyUI / Weights]</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x0h9ye/i_adapted_the_loopeddit_concept_into_a_tiny_anime/"/>
+<published>2026-10-08T04:07:22+00:00</published><updated>2026-10-08T04:07:22+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="tracking"/>
+<category term="super-resolution"/>
+<category term="upscaler"/>
+<category term="comfyui"/>
+<summary>I’ve been experimenting with a small anime/illustration upscaler called Baikal LoopSR x2 , and the results turned out way better than I expected. The main question was: what happens if you take the recurrent/shared-block concept from Looped-DiT and apply it to a direct RGB restoration model? Just to</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 6 · tracking, super-resolution, upscaler, comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I’ve been experimenting with a small anime/illustration upscaler called Baikal LoopSR x2 , and the results turned out way better than I expected. The main question was: what happens if you take the recurrent/shared-block concept from Looped-DiT and apply it to a direct RGB restoration model? Just to be clear: this isn't diffusion, and I’m not claiming it beats established SOTA upscalers. It was mostly an experiment to see if weight-shared recurrent transformer blocks could do real work in super-resolution. Architecture highlights: - Direct RGB -&amp;gt; RGB restoration - Bicubic residual connection - 2 pre-blocks, 4 shared middle blocks reused for 4 recurrent passes, 2 post-blocks - XSA strictly in&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x0h9ye/i_adapted_the_loopeddit_concept_into_a_tiny_anime/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://arxiv.org/abs/2610.09173</id><title>RDGSplat: Render-Dedicated Geometry for Novel View Synthesis</title>
 <link rel="alternate" href="https://arxiv.org/abs/2610.09173"/>
@@ -217,6 +249,16 @@
 <category term="lora"/>
 <summary>Z-Image Turbo LoRA training in Fizgig, with a new training adapter (free, works in any trainer) I've added Z-Image Turbo to Fizgig , my free, open-source LoRA trainer and workbench. It trains LoRAs, LoKR, sliders and full fine-tunes, and every workbench tab works with it (Repair Studio, LoRA the Exp</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Z-Image Turbo LoRA training in Fizgig, with a new training adapter (free, works in any trainer) I've added Z-Image Turbo to Fizgig , my free, open-source LoRA trainer and workbench. It trains LoRAs, LoKR, sliders and full fine-tunes, and every workbench tab works with it (Repair Studio, LoRA the Explorer, LoRA Royale, Profiler, Extract). Turbo has always been awkward to train: a LoRA undoes the distillation and the pictures go soft. I built a new training adapter for it. It sits frozen under your LoRA while it trains and is never in the file you save. In my tests it keeps Turbo's look much better than other adapters, especially in hard lighting . LoRAs train from 12 GB cards, fine-tunes from&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x05bfi/fizgig_710_zimage_turbo_gets_a_new_training/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1x03t11/how_do_you_preserve_geometry_and_exact_furniture/</id><title>How do you preserve geometry and exact furniture designs in AI-assisted interior renders?</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x03t11/how_do_you_preserve_geometry_and_exact_furniture/"/>
+<published>2026-10-07T18:10:23+00:00</published><updated>2026-10-07T18:10:23+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="render"/>
+<category term="comfyui"/>
+<summary>I’m trying to create interior renders with multiple specific furniture pieces and light fixtures. The goal isn’t just a good-looking room, the furniture needs to match the references, and the scene geometry needs to stay intact. I’ve tried 3D blockouts, modelling the furniture myself, and several im</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · render, comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I’m trying to create interior renders with multiple specific furniture pieces and light fixtures. The goal isn’t just a good-looking room, the furniture needs to match the references, and the scene geometry needs to stay intact. I’ve tried 3D blockouts, modelling the furniture myself, and several image-editing models: Qwen 2.1 Edit Klein 9B Edit Krea 2 Edit Ideogram 4.5 Edit, through the web interface (Open weights haven't yet released) GPT Image 2 and 2.5, including both flare and sunburn My main workflow 3D blockout → model everything in the scene → apply basic materials → choose the camera angle → render → send the render to GPT Image 2.5 with reference images and lighting prompts. This g&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x03t11/how_do_you_preserve_geometry_and_exact_furniture/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1x02vw6/a_quick_minimax_h3_news_roundup_7th_october_2026/</id><title>A quick Minimax H3 news round-up - 7th October 2026</title>
@@ -7434,53 +7476,5 @@
 <category term="rendering"/>
 <summary>Cross-vendor 3D Gaussian Splatting trainer - video to splat to mesh, Vulkan or CUDA. Spirula Studio Download • Build from Source • Gallery • Web Viewer Spirula Studio trains 3D Gaussian Splatting models – from raw photo/video to splat to textured mesh – in one self-contained binary. No Python/PyTorc</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;GitHub trending (all) · score 3 · gaussian splatting, 3d gaussian, rendering&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Cross-vendor 3D Gaussian Splatting trainer - video to splat to mesh, Vulkan or CUDA. Spirula Studio Download • Build from Source • Gallery • Web Viewer Spirula Studio trains 3D Gaussian Splatting models – from raw photo/video to splat to textured mesh – in one self-contained binary. No Python/PyTorch, no separate COLMAP install. Runs on NVIDIA, AMD, Intel, and Apple GPUs via Vulkan, trains 10M full-SH Gaussians in 8 GB VRAM, and has native support for fisheye and 360° cameras. Dataset credit: Garage by Simon Bethke (CC BY-SA 4.0); Flight Systems and Control Lab at UTIAS; MegaDepth-X; Mip-NeRF 360. Features Cross vendor support via Vulkan compute – Runs on NVIDIA, AMD, Intel, and Apple GPUs O&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.com/harry7557558/spirula-studio"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wotubr/prompt_composer_now_with_refmod_and_lora_support/</id><title>Prompt Composer, now with RefMod and Lora Support.</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wotubr/prompt_composer_now_with_refmod_and_lora_support/"/>
-<published>2026-09-24T06:11:29+00:00</published><updated>2026-09-24T06:11:29+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="compositing"/>
-<category term="minimax"/>
-<category term="lora"/>
-<summary>Hey Guys, Two weeks ago I introduced a Visual RefMod Picker, that provided a visual approach to work with RefMod, while also including a Batch RefMod Generator. A user on Github asked for ways to be able to change the Prompt_Hint they return as well as have it generate the subject_definitions for Mi</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · compositing, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey Guys, Two weeks ago I introduced a Visual RefMod Picker, that provided a visual approach to work with RefMod, while also including a Batch RefMod Generator. A user on Github asked for ways to be able to change the Prompt_Hint they return as well as have it generate the subject_definitions for Minimax. Thinking about it, the simplest way to achieve this was to add all of that to the experimental Prompt Composer I had created a while back. As I was getting back into playing with Krea 2, I realized that I could also add Lora support and have be useful for both. The idea behind Prompt Composer is to define characters, environments, attire, styles or more and then easily mix and match them, a&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wotubr/prompt_composer_now_with_refmod_and_lora_support/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wothwy/generate_seedance_25_through_higgsfield_in/</id><title>🔥 Generate Seedance 2.5 through Higgsfield in ComfyUI with SOYLAB Comfy Router</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wothwy/generate_seedance_25_through_higgsfield_in/"/>
-<published>2026-09-24T05:52:01+00:00</published><updated>2026-09-24T05:52:01+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="image-to-video"/>
-<category term="image editing"/>
-<category term="comfyui"/>
-<category term="seedance"/>
-<summary>[🔥 Generate Seedance 2.5 through Higgsfield in ComfyUI with SOYLAB Comfy Router] SOYLAB Comfy Router is a local ComfyUI custom node that calls Comfy Router using your personal Comfy API key. You can choose the model and execution provider separately, then connect image, video, or audio inputs suppor</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 6 · image-to-video, image editing, comfyui, seedance&lt;/small&gt;&lt;/p&gt;&lt;p&gt;[🔥 Generate Seedance 2.5 through Higgsfield in ComfyUI with SOYLAB Comfy Router] SOYLAB Comfy Router is a local ComfyUI custom node that calls Comfy Router using your personal Comfy API key. You can choose the model and execution provider separately, then connect image, video, or audio inputs supported by that model. Key features • Model selection: According to the repository, 154 image and video models are registered. You can search by model name or ID. • Provider selection: Choose a supported execution route, such as Comfy, Higgsfield, or fal. Available providers vary by model. • Inputs for each task: With Seedance 2.5, you can connect text, first and last frames, or reference images accor&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wothwy/generate_seedance_25_through_higgsfield_in/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wothsh/from_a_single_image_to_gaussian_splats_another/</id><title>From a Single Image to Gaussian Splats (another tutorial)</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wothsh/from_a_single_image_to_gaussian_splats_another/"/>
-<published>2026-09-24T05:51:49+00:00</published><updated>2026-09-24T05:51:49+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="video generation"/>
-<category term="camera pose"/>
-<category term="upscaling"/>
-<category term="render"/>
-<category term="rendering"/>
-<category term="comfyui"/>
-<category term="minimax"/>
-<category term="lora"/>
-<summary>u/Many-Ad-6225 recently posed a great little tutorial on how to use video models to create Gaussian splats. I wanted to investigate this a little more (and also play with it in VR). Here is another tutorial, all done on 12GB VRAM. Image Edit: You may pick an input image where the subject is standing</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 8 · video generation, camera pose, upscaling, render, rendering, comfyui, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;u/Many-Ad-6225 recently posed a great little tutorial on how to use video models to create Gaussian splats. I wanted to investigate this a little more (and also play with it in VR). Here is another tutorial, all done on 12GB VRAM. Image Edit: You may pick an input image where the subject is standing close to a wall, and rendering a full 360° orbit would collide with geometry. In these cases, you can solve the issue with image edit (I used Qwen Image 2.1) and a prompt like "Change the background to a scene on a red carpet with palm trees in the background." . Image edit: https://imgur.com/a/30MiUVJ Image resolution: Even if you don't render the video at a high resolution, it's still worth hav&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wothsh/from_a_single_image_to_gaussian_splats_another/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wosaku/anyone_skip_comfyui_and_just_generate_from_the/</id><title>Anyone skip ComfyUI and just generate from the terminal?</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wosaku/anyone_skip_comfyui_and_just_generate_from_the/"/>
-<published>2026-09-24T04:44:24+00:00</published><updated>2026-09-24T04:44:24+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<summary>I've messed around with comfyui and honestly I prefer just firing off generations from the terminal. Especially for simple t2i generations it's hard to beat when you set a custom interactive script. I just type Qwen-image and then it asks me to enter prompt, I enter prompt and press enter and it gen</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I've messed around with comfyui and honestly I prefer just firing off generations from the terminal. Especially for simple t2i generations it's hard to beat when you set a custom interactive script. I just type Qwen-image and then it asks me to enter prompt, I enter prompt and press enter and it generates 10. For presice editing I could see comfy being superior but for experimentation and general creative fucking around, I think terminal is underrated. submitted by /u/JayoTree [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wosaku/anyone_skip_comfyui_and_just_generate_from_the/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
