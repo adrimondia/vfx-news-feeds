@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-08T08:00:48+00:00</updated>
+<updated>2026-10-08T08:30:30+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
 <entry>
 <id>https://github.com/superdesigndev/treg</id><title>superdesigndev/treg</title>
@@ -64,6 +64,15 @@
 <category term="consistency"/>
 <summary>I’ve spent the last few months training a pretty large number of character LoRAs for Krea 2, and one thing became obvious pretty quickly: More training does not automatically mean better likeness. Some of my best LoRAs came from relatively small, clean datasets. Some larger datasets performed worse </summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · lora, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I’ve spent the last few months training a pretty large number of character LoRAs for Krea 2, and one thing became obvious pretty quickly: More training does not automatically mean better likeness. Some of my best LoRAs came from relatively small, clean datasets. Some larger datasets performed worse because they contained too much visual noise, inconsistent styling, bad angles, or repeated images. These are the things that have mattered most for me. 1. Dataset quality matters more than dataset size I would take 30 genuinely useful images over 100 mediocre ones. The biggest problems I see in datasets are: too many near-duplicates heavy filters or face editing lots of low-resolution images one &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x0imbp/ive_trained_100_krea_2_character_loras_heres_what/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1x0hodg/4070_comfyui/</id><title>4070 Comfyui</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x0hodg/4070_comfyui/"/>
+<published>2026-10-08T04:29:44+00:00</published><updated>2026-10-08T04:29:44+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<summary>Greetings everyone, I hope you're all doing very well. I'm leaving a question here, if you'd be so kind as to help me. I want to learn how to use ComfyUI, but I looked for information and got lost. I have a 4070, 32 GB RAM, i5-13400F. What models can I use, or what do you recommend if I want to make</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Greetings everyone, I hope you're all doing very well. I'm leaving a question here, if you'd be so kind as to help me. I want to learn how to use ComfyUI, but I looked for information and got lost. I have a 4070, 32 GB RAM, i5-13400F. What models can I use, or what do you recommend if I want to make a model and have it follow a reference video? What do you recommend? I don't know if there are channels that guide you or channels about the topic to learn, but I would like to use it and have it generate quickly. Thanks, regards. submitted by /u/3DShe [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x0hodg/4070_comfyui/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1x0h9ye/i_adapted_the_loopeddit_concept_into_a_tiny_anime/</id><title>I adapted the Looped-DiT concept into a tiny anime upscaler (Baikal LoopSR x2) [ComfyUI / Weights]</title>
@@ -218,6 +227,27 @@
 <category term="controlnet"/>
 <summary>I play electronic drums and synths in Frame, a duo from Buenos Aires (Guido plays santoor and synths). Everything here runs locally with open tools. The workflow for this one: Footage: one take of a live improvisation, filmed vertically on a DJI Osmo Pocket 3 in front of a green screen. Audio analys</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 5 · green screen, optical flow, stable diffusion, controlnet&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I play electronic drums and synths in Frame, a duo from Buenos Aires (Guido plays santoor and synths). Everything here runs locally with open tools. The workflow for this one: Footage: one take of a live improvisation, filmed vertically on a DJI Osmo Pocket 3 in front of a green screen. Audio analysis: Demucs splits the mix into drums / bass / other, and librosa finds onsets, beats and sections. The "painting": a three.js page rendered headless in Chrome. An abstract 3D shape and the lighting react to those stems, and we're keyed from the green screen and composited into it. AI pass: every frame goes through Stable Diffusion 1.5 img2img with the LCM-LoRA (10 steps) and a depth ControlNet (de&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x0fn2v/live_improv_music_video_audioreactive_webgl/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1x0f64i/a_short_film_about_relationships_quiet_then_loud/</id><title>A short film about relationships (quiet then loud)</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x0f64i/a_short_film_about_relationships_quiet_then_loud/"/>
+<published>2026-10-08T02:17:44+00:00</published><updated>2026-10-08T02:17:44+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<category term="minimax"/>
+<category term="seedance"/>
+<category term="ltx"/>
+<summary>Sdxl and Klein, ltx and minimax and some seedance. Comfyui with an agent driver submitted by /u/TheHollywoodGeek [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · comfyui, minimax, seedance, ltx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Sdxl and Klein, ltx and minimax and some seedance. Comfyui with an agent driver submitted by /u/TheHollywoodGeek [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x0f64i/a_short_film_about_relationships_quiet_then_loud/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1x0etug/freeform_motion_transfer_lora_and_workflow/</id><title>Freeform Motion Transfer Lora and Workflow</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x0etug/freeform_motion_transfer_lora_and_workflow/"/>
+<published>2026-10-08T02:00:29+00:00</published><updated>2026-10-08T02:00:29+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="lora"/>
+<summary>submitted by /u/CQDSN [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/CQDSN [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x0etug/freeform_motion_transfer_lora_and_workflow/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1x0erh1/freeform_motion_transfer_lora_and_workflow/</id><title>Freeform Motion Transfer Lora and Workflow</title>
