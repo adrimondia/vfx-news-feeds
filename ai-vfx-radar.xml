@@ -2,8 +2,28 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-08T12:30:42+00:00</updated>
+<updated>2026-10-08T14:30:55+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1x0q3bw/why_does_minimax_h3_nonpruned_perform_so_poorly/</id><title>Why does Minimax H3 non-pruned perform so poorly?</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x0q3bw/why_does_minimax_h3_nonpruned_perform_so_poorly/"/>
+<published>2026-10-08T12:50:56+00:00</published><updated>2026-10-08T12:50:56+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<category term="minimax"/>
+<category term="lora"/>
+<summary>Here is a side-by-side comparison I put together between the two versions. (Video/Screenshot attached) On the left: unset ref2va_pruned_int8 using the Alibaba ACC LoRA (running at 8 steps ). It generates a high-quality 15-second video . On the right (The issue): ref2va_non_pruned_int8 running on Com</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · comfyui, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Here is a side-by-side comparison I put together between the two versions. (Video/Screenshot attached) On the left: unset ref2va_pruned_int8 using the Alibaba ACC LoRA (running at 8 steps ). It generates a high-quality 15-second video . On the right (The issue): ref2va_non_pruned_int8 running on ComfyUI without any LoRA or custom attention blocks (running at 30 steps). It also generates a 15-second video, but the quality looks really weird compared to the pruned version. Why is the non-pruned version performing so poorly here despite using double the inference steps for the same video length? Am I missing a specific configuration, or does this version absolutely require a LoRA to function pr&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x0q3bw/why_does_minimax_h3_nonpruned_perform_so_poorly/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1x0orrc/attempt_at_a_short_cinenatic_with_minimax_h3_from/</id><title>Attempt at a short cinenatic with MiniMax H3, from H.G. Wells’s “The Cone”</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x0orrc/attempt_at_a_short_cinenatic_with_minimax_h3_from/"/>
+<published>2026-10-08T11:45:25+00:00</published><updated>2026-10-08T11:45:25+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="minimax"/>
+<summary>submitted by /u/nikhilprasanth [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/nikhilprasanth [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x0orrc/attempt_at_a_short_cinenatic_with_minimax_h3_from/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1x0od7h/depth_control_video_for_minimax_h3_blender_camera/</id><title>Depth / control video for MiniMax H3? (Blender camera move → AI video)</title>
 <link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x0od7h/depth_control_video_for_minimax_h3_blender_camera/"/>
@@ -7457,47 +7477,5 @@
 <category term="minimax"/>
 <summary>Every known way to make MiniMax H3 render faster, run on one RTX 5090 with the same prompt and seed. Each row shows its real frames and clip. submitted by /u/fruesome [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · render, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Every known way to make MiniMax H3 render faster, run on one RTX 5090 with the same prompt and seed. Each row shows its real frames and clip. submitted by /u/fruesome [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wp392j/minimax_h3_speedups_measured/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wp2v7p/qwenimage_21_lora_testing/</id><title>Qwen-Image 2.1 LoRA testing</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wp2v7p/qwenimage_21_lora_testing/"/>
-<published>2026-09-24T14:16:58+00:00</published><updated>2026-09-24T14:16:58+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="lora"/>
-<summary>submitted by /u/FortranUA [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/FortranUA [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wp2v7p/qwenimage_21_lora_testing/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wp2ddx/ming_image_merged_to_comfyui/</id><title>Ming image merged to comfyui</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wp2ddx/ming_image_merged_to_comfyui/"/>
-<published>2026-09-24T13:57:58+00:00</published><updated>2026-09-24T13:57:58+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<summary>Was just looking at the state of ming image support for comfyui, and kijai's pr has been merged. Huge win for open image gen. submitted by /u/Nota_ReAlperson [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Was just looking at the state of ming image support for comfyui, and kijai's pr has been merged. Huge win for open image gen. submitted by /u/Nota_ReAlperson [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wp2ddx/ming_image_merged_to_comfyui/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wp1zju/we_open_sourced_the_controlnet_and_4_steps_acc/</id><title>We open sourced the ControlNet and 4 steps Acc LoRAs for Qwen-Image-2.1! Give it a try — we'd love your feedbacks.</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wp1zju/we_open_sourced_the_controlnet_and_4_steps_acc/"/>
-<published>2026-09-24T13:42:20+00:00</published><updated>2026-09-24T13:42:20+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="controlnet"/>
-<summary>code: https://github.com/aigc-apps/VideoX-Fun Qwen-Image-2.1-Fun-Controlnet-Union: https://huggingface.co/alibaba-pai/Qwen-Image-2.1-Fun-Controlnet-Union Qwen-Image-2.1-Fun-Acc-LoRAs: https://huggingface.co/alibaba-pai/Qwen-Image-2.1-Fun-Acc-LoRAs Feedback and needs from the open-source community ar</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · controlnet&lt;/small&gt;&lt;/p&gt;&lt;p&gt;code: https://github.com/aigc-apps/VideoX-Fun Qwen-Image-2.1-Fun-Controlnet-Union: https://huggingface.co/alibaba-pai/Qwen-Image-2.1-Fun-Controlnet-Union Qwen-Image-2.1-Fun-Acc-LoRAs: https://huggingface.co/alibaba-pai/Qwen-Image-2.1-Fun-Acc-LoRAs Feedback and needs from the open-source community are essential for the ongoing training and iteration of our models. submitted by /u/hkunzhe [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wp1zju/we_open_sourced_the_controlnet_and_4_steps_acc/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wp1e4a/h3_for_16mp_images_and_image_editing_comfyui_edit/</id><title>H3 for 16mp images and image editing. ComfyUI edit + inpaint workflows for Mac + Cuda</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wp1e4a/h3_for_16mp_images_and_image_editing_comfyui_edit/"/>
-<published>2026-09-24T13:17:22+00:00</published><updated>2026-09-24T13:17:22+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="upscaling"/>
-<category term="upscaler"/>
-<category term="inpainting"/>
-<category term="image editing"/>
-<category term="rendering"/>
-<category term="comfyui"/>
-<category term="minimax"/>
-<summary>&gt;&gt;&gt; Qwen-image 2.1 is great for image editing, but this is what I'd been using up until the release, and still have some uses for. I've been using MiniMax H3 as an image generator and editor. This all runs fine locally on my M5 Macbook pro with 48 GB. You don't need a big GPU, but 36gb of ram probab</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 9 · upscaling, upscaler, inpainting, image editing, rendering, comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;&amp;gt;&amp;gt;&amp;gt; Qwen-image 2.1 is great for image editing, but this is what I'd been using up until the release, and still have some uses for. I've been using MiniMax H3 as an image generator and editor. This all runs fine locally on my M5 Macbook pro with 48 GB. You don't need a big GPU, but 36gb of ram probably to be comfortable. I'm keeping H3 as an extra tool because it goes a lot bigger than Qwen. It also uses the H3 weights I already have for video, so there's no second model to download on a pod for a quick edit. Mostly I use it for clients: large images for high DPI prints. Going straight to 16 MP looked fine until I zoomed in, and more steps barely helped. Rendering at 4 MP, upscaling 2x with t&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wp1e4a/h3_for_16mp_images_and_image_editing_comfyui_edit/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
