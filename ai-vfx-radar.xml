@@ -2,8 +2,58 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-08T18:30:41+00:00</updated>
+<updated>2026-10-08T20:30:20+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1x0zrog/i_made_a_standalone_windows_app_for_nvidia_rtx/</id><title>I made a standalone Windows app for NVIDIA RTX Video Super Resolution, no ComfyUI needed, and it can resume a 2-hour film if it crashes</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x0zrog/i_made_a_standalone_windows_app_for_nvidia_rtx/"/>
+<published>2026-10-08T19:09:24+00:00</published><updated>2026-10-08T19:09:24+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="upscaling"/>
+<category term="hdr"/>
+<category term="render"/>
+<category term="comfyui"/>
+<summary>I've been upscaling old footage with RTX Video Super Resolution in ComfyUI, and it works fine for short clips. But for a full-length film it's painful. If it crashes or you cancel at the 90 minute mark, you start again from zero. So I made RTX VSR Studio. It's a normal Windows app that calls NVIDIA'</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 5 · upscaling, hdr, render, comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I've been upscaling old footage with RTX Video Super Resolution in ComfyUI, and it works fine for short clips. But for a full-length film it's painful. If it crashes or you cancel at the 90 minute mark, you start again from zero. So I made RTX VSR Studio. It's a normal Windows app that calls NVIDIA's Video Effects SDK directly. No ComfyUI, no node graph, no PyTorch. The main thing is that long videos are processed in small segments. If it crashes, the power goes out, or you just cancel it, run the same job again and it picks up at the exact frame it stopped at. You lose minutes, not hours. What else it does: - Pick 720p, 1080p, 1440p or 4K and it works out the size for you. It keeps the aspe&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x0zrog/i_made_a_standalone_windows_app_for_nvidia_rtx/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1x0yvc8/ive_been_coding_up_my_own_amd_gpu_powered_hydra/</id><title>I've been coding up my own AMD GPU powered hydra delegate for Houdini</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1x0yvc8/ive_been_coding_up_my_own_amd_gpu_powered_hydra/"/>
+<published>2026-10-08T18:35:59+00:00</published><updated>2026-10-08T18:35:59+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="houdini"/>
+<summary>submitted by /u/AwayPotatoes [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · houdini&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/AwayPotatoes [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1x0yvc8/ive_been_coding_up_my_own_amd_gpu_powered_hydra/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1x0yj59/demonic_cabaret_fashion_show/</id><title>Demonic cabaret fashion show</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1x0yj59/demonic_cabaret_fashion_show/"/>
+<published>2026-10-08T18:23:16+00:00</published><updated>2026-10-08T18:23:16+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="rotoscoping"/>
+<category term="blender"/>
+<summary>I’ve been working on this for the last few months, so happy to finally be able to post it! This work is composed of a ridiculous amount of rotoscoping event footage (no green screens), motion graphics and animating scenes in Blender. Let me know what ya think! submitted by /u/BritishFilmGit [link] [</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · rotoscoping, blender&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I’ve been working on this for the last few months, so happy to finally be able to post it! This work is composed of a ridiculous amount of rotoscoping event footage (no green screens), motion graphics and animating scenes in Blender. Let me know what ya think! submitted by /u/BritishFilmGit [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1x0yj59/demonic_cabaret_fashion_show/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1x0yff5/yue2_lora_training/</id><title>Yue2 Lora Training</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x0yff5/yue2_lora_training/"/>
+<published>2026-10-08T18:19:30+00:00</published><updated>2026-10-08T18:19:30+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="lora"/>
+<summary>Has anyone had any success training a new genre with YuE2? I've tried multiple ways using different datasets, and training settings and I haven't been able to train a new genre on YuE2 properly. I tried with Fill's trainer, Aitoolkit, and Yue2 Studio, and I either get garbled noise, or it just seems</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Has anyone had any success training a new genre with YuE2? I've tried multiple ways using different datasets, and training settings and I haven't been able to train a new genre on YuE2 properly. I tried with Fill's trainer, Aitoolkit, and Yue2 Studio, and I either get garbled noise, or it just seems to output similar results as using no lora. Not sure what I am doing wrong. I tested with all epochs/steps - from 50 all the way to 1200 using different inference settings (temp, top k, abc on/off, cot, etc.), and I tried with datasets ranging from 30-200 tracks as well (I only tried the 200 track dataset with Aitoolkit so far). With Acestep, I am able to train a new genre without any issues, bes&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x0yff5/yue2_lora_training/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1x0y17p/h3_long_shot_studio_api_v10/</id><title>H3 Long Shot Studio API v1.0</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x0y17p/h3_long_shot_studio_api_v10/"/>
+<published>2026-10-08T18:04:25+00:00</published><updated>2026-10-08T18:04:25+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<category term="lora"/>
+<summary>https://preview.redd.it/dnt9gkxv8auh1.png?width=1711&amp;format=png&amp;auto=webp&amp;s=e8d3e665fa5706985ead80fbbd12e75710b2e828 Hello everyone, This is a continuation from my post yesterday ( https://www.reddit.com/r/StableDiffusion/comments/1x0hzgl/h3_long_shot_api/ ), where you can also see the sample video.</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;https://preview.redd.it/dnt9gkxv8auh1.png?width=1711&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=e8d3e665fa5706985ead80fbbd12e75710b2e828 Hello everyone, This is a continuation from my post yesterday ( https://www.reddit.com/r/StableDiffusion/comments/1x0hzgl/h3_long_shot_api/ ), where you can also see the sample video. I reiterated a dozen times and got a pretty decent UI that I think works well. https://github.com/r34vtraining/Longshot_Studio/tree/main There are 2 prerequisite nodes that will need to be installed for this to work. Things I've fixed since yesterdays post: Latent is saved to disk, on the right panel, scroll down to toggle save segments on/off/clear, so even if comfy crashes the latents will be s&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x0y17p/h3_long_shot_studio_api_v10/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1x0xqld/superman_meets_saitama_for_the_first_time_minimax/</id><title>Superman Meets Saitama for the First Time | MiniMax H3 Open Source</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x0xqld/superman_meets_saitama_for_the_first_time_minimax/"/>
@@ -20,6 +70,15 @@
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 8 · camera control, minimax, lora, consistency, character consistency, storyboard, cinematic&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Best results came from Ref2VA + Combat Base V2 LoRA , using a storyboard for shot/camera control, character sheets for identity, and one style/texture image for the final cinematic look That setup gave me the cleanest balance between choreography, character consistency, and overall visual quality submitted by /u/Automatic-Building84 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x0xqld/superman_meets_saitama_for_the_first_time_minimax/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1x0xchw/duomatching_jointmarginal_distribution_matching/</id><title>DuoMatching: Joint–Marginal Distribution Matching for Few-Step Video Generation</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x0xchw/duomatching_jointmarginal_distribution_matching/"/>
+<published>2026-10-08T17:38:20+00:00</published><updated>2026-10-08T17:38:20+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="video generation"/>
+<summary>https://johnzhan2023.github.io/DuoMatching/ https://github.com/JohnZhan2023/DuoMatching https://arxiv.org/abs/2610.03543 https://x.com/jiahao251146/status/2107461919468834981 submitted by /u/Total-Resort-3120 [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · video generation&lt;/small&gt;&lt;/p&gt;&lt;p&gt;https://johnzhan2023.github.io/DuoMatching/ https://github.com/JohnZhan2023/DuoMatching https://arxiv.org/abs/2610.03543 https://x.com/jiahao251146/status/2107461919468834981 submitted by /u/Total-Resort-3120 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x0xchw/duomatching_jointmarginal_distribution_matching/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
 <id>https://www.reddit.com/r/comfyui/comments/1x0vt5f/chatgpt_plus_vs_claude_pro_for_custom_comfyui/</id><title>ChatGPT Plus vs Claude Pro for custom ComfyUI workflows?</title>
 <link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x0vt5f/chatgpt_plus_vs_claude_pro_for_custom_comfyui/"/>
 <published>2026-10-08T16:40:05+00:00</published><updated>2026-10-08T16:40:05+00:00</updated>
@@ -27,6 +86,37 @@
 <category term="comfyui"/>
 <summary>Hi everyone, I currently use workflows created by other people, but I’d like to start creating my own workflows based on my specific needs. I’d like to use an AI assistant as a sort of ComfyUI copilot to help me design workflows, choose the right nodes, connect them correctly, troubleshoot errors, a</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi everyone, I currently use workflows created by other people, but I’d like to start creating my own workflows based on my specific needs. I’d like to use an AI assistant as a sort of ComfyUI copilot to help me design workflows, choose the right nodes, connect them correctly, troubleshoot errors, and refine the workflow through iteration. I’m considering Claude Pro or ChatGPT Plus. I’ve tried the free versions of both, and Claude seemed to give me better results for this particular use case. For those who use AI with ComfyUI: Which AI assistant would you recommend for creating custom workflows? Is there a good way to integrate an AI assistant directly into ComfyUI? Is there a way to train o&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x0vt5f/chatgpt_plus_vs_claude_pro_for_custom_comfyui/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1x0uf9i/adobes_products_being_opensource_recreated_and/</id><title>Adobe’s products being open-source recreated and what it might mean for VFX…</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1x0uf9i/adobes_products_being_opensource_recreated_and/"/>
+<published>2026-10-08T15:47:40+00:00</published><updated>2026-10-08T15:47:40+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="vfx"/>
+<summary>submitted by /u/EwanMcNugget [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/EwanMcNugget [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1x0uf9i/adobes_products_being_opensource_recreated_and/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1x0svkc/neat_video_vs_resolve_nr/</id><title>Neat Video vs Resolve NR</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1x0svkc/neat_video_vs_resolve_nr/"/>
+<published>2026-10-08T14:47:49+00:00</published><updated>2026-10-08T14:47:49+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="tracking"/>
+<category term="compositing"/>
+<category term="vfx"/>
+<summary>Hello Everyone, Hope everyone is doing well, I am into vfx for few months now, working on shots, tracking as well as paint prep or compositing work, I have Davinci Resolve Studio, so I just wanted to know that should I buy Neat video or Resolve Noise Reduction is good. How close is Resolve if compar</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 3 · tracking, compositing, vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hello Everyone, Hope everyone is doing well, I am into vfx for few months now, working on shots, tracking as well as paint prep or compositing work, I have Davinci Resolve Studio, so I just wanted to know that should I buy Neat video or Resolve Noise Reduction is good. How close is Resolve if compared to Neat Video. is it worth buying if I have Resolve Studio. What do you all think. submitted by /u/hacker221b [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1x0svkc/neat_video_vs_resolve_nr/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1x0sl4r/vfx_breakdown/</id><title>VFX Breakdown</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1x0sl4r/vfx_breakdown/"/>
+<published>2026-10-08T14:36:10+00:00</published><updated>2026-10-08T14:36:10+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="vfx"/>
+<category term="unreal"/>
+<category term="unreal engine"/>
+<summary>Here is the VFX I created in Aqueduct. Why use Aqueduct instead of Photoshop or Substance Designer? I particularly enjoy procedural and non-destructive node-based workflows. Aqueduct makes it possible to build the effect step by step while keeping every element easily editable. Another interesting p</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 4 · vfx, unreal, unreal engine&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Here is the VFX I created in Aqueduct. Why use Aqueduct instead of Photoshop or Substance Designer? I particularly enjoy procedural and non-destructive node-based workflows. Aqueduct makes it possible to build the effect step by step while keeping every element easily editable. Another interesting part is that breaking the effect down this way makes it easier to understand which parts could later be recreated directly inside an Unreal Engine material/shader. submitted by /u/NallouN [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1x0sl4r/vfx_breakdown/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1x0rdab/a_quick_minimax_h3_news_roundup_8th_october_2026/</id><title>A quick Minimax H3 news round-up - 8th October 2026</title>
@@ -41,6 +131,15 @@
 <category term="lora"/>
 <summary>Another quick Minimax H3 news and goodies round-up, for those who may have missed some items. -&gt; A Person Remover LoRA for H3. "Supply the original video and a clean version of its first frame". The ComfyUI workflow and SAM 3.1 then tracks and erases the person from the video clip. First-frame remov</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 7 · tracking, upscaler, comfyui, flux, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Another quick Minimax H3 news and goodies round-up, for those who may have missed some items. -&amp;gt; A Person Remover LoRA for H3. "Supply the original video and a clean version of its first frame". The ComfyUI workflow and SAM 3.1 then tracks and erases the person from the video clip. First-frame removal can be done with models such as Flux Klein, e.g. "remove X and reveal what is behind it". https://huggingface.co/akatz-ai/MiniMax-H3-Person-Remover-LoRA https://github.com/supermansundies/comfyui-klein-edit-composite (multiple iterative edits on a Klein image, without the rest of image shifting about) https://jurn.link/dazposer/wp-content/uploads/2026/06/Klien_4b_GGUF_workflow__multiple_edits_w&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x0rdab/a_quick_minimax_h3_news_roundup_8th_october_2026/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1x0r853/realtime_liquid_mixing_and_concentrationbased/</id><title>Real-time liquid mixing and concentration-based absorption in a Vulkan lab prototype</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1x0r853/realtime_liquid_mixing_and_concentrationbased/"/>
+<published>2026-10-08T13:40:45+00:00</published><updated>2026-10-08T13:40:45+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="rendering"/>
+<summary>I’m developing Chemistry Lab Sim, an interactive 3D liquid sandbox built on ST-FLIP in Vulkan. This new clip shows pouring and mixing colored solutions in lab glassware, running in real time on a Radeon RX 9070 XT. Local concentrations travel with the fluid parcels, and conservative diffusion exchan</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 1 · rendering&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I’m developing Chemistry Lab Sim, an interactive 3D liquid sandbox built on ST-FLIP in Vulkan. This new clip shows pouring and mixing colored solutions in lab glassware, running in real time on a Radeon RX 9070 XT. Local concentrations travel with the fluid parcels, and conservative diffusion exchanges material between neighboring parcels. The liquid renderer integrates concentration-dependent absorption along refracted rays rather than blending display colors. At this stage the substances are passive solutes/pigments in one carrier; chemical reactions and immiscible fluids are future work. The longer-term game is inspired by The Powder Toy and Noita. https://youtu.be/hSAO_TwFopE What would &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1x0r853/realtime_liquid_mixing_and_concentrationbased/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1x0qtg1/what_kind_of_cad_files_do_we_need_to_request_from/</id><title>What kind of CAD files do we need to request from the architect to render them in a 3D walkthrough and would Unreal Engine be the best option?</title>
@@ -157,6 +256,15 @@
 <category term="comfyui"/>
 <summary>Hey everyone, I haven’t used ComfyUI for over a month, and today I tried setting up a fresh instance. When I click "Pass &amp; Install" , absolutely nothing happens—no terminal pops up, no error message appears, and the process doesn't start. Has anyone run into this issue recently after an update or pr</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey everyone, I haven’t used ComfyUI for over a month, and today I tried setting up a fresh instance. When I click "Pass &amp;amp; Install" , absolutely nothing happens—no terminal pops up, no error message appears, and the process doesn't start. Has anyone run into this issue recently after an update or prolonged downtime? Any advice on how to force a reinstall or see detailed error logs would be appreciated! submitted by /u/Orvast [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x0npy3/comfyui_wont_launchinstall_a_new_instance/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1x0n5oj/need_a_honest_opinion_on_this_vfx/</id><title>Need A honest opinion on this Vfx.</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1x0n5oj/need_a_honest_opinion_on_this_vfx/"/>
+<published>2026-10-08T10:12:44+00:00</published><updated>2026-10-08T10:12:44+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="vfx"/>
+<summary>be honest submitted by /u/Acrobatic_Fruit5937 [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;be honest submitted by /u/Acrobatic_Fruit5937 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1x0n5oj/need_a_honest_opinion_on_this_vfx/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://github.com/superdesigndev/treg</id><title>superdesigndev/treg</title>
@@ -7429,41 +7537,5 @@
 <category term="video generation"/>
 <summary>I've tried a few workflows that used latents and still, there is always degradation, very noticable by the third segment. submitted by /u/Delphoi_Studio [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · video generation&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I've tried a few workflows that used latents and still, there is always degradation, very noticable by the third segment. submitted by /u/Delphoi_Studio [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wpdrhp/has_anyone_figured_out_a_segmented_long_video/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wpb80s/minimax_h3_ref2va_how_do_you_get_a_character_from/</id><title>MiniMax H3 Ref2VA: how do you get a character from a flat studio reference sheet lit by the environment reference?</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wpb80s/minimax_h3_ref2va_how_do_you_get_a_character_from/"/>
-<published>2026-09-24T19:31:41+00:00</published><updated>2026-09-24T19:31:41+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="relighting"/>
-<category term="relight"/>
-<category term="render"/>
-<category term="comfyui"/>
-<category term="minimax"/>
-<category term="multi-view"/>
-<summary>I'm using MiniMax H3 reference-to-video (int8, native ComfyUI node, 3 reference images) to place a consistent character into a specific location: Picture 1: a multi-view character sheet, flat neutral studio light, white backdrop, the way every guide says to shoot identity references Picture 2: a gra</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 7 · relighting, relight, render, comfyui, minimax, multi-view&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I'm using MiniMax H3 reference-to-video (int8, native ComfyUI node, 3 reference images) to place a consistent character into a specific location: Picture 1: a multi-view character sheet, flat neutral studio light, white backdrop, the way every guide says to shoot identity references Picture 2: a gray mannequin render for the pose only Picture 3: an empty photo of the location (snowy city street, blue hour, no people) The prompt follows the official ref-mode guide: the location is declared as its own Subject with its features listed and fully_preserved, the character is partially_preserved with an explicit statement that her lighting, skin tone and contrast come from the location and that Pic&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wpb80s/minimax_h3_ref2va_how_do_you_get_a_character_from/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wpaqsu/krea_2_inpainting_edit_lora/</id><title>Krea 2 inpainting edit LoRA</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wpaqsu/krea_2_inpainting_edit_lora/"/>
-<published>2026-09-24T19:13:17+00:00</published><updated>2026-09-24T19:13:17+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="inpainting"/>
-<category term="outpainting"/>
-<category term="lora"/>
-<summary>krea2-inpaint-edit — LoRAs for Krea-2-Raw that do inpainting the simple way: give the model an image with the region to (re)generate filled in solid black and a text prompt. It paints the black area and leaves the rest of the image untouched. Three strength variants: default mild — least changes out</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 5 · inpainting, outpainting, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;krea2-inpaint-edit — LoRAs for Krea-2-Raw that do inpainting the simple way: give the model an image with the region to (re)generate filled in solid black and a text prompt. It paints the black area and leaves the rest of the image untouched. Three strength variants: default mild — least changes outside the mask; best when the mask covers the main focus point strong — best for outpainting; follows the prompt most aggressively The attached gallery compares this LoRA against yijunwang2/krea2-anypaint (columns: masked input→ krea2-inpaint-edit → anypaint, with reference images and difference maps below each test): Toy island — filling a jagged black hole in the sky after MoGe pass and rotation.&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wpaqsu/krea_2_inpainting_edit_lora/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1wpabph/so_whos_moving_to_the_states/</id><title>So…. who’s moving to the states ?</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wpabph/so_whos_moving_to_the_states/"/>
-<published>2026-09-24T18:57:11+00:00</published><updated>2026-09-24T18:57:11+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="vfx"/>
-<category term="visual effects"/>
-<category term="post-production"/>
-<summary>•Provide a 20% base credit for qualifying traditional post-production and visual effects work when at least 75% of the total costs for the respective VFX and TPP services are incurred in the United States. submitted by /u/KidFl4sh [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 3 · vfx, visual effects, post-production&lt;/small&gt;&lt;/p&gt;&lt;p&gt;•Provide a 20% base credit for qualifying traditional post-production and visual effects work when at least 75% of the total costs for the respective VFX and TPP services are incurred in the United States. submitted by /u/KidFl4sh [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wpabph/so_whos_moving_to_the_states/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
