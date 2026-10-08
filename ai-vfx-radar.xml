@@ -2,8 +2,43 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-08T10:31:42+00:00</updated>
+<updated>2026-10-08T12:30:42+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1x0od7h/depth_control_video_for_minimax_h3_blender_camera/</id><title>Depth / control video for MiniMax H3? (Blender camera move → AI video)</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x0od7h/depth_control_video_for_minimax_h3_blender_camera/"/>
+<published>2026-10-08T11:23:10+00:00</published><updated>2026-10-08T11:23:10+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="camera control"/>
+<category term="vfx"/>
+<category term="render"/>
+<category term="blender"/>
+<category term="minimax"/>
+<category term="lora"/>
+<category term="ai video"/>
+<summary>Hi all, I'm working on a VFX job: 10 shots where a locked-off real street plate turns into a vertical camera rise above the rooftops, ending in blue sky. Delivery is 4K. My plan: block out the street and surrounding city in Blender, animate the camera rise, render a depth pass, and use it as a contr</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 10 · camera control, vfx, render, blender, minimax, lora, ai video&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi all, I'm working on a VFX job: 10 shots where a locked-off real street plate turns into a vertical camera rise above the rooftops, ending in blue sky. Delivery is 4K. My plan: block out the street and surrounding city in Blender, animate the camera rise, render a depth pass, and use it as a control video so the AI follows the exact camera path, starting from the last frame of the real plate. With LTX-2.3 this works through the Union Control IC-LoRA (depth). But I'd love to try MiniMax H3 for the image quality, and as far as I can tell it only has T2V, I2V, first/last frame and reference-to-video, with no depth or ControlNet-style input. Questions: Has anyone trained or found a depth/contr&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x0od7h/depth_control_video_for_minimax_h3_blender_camera/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1x0o0vu/h3_character_swap_lora_test_8gb_vram/</id><title>H3 + Character Swap LoRA Test (8GB VRAM)</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x0o0vu/h3_character_swap_lora_test_8gb_vram/"/>
+<published>2026-10-08T11:03:59+00:00</published><updated>2026-10-08T11:03:59+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="render"/>
+<category term="minimax"/>
+<category term="lora"/>
+<summary>I have posted similar clip a while ago. That was generated with LTX-2.3 + Union Control LoRA. This is generated with MiniMax H3 + character swap LoRA. I have changed the facial expression in the prompt. 832 x 640, render time 12:45 RTX-4070 8GB VRAM, 64GB RAM. https://huggingface.co/akatz-ai/MiniMax</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · render, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I have posted similar clip a while ago. That was generated with LTX-2.3 + Union Control LoRA. This is generated with MiniMax H3 + character swap LoRA. I have changed the facial expression in the prompt. 832 x 640, render time 12:45 RTX-4070 8GB VRAM, 64GB RAM. https://huggingface.co/akatz-ai/MiniMax-H3-Character-Swap-LoRA Tutorial https://youtu.be/uBqGvXiat2s submitted by /u/big-boss_97 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x0o0vu/h3_character_swap_lora_test_8gb_vram/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1x0npy3/comfyui_wont_launchinstall_a_new_instance/</id><title>ComfyUI won't launch/install a new instance — pressing "Pass &amp; Install" does nothing</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x0npy3/comfyui_wont_launchinstall_a_new_instance/"/>
+<published>2026-10-08T10:46:51+00:00</published><updated>2026-10-08T10:46:51+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<summary>Hey everyone, I haven’t used ComfyUI for over a month, and today I tried setting up a fresh instance. When I click "Pass &amp; Install" , absolutely nothing happens—no terminal pops up, no error message appears, and the process doesn't start. Has anyone run into this issue recently after an update or pr</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey everyone, I haven’t used ComfyUI for over a month, and today I tried setting up a fresh instance. When I click "Pass &amp;amp; Install" , absolutely nothing happens—no terminal pops up, no error message appears, and the process doesn't start. Has anyone run into this issue recently after an update or prolonged downtime? Any advice on how to force a reinstall or see detailed error logs would be appreciated! submitted by /u/Orvast [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x0npy3/comfyui_wont_launchinstall_a_new_instance/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://github.com/superdesigndev/treg</id><title>superdesigndev/treg</title>
 <link rel="alternate" href="https://github.com/superdesigndev/treg"/>
@@ -7464,26 +7499,5 @@
 <category term="minimax"/>
 <summary>&gt;&gt;&gt; Qwen-image 2.1 is great for image editing, but this is what I'd been using up until the release, and still have some uses for. I've been using MiniMax H3 as an image generator and editor. This all runs fine locally on my M5 Macbook pro with 48 GB. You don't need a big GPU, but 36gb of ram probab</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 9 · upscaling, upscaler, inpainting, image editing, rendering, comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;&amp;gt;&amp;gt;&amp;gt; Qwen-image 2.1 is great for image editing, but this is what I'd been using up until the release, and still have some uses for. I've been using MiniMax H3 as an image generator and editor. This all runs fine locally on my M5 Macbook pro with 48 GB. You don't need a big GPU, but 36gb of ram probably to be comfortable. I'm keeping H3 as an extra tool because it goes a lot bigger than Qwen. It also uses the H3 weights I already have for video, so there's no second model to download on a pod for a quick edit. Mostly I use it for clients: large images for high DPI prints. Going straight to 16 MP looked fine until I zoomed in, and more steps barely helped. Rendering at 4 MP, upscaling 2x with t&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wp1e4a/h3_for_16mp_images_and_image_editing_comfyui_edit/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1woyyzm/qwen_image_21_fun_controlnet_union_from_alibaba/</id><title>Qwen Image 2.1 Fun ControlNet Union From Alibaba</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1woyyzm/qwen_image_21_fun_controlnet_union_from_alibaba/"/>
-<published>2026-09-24T11:22:06+00:00</published><updated>2026-09-24T11:22:06+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="controlnet"/>
-<summary>submitted by /u/fruesome [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · controlnet&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/fruesome [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1woyyzm/qwen_image_21_fun_controlnet_union_from_alibaba/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1woyyjn/qwen_image_21_fun_controlnet_union_from_alibaba/</id><title>Qwen Image 2.1 Fun ControlNet Union From Alibaba</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1woyyjn/qwen_image_21_fun_controlnet_union_from_alibaba/"/>
-<published>2026-09-24T11:21:23+00:00</published><updated>2026-09-24T11:21:23+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="inpainting"/>
-<category term="comfyui"/>
-<category term="controlnet"/>
-<category term="dit"/>
-<summary>Qwen-Image-2.1-Fun-Controlnet-Union is a ControlNet-Union branch for Qwen-Image 2.1 (the flow-matching text-to-image DiT). A single checkpoint drives 8 structural control conditions (Canny, Depth, Grayscale, HED, Lineart, MLSD, Pose, Scribble) and image inpainting, without per-condition weights. The</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 5 · inpainting, comfyui, controlnet, dit&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Qwen-Image-2.1-Fun-Controlnet-Union is a ControlNet-Union branch for Qwen-Image 2.1 (the flow-matching text-to-image DiT). A single checkpoint drives 8 structural control conditions (Canny, Depth, Grayscale, HED, Lineart, MLSD, Pose, Scribble) and image inpainting, without per-condition weights. The checkpoint holds only the control branch ( control_img_in plus 16 control_blocks , about 7.0 GB) and is loaded on top of the base Qwen-Image 2.1 transformer. Kijai is working on comfy support: https://github.com/Comfy-Org/ComfyUI/pull/16519 https://huggingface.co/alibaba-pai/Qwen-Image-2.1-Fun-Controlnet-Union https://huggingface.co/Kijai/MiniMax-H3-experimental/tree/main/model_patches submitted &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1woyyjn/qwen_image_21_fun_controlnet_union_from_alibaba/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
