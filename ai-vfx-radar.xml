@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-08T08:30:30+00:00</updated>
+<updated>2026-10-08T10:31:42+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
 <entry>
 <id>https://github.com/superdesigndev/treg</id><title>superdesigndev/treg</title>
@@ -23,6 +23,15 @@
 <category term="lora"/>
 <summary>hello everyone.. the creator of character swap just dropped this person remover lora for h3. he’s using it to generate better samples for character swap v2 dataset, so it might be worth trying out: huggingface.co/akatz-ai/MiniMax-H3-Person-Remover-LoRA submitted by /u/Better-Interview-793 [link] [co</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;hello everyone.. the creator of character swap just dropped this person remover lora for h3. he’s using it to generate better samples for character swap v2 dataset, so it might be worth trying out: huggingface.co/akatz-ai/MiniMax-H3-Person-Remover-LoRA submitted by /u/Better-Interview-793 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x0kokb/minimax_h3_person_remover_lora_is_out/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1x0jzf7/minimax_h3_messed_up_cyberpunkstyle_bike_riding/</id><title>MiniMax H3 messed up cyberpunk-style bike riding.</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x0jzf7/minimax_h3_messed_up_cyberpunkstyle_bike_riding/"/>
+<published>2026-10-08T06:47:36+00:00</published><updated>2026-10-08T06:47:36+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="minimax"/>
+<summary>I have generated similar riding videos with MiniMax earlier in different environments and wanted to test a cyberpunk style this time. I finalized the pictures of the motorcycle, character and background, but while animating it, H3 hasn't been the best at interpreting my intentions. My initial plan w</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I have generated similar riding videos with MiniMax earlier in different environments and wanted to test a cyberpunk style this time. I finalized the pictures of the motorcycle, character and background, but while animating it, H3 hasn't been the best at interpreting my intentions. My initial plan was to make the whole video animated, and the character reference I used was also meant to be an animated version. The image generation itself gave me a good result, but while animating it, it kind of merged both vibes and ended up looking really fake. These kind of riding videos I generated earlier in different environments looked much better. Maybe it's because my prompting is bad, or maybe I'm t&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x0jzf7/minimax_h3_messed_up_cyberpunkstyle_bike_riding/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1x0jmuw/my_workflow_for_realism_with_qwen_21/</id><title>My Workflow for realism with Qwen 2.1</title>
@@ -7476,38 +7485,5 @@
 <category term="dit"/>
 <summary>Qwen-Image-2.1-Fun-Controlnet-Union is a ControlNet-Union branch for Qwen-Image 2.1 (the flow-matching text-to-image DiT). A single checkpoint drives 8 structural control conditions (Canny, Depth, Grayscale, HED, Lineart, MLSD, Pose, Scribble) and image inpainting, without per-condition weights. The</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 5 · inpainting, comfyui, controlnet, dit&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Qwen-Image-2.1-Fun-Controlnet-Union is a ControlNet-Union branch for Qwen-Image 2.1 (the flow-matching text-to-image DiT). A single checkpoint drives 8 structural control conditions (Canny, Depth, Grayscale, HED, Lineart, MLSD, Pose, Scribble) and image inpainting, without per-condition weights. The checkpoint holds only the control branch ( control_img_in plus 16 control_blocks , about 7.0 GB) and is loaded on top of the base Qwen-Image 2.1 transformer. Kijai is working on comfy support: https://github.com/Comfy-Org/ComfyUI/pull/16519 https://huggingface.co/alibaba-pai/Qwen-Image-2.1-Fun-Controlnet-Union https://huggingface.co/Kijai/MiniMax-H3-experimental/tree/main/model_patches submitted &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1woyyjn/qwen_image_21_fun_controlnet_union_from_alibaba/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1woxjp5/custom_node_enhance_comfyuis_template_library/</id><title>Custom Node: enhance ComfyUI's Template Library with instant filters for Free/Local, Partner, and Credit workflows, smart Model Families, and custom sorting</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1woxjp5/custom_node_enhance_comfyuis_template_library/"/>
-<published>2026-09-24T10:01:35+00:00</published><updated>2026-09-24T10:01:35+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<summary>Hi, everyone. This custom node, which is purely UX-focused, is designed to address an issue caused by the latest changes to ComfyUI’s template search interface. In fact, some of the filters and sorting options that were previously available have disappeared. Since I couldn’t find any similar solutio</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi, everyone. This custom node, which is purely UX-focused, is designed to address an issue caused by the latest changes to ComfyUI’s template search interface. In fact, some of the filters and sorting options that were previously available have disappeared. Since I couldn’t find any similar solutions—and because I found them useful—I decided to restore this functionality using a dedicated custom node. https://github.com/linus74/ComfyUI-Clean-Templates It simply excludes or includes ComfyUI templates from the visible results based on whether they come from a local source or via the API, and on the template type. I’m sharing this in the hope that it might be useful to someone. And I’m happy t&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1woxjp5/custom_node_enhance_comfyuis_template_library/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wowztq/qwen_image_21s_editing_capabilities_are/</id><title>Qwen Image 2.1's editing capabilities are mind-blowing! Generating Character Design Sheets without any LoRAs</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wowztq/qwen_image_21s_editing_capabilities_are/"/>
-<published>2026-09-24T09:27:14+00:00</published><updated>2026-09-24T09:27:14+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="video generation"/>
-<category term="image editing"/>
-<category term="minimax"/>
-<category term="seedance"/>
-<category term="lora"/>
-<category term="consistency"/>
-<summary>Hey everyone! In my previous post , I mentioned that alongside Qwen Image 2.1, fine-tuned models called Prompt Enhancers (PE) were released to optimize user prompts. They help refine prompts for standard text-to-image (T2I), image-to-image (I2I), and reference-based generation. Back then, we noticed</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 6 · video generation, image editing, minimax, seedance, lora, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey everyone! In my previous post , I mentioned that alongside Qwen Image 2.1, fine-tuned models called Prompt Enhancers (PE) were released to optimize user prompts. They help refine prompts for standard text-to-image (T2I), image-to-image (I2I), and reference-based generation. Back then, we noticed that using PE for T2I isn't always worth it, as the results often fall short compared to using raw prompts. However, when it comes to I2I , the PE setup truly shines - its ability to write precise instructions and strictly follow the prompt is genuinely impressive. Today, I want to show you what Qwen Image 2.1 combined with PE is capable of. I created a Workflow that takes a reference image of an&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wowztq/qwen_image_21s_editing_capabilities_are/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wowdp8/intel_arc_b580_supports_int8_convrot_acceleration/</id><title>Intel Arc B580 supports INT8 ConvRot acceleration!</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wowdp8/intel_arc_b580_supports_int8_convrot_acceleration/"/>
-<published>2026-09-24T08:47:35+00:00</published><updated>2026-09-24T08:47:35+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="flux"/>
-<summary>https://preview.redd.it/v9ikxpyflfrh1.png?width=946&amp;format=png&amp;auto=webp&amp;s=d35a7c6fd5d571ec96532a9ff6b585714328d5e4 I managed to get INT8 ConvRot acceleration working properly on an Intel Arc B580 using Intel LLM Scaler in ComfyUI. I used Codex for the installation. I gave it the path to my portable</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui, flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;https://preview.redd.it/v9ikxpyflfrh1.png?width=946&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=d35a7c6fd5d571ec96532a9ff6b585714328d5e4 I managed to get INT8 ConvRot acceleration working properly on an Intel Arc B580 using Intel LLM Scaler in ComfyUI. I used Codex for the installation. I gave it the path to my portable ComfyUI build and asked it to integrate LLM Scaler so that all the acceleration features would work. After a warm-up run, I got the following average results: Krea 2 INT8 ConvRot 768×768 — 10.27 seconds 1024×1024 — 15.71 seconds 1920×1088 — 30.21 seconds Flux 2 Klein 9B INT8 ConvRot 768×768 — 3.90 seconds 1024×1024 — 6.11 seconds 1920×1088 — 12.58 seconds The acceleration really works, generation&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wowdp8/intel_arc_b580_supports_int8_convrot_acceleration/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
