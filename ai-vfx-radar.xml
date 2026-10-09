@@ -2,8 +2,17 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-09T20:30:20+00:00</updated>
+<updated>2026-10-09T22:30:23+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1x1y9jr/how_did_i_do_everything_i_did_was_with_simple/</id><title>how did I do? everything I did was with simple compositing.</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1x1y9jr/how_did_i_do_everything_i_did_was_with_simple/"/>
+<published>2026-10-09T21:59:24+00:00</published><updated>2026-10-09T21:59:24+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="compositing"/>
+<summary>submitted by /u/Tiny-Perspective-508 [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · compositing&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/Tiny-Perspective-508 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1x1y9jr/how_did_i_do_everything_i_did_was_with_simple/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1x1umis/the_power_of_reference_videos_for_believable/</id><title>The Power of Reference Videos for Believable Acting in Minimax</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x1umis/the_power_of_reference_videos_for_believable/"/>
@@ -7623,75 +7632,5 @@
 <category term="minimax"/>
 <summary>It makes songs locally in ComfyUI with YuE2 and MiniMax Music 3 , covers your own recordings with YuE2 Cover , and masters and exports the result. Nothing leaves your machine, there is no API key, and it installs no Python packages. What is different from the old toolkit: One template per model (YuE</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 5 · comfyui, flux, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;It makes songs locally in ComfyUI with YuE2 and MiniMax Music 3 , covers your own recordings with YuE2 Cover , and masters and exports the result. Nothing leaves your machine, there is no API key, and it installs no Python packages. What is different from the old toolkit: One template per model (YuE2 Song, YuE2 Cover, MiniMax Song, Enhance &amp;amp; Master, System Check) - no switch that half the graph ignores. Song Sheet : you see the exact title, style, lyrics and score the model receives, you can edit them, and manual edits are never overwritten. Score editor : YuE2's ABC score as notation + text + playback, with transpose, note and section edits. Covers from the real music : SheetSage2 reads the&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wqb1gv/i_rebuilt_my_comfyui_music_toolkit_from_scratch/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wq9r28/so_whats_your_video_upscalerdetailer_solution/</id><title>So what's your video Upscaler/Detailer solution?</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wq9r28/so_whats_your_video_upscalerdetailer_solution/"/>
-<published>2026-09-25T22:23:04+00:00</published><updated>2026-09-25T22:23:04+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="upscaler"/>
-<category term="minimax"/>
-<summary>since i can't generate at 2k, i tend to upscale my favorite videos using topaz labs. unfortunately they just went subscription only and I'm not about that. what are you guys using to upscale your videos? i tried ltx2.3 upscaler but it's not great, SeedVr also seems to just add sharpness but doesn't </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · upscaler, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;since i can't generate at 2k, i tend to upscale my favorite videos using topaz labs. unfortunately they just went subscription only and I'm not about that. what are you guys using to upscale your videos? i tried ltx2.3 upscaler but it's not great, SeedVr also seems to just add sharpness but doesn't "fix" stuff like topaz did. i feel like there might be potential with a ltx2.5 upscaler but i haven't found a good workflow for that. I tend to generate using minimax 768*1024 and then i would upscale from there. do you guys have any recommendation for free or even paid software. I don't mind paying for credits but it's a hobby for me so pay on demand it's what i want not a subscription. Also I wa&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wq9r28/so_whats_your_video_upscalerdetailer_solution/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wq9jyt/character_design_sheet_v20_update_a_practical/</id><title>Character Design Sheet V2.0 Update: A Practical Approach to Character Sheet Generation.</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wq9jyt/character_design_sheet_v20_update_a_practical/"/>
-<published>2026-09-25T22:14:40+00:00</published><updated>2026-09-25T22:14:40+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="video generation"/>
-<category term="minimax"/>
-<category term="seedance"/>
-<category term="lora"/>
-<summary>Hey there. In my previous post , I shared a method for generating Character Design Sheets using Qwen Image 2.1 and Prompt Enhancer. You left a lot of helpful feedback and suggestions, which I really appreciate! Based on your input, I’ve prepared version V2.0. For the most part, people are specifical</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · video generation, minimax, seedance, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey there. In my previous post , I shared a method for generating Character Design Sheets using Qwen Image 2.1 and Prompt Enhancer. You left a lot of helpful feedback and suggestions, which I really appreciate! Based on your input, I’ve prepared version V2.0. For the most part, people are specifically interested in creating character sheets for video generation tasks (using Seedance 2.5 / Minimax H3). Recognizing this, I completely reworked the concept into a streamlined, highly practical solution. The sheet now includes only the most essential elements needed for animating your character: Facial expressions 3 main character angles Close-ups of gear and equipment details Full details and add&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wq9jyt/character_design_sheet_v20_update_a_practical/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wq9dnt/a_new_stills_mode_for_minimax_with_a_new_latent/</id><title>A new Stills mode for MiniMax with a new Latent &amp; VAE Decode node.</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wq9dnt/a_new_stills_mode_for_minimax_with_a_new_latent/"/>
-<published>2026-09-25T22:06:53+00:00</published><updated>2026-09-25T22:06:53+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="minimax"/>
-<category term="lora"/>
-<summary>8mp Example here where it sings more with less plastic and more skin detail when you go for the higher res: https://www.reddit.com/r/StableDiffusion/comments/1wq9dnt/comment/pc2mg4c/?utm_source=share&amp;utm_medium=web3x&amp;utm_name=web3xcss&amp;utm_term=1&amp;utm_content=share_button 3840x2176 still at 50 steps w</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;8mp Example here where it sings more with less plastic and more skin detail when you go for the higher res: https://www.reddit.com/r/StableDiffusion/comments/1wq9dnt/comment/pc2mg4c/?utm_source=share&amp;amp;utm_medium=web3x&amp;amp;utm_name=web3xcss&amp;amp;utm_term=1&amp;amp;utm_content=share_button 3840x2176 still at 50 steps with no turbo lora takes 80 secs on my 5090 fyi if you want a benchmark. I dug deep into H3 Latents and VAE Decoding the last few days and this is the result. Its not perfect, but its a big big improvement I feel. Its FAST too (single frame latent is MUCH faster than 5 frame) , and as per the readme I use the turbo lora only on a low setting in the provided workflow. But you can easily turn it off &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wq9dnt/a_new_stills_mode_for_minimax_with_a_new_latent/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wq92rg/i_trained_a_krea_2_lora_on_356_real_portraits/</id><title>I trained a Krea 2 LoRA on 356 real portraits with a multi-parameter face vocabulary - you can prompt face features directly</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wq92rg/i_trained_a_krea_2_lora_on_356_real_portraits/"/>
-<published>2026-09-25T21:54:05+00:00</published><updated>2026-09-25T21:54:05+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="lora"/>
-<summary>Identical facial description for both images, no LoRA vs LoRA 1.0 Identical facial description for both images, no LoRA vs LoRA 1.0 Identical facial description for both images, no LoRA vs LoRA 1.6 Identical facial description for both images, no LoRA vs LoRA 1.2 https://preview.redd.it/v7oybpmm9qrh</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Identical facial description for both images, no LoRA vs LoRA 1.0 Identical facial description for both images, no LoRA vs LoRA 1.0 Identical facial description for both images, no LoRA vs LoRA 1.6 Identical facial description for both images, no LoRA vs LoRA 1.2 https://preview.redd.it/v7oybpmm9qrh1.jpg?width=2560&amp;amp;format=pjpg&amp;amp;auto=webp&amp;amp;s=4d7f78b5c4544fce7d733c610df75543a97fb908 https://preview.redd.it/8ucqiqmm9qrh1.jpg?width=2560&amp;amp;format=pjpg&amp;amp;auto=webp&amp;amp;s=cc8c9ef3e92861aa7de7273039bcee9147d92f1c https://preview.redd.it/brdoormm9qrh1.jpg?width=2560&amp;amp;format=pjpg&amp;amp;auto=webp&amp;amp;s=443b816e236e215574b59ed88222b2e4a3c0a2d4 https://preview.redd.it/iqcl4pmm9qrh1.jpg?width=2304&amp;amp;format=pjpg&amp;amp;auto=webp&amp;amp;s=4df1e&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wq92rg/i_trained_a_krea_2_lora_on_356_real_portraits/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wq8sz4/yue2_melodic_death_metal_lora/</id><title>YuE2 Melodic Death Metal Lora</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wq8sz4/yue2_melodic_death_metal_lora/"/>
-<published>2026-09-25T21:42:18+00:00</published><updated>2026-09-25T21:42:18+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="lora"/>
-<summary>So i was tired not getting real death metal from native yue2! and i train a lora, is not perfect but now i can get much better style and vocals style submitted by /u/smereces [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;So i was tired not getting real death metal from native yue2! and i train a lora, is not perfect but now i can get much better style and vocals style submitted by /u/smereces [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wq8sz4/yue2_melodic_death_metal_lora/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wq7s1v/krea_2_bboxbounding_box_text_to_image/</id><title>Krea 2 BBOX(Bounding box) Text to image</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wq7s1v/krea_2_bboxbounding_box_text_to_image/"/>
-<published>2026-09-25T20:59:57+00:00</published><updated>2026-09-25T20:59:57+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="lora"/>
-<summary>Hello! Since there's loads of information online, i created simple workflow with only using KJnodes. This is made for using bounding boxes for KREA 2 model. You can draw box and write prompt. Drive link to workflow json: https://drive.google.com/file/d/199n29Ht20oWHc5ls5d0M-E3bmOWPniHA/view?usp=driv</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hello! Since there's loads of information online, i created simple workflow with only using KJnodes. This is made for using bounding boxes for KREA 2 model. You can draw box and write prompt. Drive link to workflow json: https://drive.google.com/file/d/199n29Ht20oWHc5ls5d0M-E3bmOWPniHA/view?usp=drive_link CivitAI link for those who can't access: https://civitai.com/articles/35782/krea-2-bboxbounding-box-text-to-image There were not much info available online. I wanted to share what works for me. ________________________________________________________________________________________________________ 1) Installation Requirements: KJnodes 2)Lora: https://civitai.com/models/2897864/krea2-bbox 3)&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wq7s1v/krea_2_bboxbounding_box_text_to_image/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wq72ps/i_really_like_anima/</id><title>I really like Anima</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wq72ps/i_really_like_anima/"/>
-<published>2026-09-25T20:31:24+00:00</published><updated>2026-09-25T20:31:24+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="lora"/>
-<category term="dit"/>
-<summary>Gonna keep this shortish but now Anima Base &amp; Turbo have been out for a bit, it's definitely had time to mature regarding community workflows, custom nodes, Checkpoints &amp; LORAs... I would like to say a big thank you to all you Legends who have created all the awesome stuff for Anima including the cr</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · lora, dit&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Gonna keep this shortish but now Anima Base &amp;amp; Turbo have been out for a bit, it's definitely had time to mature regarding community workflows, custom nodes, Checkpoints &amp;amp; LORAs... I would like to say a big thank you to all you Legends who have created all the awesome stuff for Anima including the creator of anima. It's a great small but mighty anime &amp;amp; sometimes realism open source model that's very accessible due to its small parameter size. I've recently been using the new turbo model and it does need some detailers and maybe style LORAs out of the box but once you pick your preference it's very good. It's incredibly fast as well, especially if you use an INT8 version as you only really nee&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wq72ps/i_really_like_anima/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
