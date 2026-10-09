@@ -2,8 +2,32 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-09T00:30:33+00:00</updated>
+<updated>2026-10-09T02:30:20+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1x18yg8/pipe_vfx_pipe_got_an_overhaul_usdnative_vfx/</id><title>PIPE VFX : Pipe got an overhaul, USD-native VFX pipeline (Teaser)</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1x18yg8/pipe_vfx_pipe_got_an_overhaul_usdnative_vfx/"/>
+<published>2026-10-09T01:48:56+00:00</published><updated>2026-10-09T01:48:56+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="vfx"/>
+<category term="render"/>
+<category term="nuke"/>
+<category term="houdini"/>
+<category term="maya"/>
+<summary>Modern launcher UI with one show selector across every tab USD-native assets and shots, openable in usdview or any USD app A node graph (the Automator) of a shot's dependencies, bakes and FX FX caches published as assets or override layers A render scheduler with local and Linux slots A storage view</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 6 · vfx, render, nuke, houdini, maya&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Modern launcher UI with one show selector across every tab USD-native assets and shots, openable in usdview or any USD app A node graph (the Automator) of a shot's dependencies, bakes and FX FX caches published as assets or override layers A render scheduler with local and Linux slots A storage view with published vs work data and version clean-up Built with Python, PySide6, OpenUSD and Houdini (Solaris). More coming soon. #VFX #OpenUSD #Houdini #Pipeline #Solaris I dropped the review tool, and the Maya, Nuke and RV mention with it. The scheduler and storage lines assume those are in your teaser, so cut them if they aren't. (This started long before Vibe Coding, but I do use lots of Claude n&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1x18yg8/pipe_vfx_pipe_got_an_overhaul_usdnative_vfx/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1x13jdh/live_blender_inside_after_effects/</id><title>Live Blender inside After Effects</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1x13jdh/live_blender_inside_after_effects/"/>
+<published>2026-10-08T21:35:36+00:00</published><updated>2026-10-08T21:35:36+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="rendering"/>
+<category term="blender"/>
+<category term="unreal"/>
+<summary>Hey all - a while ago I posted about my near-realtime AE / Unreal connector One thing I didn't really talk about before: the After Effects side doesn't actually know or care that Unreal is on the other end. It asks for a frame - camera, time, resolution, etc. and gets pixels and data back That means</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 4 · rendering, blender, unreal&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey all - a while ago I posted about my near-realtime AE / Unreal connector One thing I didn't really talk about before: the After Effects side doesn't actually know or care that Unreal is on the other end. It asks for a frame - camera, time, resolution, etc. and gets pixels and data back That means, in theory, other renderers could plug into the same system. So ...People kept asking about Blender, so I tried it. It works: - your Blender scene shows up as a layer in your comp - the AE camera drives the Blender camera - scrub the timeline and Blender renders that frame - fast preview at around 50–100 ms/frame with EEVEE, or Cycles for final rendering -no exporting image sequences back and for&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1x13jdh/live_blender_inside_after_effects/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1x125xc/just_throwing_some_more_appreciation_for_minimax/</id><title>Just throwing some (more) appreciation for Minimax H3.. This is where it really shines.</title>
 <link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x125xc/just_throwing_some_more_appreciation_for_minimax/"/>
@@ -7523,37 +7547,5 @@
 <category term="vfx"/>
 <summary>https://www.facebook.com/share/v/1C7uZV1yBy/ Hey guys, look at my first vfx breakdown as a visual effect artist beginner, no professional training just DIY, im a computer science student and planning to shift jn multimedia arts, do you think I have what it takes to become a good VFX Artist,😔 submitt</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 4 · compositing, vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;https://www.facebook.com/share/v/1C7uZV1yBy/ Hey guys, look at my first vfx breakdown as a visual effect artist beginner, no professional training just DIY, im a computer science student and planning to shift jn multimedia arts, do you think I have what it takes to become a good VFX Artist,😔 submitted by /u/Time_Comfortable_314 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wpkzzk/my_first_vfx_compositing/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wpkigs/fight_h3_consistency_experiment_1/</id><title>FIGHT - H3 CONSISTENCY EXPERIMENT #1</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wpkigs/fight_h3_consistency_experiment_1/"/>
-<published>2026-09-25T02:22:07+00:00</published><updated>2026-09-25T02:22:07+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="consistency"/>
-<summary>Playing with methods to keep consistency over time. All clips were created in one generation. The two character sheets were fed in for each of three sections and in section 2 and 3 the last 3 seconds of video (at half the resolution) was fed in as reference. As soon as I dial this in I'll post the w</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Playing with methods to keep consistency over time. All clips were created in one generation. The two character sheets were fed in for each of three sections and in section 2 and 3 the last 3 seconds of video (at half the resolution) was fed in as reference. As soon as I dial this in I'll post the workflow. submitted by /u/Tokyo_Jab [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wpkigs/fight_h3_consistency_experiment_1/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wpjjcd/minimax_h3_running_as_a_realtime_interactive/</id><title>MiniMax H3 running as a real-time interactive avatar on Intel Arc Pro B70s</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wpjjcd/minimax_h3_running_as_a_realtime_interactive/"/>
-<published>2026-09-25T01:33:56+00:00</published><updated>2026-09-25T01:33:56+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="video generation"/>
-<category term="avatar"/>
-<category term="render"/>
-<category term="minimax"/>
-<category term="generative video"/>
-<summary>I got MiniMax H3 running as a real-time interactive avatar on Intel Arc Pro B70s. Instead of generating a video, waiting for it to finish, and playing it back, I built a pipeline where the avatar can actually respond to questions as they come in. The basic flow is: User asks a question → LLM generat</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 7 · video generation, avatar, render, minimax, generative video&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I got MiniMax H3 running as a real-time interactive avatar on Intel Arc Pro B70s. Instead of generating a video, waiting for it to finish, and playing it back, I built a pipeline where the avatar can actually respond to questions as they come in. The basic flow is: User asks a question → LLM generates the response → speech is generated → H3 renders the avatar → frames are streamed back in near real time. I’m running the workload locally across Intel Arc Pro B70 32GB GPUs. The interesting part has been figuring out how to keep generation moving fast enough that the experience feels more like talking to someone than watching an AI-generated clip. H3 is doing the visual/avatar generation, while&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wpjjcd/minimax_h3_running_as_a_realtime_interactive/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wpj7io/krea_2_crashes_my_pc_any_help/</id><title>Krea 2 Crashes My PC... any help?</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wpj7io/krea_2_crashes_my_pc_any_help/"/>
-<published>2026-09-25T01:17:23+00:00</published><updated>2026-09-25T01:17:23+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="minimax"/>
-<category term="ltx"/>
-<summary>Ive tried safetensors and ggufs... Krea 2 will always crash my PC after a few generations. I can run Minimax H3, LTX 2.5, Qwen Image Edit, Klein, EVERYTHING else. I can run Pony with Zimage Turb and qwen in the same workflow... But Krea 2, I love... but crashes everytime. RTX 3070 w/8GB RAM, 80 GB S</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · minimax, ltx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Ive tried safetensors and ggufs... Krea 2 will always crash my PC after a few generations. I can run Minimax H3, LTX 2.5, Qwen Image Edit, Klein, EVERYTHING else. I can run Pony with Zimage Turb and qwen in the same workflow... But Krea 2, I love... but crashes everytime. RTX 3070 w/8GB RAM, 80 GB System RAM... Anyone else have this happen? EDIT: Startup Params. --windows-standalone-build --disable-cuda-malloc --disable-pinned-memory --disable-async-offload --fast fp16_accumulation --disable-api-nodes --disable-metadata --cache-classic --disable-auto-launch submitted by /u/peigelee [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wpj7io/krea_2_crashes_my_pc_any_help/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
