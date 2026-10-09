@@ -2,8 +2,212 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-09T02:30:20+00:00</updated>
+<updated>2026-10-09T04:30:20+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://arxiv.org/abs/2610.11011</id><title>PCAsplat: Gaussian Splatting with Local PCA Regularization</title>
+<link rel="alternate" href="https://arxiv.org/abs/2610.11011"/>
+<published>2026-10-09T04:00:00+00:00</published><updated>2026-10-09T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="novel view synthesis"/>
+<category term="gaussian splatting"/>
+<category term="nerf"/>
+<category term="3d reconstruction"/>
+<category term="segmentation"/>
+<category term="point cloud"/>
+<summary>arXiv:2610.11011v1 Announce Type: new Abstract: Gaussian splatting has emerged as a flexible representation for 3D reconstruction from posed images. However, existing methods are optimized primarily using rasterization-based losses, which supervise a splat only when it contributes to sampled camera </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 7 · novel view synthesis, gaussian splatting, nerf, 3d reconstruction, segmentation, point cloud&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2610.11011v1 Announce Type: new Abstract: Gaussian splatting has emerged as a flexible representation for 3D reconstruction from posed images. However, existing methods are optimized primarily using rasterization-based losses, which supervise a splat only when it contributes to sampled camera rays. Gaussians that are occluded or contribute little to the sampled view therefore receive weak or no geometric gradients and may drift away from the underlying surface, producing undesired floaters. We introduce PCAsplat, a geometry-aware regularization framework for Gaussian splatting based on differentiable local principal component analysis (PCA). Our PCA regularizer acts directly on neighbo&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2610.11011"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2610.11198</id><title>3DTexMOR: 3D Gaussian Multi-Object Removal via Texture-Space Inpainting</title>
+<link rel="alternate" href="https://arxiv.org/abs/2610.11198"/>
+<published>2026-10-09T04:00:00+00:00</published><updated>2026-10-09T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="3d gaussian"/>
+<category term="inpainting"/>
+<category term="consistency"/>
+<category term="multi-view"/>
+<summary>arXiv:2610.11198v1 Announce Type: new Abstract: 3D object removal aims to remove target objects from reconstructed scenes and complete the geometry and appearance of occluded regions. Existing NeRF- and 3DGS-based methods typically inpaint 2D images to guide 3D completion. However, complex multi-obj</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 6 · 3d gaussian, inpainting, consistency, multi-view&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2610.11198v1 Announce Type: new Abstract: 3D object removal aims to remove target objects from reconstructed scenes and complete the geometry and appearance of occluded regions. Existing NeRF- and 3DGS-based methods typically inpaint 2D images to guide 3D completion. However, complex multi-object layouts limit the surrounding context visible in each view, making 2D inpainting prone to artifacts. Inconsistent completions across views also introduce conflicting supervision and blurry reconstructions. We propose 3D Gaussian Multi-Object Removal via Texture-Space Inpainting (3DTexMOR). Our key idea is to perform inpainting in a unified texture space shared by all views. By combining comple&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2610.11198"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2610.11412</id><title>Fresco++: Frequency-Guided and Canonical-Consistent Optimization for Fine-Grained Head Avatar Modeling</title>
+<link rel="alternate" href="https://arxiv.org/abs/2610.11412"/>
+<published>2026-10-09T04:00:00+00:00</published><updated>2026-10-09T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="avatar"/>
+<category term="rendering"/>
+<category term="consistency"/>
+<category term="multi-view"/>
+<summary>arXiv:2610.11412v1 Announce Type: new Abstract: We propose Fresco++, a unified optimization framework for fine-grained and view-consistent head avatar reconstruction. Head avatar optimization is typically driven by per-view image supervision, which can lead to premature fitting of unstable high-freq</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · avatar, rendering, consistency, multi-view&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2610.11412v1 Announce Type: new Abstract: We propose Fresco++, a unified optimization framework for fine-grained and view-consistent head avatar reconstruction. Head avatar optimization is typically driven by per-view image supervision, which can lead to premature fitting of unstable high-frequency details and inconsistent local appearance across viewpoints. Fresco++ addresses these challenges by regulating both the progression of visual detail and the formation of cross-view supervision during optimization. For frequency-aware optimization, a progressive curriculum first stabilizes low-frequency structures and then introduces high-frequency constraints to recover fine facial and hair &lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2610.11412"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2610.11572</id><title>PAM-ToD: Plug-and-Play Appearance Modeling for Cross-Time-of-Day 3D Gaussian Splatting</title>
+<link rel="alternate" href="https://arxiv.org/abs/2610.11572"/>
+<published>2026-10-09T04:00:00+00:00</published><updated>2026-10-09T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="gaussian splatting"/>
+<category term="3d gaussian"/>
+<category term="rendering"/>
+<summary>arXiv:2610.11572v1 Announce Type: new Abstract: Adapting a pre-trained 3D Gaussian Splatting (3DGS) road scene to a new time of day requires learning appearance changes from a few anchor images while preserving consistent, real-time rendering. We propose PAM-ToD, a lightweight plug-in that learns co</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · gaussian splatting, 3d gaussian, rendering&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2610.11572v1 Announce Type: new Abstract: Adapting a pre-trained 3D Gaussian Splatting (3DGS) road scene to a new time of day requires learning appearance changes from a few anchor images while preserving consistent, real-time rendering. We propose PAM-ToD, a lightweight plug-in that learns color corrections while keeping the pre-trained 3DGS parameters fixed. PAM-ToD scales each Gaussian's existing color to model illumination changes and uses an additive term for additional brightness, such as when street lamps turn on at night. Under a simplified image formation model, unchanged surface albedo can be eliminated from the relation between source and target appearances, allowing us to l&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2610.11572"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2610.11612</id><title>PointVGGT: Zero-Shot Multiview RGB-D Point Cloud Registration with Visual Geometry Foundation Priors</title>
+<link rel="alternate" href="https://arxiv.org/abs/2610.11612"/>
+<published>2026-10-09T04:00:00+00:00</published><updated>2026-10-09T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="3d reconstruction"/>
+<category term="multiview"/>
+<category term="point cloud"/>
+<summary>arXiv:2610.11612v1 Announce Type: new Abstract: This paper addresses multiview RGB-D point cloud registration, aiming to estimate global rigid poses for unordered RGB-D scans and align them in a metrically consistent coordinate frame. The conventional pairwise-then-global paradigm suffers from local</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · 3d reconstruction, multiview, point cloud&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2610.11612v1 Announce Type: new Abstract: This paper addresses multiview RGB-D point cloud registration, aiming to estimate global rigid poses for unordered RGB-D scans and align them in a metrically consistent coordinate frame. The conventional pairwise-then-global paradigm suffers from locally optimized pairwise registration, severe error propagation and high computational burden. In particular, existing methods typically treat RGB data as a mere auxiliary matching cue and overlook the holistic geometric priors (e.g., camera poses and 3D models) encoded across image sequences. This paper introduces PointVGGT, a zero-shot framework built upon a novel \emph{foundation-then-refinement} &lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2610.11612"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2610.11736</id><title>Towards Unified Evaluation of Prompt Enhancers for Video Generation</title>
+<link rel="alternate" href="https://arxiv.org/abs/2610.11736"/>
+<published>2026-10-09T04:00:00+00:00</published><updated>2026-10-09T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="video generation"/>
+<category term="text-to-video"/>
+<category term="image-to-video"/>
+<category term="cinematic"/>
+<summary>arXiv:2610.11736v1 Announce Type: new Abstract: Modern video generators can realize increasingly complex visual narratives, positioning the prompt enhancer (PE) as a critical bridge from concise user instructions and multimodal references to structured cinematic plans. However, existing PE evaluatio</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · video generation, text-to-video, image-to-video, cinematic&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2610.11736v1 Announce Type: new Abstract: Modern video generators can realize increasingly complex visual narratives, positioning the prompt enhancer (PE) as a critical bridge from concise user instructions and multimodal references to structured cinematic plans. However, existing PE evaluation relies on rendered videos, imposing substantial computational and human costs, slowing PE training and iteration, and conflating PE quality with downstream generator behavior. To address this gap, we introduce PEBench, the first unified benchmark for direct PE evaluation across text-to-video, image-to-video, and reference-to-video prompt enhancement. It comprises 1,100 expert-verified cases and &lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2610.11736"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2610.11857</id><title>Pose-Free Feed-Forward 3D Inpainting via Learnable Mask Attention and Support Token Refinement</title>
+<link rel="alternate" href="https://arxiv.org/abs/2610.11857"/>
+<published>2026-10-09T04:00:00+00:00</published><updated>2026-10-09T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="3d reconstruction"/>
+<category term="inpainting"/>
+<category term="pose estimation"/>
+<category term="consistency"/>
+<category term="multi-view"/>
+<summary>arXiv:2610.11857v1 Announce Type: new Abstract: 3D scene inpainting aims to recover missing or occluded regions in edited 3D scenes, while ensuring geometric and textural consistency. Existing approaches, however, typically require accurately calibrated camera poses, which restricts their applicabil</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 6 · 3d reconstruction, inpainting, pose estimation, consistency, multi-view&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2610.11857v1 Announce Type: new Abstract: 3D scene inpainting aims to recover missing or occluded regions in edited 3D scenes, while ensuring geometric and textural consistency. Existing approaches, however, typically require accurately calibrated camera poses, which restricts their applicability in casual, in-the-wild scenarios and introduces additional preprocessing overhead. To overcome this limitation, we present FreeInpaint, a novel feed-forward framework that generates complete and 3D-consistent scenes directly from unposed multi-view images with masked regions. At its core, FreeInpaint extends a 3D foundation model to propagate masked regions from a reference view to other unpos&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2610.11857"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2610.12127</id><title>LVS: Local View Synthesis from Relative Camera Pose by Reusing Previous Views</title>
+<link rel="alternate" href="https://arxiv.org/abs/2610.12127"/>
+<published>2026-10-09T04:00:00+00:00</published><updated>2026-10-09T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="gaussian splatting"/>
+<category term="3d gaussian"/>
+<category term="camera pose"/>
+<category term="rendering"/>
+<summary>arXiv:2610.12127v1 Announce Type: new Abstract: Interactive scene exploration requires frequent view updates, although small camera motions preserve much of the visible content. Conventional 3D Gaussian Splatting nevertheless renders each target view, leaving this image overlap unexploited. Reusing </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · gaussian splatting, 3d gaussian, camera pose, rendering&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2610.12127v1 Announce Type: new Abstract: Interactive scene exploration requires frequent view updates, although small camera motions preserve much of the visible content. Conventional 3D Gaussian Splatting nevertheless renders each target view, leaving this image overlap unexploited. Reusing rendered images offers an alternative. Geometric warping alone cannot recover newly exposed content and remains sensitive to depth errors. We propose a per-scene framework that replaces repeated scene rendering for nearby views with relative-pose-guided RGB-D image reuse. Geometric warping uses depth and relative pose to transport source content, while a lightweight multiscale network predicts RGB&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2610.12127"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2610.12382</id><title>WorldAlign: Decoupled 4D Reward for World-Consistent Video Generation</title>
+<link rel="alternate" href="https://arxiv.org/abs/2610.12382"/>
+<published>2026-10-09T04:00:00+00:00</published><updated>2026-10-09T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="video generation"/>
+<category term="image-to-video"/>
+<category term="4d"/>
+<category term="wan2"/>
+<category term="consistency"/>
+<summary>arXiv:2610.12382v1 Announce Type: new Abstract: Faithful visual world simulation requires generated videos to maintain 4D world consistency, encompassing both static and dynamic consistency. Static consistency requires coherent 3D structure in static environments across viewpoints, while dynamic con</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 7 · video generation, image-to-video, 4d, wan2, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2610.12382v1 Announce Type: new Abstract: Faithful visual world simulation requires generated videos to maintain 4D world consistency, encompassing both static and dynamic consistency. Static consistency requires coherent 3D structure in static environments across viewpoints, while dynamic consistency requires plausible subject motion and consistent appearance over time. Geometry-aware post-training offers a promising way to improve world consistency. However, existing methods often rely on a static-scene assumption. Even those that accommodate dynamic scenes struggle to provide reliable static-consistency feedback, while dynamic consistency is often overlooked or inadequately assessed&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2610.12382"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2610.12442</id><title>LEGO: A Lifting-Free Approach for Exocentric-to-Egocentric Video Generation</title>
+<link rel="alternate" href="https://arxiv.org/abs/2610.12442"/>
+<published>2026-10-09T04:00:00+00:00</published><updated>2026-10-09T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="video generation"/>
+<category term="video diffusion"/>
+<category term="novel view synthesis"/>
+<category term="denoising"/>
+<category term="render"/>
+<category term="point cloud"/>
+<summary>arXiv:2610.12442v1 Announce Type: new Abstract: Generating an egocentric video from a single exocentric recording is a challenging case of novel view synthesis, as the two cameras share little overlap and much of the target view is unobserved. Current state-of-the-art methods reconstruct the scene e</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 7 · video generation, video diffusion, novel view synthesis, denoising, render, point cloud&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2610.12442v1 Announce Type: new Abstract: Generating an egocentric video from a single exocentric recording is a challenging case of novel view synthesis, as the two cameras share little overlap and much of the target view is unobserved. Current state-of-the-art methods reconstruct the scene explicitly by estimating depth, lifting the video into a point cloud, and re-rendering it from the egocentric camera to condition a video diffusion model. This deterministic mapping assigns each pixel to a single reprojected location, which preserves texture but translates depth errors into misplaced content. We ask what a video diffusion model should receive as its condition and propose a lifting-&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2610.12442"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2610.10564</id><title>Does Dynamic-Point Filtering Help When Texture Is Scarce? A Controlled Study of ORB-SLAM2 Front-Ends in Synthetic Indoor Scenes</title>
+<link rel="alternate" href="https://arxiv.org/abs/2610.10564"/>
+<published>2026-10-09T04:00:00+00:00</published><updated>2026-10-09T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="tracking"/>
+<category term="render"/>
+<category term="multi-view"/>
+<category term="stereo"/>
+<category term="slam"/>
+<summary>arXiv:2610.10564v1 Announce Type: cross Abstract: Dynamic-point filters are routinely added to feature-based visual SLAM, and several recent systems argue that removing dynamic features can leave too few static features in low-texture regions. So far, these systems have been evaluated only on textur</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · tracking, render, multi-view, stereo, slam&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2610.10564v1 Announce Type: cross Abstract: Dynamic-point filters are routinely added to feature-based visual SLAM, and several recent systems argue that removing dynamic features can leave too few static features in low-texture regions. So far, these systems have been evaluated only on texture-rich benchmark sequences. We present a controlled study that isolates this interaction. We render synthetic indoor sequences in which surface texture (four levels, quantified by FAST-corner density and image-gradient entropy) and scene dynamics (three levels) are varied factorially along identical camera trajectories, with stereo, RGB-D, ground-truth poses and dynamic masks. On this grid we comp&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2610.10564"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2512.17302</id><title>MatLat: Material Latent Space for PBR Texture Generation</title>
+<link rel="alternate" href="https://arxiv.org/abs/2512.17302"/>
+<published>2026-10-09T04:00:00+00:00</published><updated>2026-10-09T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="texture generation"/>
+<category term="pbr"/>
+<category term="consistency"/>
+<summary>arXiv:2512.17302v2 Announce Type: replace Abstract: We propose a generative framework for producing high-quality PBR textures on a given 3D mesh. As large-scale PBR texture datasets are scarce, our approach focuses on effectively leveraging the embedding space and diffusion priors of pretrained late</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · texture generation, pbr, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2512.17302v2 Announce Type: replace Abstract: We propose a generative framework for producing high-quality PBR textures on a given 3D mesh. As large-scale PBR texture datasets are scarce, our approach focuses on effectively leveraging the embedding space and diffusion priors of pretrained latent image generative models while learning a material latent space, MatLat, through targeted fine-tuning. Unlike prior methods that freeze the embedding network, which leads to distribution shifts when encoding additional PBR channels and hinders subsequent diffusion training, we fine-tune the pretrained VAE so that new material channels can be incorporated with minimal latent distribution deviatio&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2512.17302"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2602.03538</id><title>Constrained Dynamic Gaussian Splatting</title>
+<link rel="alternate" href="https://arxiv.org/abs/2602.03538"/>
+<published>2026-10-09T04:00:00+00:00</published><updated>2026-10-09T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="gaussian splatting"/>
+<category term="4d"/>
+<category term="rendering"/>
+<category term="scene reconstruction"/>
+<summary>arXiv:2602.03538v2 Announce Type: replace Abstract: While Dynamic Gaussian Splatting enables high-fidelity 4D reconstruction, its deployment is severely hindered by a fundamental dilemma: unconstrained densification leads to excessive memory consumption incompatible with edge devices, whereas heuris</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · gaussian splatting, 4d, rendering, scene reconstruction&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2602.03538v2 Announce Type: replace Abstract: While Dynamic Gaussian Splatting enables high-fidelity 4D reconstruction, its deployment is severely hindered by a fundamental dilemma: unconstrained densification leads to excessive memory consumption incompatible with edge devices, whereas heuristic pruning fails to achieve optimal rendering quality under preset Gaussian budgets. In this work, we propose Constrained Dynamic Gaussian Splatting (CDGS), a novel framework that formulates dynamic scene reconstruction as a budget-constrained optimization problem to enforce a strict, user-defined Gaussian budget during training. Our key insight is to introduce a differentiable budget controller &lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2602.03538"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2605.22342</id><title>4D-GSW: Kinematic-Aware Spatio-Temporal Consistent Watermarking for 4D Gaussian Splatting</title>
+<link rel="alternate" href="https://arxiv.org/abs/2605.22342"/>
+<published>2026-10-09T04:00:00+00:00</published><updated>2026-10-09T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="gaussian splatting"/>
+<category term="4d"/>
+<category term="rendering"/>
+<category term="consistency"/>
+<summary>arXiv:2605.22342v2 Announce Type: replace Abstract: While 4D Gaussian Splatting (4DGS) has revolutionized high-fidelity dynamic reconstruction, safeguarding the intellectual property of these assets remains an open challenge. Conventional steganographic techniques often neglect the underlying kinema</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 6 · gaussian splatting, 4d, rendering, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2605.22342v2 Announce Type: replace Abstract: While 4D Gaussian Splatting (4DGS) has revolutionized high-fidelity dynamic reconstruction, safeguarding the intellectual property of these assets remains an open challenge. Conventional steganographic techniques often neglect the underlying kinematic manifolds, triggering non-physical artifacts such as severe temporal flickering and "FVD collapse". To address this, we propose \textbf{4D-GSW}, a kinematic-aware watermarking framework designed to embed robust copyright information while preserving high spatio-temporal consistency. Unlike prior 4D steganography that primarily focuses on opacity-guided invisibility, our approach explicitly add&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2605.22342"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2610.12461</id><title>OuroWorld: Bringing Any 3D World Alive as Diverse, Endlessly Looping 3D Cinemagraphs</title>
+<link rel="alternate" href="https://arxiv.org/abs/2610.12461"/>
+<published>2026-10-09T04:00:00+00:00</published><updated>2026-10-09T04:00:00+00:00</updated>
+<author><name>arXiv cs.GR</name></author>
+<category term="video model"/>
+<category term="gaussian splatting"/>
+<category term="3d gaussian"/>
+<category term="multi-view"/>
+<summary>arXiv:2610.12461v1 Announce Type: cross Abstract: Recent 3D world models generate photorealistic, explorable scenes that remain frozen in time. OuroWorld is a mask-free framework that turns any static 3D Gaussian Splatting scene into a 3D cinemagraph: a dynamic scene with vivid, diverse motion loopi</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.GR · score 4 · video model, gaussian splatting, 3d gaussian, multi-view&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2610.12461v1 Announce Type: cross Abstract: Recent 3D world models generate photorealistic, explorable scenes that remain frozen in time. OuroWorld is a mask-free framework that turns any static 3D Gaussian Splatting scene into a 3D cinemagraph: a dynamic scene with vivid, diverse motion looping seamlessly from any viewpoint. A vision-language model infers plausible dynamics and guides a video model to synthesize a reference video, which we lift and complete into multi-view videos. To learn from this imperfect supervision, we propose Inconsistency-Robust Periodic 4DGS: a Fourier-series deformation field guarantees looping by construction, while a Grounded Drift Field anchored at the re&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2610.12461"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2608.08132</id><title>ASV3D: Adapting Diffusion-Based Single-View 3D Reconstruction with Extra Imagery</title>
+<link rel="alternate" href="https://arxiv.org/abs/2608.08132"/>
+<published>2026-10-09T04:00:00+00:00</published><updated>2026-10-09T04:00:00+00:00</updated>
+<author><name>arXiv cs.GR</name></author>
+<category term="3d reconstruction"/>
+<category term="consistency"/>
+<category term="multi-view"/>
+<summary>arXiv:2608.08132v2 Announce Type: replace-cross Abstract: Reconstruction of 3D objects from a single image is a fundamental research topic in computer vision. The key challenge is the lack of information from critical viewpoints to complete 3D structures. Using an additional view may help to resolve</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.GR · score 4 · 3d reconstruction, consistency, multi-view&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2608.08132v2 Announce Type: replace-cross Abstract: Reconstruction of 3D objects from a single image is a fundamental research topic in computer vision. The key challenge is the lack of information from critical viewpoints to complete 3D structures. Using an additional view may help to resolve the issue. However, there is no mechanism that can integrate the extra view into the diffusion-based single-view 3D reconstruction principle. We address this challenge by proposing ASV3D, a framework for adapting diffusion-based single-view 3D object reconstruction to test-time data with support from one additional image. We introduce two adaptation strategies: (i) a zero-shot adaptation scheme t&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2608.08132"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1x194ir/hunyuan_image_3_vs_qwen_image_21_vs_krea_2_turbo/</id><title>Hunyuan Image 3 vs Qwen Image 2.1 vs Krea 2 Turbo</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x194ir/hunyuan_image_3_vs_qwen_image_21_vs_krea_2_turbo/"/>
+<published>2026-10-09T01:57:21+00:00</published><updated>2026-10-09T01:57:21+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="hunyuan"/>
+<summary>Uncompressed image: https://postimg.cc/gallery/gmR7dbs (To view the uncompressed image, click on it a second time after opening it, or simply download the entire image album) -----------------------------------------------------------------------------------------------------------------------------</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · hunyuan&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Uncompressed image: https://postimg.cc/gallery/gmR7dbs (To view the uncompressed image, click on it a second time after opening it, or simply download the entire image album) ---------------------------------------------------------------------------------------------------------------------------------- Hi everyone! I noticed that a lot of people have started talking about Hunyuan Image 3 , so I wanted to test it in T2I scenarios. While I was at it, I compared it against the most popular models in the same segment right now: Qwen Image 2.1 and Krea 2 Turbo . What this test is about I was NOT trying to test the maximum-size versions of these models with minimal quantization. What mattered to&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x194ir/hunyuan_image_3_vs_qwen_image_21_vs_krea_2_turbo/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/vfx/comments/1x18yg8/pipe_vfx_pipe_got_an_overhaul_usdnative_vfx/</id><title>PIPE VFX : Pipe got an overhaul, USD-native VFX pipeline (Teaser)</title>
 <link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1x18yg8/pipe_vfx_pipe_got_an_overhaul_usdnative_vfx/"/>
@@ -7455,97 +7659,5 @@
 <category term="camera tracking"/>
 <summary>I filmed this shot with my DJI Osmo Action 4,which features a 1/1.3-inch CMOS sensor and the focal length is 15mm.The camera is about 1.75 meters off the ground and the stool is 46 centimeters high.The footage is 4K and 59.94 FPS.I tried to track this shot in SynthEyes but it failed,I really suck at</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · tracking, camera tracking&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I filmed this shot with my DJI Osmo Action 4,which features a 1/1.3-inch CMOS sensor and the focal length is 15mm.The camera is about 1.75 meters off the ground and the stool is 46 centimeters high.The footage is 4K and 59.94 FPS.I tried to track this shot in SynthEyes but it failed,I really suck at camera tracking and I dont know how it works actually,so can anyone help me track this shot,if so,this is raw footage download link https://www.mediafire.com/file/sipl9iccudhn6vz/Portal.mp4/file Thanks a lot!I am so dumb submitted by /u/Own_Insurance_7436 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wpn2xv/can_someone_help_me_track_this_shot/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2609.28645</id><title>PePESeg3D: Perception Prior Enhances Multi-Scale Segmentation for 3D Gaussian Splatting</title>
-<link rel="alternate" href="https://arxiv.org/abs/2609.28645"/>
-<published>2026-09-25T04:00:00+00:00</published><updated>2026-09-25T04:00:00+00:00</updated>
-<author><name>arXiv cs.CV</name></author>
-<category term="gaussian splatting"/>
-<category term="3d gaussian"/>
-<category term="segmentation"/>
-<category term="monocular depth"/>
-<category term="scene reconstruction"/>
-<summary>arXiv:2609.28645v1 Announce Type: new Abstract: Recent advancements in 3D Gaussian Splatting (3DGS) have extended its capabilities to multi-scale segmentation. Existing methods reconstruct a scene with Gaussian primitives and learn multi-scale segmentation features separately, which leaves the geome</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 8 · gaussian splatting, 3d gaussian, segmentation, monocular depth, scene reconstruction&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.28645v1 Announce Type: new Abstract: Recent advancements in 3D Gaussian Splatting (3DGS) have extended its capabilities to multi-scale segmentation. Existing methods reconstruct a scene with Gaussian primitives and learn multi-scale segmentation features separately, which leaves the geometry unaware of semantic structure and the feature learning dependent on incomplete mask supervision. To address these limitations, we present PePESeg3D, a novel framework that injects perception priors into a multi-scale 3D Gaussian segmentation pipeline. To fully exploit perception priors, we integrate them not only into contrastive feature learning but also into the upstream geometry reconstruct&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.28645"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2609.29985</id><title>OceanXL: Large-scale Underwater 3D Gaussian Splatting via Block Partitioning and Adaptive Pruning</title>
-<link rel="alternate" href="https://arxiv.org/abs/2609.29985"/>
-<published>2026-09-25T04:00:00+00:00</published><updated>2026-09-25T04:00:00+00:00</updated>
-<author><name>arXiv cs.CV</name></author>
-<category term="gaussian splatting"/>
-<category term="3d gaussian"/>
-<category term="3d reconstruction"/>
-<category term="rendering"/>
-<category term="consistency"/>
-<summary>arXiv:2609.29985v1 Announce Type: new Abstract: Underwater 3D reconstruction is critical for marine exploration, ecological monitoring, and subsea infrastructure inspection, yet remains challenging at large scale due to light attenuation, scattering, and limited capture coverage. While 3D Gaussian S</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 7 · gaussian splatting, 3d gaussian, 3d reconstruction, rendering, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.29985v1 Announce Type: new Abstract: Underwater 3D reconstruction is critical for marine exploration, ecological monitoring, and subsea infrastructure inspection, yet remains challenging at large scale due to light attenuation, scattering, and limited capture coverage. While 3D Gaussian Splatting (3DGS) enables high-quality real-time rendering, its application to large underwater scenes is constrained by high memory consumption and inefficient optimization over extensive areas. We propose OceanXL, a fast and scalable 3DGS-based framework for large-scale underwater reconstruction. OceanXL adopts a divide-and-conquer strategy, partitioning scenes into spatially coherent blocks to en&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.29985"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2609.30221</id><title>WanPE: Towards Cinematic Prompt Enhancement for Modern Text-to-Video Generation</title>
-<link rel="alternate" href="https://arxiv.org/abs/2609.30221"/>
-<published>2026-09-25T04:00:00+00:00</published><updated>2026-09-25T04:00:00+00:00</updated>
-<author><name>arXiv cs.CV</name></author>
-<category term="video generation"/>
-<category term="text-to-video"/>
-<category term="seedance"/>
-<category term="cinematic"/>
-<summary>arXiv:2609.30221v1 Announce Type: new Abstract: Video generation begins in text space by authoring a cinematic screenplay, then materializes into pixels. As contemporary video generators scale to 30 seconds and faithfully follow complex conditions, the textual prompt largely directs the production, </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 6 · video generation, text-to-video, seedance, cinematic&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.30221v1 Announce Type: new Abstract: Video generation begins in text space by authoring a cinematic screenplay, then materializes into pixels. As contemporary video generators scale to 30 seconds and faithfully follow complex conditions, the textual prompt largely directs the production, planning how actions, camera trajectories, lighting, and sound unfold across multi-shot sequences. In this paper, we present WanPE, a 397B-parameter prompt enhancement model trained on 1.05M real-world videos to master director-level cinematic planning. WanPE formulates shot-level cinematic plans via video-grounded reverse construction and employs Semantic-Consistency GRPO (SC-GRPO) to faithfully &lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.30221"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2609.30245</id><title>Towards Practical Compression of 3D Gaussian Splatting</title>
-<link rel="alternate" href="https://arxiv.org/abs/2609.30245"/>
-<published>2026-09-25T04:00:00+00:00</published><updated>2026-09-25T04:00:00+00:00</updated>
-<author><name>arXiv cs.CV</name></author>
-<category term="gaussian splatting"/>
-<category term="3d gaussian"/>
-<category term="consistency"/>
-<summary>arXiv:2609.30245v1 Announce Type: new Abstract: 3D Gaussian Splatting (3DGS) enables high-quality novel-view synthesis but requires substantial storage. Existing compression methods often rely on spatial context modeling over irregular 3D representations, increasing the complexity of training and co</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · gaussian splatting, 3d gaussian, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.30245v1 Announce Type: new Abstract: 3D Gaussian Splatting (3DGS) enables high-quality novel-view synthesis but requires substantial storage. Existing compression methods often rely on spatial context modeling over irregular 3D representations, increasing the complexity of training and coding. Meanwhile, floating-point context inference can introduce numerical inconsistencies across platforms, causing entropy-decoding failures. To address these practical challenges, we propose COSA-GS, which constructs context without spatial aggregation through anchor-wise causal factorization. Specifically, we use geometry context derived from each anchor's coordinates to model a compact learnab&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.30245"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2601.19753</id><title>WaterClear-GS: Optical-Aware Gaussian Splatting for Underwater Reconstruction and Restoration</title>
-<link rel="alternate" href="https://arxiv.org/abs/2601.19753"/>
-<published>2026-09-25T04:00:00+00:00</published><updated>2026-09-25T04:00:00+00:00</updated>
-<author><name>arXiv cs.CV</name></author>
-<category term="novel view synthesis"/>
-<category term="gaussian splatting"/>
-<category term="3d gaussian"/>
-<category term="nerf"/>
-<category term="3d reconstruction"/>
-<category term="rendering"/>
-<category term="consistency"/>
-<summary>arXiv:2601.19753v2 Announce Type: replace Abstract: Underwater 3D reconstruction and appearance restoration remain challenging due to the complex optical properties of water, such as wavelength-dependent attenuation and scattering. Existing Neural Radiance Fields (NeRF)-based approaches often suffer</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 8 · novel view synthesis, gaussian splatting, 3d gaussian, nerf, 3d reconstruction, rendering, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2601.19753v2 Announce Type: replace Abstract: Underwater 3D reconstruction and appearance restoration remain challenging due to the complex optical properties of water, such as wavelength-dependent attenuation and scattering. Existing Neural Radiance Fields (NeRF)-based approaches often suffer from slow rendering and limited practicality, while vanilla 3D Gaussian Splatting (3DGS) lacks an effective mechanism to account for underwater degradation. To address this, we propose WaterClear-GS, a physics-informed reformulation of underwater Gaussian splatting that models degradation as intrinsic Gaussian attributes rather than external medium fields. Furthermore, we adopt a dual-branch opti&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2601.19753"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wpls3i/redness_and_excess_contrast_using_minimax_h3/</id><title>Redness and Excess contrast using Minimax H3</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wpls3i/redness_and_excess_contrast_using_minimax_h3/"/>
-<published>2026-09-25T03:26:54+00:00</published><updated>2026-09-25T03:26:54+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="minimax"/>
-<summary>need some assist, the people of reddit. submitted by /u/kyahinaamrakhe-1 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;need some assist, the people of reddit. submitted by /u/kyahinaamrakhe-1 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wpls3i/redness_and_excess_contrast_using_minimax_h3/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wpl8nt/piercings_lora_for_h3/</id><title>piercings lora for H3?</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wpl8nt/piercings_lora_for_h3/"/>
-<published>2026-09-25T02:59:29+00:00</published><updated>2026-09-25T02:59:29+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="lora"/>
-<summary>I have been hunting through civit for any lora's that will help with giving a realistic character various body piercings (nose, belly button, lip, other body parts) but have not had any luck so far. does anyone know of any they can point me to? thanks! submitted by /u/rpratt72086 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I have been hunting through civit for any lora's that will help with giving a realistic character various body piercings (nose, belly button, lip, other body parts) but have not had any luck so far. does anyone know of any they can point me to? thanks! submitted by /u/rpratt72086 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wpl8nt/piercings_lora_for_h3/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1wpkzzk/my_first_vfx_compositing/</id><title>MY FIRST VFX COMPOSITING</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wpkzzk/my_first_vfx_compositing/"/>
-<published>2026-09-25T02:47:06+00:00</published><updated>2026-09-25T02:47:06+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="compositing"/>
-<category term="vfx"/>
-<summary>https://www.facebook.com/share/v/1C7uZV1yBy/ Hey guys, look at my first vfx breakdown as a visual effect artist beginner, no professional training just DIY, im a computer science student and planning to shift jn multimedia arts, do you think I have what it takes to become a good VFX Artist,😔 submitt</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 4 · compositing, vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;https://www.facebook.com/share/v/1C7uZV1yBy/ Hey guys, look at my first vfx breakdown as a visual effect artist beginner, no professional training just DIY, im a computer science student and planning to shift jn multimedia arts, do you think I have what it takes to become a good VFX Artist,😔 submitted by /u/Time_Comfortable_314 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wpkzzk/my_first_vfx_compositing/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
