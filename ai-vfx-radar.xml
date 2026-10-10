@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-10T14:30:18+00:00</updated>
+<updated>2026-10-10T16:30:18+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1x2e4bl/left_qwen_image_21_turbo_lora_right_qwen_image_21/</id><title>(Left) Qwen image 2.1 + turbo lora (Right) Qwen image 2.1 turbo</title>
@@ -194,6 +194,16 @@
 <category term="lora"/>
 <summary>Link Now with Inpainting, run grouping and native upscale! What it is: Image first-generation studio Works without workflows with almost any model (no setup) Support for custom workflows Video gen, reference images, and inpainting all work without setup Smart grouping of your images by similar promp</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · inpainting, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Link Now with Inpainting, run grouping and native upscale! What it is: Image first-generation studio Works without workflows with almost any model (no setup) Support for custom workflows Video gen, reference images, and inpainting all work without setup Smart grouping of your images by similar prompts Automatically installs missing components (VAE, text encoders, nodes) it knows Use it from your phone over LAN, with a fully custom mobile UI Favorites, search, prompt history, LoRA stacks, and advanced settings Built to be graceful and not scream at you with errors 24/7 It’s built by me, and in my opinion it’s the best way to use Comfy 80% of the time. Setup is about 2 minutes: give it a try .&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x1x15l/free_image_first_comfy_frontend_heiss_ui_new/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1x1w9o4/i_cut_generation_times_66_by_going_portable_t_t/</id><title>I cut generation times 66% by going portable. T_T</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x1w9o4/i_cut_generation_times_66_by_going_portable_t_t/"/>
+<published>2026-10-09T20:35:09+00:00</published><updated>2026-10-09T20:35:09+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<category term="minimax"/>
+<summary>Apologies if this is a garbage post but I'm dying inside and need to rant. I have a 'low' VRAM setup (RTX 5070 - which isn't low in any real world sense (RAMpocalypse babyyy)) and have been fighting tooth and nail to run decent MiniMax outputs. Got a stable setup outputting 0.4mp that bricked at .98</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Apologies if this is a garbage post but I'm dying inside and need to rant. I have a 'low' VRAM setup (RTX 5070 - which isn't low in any real world sense (RAMpocalypse babyyy)) and have been fighting tooth and nail to run decent MiniMax outputs. Got a stable setup outputting 0.4mp that bricked at .98mp. (Kijai and step600 ftw) Turns out the largest issue was a functional but janky ComfyUI Desktop install (no, I don't know why it was so jank). Nuked it purely out of frustration w/ Sage (turns out we like kitchen anyway) and swapped to a fresh ComfyUI portable setup. Literally all my generation times for everything image/video/joy have been cut by 2/3. and we don't crash out on VRAM anymore I c&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x1w9o4/i_cut_generation_times_66_by_going_portable_t_t/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1x1umis/the_power_of_reference_videos_for_believable/</id><title>The Power of Reference Videos for Believable Acting in Minimax</title>
@@ -7654,32 +7664,5 @@
 <category term="comfyui"/>
 <summary>Does anybody know any workflow or something that i can edit,inpaint any himan images in comfyui ? ( I have huslyorealism chexkpoint and i find its best of most of the text to image things ) submitted by /u/Mountain_File5543 [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · image editing, comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Does anybody know any workflow or something that i can edit,inpaint any himan images in comfyui ? ( I have huslyorealism chexkpoint and i find its best of most of the text to image things ) submitted by /u/Mountain_File5543 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wqvkkr/geminichatgpt_like_image_editing/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wqtjbp/how_do_you_add_more_reference_pictures_in_qwen/</id><title>How do you add more reference Pictures in Qwen ComfyUI?</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wqtjbp/how_do_you_add_more_reference_pictures_in_qwen/"/>
-<published>2026-09-26T15:35:57+00:00</published><updated>2026-09-26T15:35:57+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<summary>In this example I have the original picture and a reference picture, I want qwen to replace the spiderman suit from the original picture with the one in the reference image, not only he doesn't do it but a lot of time he also ignores the originals pose and background, etc... I've tried adding an ''I</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;In this example I have the original picture and a reference picture, I want qwen to replace the spiderman suit from the original picture with the one in the reference image, not only he doesn't do it but a lot of time he also ignores the originals pose and background, etc... I've tried adding an ''Image Node'' and connecting it to Image 2(Optional) but that doesn't seem to work, it just generates the same image with no changes. submitted by /u/Crayonlover2001Fps [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wqtjbp/how_do_you_add_more_reference_pictures_in_qwen/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wqsvkr/qwen_21_might_be_just_too_good_at_face_swap_free/</id><title>Qwen 2.1 Might Be Just TOO Good at Face Swap... [Free Workflow]</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wqsvkr/qwen_21_might_be_just_too_good_at_face_swap_free/"/>
-<published>2026-09-26T15:08:22+00:00</published><updated>2026-09-26T15:08:22+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="face swap"/>
-<summary>submitted by /u/solomars3 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · face swap&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/solomars3 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wqsvkr/qwen_21_might_be_just_too_good_at_face_swap_free/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wqsvca/qwen_21_might_be_just_too_good_at_face_swap_free/</id><title>Qwen 2.1 Might Be Just TOO Good at Face Swap... [Free Workflow]</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wqsvca/qwen_21_might_be_just_too_good_at_face_swap_free/"/>
-<published>2026-09-26T15:08:06+00:00</published><updated>2026-09-26T15:08:06+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="face swap"/>
-<summary>submitted by /u/solomars3 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · face swap&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/solomars3 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wqsvca/qwen_21_might_be_just_too_good_at_face_swap_free/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
