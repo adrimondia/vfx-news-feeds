@@ -2,8 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-10T16:30:18+00:00</updated>
+<updated>2026-10-10T18:30:18+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1x2k7jn/long_shot_studio_063_v12/</id><title>Long Shot Studio 0.6.3 (v1.2)</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x2k7jn/long_shot_studio_063_v12/"/>
+<published>2026-10-10T16:58:14+00:00</published><updated>2026-10-10T16:58:14+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="render"/>
+<category term="comfyui"/>
+<summary>Hello all, I've added some more features and taking cues from other workflow developers and bunch of minor UI changes. Long Shot Studio runs locally on http://127.0.0.1:8188/longshot The biggest change is now you can render any shot at anytime then bridge the in-betweens (this will be up to how good</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · render, comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hello all, I've added some more features and taking cues from other workflow developers and bunch of minor UI changes. Long Shot Studio runs locally on http://127.0.0.1:8188/longshot The biggest change is now you can render any shot at anytime then bridge the in-betweens (this will be up to how good your prompting is). I'd set the duration longer so the model has more wiggle room to merge. There is an option to render every odd number shots, then you can fill in the blank from there. I added this feature because I rather like the approach of end-pinning to avoid degradation from multiplying over a long duration with static background. The next method I am thinking of doing is just to mask th&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x2k7jn/long_shot_studio_063_v12/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1x2h41e/has_anyone_successfully_trained_a_yue2_lora_or/</id><title>Has anyone successfully trained a YuE2 LoRA or LoKR on an NVIDIA GPU with 16GB VRAM?</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x2h41e/has_anyone_successfully_trained_a_yue2_lora_or/"/>
+<published>2026-10-10T14:48:04+00:00</published><updated>2026-10-10T14:48:04+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="lora"/>
+<summary>Hi everyone! I'm looking for real-world experience with training LoRA or LoKR adapters for YuE2 on an NVIDIA GPU with 16GB VRAM, particularly an RTX 5060 Ti 16GB or a similar card. My goal is to train a music using a dataset of approximately 64 audio clips, each around 30–40 seconds long. I'm partic</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi everyone! I'm looking for real-world experience with training LoRA or LoKR adapters for YuE2 on an NVIDIA GPU with 16GB VRAM, particularly an RTX 5060 Ti 16GB or a similar card. My goal is to train a music using a dataset of approximately 64 audio clips, each around 30–40 seconds long. I'm particularly interested in YuE2 Joint LoRA training, where both the planner and audio decoder are trained, rather than inference or standard music generation. I'd really appreciate feedback from anyone who has actually completed a training run with 16GB VRAM. A few questions: 1. Which GPU did you use, and how much VRAM did it have? 2. Which training method or tool did you use (AI-Toolkit, ComfyUI-FL-YuE&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x2h41e/has_anyone_successfully_trained_a_yue2_lora_or/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1x2e4bl/left_qwen_image_21_turbo_lora_right_qwen_image_21/</id><title>(Left) Qwen image 2.1 + turbo lora (Right) Qwen image 2.1 turbo</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x2e4bl/left_qwen_image_21_turbo_lora_right_qwen_image_21/"/>
@@ -102,6 +121,18 @@
 <category term="minimax"/>
 <summary>submitted by /u/RobbaW [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/RobbaW [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x2481c/minimax_h3_remove_people_from_videos_in_comfyui/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1x23pah/frame_forge_ai_video_editor_for_comfy_ui_update_1/</id><title>Frame Forge AI Video Editor for Comfy UI Update 1</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x23pah/frame_forge_ai_video_editor_for_comfy_ui_update_1/"/>
+<published>2026-10-10T02:21:06+00:00</published><updated>2026-10-10T02:21:06+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<category term="minimax"/>
+<category term="ltx"/>
+<category term="ai video"/>
+<summary>This is the first update for Chain Motion AI Video Editor (aka. Frame Forge) Link is here: https://github.com/spacesimeco-hue/Chain-Motion-AI-Video-Editor What it does: It's an UI that's sits on top of ComfyUI and is meant to make chaining together videos generated through Minimax H3 more intuitive </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 5 · comfyui, minimax, ltx, ai video&lt;/small&gt;&lt;/p&gt;&lt;p&gt;This is the first update for Chain Motion AI Video Editor (aka. Frame Forge) Link is here: https://github.com/spacesimeco-hue/Chain-Motion-AI-Video-Editor What it does: It's an UI that's sits on top of ComfyUI and is meant to make chaining together videos generated through Minimax H3 more intuitive and easy. It includes a set of tools for organizing references. A time line that allows users to piece together and quickly edit sections of their movie prompt by prompt. A Scene Writer for making prompts in the suggested Minimax H3 format using LLMs(local and closed supported). A Motion Continuation, a Pose Studio with Qwen 2.1 integration, and a Voice Studio using LTX 2.3. Can generate videos wi&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x23pah/frame_forge_ai_video_editor_for_comfy_ui_update_1/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1x23nqy/frame_forge_ai_video_editor_for_comfy_ui_update_1/</id><title>Frame Forge AI Video Editor for Comfy UI Update 1</title>
@@ -7623,46 +7654,5 @@
 <category term="ai video"/>
 <summary>I've been experimenting with building the camera move in Blender before generating the AI video. This example combines a five-second mannequin render with a character reference sheet and a waterfront background image in MiniMax H3's reference-to-video workflow. How I made it: Used Codex CLI with Ble</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 10 · render, comfyui, blender, minimax, lora, consistency, ai video&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I've been experimenting with building the camera move in Blender before generating the AI video. This example combines a five-second mannequin render with a character reference sheet and a waterfront background image in MiniMax H3's reference-to-video workflow. How I made it: Used Codex CLI with Blender MCP to build a simple mannequin scene and animate the camera. Kept the body planted while the head and eyes followed the lens. Refined the move to stay mostly waist-up, with fast eased transitions, short holds and one extreme closeup near the end. Rendered the Blender reference at 1080 x 1080, 30 fps, for five seconds. Loaded that clip and the two reference images into ComfyUI, then used a pr&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wqybjk/i_used_a_blender_mannequin_clip_to_guide_minimax/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wqx621/gokuk_a_free_opensource_windows_app_for_making/</id><title>Gokuk — a free, open-source Windows app for making full AI songs locally with YuE2 (no ComfyUI, no subscription)</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wqx621/gokuk_a_free_opensource_windows_app_for_making/"/>
-<published>2026-09-26T18:03:07+00:00</published><updated>2026-09-26T18:03:07+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<category term="lora"/>
-<summary>I kept running into the same problem: YuE2 is one of the best open models for full songs with vocals, but a lot of people who want to try it get stuck on Python environments, command-line flags, and out-of-memory errors before they ever hear a single note. So I ended up building my own solution: Gok</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I kept running into the same problem: YuE2 is one of the best open models for full songs with vocals, but a lot of people who want to try it get stuck on Python environments, command-line flags, and out-of-memory errors before they ever hear a single note. So I ended up building my own solution: Gokuk (歌曲, Cantonese for "song"). It's a portable desktop app that wraps YuE2 and reduces the process to something closer to: Pick a sound → write lyrics → Create song There's no ComfyUI and no command line to deal with. What it currently does Create tab : pick language, genre, mood, voice, instruments, and tempo from simple chips, write lyrics with [Verse] / [Chorus] tags, and hit Create Cover tab :&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wqx621/gokuk_a_free_opensource_windows_app_for_making/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wqwpah/a_quick_minimax_h3_news_roundup_26th_september/</id><title>A quick Minimax H3 news round-up - 26th September 2026</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wqwpah/a_quick_minimax_h3_news_roundup_26th_september/"/>
-<published>2026-09-26T17:44:40+00:00</published><updated>2026-09-26T17:44:40+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="minimax"/>
-<category term="lora"/>
-<summary>Another quick Minimax H3 news and goodies round-up, for those who may have missed some items. -&gt; A 1920s Horror Movies LoRA. Trained on American clips rather than German, judging by the look of the samples. It also appears to know wide views of the mid 1920s New York cityscape. No trigger needed. ht</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · comfyui, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Another quick Minimax H3 news and goodies round-up, for those who may have missed some items. -&amp;gt; A 1920s Horror Movies LoRA. Trained on American clips rather than German, judging by the look of the samples. It also appears to know wide views of the mid 1920s New York cityscape. No trigger needed. https://huggingface.co/neph1/1920s_horror_movies_minimax_h3 -&amp;gt; The maker of Fizgig has released ComfyUI-Fizgig-H3-Still, as nodes plus workflows. He says that with this... "a true single frame renders far faster than the old 5-frame workaround", even when ramping up the megapixels. Tested by me at 8Mpx / 30-steps + Kitchen Attention to see how it handles smaller typography. Even at 8mpx it's still n&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wqwpah/a_quick_minimax_h3_news_roundup_26th_september/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wqwaod/zram_for_model_weight_offloading_how_much_of_a/</id><title>zram for model weight offloading — how much of a speed hit in practice?</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wqwaod/zram_for_model_weight_offloading_how_much_of_a/"/>
-<published>2026-09-26T17:28:21+00:00</published><updated>2026-09-26T17:28:21+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="minimax"/>
-<summary>Setup: i5-14400 + RTX 4070 + 32GB RAM Running MiniMax H3 in ComfyUI with CPU offload, hitting a 25s ceiling per generation at 0.4MP. CPU usage during offload sits around 7%, so there's clearly headroom there. Considering zram to effectively extend usable RAM for offloaded layers. Rough math with zst</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Setup: i5-14400 + RTX 4070 + 32GB RAM Running MiniMax H3 in ComfyUI with CPU offload, hitting a 25s ceiling per generation at 0.4MP. CPU usage during offload sits around 7%, so there's clearly headroom there. Considering zram to effectively extend usable RAM for offloaded layers. Rough math with zstd on fp16 weights suggests maybe 1.3-1.4x compression (weights are near-random entropy, so nowhere near the 2-4x you'd get with text), which would add ~10-15GB of effective capacity. My concern: with offload, layers get read on every forward pass, not just once at load time — so decompression happens continuously in the hot path rather than as a one-time cost. RAM bandwidth is roughly 35-50GB/s, w&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wqwaod/zram_for_model_weight_offloading_how_much_of_a/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wqvkkr/geminichatgpt_like_image_editing/</id><title>gemini/chatgpt like image editing ?</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wqvkkr/geminichatgpt_like_image_editing/"/>
-<published>2026-09-26T16:59:52+00:00</published><updated>2026-09-26T16:59:52+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="image editing"/>
-<category term="comfyui"/>
-<summary>Does anybody know any workflow or something that i can edit,inpaint any himan images in comfyui ? ( I have huslyorealism chexkpoint and i find its best of most of the text to image things ) submitted by /u/Mountain_File5543 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · image editing, comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Does anybody know any workflow or something that i can edit,inpaint any himan images in comfyui ? ( I have huslyorealism chexkpoint and i find its best of most of the text to image things ) submitted by /u/Mountain_File5543 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wqvkkr/geminichatgpt_like_image_editing/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
