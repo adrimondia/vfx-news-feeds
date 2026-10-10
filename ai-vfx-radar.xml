@@ -2,8 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-10T12:30:18+00:00</updated>
+<updated>2026-10-10T14:30:18+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1x2e4bl/left_qwen_image_21_turbo_lora_right_qwen_image_21/</id><title>(Left) Qwen image 2.1 + turbo lora (Right) Qwen image 2.1 turbo</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x2e4bl/left_qwen_image_21_turbo_lora_right_qwen_image_21/"/>
+<published>2026-10-10T12:28:56+00:00</published><updated>2026-10-10T12:28:56+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="lora"/>
+<summary>(Left) qwen_image_2.1_int8_convrot + qwen_image_2.1_turbo_lora_avg_rank_178_bf16 (Kijai) (Right) qwen_image_2.1_turbo_int8_convrot All models from comfy.org hugginface Same 8 steps submitted by /u/Ant_6431 [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;(Left) qwen_image_2.1_int8_convrot + qwen_image_2.1_turbo_lora_avg_rank_178_bf16 (Kijai) (Right) qwen_image_2.1_turbo_int8_convrot All models from comfy.org hugginface Same 8 steps submitted by /u/Ant_6431 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x2e4bl/left_qwen_image_21_turbo_lora_right_qwen_image_21/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1x2csbl/some_very_simple_qwenimage21_turbo_workflows/</id><title>Some very simple Qwen-Image-2.1 "Turbo" workflows</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x2csbl/some_very_simple_qwenimage21_turbo_workflows/"/>
+<published>2026-10-10T11:17:12+00:00</published><updated>2026-10-10T11:17:12+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<category term="lora"/>
+<summary>I posted some Qwen-Image-2.1 workflows here a while ago. I tried the recently released Turbo model, and the quality loss seemed small enough, so I added a Turbo version of every workflow: https://comfyui.nomadoor.net/en/basic-workflows/qwen-image-2-1/ Euler / Simple didn't give me clean results, so </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I posted some Qwen-Image-2.1 workflows here a while ago. I tried the recently released Turbo model, and the quality loss seemed small enough, so I added a Turbo version of every workflow: https://comfyui.nomadoor.net/en/basic-workflows/qwen-image-2-1/ Euler / Simple didn't give me clean results, so I'm using the sigma values from the official Hugging Face repo . The workflows use the Turbo LoRA to keep the download small. I saw almost no difference from the full Turbo model, so use whichever you prefer. Hope it helps! submitted by /u/nomadoor [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x2csbl/some_very_simple_qwenimage21_turbo_workflows/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/vfx/comments/1x2cddf/my_comparisson_of_pixboom_spark_and_chronos/</id><title>my comparisson of Pixboom Spark and Chronos</title>
 <link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1x2cddf/my_comparisson_of_pixboom_spark_and_chronos/"/>
@@ -7662,37 +7681,5 @@
 <category term="face swap"/>
 <summary>submitted by /u/solomars3 [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · face swap&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/solomars3 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wqsvca/qwen_21_might_be_just_too_good_at_face_swap_free/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wqrexx/which_turbo_lora_to_choose_for_h3/</id><title>Which turbo LoRA to choose for H3?</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wqrexx/which_turbo_lora_to_choose_for_h3/"/>
-<published>2026-09-26T14:06:18+00:00</published><updated>2026-09-26T14:06:18+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="lora"/>
-<summary>It seems there are way too many. Many different creators, and each of them have many different files. Aside from: Number is steps Reference, I2V or T2V What parameters should I look at when choosing a turbo LoRA? submitted by /u/nettek [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;It seems there are way too many. Many different creators, and each of them have many different files. Aside from: Number is steps Reference, I2V or T2V What parameters should I look at when choosing a turbo LoRA? submitted by /u/nettek [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wqrexx/which_turbo_lora_to_choose_for_h3/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wqqrej/i_made_this_90second_multishot_video_with_claude/</id><title>I made this 90-second multi-shot video with Claude Code + ComfyUI. I open-sourced the production system behind it.</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wqqrej/i_made_this_90second_multishot_video_with_claude/"/>
-<published>2026-09-26T13:37:09+00:00</published><updated>2026-09-26T13:37:09+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="minimax"/>
-<category term="storyboard"/>
-<summary>I've been building a tool called konte for making multi-shot AI videos, and this 90-second piece is what I've been using to dogfood it. Generating a single clip is pretty easy these days. What kept annoying me was everything that happens once you have more than a few of them. With 10+ shots and seve</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · comfyui, minimax, storyboard&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I've been building a tool called konte for making multi-shot AI videos, and this 90-second piece is what I've been using to dogfood it. Generating a single clip is pretty easy these days. What kept annoying me was everything that happens once you have more than a few of them. With 10+ shots and several takes each, I kept losing track of which take was the good one. And if I regenerated the character image, I had to remember which shots were built on the old one. So I started treating the whole thing more like a software project. In konte, shots are defined in a TypeScript DSL, and generated assets have stable addresses like video:shot.05.motion . Rerolls become variants instead of overwritin&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wqqrej/i_made_this_90second_multishot_video_with_claude/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1wqq5e0/help_problems_with_inserted_objects/</id><title>Help- problems with inserted objects</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wqq5e0/help_problems_with_inserted_objects/"/>
-<published>2026-09-26T13:08:59+00:00</published><updated>2026-09-26T13:08:59+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="compositing"/>
-<category term="render"/>
-<category term="rendering"/>
-<category term="point cloud"/>
-<summary>Hi all, I’m experimenting with inserting a 3D object into casual monocular video (VFX-style compositing) and I’m stuck on anchoring the object to the scene. Pipeline: 1. Generate a 3D object with TRELLIS2 -&gt; GLB (mesh + mask). 2. Reconstruct the video scene with MegaSAM (UniDepth as depth backbone),</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 4 · compositing, render, rendering, point cloud&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi all, I’m experimenting with inserting a 3D object into casual monocular video (VFX-style compositing) and I’m stuck on anchoring the object to the scene. Pipeline: 1. Generate a 3D object with TRELLIS2 -&amp;gt; GLB (mesh + mask). 2. Reconstruct the video scene with MegaSAM (UniDepth as depth backbone), export to .npz. 3. Place the GLB into the reconstructed scene and render it back into every frame. Reconstruction output looks fine: • T=100, H=328, W=584 • depth range [0.342, 23.559] • intrinsics: fx=301.70, fy=301.30, cx=295.5, cy=166 • dense point cloud (stride=6): 539K points • 0 tracks The problem: 1. The object isn’t bound to a specific point on the surface. I place it on a wall in the vie&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wqq5e0/help_problems_with_inserted_objects/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
