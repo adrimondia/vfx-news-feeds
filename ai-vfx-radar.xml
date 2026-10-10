@@ -2,8 +2,34 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-10T20:30:18+00:00</updated>
+<updated>2026-10-10T22:30:19+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1x2q643/how_do_you_guys_upscale_your_images_is_anything/</id><title>How do you guys upscale your images? Is anything even close to Magnific?</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x2q643/how_do_you_guys_upscale_your_images_is_anything/"/>
+<published>2026-10-10T21:09:24+00:00</published><updated>2026-10-10T21:09:24+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="upscaling"/>
+<category term="upscaler"/>
+<category term="comfyui"/>
+<category term="flux"/>
+<summary>It's been years since Magnific.ai came out, and I still haven't found a creative upscaler that comes close to it. Maybe I'm just doing something wrong, but seriously, how are people getting those results? From what I understand, Magnific splits the image into tiles, processes them individually, and </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · upscaling, upscaler, comfyui, flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;It's been years since Magnific.ai came out, and I still haven't found a creative upscaler that comes close to it. Maybe I'm just doing something wrong, but seriously, how are people getting those results? From what I understand, Magnific splits the image into tiles, processes them individually, and stitches them back together. I suspect it uses SD 1.5 under the hood, which is pretty old at this point, yet somehow I can't seem to replicate its results with newer models and workflows. I've tried a bunch of different things, but nothing comes close in terms of the amount of detail it adds while still looking realistic. So, what are you guys actually using? Any ComfyUI workflows, models, or tric&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x2q643/how_do_you_guys_upscale_your_images_is_anything/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1x2pqu6/help_with_video_gen_16gb_vram/</id><title>Help with video gen, 16gb vram</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x2pqu6/help_with_video_gen_16gb_vram/"/>
+<published>2026-10-10T20:51:21+00:00</published><updated>2026-10-10T20:51:21+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="video generation"/>
+<category term="comfyui"/>
+<category term="wan2"/>
+<category term="minimax"/>
+<category term="ltx"/>
+<category term="consistency"/>
+<summary>Thanks guys for helping me last time. I’m getting used to Comfyui desktop app. I wanted to ask you pros for video generation, what are my options with 48gb system ram and 16gb 5060 ti. I was hoping to do some image to video or reference pose video to video. I tried so hard to understand wan2 animate</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 6 · video generation, comfyui, wan2, minimax, ltx, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Thanks guys for helping me last time. I’m getting used to Comfyui desktop app. I wanted to ask you pros for video generation, what are my options with 48gb system ram and 16gb 5060 ti. I was hoping to do some image to video or reference pose video to video. I tried so hard to understand wan2 animate in comfy but I had to give up. Also wan2gp is slow. Currently I have ltx 2.5 director workflow in comfy but it loses consistency. I’m thinking to try minimax h3, how has been your experience so far with it. My current ltx 2.5 video to video makes 3-4 mins 10 seconds in 640p. Thanks again. Hope you all have a wonderful weekend. submitted by /u/lenorexotica [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x2pqu6/help_with_video_gen_16gb_vram/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/vfx/comments/1x2of0z/what_does_the_creative_technology_credit_on/</id><title>What does the “Creative Technology” credit on Animals refer to?</title>
 <link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1x2of0z/what_does_the_creative_technology_credit_on/"/>
@@ -7553,34 +7579,5 @@
 <category term="lora"/>
 <summary>I’ve added Qwen-Image 2.1 support to TensorSharp . It can generate and edit images locally using the GGUF model, and I’ve added configs for a range of Qwen-Image 2.1 LoRAs. The LoRAs cover different workflows: Faster drafts: Pruna 8-step / 5-step and Viggle Turbo Looks and detail: Film Stills and Qw</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · image editing, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I’ve added Qwen-Image 2.1 support to TensorSharp . It can generate and edit images locally using the GGUF model, and I’ve added configs for a range of Qwen-Image 2.1 LoRAs. The LoRAs cover different workflows: Faster drafts: Pruna 8-step / 5-step and Viggle Turbo Looks and detail: Film Stills and Qwen-Image-2.1-Fix Targeted edits: Object Remover Bbox The accelerated adapters use specific step counts and sampling settings; their configs include those recipes. The base config defaults to 2048 × 2048, while 1024 × 1024 is an option for quicker drafts. Base model downloads: Qwen-Image 2.1 GGUF · VAE · Qwen3-VL-8B GGUF and vision projector For example, to generate an image with the Pruna 8-step L&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wr3ow7/qwenimage_21_now_runs_in_tensorsharp_with_image/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wr2x2e/comfyui_extensiopn_advanced_queue_view_with_job/</id><title>Comfyui Extensiopn- Advanced Queue View with Job asset visibility</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wr2x2e/comfyui_extensiopn_advanced_queue_view_with_job/"/>
-<published>2026-09-26T22:01:54+00:00</published><updated>2026-09-26T22:01:54+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<summary>submitted by /u/nobody123d2 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/nobody123d2 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wr2x2e/comfyui_extensiopn_advanced_queue_view_with_job/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wr28rt/i_optimized_flux1dev_q5_k_s_on_an_rx_9060_xt_16gb/</id><title>I optimized FLUX.1-dev Q5_K_S on an RX 9060 XT 16GB from 300–400s to ~40s per image</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wr28rt/i_optimized_flux1dev_q5_k_s_on_an_rx_9060_xt_16gb/"/>
-<published>2026-09-26T21:32:14+00:00</published><updated>2026-09-26T21:32:14+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="flux"/>
-<summary>Hey everyone, I've been experimenting with FLUX.1-dev locally in ComfyUI on an AMD RX 9060 XT 16GB. Initially, my FLUX.1-dev Q5_K_S GGUF workflow was extremely slow — around 300–400 seconds per image. After changing/optimizing my workflow, I managed to get it down to: • FLUX.1-dev Q5_K_S GGUF • 768×</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · comfyui, flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey everyone, I've been experimenting with FLUX.1-dev locally in ComfyUI on an AMD RX 9060 XT 16GB. Initially, my FLUX.1-dev Q5_K_S GGUF workflow was extremely slow — around 300–400 seconds per image. After changing/optimizing my workflow, I managed to get it down to: • FLUX.1-dev Q5_K_S GGUF • 768×768 • 20 sampling steps • ~1.95 sec/it • ~38–40 seconds for the sampling itself • RX 9060 XT 16GB The interesting part is that the same system was already running FLUX.1-schnell Q4_K_S at around 60 seconds, while the initial Dev setup was several times slower. I ended up getting a huge performance improvement without switching to a lower-quality model. I'm curious if anyone else is running FLUX.1-&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wr28rt/i_optimized_flux1dev_q5_k_s_on_an_rx_9060_xt_16gb/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wr1p1x/how_to_batch_make_videos_on_comfyui_using_ltx_25/</id><title>How to batch make videos on ComfyUI using LTX 2.5</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wr1p1x/how_to_batch_make_videos_on_comfyui_using_ltx_25/"/>
-<published>2026-09-26T21:08:44+00:00</published><updated>2026-09-26T21:08:44+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="ltx"/>
-<summary>Hello i want to batch make videos but don’t want to put the prompt again every time i want to create a new video how do i make it so i just put all the prompts and the vides generate automatically submitted by /u/TurnoverRepulsive877 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · comfyui, ltx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hello i want to batch make videos but don’t want to put the prompt again every time i want to create a new video how do i make it so i just put all the prompts and the vides generate automatically submitted by /u/TurnoverRepulsive877 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wr1p1x/how_to_batch_make_videos_on_comfyui_using_ltx_25/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
