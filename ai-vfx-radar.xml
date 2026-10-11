@@ -2,8 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-11T16:30:18+00:00</updated>
+<updated>2026-10-11T18:30:18+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1x3d00m/did_they_use_visual_effects_for_any_gore_effects/</id><title>Did they use visual effects for any gore effects in movies before CGI?</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1x3d00m/did_they_use_visual_effects_for_any_gore_effects/"/>
+<published>2026-10-11T16:46:37+00:00</published><updated>2026-10-11T16:46:37+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="green screen"/>
+<category term="animation"/>
+<category term="vfx"/>
+<category term="visual effects"/>
+<summary>As we should all know "VFX" otherwise known as visual effects does not automatically "CGI" and there were visual effects before CGI or green screen such as blue screen, optical printing, and even stop motion animation which qualifies. So did they use any of that or something else for gore effects in</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 5 · green screen, animation, vfx, visual effects&lt;/small&gt;&lt;/p&gt;&lt;p&gt;As we should all know "VFX" otherwise known as visual effects does not automatically "CGI" and there were visual effects before CGI or green screen such as blue screen, optical printing, and even stop motion animation which qualifies. So did they use any of that or something else for gore effects in like horror films? The closest I can think of is "The Four Troublesome Heads" by Georges Méliès which isn't gore per se but does use visual tricks rather than practical ones to show head separation and certain body parts disappearing. submitted by /u/Glittering_Key6271 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1x3d00m/did_they_use_visual_effects_for_any_gore_effects/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1x3az0l/update_kroma_a_krea2_fine_tune/</id><title>Update: Kroma, A Krea-2 Fine Tune</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x3az0l/update_kroma_a_krea2_fine_tune/"/>
@@ -27,6 +39,15 @@
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · gaussian splatting, comfyui, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I’ve been playing with orbit-style videos from video models (lately Minimax H3 in ComfyUI) and kept thinking they’d make great input for Gaussian Splatting. The catch was that the usual pipeline means installing COLMAP, a trainer, CUDA and so on. That’s a lot of friction just to try one idea. So I built Gausify Orbit: https://orbit.gausify.com/ You drop in your video and the whole thing runs locally in your browser on WebGPU: Pulls frames from the video Optional background removal with RMBG-1.4 (BRIA), running through ONNX Runtime Web Camera poses from a small structure-from-motion step Trains the splat with Brush Preview the result and export it as PLY or SOG No Python, no CUDA, no account.&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x3akoo/i_am_building_a_web_application_to_transform/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1x39fte/i_built_goatd_text_generator_generate_prompts/</id><title>I built GOAT’d Text Generator 🐐 - generate prompts directly in ComfyUI</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x39fte/i_built_goatd_text_generator_generate_prompts/"/>
+<published>2026-10-11T14:21:32+00:00</published><updated>2026-10-11T14:21:32+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<summary>Hey everyone! I made a custom node that brings cloud and local LLMs into your ComfyUI workflows. Use it to expand rough ideas into image/video prompts, write captions, or describe reference images. It also accepts video and audio when supported by your chosen model. A few features: Cloud providers, </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey everyone! I made a custom node that brings cloud and local LLMs into your ComfyUI workflows. Use it to expand rough ideas into image/video prompts, write captions, or describe reference images. It also accepts video and audio when supported by your chosen model. A few features: Cloud providers, LM Studio, Ollama, and supported models loaded directly in ComfyUI. Built-in prompt guides and editable system instructions. Text output that connects to CLIP Text Encode or any compatible STRING input. Get it from: GitHub + example workflows Example: rough idea + reference image → generated prompt → your workflow. Would love your feedback, ideas, or feature requests! If you find it useful, consid&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x39fte/i_built_goatd_text_generator_generate_prompts/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1x36zdx/use_qwenimage_21_turbo_locally_without_comfyui/</id><title>Use Qwen-Image 2.1 Turbo locally without ComfyUI</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x36zdx/use_qwenimage_21_turbo_locally_without_comfyui/"/>
 <published>2026-10-11T12:28:36+00:00</published><updated>2026-10-11T12:28:36+00:00</updated>
@@ -35,6 +56,16 @@
 <category term="dit"/>
 <summary>I'm the developer of Quartermaster , a free, open-source (MIT) local inference server. It drives stable-diffusion.cpp and also serves LLMs, TTS and speech-to-text from the same app, swapping models in and out of VRAM as you use them. Models download from inside the app: search Hugging Face, pick a q</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, dit&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I'm the developer of Quartermaster , a free, open-source (MIT) local inference server. It drives stable-diffusion.cpp and also serves LLMs, TTS and speech-to-text from the same app, swapping models in and out of VRAM as you use them. Models download from inside the app: search Hugging Face, pick a quant, and Quartermaster writes the configuration itself. It matches each model to its VAE and text encoders and picks the right steps and cfg. Qwen-Image 2.1 Turbo comes up at 8 steps and cfg 1, and real transparent PNGs work too: tick "transparent" and it adds the exact prompt wording the RGBA VAE needs. To run 2.1 Turbo, grab these three (suggested files) from the built-in model browser and you'&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x36zdx/use_qwenimage_21_turbo_locally_without_comfyui/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1x36mat/whats_the_best_prompt_generator_for_comfyui/</id><title>What’s the best prompt generator for ComfyUI?</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x36mat/whats_the_best_prompt_generator_for_comfyui/"/>
+<published>2026-10-11T12:09:33+00:00</published><updated>2026-10-11T12:09:33+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<category term="flux"/>
+<summary>Hi everyone, I’m looking for a Tool, website, local LLM or workflow that can generate positive and negative prompts for Comfyui from a reference image or a description of what I want to create. Ideally, it should also support uncensored prompt writing, Should prompts be written differently for ZImag</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi everyone, I’m looking for a Tool, website, local LLM or workflow that can generate positive and negative prompts for Comfyui from a reference image or a description of what I want to create. Ideally, it should also support uncensored prompt writing, Should prompts be written differently for ZImage, Krea 2, and Flux Klein? Do they all benefit from negative prompts? My setup: 4080 Super 9800X3D 32 GB DDR5 RAM 6000 Windows 11 Pro What do you use? Thanks submitted by /u/Tonycolombo200 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x36mat/whats_the_best_prompt_generator_for_comfyui/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1x34suo/minimax_h3_veterans_share_your_wisdom/</id><title>Minimax h3 veterans (share your wisdom)</title>
@@ -7453,44 +7484,5 @@
 <category term="lora"/>
 <summary>I'm trying to create a dataset to train a Krea 2 character LoRA on, but I'm really struggling with creating the photos. My starting photos are a Nano Banana Pro face studio shot + Full body shot. I can manage the studio shots, but I don't know how to create the (at least 15-20) casual/selfie photos </summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I'm trying to create a dataset to train a Krea 2 character LoRA on, but I'm really struggling with creating the photos. My starting photos are a Nano Banana Pro face studio shot + Full body shot. I can manage the studio shots, but I don't know how to create the (at least 15-20) casual/selfie photos in different environments and lighting. I can try for hours and get 1 or 0 decent photos. The face just looks so different every time, even though Nano Banana Pro and GPT image are supposed to be the best models. I'm worried about ruining the dataset with poor images submitted by /u/Legitimate_Volume509 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wrt51a/what_do_you_use_to_generate_images_for_a_lora/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wrqm3l/a_quick_minimax_h3_news_roundup_27th_september/</id><title>A quick Minimax H3 news round-up - 27th September 2026</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wrqm3l/a_quick_minimax_h3_news_roundup_27th_september/"/>
-<published>2026-09-27T17:48:19+00:00</published><updated>2026-09-27T17:48:19+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="animation"/>
-<category term="comfyui"/>
-<category term="minimax"/>
-<category term="lora"/>
-<summary>Another quick Minimax H3 news and goodies round-up, for those who may have missed some items. -&gt; Kijai proposed a ComfyUI code-fix for tile seam artifacts in Minimax H3 output. This fix was officially merged four days ago. https://github.com/Comfy-Org/ComfyUI/pull/16436 -&gt; A 3D-Animation-Style-MiniM</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 5 · animation, comfyui, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Another quick Minimax H3 news and goodies round-up, for those who may have missed some items. -&amp;gt; Kijai proposed a ComfyUI code-fix for tile seam artifacts in Minimax H3 output. This fix was officially merged four days ago. https://github.com/Comfy-Org/ComfyUI/pull/16436 -&amp;gt; A 3D-Animation-Style-MiniMax-H3 style LoRA, for the popular Pixar / Dreamworks animation style. Note that Minimax can also more or less emulate this style on its own - see the Style Atlas (link below). https://huggingface.co/SOLRICKS/3D-Animation-Style-MiniMax-H3 https://github.com/hoodtronik/minimax-h3-style-atlas -&amp;gt; Strange Reverie for H3. A cartoon/storybook style LoRA intended for... "strange little stories, fantasy cr&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wrqm3l/a_quick_minimax_h3_news_roundup_27th_september/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wrpgo2/minimax_h3_frainds/</id><title>[MiniMax H3] FrAInds</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wrpgo2/minimax_h3_frainds/"/>
-<published>2026-09-27T17:02:19+00:00</published><updated>2026-09-27T17:02:19+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="minimax"/>
-<summary>Made locally with MiniMax H3 + Ultimate SD Upscale + GIMM VFI. submitted by /u/alisitskii [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Made locally with MiniMax H3 + Ultimate SD Upscale + GIMM VFI. submitted by /u/alisitskii [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wrpgo2/minimax_h3_frainds/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wrpdxf/minimax_h3_frainds/</id><title>[MiniMax H3] FrAInds</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wrpdxf/minimax_h3_frainds/"/>
-<published>2026-09-27T16:59:28+00:00</published><updated>2026-09-27T16:59:28+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="minimax"/>
-<summary>Made locally with MiniMax H3 + Ultimate SD Upscale + GIMM VFI submitted by /u/alisitskii [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Made locally with MiniMax H3 + Ultimate SD Upscale + GIMM VFI submitted by /u/alisitskii [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wrpdxf/minimax_h3_frainds/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wroum1/looking_for_a_comfyui_hobbyist_to_develop/</id><title>Looking for a ComfyUI hobbyist to develop workflows on my RunPod Cloud (ComfyUI Pod)</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wroum1/looking_for_a_comfyui_hobbyist_to_develop/"/>
-<published>2026-09-27T16:37:49+00:00</published><updated>2026-09-27T16:37:49+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<summary>I am a software developer and I am working on a project where in I can launch ComfyUI pods on RunPod. Doing this would give us access to ComfyUI cloud like infra for cheap. I need someone who can collaborate on this project with me and help me test out the project and also suggest features for a Com</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I am a software developer and I am working on a project where in I can launch ComfyUI pods on RunPod. Doing this would give us access to ComfyUI cloud like infra for cheap. I need someone who can collaborate on this project with me and help me test out the project and also suggest features for a ComfyUI developer POV. There are some costs that will incur while running comfyUI on RunPod that I would be happy to cover myself. No money is involved from your side. Kindly note that this is not a commercial project and I need someone who can use my product and help improve it with honest and meaningful feedbacks time to time. DM me if you would like to join. submitted by /u/SuitableTelevision46 [l&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wroum1/looking_for_a_comfyui_hobbyist_to_develop/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
