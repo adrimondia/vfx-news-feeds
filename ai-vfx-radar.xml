@@ -2,8 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-11T14:30:19+00:00</updated>
+<updated>2026-10-11T16:30:18+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1x3az0l/update_kroma_a_krea2_fine_tune/</id><title>Update: Kroma, A Krea-2 Fine Tune</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x3az0l/update_kroma_a_krea2_fine_tune/"/>
+<published>2026-10-11T15:25:06+00:00</published><updated>2026-10-11T15:25:06+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="video generation"/>
+<category term="video model"/>
+<summary>[ I'm posting this on behalf of u/LodestoneRock since for some reason his post on this sub keep getting auto removed by Reddit. ] Hey everyone, First of all, thank you to everyone for supporting this project, and to the Krea team who made the best uncompromised base model. Unlike the previous run, w</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · video generation, video model&lt;/small&gt;&lt;/p&gt;&lt;p&gt;[ I'm posting this on behalf of u/LodestoneRock since for some reason his post on this sub keep getting auto removed by Reddit. ] Hey everyone, First of all, thank you to everyone for supporting this project, and to the Krea team who made the best uncompromised base model. Unlike the previous run, where I had to un-distill the model, the Krea team kindly provided us with their real base model. The training is much cheaper than the previous Chroma run. Though cheap is relative, it’s still costing me about ~10K RTX pro 6000 hours (3+ months on 4xGPU machine) running locally, this includes a bunch of failed experiments and bugs during training. Also thank you to ComfyOrg for the 2 RTX pro 6000 &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x3az0l/update_kroma_a_krea2_fine_tune/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1x3akoo/i_am_building_a_web_application_to_transform/</id><title>I am building a web application to transform images into Gaussian Splats</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x3akoo/i_am_building_a_web_application_to_transform/"/>
+<published>2026-10-11T15:08:49+00:00</published><updated>2026-10-11T15:08:49+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="gaussian splatting"/>
+<category term="comfyui"/>
+<category term="minimax"/>
+<category term="lora"/>
+<summary>I’ve been playing with orbit-style videos from video models (lately Minimax H3 in ComfyUI) and kept thinking they’d make great input for Gaussian Splatting. The catch was that the usual pipeline means installing COLMAP, a trainer, CUDA and so on. That’s a lot of friction just to try one idea. So I b</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · gaussian splatting, comfyui, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I’ve been playing with orbit-style videos from video models (lately Minimax H3 in ComfyUI) and kept thinking they’d make great input for Gaussian Splatting. The catch was that the usual pipeline means installing COLMAP, a trainer, CUDA and so on. That’s a lot of friction just to try one idea. So I built Gausify Orbit: https://orbit.gausify.com/ You drop in your video and the whole thing runs locally in your browser on WebGPU: Pulls frames from the video Optional background removal with RMBG-1.4 (BRIA), running through ONNX Runtime Web Camera poses from a small structure-from-motion step Trains the splat with Brush Preview the result and export it as PLY or SOG No Python, no CUDA, no account.&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x3akoo/i_am_building_a_web_application_to_transform/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1x36zdx/use_qwenimage_21_turbo_locally_without_comfyui/</id><title>Use Qwen-Image 2.1 Turbo locally without ComfyUI</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x36zdx/use_qwenimage_21_turbo_locally_without_comfyui/"/>
@@ -7470,65 +7492,5 @@
 <category term="comfyui"/>
 <summary>I am a software developer and I am working on a project where in I can launch ComfyUI pods on RunPod. Doing this would give us access to ComfyUI cloud like infra for cheap. I need someone who can collaborate on this project with me and help me test out the project and also suggest features for a Com</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I am a software developer and I am working on a project where in I can launch ComfyUI pods on RunPod. Doing this would give us access to ComfyUI cloud like infra for cheap. I need someone who can collaborate on this project with me and help me test out the project and also suggest features for a ComfyUI developer POV. There are some costs that will incur while running comfyUI on RunPod that I would be happy to cover myself. No money is involved from your side. Kindly note that this is not a commercial project and I need someone who can use my product and help improve it with honest and meaningful feedbacks time to time. DM me if you would like to join. submitted by /u/SuitableTelevision46 [l&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wroum1/looking_for_a_comfyui_hobbyist_to_develop/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wrnzlf/what_do_people_do_with_their_upscaled_images/</id><title>What do people do with their upscaled images?</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wrnzlf/what_do_people_do_with_their_upscaled_images/"/>
-<published>2026-09-27T16:04:11+00:00</published><updated>2026-09-27T16:04:11+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="upscaling"/>
-<category term="lora"/>
-<summary>I see nearly everyone talks about upscaling their image and video gens to 4K, 8K and perhaps beyond. Now nearly every WF comes with an upscale portion tied to it either after decode or even from the latent output. I always wondered - what do people do with all those 4K or 8K images or videos? Do the</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · upscaling, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I see nearly everyone talks about upscaling their image and video gens to 4K, 8K and perhaps beyond. Now nearly every WF comes with an upscale portion tied to it either after decode or even from the latent output. I always wondered - what do people do with all those 4K or 8K images or videos? Do they watch it on their high res monitor or TV, or do they make wall sized printed posters? I honestly want to know - why do people upscale post gen and what they do with the upscaled output? A simple 1 MP image takes up approx 1.5 MB of SSD space, so those 4K or 8K outputs must be hogging serious space on the SSD. So, why do it, if they aren't used somehow. The only time I upscale is when I am making&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wrnzlf/what_do_people_do_with_their_upscaled_images/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wrnn2c/mingimage_01_designlayer_turns_a_single_image/</id><title>Ming-Image 0.1 Design-Layer turns a single image into separate editable layers, while Ming-Image 0.1 Design focuses on AI image editing. Tested both in ComfyUI.</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wrnn2c/mingimage_01_designlayer_turns_a_single_image/"/>
-<published>2026-09-27T15:50:58+00:00</published><updated>2026-09-27T15:50:58+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="image editing"/>
-<category term="comfyui"/>
-<summary>submitted by /u/aigeek1 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · image editing, comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/aigeek1 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wrnn2c/mingimage_01_designlayer_turns_a_single_image/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wrnmjg/mingimage_01_designlayer_turns_a_single_image/</id><title>Ming-Image 0.1 Design-Layer turns a single image into separate editable layers, while Ming-Image 0.1 Design focuses on AI image editing. Tested both in ComfyUI.</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wrnmjg/mingimage_01_designlayer_turns_a_single_image/"/>
-<published>2026-09-27T15:50:23+00:00</published><updated>2026-09-27T15:50:23+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="image editing"/>
-<category term="comfyui"/>
-<summary>submitted by /u/aigeek1 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · image editing, comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/aigeek1 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wrnmjg/mingimage_01_designlayer_turns_a_single_image/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1wrn6ns/vfx_shot_i_made_for_my_music_video_blender_after/</id><title>VFX shot I made for my Music Video (Blender, After Effects, and Resolve - no AI)</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wrn6ns/vfx_shot_i_made_for_my_music_video_blender_after/"/>
-<published>2026-09-27T15:32:41+00:00</published><updated>2026-09-27T15:32:41+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="vfx"/>
-<category term="blender"/>
-<category term="filmmaking"/>
-<summary>A VFX breakdown from my music video "The River, the Shore"! This shot was full CG, top to bottom. Bonus points for whoever guesses which tunnel the geometry was based on :) While AI encroaches further and further into our lives and practices, it has been cathartic to revisit these shots to remind my</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 5 · vfx, blender, filmmaking&lt;/small&gt;&lt;/p&gt;&lt;p&gt;A VFX breakdown from my music video "The River, the Shore"! This shot was full CG, top to bottom. Bonus points for whoever guesses which tunnel the geometry was based on :) While AI encroaches further and further into our lives and practices, it has been cathartic to revisit these shots to remind myself of the importance of process and the joys and necessity of technical problem solving in filmmaking. Puzzling every moment together has always been the point. 2+ years in the making, the full music video combines real footage with Blender composited in After Effects and Resolve - with many of the scenes being fully CG! Full music video in the link below: https://www.youtube.com/watch?v=vrrZCnX&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wrn6ns/vfx_shot_i_made_for_my_music_video_blender_after/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1wrmf6w/all_my_homies_hate_circles/</id><title>All my homies hate circles</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wrmf6w/all_my_homies_hate_circles/"/>
-<published>2026-09-27T15:01:49+00:00</published><updated>2026-09-27T15:01:49+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="blender"/>
-<summary>10 year ago me would have chucked a fit knowing this was possible in blender. submitted by /u/Serin-019 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 1 · blender&lt;/small&gt;&lt;/p&gt;&lt;p&gt;10 year ago me would have chucked a fit knowing this was possible in blender. submitted by /u/Serin-019 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wrmf6w/all_my_homies_hate_circles/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wrm7gt/one_char_model_consistent_face_body_cloths/</id><title>One .char model, Consistent face, body &amp; cloths: Minimax H3</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wrm7gt/one_char_model_consistent_face_body_cloths/"/>
-<published>2026-09-27T14:53:06+00:00</published><updated>2026-09-27T14:53:06+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="flux"/>
-<category term="minimax"/>
-<summary>Hey Guys, Based on my last post on stills, I thought to experiment the same .char model with Minimax H3. I created a character model sia.char which encodes references, prompts around face, body &amp; cloths. Checkout previous post for full detail. How it works? - Build .Char: You drop max 9 reference re</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · flux, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey Guys, Based on my last post on stills, I thought to experiment the same .char model with Minimax H3. I created a character model sia.char which encodes references, prompts around face, body &amp;amp; cloths. Checkout previous post for full detail. How it works? - Build .Char: You drop max 9 reference reference, I prefer to use a ratio 2:2:1(face:cloths:body). YuNet finds the face, SFace takes a per-reference face signature, DINOv2 takes a subject signature, and the references get cleaned and normalised. All of that packs into a single portable file, a .char. Only face/ref is required body &amp;amp; cloths link is optional. - Generation: At generation, the file(.char) feeds its references into Flux's own&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wrm7gt/one_char_model_consistent_face_body_cloths/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
