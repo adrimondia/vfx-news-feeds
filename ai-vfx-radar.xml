@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-11T08:30:18+00:00</updated>
+<updated>2026-10-11T10:30:18+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
 <entry>
 <id>https://github.com/microsoft/TRELLIS.2</id><title>microsoft/TRELLIS.2</title>
@@ -14,6 +14,21 @@
 <category term="rendering"/>
 <summary>Native and Compact Structured Latents for 3D Generation Native and Compact Structured Latents for 3D Generation https://github.com/user-attachments/assets/63b43a7e-acc7-4c81-a900-6da450527d8f (Compressed version due to GitHub size limits. See the full-quality video on our project page!) TRELLIS.2 is</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;GitHub trending (Python) · score 3 · texture generation, pbr, rendering&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Native and Compact Structured Latents for 3D Generation Native and Compact Structured Latents for 3D Generation https://github.com/user-attachments/assets/63b43a7e-acc7-4c81-a900-6da450527d8f (Compressed version due to GitHub size limits. See the full-quality video on our project page!) TRELLIS.2 is a state-of-the-art large 3D generative model (4B parameters) designed for high-fidelity image-to-3D generation. It leverages a novel "field-free" sparse voxel structure termed O-Voxel to reconstruct and generate arbitrary 3D assets with complex topologies, sharp features, and full PBR materials. ✨ Features 1. High Quality, Resolution &amp;amp; Efficiency Our 4B-parameter model generates high-resolution f&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.com/microsoft/TRELLIS.2"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1x3275y/how_to_pick_the_right_models_and_dramatically/</id><title>How to pick the right models and dramatically speed up image and video generation speeds &amp; What I wish I knew when starting on AMD hardware with ComfyUI</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x3275y/how_to_pick_the_right_models_and_dramatically/"/>
+<published>2026-10-11T07:47:08+00:00</published><updated>2026-10-11T07:47:08+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="video generation"/>
+<category term="video model"/>
+<category term="upscaling"/>
+<category term="comfyui"/>
+<category term="wan"/>
+<category term="minimax"/>
+<category term="lora"/>
+<summary>For the below I’ll be referring mostly to ComfyUI workflow and model efficiency (using examples for Radeon AI PRO R9700 (32GB) which has a bandwidth of 680GB/sec. I’ve seen 10second minimax H3 image to video workflows go from 28 mins to 3 mins by taking all this info into account and then upscaling </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 9 · video generation, video model, upscaling, comfyui, wan, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;For the below I’ll be referring mostly to ComfyUI workflow and model efficiency (using examples for Radeon AI PRO R9700 (32GB) which has a bandwidth of 680GB/sec. I’ve seen 10second minimax H3 image to video workflows go from 28 mins to 3 mins by taking all this info into account and then upscaling after. 1. The pipeline Every image or video workflow is the same four stages, and only the third one repeats. Text encoder. Turns the prompt into embeddings, once per prompt. Noise latent. Sampling starts from random noise in a compressed (latent) grid. The seed decides that starting noise. Diffusion model. Runs once per step, removing noise. Early steps set layout and motion, late steps add detai&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x3275y/how_to_pick_the_right_models_and_dramatically/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1x31em8/4090_vs_5090_minimax_h3_speed/</id><title>4090 VS 5090 MINIMAX H3 SPEED</title>
@@ -7515,44 +7530,5 @@
 <category term="minimax"/>
 <summary>I am using the official ref2va workflow. I wanted to use a dancing video as reference for a character in a reference image. I added a Load Video node and tried to connect to ref_video_audio_0 but it failed. Then I tried ref_video_0 and it also failed. I noticed that the type of ref_video_0 is IMAGE </summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I am using the official ref2va workflow. I wanted to use a dancing video as reference for a character in a reference image. I added a Load Video node and tried to connect to ref_video_audio_0 but it failed. Then I tried ref_video_0 and it also failed. I noticed that the type of ref_video_0 is IMAGE and the type of ref_video_audio_0 is AUDIO. That's why Load Video node output couldn't connect to it. Is this a bug in the official workflow. What can I do use reference video? Thanks a lot in advance. submitted by /u/Ok_Warning2146 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wrhgv5/how_to_use_reference_video_in_minimax_h3_ref2va/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wrfhwj/2x_faster_qwenimage21_using_4_steps_lora_comfyui/</id><title>2x Faster Qwen-Image-2.1 using 4 Steps LORA — ComfyUI Low-VRAM Workflow</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wrfhwj/2x_faster_qwenimage21_using_4_steps_lora_comfyui/"/>
-<published>2026-09-27T09:08:35+00:00</published><updated>2026-09-27T09:08:35+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="image editing"/>
-<category term="rendering"/>
-<category term="comfyui"/>
-<category term="flux"/>
-<category term="lora"/>
-<category term="consistency"/>
-<category term="character consistency"/>
-<summary>I’ve just finished testing Qwen-Image-2.1 in ComfyUI , using a custom low-VRAM workflow with the INT8 ConvRot model, ComfyUI Kitchen Attention, and a 4-step LoRA . One of the biggest improvements I noticed is the generation speed: with the 4-step LoRA, the workflow can be around 2× faster compared t</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 9 · image editing, rendering, comfyui, flux, lora, consistency, character consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I’ve just finished testing Qwen-Image-2.1 in ComfyUI , using a custom low-VRAM workflow with the INT8 ConvRot model, ComfyUI Kitchen Attention, and a 4-step LoRA . One of the biggest improvements I noticed is the generation speed: with the 4-step LoRA, the workflow can be around 2× faster compared to running the model without it, while still producing usable results. Where Qwen-Image-2.1 really surprised me, though, is image editing . The editing results are quite impressive and, in some cases, can rival Flux 2 Klein , while Qwen-Image-2.1 is also noticeably faster in my testing. For image editing, it handled things like style changes, character consistency, clothing changes, and character s&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wrfhwj/2x_faster_qwenimage21_using_4_steps_lora_comfyui/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wrfa1e/comfyui_doesnt_offload_on_ram_anymore/</id><title>ComfyUI doesn't offload on RAM anymore</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wrfa1e/comfyui_doesnt_offload_on_ram_anymore/"/>
-<published>2026-09-27T08:55:39+00:00</published><updated>2026-09-27T08:55:39+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="minimax"/>
-<summary>I'm using the ComfyUI Desktop version and I keep it constantly updated. For the past couple of weeks, it has stopped offloading to RAM automatically. I have a 5090 and 64 GB of RAM. When I run MiniMax H3 or even Qwen 2.1, sometimes the VRAM gets completely saturated, but ComfyUI doesn't seem to offl</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I'm using the ComfyUI Desktop version and I keep it constantly updated. For the past couple of weeks, it has stopped offloading to RAM automatically. I have a 5090 and 64 GB of RAM. When I run MiniMax H3 or even Qwen 2.1, sometimes the VRAM gets completely saturated, but ComfyUI doesn't seem to offload anything to RAM. The RAM usage remains basically unchanged, while the GPU isn't doing much (I can tell from the temperature), and the generation time becomes extremely long. I didn't have this issue before. I'm not sure if I changed something and just don't remember, or if this is related to a recent update. I also don't have any startup arguments configured. Does anyone know what might be cau&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wrfa1e/comfyui_doesnt_offload_on_ram_anymore/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wrf1sp/flux_maintaining_character_consistency_across_a/</id><title>[Flux] Maintaining character consistency across a long-form project with custom LoRAs + ControlNet — workflow feedback welcome</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wrf1sp/flux_maintaining_character_consistency_across_a/"/>
-<published>2026-09-27T08:41:14+00:00</published><updated>2026-09-27T08:41:14+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="flux"/>
-<category term="controlnet"/>
-<category term="lora"/>
-<category term="consistency"/>
-<category term="character consistency"/>
-<summary>Hey r/comfyui , I've been working for several months on a long-form visual project, adapting a written narrative into a series of illustrated scenes, with a consistent cast of recurring characters. Think storyboard-level consistency, but across hundreds of images. My current setup : Flux 1 Dev FP8, </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 10 · comfyui, flux, controlnet, lora, consistency, character consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey r/comfyui , I've been working for several months on a long-form visual project, adapting a written narrative into a series of illustrated scenes, with a consistent cast of recurring characters. Think storyboard-level consistency, but across hundreds of images. My current setup : Flux 1 Dev FP8, custom LoRAs trained on datasets I built myself for each character, running on an RTX 5080 Blackwell 16GB. What's working well : Per-character LoRA training gives a solid baseline for individual character identity Chaining multiple LoRAs (2-3 characters in the same scene) works reasonably well at 0.6-0.8 weight per LoRA ControlNet Depth for scene composition, especially when adapting reference ima&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wrf1sp/flux_maintaining_character_consistency_across_a/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
