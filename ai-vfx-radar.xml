@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-11T08:00:18+00:00</updated>
+<updated>2026-10-11T08:30:18+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
 <entry>
 <id>https://github.com/microsoft/TRELLIS.2</id><title>microsoft/TRELLIS.2</title>
@@ -14,6 +14,15 @@
 <category term="rendering"/>
 <summary>Native and Compact Structured Latents for 3D Generation Native and Compact Structured Latents for 3D Generation https://github.com/user-attachments/assets/63b43a7e-acc7-4c81-a900-6da450527d8f (Compressed version due to GitHub size limits. See the full-quality video on our project page!) TRELLIS.2 is</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;GitHub trending (Python) · score 3 · texture generation, pbr, rendering&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Native and Compact Structured Latents for 3D Generation Native and Compact Structured Latents for 3D Generation https://github.com/user-attachments/assets/63b43a7e-acc7-4c81-a900-6da450527d8f (Compressed version due to GitHub size limits. See the full-quality video on our project page!) TRELLIS.2 is a state-of-the-art large 3D generative model (4B parameters) designed for high-fidelity image-to-3D generation. It leverages a novel "field-free" sparse voxel structure termed O-Voxel to reconstruct and generate arbitrary 3D assets with complex topologies, sharp features, and full PBR materials. ✨ Features 1. High Quality, Resolution &amp;amp; Efficiency Our 4B-parameter model generates high-resolution f&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.com/microsoft/TRELLIS.2"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1x31em8/4090_vs_5090_minimax_h3_speed/</id><title>4090 VS 5090 MINIMAX H3 SPEED</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x31em8/4090_vs_5090_minimax_h3_speed/"/>
+<published>2026-10-11T06:59:13+00:00</published><updated>2026-10-11T06:59:13+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="minimax"/>
+<summary>To those who used to have a 4090, what percentage of speed improvement have you noticed after upgrading to a 5090? submitted by /u/Haaaaaaaaaaahahahah [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;To those who used to have a 4090, what percentage of speed improvement have you noticed after upgrading to a 5090? submitted by /u/Haaaaaaaaaaahahahah [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x31em8/4090_vs_5090_minimax_h3_speed/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1x3124n/blurry_facesmini_max_h3/</id><title>blurry faces/mini max h3</title>
@@ -7545,15 +7554,5 @@
 <category term="character consistency"/>
 <summary>Hey r/comfyui , I've been working for several months on a long-form visual project, adapting a written narrative into a series of illustrated scenes, with a consistent cast of recurring characters. Think storyboard-level consistency, but across hundreds of images. My current setup : Flux 1 Dev FP8, </summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 10 · comfyui, flux, controlnet, lora, consistency, character consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey r/comfyui , I've been working for several months on a long-form visual project, adapting a written narrative into a series of illustrated scenes, with a consistent cast of recurring characters. Think storyboard-level consistency, but across hundreds of images. My current setup : Flux 1 Dev FP8, custom LoRAs trained on datasets I built myself for each character, running on an RTX 5080 Blackwell 16GB. What's working well : Per-character LoRA training gives a solid baseline for individual character identity Chaining multiple LoRAs (2-3 characters in the same scene) works reasonably well at 0.6-0.8 weight per LoRA ControlNet Depth for scene composition, especially when adapting reference ima&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wrf1sp/flux_maintaining_character_consistency_across_a/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wreoey/artist_here_minimax_h3_is_amazing_for_creating/</id><title>Artist here, Minimax H3 is amazing for creating images for my OCs in ref2v using Fizgig H3 Still custom node.</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wreoey/artist_here_minimax_h3_is_amazing_for_creating/"/>
-<published>2026-09-27T08:18:34+00:00</published><updated>2026-09-27T08:18:34+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<category term="minimax"/>
-<summary>I am an artist working on a worldbuilding, character design and art toy project, handdrawn using Procreate on iPad with no AI use at all. However, I use AI a lot as a hobby and messing around locally and really enjoy it. I thought I'd test out u/shootthesound 's custom node for ComfyUI that allows t</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I am an artist working on a worldbuilding, character design and art toy project, handdrawn using Procreate on iPad with no AI use at all. However, I use AI a lot as a hobby and messing around locally and really enjoy it. I thought I'd test out u/shootthesound 's custom node for ComfyUI that allows the MMH3 VAE to decode still images: https://github.com/shootthesound/ComfyUI-Fizgig-H3-Still It is mostly tested for Text2Image but I went ahead and tried ref2v (or ref2image in this case) and it WORKS. The first image I referenced my OC design, a chow chow dog (photorealistic but prompted to be similar artstyle) and a street in Melbourne and as you could see above, its MAGNIFICENT. I also tried t&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wreoey/artist_here_minimax_h3_is_amazing_for_creating/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
