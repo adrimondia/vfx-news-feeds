@@ -2,8 +2,22 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-12T00:30:28+00:00</updated>
+<updated>2026-10-12T02:30:18+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1x3n9lw/mcp_qwen21_turbo_kandinsky_lite_video_gen_on_8gb/</id><title>MCP - Qwen2.1 Turbo + Kandinsky Lite Video Gen on 8GB VRAM</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x3n9lw/mcp_qwen21_turbo_kandinsky_lite_video_gen_on_8gb/"/>
+<published>2026-10-11T23:58:03+00:00</published><updated>2026-10-11T23:58:03+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="video generation"/>
+<category term="video model"/>
+<category term="upscaler"/>
+<category term="image editing"/>
+<category term="comfyui"/>
+<category term="lora"/>
+<summary>Update: I posted this MCP open-source project last week. Since then, I've added video generation and Qwen-Image-2.1 Turbo. No silly ComfyUI here. https://github.com/hypersniper05/MCP-Image-Generator-Uncensored Qwen-Image-2.1 Turbo runs on as little as 4GB of VRAM (tested on a GTX 1650; it works, but</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 6 · video generation, video model, upscaler, image editing, comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Update: I posted this MCP open-source project last week. Since then, I've added video generation and Qwen-Image-2.1 Turbo. No silly ComfyUI here. https://github.com/hypersniper05/MCP-Image-Generator-Uncensored Qwen-Image-2.1 Turbo runs on as little as 4GB of VRAM (tested on a GTX 1650; it works, but slow. A newer GPU should be faster). With 8GB of VRAM you get better speeds, and you can even run the video model, Kandinsky 6 Lite. It's a 3B-parameter model, so don't expect quality on par with MiniMax-H3. I tried to make the installation as painless as possible, and it can use multiple GPUs if you have them. Here's what your LLM can create for you via the MCP: Core Qwen-Image-2.1 feature Text &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x3n9lw/mcp_qwen21_turbo_kandinsky_lite_video_gen_on_8gb/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1x3mzlz/minimax_h3videos_made_with_first_frame_last_frame/</id><title>minimax h3-videos made with first frame last frame and Add Guide for MiniMax H3</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x3mzlz/minimax_h3videos_made_with_first_frame_last_frame/"/>
@@ -7330,43 +7344,5 @@
 <category term="blender"/>
 <summary>MakeHuman is a character creator addon for Blender. Very cool and very in-depth character creation! I grabbed the UV atlas, which Gemini can edit it 1:1 pretty well. I’m having a hard time getting that same 1:1 editing in ComfyUI. Auto Reload is a Blender addon that detects changes to external files</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · render, comfyui, blender&lt;/small&gt;&lt;/p&gt;&lt;p&gt;MakeHuman is a character creator addon for Blender. Very cool and very in-depth character creation! I grabbed the UV atlas, which Gemini can edit it 1:1 pretty well. I’m having a hard time getting that same 1:1 editing in ComfyUI. Auto Reload is a Blender addon that detects changes to external files. I haven’t looked yet to see if there’s something similar for Krita. ComfyUI I use (save single image to path) custom node I have a copy of the file I want to edit in a dedicated folder you could cycle the render if you load image from path or folder, and I select that file for my character’s UV texture in Blender. I run ComfyUI, and the output appears on the model in real time. Once I’m happy wi&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1ws3492/more_of_i_have_no_idea_what_im_doingbut_im_having/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1ws1lpv/minimax_blurry_distorted_faces_at_distance/</id><title>Minimax - Blurry distorted faces at distance</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1ws1lpv/minimax_blurry_distorted_faces_at_distance/"/>
-<published>2026-09-28T01:35:35+00:00</published><updated>2026-09-28T01:35:35+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="minimax"/>
-<summary>All the faces in Minimax are all melty and distorted when the camera is zoomed out, close ups are fine. Anyone else experience this or have a fix? submitted by /u/fluce13 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;All the faces in Minimax are all melty and distorted when the camera is zoomed out, close ups are fine. Anyone else experience this or have a fix? submitted by /u/fluce13 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1ws1lpv/minimax_blurry_distorted_faces_at_distance/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1ws14es/neon_stick_figures_fl2va_20b_a_full_219_music/</id><title>Neon stick figures + FL2VA 20B = a full 2:19 music video</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1ws14es/neon_stick_figures_fl2va_20b_a_full_219_music/"/>
-<published>2026-09-28T01:11:34+00:00</published><updated>2026-09-28T01:11:34+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="text-to-video"/>
-<category term="rendering"/>
-<category term="consistency"/>
-<summary>I made a full 2:19 music video locally using only text-to-video generations on a single RTX 3090. The idea was intentionally simple: neon stick figures dancing in a black void. I wanted something where consistency between separate generations would actually be achievable instead of asking the model </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · text-to-video, rendering, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I made a full 2:19 music video locally using only text-to-video generations on a single RTX 3090. The idea was intentionally simple: neon stick figures dancing in a black void. I wanted something where consistency between separate generations would actually be achievable instead of asking the model to remember a photorealistic character across 28 clips and then wondering why everybody changes species halfway through. Model/settings: FL2VA Pruned 20B, txt2video RTX 3090 24GB 720p 20 steps 5 seconds per generation No LoRAs Around 12 minutes per clip 28 clips generated 2:20 of generated footage for a 2:19 song, then trimmed during assembly Roughly 5h36m total GPU generation time The important p&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1ws14es/neon_stick_figures_fl2va_20b_a_full_219_music/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1ws0rl7/comfyui_fails_to_run_heavy_models_with_version/</id><title>ComfyUI fails to run heavy models with version 0.37.0</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1ws0rl7/comfyui_fails_to_run_heavy_models_with_version/"/>
-<published>2026-09-28T00:54:06+00:00</published><updated>2026-09-28T00:54:06+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<summary>I have ComfyUI v0.30.0 and ran a workflow with H3 and Ideagram 4.0 no problem - takes about 5 minutes to generate a clip with H3. I run the exact same workflow with ComfyUI v0.37.0 after sitting for 20 minutes it says it will take 3 hours to run the workflow. Something seems very wrong. Same exact s</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I have ComfyUI v0.30.0 and ran a workflow with H3 and Ideagram 4.0 no problem - takes about 5 minutes to generate a clip with H3. I run the exact same workflow with ComfyUI v0.37.0 after sitting for 20 minutes it says it will take 3 hours to run the workflow. Something seems very wrong. Same exact settings, same exact workflow, same exact models - I'm just using V0.30.0, but it's annoying since i have to close it and swap to 0.37.0 to run qwen 2.1 - which runs fine, as does Krea 2. submitted by /u/siegekeebsofficial [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1ws0rl7/comfyui_fails_to_run_heavy_models_with_version/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1ws0c23/need_feedback_on_my_north_tower_plane_impact/</id><title>Need feedback on my North Tower plane impact animation, what is making it feel “off”?</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1ws0c23/need_feedback_on_my_north_tower_plane_impact/"/>
-<published>2026-09-28T00:32:56+00:00</published><updated>2026-09-28T00:32:56+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="animation"/>
-<summary>submitted by /u/Startestlt [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · animation&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/Startestlt [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1ws0c23/need_feedback_on_my_north_tower_plane_impact/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
