@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-12T10:31:05+00:00</updated>
+<updated>2026-10-12T12:30:49+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1x3y8ot/nvidia_rtx_video_super_resolution_for_comfyui/</id><title>NVIDIA RTX Video Super Resolution for ComfyUI, optimized for long videos with disk-backed processing and low RAM usage. Supports AI upscaling, denoising, deblurring, H.264/HEVC NVENC encoding, audio preservation, and an integrated video preview.</title>
@@ -14,6 +14,17 @@
 <category term="comfyui"/>
 <summary>https://github.com/tritant/ComfyUI_NVIDIA_RTX_VSR_Long_Video submitted by /u/Away_Exam_4586 [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 6 · upscaling, denoising, comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;https://github.com/tritant/ComfyUI_NVIDIA_RTX_VSR_Long_Video submitted by /u/Away_Exam_4586 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x3y8ot/nvidia_rtx_video_super_resolution_for_comfyui/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1x3wwd6/same_scene_30_art_styles_8_local_models_on_a_mac/</id><title>Same scene, 30 art styles, 8 local models on a Mac (mflux): Qwen-Image 2.1, FLUX.2 Klein, Krea 2, Z-Image, Ming-Image, FIBO 1.5, ERNIE, Boogu</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x3wwd6/same_scene_30_art_styles_8_local_models_on_a_mac/"/>
+<published>2026-10-12T09:00:25+00:00</published><updated>2026-10-12T09:00:25+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="rendering"/>
+<category term="flux"/>
+<category term="lora"/>
+<summary>I got into text-to-image when Qwen-Image 2.1 came out, and started playing with it on my Mac with mflux 0.22. I was impressed by how many art styles it could pull off, so I ran one simple prompt through it with only the art style changed, 30 times. Then I got curious how the other models would handl</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · rendering, flux, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I got into text-to-image when Qwen-Image 2.1 came out, and started playing with it on my Mac with mflux 0.22. I was impressed by how many art styles it could pull off, so I ran one simple prompt through it with only the art style changed, 30 times. Then I got curious how the other models would handle the same 30 styles. About a day and a half later, on and off (rendering, fixing prompts, re-rendering), here it is: link A row per style, a column per model, with the prompt beside each row. Tap a picture to open it, then swipe (or use the arrow keys) across models or down through styles. I like Qwen-Image 2.1 best, though I may be biased since it's what got me started. Krea 2 impressed me, and &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x3wwd6/same_scene_30_art_styles_8_local_models_on_a_mac/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1x3uzpa/open_weights_version_of_flux_3_image_is_launching/</id><title>Open Weights version of FLUX 3 Image is launching next. When exactly ?</title>
@@ -7195,76 +7206,5 @@
 <category term="comfyui"/>
 <summary>Has anyone used a DGX cluster for ComfyUI? I know that many GPUs is overkill for a single model, but I'm wondering if I can run multiple ComfyUI instances in parallel (e.g. one per GPU, each on its own port) and use them simultaneously. Has anyone set this up? How did you manage queues and model loa</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Has anyone used a DGX cluster for ComfyUI? I know that many GPUs is overkill for a single model, but I'm wondering if I can run multiple ComfyUI instances in parallel (e.g. one per GPU, each on its own port) and use them simultaneously. Has anyone set this up? How did you manage queues and model loading across instances? submitted by /u/yusufisman [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wsdf0x/cluster_dgx_for_comfyui/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wsd2bi/qwenimage_21_inpainting_with_lanpaint_alpha/</id><title>Qwen-Image 2.1 Inpainting with LanPaint — alpha channel included</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wsd2bi/qwenimage_21_inpainting_with_lanpaint_alpha/"/>
-<published>2026-09-28T12:19:28+00:00</published><updated>2026-09-28T12:19:28+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="inpainting"/>
-<summary>submitted by /u/Mammoth_Layer444 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · inpainting&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/Mammoth_Layer444 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wsd2bi/qwenimage_21_inpainting_with_lanpaint_alpha/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wsd1xa/qwenimage_21_inpainting_with_lanpaint_alpha/</id><title>Qwen-Image 2.1 Inpainting with LanPaint — alpha channel included</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wsd1xa/qwenimage_21_inpainting_with_lanpaint_alpha/"/>
-<published>2026-09-28T12:18:55+00:00</published><updated>2026-09-28T12:18:55+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="inpainting"/>
-<category term="outpainting"/>
-<category term="flux"/>
-<category term="wan"/>
-<summary>Hi everyone, I wish to announce that LanPaint now supports Qwen-Image 2.1 — both the text-to-image model and the image edit model. Qwen-Image 2.1 can generate transparent PNGs. With LanPaint you can inpaint the alpha channel too, not just the colours. So the transparent part can change shape, not on</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 5 · inpainting, outpainting, flux, wan&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi everyone, I wish to announce that LanPaint now supports Qwen-Image 2.1 — both the text-to-image model and the image edit model. Qwen-Image 2.1 can generate transparent PNGs. With LanPaint you can inpaint the alpha channel too, not just the colours. So the transparent part can change shape, not only the object. The image edit model works under a mask as well: describe the change, paint over the part it should touch, and everything else comes back exactly as it was. LanPaint is a universal inpainting/outpainting tool that works with almost every diffusion model out there (SD, Flux, Wan, Qwen, and now Qwen 2.1)—it is especially useful for models without dedicated inpainting checkpoints. Chec&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wsd1xa/qwenimage_21_inpainting_with_lanpaint_alpha/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wsctqz/layer_extract_layer_remove_loras_for_qwen_image_21/</id><title>Layer Extract &amp; Layer Remove Loras For Qwen Image 2.1</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wsctqz/layer_extract_layer_remove_loras_for_qwen_image_21/"/>
-<published>2026-09-28T12:08:05+00:00</published><updated>2026-09-28T12:08:05+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="compositing"/>
-<category term="lora"/>
-<summary>✂️ LayerExtract isolates a prompt-specified subject and exports it on a transparent background for independent editing. https://modelscope.ai/models/DiffSynth-Studio/Qwen-Image-2.1-LayerExtract ✨ LayerRemove takes the source image and a reference layer, removes the corresponding object, and reconstr</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · compositing, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;✂️ LayerExtract isolates a prompt-specified subject and exports it on a transparent background for independent editing. https://modelscope.ai/models/DiffSynth-Studio/Qwen-Image-2.1-LayerExtract ✨ LayerRemove takes the source image and a reference layer, removes the corresponding object, and reconstructs the scene behind it. https://modelscope.ai/models/DiffSynth-Studio/Qwen-Image-2.1-LayerRemove ⚡ Both are compact Qwen-Image-2.1 LoRAs that can be hot-swapped within the same DiffSynth-Studio pipeline. 🧩 Together they turn flattened images into editable assets for compositing, repositioning, replacement, and design workflows. 📜 LoRA weights: Apache 2.0. Qwen-Image-2.1 base-model terms also app&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wsctqz/layer_extract_layer_remove_loras_for_qwen_image_21/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wsc0kn/will_minimax_h3_runs_faster_on_m5_ultra_than_3090/</id><title>Will Minimax H3 runs faster on M5 Ultra than 3090?</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wsc0kn/will_minimax_h3_runs_faster_on_m5_ultra_than_3090/"/>
-<published>2026-09-28T11:26:54+00:00</published><updated>2026-09-28T11:26:54+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="minimax"/>
-<summary>I have a 3090 with 32GB DDR3-1600 RAM and i7-4930K. It took me about 30min to generate a 5sec 720p video using the fl2av workflow. I noticed that about 20GB of RAM is also used. Does that mean there are a lot of memory swapping? I was told that computing power of M5 Ultra is about 80% of 3090 and VR</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I have a 3090 with 32GB DDR3-1600 RAM and i7-4930K. It took me about 30min to generate a 5sec 720p video using the fl2av workflow. I noticed that about 20GB of RAM is also used. Does that mean there are a lot of memory swapping? I was told that computing power of M5 Ultra is about 80% of 3090 and VRAM is faster by 30%. Since I suppose M5 Ultra have enough RAM to fit everything in memory, I suppose it can run faster than 3090's 30min. Is that the case for M5 Ultra users? submitted by /u/Ok_Warning2146 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wsc0kn/will_minimax_h3_runs_faster_on_m5_ultra_than_3090/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1wsbeae/envgeneralist_london_wrap_late_oct_whats_actually/</id><title>Env/generalist London, wrap late Oct. What’s actually working for you right now? (UK)</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wsbeae/envgeneralist_london_wrap_late_oct_whats_actually/"/>
-<published>2026-09-28T10:53:24+00:00</published><updated>2026-09-28T10:53:24+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="unreal"/>
-<category term="maya"/>
-<category term="photogrammetry"/>
-<summary>On a TV series till late October, maybe a week extra if it slips. Environment / 3D generalist, right to work. Maya, Redshift, Substance, a bit of Unreal and photogrammetry. They might keep me if another show lands. Nothing booked after this one so I’m looking in the evenings, about an hour a night. </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 3 · unreal, maya, photogrammetry&lt;/small&gt;&lt;/p&gt;&lt;p&gt;On a TV series till late October, maybe a week extra if it slips. Environment / 3D generalist, right to work. Maya, Redshift, Substance, a bit of Unreal and photogrammetry. They might keep me if another show lands. Nothing booked after this one so I’m looking in the evenings, about an hour a night. No time for drinks and “get in front of people.” LinkedIn feels like shouting into a void. What do you actually use that leads to a call? Studio career pages, recruiters, specific boards, emailing boutiques cold? I’ve got a simple spreadsheet: studio, role, date sent, status. Is that enough or do you track it differently? If you were in this window, what would you do with that hour? submitted by /&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wsbeae/envgeneralist_london_wrap_late_oct_whats_actually/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wsbaut/yeufonic_a_yue2based_music_creationmanagement_app/</id><title>Yeufonic - a YuE2-based music creation/management app with local LoRA training</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wsbaut/yeufonic_a_yue2based_music_creationmanagement_app/"/>
-<published>2026-09-28T10:47:50+00:00</published><updated>2026-09-28T10:47:50+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<category term="lora"/>
-<summary>Hi - hope I'm ok posting this here. I'm one of those who prefers not to fight with ComfyUI and its wiring fetish so wrote this web app to keep all those cables hidden and provide an easy to use way to create and manage music via ComfyUI/Yue2. Requirements and features are in the README but if you ca</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi - hope I'm ok posting this here. I'm one of those who prefers not to fight with ComfyUI and its wiring fetish so wrote this web app to keep all those cables hidden and provide an easy to use way to create and manage music via ComfyUI/Yue2. Requirements and features are in the README but if you can run ComfyUI/YuE2 then you should be able to run this. It runs in Docker (Linux/Windows) containers, or as a standalone Windows app c/w installer. Comes as-is with no warranties etc but if you find it useful then please give it a star, and I'm open for contributions. https://github.com/yeufonic/yeufonic submitted by /u/AcrobaticMaize2408 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wsbaut/yeufonic_a_yue2based_music_creationmanagement_app/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wsb4h3/minimax_h3_ref_fizgig_nodes_as_sota_ref2img/</id><title>MiniMax H3 REF + Fizgig Nodes: As SOTA (Ref2Img \ Img2Img) True Image Editing Model, Native 4096x1536 in 1 Minute, WF + Prompt for Every Example.</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wsb4h3/minimax_h3_ref_fizgig_nodes_as_sota_ref2img/"/>
-<published>2026-09-28T10:37:50+00:00</published><updated>2026-09-28T10:37:50+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="image editing"/>
-<category term="minimax"/>
-<summary>WF + Prompts - https://civitai.red/posts/31291351 Nodes - https://github.com/shootthesound/ComfyUI-Fizgig-H3-Still/tree/main - 4096x1536, 18 Steps in 1Min (5060 Ti 16gb). - Stellar Prompt \ Spatial Understanding. - Don't need LLM processed prompts for every image. - Can imitate vast amount of styles</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · image editing, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;WF + Prompts - https://civitai.red/posts/31291351 Nodes - https://github.com/shootthesound/ComfyUI-Fizgig-H3-Still/tree/main - 4096x1536, 18 Steps in 1Min (5060 Ti 16gb). - Stellar Prompt \ Spatial Understanding. - Don't need LLM processed prompts for every image. - Can imitate vast amount of styles based on REF. - Great world knowledge, smart with concepts. - Sharp looking images, low amount of artifacts. - Way faster than Qwen 2.1 at 2+ IMG References. submitted by /u/-Ellary- [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wsb4h3/minimax_h3_ref_fizgig_nodes_as_sota_ref2img/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
