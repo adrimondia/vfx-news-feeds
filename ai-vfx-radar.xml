@@ -2,8 +2,62 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-12T12:30:49+00:00</updated>
+<updated>2026-10-12T14:30:42+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1x42s6c/black_wire_forge_a_free_web_studio_on_top_of_the/</id><title>Black Wire Forge: a free web studio on top of the ComfyUI you already run (songs, pictures, video, music videos)</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x42s6c/black_wire_forge_a_free_web_studio_on_top_of_the/"/>
+<published>2026-10-12T14:05:54+00:00</published><updated>2026-10-12T14:05:54+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="lip-sync"/>
+<category term="comfyui"/>
+<category term="blender"/>
+<category term="lora"/>
+<category term="storyboard"/>
+<summary>The video above is a one-minute tour of Black Wire Forge, a web app I've been building over the last few weeks. It follows one song from a single line of text to a finished music video. Every frame is a real screen capture, and the calm music under it was made in the app too. Black Wire Forge is a f</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 6 · lip-sync, comfyui, blender, lora, storyboard&lt;/small&gt;&lt;/p&gt;&lt;p&gt;The video above is a one-minute tour of Black Wire Forge, a web app I've been building over the last few weeks. It follows one song from a single line of text to a finished music video. Every frame is a real screen capture, and the calm music under it was made in the app too. Black Wire Forge is a front end for the ComfyUI you already run. It doesn't ship any models and doesn't change your install. It reads which model files and nodes each of your ComfyUI machines has, shows what each room can do with them, and tells you in plain words what's missing for the rest. Each room also lists the exact files a job will load, why each one was picked, and which other files you have that would fit. You&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x42s6c/black_wire_forge_a_free_web_studio_on_top_of_the/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1x42pkx/a_short_horror_video_i_made_with_minimax_h3_kroma/</id><title>A short horror video I made with Minimax h3, Kroma, Vibevoice and LLM magic</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x42pkx/a_short_horror_video_i_made_with_minimax_h3_kroma/"/>
+<published>2026-10-12T14:02:59+00:00</published><updated>2026-10-12T14:02:59+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="render"/>
+<category term="minimax"/>
+<summary>This was fun. The base images are made with Kroma, the videos with Minimax h3 and the text-to-speech with Microsoft Vibevoice. The text message screen recording thing is made by an LLM agent (GLM 5.3) that wrote a python script and threw it all together using Python libraries to render it, pretty co</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · render, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;This was fun. The base images are made with Kroma, the videos with Minimax h3 and the text-to-speech with Microsoft Vibevoice. The text message screen recording thing is made by an LLM agent (GLM 5.3) that wrote a python script and threw it all together using Python libraries to render it, pretty cool :) submitted by /u/abandonedexplorer [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x42pkx/a_short_horror_video_i_made_with_minimax_h3_kroma/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1x42kt9/endless_minimax_h3_with_endless_lipsync_v16_with/</id><title>Endless MiniMax H3 (with Endless LipSync) v1.6 (with less Motion Context degradation)</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x42kt9/endless_minimax_h3_with_endless_lipsync_v16_with/"/>
+<published>2026-10-12T13:58:00+00:00</published><updated>2026-10-12T13:58:00+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="wan"/>
+<category term="minimax"/>
+<category term="lora"/>
+<summary>Endless MiniMax H3 (with Endless LipSync) v1.6 When MiniMax H3 came out, I was badly missing the Endless Wan 2.2 I2V (SVI 2 Pro) features, so at first I look at other options, but most of them included an AIO node that could do everything, and I couldn't use most of my workflow, because they did eve</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · wan, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Endless MiniMax H3 (with Endless LipSync) v1.6 When MiniMax H3 came out, I was badly missing the Endless Wan 2.2 I2V (SVI 2 Pro) features, so at first I look at other options, but most of them included an AIO node that could do everything, and I couldn't use most of my workflow, because they did everything inside that huge node. The only exception to this, was ComfyUI-H3-Motion-Context , which I could easily integrate into my setup. Its big shortcoming though, was that it just created single videos. No way to concatenate them without the lossy step of decoding and re-encoding in a video editor. So, I created a custom node that could do just that, and voila.. Endless MiniMax H3 (with Endless &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x42kt9/endless_minimax_h3_with_endless_lipsync_v16_with/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1x42636/castle_knights_cinematic_ai_short_film_minimax_h3/</id><title>CASTLE &amp; KNIGHTS — Cinematic AI Short Film | MiniMax H3</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x42636/castle_knights_cinematic_ai_short_film_minimax_h3/"/>
+<published>2026-10-12T13:40:41+00:00</published><updated>2026-10-12T13:40:41+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="minimax"/>
+<category term="cinematic"/>
+<summary>Details in first comment submitted by /u/AxonkaiLab [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · minimax, cinematic&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Details in first comment submitted by /u/AxonkaiLab [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x42636/castle_knights_cinematic_ai_short_film_minimax_h3/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1x4050i/i_made_a_model_browser_for_comfyui_civitai_covers/</id><title>I made a model browser for ComfyUI: Civitai covers for every model, and it relinks "missing" models you actually have under another name</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x4050i/i_made_a_model_browser_for_comfyui_civitai_covers/"/>
+<published>2026-10-12T12:08:37+00:00</published><updated>2026-10-12T12:08:37+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<category term="lora"/>
+<summary>I posted an early version of this here a few months ago. It does a lot more now, so here's an update. It's free (MIT) and installs from ComfyUI Manager. What it does: - Models: every model with its Civitai cover, trigger words and base model. Files are looked up by hash, so download (3).safetensors </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I posted an early version of this here a few months ago. It does a lot more now, so here's an update. It's free (MIT) and installs from ComfyUI Manager. What it does: - Models: every model with its Civitai cover, trigger words and base model. Files are looked up by hash, so download (3).safetensors still shows its real name. Click + to drop a loader node on the canvas. - Model Check: when a workflow you open is missing models, a bar over the canvas says so. If you have the same file under a different name or folder (matched by hash and size), one click swaps it in. - Gallery: your output folder, searchable by prompt words, model, LoRA or seed. Drag an image onto the canvas to get its workflo&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x4050i/i_made_a_model_browser_for_comfyui_civitai_covers/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1x3y8ot/nvidia_rtx_video_super_resolution_for_comfyui/</id><title>NVIDIA RTX Video Super Resolution for ComfyUI, optimized for long videos with disk-backed processing and low RAM usage. Supports AI upscaling, denoising, deblurring, H.264/HEVC NVENC encoding, audio preservation, and an integrated video preview.</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x3y8ot/nvidia_rtx_video_super_resolution_for_comfyui/"/>
@@ -14,6 +68,15 @@
 <category term="comfyui"/>
 <summary>https://github.com/tritant/ComfyUI_NVIDIA_RTX_VSR_Long_Video submitted by /u/Away_Exam_4586 [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 6 · upscaling, denoising, comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;https://github.com/tritant/ComfyUI_NVIDIA_RTX_VSR_Long_Video submitted by /u/Away_Exam_4586 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x3y8ot/nvidia_rtx_video_super_resolution_for_comfyui/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1x3xo87/stop_fixing_minimax_h3_mistakes_sneak_peek/</id><title>Stop Fixing MiniMax H3 Mistakes! 🔥 | Sneak Peek</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x3xo87/stop_fixing_minimax_h3_mistakes_sneak_peek/"/>
+<published>2026-10-12T09:49:14+00:00</published><updated>2026-10-12T09:49:14+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="minimax"/>
+<summary>submitted by /u/fa6637 [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/fa6637 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x3xo87/stop_fixing_minimax_h3_mistakes_sneak_peek/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1x3wwd6/same_scene_30_art_styles_8_local_models_on_a_mac/</id><title>Same scene, 30 art styles, 8 local models on a Mac (mflux): Qwen-Image 2.1, FLUX.2 Klein, Krea 2, Z-Image, Ming-Image, FIBO 1.5, ERNIE, Boogu</title>
@@ -45,6 +108,16 @@
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/Certain_Potato_4509 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x3tgql/sailor_moon_vs_godzilla_minimax_h3/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
+<id>https://www.reddit.com/r/comfyui/comments/1x3t8mz/wanting_feedback_on_my_lora_catalog_tool_and/</id><title>Wanting feedback on my LoRA catalog tool and Suggester Node</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x3t8mz/wanting_feedback_on_my_lora_catalog_tool_and/"/>
+<published>2026-10-12T05:12:04+00:00</published><updated>2026-10-12T05:12:04+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<category term="lora"/>
+<summary>[Release] Eric LoRA Catalog – find and organize your LoRAs by what they do, not by folder name (local LLM cards + LoRA Suggester node) Over the last 3 years I've amassed a huge collection of LoRAs (about 5,600 LoRAs currently), and I'd stopped being able to find anything or remember which ones I lik</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;[Release] Eric LoRA Catalog – find and organize your LoRAs by what they do, not by folder name (local LLM cards + LoRA Suggester node) Over the last 3 years I've amassed a huge collection of LoRAs (about 5,600 LoRAs currently), and I'd stopped being able to find anything or remember which ones I liked, which ones paired well with others, etc. The LoRA Manager is awesome and it helps a lot to be able to jump over and remind myself with pictures and the model description, trigger words, etc. But I couldn't always find the LoRA anymore if I didn't remember the filename or search for something by what it does. Folder names and file names don't tell you what a LoRA actually does, which ones are a&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x3t8mz/wanting_feedback_on_my_lora_catalog_tool_and/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1x3t05j/epgen_open_lora_for_ltx25_that_gives_every_sound/</id><title>epGen: open LoRA for LTX-2.5 that gives every sound in the video its own audio track (generation + separation, weights on HF)</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x3t05j/epgen_open_lora_for_ltx25_that_gives_every_sound/"/>
 <published>2026-10-12T04:59:00+00:00</published><updated>2026-10-12T04:59:00+00:00</updated>
@@ -52,6 +125,15 @@
 <category term="lora"/>
 <summary>LTX-2.5 makes a video with one mixed soundtrack. Our LoRA also outputs one track per captioned sound, in the same run. Prompt "a jeep, its engine growling" and "a taxi, its horn honking" and you get the video, the full mix and each sound on its own track. The same weights also separate the sounds of</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;LTX-2.5 makes a video with one mixed soundtrack. Our LoRA also outputs one track per captioned sound, in the same run. Prompt "a jeep, its engine growling" and "a taxi, its horn honking" and you get the video, the full mix and each sound on its own track. The same weights also separate the sounds of an existing video. Walk into a scene with spatial audio (headphones): https://sepgen.github.io Two LoRAs for LTX-2.5 22B dev. Code and training configs included. 💻 https://github.com/AviadDahan/SepGen 🤗 https://huggingface.co/collections/AviadDahan/sepgen We're on today's Hugging Face Daily Papers. If you liked this work, an upvote there helps a lot! https://huggingface.co/papers/2610.11361 Happy&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x3t05j/epgen_open_lora_for_ltx25_that_gives_every_sound/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1x3st5n/h3_latent_upscaling_always_results_in_oom/</id><title>H3 latent upscaling always results in OOM</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x3st5n/h3_latent_upscaling_always_results_in_oom/"/>
+<published>2026-10-12T04:47:47+00:00</published><updated>2026-10-12T04:47:47+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="upscaling"/>
+<summary>I see lots of people saying how they love upscaling H3 latent and how effective it is, but I can't run it, no matter what. I have a 16:9 video at 0.2MP (14 seconds) I'm trying to upscale. I've tried upscaling to multiple resolutions, with 0.98MP being the highest I've tried, down to 0.4MP. I have 50</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · upscaling&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I see lots of people saying how they love upscaling H3 latent and how effective it is, but I can't run it, no matter what. I have a 16:9 video at 0.2MP (14 seconds) I'm trying to upscale. I've tried upscaling to multiple resolutions, with 0.98MP being the highest I've tried, down to 0.4MP. I have 5060 TI 16GB VRAM, 48GB RAM, Ryzen 9900X3D. I tried everything, it seems - using multiple attentions (comfy kitchen, SLA, VSA), H3 FeedForward, tried raising the reserve-vram flag to 3.5. I use obvpm's workflows (you can find them on GitHub) and tried reducing the length of the window (in seconds) {basically, the lower the length, the less VRAM it requires}. Tried using his Headroom node to give mor&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x3st5n/h3_latent_upscaling_always_results_in_oom/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://arxiv.org/abs/2610.13498</id><title>A Hybrid and Hierarchical Ray Tracing Method for Efficient 3D Gaussian Rendering</title>
@@ -114,6 +196,15 @@
 <content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.GR · score 5 · pbr, relighting, avatar, animation, multi-view&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.27600v3 Announce Type: replace Abstract: Creating animatable and relightable human avatars from multi-view images remains challenging, as pose-dependent deformation, materials, and light visibility are tightly coupled in images. In this paper, we present ARS-Avatar, a novel method using surfel representation for high-quality, animatable, and relightable human avatars from multi-view images captured under unknown illumination. For faithful surfel estimation, we extract deformation displacement and body model deviation two priors from the mesh, which jointly capture local deformation complexity and serve as auxiliary. We employ deferred shading to estimate BRDF materials and further&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.27600"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
+<id>https://www.reddit.com/r/comfyui/comments/1x3ruex/got_heart_running_natively_in_comfyui_no_onnx/</id><title>Got HEART running natively in ComfyUI (no ONNX required!)</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x3ruex/got_heart_running_natively_in_comfyui_no_onnx/"/>
+<published>2026-10-12T03:54:21+00:00</published><updated>2026-10-12T03:54:21+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<summary>ComfyUI said HEART was unsupported, so I traced down the architecture source, isolated it from traiNNer-redux, loaded the official checkpoints, and verified native inference. submitted by /u/No_Car_1296 [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;ComfyUI said HEART was unsupported, so I traced down the architecture source, isolated it from traiNNer-redux, loaded the official checkpoints, and verified native inference. submitted by /u/No_Car_1296 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x3ruex/got_heart_running_natively_in_comfyui_no_onnx/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1x3r7yp/ai_image_alignment_solution_for_qwen_image_21/</id><title>AI Image alignment solution for Qwen Image 2.1 Edits</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x3r7yp/ai_image_alignment_solution_for_qwen_image_21/"/>
 <published>2026-10-12T03:20:00+00:00</published><updated>2026-10-12T03:20:00+00:00</updated>
@@ -157,6 +248,35 @@
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/chove93 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x3mzlz/minimax_h3videos_made_with_first_frame_last_frame/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
+<id>https://www.reddit.com/r/comfyui/comments/1x3myxo/minimax_h3videos_made_with_first_frame_last_frame/</id><title>minimax h3-videos made with first frame last frame and Add Guide for MiniMax H3</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x3myxo/minimax_h3videos_made_with_first_frame_last_frame/"/>
+<published>2026-10-11T23:43:13+00:00</published><updated>2026-10-11T23:43:13+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="minimax"/>
+<summary>submitted by /u/chove93 [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/chove93 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x3myxo/minimax_h3videos_made_with_first_frame_last_frame/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1x3l9es/minimax_h3_generation_has_become_slooow_suddenly/</id><title>Minimax H3 generation has become slooow suddenly</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x3l9es/minimax_h3_generation_has_become_slooow_suddenly/"/>
+<published>2026-10-11T22:21:43+00:00</published><updated>2026-10-11T22:21:43+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="minimax"/>
+<summary>Hello guys, would need your help. I am on laptop RTX4090 with 16GB VRAM and 32GB RAM. I used to generate 15s 1MP videos at 4steps around 12-13 minutes. today I came from vacation, updated Comfy and wanted to test some new ideas. but it takes double of time now... around 30 minutes what before took 1</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hello guys, would need your help. I am on laptop RTX4090 with 16GB VRAM and 32GB RAM. I used to generate 15s 1MP videos at 4steps around 12-13 minutes. today I came from vacation, updated Comfy and wanted to test some new ideas. but it takes double of time now... around 30 minutes what before took 13 mins. I tried to restart, update NVIDIA drivers, update comfy stable version...., different models and turbo loras combination. nothing helped..... any idea? has something changed in latest comfy update? thanks in advance for some tips where to look at..... I know 32GB RAM is not that much....but I know it worked before. submitted by /u/Worldly_Impact_9118 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x3l9es/minimax_h3_generation_has_become_slooow_suddenly/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1x3k48m/still_working_on_my_workflow_that_retextures_the/</id><title>Still working on my workflow that retextures the MakeHuman character creator UVs in Blender it has re-roll the head, body, hands and feet separately and can also mix and match parts from previous results! There are so many bells and whistles to add extra prompts or images where you want!</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x3k48m/still_working_on_my_workflow_that_retextures_the/"/>
+<published>2026-10-11T21:31:18+00:00</published><updated>2026-10-11T21:31:18+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="animation"/>
+<category term="rigging"/>
+<category term="blender"/>
+<summary>https://drive.google.com/file/d/1nWwUXgDRx00MCfhPd_AJ8ms7eL9WEI8m/view?usp=sharing MakeHuman is a powerful, open-source 3D human and humanoid character creation system that lets you build highly customizable, fully rigged characters using an extensive collection of intuitive sliders. Adjust everythi</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · animation, rigging, blender&lt;/small&gt;&lt;/p&gt;&lt;p&gt;https://drive.google.com/file/d/1nWwUXgDRx00MCfhPd_AJ8ms7eL9WEI8m/view?usp=sharing MakeHuman is a powerful, open-source 3D human and humanoid character creation system that lets you build highly customizable, fully rigged characters using an extensive collection of intuitive sliders. Adjust everything from gender, age, height, weight, body proportions, muscle mass, facial structure, and individual facial features to hands, feet, and other anatomical details. Its parametric modeling system lets you reshape the character in real time, ranging from realistic human anatomy to stylized, exaggerated, or entirely unconventional humanoid designs. Characters support posing, rigging, and animation, wi&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x3k48m/still_working_on_my_workflow_that_retextures_the/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1x3igty/some_realistic_cinematic_kroma_gens/</id><title>Some realistic / cinematic Kroma gens</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x3igty/some_realistic_cinematic_kroma_gens/"/>
 <published>2026-10-11T20:22:29+00:00</published><updated>2026-10-11T20:22:29+00:00</updated>
@@ -164,6 +284,18 @@
 <category term="cinematic"/>
 <summary>Euler / Simple / 8 steps / CFG = 1.0 submitted by /u/AgeNo5351 [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · cinematic&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Euler / Simple / 8 steps / CFG = 1.0 submitted by /u/AgeNo5351 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x3igty/some_realistic_cinematic_kroma_gens/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1x3i161/what_is_the_best_general_image_generation_for/</id><title>What is the best general image generation for: generating characters based on description and changing art styles for variance.</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x3i161/what_is_the_best_general_image_generation_for/"/>
+<published>2026-10-11T20:04:56+00:00</published><updated>2026-10-11T20:04:56+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="video generation"/>
+<category term="comfyui"/>
+<category term="flux"/>
+<category term="lora"/>
+<summary>Working on starting a game, will be creating card art for the game based on character designs from a friends novel(s) that he's been writing. Eventually, would like to obviously get a real artist dedicated to it, however, someone he bought a commission from over a decade and half ago agreed to allow</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · video generation, comfyui, flux, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Working on starting a game, will be creating card art for the game based on character designs from a friends novel(s) that he's been writing. Eventually, would like to obviously get a real artist dedicated to it, however, someone he bought a commission from over a decade and half ago agreed to allow us to use the art as a basic template for initial card art. So i would like to take the art, and try and create other characters based in the same art style. Then take those same characters and eventually change the art to match different themes; like different anime or cartoon arts, or whether medieval times, gothic horror, chibi, etc. I've tried searching and have found a dozen different answer&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x3i161/what_is_the_best_general_image_generation_for/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/vfx/comments/1x3ghce/barad_dur_the_entarance/</id><title>Barad Dur - The entarance</title>
@@ -208,6 +340,29 @@
 <category term="visual effects"/>
 <summary>As we should all know "VFX" otherwise known as visual effects does not automatically "CGI" and there were visual effects before CGI or green screen such as blue screen, optical printing, and even stop motion animation which qualifies. So did they use any of that or something else for gore effects in</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 5 · green screen, animation, vfx, visual effects&lt;/small&gt;&lt;/p&gt;&lt;p&gt;As we should all know "VFX" otherwise known as visual effects does not automatically "CGI" and there were visual effects before CGI or green screen such as blue screen, optical printing, and even stop motion animation which qualifies. So did they use any of that or something else for gore effects in like horror films? The closest I can think of is "The Four Troublesome Heads" by Georges Méliès which isn't gore per se but does use visual tricks rather than practical ones to show head separation and certain body parts disappearing. submitted by /u/Glittering_Key6271 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1x3d00m/did_they_use_visual_effects_for_any_gore_effects/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1x3cu4u/best_workflow_for_violent_anime_scenes_with/</id><title>Best workflow for violent anime scenes with consistent characters and art style?</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x3cu4u/best_workflow_for_violent_anime_scenes_with/"/>
+<published>2026-10-11T16:40:02+00:00</published><updated>2026-10-11T16:40:02+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="inpainting"/>
+<category term="lora"/>
+<summary>I’m making an anime visual novel using approved character sheets and a custom art style. I need fictional violent scenes, such as alien attacks causing severed limbs or severe injuries, with violence similar to Chainsaw Man. The challenge is keeping the same faces, outfits, proportions, linework, an</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · inpainting, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I’m making an anime visual novel using approved character sheets and a custom art style. I need fictional violent scenes, such as alien attacks causing severed limbs or severe injuries, with violence similar to Chainsaw Man. The challenge is keeping the same faces, outfits, proportions, linework, and shading. I want to either generate new scenes using my references or edit existing scenes to add more violence while preserving the composition and untouched areas. So far, adding other LoRAs or increasing the violence makes the style drift. I’m interested in trying Krea 2, but I’m open to other models. What works best for this? Masked inpainting or reference-based editing? Separate style, chara&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x3cu4u/best_workflow_for_violent_anime_scenes_with/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1x3bouf/a_quick_minimax_h3_news_roundup_11th_october_2026/</id><title>A quick Minimax H3 news round-up - 11th October 2026</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x3bouf/a_quick_minimax_h3_news_roundup_11th_october_2026/"/>
+<published>2026-10-11T15:54:46+00:00</published><updated>2026-10-11T15:54:46+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="video generation"/>
+<category term="animation"/>
+<category term="comfyui"/>
+<category term="minimax"/>
+<category term="lora"/>
+<summary>Another quick Minimax H3 news and goodies round-up, for those who may have missed some items. -&gt; ComfyUI-H3-PowerLoraStack. "Quantized bases keep an exact runtime branch, AdaLN pairs are rebased between dense and curve checkpoints, and Acc/PDD head banks are blended per sampler step instead of crash</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 6 · video generation, animation, comfyui, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Another quick Minimax H3 news and goodies round-up, for those who may have missed some items. -&amp;gt; ComfyUI-H3-PowerLoraStack. "Quantized bases keep an exact runtime branch, AdaLN pairs are rebased between dense and curve checkpoints, and Acc/PDD head banks are blended per sampler step instead of crashing the native head." https://github.com/cicalooo/ComfyUI-H3-PowerLoraStack -&amp;gt; Collage-broll-minimax. "Turn a ~5s voiceover line into a premium editorial paper-collage 'assemble-from-empty B-roll clip', powered by Gemini Omni Flash first/last-frame video generation." Only... Gemini Omni Flash is banned in China, so this guy forked the original and substituted Minimax H3. Also newly added is a skil&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x3bouf/a_quick_minimax_h3_news_roundup_11th_october_2026/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1x3az0l/update_kroma_a_krea2_fine_tune/</id><title>Update: Kroma, A Krea-2 Fine Tune</title>
@@ -7166,45 +7321,5 @@
 <category term="lora"/>
 <summary>hi everyone been testing the h3 character swap lora a bit and so far it seems better than vanilla for character replacement, at least in my tests. it holds the replacement character more consistently and usually does a better job actually replacing the person without drifting back as much. i just us</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;hi everyone been testing the h3 character swap lora a bit and so far it seems better than vanilla for character replacement, at least in my tests. it holds the replacement character more consistently and usually does a better job actually replacing the person without drifting back as much. i just used the normal comfy wf with the original ref2va int8 pruned model with ck, 1.2mp and 20 steps. i probably wouldn’t use a speed-up lora for this. it can work sometimes, but not always.. for prompting i’d definitely start with the recommendations on the lora page, but i wouldn’t just copy the example exactly. what helped me was describing the person in the video that i wanted to replace, then descri&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wsgcuz/tested_h3_character_swap_lora/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wsee1y/character_sheet_workflow_qwen21/</id><title>Character Sheet Workflow - Qwen2.1</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wsee1y/character_sheet_workflow_qwen21/"/>
-<published>2026-09-28T13:17:44+00:00</published><updated>2026-09-28T13:17:44+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="rendering"/>
-<category term="minimax"/>
-<summary>I have found one workflow, edited some (most of it) , actually i removed the local LLM nodes, Now i am usign this Workflow and you can download it directly Tips, make sure you use the exact shown LLM instructions As simple as, i upload 1 image to any LLM (i use Qwen chat) , and provide the exact ins</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · rendering, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I have found one workflow, edited some (most of it) , actually i removed the local LLM nodes, Now i am usign this Workflow and you can download it directly Tips, make sure you use the exact shown LLM instructions As simple as, i upload 1 image to any LLM (i use Qwen chat) , and provide the exact instruction prompt and it respond back with the drafted prompt , which i use the workflow to generate the desired character sheet. I tested the new sheets in minimax video , and results are fantastic. Original workflow (entire credit) https://www.reddit.com/r/StableDiffusion/s/Rjoz79yECS Instructions to LLM You are a Character Sheet Prompt Architect. Input: ONE reference image + entity name. Output: &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wsee1y/character_sheet_workflow_qwen21/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wsdnjs/qwen_image_21_seems_to_be_getting_very_popular/</id><title>Qwen Image 2.1 seems to be getting very popular lately — what am I missing? How are you getting better results?</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wsdnjs/qwen_image_21_seems_to_be_getting_very_popular/"/>
-<published>2026-09-28T12:46:55+00:00</published><updated>2026-09-28T12:46:55+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<category term="lora"/>
-<summary>I’ve seen Qwen Image 2.1 getting a lot of attention over the last few days, so I wanted to understand what people are getting from it that I’m not. I tested it locally in ComfyUI on an RTX 3060 12GB against ERNIE-Image-Turbo, Krea 2 Turbo, HiDream-O1-Image and Z-Image-Turbo, using the same set of pr</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I’ve seen Qwen Image 2.1 getting a lot of attention over the last few days, so I wanted to understand what people are getting from it that I’m not. I tested it locally in ComfyUI on an RTX 3060 12GB against ERNIE-Image-Turbo, Krea 2 Turbo, HiDream-O1-Image and Z-Image-Turbo, using the same set of prompts plus a few harder real-world tests for characters, hands, object relationships and scene geometry. My personal ranking from these tests was roughly: Krea 2 for the best balance of quality and speed ERNIE as a strong alternative HiDream for some very striking compositions, but less reliable fine detail Z-Image for speed and fast iteration Qwen Image 2.1 was the one I struggled with the most Q&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wsdnjs/qwen_image_21_seems_to_be_getting_very_popular/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1wsdhqm/maya_users_what_parts_of_your_workflow_waste_the/</id><title>Maya users: what parts of your workflow waste the most time? (5-10 min university survey)</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wsdhqm/maya_users_what_parts_of_your_workflow_waste_the/"/>
-<published>2026-09-28T12:39:26+00:00</published><updated>2026-09-28T12:39:26+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="animation"/>
-<category term="rendering"/>
-<category term="maya"/>
-<summary>Hi everyone, I’m a CMGT student at Hanze University in The Netherlands currently doing an AI project focused on Autodesk Maya. Before deciding what to start build on, I’m researching real workflow problems in Maya , repetitive tasks, unnecessary steps, technical issues, rendering/animation workflows</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 4 · animation, rendering, maya&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi everyone, I’m a CMGT student at Hanze University in The Netherlands currently doing an AI project focused on Autodesk Maya. Before deciding what to start build on, I’m researching real workflow problems in Maya , repetitive tasks, unnecessary steps, technical issues, rendering/animation workflows, workarounds, etc. I’m specifically trying not to start with "AI is the solution". My goal is to first understand what problems you actually have, and then determine whether AI, normal automation, or something else would make sense. I made a short anonymous survey that should take around 5-10 minutes : Survey: https://docs.google.com/forms/d/e/1FAIpQLSemTA9ZANJprgJKfWJ3qLebSpeKDLV-hLhoPL9S5jFxRwu&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wsdhqm/maya_users_what_parts_of_your_workflow_waste_the/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wsdf0x/cluster_dgx_for_comfyui/</id><title>Cluster DGX for Comfyui</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wsdf0x/cluster_dgx_for_comfyui/"/>
-<published>2026-09-28T12:35:54+00:00</published><updated>2026-09-28T12:35:54+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<summary>Has anyone used a DGX cluster for ComfyUI? I know that many GPUs is overkill for a single model, but I'm wondering if I can run multiple ComfyUI instances in parallel (e.g. one per GPU, each on its own port) and use them simultaneously. Has anyone set this up? How did you manage queues and model loa</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Has anyone used a DGX cluster for ComfyUI? I know that many GPUs is overkill for a single model, but I'm wondering if I can run multiple ComfyUI instances in parallel (e.g. one per GPU, each on its own port) and use them simultaneously. Has anyone set this up? How did you manage queues and model loading across instances? submitted by /u/yusufisman [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wsdf0x/cluster_dgx_for_comfyui/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
