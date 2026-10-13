@@ -2,8 +2,31 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-13T00:30:33+00:00</updated>
+<updated>2026-10-13T02:30:19+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1x4k7sq/character_swap_using_sam3_to_inverted_color_mask/</id><title>Character Swap using SAM3 to inverted color mask + MiniMax H3</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x4k7sq/character_swap_using_sam3_to_inverted_color_mask/"/>
+<published>2026-10-13T01:50:32+00:00</published><updated>2026-10-13T01:50:32+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="sam3"/>
+<category term="comfyui"/>
+<category term="minimax"/>
+<category term="lora"/>
+<summary>I followed the idea from this: https://www.reddit.com/r/comfyui/comments/1wvff4i/super_simple_minimax_character_swap_workflow/ To take SAM 3 to create the mask: https://i.imgur.com/bUYkWk0.jpeg Then using the ref2video model, I used the masked video as input reference and the reference images from m</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 6 · sam3, comfyui, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I followed the idea from this: https://www.reddit.com/r/comfyui/comments/1wvff4i/super_simple_minimax_character_swap_workflow/ To take SAM 3 to create the mask: https://i.imgur.com/bUYkWk0.jpeg Then using the ref2video model, I used the masked video as input reference and the reference images from my dog: https://i.imgur.com/FNX4wsu.png Prompt is something like this: https://i.imgur.com/JUTwJIm.png Took some guidelines from here as well: https://patricksheedy.com/posts/minimax-h3-character-swap-part-2/ That other guide is interesting, but it creates a black mask that loses all the facial information. Negative color is way better. Here is my workflow: https://drive.google.com/file/d/1DK0n2fgu&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x4k7sq/character_swap_using_sam3_to_inverted_color_mask/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1x4jh3c/character_swap_minimax_h3_bfs_collection/</id><title>Character Swap Minimax H3 (BFS Collection)</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x4jh3c/character_swap_minimax_h3_bfs_collection/"/>
+<published>2026-10-13T01:14:24+00:00</published><updated>2026-10-13T01:14:24+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<category term="minimax"/>
+<category term="lora"/>
+<summary>I’ve released my MiniMax H3 Character Swap LoRA I trained this LoRA to replace the main character in a guide video while trying to preserve the guide’s motion, expressions, camera, and scene. It was trained with guide latents, so the recommended setup is to connect the source video through Add Guide</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · comfyui, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I’ve released my MiniMax H3 Character Swap LoRA I trained this LoRA to replace the main character in a guide video while trying to preserve the guide’s motion, expressions, camera, and scene. It was trained with guide latents, so the recommended setup is to connect the source video through Add Guide. The ComfyUI Planner workflow is included, but it’s optional. It’s still experimental and far from perfect, it’s a LoRA, not a universal character-swap solution. It works better with people and human-like characters, and results can vary depending on the video, reference image, prompt, and settings. I’ve shared a few examples below so you can see where it works and where it still struggles. The p&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x4jh3c/character_swap_minimax_h3_bfs_collection/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1x4hdod/im_still_updating_the_workflow_for_retexturing/</id><title>I'm still updating the workflow for retexturing the UVs of the open-source MakeHuman character creator Blender add-on! MakeHuman has tons of customization sliders, rigging options, animations and much more. I've even repurposed the workflow for some of the clothing it comes with!</title>
 <link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x4hdod/im_still_updating_the_workflow_for_retexturing/"/>
@@ -15,6 +38,18 @@
 <category term="flux"/>
 <summary>https://drive.google.com/file/d/10F_9xbm2sdWDAw_E8orXBltqhNjFX9Ef/view?usp=sharing A2 MakeHuman: Image to UV Texture Workflow (ComfyUI) Give it a picture of the character you want, and it paints the full UV texture for you: head, body, hands and feet. It’s fun to use, and you don’t have to write the</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 6 · rigging, comfyui, blender, flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;https://drive.google.com/file/d/10F_9xbm2sdWDAw_E8orXBltqhNjFX9Ef/view?usp=sharing A2 MakeHuman: Image to UV Texture Workflow (ComfyUI) Give it a picture of the character you want, and it paints the full UV texture for you: head, body, hands and feet. It’s fun to use, and you don’t have to write the prompts yourself. How it works Load your style reference , which can be any image of the character or look you want, and your UV map . Qwen3-VL looks at your image and describes each part. The head gets face colors and textures, the body gets where the colors and markings sit, and the hands and feet get their material. Each part is generated with Flux 2 Klein , using the UV layout as a guide so t&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x4hdod/im_still_updating_the_workflow_for_retexturing/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1x4gk3w/recently_completed_my_bachelors_in_vfx/</id><title>Recently completed my Bachelors in VFX</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1x4gk3w/recently_completed_my_bachelors_in_vfx/"/>
+<published>2026-10-12T22:56:45+00:00</published><updated>2026-10-12T22:56:45+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="vfx"/>
+<category term="blender"/>
+<category term="kling"/>
+<category term="seedance"/>
+<summary>As the tittle says. I have 0 real experience other than university. I have a website with my work on it. The quality of that work obviously was of a passing grade but I wouldn't say it's the best. I no longer know what area of VFX interests me after constantly changing. Additionally, I create AI vid</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 5 · vfx, blender, kling, seedance&lt;/small&gt;&lt;/p&gt;&lt;p&gt;As the tittle says. I have 0 real experience other than university. I have a website with my work on it. The quality of that work obviously was of a passing grade but I wouldn't say it's the best. I no longer know what area of VFX interests me after constantly changing. Additionally, I create AI videos using Seedance and Kling. My mind is telling me to create some Blender scenes or stuff to showcase in Blender and eventually have enough stuff for a new showreel. Maybe even see how I can incorporate AI into it. Is it worth it assuming I want to find work? Despite me not having proper experience? submitted by /u/Substantial_Craft_87 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1x4gk3w/recently_completed_my_bachelors_in_vfx/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1x4gafz/i_built_a_comfyui_node_for_character_photoshoots/</id><title>I built a ComfyUI node for character photoshoots. It came out of running a fake Instagram model.</title>
@@ -82,6 +117,16 @@
 <category term="lora"/>
 <summary>I’ve wanted this for a long time: a Krea-2 model that gives you a magazine page in one shot. Flash-lit gravure sets, film grain, multi-photo layouts on white paper, big headlines, covers and back covers. This is a full fine-tune of Krea-2, not a LoRA. Getting here took a lot of scanning, tagging, fi</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I’ve wanted this for a long time: a Krea-2 model that gives you a magazine page in one shot. Flash-lit gravure sets, film grain, multi-photo layouts on white paper, big headlines, covers and back covers. This is a full fine-tune of Krea-2, not a LoRA. Getting here took a lot of scanning, tagging, filtering, layout captioning and many training runs. I really hope you enjoy it. ❤️ Versions-they need different steps and CFG for best quality https://civitai.red/models/2996149/krea2-retro-magazine-incredible-realism Try my 2 step workflow for best result https://civitai.red/models/2982673/krea-2-two-pass-refine-workflow-no-upscaler Turbo · bf16 (~25 GB): the fine-tune delta-merged onto the offici&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x49hu0/a_hyper_realism_krea2_model_generate_magazine/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1x491v8/making_my_own_anime_michael_joins_fairy_tail_mmh3/</id><title>Making my own anime: Michael joins Fairy Tail (MMH3)</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x491v8/making_my_own_anime_michael_joins_fairy_tail_mmh3/"/>
+<published>2026-10-12T18:02:29+00:00</published><updated>2026-10-12T18:02:29+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<category term="minimax"/>
+<summary>This is short scene I made with MiniMax H3 reference to video. It's made of many 7-10 second clips then stitched together. Virtually all dialog was remade using Breeze TTS as MiniMax makes bad voices and I overlaid the audio the best I could in an external editor. The music is a mix of anime OST and</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;This is short scene I made with MiniMax H3 reference to video. It's made of many 7-10 second clips then stitched together. Virtually all dialog was remade using Breeze TTS as MiniMax makes bad voices and I overlaid the audio the best I could in an external editor. The music is a mix of anime OST and some I made. I've learned a lot about how to use the tool and actually get it to make what I want. The most important aspect is patience. Most of the characters were made in Illustrious and I made character sheets for each and used those as reference images. The prompts were made using ComfyUI MiniMax H3 Prompt Writer Example prompt subject_definitions: &amp;lt;Subject 1&amp;gt; is Michael, the man with short &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x491v8/making_my_own_anime_michael_joins_fairy_tail_mmh3/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1x48msk/first_frame_to_va_with_audio_ref_and_upscale/</id><title>First frame to va with audio ref and upscale.</title>
@@ -7244,28 +7289,5 @@
 <category term="unreal engine"/>
 <summary>arXiv:2601.10214v3 Announce Type: replace-cross Abstract: Camera control has been extensively studied in conditioned video generation; however, performing precisely altering the camera trajectories while faithfully preserving the video content remains a challenging task. The mainstream approach to a</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.GR · score 8 · video generation, video diffusion, camera control, inpainting, unreal, unreal engine&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2601.10214v3 Announce Type: replace-cross Abstract: Camera control has been extensively studied in conditioned video generation; however, performing precisely altering the camera trajectories while faithfully preserving the video content remains a challenging task. The mainstream approach to achieving precise camera control is warping a 3D representation according to the target trajectory. However, such methods fail to fully leverage the 3D priors of video diffusion models (VDMs) and often fall into the Inpainting Trap, resulting in subject inconsistency and degraded generation quality. To address this problem, we propose DepthDirector, a video re-rendering framework with precise camer&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2601.10214"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wswrwm/camera_angle_reconstruction_with_3d_triposplat/</id><title>Camera angle reconstruction with 3D Triposplat &amp; Qwen i 2.1</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wswrwm/camera_angle_reconstruction_with_3d_triposplat/"/>
-<published>2026-09-29T01:20:33+00:00</published><updated>2026-09-29T01:20:33+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="3d gaussian"/>
-<category term="animation"/>
-<category term="comfyui"/>
-<category term="blender"/>
-<category term="lora"/>
-<summary>I just found a post about this wonderful new Lora for Qwen Image 2.1 by SillyLilithh I designed a workflow including both stages inside ComfyUI without the need to open Blender. Group 1. Create the 3D model using TripoSplat A single reference image is converted into a 3D Gaussian Splat and then expo</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 5 · 3d gaussian, animation, comfyui, blender, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I just found a post about this wonderful new Lora for Qwen Image 2.1 by SillyLilithh I designed a workflow including both stages inside ComfyUI without the need to open Blender. Group 1. Create the 3D model using TripoSplat A single reference image is converted into a 3D Gaussian Splat and then exported as an SPZ 3D model, a GLB mesh and an orbiting video. Group 2. Generate a precise new view with Qwen-Image 2.1 using the 3D model Load your SPZ 3D model into ComfyUI using the {Load 3D &amp;amp; Animation} node. You choose the desired camera angle interactively, and that rendered 3D view is sent as reference image to Qwen-Image 2.1 together with the original image. Qwen i 2.1 then generates the new i&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wswrwm/camera_angle_reconstruction_with_3d_triposplat/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wsvuad/what_benefits_will_i_notice_when_upgrading_from/</id><title>What benefits will I notice when upgrading from 32 GB to 48 GB of RAM? I use comfy and minimax, LTX etc</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wsvuad/what_benefits_will_i_notice_when_upgrading_from/"/>
-<published>2026-09-29T00:35:36+00:00</published><updated>2026-09-29T00:35:36+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="minimax"/>
-<category term="ltx"/>
-<summary>submitted by /u/PhilosopherSweaty826 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · minimax, ltx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/PhilosopherSweaty826 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wsvuad/what_benefits_will_i_notice_when_upgrading_from/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
