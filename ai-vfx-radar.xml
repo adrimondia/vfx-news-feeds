@@ -2,8 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-13T10:30:56+00:00</updated>
+<updated>2026-10-13T12:30:57+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1x4txte/did_a_quick_animetorealism_test_in_minimax_h3/</id><title>Did a quick anime-to-realism test in MiniMax H3 with just a video reference + lora</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x4txte/did_a_quick_animetorealism_test_in_minimax_h3/"/>
+<published>2026-10-13T11:18:40+00:00</published><updated>2026-10-13T11:18:40+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="minimax"/>
+<category term="lora"/>
+<category term="consistency"/>
+<category term="character consistency"/>
+<summary>The post at the bottom inspired me to try a simple anime-to-realism test with MiniMax H3, so I figured I’d share a few results. I didn’t generate any keyframes or stills. I just fed the original video directly into MiniMax H3 as the video reference, applied the lora, and basically told it to convert</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 6 · minimax, lora, consistency, character consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;The post at the bottom inspired me to try a simple anime-to-realism test with MiniMax H3, so I figured I’d share a few results. I didn’t generate any keyframes or stills. I just fed the original video directly into MiniMax H3 as the video reference, applied the lora, and basically told it to convert it to live action. The output quality was honestly better than I expected. Not saying it’s perfect or amazing or anything, but for such a simple setup I was pretty impressed. I didn’t use any character reference sheets, so character consistency obviously isn’t guaranteed. It mostly seems to depend on how the model interprets the character in each scene. For my next test, I might try adding a char&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x4txte/did_a_quick_animetorealism_test_in_minimax_h3/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1x4s1l0/portable_char_consistent_characterssame_face_body/</id><title>Portable .char consistent characters(same face, body, cloths &amp; voice) - MinimaxH3, Flux2 &amp; Krea2</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x4s1l0/portable_char_consistent_characterssame_face_body/"/>
@@ -6969,42 +6981,5 @@
 <category term="lora"/>
 <summary>We've continued pretraining on the Agate-001-preview, releasing an intermediary Agate-002-preview (256x256) as well as a 512x512 native Agate-003-preview by continuing training while keeping the planning part at the same resolution as in 256x256 with a learned downsampler/upsampler. https://preview.</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;We've continued pretraining on the Agate-001-preview, releasing an intermediary Agate-002-preview (256x256) as well as a 512x512 native Agate-003-preview by continuing training while keeping the planning part at the same resolution as in 256x256 with a learned downsampler/upsampler. https://preview.redd.it/9s48sue2egsh1.png?width=1080&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=e900381de31433c564f913438d422f0ed2a383cf The model is SoTA in it's parameter count area, using two approaches which we credit for the improvements observed: A planner architecture, that plans in low resolution before submitting the task to the "painter / renderer". The planner is a transformer and cross-attends to the text tokens, while t&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wt8z9j/release_update_agate003preview_better_than_sd_15/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wt8rg5/workflow_i2v_avec_son_pour_wan/</id><title>Workflow I2V avec son pour Wan</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wt8rg5/workflow_i2v_avec_son_pour_wan/"/>
-<published>2026-09-29T12:27:20+00:00</published><updated>2026-09-29T12:27:20+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="wan"/>
-<summary>Bonjour à tous, j'utilise comfyui en local sur Windows avec Wan pour faire des vidéos. J'ai passé plusieurs heures à tester différents workflow ou a demander à chatgpt ou Claude mais je n'ai jamais réussi à générer une vidéo avec du son. Quels genre de workflow utilisez vous? Merci d'avance submitte</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · comfyui, wan&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Bonjour à tous, j'utilise comfyui en local sur Windows avec Wan pour faire des vidéos. J'ai passé plusieurs heures à tester différents workflow ou a demander à chatgpt ou Claude mais je n'ai jamais réussi à générer une vidéo avec du son. Quels genre de workflow utilisez vous? Merci d'avance submitted by /u/justeduluc [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wt8rg5/workflow_i2v_avec_son_pour_wan/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wt8l7f/minimax_extend_help/</id><title>Minimax Extend help</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wt8l7f/minimax_extend_help/"/>
-<published>2026-09-29T12:19:13+00:00</published><updated>2026-09-29T12:19:13+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="minimax"/>
-<summary>Hey. I want to extend a video with minimax, and i cant find out how to prompt or find a workflow, without the whole clip being regenerated, i want the scene i already have prepared to be extended and merged together with my extended new scene. Do any of you have a workflow that works for this? submi</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey. I want to extend a video with minimax, and i cant find out how to prompt or find a workflow, without the whole clip being regenerated, i want the scene i already have prepared to be extended and merged together with my extended new scene. Do any of you have a workflow that works for this? submitted by /u/kubeinxxx [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wt8l7f/minimax_extend_help/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wt82oz/minimax_h3_blurreddistorted_face_fix_using/</id><title>Minimax H3 blurred/Distorted Face Fix using MMH3ultimate upscale by BBaudio</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wt82oz/minimax_h3_blurreddistorted_face_fix_using/"/>
-<published>2026-09-29T11:54:28+00:00</published><updated>2026-09-29T11:54:28+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="minimax"/>
-<summary>I just increase the steps of the MMH3ultimate upscale from 1 to 2, for the workflow and if you need more details how It was done, I posted a video on youtube https://www.youtube.com/watch?v=Caya_Qd4Q9Q PC Specs: Ryzen 5 7600 32gb Ram AMD RX 9070 Nonxt submitted by /u/mwhjose [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I just increase the steps of the MMH3ultimate upscale from 1 to 2, for the workflow and if you need more details how It was done, I posted a video on youtube https://www.youtube.com/watch?v=Caya_Qd4Q9Q PC Specs: Ryzen 5 7600 32gb Ram AMD RX 9070 Nonxt submitted by /u/mwhjose [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wt82oz/minimax_h3_blurreddistorted_face_fix_using/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1wt7m74/question_about_role_3ddmp/</id><title>Question about role 3DDMP</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wt7m74/question_about_role_3ddmp/"/>
-<published>2026-09-29T11:30:01+00:00</published><updated>2026-09-29T11:30:01+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="vfx"/>
-<summary>Hi everyone, I wanted to ask for some information about this type of VFX specialization. To give a little context, I’ve worked as a 3D artist in architectural visualization for the past 7 years in Europe, but since I’m no longer interested in working in that field, I’ve stopped looking for work and </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 1 · vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi everyone, I wanted to ask for some information about this type of VFX specialization. To give a little context, I’ve worked as a 3D artist in architectural visualization for the past 7 years in Europe, but since I’m no longer interested in working in that field, I’ve stopped looking for work and am currently doing something completely different for work. I’ve always been interested in exploring this field of specialization, which I’d like to start as a hobby and then see later if I can turn it into something else (and if not, that’s fine too—I’d keep it as a hobby because I enjoy the world of CG in general). I just can’t quite wrap my head around this kind of hybrid role. I’d like to ask &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wt7m74/question_about_role_3ddmp/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
