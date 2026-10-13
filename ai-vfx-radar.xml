@@ -2,8 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-13T08:30:26+00:00</updated>
+<updated>2026-10-13T10:30:56+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1x4s1l0/portable_char_consistent_characterssame_face_body/</id><title>Portable .char consistent characters(same face, body, cloths &amp; voice) - MinimaxH3, Flux2 &amp; Krea2</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x4s1l0/portable_char_consistent_characterssame_face_body/"/>
+<published>2026-10-13T09:26:35+00:00</published><updated>2026-10-13T09:26:35+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="video generation"/>
+<category term="lip sync"/>
+<category term="comfyui"/>
+<category term="minimax"/>
+<summary>Hey guys, I have been working on the consistent character portable format (.char) for a while &amp; now there's a community characters page where you can grab a ready-made character and use it straight in ComfyUI. Same face, cloths &amp; body across every video generation, and with a few seconds of voice sa</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · video generation, lip sync, comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey guys, I have been working on the consistent character portable format (.char) for a while &amp;amp; now there's a community characters page where you can grab a ready-made character and use it straight in ComfyUI. Same face, cloths &amp;amp; body across every video generation, and with a few seconds of voice sample the character talks in a consistent cloned voice with lip sync (MiniMax H3). Community characters Aron: https://www.omnichar.org/characters/aron You can use these characters via comfyui, omnichar app &amp;amp; cloud. Detailed guide on building full consistent character(workflow included): Previous reddit post Official repo: https://github.com/omnichar/OmniChar (Opensource) ComfyUI Node: https://githu&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x4s1l0/portable_char_consistent_characterssame_face_body/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://github.com/OpenBMB/VoxCPM</id><title>OpenBMB/VoxCPM</title>
 <link rel="alternate" href="https://github.com/OpenBMB/VoxCPM"/>
@@ -6994,60 +7006,5 @@
 <category term="vfx"/>
 <summary>Hi everyone, I wanted to ask for some information about this type of VFX specialization. To give a little context, I’ve worked as a 3D artist in architectural visualization for the past 7 years in Europe, but since I’m no longer interested in working in that field, I’ve stopped looking for work and </summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 1 · vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi everyone, I wanted to ask for some information about this type of VFX specialization. To give a little context, I’ve worked as a 3D artist in architectural visualization for the past 7 years in Europe, but since I’m no longer interested in working in that field, I’ve stopped looking for work and am currently doing something completely different for work. I’ve always been interested in exploring this field of specialization, which I’d like to start as a hobby and then see later if I can turn it into something else (and if not, that’s fine too—I’d keep it as a hobby because I enjoy the world of CG in general). I just can’t quite wrap my head around this kind of hybrid role. I’d like to ask &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wt7m74/question_about_role_3ddmp/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wt6gbh/qwen_21_easy_way_to_create_a_consistent_face/</id><title>Qwen 2.1: Easy way to create a consistent face character. No lora. Only prompt and reference image.</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wt6gbh/qwen_21_easy_way_to_create_a_consistent_face/"/>
-<published>2026-09-29T10:23:45+00:00</published><updated>2026-09-29T10:23:45+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<category term="lora"/>
-<summary>Create a reference image of the face (showing various angles) arranged in a 2x2 grid (in ComfyUI, this is easily done using the "Load Images &amp; Compose (obvpm)" node: https://github.com/chanon/comfyui-obvpm ). In the prompt (created by AI), replace the square brackets with your own prompt: Task: Anal</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Create a reference image of the face (showing various angles) arranged in a 2x2 grid (in ComfyUI, this is easily done using the "Load Images &amp;amp; Compose (obvpm)" node: https://github.com/chanon/comfyui-obvpm ). In the prompt (created by AI), replace the square brackets with your own prompt: Task: Analyze the provided reference image containing 4 panels. These are four different angles, expressions, and lighting conditions of the same character. Your goal is to merge their facial features into one single, consistent, canonical face. Step 1 (Identity Extraction): Extract the core identity markers from all four panels. Merge the nose shape, jawline, eye shape, eyebrow arch, lip shape, skin textur&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wt6gbh/qwen_21_easy_way_to_create_a_consistent_face/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wt5oe9/endless_minimax_h3_with_endless_lipsync_v15_less/</id><title>Endless MiniMax H3 (with Endless LipSync) v1.5 (less Motion Context degradation)</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wt5oe9/endless_minimax_h3_with_endless_lipsync_v15_less/"/>
-<published>2026-09-29T09:37:07+00:00</published><updated>2026-09-29T09:37:07+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="wan"/>
-<category term="minimax"/>
-<category term="lora"/>
-<summary>Endless MiniMax H3 (with Endless LipSync) v1.5 When MiniMax H3 came out, I was badly missing the Endless Wan 2.2 I2V (SVI 2 Pro) features, so at first I look at other options, but most of them included an AIO node that could do everything, and I couldn't use most of my workflow, because they did eve</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · wan, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Endless MiniMax H3 (with Endless LipSync) v1.5 When MiniMax H3 came out, I was badly missing the Endless Wan 2.2 I2V (SVI 2 Pro) features, so at first I look at other options, but most of them included an AIO node that could do everything, and I couldn't use most of my workflow, because they did everything inside that huge node. The only exception to this, was ComfyUI-H3-Motion-Context , which I could easily integrate into my setup. Its big shortcoming though, was that it just created single videos. No way to concatenate them without the lossy step of decoding and re-encoding in a video editor. So, I created a custom node that could do just that, and voila.. Endless MiniMax H3 (with Endless &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wt5oe9/endless_minimax_h3_with_endless_lipsync_v15_less/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wt5gwv/how_to_get_desired_result_and_consistency/</id><title>How to get desired result and consistency?</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wt5gwv/how_to_get_desired_result_and_consistency/"/>
-<published>2026-09-29T09:24:11+00:00</published><updated>2026-09-29T09:24:11+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="animation"/>
-<category term="comfyui"/>
-<category term="blender"/>
-<category term="minimax"/>
-<category term="lora"/>
-<category term="consistency"/>
-<summary>Hello, I’ve started with ComfyUI not so long time ago. Focusing on creating short movies with MiniMax H3. My workflow is, I describe scene and details for Claude and he writes me ready script prompt with timing etc. I create references like character sheet with Qwen 2.1, use Last frame screenshot as</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 7 · animation, comfyui, blender, minimax, lora, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hello, I’ve started with ComfyUI not so long time ago. Focusing on creating short movies with MiniMax H3. My workflow is, I describe scene and details for Claude and he writes me ready script prompt with timing etc. I create references like character sheet with Qwen 2.1, use Last frame screenshot as reference to get the same scene climate and details. When I hit the wall with camera settings and environment, I create blockout scene in Blender, really simple for another reference. When I don’t get desired result, I write to Claude, what’s bad, what I need, he writes another prompts or suggest me to get this scene simpler then I raise steps and resolution a bit. To test the water I use with Lo&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wt5gwv/how_to_get_desired_result_and_consistency/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wt5bv8/motion_transfer_demo_with_my_experimental_lora/</id><title>Motion transfer demo with my experimental lora and workflow</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wt5bv8/motion_transfer_demo_with_my_experimental_lora/"/>
-<published>2026-09-29T09:15:17+00:00</published><updated>2026-09-29T09:15:17+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="lora"/>
-<summary>submitted by /u/CQDSN [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/CQDSN [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wt5bv8/motion_transfer_demo_with_my_experimental_lora/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wt501p/i_revisited_the_intro_of_the_faery_tale_adventure/</id><title>I revisited the intro of The Faery Tale Adventure (Amiga, 1987) in realistic style: Flux 2 Klein + Qwen Image Edit for stills, MiniMax H3 for video, YuE 2 for the music</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wt501p/i_revisited_the_intro_of_the_faery_tale_adventure/"/>
-<published>2026-09-29T08:54:43+00:00</published><updated>2026-09-29T08:54:43+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="flux"/>
-<category term="minimax"/>
-<category term="lora"/>
-<summary>I'm having a lot of fun playing with YuE2 and Minimax H3. Everything here ran locally on an RTX 5070 Ti. It's far from perfect, but I love doing this ! Stills: screenshots from the original game, edited with Flux 2 Klein and Qwen Image Edit 2.1 to get a realistic look while keeping the original comp</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 5 · flux, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I'm having a lot of fun playing with YuE2 and Minimax H3. Everything here ran locally on an RTX 5070 Ti. It's far from perfect, but I love doing this ! Stills: screenshots from the original game, edited with Flux 2 Klein and Qwen Image Edit 2.1 to get a realistic look while keeping the original compositions. Video made with MiniMax H3. Music made with YuE2 in cover mode with an instrumental LoRA (ar_lora_inst_v3abc_comfyui.safetensors). Edited in Kdenlive (Linux). Original intro : https://www.youtube.com/watch?v=E5_4DhXWdwo submitted by /u/astrofiles [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wt501p/i_revisited_the_intro_of_the_faery_tale_adventure/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
