@@ -2,8 +2,31 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-13T14:30:41+00:00</updated>
+<updated>2026-10-13T16:31:12+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1x4z41u/updated_obvpm_timeline_workflow_v014007/</id><title>Updated OBVPM Timeline Workflow v0.1.4-007</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x4z41u/updated_obvpm_timeline_workflow_v014007/"/>
+<published>2026-10-13T15:05:59+00:00</published><updated>2026-10-13T15:05:59+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="upscaling"/>
+<category term="minimax"/>
+<summary>New version of my MiniMax H3 timeline workflow released Some very important bug fixes included, and a lot of improvements. The YouTube video above includes a lot of tips for using the workflow in addition to going over the changes in detail. (Sorry for repost. I initially posted under wrong account.</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · upscaling, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;New version of my MiniMax H3 timeline workflow released Some very important bug fixes included, and a lot of improvements. The YouTube video above includes a lot of tips for using the workflow in addition to going over the changes in detail. (Sorry for repost. I initially posted under wrong account.) Below is a complete list of fixes and improvements. Get the workflow and nodes at: https://github.com/chanon/comfyui-obvpm-timeline Important Fixes Upscaling Timelines can now be upscaled even if they have clips that aren't a single continuous generation. Previously a timeline like below might have failed with an error saying the clip's frames "don't fall on the latent grid". Now it upscales fin&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x4z41u/updated_obvpm_timeline_workflow_v014007/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1x4xpmw/how_would_a_professional_vfx_artist_recreate_this/</id><title>How would a professional VFX artist recreate this shot?</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1x4xpmw/how_would_a_professional_vfx_artist_recreate_this/"/>
+<published>2026-10-13T14:11:28+00:00</published><updated>2026-10-13T14:11:28+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="smoke"/>
+<category term="vfx"/>
+<category term="post-production"/>
+<category term="houdini"/>
+<category term="blender"/>
+<summary>I'm trying to recreate the attached shot, but with the spaceship removed and a bomb falling from the upper atmosphere before exploding over the ocean. I want to achieve the highest possible visual quality and follow a professional VFX workflow. I have done basic VFX work in Blender and have some exp</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 6 · smoke, vfx, post-production, houdini, blender&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I'm trying to recreate the attached shot, but with the spaceship removed and a bomb falling from the upper atmosphere before exploding over the ocean. I want to achieve the highest possible visual quality and follow a professional VFX workflow. I have done basic VFX work in Blender and have some experience with EmberGen and DaVinci Resolve/Fusion. I'm currently learning Houdini, including Solaris and Karma. I have the following questions: Overall VFX Pipeline How does a professional VFX studio approach a shot like this from pre-production to final delivery? Which software would you use at each stage, and in what order? What would the complete workflow look like if the goal were maximum quali&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1x4xpmw/how_would_a_professional_vfx_artist_recreate_this/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1x4wp1d/minimax_white_bright_frame_randomly_appear/</id><title>Minimax white/ bright frame randomly appear</title>
 <link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x4wp1d/minimax_white_bright_frame_randomly_appear/"/>
@@ -41,6 +64,15 @@
 <category term="comfyui"/>
 <summary>I wanted a quick way to push things from my browser into ComfyUI without switching windows, copying prompts, or saving images first. So I vibe coded a small extension for it. What it does Select text on any page, right-click, Send selection to ComfyUI . It fills your prompt node and queues the workf</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I wanted a quick way to push things from my browser into ComfyUI without switching windows, copying prompts, or saving images first. So I vibe coded a small extension for it. What it does Select text on any page, right-click, Send selection to ComfyUI . It fills your prompt node and queues the workflow. Right-click an image, Send image to ComfyUI . It uploads the image and queues the workflow. How it works with your workflows No coding or per-workflow setup. In ComfyUI, rename the input node’s title to INPUT_TEXT (or INPUT_IMAGE for a Load Image node), then export with Workflow &amp;gt; Export (API) and import the file in the extension. You can import several workflows and switch between them from &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x4vla1/browser_extension_to_directly_send_text_or_image/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1x4u0zj/vfx_compositor_in_other_industries/</id><title>VFX compositor in other industries?</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1x4u0zj/vfx_compositor_in_other_industries/"/>
+<published>2026-10-13T11:23:40+00:00</published><updated>2026-10-13T11:23:40+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="vfx"/>
+<summary>Hello! I've been a vfx compositor for over 20 years and worked in the biggest vfx housed on blockbuster films, commercials and tv shows. I'm looking to make a change due to burnout, salaries not being great and not wanting to become a supervisor and work 24/7. Has any compositor here ever made a shi</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hello! I've been a vfx compositor for over 20 years and worked in the biggest vfx housed on blockbuster films, commercials and tv shows. I'm looking to make a change due to burnout, salaries not being great and not wanting to become a supervisor and work 24/7. Has any compositor here ever made a shift to work in a different industry like gaming or tech? What are the pros and cons and what did you need to learn or do in order to make the shift? Thanks! submitted by /u/Eastern_Selection335 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1x4u0zj/vfx_compositor_in_other_industries/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1x4txte/did_a_quick_animetorealism_test_in_minimax_h3/</id><title>Did a quick anime-to-realism test in MiniMax H3 with just a video reference + lora</title>
@@ -117,6 +149,16 @@
 <category term="lora"/>
 <summary>VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning https://voxcpm.com VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning English | 中文 👋 Join our community for discussion and supp</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;GitHub trending (Python) · score 2 · super-resolution, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning https://voxcpm.com VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning English | 中文 👋 Join our community for discussion and support! Feishu | Discord | 📚 MiniCPM Wiki VoxCPM is a tokenizer-free Text-to-Speech system that directly generates continuous speech representations via an end-to-end diffusion autoregressive architecture , bypassing discrete tokenization to achieve highly natural and expressive synthesis. VoxCPM2 is the latest major release — a 2B parameter model trained on over 2 million hours of multilingual speec&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.com/OpenBMB/VoxCPM"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1x4pxv6/is_there_a_way_to_train_minimax_h3_lora_for_new/</id><title>Is there a way to train MiniMax H3 lora for new Language Accent ?</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x4pxv6/is_there_a_way_to_train_minimax_h3_lora_for_new/"/>
+<published>2026-10-13T07:07:28+00:00</published><updated>2026-10-13T07:07:28+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="minimax"/>
+<category term="lora"/>
+<summary>submitted by /u/PhilosopherSweaty826 [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/PhilosopherSweaty826 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x4pxv6/is_there_a_way_to_train_minimax_h3_lora_for_new/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1x4p3ot/free_krea2_character_style_catalog_v09_3919/</id><title>Free Krea2 Character &amp; Style Catalog v0.9 — 3,919 samples, reusable prompts, and ComfyUI workflows</title>
@@ -6977,66 +7019,5 @@
 <category term="blender"/>
 <summary>submitted by /u/o0ANARKY0o [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · comfyui, blender&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/o0ANARKY0o [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wtezf9/just_showing_off_all_the_toys_ive_been_making_in/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wtemf0/krea_2_enhancer/</id><title>Krea 2 - Enhancer</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wtemf0/krea_2_enhancer/"/>
-<published>2026-09-29T16:22:34+00:00</published><updated>2026-09-29T16:22:34+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="flux"/>
-<summary>I already posted about this, but apparently my example wasn't clear enough, so I'm rewriting it. The Flux2Klein Enhancer is actually designed for FLUX, but I tested it with Krea2 , and surprisingly, it works really well there too. The main purpose of the node is to improve prompt adherence and make </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui, flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I already posted about this, but apparently my example wasn't clear enough, so I'm rewriting it. The Flux2Klein Enhancer is actually designed for FLUX, but I tested it with Krea2 , and surprisingly, it works really well there too. The main purpose of the node is to improve prompt adherence and make the model follow your prompt more closely, while also potentially improving the overall quality of the result. In my example, you can clearly see the difference. Without the node, the prompt is only partially followed and some of the details are missing. With the Enhancer enabled, the prompt is followed much more closely and the result matches what I actually wrote. I've now tested the node quite &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wtemf0/krea_2_enhancer/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wtdpag/reservevram_2_vramheadroom_1_for_stable_comfyui/</id><title>"--reserve-vram 2 --vram-headroom 1" for stable ComfyUI</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wtdpag/reservevram_2_vramheadroom_1_for_stable_comfyui/"/>
-<published>2026-09-29T15:48:23+00:00</published><updated>2026-09-29T15:48:23+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<category term="minimax"/>
-<summary>since posts like this ComfyUI crashes navigating keeps popping up again and again and I don't see the magic answer ComfyUI is not responsive while executing workflow? Finally it's stuck in some doom loop of swapping memory left and right and only option is to restart it? Just add this to launching p</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;since posts like this ComfyUI crashes navigating keeps popping up again and again and I don't see the magic answer ComfyUI is not responsive while executing workflow? Finally it's stuck in some doom loop of swapping memory left and right and only option is to restart it? Just add this to launching params (in run .bat) --reserve-vram 2 --vram-headroom 1 Since I've added this (by randomly testing params) my comfy got stuck ZERO times over a month (previously it was like every couple runs of minimax). Even comfy is responsive as ever while executing. With two browsers open full of opened tabs. Worked for me at least on 94 ram, 24 vram submitted by /u/Luntrixx [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wtdpag/reservevram_2_vramheadroom_1_for_stable_comfyui/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wtdkma/krea_2_outfitclothes_transfer_with_a_custom/</id><title>Krea 2 outfit/clothes transfer with a custom character LoRA — how do I combine them?</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wtdkma/krea_2_outfitclothes_transfer_with_a_custom/"/>
-<published>2026-09-29T15:43:17+00:00</published><updated>2026-09-29T15:43:17+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="lora"/>
-<summary>I trained a custom character/identity LoRA on Krea 2 RAW and I'm trying to use it with a Krea 2 outfit-transfer workflow in ComfyUI. I want to use one image of my character and a second image showing the exact outfit , then generate my character wearing that outfit while preserving her identity and,</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I trained a custom character/identity LoRA on Krea 2 RAW and I'm trying to use it with a Krea 2 outfit-transfer workflow in ComfyUI. I want to use one image of my character and a second image showing the exact outfit , then generate my character wearing that outfit while preserving her identity and, ideally, the pose/composition. Has anyone successfully combined a Krea 2 custom LoRA + Krea 2 Outfit Transfer/Identity Edit ? If so, what workflow and LoRA strengths/settings are you using? A working workflow JSON would be really helpful. submitted by /u/DragonfruitNo9822 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wtdkma/krea_2_outfitclothes_transfer_with_a_custom/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wtcitg/people_are_sleeping_on_hyperflow/</id><title>People are sleeping on HyperFlow</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wtcitg/people_are_sleeping_on_hyperflow/"/>
-<published>2026-09-29T15:03:12+00:00</published><updated>2026-09-29T15:03:12+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="render"/>
-<category term="comfyui"/>
-<category term="minimax"/>
-<category term="lora"/>
-<category term="consistency"/>
-<summary>I spent the last two days trying to get good fight scenes out of MiniMax H3 locally (RTX 5090, ComfyUI, the H3 Master Extender for chaining 15 s clips). I ran about two dozen renders with everything frozen except one setting at a time. The thing that won was HyperFlow, which I barely see anyone ment</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 5 · render, comfyui, minimax, lora, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I spent the last two days trying to get good fight scenes out of MiniMax H3 locally (RTX 5090, ComfyUI, the H3 Master Extender for chaining 15 s clips). I ran about two dozen renders with everything frozen except one setting at a time. The thing that won was HyperFlow, which I barely see anyone mention here, so here's what I tried, the numbers, and the traps I hit on the way. Short version: for action, HyperFlow 8-step with no LoRAs at all, plus the taomate 3-step LoRA on the upscale pass, gave the best weapon consistency and the cleanest motion I've had from H3. It costs about 25% more render time than the 4-step turbo. For dialogue and slow drama I'd still use turbo. The test Same 30 s fig&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wtcitg/people_are_sleeping_on_hyperflow/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wtchlk/refine_restore_loras_for_ltx_25_from_lightricks/</id><title>Refine &amp; Restore Loras For LTX 2.5 From Lightricks</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wtchlk/refine_restore_loras_for_ltx_25_from_lightricks/"/>
-<published>2026-09-29T15:01:53+00:00</published><updated>2026-09-29T15:01:53+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="ltx"/>
-<summary>submitted by /u/fruesome [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · ltx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/fruesome [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wtchlk/refine_restore_loras_for_ltx_25_from_lightricks/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wtcgto/refine_restore_loras_for_ltx_25_from_lightricks/</id><title>Refine &amp; Restore Loras For LTX 2.5 From Lightricks</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wtcgto/refine_restore_loras_for_ltx_25_from_lightricks/"/>
-<published>2026-09-29T15:01:04+00:00</published><updated>2026-09-29T15:01:04+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="ltx"/>
-<summary>Refine is for footage you've upscaled. Push an HD shot to 8K and a standard resize leaves the image soft. Refine generates the fine detail the shot should have at 8K, without drifting from the source. https://huggingface.co/Lightricks/LTX-2.5-22b-IC-LoRA-Refine-Details/tree/main Restore is for archi</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · ltx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Refine is for footage you've upscaled. Push an HD shot to 8K and a standard resize leaves the image soft. Refine generates the fine detail the shot should have at 8K, without drifting from the source. https://huggingface.co/Lightricks/LTX-2.5-22b-IC-LoRA-Refine-Details/tree/main Restore is for archival footage. Take a 540p clip to 4K. Restore enhances color and adds a clean, sharp finish, as if the footage came off a modern digital camera. Refine keeps a shot faithful to the source. Restore changes the look intentionally. https://huggingface.co/Lightricks/LTX-2.5-22b-IC-LoRA-Restore submitted by /u/fruesome [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wtcgto/refine_restore_loras_for_ltx_25_from_lightricks/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
