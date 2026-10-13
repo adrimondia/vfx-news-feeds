@@ -2,8 +2,49 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-12T22:30:24+00:00</updated>
+<updated>2026-10-13T00:30:33+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1x4hdod/im_still_updating_the_workflow_for_retexturing/</id><title>I'm still updating the workflow for retexturing the UVs of the open-source MakeHuman character creator Blender add-on! MakeHuman has tons of customization sliders, rigging options, animations and much more. I've even repurposed the workflow for some of the clothing it comes with!</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x4hdod/im_still_updating_the_workflow_for_retexturing/"/>
+<published>2026-10-12T23:34:39+00:00</published><updated>2026-10-12T23:34:39+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="rigging"/>
+<category term="comfyui"/>
+<category term="blender"/>
+<category term="flux"/>
+<summary>https://drive.google.com/file/d/10F_9xbm2sdWDAw_E8orXBltqhNjFX9Ef/view?usp=sharing A2 MakeHuman: Image to UV Texture Workflow (ComfyUI) Give it a picture of the character you want, and it paints the full UV texture for you: head, body, hands and feet. It’s fun to use, and you don’t have to write the</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 6 · rigging, comfyui, blender, flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;https://drive.google.com/file/d/10F_9xbm2sdWDAw_E8orXBltqhNjFX9Ef/view?usp=sharing A2 MakeHuman: Image to UV Texture Workflow (ComfyUI) Give it a picture of the character you want, and it paints the full UV texture for you: head, body, hands and feet. It’s fun to use, and you don’t have to write the prompts yourself. How it works Load your style reference , which can be any image of the character or look you want, and your UV map . Qwen3-VL looks at your image and describes each part. The head gets face colors and textures, the body gets where the colors and markings sit, and the hands and feet get their material. Each part is generated with Flux 2 Klein , using the UV layout as a guide so t&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x4hdod/im_still_updating_the_workflow_for_retexturing/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1x4gafz/i_built_a_comfyui_node_for_character_photoshoots/</id><title>I built a ComfyUI node for character photoshoots. It came out of running a fake Instagram model.</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x4gafz/i_built_a_comfyui_node_for_character_photoshoots/"/>
+<published>2026-10-12T22:44:21+00:00</published><updated>2026-10-12T22:44:21+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<summary>For a while, I ran an Instagram account for a model that does not exist. Everything was generated in ComfyUI. It reached around 40,000 followers until Instagram took the account down. That was that. The part that stayed with me was the work behind the posts. Every shot needed a look, a place, light,</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;For a while, I ran an Instagram account for a model that does not exist. Everything was generated in ComfyUI. It reached around 40,000 followers until Instagram took the account down. That was that. The part that stayed with me was the work behind the posts. Every shot needed a look, a place, light, and a pose, and all of it had to stay consistent. I wrote prompts by hand at first. Later, I pulled images from Pinterest and sent them through AI to get a prompt back for a similar picture. That worked sometimes. It didn't give me control over small details, and I wanted to pick options visually instead of typing them and hoping. So I built a panel for myself. Then it turned into a node. Perfect&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x4gafz/i_built_a_comfyui_node_for_character_photoshoots/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1x4fq9m/filmcraft_this_entire_movie_was_rendered_as_one/</id><title>FilmCraft, This entire movie was rendered as one sequence. Update 1</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x4fq9m/filmcraft_this_entire_movie_was_rendered_as_one/"/>
+<published>2026-10-12T22:19:26+00:00</published><updated>2026-10-12T22:19:26+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="color grading"/>
+<category term="comfyui"/>
+<category term="minimax"/>
+<summary>7 minutes made in 3 weeks using MiniMax H3 through my set of tools for ComfyUI. It's meant to make creating and iterating on very long timelines as painless as possible and make iteration fast. Quickly tweak prompts, references, and redo entire shots or sequences while spending less time. (I just re</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · color grading, comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;7 minutes made in 3 weeks using MiniMax H3 through my set of tools for ComfyUI. It's meant to make creating and iterating on very long timelines as painless as possible and make iteration fast. Quickly tweak prompts, references, and redo entire shots or sequences while spending less time. (I just redid the travel sequence and part of the battle sequence again last night when I learned some tricks about color grading my reference frames) You can find it here: https://github.com/spacesimeco-hue/Chain-Motion-AI-Video-Editor submitted by /u/Super_Range45 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x4fq9m/filmcraft_this_entire_movie_was_rendered_as_one/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1x4e32j/i_was_frustrated_that_of_all_the_incredible_image/</id><title>I was frustrated that of all the incredible image processing we can do in ComfyUI, I couldn't find a RAW image denoise, like what Adobe Lightroom can do for digital SLR photos. I had Claude Code whip something up and it works!</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x4e32j/i_was_frustrated_that_of_all_the_incredible_image/"/>
+<published>2026-10-12T21:10:43+00:00</published><updated>2026-10-12T21:10:43+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<summary>Just install the custom node from here, if you're interested: https://github.com/singularity098/comfyui-raw-denoise It comes with a workflow included in the workflows dir. I got some great results with it! submitted by /u/God_Hand_9764 [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Just install the custom node from here, if you're interested: https://github.com/singularity098/comfyui-raw-denoise It comes with a workflow included in the workflows dir. I got some great results with it! submitted by /u/God_Hand_9764 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x4e32j/i_was_frustrated_that_of_all_the_incredible_image/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1x4cww3/minimaxh3generate_video_from_storyboard_draft/</id><title>MiniMaxH3-Generate video from storyboard draft</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x4cww3/minimaxh3generate_video_from_storyboard_draft/"/>
@@ -22,6 +63,15 @@
 <category term="lora"/>
 <summary>https://preview.redd.it/f7ytj63103vh1.jpg?width=2996&amp;format=pjpg&amp;auto=webp&amp;s=4f5ff97fae270d5b912fcb4193dd75b865604dce Since my last post has been deleted unfortunately (due to a mega-link), here we go again. I've spent quiet some time now with Refmods and this workflow, and I'am still baffled how ea</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;https://preview.redd.it/f7ytj63103vh1.jpg?width=2996&amp;amp;format=pjpg&amp;amp;auto=webp&amp;amp;s=4f5ff97fae270d5b912fcb4193dd75b865604dce Since my last post has been deleted unfortunately (due to a mega-link), here we go again. I've spent quiet some time now with Refmods and this workflow, and I'am still baffled how easy it is to create a character identity with very low effort. This is a no-brainer if you don't want to or can't train a Lora, all you need is good pictures and a good voice sample, the refmod-training is done in literally seconds (depending on your GPU of course). I did my very best to make this workflow easily understandable for even beginners, nevertheless here's some explanation: The workflow &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x4auud/minimax_h3_refmod_workflow/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1x49px3/is_minimax_h3_recommend_for_90s_style_anime/</id><title>Is minimax h3 recommend for 90s style anime generations?</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x49px3/is_minimax_h3_recommend_for_90s_style_anime/"/>
+<published>2026-10-12T18:26:50+00:00</published><updated>2026-10-12T18:26:50+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="minimax"/>
+<summary>submitted by /u/starking96 [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/starking96 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x49px3/is_minimax_h3_recommend_for_90s_style_anime/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1x49hu0/a_hyper_realism_krea2_model_generate_magazine/</id><title>A hyper realism Krea2 model generate Magazine page with multiple photos in one shot -</title>
@@ -62,6 +112,15 @@
 <category term="upscaler"/>
 <summary>Do the images you generate look like AI slop with plastic skin? These workflows can help you fix that. They're based on the 2K upscaler with Z-Image Turbo. The upscaling step has been removed, and the model has been swapped for the int8.convrot version of Z-Image Turbo. You can easily add it to KREA</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · upscaling, upscaler&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Do the images you generate look like AI slop with plastic skin? These workflows can help you fix that. They're based on the 2K upscaler with Z-Image Turbo. The upscaling step has been removed, and the model has been swapped for the int8.convrot version of Z-Image Turbo. You can easily add it to KREA 2 Turbo and Qwen-Image-Edit workflows, with only a small increase in processing time. Performance 1024x1024 I2I: ~3 seconds for a second-generation image on an RTX 5070 Ti; ~6 seconds on an RTX 5060 Ti 16GB. Performance (1024×1024) KREA2 Turbo+ Z image Turbo: ~9.5 seconds for a second-generation image on an RTX 5070 Ti; ~19 seconds on an RTX 5060 Ti 16GB. These workflows are on Civitai and Github&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x47z40/fix_plastic_skin_krea_2_turbo_and_i2i_workflows/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1x47uh3/comfyui_yue2_generate_music_in_comfyui_with_the/</id><title>ComfyUI_YuE2 — Generate music in ComfyUI with the official YuE2 pipeline</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x47uh3/comfyui_yue2_generate_music_in_comfyui_with_the/"/>
+<published>2026-10-12T17:17:36+00:00</published><updated>2026-10-12T17:17:36+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<summary>submitted by /u/jeankassio [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/jeankassio [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x47uh3/comfyui_yue2_generate_music_in_comfyui_with_the/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1x47qzt/finally_a_fix_for_comfyui_crashes/</id><title>Finally a fix for ComfyUI crashes</title>
@@ -7208,27 +7267,5 @@
 <category term="ltx"/>
 <summary>submitted by /u/PhilosopherSweaty826 [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · minimax, ltx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/PhilosopherSweaty826 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wsvuad/what_benefits_will_i_notice_when_upgrading_from/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wsvg3p/face_swap_style_transfer_in_one_pass_qwen_image/</id><title>Face Swap + Style Transfer in One Pass — Qwen Image 2.1 + New Body Swap LoRA</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wsvg3p/face_swap_style_transfer_in_one_pass_qwen_image/"/>
-<published>2026-09-29T00:17:02+00:00</published><updated>2026-09-29T00:17:02+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="face swap"/>
-<category term="lora"/>
-<summary>I’ve been testing the new Qwen Image 2.1 together with my friend Alissonerdx’s new BFS Body Swap LoRA, using the standard workflow from his repo. What surprised me is that this goes beyond a traditional face swap: in a single pass, I can transfer my identity onto a character while Qwen simultaneousl</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · face swap, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I’ve been testing the new Qwen Image 2.1 together with my friend Alissonerdx’s new BFS Body Swap LoRA, using the standard workflow from his repo. What surprised me is that this goes beyond a traditional face swap: in a single pass, I can transfer my identity onto a character while Qwen simultaneously reinterprets my face, hair, beard, body, etc. in the original character’s art style , while preserving the pose, clothing, proportions, and overall visual language. These are some quick tests I made. The results are dope. https://huggingface.co/Alissonerdx/BFS-Best-Face-Swap/blob/main/docs/qwen-image-2.1-body.md submitted by /u/Hoje-Na-IA [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wsvg3p/face_swap_style_transfer_in_one_pass_qwen_image/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wsu1wl/h3_minimax_continous_shot_without_quality_loss/</id><title>[H3 Minimax] Continous Shot without Quality Loss</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wsu1wl/h3_minimax_continous_shot_without_quality_loss/"/>
-<published>2026-09-28T23:15:08+00:00</published><updated>2026-09-28T23:15:08+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="video editing"/>
-<category term="minimax"/>
-<category term="consistency"/>
-<category term="character consistency"/>
-<summary>People claim that it's still impossible to create sticked together videos without quality loss, that's wrong. This is a video I've made without any video editing tool what so ever, just using a great H3 workflow that enables you to continue the previous shots. In fact I didn't even write the shot/sc</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 5 · video editing, minimax, consistency, character consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;People claim that it's still impossible to create sticked together videos without quality loss, that's wrong. This is a video I've made without any video editing tool what so ever, just using a great H3 workflow that enables you to continue the previous shots. In fact I didn't even write the shot/scenes but let open Gemini decide to write a 1970's martial arts scene according to the H3 prompting guides. I've created 3-4 several 10-12 second long scenes and just asked Gemini to continue by asking for the "next scene following the last one" This took me just about 45 minutes on an RTX 5070 Ti I can easily extend this whole thing to an two hour long movie if I want to, not losing any character &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wsu1wl/h3_minimax_continous_shot_without_quality_loss/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
