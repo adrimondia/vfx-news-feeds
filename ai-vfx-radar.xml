@@ -2,8 +2,97 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-13T16:31:12+00:00</updated>
+<updated>2026-10-13T18:30:30+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1x545pb/build_a_free_content_tool_of_gpu_owners/</id><title>Build a free content tool of GPU owners</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x545pb/build_a_free_content_tool_of_gpu_owners/"/>
+<published>2026-10-13T18:11:33+00:00</published><updated>2026-10-13T18:11:33+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="image-to-video"/>
+<category term="comfyui"/>
+<category term="wan"/>
+<summary>I've been leaning on open source for years: ComfyUI, Qwen, Wan, ACE-Step, ffmpeg, all of it. I finally built something big enough that it felt wrong not to put it out there. It's called YourContent. It runs on top of your own ComfyUI and puts the whole posting workflow in one browser tab: - make pic</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · image-to-video, comfyui, wan&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I've been leaning on open source for years: ComfyUI, Qwen, Wan, ACE-Step, ffmpeg, all of it. I finally built something big enough that it felt wrong not to put it out there. It's called YourContent. It runs on top of your own ComfyUI and puts the whole posting workflow in one browser tab: - make pictures (Qwen-Image-2512) - short clips (Wan 2.2 image-to-video) - and music (ACE-Step 1.5) - cut them into a reel with music and fades, - exported for 9:16, 4:5, 1:1 or 16:9 - turn them into posts in your own brand (colors, fonts, logo, voice), using 35 post styles - plan everything on a calendar you can subscribe to from Google, Apple or Outlook optionally hook up Claude, ChatGPT or any MCP client&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x545pb/build_a_free_content_tool_of_gpu_owners/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1x52yp6/hi_im_building_custom_comfyui_nodes_for_ai/</id><title>Hi! I'm building custom ComfyUI nodes for AI filmmaking 🎬</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x52yp6/hi_im_building_custom_comfyui_nodes_for_ai/"/>
+<published>2026-10-13T17:28:19+00:00</published><updated>2026-10-13T17:28:19+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="camera control"/>
+<category term="comfyui"/>
+<category term="ai video"/>
+<category term="filmmaking"/>
+<summary>Hey everyone! 👋 I’m the creator of CineConIA , a project focused on AI filmmaking and custom ComfyUI nodes. I’m developing free tools to simplify complex workflows, improve camera control, and make AI video creation more intuitive. I’ll be sharing tutorials, demonstrations, and development updates. </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 6 · camera control, comfyui, ai video, filmmaking&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey everyone! 👋 I’m the creator of CineConIA , a project focused on AI filmmaking and custom ComfyUI nodes. I’m developing free tools to simplify complex workflows, improve camera control, and make AI video creation more intuitive. I’ll be sharing tutorials, demonstrations, and development updates. Happy to be part of this community! What features would you like to see in ComfyUI? submitted by /u/CineConIA [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x52yp6/hi_im_building_custom_comfyui_nodes_for_ai/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1x52s15/gausify_orbit_is_now_open_source_turn_aigenerated/</id><title>Gausify Orbit is now open source: turn AI-generated 360 orbit videos into Gaussian Splats, entirely in your browser</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x52s15/gausify_orbit_is_now_open_source_turn_aigenerated/"/>
+<published>2026-10-13T17:21:48+00:00</published><updated>2026-10-13T17:21:48+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="video model"/>
+<category term="3d gaussian"/>
+<category term="sam 2"/>
+<category term="comfyui"/>
+<category term="minimax"/>
+<category term="lora"/>
+<category term="ai video"/>
+<summary>A few days ago I posted “ Gausify Orbit - I am building a web application to transform images into Gaussian Splats ”, and it was removed because the project wasn’t open source yet. It’s now released under the MIT license , so here it is again, with a lot of updates. What it does You give it a video </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 7 · video model, 3d gaussian, sam 2, comfyui, minimax, lora, ai video&lt;/small&gt;&lt;/p&gt;&lt;p&gt;A few days ago I posted “ Gausify Orbit - I am building a web application to transform images into Gaussian Splats ”, and it was removed because the project wasn’t open source yet. It’s now released under the MIT license , so here it is again, with a lot of updates. What it does You give it a video that circles around a subject. That can be a clip from a video model (I mostly make mine in ComfyUI using Minimax H3 + 360 LoRA by pablodawson), a phone video, or a folder of images. You get back a 3D Gaussian Splat you can view, export or share. Running in the browser The web version runs the whole pipeline locally on WebGPU . Nothing to install, no Python, no CUDA, and your video never leaves yo&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x52s15/gausify_orbit_is_now_open_source_turn_aigenerated/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1x52j87/aziib_pixel_style_lora_pixel_art_lora_for_krea2/</id><title>Aziib Pixel Style Lora (pixel art lora for krea2 and anima)</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x52j87/aziib_pixel_style_lora_pixel_art_lora_for_krea2/"/>
+<published>2026-10-13T17:13:00+00:00</published><updated>2026-10-13T17:13:00+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="lora"/>
+<summary>Download: https://civitai.com/models/672328/aziib-pixel-style krea 2 is pretty decent with text. trigger word: aziib pixel style submitted by /u/aziib [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Download: https://civitai.com/models/672328/aziib-pixel-style krea 2 is pretty decent with text. trigger word: aziib pixel style submitted by /u/aziib [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x52j87/aziib_pixel_style_lora_pixel_art_lora_for_krea2/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1x51znr/lightx2vqwenimage21lightning_4_step_turbo_lora/</id><title>lightx2v/Qwen-Image-2.1-Lightning - 4 Step Turbo LoRA</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x51znr/lightx2vqwenimage21lightning_4_step_turbo_lora/"/>
+<published>2026-10-13T16:53:06+00:00</published><updated>2026-10-13T16:53:06+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="image editing"/>
+<category term="lora"/>
+<summary>"A 4-step distilled LoRA for Qwen-Image-2.1 , supporting text-to-image generation and image editing. Training was performed entirely on 16 Huawei Ascend 910B NPUs , using DMD in LightX2V ." I think it's rank 16. Pretty small for a turbo lora, but we'll see I guess. submitted by /u/Scriabinical [link</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · image editing, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;"A 4-step distilled LoRA for Qwen-Image-2.1 , supporting text-to-image generation and image editing. Training was performed entirely on 16 Huawei Ascend 910B NPUs , using DMD in LightX2V ." I think it's rank 16. Pretty small for a turbo lora, but we'll see I guess. submitted by /u/Scriabinical [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x51znr/lightx2vqwenimage21lightning_4_step_turbo_lora/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1x50t1l/building_in_public_a_free_open_source_home_for/</id><title>Building in public: a free, open source home for your AI images. Would anyone give me 5 minutes?</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x50t1l/building_in_public_a_free_open_source_home_for/"/>
+<published>2026-10-13T16:09:28+00:00</published><updated>2026-10-13T16:09:28+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<category term="lora"/>
+<summary>This one is a bit vulnerable to post, so bear with me. For the past few months I've been working with a small team on Picteus , a free, open source app that runs on your own computer. Every image you generate stays together with how you made it: prompt, checkpoint, LoRAs and their weights, seed, wor</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;This one is a bit vulnerable to post, so bear with me. For the past few months I've been working with a small team on Picteus , a free, open source app that runs on your own computer. Every image you generate stays together with how you made it: prompt, checkpoint, LoRAs and their weights, seed, workflow. Why I care: I've watched so many creators lose their best work. Not the files. Those are somewhere in a folder of thousands. What gets lost is how they made it. Which LoRA, which weight, which small tweak finally made it click. Every tool keeps its own little piece of that history, none of them talk to each other, and your work ends up locked inside whichever tool you happened to use that d&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x50t1l/building_in_public_a_free_open_source_home_for/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1x4zai1/50_free_comfyui_automation_workflows_ep38/</id><title>50 Free ComfyUI Automation Workflows (Ep38)</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x4zai1/50_free_comfyui_automation_workflows_ep38/"/>
+<published>2026-10-13T15:12:51+00:00</published><updated>2026-10-13T15:12:51+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="upscaling"/>
+<category term="outpainting"/>
+<category term="comfyui"/>
+<category term="flux"/>
+<category term="lora"/>
+<summary>In this episode, I'll show you 50 free ComfyUI workflows that automate the boring parts of working with images. Instead of editing images one by one, you point a workflow at a folder, press Run, and it does the whole folder for you. We'll start with simple image folder automation: resize, social med</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 6 · upscaling, outpainting, comfyui, flux, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;In this episode, I'll show you 50 free ComfyUI workflows that automate the boring parts of working with images. Instead of editing images one by one, you point a workflow at a folder, press Run, and it does the whole folder for you. We'll start with simple image folder automation: resize, social media sizes, watermarks, rename and convert, remove backgrounds, slideshows, contact sheets, upscaling, and adding your logo to every image. Then we'll edit whole folders with Flux Klein: one prompt for all images, a different prompt for each image, coloring pages, outpainting, product photos, and restoring and colorizing old photos. You'll also see how to make many images in one Run with lists of pr&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x4zai1/50_free_comfyui_automation_workflows_ep38/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1x4z8qa/i_built_block_party_to_make_comfyui_workflows/</id><title>I built Block Party to make ComfyUI workflows easier to share</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x4z8qa/i_built_block_party_to_make_comfyui_workflows/"/>
+<published>2026-10-13T15:10:57+00:00</published><updated>2026-10-13T15:10:57+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<summary>I kept running into the same problem with shared workflows: missing models, different node versions, and no clear idea of which files go where. So I started building Block Party. It exports a workflow as a ZIP, checks dependencies on the receiving machine, and lets you review and install what’s miss</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I kept running into the same problem with shared workflows: missing models, different node versions, and no clear idea of which files go where. So I started building Block Party. It exports a workflow as a ZIP, checks dependencies on the receiving machine, and lets you review and install what’s missing. There’s also a browser interface for prompts, image/video/audio inputs, and results. This video is one of my tests with it. It’s still a work in progress, and trying it on another machine has helped me find plenty of things to fix. Curious how other people handle sharing workflows, and what you’d want something like this to do. Code: https://github.com/Niutonian/Comfyui_BlockParty submitted b&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x4z8qa/i_built_block_party_to_make_comfyui_workflows/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1x4z41u/updated_obvpm_timeline_workflow_v014007/</id><title>Updated OBVPM Timeline Workflow v0.1.4-007</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x4z41u/updated_obvpm_timeline_workflow_v014007/"/>
@@ -6897,127 +6986,5 @@
 <category term="lora"/>
 <summary>Je travaille depuis février à améliorer la gestion de la transparence avec FLUX.2 et je publie le résultat. C'est aussi mon premier article ; je viens de terminer le lycée, ce qui m'a permis d'avoir le temps de le finaliser. Description RGBA VAE : Le VAE de FLUX.2 a été étendu à 4 canaux et affiné p</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · flux, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Je travaille depuis février à améliorer la gestion de la transparence avec FLUX.2 et je publie le résultat. C'est aussi mon premier article ; je viens de terminer le lycée, ce qui m'a permis d'avoir le temps de le finaliser. Description RGBA VAE : Le VAE de FLUX.2 a été étendu à 4 canaux et affiné pour que les latents conservent le canal alpha. Extract-9B : Un LoRA pour la base de Klein 9B. Fournissez-lui une photo et le même arrière-plan sans l'objet, et il renverra l'objet sous forme de PNG transparent. Les ombres douces restent semi-transparentes (voir image). Remove-9B : Un LoRA qui efface un objet. Enchaînez-le avec Extract pour ne passer le pinceau que sur l'objet. Chiffres (petit ense&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wti96p/i_made_flux2_klein_output_real_transparent_images/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wth57y/minimaxh3_general_motion_continuity_repair_v2_lora/</id><title>MiniMax-H3 General Motion Continuity Repair V2 Lora</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wth57y/minimaxh3_general_motion_continuity_repair_v2_lora/"/>
-<published>2026-09-29T17:56:31+00:00</published><updated>2026-09-29T17:56:31+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="lora"/>
-<summary>submitted by /u/fruesome [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/fruesome [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wth57y/minimaxh3_general_motion_continuity_repair_v2_lora/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wth4uj/minimaxh3_general_motion_continuity_repair_v2_lora/</id><title>MiniMax-H3 General Motion Continuity Repair V2 Lora</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wth4uj/minimaxh3_general_motion_continuity_repair_v2_lora/"/>
-<published>2026-09-29T17:56:09+00:00</published><updated>2026-09-29T17:56:09+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="lora"/>
-<summary>Lora fixes highspeed flips/spins/rolls/inversions submitted by /u/fruesome [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Lora fixes highspeed flips/spins/rolls/inversions submitted by /u/fruesome [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wth4uj/minimaxh3_general_motion_continuity_repair_v2_lora/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wth4dx/remainder_episode_02_continued_experimenting_with/</id><title>Remainder — Episode 02. Continued experimenting with restrained camera language and AI video.</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wth4dx/remainder_episode_02_continued_experimenting_with/"/>
-<published>2026-09-29T17:55:39+00:00</published><updated>2026-09-29T17:55:39+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="minimax"/>
-<category term="ltx"/>
-<category term="consistency"/>
-<category term="character consistency"/>
-<category term="ai video"/>
-<summary>Finished the second short in my Remainder series. This one became an experiment in working around some of the things AI video still struggles with. Instead of trying to force complicated acting or fast action, I kept most of the camera language to side, frontal and overhead views and built the seque</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 7 · comfyui, minimax, ltx, consistency, character consistency, ai video&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Finished the second short in my Remainder series. This one became an experiment in working around some of the things AI video still struggles with. Instead of trying to force complicated acting or fast action, I kept most of the camera language to side, frontal and overhead views and built the sequence around walking, blocking, environment and one simple physical action. The story is basically a small decision with a larger consequence: Rima has to manually isolate a flooded sector, knowing that doing so also removes Central’s presence from that part of the facility. Most of the I2V work was done through ComfyUI using LTX and MiniMax H3, with quite a lot of iteration on timing, character con&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wth4dx/remainder_episode_02_continued_experimenting_with/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wtgns0/a_quick_minimax_h3_news_roundup_29th_september/</id><title>A quick Minimax H3 news round-up - 29th September 2026</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wtgns0/a_quick_minimax_h3_news_roundup_29th_september/"/>
-<published>2026-09-29T17:38:10+00:00</published><updated>2026-09-29T17:38:10+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="minimax"/>
-<category term="lora"/>
-<summary>Another quick Minimax H3 news and goodies round-up, for those who may have missed some items. -&gt; 1920s Intertitles LoRA for Minimax H3. Helps with generating "authentic, hand-painted silent film title cards with visible physical decay". Two variants available, oxidised or jitter-scratches. Trigger: </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · comfyui, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Another quick Minimax H3 news and goodies round-up, for those who may have missed some items. -&amp;gt; 1920s Intertitles LoRA for Minimax H3. Helps with generating "authentic, hand-painted silent film title cards with visible physical decay". Two variants available, oxidised or jitter-scratches. Trigger: aged_intertitle and the suitable prompt phrases suggested by the maker. https://civitai.com/models/2966370/1920s-silent-film-intertitles-aged-intertitle-concept-lora-minimax-h3 -&amp;gt; Nwpxstyle LoRA. "A style LoRA that makes MiniMax H3 draw and animate in a warm, thick-outlined, dithered pixel-art anime style." Trained on stills for pixel-precision, but the style carries over to video. Looks as though&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wtgns0/a_quick_minimax_h3_news_roundup_29th_september/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wtgmya/minimax_h3_new_comfy_model/</id><title>Minimax H3 new comfy Model</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wtgmya/minimax_h3_new_comfy_model/"/>
-<published>2026-09-29T17:37:20+00:00</published><updated>2026-09-29T17:37:20+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="minimax"/>
-<summary>submitted by /u/deepsky88 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/deepsky88 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wtgmya/minimax_h3_new_comfy_model/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wtgm1i/minimax_h3_new_comfy_model/</id><title>Minimax H3 new comfy Model</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wtgm1i/minimax_h3_new_comfy_model/"/>
-<published>2026-09-29T17:36:22+00:00</published><updated>2026-09-29T17:36:22+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="minimax"/>
-<summary>In official comfy huggingface there's a new interesting model (w6a8), it seems perfect for 16gb VRAM, i wanted to tried it but Comfy gives error, has someone successfuly tried it? https://huggingface.co/Comfy-Org/MiniMax-H3/tree/main/diffusion_models EDIT: i think we need to wait for an update becau</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;In official comfy huggingface there's a new interesting model (w6a8), it seems perfect for 16gb VRAM, i wanted to tried it but Comfy gives error, has someone successfuly tried it? https://huggingface.co/Comfy-Org/MiniMax-H3/tree/main/diffusion_models EDIT: i think we need to wait for an update because that quantization is not yet supported submitted by /u/deepsky88 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wtgm1i/minimax_h3_new_comfy_model/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://the-decoder.com/amd-buys-ai-world-model-startup-world-labs-for-8-2-billion/</id><title>AMD buys AI world model startup World Labs for $8.2 billion</title>
-<link rel="alternate" href="https://the-decoder.com/amd-buys-ai-world-model-startup-world-labs-for-8-2-billion/"/>
-<published>2026-09-29T17:13:51+00:00</published><updated>2026-09-29T17:13:51+00:00</updated>
-<author><name>The Decoder</name></author>
-<category term="world model"/>
-<summary>Fei-Fei Li's AI startup World Labs is being acquired by AMD for $8.2 billion. Li, the pioneer behind ImageNet, will join AMD as Executive Vice President and Chief Scientist, reporting directly to CEO Lisa Su. World Labs brings its spatial intelligence models, including Atlas, which generates and sim</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;The Decoder · score 2 · world model&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Fei-Fei Li's AI startup World Labs is being acquired by AMD for $8.2 billion. Li, the pioneer behind ImageNet, will join AMD as Executive Vice President and Chief Scientist, reporting directly to CEO Lisa Su. World Labs brings its spatial intelligence models, including Atlas, which generates and simulates 3D environments from minimal input. AMD gains its own AI research unit focused on physical-world models, sharpening its competition with Nvidia. The article AMD buys AI world model startup World Labs for $8.2 billion appeared first on The Decoder .&lt;/p&gt;&lt;p&gt;&lt;a href="https://the-decoder.com/amd-buys-ai-world-model-startup-world-labs-for-8-2-billion/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wtfwmp/minimax_h3_character_consistency/</id><title>MiniMax H3 character consistency</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wtfwmp/minimax_h3_character_consistency/"/>
-<published>2026-09-29T17:10:03+00:00</published><updated>2026-09-29T17:10:03+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<category term="minimax"/>
-<category term="consistency"/>
-<category term="character consistency"/>
-<summary>I'm probably quite late to the party, but my little video editor project has reached a level where it can actually be used, so perhaps someone might find it useful. The focus is on creating reusable character reels, environments and props, and make it easy to feed them into the ref2va variant of H3.</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 7 · comfyui, minimax, consistency, character consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I'm probably quite late to the party, but my little video editor project has reached a level where it can actually be used, so perhaps someone might find it useful. The focus is on creating reusable character reels, environments and props, and make it easy to feed them into the ref2va variant of H3. From my poorly executed demo video above, it can be noted that environment consistency can be improved. But it seems this can often be improved by generating a few different takes at a low resolution and picking the best seed. It connects to a running instance of ComfyUI to queue custom created workflows and keep track of the outputs. Prompt assistance is also a main part, using either text model&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wtfwmp/minimax_h3_character_consistency/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wtfput/outpainting_96_video_to_169_using_minimax_h3/</id><title>Outpainting 9:!6 video to 16:9 using Minimax H3</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wtfput/outpainting_96_video_to_169_using_minimax_h3/"/>
-<published>2026-09-29T17:03:00+00:00</published><updated>2026-09-29T17:03:00+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="outpainting"/>
-<category term="comfyui"/>
-<category term="minimax"/>
-<summary>Hello, i have a bunch of 9:16 videos that i want to outpaint to 16:9. i used methods mentioned here but it result into other videos entirely, not the same video , is there any method that i can achieve the same video but with left and right completion of video to the size i need ? https://www.reddit</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 5 · outpainting, comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hello, i have a bunch of 9:16 videos that i want to outpaint to 16:9. i used methods mentioned here but it result into other videos entirely, not the same video , is there any method that i can achieve the same video but with left and right completion of video to the size i need ? https://www.reddit.com/r/comfyui/comments/1vsu2e7/anyone_have_success_with_outpainting_using/ here are my results Original: https://reddit.com/link/1wtfput/video/ka1770twphsh1/player result: https://reddit.com/link/1wtfput/video/eavgpybdqhsh1/player any help is appreciated, i use the first image method 16:9 mentioned in the same post link above.. submitted by /u/navarisun [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wtfput/outpainting_96_video_to_169_using_minimax_h3/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wtfjdp/is_there_anything_better_than_zimage_turbo_for/</id><title>Is there anything better than z-image turbo for creating a LoRA of oneself?</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wtfjdp/is_there_anything_better_than_zimage_turbo_for/"/>
-<published>2026-09-29T16:56:31+00:00</published><updated>2026-09-29T16:56:31+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="lora"/>
-<summary>I have 16GB of VRAM and 64GB of RAM. I’ve been using a LoRA I created almost a year ago, but I’m not sure if anything has come out since then that produces even better photorealism and can be run on a home computer. Thanks in advance. submitted by /u/Roubbes [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I have 16GB of VRAM and 64GB of RAM. I’ve been using a LoRA I created almost a year ago, but I’m not sure if anything has come out since then that produces even better photorealism and can be run on a home computer. Thanks in advance. submitted by /u/Roubbes [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wtfjdp/is_there_anything_better_than_zimage_turbo_for/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wtfglg/h3update_comfyuicontinuity_cast_management_refmod/</id><title>[H3-Update] ComfyUI-Continuity : Cast Management, RefMod Saving, Segment Controls &amp; Seam Optimization</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wtfglg/h3update_comfyuicontinuity_cast_management_refmod/"/>
-<published>2026-09-29T16:53:36+00:00</published><updated>2026-09-29T16:53:36+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<category term="consistency"/>
-<summary>Hi everyone, updated ComfyUI custom node, ComfyUI-Continuity! This node is designed to help maintain consistency across generations and optimize smooth transitions in your workflows. Here is a quick overview of the key features in this update: ✨ Key Features Cast / Character Tab: Effortlessly manage</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi everyone, updated ComfyUI custom node, ComfyUI-Continuity! This node is designed to help maintain consistency across generations and optimize smooth transitions in your workflows. Here is a quick overview of the key features in this update: ✨ Key Features Cast / Character Tab: Effortlessly manage characters and recurring subjects across your generations in a dedicated tab. RefMod Saving: Easily save, export, and reload your Reference Module (RefMod) presets for quick reusability. Segment &amp;amp; Global Segment Control: Fine-tune specific frame segments individually while maintaining global context across the entire sequence. Selectable Continuity &amp;amp; Seam Optimization: Choose from multiple optimi&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wtfglg/h3update_comfyuicontinuity_cast_management_refmod/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wtezf9/just_showing_off_all_the_toys_ive_been_making_in/</id><title>Just showing off all the toys I've been making in ComfyUI, Krita and Blender!</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wtezf9/just_showing_off_all_the_toys_ive_been_making_in/"/>
-<published>2026-09-29T16:35:48+00:00</published><updated>2026-09-29T16:35:48+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="blender"/>
-<summary>submitted by /u/o0ANARKY0o [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · comfyui, blender&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/o0ANARKY0o [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wtezf9/just_showing_off_all_the_toys_ive_been_making_in/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
