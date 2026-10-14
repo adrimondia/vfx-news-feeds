@@ -2,8 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-14T10:31:05+00:00</updated>
+<updated>2026-10-14T12:30:52+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1x5olxa/minimax_h3_character_swap_time_consumption_and/</id><title>Minimax H3 Character Swap: Time Consumption and Performance Test Across Different Acceleration Schemes</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x5olxa/minimax_h3_character_swap_time_consumption_and/"/>
+<published>2026-10-14T11:21:45+00:00</published><updated>2026-10-14T11:21:45+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="minimax"/>
+<category term="lora"/>
+<summary>Tech Step Cost Sampling Cost Turbo LoRA 4 632.448s 602.129s Turbo＋Sol 4 717.549s 579.753s Turbo＋Spark-H3 4 682.326s 652.085s Turbo＋VEDA 4 353.355s 321.554s Sol (Only) 16 2309.627s 2280.068s Spark-H3(Only) 16 2441.209s 2411.523s VEDA(Only) 16 993.426s 963.193s Test Environment: RTX 5090 + 96 GB RAM. </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Tech Step Cost Sampling Cost Turbo LoRA 4 632.448s 602.129s Turbo＋Sol 4 717.549s 579.753s Turbo＋Spark-H3 4 682.326s 652.085s Turbo＋VEDA 4 353.355s 321.554s Sol (Only) 16 2309.627s 2280.068s Spark-H3(Only) 16 2441.209s 2411.523s VEDA(Only) 16 993.426s 963.193s Test Environment: RTX 5090 + 96 GB RAM. The reference video has a total duration of 18 seconds; only the first 15 seconds were tested, with a resolution of 1MP. The tests are driven via Codex Sol 6.1, so the results may not be rigorous. submitted by /u/Mysterious_Pride_858 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x5olxa/minimax_h3_character_swap_time_consumption_and/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1x5nv5u/comfyui_v0400_released/</id><title>ComfyUI v0.40.0 released</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x5nv5u/comfyui_v0400_released/"/>
+<published>2026-10-14T10:38:44+00:00</published><updated>2026-10-14T10:38:44+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<summary>submitted by /u/Fcking_Chuck [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/Fcking_Chuck [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x5nv5u/comfyui_v0400_released/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://github.com/harry0703/MoneyPrinterTurbo</id><title>harry0703/MoneyPrinterTurbo</title>
 <link rel="alternate" href="https://github.com/harry0703/MoneyPrinterTurbo"/>
@@ -15,6 +34,16 @@
 <category term="seedance"/>
 <summary>利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow. MoneyPrinterTurbo 💸 一站式 AI 短视频生成工具 只需提供视频 主题 或 关键词 ，即可自动生成视频脚本、匹配素材、生成字幕和背景音乐，并合成高清短视频。 简体中文 | English | 日本語 | 版本发布 | 问题反馈 界面预览 🖥️ WebUI API 特别感谢 ❤️ 感谢 Kimi 赞助本项目！ Kimi K3 是 Moonshot AI</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;GitHub trending (Python) · score 4 · comfyui, wan, minimax, seedance&lt;/small&gt;&lt;/p&gt;&lt;p&gt;利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow. MoneyPrinterTurbo 💸 一站式 AI 短视频生成工具 只需提供视频 主题 或 关键词 ，即可自动生成视频脚本、匹配素材、生成字幕和背景音乐，并合成高清短视频。 简体中文 | English | 日本語 | 版本发布 | 问题反馈 界面预览 🖥️ WebUI API 特别感谢 ❤️ 感谢 Kimi 赞助本项目！ Kimi K3 是 Moonshot AI 迄今能力最强的模型，也是全球首个开源 3T 级模型，拥有原生视觉能力与 100 万 Token 上下文，在知识工作、推理和长周期任务中展现前沿性能。在 MoneyPrinterTurbo 中，K3 能直接驱动视频创作，不仅撰写视频文案，还会提炼素材搜索关键词、决定成片画面；对内容理解越准确，匹配到的素材就越贴题。 MoneyPrinterTurbo 用户专属优惠：新用户通过专属链接注册，首次成功充值可获充值金额 10% 的 API 额度，最高赠送 ¥1000。活动截至 2026 年 12 月 31 日。前往 Kimi 开放平台（ 中文站 ｜ Global ）体验 API。 火山引擎 感谢字节火山引擎赞助本项目！火山方舟 Agent/Coding Plan 国模套餐 首购 9.9 ，支持 GLM-5.3、Kimi-K3、DeepSeek、MiniMax、Doubao 等，注册免费领 250&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.com/harry0703/MoneyPrinterTurbo"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1x5no7y/immersive_exhibition_made_with_minimax_h3/</id><title>Immersive Exhibition made with Minimax H3</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x5no7y/immersive_exhibition_made_with_minimax_h3/"/>
+<published>2026-10-14T10:27:09+00:00</published><updated>2026-10-14T10:27:09+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="video generation"/>
+<category term="minimax"/>
+<summary>I participated in a "Museum Night" exhibition and created a 3min immersive show called Liquid Geometry. First I started thinking about a concept, following the general art style and created keyframes, before using minimax h3 for video generation. As the space is huge and covered with roughly 100 pro</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · video generation, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I participated in a "Museum Night" exhibition and created a 3min immersive show called Liquid Geometry. First I started thinking about a concept, following the general art style and created keyframes, before using minimax h3 for video generation. As the space is huge and covered with roughly 100 projectors, I had a ton of clips (around 300) to generate for the different projection surfaces. Each clip was 12sec long, rendered at 1MP using a single pass with 16 steps, the final videos were then stiched together, color graded and upcaled using Topaz. I used different GPUs (first 2 locally, the rest on runpod), here are the generation times per clip: RTX 3060 12GB VRAM: ~1hr/clip RTX 4080 Super &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x5no7y/immersive_exhibition_made_with_minimax_h3/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/vfx/comments/1x5lru6/vfx_artists_what_is_the_most_simple_but/</id><title>VFX artists, what is the most simple but complicated looking visual you have ever done for a movie or tv show?</title>
@@ -6964,36 +6993,5 @@
 <category term="controlnet"/>
 <summary>I'm a solo dev making a sci-fi horror game and wanted to use ComfyUI for concept art. Most tutorials assumed I already knew the basics, so I asked Claude to build me step-by-step lessons with plain explanations of every node and setting. Sharing them in case they help someone else. - Foundations: th</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 7 · upscaling, inpainting, image editing, comfyui, flux, controlnet&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I'm a solo dev making a sci-fi horror game and wanted to use ComfyUI for concept art. Most tutorials assumed I already knew the basics, so I asked Claude to build me step-by-step lessons with plain explanations of every node and setting. Sharing them in case they help someone else. - Foundations: the basic text-to-image graph, rewiring it yourself, seed/steps/CFG - Newer models: Z-Image Turbo, Flux.2 Klein, Krea-2 styles and LoRAs - From an image: img2img, inpainting, upscaling, background removal - Control and editing: ControlNet pose, style transfer, image editing with a text instruction - Labs: sampler shootouts on SDXL and Krea-2 Each workflow has notes on the canvas explaining what each&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wu56py/beginner_comfyui_tutorials_i_made_while_learning/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1wu3ag7/are_you_getting_more_practical_high_speed_plates/</id><title>Are you getting more practical high speed plates lately?</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wu3ag7/are_you_getting_more_practical_high_speed_plates/"/>
-<published>2026-09-30T12:12:37+00:00</published><updated>2026-09-30T12:12:37+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="nuke"/>
-<summary>Compositor here, mostly commercials. On the last two jobs the production shot practical high speed for things that would have gone straight to sim a year ago. Splashes, powder hits, a bit of glass. Both times it came down to money. One DP had a Pixboom Spark, the other a Chronos 2.1, and when I aske</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 1 · nuke&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Compositor here, mostly commercials. On the last two jobs the production shot practical high speed for things that would have gone straight to sim a year ago. Splashes, powder hits, a bit of glass. Both times it came down to money. One DP had a Pixboom Spark, the other a Chronos 2.1, and when I asked why not a Phantom the answer was the rental plus the lighting package. The Spark plates at 1000fps were clean enough to key. One powder pass had a flicker I had to deal with in Nuke, which I'm fairly sure came off the practical lights. The Chronos stuff was HD so it only really worked as background. Is this a real shift, or did I just land on two cheap jobs in a row? And when you do get the choi&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wu3ag7/are_you_getting_more_practical_high_speed_plates/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1wu2onp/blender_and_after_effects_a_good_combo/</id><title>Blender and after effects a good combo?</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wu2onp/blender_and_after_effects_a_good_combo/"/>
-<published>2026-09-30T11:42:26+00:00</published><updated>2026-09-30T11:42:26+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="compositing"/>
-<category term="nuke"/>
-<category term="blender"/>
-<summary>Hey Guys. I was just wondering if there are many people who use both Blender and After Effects? Does anyone actually do compositing work in blender? Like what's the best way to do compositing work with blender? Is it after effects or nuke? Resolve? Idk. Also, do most users prefer Windows or Mac? Doe</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 4 · compositing, nuke, blender&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey Guys. I was just wondering if there are many people who use both Blender and After Effects? Does anyone actually do compositing work in blender? Like what's the best way to do compositing work with blender? Is it after effects or nuke? Resolve? Idk. Also, do most users prefer Windows or Mac? Does it make a difference? I see people do crazy things with compositing. And apparently it's the way to go for making epic 3d work. But I never can understand it. I just make it in blender and that's it. It looks polished enough. But then I see other people who did some compositing and looks way better. Idk how to explain. ( Not talking about colour grading) View Poll submitted by /u/Beautiful_Pause&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wu2onp/blender_and_after_effects_a_good_combo/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1wu284t/cg_vfx_roundup_dlss_5_adobe_topaz_unigine_222_more/</id><title>CG &amp; VFX Roundup | DLSS 5, Adobe + Topaz, UNIGINE 2.22 &amp; More</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wu284t/cg_vfx_roundup_dlss_5_adobe_topaz_unigine_222_more/"/>
-<published>2026-09-30T11:17:01+00:00</published><updated>2026-09-30T11:17:01+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="animation"/>
-<category term="vfx"/>
-<category term="rendering"/>
-<summary>AI is no longer sitting outside the CG pipeline ; it’s becoming part of rendering, animation, game development and everyday creative tools. In this month’s CG &amp; VFX Roundup, I look at NVIDIA DLSS 5, Adobe + Topaz, UNIGINE 2.22, Zerply and more submitted by /u/SARKAMARI [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 4 · animation, vfx, rendering&lt;/small&gt;&lt;/p&gt;&lt;p&gt;AI is no longer sitting outside the CG pipeline ; it’s becoming part of rendering, animation, game development and everyday creative tools. In this month’s CG &amp;amp; VFX Roundup, I look at NVIDIA DLSS 5, Adobe + Topaz, UNIGINE 2.22, Zerply and more submitted by /u/SARKAMARI [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wu284t/cg_vfx_roundup_dlss_5_adobe_topaz_unigine_222_more/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
