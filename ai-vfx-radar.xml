@@ -2,8 +2,19 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-14T12:30:52+00:00</updated>
+<updated>2026-10-14T14:30:45+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1x5p3ht/computer_make_a_1980s_sitcom_called_dorm_daze/</id><title>Computer, make a 1980s sitcom called Dorm Daze...</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x5p3ht/computer_make_a_1980s_sitcom_called_dorm_daze/"/>
+<published>2026-10-14T11:47:55+00:00</published><updated>2026-10-14T11:47:55+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<category term="minimax"/>
+<category term="lora"/>
+<summary>Messing with a fully automated pipeline for video at low steps/high speed and got this eight and a half minute example. This is previz style (low quality video) generated with at 3 steps with a turbo lora. Everything here was local (image gen, video gen, LLM work for scene/scriptwriting/camera work/</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Messing with a fully automated pipeline for video at low steps/high speed and got this eight and a half minute example. This is previz style (low quality video) generated with at 3 steps with a turbo lora. Everything here was local (image gen, video gen, LLM work for scene/scriptwriting/camera work/editing). I just gave it a prompt and walked away. Took a few hours to finish this on my 4090. The whole stack was a 26ba4b plus its mmproj for the LLM (orion) https://huggingface.co/TheDrummer/Orion-26B-A4B-v1 swapping in and out of vram/ddr4 with comfyui/minimax h3 for images and video. I make the audio first with my voice API for genning the audio up front: https://github.com/Deveraux-Parker/mi&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x5p3ht/computer_make_a_1980s_sitcom_called_dorm_daze/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1x5olxa/minimax_h3_character_swap_time_consumption_and/</id><title>Minimax H3 Character Swap: Time Consumption and Performance Test Across Different Acceleration Schemes</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x5olxa/minimax_h3_character_swap_time_consumption_and/"/>
@@ -6979,19 +6990,5 @@
 <category term="lora"/>
 <summary>Every image and clip ran through ComfyUI's API from scripts, strictly one job at a time. The API graphs are in the repo (video/workflows/): - qwen21_edit_api.json: plates and targeted fixes, max 2 reference images - qwen21_remove_bg_api.json: sticker cutouts - ltx23_i2v_api.json: LTX-2.3 22B Q4_K_M </summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · upscaler, comfyui, wan, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Every image and clip ran through ComfyUI's API from scripts, strictly one job at a time. The API graphs are in the repo (video/workflows/): - qwen21_edit_api.json: plates and targeted fixes, max 2 reference images - qwen21_remove_bg_api.json: sticker cutouts - ltx23_i2v_api.json: LTX-2.3 22B Q4_K_M GGUF, distilled LoRA, x2 latent upscaler, 1080p - infinitetalk_single_api.json: Wan 2.1 I2V 14B + InfiniteTalk + lightx2v LoRA Stability tip: --reserve-vram 3 --disable-smart-memory (peak 22.9 → 16.1 GB) and a queue script so heavy jobs never overlap. Happy to answer questions. https://github.com/latent-variable/deep-learning-birthday submitted by /u/onil_gova [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wu6nle/alexnet_turns_14_today_a_35minute_music_video/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wu56py/beginner_comfyui_tutorials_i_made_while_learning/</id><title>Beginner ComfyUI tutorials I made while learning it for my game (16 workflows + a site that explains every node)</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wu56py/beginner_comfyui_tutorials_i_made_while_learning/"/>
-<published>2026-09-30T13:38:07+00:00</published><updated>2026-09-30T13:38:07+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="upscaling"/>
-<category term="inpainting"/>
-<category term="image editing"/>
-<category term="comfyui"/>
-<category term="flux"/>
-<category term="controlnet"/>
-<summary>I'm a solo dev making a sci-fi horror game and wanted to use ComfyUI for concept art. Most tutorials assumed I already knew the basics, so I asked Claude to build me step-by-step lessons with plain explanations of every node and setting. Sharing them in case they help someone else. - Foundations: th</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 7 · upscaling, inpainting, image editing, comfyui, flux, controlnet&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I'm a solo dev making a sci-fi horror game and wanted to use ComfyUI for concept art. Most tutorials assumed I already knew the basics, so I asked Claude to build me step-by-step lessons with plain explanations of every node and setting. Sharing them in case they help someone else. - Foundations: the basic text-to-image graph, rewiring it yourself, seed/steps/CFG - Newer models: Z-Image Turbo, Flux.2 Klein, Krea-2 styles and LoRAs - From an image: img2img, inpainting, upscaling, background removal - Control and editing: ControlNet pose, style transfer, image editing with a text instruction - Labs: sampler shootouts on SDXL and Krea-2 Each workflow has notes on the canvas explaining what each&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wu56py/beginner_comfyui_tutorials_i_made_while_learning/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
