@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-14T00:30:36+00:00</updated>
+<updated>2026-10-14T02:30:24+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1x5cbbj/qwen_image_21_vs_flux2_dev_for_real_character/</id><title>Qwen Image 2.1 vs Flux.2 dev for real character LoRA - which is better for likeness? (Got bad results with flux 2 lora)</title>
@@ -54,6 +54,18 @@
 <category term="minimax"/>
 <summary>Haven't been in this sub for a while, my latest workflow is using Flux 2 Klein 9b. I saw Minimax H3 a while ago, and now also that Qwen 2.1. Should I switch? submitted by /u/FUCKCKK [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · image editing, flux, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Haven't been in this sub for a while, my latest workflow is using Flux 2 Klein 9b. I saw Minimax H3 a while ago, and now also that Qwen 2.1. Should I switch? submitted by /u/FUCKCKK [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x59uiq/current_best_image_editing_model/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1x59irw/mac_users_fast_and_easy_imagevideoaudio/</id><title>Mac users: Fast and Easy image/video/audio generation workflows, finally!</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x59irw/mac_users_fast_and_easy_imagevideoaudio/"/>
+<published>2026-10-13T21:36:59+00:00</published><updated>2026-10-13T21:36:59+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="video generation"/>
+<category term="image-to-video"/>
+<category term="upscaling"/>
+<category term="video editing"/>
+<summary>One of the frustrating things about local AI generation on Mac is getting different models and tools to work together smoothly and fast. Valtz is a new native macOS app powered by Vpipe, a high-performance inference engine optimized for Apple Silicon. Instead of manually building complicated node-ba</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · video generation, image-to-video, upscaling, video editing&lt;/small&gt;&lt;/p&gt;&lt;p&gt;One of the frustrating things about local AI generation on Mac is getting different models and tools to work together smoothly and fast. Valtz is a new native macOS app powered by Vpipe, a high-performance inference engine optimized for Apple Silicon. Instead of manually building complicated node-based workflows, you can do pretty much everything in one place easily: * Image generation &amp;amp; editing with the latest AI models * Video generation with multiple image/video references, including long videos * Image-to-video — generate an image, edit it, and immediately use it as a reference for video generation * AI prompt enhancement * Video editing with multiple layers, audio tracks, and a timeline&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x59irw/mac_users_fast_and_easy_imagevideoaudio/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/vfx/comments/1x5915u/mimicking_the_visual_style_of_kane_lynch_2/</id><title>Mimicking the visual style of "Kane &amp; Lynch 2"?</title>
@@ -6982,14 +6994,5 @@
 <category term="dit"/>
 <summary>Repo here- https://github.com/Adudeguyman/ComfyUI-Fantastic-MiniMaxH3-PromptBuilder Ooookay back again. I made RefMods work a bit better and solved a lot of identity/bleed issues. At the cost of time and memory, of course. What it do- OG vanilla refmods would save your media as latents in a .safeten</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax, dit&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Repo here- https://github.com/Adudeguyman/ComfyUI-Fantastic-MiniMaxH3-PromptBuilder Ooookay back again. I made RefMods work a bit better and solved a lot of identity/bleed issues. At the cost of time and memory, of course. What it do- OG vanilla refmods would save your media as latents in a .safetensors file, and feed all of those into the MiniMax H3 DiT directly, with no references and the text encoder never saw it. This worked fine with one refmod since the model knew it had to do SOMETHING with those references, and it did it surprisingly well. But that also lead to people stacking multiple refmods, etc, to get a good likeness. My previous implementation would feed part of those latents t&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wtu82e/improved_h3_refmods_better_accuracy_and_low/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wtrx0l/character_lora_datasets_and_their_backgrounds/</id><title>Character LoRA datasets and their backgrounds...</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wtrx0l/character_lora_datasets_and_their_backgrounds/"/>
-<published>2026-09-30T01:20:22+00:00</published><updated>2026-09-30T01:20:22+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="lora"/>
-<summary>Don't know if I should be mad at this thing for not being smart enough or mad at it for being too smart. I learned from being around here that the million isolated images I made were no good for training character LoRAs and you should only have a few in the set. I set out to add backgrounds of vario</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Don't know if I should be mad at this thing for not being smart enough or mad at it for being too smart. I learned from being around here that the million isolated images I made were no good for training character LoRAs and you should only have a few in the set. I set out to add backgrounds of various settings to them. I had also learned from first hand experience that AI stuff doesn't always know what to make of Photoshopped shadows and might consider them a separate entity, so I figured to be on the safe side and just leave them out. Long story short, I now have a character LoRA which actually works really well, but the software says "OK... I remember from training that this person has the&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wtrx0l/character_lora_datasets_and_their_backgrounds/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
