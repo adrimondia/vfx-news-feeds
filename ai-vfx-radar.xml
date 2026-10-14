@@ -2,8 +2,33 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-14T18:30:26+00:00</updated>
+<updated>2026-10-14T20:30:23+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1x5z65i/hardware_makes_making_atlases_incredibly_difficult/</id><title>Hardware makes making atlases incredibly difficult</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1x5z65i/hardware_makes_making_atlases_incredibly_difficult/"/>
+<published>2026-10-14T18:32:57+00:00</published><updated>2026-10-14T18:32:57+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="smoke"/>
+<category term="vfx"/>
+<category term="rendering"/>
+<category term="houdini"/>
+<category term="blender"/>
+<summary>I have a GT 1030 (DDR4 variant) and am working on a 40v40 war game. The biggest problem is VFX. There are only a handful of high quality flame/smoke/explosion textures online, and it ends there. I looked into how games actually get their atlases and they don't rely on "realistic fire flipbook" onlin</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 5 · smoke, vfx, rendering, houdini, blender&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I have a GT 1030 (DDR4 variant) and am working on a 40v40 war game. The biggest problem is VFX. There are only a handful of high quality flame/smoke/explosion textures online, and it ends there. I looked into how games actually get their atlases and they don't rely on "realistic fire flipbook" online every time, they make it with EmberGen or Houdini/Blender whatever. The problem is my hardware, it makes doing it so incredibly difficult, and because of it my VFX looks like absolute garbage. What even are my options anymore? Should I just bite it and spend extra time rendering since it'll only be done once? (I really hate how long it takes, but that seems like the only option) If it is, I'll d&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1x5z65i/hardware_makes_making_atlases_incredibly_difficult/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1x5ybn1/how_do_you_get_ai_video_to_look_like_casual_phone/</id><title>How do you get AI video to look like casual phone footage instead of a cinematic shot?</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x5ybn1/how_do_you_get_ai_video_to_look_like_casual_phone/"/>
+<published>2026-10-14T18:01:29+00:00</published><updated>2026-10-14T18:01:29+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="minimax"/>
+<category term="lora"/>
+<category term="ai video"/>
+<category term="cinematic"/>
+<summary>I’m using self-hosted MiniMax H3 to make a video that looks like someone filming a product they bought, sitting on their desk. Just an ordinary phone recording with subtle handheld movement. Whatever I prompt, it keeps adding cinematic zooms and camera moves. I’ve tried smartphone/handheld descripti</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 6 · minimax, lora, ai video, cinematic&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I’m using self-hosted MiniMax H3 to make a video that looks like someone filming a product they bought, sitting on their desk. Just an ordinary phone recording with subtle handheld movement. Whatever I prompt, it keeps adding cinematic zooms and camera moves. I’ve tried smartphone/handheld descriptions and tested with and without a realism LoRA, but it still feels overly polished and artificial. How are you getting convincing casual phone footage? Is it mostly the model, prompting, reference image, or settings? Would love to see workflows that work. submitted by /u/Naar0x [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x5ybn1/how_do_you_get_ai_video_to_look_like_casual_phone/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/vfx/comments/1x5v3lv/help_i_have_vfx_shooting_tomorrow_but_i_feel_like/</id><title>Help I have Vfx shooting tomorrow but I feel like I’m under equipped</title>
 <link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1x5v3lv/help_i_have_vfx_shooting_tomorrow_but_i_feel_like/"/>
@@ -6857,34 +6882,5 @@
 <category term="rendering"/>
 <summary>For this treatment I wanted the image to look printed without losing the movement of the original shot. The renderer separates each frame into four ink plates, applies halftone coverage and registration offsets, and composites them over textured paper. I’m building the effect in InkWaltz. The transi</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 1 · rendering&lt;/small&gt;&lt;/p&gt;&lt;p&gt;For this treatment I wanted the image to look printed without losing the movement of the original shot. The renderer separates each frame into four ink plates, applies halftone coverage and registration offsets, and composites them over textured paper. I’m building the effect in InkWaltz. The transition is a separate composite. It holds the original for three seconds, then moves an irregular diagonal boundary across the frame over three seconds. A cosine ease drives the front, while staggered smoothstep masks introduce the paper and successive ink passes. The noise defining the boundary stays fixed across frames so the edge has a consistent contour. The source footage is 1080p, scaled before&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wufyog/fourink_print_treatment_with_a_staged_paperandink/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wuetyg/selective_character_replacement_with_h3/</id><title>Selective Character Replacement with H3</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wuetyg/selective_character_replacement_with_h3/"/>
-<published>2026-09-30T19:47:24+00:00</published><updated>2026-09-30T19:47:24+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="render"/>
-<category term="minimax"/>
-<summary>This is one of the hardest project I have tried. Replacing just one person from the video. As well as keeping the interaction such as hug and removing sunglasses and lipsync. All done with custom made agentic AI system for coordinating and QC. Using custom made minimax H3 workflows. rendered with cu</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · render, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;This is one of the hardest project I have tried. Replacing just one person from the video. As well as keeping the interaction such as hug and removing sunglasses and lipsync. All done with custom made agentic AI system for coordinating and QC. Using custom made minimax H3 workflows. rendered with custom made render scheduler dispatcher with both local and on-demand GPU pool. All monitored and dispatch from my iphone. submitted by /u/mexxmillion [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wuetyg/selective_character_replacement_with_h3/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wuet10/updated_the_h3_minimax_workflow_r2v_for/</id><title>Updated the H3 Minimax workflow R2V for independent continuation for later run</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wuet10/updated_the_h3_minimax_workflow_r2v_for/"/>
-<published>2026-09-30T19:46:23+00:00</published><updated>2026-09-30T19:46:23+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="minimax"/>
-<summary>I stumbled across a continuation workflow from Benji a couple of weeks ago. It is a Gen+Cont workflow which uses a series of passed on internal latents. Its a good workflow there's no doubt in it but if something happened to your comfy, you would have to restart from 0, or let say you wanted to come</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I stumbled across a continuation workflow from Benji a couple of weeks ago. It is a Gen+Cont workflow which uses a series of passed on internal latents. Its a good workflow there's no doubt in it but if something happened to your comfy, you would have to restart from 0, or let say you wanted to come back to it tomorrow - or if you used another workflow after this, it would clear all latent cache and you will again have to start from 0. I updated the workflow by adding support for save-able AV latents which can be worked on later to continue where you left off. Also added another group to generate a filename for latent based on what resolution you are using. It also has a switch where you can&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wuet10/updated_the_h3_minimax_workflow_r2v_for/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wucthp/local_image_to_3d_high_quality_low_poly_preserve/</id><title>Local Image to 3D: High quality, Low poly - preserve minute details like text, logos even after retopo, ~900k faces &gt; ~5k (NVIDIA + Mac)</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wucthp/local_image_to_3d_high_quality_low_poly_preserve/"/>
-<published>2026-09-30T18:31:13+00:00</published><updated>2026-09-30T18:31:13+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="rigging"/>
-<category term="blender"/>
-<summary>Image-to-3D models redraw your picture, and fine detail - text, logos, faces - comes back garbled or scuffed. My local pipeline that fixes it. (repo link at the end of the post) The latest update adds *Pixel Match*. It copies the real pixels from your source image back onto the model, wherever the i</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · rigging, blender&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Image-to-3D models redraw your picture, and fine detail - text, logos, faces - comes back garbled or scuffed. My local pipeline that fixes it. (repo link at the end of the post) The latest update adds *Pixel Match*. It copies the real pixels from your source image back onto the model, wherever the image can see. So "VANGUARD 07" on the chest stays "VANGUARD 07", even after the Finish step retopologises the model down to ~5k faces (as you can see in the video). One step closer to Tripo and Meshy like outputs, but locally. It runs fully on your system - no API calls, no cloud credits, just a once-a-day update check. Works on NVIDIA (tested on Linux, Windows has limited testing) and Apple Silic&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wucthp/local_image_to_3d_high_quality_low_poly_preserve/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
