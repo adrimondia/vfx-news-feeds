@@ -2,8 +2,33 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-14T22:30:24+00:00</updated>
+<updated>2026-10-15T00:30:38+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1x65o2g/video_to_surface_normalsmap_with_normalcrafter/</id><title>Video to surface normals-map with NormalCrafter</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x65o2g/video_to_surface_normalsmap_with_normalcrafter/"/>
+<published>2026-10-14T22:55:31+00:00</published><updated>2026-10-14T22:55:31+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="video diffusion"/>
+<category term="3d reconstruction"/>
+<category term="relighting"/>
+<category term="optical flow"/>
+<category term="video editing"/>
+<category term="comfyui"/>
+<category term="minimax"/>
+<category term="seedance"/>
+<summary>I designed a couple of ComfyUI nodes to convert video to surface normals-map estimation using the model NormalCrafter This is very useful for 3D reconstruction, relighting, retexturing, video editing, and reference to video on H3 Minimax and Seedance I included a Normal temporal stabilizer, a comple</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 8 · video diffusion, 3d reconstruction, relighting, optical flow, video editing, comfyui, minimax, seedance&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I designed a couple of ComfyUI nodes to convert video to surface normals-map estimation using the model NormalCrafter This is very useful for 3D reconstruction, relighting, retexturing, video editing, and reference to video on H3 Minimax and Seedance I included a Normal temporal stabilizer, a complementary post-processing node that uses optical flow from the source video to reduce residual flicker while preserving real motion and changes in geometry. Processing is fast and run on a toaster (I included decode in chunks) Nodes and Workflow: github ComfyUI-VizClick-NormalCrafter Models weights : Huggingface NormalCrafter arxiv Paper: NormalCrafter: Learning Temporally Consistent Normals from Vi&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x65o2g/video_to_surface_normalsmap_with_normalcrafter/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1x64bxp/any_tips_for_workflows_keep_breaking_comfyui/</id><title>Any tips for workflows keep breaking ComfyUI</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x64bxp/any_tips_for_workflows_keep_breaking_comfyui/"/>
+<published>2026-10-14T21:57:19+00:00</published><updated>2026-10-14T21:57:19+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<summary>Any advice to use workflows from other users? Every 2 or 3 I try get my comfy installation broken when I install all that stuff that is missing. Is there any source of reliable workflows? It's very frustrating because the provided workflows have very little functionality compared to what those model</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Any advice to use workflows from other users? Every 2 or 3 I try get my comfy installation broken when I install all that stuff that is missing. Is there any source of reliable workflows? It's very frustrating because the provided workflows have very little functionality compared to what those models can do. submitted by /u/Embarrassed-Round992 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x64bxp/any_tips_for_workflows_keep_breaking_comfyui/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/vfx/comments/1x63ba5/im_curious_how_would_gaussian_splatting_work_with/</id><title>Im curious, how would gaussian splatting work with flourescent clothing?</title>
 <link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1x63ba5/im_curious_how_would_gaussian_splatting_work_with/"/>
@@ -24,6 +49,25 @@
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Every PC, one app. Fizgig finds your other computers on your network by itself. Train on the desktop's 5090 from your laptop, send a dataset across in one click, and see what every machine is training and what's queued. Web UI. Its own window, or any browser. Start a run at your desk and check it from the sofa or your phone: live loss, previews, time left. RunPod, built in. Your pods are listed and it logs you in. It shows which cards are free right now, ranked by cost per run, deploys in one click, sends your dataset up from your own PC, and can stop the pod when the run's done. Plus: the queue on every tab, every run kept with its settings, and a block-by-block LoRA editor. Updating keeps &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x636w5/fizgig_8_is_out_a_web_ui_finally_one_app_for_your/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
+<id>https://www.reddit.com/r/comfyui/comments/1x61nxx/lora_to_reduce_burned_look_when_chaining_h3_turbo/</id><title>Lora to reduce burned look when chaining H3 turbo videos</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x61nxx/lora_to_reduce_burned_look_when_chaining_h3_turbo/"/>
+<published>2026-10-14T20:08:13+00:00</published><updated>2026-10-14T20:08:13+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="lora"/>
+<summary>If you've chained H3 clips into a longer video, you've probably seen it: every continuation copies the last clip's flaws and adds a few more. By clip 5–10, faces look crunchy, etched and over-sharpened. I spent the last few weeks (with a community compute grant) training a LoRA that fixes this. You </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;If you've chained H3 clips into a longer video, you've probably seen it: every continuation copies the last clip's flaws and adds a few more. By clip 5–10, faces look crunchy, etched and over-sharpened. I spent the last few weeks (with a community compute grant) training a LoRA that fixes this. You load it on your continuation clips only, not the first one, and they stay close to the look of clip 1. Results over ~37 s chains (face texture change, clip 1 → clip 10): lightx2v 8-step: +44% → 0% HyperFlow: +25% → −1% a model it was never trained on: +61% → +4% Larry Turbo: +261% → −5% (it can soften the image on heavy burners like this) How to use: LoraLoaderModelOnly on the model for your conti&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x61nxx/lora_to_reduce_burned_look_when_chaining_h3_turbo/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1x608az/ltx_25_vs_h3_minimax_short_story_test/</id><title>Ltx 2.5 VS H3 minimax Short story test</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x608az/ltx_25_vs_h3_minimax_short_story_test/"/>
+<published>2026-10-14T19:12:34+00:00</published><updated>2026-10-14T19:12:34+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="minimax"/>
+<category term="ltx"/>
+<summary>submitted by /u/Numerous_Access_8008 [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · minimax, ltx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/Numerous_Access_8008 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x608az/ltx_25_vs_h3_minimax_short_story_test/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
 <id>https://www.reddit.com/r/vfx/comments/1x5z65i/hardware_makes_making_atlases_incredibly_difficult/</id><title>Hardware makes making atlases incredibly difficult</title>
 <link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1x5z65i/hardware_makes_making_atlases_incredibly_difficult/"/>
 <published>2026-10-14T18:32:57+00:00</published><updated>2026-10-14T18:32:57+00:00</updated>
@@ -37,6 +81,16 @@
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 5 · smoke, vfx, rendering, houdini, blender&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I have a GT 1030 (DDR4 variant) and am working on a 40v40 war game. The biggest problem is VFX. There are only a handful of high quality flame/smoke/explosion textures online, and it ends there. I looked into how games actually get their atlases and they don't rely on "realistic fire flipbook" online every time, they make it with EmberGen or Houdini/Blender whatever. The problem is my hardware, it makes doing it so incredibly difficult, and because of it my VFX looks like absolute garbage. What even are my options anymore? Should I just bite it and spend extra time rendering since it'll only be done once? (I really hate how long it takes, but that seems like the only option) If it is, I'll d&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1x5z65i/hardware_makes_making_atlases_incredibly_difficult/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
+<id>https://www.reddit.com/r/comfyui/comments/1x5ydzc/is_12gb_enough_for_minimax_h3_with_latest_comfyui/</id><title>Is 12GB enough for minimax h3 (with latest comfyUI improvements fast-disk, dynamic-vram)</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x5ydzc/is_12gb_enough_for_minimax_h3_with_latest_comfyui/"/>
+<published>2026-10-14T18:03:50+00:00</published><updated>2026-10-14T18:03:50+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<category term="minimax"/>
+<summary>Is 12GB “enough for everyone” now? Can you check your peak VRAM, while using those comfy options? Also, check the megabytes per second, being read from your NVME (in Task Manager or Gnome Resource Monitor) submitted by /u/rguerraf [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Is 12GB “enough for everyone” now? Can you check your peak VRAM, while using those comfy options? Also, check the megabytes per second, being read from your NVME (in Task Manager or Gnome Resource Monitor) submitted by /u/rguerraf [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x5ydzc/is_12gb_enough_for_minimax_h3_with_latest_comfyui/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1x5ybn1/how_do_you_get_ai_video_to_look_like_casual_phone/</id><title>How do you get AI video to look like casual phone footage instead of a cinematic shot?</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x5ybn1/how_do_you_get_ai_video_to_look_like_casual_phone/"/>
 <published>2026-10-14T18:01:29+00:00</published><updated>2026-10-14T18:01:29+00:00</updated>
@@ -47,6 +101,40 @@
 <category term="cinematic"/>
 <summary>I’m using self-hosted MiniMax H3 to make a video that looks like someone filming a product they bought, sitting on their desk. Just an ordinary phone recording with subtle handheld movement. Whatever I prompt, it keeps adding cinematic zooms and camera moves. I’ve tried smartphone/handheld descripti</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 6 · minimax, lora, ai video, cinematic&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I’m using self-hosted MiniMax H3 to make a video that looks like someone filming a product they bought, sitting on their desk. Just an ordinary phone recording with subtle handheld movement. Whatever I prompt, it keeps adding cinematic zooms and camera moves. I’ve tried smartphone/handheld descriptions and tested with and without a realism LoRA, but it still feels overly polished and artificial. How are you getting convincing casual phone footage? Is it mostly the model, prompting, reference image, or settings? Would love to see workflows that work. submitted by /u/Naar0x [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x5ybn1/how_do_you_get_ai_video_to_look_like_casual_phone/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1x5x3zd/pureref_connector_comfyui_plugin_that_sends/</id><title>PureRef Connector - ComfyUI plugin that sends generated images straight to PureRef</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x5x3zd/pureref_connector_comfyui_plugin_that_sends/"/>
+<published>2026-10-14T17:15:54+00:00</published><updated>2026-10-14T17:15:54+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<summary>Made a small ComfyUI → PureRef connector. Generated images go straight onto your board, arranged in rows. Uses the regular Save Image node, so there’s nothing to add to your workflow. Windows only. https://github.com/doubletwisted/ComfyUI-PureRef-Connector or in Manager submitted by /u/Apprehensive-</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Made a small ComfyUI → PureRef connector. Generated images go straight onto your board, arranged in rows. Uses the regular Save Image node, so there’s nothing to add to your workflow. Windows only. https://github.com/doubletwisted/ComfyUI-PureRef-Connector or in Manager submitted by /u/Apprehensive-Ad7442 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x5x3zd/pureref_connector_comfyui_plugin_that_sends/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1x5vqd3/real_footage_to_blender_scenes_to_ai_video_my/</id><title>Real footage to Blender scenes to AI video: my METU and Poznan environment experiments</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x5vqd3/real_footage_to_blender_scenes_to_ai_video_my/"/>
+<published>2026-10-14T16:24:17+00:00</published><updated>2026-10-14T16:24:17+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="animation"/>
+<category term="vfx"/>
+<category term="render"/>
+<category term="comfyui"/>
+<category term="blender"/>
+<category term="unreal"/>
+<category term="unreal engine"/>
+<category term="ai video"/>
+<summary>I've been working on a pipeline that starts with a real location and a 3D scene, then uses AI for selected shots. I put the results into a 4:15 showcase covering Devrim Stadium at METU in Ankara and Stary Rynek in Poznan. The stages are visible in the edit: real footage, clay models, finished enviro</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 10 · animation, vfx, render, comfyui, blender, unreal, unreal engine, ai video&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I've been working on a pipeline that starts with a real location and a 3D scene, then uses AI for selected shots. I put the results into a 4:15 showcase covering Devrim Stadium at METU in Ankara and Stary Rynek in Poznan. The stages are visible in the edit: real footage, clay models, finished environments, game-style shots and AI character sequences. Blender and Unreal Engine handle the 3D work, with ComfyUI used on the AI side. Some shots are conventional renders and some are AI-processed, so this is a mixed production rather than a single model's output. Useful points to jump to: 00:24 for the campus model, 00:59 for day-to-night VFX, 02:20 for AI character sequences, 03:02 for the Poznan &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x5vqd3/real_footage_to_blender_scenes_to_ai_video_my/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1x5v7z9/minimax_h3_shorts_story_app_testing/</id><title>Minimax H3 - Shorts story app testing</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x5v7z9/minimax_h3_shorts_story_app_testing/"/>
+<published>2026-10-14T16:05:17+00:00</published><updated>2026-10-14T16:05:17+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="minimax"/>
+<summary>Here a quick video i did to test my working in progress app to create minimax h3 short story´s prompts with characters sheet´s, etc submitted by /u/smereces [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Here a quick video i did to test my working in progress app to create minimax h3 short story´s prompts with characters sheet´s, etc submitted by /u/smereces [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x5v7z9/minimax_h3_shorts_story_app_testing/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/vfx/comments/1x5v3lv/help_i_have_vfx_shooting_tomorrow_but_i_feel_like/</id><title>Help I have Vfx shooting tomorrow but I feel like I’m under equipped</title>
@@ -67,6 +155,21 @@
 <category term="comfyui"/>
 <summary>Not a replacement for node workflows: something for the times you just want to fix a photo, or for friends who will never build a workflow. Kokon is a free, open-source desktop editor (Windows; Mac beta). Install it, it downloads the right model for your card, and from then on there's nothing to con</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · upscaling, comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Not a replacement for node workflows: something for the times you just want to fix a photo, or for friends who will never build a workflow. Kokon is a free, open-source desktop editor (Windows; Mac beta). Install it, it downloads the right model for your card, and from then on there's nothing to configure: it picks the resolution and memory split per job. 12 GB of VRAM is enough. The part this sub may care about: Qwen-Image 2.1 has no mask input, so Kokon draws the brushed area on a second reference image: the model sees exactly where to work, so "remove the red scooter" removes the scooter and leaves the street alone. On 16 GB+ cards edits run natively up to 2K, no upscaling pass. Every ima&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x5tmlp/i_made_a_nosettings_photo_editor_for_qwenimage_21/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1x5puo0/a_quick_minimax_h3_news_roundup_14th_october_2026/</id><title>A quick Minimax H3 news round-up - 14th October 2026</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x5puo0/a_quick_minimax_h3_news_roundup_14th_october_2026/"/>
+<published>2026-10-14T12:25:37+00:00</published><updated>2026-10-14T12:25:37+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="video generation"/>
+<category term="upscaling"/>
+<category term="animation"/>
+<category term="comfyui"/>
+<category term="flux"/>
+<category term="minimax"/>
+<category term="lora"/>
+<summary>Another quick Minimax H3 news and goodies round-up, for those who may have missed some items. -&gt; ComfyUI Portable is now officially at version 0.40.0. There's a new official 'Camera Angle' node, and... "MiniMax-H3 single images: Single images are now decoded as the first latent of a clip" and thus c</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 8 · video generation, upscaling, animation, comfyui, flux, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Another quick Minimax H3 news and goodies round-up, for those who may have missed some items. -&amp;gt; ComfyUI Portable is now officially at version 0.40.0. There's a new official 'Camera Angle' node, and... "MiniMax-H3 single images: Single images are now decoded as the first latent of a clip" and thus can avoid banding. Hopefully this change doesn't bjork the excellent ComfyUI-Fizgig-H3-Still. https://github.com/Comfy-Org/ComfyUI/releases https://github.com/shootthesound/ComfyUI-Fizgig-H3-Still -&amp;gt; ComfyUI NVIDIA RTX VSR Long Video. NVIDIA's excellent quick RTX upscaling, here apparently specifically tailored to upscale long videos. https://github.com/tritant/ComfyUI_NVIDIA_RTX_VSR_Long_Video -&amp;gt; &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x5puo0/a_quick_minimax_h3_news_roundup_14th_october_2026/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/vfx/comments/1x5pnyd/large_scale_tornado_simulation/</id><title>Large Scale Tornado Simulation</title>
@@ -90,6 +193,15 @@
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Messing with a fully automated pipeline for video at low steps/high speed and got this eight and a half minute example. This is previz style (low quality video) generated with at 3 steps with a turbo lora. Everything here was local (image gen, video gen, LLM work for scene/scriptwriting/camera work/editing). I just gave it a prompt and walked away. Took a few hours to finish this on my 4090. The whole stack was a 26ba4b plus its mmproj for the LLM (orion) https://huggingface.co/TheDrummer/Orion-26B-A4B-v1 swapping in and out of vram/ddr4 with comfyui/minimax h3 for images and video. I make the audio first with my voice API for genning the audio up front: https://github.com/Deveraux-Parker/mi&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x5p3ht/computer_make_a_1980s_sitcom_called_dorm_daze/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
+<id>https://www.reddit.com/r/comfyui/comments/1x5opoh/browser_extension_to_directly_send_images_or_text/</id><title>Browser extension to directly send images or text to ComfyUI and run them with with workflows in a single click</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x5opoh/browser_extension_to_directly_send_images_or_text/"/>
+<published>2026-10-14T11:27:24+00:00</published><updated>2026-10-14T11:27:24+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<summary>I wanted a quick way to push things from my browser into ComfyUI without switching windows, copying prompts, or saving images first. So I vibe coded a small extension for it. What it does Select text on any page, right-click, Send selection to ComfyUI . It fills your prompt node and queues the workf</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I wanted a quick way to push things from my browser into ComfyUI without switching windows, copying prompts, or saving images first. So I vibe coded a small extension for it. What it does Select text on any page, right-click, Send selection to ComfyUI . It fills your prompt node and queues the workflow. Right-click an image, Send image to ComfyUI . It uploads the image and queues the workflow. Image, one click... hover an image and click the small button in its top-right corner. It sends directly, with no menu. It also works on feed images on sites like Instagram, X, and Reddit. How it works with your workflows No coding or per-workflow setup. In ComfyUI, rename the input node’s title to INP&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x5opoh/browser_extension_to_directly_send_images_or_text/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1x5olxa/minimax_h3_character_swap_time_consumption_and/</id><title>Minimax H3 Character Swap: Time Consumption and Performance Test Across Different Acceleration Schemes</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x5olxa/minimax_h3_character_swap_time_consumption_and/"/>
 <published>2026-10-14T11:21:45+00:00</published><updated>2026-10-14T11:21:45+00:00</updated>
@@ -98,6 +210,15 @@
 <category term="lora"/>
 <summary>Tech Step Cost Sampling Cost Turbo LoRA 4 632.448s 602.129s Turbo＋Sol 4 717.549s 579.753s Turbo＋Spark-H3 4 682.326s 652.085s Turbo＋VEDA 4 353.355s 321.554s Sol (Only) 16 2309.627s 2280.068s Spark-H3(Only) 16 2441.209s 2411.523s VEDA(Only) 16 993.426s 963.193s Test Environment: RTX 5090 + 96 GB RAM. </summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Tech Step Cost Sampling Cost Turbo LoRA 4 632.448s 602.129s Turbo＋Sol 4 717.549s 579.753s Turbo＋Spark-H3 4 682.326s 652.085s Turbo＋VEDA 4 353.355s 321.554s Sol (Only) 16 2309.627s 2280.068s Spark-H3(Only) 16 2441.209s 2411.523s VEDA(Only) 16 993.426s 963.193s Test Environment: RTX 5090 + 96 GB RAM. The reference video has a total duration of 18 seconds; only the first 15 seconds were tested, with a resolution of 1MP. The tests are driven via Codex Sol 6.1, so the results may not be rigorous. submitted by /u/Mysterious_Pride_858 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x5olxa/minimax_h3_character_swap_time_consumption_and/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1x5o630/why_does_creating_character_sheets_with_minimax/</id><title>Why Does Creating Character Sheets With Minimax H3 Lose The Face Likeness?</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x5o630/why_does_creating_character_sheets_with_minimax/"/>
+<published>2026-10-14T10:56:55+00:00</published><updated>2026-10-14T10:56:55+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="minimax"/>
+<summary>I have an image of a face and when I use MM H3 to generate a 5 second clip, I can extract frames from the clip and the face likeness remains in tact, although they are slightly blurred from the motion. If I run a character sheet workflow using MM H3, the output images likeness of the face are comple</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I have an image of a face and when I use MM H3 to generate a 5 second clip, I can extract frames from the clip and the face likeness remains in tact, although they are slightly blurred from the motion. If I run a character sheet workflow using MM H3, the output images likeness of the face are completely lost, even though I'm using the same MM H3 model as when I create a clip. What I want are still images of different angles of the face. I have tried doing this in Klein 2 but the likeness is nowhere near as good as when I create a clip in MM H3, but obviously getting stills from there makes the face blurry. An I overlooking anything obvious? submitted by /u/diond09 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x5o630/why_does_creating_character_sheets_with_minimax/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1x5nv5u/comfyui_v0400_released/</id><title>ComfyUI v0.40.0 released</title>
@@ -129,6 +250,17 @@
 <category term="minimax"/>
 <summary>I participated in a "Museum Night" exhibition and created a 3min immersive show called Liquid Geometry. First I started thinking about a concept, following the general art style and created keyframes, before using minimax h3 for video generation. As the space is huge and covered with roughly 100 pro</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · video generation, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I participated in a "Museum Night" exhibition and created a 3min immersive show called Liquid Geometry. First I started thinking about a concept, following the general art style and created keyframes, before using minimax h3 for video generation. As the space is huge and covered with roughly 100 projectors, I had a ton of clips (around 300) to generate for the different projection surfaces. Each clip was 12sec long, rendered at 1MP using a single pass with 16 steps, the final videos were then stiched together, color graded and upcaled using Topaz. I used different GPUs (first 2 locally, the rest on runpod), here are the generation times per clip: RTX 3060 12GB VRAM: ~1hr/clip RTX 4080 Super &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x5no7y/immersive_exhibition_made_with_minimax_h3/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1x5nc6x/comfyui_v0400/</id><title>ComfyUI v0.40.0</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x5nc6x/comfyui_v0400/"/>
+<published>2026-10-14T10:06:51+00:00</published><updated>2026-10-14T10:06:51+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="render"/>
+<category term="comfyui"/>
+<category term="lora"/>
+<summary>Links Official changelog GitHub release New Open-Source Model Support Qwen-Image 2.1 Turbo : The 8-step accelerated Qwen-Image 2.1 checkpoint, with new text-to-image and image edit templates New Node Updates LoRA stack loaders : Apply several LoRAs in order from one node, each with its own file, str</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · render, comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Links Official changelog GitHub release New Open-Source Model Support Qwen-Image 2.1 Turbo : The 8-step accelerated Qwen-Image 2.1 checkpoint, with new text-to-image and image edit templates New Node Updates LoRA stack loaders : Apply several LoRAs in order from one node, each with its own file, strength, and on/off switch, to either the diffusion model or the text encoder Camera Angle : Pick a horizontal angle, vertical angle, and zoom to output a camera_info and a plain-English shot description for prompts Create Camera Info : Build a camera_info in orbit, look-at, or quaternion mode for Render Splat and the other 3D camera nodes Latent Operation Blend : A new blend operation, plus start a&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x5nc6x/comfyui_v0400/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/vfx/comments/1x5lru6/vfx_artists_what_is_the_most_simple_but/</id><title>VFX artists, what is the most simple but complicated looking visual you have ever done for a movie or tv show?</title>
@@ -6832,34 +6964,5 @@
 <category term="vfx"/>
 <summary>Looking for a post person/post house to do minor VFX and color correction on my dark comedy indie feature. Can anyone recommend someone who works with or would work with tiny budget films? We are trying to finish the film by mid December. submitted by /u/TortoiseAmazing [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Looking for a post person/post house to do minor VFX and color correction on my dark comedy indie feature. Can anyone recommend someone who works with or would work with tiny budget films? We are trying to finish the film by mid December. submitted by /u/TortoiseAmazing [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wum04a/need_post_prod_color_and_vfx_for_a_microbudget/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wul6vz/minimax_h3_keeping_strong_character_identity/</id><title>Minimax H3 keeping strong character identity - Single Character sheet vs High resolution front images</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wul6vz/minimax_h3_keeping_strong_character_identity/"/>
-<published>2026-10-01T00:18:38+00:00</published><updated>2026-10-01T00:18:38+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="minimax"/>
-<summary>Which one is better of two, a character sheet with front and face image together or providing two images individually and adding in the prompt to refer image 2 for facial details? This is for ref2v model. I have been trying to search but couldn't find something related to it like comparison etc. sub</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Which one is better of two, a character sheet with front and face image together or providing two images individually and adding in the prompt to refer image 2 for facial details? This is for ref2v model. I have been trying to search but couldn't find something related to it like comparison etc. submitted by /u/MastMaithun [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wul6vz/minimax_h3_keeping_strong_character_identity/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wuj0rj/updated_updated/</id><title>Updated Updated ComfyUI-SeedVR2-VideoUpscaler-with-TensorRT v1.5.7 - DiT VRAM Spike Stabilization (※For 6GB/8GB users)</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wuj0rj/updated_updated/"/>
-<published>2026-09-30T22:38:46+00:00</published><updated>2026-09-30T22:38:46+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<category term="dit"/>
-<summary>When I published an update on TensorRT the other day, I received enquiries from users of the RTX 4050 6GB and RTX 5060 8GB. https://www.reddit.com/r/comfyui/comments/1wsbar9/updated_comfyuiseedvr2videoupscalerwithtensorrt/ After re-measuring VRAM consumption throughout the entire process, I discover</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, dit&lt;/small&gt;&lt;/p&gt;&lt;p&gt;When I published an update on TensorRT the other day, I received enquiries from users of the RTX 4050 6GB and RTX 5060 8GB. https://www.reddit.com/r/comfyui/comments/1wsbar9/updated_comfyuiseedvr2videoupscalerwithtensorrt/ After re-measuring VRAM consumption throughout the entire process, I discovered that the issue lay not with TensorRT itself, but rather during the DIT processing stage. My code fully supports ConvRot INT8/NVFP4 and, in principle, keeps VRAM consumption low; however, momentary spikes were still occurring. Whilst this does not pose a significant problem on my RTX 5060 Ti 16GB system, it is a major issue for 6GB and 8GB users. I therefore re-examined this spike phenomenon and&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wuj0rj/updated_updated/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wuiw7k/solrefiner_unofficial_experimental_comfyui/</id><title>SoL-Refiner - unofficial experimental ComfyUI implementation</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wuiw7k/solrefiner_unofficial_experimental_comfyui/"/>
-<published>2026-09-30T22:33:02+00:00</published><updated>2026-09-30T22:33:02+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="super-resolution"/>
-<category term="comfyui"/>
-<summary>ComfyUI implementation of SoL-Refiner I had a pretty fragmented day today, so used it as a good excuse to test out the fairly new SoL-Refiner model; I put together a ComfyUI implementation as a custom node, here's the link: https://github.com/o-l-l-i/ComfyUI-Olm-SoL-Refiner I have to be honest, this</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · super-resolution, comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;ComfyUI implementation of SoL-Refiner I had a pretty fragmented day today, so used it as a good excuse to test out the fairly new SoL-Refiner model; I put together a ComfyUI implementation as a custom node, here's the link: https://github.com/o-l-l-i/ComfyUI-Olm-SoL-Refiner I have to be honest, this is just my opinion but I was pretty underwhelmed by the first few generations. I wouldn’t really go into it expecting some magical super-resolution thing. To me it feels more like re-imagining the input image, somewhat in the same spirit as doing img2img with a typical diffusion model. Still interesting to play with though, and since the model is pretty fresh I thought I’d share the setup in case&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wuiw7k/solrefiner_unofficial_experimental_comfyui/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
