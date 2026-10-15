@@ -2,8 +2,69 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-15T12:30:52+00:00</updated>
+<updated>2026-10-15T14:30:41+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1x6mgat/major_bug_issue_with_comfyui_0400_update/</id><title>Major bug issue with ComfyUI 0.40.0 update!!</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x6mgat/major_bug_issue_with_comfyui_0400_update/"/>
+<published>2026-10-15T14:01:06+00:00</published><updated>2026-10-15T14:01:06+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<summary>Since the last update, 0.40.0, it's been buggy as hell! ComfUI is unusable; the interface is glitching, with duplicate images within the interface itself, and it's impossible to navigate! I did a quick search with ChatGPT, and it tells me there's a problem with the custom node Impact Pack, the laten</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Since the last update, 0.40.0, it's been buggy as hell! ComfUI is unusable; the interface is glitching, with duplicate images within the interface itself, and it's impossible to navigate! I did a quick search with ChatGPT, and it tells me there's a problem with the custom node Impact Pack, the latent Switch node, and something else... For your information, I'm on a Mac M1 Ultra and I'm using ComfUI Desktop. These updates that crash the software are really annoying. submitted by /u/No_Translator4032 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x6mgat/major_bug_issue_with_comfyui_0400_update/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1x6lhid/best_minimax_h3_workflow_for_upscaling/</id><title>Best Minimax H3 workflow for Upscaling?</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x6lhid/best_minimax_h3_workflow_for_upscaling/"/>
+<published>2026-10-15T13:21:36+00:00</published><updated>2026-10-15T13:21:36+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="upscaling"/>
+<category term="comfyui"/>
+<category term="minimax"/>
+<summary>Hey all, I wanted to see if anyone had suggestions on the best workflows to run MH3 so that I can do a generation and also upscale the video within my VRAM budget? For reference my setup is the following: AMD RX 7900xtx (24gb VRAM), 48gb system RAM, using Linux ROCm as my install environment for Com</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 5 · upscaling, comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey all, I wanted to see if anyone had suggestions on the best workflows to run MH3 so that I can do a generation and also upscale the video within my VRAM budget? For reference my setup is the following: AMD RX 7900xtx (24gb VRAM), 48gb system RAM, using Linux ROCm as my install environment for ComfyUI. I can routinely complete MH3 generations without running into OOM errors but I have to use the quantized GGUF variants to limit the VRAM overhead. My normal generation is done at 0.2MP around 10 seconds in length. I'd love any suggestions if someone has an idea on good workflows for upscaling submitted by /u/Jasonrxw85 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x6lhid/best_minimax_h3_workflow_for_upscaling/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1x6knrn/new_taomateh3fl2va_3step_lora_converted_for/</id><title>New TaoMate-H3-FL2VA 3-step LoRA converted for ComfyUI (full rank + 169MB version)</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x6knrn/new_taomateh3fl2va_3step_lora_converted_for/"/>
+<published>2026-10-15T12:45:12+00:00</published><updated>2026-10-15T12:45:12+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<category term="lora"/>
+<summary>I converted the new TaoMate-H3-FL2VA 3-step LoRA to ComfyUI format and tested it successfully. Two versions are available: - Full rank-128 BF16: 1.24 GB - Dynamic average-rank-19 BF16: 169 MB The smaller version is much easier on storage/VRAM and worked normally in my tests. Recommended starting set</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I converted the new TaoMate-H3-FL2VA 3-step LoRA to ComfyUI format and tested it successfully. Two versions are available: - Full rank-128 BF16: 1.24 GB - Dynamic average-rank-19 BF16: 169 MB The smaller version is much easier on storage/VRAM and worked normally in my tests. Recommended starting settings: 3 steps, CFG 1.0, LoRA strength 1.0, and Euler. Download and details: https://huggingface.co/austinit/TaoMate-H3-FL2VA-ComfyUI submitted by /u/Austin9981 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x6knrn/new_taomateh3fl2va_3step_lora_converted_for/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1x6jx3m/seedvr2_vs_rtx_video_super_resolution_for/</id><title>SeedVR2 vs RTX Video Super Resolution for upscaling AI video: which one are you actually using?</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x6jx3m/seedvr2_vs_rtx_video_super_resolution_for/"/>
+<published>2026-10-15T12:08:46+00:00</published><updated>2026-10-15T12:08:46+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="upscaling"/>
+<category term="minimax"/>
+<category term="ai video"/>
+<summary>I’ve been upscaling my MiniMax H3 clips with both and I honestly can’t decide which one I prefer, so I’d like to hear how others are handling this. My test: same 16-second clip, [768p] → [2K], on an RTX 5090 laptop (24 GB VRAM). SeedVR2 Time: 34 min Adds real detail: skin pores, fabric, hair strands</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 5 · upscaling, minimax, ai video&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I’ve been upscaling my MiniMax H3 clips with both and I honestly can’t decide which one I prefer, so I’d like to hear how others are handling this. My test: same 16-second clip, [768p] → [2K], on an RTX 5090 laptop (24 GB VRAM). SeedVR2 Time: 34 min Adds real detail: skin pores, fabric, hair strands Heavy on VRAM, and long clips need chunking RTX Video Super Resolution Time: 20 sec Very fast, clean, and stays faithful to the original. It doesn’t hallucinate anything But it mostly sharpens and cleans artifacts rather than adding new detail, so close-ups look more “upscaled” So far my feeling is: SeedVR2 for hero shots and close-ups, RTX VSR for everything else when speed matters. But I’m not &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x6jx3m/seedvr2_vs_rtx_video_super_resolution_for/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1x6jwi2/new_taomate_h3_fl2va_lora_is_out_heres_a_comfyui/</id><title>New TaoMate H3 FL2VA LoRA is out, here's a ComfyUI conversion</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x6jwi2/new_taomate_h3_fl2va_lora_is_out_heres_a_comfyui/"/>
+<published>2026-10-15T12:08:01+00:00</published><updated>2026-10-15T12:08:01+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<category term="lora"/>
+<summary>TaoLive released a new TaoMate H3 FL2VA checkpoint, so I converted it for ComfyUI and added it to the same Hugging Face repo as my previous TaoMate conversion. The new file is BF16, around 1.24 GB instead of the original 2.48 GB. No retraining or merging, just a format conversion and reduced precisi</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;TaoLive released a new TaoMate H3 FL2VA checkpoint, so I converted it for ComfyUI and added it to the same Hugging Face repo as my previous TaoMate conversion. The new file is BF16, around 1.24 GB instead of the original 2.48 GB. No retraining or merging, just a format conversion and reduced precision. You can find it here: https://huggingface.co/Robert1212star/TaoMate-H3-3Step-ComfyUI Download TaoMate-H3-FL2VA-3Step-ComfyUI-BF16.safetensors and put it in ComfyUI/models/loras/. The older TaoMate file is still there too, so make sure you pick the new FL2VA one. The official adapter targets 3-step generation. Its streaming and KV caching features aren't included in this conversion, and first/l&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x6jwi2/new_taomate_h3_fl2va_lora_is_out_heres_a_comfyui/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1x6jui1/h3_longtakenocuts_straight_3mins_video_case_study/</id><title>[ H3 ] LongTakeNoCuts - straight 3mins video case study.</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x6jui1/h3_longtakenocuts_straight_3mins_video_case_study/"/>
+<published>2026-10-15T12:05:10+00:00</published><updated>2026-10-15T12:05:10+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="lora"/>
+<category term="cinematic"/>
+<summary>Hey all, another video based on my LongTakeNoCuts nodes and workaround https://github.com/xyzDist/H3-LongTakeNoCuts Video: https://www.youtube.com/watch?v=Ktp9U1JI-LA My YT: https://www.youtube.com/@noiseflowAI * Yes, she is singing in korean but in Japan, don't ask me why. 😄 details: 1 character re</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · lora, cinematic&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey all, another video based on my LongTakeNoCuts nodes and workaround https://github.com/xyzDist/H3-LongTakeNoCuts Video: https://www.youtube.com/watch?v=Ktp9U1JI-LA My YT: https://www.youtube.com/@noiseflowAI * Yes, she is singing in korean but in Japan, don't ask me why. 😄 details: 1 character reference image + ref2va workflow + motion context, some of my nodes. hybrid model b20-49 kitchen attention, no lora, step 10 input audio, some silly lyrics then generate a song in SUNO 19 * 10s clips, total around 3mins length 0.7mp resolution, each clip gen time about 11mins (base 10 step gen + refine 5 step resample) I stitch clips in post by CapCut. much simpler and easier than Davinci Resolve c&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x6jui1/h3_longtakenocuts_straight_3mins_video_case_study/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1x6ibin/minimax_h3_fizgig_nodes_as_stylized_illustrations/</id><title>MiniMax H3 + Fizgig Nodes: As Stylized Illustrations GEN (Txt2Img) True Image Generation Model, Native 3072x1536 in 1 Minute, WF + Prompt for Every Example.</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x6ibin/minimax_h3_fizgig_nodes_as_stylized_illustrations/"/>
@@ -12,6 +73,15 @@
 <category term="minimax"/>
 <summary>WF + Prompts - https://civitai.red/posts/31658448 Nodes - https://github.com/shootthesound/ComfyUI-Fizgig-H3-Still/tree/main - 3072x1536, 16 Steps in 1Min (5060 Ti 16gb). - Close to Krea 2 for Prompt Understanding. - Needs LoRAs trained on static hi-res style images. - Highly uncensored out of the b</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;WF + Prompts - https://civitai.red/posts/31658448 Nodes - https://github.com/shootthesound/ComfyUI-Fizgig-H3-Still/tree/main - 3072x1536, 16 Steps in 1Min (5060 Ti 16gb). - Close to Krea 2 for Prompt Understanding. - Needs LoRAs trained on static hi-res style images. - Highly uncensored out of the box. - Great concepts / world knowledge. submitted by /u/-Ellary- [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x6ibin/minimax_h3_fizgig_nodes_as_stylized_illustrations/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1x6hx0n/higgsfield_genjutsu_model_on_comfyui_how_replace/</id><title>"Higgsfield Genjutsu" model on ComfyUI - How replace a character in a video?</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x6hx0n/higgsfield_genjutsu_model_on_comfyui_how_replace/"/>
+<published>2026-10-15T10:17:40+00:00</published><updated>2026-10-15T10:17:40+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<summary>Guys, I need your help. I’m trying to get as close as possible to the " Higgsfield Genjutsu " model in ComfyUI. I’ve tested dozens of different models, including SCAIL_2_REPLACEMENT , and while the movement is replicated perfectly, the character's face in the final output always looks quite differen</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Guys, I need your help. I’m trying to get as close as possible to the " Higgsfield Genjutsu " model in ComfyUI. I’ve tested dozens of different models, including SCAIL_2_REPLACEMENT , and while the movement is replicated perfectly, the character's face in the final output always looks quite different from the source image . I even tried adding a ReActor node, but with poor results. Could someone kind enough please lend me a hand? Thanks to everyone who replies! submitted by /u/Saccosacco1 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x6hx0n/higgsfield_genjutsu_model_on_comfyui_how_replace/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1x6hmbu/new_h3_turbo_neat_lora_is_good/</id><title>New H3 Turbo Neat lora is good</title>
@@ -256,6 +326,16 @@
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · dit&lt;/small&gt;&lt;/p&gt;&lt;p&gt;(OPEN SOURCE) I am trying to find good causal models that can run at 15ish fps on a 5090. reference + video --&amp;gt; video theres joy ai edit but its training code is not out so i cant fine tune it. submitted by /u/Old_Manufacturer7905 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x644lk/any_cool_causal_dit_models_in_mind/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
+<id>https://www.reddit.com/r/comfyui/comments/1x63dyc/minimax_h3_workflow_with_added_load_image_getting/</id><title>Minimax H3 Workflow with added load image — Getting a Generic Orange Cat Instead of My Cat</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x63dyc/minimax_h3_workflow_with_added_load_image_getting/"/>
+<published>2026-10-14T21:17:36+00:00</published><updated>2026-10-14T21:17:36+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<category term="minimax"/>
+<summary>Hey everyone! I’m trying to use MiniMax H3 Reference to Video in ComfyUI to generate a cute 3D cartoon video of my cat, Dodger. I added a Load Image node with a photo of Dodger and connected it to the ref_image inputs on the MiniMax H3 Reference to Video node. I also connected the CLIP, video VAE, a</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey everyone! I’m trying to use MiniMax H3 Reference to Video in ComfyUI to generate a cute 3D cartoon video of my cat, Dodger. I added a Load Image node with a photo of Dodger and connected it to the ref_image inputs on the MiniMax H3 Reference to Video node. I also connected the CLIP, video VAE, and audio VAE inputs and routed the node’s outputs into my existing workflow. However, when I generate a video, I keep getting a generic orange cat instead of the actual cat in my reference image. It also doesn’t consistently follow my prompt. Could someone please take a look at my workflow screenshot and help me check: Are my connections to the MiniMax H3 Reference to Video node correct? Should I &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x63dyc/minimax_h3_workflow_with_added_load_image_getting/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
 <id>https://www.reddit.com/r/vfx/comments/1x63ba5/im_curious_how_would_gaussian_splatting_work_with/</id><title>Im curious, how would gaussian splatting work with flourescent clothing?</title>
 <link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1x63ba5/im_curious_how_would_gaussian_splatting_work_with/"/>
 <published>2026-10-14T21:14:32+00:00</published><updated>2026-10-14T21:14:32+00:00</updated>
@@ -329,6 +409,16 @@
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 6 · minimax, lora, ai video, cinematic&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I’m using self-hosted MiniMax H3 to make a video that looks like someone filming a product they bought, sitting on their desk. Just an ordinary phone recording with subtle handheld movement. Whatever I prompt, it keeps adding cinematic zooms and camera moves. I’ve tried smartphone/handheld descriptions and tested with and without a realism LoRA, but it still feels overly polished and artificial. How are you getting convincing casual phone footage? Is it mostly the model, prompting, reference image, or settings? Would love to see workflows that work. submitted by /u/Naar0x [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x5ybn1/how_do_you_get_ai_video_to_look_like_casual_phone/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
+<id>https://www.reddit.com/r/comfyui/comments/1x5x7p5/turbo_vs_non_turbo_minimax_h3/</id><title>Turbo vs non Turbo (Minimax h3)</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x5x7p5/turbo_vs_non_turbo_minimax_h3/"/>
+<published>2026-10-14T17:19:52+00:00</published><updated>2026-10-14T17:19:52+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="minimax"/>
+<category term="lora"/>
+<summary>After experimenting a LOT, i've noticed that seemingly any turbo lora, even if set to 0.9 and extra steps, etc, makes the output video seem a little fried, edges are thicker. Sort of an overcooked vibe. This is less of an issue with i2v vs ref, but I like ref mode for the flexiblity. Using no turbo </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;After experimenting a LOT, i've noticed that seemingly any turbo lora, even if set to 0.9 and extra steps, etc, makes the output video seem a little fried, edges are thicker. Sort of an overcooked vibe. This is less of an issue with i2v vs ref, but I like ref mode for the flexiblity. Using no turbo is, obviously, very slow. Just wondering what people use as a middle ground? submitted by /u/maxiedaniels [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x5x7p5/turbo_vs_non_turbo_minimax_h3/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
 <id>https://www.reddit.com/r/comfyui/comments/1x5x3zd/pureref_connector_comfyui_plugin_that_sends/</id><title>PureRef Connector - ComfyUI plugin that sends generated images straight to PureRef</title>
 <link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x5x3zd/pureref_connector_comfyui_plugin_that_sends/"/>
 <published>2026-10-14T17:15:54+00:00</published><updated>2026-10-14T17:15:54+00:00</updated>
@@ -381,6 +471,17 @@
 <category term="comfyui"/>
 <summary>Not a replacement for node workflows: something for the times you just want to fix a photo, or for friends who will never build a workflow. Kokon is a free, open-source desktop editor (Windows; Mac beta). Install it, it downloads the right model for your card, and from then on there's nothing to con</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · upscaling, comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Not a replacement for node workflows: something for the times you just want to fix a photo, or for friends who will never build a workflow. Kokon is a free, open-source desktop editor (Windows; Mac beta). Install it, it downloads the right model for your card, and from then on there's nothing to configure: it picks the resolution and memory split per job. 12 GB of VRAM is enough. The part this sub may care about: Qwen-Image 2.1 has no mask input, so Kokon draws the brushed area on a second reference image: the model sees exactly where to work, so "remove the red scooter" removes the scooter and leaves the street alone. On 16 GB+ cards edits run natively up to 2K, no upscaling pass. Every ima&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x5tmlp/i_made_a_nosettings_photo_editor_for_qwenimage_21/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1x5szkq/nvidia_rtx_video_super_resolution_for_comfyui/</id><title>NVIDIA RTX Video Super Resolution for ComfyUI, optimized for long videos with disk-backed processing and low RAM usage. Supports AI upscaling, denoising, deblurring, H.264/HEVC NVENC encoding, audio preservation, and an integrated video preview.</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x5szkq/nvidia_rtx_video_super_resolution_for_comfyui/"/>
+<published>2026-10-14T14:39:57+00:00</published><updated>2026-10-14T14:39:57+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="upscaling"/>
+<category term="denoising"/>
+<category term="comfyui"/>
+<summary>submitted by /u/Away_Exam_4586 [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 6 · upscaling, denoising, comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/Away_Exam_4586 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x5szkq/nvidia_rtx_video_super_resolution_for_comfyui/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1x5puo0/a_quick_minimax_h3_news_roundup_14th_october_2026/</id><title>A quick Minimax H3 news round-up - 14th October 2026</title>
@@ -6725,61 +6826,5 @@
 <category term="comfyui"/>
 <summary>Edit: I just realised that my comparisons are not portrait friendly. If on mobile, please view them in landscape mode. Last week, I posted custom node for the Qwen-Image 2.1 official prompt enhancer. I had made the node because I hated my previous workflow, having to switch to LM Studio to use the o</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Edit: I just realised that my comparisons are not portrait friendly. If on mobile, please view them in landscape mode. Last week, I posted custom node for the Qwen-Image 2.1 official prompt enhancer. I had made the node because I hated my previous workflow, having to switch to LM Studio to use the official prompt enhancer, unloading the model in LM Studio else Qwen-Image 2.1 would run very slowly, then running the workflow after copy/pasting the prompt in ComfyUI and then having to unload models in ComfyUI because I need to use prompt enhancement again, and then endless repeat of the same process. I wanted to do everything end to end in ComfyUI but Native Generate Text node was too slow, so &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wv2u73/update_qwenimage_21_prompt_enhancer_in_comfyui/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wv0xpx/a_project_im_working_on_i_wanted_to_share/</id><title>A project I'm working on I wanted to share.</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wv0xpx/a_project_im_working_on_i_wanted_to_share/"/>
-<published>2026-10-01T14:29:35+00:00</published><updated>2026-10-01T14:29:35+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="avatar"/>
-<category term="comfyui"/>
-<summary>Hello, It's been a bit since I've posted, but I decided to start a new project. The project is an AI Avatar program that allows you to create your own characters and speak with them using everything locally. This isn't anything new as there's already great options out there such as Silly Tavern and </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · avatar, comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hello, It's been a bit since I've posted, but I decided to start a new project. The project is an AI Avatar program that allows you to create your own characters and speak with them using everything locally. This isn't anything new as there's already great options out there such as Silly Tavern and RisuAI, but being able to fully customize the interface and how many bells and whistles go along with it is something I've always enjoyed. Please keep in mind this is simply a showcase using vibe coding via Codex along with art generated in ComfyUI for the character Diana for this demo. Any feedback or suggestions are greatly appreciated. It's fun to work on this project and making it my own. subm&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wv0xpx/a_project_im_working_on_i_wanted_to_share/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1wv0o5z/is_ben_affleck_fast_becoming_the_vfx_nemesis/</id><title>Is Ben Affleck fast becoming the VFX Nemesis?</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wv0o5z/is_ben_affleck_fast_becoming_the_vfx_nemesis/"/>
-<published>2026-10-01T14:19:08+00:00</published><updated>2026-10-01T14:19:08+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="vfx"/>
-<summary>https://www.worldofreel.com/blog/2026/10/1/ben-affleck-says-animals-used-lots-of-ai-but-he-wont-tell-you-where Affleck is on a mission to replace creative artists with his AI tools. Netflix is making it very hard to justify its subscription, putting the cost up and replacing VFX artists all in one m</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;https://www.worldofreel.com/blog/2026/10/1/ben-affleck-says-animals-used-lots-of-ai-but-he-wont-tell-you-where Affleck is on a mission to replace creative artists with his AI tools. Netflix is making it very hard to justify its subscription, putting the cost up and replacing VFX artists all in one month. :/ submitted by /u/REDDER_47 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wv0o5z/is_ben_affleck_fast_becoming_the_vfx_nemesis/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wv0g5g/been_working_on_a_small_tool_for_dealing_with/</id><title>Been working on a small tool for dealing with huge ComfyUI output folders</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wv0g5g/been_working_on_a_small_tool_for_dealing_with/"/>
-<published>2026-10-01T14:10:10+00:00</published><updated>2026-10-01T14:10:10+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<summary>Generating stuff is fun until you realize you have thousands of images sitting in an output folder and no idea where that one image from a few weeks ago went. I’ve been working on a small local Windows tool to make that whole part less painful. The idea is that you can set up little workflows around</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Generating stuff is fun until you realize you have thousands of images sitting in an output folder and no idea where that one image from a few weeks ago went. I’ve been working on a small local Windows tool to make that whole part less painful. The idea is that you can set up little workflows around your existing folders. Like find a specific kind of image → review the matches → rename or tag them → move the ones you want into another folder. So it’s not just search, more about cutting down the repetitive file work that comes after generating a lot of stuff. It’s still pretty early, so I’m looking for a few Windows users with a real messy ComfyUI folder to try it on. If anyone here has this &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wv0g5g/been_working_on_a_small_tool_for_dealing_with/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wuzyq0/orbiting_lora_first_and_last_frame_in_minimax/</id><title>Orbiting Lora + first and last frame in MiniMax gives fantastic results</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wuzyq0/orbiting_lora_first_and_last_frame_in_minimax/"/>
-<published>2026-10-01T13:50:28+00:00</published><updated>2026-10-01T13:50:28+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="minimax"/>
-<category term="lora"/>
-<summary>Prompt for Lora: One frozen instant. Only the camera moves. In a continuous 360 orbit. Preserve every person and object in exactly the same world position, orientation, shape and pose throughout the shot. Airborne objects remain suspended at the captured height and angle: no wobbling, shaking, spinn</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Prompt for Lora: One frozen instant. Only the camera moves. In a continuous 360 orbit. Preserve every person and object in exactly the same world position, orientation, shape and pose throughout the shot. Airborne objects remain suspended at the captured height and angle: no wobbling, shaking, spinning, drifting, falling or continued action. Keep faces, hands, clothing, liquids and the background motionless while retaining their natural appearance. Camera parallax is the only source of apparent movement. No cuts, zoom, morphing or added objects. https://huggingface.co/pablodawson/MiniMax-H3-360-Orbit-LoRA submitted by /u/AndrewJumpen [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wuzyq0/orbiting_lora_first_and_last_frame_in_minimax/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1wuzuk2/i_made_blender_work_like_c4d_free/</id><title>I Made Blender work like C4D (free)</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wuzuk2/i_made_blender_work_like_c4d_free/"/>
-<published>2026-10-01T13:45:34+00:00</published><updated>2026-10-01T13:45:34+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="blender"/>
-<summary>submitted by /u/Annukhz [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · blender&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/Annukhz [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wuzuk2/i_made_blender_work_like_c4d_free/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wuzcin/minimaxh3_is_secretly_an_incredible_image/</id><title>MiniMax-H3 is Secretly an INCREDIBLE Image Generator! [ComfyUI Free Cust...</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wuzcin/minimaxh3_is_secretly_an_incredible_image/"/>
-<published>2026-10-01T13:23:54+00:00</published><updated>2026-10-01T13:23:54+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<summary>submitted by /u/solomars3 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/solomars3 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wuzcin/minimaxh3_is_secretly_an_incredible_image/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
