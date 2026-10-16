@@ -2,8 +2,17 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-16T10:31:04+00:00</updated>
+<updated>2026-10-16T12:32:25+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1x7d340/mossimage_int8_comfyui/</id><title>MOSS-Image INT8 ComfyUI</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x7d340/mossimage_int8_comfyui/"/>
+<published>2026-10-16T10:55:06+00:00</published><updated>2026-10-16T10:55:06+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<summary>I've quantized MOSS-Image to INT8! From my initial testing, it’s relatively lossless. For now, it requires the MOSS-Image custom node, so I’ve included both the install info and a ready-to-use workflow in the repo. Once native support lands in ComfyUI, this exact quant will work right out of the box</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I've quantized MOSS-Image to INT8! From my initial testing, it’s relatively lossless. For now, it requires the MOSS-Image custom node, so I’ve included both the install info and a ready-to-use workflow in the repo. Once native support lands in ComfyUI, this exact quant will work right out of the box without needing any changes. You guys are going to be seriously surprised by how uncensored this model is. Have fun! Link: https://huggingface.co/XCEED123/MOSS-Image-SFT-INT8-ComfyUI submitted by /u/East_Shoe8814 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x7d340/mossimage_int8_comfyui/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1x7a0qu/flux_3_klein_vs_flux2_klein_9b_vs_qwen_image_21/</id><title>FLUX 3 Klein vs FLUX.2 Klein 9B vs Qwen Image 2.1 vs Krea2</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x7a0qu/flux_3_klein_vs_flux2_klein_9b_vs_qwen_image_21/"/>
@@ -6736,45 +6745,5 @@
 <category term="consistency"/>
 <summary>I did this experiment last week, where I used one workflow and at last used both Minima H3 and seedance 2.0 to animate the video with vague prompt to let models generate the dance itself, I only instructed for couple dance with multiple angles. For Minimax H3 the consistency was the better point, it</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 5 · minimax, seedance, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I did this experiment last week, where I used one workflow and at last used both Minima H3 and seedance 2.0 to animate the video with vague prompt to let models generate the dance itself, I only instructed for couple dance with multiple angles. For Minimax H3 the consistency was the better point, it animated the character as it is from the image without making any changes to characters. But the camera movements and multiple angles were not there. It also ended the dance earlier and later became a still. Seedance 2.0 was much better in quality, I would say as it included multiple angles, closeups and camera movements. It also made the characters feel more natural and lively with expressions. &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wvsrhs/minimax_h3_vs_seedance_20_single_line_prompt/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wvsg1q/hdr_locally_now/</id><title>HDR LOCALLY NOW.</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wvsg1q/hdr_locally_now/"/>
-<published>2026-10-02T12:25:17+00:00</published><updated>2026-10-02T12:25:17+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="hdr"/>
-<category term="minimax"/>
-<category term="lora"/>
-<summary>Lightricks released an SDR to HDR worklflow and lora set. Here I made a quick clip in H3 Minimax and used the new tools to convert it to 32bit so I could take a look in After Effects. It will also convert older clips and clean up and smooth color banding and blocking especially in the very dark area</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · hdr, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Lightricks released an SDR to HDR worklflow and lora set. Here I made a quick clip in H3 Minimax and used the new tools to convert it to 32bit so I could take a look in After Effects. It will also convert older clips and clean up and smooth color banding and blocking especially in the very dark areas and also infers extra dynamic range info convincingly. It fixes all the annoying VAE artifacts. https://github.com/Lightricks/ComfyUI-LTXVideo/tree/master/example\_workflows/2.5/HDR\_workflows . I didn't grade this, or add grain or any of the usual tricks, I just played with the exposure. You can also tweak the workflow to convert 8bit images into 32bit raw images for further editing in Photosho&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wvsg1q/hdr_locally_now/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wvrq8j/flux_3_image_commercial_question/</id><title>Flux 3 Image Commercial - Question.</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wvrq8j/flux_3_image_commercial_question/"/>
-<published>2026-10-02T11:49:02+00:00</published><updated>2026-10-02T11:49:02+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="flux"/>
-<summary>Right so I have seen the introduction to flux 3 Image now and myself do not personally like paying or using frontier or company models, so I am wondering has anyone else tested it out so far to see how effective and generally good flux 3 image is? Since the model has been announced in the coming wee</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Right so I have seen the introduction to flux 3 Image now and myself do not personally like paying or using frontier or company models, so I am wondering has anyone else tested it out so far to see how effective and generally good flux 3 image is? Since the model has been announced in the coming weeks, but that could literally mean months from now and I doubt they would want Flux 3 Video to lose it's hype so I assume this image/edit model will be open sourced after flux 3 video releases open sourced. Please let me know if anyone has used the commercial model and whether it is good enough. submitted by /u/SuddenNeighborhood44 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wvrq8j/flux_3_image_commercial_question/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wvqt0h/i_made_a_comfyui_extension_that_browses_civitai/</id><title>I made a ComfyUI extension that browses Civitai inside ComfyUI and sets up any workflow in one click (auto-downloads missing models)</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wvqt0h/i_made_a_comfyui_extension_that_browses_civitai/"/>
-<published>2026-10-02T10:58:17+00:00</published><updated>2026-10-02T10:58:17+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="controlnet"/>
-<summary>Hey everyone 👋 Every time I found a cool workflow on Civitai, the routine was the same: download the zip, unpack it, drag the JSON into ComfyUI, get a wall of red nodes, then spend 20 minutes figuring out which models it needs and which folder each one goes in. So I built **Civitai Browser**, a Comf</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · comfyui, controlnet&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey everyone 👋 Every time I found a cool workflow on Civitai, the routine was the same: download the zip, unpack it, drag the JSON into ComfyUI, get a wall of red nodes, then spend 20 minutes figuring out which models it needs and which folder each one goes in. So I built **Civitai Browser**, a ComfyUI extension that adds a **Civitai tab to the sidebar** (next to Templates / Workflows / Models). **What it does:** - 🔎 **Browse Civitai inside ComfyUI**: workflows, checkpoints, LoRAs, embeddings, ControlNet, VAE, upscalers, with search, sorting, base model filter and NSFW toggle (off by default) - ⚡ **"Load &amp;amp; Set Up" in one click**: it downloads the workflow (zip/json/png), loads it on the canv&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wvqt0h/i_made_a_comfyui_extension_that_browses_civitai/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wvqha5/minimax_h3_r2v_in_comfyui_keeps_the_people_from/</id><title>MiniMax H3 R2V in ComfyUI keeps the people from the scene reference instead of using my character references</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wvqha5/minimax_h3_r2v_in_comfyui_keeps_the_people_from/"/>
-<published>2026-10-02T10:39:05+00:00</published><updated>2026-10-02T10:39:05+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<category term="minimax"/>
-<summary>I’m using ComfyUI with MiniMax H3 R2V , and I’m struggling to get it to use the correct people from three reference images: Image 1: A woman and a man getting into a luxury car. Image 2: A different man, intended as the male character reference. Image 3: A different woman, intended as the female cha</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I’m using ComfyUI with MiniMax H3 R2V , and I’m struggling to get it to use the correct people from three reference images: Image 1: A woman and a man getting into a luxury car. Image 2: A different man, intended as the male character reference. Image 3: A different woman, intended as the female character reference. My goal is to use the scene and composition from Image 1, replace the man with the person from Image 2 and the woman with the person from Image 3, then generate a video of them getting into the car and driving away quickly. I’ve tried detailed prompts explicitly assigning those roles to each image, but the model keeps generating the people from Image 1 instead of using the identi&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wvqha5/minimax_h3_r2v_in_comfyui_keeps_the_people_from/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
