@@ -2,8 +2,39 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-16T12:32:25+00:00</updated>
+<updated>2026-10-16T14:30:40+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1x7h280/a_layerandmask_way_of_editing_with_local_models/</id><title>A layer-and-mask way of editing with local models, running on your ComfyUI model files (turboCLI, LGPL)</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x7h280/a_layerandmask_way_of_editing_with_local_models/"/>
+<published>2026-10-16T14:02:22+00:00</published><updated>2026-10-16T14:02:22+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<category term="flux"/>
+<summary>I've been working on a different way to edit images with local models, and since it builds on ComfyUI in a few ways, I'd really like this community's take on it before going further. The idea: instead of re-prompting one image until it's right, you build the picture out of generated layers and masks</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · comfyui, flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I've been working on a different way to edit images with local models, and since it builds on ComfyUI in a few ways, I'd really like this community's take on it before going further. The idea: instead of re-prompting one image until it's right, you build the picture out of generated layers and masks. In the demo I generate a knight, cut her out with InSPyReNet, rebuild the background without her using FLUX.2 Klein 9B, move her around, make just the castle pink, switch to night, and change her hair while keeping her face. There's no brush at all, only generation and masking. Under the hood, everything runs on turboCLI , an engine I wrote and released under the LGPL. Its ComfyUI side: Your mod&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x7h280/a_layerandmask_way_of_editing_with_local_models/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1x7gmal/game_of_thrones_battle_of_the_bastards_orange_cat/</id><title>Game of Thrones - Battle of the Bastards (Orange Cat Cut)</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x7gmal/game_of_thrones_battle_of_the_bastards_orange_cat/"/>
+<published>2026-10-16T13:44:19+00:00</published><updated>2026-10-16T13:44:19+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="upscaler"/>
+<category term="minimax"/>
+<summary>I got fixated on one stupid idea: What if Jon Snow in the Battle of the Bastards was just a chaotic orange cat, specifically a scruffy stray with a notched ear? To pull this off locally, I fed the original scene through the built-in reference to video template , hooked up a custom character sheet in</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · upscaler, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I got fixated on one stupid idea: What if Jon Snow in the Battle of the Bastards was just a chaotic orange cat, specifically a scruffy stray with a notched ear? To pull this off locally, I fed the original scene through the built-in reference to video template , hooked up a custom character sheet in a local MiniMax H3 V2V pipeline to keep the fur and leather armor locked down, and ran it through an RTX upscaler to save the details. Slapped on some grain so it doesn't look like a plastic toy, plus a custom orchestral score. submitted by /u/AxonkaiLab [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x7gmal/game_of_thrones_battle_of_the_bastards_orange_cat/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1x7fx0m/flux3_klein_is_disappointing_for_image_generation/</id><title>FLUX.3 Klein is disappointing for image generation, but AMAZING for consistent photo editing</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x7fx0m/flux3_klein_is_disappointing_for_image_generation/"/>
+<published>2026-10-16T13:14:19+00:00</published><updated>2026-10-16T13:14:19+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="upscaling"/>
+<category term="flux"/>
+<category term="consistency"/>
+<summary>FLUX.3 Klein has been pretty underwhelming for image generation, but when it comes to editing while preserving consistency, pose, and camera angle, I've found it to be almost PERFECT. With FLUX.2 Klein and Qwen 2.1, I struggled with editing photos at very high resolutions. As a photographer, what I'</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · upscaling, flux, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;FLUX.3 Klein has been pretty underwhelming for image generation, but when it comes to editing while preserving consistency, pose, and camera angle, I've found it to be almost PERFECT. With FLUX.2 Klein and Qwen 2.1, I struggled with editing photos at very high resolutions. As a photographer, what I've really been looking for is a model that can preserve realistic skin texture, fine details, and overall consistency , even at high resolutions. Being able to make consistent edits at these resolutions is a huge deal. We're finally getting into territory that's genuinely usable for professional photography workflows. My setup: GPU: RTX 5090 RAM: 64 GB Diffusion model: flux3_image_klein_sd_bf16.sa&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x7fx0m/flux3_klein_is_disappointing_for_image_generation/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1x7d340/mossimage_int8_comfyui/</id><title>MOSS-Image INT8 ComfyUI</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x7d340/mossimage_int8_comfyui/"/>
@@ -21,6 +52,15 @@
 <category term="flux"/>
 <summary>Body anatomy and realism- Krea2 and qwen2.1 just way ahead of flux models. flux 3 is worst in terms of body anatomy. flux 3 still has best in prompt following i think. Overall, Flux 3 was probably a capable model, lobotomized by extreme and unnecessary censorship. Prompts- https://pastebin.com/x5Lea</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Body anatomy and realism- Krea2 and qwen2.1 just way ahead of flux models. flux 3 is worst in terms of body anatomy. flux 3 still has best in prompt following i think. Overall, Flux 3 was probably a capable model, lobotomized by extreme and unnecessary censorship. Prompts- https://pastebin.com/x5LeaM8u submitted by /u/Devajyoti1231 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x7a0qu/flux_3_klein_vs_flux2_klein_9b_vs_qwen_image_21/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1x79vwl/file_drag_and_drop_into_comfyui_stopped_working/</id><title>File drag and drop into ComfyUI stopped working</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x79vwl/file_drag_and_drop_into_comfyui_stopped_working/"/>
+<published>2026-10-16T07:35:37+00:00</published><updated>2026-10-16T07:35:37+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<summary>There are already some threads recommending removing Mixlab, but in my case another node pack, ComfyUI-JDCN , was also blocking file drops. You can give Claude Code, Codex, Qwen, or another coding assistant access to your custom_nodes folder and ask: Check frontend JavaScript for global drop handler</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;There are already some threads recommending removing Mixlab, but in my case another node pack, ComfyUI-JDCN , was also blocking file drops. You can give Claude Code, Codex, Qwen, or another coding assistant access to your custom_nodes folder and ask: Check frontend JavaScript for global drop handlers that call preventDefault() or stopPropagation() and block ComfyUI’s native file handling. ComfyUI’s native drop handler skips events marked defaultPrevented . Ensure files the extension does not handle, including ordinary workflow JSON files, reach ComfyUI’s native handler while preserving extension-specific import behavior. You can also check manually: search the extensions’ .js files for addEv&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x79vwl/file_drag_and_drop_into_comfyui_stopped_working/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/vfx/comments/1x79uvd/paid_vfx_artist_unreal_engine_5_dark_highfantasy/</id><title>[PAID] VFX Artist – Unreal Engine 5 | Dark High-Fantasy MMORPG</title>
@@ -6685,65 +6725,5 @@
 <category term="seedance"/>
 <summary>Have been working a lot with H3 lately. It’s definitely not perfect, but I’m really loving what I can get out of it. Seedance 2 Fast was also used for some of the B-roll. The whole MV took about a week to complete. Most of the work was done locally through ComfyUI, with RunningHub also used, mainly </summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · comfyui, minimax, seedance&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Have been working a lot with H3 lately. It’s definitely not perfect, but I’m really loving what I can get out of it. Seedance 2 Fast was also used for some of the B-roll. The whole MV took about a week to complete. Most of the work was done locally through ComfyUI, with RunningHub also used, mainly with the MiniMax H3 Singularity model at 25 steps. Upscaled with RTX Super Resolution on an RTX 5060 Ti. submitted by /u/JL_Films [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wvvtg5/pink_kpop_music_video_minimax_h3/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1wvtw1b/doctor_who_classic_season_7_with_new_vfx_no_ai/</id><title>Doctor Who Classic - Season 7 with new VFX! (No AI)</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wvtw1b/doctor_who_classic_season_7_with_new_vfx_no_ai/"/>
-<published>2026-10-02T13:30:48+00:00</published><updated>2026-10-02T13:30:48+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="vfx"/>
-<summary>submitted by /u/Serious_Meaning5220 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/Serious_Meaning5220 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wvtw1b/doctor_who_classic_season_7_with_new_vfx_no_ai/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1wvte7g/defocus_lens_simulator_not_just_blur_effect/</id><title>Defocus Lens Simulator, not just blur effect</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wvte7g/defocus_lens_simulator_not_just_blur_effect/"/>
-<published>2026-10-02T13:09:11+00:00</published><updated>2026-10-02T13:09:11+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="render"/>
-<category term="nuke"/>
-<summary>https://nyckm.github.io/Simulador-de-Lente/en.html Blur that travels through the lens. Lens Blur Simulator by Bruxosdovfx is an optical simulator that computes defocus using ray tracing through the actual surfaces of a lens . Instead of simply blurring recorded pixels, the engine simulates the path </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · render, nuke&lt;/small&gt;&lt;/p&gt;&lt;p&gt;https://nyckm.github.io/Simulador-de-Lente/en.html Blur that travels through the lens. Lens Blur Simulator by Bruxosdovfx is an optical simulator that computes defocus using ray tracing through the actual surfaces of a lens . Instead of simply blurring recorded pixels, the engine simulates the path of light through the optical system: refraction, aperture clipping, aberrations, dispersion, bokeh shape and off-axis behavior. Main features 200+ lenses including Double-Gauss, Sonnar, Tessar, Petzval, triplets, anamorphics and retrofocus designs. Optical ray tracing with Vulkan / CUDA . Image, video and RGB + Depth support. Bokeh generated from the actual lens design. Cat-eye, spherical aberrati&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wvte7g/defocus_lens_simulator_not_just_blur_effect/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wvsy6i/omg_another_big_update_plenio_041_for_comfyui/</id><title>OMG another big update: Plenio 0.4.1 for ComfyUI: arrange YuE2 songs like in a DAW – and six video tutorials</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wvsy6i/omg_another_big_update_plenio_041_for_comfyui/"/>
-<published>2026-10-02T12:49:35+00:00</published><updated>2026-10-02T12:49:35+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="minimax"/>
-<summary>Plenio Music Production System 0.4.1 is out! It turns YuE2 and MiniMax Music 3 into a complete local song studio in ComfyUI. New since 0.3: 🎛️ Arranger : duplicate, move and delete whole sections, like on Cubase's arranger track. The lyrics, the Guide track and – in covers – the original words follo</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Plenio Music Production System 0.4.1 is out! It turns YuE2 and MiniMax Music 3 into a complete local song studio in ComfyUI. New since 0.3: 🎛️ Arranger : duplicate, move and delete whole sections, like on Cubase's arranger track. The lyrics, the Guide track and – in covers – the original words follow every move. 📝 Lyrics where they are sung : every line over its phrase, every syllable over its note. Double-click a line to edit it right there. ⏯️ Cursor, copy &amp;amp; paste : click the ruler, play from there, paste or insert phrases at the cursor. 🎼 MIDI in, MusicXML out, project files : bring a sketch from your DAW, hand the sheet music to MuseScore, Sibelius, Dorico or Cubase. 🎬 Six narrated video&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wvsy6i/omg_another_big_update_plenio_041_for_comfyui/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wvsufk/d_i_opensourced_30000_paired_qrcode_illusions/</id><title>[D] I open-sourced 30,000 paired QR-Code Illusions with multi-decoder verification &amp; robustness scores on Hugging Face (Free for ControlNet / LoRA training)</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wvsufk/d_i_opensourced_30000_paired_qrcode_illusions/"/>
-<published>2026-10-02T12:44:43+00:00</published><updated>2026-10-02T12:44:43+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="controlnet"/>
-<category term="lora"/>
-<summary>submitted by /u/1roOt [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · controlnet, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/1roOt [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wvsufk/d_i_opensourced_30000_paired_qrcode_illusions/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wvsu0d/d_i_opensourced_30000_paired_qrcode_illusions/</id><title>[D] I open-sourced 30,000 paired QR-Code Illusions with multi-decoder verification &amp; robustness scores on Hugging Face (Free for ControlNet / LoRA training)</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wvsu0d/d_i_opensourced_30000_paired_qrcode_illusions/"/>
-<published>2026-10-02T12:44:11+00:00</published><updated>2026-10-02T12:44:11+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="controlnet"/>
-<category term="lora"/>
-<summary>Hey everyone, I just published a clean, curated dataset of 30,000 artistic QR Code illusions on Hugging Face! Unlike synthetic noise blends, each sample is an aesthetic artwork where the QR code is seamlessly woven into foliage, architecture, lighting, and textures. Every single image was rigorously</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · controlnet, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey everyone, I just published a clean, curated dataset of 30,000 artistic QR Code illusions on Hugging Face! Unlike synthetic noise blends, each sample is an aesthetic artwork where the QR code is seamlessly woven into foliage, architecture, lighting, and textures. Every single image was rigorously tested across multiple QR decoders (pyzbar + OpenCV WeChat QR) and stress-tested against rotation, perspective shift, and blur to calculate a normalized robustness score. • 30,000 paired samples (768×768 PNGs) • Packaged as self-contained Parquet shards (instant 1-line load via datasets) • Fully partitioned with zero QR-matrix leakage across train/val/test • Quality tiers: Class A (high scannabil&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wvsu0d/d_i_opensourced_30000_paired_qrcode_illusions/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wvsrhs/minimax_h3_vs_seedance_20_single_line_prompt/</id><title>Minimax H3 vs Seedance 2.0 single line prompt result of dance scene</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wvsrhs/minimax_h3_vs_seedance_20_single_line_prompt/"/>
-<published>2026-10-02T12:40:49+00:00</published><updated>2026-10-02T12:40:49+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="minimax"/>
-<category term="seedance"/>
-<category term="consistency"/>
-<summary>I did this experiment last week, where I used one workflow and at last used both Minima H3 and seedance 2.0 to animate the video with vague prompt to let models generate the dance itself, I only instructed for couple dance with multiple angles. For Minimax H3 the consistency was the better point, it</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 5 · minimax, seedance, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I did this experiment last week, where I used one workflow and at last used both Minima H3 and seedance 2.0 to animate the video with vague prompt to let models generate the dance itself, I only instructed for couple dance with multiple angles. For Minimax H3 the consistency was the better point, it animated the character as it is from the image without making any changes to characters. But the camera movements and multiple angles were not there. It also ended the dance earlier and later became a still. Seedance 2.0 was much better in quality, I would say as it included multiple angles, closeups and camera movements. It also made the characters feel more natural and lively with expressions. &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wvsrhs/minimax_h3_vs_seedance_20_single_line_prompt/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
