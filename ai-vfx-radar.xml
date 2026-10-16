@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-16T18:30:34+00:00</updated>
+<updated>2026-10-16T20:30:21+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1x7mklw/excuse_me_flux3_klein_i_had_some_other_intention/</id><title>Excuse me Flux.3 Klein, I had some other intention.</title>
@@ -65,6 +65,15 @@
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/Ok_Contribution8157 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x7in1r/flux_3_vs_krea_2_vs_z_image_turbo_vs_qwen_21/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1x7ifgx/flux_3_vs_krea_2_vs_z_image_turbo_vs_qwen_21/</id><title>FLUX 3 vs KREA 2 vs Z image turbo vs Qwen 2.1</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x7ifgx/flux_3_vs_krea_2_vs_z_image_turbo_vs_qwen_21/"/>
+<published>2026-10-16T14:56:47+00:00</published><updated>2026-10-16T14:56:47+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="flux"/>
+<summary>In most of my tests, the results are similar across these 4 models. Clearly, the other models are on the same level as Z-Image Turbo. Z-Image Turbo : still the best for realism. Krea 2 Turbo : slightly ahead for illustration. Qwen Image 2.1 : OK, but the noise issue must be fixed. FLUX 3 Klein : has</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;In most of my tests, the results are similar across these 4 models. Clearly, the other models are on the same level as Z-Image Turbo. Z-Image Turbo : still the best for realism. Krea 2 Turbo : slightly ahead for illustration. Qwen Image 2.1 : OK, but the noise issue must be fixed. FLUX 3 Klein : has some potential, especially with the first picture. The first prompt can be a good starting point for creating great images. More images are on my substack . The workflows are available on Civitai and Github . (I2I and T2I). Those 2 workflows generate a big image with the 4 images and the model's name on it, like the 3 images above, so you can easily share your results on social networks. submitte&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x7ifgx/flux_3_vs_krea_2_vs_z_image_turbo_vs_qwen_21/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
 <id>https://www.reddit.com/r/comfyui/comments/1x7icna/can_someone_create_a_distillation_lora_like/</id><title>Can someone create a distillation lora (like lightx) for yue2 ?</title>
 <link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x7icna/can_someone_create_a_distillation_lora_like/"/>
 <published>2026-10-16T14:53:43+00:00</published><updated>2026-10-16T14:53:43+00:00</updated>
@@ -112,6 +121,15 @@
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · upscaler, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I got fixated on one stupid idea: What if Jon Snow in the Battle of the Bastards was just a chaotic orange cat, specifically a scruffy stray with a notched ear? To pull this off locally, I fed the original scene through the built-in reference to video template , hooked up a custom character sheet in a local MiniMax H3 V2V pipeline to keep the fur and leather armor locked down, and ran it through an RTX upscaler to save the details. Slapped on some grain so it doesn't look like a plastic toy, plus a custom orchestral score. submitted by /u/AxonkaiLab [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x7gmal/game_of_thrones_battle_of_the_bastards_orange_cat/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
+<id>https://www.reddit.com/r/vfx/comments/1x7gls2/i_built_a_crowd_system_for_my_ue_stadium_3d_assets/</id><title>I built a crowd system for my UE stadium 3d assets</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1x7gls2/i_built_a_crowd_system_for_my_ue_stadium_3d_assets/"/>
+<published>2026-10-16T13:43:42+00:00</published><updated>2026-10-16T13:43:42+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="animation"/>
+<summary>I make a series of arenas and stadiums for commercial videos and Fab (esports, hockey, MMA, concert, and more). Empty stands always looked like the weak spot, so I built a crowd tool and filled them with animated fans. The setup is Vertex Animation Textures + Hierarchical Instanced Static Meshes. Th</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 1 · animation&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I make a series of arenas and stadiums for commercial videos and Fab (esports, hockey, MMA, concert, and more). Empty stands always looked like the weak spot, so I built a crowd tool and filled them with animated fans. The setup is Vertex Animation Textures + Hierarchical Instanced Static Meshes. The animation runs on the GPU and the crowd is instanced, so you can fill a whole arena without skeletal mesh overhead. The video shows the Esports Arena Stadium. Lighting, LED screens, and neon are all part of the scene. I’m rolling this out across the rest of the arena series. Happy to answer questions about the VAT/HISM setup or performance. submitted by /u/OlegVerenko [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1x7gls2/i_built_a_crowd_system_for_my_ue_stadium_3d_assets/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1x7fx0m/flux3_klein_is_disappointing_for_image_generation/</id><title>FLUX.3 Klein is disappointing for image generation, but AMAZING for consistent photo editing</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x7fx0m/flux3_klein_is_disappointing_for_image_generation/"/>
 <published>2026-10-16T13:14:19+00:00</published><updated>2026-10-16T13:14:19+00:00</updated>
@@ -130,6 +148,15 @@
 <category term="comfyui"/>
 <summary>I've quantized MOSS-Image to INT8! From my initial testing, it’s relatively lossless. For now, it requires the MOSS-Image custom node, so I’ve included both the install info and a ready-to-use workflow in the repo. Once native support lands in ComfyUI, this exact quant will work right out of the box</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I've quantized MOSS-Image to INT8! From my initial testing, it’s relatively lossless. For now, it requires the MOSS-Image custom node, so I’ve included both the install info and a ready-to-use workflow in the repo. Once native support lands in ComfyUI, this exact quant will work right out of the box without needing any changes. You guys are going to be seriously surprised by how uncensored this model is. Have fun! Link: https://huggingface.co/XCEED123/MOSS-Image-SFT-INT8-ComfyUI submitted by /u/East_Shoe8814 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x7d340/mossimage_int8_comfyui/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1x7b48y/compositing_opportunities/</id><title>Compositing opportunities</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1x7b48y/compositing_opportunities/"/>
+<published>2026-10-16T08:55:43+00:00</published><updated>2026-10-16T08:55:43+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="compositing"/>
+<summary>Hello, Im writing this message because I would be in the need of a bit of help. I left the industry a couple of months ago due to personal reasons, but now I feel like I want to come back. I wanted to ask for feedback for my compositing reel, its all the I can offer to be very honest. Let me know wh</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · compositing&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hello, Im writing this message because I would be in the need of a bit of help. I left the industry a couple of months ago due to personal reasons, but now I feel like I want to come back. I wanted to ask for feedback for my compositing reel, its all the I can offer to be very honest. Let me know what you guys think and if Im able to get real opportunities in compositing. https://vimeo.com/1226405665 Thank you. submitted by /u/Unable-Funny-7004 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1x7b48y/compositing_opportunities/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1x7a0qu/flux_3_klein_vs_flux2_klein_9b_vs_qwen_image_21/</id><title>FLUX 3 Klein vs FLUX.2 Klein 9B vs Qwen Image 2.1 vs Krea2</title>
@@ -159,6 +186,15 @@
 <category term="unreal engine"/>
 <summary>We’re an indie studio currently developing a modern reimagining of a previously successful MMORPG **IP** in Unreal Engine 5. We’re currently building our **vertical slice and announcement trailer** and are looking for a talented **VFX Artist** to help establish the visual language of our combat and </summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 6 · vfx, unreal, unreal engine&lt;/small&gt;&lt;/p&gt;&lt;p&gt;We’re an indie studio currently developing a modern reimagining of a previously successful MMORPG **IP** in Unreal Engine 5. We’re currently building our **vertical slice and announcement trailer** and are looking for a talented **VFX Artist** to help establish the visual language of our combat and abilities. **What we’re looking for:** Experience creating VFX in **Unreal Engine 5**, preferably using Niagara Strong experience with **fantasy combat VFX** Spell casting, projectiles, impacts, persistent effects and environmental VFX Good understanding of **combat timing, readability and impact** Ability to work collaboratively with our development and art team A portfolio or reel demonstrating &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1x79uvd/paid_vfx_artist_unreal_engine_5_dark_highfantasy/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1x76xen/flux_3_klien_distil/</id><title>Flux 3 klien distil</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x76xen/flux_3_klien_distil/"/>
+<published>2026-10-16T04:36:25+00:00</published><updated>2026-10-16T04:36:25+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="flux"/>
+<summary>Flux 3 klien make me remember SD3 body horror. but for other things look nice. will need further testing submitted by /u/rionix88 [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Flux 3 klien make me remember SD3 body horror. but for other things look nice. will need further testing submitted by /u/rionix88 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x76xen/flux_3_klien_distil/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1x76buu/krea2_realism_is_back_this_time_as_a_full/</id><title>Krea2 Realism is back — this time as a full checkpoint! And yes, things got a little wilder</title>
@@ -6653,54 +6689,5 @@
 <category term="cinematic"/>
 <summary>Another quick Minimax H3 news and goodies round-up, for those who may have missed some items. -&gt; How low can you go? A new 2-step LoRA for H3, 'PDMD 2-NFE', now in ComfyUI format. https://huggingface.co/Iwannapose/minimax_h3_pdmd_2nfe_comfyui -&gt; Another 'Anime to Real' for H3, but this is a slider t</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 5 · comfyui, minimax, lora, cinematic&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Another quick Minimax H3 news and goodies round-up, for those who may have missed some items. -&amp;gt; How low can you go? A new 2-step LoRA for H3, 'PDMD 2-NFE', now in ComfyUI format. https://huggingface.co/Iwannapose/minimax_h3_pdmd_2nfe_comfyui -&amp;gt; Another 'Anime to Real' for H3, but this is a slider that also goes the other way... "Positive values lean towards a 2D anime style". https://huggingface.co/adf99/H3_Ref2V_Anime_Slider_v1 -&amp;gt; Yee-haw! A 1950s westerns LoRA for H3 FL2VA. No trigger, but the maker suggests adding... "The lighting is natural, with [time-of-day] light. The [photograph, video, etc] has a vintage, cinematic quality." He also suggests breaking from Minimax's 16:9 and using t&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1ww58xn/a_quick_minimax_h3_news_roundup_2nd_october_2026/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1ww40hv/for_minimax_h3_we_need_a_perfect_quality_lora_not/</id><title>For Minimax H3 we need a "perfect quality" Lora, not necessary low steps</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1ww40hv/for_minimax_h3_we_need_a_perfect_quality_lora_not/"/>
-<published>2026-10-02T20:16:15+00:00</published><updated>2026-10-02T20:16:15+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="minimax"/>
-<category term="seedance"/>
-<category term="lora"/>
-<summary>Even at 28 steps you still have smeary noise on fast movements and the quality can be better. Now imagine if someone made a lora without being limited to 3, 4 or 8 steps, we could achieve near perfect quality. Imagine a 16 steps lora with near Seedance 2.5 quality... submitted by /u/Cequejedisestvra</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 5 · minimax, seedance, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Even at 28 steps you still have smeary noise on fast movements and the quality can be better. Now imagine if someone made a lora without being limited to 3, 4 or 8 steps, we could achieve near perfect quality. Imagine a 16 steps lora with near Seedance 2.5 quality... submitted by /u/Cequejedisestvrai [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1ww40hv/for_minimax_h3_we_need_a_perfect_quality_lora_not/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1ww3b89/open_call_challenge_lets_opensource_the_creative/</id><title>Open Call Challenge: let's open-source the creative app features people pay a subscription for - $10,000 grand prize - 10/13 SF event</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1ww3b89/open_call_challenge_lets_opensource_the_creative/"/>
-<published>2026-10-02T19:47:41+00:00</published><updated>2026-10-02T19:47:41+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="relight"/>
-<category term="face swap"/>
-<category term="vfx"/>
-<category term="comfyui"/>
-<category term="flux"/>
-<category term="ltx"/>
-<category term="consistency"/>
-<category term="character consistency"/>
-<summary>Cinematic camera controls. Character consistency. Relight. Face swap. Most of these features sit behind a subscription somewhere, but every one of them is a workflow underneath. Open weight models have already caught up on capability, but what’s still closed is the layer on top: the interfaces and a</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 9 · relight, face swap, vfx, comfyui, flux, ltx, consistency, character consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Cinematic camera controls. Character consistency. Relight. Face swap. Most of these features sit behind a subscription somewhere, but every one of them is a workflow underneath. Open weight models have already caught up on capability, but what’s still closed is the layer on top: the interfaces and apps that turn models into features anyone can use. It’s in our DNA to support open-source creativity, and there’s no technical reason that layer has to stay closed. So we're challenging our community to pick a creative app feature people pay for and rebuild it in the open! Top workflows get featured on comfy.org/models , and every entry is eligible for the spotlight reel whether it places or not. &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1ww3b89/open_call_challenge_lets_opensource_the_creative/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1ww2qr2/new_ves_award_short_project/</id><title>New VES Award: Short Project</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1ww2qr2/new_ves_award_short_project/"/>
-<published>2026-10-02T19:24:40+00:00</published><updated>2026-10-02T19:24:40+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="vfx"/>
-<category term="visual effects"/>
-<summary>(Copy paste from the VES announcement, want to make sure it’s seen outside the usual circles) New Category Announced! The VES Award for Outstanding Visual Effects in a Short Project will cover both photoreal and animated projects. Designed to reflect the evolution of today’s media landscape and grow</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · vfx, visual effects&lt;/small&gt;&lt;/p&gt;&lt;p&gt;(Copy paste from the VES announcement, want to make sure it’s seen outside the usual circles) New Category Announced! The VES Award for Outstanding Visual Effects in a Short Project will cover both photoreal and animated projects. Designed to reflect the evolution of today’s media landscape and growing sophistication of social media content, this category will include the growing number of VFX artists working outside of the traditional film and TV framework. Submissions for the 25th Annual VES Awards are due on October 31st! Head to the link to review the full list of submission categories and submit your project today: https://vesglobal.org/25th-annual-ves-awards-rules-procedures/ submitted&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1ww2qr2/new_ves_award_short_project/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1ww2276/is_there_a_fasth3_4step_referencetovideo_workflow/</id><title>Is there a FastH3 4-step reference-to-video workflow for character consistency?</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1ww2276/is_there_a_fasth3_4step_referencetovideo_workflow/"/>
-<published>2026-10-02T18:58:12+00:00</published><updated>2026-10-02T18:58:12+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="minimax"/>
-<category term="consistency"/>
-<category term="character consistency"/>
-<summary>I’m generating multiple 5-second clips with FastH3 4-step and stitching them together. The speed and quality are good, but the character changes between clips. Is there any working Ref2Video / Ref2VA workflow for the 4-step FastH3 model where I can provide a character reference image? I know first-f</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 6 · comfyui, minimax, consistency, character consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I’m generating multiple 5-second clips with FastH3 4-step and stitching them together. The speed and quality are good, but the character changes between clips. Is there any working Ref2Video / Ref2VA workflow for the 4-step FastH3 model where I can provide a character reference image? I know first-frame I2V exists, but I don’t want every clip to begin from basically the same image. Ideally, I’d use one character reference while still allowing different poses, camera angles and scenes. Does the 4-step model support this at all, or is it only available with the full MiniMax H3 model? If anyone has a ComfyUI workflow, custom nodes or another practical method, I’d appreciate a link. submitted by&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1ww2276/is_there_a_fasth3_4step_referencetovideo_workflow/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
