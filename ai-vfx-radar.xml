@@ -2,8 +2,17 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-17T14:30:18+00:00</updated>
+<updated>2026-10-17T16:30:18+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1x8c1n9/flux_3_klein_workflows_have_been_updated/</id><title>FLUX 3 Klein Workflows have been updated</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x8c1n9/flux_3_klein_workflows_have_been_updated/"/>
+<published>2026-10-17T14:47:01+00:00</published><updated>2026-10-17T14:47:01+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="flux"/>
+<summary>submitted by /u/stephen370 [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/stephen370 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x8c1n9/flux_3_klein_workflows_have_been_updated/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1x8apux/mossing_around_in_4k/</id><title>MOSSing around in 4K</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x8apux/mossing_around_in_4k/"/>
@@ -13,6 +22,16 @@
 <category term="cinematic"/>
 <summary>I've been doing some testing to check the creative variety of MOSS image. It has got quite some cinematic looks in it. Nothing fancy about the workflow, just straight from the comfy template. diffusion model: moss_image_sft_int8_convrot.safetensors text econder: qwen3.5_9b_int8_convrot.safetensors v</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · rendering, cinematic&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I've been doing some testing to check the creative variety of MOSS image. It has got quite some cinematic looks in it. Nothing fancy about the workflow, just straight from the comfy template. diffusion model: moss_image_sft_int8_convrot.safetensors text econder: qwen3.5_9b_int8_convrot.safetensors vae: flux2-vae steps: 50 cfg: 3 sampler: euler scheduler: sgm_uniform / simple With these settings 4k res is rendering in about 55 sec on a GTX5090 with peak VRAM 19,5 GB. Great fun so far! submitted by /u/RauschCraft [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x8apux/mossing_around_in_4k/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1x8aplh/fizgig_lora_isolation_a_new_process_for_more/</id><title>Fizgig Lora Isolation - A new process for more powerful LoRAs</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x8aplh/fizgig_lora_isolation_a_new_process_for_more/"/>
+<published>2026-10-17T13:48:53+00:00</published><updated>2026-10-17T13:48:53+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="compositing"/>
+<category term="lora"/>
+<summary>Fizgig LoRA Isolation: train 2 identities into one LoRA and keep everyone else looking like themselves. A normal LoRA of a person spreads their face onto everyone else in the picture: strangers in the background, a friend beside them, a crowd. LoRA Isolation stops that. Your subjects can stand toget</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · compositing, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Fizgig LoRA Isolation: train 2 identities into one LoRA and keep everyone else looking like themselves. A normal LoRA of a person spreads their face onto everyone else in the picture: strangers in the background, a friend beside them, a crowd. LoRA Isolation stops that. Your subjects can stand together in one picture, or next to someone the model already knows, and every face stays its own. The numbers (Krea 2, same pictures, same settings): with a normal LoRA, 48 of 50 strangers came out looking like the trained person. With LoRA Isolation, 0 of 50. Likeness of the trained person stayed the same (ArcFace 0.78 vs 0.77). Demo video: (same as above) https://youtu.be/CNh4sN5vN_8 A second person&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x8aplh/fizgig_lora_isolation_a_new_process_for_more/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/vfx/comments/1x870cm/m5_pro_macbook_vs_nvidia_workstation_advice_for_a/</id><title>M5 Pro MacBook vs NVIDIA workstation — advice for a multidisciplinary artist increasingly using Blender?</title>
@@ -52,6 +71,15 @@
 <category term="minimax"/>
 <summary>Hey Reddit! I just finished the 1st episode of my K-Webtoon Thriller Drama using ComfyUI + Minimax H3. Honestly, the 'comfyui-obvpm-timeline' pack is an absolute game-changer. It makes extending clips and editing narratives right inside ComfyUI incredibly smooth. No more lighting flickers at the joi</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey Reddit! I just finished the 1st episode of my K-Webtoon Thriller Drama using ComfyUI + Minimax H3. Honestly, the 'comfyui-obvpm-timeline' pack is an absolute game-changer. It makes extending clips and editing narratives right inside ComfyUI incredibly smooth. No more lighting flickers at the joins! 🎬 Full Video with EN Subtitles on YouTube: 👉 https://www.youtube.com/watch?v=WjD9hxyVbQU I'd love to get some feedback from the community! workflow link 👉 https://github.com/chanon/comfyui-obvpm-timeline/tree/main/workflows submitted by /u/CirceWebtoonDrama [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x829s3/thanks_to_chanons_timeline_tool_making_a_webtoon/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1x8254a/moss_image_sft_8_steps_turbo_lora_test/</id><title>Moss image sft (8 steps turbo lora test)</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x8254a/moss_image_sft_8_steps_turbo_lora_test/"/>
+<published>2026-10-17T05:33:00+00:00</published><updated>2026-10-17T05:33:00+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="lora"/>
+<summary>(Left) lora.safetensors (Right) lora_latest.safetensors Euler, simple, 8 steps, 1 megapixels took 5 secs on 4070 super. The skin looks plasticky in studio photo style, but I like its amateur snapshot style. https://huggingface.co/lodestones/MOSS-Image-SFT-8-steps-dmd The other images removed by redd</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;(Left) lora.safetensors (Right) lora_latest.safetensors Euler, simple, 8 steps, 1 megapixels took 5 secs on 4070 super. The skin looks plasticky in studio photo style, but I like its amateur snapshot style. https://huggingface.co/lodestones/MOSS-Image-SFT-8-steps-dmd The other images removed by reddit filter. https://civitai.red/posts/31700334 submitted by /u/Ant_6431 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x8254a/moss_image_sft_8_steps_turbo_lora_test/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1x8064i/minimax_vs_qwen_image_editing/</id><title>Minimax vs Qwen image editing</title>
@@ -6619,29 +6647,5 @@
 <category term="blender"/>
 <summary>More of a straightforward comp job for this one. A VFX breakdown from my music video "The River, the Shore". 2+ years in the making, the full music video combines real footage with Blender composited in After Effects and Resolve - with many of the scenes being fully CG! Full music video in the link </summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 3 · vfx, blender&lt;/small&gt;&lt;/p&gt;&lt;p&gt;More of a straightforward comp job for this one. A VFX breakdown from my music video "The River, the Shore". 2+ years in the making, the full music video combines real footage with Blender composited in After Effects and Resolve - with many of the scenes being fully CG! Full music video in the link below: https://www.youtube.com/watch?v=vrrZCnXuPCs&amp;amp;lc=UgxA5OVrazcW0YI43B54AaABAg Let me know what you think :) No generative AI was used for this work. submitted by /u/carmo97 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wwrpn9/window_seat_music_video_vfx_breakdown_after/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wwpcw2/anima_appreciation_thread/</id><title>Anima Appreciation Thread</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wwpcw2/anima_appreciation_thread/"/>
-<published>2026-10-03T15:00:48+00:00</published><updated>2026-10-03T15:00:48+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="rendering"/>
-<category term="comfyui"/>
-<summary>Thank you tdrussell and ComfyUI for creating this model. Also to maxfeifei8 for the tune. Great knowledge, great style adherence, easy to prompt, responds very well to prompt changes for a fixed seed and good short text rendering. Most importantly, great quality. Multi-character can be a pain but I </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · rendering, comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Thank you tdrussell and ComfyUI for creating this model. Also to maxfeifei8 for the tune. Great knowledge, great style adherence, easy to prompt, responds very well to prompt changes for a fixed seed and good short text rendering. Most importantly, great quality. Multi-character can be a pain but I can't ask for much more given the amazing quality of outputs. Better long text would also be nice. Really hope that there'll be an Anima 2. Models used: Anima Aesthetic v1.1 One Obsession v4 (5 pics) No LORAs submitted by /u/Able_Challenge6575 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wwpcw2/anima_appreciation_thread/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wwp4ak/vnccs_320_released/</id><title>VNCCS 3.2.0 Released!</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wwp4ak/vnccs_320_released/"/>
-<published>2026-10-03T14:50:25+00:00</published><updated>2026-10-03T14:50:25+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="video model"/>
-<category term="upscaling"/>
-<category term="animation"/>
-<category term="comfyui"/>
-<category term="minimax"/>
-<category term="lora"/>
-<summary>Hi! V-chan here! We got another BIIIG update, and you now have some new toys to play with. New models, transparent sprites, and a Character Creator makeover. We even recruited a video model for sprite duty. Hehe! If you are new here: VNCCS is a ComfyUI pipeline for creating characters and turning th</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 6 · video model, upscaling, animation, comfyui, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi! V-chan here! We got another BIIIG update, and you now have some new toys to play with. New models, transparent sprites, and a Character Creator makeover. We even recruited a video model for sprite duty. Hehe! If you are new here: VNCCS is a ComfyUI pipeline for creating characters and turning them into sprite sets with different poses, outfits, and expressions. For visual novels, games, or whatever your little creative brain is plotting. Here is the fun stuff in 3.2.0 : Qwen Image 2.1 is our new main model now. Qwen Image 2.1 can create your base character, change poses, dress them up, and generate expressions. You can use it in Character Creator, the pose and clothing workflows, and Emo&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wwp4ak/vnccs_320_released/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
