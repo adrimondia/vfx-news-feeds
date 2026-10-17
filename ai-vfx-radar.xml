@@ -2,8 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-17T12:30:18+00:00</updated>
+<updated>2026-10-17T14:30:18+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1x8apux/mossing_around_in_4k/</id><title>MOSSing around in 4K</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x8apux/mossing_around_in_4k/"/>
+<published>2026-10-17T13:49:16+00:00</published><updated>2026-10-17T13:49:16+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="rendering"/>
+<category term="cinematic"/>
+<summary>I've been doing some testing to check the creative variety of MOSS image. It has got quite some cinematic looks in it. Nothing fancy about the workflow, just straight from the comfy template. diffusion model: moss_image_sft_int8_convrot.safetensors text econder: qwen3.5_9b_int8_convrot.safetensors v</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · rendering, cinematic&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I've been doing some testing to check the creative variety of MOSS image. It has got quite some cinematic looks in it. Nothing fancy about the workflow, just straight from the comfy template. diffusion model: moss_image_sft_int8_convrot.safetensors text econder: qwen3.5_9b_int8_convrot.safetensors vae: flux2-vae steps: 50 cfg: 3 sampler: euler scheduler: sgm_uniform / simple With these settings 4k res is rendering in about 55 sec on a GTX5090 with peak VRAM 19,5 GB. Great fun so far! submitted by /u/RauschCraft [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x8apux/mossing_around_in_4k/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/vfx/comments/1x870cm/m5_pro_macbook_vs_nvidia_workstation_advice_for_a/</id><title>M5 Pro MacBook vs NVIDIA workstation — advice for a multidisciplinary artist increasingly using Blender?</title>
 <link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1x870cm/m5_pro_macbook_vs_nvidia_workstation_advice_for_a/"/>
@@ -6633,53 +6643,5 @@
 <category term="lora"/>
 <summary>Hi! V-chan here! We got another BIIIG update, and you now have some new toys to play with. New models, transparent sprites, and a Character Creator makeover. We even recruited a video model for sprite duty. Hehe! If you are new here: VNCCS is a ComfyUI pipeline for creating characters and turning th</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 6 · video model, upscaling, animation, comfyui, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi! V-chan here! We got another BIIIG update, and you now have some new toys to play with. New models, transparent sprites, and a Character Creator makeover. We even recruited a video model for sprite duty. Hehe! If you are new here: VNCCS is a ComfyUI pipeline for creating characters and turning them into sprite sets with different poses, outfits, and expressions. For visual novels, games, or whatever your little creative brain is plotting. Here is the fun stuff in 3.2.0 : Qwen Image 2.1 is our new main model now. Qwen Image 2.1 can create your base character, change poses, dress them up, and generate expressions. You can use it in Character Creator, the pose and clothing workflows, and Emo&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wwp4ak/vnccs_320_released/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wwnztw/commercial_video_models_are_over_for_me_at_least/</id><title>Commercial video models are over (for me at least)</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wwnztw/commercial_video_models_are_over_for_me_at_least/"/>
-<published>2026-10-03T14:01:03+00:00</published><updated>2026-10-03T14:01:03+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="upscaling"/>
-<category term="render"/>
-<category term="kling"/>
-<category term="minimax"/>
-<category term="seedance"/>
-<category term="storyboard"/>
-<summary>After using models like kling and seedance for a very long time I wanted to test the limits of what could be done on my single RTX 4080. I thought it would be too ambitious but it looks like there's actually no limit anymore... - Idea, full storyboard, location and monsters design: Human brain (not </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 6 · upscaling, render, kling, minimax, seedance, storyboard&lt;/small&gt;&lt;/p&gt;&lt;p&gt;After using models like kling and seedance for a very long time I wanted to test the limits of what could be done on my single RTX 4080. I thought it would be too ambitious but it looks like there's actually no limit anymore... - Idea, full storyboard, location and monsters design: Human brain (not the best or most actual model) - Prompts helper: Qwen 3.8 27B - Images: Qwen image 2.1 - Video: Minimax H3 (One render with the Minimax H3 Director custom node for continuity) - Upscaling to 4K: DLSS 5 This is only a small part of a larger project I'm working on, I thought this project would take months of trials and errors to create, prompt, generate but this demo scene with random detail shots t&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wwnztw/commercial_video_models_are_over_for_me_at_least/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.bbc.com/news/articles/cwgkvygg5nzvo</id><title>US killer's sentence quashed because of AI video of victim shown in court</title>
-<link rel="alternate" href="https://www.bbc.com/news/articles/cwgkvygg5nzvo"/>
-<published>2026-10-03T13:34:18+00:00</published><updated>2026-10-03T13:34:18+00:00</updated>
-<author><name>Hacker News</name></author>
-<category term="ai video"/>
-<summary>Article URL: https://www.bbc.com/news/articles/cwgkvygg5nzvo Comments URL: https://news.ycombinator.com/item?id=49944127 Points: 74 # Comments: 60</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;Hacker News · score 2 · ai video&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Article URL: https://www.bbc.com/news/articles/cwgkvygg5nzvo Comments URL: https://news.ycombinator.com/item?id=49944127 Points: 74 # Comments: 60&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.bbc.com/news/articles/cwgkvygg5nzvo"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wwn7c2/ai_slop_game_based_on_batlle_video_in_real_time/</id><title>ai slop game based on batlle video in real time with only open model</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wwn7c2/ai_slop_game_based_on_batlle_video_in_real_time/"/>
-<published>2026-10-03T13:24:42+00:00</published><updated>2026-10-03T13:24:42+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="video model"/>
-<category term="gaussian splatting"/>
-<category term="animation"/>
-<category term="rendering"/>
-<category term="minimax"/>
-<summary>Check out Chimera Arena (https://chimeraarena.com/static/showcase/index.html?lang=en) ! Here’s my slightly scrappy AI-generated teaser for Chimera Arena, my card game combining AI-generated video battles, real-time 2D combat, and creatures you design yourself. It’s built using Krea 2 with custom LoR</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 5 · video model, gaussian splatting, animation, rendering, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Check out Chimera Arena (https://chimeraarena.com/static/showcase/index.html?lang=en) ! Here’s my slightly scrappy AI-generated teaser for Chimera Arena, my card game combining AI-generated video battles, real-time 2D combat, and creatures you design yourself. It’s built using Krea 2 with custom LoRAs , Qwen 2.1, MiniMax, Gemini Flash , and a few other experiments. You can generate your own creature cards and 2D sprites, then challenge other players using generated abilities or inventing your own attacks. That’s the fun part: what you imagine can actually affect your opponent’s health and the outcome of the fight. I’m also experimenting with Gaussian splatting to turn the artwork into textur&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wwn7c2/ai_slop_game_based_on_batlle_video_in_real_time/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wwmywn/one_char_model_consistent_face_body_cloths_are/</id><title>One .char model, Consistent face, body &amp; cloths are now supported in Comfy(Custom node &amp; workflows - Minimax H3 &amp; Flux 2 Klein)</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wwmywn/one_char_model_consistent_face_body_cloths_are/"/>
-<published>2026-10-03T13:13:37+00:00</published><updated>2026-10-03T13:13:37+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<category term="flux"/>
-<category term="minimax"/>
-<category term="lora"/>
-<summary>I have been getting lot of request to publish .char support with ComfyUI, here is a custom node that I created: Node Repo: https://github.com/omnichar/ComfyUI-Omnichar This repo includes few node, that let's you build a portable character model while keeping face, body &amp; cloths. You can build a .cha</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 6 · comfyui, flux, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I have been getting lot of request to publish .char support with ComfyUI, here is a custom node that I created: Node Repo: https://github.com/omnichar/ComfyUI-Omnichar This repo includes few node, that let's you build a portable character model while keeping face, body &amp;amp; cloths. You can build a .char model once &amp;amp; use it across different workflows without a identity drift. Features: Build/encode character into .char Decode .char built in Comfy or anywhere else Decode into reference, character sheet &amp;amp; even LoRA adapter SDK is public for future integration &amp;amp; improvements Nodes: Decode Character gives you the prompt, the reference images, a numbered contact sheet, and conditioning if you wire a &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wwmywn/one_char_model_consistent_face_body_cloths_are/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
