@@ -2,8 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-17T20:30:28+00:00</updated>
+<updated>2026-10-17T22:30:19+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1x8l3lc/do_we_really_need_more_5b_generalpurpose_image/</id><title>Do we really need more 5B general-purpose image models?</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x8l3lc/do_we_really_need_more_5b_generalpurpose_image/"/>
+<published>2026-10-17T21:00:13+00:00</published><updated>2026-10-17T21:00:13+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="flux"/>
+<category term="dit"/>
+<summary>Same prompt. 3 MP. Four generations per model. Best image selected. The pattern I keep seeing: larger DiTs tend to produce more coherent images. Cleaner shapes, better-defined objects, less visual garbage. Mechanical structures make more sense, spatial relationships hold together better, and fewer g</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · flux, dit&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Same prompt. 3 MP. Four generations per model. Best image selected. The pattern I keep seeing: larger DiTs tend to produce more coherent images. Cleaner shapes, better-defined objects, less visual garbage. Mechanical structures make more sense, spatial relationships hold together better, and fewer generations end up unusable. This isn’t a conclusion drawn from one prompt. It’s an observation from working with different models over time. This test is simply one example of that pattern. I’d rather have a larger model in INT4 than a smaller one at full precision. FLUX 2 Klein 9B is a perfect example: in my testing, it’s better than FLUX 3 Klein in practically every aspect of image quality—even &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x8l3lc/do_we_really_need_more_5b_generalpurpose_image/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/vfx/comments/1x8iahc/help_me_figure_this_out/</id><title>Help me figure this out.</title>
 <link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1x8iahc/help_me_figure_this_out/"/>
@@ -25,6 +35,15 @@
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · comfyui, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;View on YouTube while video is pending here if needed. https://youtu.be/acmAZolUw68 I did not do any Post edits on this. At all. This was straight from the video builder. • The song, made with Suno, lyrics created by Claude. • I came up with the story and the band's character sheets, and the locations. Used GPT image 2 to create them. Model settings: MiniMax H3 Singularity, 25 steps on pass 1, then the 8-step 768p turbo LoRA at 4 steps and 0.35 denoise on pass 2 with the latent upscale model. This used my ComfyUI video builder which has MCP/API support so you can have an agent run it for you and then open up the created project later to see it and play around with it. The video builder can c&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x8h2gc/blown_away_by_minimax_h3_sometimes_it_nailed_this/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1x8fdmv/moss_image_4_step_turbo_lora/</id><title>Moss Image 4 step turbo lora</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x8fdmv/moss_image_4_step_turbo_lora/"/>
+<published>2026-10-17T17:02:52+00:00</published><updated>2026-10-17T17:02:52+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="lora"/>
+<summary>https://huggingface.co/akhaliq/MOSS-Image-SFT-4-steps submitted by /u/Illustrious_Row_9971 [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;https://huggingface.co/akhaliq/MOSS-Image-SFT-4-steps submitted by /u/Illustrious_Row_9971 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x8fdmv/moss_image_4_step_turbo_lora/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1x8dir5/moss_and_flux_3_are_on_opposite_ends_of_the/</id><title>Moss and Flux 3 are on opposite ends of the spectrum</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x8dir5/moss_and_flux_3_are_on_opposite_ends_of_the/"/>
 <published>2026-10-17T15:48:31+00:00</published><updated>2026-10-17T15:48:31+00:00</updated>
@@ -33,6 +52,17 @@
 <category term="lora"/>
 <summary>Flux 3 is heavy censored to the point of breaking the anatomy. Moss is crazy uncensored. It can do anything without a lora. Anything. Insane. submitted by /u/Future-Coffee8138 [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · flux, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Flux 3 is heavy censored to the point of breaking the anatomy. Moss is crazy uncensored. It can do anything without a lora. Anything. Insane. submitted by /u/Future-Coffee8138 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x8dir5/moss_and_flux_3_are_on_opposite_ends_of_the/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1x8ch9k/mossimage_lora_training_is_now_in_academiasd/</id><title>MOSS-Image LoRA training is now in AcademiaSD LoRAlab Trainer Studio (Base and SFT, under 6 GB VRAM)</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x8ch9k/mossimage_lora_training_is_now_in_academiasd/"/>
+<published>2026-10-17T15:05:16+00:00</published><updated>2026-10-17T15:05:16+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<category term="flux"/>
+<category term="lora"/>
+<summary>AcademiaSD LoRAlab Trainer Studio now supports MOSS-Image, the new open text-to-image model (Apache 2.0). It is the 12th model family in the Studio, next to Qwen-Image 2.1, FLUX.2 Klein 9B, FLUX.3 Image Klein, Krea 2, Z-Image, ERNIE-Image, Ideogram 4, Anima, SDXL, LTX-2.3 and MiniMax-H3. What you ge</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · comfyui, flux, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;AcademiaSD LoRAlab Trainer Studio now supports MOSS-Image, the new open text-to-image model (Apache 2.0). It is the 12th model family in the Studio, next to Qwen-Image 2.1, FLUX.2 Klein 9B, FLUX.3 Image Klein, Krea 2, Z-Image, ERNIE-Image, Ideogram 4, Anima, SDXL, LTX-2.3 and MiniMax-H3. What you get: - Train on MOSS-Image Base (recommended for LoRAs) or on MOSS-Image SFT. Both share the text encoder, so one pre-cache works for either. - The 5B transformer runs in NF4. In my tests at 512x512, rank 8, it trains at about 1 s/step on an RTX 5080 using under 6 GB of VRAM. - Text encoder (Qwen3.5-9B, used only during the pre-cache): BF16 CPU offload by default (exact, works on any GPU), or INT8 /&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x8ch9k/mossimage_lora_training_is_now_in_academiasd/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1x8c1n9/flux_3_klein_workflows_have_been_updated/</id><title>FLUX 3 Klein Workflows have been updated</title>
@@ -6681,36 +6711,5 @@
 <category term="flux"/>
 <summary>https://preview.redd.it/7y1hvkb38cth1.png?width=1536&amp;format=png&amp;auto=webp&amp;s=3a3f65ee74137050bf4a04e5c41b8256b15c2a75 Back when Flux 2 Klein was released I tried it, but couldn’t make it work. Images were just ugly and wrong. All patchy and had weird colors. I was confused , and thought that local ed</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · image editing, flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;https://preview.redd.it/7y1hvkb38cth1.png?width=1536&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=3a3f65ee74137050bf4a04e5c41b8256b15c2a75 Back when Flux 2 Klein was released I tried it, but couldn’t make it work. Images were just ugly and wrong. All patchy and had weird colors. I was confused , and thought that local editing AI models suck and I have to resort to chatgpt and nana banana for image editing. I used it since then, when I HAD TO resort to local ai generation, and oh man it sucked. I never really cared about it.. Today I sat down to make new comfy installation to free space from models that I don’t need anymore.. and tried Flux again.. It sucked again, obviously. I And I noticed something.. Turned out&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wx15bb/i_may_be_the_stupidest_person_on_this_sub/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1wwziyq/how_to_get_high_quality_background_removal_footage/</id><title>How to get high quality background removal footage</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wwziyq/how_to_get_high_quality_background_removal_footage/"/>
-<published>2026-10-03T22:15:00+00:00</published><updated>2026-10-03T22:15:00+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="green screen"/>
-<summary>I'm looking to record some videos of different people talking in front of a green screen and then get someone to remove the background to a high standard without any pixelation or weird looking hair. What can I do in the filming and creation of the video to make editing easier for the editor? submit</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 1 · green screen&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I'm looking to record some videos of different people talking in front of a green screen and then get someone to remove the background to a high standard without any pixelation or weird looking hair. What can I do in the filming and creation of the video to make editing easier for the editor? submitted by /u/Pure-Researcher-8229 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wwziyq/how_to_get_high_quality_background_removal_footage/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wwyva2/minimax_h3_refmod_consistent_location_trick/</id><title>Minimax H3 + RefMod = consistent location trick</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wwyva2/minimax_h3_refmod_consistent_location_trick/"/>
-<published>2026-10-03T21:44:28+00:00</published><updated>2026-10-03T21:44:28+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="minimax"/>
-<summary>Hey, I found a pretty cool way to keep locations consistent across generations. I took 20 photos of my “office” where I work, making sure each photo included a bit of the previous one so everything connected. I turned them into a refmod, although it probably doesn’t even need to be one. It’s basical</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey, I found a pretty cool way to keep locations consistent across generations. I took 20 photos of my “office” where I work, making sure each photo included a bit of the previous one so everything connected. I turned them into a refmod, although it probably doesn’t even need to be one. It’s basically a grid of all 20 photos in a single image, within 2048×2048 pixels, so I could probably just use that image as a regular reference. Then I added references for the fly, my cat, and the start and end frames. You can see the result — that’s my actual room, and everything looks right and sits exactly where it should :) Workflow + reference images here: link Sorry about the mess, both in the room a&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wwyva2/minimax_h3_refmod_consistent_location_trick/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wwyts5/can_you_see_me_now_an_eve_online_amv_made_locally/</id><title>Can You See Me Now? An EVE Online AMV made locally with MiniMax H3 (20 drafts, notes + prompts inside)</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wwyts5/can_you_see_me_now_an_eve_online_amv_made_locally/"/>
-<published>2026-10-03T21:42:31+00:00</published><updated>2026-10-03T21:42:31+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="upscaler"/>
-<category term="character animation"/>
-<category term="animation"/>
-<category term="minimax"/>
-<category term="storyboard"/>
-<summary>Last night I went live with Can You See Me Now , an EVE Online AMV animated locally with MiniMax H3. It's been a labor of love for the last month: 20 complete drafts, hundreds of image and video generations, and a lot of experiments with different weights, guide-frame setups and prompting approaches</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 6 · upscaler, character animation, animation, minimax, storyboard&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Last night I went live with Can You See Me Now , an EVE Online AMV animated locally with MiniMax H3. It's been a labor of love for the last month: 20 complete drafts, hundreds of image and video generations, and a lot of experiments with different weights, guide-frame setups and prompting approaches. I've had this idea in mind for years. I used to play EVE very seriously and always wanted to make my own PvP film. Sadly, my computer back then couldn't record footage while gaming, so it stayed a dream. MiniMax H3, plus agentic AI (Claude Code and Codex) as production help, meant I could finally build a stylized version! Setup : MiniMaxH3ReferenceToVideo with MiniMaxH3AddGuide frames, 960×544, &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wwyts5/can_you_see_me_now_an_eve_online_amv_made_locally/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
