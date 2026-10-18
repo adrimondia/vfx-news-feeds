@@ -2,8 +2,17 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-18T00:30:20+00:00</updated>
+<updated>2026-10-18T02:30:18+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1x8qxf9/resurrection_dalek_animation_test/</id><title>Resurrection Dalek ( Animation Test )</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1x8qxf9/resurrection_dalek_animation_test/"/>
+<published>2026-10-18T01:38:46+00:00</published><updated>2026-10-18T01:38:46+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="animation"/>
+<summary>submitted by /u/Serious_Meaning5220 [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · animation&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/Serious_Meaning5220 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1x8qxf9/resurrection_dalek_animation_test/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1x8l3lc/do_we_really_need_more_5b_generalpurpose_image/</id><title>Do we really need more 5B general-purpose image models?</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x8l3lc/do_we_really_need_more_5b_generalpurpose_image/"/>
@@ -6681,25 +6690,5 @@
 <category term="lora"/>
 <summary>After generating thousands of images across multiple models, i realised it was becoming a pain to maintain a decent list of metadata stored in the images to be able to recreate them or re-use prompts with other models to see how the models generate images with similar prompts/seed/cfg/steps etc. I d</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · tracking, comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;After generating thousands of images across multiple models, i realised it was becoming a pain to maintain a decent list of metadata stored in the images to be able to recreate them or re-use prompts with other models to see how the models generate images with similar prompts/seed/cfg/steps etc. I decide to build something that I can use to maintain images to make it easier to find images, copy prompts and see what metadata is embedded into the images. It's effectively an AI image manager based on how ComfyUI generates images and stores metadata. Looking for feedback on whether this is a useful tool or if there's any feature issues that you see. Download: Augie's AI Image Browser Current fea&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wx4ixj/augies_ai_image_browser/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wx3xlk/looking_at_seedance_25_videos_made_me_realize_we/</id><title>Looking at Seedance 2.5 videos made me realize we need the 2K update for Minimax H3</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wx3xlk/looking_at_seedance_25_videos_made_me_realize_we/"/>
-<published>2026-10-04T01:59:56+00:00</published><updated>2026-10-04T01:59:56+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="minimax"/>
-<category term="seedance"/>
-<summary>For now the quality difference is staggering, Minimax H3 is incredible and far beyond what we had locally but the broken promise of the 2K update is quite noticeable now, just look at how crisp the micro details are with SD2.5, with Minimax H3 it's pixelated and shimmery, if you have a static shot y</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · minimax, seedance&lt;/small&gt;&lt;/p&gt;&lt;p&gt;For now the quality difference is staggering, Minimax H3 is incredible and far beyond what we had locally but the broken promise of the 2K update is quite noticeable now, just look at how crisp the micro details are with SD2.5, with Minimax H3 it's pixelated and shimmery, if you have a static shot you can notice pixels shifting and altering colors every few frames regardless of what happening on the screen. If you still don't know what I'm talking about, generate a scene in a restaurant and look at the glasses or bottles micro details it quiet distracting. The API version of minimax had H3-Regenerate-2K since day I believe. MINIMAX WE NEED THE 2K VERSION PLEASE! submitted by /u/Cequejedisest&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wx3xlk/looking_at_seedance_25_videos_made_me_realize_we/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wx38zs/updated_comfyuiseedvr2videoupscalerwithtensorrt/</id><title>Updated ComfyUI-SeedVR2-VideoUpscaler-with-TensorRT v1.6.0 - DisTorch2 DiT Loader Node &amp; Phase 2 VRAM Controls (※For 6GB/8GB users)</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wx38zs/updated_comfyuiseedvr2videoupscalerwithtensorrt/"/>
-<published>2026-10-04T01:23:18+00:00</published><updated>2026-10-04T01:23:18+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<category term="dit"/>
-<summary>When I published an update on TensorRT the other day, I received enquiries from users of the RTX 4050 6GB and RTX 5060 8GB. https://www.reddit.com/r/comfyui/comments/1wsbar9/updated_comfyuiseedvr2videoupscalerwithtensorrt/ Subsequently, I refined the code, focusing on reducing VRAM spikes during Dit</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, dit&lt;/small&gt;&lt;/p&gt;&lt;p&gt;When I published an update on TensorRT the other day, I received enquiries from users of the RTX 4050 6GB and RTX 5060 8GB. https://www.reddit.com/r/comfyui/comments/1wsbar9/updated_comfyuiseedvr2videoupscalerwithtensorrt/ Subsequently, I refined the code, focusing on reducing VRAM spikes during Dit processing for 6GB/8GB VRAM users. https://www.reddit.com/r/StableDiffusion/comments/1wuj0rj/updated_updated/ However, this measure merely ‘improved the situation to a certain extent’; it did not completely suppress the VRAM spikes. Subsequently, I conducted a thorough analysis of VRAM usage during the Dit processing and identified a stage where the data is momentarily expanded to fp32 size; by c&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wx38zs/updated_comfyuiseedvr2videoupscalerwithtensorrt/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
