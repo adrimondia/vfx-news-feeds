@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-18T14:30:19+00:00</updated>
+<updated>2026-10-18T16:30:19+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
 <entry>
 <id>https://www.reddit.com/r/vfx/comments/1x8xhrg/class_for_vfx_in_chennai/</id><title>Class for vfx in chennai</title>
@@ -21,6 +21,15 @@
 <category term="comfyui"/>
 <summary>First time trying out ComfyUI after hearing good things about the MOSS image model on Twitter. I had absolutely no clue what I was doing, so I just had ChatGPT build me a .json workflow and started experimenting. I've been testing anime characters composited into photorealistic environments, and I'm</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;First time trying out ComfyUI after hearing good things about the MOSS image model on Twitter. I had absolutely no clue what I was doing, so I just had ChatGPT build me a .json workflow and started experimenting. I've been testing anime characters composited into photorealistic environments, and I'm pretty impressed with the results. There are still some issues, like distorted background text and occasional weird character interactions, but I'm a complete noob when it comes to local AI. These were generated using MOSS-Image SFT BF16 at 2560 × 1440 on an RTX 5080 (16GB VRAM). What do you guys think of the model? submitted by /u/Roorem10 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x8wm25/first_time_using_comfyui_tried_moss/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1x8we1i/moss_image_character_lora_training_what_worked/</id><title>Moss Image Character lora Training - what worked for you?</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x8we1i/moss_image_character_lora_training_what_worked/"/>
+<published>2026-10-18T06:48:50+00:00</published><updated>2026-10-18T06:48:50+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="lora"/>
+<summary>I tested all my previous training methods with Ostris Toolkit and Fizgig which worked pretty well in the past for Krea2, ZIB, IDG4, SDXL etc but for some reason the Moss Image character Training doesnt come out right.. only getting like 80% likeness. Even tested the Academia SD where another user me</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I tested all my previous training methods with Ostris Toolkit and Fizgig which worked pretty well in the past for Krea2, ZIB, IDG4, SDXL etc but for some reason the Moss Image character Training doesnt come out right.. only getting like 80% likeness. Even tested the Academia SD where another user mentioned he got 100% likeness , but unfortunately for me it was even worse. Same goes with LOKR methods I can say my datasets are good enough What worked for you? Would love to hear from your experiences so far! Thanks! submitted by /u/CompetitiveRelief455 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x8we1i/moss_image_character_lora_training_what_worked/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1x8wdlg/can_5060ti_16gb_work_on_comfyui_wan2_14b_and/</id><title>Can 5060ti 16gb work on ComfyUI Wan2 14b and Flux2dev or more heavy models? Longer time is no problem for me!</title>
@@ -109,6 +118,25 @@
 <category term="lora"/>
 <summary>It handles the latent space like no other model. It can generate images from 320×320 to 2K without producing visual monsters. It can generate all kinds of NSFW content without needing LoRAs. It handles lighting and realistic scenes better than Z-Image. I even tried 120×120 , and it didn't break the </summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;It handles the latent space like no other model. It can generate images from 320×320 to 2K without producing visual monsters. It can generate all kinds of NSFW content without needing LoRAs. It handles lighting and realistic scenes better than Z-Image. I even tried 120×120 , and it didn't break the model. And it can run at just 4 steps right out of the gate . Links: Workflow and setup details Rapid-MOSS custom node Rapid-MOSS ComfyUI files MOSS-Image-SFT 8-step DMD LoRA How to set up Rapid-MOSS for 4-step generation Copy the rapid-moss custom node into your ComfyUI custom_nodes folder. Create this directory: C:\comfyui\models\rapid_moss\rapid-moss-4step Place these three files inside that fo&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x8tsgo/the_greatest_model_ever_mossimagesft_at_4_steps/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1x8tpjd/an_actual_direct_comparison_of_moss_sft_flux_3/</id><title>An actual direct comparison of MOSS SFT, Flux 3 Klein Distilled, and the original SD 3.0, on the same prompts (since apparently a lot of people don't remember what SD 3.0 was actually like to use)</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x8tpjd/an_actual_direct_comparison_of_moss_sft_flux_3/"/>
+<published>2026-10-18T04:10:08+00:00</published><updated>2026-10-18T04:10:08+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="flux"/>
+<summary>Suffice to say SD3 is not even remotely similar to any recent model (as anyone who knew what they were talking about in any way was already aware). Prompts were: 1: A high-fidelity social media portrait in a medium close-up framing, dominated by a stylish Black female influencer with a bold, high-gl</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Suffice to say SD3 is not even remotely similar to any recent model (as anyone who knew what they were talking about in any way was already aware). Prompts were: 1: A high-fidelity social media portrait in a medium close-up framing, dominated by a stylish Black female influencer with a bold, high-glam aesthetic. She holds a sleek smartphone in the lower foreground, caught mid-reaction as she gazes at the screen with widened, expressive dark eyes and gently bites her lower lip in a sultry, visibly impressed look of approval. Her deep brown complexion is radiant under expertly applied heavy makeup, featuring sharp cheekbone contouring, luminous highlighter along the bridge of her nose and chee&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x8tpjd/an_actual_direct_comparison_of_moss_sft_flux_3/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1x8styj/trained_a_qwenimage21_lora_with_fewer/</id><title>Trained a Qwen-Image-2.1 LoRA with fewer restrictions and omni poses</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x8styj/trained_a_qwenimage21_lora_with_fewer/"/>
+<published>2026-10-18T03:21:13+00:00</published><updated>2026-10-18T03:21:13+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="image editing"/>
+<category term="lora"/>
+<summary>Been experimenting with fine-tuning Qwen-Image-2.1 and finally got around to releasing the LoRA. It can almost generate any pose. It's a rank-64 adapter trained to handle a wider range of poses and compositions, including prompts the base model tends to struggle with. One thing I found interesting i</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · image editing, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Been experimenting with fine-tuning Qwen-Image-2.1 and finally got around to releasing the LoRA. It can almost generate any pose. It's a rank-64 adapter trained to handle a wider range of poses and compositions, including prompts the base model tends to struggle with. One thing I found interesting is that the same LoRA works for both text-to-image and image editing. No separate adapters needed. Tested with 25 steps, CFG 4.0, and LoRA strength 1.0. Still very much a v0.1. No proper benchmark yet, so I'm curious how it holds up with other people's prompts. Weights and inference code: https://huggingface.co/chatrlabs/Qwen-Image-2.1-Uncensored-Omni-LoRA-v0.1 If anyone tries it, I'd be interested&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x8styj/trained_a_qwenimage21_lora_with_fewer/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1x8scrg/most_successful_minimax_h3_referencetovideo/</id><title>Most successful MiniMax H3 reference-to-video prompt structure so far (3 img + 1 vid example)</title>
@@ -242,6 +270,16 @@
 <category term="dit"/>
 <summary>Same prompt. 3 MP. Four generations per model. Best image selected. The pattern I keep seeing: larger DiTs tend to produce more coherent images. Cleaner shapes, better-defined objects, less visual garbage. Mechanical structures make more sense, spatial relationships hold together better, and fewer g</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · flux, dit&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Same prompt. 3 MP. Four generations per model. Best image selected. The pattern I keep seeing: larger DiTs tend to produce more coherent images. Cleaner shapes, better-defined objects, less visual garbage. Mechanical structures make more sense, spatial relationships hold together better, and fewer generations end up unusable. This isn’t a conclusion drawn from one prompt. It’s an observation from working with different models over time. This test is simply one example of that pattern. I’d rather have a larger model in INT4 than a smaller one at full precision. FLUX 2 Klein 9B is a perfect example: in my testing, it’s better than FLUX 3 Klein in practically every aspect of image quality—even &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x8l3lc/do_we_really_need_more_5b_generalpurpose_image/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1x8jo5s/upscaling_old_sdxl_highresfix_gens_from_24/</id><title>Upscaling old SDXL high-res-fix gens from ~2.4 megapixels to ~9.5 megapixels with Flux 3 Klein Distilled</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x8jo5s/upscaling_old_sdxl_highresfix_gens_from_24/"/>
+<published>2026-10-17T19:59:36+00:00</published><updated>2026-10-17T19:59:36+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="upscaling"/>
+<category term="flux"/>
+<summary>Prompts for all of these were some variation of: Faithfully and accurately upscale reference image 1 from an input resolution of 1536x1536 to an output resolution of 3072x3072. Very significantly improve the overall quality and overall detail level of reference image 1 and ensure the clean removal o</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · upscaling, flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Prompts for all of these were some variation of: Faithfully and accurately upscale reference image 1 from an input resolution of 1536x1536 to an output resolution of 3072x3072. Very significantly improve the overall quality and overall detail level of reference image 1 and ensure the clean removal of any pixelation or compression artifacts in reference image 1 while perfectly maintaining the original composition and original layout and original character design and original aspect ratio and original art style and original color palette of reference image 1. with minor variations / additions / removals to account for different image styles and specific details and such. Left side of each comp&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x8jo5s/upscaling_old_sdxl_highresfix_gens_from_24/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1x8jn4o/vertical_banding_in_mossimage_experiments/</id><title>Vertical Banding in MOSS-Image experiments</title>
@@ -6866,34 +6904,5 @@
 <category term="minimax"/>
 <summary>TLDR: You can use RefMods with T2VA. Finally decided to give the RefMod a test run yesterday. I tend to experiment and generate many actors via prose in T2VA and recast them later, see the Tanya bombshell circulating in a few of my videos. Since my workflow mainly revolves around T2VA it make a lot </summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · flux, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;TLDR: You can use RefMods with T2VA. Finally decided to give the RefMod a test run yesterday. I tend to experiment and generate many actors via prose in T2VA and recast them later, see the Tanya bombshell circulating in a few of my videos. Since my workflow mainly revolves around T2VA it make a lot of sense to work with native latent as much as possible. However, instead of providing 10-20 images to make a redmod, I just use the latent from my T2VA character generations. Once you have a latent of anything, you can extend, prepend, or even bridge it as many times as you like, even joining latents of same canvas sizes. The latents can be clipped, cropped, scaled, and upscaled as well. I prefer&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wxlw8w/h3_t2va_character_inceptionsheetsrefmods/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wxjmi0/qr_code_monster_lora_for_qwen_image_21_edit/</id><title>QR Code Monster LoRa for Qwen Image 2.1 Edit</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wxjmi0/qr_code_monster_lora_for_qwen_image_21_edit/"/>
-<published>2026-10-04T16:18:41+00:00</published><updated>2026-10-04T16:18:41+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="controlnet"/>
-<category term="lora"/>
-<summary>For those who are unaware, there was an old Controlnet for old SD models that was quite popular here back in those times, that would make cool almost Optical Illusion-like images. This is the same concept but instead I'm using I2I Image edit model where you provide an input image and ask the model t</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · controlnet, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;For those who are unaware, there was an old Controlnet for old SD models that was quite popular here back in those times, that would make cool almost Optical Illusion-like images. This is the same concept but instead I'm using I2I Image edit model where you provide an input image and ask the model to generate the scene of your choice. I've been very pleased with the results from the Qwen Image 2.1 version. It was trained on 25 high quality image pairs and it works quite well, even when using human subjects and depicting scenes not included the dataset. It can do QR Codes but it was not the main focus of the dataset so it can be hit or miss as far as the actual usability/scanability of the co&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wxjmi0/qr_code_monster_lora_for_qwen_image_21_edit/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wxigqo/minimax_h3_voice_acting_with_speech_tags/</id><title>Minimax H3 Voice acting with speech tags.</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wxigqo/minimax_h3_voice_acting_with_speech_tags/"/>
-<published>2026-10-04T15:30:20+00:00</published><updated>2026-10-04T15:30:20+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="minimax"/>
-<summary>Tried this few days ago. Yes , the video degrades as it progresses. Used reference voice for consistent voice. Don't have the full tags, but they are like this- [English] &lt;inhale&gt; My therapist said I should record this when it happens. &lt;pause&gt; So... it’s happening again. [English] I can feel someone</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Tried this few days ago. Yes , the video degrades as it progresses. Used reference voice for consistent voice. Don't have the full tags, but they are like this- [English] &amp;lt;inhale&amp;gt; My therapist said I should record this when it happens. &amp;lt;pause&amp;gt; So... it’s happening again. [English] I can feel someone watching me. &amp;lt;breath&amp;gt; It only happens after dark. [English] At night, windows become mirrors. &amp;lt;pause&amp;gt; Anyone outside can see me... &amp;lt;long pause&amp;gt; but I can’t see them. [English] I’m moving tomorrow for a new job. &amp;lt;pause&amp;gt; A little rental house, just me. &amp;lt;breath&amp;gt; I should be excited. [English] I am. &amp;lt;long pause&amp;gt; I just don’t know if I can sleep there alone. [English] Mom gave me this when I was seven&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wxigqo/minimax_h3_voice_acting_with_speech_tags/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wxhsy2/fastest_minimax_h3_for_16_gb_vram/</id><title>Fastest Minimax H3 for 16 GB vram?</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wxhsy2/fastest_minimax_h3_for_16_gb_vram/"/>
-<published>2026-10-04T15:02:21+00:00</published><updated>2026-10-04T15:02:21+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<category term="minimax"/>
-<summary>I have a 4060 TI 16 GB. System ram 32 GB. What's currently the fastest model / ComfyUI setup to generate videos? Currently I can create 5 second 360p videos in +-7 minutes. I believe it can be a lot faster? It's kinda hard to know what's the best option, everything keeps changing. submitted by /u/mm</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I have a 4060 TI 16 GB. System ram 32 GB. What's currently the fastest model / ComfyUI setup to generate videos? Currently I can create 5 second 360p videos in +-7 minutes. I believe it can be a lot faster? It's kinda hard to know what's the best option, everything keeps changing. submitted by /u/mmmm_frietjes [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wxhsy2/fastest_minimax_h3_for_16_gb_vram/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
