@@ -2,8 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-19T18:30:32+00:00</updated>
+<updated>2026-10-19T20:30:23+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1xa69nd/human_generator_with_animation_generation/</id><title>human generator with animation generation</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xa69nd/human_generator_with_animation_generation/"/>
+<published>2026-10-19T19:20:24+00:00</published><updated>2026-10-19T19:20:24+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="animation"/>
+<category term="houdini"/>
+<summary>One Houdini node that builds a human body in real units (age in years, height in cm, weight in kg) and animates it from a sentence. - Body: open-source SOMA and Anny body models, solved to hit the exact height and weight - Shape: gender, muscle, breasts, buttocks, surface smoothing - Motion: NVIDIA </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 3 · animation, houdini&lt;/small&gt;&lt;/p&gt;&lt;p&gt;One Houdini node that builds a human body in real units (age in years, height in cm, weight in kg) and animates it from a sentence. - Body: open-source SOMA and Anny body models, solved to hit the exact height and weight - Shape: gender, muscle, breasts, buttocks, surface smoothing - Motion: NVIDIA Kimodo text-to-motion, running locally on my GPU - Path: draw a curve, and Kimodo generates the motion on it Built by Alaa Belghith, working as Anything Visual. Music: "Raving Energy" Kevin MacLeod (incompetech.com), licensed under Creative Commons: By Attribution 4.0 License submitted by /u/Fit_Revenue1928 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xa69nd/human_generator_with_animation_generation/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://the-decoder.com/minimax-m3-1-flash-shows-chinas-ai-price-race-has-no-floor-in-sight/</id><title>MiniMax M3.1 Flash shows China's AI price race has no floor in sight</title>
 <link rel="alternate" href="https://the-decoder.com/minimax-m3-1-flash-shows-chinas-ai-price-race-has-no-floor-in-sight/"/>
@@ -63,6 +73,15 @@
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;PixlStash is my open source image and video manager that runs on your own machine as a desktop application or a headless server. It tags, captions and searches your library and has had ComfyUI nodes for a while. 1.12 is out and it is the largest release I have done, so I am asking for help testing it. PixlStash now runs your ComfyUI workflows in a much more general way. As you're aware of, pictures made in ComfyUI carry the workflow that made them, and PixlStash groups those into workflow cards. The same graph run with a different checkpoint or character LoRA counts as one workflow, so thousands of pictures come down to a few dozen cards. What PixlStash now makes easy: When you have characte&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x9zckd/pixlstash_can_now_manage_and_run_your_comfyui/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
+<id>https://www.reddit.com/r/vfx/comments/1x9z2oo/made_an_app_to_capture_hdris_with_just_your_phone/</id><title>Made an app to capture HDRIs with just your phone (iOS + Android)</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1x9z2oo/made_an_app_to_capture_hdris_with_just_your_phone/"/>
+<published>2026-10-19T14:55:15+00:00</published><updated>2026-10-19T14:55:15+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="hdr"/>
+<summary>Been working on HDRiris, a mobile app for capturing real HDRIs directly from your phone. The idea is simple: capture a real environment and turn it into a proper HDRI you can use for lighting and reflections in 3D. HDRiris guides you through the full spherical capture, takes bracketed exposures at e</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 1 · hdr&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Been working on HDRiris, a mobile app for capturing real HDRIs directly from your phone. The idea is simple: capture a real environment and turn it into a proper HDRI you can use for lighting and reflections in 3D. HDRiris guides you through the full spherical capture, takes bracketed exposures at each direction, then processes everything directly on-device into a 32-bit HDR image. In a typical capture, you can go from starting the guided capture to a finished HDRI in around two minutes. You can inspect the result as a panorama, preview it on interactive 3D materials and models, import your own GLB, and also preview the captured lighting in AR before exporting. This isn’t meant to replace a &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1x9z2oo/made_an_app_to_capture_hdris_with_just_your_phone/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1x9ypq9/comfyui_v0421_released/</id><title>ComfyUI v0.42.1 released</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x9ypq9/comfyui_v0421_released/"/>
 <published>2026-10-19T14:41:00+00:00</published><updated>2026-10-19T14:41:00+00:00</updated>
@@ -102,6 +121,16 @@
 <category term="flux"/>
 <summary>I've been building Scumble for a few months and just entered it into Comfy's challenge. What it is: a desktop editor (Electron, Windows and Linux) for AI inpainting with proper layers. You select something (SAM2 runs inside the app), type what should be there, hit Generate, and the result lands as i</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 6 · relight, sam2, inpainting, comfyui, flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I've been building Scumble for a few months and just entered it into Comfy's challenge. What it is: a desktop editor (Electron, Windows and Linux) for AI inpainting with proper layers. You select something (SAM2 runs inside the app), type what should be there, hit Generate, and the result lands as its own layer that you can mask, blend, filter, move and export to PSD or ORA. Every generation goes through one of three routes: - your own ComfyUI, local or on RunPod: every local recipe is a plain ComfyUI workflow with my Inpaint Canvas node in it, and you can import your own workflow as a recipe or open a recipe as its graph in a ComfyUI window inside the app - Comfy Cloud, through the Comfy AP&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x9x71h/my_entry_for_comfys_open_source_higgsfield/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1x9wt2p/sorant_minimax_h3_comfyui_powered_video_studio/</id><title>Soran't -- Minimax H3 / ComfyUI powered video studio</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x9wt2p/sorant_minimax_h3_comfyui_powered_video_studio/"/>
+<published>2026-10-19T13:24:25+00:00</published><updated>2026-10-19T13:24:25+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<category term="minimax"/>
+<summary>https://github.com/pwillia7/sorant submitted by /u/pwillia7 [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;https://github.com/pwillia7/sorant submitted by /u/pwillia7 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x9wt2p/sorant_minimax_h3_comfyui_powered_video_studio/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1x9ve5o/flux2_controlnet_with_depth_map_and_style_image/</id><title>Flux2 controlnet with depth map and style image.</title>
@@ -6914,32 +6943,5 @@
 <category term="video generation"/>
 <summary>It's been a while single I did anything Gen AI. I left off using comfy ui or forge. I can't even remember which model I was using maybe just SD 1.5. Getting back into it. Any threads I can check OUT OR a quick tldr of which uis and models are best? I'm running a 3060 12GB. Mostly looking for image G</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · video generation&lt;/small&gt;&lt;/p&gt;&lt;p&gt;It's been a while single I did anything Gen AI. I left off using comfy ui or forge. I can't even remember which model I was using maybe just SD 1.5. Getting back into it. Any threads I can check OUT OR a quick tldr of which uis and models are best? I'm running a 3060 12GB. Mostly looking for image Gen but maybe try some video too. Any links or quick recommendations appreciated! submitted by /u/jibberishballr [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wyjgks/recommendations_12gb_vram_image_and_maybe_video/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wyipef/opensensenovaloopeddit_pytorch_implementation_of/</id><title>OpenSenseNova/Looped-DiT: PyTorch implementation of Looped Diffusion Transformer</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wyipef/opensensenovaloopeddit_pytorch_implementation_of/"/>
-<published>2026-10-05T20:02:51+00:00</published><updated>2026-10-05T20:02:51+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="diffusion transformer"/>
-<summary>The world's first looped transformer based imaging model? Models can be downloaded from (1G download) https://huggingface.co/sensenova/Looped-DiT-B32 https://huggingface.co/sensenova/Looped-DiT-B16/tree/main submitted by /u/Apprehensive_Sky892 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · diffusion transformer&lt;/small&gt;&lt;/p&gt;&lt;p&gt;The world's first looped transformer based imaging model? Models can be downloaded from (1G download) https://huggingface.co/sensenova/Looped-DiT-B32 https://huggingface.co/sensenova/Looped-DiT-B16/tree/main submitted by /u/Apprehensive_Sky892 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wyipef/opensensenovaloopeddit_pytorch_implementation_of/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wyi2l0/a_ton_of_video_lately_have_come_out_with_perfect/</id><title>A ton of video lately have come out with perfect motion and character replacement. Surely there has to be a consistent way to do this in Minimax. Viggle and the replacement Loras and all that crap don’t seem to come close to this level of quality. We really need a good way to do this on minimax</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wyi2l0/a_ton_of_video_lately_have_come_out_with_perfect/"/>
-<published>2026-10-05T19:38:38+00:00</published><updated>2026-10-05T19:38:38+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="minimax"/>
-<summary>submitted by /u/tekprodfx16 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/tekprodfx16 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wyi2l0/a_ton_of_video_lately_have_come_out_with_perfect/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wygxoa/which_prompt_to_use_to_correctly_use_a_character/</id><title>Which prompt to use to correctly use a character sheet in minimax H3?</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wygxoa/which_prompt_to_use_to_correctly_use_a_character/"/>
-<published>2026-10-05T18:55:24+00:00</published><updated>2026-10-05T18:55:24+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="minimax"/>
-<summary>Assuming &lt;Picture 1&gt; is the character sheet for &lt;Subject 1&gt;, which prompt to use in minimax H3 ref video to make sure it understands the concept of sheet (same person, different poses/angles/distances)? submitted by /u/takayatodoroki [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Assuming &amp;lt;Picture 1&amp;gt; is the character sheet for &amp;lt;Subject 1&amp;gt;, which prompt to use in minimax H3 ref video to make sure it understands the concept of sheet (same person, different poses/angles/distances)? submitted by /u/takayatodoroki [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wygxoa/which_prompt_to_use_to_correctly_use_a_character/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
