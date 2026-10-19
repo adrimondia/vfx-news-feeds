@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-19T06:30:26+00:00</updated>
+<updated>2026-10-19T08:00:19+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
 <entry>
 <id>https://github.com/Comfy-Org/ComfyUI</id><title>Comfy-Org/ComfyUI</title>
@@ -19,6 +19,15 @@
 <category term="hunyuanvideo"/>
 <summary>The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world. https://www.comfy.org/ ComfyUI The most powerful and modular AI engine for content creation. ComfyUI is the AI creation engine for visual professionals wh</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;GitHub trending (Python) · score 12 · video generation, image editing, comfyui, stable diffusion, flux, wan, hunyuan, hunyuanvideo&lt;/small&gt;&lt;/p&gt;&lt;p&gt;The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world. https://www.comfy.org/ ComfyUI The most powerful and modular AI engine for content creation. ComfyUI is the AI creation engine for visual professionals who demand control over every model, every parameter, and every output. Its powerful and modular node graph interface empowers creatives to generate images, videos, 3D models, audio, and more... ComfyUI natively supports the latest open-source state of the art models. It is by far the most optimized inference engine for diffusion models in the world with a focus on local consumer hardware. Can run e&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.com/Comfy-Org/ComfyUI"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1x9pf60/fixed_the_vertical_colour_stripes_in_mossimage/</id><title>Fixed the vertical colour stripes in MOSS-Image SFT with a 1.9 MB LoRA (extracted, not trained)</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x9pf60/fixed_the_vertical_colour_stripes_in_mossimage/"/>
+<published>2026-10-19T06:28:16+00:00</published><updated>2026-10-19T06:28:16+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="lora"/>
+<summary>If you've used MOSS-Image SFT you may have noticed faint vertical colour stripes in skies, fog, walls and studio backdrops. They're easy to miss until you boost the colour, then you can't unsee them. I made a small LoRA that removes them and leaves everything else alone. Hugging Face: https://huggin</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;If you've used MOSS-Image SFT you may have noticed faint vertical colour stripes in skies, fog, walls and studio backdrops. They're easy to miss until you boost the colour, then you can't unsee them. I made a small LoRA that removes them and leaves everything else alone. Hugging Face: https://huggingface.co/nynxz/MOSS-Image Civitai: https://civitai.com/models/3008520/sft-destripe How to use Add LoraLoaderModelOnly to an SFT workflow. Strength 1.0 at 768 px , 1.5 at 1024 px . No trigger words. It's for SFT only, not Base. Results (bandviz score, lower is cleaner, 12 test images not used to build it) 768 px 1024 px SFT 9.8 SFT + Destripe 4.2 Base 4.2 The image stays over 99% the same as plain &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x9pf60/fixed_the_vertical_colour_stripes_in_mossimage/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1x9oi6x/basic_workflow_simple_prompt_testing_krea2_vs/</id><title>Basic Workflow Simple Prompt Testing: Krea2 vs MOSS vs Qwen2.1 vs Flux3</title>
@@ -6828,14 +6837,5 @@
 <category term="unreal engine"/>
 <summary>Sharing our character animation work for Blink Studios’ RPG Stylized Characters Set for Unity and Unreal Engine. YEYO Studio handled character rigging, skinning, and game-ready keyframe animation. Character models by Blink Studios. We’re available for paid animation and rigging projects. Get in touc</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 8 · character animation, animation, rigging, unreal, unreal engine&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Sharing our character animation work for Blink Studios’ RPG Stylized Characters Set for Unity and Unreal Engine. YEYO Studio handled character rigging, skinning, and game-ready keyframe animation. Character models by Blink Studios. We’re available for paid animation and rigging projects. Get in touch: https://yeyostudio.com submitted by /u/OskarsDzenis [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wy2zdr/stylized_game_character_animation_and_rigging/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wy2ch0/how_many_reference_images_do_you_use_for_minimax/</id><title>How many reference images do you use for Minimax refmods?</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wy2ch0/how_many_reference_images_do_you_use_for_minimax/"/>
-<published>2026-10-05T07:28:44+00:00</published><updated>2026-10-05T07:28:44+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="minimax"/>
-<summary>What’s the sweet spot for number of images to use for a refmod? also, can it take reference videos? submitted by /u/throwaway0204055 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;What’s the sweet spot for number of images to use for a refmod? also, can it take reference videos? submitted by /u/throwaway0204055 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wy2ch0/how_many_reference_images_do_you_use_for_minimax/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
