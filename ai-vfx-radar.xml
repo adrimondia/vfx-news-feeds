@@ -2,8 +2,92 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-19T14:30:46+00:00</updated>
+<updated>2026-10-19T16:30:42+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1x9zckd/pixlstash_can_now_manage_and_run_your_comfyui/</id><title>PixlStash can now manage and run your ComfyUI workflows: right-click a character, type a prompt, and their LoRA is loaded for you</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x9zckd/pixlstash_can_now_manage_and_run_your_comfyui/"/>
+<published>2026-10-19T15:05:34+00:00</published><updated>2026-10-19T15:05:34+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<category term="lora"/>
+<summary>PixlStash is my open source image and video manager that runs on your own machine as a desktop application or a headless server. It tags, captions and searches your library and has had ComfyUI nodes for a while. 1.12 is out and it is the largest release I have done, so I am asking for help testing i</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;PixlStash is my open source image and video manager that runs on your own machine as a desktop application or a headless server. It tags, captions and searches your library and has had ComfyUI nodes for a while. 1.12 is out and it is the largest release I have done, so I am asking for help testing it. PixlStash now runs your ComfyUI workflows in a much more general way. As you're aware of, pictures made in ComfyUI carry the workflow that made them, and PixlStash groups those into workflow cards. The same graph run with a different checkpoint or character LoRA counts as one workflow, so thousands of pictures come down to a few dozen cards. What PixlStash now makes easy: When you have characte&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x9zckd/pixlstash_can_now_manage_and_run_your_comfyui/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1x9ypq9/comfyui_v0421_released/</id><title>ComfyUI v0.42.1 released</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x9ypq9/comfyui_v0421_released/"/>
+<published>2026-10-19T14:41:00+00:00</published><updated>2026-10-19T14:41:00+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<summary>This is a patch released shortly after v0.42.0, and it is meant to correct the crashes users have been experiencing when running the MOSS image template workflow. In the v0.42.0 release, the Krea 3 Image node (Partner Nodes) was added, along with added MOSS-image support and other fixes/improvements</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;This is a patch released shortly after v0.42.0, and it is meant to correct the crashes users have been experiencing when running the MOSS image template workflow. In the v0.42.0 release, the Krea 3 Image node (Partner Nodes) was added, along with added MOSS-image support and other fixes/improvements. A full changelog can be viewed here . submitted by /u/Fcking_Chuck [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x9ypq9/comfyui_v0421_released/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1x9xs6u/98_of_the_300_mostpopular_comfyui_custom_nodes/</id><title>98 of the 300 most-popular ComfyUI custom nodes haven't had a commit in over a year (I built a tracker)</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x9xs6u/98_of_the_300_mostpopular_comfyui_custom_nodes/"/>
+<published>2026-10-19T14:04:28+00:00</published><updated>2026-10-19T14:04:28+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<summary>Every ComfyUI update seems to break something in my workflows, and I got tired of guessing whether a node pack was dead or just quiet. So I built NodeWatch , a free tracker that checks the top 300 packs (by Comfy Registry downloads, out of 6,066 registered) every night. What the data says right now:</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Every ComfyUI update seems to break something in my workflows, and I got tired of guessing whether a node pack was dead or just quiet. So I built NodeWatch , a free tracker that checks the top 300 packs (by Comfy Registry downloads, out of 6,066 registered) every night. What the data says right now: 98 of the top 300 haven't had a commit in 12+ months , and 15 of those in over 2 years. Together those 98 packs have about 22.6M registry downloads. Big names among them: ComfyUI_essentials and ComfyUI_IPAdapter_plus (both last committed April 2025), Impact Subpack, mxToolkit, TeaCache, WD14-Tagger, and Derfuu ModdedNodes (June 2024). Another 63 active packs are "quiet" , meaning 6–12 months with&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x9xs6u/98_of_the_300_mostpopular_comfyui_custom_nodes/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1x9xs4c/krea_2_turbo_4_steps_w_my_4step_lora_vs_moss_sft/</id><title>Krea 2 Turbo @ 4 steps (w/ my 4-step LoRA) vs MOSS SFT at 4 steps (ww AK's 4-step LoRA) - same prompt set you've seen me publish in the past (headline: MOSS is really good! and great job by AK on his LoRA)</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x9xs4c/krea_2_turbo_4_steps_w_my_4step_lora_vs_moss_sft/"/>
+<published>2026-10-19T14:04:23+00:00</published><updated>2026-10-19T14:04:23+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="lora"/>
+<category term="dit"/>
+<summary>As many of you, I have also been keeping a close eye on the MOSS model released recently and have been quite impressed by its results. I have also been closely monitoring the 8 and 4 steps LoRAs for MOSS that have been published recently. I decided to do a full run of my prompts (that I was using du</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · lora, dit&lt;/small&gt;&lt;/p&gt;&lt;p&gt;As many of you, I have also been keeping a close eye on the MOSS model released recently and have been quite impressed by its results. I have also been closely monitoring the 8 and 4 steps LoRAs for MOSS that have been published recently. I decided to do a full run of my prompts (that I was using during my Krea 2 Turbo 2 and 4 Steps LoRAs development) on Moss with AK's 4 step LoRA and present to you the results in detail here: https://huggingface.co/lvladikov/Krea2-Turbo-Distill-4step-LoRA/blob/main/assets/comparison-with-moss/README.md , where you can see full size images by both models compared. Models and LoRAs Krea 2 Turbo MOSS-Image SFT Model krea/Krea-2-Turbo : Krea's Turbo text-to-ima&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x9xs4c/krea_2_turbo_4_steps_w_my_4step_lora_vs_moss_sft/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1x9x71h/my_entry_for_comfys_open_source_higgsfield/</id><title>My entry for Comfy's Open Source Higgsfield challenge: an open-source layered AI image editor on your own ComfyUI</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x9x71h/my_entry_for_comfys_open_source_higgsfield/"/>
+<published>2026-10-19T13:41:01+00:00</published><updated>2026-10-19T13:41:01+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="relight"/>
+<category term="sam2"/>
+<category term="inpainting"/>
+<category term="comfyui"/>
+<category term="flux"/>
+<summary>I've been building Scumble for a few months and just entered it into Comfy's challenge. What it is: a desktop editor (Electron, Windows and Linux) for AI inpainting with proper layers. You select something (SAM2 runs inside the app), type what should be there, hit Generate, and the result lands as i</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 6 · relight, sam2, inpainting, comfyui, flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I've been building Scumble for a few months and just entered it into Comfy's challenge. What it is: a desktop editor (Electron, Windows and Linux) for AI inpainting with proper layers. You select something (SAM2 runs inside the app), type what should be there, hit Generate, and the result lands as its own layer that you can mask, blend, filter, move and export to PSD or ORA. Every generation goes through one of three routes: - your own ComfyUI, local or on RunPod: every local recipe is a plain ComfyUI workflow with my Inpaint Canvas node in it, and you can import your own workflow as a recipe or open a recipe as its graph in a ComfyUI window inside the app - Comfy Cloud, through the Comfy AP&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x9x71h/my_entry_for_comfys_open_source_higgsfield/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1x9ve5o/flux2_controlnet_with_depth_map_and_style_image/</id><title>Flux2 controlnet with depth map and style image.</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x9ve5o/flux2_controlnet_with_depth_map_and_style_image/"/>
+<published>2026-10-19T12:20:12+00:00</published><updated>2026-10-19T12:20:12+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="controlnet"/>
+<summary>Fully working example of depth map with Flux2 dev, keeping complete identity and style of reference image. Result is same room viewed from different angle. submitted by /u/mice7770001 [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · controlnet&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Fully working example of depth map with Flux2 dev, keeping complete identity and style of reference image. Result is same room viewed from different angle. submitted by /u/mice7770001 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x9ve5o/flux2_controlnet_with_depth_map_and_style_image/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1x9udxg/wan_22_i2v_on_a_12gb_card_only_used_89gb_of_vram/</id><title>Wan 2.2 I2V on a 12GB card only used 8–9GB of VRAM. System RAM was the real bottleneck (measured, 3 renders)</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x9udxg/wan_22_i2v_on_a_12gb_card_only_used_89gb_of_vram/"/>
+<published>2026-10-19T11:31:13+00:00</published><updated>2026-10-19T11:31:13+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="image-to-video"/>
+<category term="render"/>
+<category term="comfyui"/>
+<category term="wan"/>
+<category term="minimax"/>
+<category term="lora"/>
+<summary>I wanted to know whether Wan 2.2 image-to-video is realistic on smaller cards, so I watched where the memory actually goes during real renders. Setup: RTX 5070 12GB (PCIe 5.0 x16), 64GB DDR5-6000, ComfyUI 0.37 with dynamic VRAM loading. Wan 2.2 I2V A14B fp8 (high + low noise), lightx2v LoRA, 12+12 s</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 7 · image-to-video, render, comfyui, wan, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I wanted to know whether Wan 2.2 image-to-video is realistic on smaller cards, so I watched where the memory actually goes during real renders. Setup: RTX 5070 12GB (PCIe 5.0 x16), 64GB DDR5-6000, ComfyUI 0.37 with dynamic VRAM loading. Wan 2.2 I2V A14B fp8 (high + low noise), lightx2v LoRA, 12+12 steps, RIFE interpolation on, no upscale. All runs back to back, models already warm. Resolution Frames Time Dedicated VRAM Shared GPU mem System RAM 832×480 49 8m 28s ~9.0 GB 14.8 GB 32 GB 832×480 81 17m 30s 8.0 GB 13.7 GB 29 GB 1024×576 49 14m 00s 8.3 GB 11.8 GB 28 GB What surprised me: The models are ~34GB in total (high 13.9 + low 13.6 + UMT5 6.4), but the GPU never went above ~9GB. ComfyUI kee&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x9udxg/wan_22_i2v_on_a_12gb_card_only_used_89gb_of_vram/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1x9tze1/minimax_h3s_acting_in_this_argument_scene/</id><title>MiniMax H3’s acting in this argument scene surprised me</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x9tze1/minimax_h3s_acting_in_this_argument_scene/"/>
+<published>2026-10-19T11:09:53+00:00</published><updated>2026-10-19T11:09:53+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="flux"/>
+<category term="minimax"/>
+<summary>H3 has been out for a while, but I hadn’t had much time to play with it. Finally had some time over the weekend and started experimenting with refmods and motion context. One experiment led to another, and I ended up spending quite a bit of time with it. I didn’t really notice this when it first cam</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · flux, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;H3 has been out for a while, but I hadn’t had much time to play with it. Finally had some time over the weekend and started experimenting with refmods and motion context. One experiment led to another, and I ended up spending quite a bit of time with it. I didn’t really notice this when it first came out, but the acting and emotional delivery in certain scenes can be surprisingly good. Those moments are a lot of fun. Are there any scenes or tasks you’ve found H3 particularly good at? I’d love to hear from people who’ve spent more time with it. I’m only just getting into H3, and this sub is already buzzing about FLUX 3 Klein and MOSS Image. Lots to look forward to! Full video: https://youtu.b&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x9tze1/minimax_h3s_acting_in_this_argument_scene/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1x9sgr1/selfliftfish_longer_h3_videos_higher_resolutions/</id><title>selflift-Fish: Longer H3 videos &amp; higher resolutions on a 16GB GPU — 20s clips / 1920×1088 tested</title>
 <link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x9sgr1/selfliftfish_longer_h3_videos_higher_resolutions/"/>
@@ -24,6 +108,17 @@
 <category term="ltx"/>
 <summary>I started this after seeing yanokusnir-ai’s one-node-flux-2-klein, just to make things easier for myself. It has grown to 11 nodes, so I’m sharing it in case others want to use it too. One node covers generate, edit, upscale, prompt writing and a gallery (7 image nodes, music, video stitch, MiniMax </summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · comfyui, minimax, ltx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I started this after seeing yanokusnir-ai’s one-node-flux-2-klein, just to make things easier for myself. It has grown to 11 nodes, so I’m sharing it in case others want to use it too. One node covers generate, edit, upscale, prompt writing and a gallery (7 image nodes, music, video stitch, MiniMax H3, LTX 2.5). My setup: Windows 11 / RTX 5060 Ti 16GB / 64GB RAM yanokusnir-ai 님의 one-node-flux-2-klein을 보고 영감을 받아, 제가 쓰기 편하려고 만들기 시작했는데 어느새 노드가 11개가 됐습니다. 같이 쓰고 싶은 분들이 있을 것 같아 공유합니다. 노드 하나에서 생성 · 편집 · 업스케일 · 프롬프트 작성 · 갤러리까지 처리합니다 (이미지 7종, 음악, 영상 스티치, MiniMax H3, LTX 2.5). 제 환경: Windows 11 / RTX 5060 Ti 16GB / RAM 64GB Please read first I built this for myself. I won’t take feature requests or “pl&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x9s1tr/11_allinone_comfyui_nodes_i_built_for_my_own_16gb/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1x9rsyi/are_the_days_of_free_opensource_and_shareware_over/</id><title>Are the days of free open-source and shareware over?</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x9rsyi/are_the_days_of_free_opensource_and_shareware_over/"/>
+<published>2026-10-19T09:00:06+00:00</published><updated>2026-10-19T09:00:06+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="flux"/>
+<category term="minimax"/>
+<category term="lora"/>
+<summary>Awful lot of people are busy making money from free stuff other people gave to them. Fal-AI might have started this trend with the MiniMax-H3 spin into Fast-H3, but now there are a whole bunch of people on CivitAI selling Moss, Flux 3 Klein, Krea-2, MiniMax and other models' spinoff scaped together </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · flux, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Awful lot of people are busy making money from free stuff other people gave to them. Fal-AI might have started this trend with the MiniMax-H3 spin into Fast-H3, but now there are a whole bunch of people on CivitAI selling Moss, Flux 3 Klein, Krea-2, MiniMax and other models' spinoff scaped together with the products of other people's hard work given to them free of cost. That's why I hangout on Huggingface more often lately, no one is trying to to sell me anything there (that's until Nvidia decides to monetize it). CivitAI is becoming more and more like Facebook or YouTube. I am waiting to see when they start showing full screen pop-up ads before, after and in the middle of a free LoRA or a &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x9rsyi/are_the_days_of_free_opensource_and_shareware_over/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1x9r2r7/more_than_just_talking_head_videos_with_clown/</id><title>More than just talking head videos with Clown Anchoring</title>
@@ -6837,78 +6932,5 @@
 <category term="lora"/>
 <summary>Hi all, ComfyUI beginner here, looking for advice on style. I need painted portraits of five characters, each with about four expressions (calm, angry, triumphant, ruined), half-length, seated behind a table, dark plain background. The style I want: mid-19th-century Russian genre painting, like the </summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · comfyui, flux, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi all, ComfyUI beginner here, looking for advice on style. I need painted portraits of five characters, each with about four expressions (calm, angry, triumphant, ruined), half-length, seated behind a table, dark plain background. The style I want: mid-19th-century Russian genre painting, like the reference attached (a book cover). Muted ochres and browns, flat even light, thin matte paint, simplified and slightly naive faces, a bit caricatured. Nothing polished. Like the attached pic. My setup: RTX 5090 (32 GB), ComfyUI Desktop, FLUX.2 klein 4B, using the stock text-to-image and image-edit templates. The problem: everything comes out as the same smooth, glossy, highly detailed "AI oil pain&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wyekwp/how_do_i_get_a_rough_naive_19thcentury_russian/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wycwqr/minimax_h3_character_consistency_part_2/</id><title>MiniMax H3 character consistency, part 2</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wycwqr/minimax_h3_character_consistency_part_2/"/>
-<published>2026-10-05T16:22:05+00:00</published><updated>2026-10-05T16:22:05+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="minimax"/>
-<category term="consistency"/>
-<category term="character consistency"/>
-<summary>The long awaited (or not) sequel to MiniMax H3 character consistency : r/StableDiffusion is out! Main improvement is that it's easier to reference frames from earlier shots, which has improved both character and environment consistency I think. Scene composition consistency between shots still has l</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 6 · minimax, consistency, character consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;The long awaited (or not) sequel to MiniMax H3 character consistency : r/StableDiffusion is out! Main improvement is that it's easier to reference frames from earlier shots, which has improved both character and environment consistency I think. Scene composition consistency between shots still has lots of room for improvement though.. Generated locally on an RTX 4000 Ada. Workflows generated from the project files available at radiatingreverberations/sparkleriley . submitted by /u/rad_reverbererations [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wycwqr/minimax_h3_character_consistency_part_2/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1wycgx2/house_of_the_dragon_before_and_after_vfx/</id><title>House of the Dragon, before and after VFX</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wycgx2/house_of_the_dragon_before_and_after_vfx/"/>
-<published>2026-10-05T16:05:32+00:00</published><updated>2026-10-05T16:05:32+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="vfx"/>
-<summary>VFX Supervisor For Pixmondo - Sven Martin (Season 1) VFX Supervisor For Weta FX - Wayne Stable (Season 2) submitted by /u/Agreeable_Ad_8790 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;VFX Supervisor For Pixmondo - Sven Martin (Season 1) VFX Supervisor For Weta FX - Wayne Stable (Season 2) submitted by /u/Agreeable_Ad_8790 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wycgx2/house_of_the_dragon_before_and_after_vfx/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wycdex/release_the_geometry_duo_for_comfyui_clean_white/</id><title>[Release] The Geometry Duo for ComfyUI: Clean 'White Models' &amp; Normal Guidance for MiniMax H3, Wan 2.1 &amp; Video Diffusion</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wycdex/release_the_geometry_duo_for_comfyui_clean_white/"/>
-<published>2026-10-05T16:02:05+00:00</published><updated>2026-10-05T16:02:05+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="video generation"/>
-<category term="video diffusion"/>
-<category term="tracking"/>
-<category term="camera tracking"/>
-<category term="comfyui"/>
-<category term="blender"/>
-<category term="flux"/>
-<category term="wan"/>
-<summary>ComfyUI-Depth-Anything-3: https://github.com/1038lab/ComfyUI-Depth-Anything-3 ComfyUI-Lotus-2: https://github.com/1038lab/ComfyUI-Lotus-2 Hey everyone, If you have been working with modern video generation models like MiniMax H3, Wan 2.1, or CogVideoX, you already know the biggest obstacle to gettin</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 17 · video generation, video diffusion, tracking, camera tracking, comfyui, blender, flux, wan&lt;/small&gt;&lt;/p&gt;&lt;p&gt;ComfyUI-Depth-Anything-3: https://github.com/1038lab/ComfyUI-Depth-Anything-3 ComfyUI-Lotus-2: https://github.com/1038lab/ComfyUI-Lotus-2 Hey everyone, If you have been working with modern video generation models like MiniMax H3, Wan 2.1, or CogVideoX, you already know the biggest obstacle to getting cinematic, consistent motion: geometry instability. Without solid spatial guidance, characters morph, limbs glitch, and backgrounds wobble between frames. The standard technique among high-end AI creators is feeding geometric 'white models' (clay proxies), metric depth, and 3D surface normal passes into the generation pipeline to anchor every movement. To make generating these white models effor&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wycdex/release_the_geometry_duo_for_comfyui_clean_white/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wycbd0/attempted_to_make_a_cohesive_movie_trailer_using/</id><title>Attempted To Make A Cohesive Movie Trailer Using 30-Second MiniMax H3 Workflow In ComfyUI On A 12GB GPU</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wycbd0/attempted_to_make_a_cohesive_movie_trailer_using/"/>
-<published>2026-10-05T16:00:16+00:00</published><updated>2026-10-05T16:00:16+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="minimax"/>
-<category term="seedance"/>
-<category term="consistency"/>
-<summary>Basically used Akool to generate character and environmental reference models, and then fed all of that into the 30-second Ref2V MiniMax H3 workflow that was posted here a while back: https://www.reddit.com/r/comfyui/comments/1vw036i/30second_minimax_h3_seamless_imagetovideo/ The goal was to see if </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 6 · comfyui, minimax, seedance, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Basically used Akool to generate character and environmental reference models, and then fed all of that into the 30-second Ref2V MiniMax H3 workflow that was posted here a while back: https://www.reddit.com/r/comfyui/comments/1vw036i/30second_minimax_h3_seamless_imagetovideo/ The goal was to see if a cohesive and stable movie trailer could be made locally on a 12GB GPU. The results are... mixed. Unfortunately 12GB GPUs cannot handle MiniMax H3 at 16:9 on anything higher than 0.3 or 0.4 megapixels without massive distortions and hallucinations. Stable generations at that aspect ratio need at least 25 - 30 steps and 0.5 or 0.6 megapixels for high-quality output. On a 12GB GPU that just resulte&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wycbd0/attempted_to_make_a_cohesive_movie_trailer_using/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wyalky/qwen_image_21_text_to_image_9_realworld_prompt/</id><title>Qwen Image 2.1 - Text to Image : 9 Real-World Prompt Stress Tests in ComfyUI</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wyalky/qwen_image_21_text_to_image_9_realworld_prompt/"/>
-<published>2026-10-05T14:53:24+00:00</published><updated>2026-10-05T14:53:24+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<summary>submitted by /u/CreativeEbb806 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/CreativeEbb806 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wyalky/qwen_image_21_text_to_image_9_realworld_prompt/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wya9r3/from_3d_layout_to_compositing_new_ltx_vfx_tools/</id><title>From 3D layout to compositing: new LTX VFX tools</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wya9r3/from_3d_layout_to_compositing_new_ltx_vfx_tools/"/>
-<published>2026-10-05T14:40:07+00:00</published><updated>2026-10-05T14:40:07+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="relight"/>
-<category term="green screen"/>
-<category term="smoke"/>
-<category term="compositing"/>
-<category term="vfx"/>
-<category term="hdr"/>
-<category term="render"/>
-<category term="comfyui"/>
-<summary>During VFX Week last week, we released seven open-weight capabilities for LTX-2.5, covering high-res editing, restoration, HDR, CG-guided generation and compositing: Native Resolution : Run AI edits on 4K and 8K plates and beyond without downscaling. Overlapping tiles keep fine detail, on a single G</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 12 · relight, green screen, smoke, compositing, vfx, hdr, render, comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;During VFX Week last week, we released seven open-weight capabilities for LTX-2.5, covering high-res editing, restoration, HDR, CG-guided generation and compositing: Native Resolution : Run AI edits on 4K and 8K plates and beyond without downscaling. Overlapping tiles keep fine detail, on a single GPU. Refine : Refine generates the fine detail a standard resize leaves soft, without drifting from the source. Restore : Takes archival footage from as low as 540p to 4K, enhances color and gives it a modern digital-camera look. SDR to HDR : Rebuilds shadow and highlight detail in SDR footage and outputs 16-bit EXR in ACEScg, so it sits alongside your HDR material. Native HDR : Bring in an EXR seq&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wya9r3/from_3d_layout_to_compositing_new_ltx_vfx_tools/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
