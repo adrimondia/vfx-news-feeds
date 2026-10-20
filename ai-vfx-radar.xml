@@ -2,8 +2,19 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-20T12:30:53+00:00</updated>
+<updated>2026-10-20T14:30:49+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xarw4c/how_to_train_mossimage_loras_locally_8_gb_vram/</id><title>How to train MOSS-Image LoRAs locally (8 GB VRAM): settings, tips and workflow</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xarw4c/how_to_train_mossimage_loras_locally_8_gb_vram/"/>
+<published>2026-10-20T13:16:52+00:00</published><updated>2026-10-20T13:16:52+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<category term="flux"/>
+<category term="lora"/>
+<summary>A lot of people have been asking me for the "right" settings to train MOSS-Image LoRAs, and some are getting terrible results after training for thousands of steps. So here's everything in one place, with screenshots of a real run. TL;DR: for a character LoRA, start with the default settings and tra</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, flux, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;A lot of people have been asking me for the "right" settings to train MOSS-Image LoRAs, and some are getting terrible results after training for thousands of steps. So here's everything in one place, with screenshots of a real run. TL;DR: for a character LoRA, start with the default settings and train 800 steps (just an example: other types of training may need other settings). The likeness should already be there by step ~800; go to 1200–1500 only if your dataset is large or the concept is hard. If you're at 8000 steps, you've gone way past the point where the LoRA was good. The tool I train with AcademiaSD LoRAlab Trainer Studio , a free, open-source local trainer (one installer, one launc&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xarw4c/how_to_train_mossimage_loras_locally_8_gb_vram/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xalzfp/kratos_vs_teddy_bear_minimax/</id><title>Kratos vs Teddy bear minimax</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xalzfp/kratos_vs_teddy_bear_minimax/"/>
@@ -6668,62 +6679,5 @@
 <category term="comfyui"/>
 <summary>In this episode, I’ll show you how to use Ming Image 0.1 in ComfyUI, a free image generation model focused on graphic design, text, layouts, and image editing. Ming Image is especially interesting for designs that contain a lot of text. I’ll test it with posters, infographics, logos, UI and app desi</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · image editing, comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;In this episode, I’ll show you how to use Ming Image 0.1 in ComfyUI, a free image generation model focused on graphic design, text, layouts, and image editing. Ming Image is especially interesting for designs that contain a lot of text. I’ll test it with posters, infographics, logos, UI and app designs, YouTube thumbnails, social media graphics, game screens, transparent PNG images, and more. I’ll also show you several image editing workflows, including changing text while keeping the original style, turning sketches into 3D-style renders, transforming flat illustrations into more dimensional designs, combining multiple images, and generating the same design in different aspect ratios. You’l&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wz4yc9/free_ai_model_for_design_text_in_comfyui_ming/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wz42o6/omni_charsame_face_cloths_body_now_with/</id><title>Omni .char(same face, cloths &amp; body) now with consistent voice, just by dropping a few seconds sample audio: Minimax H3(ComfyUI Workflow)</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wz42o6/omni_charsame_face_cloths_body_now_with/"/>
-<published>2026-10-06T14:29:51+00:00</published><updated>2026-10-06T14:29:51+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="video generation"/>
-<category term="lip sync"/>
-<category term="comfyui"/>
-<category term="minimax"/>
-<category term="consistency"/>
-<summary>Hey guys, I have been working on the consistent character portable format for a while &amp; I was able to achieve consistent face, cloths &amp; body, but I felt voice is also something should be consistent across video generation. So in the recent tests, I was able to achieve a consistent voice with lip syn</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 7 · video generation, lip sync, comfyui, minimax, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey guys, I have been working on the consistent character portable format for a while &amp;amp; I was able to achieve consistent face, cloths &amp;amp; body, but I felt voice is also something should be consistent across video generation. So in the recent tests, I was able to achieve a consistent voice with lip sync across multiple video generation, You just need a 10-30sec voice sample in mp3 or wav &amp;amp; character will say things in a cloned voice from your sample. Reddit post: Details on face, body &amp;amp; cloth consistency You can read more about .char, comfyui nodes &amp;amp; prompting details here. Voice prompts - chris giving an interview &amp;amp; says "Time can bend. Dreams can fold. But a character's voice should never cha&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wz42o6/omni_charsame_face_cloths_body_now_with/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wz405c/omni_charsame_face_cloths_body_now_with/</id><title>Omni .char(same face, cloths &amp; body) now with consistent voice, just by dropping a few seconds sample audio: Minimax H3(ComfyUI Workflow)</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wz405c/omni_charsame_face_cloths_body_now_with/"/>
-<published>2026-10-06T14:27:00+00:00</published><updated>2026-10-06T14:27:00+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="video generation"/>
-<category term="lip sync"/>
-<category term="comfyui"/>
-<category term="minimax"/>
-<category term="consistency"/>
-<summary>Hey guys, I have been working on the consistent character portable format for a while &amp; I was able to achieve consistent face, cloths &amp; body, but I felt voice is also something should be consistent across video generation. So in the recent tests, I was able to achieve a consistent voice with lip syn</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 7 · video generation, lip sync, comfyui, minimax, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey guys, I have been working on the consistent character portable format for a while &amp;amp; I was able to achieve consistent face, cloths &amp;amp; body, but I felt voice is also something should be consistent across video generation. So in the recent tests, I was able to achieve a consistent voice with lip sync across multiple video generation, You just need a 10-30sec voice sample in mp3 or wav &amp;amp; character will say things in a cloned voice from your sample. Reddit post: Details on face, body &amp;amp; cloth consistency You can read more about .char, comfyui nodes &amp;amp; prompting details here. Voice prompts - chris giving an interview &amp;amp; says "Time can bend. Dreams can fold. But a character's voice should never cha&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wz405c/omni_charsame_face_cloths_body_now_with/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1wz3xmv/wrote_an_article_for_80lv_explaining_in_detail/</id><title>Wrote an article for 80.lv explaining in detail how to achieve this branchy smoke burst effect.</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wz3xmv/wrote_an_article_for_80lv_explaining_in_detail/"/>
-<published>2026-10-06T14:24:10+00:00</published><updated>2026-10-06T14:24:10+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="smoke"/>
-<summary>submitted by /u/Queasy_Thanks_1483 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · smoke&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/Queasy_Thanks_1483 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wz3xmv/wrote_an_article_for_80lv_explaining_in_detail/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wz3s0q/minimax_h3_seamless_long_videos_no_color_shift/</id><title>MiniMax H3: Seamless Long Videos, No Color Shift — SelfLift Dual Sampling &amp; Sharper Latent Upscaler</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wz3s0q/minimax_h3_seamless_long_videos_no_color_shift/"/>
-<published>2026-10-06T14:17:43+00:00</published><updated>2026-10-06T14:17:43+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="upscaler"/>
-<category term="comfyui"/>
-<category term="minimax"/>
-<summary>I updated my MiniMax H3 workflow for stitched long videos in ComfyUI. In my tests the join is now hard to spot even when I point it out, and the color stays consistent across segments. Three changes did most of the work: a small noise change on the context reference, a color transfer step, and a sha</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 5 · upscaler, comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I updated my MiniMax H3 workflow for stitched long videos in ComfyUI. In my tests the join is now hard to spot even when I point it out, and the color stays consistent across segments. Three changes did most of the work: a small noise change on the context reference, a color transfer step, and a sharper community-finetuned latent upscaler. What changed Second stage uses a community finetune of the H3 latent upscaler (h3_upscaler_lms_v0.1) — visibly sharper in my tests. Context mode now runs 4 low-res steps + 4 high-res steps at lowres scale 0.65 (~1.5x upscale). Fewer low-res steps and a smaller upscale ratio made the washed-out look and the color shift much less noticeable. The reference fr&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wz3s0q/minimax_h3_seamless_long_videos_no_color_shift/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wz1zyk/animegen_is_released_now_you_can_run_anima/</id><title>AnimeGen is released. Now you can run Anima locally on your iPhone/iPad in HD!</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wz1zyk/animegen_is_released_now_you_can_run_anima/"/>
-<published>2026-10-06T13:01:16+00:00</published><updated>2026-10-06T13:01:16+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="upscaler"/>
-<category term="image editing"/>
-<category term="controlnet"/>
-<summary>I made AnimeGen , app that allows you to run Anima on your mobile phone. Since last post I added hd image generation, and different aspect ratios. The app is now available on the App Store: https://apps.apple.com/pl/app/animegen-anime-art-generator/id6786438562 I am an iOS developer and unfortunatel</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · upscaler, image editing, controlnet&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I made AnimeGen , app that allows you to run Anima on your mobile phone. Since last post I added hd image generation, and different aspect ratios. The app is now available on the App Store: https://apps.apple.com/pl/app/animegen-anime-art-generator/id6786438562 I am an iOS developer and unfortunately can't make an Android app. Sorry for that. What it can do now Prompt-to-image generation powered by Anima HD and 540r image generation in different ratios Runs locally on your device Performance iPhone 14 : approximately 15–20 seconds per image iPhone 17 : approximately 10–15 seconds per image M1 iPad : approximately 15–20 seconds per image It uses native Apple Neural Engine, so it is very effic&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wz1zyk/animegen_is_released_now_you_can_run_anima/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
