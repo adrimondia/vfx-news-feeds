@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-20T08:30:28+00:00</updated>
+<updated>2026-10-20T10:31:06+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xalo3h/mossimagebase_lora_release_smartphone_snapshot/</id><title>MOSS-Image-Base - LoRA - Release - Smartphone Snapshot Photo Reality v14</title>
@@ -6747,55 +6747,5 @@
 <category term="minimax"/>
 <summary>Hi everyone, People often say that MiniMax H3 video generation is pretty fast, but I honestly have no idea where my system stands compared to other setups. So I’d like to collect some real-world generation times from other users. Here are the settings I’m currently using: Video length: 17 seconds Re</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 5 · video generation, comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi everyone, People often say that MiniMax H3 video generation is pretty fast, but I honestly have no idea where my system stands compared to other setups. So I’d like to collect some real-world generation times from other users. Here are the settings I’m currently using: Video length: 17 seconds Resolution: 1280 × 720 Steps: 14 CFG: 1.0 Audio: Yes Reference images: Up to 5 ComfyUI on Windows My PC: NVIDIA RTX 5080 Intel i9-12900KF 96 GB RAM Local generation If you’re using MiniMax H3 with similar settings, how long does a 17-second generation take on your machine? It would be really helpful if you could post your results using something like this: GPU / VRAM: RAM: CPU: Resolution: Video len&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wyzgwk/minimax_h3_comfyui_how_long_does_it_take_you_to/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wyyrr5/comfyui_benchmark_across_13_gpus_flux_1_dev_fp8/</id><title>ComfyUI benchmark across 13 GPUs (Flux 1 dev FP8)</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wyyrr5/comfyui_benchmark_across_13_gpus_flux_1_dev_fp8/"/>
-<published>2026-10-06T10:07:14+00:00</published><updated>2026-10-06T10:07:14+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="flux"/>
-<summary>This benchmark was done with my own hardware (5060ti, 5070ti, 4000 ada sff), Shadow PC and Trooper(.ai) (3090, 4070ti super, 4090 ...). To avoid getting blocked for spam, all links for workflow and files are on substack for free . submitted by /u/Ok_Contribution8157 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · comfyui, flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;This benchmark was done with my own hardware (5060ti, 5070ti, 4000 ada sff), Shadow PC and Trooper(.ai) (3090, 4070ti super, 4090 ...). To avoid getting blocked for spam, all links for workflow and files are on substack for free . submitted by /u/Ok_Contribution8157 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wyyrr5/comfyui_benchmark_across_13_gpus_flux_1_dev_fp8/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wyyolz/comfyui_v0390_released/</id><title>ComfyUI v0.39.0 released</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wyyolz/comfyui_v0390_released/"/>
-<published>2026-10-06T10:01:52+00:00</published><updated>2026-10-06T10:01:52+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<summary>submitted by /u/Fcking_Chuck [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/Fcking_Chuck [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wyyolz/comfyui_v0390_released/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wyylrl/how_can_i_get_the_exact_same_identity_as_my/</id><title>How can I get the exact same identity as my trained LoRA?</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wyylrl/how_can_i_get_the_exact_same_identity_as_my/"/>
-<published>2026-10-06T09:57:02+00:00</published><updated>2026-10-06T09:57:02+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="lora"/>
-<category term="consistency"/>
-<summary>I trained a identity LoRA on 131 images and I'm using it with Krea 2 Raw in ComfyUI. The results are already close, but the face still has slight variation, especially the cheek/fullness and facial proportions. I want the generated person to look as close as possible to the exact model I trained, wh</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · comfyui, lora, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I trained a identity LoRA on 131 images and I'm using it with Krea 2 Raw in ComfyUI. The results are already close, but the face still has slight variation, especially the cheek/fullness and facial proportions. I want the generated person to look as close as possible to the exact model I trained, while changing pose, clothes, lighting and background. Current setup: Krea 2 Raw, Qwen3-VL CLIP, ~20 steps, CFG 1.0, Euler. What is the best way to get maximum identity consistency ? Should I adjust LoRA strength, reference/grounding settings, training settings, or use an identity/reference node? Any proven ComfyUI workflow for this would be really appreciated. submitted by /u/DragonfruitNo9822 [lin&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wyylrl/how_can_i_get_the_exact_same_identity_as_my/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wyydou/built_an_app_to_use_comfyui_on_mobile/</id><title>built an app to use ComfyUI on mobile</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wyydou/built_an_app_to_use_comfyui_on_mobile/"/>
-<published>2026-10-06T09:42:39+00:00</published><updated>2026-10-06T09:42:39+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="video generation"/>
-<category term="comfyui"/>
-<category term="minimax"/>
-<summary>Hey everyone, this is my first post here, and also my first serious GitHub project. I love using ComfyUI for generating and editing images, along with MiniMax H3 for video generation. Unfortunately I have mild shoulder periarthritis, and long hours sitting at my computer can get really uncomfortable</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · video generation, comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey everyone, this is my first post here, and also my first serious GitHub project. I love using ComfyUI for generating and editing images, along with MiniMax H3 for video generation. Unfortunately I have mild shoulder periarthritis, and long hours sitting at my computer can get really uncomfortable. That’s what gave me the idea to build a mobile‑friendly ComfyUI app. No app installation required on your phone — it works directly in the browser. I’m not a coder. This project was built with GLM‑5.3‑Flash. I’ve spent two weeks testing, fine‑tuning and adding features, and it’s pretty solid now. You can remotely boot up your desktop ComfyUI straight from your phone even if you forgot to start i&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wyydou/built_an_app_to_use_comfyui_on_mobile/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1wyxl6q/fanart_in_showreels_university_application/</id><title>Fanart in Showreels (University Application)</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wyxl6q/fanart_in_showreels_university_application/"/>
-<published>2026-10-06T08:50:16+00:00</published><updated>2026-10-06T08:50:16+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="vfx"/>
-<summary>Hey! I need to do a Showreel for my application at a university. (I want to study VFX and I'm fully aware of the current status of the industry. I know it's gonna be hard but I want to do it so please leave this discussion out of the answers) I have made 2 "Fanart" Animations one with the mindflayer</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 1 · vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey! I need to do a Showreel for my application at a university. (I want to study VFX and I'm fully aware of the current status of the industry. I know it's gonna be hard but I want to do it so please leave this discussion out of the answers) I have made 2 "Fanart" Animations one with the mindflayer from stranger things and one with a Star destroyer and a tie fighter. All models, Materials, animations etc. Are made by myself. Im proud of those and really want them inside the Showreel but I heard that this is a redflag. Would that be a problem in my situation? Would really appreciate some opinions from others! submitted by /u/No-Necessary3876 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wyxl6q/fanart_in_showreels_university_application/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
