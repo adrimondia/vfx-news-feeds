@@ -2,8 +2,62 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-21T14:30:48+00:00</updated>
+<updated>2026-10-21T16:31:05+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1xbpvia/knitted_bb8_finds_a_lightsaber_fan_art/</id><title>Knitted BB-8 Finds a Lightsaber - Fan Art</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xbpvia/knitted_bb8_finds_a_lightsaber_fan_art/"/>
+<published>2026-10-21T15:13:52+00:00</published><updated>2026-10-21T15:13:52+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="houdini"/>
+<summary>I had the pleasure of working with the best Houdini HDA for fabric and knitted assets. With a small team of super talented people, we created this BB8 Fan Art. Creative projects like this are extremely rewarding for me. It's fun to step outside your comfort zone and learn things. I was doing the env</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 1 · houdini&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I had the pleasure of working with the best Houdini HDA for fabric and knitted assets. With a small team of super talented people, we created this BB8 Fan Art. Creative projects like this are extremely rewarding for me. It's fun to step outside your comfort zone and learn things. I was doing the environments, fx, lookdev (on the saber) and lighting and comp. Lighting is my bread and butter - learning how to bring it all together is a challenge and super fun. That is art - that's why I click and not type. Thanks to everyone involved in this project! Thanks Fibric Toolset and teams! submitted by /u/arvidurs [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xbpvia/knitted_bb8_finds_a_lightsaber_fan_art/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1xbornv/anyone_use_ai_for_troubleshooting_vfx_shot_if_yes/</id><title>Anyone use AI for troubleshooting vfx shot? If yes, what ai tool you guys use?</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xbornv/anyone_use_ai_for_troubleshooting_vfx_shot_if_yes/"/>
+<published>2026-10-21T14:31:33+00:00</published><updated>2026-10-21T14:31:33+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="vfx"/>
+<category term="comfyui"/>
+<category term="blender"/>
+<category term="minimax"/>
+<summary>For past 4 month, i deep dive learning integration of ComfyUI + Blender + Davinci. Then i discover using Gemini Gems as custom chatbot for example MiniMax H3 by feeding AI documentation .md from hugging face. So when i have shot that needs generate some part i can put proxy mp4 footage and help me g</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 5 · vfx, comfyui, blender, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;For past 4 month, i deep dive learning integration of ComfyUI + Blender + Davinci. Then i discover using Gemini Gems as custom chatbot for example MiniMax H3 by feeding AI documentation .md from hugging face. So when i have shot that needs generate some part i can put proxy mp4 footage and help me generate what i need to do. How about you guys did? I saw alot ai tool nowadays like Claude, ChatGPT, Grok, or even open weight like Qwen, Meta Llama. submitted by /u/ujah [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xbornv/anyone_use_ai_for_troubleshooting_vfx_shot_if_yes/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xbobrr/original_character_lora_for_minimax_h3_learnings/</id><title>Original character LoRA for MiniMax H3 learnings. Workflows included.</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xbobrr/original_character_lora_for_minimax_h3_learnings/"/>
+<published>2026-10-21T14:14:33+00:00</published><updated>2026-10-21T14:14:33+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="rendering"/>
+<category term="minimax"/>
+<category term="seedance"/>
+<category term="lora"/>
+<summary>H3 t2v is just so damn good looking compared to ref2va/fl2va and even RefMod. So I attempted to create a LoRA of an original character, using 8 Z-Image Turbo stills, a custom ElevenLabs voice, and 14 short clips of her talking (from 5 Seedance gens with the Z-Image refs). Left is H3 with a RefMod (p</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 6 · rendering, minimax, seedance, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;H3 t2v is just so damn good looking compared to ref2va/fl2va and even RefMod. So I attempted to create a LoRA of an original character, using 8 Z-Image Turbo stills, a custom ElevenLabs voice, and 14 short clips of her talking (from 5 Seedance gens with the Z-Image refs). Left is H3 with a RefMod (photos and voice sample). Right is the same seed with the LoRA at 0.8, followed by DLSS 5. The RefMod keeps her face consistent, but everything looks a bit too polished. With the LoRA, she looks closer to t2v quality. I trained her in Fizgig, running headless: rank 16, Automagic v3, Circlestone adapter, EMA 0.98, 40 epochs (3,520 steps) on the pruned int8 fl2va model. Dataset was the images plus fa&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xbobrr/original_character_lora_for_minimax_h3_learnings/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xbo8fo/ltx_desktop_130_is_out/</id><title>LTX Desktop 1.3.0 is out!</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xbo8fo/ltx_desktop_130_is_out/"/>
+<published>2026-10-21T14:11:06+00:00</published><updated>2026-10-21T14:11:06+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="text-to-video"/>
+<category term="image-to-video"/>
+<category term="ltx"/>
+<summary>A big update to your local video workflow : the app has a redesigned Home page and sidebar, quick search, easier setup, and a new Assistant that can turn a chat into queued generations. Create videos locally with Text-to-Video, Image-to-Video, and Audio-to-Video. Retake or Extend clips, try IC-LoRAs</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · text-to-video, image-to-video, ltx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;A big update to your local video workflow : the app has a redesigned Home page and sidebar, quick search, easier setup, and a new Assistant that can turn a chat into queued generations. Create videos locally with Text-to-Video, Image-to-Video, and Audio-to-Video. Retake or Extend clips, try IC-LoRAs like Ingredients, Day to Night, Deblur, and Water Simulation, then queue jobs in the background and reorder or cancel them. You can also use Remote from your phone or another browser on the same network. Generations and assets persist across restarts. The update adds fast-preview resolutions, more duration, frame-rate, and aspect-ratio options, prompt enhancement controls, and seed settings. It a&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xbo8fo/ltx_desktop_130_is_out/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1xbnarx/city_limit_south_vfx_breakdown_blender_after/</id><title>"City Limit South" - VFX Breakdown (Blender, After Effects, Resolve - no AI)</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xbnarx/city_limit_south_vfx_breakdown_blender_after/"/>
+<published>2026-10-21T13:33:29+00:00</published><updated>2026-10-21T13:33:29+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="vfx"/>
+<category term="blender"/>
+<summary>A VFX breakdown from my music video "The River, the Shore". 2+ years in the making, the full music video combines real footage with Blender composited in After Effects and Resolve - with many of the scenes being fully CG! Full music video in the link below: https://www.youtube.com/watch?v=vrrZCnXuPC</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 4 · vfx, blender&lt;/small&gt;&lt;/p&gt;&lt;p&gt;A VFX breakdown from my music video "The River, the Shore". 2+ years in the making, the full music video combines real footage with Blender composited in After Effects and Resolve - with many of the scenes being fully CG! Full music video in the link below: https://www.youtube.com/watch?v=vrrZCnXuPCs&amp;amp;lc=UgxA5OVrazcW0YI43B54AaABAg Let me know what you think :) No generative AI was used for this work. submitted by /u/carmo97 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xbnarx/city_limit_south_vfx_breakdown_blender_after/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xblkin/i_trained_a_fibo_20_lora_a_day_after_release_and/</id><title>I trained a Fibo 2.0 LoRA a day after release and put my plush dragon into famous pictures</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xblkin/i_trained_a_fibo_20_lora_a_day_after_release_and/"/>
@@ -6730,80 +6784,5 @@
 <category term="lora"/>
 <summary>Another quick Minimax H3 news and goodies round-up, for those who may have missed some items. -&gt; A new LoRA aims to emulate the look of 1970s fantasy films, rather than 1980s. Aims for... "the visual language of older fantasy productions: practical costumes, theatrical sets, matte-painted environmen</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 6 · render, rendering, comfyui, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Another quick Minimax H3 news and goodies round-up, for those who may have missed some items. -&amp;gt; A new LoRA aims to emulate the look of 1970s fantasy films, rather than 1980s. Aims for... "the visual language of older fantasy productions: practical costumes, theatrical sets, matte-painted environments, strange creatures, distant worlds, ancient ruins, dramatic landscapes, soft analog photography". Trigger word is retr0Fantasy - but apparently it doesn't have to be used provided you have a suitable prompt. https://civitai.com/models/2988830/minimax-h3-forgotten-worlds-retro-fantasy -&amp;gt; Minimax-h3-inpainting has updated today. "Add mask_drop_step for single-pass harmonize". https://huggingface.&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x02vw6/a_quick_minimax_h3_news_roundup_7th_october_2026/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1x012ey/erenodes_tagbased_prompting_one_year_in/</id><title>EreNodes: tag-based prompting, one year in</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x012ey/erenodes_tagbased_prompting_one_year_in/"/>
-<published>2026-10-07T16:27:23+00:00</published><updated>2026-10-07T16:27:23+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="lora"/>
-<summary>Over a year ago I posted EreNodes here when it was a handful of nodes that let you click tags on and off instead of editing a wall of text. It didn't stop there. I kept fixing whatever annoyed me during my own generations, and a year (and 44 versions) later it's grown a lot. The core idea is the sam</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Over a year ago I posted EreNodes here when it was a handful of nodes that let you click tags on and off instead of editing a wall of text. It didn't stop there. I kept fixing whatever annoyed me during my own generations, and a year (and 44 versions) later it's grown a lot. The core idea is the same: your prompt is a list of pills. Every tag, lora, embedding or sentence is a pill you can switch off, reweight, drag around or save for later. What's new since the first post: Prompt Composer : one node with customizable categories (character, outfit, background...) instead of a chain of separate prompt nodes Drag and drop everywhere : reorder pills, move them between nodes Tag groups : save any&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x012ey/erenodes_tagbased_prompting_one_year_in/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1x003qm/chillin_in_middle_earth_with_minimax_h3/</id><title>Chillin in Middle Earth with Minimax H3</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x003qm/chillin_in_middle_earth_with_minimax_h3/"/>
-<published>2026-10-07T15:51:13+00:00</published><updated>2026-10-07T15:51:13+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="minimax"/>
-<summary>submitted by /u/sktksm [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/sktksm [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x003qm/chillin_in_middle_earth_with_minimax_h3/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wzzztt/line_zero_building_a_title_sequence_around_one/</id><title>LINE ZERO — building a title sequence around one visual rule | ComfyUI / LTX / MiniMax H3</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wzzztt/line_zero_building_a_title_sequence_around_one/"/>
-<published>2026-10-07T15:47:00+00:00</published><updated>2026-10-07T15:47:00+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="minimax"/>
-<category term="ltx"/>
-<summary>LINE ZERO is a short title-sequence experiment built around one visual rule: a single yellow line changes function as it moves through the world — map, infrastructure, transport, signal and trajectory. Rather than treating each generated shot independently, I tried to use that line as the connective</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 6 · comfyui, minimax, ltx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;LINE ZERO is a short title-sequence experiment built around one visual rule: a single yellow line changes function as it moves through the world — map, infrastructure, transport, signal and trajectory. Rather than treating each generated shot independently, I tried to use that line as the connective structure for the whole edit. Built through a mix of AI image/video work, ComfyUI, LTX and MiniMax H3, then edited and finished in post. Curious whether the visual rule reads clearly without explanation, and whether the escalation toward the final shot works. submitted by /u/magratheya_64 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wzzztt/line_zero_building_a_title_sequence_around_one/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wzzj2q/stress_test_part2_qwen_image_21_image_edit_8/</id><title>[Stress Test - Part-2] : Qwen Image 2.1 Image Edit — 8 Real-World Scene Editing in ComfyUI</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wzzj2q/stress_test_part2_qwen_image_21_image_edit_8/"/>
-<published>2026-10-07T15:29:00+00:00</published><updated>2026-10-07T15:29:00+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<summary>submitted by /u/CreativeEbb806 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/CreativeEbb806 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wzzj2q/stress_test_part2_qwen_image_21_image_edit_8/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1wzzgux/ive_been_creating_a_lot_of_procedural_deep_space/</id><title>I've been creating a lot of procedural deep space VFX in recent years. Here's some galaxies showreel!</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wzzgux/ive_been_creating_a_lot_of_procedural_deep_space/"/>
-<published>2026-10-07T15:26:33+00:00</published><updated>2026-10-07T15:26:33+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="vfx"/>
-<summary>I'm most proud of the setup for barred spiral galaxies, as well as the deep-field gravitational lensing (check out the ellipticals in the last flyby!) submitted by /u/Petrundiy2 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I'm most proud of the setup for barred spiral galaxies, as well as the deep-field gravitational lensing (check out the ellipticals in the last flyby!) submitted by /u/Petrundiy2 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wzzgux/ive_been_creating_a_lot_of_procedural_deep_space/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wzz4vj/how_is_the_performance_of_minimax_h3_on_a_dgx/</id><title>How is the performance of Minimax H3 on a DGX Spark</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wzz4vj/how_is_the_performance_of_minimax_h3_on_a_dgx/"/>
-<published>2026-10-07T15:13:29+00:00</published><updated>2026-10-07T15:13:29+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="minimax"/>
-<summary>Does any one use Minimax H3 on DGX spark.What are the generation times like? submitted by /u/jumpingbandit [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Does any one use Minimax H3 on DGX spark.What are the generation times like? submitted by /u/jumpingbandit [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wzz4vj/how_is_the_performance_of_minimax_h3_on_a_dgx/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1wzywvo/realtime_stflip_fluid_simulation_with_raytraced/</id><title>Realtime ST-FLIP fluid simulation with ray-traced water and glass in Vulkan</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wzywvo/realtime_stflip_fluid_simulation_with_raytraced/"/>
-<published>2026-10-07T15:05:03+00:00</published><updated>2026-10-07T15:05:03+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="fluid simulation"/>
-<summary>submitted by /u/shroo-m [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · fluid simulation&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/shroo-m [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wzywvo/realtime_stflip_fluid_simulation_with_raytraced/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wzy4oo/make_easy_transparent_videos_using_minimaxh3_in/</id><title>Make Easy Transparent Videos Using MiniMax-H3 In ComfyUI [Free Workflow]</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wzy4oo/make_easy_transparent_videos_using_minimaxh3_in/"/>
-<published>2026-10-07T14:34:31+00:00</published><updated>2026-10-07T14:34:31+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<summary>submitted by /u/solomars3 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/solomars3 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wzy4oo/make_easy_transparent_videos_using_minimaxh3_in/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
