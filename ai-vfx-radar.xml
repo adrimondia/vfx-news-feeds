@@ -2,8 +2,48 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-21T10:30:55+00:00</updated>
+<updated>2026-10-21T12:31:11+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xbjxcr/mossimage_vision_text_encode_comfyui_node_workflow/</id><title>MOSS-Image Vision Text Encode (ComfyUI node + workflow)</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xbjxcr/mossimage_vision_text_encode_comfyui_node_workflow/"/>
+<published>2026-10-21T10:52:30+00:00</published><updated>2026-10-21T10:52:30+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<category term="lora"/>
+<summary>Built a custom node for MOSS-Image that feeds reference images directly through the Qwen3.5-9B vision tower and leaves its embeddings in the text conditioning - so the image conditions generation as part of the prompt, not as a VAE latent. - Custom Node + Workflow: https://github.com/ThetaCursed/Com</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Built a custom node for MOSS-Image that feeds reference images directly through the Qwen3.5-9B vision tower and leaves its embeddings in the text conditioning - so the image conditions generation as part of the prompt, not as a VAE latent. - Custom Node + Workflow: https://github.com/ThetaCursed/ComfyUI-MOSSImageTextEncoder - LoRA used: https://huggingface.co/lodestones/MOSS-Image-SFT-8-steps-dmd/tree/main submitted by /u/ThetaCursed [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xbjxcr/mossimage_vision_text_encode_comfyui_node_workflow/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xbjies/some_simple_fibo_20_workflows_dev_edit_turbo_with/</id><title>Some simple Fibo 2.0 workflows (Dev + Edit Turbo, with and without structured prompt conversion)</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xbjies/some_simple_fibo_20_workflows_dev_edit_turbo_with/"/>
+<published>2026-10-21T10:28:44+00:00</published><updated>2026-10-21T10:28:44+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="image editing"/>
+<category term="comfyui"/>
+<category term="flux"/>
+<summary>I put together some simple ComfyUI workflows for Fibo 2.0: text2image with Dev, and image editing (single and multi-reference) with both Dev and Edit Turbo. Each one comes in two versions, with and without structured prompt conversion. https://comfyui.nomadoor.net/en/basic-workflows/fibo-2/ For the </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · image editing, comfyui, flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I put together some simple ComfyUI workflows for Fibo 2.0: text2image with Dev, and image editing (single and multi-reference) with both Dev and Edit Turbo. Each one comes in two versions, with and without structured prompt conversion. https://comfyui.nomadoor.net/en/basic-workflows/fibo-2/ For the structured prompt conversion I'm using Qwen3.5 9B. You can reuse qwen3vl_4b, the text encoder Fibo already loads, but it just wasn't capable enough. That said, the interesting part is that you don't strictly need structured prompts. Plain, simple instructions work reasonably well too, so don't worry, it won't end up like Ideogram 4.0 or FLUX 3 Image Klein 🤔 I haven't used it much yet, so I can't s&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xbjies/some_simple_fibo_20_workflows_dev_edit_turbo_with/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1xbiy9a/timepiece_animation/</id><title>Timepiece Animation</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xbiy9a/timepiece_animation/"/>
+<published>2026-10-21T09:56:38+00:00</published><updated>2026-10-21T09:56:38+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="animation"/>
+<summary>submitted by /u/Serious_Meaning5220 [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · animation&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/Serious_Meaning5220 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xbiy9a/timepiece_animation/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1xbigg8/should_i_take_a_job_in_animation_or_games_if_my/</id><title>Should I take a job in animation or games if my goal is to work in film VFX?</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xbigg8/should_i_take_a_job_in_animation_or_games_if_my/"/>
+<published>2026-10-21T09:25:21+00:00</published><updated>2026-10-21T09:25:21+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="animation"/>
+<category term="vfx"/>
+<summary>I recently graduated in majoring VFX, and I’ve noticed that most film VFX studios aren’t hiring many junior artists or fresh graduates right now. On the other hand, there seem to be more entry-level opportunities in the animation and game industries. Personally, I’m much more interested in film VFX </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 4 · animation, vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I recently graduated in majoring VFX, and I’ve noticed that most film VFX studios aren’t hiring many junior artists or fresh graduates right now. On the other hand, there seem to be more entry-level opportunities in the animation and game industries. Personally, I’m much more interested in film VFX than animation or games, but I don’t have any professional experience working in the film VFX industry yet. I’m wondering if it would be a good idea to take a junior artist position in animation or games to gain industry experience, improve my skills, and work my way up. Would it still be possible to transition into film VFX later on, even if I’ve progressed to a mid-level or senior position in an&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xbigg8/should_i_take_a_job_in_animation_or_games_if_my/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xbfjik/thoughts_on_fibo_20_image_editing/</id><title>Thoughts on Fibo 2.0 Image Editing</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xbfjik/thoughts_on_fibo_20_image_editing/"/>
@@ -6823,41 +6863,5 @@
 <category term="flux"/>
 <summary>TITLE - has this released yet submitted by /u/pornaccount0123987 [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;TITLE - has this released yet submitted by /u/pornaccount0123987 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wzva64/flux_3_open_weights_image_edit_when/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wzuwyd/hunyuanimage_30_face_swap_test/</id><title>HunyuanImage 3.0 face swap test</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wzuwyd/hunyuanimage_30_face_swap_test/"/>
-<published>2026-10-07T12:13:14+00:00</published><updated>2026-10-07T12:13:14+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="face swap"/>
-<summary>hunyuan_image_3_instruct_distil_edit workflow, int8_convrot 80Gb checkpoint, RTX 4060Ti 16Gb, 100Gb of system RAM used, Spectrum enabled, 14s/it submitted by /u/CutLongjumping8 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · face swap&lt;/small&gt;&lt;/p&gt;&lt;p&gt;hunyuan_image_3_instruct_distil_edit workflow, int8_convrot 80Gb checkpoint, RTX 4060Ti 16Gb, 100Gb of system RAM used, Spectrum enabled, 14s/it submitted by /u/CutLongjumping8 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wzuwyd/hunyuanimage_30_face_swap_test/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wzuujg/quality_degradation_using_continue_last_video_in/</id><title>Quality degradation using “Continue Last Video” in WanGP, MiniMax H3</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wzuujg/quality_degradation_using_continue_last_video_in/"/>
-<published>2026-10-07T12:09:53+00:00</published><updated>2026-10-07T12:09:53+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="minimax"/>
-<summary>I’ve been using WanGP to create videos in MiniMaxH3 and I’ve noticed when I use the “continue last video” function, the quality degrades with each successive clip I generate - usually by the 5th or 6th 10-second segment it is blurry, full of odd artifacts and colors are generally muted or blending t</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I’ve been using WanGP to create videos in MiniMaxH3 and I’ve noticed when I use the “continue last video” function, the quality degrades with each successive clip I generate - usually by the 5th or 6th 10-second segment it is blurry, full of odd artifacts and colors are generally muted or blending together compared to the initial segment. I’m not sure if it is an issue of prompting, a setting I need to change, or any other tips or tricks I might be missing? Usually using Ref2VA 33B, 15-18 steps, 8-10 second clips, Sage2 Attention on my 5070ti with 16GB VRAM and 32gb RAM. Seems to happen if creating either 480p or 720p resolutions. Any suggestions or resources that might help so I can create &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wzuujg/quality_degradation_using_continue_last_video_in/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1wzu8s4/so_there_are_still_people_interested_in_vfx/</id><title>So, there are still people interested in VFX education in 2026. München.</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wzu8s4/so_there_are_still_people_interested_in_vfx/"/>
-<published>2026-10-07T11:38:58+00:00</published><updated>2026-10-07T11:38:58+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="vfx"/>
-<summary>I was planning to study at SAE Munich, but now I’m considering doing the PIXL VISN online program instead!!! Maybe it would be better to invest in my own equipment and study remotely online? submitted by /u/WinniVi [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I was planning to study at SAE Munich, but now I’m considering doing the PIXL VISN online program instead!!! Maybe it would be better to invest in my own equipment and study remotely online? submitted by /u/WinniVi [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wzu8s4/so_there_are_still_people_interested_in_vfx/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1wztmku/render_or_real/</id><title>Render or real</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1wztmku/render_or_real/"/>
-<published>2026-10-07T11:04:20+00:00</published><updated>2026-10-07T11:04:20+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="render"/>
-<summary>Is this a render made to look real, or is this real footage of a real place! You might just be correct, type in your response. submitted by /u/Last_Cricket_5980 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · render&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Is this a render made to look real, or is this real footage of a real place! You might just be correct, type in your response. submitted by /u/Last_Cricket_5980 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wztmku/render_or_real/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
