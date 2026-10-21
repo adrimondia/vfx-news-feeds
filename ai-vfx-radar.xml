@@ -2,8 +2,17 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-21T12:31:11+00:00</updated>
+<updated>2026-10-21T14:30:48+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xblkin/i_trained_a_fibo_20_lora_a_day_after_release_and/</id><title>I trained a Fibo 2.0 LoRA a day after release and put my plush dragon into famous pictures</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xblkin/i_trained_a_fibo_20_lora_a_day_after_release_and/"/>
+<published>2026-10-21T12:17:23+00:00</published><updated>2026-10-21T12:17:23+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="lora"/>
+<summary>Bria released Fibo 2.0 yesterday and I wanted to see how it does with a character LoRA and create something that I can actually post (all my other datasets are not royalty-free). The dragon is a plush mascot I use for my LoRA portfolio. 15 training images. What I used: Bria's train_lora.py from the </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Bria released Fibo 2.0 yesterday and I wanted to see how it does with a character LoRA and create something that I can actually post (all my other datasets are not royalty-free). The dragon is a plush mascot I use for my LoRA portfolio. 15 training images. What I used: Bria's train_lora.py from the Fibo-2.0-dev repo 1024px, rank 64, alpha 64, lr 1e-4 constant, AdamW, batch 1, grad accum 2 400 steps, the likeness was already there at 200, and 300 was the best (this might hugely differ for human characters but I did not want to do a synthesized human) Rented an A100 40GB on Vast. It peaked at about 23 GB VRAM, ran at 6.2 s/step, and training took about 42 min. Each edit took about 80-90 second&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xblkin/i_trained_a_fibo_20_lora_a_day_after_release_and/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xbjxcr/mossimage_vision_text_encode_comfyui_node_workflow/</id><title>MOSS-Image Vision Text Encode (ComfyUI node + workflow)</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xbjxcr/mossimage_vision_text_encode_comfyui_node_workflow/"/>
@@ -43,6 +52,16 @@
 <category term="vfx"/>
 <summary>I recently graduated in majoring VFX, and I’ve noticed that most film VFX studios aren’t hiring many junior artists or fresh graduates right now. On the other hand, there seem to be more entry-level opportunities in the animation and game industries. Personally, I’m much more interested in film VFX </summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 4 · animation, vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I recently graduated in majoring VFX, and I’ve noticed that most film VFX studios aren’t hiring many junior artists or fresh graduates right now. On the other hand, there seem to be more entry-level opportunities in the animation and game industries. Personally, I’m much more interested in film VFX than animation or games, but I don’t have any professional experience working in the film VFX industry yet. I’m wondering if it would be a good idea to take a junior artist position in animation or games to gain industry experience, improve my skills, and work my way up. Would it still be possible to transition into film VFX later on, even if I’ve progressed to a mid-level or senior position in an&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xbigg8/should_i_take_a_job_in_animation_or_games_if_my/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xbi156/resource_we_unlocked_sasolver_in_comfyui_why/</id><title>[Resource] We unlocked SA-Solver in ComfyUI: why stochastic strength eta=1.7 beats Euler at 10 steps (and what didn't work)</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xbi156/resource_we_unlocked_sasolver_in_comfyui_why/"/>
+<published>2026-10-21T08:59:09+00:00</published><updated>2026-10-21T08:59:09+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<category term="flux"/>
+<summary>Hey everyone, If you generate images on modern diffusion and flow-matching models (Flux, SD3, Anima) at low step counts (8–14 steps), you're probably stuck between two bad options: Euler: Good macro anatomy, but surfaces look waxy and plastic. Ancestral samplers ( euler_a , etc.): Better texture, bu</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey everyone, If you generate images on modern diffusion and flow-matching models (Flux, SD3, Anima) at low step counts (8–14 steps), you're probably stuck between two bad options: Euler: Good macro anatomy, but surfaces look waxy and plastic. Ancestral samplers ( euler_a , etc.): Better texture, but anatomy drifts and degrades. ComfyUI actually has a brilliant solver under the hood called sa_solver (Xue et al., NeurIPS 2023). It runs an Adams predictor-corrector on the drift while keeping diffusion separate, costing exactly 1 NFE per step . But there was a catch: ComfyUI hardcoded its stochastic strength ( eta ) to 1.0 inside a fixed 20%–80% window , with no settings to adjust it. Together &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xbi156/resource_we_unlocked_sasolver_in_comfyui_why/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xbfjik/thoughts_on_fibo_20_image_editing/</id><title>Thoughts on Fibo 2.0 Image Editing</title>
@@ -6786,82 +6805,5 @@
 <category term="comfyui"/>
 <summary>submitted by /u/solomars3 [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/solomars3 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wzy4oo/make_easy_transparent_videos_using_minimaxh3_in/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wzy108/make_easy_transparent_videos_using_minimaxh3_in/</id><title>Make Easy Transparent Videos Using MiniMax-H3 In ComfyUI [Free Workflow]</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wzy108/make_easy_transparent_videos_using_minimaxh3_in/"/>
-<published>2026-10-07T14:30:21+00:00</published><updated>2026-10-07T14:30:21+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<summary>submitted by /u/solomars3 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/solomars3 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wzy108/make_easy_transparent_videos_using_minimaxh3_in/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wzy0w2/comfyui_tutorial_character_swap_with_minimax_h3/</id><title>ComfyUI Tutorial : Character Swap with MiniMax H3 using LORA LOWVRAM Workflow (6GB)</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wzy0w2/comfyui_tutorial_character_swap_with_minimax_h3/"/>
-<published>2026-10-07T14:30:13+00:00</published><updated>2026-10-07T14:30:13+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="upscaling"/>
-<category term="comfyui"/>
-<category term="flux"/>
-<category term="minimax"/>
-<category term="lora"/>
-<summary>Hello everyone, I new ComfyUI workflow for video character swapping using MiniMax H3 + Character Swap LoRA , and the main advantage is that it works without masking , which can significantly reduce VRAM usage and simplify the process. The workflow generates at 0.4 MP in just 8 steps , supports both </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 8 · upscaling, comfyui, flux, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hello everyone, I new ComfyUI workflow for video character swapping using MiniMax H3 + Character Swap LoRA , and the main advantage is that it works without masking , which can significantly reduce VRAM usage and simplify the process. The workflow generates at 0.4 MP in just 8 steps , supports both portrait and widescreen videos , and can then upscale the result to 1.2 MP using the MiniMax H3 latent upscale model . I tested it on an RTX 3060 6GB with 16GB RAM , so it’s designed with low-VRAM users in mind. To create the character, you first prepare/update a character sheet using workflows such as Qwen Image 2.1, FLUX Krea, or MiniMax H3, load the character sheet into the workflow, and simply&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wzy0w2/comfyui_tutorial_character_swap_with_minimax_h3/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wzxfbq/best_settings_prompts_or_loras_for_more/</id><title>Best settings, prompts or LoRAs for more photorealistic people in Qwen Image 2.1?</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wzxfbq/best_settings_prompts_or_loras_for_more/"/>
-<published>2026-10-07T14:05:24+00:00</published><updated>2026-10-07T14:05:24+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="video generation"/>
-<category term="lora"/>
-<summary>Been playing around with Qwen Image 2.1 and generated these random people just to test the realism. I’m trying to make a single full-body character reference image that I can reuse for image/video generation, and ideally I want it to look as close to an actual photo as possible. The results are okay</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · video generation, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Been playing around with Qwen Image 2.1 and generated these random people just to test the realism. I’m trying to make a single full-body character reference image that I can reuse for image/video generation, and ideally I want it to look as close to an actual photo as possible. The results are okay to my eyes, but wondering if anyone have a better setup. Any prompts, settings, LoRAs/LoKRs, or workflows you’d recommend? I didn't use any lora to generate these images. submitted by /u/aiyakisoba [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wzxfbq/best_settings_prompts_or_loras_for_more/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wzx73p/fluxkleinallinone_workflow/</id><title>FluxKleinAllInOne Workflow</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wzx73p/fluxkleinallinone_workflow/"/>
-<published>2026-10-07T13:56:06+00:00</published><updated>2026-10-07T13:56:06+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="outpainting"/>
-<category term="comfyui"/>
-<summary>This is the Workflow I use daily and for most purposes. It handles most tasks that occur on my daily basis. Maybe it can be helpful to some of you. Its key feature are image generation, manipulation via references, in- and outpainting in a compact workflow with helpful options. Link to Workflow on P</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · outpainting, comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;This is the Workflow I use daily and for most purposes. It handles most tasks that occur on my daily basis. Maybe it can be helpful to some of you. Its key feature are image generation, manipulation via references, in- and outpainting in a compact workflow with helpful options. Link to Workflow on Pastebin: FluxKleinAllInOne Overview: Model Loading Section: Load FluxKlein Model, Text Encoder, VAE Image Loading Section: Load three Reference Images. You can rescale them, at standard setting the Aspect Ratio of the Input is maintained. Main Menu Section: You can select between four Modes: Reference Mode: Modify Images with up to three Reference Images. Inpaint Mode: Select Parts of the Image to&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wzx73p/fluxkleinallinone_workflow/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wzwkwg/looking_for_the_best_affordable_ai/</id><title>Looking for the best affordable AI video-generation models with fewer restrictions.</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wzwkwg/looking_for_the_best_affordable_ai/"/>
-<published>2026-10-07T13:29:52+00:00</published><updated>2026-10-07T13:29:52+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="text-to-video"/>
-<category term="image-to-video"/>
-<category term="wan"/>
-<category term="kling"/>
-<category term="hailuo"/>
-<category term="ltx"/>
-<category term="consistency"/>
-<category term="character consistency"/>
-<summary>Hi everyone, I’m exploring AI filmmaking and looking for good AI video-generation models that are either free, open-source/open-weight, or affordable. I’m particularly interested in models who allow uncensored content or fewer unnecessary content restrictions and more control over the generation pro</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 10 · text-to-video, image-to-video, wan, kling, hailuo, ltx, consistency, character consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi everyone, I’m exploring AI filmmaking and looking for good AI video-generation models that are either free, open-source/open-weight, or affordable. I’m particularly interested in models who allow uncensored content or fewer unnecessary content restrictions and more control over the generation process. What I’m looking for: Realistic/cinematic text-to-video Image-to-video Good character consistency Realistic human movement High-quality video output Ideally open-source/open-weight Local/self-hosted options are a plus Affordable cloud options are also fine Preferably no expensive subscription required So far I’ve come across models/tools such as Wan, LTX, Kling, Hailuo and Pika, but I’d like&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wzwkwg/looking_for_the_best_affordable_ai/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wzvo8c/i_kept_losing_track_of_how_my_comfyui_images_were/</id><title>I kept losing track of how my ComfyUI images were generated, so I built GenTrace — a local generation history logger</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wzvo8c/i_kept_losing_track_of_how_my_comfyui_images_were/"/>
-<published>2026-10-07T12:49:55+00:00</published><updated>2026-10-07T12:49:55+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="lora"/>
-<summary>I use ComfyUI through Stability Matrix a lot, and I kept running into the same problem: I could find an old image, but I couldn’t easily remember when I generated it, how long it took, what model/LoRA I used, or what my GPU was doing at the time. So I built GenTrace for my own workflow and decided t</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I use ComfyUI through Stability Matrix a lot, and I kept running into the same problem: I could find an old image, but I couldn’t easily remember when I generated it, how long it took, what model/LoRA I used, or what my GPU was doing at the time. So I built GenTrace for my own workflow and decided to open-source it. It runs alongside Stability Matrix / ComfyUI on Windows and records generation history without modifying the existing ComfyUI environment or requiring custom nodes. It currently tracks: Model / LoRA Seed Sampler / Scheduler Steps / CFG Resolution Generation time GPU usage samples Success / failure / interrupted jobs Everything is stored locally in SQLite. You can also import exis&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wzvo8c/i_kept_losing_track_of_how_my_comfyui_images_were/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wzva64/flux_3_open_weights_image_edit_when/</id><title>Flux 3 open weights image edit when</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wzva64/flux_3_open_weights_image_edit_when/"/>
-<published>2026-10-07T12:31:29+00:00</published><updated>2026-10-07T12:31:29+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="flux"/>
-<summary>TITLE - has this released yet submitted by /u/pornaccount0123987 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;TITLE - has this released yet submitted by /u/pornaccount0123987 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wzva64/flux_3_open_weights_image_edit_when/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
