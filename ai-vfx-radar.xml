@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-21T08:30:20+00:00</updated>
+<updated>2026-10-21T10:30:55+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xbfjik/thoughts_on_fibo_20_image_editing/</id><title>Thoughts on Fibo 2.0 Image Editing</title>
@@ -6859,48 +6859,5 @@
 <category term="render"/>
 <summary>Is this a render made to look real, or is this real footage of a real place! You might just be correct, type in your response. submitted by /u/Last_Cricket_5980 [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · render&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Is this a render made to look real, or is this real footage of a real place! You might just be correct, type in your response. submitted by /u/Last_Cricket_5980 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1wztmku/render_or_real/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wzsucm/naruto_shippuden_heros_come_back_ai_fanmade_mv/</id><title>Naruto Shippuden – Hero’s Come Back!! | AI Fanmade MV | MiniMax H3</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wzsucm/naruto_shippuden_heros_come_back_ai_fanmade_mv/"/>
-<published>2026-10-07T10:16:39+00:00</published><updated>2026-10-07T10:16:39+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="minimax"/>
-<category term="lora"/>
-<summary>This is my Output using Minimax H3, 8 step larry 600 ema pruned lora, 2 step sampler upscale. submitted by /u/Automatic_Lynx_7777 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;This is my Output using Minimax H3, 8 step larry 600 ema pruned lora, 2 step sampler upscale. submitted by /u/Automatic_Lynx_7777 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wzsucm/naruto_shippuden_heros_come_back_ai_fanmade_mv/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wzsn21/veda_sparse_attention_is_now_available_for/</id><title>VEDA Sparse Attention is now available for MiniMax H3 in ComfyUI</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wzsn21/veda_sparse_attention_is_now_available_for/"/>
-<published>2026-10-07T10:04:06+00:00</published><updated>2026-10-07T10:04:06+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="minimax"/>
-<summary>submitted by /u/robomar_ai_art [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/robomar_ai_art [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wzsn21/veda_sparse_attention_is_now_available_for/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1wzskwy/veda_sparse_attention_is_now_available_for/</id><title>VEDA Sparse Attention is now available for MiniMax H3 in ComfyUI</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1wzskwy/veda_sparse_attention_is_now_available_for/"/>
-<published>2026-10-07T10:00:38+00:00</published><updated>2026-10-07T10:00:38+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<category term="minimax"/>
-<category term="lora"/>
-<summary>I don't think many people know about this yet, so I wanted to share it. VEDA Sparse Attention is now available as a ComfyUI custom node for MiniMax H3. I tested it today on my setup: RTX 4090 Laptop 16GB 32GB RAM, 4-step LoRA, 15 second video, 1344x768 Without VEDA: 8:05 With VEDA at 90% sparsity: 4</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 5 · comfyui, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I don't think many people know about this yet, so I wanted to share it. VEDA Sparse Attention is now available as a ComfyUI custom node for MiniMax H3. I tested it today on my setup: RTX 4090 Laptop 16GB 32GB RAM, 4-step LoRA, 15 second video, 1344x768 Without VEDA: 8:05 With VEDA at 90% sparsity: 4:32 Same workflow, same LoRA, same settings. The only change was enabling VEDA. I couldn't see any quality loss in the result. VEDA is not a LoRA. It uses a learned predictor to estimate which attention tiles are important and only computes the relevant subset instead of the full attention map. The current predictor works with T2VA, FL2VA and R2VA, and despite the 8NFE name it is not limited to 8 &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1wzskwy/veda_sparse_attention_is_now_available_for/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1wzsdjr/i_made_comfyui_nodes_for_projection_mapping_3d/</id><title>I made ComfyUI nodes for projection mapping, 3D and motion design (my first node pack, please be gentle)</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1wzsdjr/i_made_comfyui_nodes_for_projection_mapping_3d/"/>
-<published>2026-10-07T09:47:32+00:00</published><updated>2026-10-07T09:47:32+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="render"/>
-<category term="comfyui"/>
-<category term="houdini"/>
-<category term="ltx"/>
-<summary>I do projection mapping, and I got tired of bouncing between Comfy, After Effects and Houdini every time a facade needed a new look. So I did the reasonable thing and spent way too many evenings building it all inside ComfyUI instead. It started as a facade thing: split a building into windows, door</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 5 · render, comfyui, houdini, ltx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I do projection mapping, and I got tired of bouncing between Comfy, After Effects and Houdini every time a facade needed a new look. So I did the reasonable thing and spent way too many evenings building it all inside ComfyUI instead. It started as a facade thing: split a building into windows, doors and cornices, give each part its own prompt, and it diffuses them one by one while the rest stays pixel exact. Then it kind of grew. For 3D people: drop in a .blend, .fbx or .glb (or a cryptomatte / ID pass from Houdini or whatever you render with) and every object becomes its own region you can prompt separately. You can also push, tilt and spin pieces of the model with waves and beats, a bit l&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1wzsdjr/i_made_comfyui_nodes_for_projection_mapping_3d/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
