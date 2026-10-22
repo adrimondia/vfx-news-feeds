@@ -2,8 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-22T06:30:25+00:00</updated>
+<updated>2026-10-22T08:00:35+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xcc6kc/face_swap_in_flux3_image_klein/</id><title>Face swap in FLUX.3 Image Klein?</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xcc6kc/face_swap_in_flux3_image_klein/"/>
+<published>2026-10-22T07:39:03+00:00</published><updated>2026-10-22T07:39:03+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="face swap"/>
+<category term="flux"/>
+<summary>submitted by /u/xuman1 [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · face swap, flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/xuman1 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xcc6kc/face_swap_in_flux3_image_klein/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xcb5w3/with_wsl2s_wslc_capability_its_easier_to_run/</id><title>With wsl2's wslc capability, it's easier to run comfyui in windows now</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xcb5w3/with_wsl2s_wslc_capability_its_easier_to_run/"/>
+<published>2026-10-22T06:34:56+00:00</published><updated>2026-10-22T06:34:56+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<summary>You can install Microsoft's wsl2 with wsl --install in an admin powershell, restart, then just run something like: wslc run -p 8188:8188 -it --gpus all -v "input:/app/input" -v "user:/app/user/" -v "./workflows:/app/user/default/workflows" -v "./custom_nodes:/app/custom_nodes" -v "./models:/app/mode</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;You can install Microsoft's wsl2 with wsl --install in an admin powershell, restart, then just run something like: wslc run -p 8188:8188 -it --gpus all -v "input:/app/input" -v "user:/app/user/" -v "./workflows:/app/user/default/workflows" -v "./custom_nodes:/app/custom_nodes" -v "./models:/app/models" -v "./output:/app/output" yanwk/comfyui-boot:cu130-slim No need for docker, python, nor anything else. You will have to manually open http://localhost:8188 instead of clicking the link in the terminal, which will show 0.0.0.0:8188 . And it'll basically get everything you need and set up folders for you to put your models and such in. Just run that from the same folder every time or put it in a&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xcb5w3/with_wsl2s_wslc_capability_its_easier_to_run/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://github.com/Emily2040/seedance-2.0</id><title>Emily2040/seedance-2.0</title>
 <link rel="alternate" href="https://github.com/Emily2040/seedance-2.0"/>
@@ -15,6 +34,19 @@
 <category term="cinematic"/>
 <summary>Comprehensive production pipeline for quad-modal AI filmmaking with Seedance 2.0 Turn an idea into a directed video prompt. Seedance 2.0 Skill OS is an agent skill for planning shots, binding references and continuing from an accepted clip. Your video provider handles generation and its costs. Watch</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;GitHub trending (Python) · score 4 · seedance, storyboard, filmmaking, cinematic&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Comprehensive production pipeline for quad-modal AI filmmaking with Seedance 2.0 Turn an idea into a directed video prompt. Seedance 2.0 Skill OS is an agent skill for planning shots, binding references and continuing from an accepted clip. Your video provider handles generation and its costs. Watch the clips · Try a first prompt · Install · Choose a workflow · Evidence status v6.7.0 · MIT · Changelog · Emily / Iamemily2050 Languages: English (this page) · 中文 · 日本語 · 한국어 · Español · Русский Five-minute quickstarts: English · 中文 · 日本語 · 한국어 · Español · Русский Seen, not told Seven scenes, seven prompts, five languages. Each is a complete fifteen-second story: the situation legible by shot two&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.com/Emily2040/seedance-2.0"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xca8za/just_trying_to_learn_how_to_make_a_proper_vid_gen/</id><title>Just trying to learn how to make a proper vid gen flow</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xca8za/just_trying_to_learn_how_to_make_a_proper_vid_gen/"/>
+<published>2026-10-22T05:41:18+00:00</published><updated>2026-10-22T05:41:18+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="frame interpolation"/>
+<category term="render"/>
+<category term="comfyui"/>
+<category term="wan2"/>
+<category term="lora"/>
+<summary>This is just one flow I started making here is the link (not promo, seriously want help) https://www.youtube.com/watch?v=fNoObriGL2w I got up to this point then I started looking into how to make realistic videos, but the cutscenes and the hands and everything become very fake and make 3 arms etc. C</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 5 · frame interpolation, render, comfyui, wan2, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;This is just one flow I started making here is the link (not promo, seriously want help) https://www.youtube.com/watch?v=fNoObriGL2w I got up to this point then I started looking into how to make realistic videos, but the cutscenes and the hands and everything become very fake and make 3 arms etc. Can I ask which tools / models , are they opensource? etc? at the moment I use Yue2 locally and comfyui here is the current flow Flow step ComfyUI? What runs inside ComfyUI 1. Song ❌ audio.cpp (YuE2, separation, speech recognition, aligner) 3. Director: cast portraits ✅ Z-Image Turbo text-to-image (1920×1088) 3. Director: keyframes ✅ Pass 1: Qwen-Image-Edit 2511 + Lightning LoRA, one image with one&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xca8za/just_trying_to_learn_how_to_make_a_proper_vid_gen/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/vfx/comments/1xc8gg2/how_did_i_mange_to_download_a_1gb_image_render/</id><title>How did i mange to download a 1-GB image render mars diffuse map on a mobile device? 😧</title>
@@ -151,6 +183,26 @@
 <content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.GR · score 4 · character animation, animation&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2610.30033v1 Announce Type: new Abstract: Body deformation caused by muscle contraction plays a vital role in the visual realism of character animation, yet in most 3D animation pipelines artists have to manually specify muscle activations, which is time-consuming and gives no guarantee of physical realism. To address this, we propose a new method in which a reinforcement learning (RL) controller discovers per-muscle activations that track reference motions without manual tuning. Existing RL muscle controllers stop at 1D muscles; we go one step further, keeping the 1D model inside the RL control loop as a fast surrogate, and using a 3D volumetric simulation to produce the final deforma&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2610.30033"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xc7os5/looking_for_workflows_for_character_expressions/</id><title>Looking for workflows for character expressions and manga effects</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xc7os5/looking_for_workflows_for_character_expressions/"/>
+<published>2026-10-22T03:21:11+00:00</published><updated>2026-10-22T03:21:11+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<category term="controlnet"/>
+<category term="lora"/>
+<summary>Hi all. I'm working on an AI anime studio, and we have been using PixAI Studio and Tsubaki 3 for part of our pipeline. It's worked well for us so far, mostly for expression sheets. Like keeping the same character in different emotions, both stills and short animated clips We've tried setting up simi</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · comfyui, controlnet, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi all. I'm working on an AI anime studio, and we have been using PixAI Studio and Tsubaki 3 for part of our pipeline. It's worked well for us so far, mostly for expression sheets. Like keeping the same character in different emotions, both stills and short animated clips We've tried setting up similar things in ComfyUI too (character LoRA &amp;amp; IPAdapter &amp;amp; ControlNet etc.), but keeping the character consistent across outputs took a lot of work. Also for production we generally prefer pre built workflows Curious how everyone else is handling this. Anyone have a workflow that works well for expressions or manga style conversion? submitted by /u/linDleveL [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xc7os5/looking_for_workflows_for_character_expressions/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xc74zc/longshot_studio_0150_lip_sync_music_video_falling/</id><title>Longshot Studio 0.15.0 - Lip Sync Music Video "Falling Fast"</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xc74zc/longshot_studio_0150_lip_sync_music_video_falling/"/>
+<published>2026-10-22T02:53:30+00:00</published><updated>2026-10-22T02:53:30+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="lip sync"/>
+<summary>sorry, posted wrong version of api submitted by /u/R34vspec [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · lip sync&lt;/small&gt;&lt;/p&gt;&lt;p&gt;sorry, posted wrong version of api submitted by /u/R34vspec [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xc74zc/longshot_studio_0150_lip_sync_music_video_falling/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xc72k3/8_and_4step_minimaxh3_ptd_ref2va_acceleration/</id><title>8 and 4-step MiniMax-H3 PTD Ref2VA Acceleration LoRAs</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xc72k3/8_and_4step_minimaxh3_ptd_ref2va_acceleration/"/>
 <published>2026-10-22T02:50:04+00:00</published><updated>2026-10-22T02:50:04+00:00</updated>
@@ -180,6 +232,26 @@
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Download UDA here UDA is a lora for creating anime and digital paintings with moss image. I've found the base model is quite good at most things but I've seen many weird artifacts and errors especially with digital artwork. This lora definitely helps with that and can produce quite nice outputs but be careful not to accidentally slopify your images. For other fine tuners, I trained on about 250 images, 10,000 steps and the training dataset used the structured json bbox prompt type (but plain natural language prompts seems to work quite well). I trained off of the combined and converted datasets from my anime/digital painting, studio ghibli, and vintage anime ideogram loras. Let me know what &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xc5p3v/moss_image_lora_ultimate_digital_artwork/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xc3bau/turbo_edits_showdown_fibo_2_edit_vs_klein_9b_vs/</id><title>Turbo edits showdown: FIbo 2 edit vs Klein 9b vs Qwen 2.1 at 1 megapixel. (Caveats and links to the viewer in description)</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xc3bau/turbo_edits_showdown_fibo_2_edit_vs_klein_9b_vs/"/>
+<published>2026-10-21T23:51:05+00:00</published><updated>2026-10-21T23:51:05+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="lora"/>
+<category term="consistency"/>
+<summary>I was curious how Fibo fares against the rest of the solid editors and if it is time to swap. Comparing edits is a pain on reddit so I've put together a small website: Image Edit Showdon comarison page Hotkeys: [←][→] to cycle model / prompt combo [↑][↓] for next / previous scene [space] to see orig</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · lora, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I was curious how Fibo fares against the rest of the solid editors and if it is time to swap. Comparing edits is a pain on reddit so I've put together a small website: Image Edit Showdon comarison page Hotkeys: [←][→] to cycle model / prompt combo [↑][↓] for next / previous scene [space] to see original image TLDR: for my cases Qwen 2.1 still is the best, but FIbo might be a great option if the community supports it. There are lots of caveats here. 1. All three models are very prompt sensitive. Although I've run bare prompts as is and tried using "best" prompt enhancers for each model, the initial prompts are all over the place: some are super detailed, some are simple and a lot depends on e&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xc3bau/turbo_edits_showdown_fibo_2_edit_vs_klein_9b_vs/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xc2dxn/comparing_both_moss_image_edit_methods/</id><title>Comparing both Moss Image Edit methods</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xc2dxn/comparing_both_moss_image_edit_methods/"/>
+<published>2026-10-21T23:08:40+00:00</published><updated>2026-10-21T23:08:40+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="render"/>
+<category term="lora"/>
+<summary>I saw this post yesterday about being able to feed reference images in directly: https://www.reddit.com/r/StableDiffusion/comments/1xb2h1k/mossimage_accepts_image_inputs/ and it does alright but as you can see, without a lora it often mashes the inputs together or doesnt really edit properly. I trai</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · render, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I saw this post yesterday about being able to feed reference images in directly: https://www.reddit.com/r/StableDiffusion/comments/1xb2h1k/mossimage_accepts_image_inputs/ and it does alright but as you can see, without a lora it often mashes the inputs together or doesnt really edit properly. I trained a lora for it with AI toolkit for 6,000 steps and it made a big difference although there was still plenty of room for improvement if I kept training. I found that Ostris's AI toolkit also had his own Moss edit system that feeds the inputs in even more thuroughly to try to get better reference quality out of it. Without a lora it gives you essentially an overlaid version of the images but with&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xc2dxn/comparing_both_moss_image_edit_methods/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
 <id>https://www.reddit.com/r/vfx/comments/1xc1zwi/how_to_network_at_this_vfx_event/</id><title>How to network at this vfx event?</title>
 <link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xc1zwi/how_to_network_at_this_vfx_event/"/>
 <published>2026-10-21T22:51:03+00:00</published><updated>2026-10-21T22:51:03+00:00</updated>
@@ -191,6 +263,30 @@
 <category term="maya"/>
 <summary>So a little background, I finished filmschool about 1.5 years ago, and along the way I discovered After Effects and later I learned more specialised software like Blender, Maya, Houdini and Fusion. Currently I study 3D animation, and I am leaning a bit more towards animation instead of vfx. Still I </summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 6 · animation, vfx, houdini, blender, maya&lt;/small&gt;&lt;/p&gt;&lt;p&gt;So a little background, I finished filmschool about 1.5 years ago, and along the way I discovered After Effects and later I learned more specialised software like Blender, Maya, Houdini and Fusion. Currently I study 3D animation, and I am leaning a bit more towards animation instead of vfx. Still I love vfx tho. So tomorrow there is this vfx gathering and artists who worked on “the lost bus” will give a presentation about their approach to the vfx of the movie. Afterwards we’ll grab drinks and talk. This is my first time going to an event like this, so what do I do? I want to meet people and throw myself out there, but idk how to make lasting connections. I cant just ask for their number or &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xc1zwi/how_to_network_at_this_vfx_event/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xc1ivt/360_orbit_workflow_for_best_face_consistency/</id><title>360 orbit workflow for best face consistency images</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xc1ivt/360_orbit_workflow_for_best_face_consistency/"/>
+<published>2026-10-21T22:30:16+00:00</published><updated>2026-10-21T22:30:16+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="minimax"/>
+<category term="consistency"/>
+<summary>I dont know who needs to hear this, and many of you already know for sure... but the 360 orbitting minimax workflow is the definitive method i found for face consistency in different angles. In my case, im replicating a famouse face, so even slightly different image generations at different angles w</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · minimax, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I dont know who needs to hear this, and many of you already know for sure... but the 360 orbitting minimax workflow is the definitive method i found for face consistency in different angles. In my case, im replicating a famouse face, so even slightly different image generations at different angles would be noticable. Tried a lot of stuff... image editting with qwen, first putting a blank oval in the original face (bc qwen usually gets influenced by the previous face, even if you explicitly say to ignore it), GPT editting, sharing a lot of closeups, etc, etc... even when using the exact famous person refference, many times this photoshoots are a bit edited, and maybe from a profile view it do&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xc1ivt/360_orbit_workflow_for_best_face_consistency/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xbzx5n/h3_minimax_background_replace_4k_600_frames_plus/</id><title>H3 Minimax Background Replace 4k 600 frames Plus</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xbzx5n/h3_minimax_background_replace_4k_600_frames_plus/"/>
+<published>2026-10-21T21:24:35+00:00</published><updated>2026-10-21T21:24:35+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="upscaler"/>
+<category term="vfx"/>
+<category term="denoising"/>
+<category term="comfyui"/>
+<category term="minimax"/>
+<category term="lora"/>
+<summary>https://github.com/NyckM/Bruxosdovfx-SyncTile-MiniMax-H3-v5.4/tree/main Workflow https://github.com/NyckM/Bruxosdovfx-SyncTile-MiniMax-H3-v5.4/blob/main/workflow/minimaxH3BackgroundSwap_v18_LatentF.json The idea in one sentence A large or long video is split into overlapping regions (spatial tiles ×</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 7 · upscaler, vfx, denoising, comfyui, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;https://github.com/NyckM/Bruxosdovfx-SyncTile-MiniMax-H3-v5.4/tree/main Workflow https://github.com/NyckM/Bruxosdovfx-SyncTile-MiniMax-H3-v5.4/blob/main/workflow/minimaxH3BackgroundSwap_v18_LatentF.json The idea in one sentence A large or long video is split into overlapping regions (spatial tiles × temporal windows). At every model call all regions are predicted and blended into one canvas , so there is a single denoising trajectory : no tile seams, no chained clips, and VRAM is one region's. Install Easy way (Windows): put bruxosdovfx_EasyInstall_MiniMaxH3.bat in the ComfyUI folder (or the ComfyUI-Easy-Install folder) and double-click it. It finds the folders, installs the custom nodes (Sy&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xbzx5n/h3_minimax_background_replace_4k_600_frames_plus/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xbzw1o/minimax_h3_replace_background_workflow_4k/</id><title>Minimax h3 Replace Background Workflow 4k 600frames+</title>
@@ -205,6 +301,15 @@
 <category term="lora"/>
 <summary>https://github.com/NyckM/Bruxosdovfx-SyncTile-MiniMax-H3-v5.4/tree/main Workflow https://github.com/NyckM/Bruxosdovfx-SyncTile-MiniMax-H3-v5.4/blob/main/workflow/minimaxH3BackgroundSwap_v18_LatentF.json The idea in one sentence A large or long video is split into overlapping regions (spatial tiles ×</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 7 · upscaler, vfx, denoising, comfyui, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;https://github.com/NyckM/Bruxosdovfx-SyncTile-MiniMax-H3-v5.4/tree/main Workflow https://github.com/NyckM/Bruxosdovfx-SyncTile-MiniMax-H3-v5.4/blob/main/workflow/minimaxH3BackgroundSwap_v18_LatentF.json The idea in one sentence A large or long video is split into overlapping regions (spatial tiles × temporal windows). At every model call all regions are predicted and blended into one canvas , so there is a single denoising trajectory : no tile seams, no chained clips, and VRAM is one region's. Install Easy way (Windows): put bruxosdovfx_EasyInstall_MiniMaxH3.bat in the ComfyUI folder (or the ComfyUI-Easy-Install folder) and double-click it. It finds the folders, installs the custom nodes (Sy&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xbzw1o/minimax_h3_replace_background_workflow_4k/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xbyw1j/how_do_you_image_edit_or_image_generate_wit/</id><title>How do you image edit or image generate wit MINIMAX H3?</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xbyw1j/how_do_you_image_edit_or_image_generate_wit/"/>
+<published>2026-10-21T20:45:06+00:00</published><updated>2026-10-21T20:45:06+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="minimax"/>
+<summary>I see people here raving about it being a really good edit model. HOW? I tried some things, always got bad, low quality results or deformed anatomy. I would highly appreciate if anyone could share their H3 image edit workflow, and an H3 image generation one if you have it. Thanks. submitted by /u/fl</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I see people here raving about it being a really good edit model. HOW? I tried some things, always got bad, low quality results or deformed anatomy. I would highly appreciate if anyone could share their H3 image edit workflow, and an H3 image generation one if you have it. Thanks. submitted by /u/flaminghotcola [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xbyw1j/how_do_you_image_edit_or_image_generate_wit/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/vfx/comments/1xbypj5/what_is_a_good_pc_option/</id><title>What is a good PC option</title>
@@ -260,6 +365,24 @@
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;YT Video: https://www.youtube.com/watch?v=cLc3l3eb2-Q MiniMax H3 Singularity V2 Dual-Sampling Workflow: https://www.runninghub.ai/zh-cn/post/2112912294795993090 P.S.: I'm not the author! submitted by /u/theOliviaRossi [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xbx2lk/minimax_h3_singularity_v2_was_updated_to_the_new/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xbx2eb/minimax_h3_singularity_v2_was_updated_to_the_new/</id><title>Minimax H3 Singularity V2 - was updated to the new version!</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xbx2eb/minimax_h3_singularity_v2_was_updated_to_the_new/"/>
+<published>2026-10-21T19:35:33+00:00</published><updated>2026-10-21T19:35:33+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="minimax"/>
+<summary>YT Video: https://www.youtube.com/watch?v=cLc3l3eb2-Q MiniMax H3 Singularity V2 Dual-Sampling Workflow: https://www.runninghub.ai/zh-cn/post/2112912294795993090 Edit. -&gt; Pruned: https://huggingface.co/WAS/Minimax-h3_Singularity_v2_pruned P.S.: I'm not the author! submitted by /u/theOliviaRossi [link</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;YT Video: https://www.youtube.com/watch?v=cLc3l3eb2-Q MiniMax H3 Singularity V2 Dual-Sampling Workflow: https://www.runninghub.ai/zh-cn/post/2112912294795993090 Edit. -&amp;gt; Pruned: https://huggingface.co/WAS/Minimax-h3_Singularity_v2_pruned P.S.: I'm not the author! submitted by /u/theOliviaRossi [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xbx2eb/minimax_h3_singularity_v2_was_updated_to_the_new/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xbvaus/fibo_20_edit_turbo_does_texttoimage_too_4_steps/</id><title>FIBO 2.0 Edit Turbo does text-to-image too: 4 steps, no CFG. Tested on 22 prompts, with ComfyUI workflows and diffusers / MLX scripts</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xbvaus/fibo_20_edit_turbo_does_texttoimage_too_4_steps/"/>
+<published>2026-10-21T18:31:10+00:00</published><updated>2026-10-21T18:31:10+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<summary>submitted by /u/TimeTruth2490 [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/TimeTruth2490 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xbvaus/fibo_20_edit_turbo_does_texttoimage_too_4_steps/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xbv7s6/fibo_20_edit_turbo_does_texttoimage_too_4_steps/</id><title>FIBO 2.0 Edit Turbo does text-to-image too: 4 steps, no CFG. Tested on 22 prompts, with ComfyUI workflows and diffusers / MLX scripts</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xbv7s6/fibo_20_edit_turbo_does_texttoimage_too_4_steps/"/>
 <published>2026-10-21T18:28:07+00:00</published><updated>2026-10-21T18:28:07+00:00</updated>
@@ -277,6 +400,16 @@
 <category term="comfyui"/>
 <summary>I created ComfyUI-AudioCPP about two months ago, but made pretty much zero progress 😅. Today, a community contributor finally got things moving by implementing the first set of nodes! The goal is to bring the capabilities of audio.cpp into ComfyUI: All-in-one: TTS, ASR, voice conversion, music gener</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I created ComfyUI-AudioCPP about two months ago, but made pretty much zero progress 😅. Today, a community contributor finally got things moving by implementing the first set of nodes! The goal is to bring the capabilities of audio.cpp into ComfyUI: All-in-one: TTS, ASR, voice conversion, music generation, audio enhancement, separation, and more through a unified engine. Broad model coverage: 120+ audio model families, without maintaining separate inference implementations for each. Unified interface: Many models share the same interface in audio.cpp, so supporting additional models in ComfyUI can come almost for free once the corresponding task nodes are implemented. High performance: Optimi&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xbtem0/bringing_120_audio_ai_models_to_comfyui_in_one/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xbssdr/free_generative_fill_for_gimp_3_on_your_own/</id><title>Free Generative Fill for GIMP 3 on your own ComfyUI, beta.2 now runs on older GTX cards</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xbssdr/free_generative_fill_for_gimp_3_on_your_own/"/>
+<published>2026-10-21T17:00:46+00:00</published><updated>2026-10-21T17:00:46+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<category term="flux"/>
+<summary>I didnt want to pay Adobe every month just for Generative Fill so I wrote OpenFill, a free plugin that adds it to GIMP 3 using your own ComfyUI in the background: Generative Fill , select and type Remove object , no prompt needed Generative Expand , any side or a ratio Text to Image No node graph, C</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · comfyui, flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I didnt want to pay Adobe every month just for Generative Fill so I wrote OpenFill, a free plugin that adds it to GIMP 3 using your own ComfyUI in the background: Generative Fill , select and type Remove object , no prompt needed Generative Expand , any side or a ratio Text to Image No node graph, Comfy starts hidden when you need it and stops when GIMP closes, any local model works. beta.2 just came out with fixes from your reports, older GTX 10 cards work, a warning when Comfy is on the CPU, live previews, and FLUX Fill Q6_K for 12 GB cards https://github.com/beckettharriman/gimp-openfill submitted by /u/Speedeee_ [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xbssdr/free_generative_fill_for_gimp_3_on_your_own/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/vfx/comments/1xbsrey/conductor_feedback/</id><title>Conductor feedback?</title>
@@ -307,6 +440,15 @@
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 1 · houdini&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I had the pleasure of working with the best Houdini HDA for fabric and knitted assets. With a small team of super talented people, we created this BB8 Fan Art. Creative projects like this are extremely rewarding for me. It's fun to step outside your comfort zone and learn things. I was doing the environments, fx, lookdev (on the saber) and lighting and comp. Lighting is my bread and butter - learning how to bring it all together is a challenge and super fun. That is art - that's why I click and not type. Thanks to everyone involved in this project! Thanks Fibric Toolset and teams! submitted by /u/arvidurs [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xbpvia/knitted_bb8_finds_a_lightsaber_fan_art/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xbowxw/the_flux_klein_model_had_a_node_called_reference/</id><title>The Flux Klein model had a node called "reference latent"—and I used it to achieve very good style transfers (for example, transforming an image into a painting). Does anyone know if it’s possible to use "reference latent" with Qwen 2.1 ?</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xbowxw/the_flux_klein_model_had_a_node_called_reference/"/>
+<published>2026-10-21T14:37:07+00:00</published><updated>2026-10-21T14:37:07+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="flux"/>
+<summary>The results were better than those I got with Qwen 2.1 using the "text encoder" node. Does anyone know if it’s possible to use "reference latent" with Qwen 2.1? submitted by /u/Inevitable_Pen9043 [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;The results were better than those I got with Qwen 2.1 using the "text encoder" node. Does anyone know if it’s possible to use "reference latent" with Qwen 2.1? submitted by /u/Inevitable_Pen9043 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xbowxw/the_flux_klein_model_had_a_node_called_reference/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
 <id>https://www.reddit.com/r/vfx/comments/1xbornv/anyone_use_ai_for_troubleshooting_vfx_shot_if_yes/</id><title>Anyone use AI for troubleshooting vfx shot? If yes, what ai tool you guys use?</title>
 <link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xbornv/anyone_use_ai_for_troubleshooting_vfx_shot_if_yes/"/>
 <published>2026-10-21T14:31:33+00:00</published><updated>2026-10-21T14:31:33+00:00</updated>
@@ -332,6 +474,15 @@
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 6 · rendering, comfyui, flux, ltx, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;The LoRAlab Trainer studio is a web app that trains LoRAs for a lot of models (Qwen-Image, Krea, Z-Image, Anima, SDXL, LTX, MiniMax-H3 and so on) with an automatic captioner, live previews, step-accurate resume and one-click export to ComfyUI. Fibo 2.0 Dev joins it, with normal LoRAs and edit LoRAs (before/after pairs). GitHub: https://github.com/AcademiaSD/AcademiaSD_LoRAlab-TrainerStudio What you get with Fibo 2.0: - NF4 on the attention, MLP and cross-attention of the 44 blocks, so the transformer is 5.2 GB in VRAM instead of 16 - The pre-cache runs the model's own Qwen3-VL-4B once, NF4 by default. Training never loads it - Captions in the structured JSON (VGL) that Fibo 2.0 was trained w&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xboo2u/lora_training_for_fibo_20_added/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xboe1r/it_turns_out_minimax_h3_can_dance_just_by_giving/</id><title>🤣It Turns Out MiniMax H3 Can Dance Just by Giving It Music</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xboe1r/it_turns_out_minimax_h3_can_dance_just_by_giving/"/>
+<published>2026-10-21T14:17:05+00:00</published><updated>2026-10-21T14:17:05+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="minimax"/>
+<summary>submitted by /u/ExpressWarthog8505 [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/ExpressWarthog8505 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xboe1r/it_turns_out_minimax_h3_can_dance_just_by_giving/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xbobrr/original_character_lora_for_minimax_h3_learnings/</id><title>Original character LoRA for MiniMax H3 learnings. Workflows included.</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xbobrr/original_character_lora_for_minimax_h3_learnings/"/>
 <published>2026-10-21T14:14:33+00:00</published><updated>2026-10-21T14:14:33+00:00</updated>
@@ -342,6 +493,16 @@
 <category term="lora"/>
 <summary>H3 t2v is just so damn good looking compared to ref2va/fl2va and even RefMod. So I attempted to create a LoRA of an original character, using 8 Z-Image Turbo stills, a custom ElevenLabs voice, and 14 short clips of her talking (from 5 Seedance gens with the Z-Image refs). Left is H3 with a RefMod (p</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 6 · rendering, minimax, seedance, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;H3 t2v is just so damn good looking compared to ref2va/fl2va and even RefMod. So I attempted to create a LoRA of an original character, using 8 Z-Image Turbo stills, a custom ElevenLabs voice, and 14 short clips of her talking (from 5 Seedance gens with the Z-Image refs). Left is H3 with a RefMod (photos and voice sample). Right is the same seed with the LoRA at 0.8, followed by DLSS 5. The RefMod keeps her face consistent, but everything looks a bit too polished. With the LoRA, she looks closer to t2v quality. I trained her in Fizgig, running headless: rank 16, Automagic v3, Circlestone adapter, EMA 0.98, 40 epochs (3,520 steps) on the pruned int8 fl2va model. Dataset was the images plus fa&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xbobrr/original_character_lora_for_minimax_h3_learnings/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xbob37/minimax_ref_to_video_place_character_in_3d_video/</id><title>minimax ref to video place character in 3d video</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xbob37/minimax_ref_to_video_place_character_in_3d_video/"/>
+<published>2026-10-21T14:13:48+00:00</published><updated>2026-10-21T14:13:48+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="minimax"/>
+<category term="lora"/>
+<summary>Hello, I am using the default template minimax ref2video, a character sheet + the video that you can see with no character and a detail prompt made by ai; is si good for what i have to do but i am looking to increase performance, this 8 second on 5090 took 40 minute 900 pixel x 400 somethink and tha</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hello, I am using the default template minimax ref2video, a character sheet + the video that you can see with no character and a detail prompt made by ai; is si good for what i have to do but i am looking to increase performance, this 8 second on 5090 took 40 minute 900 pixel x 400 somethink and than I upscale all. Is there some working json with some turbo lora. I tried some but they can't follow exactly the feeded video as the basic template or maybe I made some mistake along the way submitted by /u/posseduto [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xbob37/minimax_ref_to_video_place_character_in_3d_video/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xbo8fo/ltx_desktop_130_is_out/</id><title>LTX Desktop 1.3.0 is out!</title>
@@ -384,6 +545,29 @@
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Bria released Fibo 2.0 yesterday and I wanted to see how it does with a character LoRA and create something that I can actually post (all my other datasets are not royalty-free). The dragon is a plush mascot I use for my LoRA portfolio. 15 training images. What I used: Bria's train_lora.py from the Fibo-2.0-dev repo 1024px, rank 64, alpha 64, lr 1e-4 constant, AdamW, batch 1, grad accum 2 400 steps, the likeness was already there at 200, and 300 was the best (this might hugely differ for human characters but I did not want to do a synthesized human) Rented an A100 40GB on Vast. It peaked at about 23 GB VRAM, ran at 6.2 s/step, and training took about 42 min. Each edit took about 80-90 second&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xblkin/i_trained_a_fibo_20_lora_a_day_after_release_and/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xbljy9/character_swap_minimax_h3_referencetovideo_lora/</id><title>CHARACTER SWAP - MiniMax H3 Reference-to-Video + LoRA 🔥</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xbljy9/character_swap_minimax_h3_referencetovideo_lora/"/>
+<published>2026-10-21T12:16:40+00:00</published><updated>2026-10-21T12:16:40+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="minimax"/>
+<category term="lora"/>
+<category term="consistency"/>
+<summary>Hey Everyone 👋, Been testing character swap with MiniMax H3 for about a day. Here are some early results — no cherry-picking! 👉 Full Written Tutorial + Workflow Downloads You can replace characters in a video using a character reference image (character sheet) while preserving the original motion, s</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 5 · minimax, lora, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey Everyone 👋, Been testing character swap with MiniMax H3 for about a day. Here are some early results — no cherry-picking! 👉 Full Written Tutorial + Workflow Downloads You can replace characters in a video using a character reference image (character sheet) while preserving the original motion, scene, and sound. ✨ Some limitations: character likeness can drift, details may blend with the original person, and scene cuts can cause timing to drift. Extra prompting can help improve consistency. Happy Testing 🔥 submitted by /u/NextDiffusion [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xbljy9/character_swap_minimax_h3_referencetovideo_lora/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xblb76/comfyui_frontend_heiss_ui_now_supports_moss_flux3/</id><title>ComfyUI frontend: HEISS UI now supports MOSS &amp; Flux3 no workflows needed (Free &amp; Open-Source)</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xblb76/comfyui_frontend_heiss_ui_now_supports_moss_flux3/"/>
+<published>2026-10-21T12:04:59+00:00</published><updated>2026-10-21T12:04:59+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="inpainting"/>
+<category term="comfyui"/>
+<category term="flux"/>
+<category term="lora"/>
+<summary>Link Built in MOSS Image and Flux 3 support. No workflows or setup needed. Missing VAE/Text-Encoder? No problem, Heiss gets them for you and sets it all up. What it is: Image first-generation studio Works without workflows with almost any model (no setup) Support for custom workflows Video gen, refe</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 5 · inpainting, comfyui, flux, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Link Built in MOSS Image and Flux 3 support. No workflows or setup needed. Missing VAE/Text-Encoder? No problem, Heiss gets them for you and sets it all up. What it is: Image first-generation studio Works without workflows with almost any model (no setup) Support for custom workflows Video gen, reference images, and inpainting all work without setup Smart grouping of your images by similar prompts Automatically installs missing components (VAE, text encoders, nodes) it knows Use it from your phone over LAN, with a fully custom mobile UI Favorites, search, prompt history, LoRA stacks, and advanced settings Built to be graceful and not scream at you with errors 24/7 It’s built by me, and in my&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xblb76/comfyui_frontend_heiss_ui_now_supports_moss_flux3/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xbjxcr/mossimage_vision_text_encode_comfyui_node_workflow/</id><title>MOSS-Image Vision Text Encode (ComfyUI node + workflow)</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xbjxcr/mossimage_vision_text_encode_comfyui_node_workflow/"/>
 <published>2026-10-21T10:52:30+00:00</published><updated>2026-10-21T10:52:30+00:00</updated>
@@ -422,6 +606,16 @@
 <category term="vfx"/>
 <summary>I recently graduated in majoring VFX, and I’ve noticed that most film VFX studios aren’t hiring many junior artists or fresh graduates right now. On the other hand, there seem to be more entry-level opportunities in the animation and game industries. Personally, I’m much more interested in film VFX </summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 4 · animation, vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I recently graduated in majoring VFX, and I’ve noticed that most film VFX studios aren’t hiring many junior artists or fresh graduates right now. On the other hand, there seem to be more entry-level opportunities in the animation and game industries. Personally, I’m much more interested in film VFX than animation or games, but I don’t have any professional experience working in the film VFX industry yet. I’m wondering if it would be a good idea to take a junior artist position in animation or games to gain industry experience, improve my skills, and work my way up. Would it still be possible to transition into film VFX later on, even if I’ve progressed to a mid-level or senior position in an&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xbigg8/should_i_take_a_job_in_animation_or_games_if_my/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xbi1cf/resource_we_unlocked_sasolver_in_comfyui_why/</id><title>[Resource] We unlocked SA-Solver in ComfyUI: why stochastic strength eta=1.7 beats Euler at 10 steps (and what didn't work)</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xbi1cf/resource_we_unlocked_sasolver_in_comfyui_why/"/>
+<published>2026-10-21T08:59:27+00:00</published><updated>2026-10-21T08:59:27+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<category term="flux"/>
+<summary>Hey everyone, If you generate images on modern diffusion and flow-matching models (Flux, SD3, Anima) at low step counts (8–14 steps), you're probably stuck between two bad options: Euler: Good macro anatomy, but surfaces look waxy and plastic. Ancestral samplers ( euler_a , etc.): Better texture, bu</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · comfyui, flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey everyone, If you generate images on modern diffusion and flow-matching models (Flux, SD3, Anima) at low step counts (8–14 steps), you're probably stuck between two bad options: Euler: Good macro anatomy, but surfaces look waxy and plastic. Ancestral samplers ( euler_a , etc.): Better texture, but anatomy drifts and degrades. ComfyUI actually has a brilliant solver under the hood called sa_solver (Xue et al., NeurIPS 2023). It runs an Adams predictor-corrector on the drift while keeping diffusion separate, costing exactly 1 NFE per step . But there was a catch: ComfyUI hardcoded its stochastic strength ( eta ) to 1.0 inside a fixed 20%–80% window , with no settings to adjust it. Together &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xbi1cf/resource_we_unlocked_sasolver_in_comfyui_why/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xbi156/resource_we_unlocked_sasolver_in_comfyui_why/</id><title>[Resource] We unlocked SA-Solver in ComfyUI: why stochastic strength eta=1.7 beats Euler at 10 steps (and what didn't work)</title>
@@ -6761,24 +6955,5 @@
 <category term="render"/>
 <summary>OpenRouter for agent tools. Join community here: https://discord.gg/6mQYYfFMAn https://treg.to Treg (OpenRouter for Tools) OpenRouter, but for agent tools instead of models. Point an agent at one base URL with one token and it can do the job: a curated catalog of thousands of endpoints across many p</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;GitHub trending (Python) · score 2 · video generation, render&lt;/small&gt;&lt;/p&gt;&lt;p&gt;OpenRouter for agent tools. Join community here: https://discord.gg/6mQYYfFMAn https://treg.to Treg (OpenRouter for Tools) OpenRouter, but for agent tools instead of models. Point an agent at one base URL with one token and it can do the job: a curated catalog of thousands of endpoints across many providers — SEO and backlinks, social and trends, people and company enrichment, ads, scraping, image and video generation — priced per call, from a cent , with no provider signup. Plus your own team's keys, skills and CLIs, callable by every teammate's agent without the credential ever leaving the server. Ask for the task, not the tool. You do not need to know which vendor sells backlink data, or &lt;/p&gt;&lt;p&gt;&lt;a href="https://github.com/superdesigndev/treg"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1x0kokb/minimax_h3_person_remover_lora_is_out/</id><title>minimax h3 person remover lora is out</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x0kokb/minimax_h3_person_remover_lora_is_out/"/>
-<published>2026-10-08T07:31:33+00:00</published><updated>2026-10-08T07:31:33+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="minimax"/>
-<category term="lora"/>
-<summary>hello everyone.. the creator of character swap just dropped this person remover lora for h3. he’s using it to generate better samples for character swap v2 dataset, so it might be worth trying out: huggingface.co/akatz-ai/MiniMax-H3-Person-Remover-LoRA submitted by /u/Better-Interview-793 [link] [co</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;hello everyone.. the creator of character swap just dropped this person remover lora for h3. he’s using it to generate better samples for character swap v2 dataset, so it might be worth trying out: huggingface.co/akatz-ai/MiniMax-H3-Person-Remover-LoRA submitted by /u/Better-Interview-793 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x0kokb/minimax_h3_person_remover_lora_is_out/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1x0jzf7/minimax_h3_messed_up_cyberpunkstyle_bike_riding/</id><title>MiniMax H3 messed up cyberpunk-style bike riding.</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x0jzf7/minimax_h3_messed_up_cyberpunkstyle_bike_riding/"/>
-<published>2026-10-08T06:47:36+00:00</published><updated>2026-10-08T06:47:36+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="minimax"/>
-<summary>I have generated similar riding videos with MiniMax earlier in different environments and wanted to test a cyberpunk style this time. I finalized the pictures of the motorcycle, character and background, but while animating it, H3 hasn't been the best at interpreting my intentions. My initial plan w</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I have generated similar riding videos with MiniMax earlier in different environments and wanted to test a cyberpunk style this time. I finalized the pictures of the motorcycle, character and background, but while animating it, H3 hasn't been the best at interpreting my intentions. My initial plan was to make the whole video animated, and the character reference I used was also meant to be an animated version. The image generation itself gave me a good result, but while animating it, it kind of merged both vibes and ended up looking really fake. These kind of riding videos I generated earlier in different environments looked much better. Maybe it's because my prompting is bad, or maybe I'm t&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x0jzf7/minimax_h3_messed_up_cyberpunkstyle_bike_riding/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
