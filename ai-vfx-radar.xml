@@ -2,8 +2,73 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-22T14:30:54+00:00</updated>
+<updated>2026-10-22T18:30:47+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xcpm1i/random_moss_image_5b_base_gens_no_lora_no_finetune/</id><title>Random MOSS Image 5B Base Gens - No Lora, No Finetune</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xcpm1i/random_moss_image_5b_base_gens_no_lora_no_finetune/"/>
+<published>2026-10-22T17:51:39+00:00</published><updated>2026-10-22T17:51:39+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="lora"/>
+<summary>Another month and another model to bang my head against. Most images here were generated with the standard 50 steps, 3 CFG, 1.5 megapixels, and with the Base model. NOT the SFT model. But there are exceptions here and there. The pure image files are located here , but some may have meta data destroy</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Another month and another model to bang my head against. Most images here were generated with the standard 50 steps, 3 CFG, 1.5 megapixels, and with the Base model. NOT the SFT model. But there are exceptions here and there. The pure image files are located here , but some may have meta data destroyed due to exporting through Invoke. Due to the sheer number of slightly different workflows on display, just comment with the Image number and I will reply with the specific process for that image. submitted by /u/Unit2209 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xcpm1i/random_moss_image_5b_base_gens_no_lora_no_finetune/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xcnefw/h3_ref2va_looks_dev/</id><title>[ H3 ] ref2va looks dev</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xcnefw/h3_ref2va_looks_dev/"/>
+<published>2026-10-22T16:30:35+00:00</published><updated>2026-10-22T16:30:35+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="compositing"/>
+<category term="color grading"/>
+<category term="hdr"/>
+<category term="seedance"/>
+<category term="ltx"/>
+<category term="lora"/>
+<summary>saw this post: https://www.reddit.com/r/StableDiffusion/comments/1xbobrr/original_character_lora_for_minimax_h3_learnings/ Hey guys, SeeDance videos look much more realistic and softer. I'm really interested in pushing H3 in that direction, but ref2va gen always looks bad - dark, high contrast, and </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 6 · compositing, color grading, hdr, seedance, ltx, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;saw this post: https://www.reddit.com/r/StableDiffusion/comments/1xbobrr/original_character_lora_for_minimax_h3_learnings/ Hey guys, SeeDance videos look much more realistic and softer. I'm really interested in pushing H3 in that direction, but ref2va gen always looks bad - dark, high contrast, and oversaturated. I saw the post above, great info and results. However, I want to avoid doing any LoRA training. I think with the H3 FL2VA workflow you can do it much better as long as you have a good start image where you control the look. But I want to focus on making ref2va work. In my last 3-minute duration test, I was using the fizgig node to make the skin look softer. It works, but the effect &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xcnefw/h3_ref2va_looks_dev/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xclgg2/mossimageedit_lora/</id><title>MOSS-Image-Edit LoRA</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xclgg2/mossimageedit_lora/"/>
+<published>2026-10-22T15:19:25+00:00</published><updated>2026-10-22T15:19:25+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<category term="lora"/>
+<summary>An edit LoRA for MOSS Image has been released. Works with both Base and SFT. Weights: https://huggingface.co/chinoll/Moss-Image-Edit Custom nodes / Workflows: https://github.com/Chenkin-x/ComfyUI-Moss-Image-Edit/blob/main/README.en.md Edit: I implemented it natively with caching for faster inference</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;An edit LoRA for MOSS Image has been released. Works with both Base and SFT. Weights: https://huggingface.co/chinoll/Moss-Image-Edit Custom nodes / Workflows: https://github.com/Chenkin-x/ComfyUI-Moss-Image-Edit/blob/main/README.en.md Edit: I implemented it natively with caching for faster inference. The LoRA is a bit rough. Let me know how it's working for you. Custom nodes / Workflows: https://github.com/PedroMarinhoDev/ComfyUI-Moss-Image-Edit-Native ComfyUI-compatible weights: https://huggingface.co/PedroMarinhoDev/Moss-Image-Edit-ComfyUI There's an open PR by Kijai on ComfyUI so it might be merged and supported natively later. https://github.com/Comfy-Org/ComfyUI/pull/17296 https://previ&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xclgg2/mossimageedit_lora/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xcklp4/combating_moss_image_blur_by_sharpening_latents/</id><title>Combating MOSS Image Blur by Sharpening Latents</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xcklp4/combating_moss_image_blur_by_sharpening_latents/"/>
+<published>2026-10-22T14:47:23+00:00</published><updated>2026-10-22T14:47:23+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="denoising"/>
+<category term="lora"/>
+<summary>Here is a method you can use to decrease the amount of blur in MOSS Image outputs. I use the base model and https://huggingface.co/lodestones/Kromoss/blob/main/8-steps-dmd2-lora.safetensors LoRa, but you may be able to adapt the workflows for use without this LoRa. The method utilizes a two stage pr</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · denoising, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Here is a method you can use to decrease the amount of blur in MOSS Image outputs. I use the base model and https://huggingface.co/lodestones/Kromoss/blob/main/8-steps-dmd2-lora.safetensors LoRa, but you may be able to adapt the workflows for use without this LoRa. The method utilizes a two stage process: Denoise regularly for the first 5 steps Apply the LatentOperationSharpen to the latent image and then continue denoising The first image comparison in this post shows the result of also applying the SFT model as a LoRa to the base model for the second stage denoising: https://civitai.com/models/3012507/moss-image-sft-extracted-lora . See the workflow here: https://civitai.com/images/1464675&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xcklp4/combating_moss_image_blur_by_sharpening_latents/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xcjw1f/the_fifth_element_but_making_more_sense/</id><title>The Fifth Element But Making More Sense</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xcjw1f/the_fifth_element_but_making_more_sense/"/>
+<published>2026-10-22T14:19:47+00:00</published><updated>2026-10-22T14:19:47+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="upscaling"/>
+<category term="upscaler"/>
+<category term="minimax"/>
+<category term="lora"/>
+<summary>Minimax H3 Ref2v, RTX 3060, 64 GBs RAM. I use a workflow with latent upscaling. The first pass is a low-res video which is upscaled later. The overall quality looks better and it also helps to fix smearing. The upscaler - link . Turbo Lora - link You also need to install these nodes submitted by /u/</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · upscaling, upscaler, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Minimax H3 Ref2v, RTX 3060, 64 GBs RAM. I use a workflow with latent upscaling. The first pass is a low-res video which is upscaled later. The overall quality looks better and it also helps to fix smearing. The upscaler - link . Turbo Lora - link You also need to install these nodes submitted by /u/Dry-Statistician-684 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xcjw1f/the_fifth_element_but_making_more_sense/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xciikd/how_are_you_getting_such_good_results_in_h3/</id><title>How are you getting such good results in H3?</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xciikd/how_are_you_getting_such_good_results_in_h3/"/>
+<published>2026-10-22T13:25:44+00:00</published><updated>2026-10-22T13:25:44+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="wan"/>
+<category term="lora"/>
+<summary>I have a Lora and refmod of a character both trained in fizgig. The Lora previews looked good. And I am putting a krea2 4k image of the same character as first framer generating at 0.98 MP but still the face is a muddy mess. And the general quality of the video is early Wan and pixelated. Using the </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · wan, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I have a Lora and refmod of a character both trained in fizgig. The Lora previews looked good. And I am putting a krea2 4k image of the same character as first framer generating at 0.98 MP but still the face is a muddy mess. And the general quality of the video is early Wan and pixelated. Using the default image to video workflow. Is there a better workflow / tips / tricks you can recommend? submitted by /u/__MichaelBluth__ [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xciikd/how_are_you_getting_such_good_results_in_h3/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xchebp/kokon_010_the_qwenimage_21_text_encoder_now/</id><title>Kokon 0.10: the Qwen-Image 2.1 text encoder now writes your prompts too (no second model), plus your own LoRAs (beta)</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xchebp/kokon_010_the_qwenimage_21_text_encoder_now/"/>
@@ -6762,107 +6827,5 @@
 <category term="houdini"/>
 <summary>submitted by /u/AwayPotatoes [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · houdini&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/AwayPotatoes [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1x0yvc8/ive_been_coding_up_my_own_amd_gpu_powered_hydra/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1x0yj59/demonic_cabaret_fashion_show/</id><title>Demonic cabaret fashion show</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1x0yj59/demonic_cabaret_fashion_show/"/>
-<published>2026-10-08T18:23:16+00:00</published><updated>2026-10-08T18:23:16+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="rotoscoping"/>
-<category term="blender"/>
-<summary>I’ve been working on this for the last few months, so happy to finally be able to post it! This work is composed of a ridiculous amount of rotoscoping event footage (no green screens), motion graphics and animating scenes in Blender. Let me know what ya think! submitted by /u/BritishFilmGit [link] [</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · rotoscoping, blender&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I’ve been working on this for the last few months, so happy to finally be able to post it! This work is composed of a ridiculous amount of rotoscoping event footage (no green screens), motion graphics and animating scenes in Blender. Let me know what ya think! submitted by /u/BritishFilmGit [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1x0yj59/demonic_cabaret_fashion_show/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1x0yff5/yue2_lora_training/</id><title>Yue2 Lora Training</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x0yff5/yue2_lora_training/"/>
-<published>2026-10-08T18:19:30+00:00</published><updated>2026-10-08T18:19:30+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="lora"/>
-<summary>Has anyone had any success training a new genre with YuE2? I've tried multiple ways using different datasets, and training settings and I haven't been able to train a new genre on YuE2 properly. I tried with Fill's trainer, Aitoolkit, and Yue2 Studio, and I either get garbled noise, or it just seems</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Has anyone had any success training a new genre with YuE2? I've tried multiple ways using different datasets, and training settings and I haven't been able to train a new genre on YuE2 properly. I tried with Fill's trainer, Aitoolkit, and Yue2 Studio, and I either get garbled noise, or it just seems to output similar results as using no lora. Not sure what I am doing wrong. I tested with all epochs/steps - from 50 all the way to 1200 using different inference settings (temp, top k, abc on/off, cot, etc.), and I tried with datasets ranging from 30-200 tracks as well (I only tried the 200 track dataset with Aitoolkit so far). With Acestep, I am able to train a new genre without any issues, bes&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x0yff5/yue2_lora_training/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1x0yaum/is_it_possible_to_use_comfyui_mcp_between_two/</id><title>Is it possible to use ComfyUI MCP between two local machines? Seems like there is no http support.</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x0yaum/is_it_possible_to_use_comfyui_mcp_between_two/"/>
-<published>2026-10-08T18:14:51+00:00</published><updated>2026-10-08T18:14:51+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<summary>I am aware of MCP support for ComfyUI, and I'm excited to use it. However it looks to me like the MCP only supports standard io, and does not support http. This is a little bit strange of a choice to me, since http seems like a much more flexible option. I have two PCs with decent graphics cards, an</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I am aware of MCP support for ComfyUI, and I'm excited to use it. However it looks to me like the MCP only supports standard io, and does not support http. This is a little bit strange of a choice to me, since http seems like a much more flexible option. I have two PCs with decent graphics cards, and I'd love to get an LLM on one talking to ComfyUI on the other. Even doing MCP on the same PC has me very perplexed, since my LLM (llama.cpp) is hosted inside of a docker container and I'm not sure how we get them to talk to each other. Is there any trusted third party MCP that I can use, or am I missing something? Thanks in advance. submitted by /u/God_Hand_9764 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x0yaum/is_it_possible_to_use_comfyui_mcp_between_two/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1x0y17p/h3_long_shot_studio_api_v10/</id><title>H3 Long Shot Studio API v1.0</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x0y17p/h3_long_shot_studio_api_v10/"/>
-<published>2026-10-08T18:04:25+00:00</published><updated>2026-10-08T18:04:25+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<category term="lora"/>
-<summary>https://preview.redd.it/dnt9gkxv8auh1.png?width=1711&amp;format=png&amp;auto=webp&amp;s=e8d3e665fa5706985ead80fbbd12e75710b2e828 Hello everyone, This is a continuation from my post yesterday ( https://www.reddit.com/r/StableDiffusion/comments/1x0hzgl/h3_long_shot_api/ ), where you can also see the sample video.</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;https://preview.redd.it/dnt9gkxv8auh1.png?width=1711&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=e8d3e665fa5706985ead80fbbd12e75710b2e828 Hello everyone, This is a continuation from my post yesterday ( https://www.reddit.com/r/StableDiffusion/comments/1x0hzgl/h3_long_shot_api/ ), where you can also see the sample video. I reiterated a dozen times and got a pretty decent UI that I think works well. https://github.com/r34vtraining/Longshot_Studio/tree/main There are 2 prerequisite nodes that will need to be installed for this to work. Things I've fixed since yesterdays post: Latent is saved to disk, on the right panel, scroll down to toggle save segments on/off/clear, so even if comfy crashes the latents will be s&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x0y17p/h3_long_shot_studio_api_v10/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1x0xqld/superman_meets_saitama_for_the_first_time_minimax/</id><title>Superman Meets Saitama for the First Time | MiniMax H3 Open Source</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x0xqld/superman_meets_saitama_for_the_first_time_minimax/"/>
-<published>2026-10-08T17:53:04+00:00</published><updated>2026-10-08T17:53:04+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="camera control"/>
-<category term="minimax"/>
-<category term="lora"/>
-<category term="consistency"/>
-<category term="character consistency"/>
-<category term="storyboard"/>
-<category term="cinematic"/>
-<summary>Best results came from Ref2VA + Combat Base V2 LoRA , using a storyboard for shot/camera control, character sheets for identity, and one style/texture image for the final cinematic look That setup gave me the cleanest balance between choreography, character consistency, and overall visual quality su</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 8 · camera control, minimax, lora, consistency, character consistency, storyboard, cinematic&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Best results came from Ref2VA + Combat Base V2 LoRA , using a storyboard for shot/camera control, character sheets for identity, and one style/texture image for the final cinematic look That setup gave me the cleanest balance between choreography, character consistency, and overall visual quality submitted by /u/Automatic-Building84 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x0xqld/superman_meets_saitama_for_the_first_time_minimax/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1x0xchw/duomatching_jointmarginal_distribution_matching/</id><title>DuoMatching: Joint–Marginal Distribution Matching for Few-Step Video Generation</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x0xchw/duomatching_jointmarginal_distribution_matching/"/>
-<published>2026-10-08T17:38:20+00:00</published><updated>2026-10-08T17:38:20+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="video generation"/>
-<summary>https://johnzhan2023.github.io/DuoMatching/ https://github.com/JohnZhan2023/DuoMatching https://arxiv.org/abs/2610.03543 https://x.com/jiahao251146/status/2107461919468834981 submitted by /u/Total-Resort-3120 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · video generation&lt;/small&gt;&lt;/p&gt;&lt;p&gt;https://johnzhan2023.github.io/DuoMatching/ https://github.com/JohnZhan2023/DuoMatching https://arxiv.org/abs/2610.03543 https://x.com/jiahao251146/status/2107461919468834981 submitted by /u/Total-Resort-3120 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x0xchw/duomatching_jointmarginal_distribution_matching/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1x0vt5f/chatgpt_plus_vs_claude_pro_for_custom_comfyui/</id><title>ChatGPT Plus vs Claude Pro for custom ComfyUI workflows?</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x0vt5f/chatgpt_plus_vs_claude_pro_for_custom_comfyui/"/>
-<published>2026-10-08T16:40:05+00:00</published><updated>2026-10-08T16:40:05+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<summary>Hi everyone, I currently use workflows created by other people, but I’d like to start creating my own workflows based on my specific needs. I’d like to use an AI assistant as a sort of ComfyUI copilot to help me design workflows, choose the right nodes, connect them correctly, troubleshoot errors, a</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi everyone, I currently use workflows created by other people, but I’d like to start creating my own workflows based on my specific needs. I’d like to use an AI assistant as a sort of ComfyUI copilot to help me design workflows, choose the right nodes, connect them correctly, troubleshoot errors, and refine the workflow through iteration. I’m considering Claude Pro or ChatGPT Plus. I’ve tried the free versions of both, and Claude seemed to give me better results for this particular use case. For those who use AI with ComfyUI: Which AI assistant would you recommend for creating custom workflows? Is there a good way to integrate an AI assistant directly into ComfyUI? Is there a way to train o&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x0vt5f/chatgpt_plus_vs_claude_pro_for_custom_comfyui/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1x0uf9i/adobes_products_being_opensource_recreated_and/</id><title>Adobe’s products being open-source recreated and what it might mean for VFX…</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1x0uf9i/adobes_products_being_opensource_recreated_and/"/>
-<published>2026-10-08T15:47:40+00:00</published><updated>2026-10-08T15:47:40+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="vfx"/>
-<summary>submitted by /u/EwanMcNugget [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/EwanMcNugget [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1x0uf9i/adobes_products_being_opensource_recreated_and/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1x0svkc/neat_video_vs_resolve_nr/</id><title>Neat Video vs Resolve NR</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1x0svkc/neat_video_vs_resolve_nr/"/>
-<published>2026-10-08T14:47:49+00:00</published><updated>2026-10-08T14:47:49+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="tracking"/>
-<category term="compositing"/>
-<category term="vfx"/>
-<summary>Hello Everyone, Hope everyone is doing well, I am into vfx for few months now, working on shots, tracking as well as paint prep or compositing work, I have Davinci Resolve Studio, so I just wanted to know that should I buy Neat video or Resolve Noise Reduction is good. How close is Resolve if compar</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 3 · tracking, compositing, vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hello Everyone, Hope everyone is doing well, I am into vfx for few months now, working on shots, tracking as well as paint prep or compositing work, I have Davinci Resolve Studio, so I just wanted to know that should I buy Neat video or Resolve Noise Reduction is good. How close is Resolve if compared to Neat Video. is it worth buying if I have Resolve Studio. What do you all think. submitted by /u/hacker221b [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1x0svkc/neat_video_vs_resolve_nr/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1x0sl4r/vfx_breakdown/</id><title>VFX Breakdown</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1x0sl4r/vfx_breakdown/"/>
-<published>2026-10-08T14:36:10+00:00</published><updated>2026-10-08T14:36:10+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="vfx"/>
-<category term="unreal"/>
-<category term="unreal engine"/>
-<summary>Here is the VFX I created in Aqueduct. Why use Aqueduct instead of Photoshop or Substance Designer? I particularly enjoy procedural and non-destructive node-based workflows. Aqueduct makes it possible to build the effect step by step while keeping every element easily editable. Another interesting p</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 4 · vfx, unreal, unreal engine&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Here is the VFX I created in Aqueduct. Why use Aqueduct instead of Photoshop or Substance Designer? I particularly enjoy procedural and non-destructive node-based workflows. Aqueduct makes it possible to build the effect step by step while keeping every element easily editable. Another interesting part is that breaking the effect down this way makes it easier to understand which parts could later be recreated directly inside an Unreal Engine material/shader. submitted by /u/NallouN [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1x0sl4r/vfx_breakdown/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
