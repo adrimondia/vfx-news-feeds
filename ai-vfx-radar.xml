@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-22T10:31:16+00:00</updated>
+<updated>2026-10-22T12:30:57+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1xcc6kc/face_swap_in_flux3_image_klein/</id><title>Face swap in FLUX.3 Image Klein?</title>
@@ -285,6 +285,15 @@
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · minimax, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I dont know who needs to hear this, and many of you already know for sure... but the 360 orbitting minimax workflow is the definitive method i found for face consistency in different angles. In my case, im replicating a famouse face, so even slightly different image generations at different angles would be noticable. Tried a lot of stuff... image editting with qwen, first putting a blank oval in the original face (bc qwen usually gets influenced by the previous face, even if you explicitly say to ignore it), GPT editting, sharing a lot of closeups, etc, etc... even when using the exact famous person refference, many times this photoshoots are a bit edited, and maybe from a profile view it do&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xc1ivt/360_orbit_workflow_for_best_face_consistency/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xc1dpl/flux_klein_9b_distilled_vs_flux_3_klein_distilled/</id><title>Flux Klein 9B Distilled vs Flux 3 Klein Distilled vs Qwen 2.1 Turbo vs Krea 3 vs Nano Banana 2.1 vs Ideogram 4.5 on a somewhat tricky two-input-image edit</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xc1dpl/flux_klein_9b_distilled_vs_flux_3_klein_distilled/"/>
+<published>2026-10-21T22:24:00+00:00</published><updated>2026-10-21T22:24:00+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="flux"/>
+<summary>Prompt: Completely change the art style of image 1 to fully lifelike real life professional editorial DSLR photograph style. Completely remove all of the text from image 1 including the large text behind the character in image 1. Completely replace the character in image 1 with the literal exact sam</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Prompt: Completely change the art style of image 1 to fully lifelike real life professional editorial DSLR photograph style. Completely remove all of the text from image 1 including the large text behind the character in image 1. Completely replace the character in image 1 with the literal exact same woman from image 2. Preserve the original composition and original layout and original character's pose and original character's clothing and original rectangles on the wall to the right from image 1. submitted by /u/ZootAllures9111 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xc1dpl/flux_klein_9b_distilled_vs_flux_3_klein_distilled/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
 <id>https://www.reddit.com/r/comfyui/comments/1xbzx5n/h3_minimax_background_replace_4k_600_frames_plus/</id><title>H3 Minimax Background Replace 4k 600 frames Plus</title>
 <link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xbzx5n/h3_minimax_background_replace_4k_600_frames_plus/"/>
 <published>2026-10-21T21:24:35+00:00</published><updated>2026-10-21T21:24:35+00:00</updated>
@@ -311,6 +320,15 @@
 <category term="lora"/>
 <summary>https://github.com/NyckM/Bruxosdovfx-SyncTile-MiniMax-H3-v5.4/tree/main Workflow https://github.com/NyckM/Bruxosdovfx-SyncTile-MiniMax-H3-v5.4/blob/main/workflow/minimaxH3BackgroundSwap_v18_LatentF.json The idea in one sentence A large or long video is split into overlapping regions (spatial tiles ×</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 7 · upscaler, vfx, denoising, comfyui, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;https://github.com/NyckM/Bruxosdovfx-SyncTile-MiniMax-H3-v5.4/tree/main Workflow https://github.com/NyckM/Bruxosdovfx-SyncTile-MiniMax-H3-v5.4/blob/main/workflow/minimaxH3BackgroundSwap_v18_LatentF.json The idea in one sentence A large or long video is split into overlapping regions (spatial tiles × temporal windows). At every model call all regions are predicted and blended into one canvas , so there is a single denoising trajectory : no tile seams, no chained clips, and VRAM is one region's. Install Easy way (Windows): put bruxosdovfx_EasyInstall_MiniMaxH3.bat in the ComfyUI folder (or the ComfyUI-Easy-Install folder) and double-click it. It finds the folders, installs the custom nodes (Sy&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xbzw1o/minimax_h3_replace_background_workflow_4k/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xbzfa1/moss_detailer_lora_built_with_lora_dataset_studio/</id><title>Moss detailer Lora built with Lora dataset studio</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xbzfa1/moss_detailer_lora_built_with_lora_dataset_studio/"/>
+<published>2026-10-21T21:05:19+00:00</published><updated>2026-10-21T21:05:19+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="lora"/>
+<summary>I trained a MOSS detailer LoRA with LoRA Dataset Studio I managed to train RAW Upscale MOSS, a detail and texture LoRA for MOSS-Image, using LoRA Dataset Studio. The app makes the training and testing so easy without a complicated workflow. Around 1.0, the changes are more restrained. At 3.5, it can</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I trained a MOSS detailer LoRA with LoRA Dataset Studio I managed to train RAW Upscale MOSS, a detail and texture LoRA for MOSS-Image, using LoRA Dataset Studio. The app makes the training and testing so easy without a complicated workflow. Around 1.0, the changes are more restrained. At 3.5, it can also substantially change the composition, colors and subject. These are text-to-image renders, with only the strength labels added afterwards. Generation settings: - Base model: moss_image_sft_bf16.safetensors. - Acceleration adapter: moss_image_sft_4step_v2.0.safetensors, at strength 1.0 in every image, including the baseline. - 6 sampling steps, CFG 1, Euler / Simple, denoise 1.0. The adapter/&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xbzfa1/moss_detailer_lora_built_with_lora_dataset_studio/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xbyw1j/how_do_you_image_edit_or_image_generate_wit/</id><title>How do you image edit or image generate wit MINIMAX H3?</title>
@@ -6884,78 +6902,5 @@
 <category term="flux"/>
 <summary>Could you recommend a tutorial, course, or YouTube channel for learning ComfyUI? I currently use it for images (Flux 2 with pre-made workflows) and have achieved great results despite my lack of deep knowledge, but I am looking for content that truly expands my skills. The videos from my country (Br</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · video generation, comfyui, flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Could you recommend a tutorial, course, or YouTube channel for learning ComfyUI? I currently use it for images (Flux 2 with pre-made workflows) and have achieved great results despite my lack of deep knowledge, but I am looking for content that truly expands my skills. The videos from my country (Brazil) are repetitive and unrealistic. I want to learn both photo and video generation and editing within ComfyUI. I am looking for something close to a full course to seriously dedicate myself to studying. My hardware is: RTX 5070 12GB, Ryzen 7 7800X3D, and 64GB (2x32GB) 6000MHz RAM. submitted by /u/JaimeRdrig [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x0pv10/help_to_stop_consuming_lowvalue_content/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1x0pklv/minimax_h3_latent_upscaler_3d_problem/</id><title>Minimax H3 Latent Upscaler (3D) problem.</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x0pklv/minimax_h3_latent_upscaler_3d_problem/"/>
-<published>2026-10-08T12:25:58+00:00</published><updated>2026-10-08T12:25:58+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="upscaler"/>
-<category term="minimax"/>
-<summary>Minimax H3 Latent Upscaler (3D) - node used as 2nd stage simply stopped to work. I updated Comfy to latest with git pull. It it only me or there is general problem? submitted by /u/Dunc4n1d4h0 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · upscaler, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Minimax H3 Latent Upscaler (3D) - node used as 2nd stage simply stopped to work. I updated Comfy to latest with git pull. It it only me or there is general problem? submitted by /u/Dunc4n1d4h0 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x0pklv/minimax_h3_latent_upscaler_3d_problem/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1x0pk3v/obvmp_minimax_h3_workflow_is_the_best/</id><title>obvmp Minimax H3 workflow is the best</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x0pk3v/obvmp_minimax_h3_workflow_is_the_best/"/>
-<published>2026-10-08T12:25:16+00:00</published><updated>2026-10-08T12:25:16+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="minimax"/>
-<summary>submitted by /u/fa6637 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/fa6637 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x0pk3v/obvmp_minimax_h3_workflow_is_the_best/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1x0phdr/obvmp_minimax_h3_workflow_is_the_best/</id><title>obvmp Minimax H3 workflow is the best</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x0phdr/obvmp_minimax_h3_workflow_is_the_best/"/>
-<published>2026-10-08T12:21:30+00:00</published><updated>2026-10-08T12:21:30+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="upscaler"/>
-<category term="minimax"/>
-<summary>https://preview.redd.it/q7841iiuj8uh1.png?width=1876&amp;format=png&amp;auto=webp&amp;s=ace9db3c2ec95727e5401233ba12dedf57e3fe0e i#m trying to stich clip together and avoid seems, until now the wF is genius and work very well. On my 3090, 10 seconde clip at 0.2 Megappixels took about 2mn and Latent upscaler for</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · upscaler, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;https://preview.redd.it/q7841iiuj8uh1.png?width=1876&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=ace9db3c2ec95727e5401233ba12dedf57e3fe0e i#m trying to stich clip together and avoid seems, until now the wF is genius and work very well. On my 3090, 10 seconde clip at 0.2 Megappixels took about 2mn and Latent upscaler for 30 seconde about 13 mn. It's not very crisp images but the video quality is for good enought. i'll upload the video soon. submitted by /u/fa6637 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x0phdr/obvmp_minimax_h3_workflow_is_the_best/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1x0orrc/attempt_at_a_short_cinenatic_with_minimax_h3_from/</id><title>Attempt at a short cinenatic with MiniMax H3, from H.G. Wells’s “The Cone”</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x0orrc/attempt_at_a_short_cinenatic_with_minimax_h3_from/"/>
-<published>2026-10-08T11:45:25+00:00</published><updated>2026-10-08T11:45:25+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="minimax"/>
-<summary>submitted by /u/nikhilprasanth [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/nikhilprasanth [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x0orrc/attempt_at_a_short_cinenatic_with_minimax_h3_from/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1x0od7h/depth_control_video_for_minimax_h3_blender_camera/</id><title>Depth / control video for MiniMax H3? (Blender camera move → AI video)</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x0od7h/depth_control_video_for_minimax_h3_blender_camera/"/>
-<published>2026-10-08T11:23:10+00:00</published><updated>2026-10-08T11:23:10+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="camera control"/>
-<category term="vfx"/>
-<category term="render"/>
-<category term="blender"/>
-<category term="minimax"/>
-<category term="lora"/>
-<category term="ai video"/>
-<summary>Hi all, I'm working on a VFX job: 10 shots where a locked-off real street plate turns into a vertical camera rise above the rooftops, ending in blue sky. Delivery is 4K. My plan: block out the street and surrounding city in Blender, animate the camera rise, render a depth pass, and use it as a contr</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 10 · camera control, vfx, render, blender, minimax, lora, ai video&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi all, I'm working on a VFX job: 10 shots where a locked-off real street plate turns into a vertical camera rise above the rooftops, ending in blue sky. Delivery is 4K. My plan: block out the street and surrounding city in Blender, animate the camera rise, render a depth pass, and use it as a control video so the AI follows the exact camera path, starting from the last frame of the real plate. With LTX-2.3 this works through the Union Control IC-LoRA (depth). But I'd love to try MiniMax H3 for the image quality, and as far as I can tell it only has T2V, I2V, first/last frame and reference-to-video, with no depth or ControlNet-style input. Questions: Has anyone trained or found a depth/contr&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x0od7h/depth_control_video_for_minimax_h3_blender_camera/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1x0o0vu/h3_character_swap_lora_test_8gb_vram/</id><title>H3 + Character Swap LoRA Test (8GB VRAM)</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x0o0vu/h3_character_swap_lora_test_8gb_vram/"/>
-<published>2026-10-08T11:03:59+00:00</published><updated>2026-10-08T11:03:59+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="render"/>
-<category term="minimax"/>
-<category term="lora"/>
-<summary>I have posted similar clip a while ago. That was generated with LTX-2.3 + Union Control LoRA. This is generated with MiniMax H3 + character swap LoRA. I have changed the facial expression in the prompt. 832 x 640, render time 12:45 RTX-4070 8GB VRAM, 64GB RAM. https://huggingface.co/akatz-ai/MiniMax</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · render, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I have posted similar clip a while ago. That was generated with LTX-2.3 + Union Control LoRA. This is generated with MiniMax H3 + character swap LoRA. I have changed the facial expression in the prompt. 832 x 640, render time 12:45 RTX-4070 8GB VRAM, 64GB RAM. https://huggingface.co/akatz-ai/MiniMax-H3-Character-Swap-LoRA Tutorial https://youtu.be/uBqGvXiat2s submitted by /u/big-boss_97 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x0o0vu/h3_character_swap_lora_test_8gb_vram/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1x0npy3/comfyui_wont_launchinstall_a_new_instance/</id><title>ComfyUI won't launch/install a new instance — pressing "Pass &amp; Install" does nothing</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x0npy3/comfyui_wont_launchinstall_a_new_instance/"/>
-<published>2026-10-08T10:46:51+00:00</published><updated>2026-10-08T10:46:51+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<summary>Hey everyone, I haven’t used ComfyUI for over a month, and today I tried setting up a fresh instance. When I click "Pass &amp; Install" , absolutely nothing happens—no terminal pops up, no error message appears, and the process doesn't start. Has anyone run into this issue recently after an update or pr</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey everyone, I haven’t used ComfyUI for over a month, and today I tried setting up a fresh instance. When I click "Pass &amp;amp; Install" , absolutely nothing happens—no terminal pops up, no error message appears, and the process doesn't start. Has anyone run into this issue recently after an update or prolonged downtime? Any advice on how to force a reinstall or see detailed error logs would be appreciated! submitted by /u/Orvast [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x0npy3/comfyui_wont_launchinstall_a_new_instance/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
