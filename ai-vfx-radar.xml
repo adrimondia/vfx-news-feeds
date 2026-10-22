@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-22T08:30:30+00:00</updated>
+<updated>2026-10-22T10:31:16+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1xcc6kc/face_swap_in_flux3_image_klein/</id><title>Face swap in FLUX.3 Image Klein?</title>
@@ -242,6 +242,16 @@
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · lora, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I was curious how Fibo fares against the rest of the solid editors and if it is time to swap. Comparing edits is a pain on reddit so I've put together a small website: Image Edit Showdon comarison page Hotkeys: [←][→] to cycle model / prompt combo [↑][↓] for next / previous scene [space] to see original image TLDR: for my cases Qwen 2.1 still is the best, but FIbo might be a great option if the community supports it. There are lots of caveats here. 1. All three models are very prompt sensitive. Although I've run bare prompts as is and tried using "best" prompt enhancers for each model, the initial prompts are all over the place: some are super detailed, some are simple and a lot depends on e&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xc3bau/turbo_edits_showdown_fibo_2_edit_vs_klein_9b_vs/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xc2omf/turbo_edits_showdown_fibo_2_edit_vs_klein_9b_vs/</id><title>Turbo edits showdown: FIbo 2 edit vs Klein 9b vs Qwen 2.1 at 1 megapixel. (Caveats and links to the viewer in description)</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xc2omf/turbo_edits_showdown_fibo_2_edit_vs_klein_9b_vs/"/>
+<published>2026-10-21T23:22:01+00:00</published><updated>2026-10-21T23:22:01+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="lora"/>
+<category term="consistency"/>
+<summary>I was curious how Fibo fares against the rest of the solid editors and if it is time to swap. Comparing edits is a pain on reddit so I've put together a small website: Image Edit Showdon comarison page Hotkeys: [←][→] to cycle model / prompt combo [↑][↓] for next / previous scene [space] to see orig</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · lora, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I was curious how Fibo fares against the rest of the solid editors and if it is time to swap. Comparing edits is a pain on reddit so I've put together a small website: Image Edit Showdon comarison page Hotkeys: [←][→] to cycle model / prompt combo [↑][↓] for next / previous scene [space] to see original image TLDR: for my cases Qwen 2.1 still is the best, but FIbo might be a great option if the community supports it. There are lots of caveats here. 1. All three models are very prompt sensitive. Although I've run bare prompts as is and tried using "best" prompt enhancers for each model, the initial prompts are all over the place: some are super detailed, some are simple and a lot depends on e&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xc2omf/turbo_edits_showdown_fibo_2_edit_vs_klein_9b_vs/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xc2dxn/comparing_both_moss_image_edit_methods/</id><title>Comparing both Moss Image Edit methods</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xc2dxn/comparing_both_moss_image_edit_methods/"/>
 <published>2026-10-21T23:08:40+00:00</published><updated>2026-10-21T23:08:40+00:00</updated>
@@ -391,6 +401,17 @@
 <category term="comfyui"/>
 <summary>It has been a busy week, only just two days ago I posted about MOSS and today I am diving into FIBO 2.0 (Edit Turbo model specifically). You can find below my quick summary, and you can also see my deep dive at my HF: huggingface.co/lvladikov/FIBO2-Edit-Turbo-T2I where I have run comparisons of imag</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · render, comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;It has been a busy week, only just two days ago I posted about MOSS and today I am diving into FIBO 2.0 (Edit Turbo model specifically). You can find below my quick summary, and you can also see my deep dive at my HF: huggingface.co/lvladikov/FIBO2-Edit-Turbo-T2I where I have run comparisons of images created with direct prompt and captioned (json) prompts , and also provided ComfyUI workflows , and diffusion python scripts for torch, mlx and mflux ! Bria's FIBO 2.0 came out with two checkpoints: Fibo-2.0-dev (text-to-image and editing, 50 steps, CFG 5) and Fibo-2.0-edit-turbo , which the model card presents as the few-step, guidance-free editing model. Edit Turbo runs text-to-image too. It'&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xbv7s6/fibo_20_edit_turbo_does_texttoimage_too_4_steps/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xbu2rd/openfill_beta2_free_local_generative_fill_for/</id><title>OpenFill beta.2, free local Generative Fill for GIMP 3 on ComfyUI, now with live previews and GTX 10 support</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xbu2rd/openfill_beta2_free_local_generative_fill_for/"/>
+<published>2026-10-21T17:47:03+00:00</published><updated>2026-10-21T17:47:03+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="inpainting"/>
+<category term="comfyui"/>
+<category term="flux"/>
+<summary>Free GIMP 3 plugin for Generative Fill, Remove object, Generative Expand and Text to Image, your selection is the mask and it runs through your own ComfyUI. Defaults are DreamShaper 8 Inpainting, RealVisXL V5 with the Fooocus patch and LaMa, FLUX.1 Fill optional, any local model works. beta.2 fixes </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · inpainting, comfyui, flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Free GIMP 3 plugin for Generative Fill, Remove object, Generative Expand and Text to Image, your selection is the mask and it runs through your own ComfyUI. Defaults are DreamShaper 8 Inpainting, RealVisXL V5 with the Fooocus patch and LaMa, FLUX.1 Fill optional, any local model works. beta.2 fixes what testers hit, GTX 10 cards work, a CPU fallback warning, live previews, and FLUX Fill Q6_K for 12 GB cards https://github.com/beckettharriman/gimp-openfill submitted by /u/Speedeee_ [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xbu2rd/openfill_beta2_free_local_generative_fill_for/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xbtem0/bringing_120_audio_ai_models_to_comfyui_in_one/</id><title>Bringing 120+ Audio AI Models to ComfyUI in One Custom Node</title>
@@ -6936,14 +6957,5 @@
 <category term="comfyui"/>
 <summary>Hey everyone, I haven’t used ComfyUI for over a month, and today I tried setting up a fresh instance. When I click "Pass &amp; Install" , absolutely nothing happens—no terminal pops up, no error message appears, and the process doesn't start. Has anyone run into this issue recently after an update or pr</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey everyone, I haven’t used ComfyUI for over a month, and today I tried setting up a fresh instance. When I click "Pass &amp;amp; Install" , absolutely nothing happens—no terminal pops up, no error message appears, and the process doesn't start. Has anyone run into this issue recently after an update or prolonged downtime? Any advice on how to force a reinstall or see detailed error logs would be appreciated! submitted by /u/Orvast [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x0npy3/comfyui_wont_launchinstall_a_new_instance/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1x0n5oj/need_a_honest_opinion_on_this_vfx/</id><title>Need A honest opinion on this Vfx.</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1x0n5oj/need_a_honest_opinion_on_this_vfx/"/>
-<published>2026-10-08T10:12:44+00:00</published><updated>2026-10-08T10:12:44+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="vfx"/>
-<summary>be honest submitted by /u/Acrobatic_Fruit5937 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;be honest submitted by /u/Acrobatic_Fruit5937 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1x0n5oj/need_a_honest_opinion_on_this_vfx/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
