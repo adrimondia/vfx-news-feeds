@@ -2,8 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-22T12:30:57+00:00</updated>
+<updated>2026-10-22T14:30:54+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xchebp/kokon_010_the_qwenimage_21_text_encoder_now/</id><title>Kokon 0.10: the Qwen-Image 2.1 text encoder now writes your prompts too (no second model), plus your own LoRAs (beta)</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xchebp/kokon_010_the_qwenimage_21_text_encoder_now/"/>
+<published>2026-10-22T12:37:17+00:00</published><updated>2026-10-22T12:37:17+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<category term="lora"/>
+<summary>A week ago I posted Kokon here : a no-settings desktop photo editor for Qwen-Image 2.1. It's the open model you'd run in ComfyUI, without the nodes. 0.10 adds the two things people asked for most. Prompt+. Type a short idea, in any language, and Kokon writes a detailed prompt from it before making t</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;A week ago I posted Kokon here : a no-settings desktop photo editor for Qwen-Image 2.1. It's the open model you'd run in ComfyUI, without the nodes. 0.10 adds the two things people asked for most. Prompt+. Type a short idea, in any language, and Kokon writes a detailed prompt from it before making the image. For edits it looks at your photo first. You watch the prompt being written, and the result keeps both your words and the written prompt, so you can reuse either. It's off by default, one click next to Quality. Both system prompts are editable in Settings. The prompt is written by Qwen3-VL 8B, the text encoder Qwen-Image 2.1 already loads. There's no second model to download and nothing e&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xchebp/kokon_010_the_qwenimage_21_text_encoder_now/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1xcc6kc/face_swap_in_flux3_image_klein/</id><title>Face swap in FLUX.3 Image Klein?</title>
 <link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xcc6kc/face_swap_in_flux3_image_klein/"/>
@@ -242,6 +252,15 @@
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · lora, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I was curious how Fibo fares against the rest of the solid editors and if it is time to swap. Comparing edits is a pain on reddit so I've put together a small website: Image Edit Showdon comarison page Hotkeys: [←][→] to cycle model / prompt combo [↑][↓] for next / previous scene [space] to see original image TLDR: for my cases Qwen 2.1 still is the best, but FIbo might be a great option if the community supports it. There are lots of caveats here. 1. All three models are very prompt sensitive. Although I've run bare prompts as is and tried using "best" prompt enhancers for each model, the initial prompts are all over the place: some are super detailed, some are simple and a lot depends on e&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xc3bau/turbo_edits_showdown_fibo_2_edit_vs_klein_9b_vs/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xc30ue/gaia_2_gaia_animation_unencrypted/</id><title>gaia 2 (gaia animation) unencrypted?</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xc30ue/gaia_2_gaia_animation_unencrypted/"/>
+<published>2026-10-21T23:37:27+00:00</published><updated>2026-10-21T23:37:27+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="animation"/>
+<summary>is it known that the weights of the model are unencrypted in the cache? I just made an easy test completly without the topaz suite from the unencrypted model i found at '/Applications/Topaz Video.app/Contents/Resources/models/coreMLCache/ganim-v1-fp16-576x672-2x-OS15-mlp' on macos. Im not promoting </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · animation&lt;/small&gt;&lt;/p&gt;&lt;p&gt;is it known that the weights of the model are unencrypted in the cache? I just made an easy test completly without the topaz suite from the unencrypted model i found at '/Applications/Topaz Video.app/Contents/Resources/models/coreMLCache/ganim-v1-fp16-576x672-2x-OS15-mlp' on macos. Im not promoting anything i have official topaz i just found the models and just used codex to make a quick proof on concept. First image is original, second image is my proof of concept third option is using topaz video directly submitted by /u/neudarkness [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xc30ue/gaia_2_gaia_animation_unencrypted/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xc2omf/turbo_edits_showdown_fibo_2_edit_vs_klein_9b_vs/</id><title>Turbo edits showdown: FIbo 2 edit vs Klein 9b vs Qwen 2.1 at 1 megapixel. (Caveats and links to the viewer in description)</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xc2omf/turbo_edits_showdown_fibo_2_edit_vs_klein_9b_vs/"/>
 <published>2026-10-21T23:22:01+00:00</published><updated>2026-10-21T23:22:01+00:00</updated>
@@ -338,6 +357,15 @@
 <category term="minimax"/>
 <summary>I see people here raving about it being a really good edit model. HOW? I tried some things, always got bad, low quality results or deformed anatomy. I would highly appreciate if anyone could share their H3 image edit workflow, and an H3 image generation one if you have it. Thanks. submitted by /u/fl</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I see people here raving about it being a really good edit model. HOW? I tried some things, always got bad, low quality results or deformed anatomy. I would highly appreciate if anyone could share their H3 image edit workflow, and an H3 image generation one if you have it. Thanks. submitted by /u/flaminghotcola [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xbyw1j/how_do_you_image_edit_or_image_generate_wit/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xbysj7/mc_standly_red_40_h3_minimax_made_with_sorant/</id><title>MC Standly - Red 40 (H3 Minimax) made with Soran't</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xbysj7/mc_standly_red_40_h3_minimax_made_with_sorant/"/>
+<published>2026-10-21T20:41:07+00:00</published><updated>2026-10-21T20:41:07+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="minimax"/>
+<summary>submitted by /u/pwillia7 [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/pwillia7 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xbysj7/mc_standly_red_40_h3_minimax_made_with_sorant/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/vfx/comments/1xbypj5/what_is_a_good_pc_option/</id><title>What is a good PC option</title>
@@ -6836,71 +6864,5 @@
 <category term="unreal engine"/>
 <summary>Here is the VFX I created in Aqueduct. Why use Aqueduct instead of Photoshop or Substance Designer? I particularly enjoy procedural and non-destructive node-based workflows. Aqueduct makes it possible to build the effect step by step while keeping every element easily editable. Another interesting p</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 4 · vfx, unreal, unreal engine&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Here is the VFX I created in Aqueduct. Why use Aqueduct instead of Photoshop or Substance Designer? I particularly enjoy procedural and non-destructive node-based workflows. Aqueduct makes it possible to build the effect step by step while keeping every element easily editable. Another interesting part is that breaking the effect down this way makes it easier to understand which parts could later be recreated directly inside an Unreal Engine material/shader. submitted by /u/NallouN [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1x0sl4r/vfx_breakdown/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1x0rdab/a_quick_minimax_h3_news_roundup_8th_october_2026/</id><title>A quick Minimax H3 news round-up - 8th October 2026</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x0rdab/a_quick_minimax_h3_news_roundup_8th_october_2026/"/>
-<published>2026-10-08T13:46:54+00:00</published><updated>2026-10-08T13:46:54+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="tracking"/>
-<category term="upscaler"/>
-<category term="comfyui"/>
-<category term="flux"/>
-<category term="minimax"/>
-<category term="lora"/>
-<summary>Another quick Minimax H3 news and goodies round-up, for those who may have missed some items. -&gt; A Person Remover LoRA for H3. "Supply the original video and a clean version of its first frame". The ComfyUI workflow and SAM 3.1 then tracks and erases the person from the video clip. First-frame remov</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 7 · tracking, upscaler, comfyui, flux, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Another quick Minimax H3 news and goodies round-up, for those who may have missed some items. -&amp;gt; A Person Remover LoRA for H3. "Supply the original video and a clean version of its first frame". The ComfyUI workflow and SAM 3.1 then tracks and erases the person from the video clip. First-frame removal can be done with models such as Flux Klein, e.g. "remove X and reveal what is behind it". https://huggingface.co/akatz-ai/MiniMax-H3-Person-Remover-LoRA https://github.com/supermansundies/comfyui-klein-edit-composite (multiple iterative edits on a Klein image, without the rest of image shifting about) https://jurn.link/dazposer/wp-content/uploads/2026/06/Klien_4b_GGUF_workflow__multiple_edits_w&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x0rdab/a_quick_minimax_h3_news_roundup_8th_october_2026/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1x0r853/realtime_liquid_mixing_and_concentrationbased/</id><title>Real-time liquid mixing and concentration-based absorption in a Vulkan lab prototype</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1x0r853/realtime_liquid_mixing_and_concentrationbased/"/>
-<published>2026-10-08T13:40:45+00:00</published><updated>2026-10-08T13:40:45+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="rendering"/>
-<summary>I’m developing Chemistry Lab Sim, an interactive 3D liquid sandbox built on ST-FLIP in Vulkan. This new clip shows pouring and mixing colored solutions in lab glassware, running in real time on a Radeon RX 9070 XT. Local concentrations travel with the fluid parcels, and conservative diffusion exchan</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 1 · rendering&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I’m developing Chemistry Lab Sim, an interactive 3D liquid sandbox built on ST-FLIP in Vulkan. This new clip shows pouring and mixing colored solutions in lab glassware, running in real time on a Radeon RX 9070 XT. Local concentrations travel with the fluid parcels, and conservative diffusion exchanges material between neighboring parcels. The liquid renderer integrates concentration-dependent absorption along refracted rays rather than blending display colors. At this stage the substances are passive solutes/pigments in one carrier; chemical reactions and immiscible fluids are future work. The longer-term game is inspired by The Powder Toy and Noita. https://youtu.be/hSAO_TwFopE What would &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1x0r853/realtime_liquid_mixing_and_concentrationbased/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1x0qtg1/what_kind_of_cad_files_do_we_need_to_request_from/</id><title>What kind of CAD files do we need to request from the architect to render them in a 3D walkthrough and would Unreal Engine be the best option?</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x0qtg1/what_kind_of_cad_files_do_we_need_to_request_from/"/>
-<published>2026-10-08T13:23:29+00:00</published><updated>2026-10-08T13:23:29+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="render"/>
-<category term="unreal"/>
-<category term="unreal engine"/>
-<summary>Hi, I have a friend who is trying to make sure they're ordering the right window units, cabinets, etc before they build out an expensive home. He hired me to help him fix the half-ass AI solution he was shown. They were given DWG which are just 2D files, and no 3D files. Wouldn't we need 3D files at</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 6 · render, unreal, unreal engine&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi, I have a friend who is trying to make sure they're ordering the right window units, cabinets, etc before they build out an expensive home. He hired me to help him fix the half-ass AI solution he was shown. They were given DWG which are just 2D files, and no 3D files. Wouldn't we need 3D files at the bare minimum to builld out the floor plans? I tried a one shot solution, but it just extrudes what it assumes the walls would look like and it's just a beige mess of nothing, really. I could use some guidance. I don't think I can achieve what they want with 2D files. submitted by /u/DangKilla [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x0qtg1/what_kind_of_cad_files_do_we_need_to_request_from/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1x0qde5/amd_vs_intel_gpus/</id><title>Amd vs Intel gpus</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x0qde5/amd_vs_intel_gpus/"/>
-<published>2026-10-08T13:03:35+00:00</published><updated>2026-10-08T13:03:35+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="minimax"/>
-<category term="ltx"/>
-<summary>Which is better for image and video gen using SDXL, zimage and ltx or minimax? The AMD pro v620 or Intel b70? Which one would be faster? submitted by /u/SpecificAd981 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax, ltx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Which is better for image and video gen using SDXL, zimage and ltx or minimax? The AMD pro v620 or Intel b70? Which one would be faster? submitted by /u/SpecificAd981 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x0qde5/amd_vs_intel_gpus/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1x0q3bw/why_does_minimax_h3_nonpruned_perform_so_poorly/</id><title>Why does Minimax H3 non-pruned perform so poorly?</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x0q3bw/why_does_minimax_h3_nonpruned_perform_so_poorly/"/>
-<published>2026-10-08T12:50:56+00:00</published><updated>2026-10-08T12:50:56+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<category term="minimax"/>
-<category term="lora"/>
-<summary>Here is a side-by-side comparison I put together between the two versions. (Video/Screenshot attached) On the left: unset ref2va_pruned_int8 using the Alibaba ACC LoRA (running at 8 steps ). It generates a high-quality 15-second video . On the right (The issue): ref2va_non_pruned_int8 running on Com</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · comfyui, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Here is a side-by-side comparison I put together between the two versions. (Video/Screenshot attached) On the left: unset ref2va_pruned_int8 using the Alibaba ACC LoRA (running at 8 steps ). It generates a high-quality 15-second video . On the right (The issue): ref2va_non_pruned_int8 running on ComfyUI without any LoRA or custom attention blocks (running at 30 steps). It also generates a 15-second video, but the quality looks really weird compared to the pruned version. Why is the non-pruned version performing so poorly here despite using double the inference steps for the same video length? Am I missing a specific configuration, or does this version absolutely require a LoRA to function pr&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x0q3bw/why_does_minimax_h3_nonpruned_perform_so_poorly/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1x0pv10/help_to_stop_consuming_lowvalue_content/</id><title>Help to stop consuming low-value content</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x0pv10/help_to_stop_consuming_lowvalue_content/"/>
-<published>2026-10-08T12:40:04+00:00</published><updated>2026-10-08T12:40:04+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="video generation"/>
-<category term="comfyui"/>
-<category term="flux"/>
-<summary>Could you recommend a tutorial, course, or YouTube channel for learning ComfyUI? I currently use it for images (Flux 2 with pre-made workflows) and have achieved great results despite my lack of deep knowledge, but I am looking for content that truly expands my skills. The videos from my country (Br</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · video generation, comfyui, flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Could you recommend a tutorial, course, or YouTube channel for learning ComfyUI? I currently use it for images (Flux 2 with pre-made workflows) and have achieved great results despite my lack of deep knowledge, but I am looking for content that truly expands my skills. The videos from my country (Brazil) are repetitive and unrealistic. I want to learn both photo and video generation and editing within ComfyUI. I am looking for something close to a full course to seriously dedicate myself to studying. My hardware is: RTX 5070 12GB, Ryzen 7 7800X3D, and 64GB (2x32GB) 6000MHz RAM. submitted by /u/JaimeRdrig [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x0pv10/help_to_stop_consuming_lowvalue_content/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
