@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-22T00:30:28+00:00</updated>
+<updated>2026-10-22T02:30:21+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
 <entry>
 <id>https://www.reddit.com/r/vfx/comments/1xc1zwi/how_to_network_at_this_vfx_event/</id><title>How to network at this vfx event?</title>
@@ -16,6 +16,20 @@
 <category term="maya"/>
 <summary>So a little background, I finished filmschool about 1.5 years ago, and along the way I discovered After Effects and later I learned more specialised software like Blender, Maya, Houdini and Fusion. Currently I study 3D animation, and I am leaning a bit more towards animation instead of vfx. Still I </summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 6 · animation, vfx, houdini, blender, maya&lt;/small&gt;&lt;/p&gt;&lt;p&gt;So a little background, I finished filmschool about 1.5 years ago, and along the way I discovered After Effects and later I learned more specialised software like Blender, Maya, Houdini and Fusion. Currently I study 3D animation, and I am leaning a bit more towards animation instead of vfx. Still I love vfx tho. So tomorrow there is this vfx gathering and artists who worked on “the lost bus” will give a presentation about their approach to the vfx of the movie. Afterwards we’ll grab drinks and talk. This is my first time going to an event like this, so what do I do? I want to meet people and throw myself out there, but idk how to make lasting connections. I cant just ask for their number or &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xc1zwi/how_to_network_at_this_vfx_event/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xbzw1o/minimax_h3_replace_background_workflow_4k/</id><title>Minimax h3 Replace Background Workflow 4k 600frames+</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xbzw1o/minimax_h3_replace_background_workflow_4k/"/>
+<published>2026-10-21T21:23:22+00:00</published><updated>2026-10-21T21:23:22+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="upscaler"/>
+<category term="vfx"/>
+<category term="denoising"/>
+<category term="comfyui"/>
+<category term="minimax"/>
+<category term="lora"/>
+<summary>https://github.com/NyckM/Bruxosdovfx-SyncTile-MiniMax-H3-v5.4/tree/main Workflow https://github.com/NyckM/Bruxosdovfx-SyncTile-MiniMax-H3-v5.4/blob/main/workflow/minimaxH3BackgroundSwap_v18_LatentF.json The idea in one sentence A large or long video is split into overlapping regions (spatial tiles ×</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 7 · upscaler, vfx, denoising, comfyui, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;https://github.com/NyckM/Bruxosdovfx-SyncTile-MiniMax-H3-v5.4/tree/main Workflow https://github.com/NyckM/Bruxosdovfx-SyncTile-MiniMax-H3-v5.4/blob/main/workflow/minimaxH3BackgroundSwap_v18_LatentF.json The idea in one sentence A large or long video is split into overlapping regions (spatial tiles × temporal windows). At every model call all regions are predicted and blended into one canvas , so there is a single denoising trajectory : no tile seams, no chained clips, and VRAM is one region's. Install Easy way (Windows): put bruxosdovfx_EasyInstall_MiniMaxH3.bat in the ComfyUI folder (or the ComfyUI-Easy-Install folder) and double-click it. It finds the folders, installs the custom nodes (Sy&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xbzw1o/minimax_h3_replace_background_workflow_4k/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/vfx/comments/1xbypj5/what_is_a_good_pc_option/</id><title>What is a good PC option</title>
@@ -79,6 +93,15 @@
 <category term="comfyui"/>
 <summary>It has been a busy week, only just two days ago I posted about MOSS and today I am diving into FIBO 2.0 (Edit Turbo model specifically). You can find below my quick summary, and you can also see my deep dive at my HF: huggingface.co/lvladikov/FIBO2-Edit-Turbo-T2I where I have run comparisons of imag</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · render, comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;It has been a busy week, only just two days ago I posted about MOSS and today I am diving into FIBO 2.0 (Edit Turbo model specifically). You can find below my quick summary, and you can also see my deep dive at my HF: huggingface.co/lvladikov/FIBO2-Edit-Turbo-T2I where I have run comparisons of images created with direct prompt and captioned (json) prompts , and also provided ComfyUI workflows , and diffusion python scripts for torch, mlx and mflux ! Bria's FIBO 2.0 came out with two checkpoints: Fibo-2.0-dev (text-to-image and editing, 50 steps, CFG 5) and Fibo-2.0-edit-turbo , which the model card presents as the few-step, guidance-free editing model. Edit Turbo runs text-to-image too. It'&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xbv7s6/fibo_20_edit_turbo_does_texttoimage_too_4_steps/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xbtem0/bringing_120_audio_ai_models_to_comfyui_in_one/</id><title>Bringing 120+ Audio AI Models to ComfyUI in One Custom Node</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xbtem0/bringing_120_audio_ai_models_to_comfyui_in_one/"/>
+<published>2026-10-21T17:23:13+00:00</published><updated>2026-10-21T17:23:13+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<summary>I created ComfyUI-AudioCPP about two months ago, but made pretty much zero progress 😅. Today, a community contributor finally got things moving by implementing the first set of nodes! The goal is to bring the capabilities of audio.cpp into ComfyUI: All-in-one: TTS, ASR, voice conversion, music gener</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I created ComfyUI-AudioCPP about two months ago, but made pretty much zero progress 😅. Today, a community contributor finally got things moving by implementing the first set of nodes! The goal is to bring the capabilities of audio.cpp into ComfyUI: All-in-one: TTS, ASR, voice conversion, music generation, audio enhancement, separation, and more through a unified engine. Broad model coverage: 120+ audio model families, without maintaining separate inference implementations for each. Unified interface: Many models share the same interface in audio.cpp, so supporting additional models in ComfyUI can come almost for free once the corresponding task nodes are implemented. High performance: Optimi&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xbtem0/bringing_120_audio_ai_models_to_comfyui_in_one/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/vfx/comments/1xbsrey/conductor_feedback/</id><title>Conductor feedback?</title>
@@ -6786,35 +6809,5 @@
 <category term="controlnet"/>
 <summary>I play electronic drums and synths in Frame, a duo from Buenos Aires (Guido plays santoor and synths). Everything here runs locally with open tools. The workflow for this one: Footage: one take of a live improvisation, filmed vertically on a DJI Osmo Pocket 3 in front of a green screen. Audio analys</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 5 · green screen, optical flow, stable diffusion, controlnet&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I play electronic drums and synths in Frame, a duo from Buenos Aires (Guido plays santoor and synths). Everything here runs locally with open tools. The workflow for this one: Footage: one take of a live improvisation, filmed vertically on a DJI Osmo Pocket 3 in front of a green screen. Audio analysis: Demucs splits the mix into drums / bass / other, and librosa finds onsets, beats and sections. The "painting": a three.js page rendered headless in Chrome. An abstract 3D shape and the lighting react to those stems, and we're keyed from the green screen and composited into it. AI pass: every frame goes through Stable Diffusion 1.5 img2img with the LCM-LoRA (10 steps) and a depth ControlNet (de&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x0fn2v/live_improv_music_video_audioreactive_webgl/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1x0f64i/a_short_film_about_relationships_quiet_then_loud/</id><title>A short film about relationships (quiet then loud)</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x0f64i/a_short_film_about_relationships_quiet_then_loud/"/>
-<published>2026-10-08T02:17:44+00:00</published><updated>2026-10-08T02:17:44+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="minimax"/>
-<category term="seedance"/>
-<category term="ltx"/>
-<summary>Sdxl and Klein, ltx and minimax and some seedance. Comfyui with an agent driver submitted by /u/TheHollywoodGeek [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · comfyui, minimax, seedance, ltx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Sdxl and Klein, ltx and minimax and some seedance. Comfyui with an agent driver submitted by /u/TheHollywoodGeek [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x0f64i/a_short_film_about_relationships_quiet_then_loud/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1x0etug/freeform_motion_transfer_lora_and_workflow/</id><title>Freeform Motion Transfer Lora and Workflow</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x0etug/freeform_motion_transfer_lora_and_workflow/"/>
-<published>2026-10-08T02:00:29+00:00</published><updated>2026-10-08T02:00:29+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="lora"/>
-<summary>submitted by /u/CQDSN [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/CQDSN [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x0etug/freeform_motion_transfer_lora_and_workflow/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1x0erh1/freeform_motion_transfer_lora_and_workflow/</id><title>Freeform Motion Transfer Lora and Workflow</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x0erh1/freeform_motion_transfer_lora_and_workflow/"/>
-<published>2026-10-08T01:57:20+00:00</published><updated>2026-10-08T01:57:20+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="lora"/>
-<summary>submitted by /u/CQDSN [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/CQDSN [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x0erh1/freeform_motion_transfer_lora_and_workflow/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
