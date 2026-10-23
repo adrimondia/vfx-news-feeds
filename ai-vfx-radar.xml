@@ -2,8 +2,82 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-23T16:30:39+00:00</updated>
+<updated>2026-10-23T18:30:29+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1xdk83p/framestore_talk_about_how_they_used_4d_gaussian/</id><title>Framestore talk about how they used 4D Gaussian Splats on Superman</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xdk83p/framestore_talk_about_how_they_used_4d_gaussian/"/>
+<published>2026-10-23T17:21:28+00:00</published><updated>2026-10-23T17:21:28+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="4d"/>
+<summary>submitted by /u/Milly_onaire [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · 4d&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/Milly_onaire [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xdk83p/framestore_talk_about_how_they_used_4d_gaussian/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xdj0tk/relight_studio_interactive_physically_based/</id><title>Relight Studio: interactive, physically based relighting inside ComfyUI (no generative re-render, nothing leaves your GPU)</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xdj0tk/relight_studio_interactive_physically_based/"/>
+<published>2026-10-23T16:36:18+00:00</published><updated>2026-10-23T16:36:18+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="relighting"/>
+<category term="relight"/>
+<category term="compositing"/>
+<category term="vfx"/>
+<category term="render"/>
+<category term="comfyui"/>
+<summary>Same photo. Four completely different lighting setups. None of them were shot. For the past few weeks I've been building a relighting tool inside ComfyUI. The path there was more interesting than the result. It started with my library of film stills that I use for lighting reference. I built a node </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 9 · relighting, relight, compositing, vfx, render, comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Same photo. Four completely different lighting setups. None of them were shot. For the past few weeks I've been building a relighting tool inside ComfyUI. The path there was more interesting than the result. It started with my library of film stills that I use for lighting reference. I built a node that indexes it locally and lets me search in plain words, like "neon rain night, hard rim light". It ranks results by mood, composition and colour. The next question was obvious: can I put that light onto my own image? Generative image-to-image got close, but faces drifted and I couldn't move a light ten degrees and get a predictable result. So I changed approach. The workflow now: → cuts out the&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xdj0tk/relight_studio_interactive_physically_based/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1xdije1/hiring_experienced_nuke_compositors_feature_film/</id><title>Hiring: Experienced Nuke Compositors — Feature Film / Approx. 3 Months</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xdije1/hiring_experienced_nuke_compositors_feature_film/"/>
+<published>2026-10-23T16:18:16+00:00</published><updated>2026-10-23T16:18:16+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="nuke"/>
+<summary>submitted by /u/KingsRansomMedia [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · nuke&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/KingsRansomMedia [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xdije1/hiring_experienced_nuke_compositors_feature_film/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xdidzz/abyssbeacon_v151_find_track_and_download_loras/</id><title>AbyssBeacon v1.5.1 - Find, track, and download LoRAs and checkpoints across six model sites</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xdidzz/abyssbeacon_v151_find_track_and_download_loras/"/>
+<published>2026-10-23T16:12:40+00:00</published><updated>2026-10-23T16:12:40+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="tracking"/>
+<category term="comfyui"/>
+<category term="flux"/>
+<summary>Checking CivitAI for new LoRAs, switching to Hugging Face, checking whether a favorite checkpoint updated, then repeating everything for another architecture gets old pretty quickly. AbyssBeacon brings model discovery, update tracking, previews, and downloads into one local app. Choose the architect</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · tracking, comfyui, flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Checking CivitAI for new LoRAs, switching to Hugging Face, checking whether a favorite checkpoint updated, then repeating everything for another architecture gets old pretty quickly. AbyssBeacon brings model discovery, update tracking, previews, and downloads into one local app. Choose the architectures and sources you care about, scan for new or updated models, browse image and video previews, read model information, and download files into your ComfyUI folders. Favorites, creator pages, collections, and downloaded/update-available tracking help you keep track of what you actually use. It searches CivitAI, CivitAI Red, Hugging Face, ModelScope, SeaArt, and TensorHub Art. You can run archite&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xdidzz/abyssbeacon_v151_find_track_and_download_loras/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1xdibwc/on_set_vfx_sup_looking_to_make_connections/</id><title>On Set VFX Sup looking to make connections</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xdibwc/on_set_vfx_sup_looking_to_make_connections/"/>
+<published>2026-10-23T16:10:37+00:00</published><updated>2026-10-23T16:10:37+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="vfx"/>
+<summary>I’m an Emmy nominated VFX Sup with 6 years experience on set looking to find other collaborators and connections. I’d love to job share with other VFX Sups, give free or affordable advice to indie films and connect with any producers or companies. Especially if they might be looking to hire an On Se</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I’m an Emmy nominated VFX Sup with 6 years experience on set looking to find other collaborators and connections. I’d love to job share with other VFX Sups, give free or affordable advice to indie films and connect with any producers or companies. Especially if they might be looking to hire an On Set VFX Sup. I’ve worked on two jobs here in the UK so far and my CV from New Zealand is mainly medium to ultra large budget projects. I’ve had to move countries to the UK due to circumstances beyond my control. Which, as we all know, is tough to do when you can only get jobs through friends or trusted colleagues. So any pointers or friendly faces would be very appreciated! Edit: Im especially keen &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xdibwc/on_set_vfx_sup_looking_to_make_connections/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1xdhk29/anyone_else_think_we_could_use_a_little_more/</id><title>Anyone else think we could use a little more positivity around here?</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xdhk29/anyone_else_think_we_could_use_a_little_more/"/>
+<published>2026-10-23T15:42:39+00:00</published><updated>2026-10-23T15:42:39+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="vfx"/>
+<category term="blender"/>
+<category term="unreal"/>
+<summary>I've been in VFX for 13 years, and I get it. Things are rough right now. The job market is scary, studios are struggling, AI is changing things, and a lot of people are understandably frustrated. But man, sometimes I come on here and feel like there's absolutely nothing left to be positive about. I </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 3 · vfx, blender, unreal&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I've been in VFX for 13 years, and I get it. Things are rough right now. The job market is scary, studios are struggling, AI is changing things, and a lot of people are understandably frustrated. But man, sometimes I come on here and feel like there's absolutely nothing left to be positive about. I understand the negativity, I really do, but I also think we might be doing ourselves a disservice by constantly focusing on the worst parts of this industry. I got into VFX because I loved creating things. One of my personal goals was to get my name in the Star Wars credits, and I managed to do that. I'm still proud of it. But honestly, some of the best things I've gotten out of these 13 years hav&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xdhk29/anyone_else_think_we_could_use_a_little_more/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1xdh0i8/ive_spent_3_years_building_a_subscriptionfree/</id><title>I’ve spent 3 years building a subscription-free compositing app: IllusionFX</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xdh0i8/ive_spent_3_years_building_a_subscriptionfree/"/>
+<published>2026-10-23T15:21:54+00:00</published><updated>2026-10-23T15:21:54+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="roto"/>
+<category term="tracking"/>
+<category term="compositing"/>
+<summary>Current compositing tools tend to fall into one of three buckets: expensive, buggy, or free but with a rough workflow. I’m a software engineer, and almost three years ago I started building my own in my spare time: IllusionFX . Features: Node graph + layer-based timeline: build your comp with nodes,</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 4 · roto, tracking, compositing&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Current compositing tools tend to fall into one of three buckets: expensive, buggy, or free but with a rough workflow. I’m a software engineer, and almost three years ago I started building my own in my spare time: IllusionFX . Features: Node graph + layer-based timeline: build your comp with nodes, then cut, trim and animate layers with keyframes or expressions GPU-accelerated, native 32-bit float pipeline OpenColorIO support Multi-channel EXR support Built-in AI tools (roto, tracking…) that run locally , with no cloud processing and no uploading your footage anywhere GPU effects: merge, keyer, grain, blur, glow, color correction, distortions and more Plugin SDK so you can write your own ef&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xdh0i8/ive_spent_3_years_building_a_subscriptionfree/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xdgxmy/jib_mix_moss_realistic_out_now_free/</id><title>Jib Mix Moss Realistic - Out now -Free</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xdgxmy/jib_mix_moss_realistic_out_now_free/"/>
@@ -43,6 +117,15 @@
 <category term="consistency"/>
 <summary>I’m a fashion photographer working with AI to create images from real garments, bags, shoes and accessories. The main challenge is product fidelity. An image can look convincing overall, but closer inspection reveals changes to the actual product: shape, proportions, materials, original textures, st</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · compositing, flux, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I’m a fashion photographer working with AI to create images from real garments, bags, shoes and accessories. The main challenge is product fidelity. An image can look convincing overall, but closer inspection reveals changes to the actual product: shape, proportions, materials, original textures, stitching, logos or hardware. For commercial work, those differences matter. I’ve been testing Nano Banana, as well as FLUX 2 and FLUX 3. So far, I haven’t achieved the consistency and detail I need. In some tests with other models, the image quality wasn’t sufficient to properly assess fidelity—even text and logos were too unclear to compare with the originals. These are my results so far, and I’m &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xdgdce/which_ai_workflows_actually_preserve_real/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1xdg7e3/light_vfx_work/</id><title>Light VFX work?</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xdg7e3/light_vfx_work/"/>
+<published>2026-10-23T14:51:37+00:00</published><updated>2026-10-23T14:51:37+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="vfx"/>
+<summary>I’m so close to the finish line of my short film, it’s a real housewives inspired thriller and I know that adding some blood pooling effects for a few shots would really sweeten this thing up immensely. I don’t have any money left, but figured I’d put an ask out here to see if there’s anyone that mi</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I’m so close to the finish line of my short film, it’s a real housewives inspired thriller and I know that adding some blood pooling effects for a few shots would really sweeten this thing up immensely. I don’t have any money left, but figured I’d put an ask out here to see if there’s anyone that might be open to it! submitted by /u/trevahhhthetoad [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xdg7e3/light_vfx_work/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xdfbu2/i_got_tired_of_paying_higgsfield_credits_just_to/</id><title>I got tired of paying Higgsfield credits just to get perfectly SFW prompts refused, so I built my own Higgsfield that runs locally on ComfyUI (open source)</title>
@@ -6719,58 +6802,5 @@
 <category term="minimax"/>
 <summary>I’ve made a ComfyUI custom node pack for MiniMax H3 RefMods. It lets you create reusable references from images, audio and video, choose which sources to use at runtime, and see how many reference tokens each source uses. Main features: Create RefMods from images, audio and video files Select which </summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I’ve made a ComfyUI custom node pack for MiniMax H3 RefMods. It lets you create reusable references from images, audio and video, choose which sources to use at runtime, and see how many reference tokens each source uses. Main features: Create RefMods from images, audio and video files Select which sources to load in a RefMod at runtime Save on generation time if you don't need certain sources See each source's cost in tokens Combine many RefMods into a single one Bake the description and the retention strategy in the RefMod Only need to write the H3 video description prompt Source labels like &amp;lt;Picture 1&amp;gt; resolved automatically Drag a RefMod into the canvas to load its creation workflow Node&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x1uc4u/minimax_h3_refmod_lab_for_comfyui_select_combine/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1x1sni1/yet_more_simple_tricks_for_maintaining_quality_in/</id><title>Yet more simple tricks for maintaining quality in continuous MiniMax H3 videos — is the last frame all you need?</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x1sni1/yet_more_simple_tricks_for_maintaining_quality_in/"/>
-<published>2026-10-09T18:14:15+00:00</published><updated>2026-10-09T18:14:15+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="minimax"/>
-<summary>https://reddit.com/link/1x1sni1/video/2qsicezoghuh1/player I apologize for the quality (and his strange teeth lol) - the idea was to demonstrate the proof-of-concept and not have a polished high-res video. I know, we've seen already a few discussions about continuing videos. There are multiple solut</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;https://reddit.com/link/1x1sni1/video/2qsicezoghuh1/player I apologize for the quality (and his strange teeth lol) - the idea was to demonstrate the proof-of-concept and not have a polished high-res video. I know, we've seen already a few discussions about continuing videos. There are multiple solutions using latent extensions. Some solutions are simple, some quite complex with all-in-one studio-like nodes and workflows that incorporate everything latest and greatest. They work well if you often have video continuation projects. Here is the thread listing those: https://www.reddit.com/r/StableDiffusion/comments/1wrodxx/long_minimaxh3_videos_situation_lets_talk/ However, all-in-one solutions &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x1sni1/yet_more_simple_tricks_for_maintaining_quality_in/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1x1sixc/the_inner_workings_of_wan2gp_ltx2/</id><title>The inner workings of Wan2GP (LTX2)?</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x1sixc/the_inner_workings_of_wan2gp_ltx2/"/>
-<published>2026-10-09T18:09:25+00:00</published><updated>2026-10-09T18:09:25+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="wan2"/>
-<category term="ltx"/>
-<summary>Hi all, I've been bouncing over to Wan2GP exclusively for NSFW LTX-2 generation (i2v). I have not been able to find a similar Comfy workflow for it that doesn't look like a Metroid map and want me to download ten more node packs. I think I did get it to run once or twice, but it either takes forever</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · wan2, ltx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi all, I've been bouncing over to Wan2GP exclusively for NSFW LTX-2 generation (i2v). I have not been able to find a similar Comfy workflow for it that doesn't look like a Metroid map and want me to download ten more node packs. I think I did get it to run once or twice, but it either takes forever, gives totally undesirable results, or a combination of the two. LTX gens in Wan2GP are about twice as fast as Comfy Wan2.2 gens despite producing clips that are twice as long. Does anybody know what sort of magic this thing does behind the scenes and how I could get a similar result with a fairly simple Comfy workflow. If I'm looking at the correct "finetune", my LTX setup in Wan2GP uses: 10Eros&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x1sixc/the_inner_workings_of_wan2gp_ltx2/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1x1s37j/qwen_image_21_turbo_bf16_unnatural_skin_texture/</id><title>Qwen Image 2.1 Turbo BF16 – Unnatural Skin Texture Even With Dynamic Scheduler</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x1s37j/qwen_image_21_turbo_bf16_unnatural_skin_texture/"/>
-<published>2026-10-09T17:52:41+00:00</published><updated>2026-10-09T17:52:41+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="hdr"/>
-<category term="comfyui"/>
-<summary>Hi! I've been testing Qwen Image 2.1 Turbo BF16 in ComfyUI on an RTX 5090 (32GB VRAM), and I've noticed an issue with photorealistic image generation. The Turbo model consistently produces overly sharp, rough, and unnatural skin textures. Facial details such as pores, wrinkles, and skin imperfection</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · hdr, comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi! I've been testing Qwen Image 2.1 Turbo BF16 in ComfyUI on an RTX 5090 (32GB VRAM), and I've noticed an issue with photorealistic image generation. The Turbo model consistently produces overly sharp, rough, and unnatural skin textures. Facial details such as pores, wrinkles, and skin imperfections appear exaggerated, almost like excessive sharpening or HDR processing. My current setup: Model: Qwen Image 2.1 Turbo BF16 (Comfy-Org) Text Encoder: Qwen3-VL 8B BF16 VAE: Qwen Image 2.1 VAE Resolution: 1024 × 1024 Steps: 8 CFG: 1.0 Sampler: Euler What I've tested: Standard ComfyUI KSampler with Euler + Simple. Qwen Image 2.1 Dynamic Scheduler from this repository. Dynamic Scheduler with 8 steps,&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x1s37j/qwen_image_21_turbo_bf16_unnatural_skin_texture/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1x1qi0u/lora_vs_refmod_create_consistent_characters_in/</id><title>LoRA vs RefMod: Create Consistent Characters in MiniMax H3 | RefMod Pilot</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x1qi0u/lora_vs_refmod_create_consistent_characters_in/"/>
-<published>2026-10-09T16:51:10+00:00</published><updated>2026-10-09T16:51:10+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="minimax"/>
-<category term="lora"/>
-<summary>I wanted to use H3 character references without spending half the time looking for the right node, so I put together; RefMod Pilot It has two workflows: Creator: upload or drop 1–8 selected photos, give the character a name, Run. The folder and image count are filled in for you Inference: choose you</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 5 · comfyui, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I wanted to use H3 character references without spending half the time looking for the right node, so I put together; RefMod Pilot It has two workflows: Creator: upload or drop 1–8 selected photos, give the character a name, Run. The folder and image count are filled in for you Inference: choose your RefMods, edit the scene and view the output. Prompt, aspect ratio, resolution, seconds, seed and steps are in one Scene node, with the rest inside a subgraph The character loader stays visible so Add RefMod, Refresh and the library buttons are still there. The uploader is a ComfyUI frontend extension or use local path to your dataset / photos folder. This uses Full Reference encoding, not LoRA t&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x1qi0u/lora_vs_refmod_create_consistent_characters_in/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1x1q4ph/workflows_for_control_and_consistency_vlo_031/</id><title>Workflows for control and consistency (vlo 0.3.1, minimax)</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x1q4ph/workflows_for_control_and_consistency_vlo_031/"/>
-<published>2026-10-09T16:36:48+00:00</published><updated>2026-10-09T16:36:48+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="inpainting"/>
-<category term="video editing"/>
-<category term="comfyui"/>
-<category term="minimax"/>
-<category term="consistency"/>
-<summary>Hey all, last week I made a post about vlo https://github.com/PxTicks/vlo It is open source video editing software with a live bridge to ComfyUI (as well as its own generation panel - which also uses ComfyUI behind the scenes). It is designed for inpainting, motion control and intentional video-maki</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 7 · inpainting, video editing, comfyui, minimax, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey all, last week I made a post about vlo https://github.com/PxTicks/vlo It is open source video editing software with a live bridge to ComfyUI (as well as its own generation panel - which also uses ComfyUI behind the scenes). It is designed for inpainting, motion control and intentional video-making workflows (as opposed to automated ones). I've made a tutorial, which steps through making a video, showing a few novel workflows (such as a time-to-move workflow for motion control). These are probably easiest used in vlo, which is designed for them, but contain general good practice for anyone combining ComfyUI use with a video editor. Link to the tutorial is here: https://www.youtube.com/wat&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x1q4ph/workflows_for_control_and_consistency_vlo_031/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
