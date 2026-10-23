@@ -2,8 +2,46 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-23T18:30:29+00:00</updated>
+<updated>2026-10-23T20:31:19+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xdoh8k/i_tested_the_rtx_30series_gpu_unlock_up_to_59/</id><title>I tested the RTX 30-series GPU Unlock: up to 59% higher throughput in ComfyUI (3090 Ti)</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xdoh8k/i_tested_the_rtx_30series_gpu_unlock_up_to_59/"/>
+<published>2026-10-23T20:02:37+00:00</published><updated>2026-10-23T20:02:37+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<category term="flux"/>
+<summary>Everybody's been glazing Zagitta’s GPU Unlock , so I figured I’d test it on my 3090 Ti. Overall, I’m pretty impressed. Can't complain about free performance. Results (median time per image) Model / configuration Stock Unlocked Throughput gain MOSS-Image SFT BF16 71.98 s 45.40 s +58.6% MOSS-Image SFT</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Everybody's been glazing Zagitta’s GPU Unlock , so I figured I’d test it on my 3090 Ti. Overall, I’m pretty impressed. Can't complain about free performance. Results (median time per image) Model / configuration Stock Unlocked Throughput gain MOSS-Image SFT BF16 71.98 s 45.40 s +58.6% MOSS-Image SFT INT8 27.31 s 27.23 s +0.3% Qwen-Image 2.1 Turbo BF16 8.51 s 5.41 s +57.2% Z-Image Turbo BF16 6.79 s 4.35 s +56.1% FLUX.1 dev FP8 checkpoint* 31.96 s 20.66 s +54.6% Z-Image Turbo BF16 + SageAttention 6.47 s 4.38 s +47.7% Qwen-Image 2.1 Turbo INT8 3.92 s 3.75 s +4.6% Qwen-Image 2.1 Turbo INT8 + SageAttention 3.92 s 3.76 s +4.3% All 120 matched stock/unlocked image pairs had identical decoded RGB pi&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xdoh8k/i_tested_the_rtx_30series_gpu_unlock_up_to_59/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xdnxkr/moss_can_natively_generate_comics_and_image/</id><title>Moss can natively generate comics and image sequences of the same character in any style</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xdnxkr/moss_can_natively_generate_comics_and_image/"/>
+<published>2026-10-23T19:41:26+00:00</published><updated>2026-10-23T19:41:26+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="image editing"/>
+<category term="lora"/>
+<summary>Moss SFT int8 that I merged with the stripe fix lora + Qwen 9b int8 So appearently it can create story sequences or comics within the same image. This model is insane. It follows prompts extremely well down to the smallest details. Manual simple sentence prompting. I used Lenovo lora for the photo s</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · image editing, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Moss SFT int8 that I merged with the stripe fix lora + Qwen 9b int8 So appearently it can create story sequences or comics within the same image. This model is insane. It follows prompts extremely well down to the smallest details. Manual simple sentence prompting. I used Lenovo lora for the photo style images. Generated with my experimental turbo method with the dmd2 turbo lora but high cfg to fix blur and bokeh problems with negative prompts so it was still quite fast. All pics are native 1080p. This model has huge potential for image editing and editing loras. submitted by /u/AltruisticList6000 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xdnxkr/moss_can_natively_generate_comics_and_image/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xdnla9/fastvideo_fasth3_omni_open_source_realtime/</id><title>FastVideo FastH3 Omni: Open Source Real-Time Minimax FastH3 Ref2VA on NVIDIA Blackwell, RTX Spark, and RTX GPUs.</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xdnla9/fastvideo_fasth3_omni_open_source_realtime/"/>
+<published>2026-10-23T19:28:15+00:00</published><updated>2026-10-23T19:28:15+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="minimax"/>
+<summary>submitted by /u/hoodadyy [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/hoodadyy [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xdnla9/fastvideo_fasth3_omni_open_source_realtime/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xdla8a/messing_around_with_minimax_h3/</id><title>Messing around with MiniMax H3</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xdla8a/messing_around_with_minimax_h3/"/>
+<published>2026-10-23T18:01:38+00:00</published><updated>2026-10-23T18:01:38+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="minimax"/>
+<summary>Tried MiniMax H3 for the first time about 2 days ago, I've been practicing how to train LoRAs for this model with ai-toolkit. These were some of the first clips that I was able to produce locally. Meant to jump in sooner but man there are so many configurations and model variants that I needed some </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Tried MiniMax H3 for the first time about 2 days ago, I've been practicing how to train LoRAs for this model with ai-toolkit. These were some of the first clips that I was able to produce locally. Meant to jump in sooner but man there are so many configurations and model variants that I needed some time to figure it out. These were all text to video without first frame or references. Blown away by how well it picked up on the characteristics of the style I was going for. submitted by /u/renderartist [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xdla8a/messing_around_with_minimax_h3/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/vfx/comments/1xdk83p/framestore_talk_about_how_they_used_4d_gaussian/</id><title>Framestore talk about how they used 4D Gaussian Splats on Superman</title>
 <link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xdk83p/framestore_talk_about_how_they_used_4d_gaussian/"/>
@@ -6783,24 +6821,5 @@
 <category term="minimax"/>
 <summary>Apologies if this is a garbage post but I'm dying inside and need to rant. I have a 'low' VRAM setup (RTX 5070 - which isn't low in any real world sense (RAMpocalypse babyyy)) and have been fighting tooth and nail to run decent MiniMax outputs. Got a stable setup outputting 0.4mp that bricked at .98</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Apologies if this is a garbage post but I'm dying inside and need to rant. I have a 'low' VRAM setup (RTX 5070 - which isn't low in any real world sense (RAMpocalypse babyyy)) and have been fighting tooth and nail to run decent MiniMax outputs. Got a stable setup outputting 0.4mp that bricked at .98mp. (Kijai and step600 ftw) Turns out the largest issue was a functional but janky ComfyUI Desktop install (no, I don't know why it was so jank). Nuked it purely out of frustration w/ Sage (turns out we like kitchen anyway) and swapped to a fresh ComfyUI portable setup. Literally all my generation times for everything image/video/joy have been cut by 2/3. and we don't crash out on VRAM anymore I c&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x1w9o4/i_cut_generation_times_66_by_going_portable_t_t/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1x1umis/the_power_of_reference_videos_for_believable/</id><title>The Power of Reference Videos for Believable Acting in Minimax</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x1umis/the_power_of_reference_videos_for_believable/"/>
-<published>2026-10-09T19:30:32+00:00</published><updated>2026-10-09T19:30:32+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="minimax"/>
-<summary>A while ago u/ R34vspec , at my suggestion, used reference videos to influence the actors. https://www.reddit.com/r/StableDiffusion/s/AiURgoCkgj He's been trying to get believable performances out of Minimax. His post didn't get a lot of attention so I wanted to post showing just how much of an impa</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;A while ago u/ R34vspec , at my suggestion, used reference videos to influence the actors. https://www.reddit.com/r/StableDiffusion/s/AiURgoCkgj He's been trying to get believable performances out of Minimax. His post didn't get a lot of attention so I wanted to post showing just how much of an impact it has Edit: You have to prompt to be consistent with the actor you're trying to replicate, then here's what you add to the prompt to guide minimax. &amp;lt;Subject 1&amp;gt; is the [character] whose entire appearance comes exclusively from &amp;lt;Picture 1&amp;gt;: [appearance]. [She/He] speaks every line as an impression of the speaker in &amp;lt;Video 1&amp;gt;. &amp;lt;Subject 2&amp;gt; is the [character] whose entire appearance comes exclusive&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x1umis/the_power_of_reference_videos_for_believable/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1x1uc4u/minimax_h3_refmod_lab_for_comfyui_select_combine/</id><title>MiniMax H3 RefMod Lab for ComfyUI: select, combine and reuse reference sources</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x1uc4u/minimax_h3_refmod_lab_for_comfyui_select_combine/"/>
-<published>2026-10-09T19:19:12+00:00</published><updated>2026-10-09T19:19:12+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="minimax"/>
-<summary>I’ve made a ComfyUI custom node pack for MiniMax H3 RefMods. It lets you create reusable references from images, audio and video, choose which sources to use at runtime, and see how many reference tokens each source uses. Main features: Create RefMods from images, audio and video files Select which </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I’ve made a ComfyUI custom node pack for MiniMax H3 RefMods. It lets you create reusable references from images, audio and video, choose which sources to use at runtime, and see how many reference tokens each source uses. Main features: Create RefMods from images, audio and video files Select which sources to load in a RefMod at runtime Save on generation time if you don't need certain sources See each source's cost in tokens Combine many RefMods into a single one Bake the description and the retention strategy in the RefMod Only need to write the H3 video description prompt Source labels like &amp;lt;Picture 1&amp;gt; resolved automatically Drag a RefMod into the canvas to load its creation workflow Node&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x1uc4u/minimax_h3_refmod_lab_for_comfyui_select_combine/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
