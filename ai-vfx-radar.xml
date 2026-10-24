@@ -2,8 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-23T22:30:19+00:00</updated>
+<updated>2026-10-24T00:30:25+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xds59e/hynomas_tencents_video_world_model_running/</id><title>Hy-Nomas (Tencent's video world model) running natively in ComfyUI with just 12GB VRAM</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xds59e/hynomas_tencents_video_world_model_running/"/>
+<published>2026-10-23T22:32:58+00:00</published><updated>2026-10-23T22:32:58+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="world model"/>
+<category term="camera control"/>
+<category term="comfyui"/>
+<category term="dit"/>
+<summary>Tencent released Hy-Nomas , a video world model: it generates a world a few seconds at a time, and every new segment remembers the earlier ones (it caches their keys/values), so you can keep going and change what happens as you go. I ported it to native ComfyUI nodes: the DiT is a normal ComfyUI MOD</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 6 · world model, camera control, comfyui, dit&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Tencent released Hy-Nomas , a video world model: it generates a world a few seconds at a time, and every new segment remembers the earlier ones (it caches their keys/values), so you can keep going and change what happens as you go. I ported it to native ComfyUI nodes: the DiT is a normal ComfyUI MODEL sampled by the stock KSampler, with ComfyUI's own memory management. What it does Start from your own image. The model has no image input, so the node encodes your picture as a short still clip and puts it in the model's memory as the first segment; the world continues from it. Not something Tencent trained, but the look carries over well (the Paris and beach clips in the video start from pictu&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xds59e/hynomas_tencents_video_world_model_running/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xdr3bn/singularity_v13_and_v2_test_generations/</id><title>Singularity v1.3 and V2 test generations</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xdr3bn/singularity_v13_and_v2_test_generations/"/>
+<published>2026-10-23T21:47:21+00:00</published><updated>2026-10-23T21:47:21+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="rendering"/>
+<category term="comfyui"/>
+<summary>So I've finally gotten around to testing the very popular H3 finetunes Singularity v1.3 and the newly updated V2. Both are the pruned Int8 varient. (Uncompressed clip comparison at https://drive.google.com/file/d/17aE5KmcRwqBAcieRnRNu8O-RAkJIPN7l/view?usp=sharing ) tl:dr - V1.3 is better at characte</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · rendering, comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;So I've finally gotten around to testing the very popular H3 finetunes Singularity v1.3 and the newly updated V2. Both are the pruned Int8 varient. (Uncompressed clip comparison at https://drive.google.com/file/d/17aE5KmcRwqBAcieRnRNu8O-RAkJIPN7l/view?usp=sharing ) tl:dr - V1.3 is better at character aesthetics when not a lot of motion is involved, V2 is a lot better at rendering action scenes. Both of them seems to be equally good at prompt adherence. For the comparisons I've used the ref2v_turbo_4step_V0.1 (at 0.75 strength) from lightx2v, so results could be vastly different from others. All the clips use the same seeds and prompts for both. I've included the full prompts for all clips be&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xdr3bn/singularity_v13_and_v2_test_generations/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/vfx/comments/1xdq35v/game_changer_corridor_key_20/</id><title>Game Changer - Corridor Key 2.0</title>
 <link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xdq35v/game_changer_corridor_key_20/"/>
@@ -6751,36 +6773,5 @@
 <category term="minimax"/>
 <summary>submitted by /u/Nimblecloud13 [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/Nimblecloud13 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x22omv/comfyuiminimax_cheat_sheet_for_beginners_now_with/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1x212il/qwen_38_27b_4bit_prompting_h3_minimax/</id><title>Qwen 3.8 27B 4bit, prompting H3 MiniMax</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x212il/qwen_38_27b_4bit_prompting_h3_minimax/"/>
-<published>2026-10-10T00:07:55+00:00</published><updated>2026-10-10T00:07:55+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="minimax"/>
-<category term="cinematic"/>
-<summary>Qwen3.8-27B-oQ4e-mtp running on oMLX on a Mac Mini M5 Pro. Avg ~30 tok/sec. H3 MiniMax approximately 15 minutes on a RTX 3090 MiniMaxAI/MiniMax-H3 t2va lightx2v/Minimax-h3-Turbo Input prompt : "make a video of two pieces of paper ona desk that turn into origami figures that then fight eaach other, c</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · minimax, cinematic&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Qwen3.8-27B-oQ4e-mtp running on oMLX on a Mac Mini M5 Pro. Avg ~30 tok/sec. H3 MiniMax approximately 15 minutes on a RTX 3090 MiniMaxAI/MiniMax-H3 t2va lightx2v/Minimax-h3-Turbo Input prompt : "make a video of two pieces of paper ona desk that turn into origami figures that then fight eaach other, changing origami shapes as the batte. it should be realistic and fun." Generated Prompt: integrated_multimodal_description: [Shot 1] Live-action, cinematic, a medium close-up from slightly above a warm walnut wooden desk in soft late-afternoon window light. Two flat sheets of paper — one pure white, one pale light blue — lie side by side in the center of the desk, still and lifeless. The white shee&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x212il/qwen_38_27b_4bit_prompting_h3_minimax/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1x1zaa3/comfyuiminimax_cheat_sheet_for_beginners/</id><title>ComfyUI/Minimax Cheat Sheet for Beginners</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x1zaa3/comfyuiminimax_cheat_sheet_for_beginners/"/>
-<published>2026-10-09T22:44:55+00:00</published><updated>2026-10-09T22:44:55+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="video generation"/>
-<category term="comfyui"/>
-<category term="minimax"/>
-<summary>I'm not a beginner, but also not an expert, but for me the terminology with comfyui and ai image/video generation can be a bit confusing. It's possible this may have errors, and an improved version could be made. But, thought it might be a useful starting point. Any better ones out there, I'd love t</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 5 · video generation, comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I'm not a beginner, but also not an expert, but for me the terminology with comfyui and ai image/video generation can be a bit confusing. It's possible this may have errors, and an improved version could be made. But, thought it might be a useful starting point. Any better ones out there, I'd love to see so I can have it to use :D submitted by /u/wildmonkeywrangler [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x1zaa3/comfyuiminimax_cheat_sheet_for_beginners/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1x1z4on/commercial_vfx_vs_filmtv_vfx/</id><title>Commercial VFX vs Film/TV VFX?</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1x1z4on/commercial_vfx_vs_filmtv_vfx/"/>
-<published>2026-10-09T22:37:50+00:00</published><updated>2026-10-09T22:37:50+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="vfx"/>
-<category term="post-production"/>
-<summary>Just quit my job at a commercial VFX house for a contract at a TV post-production company. I’m super excited to be doing VFX for narrative but I keep hearing horror stories about how inconsistent the work is. Am I cooked? submitted by /u/MentalSport3468 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 3 · vfx, post-production&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Just quit my job at a commercial VFX house for a contract at a TV post-production company. I’m super excited to be doing VFX for narrative but I keep hearing horror stories about how inconsistent the work is. Am I cooked? submitted by /u/MentalSport3468 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1x1z4on/commercial_vfx_vs_filmtv_vfx/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
