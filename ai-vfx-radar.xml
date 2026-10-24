@@ -2,8 +2,17 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-24T14:30:18+00:00</updated>
+<updated>2026-10-24T16:30:19+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xe9gga/i_got_tired_of_expand_image_workflows_redrawing/</id><title>I got tired of "expand image" workflows redrawing my photo, so I built one that only paints the sides (Qwen 2.1, ComfyUI)</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xe9gga/i_got_tired_of_expand_image_workflows_redrawing/"/>
+<published>2026-10-24T14:01:43+00:00</published><updated>2026-10-24T14:01:43+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<summary>The photo is scaled to 960 px tall and centred on a 2240x960 (21:9) canvas. The empty sides are pre-filled with a mirror of the photo edges. Sounds weird, but it stops the hard grey edge that otherwise bleeds through the VAE as a faint line. A soft mask lets Qwen paint the sides plus a 224 px ramp o</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;The photo is scaled to 960 px tall and centred on a 2240x960 (21:9) canvas. The empty sides are pre-filled with a mirror of the photo edges. Sounds weird, but it stops the hard grey edge that otherwise bleeds through the VAE as a faint line. A soft mask lets Qwen paint the sides plus a 224 px ramp over the photo edge, so the new scene can actually blend into it. Qwen 2.1 generates the sides (25 steps, CFG 1, differential diffusion). The clean photo is the reference image, never the padded canvas, because Qwen copies its reference very literally. Then the untouched original gets pasted back on top at the exact same x/y, fading in over 192 px at each edge. So the model's version of your photo &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xe9gga/i_got_tired_of_expand_image_workflows_redrawing/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/vfx/comments/1xe5wou/easy_film_vfx/</id><title>Easy film vfx?</title>
 <link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xe5wou/easy_film_vfx/"/>
@@ -6885,14 +6894,5 @@
 <category term="comfyui"/>
 <summary>Hello all, I've added some more features and taking cues from other workflow developers and bunch of minor UI changes. Long Shot Studio runs locally on http://127.0.0.1:8188/longshot The biggest change is now you can render any shot at anytime then bridge the in-betweens (this will be up to how good</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · render, comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hello all, I've added some more features and taking cues from other workflow developers and bunch of minor UI changes. Long Shot Studio runs locally on http://127.0.0.1:8188/longshot The biggest change is now you can render any shot at anytime then bridge the in-betweens (this will be up to how good your prompting is). I'd set the duration longer so the model has more wiggle room to merge. There is an option to render every odd number shots, then you can fill in the blank from there. I added this feature because I rather like the approach of end-pinning to avoid degradation from multiplying over a long duration with static background. The next method I am thinking of doing is just to mask th&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x2k7jn/long_shot_studio_063_v12/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1x2h41e/has_anyone_successfully_trained_a_yue2_lora_or/</id><title>Has anyone successfully trained a YuE2 LoRA or LoKR on an NVIDIA GPU with 16GB VRAM?</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x2h41e/has_anyone_successfully_trained_a_yue2_lora_or/"/>
-<published>2026-10-10T14:48:04+00:00</published><updated>2026-10-10T14:48:04+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="lora"/>
-<summary>Hi everyone! I'm looking for real-world experience with training LoRA or LoKR adapters for YuE2 on an NVIDIA GPU with 16GB VRAM, particularly an RTX 5060 Ti 16GB or a similar card. My goal is to train a music using a dataset of approximately 64 audio clips, each around 30–40 seconds long. I'm partic</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi everyone! I'm looking for real-world experience with training LoRA or LoKR adapters for YuE2 on an NVIDIA GPU with 16GB VRAM, particularly an RTX 5060 Ti 16GB or a similar card. My goal is to train a music using a dataset of approximately 64 audio clips, each around 30–40 seconds long. I'm particularly interested in YuE2 Joint LoRA training, where both the planner and audio decoder are trained, rather than inference or standard music generation. I'd really appreciate feedback from anyone who has actually completed a training run with 16GB VRAM. A few questions: 1. Which GPU did you use, and how much VRAM did it have? 2. Which training method or tool did you use (AI-Toolkit, ComfyUI-FL-YuE&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x2h41e/has_anyone_successfully_trained_a_yue2_lora_or/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
