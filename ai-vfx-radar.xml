@@ -2,8 +2,19 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-24T20:30:19+00:00</updated>
+<updated>2026-10-24T22:30:18+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xehgeb/release_visageimage_a_small_texttoimage_model_for/</id><title>[Release] Visage-Image - a small text-to-image model for face generation</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xehgeb/release_visageimage_a_small_texttoimage_model_for/"/>
+<published>2026-10-24T19:25:10+00:00</published><updated>2026-10-24T19:25:10+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<category term="flux"/>
+<category term="dit"/>
+<summary>https://preview.redd.it/0wzb4mbs8gxh1.png?width=1280&amp;format=png&amp;auto=webp&amp;s=44d9cbb4ccb9968c0ea54508b88e8d58413f2f79 Hi everyone! I've released my very first text-to-image model for face generation. I collected my own dataset and captioned it with Qwen3.5-4B and a bunch of other face-analysis models</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, flux, dit&lt;/small&gt;&lt;/p&gt;&lt;p&gt;https://preview.redd.it/0wzb4mbs8gxh1.png?width=1280&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=44d9cbb4ccb9968c0ea54508b88e8d58413f2f79 Hi everyone! I've released my very first text-to-image model for face generation. I collected my own dataset and captioned it with Qwen3.5-4B and a bunch of other face-analysis models. I didn't like the results I got with the FLUX.2 VAE, so I decided to train my own narrow-domain autoencoder. It turned out to beat FLUX.2 on iFID on my dataset, and in my opinion, on generation quality too. The Qwen-VAE-2.0 tech report helped hugely with that - getting to FLUX.2 quality was hard. Overall, it's a basic single-stream DiT with a rectified flow objective and a couple of modern trick&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xehgeb/release_visageimage_a_small_texttoimage_model_for/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xeec7i/random_kromoss_gens_made_by_claude_over_a_couple/</id><title>Random kromoss gens made by claude over a couple of hours</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xeec7i/random_kromoss_gens_made_by_claude_over_a_couple/"/>
@@ -6905,42 +6916,5 @@
 <category term="lora"/>
 <summary>Krea 2 Turbo — 2-Step Distillation LoRA (FINAL Version) Previous posts/releases - here , here , here and here . 🧪 Fast-preview adapter; the project's final checkpoint. Subjects that are close and fill a good part of the frame — a portrait, a single figure, an object up close — hold up well at two st</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 5 · denoising, render, comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Krea 2 Turbo — 2-Step Distillation LoRA (FINAL Version) Previous posts/releases - here , here , here and here . 🧪 Fast-preview adapter; the project's final checkpoint. Subjects that are close and fill a good part of the frame — a portrait, a single figure, an object up close — hold up well at two steps. Small subjects are where it still falls short: faces in a crowd or figures in a wide scene can come out ghosted or smeared. For those, and whenever quality matters more than speed, use the 4-step LoRA . This checkpoint closes the project; the training box has moved on to its successor, a 3-step adapter for Qwen-Image-2.1-Turbo. 📐 The saved steps can also go into resolution. A larger render ma&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x2s9sd/krea2_turbo_distill_2_step_lora_final_checkpoint/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1x2r17t/spirula_blender_53_pretentious_arty_test_i_made/</id><title>Spirula + Blender 5.3 pretentious arty test I made</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1x2r17t/spirula_blender_53_pretentious_arty_test_i_made/"/>
-<published>2026-10-10T21:48:30+00:00</published><updated>2026-10-10T21:48:30+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="vfx"/>
-<category term="render"/>
-<category term="blender"/>
-<summary>Debated posting this here because is this really a vfx thing? It's an attempt to use splats creatively in a way that could have implementations for certain shots requiring vfx. Anteay, I have been experimenting with Spirula to generate 3DGS. I like it - a lot! Using the geometry models to calculate </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 4 · vfx, render, blender&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Debated posting this here because is this really a vfx thing? It's an attempt to use splats creatively in a way that could have implementations for certain shots requiring vfx. Anteay, I have been experimenting with Spirula to generate 3DGS. I like it - a lot! Using the geometry models to calculate normals and depth help a great deal with capturing interiors. Combine THAT with the latest alpha build of Blender 5.3 that can render splats, and things suddenly become very interesting. It's not perfect; I get render glitches with both EEVEE and Cycles, but it's leaps and bounds better than it used to be. Liminal spaces are in danger of becoming hokey. They probably are cringe to lots of people. &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1x2r17t/spirula_blender_53_pretentious_arty_test_i_made/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1x2q643/how_do_you_guys_upscale_your_images_is_anything/</id><title>How do you guys upscale your images? Is anything even close to Magnific?</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x2q643/how_do_you_guys_upscale_your_images_is_anything/"/>
-<published>2026-10-10T21:09:24+00:00</published><updated>2026-10-10T21:09:24+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="upscaling"/>
-<category term="upscaler"/>
-<category term="comfyui"/>
-<category term="flux"/>
-<summary>It's been years since Magnific.ai came out, and I still haven't found a creative upscaler that comes close to it. Maybe I'm just doing something wrong, but seriously, how are people getting those results? From what I understand, Magnific splits the image into tiles, processes them individually, and </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · upscaling, upscaler, comfyui, flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;It's been years since Magnific.ai came out, and I still haven't found a creative upscaler that comes close to it. Maybe I'm just doing something wrong, but seriously, how are people getting those results? From what I understand, Magnific splits the image into tiles, processes them individually, and stitches them back together. I suspect it uses SD 1.5 under the hood, which is pretty old at this point, yet somehow I can't seem to replicate its results with newer models and workflows. I've tried a bunch of different things, but nothing comes close in terms of the amount of detail it adds while still looking realistic. So, what are you guys actually using? Any ComfyUI workflows, models, or tric&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x2q643/how_do_you_guys_upscale_your_images_is_anything/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1x2pqu6/help_with_video_gen_16gb_vram/</id><title>Help with video gen, 16gb vram</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x2pqu6/help_with_video_gen_16gb_vram/"/>
-<published>2026-10-10T20:51:21+00:00</published><updated>2026-10-10T20:51:21+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="video generation"/>
-<category term="comfyui"/>
-<category term="wan2"/>
-<category term="minimax"/>
-<category term="ltx"/>
-<category term="consistency"/>
-<summary>Thanks guys for helping me last time. I’m getting used to Comfyui desktop app. I wanted to ask you pros for video generation, what are my options with 48gb system ram and 16gb 5060 ti. I was hoping to do some image to video or reference pose video to video. I tried so hard to understand wan2 animate</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 6 · video generation, comfyui, wan2, minimax, ltx, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Thanks guys for helping me last time. I’m getting used to Comfyui desktop app. I wanted to ask you pros for video generation, what are my options with 48gb system ram and 16gb 5060 ti. I was hoping to do some image to video or reference pose video to video. I tried so hard to understand wan2 animate in comfy but I had to give up. Also wan2gp is slow. Currently I have ltx 2.5 director workflow in comfy but it loses consistency. I’m thinking to try minimax h3, how has been your experience so far with it. My current ltx 2.5 video to video makes 3-4 mins 10 seconds in 640p. Thanks again. Hope you all have a wonderful weekend. submitted by /u/lenorexotica [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x2pqu6/help_with_video_gen_16gb_vram/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
