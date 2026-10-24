@@ -2,8 +2,17 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-24T08:30:20+00:00</updated>
+<updated>2026-10-24T10:30:19+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1xe47e9/how_do_i_give_more_accurate_completion_estimates/</id><title>How do I give more accurate completion estimates?</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xe47e9/how_do_i_give_more_accurate_completion_estimates/"/>
+<published>2026-10-24T09:27:12+00:00</published><updated>2026-10-24T09:27:12+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="compositing"/>
+<summary>I work for a client who throws batches of compositing shots my way and always asks how long I think it will take. The problem is that the number of shots and required work is always vastly different. Ive also found that if I say something will take a day or two, they just pass on me which is really </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 1 · compositing&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I work for a client who throws batches of compositing shots my way and always asks how long I think it will take. The problem is that the number of shots and required work is always vastly different. Ive also found that if I say something will take a day or two, they just pass on me which is really annoying. I think they expect everything to be done within a couple hours which in some cases is definitely doable, but in others definitely isn’t. All this to say, most of the time I genuinely don’t know how to give an accurate estimate. The work is mainly beauty stuff, with the occasional paint out or screen replacement. It could be anywhere from one shot to 20. And each shot could be anywhere f&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xe47e9/how_do_i_give_more_accurate_completion_estimates/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/vfx/comments/1xe28p0/vfx_noob_question_surrounding_the_corridor_key_20/</id><title>VFX Noob question surrounding the Corridor Key 2.0 release.</title>
 <link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xe28p0/vfx_noob_question_surrounding_the_corridor_key_20/"/>
@@ -13,6 +22,17 @@
 <category term="vfx"/>
 <summary>Hello VFX community, I’ve been working as a cameraman for 10+ years. I’ve done quite a bit of green screen work on set, and every so often, I do post for smaller projects. When I’m doing post, the green screen work is always quite straightforward as I expect. Even with a properly lit green screen, I</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 3 · green screen, vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hello VFX community, I’ve been working as a cameraman for 10+ years. I’ve done quite a bit of green screen work on set, and every so often, I do post for smaller projects. When I’m doing post, the green screen work is always quite straightforward as I expect. Even with a properly lit green screen, I still find motion blur and glancing reflections problematic. I watched the release video for Corridor Key 2.0 and as someone who doesn’t do VFX for a living, I was blown away. Especially with how it handled semi transparent objects like the bubble wrap. I was even more shocked when I went to the comments section in this community and saw all the criticism. None of the criticism I saw mention what&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xe28p0/vfx_noob_question_surrounding_the_corridor_key_20/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xe1gse/i_trained_a_lora_that_makes_mossimage_output_real/</id><title>I trained a LoRA that makes MOSS-Image output real transparent PNGs (proof of concept, 39 training images)</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xe1gse/i_trained_a_lora_that_makes_mossimage_output_real/"/>
+<published>2026-10-24T06:37:51+00:00</published><updated>2026-10-24T06:37:51+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<category term="flux"/>
+<category term="lora"/>
+<summary>It's late, so Claude wrote this for me, but basically: there's a project, https://huggingface.co/trmz/flux2-klein-alpha , where they trained Flux Klein to work with RGBA. Since the VAE is the same, I wondered whether MOSS-Image could produce RGBA too, and surprisingly, it can! It only takes a small </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · comfyui, flux, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;It's late, so Claude wrote this for me, but basically: there's a project, https://huggingface.co/trmz/flux2-klein-alpha , where they trained Flux Klein to work with RGBA. Since the VAE is the same, I wondered whether MOSS-Image could produce RGBA too, and surprisingly, it can! It only takes a small dataset and a short training run. Anyway, here's the text Claude wrote: Hi! I've been experimenting with getting MOSS-Image to generate images with a real alpha channel, and the proof of concept turned out better than I expected, so I'm sharing it. How it works: you end your prompt with "isolated on a transparent background" and decode with the RGBA VAE from trmz/flux2-klein-alpha. You get a trans&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xe1gse/i_trained_a_lora_that_makes_mossimage_output_real/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1xdyu4a/higgsfield_genjutsu_character_replace_is_now/</id><title>Higgsfield Genjutsu (Character Replace) is Now Available With SwarmUI v185 and ComfyUI v145 locally for free via MiniMax H3 - 1 click to install and use</title>
@@ -91,6 +111,15 @@
 <category term="comfyui"/>
 <summary>submitted by /u/CeFurkan [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/CeFurkan [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xdt9d5/rtx_3000_series_fpbf16_performance_unlock/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xdt90n/rtx_3000_series_fpbf16_performance_unlock/</id><title>RTX 3000 series FP/BF16 performance unlock confirmed by @KohakuLab @ComfyUI - Massive performance improvement - it was all locked by driver - TF32 is also almost doubled</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xdt90n/rtx_3000_series_fpbf16_performance_unlock/"/>
+<published>2026-10-23T23:23:17+00:00</published><updated>2026-10-23T23:23:17+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<summary>submitted by /u/CeFurkan [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/CeFurkan [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xdt90n/rtx_3000_series_fpbf16_performance_unlock/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1xdsd9l/hynomas_tencents_video_world_model_running/</id><title>Hy-Nomas (Tencent's video world model) running natively in ComfyUI with just 12GB VRAM</title>
@@ -6873,14 +6902,5 @@
 <category term="nuke"/>
 <summary>I am engaged in compositing and sometimes work with advertising. On two last projects the filming group filmed with high speed all sorts of there splashes, flashes of gunpowder, shards of glass. One operator had Pixboom Spark, the other Chronos 2.1, and when I asked, why not Phantom, to me answered,</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · compositing, nuke&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I am engaged in compositing and sometimes work with advertising. On two last projects the filming group filmed with high speed all sorts of there splashes, flashes of gunpowder, shards of glass. One operator had Pixboom Spark, the other Chronos 2.1, and when I asked, why not Phantom, to me answered, that the matter is in in cost of rent. As a result frames with Spark at 1000 frames in second were sufficiently clear, in order that them it was possible to composite. On one frame with gunpowder there was flickering, with which had to deal in Nuke, and I almost sure, that it was because of lighting. Frames with Chronos were in HD-quality, so that them it was possible to use only in quality of ba&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1x2cddf/my_comparisson_of_pixboom_spark_and_chronos/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1x2aqmw/hello_folks_i_made_this_ads_with_minimax_h3/</id><title>Hello folks ! I made this ads with Minimax H3 native workflow</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x2aqmw/hello_folks_i_made_this_ads_with_minimax_h3/"/>
-<published>2026-10-10T09:12:57+00:00</published><updated>2026-10-10T09:12:57+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="minimax"/>
-<summary>and im impressed ! I generated images via Qwen image 2.1 and for the minimax i just input image 9:16 ratio , upscale mega pixel 0.7 . My hardware 5080 16 vram, so every shot tooks me around 4 min submitted by /u/memorex-1 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;and im impressed ! I generated images via Qwen image 2.1 and for the minimax i just input image 9:16 ratio , upscale mega pixel 0.7 . My hardware 5080 16 vram, so every shot tooks me around 4 min submitted by /u/memorex-1 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x2aqmw/hello_folks_i_made_this_ads_with_minimax_h3/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
