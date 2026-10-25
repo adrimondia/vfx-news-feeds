@@ -2,8 +2,17 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-25T05:30:21+00:00</updated>
+<updated>2026-10-25T07:30:23+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xeunzs/my_moss_character_lora_training_results/</id><title>My MOSS Character Lora Training Results</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xeunzs/my_moss_character_lora_training_results/"/>
+<published>2026-10-25T06:10:36+00:00</published><updated>2026-10-25T06:10:36+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="lora"/>
+<summary>Hi all! What do we think of MOSS Image so far? Personally I'm loving it. The variety in images? The differences in people's faces, ethnicities, body types, etc? And it's so easy to get my favourite style of photo to create, amateur candid realism. It really is a great model. Lora training was kind o</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi all! What do we think of MOSS Image so far? Personally I'm loving it. The variety in images? The differences in people's faces, ethnicities, body types, etc? And it's so easy to get my favourite style of photo to create, amateur candid realism. It really is a great model. Lora training was kind of a tough nut to crack though, but I'm pretty certain I have settings that work, so I figured I'd share. With these settings, I get good results every time. Most of my datasets were between 50 and 100 images, with natural language captions. Best settings I found are Automagic3, with Sigmoid and High (balanced didn't work well, but High worked a treat). I start the learning rate quite high, at 0.00&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xeunzs/my_moss_character_lora_training_results/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/vfx/comments/1xesuw7/the_hulk_grows_from_9ft_to_12ft_tall_sequence/</id><title>The Hulk grows from 9ft to 12ft tall sequence What was the scene like to be animated?</title>
 <link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xesuw7/the_hulk_grows_from_9ft_to_12ft_tall_sequence/"/>
@@ -22,6 +31,15 @@
 <category term="lora"/>
 <summary>My mature anime screencap style, now for MiniMax H3. It works really well, so I hope to encourage everyone to create their own anime series. The only limit is your imagination. 😊 https://civitai.red/models/3017114/mature-anime-screencap-style-minimax-h3-edition submitted by /u/sirdrak [link] [commen</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;My mature anime screencap style, now for MiniMax H3. It works really well, so I hope to encourage everyone to create their own anime series. The only limit is your imagination. 😊 https://civitai.red/models/3017114/mature-anime-screencap-style-minimax-h3-edition submitted by /u/sirdrak [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xeof34/mature_anime_screencap_style_lora_for_minimax_h3/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xeobu8/george_barbier_style_lora_for_krea2/</id><title>George Barbier style LoRA for Krea2</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xeobu8/george_barbier_style_lora_for_krea2/"/>
+<published>2026-10-25T00:31:32+00:00</published><updated>2026-10-25T00:31:32+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="lora"/>
+<summary>George Barbier ) (1882-1932) was an early 20th Century French illustrator, well known for his haute couture fashion illustrations. I have long been a fan of his work, and decided to train a style LoRA for Krea2 , available now at civitai. For many of these, I re-used my (Qwen-generated) captioning c</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;George Barbier ) (1882-1932) was an early 20th Century French illustrator, well known for his haute couture fashion illustrations. I have long been a fan of his work, and decided to train a style LoRA for Krea2 , available now at civitai. For many of these, I re-used my (Qwen-generated) captioning captions as prompts; you can find the prompts for the images on the civitai post. I also put a simple sample workflow on pastebin. submitted by /u/newsock999 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xeobu8/george_barbier_style_lora_for_krea2/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/vfx/comments/1xenmqm/terms_and_conditions/</id><title>Terms and Conditions</title>
@@ -6913,25 +6931,5 @@
 <category term="lora"/>
 <summary>For the below I’ll be referring mostly to ComfyUI workflow and model efficiency (using examples for Radeon AI PRO R9700 (32GB) which has a bandwidth of 680GB/sec. I’ve seen 10second minimax H3 image to video workflows go from 28 mins to 3 mins by taking all this info into account and then upscaling </summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 9 · video generation, video model, upscaling, comfyui, wan, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;For the below I’ll be referring mostly to ComfyUI workflow and model efficiency (using examples for Radeon AI PRO R9700 (32GB) which has a bandwidth of 680GB/sec. I’ve seen 10second minimax H3 image to video workflows go from 28 mins to 3 mins by taking all this info into account and then upscaling after. 1. The pipeline Every image or video workflow is the same four stages, and only the third one repeats. Text encoder. Turns the prompt into embeddings, once per prompt. Noise latent. Sampling starts from random noise in a compressed (latent) grid. The seed decides that starting noise. Diffusion model. Runs once per step, removing noise. Early steps set layout and motion, late steps add detai&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x3275y/how_to_pick_the_right_models_and_dramatically/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1x31em8/4090_vs_5090_minimax_h3_speed/</id><title>4090 VS 5090 MINIMAX H3 SPEED</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x31em8/4090_vs_5090_minimax_h3_speed/"/>
-<published>2026-10-11T06:59:13+00:00</published><updated>2026-10-11T06:59:13+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="minimax"/>
-<summary>To those who used to have a 4090, what percentage of speed improvement have you noticed after upgrading to a 5090? submitted by /u/Haaaaaaaaaaahahahah [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;To those who used to have a 4090, what percentage of speed improvement have you noticed after upgrading to a 5090? submitted by /u/Haaaaaaaaaaahahahah [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x31em8/4090_vs_5090_minimax_h3_speed/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1x3124n/blurry_facesmini_max_h3/</id><title>blurry faces/mini max h3</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x3124n/blurry_facesmini_max_h3/"/>
-<published>2026-10-11T06:38:18+00:00</published><updated>2026-10-11T06:38:18+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="upscaling"/>
-<category term="minimax"/>
-<category term="lora"/>
-<summary>I'm using MiniMax H3 with the Singularity model and DMAD LoRA. In wide shots, faces tend to look blurry or distorted. Does upscaling help, or is it better to address this during generation? What's your recommended workflow to maintain facial details without introducing plastic skin? submitted by /u/</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · upscaling, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I'm using MiniMax H3 with the Singularity model and DMAD LoRA. In wide shots, faces tend to look blurry or distorted. Does upscaling help, or is it better to address this during generation? What's your recommended workflow to maintain facial details without introducing plastic skin? submitted by /u/Complete-Box-3030 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x3124n/blurry_facesmini_max_h3/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
