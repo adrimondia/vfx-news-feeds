@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-25T13:30:18+00:00</updated>
+<updated>2026-10-25T15:30:18+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
 <entry>
 <id>https://www.reddit.com/r/vfx/comments/1xf1yr5/modern_home_defense/</id><title>Modern Home Defense</title>
@@ -6894,36 +6894,5 @@
 <category term="lora"/>
 <summary>Another quick Minimax H3 news and goodies round-up, for those who may have missed some items. -&gt; ComfyUI-H3-PowerLoraStack. "Quantized bases keep an exact runtime branch, AdaLN pairs are rebased between dense and curve checkpoints, and Acc/PDD head banks are blended per sampler step instead of crash</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 6 · video generation, animation, comfyui, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Another quick Minimax H3 news and goodies round-up, for those who may have missed some items. -&amp;gt; ComfyUI-H3-PowerLoraStack. "Quantized bases keep an exact runtime branch, AdaLN pairs are rebased between dense and curve checkpoints, and Acc/PDD head banks are blended per sampler step instead of crashing the native head." https://github.com/cicalooo/ComfyUI-H3-PowerLoraStack -&amp;gt; Collage-broll-minimax. "Turn a ~5s voiceover line into a premium editorial paper-collage 'assemble-from-empty B-roll clip', powered by Gemini Omni Flash first/last-frame video generation." Only... Gemini Omni Flash is banned in China, so this guy forked the original and substituted Minimax H3. Also newly added is a skil&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x3bouf/a_quick_minimax_h3_news_roundup_11th_october_2026/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1x3az0l/update_kroma_a_krea2_fine_tune/</id><title>Update: Kroma, A Krea-2 Fine Tune</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x3az0l/update_kroma_a_krea2_fine_tune/"/>
-<published>2026-10-11T15:25:06+00:00</published><updated>2026-10-11T15:25:06+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="video generation"/>
-<category term="video model"/>
-<summary>[ I'm posting this on behalf of u/LodestoneRock since for some reason his post on this sub keep getting auto removed by Reddit. ] Hey everyone, First of all, thank you to everyone for supporting this project, and to the Krea team who made the best uncompromised base model. Unlike the previous run, w</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · video generation, video model&lt;/small&gt;&lt;/p&gt;&lt;p&gt;[ I'm posting this on behalf of u/LodestoneRock since for some reason his post on this sub keep getting auto removed by Reddit. ] Hey everyone, First of all, thank you to everyone for supporting this project, and to the Krea team who made the best uncompromised base model. Unlike the previous run, where I had to un-distill the model, the Krea team kindly provided us with their real base model. The training is much cheaper than the previous Chroma run. Though cheap is relative, it’s still costing me about ~10K RTX pro 6000 hours (3+ months on 4xGPU machine) running locally, this includes a bunch of failed experiments and bugs during training. Also thank you to ComfyOrg for the 2 RTX pro 6000 &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x3az0l/update_kroma_a_krea2_fine_tune/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1x3akoo/i_am_building_a_web_application_to_transform/</id><title>I am building a web application to transform images into Gaussian Splats</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x3akoo/i_am_building_a_web_application_to_transform/"/>
-<published>2026-10-11T15:08:49+00:00</published><updated>2026-10-11T15:08:49+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="gaussian splatting"/>
-<category term="comfyui"/>
-<category term="minimax"/>
-<category term="lora"/>
-<summary>I’ve been playing with orbit-style videos from video models (lately Minimax H3 in ComfyUI) and kept thinking they’d make great input for Gaussian Splatting. The catch was that the usual pipeline means installing COLMAP, a trainer, CUDA and so on. That’s a lot of friction just to try one idea. So I b</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · gaussian splatting, comfyui, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I’ve been playing with orbit-style videos from video models (lately Minimax H3 in ComfyUI) and kept thinking they’d make great input for Gaussian Splatting. The catch was that the usual pipeline means installing COLMAP, a trainer, CUDA and so on. That’s a lot of friction just to try one idea. So I built Gausify Orbit: https://orbit.gausify.com/ You drop in your video and the whole thing runs locally in your browser on WebGPU: Pulls frames from the video Optional background removal with RMBG-1.4 (BRIA), running through ONNX Runtime Web Camera poses from a small structure-from-motion step Trains the splat with Brush Preview the result and export it as PLY or SOG No Python, no CUDA, no account.&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x3akoo/i_am_building_a_web_application_to_transform/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1x39fte/i_built_goatd_text_generator_generate_prompts/</id><title>I built GOAT’d Text Generator 🐐 - generate prompts directly in ComfyUI</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x39fte/i_built_goatd_text_generator_generate_prompts/"/>
-<published>2026-10-11T14:21:32+00:00</published><updated>2026-10-11T14:21:32+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<summary>Hey everyone! I made a custom node that brings cloud and local LLMs into your ComfyUI workflows. Use it to expand rough ideas into image/video prompts, write captions, or describe reference images. It also accepts video and audio when supported by your chosen model. A few features: Cloud providers, </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey everyone! I made a custom node that brings cloud and local LLMs into your ComfyUI workflows. Use it to expand rough ideas into image/video prompts, write captions, or describe reference images. It also accepts video and audio when supported by your chosen model. A few features: Cloud providers, LM Studio, Ollama, and supported models loaded directly in ComfyUI. Built-in prompt guides and editable system instructions. Text output that connects to CLIP Text Encode or any compatible STRING input. Get it from: GitHub + example workflows Example: rough idea + reference image → generated prompt → your workflow. Would love your feedback, ideas, or feature requests! If you find it useful, consid&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x39fte/i_built_goatd_text_generator_generate_prompts/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
