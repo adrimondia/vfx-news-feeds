@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-25T17:30:18+00:00</updated>
+<updated>2026-10-25T19:30:18+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
 <entry>
 <id>https://www.reddit.com/r/vfx/comments/1xf6nxw/notes_from_the_underground_vfx_breakdown_blender/</id><title>"Notes from the Underground" - VFX Breakdown - Blender, AE, Resolve (no AI)</title>
@@ -26,6 +26,16 @@
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 5 · comfyui, minimax, ai video&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Free AI video generators are catching up with paid alternatives! I tested MiniMax H3 for the first time and I’m impressed with the results! submitted by /u/Sourcecode12 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xf5pqg/my_first_scene_created_with_minimax_h3_in_comfyui/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xf5i17/moss_turbo_without_the_blur_for_realism/</id><title>Moss (turbo) without the blur for realism photography...</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xf5i17/moss_turbo_without_the_blur_for_realism/"/>
+<published>2026-10-25T15:37:27+00:00</published><updated>2026-10-25T15:37:27+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="upscaling"/>
+<category term="lora"/>
+<summary>I'm about to head out for the rest of evening so just wanted to quickly drop this tip here in the hope that others might tinker with this and come up with something better or trash it as you see fit. The setup is a regular Moss workflow you can get from Comfy UI but with the settings outlined below.</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · upscaling, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I'm about to head out for the rest of evening so just wanted to quickly drop this tip here in the hope that others might tinker with this and come up with something better or trash it as you see fit. The setup is a regular Moss workflow you can get from Comfy UI but with the settings outlined below. I stumbled on this setup by accident but so far it's the best results I've gotten using turbo and without any upscaling. It also gives me great variety. Each of these loras by themselves seems to trash the diversity or gives too much blur, yet combined I get a good variety of people without noticeably degrading the overall quality. I've been struggling with Moss for a week, trying all sorts of ti&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xf5i17/moss_turbo_without_the_blur_for_realism/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
 <id>https://www.reddit.com/r/vfx/comments/1xf5cbz/another_entrant_into_the_compositing_software/</id><title>Another entrant into the compositing software space. JOS Compositor</title>
 <link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xf5cbz/another_entrant_into_the_compositing_software/"/>
 <published>2026-10-25T15:31:07+00:00</published><updated>2026-10-25T15:31:07+00:00</updated>
@@ -42,6 +52,16 @@
 <category term="blender"/>
 <summary>A practice project to work on my Blender and DaVinci Resolve skills. Knock responsibly. submitted by /u/nun_de_plume [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 1 · blender&lt;/small&gt;&lt;/p&gt;&lt;p&gt;A practice project to work on my Blender and DaVinci Resolve skills. Knock responsibly. submitted by /u/nun_de_plume [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xf1yr5/modern_home_defense/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xez2bk/mossimage_13m_downloads_in_four_days_for_a_5b/</id><title>MOSS-Image: 1.3M downloads in four days for a 5B open image model</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xez2bk/mossimage_13m_downloads_in_four_days_for_a_5b/"/>
+<published>2026-10-25T10:37:18+00:00</published><updated>2026-10-25T10:37:18+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="flux"/>
+<category term="diffusion transformer"/>
+<summary>MOSI and the OpenMOSS team put out MOSS-Image, an open image model at 5B parameters. Pandaily covered it on Oct 25, citing the team and QbitAI: about 1.3M downloads in the first four days, around 1,400 stars on GitHub, top of the text-to-image trend on Hugging Face. Read the download number with car</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · flux, diffusion transformer&lt;/small&gt;&lt;/p&gt;&lt;p&gt;MOSI and the OpenMOSS team put out MOSS-Image, an open image model at 5B parameters. Pandaily covered it on Oct 25, citing the team and QbitAI: about 1.3M downloads in the first four days, around 1,400 stars on GitHub, top of the text-to-image trend on Hugging Face. Read the download number with care. It adds up across several repos, Comfy-Org on Hugging Face among them, so no single model page carries that figure on its own. All three numbers come from the team and Chinese media. Nobody independent has checked them. The community moved fast. There are 8-step and 4-step builds already, while the official setting is 50 steps. INT8, GGUF and MLX builds exist, plus style LoRAs. What people seem&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xez2bk/mossimage_13m_downloads_in_four_days_for_a_5b/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xeykcw/no_way_apparently_flux_3_image_is_1_model/</id><title>No way!!! Apparently Flux 3 Image is #1 model</title>
@@ -6857,37 +6877,5 @@
 <category term="lora"/>
 <summary>Working on starting a game, will be creating card art for the game based on character designs from a friends novel(s) that he's been writing. Eventually, would like to obviously get a real artist dedicated to it, however, someone he bought a commission from over a decade and half ago agreed to allow</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · video generation, comfyui, flux, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Working on starting a game, will be creating card art for the game based on character designs from a friends novel(s) that he's been writing. Eventually, would like to obviously get a real artist dedicated to it, however, someone he bought a commission from over a decade and half ago agreed to allow us to use the art as a basic template for initial card art. So i would like to take the art, and try and create other characters based in the same art style. Then take those same characters and eventually change the art to match different themes; like different anime or cartoon arts, or whether medieval times, gothic horror, chibi, etc. I've tried searching and have found a dozen different answer&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x3i161/what_is_the_best_general_image_generation_for/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1x3ghce/barad_dur_the_entarance/</id><title>Barad Dur - The entarance</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1x3ghce/barad_dur_the_entarance/"/>
-<published>2026-10-11T19:03:06+00:00</published><updated>2026-10-11T19:03:06+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="color grading"/>
-<category term="render"/>
-<summary>Hi Guys, I need some critical eyes here, figured I'll post where Im currently at and get your feedbacks. I am working on a massive 60 seconds 1-shot of Sauron's fortress - Barad Dur. The shot starts from bottom all the way to the top. I already finalized the first 15 seconds of the shot, for those i</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · color grading, render&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi Guys, I need some critical eyes here, figured I'll post where Im currently at and get your feedbacks. I am working on a massive 60 seconds 1-shot of Sauron's fortress - Barad Dur. The shot starts from bottom all the way to the top. I already finalized the first 15 seconds of the shot, for those interested - you can see it here - https://www.instagram.com/p/DePL4yOjBwW/?img_index=1 I am now focusing on this segment where the camera goes through the bottom where the entrance bridge is located before going upwards all the way to the top. The render is finalized already, I am now at the Post work stage. I already added lots of volumetric layers and I intend to add much more plus a lightning o&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1x3ghce/barad_dur_the_entarance/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1x3g9q4/overwhelmed_with_minimax_3_combinations/</id><title>Overwhelmed with Minimax 3 combinations</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x3g9q4/overwhelmed_with_minimax_3_combinations/"/>
-<published>2026-10-11T18:54:54+00:00</published><updated>2026-10-11T18:54:54+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="text-to-video"/>
-<category term="image-to-video"/>
-<category term="comfyui"/>
-<category term="minimax"/>
-<category term="lora"/>
-<summary>I've been testing MiniMax H3 in ComfyUI for a while now, and I'm definitely not new to ComfyUI, but I'm getting frustrated with the sheer number of configurations people recommend. Everywhere I look, someone is saying, "Use this model with this LoRA, this sampler, Euler, these steps, this node combi</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 6 · text-to-video, image-to-video, comfyui, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I've been testing MiniMax H3 in ComfyUI for a while now, and I'm definitely not new to ComfyUI, but I'm getting frustrated with the sheer number of configurations people recommend. Everywhere I look, someone is saying, "Use this model with this LoRA, this sampler, Euler, these steps, this node combination, and it works perfectly." Then someone else recommends a completely different setup that supposedly works even better. At this point, there are so many combinations of models, LoRAs, samplers, schedulers, nodes, and workflows that testing every variation becomes a project in itself. Has anyone actually put together a centralized comparison or benchmark of what works best for specific use ca&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x3g9q4/overwhelmed_with_minimax_3_combinations/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1x3f6x0/how_do_you_maintain_style_in_minimax_h3_ref_mode/</id><title>how do you maintain style in minimax h3 ref mode?</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x3f6x0/how_do_you_maintain_style_in_minimax_h3_ref_mode/"/>
-<published>2026-10-11T18:12:42+00:00</published><updated>2026-10-11T18:12:42+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="minimax"/>
-<summary>I'm providing images with certain style (unique illustration) and the model (regular one) simply change the style. submitted by /u/ResponsibleTruck4717 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I'm providing images with certain style (unique illustration) and the model (regular one) simply change the style. submitted by /u/ResponsibleTruck4717 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x3f6x0/how_do_you_maintain_style_in_minimax_h3_ref_mode/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
