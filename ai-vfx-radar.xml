@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-25T07:30:23+00:00</updated>
+<updated>2026-10-25T08:00:19+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xeunzs/my_moss_character_lora_training_results/</id><title>My MOSS Character Lora Training Results</title>
@@ -6905,31 +6905,5 @@
 <category term="minimax"/>
 <summary>When I use Minimax h3 to generate a video with any mode (fl2va/r2va) in most cases it generates good output with really good prompt adherence (mostly). But when I decide to see other output variations with different seeds, it starts to fail and hallucinate miserably. It completely goes off the promp</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;When I use Minimax h3 to generate a video with any mode (fl2va/r2va) in most cases it generates good output with really good prompt adherence (mostly). But when I decide to see other output variations with different seeds, it starts to fail and hallucinate miserably. It completely goes off the prompt and starts doing random bullshit and deep-frying the output. And it's not like it happens with some generations, it usually happens to almost every next generation like it's being plagued. The only way to solve it for me is to change something meaningful in the prompt itself so it can rethink everything and make the video from scratch. Now I did think about any saved cache that might be responsi&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x34suo/minimax_h3_veterans_share_your_wisdom/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://github.com/microsoft/TRELLIS.2</id><title>microsoft/TRELLIS.2</title>
-<link rel="alternate" href="https://github.com/microsoft/TRELLIS.2"/>
-<published>2026-10-11T08:00:18+00:00</published><updated>2026-10-11T08:00:18+00:00</updated>
-<author><name>GitHub trending (Python)</name></author>
-<category term="texture generation"/>
-<category term="pbr"/>
-<category term="rendering"/>
-<summary>Native and Compact Structured Latents for 3D Generation Native and Compact Structured Latents for 3D Generation https://github.com/user-attachments/assets/63b43a7e-acc7-4c81-a900-6da450527d8f (Compressed version due to GitHub size limits. See the full-quality video on our project page!) TRELLIS.2 is</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;GitHub trending (Python) · score 3 · texture generation, pbr, rendering&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Native and Compact Structured Latents for 3D Generation Native and Compact Structured Latents for 3D Generation https://github.com/user-attachments/assets/63b43a7e-acc7-4c81-a900-6da450527d8f (Compressed version due to GitHub size limits. See the full-quality video on our project page!) TRELLIS.2 is a state-of-the-art large 3D generative model (4B parameters) designed for high-fidelity image-to-3D generation. It leverages a novel "field-free" sparse voxel structure termed O-Voxel to reconstruct and generate arbitrary 3D assets with complex topologies, sharp features, and full PBR materials. ✨ Features 1. High Quality, Resolution &amp;amp; Efficiency Our 4B-parameter model generates high-resolution f&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.com/microsoft/TRELLIS.2"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1x3275y/how_to_pick_the_right_models_and_dramatically/</id><title>How to pick the right models and dramatically speed up image and video generation speeds &amp; What I wish I knew when starting on AMD hardware with ComfyUI</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x3275y/how_to_pick_the_right_models_and_dramatically/"/>
-<published>2026-10-11T07:47:08+00:00</published><updated>2026-10-11T07:47:08+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="video generation"/>
-<category term="video model"/>
-<category term="upscaling"/>
-<category term="comfyui"/>
-<category term="wan"/>
-<category term="minimax"/>
-<category term="lora"/>
-<summary>For the below I’ll be referring mostly to ComfyUI workflow and model efficiency (using examples for Radeon AI PRO R9700 (32GB) which has a bandwidth of 680GB/sec. I’ve seen 10second minimax H3 image to video workflows go from 28 mins to 3 mins by taking all this info into account and then upscaling </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 9 · video generation, video model, upscaling, comfyui, wan, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;For the below I’ll be referring mostly to ComfyUI workflow and model efficiency (using examples for Radeon AI PRO R9700 (32GB) which has a bandwidth of 680GB/sec. I’ve seen 10second minimax H3 image to video workflows go from 28 mins to 3 mins by taking all this info into account and then upscaling after. 1. The pipeline Every image or video workflow is the same four stages, and only the third one repeats. Text encoder. Turns the prompt into embeddings, once per prompt. Noise latent. Sampling starts from random noise in a compressed (latent) grid. The seed decides that starting noise. Diffusion model. Runs once per step, removing noise. Early steps set layout and motion, late steps add detai&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x3275y/how_to_pick_the_right_models_and_dramatically/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
