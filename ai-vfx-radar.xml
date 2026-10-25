@@ -2,8 +2,17 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-25T11:30:19+00:00</updated>
+<updated>2026-10-25T13:30:18+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1xf1yr5/modern_home_defense/</id><title>Modern Home Defense</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xf1yr5/modern_home_defense/"/>
+<published>2026-10-25T13:09:19+00:00</published><updated>2026-10-25T13:09:19+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="blender"/>
+<summary>A practice project to work on my Blender and DaVinci Resolve skills. Knock responsibly. submitted by /u/nun_de_plume [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 1 · blender&lt;/small&gt;&lt;/p&gt;&lt;p&gt;A practice project to work on my Blender and DaVinci Resolve skills. Knock responsibly. submitted by /u/nun_de_plume [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xf1yr5/modern_home_defense/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xeykcw/no_way_apparently_flux_3_image_is_1_model/</id><title>No way!!! Apparently Flux 3 Image is #1 model</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xeykcw/no_way_apparently_flux_3_image_is_1_model/"/>
@@ -6916,25 +6925,5 @@
 <category term="comfyui"/>
 <summary>Hey everyone! I made a custom node that brings cloud and local LLMs into your ComfyUI workflows. Use it to expand rough ideas into image/video prompts, write captions, or describe reference images. It also accepts video and audio when supported by your chosen model. A few features: Cloud providers, </summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey everyone! I made a custom node that brings cloud and local LLMs into your ComfyUI workflows. Use it to expand rough ideas into image/video prompts, write captions, or describe reference images. It also accepts video and audio when supported by your chosen model. A few features: Cloud providers, LM Studio, Ollama, and supported models loaded directly in ComfyUI. Built-in prompt guides and editable system instructions. Text output that connects to CLIP Text Encode or any compatible STRING input. Get it from: GitHub + example workflows Example: rough idea + reference image → generated prompt → your workflow. Would love your feedback, ideas, or feature requests! If you find it useful, consid&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x39fte/i_built_goatd_text_generator_generate_prompts/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1x36zdx/use_qwenimage_21_turbo_locally_without_comfyui/</id><title>Use Qwen-Image 2.1 Turbo locally without ComfyUI</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x36zdx/use_qwenimage_21_turbo_locally_without_comfyui/"/>
-<published>2026-10-11T12:28:36+00:00</published><updated>2026-10-11T12:28:36+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<category term="dit"/>
-<summary>I'm the developer of Quartermaster , a free, open-source (MIT) local inference server. It drives stable-diffusion.cpp and also serves LLMs, TTS and speech-to-text from the same app, swapping models in and out of VRAM as you use them. Models download from inside the app: search Hugging Face, pick a q</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, dit&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I'm the developer of Quartermaster , a free, open-source (MIT) local inference server. It drives stable-diffusion.cpp and also serves LLMs, TTS and speech-to-text from the same app, swapping models in and out of VRAM as you use them. Models download from inside the app: search Hugging Face, pick a quant, and Quartermaster writes the configuration itself. It matches each model to its VAE and text encoders and picks the right steps and cfg. Qwen-Image 2.1 Turbo comes up at 8 steps and cfg 1, and real transparent PNGs work too: tick "transparent" and it adds the exact prompt wording the RGBA VAE needs. To run 2.1 Turbo, grab these three (suggested files) from the built-in model browser and you'&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x36zdx/use_qwenimage_21_turbo_locally_without_comfyui/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1x36mat/whats_the_best_prompt_generator_for_comfyui/</id><title>What’s the best prompt generator for ComfyUI?</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x36mat/whats_the_best_prompt_generator_for_comfyui/"/>
-<published>2026-10-11T12:09:33+00:00</published><updated>2026-10-11T12:09:33+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<category term="flux"/>
-<summary>Hi everyone, I’m looking for a Tool, website, local LLM or workflow that can generate positive and negative prompts for Comfyui from a reference image or a description of what I want to create. Ideally, it should also support uncensored prompt writing, Should prompts be written differently for ZImag</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi everyone, I’m looking for a Tool, website, local LLM or workflow that can generate positive and negative prompts for Comfyui from a reference image or a description of what I want to create. Ideally, it should also support uncensored prompt writing, Should prompts be written differently for ZImage, Krea 2, and Flux Klein? Do they all benefit from negative prompts? My setup: 4080 Super 9800X3D 32 GB DDR5 RAM 6000 Windows 11 Pro What do you use? Thanks submitted by /u/Tonycolombo200 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x36mat/whats_the_best_prompt_generator_for_comfyui/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
