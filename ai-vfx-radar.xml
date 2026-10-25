@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-25T21:30:36+00:00</updated>
+<updated>2026-10-25T23:30:19+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xfd1tv/i_built_an_opensource_local_film_studio_for_8_gb/</id><title>I built an open-source local film studio for 8 GB cards (LTX 2.5 and MiniMax H3), with long takes joined in latent space</title>
@@ -99,6 +99,16 @@
 <category term="comfyui"/>
 <summary>Hey everyone! If you've ever used **Sequential Image Loader** or loop nodes, you know the pain: you have no idea how long the *entire* batch actually takes. ComfyUI natively tracks individual prompts, but not the macro-duration. I spent the last few weeks building two custom timer nodes with a retro</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey everyone! If you've ever used **Sequential Image Loader** or loop nodes, you know the pain: you have no idea how long the *entire* batch actually takes. ComfyUI natively tracks individual prompts, but not the macro-duration. I spent the last few weeks building two custom timer nodes with a retro LED UI. **v0.2.1** just went live on ComfyUI Manager! **The Two Nodes:** 🖼️ **Batch Image Timer**: Tailor-made for image loops. It hooks into your batch loader's total count and tracks the whole batch time without resetting between iterations. 🎛️ **Universal Timer**: For Video, Audio, Prompt, or Training pipelines. It features dynamic unit mapping (e.g., FRAMES, CLIPS) based on your workflow type&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xf7ey2/i_built_two_retro_7segment_timer_nodes_for/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xf7eio/best_ai_upscaling_workflow_for_realistic/</id><title>Best AI upscaling workflow for realistic portraits without artifacts?</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xf7eio/best_ai_upscaling_workflow_for_realistic/"/>
+<published>2026-10-25T16:51:38+00:00</published><updated>2026-10-25T16:51:38+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="upscaling"/>
+<category term="comfyui"/>
+<summary>Hey everyone! I'm looking for the best AI upscaling model or ComfyUI workflow for enhancing portrait photography while preserving natural details. My main priority is realism and fidelity to the original image , especially when it comes to skin texture, freckles, eyes, and hair. I've noticed that so</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · upscaling, comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey everyone! I'm looking for the best AI upscaling model or ComfyUI workflow for enhancing portrait photography while preserving natural details. My main priority is realism and fidelity to the original image , especially when it comes to skin texture, freckles, eyes, and hair. I've noticed that some AI upscalers tend to hallucinate details, introduce weird artifacts, oversharpen skin, or slightly alter facial features, which is exactly what I'm trying to avoid. Ideally, I'm looking for something that: Preserves the original facial features and identity. Enhances fine details without creating artificial textures. Keeps skin looking natural (no plastic or overly sharpened appearance). Works &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xf7eio/best_ai_upscaling_workflow_for_realistic/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/vfx/comments/1xf6nxw/notes_from_the_underground_vfx_breakdown_blender/</id><title>"Notes from the Underground" - VFX Breakdown - Blender, AE, Resolve (no AI)</title>
@@ -7019,25 +7029,5 @@
 <category term="minimax"/>
 <summary>submitted by /u/chove93 [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/chove93 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x3myxo/minimax_h3videos_made_with_first_frame_last_frame/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1x3l9es/minimax_h3_generation_has_become_slooow_suddenly/</id><title>Minimax H3 generation has become slooow suddenly</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x3l9es/minimax_h3_generation_has_become_slooow_suddenly/"/>
-<published>2026-10-11T22:21:43+00:00</published><updated>2026-10-11T22:21:43+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="minimax"/>
-<summary>Hello guys, would need your help. I am on laptop RTX4090 with 16GB VRAM and 32GB RAM. I used to generate 15s 1MP videos at 4steps around 12-13 minutes. today I came from vacation, updated Comfy and wanted to test some new ideas. but it takes double of time now... around 30 minutes what before took 1</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hello guys, would need your help. I am on laptop RTX4090 with 16GB VRAM and 32GB RAM. I used to generate 15s 1MP videos at 4steps around 12-13 minutes. today I came from vacation, updated Comfy and wanted to test some new ideas. but it takes double of time now... around 30 minutes what before took 13 mins. I tried to restart, update NVIDIA drivers, update comfy stable version...., different models and turbo loras combination. nothing helped..... any idea? has something changed in latest comfy update? thanks in advance for some tips where to look at..... I know 32GB RAM is not that much....but I know it worked before. submitted by /u/Worldly_Impact_9118 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x3l9es/minimax_h3_generation_has_become_slooow_suddenly/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1x3k48m/still_working_on_my_workflow_that_retextures_the/</id><title>Still working on my workflow that retextures the MakeHuman character creator UVs in Blender it has re-roll the head, body, hands and feet separately and can also mix and match parts from previous results! There are so many bells and whistles to add extra prompts or images where you want!</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x3k48m/still_working_on_my_workflow_that_retextures_the/"/>
-<published>2026-10-11T21:31:18+00:00</published><updated>2026-10-11T21:31:18+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="animation"/>
-<category term="rigging"/>
-<category term="blender"/>
-<summary>https://drive.google.com/file/d/1nWwUXgDRx00MCfhPd_AJ8ms7eL9WEI8m/view?usp=sharing MakeHuman is a powerful, open-source 3D human and humanoid character creation system that lets you build highly customizable, fully rigged characters using an extensive collection of intuitive sliders. Adjust everythi</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · animation, rigging, blender&lt;/small&gt;&lt;/p&gt;&lt;p&gt;https://drive.google.com/file/d/1nWwUXgDRx00MCfhPd_AJ8ms7eL9WEI8m/view?usp=sharing MakeHuman is a powerful, open-source 3D human and humanoid character creation system that lets you build highly customizable, fully rigged characters using an extensive collection of intuitive sliders. Adjust everything from gender, age, height, weight, body proportions, muscle mass, facial structure, and individual facial features to hands, feet, and other anatomical details. Its parametric modeling system lets you reshape the character in real time, ranging from realistic human anatomy to stylized, exaggerated, or entirely unconventional humanoid designs. Characters support posing, rigging, and animation, wi&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x3k48m/still_working_on_my_workflow_that_retextures_the/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
