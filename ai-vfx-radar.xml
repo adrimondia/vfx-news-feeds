@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-26T11:31:10+00:00</updated>
+<updated>2026-10-26T13:30:38+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xft7c1/zipties_in_comfyui/</id><title>Zipties in ComfyUI!</title>
@@ -12,6 +12,33 @@
 <category term="comfyui"/>
 <summary>I posted this on the ComfyUI subreddit and it got some traction and was pinned on the subreddit to hopefully get some attention from the Comfy devs, so I'm reposting it here aswell GitHub Repo: https://github.com/safzanpirani/comfyui-zip-ties Some people wanted it MERGED into the official ComfyUI fr</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I posted this on the ComfyUI subreddit and it got some traction and was pinned on the subreddit to hopefully get some attention from the Comfy devs, so I'm reposting it here aswell GitHub Repo: https://github.com/safzanpirani/comfyui-zip-ties Some people wanted it MERGED into the official ComfyUI frontend, so I've opened a PR there too: https://github.com/Comfy-Org/ComfyUI_frontend/pull/21965 Feel free to open issues and PRs, but it's in a pretty stable state right now but it is quite literally zipties and nothing else, so temper your expectations. submitted by /u/DemonicPotatox [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xft7c1/zipties_in_comfyui/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xfro81/testing_temporal_consistency_fabric_projection_in/</id><title>Testing temporal consistency &amp; fabric projection in ComfyUI using MiniMax-H3 🪄✨</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xfro81/testing_temporal_consistency_fabric_projection_in/"/>
+<published>2026-10-26T09:03:48+00:00</published><updated>2026-10-26T09:03:48+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="tracking"/>
+<category term="render"/>
+<category term="rendering"/>
+<category term="comfyui"/>
+<category term="consistency"/>
+<summary>Hey everyone! Here is my latest experiment exploring nested video composition and recursion inside ComfyUI, all rendered on an RTX 3060 (12GB). The goal was to create a seamless "Inception" infinite loop effect where the outerwear acts as a dynamic display, rendering a recursive scene of the stadium</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 7 · tracking, render, rendering, comfyui, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey everyone! Here is my latest experiment exploring nested video composition and recursion inside ComfyUI, all rendered on an RTX 3060 (12GB). The goal was to create a seamless "Inception" infinite loop effect where the outerwear acts as a dynamic display, rendering a recursive scene of the stadium that smoothly transitions as the camera pushes in. I focused heavily on keeping the material specularity of the leather jacket consistent while tracking the dynamic mask across the nested layers to avoid any texture stretching. No post-processing or AE composition was used. It's a pure direct-prompt one-pass render in ComfyUI using MiniMax-H3! Would love to hear your thoughts on the temporal cons&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xfro81/testing_temporal_consistency_fabric_projection_in/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xfrdh3/minimax_h3_on_1216_gb_the_seven_speedups_compared/</id><title>MiniMax H3 on 12-16 GB: the seven speed-ups compared, with file sizes and the GPU each was built for</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xfrdh3/minimax_h3_on_1216_gb_the_seven_speedups_compared/"/>
+<published>2026-10-26T08:45:27+00:00</published><updated>2026-10-26T08:45:27+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="upscaling"/>
+<category term="render"/>
+<category term="comfyui"/>
+<category term="minimax"/>
+<category term="controlnet"/>
+<category term="lora"/>
+<summary>I keep seeing "turbo LoRA or FastH3 on a 3060?" and "H3 takes 40 min even on a 5090", so I put the speed-up options next to each other from their own model cards. Short version: on a small card the slow part is usually weights or the text encoder streaming from system RAM, and turbo LoRAs cut steps,</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 7 · upscaling, render, comfyui, minimax, controlnet, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I keep seeing "turbo LoRA or FastH3 on a 3060?" and "H3 takes 40 min even on a 5090", so I put the speed-up options next to each other from their own model cards. Short version: on a small card the slow part is usually weights or the text encoder streaming from system RAM, and turbo LoRAs cut steps, not the cost of one step. The ComfyUI docs say it directly: "Turbo LoRAs shorten the schedule, not per-step time." Option Size / format Steps Built for Comfy-Org turbo LoRA (LightX2V) 1.96 GB 8 T2V/I2V, 4 R2V Native ComfyUI, any H3 base Larry Turbo v4 step600 EMA 0.78 GB 4 to 8 Larryvrh custom nodes DMAD 4-step LoRA 2.0 GB 4, cfg 1.0 Text to video only molbal Turbo GGUF (LoRA merged) 11.4 GB at Q&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xfrdh3/minimax_h3_on_1216_gb_the_seven_speedups_compared/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://github.com/unslothai/unsloth</id><title>unslothai/unsloth</title>
@@ -146,6 +173,18 @@
 <content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · video model, 3d gaussian, 4d, rendering, multiview&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2607.01202v2 Announce Type: replace Abstract: We present World from Motion, a method for generating freely renderable dynamic 3D Gaussian representations from monocular videos. Our approach conditions a video model on dense, pixel-aligned renderings that encode appearance, geometry, and 3D scene motion along both input and target camera trajectories to correct rendering artifacts and fill in missing regions from an initial reconstruction. To train this model, we construct a dataset of aligned multiview video pairs and dynamic 3DGS representations, with simulated artifacts characteristic of monocular reconstruction. At test time, we distill the model's generations, including newly obser&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2607.01202"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xfmo04/testing_out_a_2x2_storyboard_grid_with_minimax/</id><title>Testing out a 2x2 storyboard grid with MiniMax reference-to-video</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xfmo04/testing_out_a_2x2_storyboard_grid_with_minimax/"/>
+<published>2026-10-26T03:56:46+00:00</published><updated>2026-10-26T03:56:46+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<category term="minimax"/>
+<category term="lora"/>
+<category term="storyboard"/>
+<summary>In case the video's is still pending it can be watched here too Okay, so I was working on a music video using MiniMax reference-to-video, and some of the scenes I wanted to create were a little too complex for MiniMax to follow with just a prompt and even first / last frame had issues. So, I started</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 6 · comfyui, minimax, lora, storyboard&lt;/small&gt;&lt;/p&gt;&lt;p&gt;In case the video's is still pending it can be watched here too Okay, so I was working on a music video using MiniMax reference-to-video, and some of the scenes I wanted to create were a little too complex for MiniMax to follow with just a prompt and even first / last frame had issues. So, I started thinking about keyframing. I know there are ways to do actual keyframes, but I was curious what would happen if I created a 2x2 storyboard grid and used that as a reference image instead. I used GPT image 2 to create the grids. Basically, each grid has 4 panels that show how I wanted the scene to play out. The first panel is the starting frame, the last panel is the ending frame, and the two pane&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xfmo04/testing_out_a_2x2_storyboard_grid_with_minimax/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
 <id>https://www.reddit.com/r/vfx/comments/1xfl1no/can_someone_answer_a_vfx_question/</id><title>Can someone answer a VFX question?</title>
 <link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xfl1no/can_someone_answer_a_vfx_question/"/>
 <published>2026-10-26T02:32:45+00:00</published><updated>2026-10-26T02:32:45+00:00</updated>
@@ -153,6 +192,15 @@
 <category term="vfx"/>
 <summary>I'm watching the making of The Mist. There's a few shots where a crew member is holding a puppet on a pole (the puppet was later replaced with CGI and the pole was removed digitally) My question is what happens when the pole passes in front of an object in the frame, such as the "2" in the above ima</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I'm watching the making of The Mist. There's a few shots where a crew member is holding a puppet on a pole (the puppet was later replaced with CGI and the pole was removed digitally) My question is what happens when the pole passes in front of an object in the frame, such as the "2" in the above image? Once the pole is removed, does the VFX team have to digitally recreate everything the pole was in front of in that scene, frame-by-frame? submitted by /u/Cultural-Cry-5149 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xfl1no/can_someone_answer_a_vfx_question/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xfkqzq/my_entry_for_comfys_open_source_higgsfield/</id><title>My entry for Comfy’s Open Source Higgsfield challenge: RenderRepo, a package manager for ComfyUI workflows</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xfkqzq/my_entry_for_comfys_open_source_higgsfield/"/>
+<published>2026-10-26T02:17:38+00:00</published><updated>2026-10-26T02:17:38+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<summary>I built RenderRepo because useful ComfyUI workflows are scattered across GitHub, Reddit posts, local folders, and other sources. A workflow JSON gives ComfyUI a graph to open, but there’s no consistent package identity or revision trail, and it can be hard to tell what the workflow needs or whether </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I built RenderRepo because useful ComfyUI workflows are scattered across GitHub, Reddit posts, local folders, and other sources. A workflow JSON gives ComfyUI a graph to open, but there’s no consistent package identity or revision trail, and it can be hard to tell what the workflow needs or whether those files are already installed. The idea is a little like apt for workflows: manage sources, find packages, check local dependencies, review an install plan, then open the original graph in ComfyUI. A RenderRepo capsule adds package identity, schema version, source and revision provenance, and hashes around the unchanged workflow JSON. The graph stays ordinary ComfyUI JSON; the capsule gives RR&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xfkqzq/my_entry_for_comfys_open_source_higgsfield/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/vfx/comments/1xfjmvw/looking_to_pivot_into_vfx_is_this_a_good_desicion/</id><title>Looking to Pivot into VFX, is this a good desicion?</title>
@@ -7095,15 +7143,5 @@
 <category term="cinematic"/>
 <summary>Details in first comment submitted by /u/AxonkaiLab [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · minimax, cinematic&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Details in first comment submitted by /u/AxonkaiLab [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x42636/castle_knights_cinematic_ai_short_film_minimax_h3/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1x4050i/i_made_a_model_browser_for_comfyui_civitai_covers/</id><title>I made a model browser for ComfyUI: Civitai covers for every model, and it relinks "missing" models you actually have under another name</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x4050i/i_made_a_model_browser_for_comfyui_civitai_covers/"/>
-<published>2026-10-12T12:08:37+00:00</published><updated>2026-10-12T12:08:37+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="lora"/>
-<summary>I posted an early version of this here a few months ago. It does a lot more now, so here's an update. It's free (MIT) and installs from ComfyUI Manager. What it does: - Models: every model with its Civitai cover, trigger words and base model. Files are looked up by hash, so download (3).safetensors </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I posted an early version of this here a few months ago. It does a lot more now, so here's an update. It's free (MIT) and installs from ComfyUI Manager. What it does: - Models: every model with its Civitai cover, trigger words and base model. Files are looked up by hash, so download (3).safetensors still shows its real name. Click + to drop a loader node on the canvas. - Model Check: when a workflow you open is missing models, a bar over the canvas says so. If you have the same file under a different name or folder (matched by hash and size), one click swaps it in. - Gallery: your output folder, searchable by prompt words, model, LoRA or seed. Drag an image onto the canvas to get its workflo&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x4050i/i_made_a_model_browser_for_comfyui_civitai_covers/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
