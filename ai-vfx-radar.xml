@@ -2,8 +2,68 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-26T15:32:19+00:00</updated>
+<updated>2026-10-26T17:30:42+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xg1xb0/minimax_h3_on_an_rtx_3060_12gb_with_an_older_pc/</id><title>minimax h3 on an RTX 3060 12GB with an older PC?</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xg1xb0/minimax_h3_on_an_rtx_3060_12gb_with_an_older_pc/"/>
+<published>2026-10-26T16:36:56+00:00</published><updated>2026-10-26T16:36:56+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="video generation"/>
+<category term="comfyui"/>
+<category term="minimax"/>
+<category term="ai video"/>
+<summary>I'm looking into upgrading to an RTX 3060 12GB for AI videos in ComfyUI, but I live in a third world country where PC hardware is expensive relative to my income, so I need to be careful about what I spend. My current system has a 4th-gen i7 and DDR3 RAM. I'm wondering whether anyone with a similar </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 5 · video generation, comfyui, minimax, ai video&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I'm looking into upgrading to an RTX 3060 12GB for AI videos in ComfyUI, but I live in a third world country where PC hardware is expensive relative to my income, so I need to be careful about what I spend. My current system has a 4th-gen i7 and DDR3 RAM. I'm wondering whether anyone with a similar older system and an RTX 3060 12GB would be willing to test some AI video generation workflows, particularly MiniMax H3, and see what might work. I am hoping for a way it can handle reference images, and fairly consistent characters. Though when making videos on say dola ai I usually just use a single reference image and let it handle it which brings results satisfactory to me. However as they lowe&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xg1xb0/minimax_h3_on_an_rtx_3060_12gb_with_an_older_pc/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xg1ofq/two_production_fixes_from_our_local_minimax_h3/</id><title>Two production fixes from our local MiniMax H3 pipeline: a 12-frame two-sided bridge and scheduled camera cuts</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xg1ofq/two_production_fixes_from_our_local_minimax_h3/"/>
+<published>2026-10-26T16:27:58+00:00</published><updated>2026-10-26T16:27:58+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="lip-sync"/>
+<category term="minimax"/>
+<summary>Disclosure: Riley is an AI-performed character from OME OMY Productions, and we make CUT, the ComfyUI-based tool used for this production. These are our own production results. Two things from our first two episodes that might be useful to anyone stitching generated shots: 1) Bridging two shots with</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · lip-sync, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Disclosure: Riley is an AI-performed character from OME OMY Productions, and we make CUT, the ComfyUI-based tool used for this production. These are our own production results. Two things from our first two episodes that might be useful to anyone stitching generated shots: 1) Bridging two shots with 12 new frames (Episode 1). Our first repair wouldn't run because the neighbouring takes used different settings, so we made a matching 8-step studio take first. The two-sided repair then used 39 frames before and after the gap; H3 sampled 90 frames including both guides and padding, and only the 12 replacement frames were saved (seed 254, 960×544, 8 steps). Neither cut moved, and the song and the&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xg1ofq/two_production_fixes_from_our_local_minimax_h3/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xg1fid/krea2_turbo_hospitality_realestate_business_ads/</id><title>Krea-2 Turbo : Hospitality &amp; Real-Estate business Ads with Text [ComfyUI]</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xg1fid/krea2_turbo_hospitality_realestate_business_ads/"/>
+<published>2026-10-26T16:19:03+00:00</published><updated>2026-10-26T16:19:03+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<summary>1. Boutique hotel — premium booking campaign Luxury boutique hotel advertising photograph of an elegant contemporary hotel bedroom overlooking a dramatic tropical coastline at sunrise. Floor-to-ceiling glass doors open onto a private terrace with a calm ocean view. The room features an understated k</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;1. Boutique hotel — premium booking campaign Luxury boutique hotel advertising photograph of an elegant contemporary hotel bedroom overlooking a dramatic tropical coastline at sunrise. Floor-to-ceiling glass doors open onto a private terrace with a calm ocean view. The room features an understated king-size bed with beautiful ivory linen, natural wood furniture, warm textured plaster walls, and carefully selected ceramic objects. Soft morning sunlight creates organic shadows, sheer curtains move gently in the breeze, and the atmosphere feels deeply peaceful. Premium architectural and hospitality photography, 24mm tilt-corrected lens, natural warm grading, precise straight architectural lines&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xg1fid/krea2_turbo_hospitality_realestate_business_ads/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xg0ann/i_really_like_the_gaussian_splash_lora_for_2511/</id><title>I really like the Gaussian Splash LoRA for 2511 and really wanted it on Qwen-Image 2.1. So I trained one for it!</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xg0ann/i_really_like_the_gaussian_splash_lora_for_2511/"/>
+<published>2026-10-26T15:39:09+00:00</published><updated>2026-10-26T15:39:09+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="lora"/>
+<summary>https://preview.redd.it/3g8v08bixtxh1.jpeg?width=3740&amp;format=pjpg&amp;auto=webp&amp;s=466ed907730b2fcc2bc42662ec7a7203ece1310a I really liked and missed this lora from 2511 So I trained my own, It turned quite well! Old LoRA (2511): https://huggingface.co/dx8152/Qwen-Image-Edit-2511-Gaussian-Splash My LoRA </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;https://preview.redd.it/3g8v08bixtxh1.jpeg?width=3740&amp;amp;format=pjpg&amp;amp;auto=webp&amp;amp;s=466ed907730b2fcc2bc42662ec7a7203ece1310a I really liked and missed this lora from 2511 So I trained my own, It turned quite well! Old LoRA (2511): https://huggingface.co/dx8152/Qwen-Image-Edit-2511-Gaussian-Splash My LoRA (Qwen-Image 2.1): https://github.com/aaljman/splat-repair-lora (This version is trained to be used with prompting, since that's the way I used to use the 2511 one. If you liked how plug and play the 2511 LoRA was, you might be a bit disappointed, but this gives more control.) submitted by /u/Spy4killer [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xg0ann/i_really_like_the_gaussian_splash_lora_for_2511/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xfzbq9/flux3_step_distillation_48_steps/</id><title>Flux3 step distillation 4-8 steps</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xfzbq9/flux3_step_distillation_48_steps/"/>
+<published>2026-10-26T15:04:11+00:00</published><updated>2026-10-26T15:04:11+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<category term="flux"/>
+<summary>Hi everyone! I just made a step-distilled FLUX.3 klein base: 8 or 4 steps instead of 50, with CFG (4) baked in. 🔍 Side-by-side comparison, 128 prompts(text to image / image to image / box control) 📦 Model (diffusers + ComfyUI weights) submitted by /u/Fit-Structure-6489 [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui, flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi everyone! I just made a step-distilled FLUX.3 klein base: 8 or 4 steps instead of 50, with CFG (4) baked in. 🔍 Side-by-side comparison, 128 prompts(text to image / image to image / box control) 📦 Model (diffusers + ComfyUI weights) submitted by /u/Fit-Structure-6489 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xfzbq9/flux3_step_distillation_48_steps/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xfy5te/docker_image_for_easypreconfigured_minimax_h3/</id><title>Docker image for easy/pre-configured Minimax H3 generation on different cloud providers?</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xfy5te/docker_image_for_easypreconfigured_minimax_h3/"/>
+<published>2026-10-26T14:20:17+00:00</published><updated>2026-10-26T14:20:17+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<category term="minimax"/>
+<summary>Currently I am using a runpod template but I want to switch to a Docker image instead, containing pre-loaded ComfyUI with Minimax H3, where I can add my loras/workflows and which I can use on many different cloud providers (to be more independent in case of price changes or bad availability). Do you</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Currently I am using a runpod template but I want to switch to a Docker image instead, containing pre-loaded ComfyUI with Minimax H3, where I can add my loras/workflows and which I can use on many different cloud providers (to be more independent in case of price changes or bad availability). Do you know any easy services to set something like that up, ideally without having to do it myself locally? Or maybe there are any pre-made (community) Docker images I could just add some loras/settings to? Not very experienced in this regard I have to admit, so looking for any recommendations or how you solved this if you did something similar. Thanks in advance! submitted by /u/Disastrous-Yak- [link]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xfy5te/docker_image_for_easypreconfigured_minimax_h3/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xfxuyr/i_tried_different_dataset_sizes_on_krea2_to_try/</id><title>I tried different dataset sizes on KREA2, to try to answer the age-old question, how many images do you need?</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xfxuyr/i_tried_different_dataset_sizes_on_krea2_to_try/"/>
@@ -13,6 +73,17 @@
 <category term="lora"/>
 <summary>I created a synthetic dataset (She's an AI-generated woman not a real person.) and used those to train three different LoKRs for KREA2: one used 3 images only, the other 8, and one used 15 images. I used no trigger word in the caption for the training. I only addressed her as a young korean woman an</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · wan2, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I created a synthetic dataset (She's an AI-generated woman not a real person.) and used those to train three different LoKRs for KREA2: one used 3 images only, the other 8, and one used 15 images. I used no trigger word in the caption for the training. I only addressed her as a young korean woman and I described everything around her in detail: her hairstyle, the background, the clothing, her facial expression, etc. The 3-image LoKR came out with a good likeness at 1,000 steps. The 8-image one at 1,440 steps and the 15-image one at 2,100 steps. The workflow for creating the showcase shots: krea2 int8 with the qwen3vl 4b text encoder, refusal LoRA 1.0, turbo 0.4 (0.2 for styles), 16 steps, cf&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xfxuyr/i_tried_different_dataset_sizes_on_krea2_to_try/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xfx5sv/automated_ai_2k_documentaries_in_comfyui_qwen/</id><title>Automated AI 2K documentaries in ComfyUI: Qwen Image 2.1 → MiniMax H3 → Qwen3-TTS → RTX upscale, all in batch (free workflow)</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xfx5sv/automated_ai_2k_documentaries_in_comfyui_qwen/"/>
+<published>2026-10-26T13:41:59+00:00</published><updated>2026-10-26T13:41:59+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="image-to-video"/>
+<category term="comfyui"/>
+<category term="minimax"/>
+<summary>I've been working on a pipeline to make short history documentaries completely locally, and I wanted to share how it works. The workflow is in the description of the YouTube videotutorial: https://www.youtube.com/watch?v=oOq5EsY6nTU **Script + prompts:** a master prompt in Claude researches the topi</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 5 · image-to-video, comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I've been working on a pipeline to make short history documentaries completely locally, and I wanted to share how it works. The workflow is in the description of the YouTube videotutorial: https://www.youtube.com/watch?v=oOq5EsY6nTU **Script + prompts:** a master prompt in Claude researches the topic (with sources), builds a "visual bible" (fixed style, character and location blocks so characters stay consistent) and writes the script in 10-second chunks. It outputs a zip with one prompt .txt per image (positive / negative / name), the video prompts and a Narration.txt. **Images:** Load Prompts From Dir (Inspire Pack) feeds Qwen Image 2.1 in batch, one image per file. **Quality control:** I &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xfx5sv/automated_ai_2k_documentaries_in_comfyui_qwen/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xfwf1y/grasshopperstyle_data_trees_for_comfyui/</id><title>Grasshopper-style data trees for ComfyUI</title>
@@ -53,6 +124,15 @@
 <category term="cinematic"/>
 <summary>Hey guys, about two weeks ago I saw a trailer for Tracery 2 on YouTube. I watched it and really liked it, but when I checked the price I was honestly shocked. $60 for a plugin that mainly does tracking, colors, boxes, lines and labels on videos felt crazy to me. So I opened Claude and Codex and star</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · tracking, cinematic&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey guys, about two weeks ago I saw a trailer for Tracery 2 on YouTube. I watched it and really liked it, but when I checked the price I was honestly shocked. $60 for a plugin that mainly does tracking, colors, boxes, lines and labels on videos felt crazy to me. So I opened Claude and Codex and started working on a few prototypes. After 3–4 days it actually started looking pretty good, then I published it on GitHub with the full source code. Since then it’s gotten even better. It works great for me in Premiere, but it’s still a bit unoptimized in After Effects. I’m working on that and still trying to make the plugin better overall. I hope you guys like it. If there’s anything you want change&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xftqk4/i_made_a_free_and_fully_open_sourced_tracery_2/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xftdnv/new_lora_nodes_how_do_they_work/</id><title>New LoRA Nodes - How do they work?</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xftdnv/new_lora_nodes_how_do_they_work/"/>
+<published>2026-10-26T10:44:16+00:00</published><updated>2026-10-26T10:44:16+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="lora"/>
+<summary>Comfy-UI recently added the new lora nodes for model and clip seperately, supposedly possible to stack loras through there. Theyve got the model/clip input and a "lora" input. What is supposed to be connected to the lora input? Havent seen anyone talk about this, but Im just too stupid to figure it </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Comfy-UI recently added the new lora nodes for model and clip seperately, supposedly possible to stack loras through there. Theyve got the model/clip input and a "lora" input. What is supposed to be connected to the lora input? Havent seen anyone talk about this, but Im just too stupid to figure it out. submitted by /u/Doctor_moctor [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xftdnv/new_lora_nodes_how_do_they_work/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xft7c1/zipties_in_comfyui/</id><title>Zipties in ComfyUI!</title>
@@ -7100,42 +7180,5 @@
 <category term="minimax"/>
 <summary>The quality is not great tbh. I started to use Minimax for 2 weeks. But it was worth of try --- edit; I did not aware of this forum :/ I now will adapt new knowledge to push my boundaries submitted by /u/Rare_Abbreviations_8 [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;The quality is not great tbh. I started to use Minimax for 2 weeks. But it was worth of try --- edit; I did not aware of this forum :/ I now will adapt new knowledge to push my boundaries submitted by /u/Rare_Abbreviations_8 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x488xy/made_this_entire_video_with_comfyui/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1x47z40/fix_plastic_skin_krea_2_turbo_and_i2i_workflows/</id><title>Fix plastic skin: KREA 2 Turbo and I2I workflows for realism</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x47z40/fix_plastic_skin_krea_2_turbo_and_i2i_workflows/"/>
-<published>2026-10-12T17:22:29+00:00</published><updated>2026-10-12T17:22:29+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="upscaling"/>
-<category term="upscaler"/>
-<summary>Do the images you generate look like AI slop with plastic skin? These workflows can help you fix that. They're based on the 2K upscaler with Z-Image Turbo. The upscaling step has been removed, and the model has been swapped for the int8.convrot version of Z-Image Turbo. You can easily add it to KREA</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · upscaling, upscaler&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Do the images you generate look like AI slop with plastic skin? These workflows can help you fix that. They're based on the 2K upscaler with Z-Image Turbo. The upscaling step has been removed, and the model has been swapped for the int8.convrot version of Z-Image Turbo. You can easily add it to KREA 2 Turbo and Qwen-Image-Edit workflows, with only a small increase in processing time. Performance 1024x1024 I2I: ~3 seconds for a second-generation image on an RTX 5070 Ti; ~6 seconds on an RTX 5060 Ti 16GB. Performance (1024×1024) KREA2 Turbo+ Z image Turbo: ~9.5 seconds for a second-generation image on an RTX 5070 Ti; ~19 seconds on an RTX 5060 Ti 16GB. These workflows are on Civitai and Github&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x47z40/fix_plastic_skin_krea_2_turbo_and_i2i_workflows/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1x47uh3/comfyui_yue2_generate_music_in_comfyui_with_the/</id><title>ComfyUI_YuE2 — Generate music in ComfyUI with the official YuE2 pipeline</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x47uh3/comfyui_yue2_generate_music_in_comfyui_with_the/"/>
-<published>2026-10-12T17:17:36+00:00</published><updated>2026-10-12T17:17:36+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<summary>submitted by /u/jeankassio [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/jeankassio [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x47uh3/comfyui_yue2_generate_music_in_comfyui_with_the/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1x47qzt/finally_a_fix_for_comfyui_crashes/</id><title>Finally a fix for ComfyUI crashes</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x47qzt/finally_a_fix_for_comfyui_crashes/"/>
-<published>2026-10-12T17:14:01+00:00</published><updated>2026-10-12T17:14:01+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<summary>hey yall, I kept losing overnight runs to OOM or comfy just randomly dying, and waking up to an empty queue. Ts was really annoying so I made a custom node called durable. Its a few mb donwload and it fixed the problem for me; Check out the repo at: https://github.com/castor639/comfyui-durable submi</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;hey yall, I kept losing overnight runs to OOM or comfy just randomly dying, and waking up to an empty queue. Ts was really annoying so I made a custom node called durable. Its a few mb donwload and it fixed the problem for me; Check out the repo at: https://github.com/castor639/comfyui-durable submitted by /u/Less_Sort6207 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x47qzt/finally_a_fix_for_comfyui_crashes/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1x47jdb/should_we_be_worried_about_minimax_potentially/</id><title>Should we be worried about MiniMax potentially being censored in the future?</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x47jdb/should_we_be_worried_about_minimax_potentially/"/>
-<published>2026-10-12T17:06:23+00:00</published><updated>2026-10-12T17:06:23+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="minimax"/>
-<summary>MiniMax is my first serious foray into AI. I have no clue of what has happened in the past with other/older AI models, but I thought I heard that some of the uncensored ones were eventually censored. Could the same happen with MiniMax? How does censorship even work, anyway? Isn't the model entirely </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;MiniMax is my first serious foray into AI. I have no clue of what has happened in the past with other/older AI models, but I thought I heard that some of the uncensored ones were eventually censored. Could the same happen with MiniMax? How does censorship even work, anyway? Isn't the model entirely local? submitted by /u/zeroedit [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x47jdb/should_we_be_worried_about_minimax_potentially/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
