@@ -2,8 +2,67 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-26T21:30:20+00:00</updated>
+<updated>2026-10-26T23:30:34+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xgbb1j/minimax_h3_workflow_initial_extending_and_extend/</id><title>MiniMax H3 Workflow - Initial, Extending and Extend by Latent(review and advise)</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xgbb1j/minimax_h3_workflow_initial_extending_and_extend/"/>
+<published>2026-10-26T22:29:45+00:00</published><updated>2026-10-26T22:29:45+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="render"/>
+<category term="minimax"/>
+<category term="lora"/>
+<category term="consistency"/>
+<summary>Ok ... Let me preface by saying I am absolutely new to all this. My goal is to create an automated podcast all locally generated on my own system. I'm working separately on my llm and my video work flow. This post is regarding what I've created so far in my workflow. What I have... I have a Minimax </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 5 · render, minimax, lora, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Ok ... Let me preface by saying I am absolutely new to all this. My goal is to create an automated podcast all locally generated on my own system. I'm working separately on my llm and my video work flow. This post is regarding what I've created so far in my workflow. What I have... I have a Minimax H3 workflow that uses a switch to tell it what its about to do. The choices (1,2,3) are 1) a fresh image to video based off of refmods for a character and voice, a background image and a second character image reference. 2) extending the initial video by using the first as a guide, taking the last 22 frames to keep character and scene consistency 3) using the latent from the previous render in the&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xgbb1j/minimax_h3_workflow_initial_extending_and_extend/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xgbat8/comfyui_node_to_stack_multiple_loras_with_arrow/</id><title>ComfyUI node to stack multiple LoRAs with arrow navigation?</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xgbat8/comfyui_node_to_stack_multiple_loras_with_arrow/"/>
+<published>2026-10-26T22:29:30+00:00</published><updated>2026-10-26T22:29:30+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<category term="lora"/>
+<summary>Hi! Is there any custom node for ComfyUI that allows you to stack multiple LoRAs like Power Lora Loader (rgthree) , but also lets you cycle through the LoRAs in the same subfolder using arrow buttons, just like the regular Load LoRA node? Ideally, I'd like to have multiple LoRA slots in a single nod</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi! Is there any custom node for ComfyUI that allows you to stack multiple LoRAs like Power Lora Loader (rgthree) , but also lets you cycle through the LoRAs in the same subfolder using arrow buttons, just like the regular Load LoRA node? Ideally, I'd like to have multiple LoRA slots in a single node, with each slot allowing me to browse through the LoRAs in a specific subfolder using the arrow buttons, without having to open the dropdown menu every time. Does anything like this exist, or would it require a custom node? submitted by /u/Vyxen808 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xgbat8/comfyui_node_to_stack_multiple_loras_with_arrow/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xgb9ky/issues_with_two_characters_having_the_voices/</id><title>Issues with two characters having the voices swapped in Minimax H3.</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xgb9ky/issues_with_two_characters_having_the_voices/"/>
+<published>2026-10-26T22:28:02+00:00</published><updated>2026-10-26T22:28:02+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="minimax"/>
+<summary>So I been having issues trying to do videos with two characters lately, I have both of there voice audio samples, and the two audio samples are assigned properly in the prompt with the &lt;Audio 1&gt; and &lt;Audio 2&gt; along with the (S1) and (S2). It seems no matter what I do Character 1 always has the voice</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;So I been having issues trying to do videos with two characters lately, I have both of there voice audio samples, and the two audio samples are assigned properly in the prompt with the &amp;lt;Audio 1&amp;gt; and &amp;lt;Audio 2&amp;gt; along with the (S1) and (S2). It seems no matter what I do Character 1 always has the voice of Character 2. I tried swapping the audio files and that didn't fixed it either. It seems that recently Minimax H3 is having issues separating the different voices of two characters, I have tried adding a different voice for the second character, and it still uses that voice for the first character. So something is going on with how Minimax is handling voice samples lately, So its making it diff&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xgb9ky/issues_with_two_characters_having_the_voices/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xgaa1s/minimax_h3_faster_than_baseline_options_without/</id><title>Minimax h3 'faster' than baseline options without the 'turbo' look</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xgaa1s/minimax_h3_faster_than_baseline_options_without/"/>
+<published>2026-10-26T21:48:05+00:00</published><updated>2026-10-26T21:48:05+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="minimax"/>
+<category term="lora"/>
+<summary>Turbo loras give that weird thickened lines, overcooked type of look. It's well known and discussed so i don't think i need to show examples, but my question is, for those who use minimax h3 a lot, is there any good ways to speed it up without getting too much of that? I tried 0.7 strength on the st</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Turbo loras give that weird thickened lines, overcooked type of look. It's well known and discussed so i don't think i need to show examples, but my question is, for those who use minimax h3 a lot, is there any good ways to speed it up without getting too much of that? I tried 0.7 strength on the step4 larry ema lora, and i tried 8 and 10 steps. 0.6mp. Comes out much better, but still has a bit of the turbo look. submitted by /u/maxiedaniels [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xgaa1s/minimax_h3_faster_than_baseline_options_without/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xg9tis/nowhere_is_safe_in_the_backroomsh3_minimax/</id><title>Nowhere is safe in the backrooms-H3 minimax</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xg9tis/nowhere_is_safe_in_the_backroomsh3_minimax/"/>
+<published>2026-10-26T21:29:24+00:00</published><updated>2026-10-26T21:29:24+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="minimax"/>
+<summary>submitted by /u/warzone_afro [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/warzone_afro [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xg9tis/nowhere_is_safe_in_the_backroomsh3_minimax/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xg8xqo/odissey_of_aeons_video_generado_con_minimax_h3_y/</id><title>Odissey of Aeons - Video generado con minimax h3 y musica con Acesteep 1.5</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xg8xqo/odissey_of_aeons_video_generado_con_minimax_h3_y/"/>
+<published>2026-10-26T20:55:45+00:00</published><updated>2026-10-26T20:55:45+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="minimax"/>
+<summary>submitted by /u/Musikalandia [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/Musikalandia [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xg8xqo/odissey_of_aeons_video_generado_con_minimax_h3_y/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/vfx/comments/1xg8dg0/need_after_effect_vfx_editor_that_can_work_with/</id><title>need after effect vfx editor that can work with ai generations</title>
 <link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xg8dg0/need_after_effect_vfx_editor_that_can_work_with/"/>
@@ -12,6 +71,21 @@
 <category term="vfx"/>
 <summary>no simple motion graphics please dm your best 30 seconds work - one piece only no overlay vfx, all motion work made from scratch!! will check composition. do not send other people’s work !! project is for an event india only submitted by /u/byaameka [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;no simple motion graphics please dm your best 30 seconds work - one piece only no overlay vfx, all motion work made from scratch!! will check composition. do not send other people’s work !! project is for an event india only submitted by /u/byaameka [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xg8dg0/need_after_effect_vfx_editor_that_can_work_with/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xg6dhs/a_quick_mossimage_news_roundup_27th_october_2026/</id><title>A quick MOSS-Image news round-up - 27th October 2026</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xg6dhs/a_quick_mossimage_news_roundup_27th_october_2026/"/>
+<published>2026-10-26T19:19:05+00:00</published><updated>2026-10-26T19:19:05+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="keying"/>
+<category term="inpainting"/>
+<category term="animation"/>
+<category term="comfyui"/>
+<category term="flux"/>
+<category term="lora"/>
+<category term="storyboard"/>
+<summary>Another quick MOSS-Image news and goodies round-up, for those who may have missed some items. -&gt; A simple 18Mb MOSS-Image Sharpness Slider. "Moves an image between sharp and blurry by LoRA strength alone", no trigger needed. https://huggingface.co/aoleg/MOSS-Sharpness-Slider -&gt; New theme LoRAs for 1</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 7 · keying, inpainting, animation, comfyui, flux, lora, storyboard&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Another quick MOSS-Image news and goodies round-up, for those who may have missed some items. -&amp;gt; A simple 18Mb MOSS-Image Sharpness Slider. "Moves an image between sharp and blurry by LoRA strength alone", no trigger needed. https://huggingface.co/aoleg/MOSS-Sharpness-Slider -&amp;gt; New theme LoRAs for 1950s sci-fi and 1950s wild western movies. https://huggingface.co/neph1/1950s_western_lora_moss (no trigger) https://huggingface.co/neph1/1950s_scifi_lora_moss (trigger: 50s_scifi ) -&amp;gt; Another MOSS alpha transparency LoRA, done via a special Flux.2 VAE rather than chroma keying. This one... "was trained with black-and-white manga in mind (characters, creatures, props, ink effects, sound effects, s&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xg6dhs/a_quick_mossimage_news_roundup_27th_october_2026/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/vfx/comments/1xg6c4i/where_to_buy_mocap_suit_online/</id><title>Where to buy mocap suit online</title>
@@ -39,6 +113,19 @@
 <category term="minimax"/>
 <summary>Thanks to u/xyzdist and to all other great helper here submitted by /u/fa6637 [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Thanks to u/xyzdist and to all other great helper here submitted by /u/fa6637 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xg538j/minimax_h3_ref2va_vs_fl2va_do_you_really_know_the/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xg4ts2/the_far_shore_an_atmospheric_title_sequence_made/</id><title>The Far Shore — An atmospheric title sequence made with ComfyUI (I2V)</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xg4ts2/the_far_shore_an_atmospheric_title_sequence_made/"/>
+<published>2026-10-26T18:21:40+00:00</published><updated>2026-10-26T18:21:40+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="image-to-video"/>
+<category term="color grading"/>
+<category term="comfyui"/>
+<category term="minimax"/>
+<category term="cinematic"/>
+<summary>Title: The Far Shore — A cinematic title sequence built around fog and architecture I wanted to see how far I could push a title sequence using almost nothing but fog, light, scale, and restrained camera movement. The challenge was keeping the suspension bridge architecturally consistent across diff</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 6 · image-to-video, color grading, comfyui, minimax, cinematic&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Title: The Far Shore — A cinematic title sequence built around fog and architecture I wanted to see how far I could push a title sequence using almost nothing but fog, light, scale, and restrained camera movement. The challenge was keeping the suspension bridge architecturally consistent across different shots while allowing the atmosphere to do most of the storytelling. Built using ComfyUI with LTX-2.5 and MiniMax H3 for image-to-video generation, followed by editing and color grading in post. I'm particularly curious whether the sequence holds your attention through atmosphere alone, or if the pacing starts to feel repetitive. Happy to discuss the workflow and what worked (or didn't) acros&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xg4ts2/the_far_shore_an_atmospheric_title_sequence_made/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xg4kft/blur_antiblur_slider_lora_for_moss/</id><title>Blur / Anti-Blur slider LoRA for MOSS</title>
@@ -92,6 +179,16 @@
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;1. Boutique hotel — premium booking campaign Luxury boutique hotel advertising photograph of an elegant contemporary hotel bedroom overlooking a dramatic tropical coastline at sunrise. Floor-to-ceiling glass doors open onto a private terrace with a calm ocean view. The room features an understated king-size bed with beautiful ivory linen, natural wood furniture, warm textured plaster walls, and carefully selected ceramic objects. Soft morning sunlight creates organic shadows, sheer curtains move gently in the breeze, and the atmosphere feels deeply peaceful. Premium architectural and hospitality photography, 24mm tilt-corrected lens, natural warm grading, precise straight architectural lines&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xg1fid/krea2_turbo_hospitality_realestate_business_ads/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xg0mqz/prompt_advice/</id><title>Prompt Advice</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xg0mqz/prompt_advice/"/>
+<published>2026-10-26T15:51:02+00:00</published><updated>2026-10-26T15:51:02+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<category term="ltx"/>
+<summary>So I have my LLM read my novel (self published) and create a cast reference sheet. Then pull out high action moments and write optimized prompts to make 10 second clips of those moments. The idea is to make videos for book trailers, my site, etc. I’m using LTX2.5 and I’ve created an “optimized for L</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui, ltx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;So I have my LLM read my novel (self published) and create a cast reference sheet. Then pull out high action moments and write optimized prompts to make 10 second clips of those moments. The idea is to make videos for book trailers, my site, etc. I’m using LTX2.5 and I’ve created an “optimized for LTX” prompt language (I asked the agent to write a prompt optimized for LTX2.5 in ComfyUI) but the quality is still less than stellar. Any suggestions or rules of thumb to try and improve the output quality? What things do you build into your workflows to ensure good quality output? They the video actually follows the action described? Thanks in advance, I appreciate the help. submitted by /u/pauls&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xg0mqz/prompt_advice/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xg0ann/i_really_like_the_gaussian_splash_lora_for_2511/</id><title>I really like the Gaussian Splash LoRA for 2511 and really wanted it on Qwen-Image 2.1. So I trained one for it!</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xg0ann/i_really_like_the_gaussian_splash_lora_for_2511/"/>
 <published>2026-10-26T15:39:09+00:00</published><updated>2026-10-26T15:39:09+00:00</updated>
@@ -99,6 +196,16 @@
 <category term="lora"/>
 <summary>https://preview.redd.it/3g8v08bixtxh1.jpeg?width=3740&amp;format=pjpg&amp;auto=webp&amp;s=466ed907730b2fcc2bc42662ec7a7203ece1310a I really liked and missed this lora from 2511 So I trained my own, It turned quite well! Old LoRA (2511): https://huggingface.co/dx8152/Qwen-Image-Edit-2511-Gaussian-Splash My LoRA </summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;https://preview.redd.it/3g8v08bixtxh1.jpeg?width=3740&amp;amp;format=pjpg&amp;amp;auto=webp&amp;amp;s=466ed907730b2fcc2bc42662ec7a7203ece1310a I really liked and missed this lora from 2511 So I trained my own, It turned quite well! Old LoRA (2511): https://huggingface.co/dx8152/Qwen-Image-Edit-2511-Gaussian-Splash My LoRA (Qwen-Image 2.1): https://github.com/aaljman/splat-repair-lora (This version is trained to be used with prompting, since that's the way I used to use the 2511 one. If you liked how plug and play the 2511 LoRA was, you might be a bit disappointed, but this gives more control.) submitted by /u/Spy4killer [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xg0ann/i_really_like_the_gaussian_splash_lora_for_2511/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xfzhvr/flux3_step_distillation_48_steps/</id><title>Flux3 step distillation 4-8 steps</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xfzhvr/flux3_step_distillation_48_steps/"/>
+<published>2026-10-26T15:10:19+00:00</published><updated>2026-10-26T15:10:19+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<category term="flux"/>
+<summary>Hi everyone! I just made a step-distilled FLUX.3 klein base: 8 or 4 steps instead of 50, with CFG baked in. 🔍 Side-by-side comparison, 128 prompts(text to image / image to image / box control) 📦 Model (diffusers + ComfyUI weights) submitted by /u/Fit-Structure-6489 [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui, flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi everyone! I just made a step-distilled FLUX.3 klein base: 8 or 4 steps instead of 50, with CFG baked in. 🔍 Side-by-side comparison, 128 prompts(text to image / image to image / box control) 📦 Model (diffusers + ComfyUI weights) submitted by /u/Fit-Structure-6489 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xfzhvr/flux3_step_distillation_48_steps/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xfzbq9/flux3_step_distillation_48_steps/</id><title>Flux3 step distillation 4-8 steps</title>
@@ -407,6 +514,15 @@
 <category term="vfx"/>
 <summary>Hi everyone! For context I am a 2D animator who is looking to pivot into real time VFX and was wondering what would be a good starting point to learn. I'm looking to purchase at least a month of vfxapprenticeship and I've also seen CGHOW on youtube. Besides that I've just been looking at Artstation </summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi everyone! For context I am a 2D animator who is looking to pivot into real time VFX and was wondering what would be a good starting point to learn. I'm looking to purchase at least a month of vfxapprenticeship and I've also seen CGHOW on youtube. Besides that I've just been looking at Artstation and finding whatever tutorials online. I wonder if there are any VFX communities besides reddit online where I can show some of my beginner work to get some feedback, I'm also looking for like a study buddy or like a couple of people who are down to just learn VFX together! Does anyone know any other resources to look out for besides that? And does anyone personally do mentoring for VFX like a tut&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xfjmvw/looking_to_pivot_into_vfx_is_this_a_good_desicion/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xfjayi/i_built_an_localfirst_spatial_catalog_to_organize/</id><title>I built an local-first spatial catalog to organize and search thousands of ComfyUI outputs &amp; workflows (FOSS)</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xfjayi/i_built_an_localfirst_spatial_catalog_to_organize/"/>
+<published>2026-10-26T01:08:27+00:00</published><updated>2026-10-26T01:08:27+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<summary>Hey everyone, Like many of you guys, my ComfyUI output folder quickly grew to tens of thousands of images, and Windows Explorer was either freezing or completely useless for finding which generation had which prompt or node setup. I used AI to build a fast, local-first alternative to organize massiv</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey everyone, Like many of you guys, my ComfyUI output folder quickly grew to tens of thousands of images, and Windows Explorer was either freezing or completely useless for finding which generation had which prompt or node setup. I used AI to build a fast, local-first alternative to organize massive image collections and ComfyUI outputs without using proprietary software or sending data to cloud services. Key Features: • Spatial Grid: Fluid navigation designed to pan and zoom through 40,000+ images instantly without UI stutter. • ComfyUI Metadata Extraction: Automatically parses PNG chunks (tEXt / iTXt) to show positive and negative prompts, seed, sampler, steps, checkpoint, and the full wo&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xfjayi/i_built_an_localfirst_spatial_catalog_to_organize/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xfiu6p/update_tired_of_guessing_how_long_your_batch/</id><title>[Update] Tired of guessing how long your batch generations take? I made two free ComfyUI timer nodes to accurately track macro-duration. (v0.2.2)</title>
@@ -7147,37 +7263,5 @@
 <category term="flux"/>
 <summary>https://drive.google.com/file/d/10F_9xbm2sdWDAw_E8orXBltqhNjFX9Ef/view?usp=sharing A2 MakeHuman: Image to UV Texture Workflow (ComfyUI) Give it a picture of the character you want, and it paints the full UV texture for you: head, body, hands and feet. It’s fun to use, and you don’t have to write the</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 6 · rigging, comfyui, blender, flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;https://drive.google.com/file/d/10F_9xbm2sdWDAw_E8orXBltqhNjFX9Ef/view?usp=sharing A2 MakeHuman: Image to UV Texture Workflow (ComfyUI) Give it a picture of the character you want, and it paints the full UV texture for you: head, body, hands and feet. It’s fun to use, and you don’t have to write the prompts yourself. How it works Load your style reference , which can be any image of the character or look you want, and your UV map . Qwen3-VL looks at your image and describes each part. The head gets face colors and textures, the body gets where the colors and markings sit, and the hands and feet get their material. Each part is generated with Flux 2 Klein , using the UV layout as a guide so t&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x4hdod/im_still_updating_the_workflow_for_retexturing/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1x4gk3w/recently_completed_my_bachelors_in_vfx/</id><title>Recently completed my Bachelors in VFX</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1x4gk3w/recently_completed_my_bachelors_in_vfx/"/>
-<published>2026-10-12T22:56:45+00:00</published><updated>2026-10-12T22:56:45+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="vfx"/>
-<category term="blender"/>
-<category term="kling"/>
-<category term="seedance"/>
-<summary>As the tittle says. I have 0 real experience other than university. I have a website with my work on it. The quality of that work obviously was of a passing grade but I wouldn't say it's the best. I no longer know what area of VFX interests me after constantly changing. Additionally, I create AI vid</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 5 · vfx, blender, kling, seedance&lt;/small&gt;&lt;/p&gt;&lt;p&gt;As the tittle says. I have 0 real experience other than university. I have a website with my work on it. The quality of that work obviously was of a passing grade but I wouldn't say it's the best. I no longer know what area of VFX interests me after constantly changing. Additionally, I create AI videos using Seedance and Kling. My mind is telling me to create some Blender scenes or stuff to showcase in Blender and eventually have enough stuff for a new showreel. Maybe even see how I can incorporate AI into it. Is it worth it assuming I want to find work? Despite me not having proper experience? submitted by /u/Substantial_Craft_87 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1x4gk3w/recently_completed_my_bachelors_in_vfx/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1x4gafz/i_built_a_comfyui_node_for_character_photoshoots/</id><title>I built a ComfyUI node for character photoshoots. It came out of running a fake Instagram model.</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x4gafz/i_built_a_comfyui_node_for_character_photoshoots/"/>
-<published>2026-10-12T22:44:21+00:00</published><updated>2026-10-12T22:44:21+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<summary>For a while, I ran an Instagram account for a model that does not exist. Everything was generated in ComfyUI. It reached around 40,000 followers until Instagram took the account down. That was that. The part that stayed with me was the work behind the posts. Every shot needed a look, a place, light,</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;For a while, I ran an Instagram account for a model that does not exist. Everything was generated in ComfyUI. It reached around 40,000 followers until Instagram took the account down. That was that. The part that stayed with me was the work behind the posts. Every shot needed a look, a place, light, and a pose, and all of it had to stay consistent. I wrote prompts by hand at first. Later, I pulled images from Pinterest and sent them through AI to get a prompt back for a similar picture. That worked sometimes. It didn't give me control over small details, and I wanted to pick options visually instead of typing them and hoping. So I built a panel for myself. Then it turned into a node. Perfect&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x4gafz/i_built_a_comfyui_node_for_character_photoshoots/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1x4fq9m/filmcraft_this_entire_movie_was_rendered_as_one/</id><title>FilmCraft, This entire movie was rendered as one sequence. Update 1</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x4fq9m/filmcraft_this_entire_movie_was_rendered_as_one/"/>
-<published>2026-10-12T22:19:26+00:00</published><updated>2026-10-12T22:19:26+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="color grading"/>
-<category term="comfyui"/>
-<category term="minimax"/>
-<summary>7 minutes made in 3 weeks using MiniMax H3 through my set of tools for ComfyUI. It's meant to make creating and iterating on very long timelines as painless as possible and make iteration fast. Quickly tweak prompts, references, and redo entire shots or sequences while spending less time. (I just re</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · color grading, comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;7 minutes made in 3 weeks using MiniMax H3 through my set of tools for ComfyUI. It's meant to make creating and iterating on very long timelines as painless as possible and make iteration fast. Quickly tweak prompts, references, and redo entire shots or sequences while spending less time. (I just redid the travel sequence and part of the battle sequence again last night when I learned some tricks about color grading my reference frames) You can find it here: https://github.com/spacesimeco-hue/Chain-Motion-AI-Video-Editor submitted by /u/Super_Range45 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x4fq9m/filmcraft_this_entire_movie_was_rendered_as_one/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
