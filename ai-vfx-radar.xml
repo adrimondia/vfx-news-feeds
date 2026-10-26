@@ -2,8 +2,108 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-26T03:30:20+00:00</updated>
+<updated>2026-10-26T05:30:18+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://arxiv.org/abs/2610.31747</id><title>AudioLift: Audio-Driven Single Image to Full-Head Gaussian Avatar via Multi-view Video Generation</title>
+<link rel="alternate" href="https://arxiv.org/abs/2610.31747"/>
+<published>2026-10-26T04:00:00+00:00</published><updated>2026-10-26T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="video generation"/>
+<category term="avatar"/>
+<category term="consistency"/>
+<category term="multi-view"/>
+<summary>arXiv:2610.31747v1 Announce Type: new Abstract: Existing 3D talking avatar methods mainly rely on parametric face models including 3DMM or FLAME, whose compact motion representations limit their ability to synthesize extreme expressions and to model accessories such as headwear. We introduce AudioLi</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 7 · video generation, avatar, consistency, multi-view&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2610.31747v1 Announce Type: new Abstract: Existing 3D talking avatar methods mainly rely on parametric face models including 3DMM or FLAME, whose compact motion representations limit their ability to synthesize extreme expressions and to model accessories such as headwear. We introduce AudioLift, a two-stage framework that uses generated multi-view videos as the intermediate representation for audio-driven avatar generation without parametric face models or per-instance optimization. Our framework combines a synchronized multi-view video generation stage with an inconsistency-robust Gaussian reconstruction stage to recover coherent full-head geometry from a single portrait image. Exten&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2610.31747"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2610.31765</id><title>SyncVid: World-Equivariant Diffusion for Synchronized Video Generation</title>
+<link rel="alternate" href="https://arxiv.org/abs/2610.31765"/>
+<published>2026-10-26T04:00:00+00:00</published><updated>2026-10-26T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="video generation"/>
+<category term="video diffusion"/>
+<category term="4d"/>
+<category term="rendering"/>
+<category term="consistency"/>
+<summary>arXiv:2610.31765v1 Announce Type: new Abstract: Generating multiple videos of a dynamic scene from a single reference video requires synthesizing both observed and unobserved content consistently across viewpoints. Existing camera-control methods for video diffusion typically rely on architectural m</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 6 · video generation, video diffusion, 4d, rendering, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2610.31765v1 Announce Type: new Abstract: Generating multiple videos of a dynamic scene from a single reference video requires synthesizing both observed and unobserved content consistently across viewpoints. Existing camera-control methods for video diffusion typically rely on architectural mechanisms, including camera embeddings, cross-view attention, and geometric conditioning. Although effective for static scene content, these approaches often struggle with the fine-grained, dynamic geometry that must remain coherent across views and over time. We synchronize the diffusion process itself by sampling the Gaussian noise prior in a canonical 3D space derived from the source video and &lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2610.31765"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2610.31908</id><title>PixGR: Pixel-Space Generative Decoding for Fast Feed-Forward 3D Reconstruction</title>
+<link rel="alternate" href="https://arxiv.org/abs/2610.31908"/>
+<published>2026-10-26T04:00:00+00:00</published><updated>2026-10-26T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="3d gaussian"/>
+<category term="3d reconstruction"/>
+<category term="rendering"/>
+<category term="dit"/>
+<summary>arXiv:2610.31908v1 Announce Type: new Abstract: We present PixGR, an efficient framework that integrates lightweight pixel-space generative modeling into feed-forward 3D Gaussian reconstruction to model scene uncertainty. Context observations are encoded once into a scene latent representation, whic</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · 3d gaussian, 3d reconstruction, rendering, dit&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2610.31908v1 Announce Type: new Abstract: We present PixGR, an efficient framework that integrates lightweight pixel-space generative modeling into feed-forward 3D Gaussian reconstruction to model scene uncertainty. Context observations are encoded once into a scene latent representation, which conditions generative decoding from noisy target views to produce a shared 3D Gaussian representation. We formulate this process using pixel-space flow matching, enabling end-to-end optimization of 3D reconstruction with direct pixel-space generative supervision through differentiable rendering. This avoids VAE-based latent compression and error propagation inherent in previous two-stage pipelin&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2610.31908"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2610.32800</id><title>CompMVR: Compression-Aware Multi-View Restoration Using Diffusion Models for Geometrically Consistent 3D Reconstruction</title>
+<link rel="alternate" href="https://arxiv.org/abs/2610.32800"/>
+<published>2026-10-26T04:00:00+00:00</published><updated>2026-10-26T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="novel view synthesis"/>
+<category term="3d reconstruction"/>
+<category term="camera pose"/>
+<category term="pose estimation"/>
+<category term="consistency"/>
+<category term="multi-view"/>
+<summary>arXiv:2610.32800v1 Announce Type: new Abstract: Real-world 3D reconstruction pipelines often rely on multi-view images degraded by lossy compression. While compression artifacts have been extensively studied in single-image or video restoration, their impact on multi-view geometry remains largely ov</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 8 · novel view synthesis, 3d reconstruction, camera pose, pose estimation, consistency, multi-view&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2610.32800v1 Announce Type: new Abstract: Real-world 3D reconstruction pipelines often rely on multi-view images degraded by lossy compression. While compression artifacts have been extensively studied in single-image or video restoration, their impact on multi-view geometry remains largely overlooked. In this work, we identify compression-induced cross-view geometric inconsistency as a critical failure mode, where view-dependent artifacts disrupt feature matching, dense correspondence, camera parameter estimation, and downstream 3D reconstruction tasks such as novel view synthesis. To address this problem, we propose CompMVR, a compression-aware multi-view diffusion restoration framew&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2610.32800"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2606.06685</id><title>RigPAPR: Rig-Based Animation of Static Neural Point Clouds from a Fixed-Viewpoint Video</title>
+<link rel="alternate" href="https://arxiv.org/abs/2606.06685"/>
+<published>2026-10-26T04:00:00+00:00</published><updated>2026-10-26T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="image-to-video"/>
+<category term="animation"/>
+<category term="render"/>
+<category term="rendering"/>
+<summary>arXiv:2606.06685v2 Announce Type: replace Abstract: Static neural point reconstructions capture a subject at high fidelity from posed images. Given such a reconstruction, we aim to animate it to follow a monocular fixed-viewpoint driving video of the subject, whether captured or produced by image-to</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · image-to-video, animation, render, rendering&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2606.06685v2 Announce Type: replace Abstract: Static neural point reconstructions capture a subject at high fidelity from posed images. Given such a reconstruction, we aim to animate it to follow a monocular fixed-viewpoint driving video of the subject, whether captured or produced by image-to-video (I2V) generation, and to recover a rigged, re-posable 3D asset. Existing methods deform Gaussian splats through direct linear blend skinning (LBS) or mesh proxies, both of which are prone to joint-boundary artifacts under articulation, even with per-primitive corrections. We trace the artifact to the representation: each splat carries an individual shape calibrated in the canonical pose to &lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2606.06685"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2606.07419</id><title>DisPOSE: Projected Polystochastic Diffusion for Self-Supervised Multi-View 3D Human Pose Estimation</title>
+<link rel="alternate" href="https://arxiv.org/abs/2606.07419"/>
+<published>2026-10-26T04:00:00+00:00</published><updated>2026-10-26T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="pose estimation"/>
+<category term="denoising"/>
+<category term="multi-view"/>
+<summary>arXiv:2606.07419v4 Announce Type: replace Abstract: Recovering 3D human poses for multiple individuals from different camera views is a fundamental bottleneck for analyzing interacting behaviors. Existing self-supervised approaches leverage synthetic catalogues of 3D poses; however, this leads to po</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · pose estimation, denoising, multi-view&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2606.07419v4 Announce Type: replace Abstract: Recovering 3D human poses for multiple individuals from different camera views is a fundamental bottleneck for analyzing interacting behaviors. Existing self-supervised approaches leverage synthetic catalogues of 3D poses; however, this leads to poor generalization in real-world scenarios due to distribution shifts. We therefore introduce DisPOSE, a self-supervised framework that approximates the inherently discrete multi-view person-assignment problem as a generative diffusion process over the space of polystochastic tensors. By employing differentiable Sinkhorn projections during denoising, our model learns to guide solutions toward valid&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2606.07419"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2606.23254</id><title>SteerVTE: Seamless Video Text Editing with Style and Glyph Control</title>
+<link rel="alternate" href="https://arxiv.org/abs/2606.23254"/>
+<published>2026-10-26T04:00:00+00:00</published><updated>2026-10-26T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="video diffusion"/>
+<category term="video editing"/>
+<category term="rendering"/>
+<category term="diffusion transformer"/>
+<category term="consistency"/>
+<summary>arXiv:2606.23254v2 Announce Type: replace Abstract: Visual text editing aims to precisely modify text in images and videos while preserving stylistic consistency and visual realism. Despite significant advances in the image domain, video text editing remains largely unexplored: it is a localized tas</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · video diffusion, video editing, rendering, diffusion transformer, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2606.23254v2 Announce Type: replace Abstract: Visual text editing aims to precisely modify text in images and videos while preserving stylistic consistency and visual realism. Despite significant advances in the image domain, video text editing remains largely unexplored: it is a localized task demanding stroke-level precision within small text regions, which compounds the challenges of cross-frame accuracy, temporal coherence, and stylistic fidelity. We introduce SteerVTE, a unified framework that steers a frozen video diffusion model to perform precise Video Text Editing through style and glyph control. Built on a frozen diffusion transformer, SteerVTE attaches a lightweight text con&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2606.23254"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2607.01202</id><title>World from Motion: Generative Dynamic Gaussian Reconstruction from Monocular Video</title>
+<link rel="alternate" href="https://arxiv.org/abs/2607.01202"/>
+<published>2026-10-26T04:00:00+00:00</published><updated>2026-10-26T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="video model"/>
+<category term="3d gaussian"/>
+<category term="4d"/>
+<category term="rendering"/>
+<category term="multiview"/>
+<summary>arXiv:2607.01202v2 Announce Type: replace Abstract: We present World from Motion, a method for generating freely renderable dynamic 3D Gaussian representations from monocular videos. Our approach conditions a video model on dense, pixel-aligned renderings that encode appearance, geometry, and 3D sce</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · video model, 3d gaussian, 4d, rendering, multiview&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2607.01202v2 Announce Type: replace Abstract: We present World from Motion, a method for generating freely renderable dynamic 3D Gaussian representations from monocular videos. Our approach conditions a video model on dense, pixel-aligned renderings that encode appearance, geometry, and 3D scene motion along both input and target camera trajectories to correct rendering artifacts and fill in missing regions from an initial reconstruction. To train this model, we construct a dataset of aligned multiview video pairs and dynamic 3DGS representations, with simulated artifacts characteristic of monocular reconstruction. At test time, we distill the model's generations, including newly obser&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2607.01202"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/vfx/comments/1xfl1no/can_someone_answer_a_vfx_question/</id><title>Can someone answer a VFX question?</title>
 <link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xfl1no/can_someone_answer_a_vfx_question/"/>
@@ -12,6 +112,15 @@
 <category term="vfx"/>
 <summary>I'm watching the making of The Mist. There's a few shots where a crew member is holding a puppet on a pole (the puppet was later replaced with CGI and the pole was removed digitally) My question is what happens when the pole passes in front of an object in the frame, such as the "2" in the above ima</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I'm watching the making of The Mist. There's a few shots where a crew member is holding a puppet on a pole (the puppet was later replaced with CGI and the pole was removed digitally) My question is what happens when the pole passes in front of an object in the frame, such as the "2" in the above image? Once the pole is removed, does the VFX team have to digitally recreate everything the pole was in front of in that scene, frame-by-frame? submitted by /u/Cultural-Cry-5149 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xfl1no/can_someone_answer_a_vfx_question/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1xfjmvw/looking_to_pivot_into_vfx_is_this_a_good_desicion/</id><title>Looking to Pivot into VFX, is this a good desicion?</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xfjmvw/looking_to_pivot_into_vfx_is_this_a_good_desicion/"/>
+<published>2026-10-26T01:24:05+00:00</published><updated>2026-10-26T01:24:05+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="vfx"/>
+<summary>Hi everyone! For context I am a 2D animator who is looking to pivot into real time VFX and was wondering what would be a good starting point to learn. I'm looking to purchase at least a month of vfxapprenticeship and I've also seen CGHOW on youtube. Besides that I've just been looking at Artstation </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi everyone! For context I am a 2D animator who is looking to pivot into real time VFX and was wondering what would be a good starting point to learn. I'm looking to purchase at least a month of vfxapprenticeship and I've also seen CGHOW on youtube. Besides that I've just been looking at Artstation and finding whatever tutorials online. I wonder if there are any VFX communities besides reddit online where I can show some of my beginner work to get some feedback, I'm also looking for like a study buddy or like a couple of people who are down to just learn VFX together! Does anyone know any other resources to look out for besides that? And does anyone personally do mentoring for VFX like a tut&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xfjmvw/looking_to_pivot_into_vfx_is_this_a_good_desicion/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1xfh9ds/model_lora_merging_help/</id><title>Model Lora Merging Help</title>
@@ -62,6 +171,17 @@
 <category term="comfyui"/>
 <summary>I didnt want to pay Adobe every month just for Generative Fill so I made OpenFill, it started in GIMP 3 and now runs in PhotoCraft too, using your own ComfyUI in the background: Generative Fill , select and type, up to 5 variations Remove object , no prompt needed Generative Expand , drag the edges </summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I didnt want to pay Adobe every month just for Generative Fill so I made OpenFill, it started in GIMP 3 and now runs in PhotoCraft too, using your own ComfyUI in the background: Generative Fill , select and type, up to 5 variations Remove object , no prompt needed Generative Expand , drag the edges or pick a ratio Text to Image , new image or a layer No node graph, Comfy starts hidden when PhotoCraft opens and stops when it closes, live previews while it samples, any local model works. On Windows it can download ComfyUI for you. https://github.com/beckettharriman/openfill submitted by /u/Speedeee_ [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xfgdff/free_generative_fill_for_photocraft_on_your_own/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xfgbeu/openfill_now_runs_in_photocraft_free_local/</id><title>OpenFill now runs in PhotoCraft, free local Generative Fill, Remove and Expand on your own ComfyUI</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xfgbeu/openfill_now_runs_in_photocraft_free_local/"/>
+<published>2026-10-25T22:52:58+00:00</published><updated>2026-10-25T22:52:58+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="inpainting"/>
+<category term="comfyui"/>
+<category term="flux"/>
+<summary>Same engine as the GIMP plugin, now as a panel in PhotoCraft. Your selection is the mask and it runs through your own ComfyUI: Generative Fill , select and type, up to 5 variations Remove object , no prompt needed Generative Expand , drag the edges or pick a ratio Text to Image , new image or a laye</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · inpainting, comfyui, flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Same engine as the GIMP plugin, now as a panel in PhotoCraft. Your selection is the mask and it runs through your own ComfyUI: Generative Fill , select and type, up to 5 variations Remove object , no prompt needed Generative Expand , drag the edges or pick a ratio Text to Image , new image or a layer Defaults are DreamShaper 8 Inpainting, RealVisXL V5 with the Fooocus patch and LaMa, FLUX.1 Fill and Qwen optional, and it picks up your own inpainting checkpoints. On Windows it can download ComfyUI for you. First release, Windows and Linux, NVIDIA recommended. https://github.com/beckettharriman/openfill submitted by /u/Speedeee_ [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xfgbeu/openfill_now_runs_in_photocraft_free_local/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/vfx/comments/1xfg3o5/vfx_artist_needed_for_rotoscopingcompositing/</id><title>VFX Artist needed for rotoscoping/compositing (Revshare and/or skill swap)</title>
@@ -6993,111 +7113,5 @@
 <category term="flux"/>
 <summary>submitted by /u/Accurate-Ad2562 [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/Accurate-Ad2562 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x3uzpa/open_weights_version_of_flux_3_image_is_launching/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1x3tgql/sailor_moon_vs_godzilla_minimax_h3/</id><title>Sailor Moon Vs Godzilla- Minimax H3</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x3tgql/sailor_moon_vs_godzilla_minimax_h3/"/>
-<published>2026-10-12T05:25:20+00:00</published><updated>2026-10-12T05:25:20+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="minimax"/>
-<summary>submitted by /u/Certain_Potato_4509 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/Certain_Potato_4509 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x3tgql/sailor_moon_vs_godzilla_minimax_h3/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1x3t8mz/wanting_feedback_on_my_lora_catalog_tool_and/</id><title>Wanting feedback on my LoRA catalog tool and Suggester Node</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x3t8mz/wanting_feedback_on_my_lora_catalog_tool_and/"/>
-<published>2026-10-12T05:12:04+00:00</published><updated>2026-10-12T05:12:04+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="lora"/>
-<summary>[Release] Eric LoRA Catalog – find and organize your LoRAs by what they do, not by folder name (local LLM cards + LoRA Suggester node) Over the last 3 years I've amassed a huge collection of LoRAs (about 5,600 LoRAs currently), and I'd stopped being able to find anything or remember which ones I lik</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;[Release] Eric LoRA Catalog – find and organize your LoRAs by what they do, not by folder name (local LLM cards + LoRA Suggester node) Over the last 3 years I've amassed a huge collection of LoRAs (about 5,600 LoRAs currently), and I'd stopped being able to find anything or remember which ones I liked, which ones paired well with others, etc. The LoRA Manager is awesome and it helps a lot to be able to jump over and remind myself with pictures and the model description, trigger words, etc. But I couldn't always find the LoRA anymore if I didn't remember the filename or search for something by what it does. Folder names and file names don't tell you what a LoRA actually does, which ones are a&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x3t8mz/wanting_feedback_on_my_lora_catalog_tool_and/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1x3t05j/epgen_open_lora_for_ltx25_that_gives_every_sound/</id><title>epGen: open LoRA for LTX-2.5 that gives every sound in the video its own audio track (generation + separation, weights on HF)</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x3t05j/epgen_open_lora_for_ltx25_that_gives_every_sound/"/>
-<published>2026-10-12T04:59:00+00:00</published><updated>2026-10-12T04:59:00+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="lora"/>
-<summary>LTX-2.5 makes a video with one mixed soundtrack. Our LoRA also outputs one track per captioned sound, in the same run. Prompt "a jeep, its engine growling" and "a taxi, its horn honking" and you get the video, the full mix and each sound on its own track. The same weights also separate the sounds of</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;LTX-2.5 makes a video with one mixed soundtrack. Our LoRA also outputs one track per captioned sound, in the same run. Prompt "a jeep, its engine growling" and "a taxi, its horn honking" and you get the video, the full mix and each sound on its own track. The same weights also separate the sounds of an existing video. Walk into a scene with spatial audio (headphones): https://sepgen.github.io Two LoRAs for LTX-2.5 22B dev. Code and training configs included. 💻 https://github.com/AviadDahan/SepGen 🤗 https://huggingface.co/collections/AviadDahan/sepgen We're on today's Hugging Face Daily Papers. If you liked this work, an upvote there helps a lot! https://huggingface.co/papers/2610.11361 Happy&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x3t05j/epgen_open_lora_for_ltx25_that_gives_every_sound/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1x3st5n/h3_latent_upscaling_always_results_in_oom/</id><title>H3 latent upscaling always results in OOM</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x3st5n/h3_latent_upscaling_always_results_in_oom/"/>
-<published>2026-10-12T04:47:47+00:00</published><updated>2026-10-12T04:47:47+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="upscaling"/>
-<summary>I see lots of people saying how they love upscaling H3 latent and how effective it is, but I can't run it, no matter what. I have a 16:9 video at 0.2MP (14 seconds) I'm trying to upscale. I've tried upscaling to multiple resolutions, with 0.98MP being the highest I've tried, down to 0.4MP. I have 50</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · upscaling&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I see lots of people saying how they love upscaling H3 latent and how effective it is, but I can't run it, no matter what. I have a 16:9 video at 0.2MP (14 seconds) I'm trying to upscale. I've tried upscaling to multiple resolutions, with 0.98MP being the highest I've tried, down to 0.4MP. I have 5060 TI 16GB VRAM, 48GB RAM, Ryzen 9900X3D. I tried everything, it seems - using multiple attentions (comfy kitchen, SLA, VSA), H3 FeedForward, tried raising the reserve-vram flag to 3.5. I use obvpm's workflows (you can find them on GitHub) and tried reducing the length of the window (in seconds) {basically, the lower the length, the less VRAM it requires}. Tried using his Headroom node to give mor&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x3st5n/h3_latent_upscaling_always_results_in_oom/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2610.13498</id><title>A Hybrid and Hierarchical Ray Tracing Method for Efficient 3D Gaussian Rendering</title>
-<link rel="alternate" href="https://arxiv.org/abs/2610.13498"/>
-<published>2026-10-12T04:00:00+00:00</published><updated>2026-10-12T04:00:00+00:00</updated>
-<author><name>arXiv cs.GR</name></author>
-<category term="gaussian splatting"/>
-<category term="3d gaussian"/>
-<category term="rendering"/>
-<summary>arXiv:2610.13498v1 Announce Type: cross Abstract: 3D Gaussian Splatting (3DGS) is a powerful representation for real-time neural reconstruction and rendering. While existing 3DGS systems rely on rasterization for efficiency, recent work explores ray tracing to enable secondary lighting, highly disto</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.GR · score 5 · gaussian splatting, 3d gaussian, rendering&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2610.13498v1 Announce Type: cross Abstract: 3D Gaussian Splatting (3DGS) is a powerful representation for real-time neural reconstruction and rendering. While existing 3DGS systems rely on rasterization for efficiency, recent work explores ray tracing to enable secondary lighting, highly distorted cameras, and depth-of-field effects. However, compared with rasterization, ray-traced 3DGS introduces three major challenges: (1) the highly non-uniform spatial distribution of massive numbers of Gaussian primitives creates severe load imbalance; (2) neighboring pixels often generate rays with highly similar traversal paths, leading to substantial redundant traversal overhead; and (3) support&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2610.13498"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2610.13503</id><title>SplatQ: Interaction-Aware Pruning of 3D Gaussian Splatting via Quadratic Selection</title>
-<link rel="alternate" href="https://arxiv.org/abs/2610.13503"/>
-<published>2026-10-12T04:00:00+00:00</published><updated>2026-10-12T04:00:00+00:00</updated>
-<author><name>arXiv cs.GR</name></author>
-<category term="gaussian splatting"/>
-<category term="3d gaussian"/>
-<category term="rendering"/>
-<summary>arXiv:2610.13503v1 Announce Type: cross Abstract: Existing 3D Gaussian Splatting (3DGS) pruning methods primarily rely on global Top-K selection based on independent importance scores, lacking regional budget control and ignoring joint deletion effects. Consequently, they cannot ensure balanced reco</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.GR · score 5 · gaussian splatting, 3d gaussian, rendering&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2610.13503v1 Announce Type: cross Abstract: Existing 3D Gaussian Splatting (3DGS) pruning methods primarily rely on global Top-K selection based on independent importance scores, lacking regional budget control and ignoring joint deletion effects. Consequently, they cannot ensure balanced reconstruction quality across a scene. We propose SplatQ, a combinatorial pruning algorithm that coordinates regional budget allocation and joint Gaussian selection under a fixed budget. SplatQ partitions Gaussians by spatial proximity and appearance similarity into size-limited blocks, decomposing global selection into subproblems of a specific size. It then smooths importance-based block retention q&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2610.13503"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2610.13860</id><title>Make It Flow: Animating Water in 3D Gaussian Splatting Scenes</title>
-<link rel="alternate" href="https://arxiv.org/abs/2610.13860"/>
-<published>2026-10-12T04:00:00+00:00</published><updated>2026-10-12T04:00:00+00:00</updated>
-<author><name>arXiv cs.GR</name></author>
-<category term="novel view synthesis"/>
-<category term="gaussian splatting"/>
-<category term="3d gaussian"/>
-<category term="optical flow"/>
-<category term="rendering"/>
-<category term="multi-view"/>
-<summary>arXiv:2610.13860v1 Announce Type: cross Abstract: Explicit 3D scene representations such as 3D Gaussian Splatting (3DGS) have recently enabled high-quality, real-time novel view synthesis. However, these methods assume static scenes, limiting realism in the presence of dynamic phenomena ubiquitous i</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.GR · score 8 · novel view synthesis, gaussian splatting, 3d gaussian, optical flow, rendering, multi-view&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2610.13860v1 Announce Type: cross Abstract: Explicit 3D scene representations such as 3D Gaussian Splatting (3DGS) have recently enabled high-quality, real-time novel view synthesis. However, these methods assume static scenes, limiting realism in the presence of dynamic phenomena ubiquitous in real-world environments. While coherent motion (e.g., humans or vehicles) can be captured and reconstructed, high-frequency effects such as flowing water remain intractable under casual capture conditions, where dense multi-view, high-speed acquisition is not feasible. We present a method to animate water in static 3DGS scenes, enabling visually plausible motion without requiring dynamic capture&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2610.13860"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2606.05328</id><title>The Invisible Hand of Physics: When Video Diffusion Models Know More Than They Show</title>
-<link rel="alternate" href="https://arxiv.org/abs/2606.05328"/>
-<published>2026-10-12T04:00:00+00:00</published><updated>2026-10-12T04:00:00+00:00</updated>
-<author><name>arXiv cs.GR</name></author>
-<category term="video diffusion"/>
-<category term="denoising"/>
-<category term="diffusion transformer"/>
-<summary>arXiv:2606.05328v2 Announce Type: replace Abstract: Modern video diffusion models generate increasingly realistic and temporally coherent videos, motivating their use as candidate world simulators. Yet it remains unclear whether these models internally encode physical structure, or merely reproduce </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.GR · score 4 · video diffusion, denoising, diffusion transformer&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2606.05328v2 Announce Type: replace Abstract: Modern video diffusion models generate increasingly realistic and temporally coherent videos, motivating their use as candidate world simulators. Yet it remains unclear whether these models internally encode physical structure, or merely reproduce motion patterns seen during training. We study this question by probing video diffusion models along latent trajectories corresponding to real videos with known physical plausibility. To obtain such trajectories, we approximately invert the deterministic sampling process by integrating the learned velocity field backward from a clean video latent to noise, giving access to the model's intermediate&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2606.05328"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2609.27600</id><title>ARS-Avatar: Animatable and Relightable Surfel Avatars with Learnable Ambient Occlusion</title>
-<link rel="alternate" href="https://arxiv.org/abs/2609.27600"/>
-<published>2026-10-12T04:00:00+00:00</published><updated>2026-10-12T04:00:00+00:00</updated>
-<author><name>arXiv cs.GR</name></author>
-<category term="pbr"/>
-<category term="relighting"/>
-<category term="avatar"/>
-<category term="animation"/>
-<category term="multi-view"/>
-<summary>arXiv:2609.27600v3 Announce Type: replace Abstract: Creating animatable and relightable human avatars from multi-view images remains challenging, as pose-dependent deformation, materials, and light visibility are tightly coupled in images. In this paper, we present ARS-Avatar, a novel method using s</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.GR · score 5 · pbr, relighting, avatar, animation, multi-view&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.27600v3 Announce Type: replace Abstract: Creating animatable and relightable human avatars from multi-view images remains challenging, as pose-dependent deformation, materials, and light visibility are tightly coupled in images. In this paper, we present ARS-Avatar, a novel method using surfel representation for high-quality, animatable, and relightable human avatars from multi-view images captured under unknown illumination. For faithful surfel estimation, we extract deformation displacement and body model deviation two priors from the mesh, which jointly capture local deformation complexity and serve as auxiliary. We employ deferred shading to estimate BRDF materials and further&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.27600"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1x3ruex/got_heart_running_natively_in_comfyui_no_onnx/</id><title>Got HEART running natively in ComfyUI (no ONNX required!)</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x3ruex/got_heart_running_natively_in_comfyui_no_onnx/"/>
-<published>2026-10-12T03:54:21+00:00</published><updated>2026-10-12T03:54:21+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<summary>ComfyUI said HEART was unsupported, so I traced down the architecture source, isolated it from traiNNer-redux, loaded the official checkpoints, and verified native inference. submitted by /u/No_Car_1296 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;ComfyUI said HEART was unsupported, so I traced down the architecture source, isolated it from traiNNer-redux, loaded the official checkpoints, and verified native inference. submitted by /u/No_Car_1296 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x3ruex/got_heart_running_natively_in_comfyui_no_onnx/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
