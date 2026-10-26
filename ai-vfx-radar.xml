@@ -2,8 +2,58 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-26T13:30:38+00:00</updated>
+<updated>2026-10-26T15:32:19+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xfxuyr/i_tried_different_dataset_sizes_on_krea2_to_try/</id><title>I tried different dataset sizes on KREA2, to try to answer the age-old question, how many images do you need?</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xfxuyr/i_tried_different_dataset_sizes_on_krea2_to_try/"/>
+<published>2026-10-26T14:08:49+00:00</published><updated>2026-10-26T14:08:49+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="wan2"/>
+<category term="lora"/>
+<summary>I created a synthetic dataset (She's an AI-generated woman not a real person.) and used those to train three different LoKRs for KREA2: one used 3 images only, the other 8, and one used 15 images. I used no trigger word in the caption for the training. I only addressed her as a young korean woman an</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · wan2, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I created a synthetic dataset (She's an AI-generated woman not a real person.) and used those to train three different LoKRs for KREA2: one used 3 images only, the other 8, and one used 15 images. I used no trigger word in the caption for the training. I only addressed her as a young korean woman and I described everything around her in detail: her hairstyle, the background, the clothing, her facial expression, etc. The 3-image LoKR came out with a good likeness at 1,000 steps. The 8-image one at 1,440 steps and the 15-image one at 2,100 steps. The workflow for creating the showcase shots: krea2 int8 with the qwen3vl 4b text encoder, refusal LoRA 1.0, turbo 0.4 (0.2 for styles), 16 steps, cf&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xfxuyr/i_tried_different_dataset_sizes_on_krea2_to_try/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xfwf1y/grasshopperstyle_data_trees_for_comfyui/</id><title>Grasshopper-style data trees for ComfyUI</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xfwf1y/grasshopperstyle_data_trees_for_comfyui/"/>
+<published>2026-10-26T13:11:55+00:00</published><updated>2026-10-26T13:11:55+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<category term="minimax"/>
+<category term="lora"/>
+<category term="storyboard"/>
+<summary>I've been working on a free node pack that adds Grasshopper-style data trees to ComfyUI. Native ComfyUI only has flat lists; with trees, "6 clips" stay "2 characters × 3 places" all the way to the comparison sheet. What's in it (31 nodes): - Load Media: pick pictures, videos and audio from anywhere </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 5 · comfyui, minimax, lora, storyboard&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I've been working on a free node pack that adds Grasshopper-style data trees to ComfyUI. Native ComfyUI only has flat lists; with trees, "6 clips" stay "2 characters × 3 places" all the way to the comparison sheet. What's in it (31 nodes): - Load Media: pick pictures, videos and audio from anywhere on disk with the system file dialog. Each group becomes a named branch. files/names come out as trees, images/videos/audio as plain data for any node. - Panel: type data in (one line = one item, an empty line starts a branch, `# name` names it, numbers stay INT/FLOAT/BOOL), or plug anything in to look inside (trees, thumbnails, prompts). - Tree Branch / Cross Reference / Prompt Template: pick bran&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xfwf1y/grasshopperstyle_data_trees_for_comfyui/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1xfumzz/premium_assets_unreal_game_dev_collection/</id><title>Premium Assets: Unreal Game Dev Collection</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xfumzz/premium_assets_unreal_game_dev_collection/"/>
+<published>2026-10-26T11:51:26+00:00</published><updated>2026-10-26T11:51:26+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="unreal"/>
+<summary>submitted by /u/Afraid-Economy7350 [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · unreal&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/Afraid-Economy7350 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xfumzz/premium_assets_unreal_game_dev_collection/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xftukq/im_really_struggling_to_keep_characters_in/</id><title>I’m really struggling to keep characters in MiniMax silent. They keep talking even when I explicitly prompt them not to speak or clearly describe the audio I want to hear. Any solution?</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xftukq/im_really_struggling_to_keep_characters_in/"/>
+<published>2026-10-26T11:09:55+00:00</published><updated>2026-10-26T11:09:55+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="minimax"/>
+<summary>submitted by /u/PhilosopherSweaty826 [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/PhilosopherSweaty826 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xftukq/im_really_struggling_to_keep_characters_in/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1xftqk4/i_made_a_free_and_fully_open_sourced_tracery_2/</id><title>I Made A Free And Fully Open Sourced Tracery 2 Alternative Plugin "Linear".</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xftqk4/i_made_a_free_and_fully_open_sourced_tracery_2/"/>
+<published>2026-10-26T11:03:55+00:00</published><updated>2026-10-26T11:03:55+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="tracking"/>
+<category term="cinematic"/>
+<summary>Hey guys, about two weeks ago I saw a trailer for Tracery 2 on YouTube. I watched it and really liked it, but when I checked the price I was honestly shocked. $60 for a plugin that mainly does tracking, colors, boxes, lines and labels on videos felt crazy to me. So I opened Claude and Codex and star</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · tracking, cinematic&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey guys, about two weeks ago I saw a trailer for Tracery 2 on YouTube. I watched it and really liked it, but when I checked the price I was honestly shocked. $60 for a plugin that mainly does tracking, colors, boxes, lines and labels on videos felt crazy to me. So I opened Claude and Codex and started working on a few prototypes. After 3–4 days it actually started looking pretty good, then I published it on GitHub with the full source code. Since then it’s gotten even better. It works great for me in Premiere, but it’s still a bit unoptimized in After Effects. I’m working on that and still trying to make the plugin better overall. I hope you guys like it. If there’s anything you want change&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xftqk4/i_made_a_free_and_fully_open_sourced_tracery_2/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xft7c1/zipties_in_comfyui/</id><title>Zipties in ComfyUI!</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xft7c1/zipties_in_comfyui/"/>
@@ -7087,61 +7137,5 @@
 <category term="minimax"/>
 <summary>MiniMax is my first serious foray into AI. I have no clue of what has happened in the past with other/older AI models, but I thought I heard that some of the uncensored ones were eventually censored. Could the same happen with MiniMax? How does censorship even work, anyway? Isn't the model entirely </summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;MiniMax is my first serious foray into AI. I have no clue of what has happened in the past with other/older AI models, but I thought I heard that some of the uncensored ones were eventually censored. Could the same happen with MiniMax? How does censorship even work, anyway? Isn't the model entirely local? submitted by /u/zeroedit [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x47jdb/should_we_be_worried_about_minimax_potentially/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1x44gpp/mac_studio_m5_ultra_512_gb_vs_best_nvidia_device/</id><title>Mac Studio M5 Ultra 512 GB vs Best Nvidia Device ( have the same price as mac studio</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x44gpp/mac_studio_m5_ultra_512_gb_vs_best_nvidia_device/"/>
-<published>2026-10-12T15:12:05+00:00</published><updated>2026-10-12T15:12:05+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="video generation"/>
-<category term="comfyui"/>
-<category term="wan"/>
-<category term="ai video"/>
-<summary>My company wants to set up a dedicated workstation for generating AI video locally. I’m a Mac user and familiar with LLMs, and people internally are suggesting a Mac Studio (M-series with high unified memory). However, our main pipeline would rely on ComfyUI (running models like Wan, Mini Max H3, et</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · video generation, comfyui, wan, ai video&lt;/small&gt;&lt;/p&gt;&lt;p&gt;My company wants to set up a dedicated workstation for generating AI video locally. I’m a Mac user and familiar with LLMs, and people internally are suggesting a Mac Studio (M-series with high unified memory). However, our main pipeline would rely on ComfyUI (running models like Wan, Mini Max H3, etc.). I know ComfyUI works on macOS via M5 ultra 512 GB but how does real-world performance compare to a high-end Nvidia build (e.g., RTX 4090 / 5090)? Is the Mac Studio practical for day-to-day video generation, or is an Nvidia rig non-negotiable? submitted by /u/This-Gene1631 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x44gpp/mac_studio_m5_ultra_512_gb_vs_best_nvidia_device/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1x42s6c/black_wire_forge_a_free_web_studio_on_top_of_the/</id><title>Black Wire Forge: a free web studio on top of the ComfyUI you already run (songs, pictures, video, music videos)</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x42s6c/black_wire_forge_a_free_web_studio_on_top_of_the/"/>
-<published>2026-10-12T14:05:54+00:00</published><updated>2026-10-12T14:05:54+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="lip-sync"/>
-<category term="comfyui"/>
-<category term="blender"/>
-<category term="lora"/>
-<category term="storyboard"/>
-<summary>The video above is a one-minute tour of Black Wire Forge, a web app I've been building over the last few weeks. It follows one song from a single line of text to a finished music video. Every frame is a real screen capture, and the calm music under it was made in the app too. Black Wire Forge is a f</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 6 · lip-sync, comfyui, blender, lora, storyboard&lt;/small&gt;&lt;/p&gt;&lt;p&gt;The video above is a one-minute tour of Black Wire Forge, a web app I've been building over the last few weeks. It follows one song from a single line of text to a finished music video. Every frame is a real screen capture, and the calm music under it was made in the app too. Black Wire Forge is a front end for the ComfyUI you already run. It doesn't ship any models and doesn't change your install. It reads which model files and nodes each of your ComfyUI machines has, shows what each room can do with them, and tells you in plain words what's missing for the rest. Each room also lists the exact files a job will load, why each one was picked, and which other files you have that would fit. You&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x42s6c/black_wire_forge_a_free_web_studio_on_top_of_the/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1x42pkx/a_short_horror_video_i_made_with_minimax_h3_kroma/</id><title>A short horror video I made with Minimax h3, Kroma, Vibevoice and LLM magic</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x42pkx/a_short_horror_video_i_made_with_minimax_h3_kroma/"/>
-<published>2026-10-12T14:02:59+00:00</published><updated>2026-10-12T14:02:59+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="render"/>
-<category term="minimax"/>
-<summary>This was fun. The base images are made with Kroma, the videos with Minimax h3 and the text-to-speech with Microsoft Vibevoice. The text message screen recording thing is made by an LLM agent (GLM 5.3) that wrote a python script and threw it all together using Python libraries to render it, pretty co</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · render, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;This was fun. The base images are made with Kroma, the videos with Minimax h3 and the text-to-speech with Microsoft Vibevoice. The text message screen recording thing is made by an LLM agent (GLM 5.3) that wrote a python script and threw it all together using Python libraries to render it, pretty cool :) submitted by /u/abandonedexplorer [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x42pkx/a_short_horror_video_i_made_with_minimax_h3_kroma/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1x42kt9/endless_minimax_h3_with_endless_lipsync_v16_with/</id><title>Endless MiniMax H3 (with Endless LipSync) v1.6 (with less Motion Context degradation)</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x42kt9/endless_minimax_h3_with_endless_lipsync_v16_with/"/>
-<published>2026-10-12T13:58:00+00:00</published><updated>2026-10-12T13:58:00+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="wan"/>
-<category term="minimax"/>
-<category term="lora"/>
-<summary>Endless MiniMax H3 (with Endless LipSync) v1.6 When MiniMax H3 came out, I was badly missing the Endless Wan 2.2 I2V (SVI 2 Pro) features, so at first I look at other options, but most of them included an AIO node that could do everything, and I couldn't use most of my workflow, because they did eve</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · wan, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Endless MiniMax H3 (with Endless LipSync) v1.6 When MiniMax H3 came out, I was badly missing the Endless Wan 2.2 I2V (SVI 2 Pro) features, so at first I look at other options, but most of them included an AIO node that could do everything, and I couldn't use most of my workflow, because they did everything inside that huge node. The only exception to this, was ComfyUI-H3-Motion-Context , which I could easily integrate into my setup. Its big shortcoming though, was that it just created single videos. No way to concatenate them without the lossy step of decoding and re-encoding in a video editor. So, I created a custom node that could do just that, and voila.. Endless MiniMax H3 (with Endless &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x42kt9/endless_minimax_h3_with_endless_lipsync_v16_with/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1x42636/castle_knights_cinematic_ai_short_film_minimax_h3/</id><title>CASTLE &amp; KNIGHTS — Cinematic AI Short Film | MiniMax H3</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x42636/castle_knights_cinematic_ai_short_film_minimax_h3/"/>
-<published>2026-10-12T13:40:41+00:00</published><updated>2026-10-12T13:40:41+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="minimax"/>
-<category term="cinematic"/>
-<summary>Details in first comment submitted by /u/AxonkaiLab [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · minimax, cinematic&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Details in first comment submitted by /u/AxonkaiLab [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x42636/castle_knights_cinematic_ai_short_film_minimax_h3/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
