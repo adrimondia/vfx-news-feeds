@@ -2,8 +2,21 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-27T11:31:06+00:00</updated>
+<updated>2026-10-27T13:31:10+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xgp5cg/high_speed_speed_combat/</id><title>High speed speed combat</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xgp5cg/high_speed_speed_combat/"/>
+<published>2026-10-27T10:44:18+00:00</published><updated>2026-10-27T10:44:18+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="video generation"/>
+<category term="comfyui"/>
+<category term="minimax"/>
+<category term="lora"/>
+<category term="consistency"/>
+<summary>Claude code + r2v MINIMAX H3 and some loras + casual prompt like "this shit is not good make it better" My goal is make a 2-5 fucking dinamic anime, but i dont like anime For anyone interested, here's the current workflow I'm using to make this AI anime. Hardware &amp; Setup RunPod with an RTX 4090 (24G</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 5 · video generation, comfyui, minimax, lora, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Claude code + r2v MINIMAX H3 and some loras + casual prompt like "this shit is not good make it better" My goal is make a 2-5 fucking dinamic anime, but i dont like anime For anyone interested, here's the current workflow I'm using to make this AI anime. Hardware &amp;amp; Setup RunPod with an RTX 4090 (24GB VRAM) ComfyUI 0.42.0 Custom Python automation script ( h3_ctrl.py ) 1. Character Design &amp;amp; Keyframes Model: Krea 2 Turbo (INT8) Text Encoder: Qwen3VL 4B LoRA: Kegant V5 (1.0) for that dark, mystical anime aesthetic 8–10 steps, CFG 1, Euler/Simple Around 12 seconds per image I generate character reference sheets and keyframes for each scene, including the starting frame and the exact impact frame.&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xgp5cg/high_speed_speed_combat/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://github.com/higgsfield-ai/skills</id><title>higgsfield-ai/skills</title>
 <link rel="alternate" href="https://github.com/higgsfield-ai/skills"/>
@@ -7435,53 +7448,5 @@
 <category term="blender"/>
 <summary>I'm trying to recreate the attached shot, but with the spaceship removed and a bomb falling from the upper atmosphere before exploding over the ocean. I want to achieve the highest possible visual quality and follow a professional VFX workflow. I have done basic VFX work in Blender and have some exp</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 6 · smoke, vfx, post-production, houdini, blender&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I'm trying to recreate the attached shot, but with the spaceship removed and a bomb falling from the upper atmosphere before exploding over the ocean. I want to achieve the highest possible visual quality and follow a professional VFX workflow. I have done basic VFX work in Blender and have some experience with EmberGen and DaVinci Resolve/Fusion. I'm currently learning Houdini, including Solaris and Karma. I have the following questions: Overall VFX Pipeline How does a professional VFX studio approach a shot like this from pre-production to final delivery? Which software would you use at each stage, and in what order? What would the complete workflow look like if the goal were maximum quali&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1x4xpmw/how_would_a_professional_vfx_artist_recreate_this/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1x4wp1d/minimax_white_bright_frame_randomly_appear/</id><title>Minimax white/ bright frame randomly appear</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x4wp1d/minimax_white_bright_frame_randomly_appear/"/>
-<published>2026-10-13T13:30:43+00:00</published><updated>2026-10-13T13:30:43+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="minimax"/>
-<summary>Since this week I started having random bright frames (like if someone took a photo with a flash) appearing in most of my minimax videos. It appears with any model, speedup loras or not. Usually 1 frame at around the second 4 or 5 of my outputs. Has anyone got this problem? Could it be related to co</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Since this week I started having random bright frames (like if someone took a photo with a flash) appearing in most of my minimax videos. It appears with any model, speedup loras or not. Usually 1 frame at around the second 4 or 5 of my outputs. Has anyone got this problem? Could it be related to comfy UI 0.39? Thanks submitted by /u/False-Difference4010 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x4wp1d/minimax_white_bright_frame_randomly_appear/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1x4wdh7/nvidia_and_comfyui_broken_drivers_61742/</id><title>nVidia and comfyui broken drivers: 617.42</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x4wdh7/nvidia_and_comfyui_broken_drivers_61742/"/>
-<published>2026-10-13T13:17:05+00:00</published><updated>2026-10-13T13:17:05+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="upscaling"/>
-<category term="comfyui"/>
-<summary>I had some issues lately epaxially when upscaling was involved. Workflow that worked before, they might run one time and stop the next with comfy and GPU idle doing nothing and not progressing the work. The fact that they run one or two time and then hang was the most annoying thing to trying to fix</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · upscaling, comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I had some issues lately epaxially when upscaling was involved. Workflow that worked before, they might run one time and stop the next with comfy and GPU idle doing nothing and not progressing the work. The fact that they run one or two time and then hang was the most annoying thing to trying to fix the issue. Also workflows taking more than usual... I have 3 x 5060 TI 16GB tried all 3 cards, same issue. I lost several hours trying to "debug" the workflows with model quantization and what else... to realize at the end that I might have updated the drivers a few week ago ( 617.42 -desktop-win10-win11-64bit-international-nsd-dch-whql). Today I reverted back to 616.92 -desktop-win10-win11-64bit&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x4wdh7/nvidia_and_comfyui_broken_drivers_61742/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1x4vrrz/updated_obvpm_timeline_workflow_v014007/</id><title>Updated OBVPM Timeline Workflow v0.1.4-007</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x4vrrz/updated_obvpm_timeline_workflow_v014007/"/>
-<published>2026-10-13T12:50:54+00:00</published><updated>2026-10-13T12:50:54+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="upscaling"/>
-<category term="minimax"/>
-<summary>New version of my MiniMax H3 timeline workflow released Some very important bug fixes included, and a lot of improvements. The YouTube video above includes a lot of tips for using the workflow in addition to going over the changes in detail. Below is a complete list of fixes and improvements. Get th</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · upscaling, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;New version of my MiniMax H3 timeline workflow released Some very important bug fixes included, and a lot of improvements. The YouTube video above includes a lot of tips for using the workflow in addition to going over the changes in detail. Below is a complete list of fixes and improvements. Get the workflow and nodes at: https://github.com/chanon/comfyui-obvpm-timeline Important Fixes Upscaling Timelines can now be upscaled even if they have clips that aren't a single continuous generation. Previously a timeline like below might have failed with an error saying the clip's frames "don't fall on the latent grid". Now it upscales fine. So now you can have multiple segments, some extending eac&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x4vrrz/updated_obvpm_timeline_workflow_v014007/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1x4vla1/browser_extension_to_directly_send_text_or_image/</id><title>Browser extension to directly send text or image to ComfyUI queue</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x4vla1/browser_extension_to_directly_send_text_or_image/"/>
-<published>2026-10-13T12:42:27+00:00</published><updated>2026-10-13T12:42:27+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<summary>I wanted a quick way to push things from my browser into ComfyUI without switching windows, copying prompts, or saving images first. So I vibe coded a small extension for it. What it does Select text on any page, right-click, Send selection to ComfyUI . It fills your prompt node and queues the workf</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I wanted a quick way to push things from my browser into ComfyUI without switching windows, copying prompts, or saving images first. So I vibe coded a small extension for it. What it does Select text on any page, right-click, Send selection to ComfyUI . It fills your prompt node and queues the workflow. Right-click an image, Send image to ComfyUI . It uploads the image and queues the workflow. How it works with your workflows No coding or per-workflow setup. In ComfyUI, rename the input node’s title to INPUT_TEXT (or INPUT_IMAGE for a Load Image node), then export with Workflow &amp;gt; Export (API) and import the file in the extension. You can import several workflows and switch between them from &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x4vla1/browser_extension_to_directly_send_text_or_image/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://openai.com/index/higgsfield-longer-videos-voice</id><title>Higgsfield takes AI video from 1 minute to over 10</title>
-<link rel="alternate" href="https://openai.com/index/higgsfield-longer-videos-voice"/>
-<published>2026-10-13T12:00:00+00:00</published><updated>2026-10-13T12:00:00+00:00</updated>
-<author><name>OpenAI</name></author>
-<category term="ai video"/>
-<category term="filmmaking"/>
-<summary>Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live.</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;OpenAI · score 3 · ai video, filmmaking&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live.&lt;/p&gt;&lt;p&gt;&lt;a href="https://openai.com/index/higgsfield-longer-videos-voice"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
