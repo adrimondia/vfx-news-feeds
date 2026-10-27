@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-27T08:00:46+00:00</updated>
+<updated>2026-10-27T09:30:27+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
 <entry>
 <id>https://github.com/higgsfield-ai/skills</id><title>higgsfield-ai/skills</title>
@@ -16,6 +16,15 @@
 <category term="seedance"/>
 <summary>Higgsfield AI Skills AI agent skills for image/video generation and complete visual brand systems via Higgsfield AI , including Marketing Studio and Virality Predictor video scoring. Works with Claude Code, Cursor, Codex, and other AI coding agents that load Markdown-based skills. Install Pick one. </summary>
 <content type="html">&lt;p&gt;&lt;small&gt;GitHub trending (Python) · score 5 · video generation, flux, kling, veo, seedance&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Higgsfield AI Skills AI agent skills for image/video generation and complete visual brand systems via Higgsfield AI , including Marketing Studio and Virality Predictor video scoring. Works with Claude Code, Cursor, Codex, and other AI coding agents that load Markdown-based skills. Install Pick one. Each method handles the Higgsfield CLI install and auth as part of skill setup. npx skills — recommended, cross-agent npx skills add higgsfield-ai/skills gh skill install GitHub CLI v2.90+: gh skill install higgsfield-ai/skills Claude Code marketplace Inside Claude Code: /plugin marketplace add higgsfield-ai/skills /plugin install higgsfield@higgsfield Setup script Universal fallback: git clone --&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.com/higgsfield-ai/skills"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xgjqq2/some_more_examples_from_my_ultimate_digital/</id><title>Some more examples from my Ultimate Digital Painting Moss Image Lora</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xgjqq2/some_more_examples_from_my_ultimate_digital/"/>
+<published>2026-10-27T05:05:11+00:00</published><updated>2026-10-27T05:05:11+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="lora"/>
+<summary>Really loving this model so far. This is from a series of phone wallpapers I have been experimenting with. Try out the lora: https://civitai.com/models/3014333/ultimate-digital-artwork submitted by /u/kingroka [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Really loving this model so far. This is from a series of phone wallpapers I have been experimenting with. Try out the lora: https://civitai.com/models/3014333/ultimate-digital-artwork submitted by /u/kingroka [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xgjqq2/some_more_examples_from_my_ultimate_digital/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xgiqxl/comfyui_v0430/</id><title>ComfyUI v0.43.0</title>
@@ -7526,38 +7535,5 @@
 <category term="cinematic"/>
 <summary>I kept struggling to write good prompts for MiniMax H3, so I built a workflow where Gemma does that part for me. You write a short idea (“a woman reads a letter by the window and starts crying”), and Gemma expands it into a detailed cinematic prompt before generation. What it does: Image-to-video wi</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 6 · video generation, image-to-video, minimax, cinematic&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I kept struggling to write good prompts for MiniMax H3, so I built a workflow where Gemma does that part for me. You write a short idea (“a woman reads a letter by the window and starts crying”), and Gemma expands it into a detailed cinematic prompt before generation. What it does: Image-to-video with native synced audio (MiniMax H3) Gemma prompt enhancer: short idea in any Language , cinematic prompt out Gemma also generates the video title and file name automatically, so your output folder stays organized 2K upscale with SeedVR2 that keeps the original audio and fps Two-stage pipeline with a latent upscale for sharper detail. Stage 2 runs in 3, 4 or 5 steps depending on speed vs quality Op&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x4shs4/bad_at_video_prompts_let_gemma_write_them_for/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1x4s1l0/portable_char_consistent_characterssame_face_body/</id><title>Portable .char consistent characters(same face, body, cloths &amp; voice) - MinimaxH3, Flux2 &amp; Krea2</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x4s1l0/portable_char_consistent_characterssame_face_body/"/>
-<published>2026-10-13T09:26:35+00:00</published><updated>2026-10-13T09:26:35+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="video generation"/>
-<category term="lip sync"/>
-<category term="comfyui"/>
-<category term="minimax"/>
-<summary>Hey guys, I have been working on the consistent character portable format (.char) for a while &amp; now there's a community characters page where you can grab a ready-made character and use it straight in ComfyUI. Same face, cloths &amp; body across every video generation, and with a few seconds of voice sa</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · video generation, lip sync, comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey guys, I have been working on the consistent character portable format (.char) for a while &amp;amp; now there's a community characters page where you can grab a ready-made character and use it straight in ComfyUI. Same face, cloths &amp;amp; body across every video generation, and with a few seconds of voice sample the character talks in a consistent cloned voice with lip sync (MiniMax H3). Community characters Aron: https://www.omnichar.org/characters/aron You can use these characters via comfyui, omnichar app &amp;amp; cloud. Detailed guide on building full consistent character(workflow included): Previous reddit post Official repo: https://github.com/omnichar/OmniChar (Opensource) ComfyUI Node: https://githu&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x4s1l0/portable_char_consistent_characterssame_face_body/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1x4ripg/how_long_did_it_really_take_u_produce_a_stable/</id><title>How long did it really take u produce a stable , content ready product on Comfy UI</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x4ripg/how_long_did_it_really_take_u_produce_a_stable/"/>
-<published>2026-10-13T08:53:01+00:00</published><updated>2026-10-13T08:53:01+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="wan"/>
-<category term="runway"/>
-<category term="ltx"/>
-<summary>After researching and gaining experience with various API Services like Higgsfield AI , Runway , and ElevenLabs my AI Assistant / recommended •LTX 2.5 •H3 •WAN 2.2 ( For ensfw) For a better more advanced capability for video creations / Content Creation. Problem is it’s been 16 hours and I have to s</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · wan, runway, ltx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;After researching and gaining experience with various API Services like Higgsfield AI , Runway , and ElevenLabs my AI Assistant / recommended •LTX 2.5 •H3 •WAN 2.2 ( For ensfw) For a better more advanced capability for video creations / Content Creation. Problem is it’s been 16 hours and I have to start over due to apparently mandatorily needing to have access to A100 or A6000 at least and also needed the bf16 or something like that which gives the best quality . For sure gonna need it for the ensfw stuff but is content produced on Comfy Ui really that much better then the mainstream platforms like Higgs, ElevenLabs , etc??. Is it worth the time to learn and is it better Using Runpod for Com&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x4ripg/how_long_did_it_really_take_u_produce_a_stable/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://github.com/OpenBMB/VoxCPM</id><title>OpenBMB/VoxCPM</title>
-<link rel="alternate" href="https://github.com/OpenBMB/VoxCPM"/>
-<published>2026-10-13T08:00:46+00:00</published><updated>2026-10-13T08:00:46+00:00</updated>
-<author><name>GitHub trending (Python)</name></author>
-<category term="super-resolution"/>
-<category term="lora"/>
-<summary>VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning https://voxcpm.com VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning English | 中文 👋 Join our community for discussion and supp</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;GitHub trending (Python) · score 2 · super-resolution, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning https://voxcpm.com VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning English | 中文 👋 Join our community for discussion and support! Feishu | Discord | 📚 MiniCPM Wiki VoxCPM is a tokenizer-free Text-to-Speech system that directly generates continuous speech representations via an end-to-end diffusion autoregressive architecture , bypassing discrete tokenization to achieve highly natural and expressive synthesis. VoxCPM2 is the latest major release — a 2B parameter model trained on over 2 million hours of multilingual speec&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.com/OpenBMB/VoxCPM"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
