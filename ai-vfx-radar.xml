@@ -2,8 +2,29 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-26T23:30:34+00:00</updated>
+<updated>2026-10-27T01:30:29+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xge32s/psa_beware_of_fake_github_projects_especially_ai/</id><title>⚠️ PSA: Beware of Fake GitHub Projects — Especially AI Tools and ComfyUI Custom Nodes</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xge32s/psa_beware_of_fake_github_projects_especially_ai/"/>
+<published>2026-10-27T00:28:23+00:00</published><updated>2026-10-27T00:28:23+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<summary>I recently discovered a highly suspicious GitHub repository while searching for AI tools. After inspecting its source code and commit history, I found several serious red flags: Fake development activity: Automated workflows generating meaningless commits. Misleading claims: Dozens of advertised fea</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I recently discovered a highly suspicious GitHub repository while searching for AI tools. After inspecting its source code and commit history, I found several serious red flags: Fake development activity: Automated workflows generating meaningless commits. Misleading claims: Dozens of advertised features, but almost no actual application code. Hidden redirects: Base64-encoded HTML pointing to an unrelated download website. Security bypass instructions: Encouraging users to ignore SmartScreen warnings and whitelist files in their antivirus. Suspicious connections: Multiple unrelated repositories directing users to the same external download domain. I couldn't verify whether the actual executa&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xge32s/psa_beware_of_fake_github_projects_especially_ai/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xgcjvw/i_created_a_custom_node_that_can_help_you/</id><title>I created a custom node that can help you generate as many frames as you want with high motion transfer accuracy in MiniMax H3</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xgcjvw/i_created_a_custom_node_that_can_help_you/"/>
+<published>2026-10-26T23:22:06+00:00</published><updated>2026-10-26T23:22:06+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="upscaling"/>
+<category term="vfx"/>
+<category term="comfyui"/>
+<category term="minimax"/>
+<summary>while generating video to video in Minimax for VFX, I struggled with maintaining accurate motion transfer as an example, the generation would shift drastically after 192 frames on 0.5MP or after 147 on 1MP so I built a custom node similar to a context window to help the model generate in batches the</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 5 · upscaling, vfx, comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;while generating video to video in Minimax for VFX, I struggled with maintaining accurate motion transfer as an example, the generation would shift drastically after 192 frames on 0.5MP or after 147 on 1MP so I built a custom node similar to a context window to help the model generate in batches then overlaps and blends all the batches together during generation, as an example this is 447 frames on 0.5MP, generated on batches of 56 frames and 5 frames overlap between every batch. the node also has the option of splitting your generation into tiles of resolution and overlap of your choice, but i recommend using it more in a second upscaling stage the node is in Comfyui Manager under the name &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xgcjvw/i_created_a_custom_node_that_can_help_you/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1xgbb1j/minimax_h3_workflow_initial_extending_and_extend/</id><title>MiniMax H3 Workflow - Initial, Extending and Extend by Latent(review and advise)</title>
 <link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xgbb1j/minimax_h3_workflow_initial_extending_and_extend/"/>
@@ -64,6 +85,20 @@
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/Musikalandia [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xg8xqo/odissey_of_aeons_video_generado_con_minimax_h3_y/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xg8peo/i_built_a_free_opensource_video_studio_that_runs/</id><title>I built a free, open-source video studio that runs locally: one idea → storyboard → chained scenes with sound → montage → 4K (H3 / LTX / WAN, 16 GB RTX)</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xg8peo/i_built_a_free_opensource_video_studio_that_runs/"/>
+<published>2026-10-26T20:46:40+00:00</published><updated>2026-10-26T20:46:40+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="upscaling"/>
+<category term="comfyui"/>
+<category term="wan"/>
+<category term="minimax"/>
+<category term="ltx"/>
+<category term="storyboard"/>
+<summary>Hi everyone! Full disclosure up front: I'm the author of Remiqora Video , an open-source (GPL-3.0) local video studio for Windows. It's a UI and orchestration layer over existing open models, not a new model. Today I published the first pre-release (v0.1.0). https://reddit.com/link/1xg8peo/video/ken</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 9 · upscaling, comfyui, wan, minimax, ltx, storyboard&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi everyone! Full disclosure up front: I'm the author of Remiqora Video , an open-source (GPL-3.0) local video studio for Windows. It's a UI and orchestration layer over existing open models, not a new model. Today I published the first pre-release (v0.1.0). https://reddit.com/link/1xg8peo/video/ken9w3bwhvxh1/player The video above is a 33-second reel cut from seven music videos. The music was made with Remiqora , and the video with Remiqora Video . https://preview.redd.it/uxrm3xgxhvxh1.png?width=1280&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=4f6da5c42a945fe4a501fbe524dca1cc3d071cf5 The problem: current models give you 5–15 s clips. A 1–2 minute film means writing a prompt per scene, keeping the character cons&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xg8peo/i_built_a_free_opensource_video_studio_that_runs/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
 <id>https://www.reddit.com/r/vfx/comments/1xg8dg0/need_after_effect_vfx_editor_that_can_work_with/</id><title>need after effect vfx editor that can work with ai generations</title>
 <link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xg8dg0/need_after_effect_vfx_editor_that_can_work_with/"/>
 <published>2026-10-26T20:33:39+00:00</published><updated>2026-10-26T20:33:39+00:00</updated>
@@ -71,6 +106,15 @@
 <category term="vfx"/>
 <summary>no simple motion graphics please dm your best 30 seconds work - one piece only no overlay vfx, all motion work made from scratch!! will check composition. do not send other people’s work !! project is for an event india only submitted by /u/byaameka [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;no simple motion graphics please dm your best 30 seconds work - one piece only no overlay vfx, all motion work made from scratch!! will check composition. do not send other people’s work !! project is for an event india only submitted by /u/byaameka [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xg8dg0/need_after_effect_vfx_editor_that_can_work_with/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1xg7b39/mac_studio_m5_max_or_windows_rtx_5080_ryzen_9_for/</id><title>Mac studio M5 max or Windows rtx 5080 + ryzen 9 for VFX and motion graphics</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xg7b39/mac_studio_m5_max_or_windows_rtx_5080_ryzen_9_for/"/>
+<published>2026-10-26T19:54:04+00:00</published><updated>2026-10-26T19:54:04+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="vfx"/>
+<summary>submitted by /u/Green_Card_215 [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/Green_Card_215 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xg7b39/mac_studio_m5_max_or_windows_rtx_5080_ryzen_9_for/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1xg6dhs/a_quick_mossimage_news_roundup_27th_october_2026/</id><title>A quick MOSS-Image news round-up - 27th October 2026</title>
@@ -7240,28 +7284,5 @@
 <category term="lora"/>
 <summary>I followed the idea from this: https://www.reddit.com/r/comfyui/comments/1wvff4i/super_simple_minimax_character_swap_workflow/ To take SAM 3 to create the mask: https://i.imgur.com/bUYkWk0.jpeg Then using the ref2video model, I used the masked video as input reference and the reference images from m</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 6 · sam3, comfyui, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I followed the idea from this: https://www.reddit.com/r/comfyui/comments/1wvff4i/super_simple_minimax_character_swap_workflow/ To take SAM 3 to create the mask: https://i.imgur.com/bUYkWk0.jpeg Then using the ref2video model, I used the masked video as input reference and the reference images from my dog: https://i.imgur.com/FNX4wsu.png Prompt is something like this: https://i.imgur.com/JUTwJIm.png Took some guidelines from here as well: https://patricksheedy.com/posts/minimax-h3-character-swap-part-2/ That other guide is interesting, but it creates a black mask that loses all the facial information. Negative color is way better. Here is my workflow: https://drive.google.com/file/d/1DK0n2fgu&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x4k7sq/character_swap_using_sam3_to_inverted_color_mask/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1x4jh3c/character_swap_minimax_h3_bfs_collection/</id><title>Character Swap Minimax H3 (BFS Collection)</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x4jh3c/character_swap_minimax_h3_bfs_collection/"/>
-<published>2026-10-13T01:14:24+00:00</published><updated>2026-10-13T01:14:24+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<category term="minimax"/>
-<category term="lora"/>
-<summary>I’ve released my MiniMax H3 Character Swap LoRA I trained this LoRA to replace the main character in a guide video while trying to preserve the guide’s motion, expressions, camera, and scene. It was trained with guide latents, so the recommended setup is to connect the source video through Add Guide</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · comfyui, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I’ve released my MiniMax H3 Character Swap LoRA I trained this LoRA to replace the main character in a guide video while trying to preserve the guide’s motion, expressions, camera, and scene. It was trained with guide latents, so the recommended setup is to connect the source video through Add Guide. The ComfyUI Planner workflow is included, but it’s optional. It’s still experimental and far from perfect, it’s a LoRA, not a universal character-swap solution. It works better with people and human-like characters, and results can vary depending on the video, reference image, prompt, and settings. I’ve shared a few examples below so you can see where it works and where it still struggles. The p&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x4jh3c/character_swap_minimax_h3_bfs_collection/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1x4hdod/im_still_updating_the_workflow_for_retexturing/</id><title>I'm still updating the workflow for retexturing the UVs of the open-source MakeHuman character creator Blender add-on! MakeHuman has tons of customization sliders, rigging options, animations and much more. I've even repurposed the workflow for some of the clothing it comes with!</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x4hdod/im_still_updating_the_workflow_for_retexturing/"/>
-<published>2026-10-12T23:34:39+00:00</published><updated>2026-10-12T23:34:39+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="rigging"/>
-<category term="comfyui"/>
-<category term="blender"/>
-<category term="flux"/>
-<summary>https://drive.google.com/file/d/10F_9xbm2sdWDAw_E8orXBltqhNjFX9Ef/view?usp=sharing A2 MakeHuman: Image to UV Texture Workflow (ComfyUI) Give it a picture of the character you want, and it paints the full UV texture for you: head, body, hands and feet. It’s fun to use, and you don’t have to write the</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 6 · rigging, comfyui, blender, flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;https://drive.google.com/file/d/10F_9xbm2sdWDAw_E8orXBltqhNjFX9Ef/view?usp=sharing A2 MakeHuman: Image to UV Texture Workflow (ComfyUI) Give it a picture of the character you want, and it paints the full UV texture for you: head, body, hands and feet. It’s fun to use, and you don’t have to write the prompts yourself. How it works Load your style reference , which can be any image of the character or look you want, and your UV map . Qwen3-VL looks at your image and describes each part. The head gets face colors and textures, the body gets where the colors and markings sit, and the hands and feet get their material. Each part is generated with Flux 2 Klein , using the UV layout as a guide so t&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x4hdod/im_still_updating_the_workflow_for_retexturing/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
