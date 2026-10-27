@@ -2,8 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-27T15:30:49+00:00</updated>
+<updated>2026-10-27T17:30:52+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xgwamv/minimax_workflow_for_absolute_highest_quality/</id><title>Minimax workflow for absolute highest quality output?</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xgwamv/minimax_workflow_for_absolute_highest_quality/"/>
+<published>2026-10-27T15:54:06+00:00</published><updated>2026-10-27T15:54:06+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="minimax"/>
+<category term="cinematic"/>
+<summary>There are a thousand minimax workflow, and while each serve their purpose, I’ve yet to find one that produces the same near-lossless or cinematic quality output I’ve seen others post here. Almost every workflow uses 8 steps and/or Patch Sage Attention, Model Attention Backend, H3 Memory Optimization</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · minimax, cinematic&lt;/small&gt;&lt;/p&gt;&lt;p&gt;There are a thousand minimax workflow, and while each serve their purpose, I’ve yet to find one that produces the same near-lossless or cinematic quality output I’ve seen others post here. Almost every workflow uses 8 steps and/or Patch Sage Attention, Model Attention Backend, H3 Memory Optimization, etc, which ultimately hurt the output. I have tried 20, 25, 30 steps — and while they’re good, they’re not great. I have used LM Studio to build my prompts, which has drastically improved the adherence and flow, but the quality still isn’t there. I have tried resolution ranging from .5 - 1.5, marginally impacts quality but hinders adherence when above 1.1. Assuming a clapped out system with a 50&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xgwamv/minimax_workflow_for_absolute_highest_quality/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xgt2h1/here_is_my_submission_for_comfyuis_open_source/</id><title>Here is my submission for ComfyUI’s Open Source Higgsfield challenge: Openjutsu, one-click character swap for videos, fully local using Minimax H3 only</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xgt2h1/here_is_my_submission_for_comfyuis_open_source/"/>
@@ -14,6 +24,15 @@
 <category term="minimax"/>
 <summary>I mostly used claude to build Openjutsu, a free, local version of Higgsfield’s Genjutsu character swap, for Comfy’s Open Source Higgsfield challenge. Repo (MIT): https://github.com/D3voz/openjutsu What it does Upload a video and a picture of the person you want in it, then press Run. It finds the pe</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 5 · video generation, comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I mostly used claude to build Openjutsu, a free, local version of Higgsfield’s Genjutsu character swap, for Comfy’s Open Source Higgsfield challenge. Repo (MIT): https://github.com/D3voz/openjutsu What it does Upload a video and a picture of the person you want in it, then press Run. It finds the person, swaps them in clip by clip and keeps the original audio. There are also modes for: Object swap (change or remove an object, or change the background) From picture (put a person and a setting from one image into a video) Fix faces and Fix colours as post-processing How it’s built A Next.js web app that talks to ComfyUI through u/comfyorg /sdk and comfy-api-proxy MiniMax H3 does the video gene&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xgt2h1/here_is_my_submission_for_comfyuis_open_source/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xgrtxb/ive_been_working_on_a_different_approach_to/</id><title>I've been working on a different approach to regional prompting in ComfyUI, with paintable regions and more control over blending</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xgrtxb/ive_been_working_on_a_different_approach_to/"/>
+<published>2026-10-27T12:58:36+00:00</published><updated>2026-10-27T12:58:36+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<summary>I've been working on an open-source ComfyUI extension called Conditioning Layers and wanted to share it here. The idea is to give you more control over where different prompts influence an image, especially with irregular shapes and overlapping regions. It uses editable grayscale Influence Fields , </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I've been working on an open-source ComfyUI extension called Conditioning Layers and wanted to share it here. The idea is to give you more control over where different prompts influence an image, especially with irregular shapes and overlapping regions. It uses editable grayscale Influence Fields , which you can paint or generate procedurally. You can assign exclusive regions (FIXED), blend multiple prompts with normalized weights (BLENDED), and inspect their effective contributions before sampling. The examples show a castle transitioning into an underwater reef and a single tree with four seasons following curved influence fields. Both were generated locally using Krea 2 Turbo . GitHub: ht&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xgrtxb/ive_been_working_on_a_different_approach_to/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xgp5cg/high_speed_speed_combat/</id><title>High speed speed combat</title>
@@ -7358,61 +7377,5 @@
 <category term="wan"/>
 <summary>I've been leaning on open source for years: ComfyUI, Qwen, Wan, ACE-Step, ffmpeg, all of it. I finally built something big enough that it felt wrong not to put it out there. It's called YourContent. It runs on top of your own ComfyUI and puts the whole posting workflow in one browser tab: - make pic</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · image-to-video, comfyui, wan&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I've been leaning on open source for years: ComfyUI, Qwen, Wan, ACE-Step, ffmpeg, all of it. I finally built something big enough that it felt wrong not to put it out there. It's called YourContent. It runs on top of your own ComfyUI and puts the whole posting workflow in one browser tab: - make pictures (Qwen-Image-2512) - short clips (Wan 2.2 image-to-video) - and music (ACE-Step 1.5) - cut them into a reel with music and fades, - exported for 9:16, 4:5, 1:1 or 16:9 - turn them into posts in your own brand (colors, fonts, logo, voice), using 35 post styles - plan everything on a calendar you can subscribe to from Google, Apple or Outlook optionally hook up Claude, ChatGPT or any MCP client&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x545pb/build_a_free_content_tool_of_gpu_owners/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1x52yp6/hi_im_building_custom_comfyui_nodes_for_ai/</id><title>Hi! I'm building custom ComfyUI nodes for AI filmmaking 🎬</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x52yp6/hi_im_building_custom_comfyui_nodes_for_ai/"/>
-<published>2026-10-13T17:28:19+00:00</published><updated>2026-10-13T17:28:19+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="camera control"/>
-<category term="comfyui"/>
-<category term="ai video"/>
-<category term="filmmaking"/>
-<summary>Hey everyone! 👋 I’m the creator of CineConIA , a project focused on AI filmmaking and custom ComfyUI nodes. I’m developing free tools to simplify complex workflows, improve camera control, and make AI video creation more intuitive. I’ll be sharing tutorials, demonstrations, and development updates. </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 6 · camera control, comfyui, ai video, filmmaking&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey everyone! 👋 I’m the creator of CineConIA , a project focused on AI filmmaking and custom ComfyUI nodes. I’m developing free tools to simplify complex workflows, improve camera control, and make AI video creation more intuitive. I’ll be sharing tutorials, demonstrations, and development updates. Happy to be part of this community! What features would you like to see in ComfyUI? submitted by /u/CineConIA [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x52yp6/hi_im_building_custom_comfyui_nodes_for_ai/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1x52s15/gausify_orbit_is_now_open_source_turn_aigenerated/</id><title>Gausify Orbit is now open source: turn AI-generated 360 orbit videos into Gaussian Splats, entirely in your browser</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x52s15/gausify_orbit_is_now_open_source_turn_aigenerated/"/>
-<published>2026-10-13T17:21:48+00:00</published><updated>2026-10-13T17:21:48+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="video model"/>
-<category term="3d gaussian"/>
-<category term="sam 2"/>
-<category term="comfyui"/>
-<category term="minimax"/>
-<category term="lora"/>
-<category term="ai video"/>
-<summary>A few days ago I posted “ Gausify Orbit - I am building a web application to transform images into Gaussian Splats ”, and it was removed because the project wasn’t open source yet. It’s now released under the MIT license , so here it is again, with a lot of updates. What it does You give it a video </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 7 · video model, 3d gaussian, sam 2, comfyui, minimax, lora, ai video&lt;/small&gt;&lt;/p&gt;&lt;p&gt;A few days ago I posted “ Gausify Orbit - I am building a web application to transform images into Gaussian Splats ”, and it was removed because the project wasn’t open source yet. It’s now released under the MIT license , so here it is again, with a lot of updates. What it does You give it a video that circles around a subject. That can be a clip from a video model (I mostly make mine in ComfyUI using Minimax H3 + 360 LoRA by pablodawson), a phone video, or a folder of images. You get back a 3D Gaussian Splat you can view, export or share. Running in the browser The web version runs the whole pipeline locally on WebGPU . Nothing to install, no Python, no CUDA, and your video never leaves yo&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x52s15/gausify_orbit_is_now_open_source_turn_aigenerated/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1x52j87/aziib_pixel_style_lora_pixel_art_lora_for_krea2/</id><title>Aziib Pixel Style Lora (pixel art lora for krea2 and anima)</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x52j87/aziib_pixel_style_lora_pixel_art_lora_for_krea2/"/>
-<published>2026-10-13T17:13:00+00:00</published><updated>2026-10-13T17:13:00+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="lora"/>
-<summary>Download: https://civitai.com/models/672328/aziib-pixel-style krea 2 is pretty decent with text. trigger word: aziib pixel style submitted by /u/aziib [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Download: https://civitai.com/models/672328/aziib-pixel-style krea 2 is pretty decent with text. trigger word: aziib pixel style submitted by /u/aziib [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x52j87/aziib_pixel_style_lora_pixel_art_lora_for_krea2/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1x51znr/lightx2vqwenimage21lightning_4_step_turbo_lora/</id><title>lightx2v/Qwen-Image-2.1-Lightning - 4 Step Turbo LoRA</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x51znr/lightx2vqwenimage21lightning_4_step_turbo_lora/"/>
-<published>2026-10-13T16:53:06+00:00</published><updated>2026-10-13T16:53:06+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="image editing"/>
-<category term="lora"/>
-<summary>"A 4-step distilled LoRA for Qwen-Image-2.1 , supporting text-to-image generation and image editing. Training was performed entirely on 16 Huawei Ascend 910B NPUs , using DMD in LightX2V ." I think it's rank 16. Pretty small for a turbo lora, but we'll see I guess. submitted by /u/Scriabinical [link</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · image editing, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;"A 4-step distilled LoRA for Qwen-Image-2.1 , supporting text-to-image generation and image editing. Training was performed entirely on 16 Huawei Ascend 910B NPUs , using DMD in LightX2V ." I think it's rank 16. Pretty small for a turbo lora, but we'll see I guess. submitted by /u/Scriabinical [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x51znr/lightx2vqwenimage21lightning_4_step_turbo_lora/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1x50t1l/building_in_public_a_free_open_source_home_for/</id><title>Building in public: a free, open source home for your AI images. Would anyone give me 5 minutes?</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x50t1l/building_in_public_a_free_open_source_home_for/"/>
-<published>2026-10-13T16:09:28+00:00</published><updated>2026-10-13T16:09:28+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="lora"/>
-<summary>This one is a bit vulnerable to post, so bear with me. For the past few months I've been working with a small team on Picteus , a free, open source app that runs on your own computer. Every image you generate stays together with how you made it: prompt, checkpoint, LoRAs and their weights, seed, wor</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;This one is a bit vulnerable to post, so bear with me. For the past few months I've been working with a small team on Picteus , a free, open source app that runs on your own computer. Every image you generate stays together with how you made it: prompt, checkpoint, LoRAs and their weights, seed, workflow. Why I care: I've watched so many creators lose their best work. Not the files. Those are somewhere in a folder of thousands. What gets lost is how they made it. Which LoRA, which weight, which small tweak finally made it click. Every tool keeps its own little piece of that history, none of them talk to each other, and your work ends up locked inside whichever tool you happened to use that d&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x50t1l/building_in_public_a_free_open_source_home_for/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
