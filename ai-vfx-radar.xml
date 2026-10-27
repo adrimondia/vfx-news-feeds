@@ -2,8 +2,42 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-27T17:30:52+00:00</updated>
+<updated>2026-10-27T19:30:28+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1xh1dl1/hlx/</id><title>HLx</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xh1dl1/hlx/"/>
+<published>2026-10-27T18:58:13+00:00</published><updated>2026-10-27T18:58:13+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="vfx"/>
+<category term="houdini"/>
+<category term="blender"/>
+<summary>Blender, houdini and aftereffects I love VFX and have been doing it for a long time :D submitted by /u/Swag1n [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 3 · vfx, houdini, blender&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Blender, houdini and aftereffects I love VFX and have been doing it for a long time :D submitted by /u/Swag1n [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xh1dl1/hlx/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xgzw22/vitronedit_a_new_unified_model_for_image_video/</id><title>VitronEdit: A new unified model for image, video, and 3D editing. Code and weights available</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xgzw22/vitronedit_a_new_unified_model_for_image_video/"/>
+<published>2026-10-27T18:04:13+00:00</published><updated>2026-10-27T18:04:13+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="video editing"/>
+<category term="image editing"/>
+<category term="comfyui"/>
+<category term="stable diffusion"/>
+<category term="consistency"/>
+<category term="multi-view"/>
+<summary>I randomly came across this project on Lemmy's Stable Diffusion community and thought it was worth sharing here. Just to be clear, I'm not affiliated with the developers or the project in any way. I simply stumbled upon it, and I couldn't find any discussion about it on Reddit. The model is called V</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 6 · video editing, image editing, comfyui, stable diffusion, consistency, multi-view&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I randomly came across this project on Lemmy's Stable Diffusion community and thought it was worth sharing here. Just to be clear, I'm not affiliated with the developers or the project in any way. I simply stumbled upon it, and I couldn't find any discussion about it on Reddit. The model is called VitronEdit, and its paper was published on October 19, 2026. What caught my attention is that it attempts to bring image editing, video editing, and 3D scene editing into a single unified framework, rather than treating them as completely separate tasks. According to the researchers, VitronEdit supports: - Image editing: Modify images using text instructions, optionally with reference images. - Vid&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xgzw22/vitronedit_a_new_unified_model_for_image_video/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xgyg7b/new_6step_lora_adapters_for_qwenimage21_no/</id><title>New 6-step LoRA adapters for Qwen-Image-2.1, no upsampling step, ~5x faster</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xgyg7b/new_6step_lora_adapters_for_qwenimage21_no/"/>
+<published>2026-10-27T17:11:31+00:00</published><updated>2026-10-27T17:11:31+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="lora"/>
+<summary>Hey! We published a set of 6-step LoRAs, one without the upsampling step: https://huggingface.co/PrunaAI/P-Q-Image-2.1 - Generate or edit images in just 6 steps instead of 40. Use 6-steps for preserving inputs when editing and 6-steps-upsampled for improved visual quality and shorter end-to-end gene</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey! We published a set of 6-step LoRAs, one without the upsampling step: https://huggingface.co/PrunaAI/P-Q-Image-2.1 - Generate or edit images in just 6 steps instead of 40. Use 6-steps for preserving inputs when editing and 6-steps-upsampled for improved visual quality and shorter end-to-end generation. - 6-step distillation provides improved quality with few generation steps.6-steps-upsampled is the first distillation that removes the need for a separate prompt-upsampling step. This means 41 to 80 seconds saved, depending on your prompt style. - The LoRA adapters load directly on top of Qwen-Image-2.1, so the pipeline stays unchanged. Few-step distillation cuts the diffusion cost, and th&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xgyg7b/new_6step_lora_adapters_for_qwenimage21_no/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xgwamv/minimax_workflow_for_absolute_highest_quality/</id><title>Minimax workflow for absolute highest quality output?</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xgwamv/minimax_workflow_for_absolute_highest_quality/"/>
@@ -7338,44 +7372,5 @@
 <category term="comfyui"/>
 <summary>So I’ve only been messing around with Krea2 in ComfyUI for a little while, and I ran into the classic problem: I make an image I really like, then a week later I want the exact same settings back and have no clue what I did. Prompt, seed, sampler, all of it gone from my memory. Ended up asking Claud</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;So I’ve only been messing around with Krea2 in ComfyUI for a little while, and I ran into the classic problem: I make an image I really like, then a week later I want the exact same settings back and have no clue what I did. Prompt, seed, sampler, all of it gone from my memory. Ended up asking Claude to build me a prompt and workflow extractor that pulls the prompt and workflow out of my generated pictures. Now I just drop an image in, it spits out a .json, and I drag that into ComfyUI. Whole workflow is just there, exactly how I had it. Honestly thats changing everything for me!! Didn’t need any coding skills for it either, I just described what I wanted and went back and forth until it wor&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x56ke0/noob_tip_pull_the_exact_comfyui_workflow_back_out/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1x5639a/scifi_film_vfx_artist_unpaid/</id><title>Sci-Fi Film | VFX Artist - Unpaid</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1x5639a/scifi_film_vfx_artist_unpaid/"/>
-<published>2026-10-13T19:23:00+00:00</published><updated>2026-10-13T19:23:00+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="vfx"/>
-<summary>submitted by /u/Smason2000 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/Smason2000 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1x5639a/scifi_film_vfx_artist_unpaid/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1x55doi/minimax_h3_seedhunter_nodes/</id><title>Minimax H3 SeedHunter Nodes</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x55doi/minimax_h3_seedhunter_nodes/"/>
-<published>2026-10-13T18:56:43+00:00</published><updated>2026-10-13T18:56:43+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="minimax"/>
-<summary>Im working in nodes to hunting seeds for minimax h3 videos, in a few days i will realease it in my github. submitted by /u/smereces [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Im working in nodes to hunting seeds for minimax h3 videos, in a few days i will realease it in my github. submitted by /u/smereces [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x55doi/minimax_h3_seedhunter_nodes/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1x549i3/vigenflow_flux1schnell_flux2klein4b_and/</id><title>VigenFlow: FLUX.1-schnell, FLUX.2-klein-4B and Z-Image-Turbo running locally on the AMD Ryzen AI NPU, no discrete GPU needed (Windows + Ubuntu)</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x549i3/vigenflow_flux1schnell_flux2klein4b_and/"/>
-<published>2026-10-13T18:15:27+00:00</published><updated>2026-10-13T18:15:27+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="image editing"/>
-<category term="flux"/>
-<summary>Hi all, I'm the developer of VigenFlow, a local image generation and editing server that runs diffusion models on the AMD Ryzen AI NPU (XDNA 2) + CPU. If you have a Ryzen AI laptop or mini PC without a discrete GPU, you can generate images entirely on your own machine. Supported models Text-to-image</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · image editing, flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi all, I'm the developer of VigenFlow, a local image generation and editing server that runs diffusion models on the AMD Ryzen AI NPU (XDNA 2) + CPU. If you have a Ryzen AI laptop or mini PC without a discrete GPU, you can generate images entirely on your own machine. Supported models Text-to-image: FLUX.1-schnell, FLUX.2-klein-4B, Z-Image-Turbo, Krea2-Turbo Image editing: FLUX.2-klein-4B Speed (on XNDA2 NPU for 1024×1024) FLUX.1-schnell, 4 steps: ~20 s/image FLUX.2-klein-4B, 4 steps: ~9 s/image Z-Image-Turbo, 4 steps: ~17 s/image Krea2-Turbo, 8 steps: ~50 s/image Getting started Windows and Ubuntu packages: https://github.com/jia1217/vigenflow/releases/tag/v0.2.0-beta.2 Works as a local se&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x549i3/vigenflow_flux1schnell_flux2klein4b_and/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1x545pb/build_a_free_content_tool_of_gpu_owners/</id><title>Build a free content tool of GPU owners</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x545pb/build_a_free_content_tool_of_gpu_owners/"/>
-<published>2026-10-13T18:11:33+00:00</published><updated>2026-10-13T18:11:33+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="image-to-video"/>
-<category term="comfyui"/>
-<category term="wan"/>
-<summary>I've been leaning on open source for years: ComfyUI, Qwen, Wan, ACE-Step, ffmpeg, all of it. I finally built something big enough that it felt wrong not to put it out there. It's called YourContent. It runs on top of your own ComfyUI and puts the whole posting workflow in one browser tab: - make pic</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · image-to-video, comfyui, wan&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I've been leaning on open source for years: ComfyUI, Qwen, Wan, ACE-Step, ffmpeg, all of it. I finally built something big enough that it felt wrong not to put it out there. It's called YourContent. It runs on top of your own ComfyUI and puts the whole posting workflow in one browser tab: - make pictures (Qwen-Image-2512) - short clips (Wan 2.2 image-to-video) - and music (ACE-Step 1.5) - cut them into a reel with music and fades, - exported for 9:16, 4:5, 1:1 or 16:9 - turn them into posts in your own brand (colors, fonts, logo, voice), using 35 post styles - plan everything on a calendar you can subscribe to from Google, Apple or Outlook optionally hook up Claude, ChatGPT or any MCP client&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x545pb/build_a_free_content_tool_of_gpu_owners/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
