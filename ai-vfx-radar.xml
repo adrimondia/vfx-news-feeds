@@ -2,8 +2,19 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-27T13:31:10+00:00</updated>
+<updated>2026-10-27T15:30:49+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xgt2h1/here_is_my_submission_for_comfyuis_open_source/</id><title>Here is my submission for ComfyUI’s Open Source Higgsfield challenge: Openjutsu, one-click character swap for videos, fully local using Minimax H3 only</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xgt2h1/here_is_my_submission_for_comfyuis_open_source/"/>
+<published>2026-10-27T13:50:05+00:00</published><updated>2026-10-27T13:50:05+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="video generation"/>
+<category term="comfyui"/>
+<category term="minimax"/>
+<summary>I mostly used claude to build Openjutsu, a free, local version of Higgsfield’s Genjutsu character swap, for Comfy’s Open Source Higgsfield challenge. Repo (MIT): https://github.com/D3voz/openjutsu What it does Upload a video and a picture of the person you want in it, then press Run. It finds the pe</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 5 · video generation, comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I mostly used claude to build Openjutsu, a free, local version of Higgsfield’s Genjutsu character swap, for Comfy’s Open Source Higgsfield challenge. Repo (MIT): https://github.com/D3voz/openjutsu What it does Upload a video and a picture of the person you want in it, then press Run. It finds the person, swaps them in clip by clip and keeps the original audio. There are also modes for: Object swap (change or remove an object, or change the background) From picture (put a person and a setting from one image into a video) Fix faces and Fix colours as post-processing How it’s built A Next.js web app that talks to ComfyUI through u/comfyorg /sdk and comfy-api-proxy MiniMax H3 does the video gene&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xgt2h1/here_is_my_submission_for_comfyuis_open_source/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xgp5cg/high_speed_speed_combat/</id><title>High speed speed combat</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xgp5cg/high_speed_speed_combat/"/>
@@ -7403,50 +7414,5 @@
 <category term="lora"/>
 <summary>This one is a bit vulnerable to post, so bear with me. For the past few months I've been working with a small team on Picteus , a free, open source app that runs on your own computer. Every image you generate stays together with how you made it: prompt, checkpoint, LoRAs and their weights, seed, wor</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;This one is a bit vulnerable to post, so bear with me. For the past few months I've been working with a small team on Picteus , a free, open source app that runs on your own computer. Every image you generate stays together with how you made it: prompt, checkpoint, LoRAs and their weights, seed, workflow. Why I care: I've watched so many creators lose their best work. Not the files. Those are somewhere in a folder of thousands. What gets lost is how they made it. Which LoRA, which weight, which small tweak finally made it click. Every tool keeps its own little piece of that history, none of them talk to each other, and your work ends up locked inside whichever tool you happened to use that d&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x50t1l/building_in_public_a_free_open_source_home_for/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1x4zai1/50_free_comfyui_automation_workflows_ep38/</id><title>50 Free ComfyUI Automation Workflows (Ep38)</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x4zai1/50_free_comfyui_automation_workflows_ep38/"/>
-<published>2026-10-13T15:12:51+00:00</published><updated>2026-10-13T15:12:51+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="upscaling"/>
-<category term="outpainting"/>
-<category term="comfyui"/>
-<category term="flux"/>
-<category term="lora"/>
-<summary>In this episode, I'll show you 50 free ComfyUI workflows that automate the boring parts of working with images. Instead of editing images one by one, you point a workflow at a folder, press Run, and it does the whole folder for you. We'll start with simple image folder automation: resize, social med</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 6 · upscaling, outpainting, comfyui, flux, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;In this episode, I'll show you 50 free ComfyUI workflows that automate the boring parts of working with images. Instead of editing images one by one, you point a workflow at a folder, press Run, and it does the whole folder for you. We'll start with simple image folder automation: resize, social media sizes, watermarks, rename and convert, remove backgrounds, slideshows, contact sheets, upscaling, and adding your logo to every image. Then we'll edit whole folders with Flux Klein: one prompt for all images, a different prompt for each image, coloring pages, outpainting, product photos, and restoring and colorizing old photos. You'll also see how to make many images in one Run with lists of pr&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x4zai1/50_free_comfyui_automation_workflows_ep38/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1x4z8qa/i_built_block_party_to_make_comfyui_workflows/</id><title>I built Block Party to make ComfyUI workflows easier to share</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x4z8qa/i_built_block_party_to_make_comfyui_workflows/"/>
-<published>2026-10-13T15:10:57+00:00</published><updated>2026-10-13T15:10:57+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<summary>I kept running into the same problem with shared workflows: missing models, different node versions, and no clear idea of which files go where. So I started building Block Party. It exports a workflow as a ZIP, checks dependencies on the receiving machine, and lets you review and install what’s miss</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I kept running into the same problem with shared workflows: missing models, different node versions, and no clear idea of which files go where. So I started building Block Party. It exports a workflow as a ZIP, checks dependencies on the receiving machine, and lets you review and install what’s missing. There’s also a browser interface for prompts, image/video/audio inputs, and results. This video is one of my tests with it. It’s still a work in progress, and trying it on another machine has helped me find plenty of things to fix. Curious how other people handle sharing workflows, and what you’d want something like this to do. Code: https://github.com/Niutonian/Comfyui_BlockParty submitted b&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x4z8qa/i_built_block_party_to_make_comfyui_workflows/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1x4z41u/updated_obvpm_timeline_workflow_v014007/</id><title>Updated OBVPM Timeline Workflow v0.1.4-007</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x4z41u/updated_obvpm_timeline_workflow_v014007/"/>
-<published>2026-10-13T15:05:59+00:00</published><updated>2026-10-13T15:05:59+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="upscaling"/>
-<category term="minimax"/>
-<summary>New version of my MiniMax H3 timeline workflow released Some very important bug fixes included, and a lot of improvements. The YouTube video above includes a lot of tips for using the workflow in addition to going over the changes in detail. (Sorry for repost. I initially posted under wrong account.</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · upscaling, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;New version of my MiniMax H3 timeline workflow released Some very important bug fixes included, and a lot of improvements. The YouTube video above includes a lot of tips for using the workflow in addition to going over the changes in detail. (Sorry for repost. I initially posted under wrong account.) Below is a complete list of fixes and improvements. Get the workflow and nodes at: https://github.com/chanon/comfyui-obvpm-timeline Important Fixes Upscaling Timelines can now be upscaled even if they have clips that aren't a single continuous generation. Previously a timeline like below might have failed with an error saying the clip's frames "don't fall on the latent grid". Now it upscales fin&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x4z41u/updated_obvpm_timeline_workflow_v014007/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1x4xpmw/how_would_a_professional_vfx_artist_recreate_this/</id><title>How would a professional VFX artist recreate this shot?</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1x4xpmw/how_would_a_professional_vfx_artist_recreate_this/"/>
-<published>2026-10-13T14:11:28+00:00</published><updated>2026-10-13T14:11:28+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="smoke"/>
-<category term="vfx"/>
-<category term="post-production"/>
-<category term="houdini"/>
-<category term="blender"/>
-<summary>I'm trying to recreate the attached shot, but with the spaceship removed and a bomb falling from the upper atmosphere before exploding over the ocean. I want to achieve the highest possible visual quality and follow a professional VFX workflow. I have done basic VFX work in Blender and have some exp</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 6 · smoke, vfx, post-production, houdini, blender&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I'm trying to recreate the attached shot, but with the spaceship removed and a bomb falling from the upper atmosphere before exploding over the ocean. I want to achieve the highest possible visual quality and follow a professional VFX workflow. I have done basic VFX work in Blender and have some experience with EmberGen and DaVinci Resolve/Fusion. I'm currently learning Houdini, including Solaris and Karma. I have the following questions: Overall VFX Pipeline How does a professional VFX studio approach a shot like this from pre-production to final delivery? Which software would you use at each stage, and in what order? What would the complete workflow look like if the goal were maximum quali&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1x4xpmw/how_would_a_professional_vfx_artist_recreate_this/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
