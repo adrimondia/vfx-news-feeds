@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-27T19:30:28+00:00</updated>
+<updated>2026-10-27T21:30:20+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
 <entry>
 <id>https://www.reddit.com/r/vfx/comments/1xh1dl1/hlx/</id><title>HLx</title>
@@ -14,6 +14,15 @@
 <category term="blender"/>
 <summary>Blender, houdini and aftereffects I love VFX and have been doing it for a long time :D submitted by /u/Swag1n [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 3 · vfx, houdini, blender&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Blender, houdini and aftereffects I love VFX and have been doing it for a long time :D submitted by /u/Swag1n [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xh1dl1/hlx/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xh0m0c/comfyui_v0430_released/</id><title>ComfyUI v0.43.0 released</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xh0m0c/comfyui_v0430_released/"/>
+<published>2026-10-27T18:30:24+00:00</published><updated>2026-10-27T18:30:24+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<summary>This release includes added RoPE Scaling support to MOSS-Image, support for MOSS-Image color-depth control, support for MOSS-Image-Edit LoRAs, added Fibo 2.0 support, a change from RoPE Scaling to NTK-aware (for Fibo 2.0), and a fix for Fibo 2.0 text-to-image negative prompt handling, among other fi</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;This release includes added RoPE Scaling support to MOSS-Image, support for MOSS-Image color-depth control, support for MOSS-Image-Edit LoRAs, added Fibo 2.0 support, a change from RoPE Scaling to NTK-aware (for Fibo 2.0), and a fix for Fibo 2.0 text-to-image negative prompt handling, among other fixes/improvements. submitted by /u/Fcking_Chuck [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xh0m0c/comfyui_v0430_released/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xgzw22/vitronedit_a_new_unified_model_for_image_video/</id><title>VitronEdit: A new unified model for image, video, and 3D editing. Code and weights available</title>
@@ -28,6 +37,17 @@
 <category term="multi-view"/>
 <summary>I randomly came across this project on Lemmy's Stable Diffusion community and thought it was worth sharing here. Just to be clear, I'm not affiliated with the developers or the project in any way. I simply stumbled upon it, and I couldn't find any discussion about it on Reddit. The model is called V</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 6 · video editing, image editing, comfyui, stable diffusion, consistency, multi-view&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I randomly came across this project on Lemmy's Stable Diffusion community and thought it was worth sharing here. Just to be clear, I'm not affiliated with the developers or the project in any way. I simply stumbled upon it, and I couldn't find any discussion about it on Reddit. The model is called VitronEdit, and its paper was published on October 19, 2026. What caught my attention is that it attempts to bring image editing, video editing, and 3D scene editing into a single unified framework, rather than treating them as completely separate tasks. According to the researchers, VitronEdit supports: - Image editing: Modify images using text instructions, optionally with reference images. - Vid&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xgzw22/vitronedit_a_new_unified_model_for_image_video/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xgzujz/flux2_klein_cut_the_qwen3_text_encoders_vram_from/</id><title>Flux2 Klein: cut the Qwen3 text encoder’s VRAM from 5.5 to 3.2 GB with identical output (new node)</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xgzujz/flux2_klein_cut_the_qwen3_text_encoders_vram_from/"/>
+<published>2026-10-27T18:02:48+00:00</published><updated>2026-10-27T18:02:48+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<category term="lora"/>
+<category term="dit"/>
+<summary>Flux2 Klein only reads three hidden layers from its Qwen3 text encoder (9, 18 and 27), but the standard loaders build and run the full 36-layer model, plus the final norm and the LM head. On top of that, ComfyUI-GGUF dequantizes the whole token embedding table to fp16 when it loads the GGUF. I made </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, lora, dit&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Flux2 Klein only reads three hidden layers from its Qwen3 text encoder (9, 18 and 27), but the standard loaders build and run the full 36-layer model, plus the final norm and the LM head. On top of that, ComfyUI-GGUF dequantizes the whole token embedding table to fp16 when it loads the GGUF. I made a small loader that only builds what Klein actually uses: 27 layers instead of 36 , no final norm, no LM head GGUF token embeddings stay quantized : only the rows of your prompt are dequantized Same conditioning, bit for bit (compared against CLIPLoader (GGUF), max abs diff 0.0) Numbers (Qwen3-8B Q4_K_M, Klein 9B, RTX 4090, 512-token prompt): - CLIPLoader (GGUF) Klein CLIP Loader (Pruned) TE weigh&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xgzujz/flux2_klein_cut_the_qwen3_text_encoders_vram_from/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xgyg7b/new_6step_lora_adapters_for_qwenimage21_no/</id><title>New 6-step LoRA adapters for Qwen-Image-2.1, no upsampling step, ~5x faster</title>
@@ -7315,62 +7335,5 @@
 <category term="video editing"/>
 <summary>One of the frustrating things about local AI generation on Mac is getting different models and tools to work together smoothly and fast. Valtz is a new native macOS app powered by Vpipe, a high-performance inference engine optimized for Apple Silicon. Instead of manually building complicated node-ba</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · video generation, image-to-video, upscaling, video editing&lt;/small&gt;&lt;/p&gt;&lt;p&gt;One of the frustrating things about local AI generation on Mac is getting different models and tools to work together smoothly and fast. Valtz is a new native macOS app powered by Vpipe, a high-performance inference engine optimized for Apple Silicon. Instead of manually building complicated node-based workflows, you can do pretty much everything in one place easily: * Image generation &amp;amp; editing with the latest AI models * Video generation with multiple image/video references, including long videos * Image-to-video — generate an image, edit it, and immediately use it as a reference for video generation * AI prompt enhancement * Video editing with multiple layers, audio tracks, and a timeline&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x59irw/mac_users_fast_and_easy_imagevideoaudio/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1x5915u/mimicking_the_visual_style_of_kane_lynch_2/</id><title>Mimicking the visual style of "Kane &amp; Lynch 2"?</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1x5915u/mimicking_the_visual_style_of_kane_lynch_2/"/>
-<published>2026-10-13T21:17:02+00:00</published><updated>2026-10-13T21:17:02+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="video editing"/>
-<summary>I am a hobbyist editor and I wish to edit a video and give it a visual style similar to the video game "Kane &amp; Lynch 2 Dog Days". It is a very peculiar style that I have not seen before, I think it is supposed to be reminiscent of online videos around 2005 when HD wasn't a thing yet on the internet.</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 1 · video editing&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I am a hobbyist editor and I wish to edit a video and give it a visual style similar to the video game "Kane &amp;amp; Lynch 2 Dog Days". It is a very peculiar style that I have not seen before, I think it is supposed to be reminiscent of online videos around 2005 when HD wasn't a thing yet on the internet. You can see that the developpers have added digital artefacts that you would see when the connection wasn't to good while trying to watch a video. I have no idea what is the name of this style, if it even has one, are there any tutorials available online to help me mimick it? The editing software I use is Kdenlive, and I use audacity when I need to modify the audio, I only use free and open sourc&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1x5915u/mimicking_the_visual_style_of_kane_lynch_2/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1x58phi/another_minimax_h3_selective_character/</id><title>Another minimax H3 selective character replacement test</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x58phi/another_minimax_h3_selective_character/"/>
-<published>2026-10-13T21:04:03+00:00</published><updated>2026-10-13T21:04:03+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="minimax"/>
-<category term="lora"/>
-<summary>this is to test replacing a selective character on more difficult old grainy film footage. no post processing was done. using Ref2V int8 and 8 steps lora. No character swap lora used. rendered 0.7MP on a single 3090 agentic workflow to speed things up and QC. Obviously it’s a satire and joke to lear</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;this is to test replacing a selective character on more difficult old grainy film footage. no post processing was done. using Ref2V int8 and 8 steps lora. No character swap lora used. rendered 0.7MP on a single 3090 agentic workflow to speed things up and QC. Obviously it’s a satire and joke to learn so.. not intended to make copying or ripping off Michael Jackson IP. Thanks. submitted by /u/mexxmillion [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x58phi/another_minimax_h3_selective_character/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1x57kow/how_to_do_this_microphone_vfx_shot/</id><title>How to do this microphone VFX shot?</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1x57kow/how_to_do_this_microphone_vfx_shot/"/>
-<published>2026-10-13T20:18:59+00:00</published><updated>2026-10-13T20:18:59+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="vfx"/>
-<category term="render"/>
-<summary>Hey everyone- I'm a videographer/editor who is trying to learn 3D/VFX and integrate it into my videos. There's a lot of filmmakers that do a fantastic job of this and this is a clip of one that I'm a big fan of. Does anyone know how this was executed? Was it a 3D render of a macro shot of the mic bl</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 3 · vfx, render&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey everyone- I'm a videographer/editor who is trying to learn 3D/VFX and integrate it into my videos. There's a lot of filmmakers that do a fantastic job of this and this is a clip of one that I'm a big fan of. Does anyone know how this was executed? Was it a 3D render of a macro shot of the mic blended in with real footage? If I wanted to make something like this is it worth learning 3D? After Effects? Appreciate anyones feedback! submitted by /u/That-Boat-4441 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1x57kow/how_to_do_this_microphone_vfx_shot/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1x57hoa/h3_minimax_learning_excercise/</id><title>H3 minimax learning excercise</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x57hoa/h3_minimax_learning_excercise/"/>
-<published>2026-10-13T20:15:53+00:00</published><updated>2026-10-13T20:15:53+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="minimax"/>
-<summary>submitted by /u/Ill-Purchase-3312 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/Ill-Purchase-3312 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x57hoa/h3_minimax_learning_excercise/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1x57e98/modern_ps2_style_playstation_2_graphic_lora_for/</id><title>Modern PS2 Style (Playstation 2 Graphic lora for minimax h3)</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x57e98/modern_ps2_style_playstation_2_graphic_lora_for/"/>
-<published>2026-10-13T20:12:09+00:00</published><updated>2026-10-13T20:12:09+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="minimax"/>
-<category term="lora"/>
-<summary>this lora is for minimax h3 if you want to generate video to mimic playstation 2 graphic cutscenes. download: https://civitai.com/models/2983280/modern-ps2-style trigger word: modern ps2 style use 4:3 aspect ratio for immersive nostalgia. most datasets are from actual ps2 screenshots and mix with my</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;this lora is for minimax h3 if you want to generate video to mimic playstation 2 graphic cutscenes. download: https://civitai.com/models/2983280/modern-ps2-style trigger word: modern ps2 style use 4:3 aspect ratio for immersive nostalgia. most datasets are from actual ps2 screenshots and mix with my ps2 image lora. submitted by /u/aziib [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x57e98/modern_ps2_style_playstation_2_graphic_lora_for/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1x56ke0/noob_tip_pull_the_exact_comfyui_workflow_back_out/</id><title>Noob tip: pull the exact ComfyUI workflow back out of your old images</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x56ke0/noob_tip_pull_the_exact_comfyui_workflow_back_out/"/>
-<published>2026-10-13T19:40:53+00:00</published><updated>2026-10-13T19:40:53+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<summary>So I’ve only been messing around with Krea2 in ComfyUI for a little while, and I ran into the classic problem: I make an image I really like, then a week later I want the exact same settings back and have no clue what I did. Prompt, seed, sampler, all of it gone from my memory. Ended up asking Claud</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;So I’ve only been messing around with Krea2 in ComfyUI for a little while, and I ran into the classic problem: I make an image I really like, then a week later I want the exact same settings back and have no clue what I did. Prompt, seed, sampler, all of it gone from my memory. Ended up asking Claude to build me a prompt and workflow extractor that pulls the prompt and workflow out of my generated pictures. Now I just drop an image in, it spits out a .json, and I drag that into ComfyUI. Whole workflow is just there, exactly how I had it. Honestly thats changing everything for me!! Didn’t need any coding skills for it either, I just described what I wanted and went back and forth until it wor&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x56ke0/noob_tip_pull_the_exact_comfyui_workflow_back_out/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
