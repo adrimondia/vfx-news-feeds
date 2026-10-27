@@ -2,8 +2,268 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-27T03:30:34+00:00</updated>
+<updated>2026-10-27T05:30:21+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xgiqxl/comfyui_v0430/</id><title>ComfyUI v0.43.0</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xgiqxl/comfyui_v0430/"/>
+<published>2026-10-27T04:10:20+00:00</published><updated>2026-10-27T04:10:20+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="upscaler"/>
+<category term="comfyui"/>
+<category term="flux"/>
+<summary>model_prefetch: syncrhonize all graph cleanups Add rope scaling support to MOSS-image [Partner Nodes]: feat(HeyGen): add HeyGen Voice instant clone and text-to-speech feat(ClarityAI): add Crystal Video Upscaler node feat(BFL): add 2K/4K resolutions to FLUX 3 Max &amp; Video nodes FIBO 2.0 Image Generate</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · upscaler, comfyui, flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;model_prefetch: syncrhonize all graph cleanups Add rope scaling support to MOSS-image [Partner Nodes]: feat(HeyGen): add HeyGen Voice instant clone and text-to-speech feat(ClarityAI): add Crystal Video Upscaler node feat(BFL): add 2K/4K resolutions to FLUX 3 Max &amp;amp; Video nodes FIBO 2.0 Image Generate/Edit, Fabric 1.0, Lipsync 2.0, Mirelo SFX, Support MOSS-image color-depth control fix: correct top-p sampling threshold Apply single-head LoRAs to MiniMax-H3 PDD head banks Enable pytorch attention in the VAE on AMD Fuse and strip the Flux2 VAE through comfy-kitchen Add ACEScg to Convert Image Color Space and Save Image (Advanced) EXR (CORE-657) Add attention bias conditioning and image strength &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xgiqxl/comfyui_v0430/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2610.33069</id><title>Decentralized Multi-View, Multi-Zone Tracking for Scalable Camera Networks</title>
+<link rel="alternate" href="https://arxiv.org/abs/2610.33069"/>
+<published>2026-10-27T04:00:00+00:00</published><updated>2026-10-27T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="tracking"/>
+<category term="consistency"/>
+<category term="multi-view"/>
+<summary>arXiv:2610.33069v1 Announce Type: new Abstract: We present a decentralized multi-view tracking system for scalable camera networks. Single-view detections are projected to bird's-eye-view (BEV) coordinates and fused by independent multi-view trackers, each managing a dynamic spatial zone. To support</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · tracking, consistency, multi-view&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2610.33069v1 Announce Type: new Abstract: We present a decentralized multi-view tracking system for scalable camera networks. Single-view detections are projected to bird's-eye-view (BEV) coordinates and fused by independent multi-view trackers, each managing a dynamic spatial zone. To support scalability across spatially partitioned camera networks, we introduce a decentralized layer for trajectory unification, utilizing a locking protocol and periodic track-merging operations termed global collate. This process is supported by a delayed-output buffering mechanism that retroactively applies history corrections. The configurable delay window absorbs asynchronous coordination latency an&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2610.33069"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2610.33070</id><title>PhaseBreak: Proactive Temporal Protection against Unauthorized Image-to-Video Animation</title>
+<link rel="alternate" href="https://arxiv.org/abs/2610.33070"/>
+<published>2026-10-27T04:00:00+00:00</published><updated>2026-10-27T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="video diffusion"/>
+<category term="image-to-video"/>
+<category term="animation"/>
+<category term="denoiser"/>
+<summary>arXiv:2610.33070v1 Announce Type: new Abstract: Image-to-Video (I2V) diffusion models can animate a single portrait or photograph, enabling shared images to be repurposed for motion synthesis without the subject's authorization. We study proactive visual protection against such use: before an image </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 6 · video diffusion, image-to-video, animation, denoiser&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2610.33070v1 Announce Type: new Abstract: Image-to-Video (I2V) diffusion models can animate a single portrait or photograph, enabling shared images to be repurposed for motion synthesis without the subject's authorization. We study proactive visual protection against such use: before an image is released, its owner applies a bounded perturbation that preserves the sharing workflow but disrupts downstream motion generation. Existing spectral disruption objectives globally attenuate temporal representations and therefore provide limited control over subtle or spatially localized motion. Our key idea is that generated dynamics depend not only on temporal feature strength, but also on the &lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2610.33070"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2610.33135</id><title>WorldCast: World-Consistent Character Video Generation with Large-Angle Camera Control</title>
+<link rel="alternate" href="https://arxiv.org/abs/2610.33135"/>
+<published>2026-10-27T04:00:00+00:00</published><updated>2026-10-27T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="video generation"/>
+<category term="camera control"/>
+<category term="render"/>
+<category term="multi-view"/>
+<category term="point cloud"/>
+<category term="cinematic"/>
+<summary>arXiv:2610.33135v1 Announce Type: new Abstract: Precise camera control is essential for cinematic character video generation, yet existing methods struggle to follow large-angle trajectories with combined rotation, translation, and radius variation from arbitrary initial azimuths. Such viewpoint cha</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 8 · video generation, camera control, render, multi-view, point cloud, cinematic&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2610.33135v1 Announce Type: new Abstract: Precise camera control is essential for cinematic character video generation, yet existing methods struggle to follow large-angle trajectories with combined rotation, translation, and radius variation from arbitrary initial azimuths. Such viewpoint changes also reveal character regions unseen in the initial frame, causing geometric distortions, appearance degradation, and identity drift. To systematically study these coupled challenges, we introduce CLACT, a large-scale Character-centric dataset and benchmark covering diverse Large-Angle Camera Trajectories, with accurate camera geometry and multi-view character observations for training and ev&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2610.33135"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2610.34233</id><title>BoundedGS: Memory-Efficient High-Resolution Training for 3D Gaussian Splatting</title>
+<link rel="alternate" href="https://arxiv.org/abs/2610.34233"/>
+<published>2026-10-27T04:00:00+00:00</published><updated>2026-10-27T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="gaussian splatting"/>
+<category term="3d gaussian"/>
+<category term="rendering"/>
+<summary>arXiv:2610.34233v1 Announce Type: new Abstract: High-resolution 3D Gaussian Splatting training increases pixel and Gaussian-tile intersection counts, expanding rasterization caches that coexist with projection and gradient state at peak memory. A complete-view update aggregates gradients across the </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · gaussian splatting, 3d gaussian, rendering&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2610.34233v1 Announce Type: new Abstract: High-resolution 3D Gaussian Splatting training increases pixel and Gaussian-tile intersection counts, expanding rasterization caches that coexist with projection and gradient state at peak memory. A complete-view update aggregates gradients across the view; each region's forward and backward caches can be released after its contribution is collected. BoundedGS separates rasterization and projection backward passes and bounds the active local rasterization working set according to its measured load. Candidate-indexed projection and compact gradient storage address the view-level peaks exposed by this change, while CPU-assisted structure rebuildi&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2610.34233"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2610.34235</id><title>ParetoGS: High-Quality Continuous-Budget 3D Gaussian Splatting with Sparse Adapted Anchors</title>
+<link rel="alternate" href="https://arxiv.org/abs/2610.34235"/>
+<published>2026-10-27T04:00:00+00:00</published><updated>2026-10-27T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="gaussian splatting"/>
+<category term="3d gaussian"/>
+<category term="rendering"/>
+<summary>arXiv:2610.34235v1 Announce Type: new Abstract: Scalable 3D Gaussian Splatting allows one scene representation to serve different Gaussian-count budgets, yet its quality-budget curve may lag behind models optimized separately for each budget. Reducing the number of Gaussians changes both the selecte</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · gaussian splatting, 3d gaussian, rendering&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2610.34235v1 Announce Type: new Abstract: Scalable 3D Gaussian Splatting allows one scene representation to serve different Gaussian-count budgets, yet its quality-budget curve may lag behind models optimized separately for each budget. Reducing the number of Gaussians changes both the selected members and the reconstruction tasks carried by the survivors; parameters inherited from a high-budget model may fit a low-budget representation poorly. We propose ParetoGS, which describes member changes and parameter evolution with a small set of adapted budget anchors and decodes intermediate budgets without separate optimization at every requested count. ParetoGS alternates pruning and fixed&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2610.34235"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2610.34263</id><title>RacerGS: Residual-Autoregressive Context for 3D Gaussian Splatting Compression</title>
+<link rel="alternate" href="https://arxiv.org/abs/2610.34263"/>
+<published>2026-10-27T04:00:00+00:00</published><updated>2026-10-27T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="gaussian splatting"/>
+<category term="3d gaussian"/>
+<category term="rendering"/>
+<category term="consistency"/>
+<category term="scene reconstruction"/>
+<summary>arXiv:2610.34263v1 Announce Type: new Abstract: 3D Gaussian Splatting (3DGS) has emerged as a promising approach for fast, high-quality novel-view rendering. However, its large parameter size remains a bottleneck for storage and transmission. We propose RacerGS, a compact 3DGS compression framework </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 7 · gaussian splatting, 3d gaussian, rendering, consistency, scene reconstruction&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2610.34263v1 Announce Type: new Abstract: 3D Gaussian Splatting (3DGS) has emerged as a promising approach for fast, high-quality novel-view rendering. However, its large parameter size remains a bottleneck for storage and transmission. We propose RacerGS, a compact 3DGS compression framework that achieves scene reconstruction at significantly reduced storage sizes with preserved fidelity. To obtain compact and spatially coherent features, we design a hash projection model that projects the anchor hash encodings into compact context features. Additionally, we introduce a FiLM-modulated autoregressive GRU context model that utilizes causal dependencies among anchor feature groups and us&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2610.34263"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2610.34303</id><title>EditDistill: Is It Possible to Guide Video Editing with Image Editing?</title>
+<link rel="alternate" href="https://arxiv.org/abs/2610.34303"/>
+<published>2026-10-27T04:00:00+00:00</published><updated>2026-10-27T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="video diffusion"/>
+<category term="video editing"/>
+<category term="image editing"/>
+<category term="denoising"/>
+<category term="consistency"/>
+<summary>arXiv:2610.34303v1 Announce Type: new Abstract: Recent advances in image editing have enabled fine-grained and highly controllable visual modifications. However, achieving similar levels of controllability in video editing remains an open challenge, particularly for precise local edits, dynamic temp</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 7 · video diffusion, video editing, image editing, denoising, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2610.34303v1 Announce Type: new Abstract: Recent advances in image editing have enabled fine-grained and highly controllable visual modifications. However, achieving similar levels of controllability in video editing remains an open challenge, particularly for precise local edits, dynamic temporal effects, and consistent lighting across frames.In this paper, we propose EditDistill, a framework that distills image-level visual transformations from edits to guide video editing.Specifically, given a source video and an edit prompt, we first generate an edited version of the initial video frame using an off-the-shelf image editing model. We then distill the visual transformation of this or&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2610.34303"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2610.34344</id><title>Birth-Death Structural Learning for 3D Gaussian Splatting</title>
+<link rel="alternate" href="https://arxiv.org/abs/2610.34344"/>
+<published>2026-10-27T04:00:00+00:00</published><updated>2026-10-27T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="gaussian splatting"/>
+<category term="3d gaussian"/>
+<category term="multi-view"/>
+<category term="multiview"/>
+<summary>arXiv:2610.34344v1 Announce Type: new Abstract: 3D Gaussian Splatting (3DGS) has become a standard representation for real-time novel-view synthesis. Yet, its quality-efficiency trade-off still relies heavily on adaptive density control. Existing cloning, splitting, and pruning rules use proxy signa</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 6 · gaussian splatting, 3d gaussian, multi-view, multiview&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2610.34344v1 Announce Type: new Abstract: 3D Gaussian Splatting (3DGS) has become a standard representation for real-time novel-view synthesis. Yet, its quality-efficiency trade-off still relies heavily on adaptive density control. Existing cloning, splitting, and pruning rules use proxy signals, such as position gradients, opacity, and image-space error. Although effective in practice, these signals do not directly answer the structural question behind density control: where should new Gaussians be allocated to reduce the multi-view reconstruction loss, and which existing primitives can be pruned with minimal penalty. To address this, we propose first-variation birth-death control for&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2610.34344"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2610.34632</id><title>RIDE-Splat: Reflection Removal for In-the-Wild Driving Environments</title>
+<link rel="alternate" href="https://arxiv.org/abs/2610.34632"/>
+<published>2026-10-27T04:00:00+00:00</published><updated>2026-10-27T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="gaussian splatting"/>
+<category term="3d gaussian"/>
+<category term="3d reconstruction"/>
+<category term="rendering"/>
+<category term="consistency"/>
+<summary>arXiv:2610.34632v1 Announce Type: new Abstract: Driving video captured through a windshield violates the world-space consistency assumed by 3D Gaussian Splatting (3DGS): the road scene exhibits parallax while cabin reflections remain attached to the camera, causing standard 3DGS to embed reflected c</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · gaussian splatting, 3d gaussian, 3d reconstruction, rendering, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2610.34632v1 Announce Type: new Abstract: Driving video captured through a windshield violates the world-space consistency assumed by 3D Gaussian Splatting (3DGS): the road scene exhibits parallax while cabin reflections remain attached to the camera, causing standard 3DGS to embed reflected content into the reconstructed scene. We introduce RIDE-Splat, a pipeline for reflection-free 3D reconstruction from posed driving video without clean images, reflection masks, or pretrained networks. RIDE-Splat assigns world-consistent transmission through the windshield to a 3DGS scene and the dominant camera-attached reflection to one shared, signed RGB image. It builds the clean reconstruction &lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2610.34632"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2610.34845</id><title>PosePlaner: Denoising Any Feed-Forward Pose Predictor from Pairwise Planar Geometry</title>
+<link rel="alternate" href="https://arxiv.org/abs/2610.34845"/>
+<published>2026-10-27T04:00:00+00:00</published><updated>2026-10-27T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="3d reconstruction"/>
+<category term="pose estimation"/>
+<category term="denoising"/>
+<category term="multi-view"/>
+<category term="slam"/>
+<summary>arXiv:2610.34845v1 Announce Type: new Abstract: Recent multi-view Transformers (e.g., DUSt3R and VGGT) have advanced 3D reconstruction by scaling training data and model capacity from two views to many views and long sequences, subsuming the classical SfM/SLAM pipeline of feature extraction, matchin</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 6 · 3d reconstruction, pose estimation, denoising, multi-view, slam&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2610.34845v1 Announce Type: new Abstract: Recent multi-view Transformers (e.g., DUSt3R and VGGT) have advanced 3D reconstruction by scaling training data and model capacity from two views to many views and long sequences, subsuming the classical SfM/SLAM pipeline of feature extraction, matching, and pose estimation in a single feed-forward pass. Yet this subsumption hides the interfaces between pipeline stages---correspondences, geometry, and pose are entangled in a single forward pass, leaving supervised fine-tuning as the major path to improvement and offering no mechanism to correct predictions from geometric evidence at test time. We propose PosePlaner to close this gap by reviving&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2610.34845"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2610.35361</id><title>SG-Splat: Stable Geometry Learning under Pose Uncertainty for Pose-Free 3D Gaussian Splatting</title>
+<link rel="alternate" href="https://arxiv.org/abs/2610.35361"/>
+<published>2026-10-27T04:00:00+00:00</published><updated>2026-10-27T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="novel view synthesis"/>
+<category term="gaussian splatting"/>
+<category term="3d gaussian"/>
+<category term="pose estimation"/>
+<category term="scene reconstruction"/>
+<summary>arXiv:2610.35361v1 Announce Type: new Abstract: 3D Gaussian Splatting (3DGS) has become a promising representation for real-time novel view synthesis and 3D scene reconstruction. For practical deployment, recent studies have explored pose-free feed-forward 3DGS, which reconstructs Gaussian represent</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 7 · novel view synthesis, gaussian splatting, 3d gaussian, pose estimation, scene reconstruction&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2610.35361v1 Announce Type: new Abstract: 3D Gaussian Splatting (3DGS) has become a promising representation for real-time novel view synthesis and 3D scene reconstruction. For practical deployment, recent studies have explored pose-free feed-forward 3DGS, which reconstructs Gaussian representations directly from unposed input images. However, these methods remain sensitive to residual pose errors, which perturb canonical-space Gaussian transformation, introducing noisy supervision for geometry and attribute learning. To address this problem, we present SG-Splat, a pose-free feed-forward 3DGS framework that improves robustness to pose uncertainty and stabilizes the learning of Gaussian&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2610.35361"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2610.35684</id><title>OmniShowcase: Omnidirectional Subject-Consistent Video Generation from Multi-View Images</title>
+<link rel="alternate" href="https://arxiv.org/abs/2610.35684"/>
+<published>2026-10-27T04:00:00+00:00</published><updated>2026-10-27T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="video generation"/>
+<category term="video model"/>
+<category term="render"/>
+<category term="consistency"/>
+<category term="multi-view"/>
+<summary>arXiv:2610.35684v1 Announce Type: new Abstract: Generating videos of a specific subject from a few reference images remains challenging when the camera reveals surfaces that are not visible in the input. Early subject-to-video (S2V) methods condition on a single reference image and must therefore in</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 7 · video generation, video model, render, consistency, multi-view&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2610.35684v1 Announce Type: new Abstract: Generating videos of a specific subject from a few reference images remains challenging when the camera reveals surfaces that are not visible in the input. Early subject-to-video (S2V) methods condition on a single reference image and must therefore infer the subject's unseen appearance and geometry as the viewpoint changes. To address this limitation, recent methods extend S2V to multiple reference views, providing more information about the subject from different viewpoints. However, they do not explicitly specify the 3D structure that connects these observations. In addition, existing training data do not guarantee that viewpoint changes pre&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2610.35684"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2610.35756</id><title>VidEdit3D: Flexible 3D Gaussian Editing with Video Diffusion</title>
+<link rel="alternate" href="https://arxiv.org/abs/2610.35756"/>
+<published>2026-10-27T04:00:00+00:00</published><updated>2026-10-27T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="video diffusion"/>
+<category term="gaussian splatting"/>
+<category term="3d gaussian"/>
+<category term="video editing"/>
+<category term="rendering"/>
+<category term="consistency"/>
+<category term="multi-view"/>
+<summary>arXiv:2610.35756v1 Announce Type: new Abstract: Recent advancements in text-guided 3D editing, particularly with 3D Gaussian Splatting (3DGS), have shown promise but still lag behind the flexibility of 2D editing tools. Existing methods face a critical trade-off between preserving multi-view consist</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 9 · video diffusion, gaussian splatting, 3d gaussian, video editing, rendering, consistency, multi-view&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2610.35756v1 Announce Type: new Abstract: Recent advancements in text-guided 3D editing, particularly with 3D Gaussian Splatting (3DGS), have shown promise but still lag behind the flexibility of 2D editing tools. Existing methods face a critical trade-off between preserving multi-view consistency and allowing structural modifications. Image-based editors can also struggle to apply the intended edit to objects viewed from unusual angles. To address these limitations, we introduce VidEdit3D, a framework that reformulates 3D scene editing as a trajectory-based video editing task. By drawing a parallel between camera movement in static 3D scenes and temporal dynamics in video, we leverage&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2610.35756"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2610.35854</id><title>FL4N: Feed-forward Latent Model for 4D Novel View Synthesis</title>
+<link rel="alternate" href="https://arxiv.org/abs/2610.35854"/>
+<published>2026-10-27T04:00:00+00:00</published><updated>2026-10-27T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="novel view synthesis"/>
+<category term="4d"/>
+<category term="render"/>
+<category term="rendering"/>
+<summary>arXiv:2610.35854v1 Announce Type: new Abstract: 4D novel view synthesis (NVS) aims to render dynamic scenes across viewpoints and timestamps, which requires jointly inferring 3D structure and temporal dynamics. Existing monocular feed-forward methods often rely on explicit 4D Gaussian representation</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 6 · novel view synthesis, 4d, render, rendering&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2610.35854v1 Announce Type: new Abstract: 4D novel view synthesis (NVS) aims to render dynamic scenes across viewpoints and timestamps, which requires jointly inferring 3D structure and temporal dynamics. Existing monocular feed-forward methods often rely on explicit 4D Gaussian representations, which are prone to temporal inconsistency and severe rendering artifacts. We present FL4N, the first feed-forward latent 4D NVS model. Instead of relying on explicit 4D primitives, FL4N encodes a 4D scene prior into a unified latent representation across space and time. Our core insight is that learning temporal dynamics as residuals on top of a pretrained static latent prior enables effective &lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2610.35854"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2510.18714</id><title>PLANA3R: Zero-shot Metric Planar 3D Reconstruction via Feed-Forward Planar Splatting</title>
+<link rel="alternate" href="https://arxiv.org/abs/2510.18714"/>
+<published>2026-10-27T04:00:00+00:00</published><updated>2026-10-27T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="3d reconstruction"/>
+<category term="segmentation"/>
+<category term="depth estimation"/>
+<category term="pose estimation"/>
+<category term="stereo"/>
+<summary>arXiv:2510.18714v3 Announce Type: replace Abstract: This paper addresses metric 3D reconstruction of indoor scenes by exploiting their inherent geometric regularities with compact representations. Using planar 3D primitives - a well-suited representation for man-made environments - we introduce PLAN</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 6 · 3d reconstruction, segmentation, depth estimation, pose estimation, stereo&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2510.18714v3 Announce Type: replace Abstract: This paper addresses metric 3D reconstruction of indoor scenes by exploiting their inherent geometric regularities with compact representations. Using planar 3D primitives - a well-suited representation for man-made environments - we introduce PLANA3R, a pose-free framework for metric Planar 3D Reconstruction from unposed two-view images. Our approach employs Vision Transformers to extract a set of sparse planar primitives, estimate relative camera poses, and supervise geometry learning via planar splatting, where gradients are propagated through high-resolution rendered depth and normal maps of primitives. Unlike prior feedforward methods &lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2510.18714"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2511.18991</id><title>Do View-Consistent Representations Matter for Camera-Controlled Video Generation?</title>
+<link rel="alternate" href="https://arxiv.org/abs/2511.18991"/>
+<published>2026-10-27T04:00:00+00:00</published><updated>2026-10-27T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="video generation"/>
+<category term="text-to-video"/>
+<category term="image-to-video"/>
+<category term="consistency"/>
+<category term="multi-view"/>
+<summary>arXiv:2511.18991v2 Announce Type: replace Abstract: Camera-controlled video generation has attracted increasing interest for its applications in simulation, gaming, and world modeling. However, current models often deform rigid objects and scene structure as the viewpoint changes. We investigate whe</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 6 · video generation, text-to-video, image-to-video, consistency, multi-view&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2511.18991v2 Announce Type: replace Abstract: Camera-controlled video generation has attracted increasing interest for its applications in simulation, gaming, and world modeling. However, current models often deform rigid objects and scene structure as the viewpoint changes. We investigate whether this failure is related to a measurable internal property: the view consistency of diffusion representations. Across a diverse collection of camera-controlled image-to-video diffusion models, we find that models exhibiting more view-consistent representations generate videos with superior 3D consistency. We complement this correlation-based evidence with a within-model controlled intervention&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2511.18991"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2511.22459</id><title>Gaussians on Fire: High-Frequency Reconstruction of Flames</title>
+<link rel="alternate" href="https://arxiv.org/abs/2511.22459"/>
+<published>2026-10-27T04:00:00+00:00</published><updated>2026-10-27T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="3d gaussian"/>
+<category term="monocular depth"/>
+<category term="optical flow"/>
+<category term="multi-view"/>
+<category term="stereo"/>
+<summary>arXiv:2511.22459v3 Announce Type: replace Abstract: We propose a method to reconstruct dynamic fire in 3D from a limited set of camera views with a Gaussian-based spatiotemporal representation. Capturing and reconstructing fire and its dynamics is highly challenging due to its volatile nature, trans</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · 3d gaussian, monocular depth, optical flow, multi-view, stereo&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2511.22459v3 Announce Type: replace Abstract: We propose a method to reconstruct dynamic fire in 3D from a limited set of camera views with a Gaussian-based spatiotemporal representation. Capturing and reconstructing fire and its dynamics is highly challenging due to its volatile nature, transparent quality, and multitude of high-frequency features. Despite these challenges, we aim to reconstruct fire from only three views, which consequently requires solving for under-constrained geometry. We solve this by separating the static background from the dynamic fire region by combining dense multi-view stereo images with monocular depth priors. The fire is initialized as a 3D flow field, ob&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2511.22459"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2601.19128</id><title>Resolving Primitive-Sharing Ambiguity in Long-Tailed TLS-Based Industrial MEP Point Cloud Segmentation via Spatial Context Constraints</title>
+<link rel="alternate" href="https://arxiv.org/abs/2601.19128"/>
+<published>2026-10-27T04:00:00+00:00</published><updated>2026-10-27T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="segmentation"/>
+<category term="consistency"/>
+<category term="point cloud"/>
+<summary>arXiv:2601.19128v3 Announce Type: replace Abstract: In terrestrial laser scanning (TLS)-based mechanical, electrical, and plumbing (MEP) point cloud segmentation, safety-critical components such as reducers and valves are persistently misclassified, blocking reliable engineering knowledge extraction</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · segmentation, consistency, point cloud&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2601.19128v3 Announce Type: replace Abstract: In terrestrial laser scanning (TLS)-based mechanical, electrical, and plumbing (MEP) point cloud segmentation, safety-critical components such as reducers and valves are persistently misclassified, blocking reliable engineering knowledge extraction. This stems from a dual crisis--extreme class imbalance (215:1) compounded by geometric ambiguity, since most tail classes share cylindrical primitives with dominant head classes--that existing frequency-based re-weighting methods cannot resolve. We propose spatial context constraints that exploit neighborhood prediction consistency to disambiguate locally similar structures. Our approach extends&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2601.19128"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2610.34223</id><title>Single Camera based Simulation and Try-on Ready Avatar Modeling</title>
+<link rel="alternate" href="https://arxiv.org/abs/2610.34223"/>
+<published>2026-10-27T04:00:00+00:00</published><updated>2026-10-27T04:00:00+00:00</updated>
+<author><name>arXiv cs.GR</name></author>
+<category term="avatar"/>
+<category term="animation"/>
+<category term="rendering"/>
+<category term="consistency"/>
+<category term="multi-view"/>
+<summary>arXiv:2610.34223v1 Announce Type: new Abstract: Reconstructing and rendering high-fidelity, animatable, and try-on-ready virtual avatars using only a single camera is crucial for many applications. However, existing try-on-ready human avatar reconstruction methods struggle to achieve this from monoc</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.GR · score 6 · avatar, animation, rendering, consistency, multi-view&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2610.34223v1 Announce Type: new Abstract: Reconstructing and rendering high-fidelity, animatable, and try-on-ready virtual avatars using only a single camera is crucial for many applications. However, existing try-on-ready human avatar reconstruction methods struggle to achieve this from monocular videos or single images, primarily due to two issues: (1) existing approaches typically use a single layer to represent both garments and the underlying body, ignoring their distinct motion characteristics; and (2) input captured from a single camera often fails to fully cover both the garments and the underlying body. To address these challenges, we propose a physically integrated, double-la&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2610.34223"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2610.35224</id><title>GaussianSpline: Adaptive B\'ezier Splines for Highly Dynamic 4D Gaussian Splatting</title>
+<link rel="alternate" href="https://arxiv.org/abs/2610.35224"/>
+<published>2026-10-27T04:00:00+00:00</published><updated>2026-10-27T04:00:00+00:00</updated>
+<author><name>arXiv cs.GR</name></author>
+<category term="gaussian splatting"/>
+<category term="4d"/>
+<summary>arXiv:2610.35224v1 Announce Type: new Abstract: We present GaussianSpline, a dynamic 4D Gaussian Splatting method that models per-Gaussian motion using adaptive, non-uniform piecewise cubic B\'ezier splines. Unlike approaches based on global deformations, fixed-order polynomials, or uniformly parame</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.GR · score 4 · gaussian splatting, 4d&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2610.35224v1 Announce Type: new Abstract: We present GaussianSpline, a dynamic 4D Gaussian Splatting method that models per-Gaussian motion using adaptive, non-uniform piecewise cubic B\'ezier splines. Unlike approaches based on global deformations, fixed-order polynomials, or uniformly parameterized splines, GaussianSpline jointly learns the B\'ezier control points and the temporal partition of each Gaussian's trajectory. This adaptive representation allocates greater temporal capacity to highly dynamic regions while maintaining compact trajectories for near-static regions, enabling high-fidelity reconstruction of complex and rapidly changing motion. To jointly achieve globally smooth&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2610.35224"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xgf9g6/former_animator_looking_for_advice_on_getting/</id><title>Former animator looking for advice on getting started with local AI anime workflows</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xgf9g6/former_animator_looking_for_advice_on_getting/"/>
@@ -7305,15 +7565,5 @@
 <category term="comfyui"/>
 <summary>https://preview.redd.it/hffjtj98h6vh1.png?width=1251&amp;format=png&amp;auto=webp&amp;s=06a1811fe0a2f47e35d5ba25891d2ea63c1b6246 Hi everyone! I’ve released Krea2 Character Catalog v0.9 , a free local catalog for exploring character and style samples generated using Krea2 Turbo in ComfyUI . It includes: 3,809 ch</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;https://preview.redd.it/hffjtj98h6vh1.png?width=1251&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=06a1811fe0a2f47e35d5ba25891d2ea63c1b6246 Hi everyone! I’ve released Krea2 Character Catalog v0.9 , a free local catalog for exploring character and style samples generated using Krea2 Turbo in ComfyUI . It includes: 3,809 character samples and 110 style samples Search and filtering by character name, copyright, and tags Easy copying of reusable Krea2 prompts and original tags A local Editor for adding your own images and editing entry information Sample ComfyUI workflows for generation and regeneration English and Japanese interfaces, with English as the default The release also includes separate accepted and rejecte&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x4p3ot/free_krea2_character_style_catalog_v09_3919/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1x4nrmo/how_do_i_completely_uninstall_comfyui_desktop_so/</id><title>How do I completely uninstall comfyui Desktop so I can use portable?</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x4nrmo/how_do_i_completely_uninstall_comfyui_desktop_so/"/>
-<published>2026-10-13T04:55:50+00:00</published><updated>2026-10-13T04:55:50+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="stable diffusion"/>
-<summary>From what I can tell, whenever there's an issue people say to just go to portable. I'm currently using comfyui Desktop which apparently has a lot of dependencies and system env set up so that it's quite fragile. If I want to simply go back to portable would I just uninstall comfyui Desktop and run t</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · comfyui, stable diffusion&lt;/small&gt;&lt;/p&gt;&lt;p&gt;From what I can tell, whenever there's an issue people say to just go to portable. I'm currently using comfyui Desktop which apparently has a lot of dependencies and system env set up so that it's quite fragile. If I want to simply go back to portable would I just uninstall comfyui Desktop and run the portable? Or are there multiple things I need to uninstall and edit before I can do that? I remember I had a similar issue with stable diffusion A1111 where uninstalling it broke some system variables or something. Also I can back up my model folder, but is there anything else I need to keep? submitted by /u/ApplicationRoyal865 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x4nrmo/how_do_i_completely_uninstall_comfyui_desktop_so/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
