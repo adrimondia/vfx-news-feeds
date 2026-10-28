@@ -2,8 +2,28 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-28T17:30:56+00:00</updated>
+<updated>2026-10-28T19:30:43+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xhwplb/retro_anime_style_lora_for_moss/</id><title>Retro Anime Style LoRA for MOSS</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xhwplb/retro_anime_style_lora_for_moss/"/>
+<published>2026-10-28T18:44:42+00:00</published><updated>2026-10-28T18:44:42+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="animation"/>
+<category term="lora"/>
+<summary>I’ve been a big fan of old-school anime (think 80s/90s OVAs, grainy cel animation, soft pastel palettes, hand-painted backgrounds), so I trained a LoRA to capture that look. You can experiment with character portraits, everyday activities, different outfits, atmospheric environments, and much more. </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · animation, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I’ve been a big fan of old-school anime (think 80s/90s OVAs, grainy cel animation, soft pastel palettes, hand-painted backgrounds), so I trained a LoRA to capture that look. You can experiment with character portraits, everyday activities, different outfits, atmospheric environments, and much more. What it does: Classic cel-shaded characters with that vintage, slightly faded color palette Film grain, soft lighting, and hand-painted background vibes Works well for portraits, city scenes, and nostalgic “lost episode” style shots Recommended settings: Weight: 0.7 - 1.0 Trigger word: retro anime style illustration 🔗 Download - https://civitai.red/models/1970260/retro-anime-style submitted by /u/&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xhwplb/retro_anime_style_lora_for_moss/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xhrif9/for_me_the_use_of_minimax_h3_is_to_animate_dd/</id><title>For me, the use of Minimax H3 is to animate D&amp;D sessions from our campaign</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xhrif9/for_me_the_use_of_minimax_h3_is_to_animate_dd/"/>
+<published>2026-10-28T15:39:26+00:00</published><updated>2026-10-28T15:39:26+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="minimax"/>
+<category term="seedance"/>
+<summary>I've waited a long time, but now it's possible to do it. The thing is that those clips don't have to be perfect (and they are definitely not), but it's enough to be able to present a coherent story that played out at the table. I was able to do it with Seedance, but the cost was too big to try to ma</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · minimax, seedance&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I've waited a long time, but now it's possible to do it. The thing is that those clips don't have to be perfect (and they are definitely not), but it's enough to be able to present a coherent story that played out at the table. I was able to do it with Seedance, but the cost was too big to try to make something more then a single 15 second scene for each character. Minimax allows to replay longer scenes, which is fantastic for me. Unfortunately nothing very complicated was used to generate it, pretty standard Ref2va workflow, with a lot of references. This sample video suffers from video degradation in some parts, but it's fixable. submitted by /u/Impossiblebearclaw [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xhrif9/for_me_the_use_of_minimax_h3_is_to_animate_dd/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xhr1ak/im_vibe_coding_an_image_video_audio_generation/</id><title>I'm vibe coding an image + video + audio generation app with comfyui backend</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xhr1ak/im_vibe_coding_an_image_video_audio_generation/"/>
@@ -6986,50 +7006,5 @@
 <category term="lora"/>
 <summary>If you've chained H3 clips into a longer video, you've probably seen it: every continuation copies the last clip's flaws and adds a few more. By clip 5–10, faces look crunchy, etched and over-sharpened. I spent the last few weeks (with a community compute grant) training a LoRA that fixes this. You </summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;If you've chained H3 clips into a longer video, you've probably seen it: every continuation copies the last clip's flaws and adds a few more. By clip 5–10, faces look crunchy, etched and over-sharpened. I spent the last few weeks (with a community compute grant) training a LoRA that fixes this. You load it on your continuation clips only, not the first one, and they stay close to the look of clip 1. Results over ~37 s chains (face texture change, clip 1 → clip 10): lightx2v 8-step: +44% → 0% HyperFlow: +25% → −1% a model it was never trained on: +61% → +4% Larry Turbo: +261% → −5% (it can soften the image on heavy burners like this) How to use: LoraLoaderModelOnly on the model for your conti&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x61nxx/lora_to_reduce_burned_look_when_chaining_h3_turbo/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1x608az/ltx_25_vs_h3_minimax_short_story_test/</id><title>Ltx 2.5 VS H3 minimax Short story test</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x608az/ltx_25_vs_h3_minimax_short_story_test/"/>
-<published>2026-10-14T19:12:34+00:00</published><updated>2026-10-14T19:12:34+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="minimax"/>
-<category term="ltx"/>
-<summary>submitted by /u/Numerous_Access_8008 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · minimax, ltx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/Numerous_Access_8008 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x608az/ltx_25_vs_h3_minimax_short_story_test/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1x5z65i/hardware_makes_making_atlases_incredibly_difficult/</id><title>Hardware makes making atlases incredibly difficult</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1x5z65i/hardware_makes_making_atlases_incredibly_difficult/"/>
-<published>2026-10-14T18:32:57+00:00</published><updated>2026-10-14T18:32:57+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="smoke"/>
-<category term="vfx"/>
-<category term="rendering"/>
-<category term="houdini"/>
-<category term="blender"/>
-<summary>I have a GT 1030 (DDR4 variant) and am working on a 40v40 war game. The biggest problem is VFX. There are only a handful of high quality flame/smoke/explosion textures online, and it ends there. I looked into how games actually get their atlases and they don't rely on "realistic fire flipbook" onlin</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 5 · smoke, vfx, rendering, houdini, blender&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I have a GT 1030 (DDR4 variant) and am working on a 40v40 war game. The biggest problem is VFX. There are only a handful of high quality flame/smoke/explosion textures online, and it ends there. I looked into how games actually get their atlases and they don't rely on "realistic fire flipbook" online every time, they make it with EmberGen or Houdini/Blender whatever. The problem is my hardware, it makes doing it so incredibly difficult, and because of it my VFX looks like absolute garbage. What even are my options anymore? Should I just bite it and spend extra time rendering since it'll only be done once? (I really hate how long it takes, but that seems like the only option) If it is, I'll d&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1x5z65i/hardware_makes_making_atlases_incredibly_difficult/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1x5ydzc/is_12gb_enough_for_minimax_h3_with_latest_comfyui/</id><title>Is 12GB enough for minimax h3 (with latest comfyUI improvements fast-disk, dynamic-vram)</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x5ydzc/is_12gb_enough_for_minimax_h3_with_latest_comfyui/"/>
-<published>2026-10-14T18:03:50+00:00</published><updated>2026-10-14T18:03:50+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="minimax"/>
-<summary>Is 12GB “enough for everyone” now? Can you check your peak VRAM, while using those comfy options? Also, check the megabytes per second, being read from your NVME (in Task Manager or Gnome Resource Monitor) submitted by /u/rguerraf [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Is 12GB “enough for everyone” now? Can you check your peak VRAM, while using those comfy options? Also, check the megabytes per second, being read from your NVME (in Task Manager or Gnome Resource Monitor) submitted by /u/rguerraf [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x5ydzc/is_12gb_enough_for_minimax_h3_with_latest_comfyui/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1x5ybn1/how_do_you_get_ai_video_to_look_like_casual_phone/</id><title>How do you get AI video to look like casual phone footage instead of a cinematic shot?</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x5ybn1/how_do_you_get_ai_video_to_look_like_casual_phone/"/>
-<published>2026-10-14T18:01:29+00:00</published><updated>2026-10-14T18:01:29+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="minimax"/>
-<category term="lora"/>
-<category term="ai video"/>
-<category term="cinematic"/>
-<summary>I’m using self-hosted MiniMax H3 to make a video that looks like someone filming a product they bought, sitting on their desk. Just an ordinary phone recording with subtle handheld movement. Whatever I prompt, it keeps adding cinematic zooms and camera moves. I’ve tried smartphone/handheld descripti</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 6 · minimax, lora, ai video, cinematic&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I’m using self-hosted MiniMax H3 to make a video that looks like someone filming a product they bought, sitting on their desk. Just an ordinary phone recording with subtle handheld movement. Whatever I prompt, it keeps adding cinematic zooms and camera moves. I’ve tried smartphone/handheld descriptions and tested with and without a realism LoRA, but it still feels overly polished and artificial. How are you getting convincing casual phone footage? Is it mostly the model, prompting, reference image, or settings? Would love to see workflows that work. submitted by /u/Naar0x [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x5ybn1/how_do_you_get_ai_video_to_look_like_casual_phone/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
