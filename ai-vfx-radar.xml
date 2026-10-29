@@ -2,8 +2,53 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-29T11:31:17+00:00</updated>
+<updated>2026-10-29T13:30:43+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xijlg2/comfyui_inside_effectcraft_storyboard_and_markers/</id><title>ComfyUI inside EffectCraft: storyboard and markers on the timeline (open source)</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xijlg2/comfyui_inside_effectcraft_storyboard_and_markers/"/>
+<published>2026-10-29T13:12:25+00:00</published><updated>2026-10-29T13:12:25+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<category term="wan"/>
+<category term="minimax"/>
+<category term="storyboard"/>
+<summary>I made a panel that runs ComfyUI from inside EffectCraft, the open source compositor. Placeholders or markers on the timeline, each with its own workflow and prompt. The panel reads the workflows saved in your ComfyUI, turns them into forms, fills size, length and fps from the comp, and puts the res</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 6 · comfyui, wan, minimax, storyboard&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I made a panel that runs ComfyUI from inside EffectCraft, the open source compositor. Placeholders or markers on the timeline, each with its own workflow and prompt. The panel reads the workflows saved in your ComfyUI, turns them into forms, fills size, length and fps from the comp, and puts the results back as new layers with versions kept. Local or Comfy Cloud. The workflows are in the repo, in the workflows/ folder. Presets, all open weights: the shot between two clips (MiniMax H3 or Wan 2.2), reframe with Wan 2.1 VACE, upscale with SeedVR2, cut out with SAM 3, extend with LTX-2.5, slow motion with RIFE or FILM. Code (GPL-3.0): https://github.com/HomoLapis/justae-flow Demo on YouTube: htt&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xijlg2/comfyui_inside_effectcraft_storyboard_and_markers/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xij8g6/what_else_do_you_save_with_a_comfyui_workflow/</id><title>What else do you save with a ComfyUI workflow?</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xij8g6/what_else_do_you_save_with_a_comfyui_workflow/"/>
+<published>2026-10-29T12:57:13+00:00</published><updated>2026-10-29T12:57:13+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<category term="flux"/>
+<summary>Saving the workflow JSON is only part of getting a ComfyUI session back. The graph can load successfully while pointing to missing weights or different custom-node code. Besides the JSON, I usually keep track of the model filenames and hashes (including the VAE and text encoders), custom-node repos </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · comfyui, flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Saving the workflow JSON is only part of getting a ComfyUI session back. The graph can load successfully while pointing to missing weights or different custom-node code. Besides the JSON, I usually keep track of the model filenames and hashes (including the VAE and text encoders), custom-node repos and versions, seed, sampler, scheduler, steps, image size, batch size, and any input assets the workflow depends on. I tried Glows. ai and quite like it. Its preconfigured ComfyUI/FLUX.1-Kontext image makes spinning up a fresh environment straightforward, and having a cloud GPU environment can make reproducibility easier than rebuilding everything locally from scratch. I've also seen people use si&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xij8g6/what_else_do_you_save_with_a_comfyui_workflow/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xij3ev/i_made_a_filmmaking_app_with_easy_character/</id><title>I made a filmmaking app with easy character creation and a cinematic video studio using ComfyUI</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xij3ev/i_made_a_filmmaking_app_with_easy_character/"/>
+<published>2026-10-29T12:50:58+00:00</published><updated>2026-10-29T12:50:58+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<category term="minimax"/>
+<category term="filmmaking"/>
+<category term="cinematic"/>
+<summary>Demo video on YouTube. Director’s Cut is a fully open-source app for ComfyUI with preset-based character creation and a video studio. It uses Qwen-Image 2.1 for image generation and editing, MiniMax H3 with an OmniRef option for video, optional SelfLift for faster generation, and Qwen 3.5 for in-app</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 7 · comfyui, minimax, filmmaking, cinematic&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Demo video on YouTube. Director’s Cut is a fully open-source app for ComfyUI with preset-based character creation and a video studio. It uses Qwen-Image 2.1 for image generation and editing, MiniMax H3 with an OmniRef option for video, optional SelfLift for faster generation, and Qwen 3.5 for in-app prompt enhancement. It also includes an MCP server with tools and prompt guides for compatible AI assistants. Download it here submitted by /u/oLeonardoFrito [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xij3ev/i_made_a_filmmaking_app_with_easy_character/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xii7s4/visual_anagrams_in_comfyui_with_krea_2_a_small/</id><title>Visual anagrams in ComfyUI with Krea 2: a small guider node (one image, two readings when you rotate it)</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xii7s4/visual_anagrams_in_comfyui_with_krea_2_a_small/"/>
+<published>2026-10-29T12:09:59+00:00</published><updated>2026-10-29T12:09:59+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="smoke"/>
+<category term="comfyui"/>
+<category term="lora"/>
+<summary>I made a small custom node to generate **visual anagrams** in ComfyUI: images that read as one thing upright and as something else when you rotate or flip them. Here are three made with **Krea 2** (both Turbo and Raw + turbo LoRA), rotated 180°: chimney smoke ↔ a face, an old man ↔ a landscape, and </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · smoke, comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I made a small custom node to generate **visual anagrams** in ComfyUI: images that read as one thing upright and as something else when you rotate or flip them. Here are three made with **Krea 2** (both Turbo and Raw + turbo LoRA), rotated 180°: chimney smoke ↔ a face, an old man ↔ a landscape, and a dog with two faces. **Repo:** https://github.com/BRRK-1312/ComfyUI-Anagrama ### How it works It's based on [Visual Anagrams (Geng, Park &amp;amp; Owens, CVPR 2024)]( https://dangeng.github.io/visual\_anagrams/ ). The node is a **guider** for `SamplerCustomAdvanced`. At every step it runs prompt A on the latent as-is and prompt B on the transformed latent, then undoes the transform on the second predicti&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xii7s4/visual_anagrams_in_comfyui_with_krea_2_a_small/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/vfx/comments/1xigoem/feasibility_of_using_unreal_engine_5_for_crowds/</id><title>Feasibility of using Unreal Engine 5 for crowds and how realistic can you get it</title>
 <link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xigoem/feasibility_of_using_unreal_engine_5_for_crowds/"/>
@@ -17,6 +62,30 @@
 <category term="unreal engine"/>
 <summary>Firstly I am sorry for the title, I could not find a way to concisely articulate my question but if you read the body you will have a better understanding. So my Thesis will be coming up soon and I want to do a zombie project for it I have been learning CGI and 3d softwares since I was 9 (26 now) so</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 8 · render, nuke, houdini, blender, unreal, unreal engine&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Firstly I am sorry for the title, I could not find a way to concisely articulate my question but if you read the body you will have a better understanding. So my Thesis will be coming up soon and I want to do a zombie project for it I have been learning CGI and 3d softwares since I was 9 (26 now) so I have become pretty decent with Blender, Houdini, Nuke and Resolve. This covers most of bases for what I want to do I was thinking of having scenes with large crowds to depict a greater threat and I wanted to know to what extent can Unreal Engine be utilized for this? I dont have any experience with Unreal Engine only Unity. My Idea was to tier the crowds where the further crowds that dont need &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xigoem/feasibility_of_using_unreal_engine_5_for_crowds/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xievsa/terraformer_design_a_city_get_a_dressed_unreal/</id><title>Terraformer: design a city, get a dressed Unreal Engine level, powered by ComfyUI + open weights only (#OpenSourceHiggsfield)</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xievsa/terraformer_design_a_city_get_a_dressed_unreal/"/>
+<published>2026-10-29T09:06:29+00:00</published><updated>2026-10-29T09:06:29+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<category term="blender"/>
+<category term="unreal"/>
+<category term="unreal engine"/>
+<category term="flux"/>
+<summary>My entry for the Open Source Higgsfield challenge. Terraformer lets you design a city and turns it into a dressed Unreal Engine 5 level. You set the design: - City shape from 20 layout presets (walls, districts, hubs, highways) and 8 terrain presets, or describe the terrain in plain words - Rules fo</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 8 · comfyui, blender, unreal, unreal engine, flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;My entry for the Open Source Higgsfield challenge. Terraformer lets you design a city and turns it into a dressed Unreal Engine 5 level. You set the design: - City shape from 20 layout presets (walls, districts, hubs, highways) and 8 terrain presets, or describe the terrain in plain words - Rules for building types, density, street pattern, green space and waterfront, keeping what you like and rerolling the rest - A style for the whole city - Edit the greybox in Blender if you want; the app reads your changes back The tool does the building: - Blender builds the greybox from your layout - Each shot camera renders depth, canny and ID passes - ComfyUI (through the official Comfy SDK) turns tho&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xievsa/terraformer_design_a_city_get_a_dressed_unreal/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xidflv/i_made_a_fake_lost_1980s_anime_episode_with/</id><title>I made a fake “lost” 1980s anime episode with Comfyui cloud (Krea 2 + MiniMax H3 + Seedance 2.5)</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xidflv/i_made_a_fake_lost_1980s_anime_episode_with/"/>
+<published>2026-10-29T07:33:29+00:00</published><updated>2026-10-29T07:33:29+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<category term="minimax"/>
+<category term="seedance"/>
+<summary>submitted by /u/sneakpik [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 6 · comfyui, minimax, seedance&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/sneakpik [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xidflv/i_made_a_fake_lost_1980s_anime_episode_with/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://github.com/shitagaki-lab/see-through</id><title>shitagaki-lab/see-through</title>
@@ -6973,71 +7042,5 @@
 <category term="comfyui"/>
 <summary>Since the last update, 0.40.0, it's been buggy as hell! ComfUI is unusable; the interface is glitching, with duplicate images within the interface itself, and it's impossible to navigate! I did a quick search with ChatGPT, and it tells me there's a problem with the custom node Impact Pack, the laten</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Since the last update, 0.40.0, it's been buggy as hell! ComfUI is unusable; the interface is glitching, with duplicate images within the interface itself, and it's impossible to navigate! I did a quick search with ChatGPT, and it tells me there's a problem with the custom node Impact Pack, the latent Switch node, and something else... For your information, I'm on a Mac M1 Ultra and I'm using ComfUI Desktop. These updates that crash the software are really annoying. submitted by /u/No_Translator4032 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x6mgat/major_bug_issue_with_comfyui_0400_update/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1x6lhid/best_minimax_h3_workflow_for_upscaling/</id><title>Best Minimax H3 workflow for Upscaling?</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x6lhid/best_minimax_h3_workflow_for_upscaling/"/>
-<published>2026-10-15T13:21:36+00:00</published><updated>2026-10-15T13:21:36+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="upscaling"/>
-<category term="comfyui"/>
-<category term="minimax"/>
-<summary>Hey all, I wanted to see if anyone had suggestions on the best workflows to run MH3 so that I can do a generation and also upscale the video within my VRAM budget? For reference my setup is the following: AMD RX 7900xtx (24gb VRAM), 48gb system RAM, using Linux ROCm as my install environment for Com</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 5 · upscaling, comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey all, I wanted to see if anyone had suggestions on the best workflows to run MH3 so that I can do a generation and also upscale the video within my VRAM budget? For reference my setup is the following: AMD RX 7900xtx (24gb VRAM), 48gb system RAM, using Linux ROCm as my install environment for ComfyUI. I can routinely complete MH3 generations without running into OOM errors but I have to use the quantized GGUF variants to limit the VRAM overhead. My normal generation is done at 0.2MP around 10 seconds in length. I'd love any suggestions if someone has an idea on good workflows for upscaling submitted by /u/Jasonrxw85 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x6lhid/best_minimax_h3_workflow_for_upscaling/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1x6lga7/start_here_alloy_station_is_now_home_to_creative/</id><title>Start here: Alloy Station is now home to creative apps for animation and VFX</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1x6lga7/start_here_alloy_station_is_now_home_to_creative/"/>
-<published>2026-10-15T13:20:05+00:00</published><updated>2026-10-15T13:20:05+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="tracking"/>
-<category term="animation"/>
-<category term="compositing"/>
-<category term="vfx"/>
-<category term="render"/>
-<category term="rendering"/>
-<summary>Alloy Station brings creative apps for animation and VFX to your browser. Track cameras, pull clean keys, and take your results into your next shot. Explore the apps Alloy Tracker — track camera motion from footage, solve lenses, reconstruct a scene, and export cameras and scenes as FBX or GLB. Avai</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 8 · tracking, animation, compositing, vfx, render, rendering&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Alloy Station brings creative apps for animation and VFX to your browser. Track cameras, pull clean keys, and take your results into your next shot. Explore the apps Alloy Tracker — track camera motion from footage, solve lenses, reconstruct a scene, and export cameras and scenes as FBX or GLB. Available now. Alloy Keyer — pull green-screen keys, refine mattes, correct spill, and use masks. Export transparent PNG stills or complete video PNG sequences. Available now. Alloy Studio — 3D animation, rendering, and compositing. In development. Your footage, your device Tracker and Keyer run in Google Chrome and use your device’s GPU. Processing happens locally, and exports save to folders you cho&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1x6lga7/start_here_alloy_station_is_now_home_to_creative/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1x6knrn/new_taomateh3fl2va_3step_lora_converted_for/</id><title>New TaoMate-H3-FL2VA 3-step LoRA converted for ComfyUI (full rank + 169MB version)</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x6knrn/new_taomateh3fl2va_3step_lora_converted_for/"/>
-<published>2026-10-15T12:45:12+00:00</published><updated>2026-10-15T12:45:12+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="lora"/>
-<summary>I converted the new TaoMate-H3-FL2VA 3-step LoRA to ComfyUI format and tested it successfully. Two versions are available: - Full rank-128 BF16: 1.24 GB - Dynamic average-rank-19 BF16: 169 MB The smaller version is much easier on storage/VRAM and worked normally in my tests. Recommended starting set</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I converted the new TaoMate-H3-FL2VA 3-step LoRA to ComfyUI format and tested it successfully. Two versions are available: - Full rank-128 BF16: 1.24 GB - Dynamic average-rank-19 BF16: 169 MB The smaller version is much easier on storage/VRAM and worked normally in my tests. Recommended starting settings: 3 steps, CFG 1.0, LoRA strength 1.0, and Euler. Download and details: https://huggingface.co/austinit/TaoMate-H3-FL2VA-ComfyUI submitted by /u/Austin9981 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x6knrn/new_taomateh3fl2va_3step_lora_converted_for/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1x6jx3m/seedvr2_vs_rtx_video_super_resolution_for/</id><title>SeedVR2 vs RTX Video Super Resolution for upscaling AI video: which one are you actually using?</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x6jx3m/seedvr2_vs_rtx_video_super_resolution_for/"/>
-<published>2026-10-15T12:08:46+00:00</published><updated>2026-10-15T12:08:46+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="upscaling"/>
-<category term="minimax"/>
-<category term="ai video"/>
-<summary>I’ve been upscaling my MiniMax H3 clips with both and I honestly can’t decide which one I prefer, so I’d like to hear how others are handling this. My test: same 16-second clip, [768p] → [2K], on an RTX 5090 laptop (24 GB VRAM). SeedVR2 Time: 34 min Adds real detail: skin pores, fabric, hair strands</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 5 · upscaling, minimax, ai video&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I’ve been upscaling my MiniMax H3 clips with both and I honestly can’t decide which one I prefer, so I’d like to hear how others are handling this. My test: same 16-second clip, [768p] → [2K], on an RTX 5090 laptop (24 GB VRAM). SeedVR2 Time: 34 min Adds real detail: skin pores, fabric, hair strands Heavy on VRAM, and long clips need chunking RTX Video Super Resolution Time: 20 sec Very fast, clean, and stays faithful to the original. It doesn’t hallucinate anything But it mostly sharpens and cleans artifacts rather than adding new detail, so close-ups look more “upscaled” So far my feeling is: SeedVR2 for hero shots and close-ups, RTX VSR for everything else when speed matters. But I’m not &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x6jx3m/seedvr2_vs_rtx_video_super_resolution_for/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1x6jwi2/new_taomate_h3_fl2va_lora_is_out_heres_a_comfyui/</id><title>New TaoMate H3 FL2VA LoRA is out, here's a ComfyUI conversion</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x6jwi2/new_taomate_h3_fl2va_lora_is_out_heres_a_comfyui/"/>
-<published>2026-10-15T12:08:01+00:00</published><updated>2026-10-15T12:08:01+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<category term="lora"/>
-<summary>TaoLive released a new TaoMate H3 FL2VA checkpoint, so I converted it for ComfyUI and added it to the same Hugging Face repo as my previous TaoMate conversion. The new file is BF16, around 1.24 GB instead of the original 2.48 GB. No retraining or merging, just a format conversion and reduced precisi</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;TaoLive released a new TaoMate H3 FL2VA checkpoint, so I converted it for ComfyUI and added it to the same Hugging Face repo as my previous TaoMate conversion. The new file is BF16, around 1.24 GB instead of the original 2.48 GB. No retraining or merging, just a format conversion and reduced precision. You can find it here: https://huggingface.co/Robert1212star/TaoMate-H3-3Step-ComfyUI Download TaoMate-H3-FL2VA-3Step-ComfyUI-BF16.safetensors and put it in ComfyUI/models/loras/. The older TaoMate file is still there too, so make sure you pick the new FL2VA one. The official adapter targets 3-step generation. Its streaming and KV caching features aren't included in this conversion, and first/l&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x6jwi2/new_taomate_h3_fl2va_lora_is_out_heres_a_comfyui/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1x6jui1/h3_longtakenocuts_straight_3mins_video_case_study/</id><title>[ H3 ] LongTakeNoCuts - straight 3mins video case study.</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x6jui1/h3_longtakenocuts_straight_3mins_video_case_study/"/>
-<published>2026-10-15T12:05:10+00:00</published><updated>2026-10-15T12:05:10+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="lora"/>
-<category term="cinematic"/>
-<summary>Hey all, another video based on my LongTakeNoCuts nodes and workaround https://github.com/xyzDist/H3-LongTakeNoCuts Video: https://www.youtube.com/watch?v=Ktp9U1JI-LA My YT: https://www.youtube.com/@noiseflowAI * Yes, she is singing in korean but in Japan, don't ask me why. 😄 details: 1 character re</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · lora, cinematic&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey all, another video based on my LongTakeNoCuts nodes and workaround https://github.com/xyzDist/H3-LongTakeNoCuts Video: https://www.youtube.com/watch?v=Ktp9U1JI-LA My YT: https://www.youtube.com/@noiseflowAI * Yes, she is singing in korean but in Japan, don't ask me why. 😄 details: 1 character reference image + ref2va workflow + motion context, some of my nodes. hybrid model b20-49 kitchen attention, no lora, step 10 input audio, some silly lyrics then generate a song in SUNO 19 * 10s clips, total around 3mins length 0.7mp resolution, each clip gen time about 11mins (base 10 step gen + refine 5 step resample) I stitch clips in post by CapCut. much simpler and easier than Davinci Resolve c&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x6jui1/h3_longtakenocuts_straight_3mins_video_case_study/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
