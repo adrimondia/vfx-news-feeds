@@ -2,8 +2,55 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-29T21:30:23+00:00</updated>
+<updated>2026-10-29T23:30:32+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xixxjn/a_quick_mossimage_news_roundup_30th_october_2026/</id><title>A quick MOSS-Image news round-up - 30th October 2026</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xixxjn/a_quick_mossimage_news_roundup_30th_october_2026/"/>
+<published>2026-10-29T22:13:26+00:00</published><updated>2026-10-29T22:13:26+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<category term="lora"/>
+<summary>Another quick MOSS-Image news and goodies round-up, for those who may have missed some items. -&gt; A Transparent LoRA for MOSS-Image SFT. Get a direct alpha channel in your generations, with no background removal step. Aided by a special flux2-klein-alpha VAE. Note it's only native to 1.2Mpx... "Above</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Another quick MOSS-Image news and goodies round-up, for those who may have missed some items. -&amp;gt; A Transparent LoRA for MOSS-Image SFT. Get a direct alpha channel in your generations, with no background removal step. Aided by a special flux2-klein-alpha VAE. Note it's only native to 1.2Mpx... "Above about 1.2Mpx, decode in tiles." Thus for a big batch of simple stock-style cutouts, Ming-Image may be the simpler/faster option for alpha channel .PNG at 4k or above. Ming also accepts all Z-Image Turbo LoRAs, for a wider choice of styles. https://huggingface.co/genai-craft/transparent-lora-for-moss-image https://huggingface.co/trmz/flux2-klein-alpha -&amp;gt; Another Bbox fix for generating large image&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xixxjn/a_quick_mossimage_news_roundup_30th_october_2026/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xixx2p/higgsfield_is_threatening_to_sue_comfyui_over/</id><title>Higgsfield is threatening to sue ComfyUI over Open Source Challenge</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xixx2p/higgsfield_is_threatening_to_sue_comfyui_over/"/>
+<published>2026-10-29T22:12:55+00:00</published><updated>2026-10-29T22:12:55+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<summary>Hi r/comfyui , last night, Higgsfield sent ComfyUI a cease and desist (attached) They want the Open Source Higgsfield challenge taken down within 48 hours. Their argument is that our use of the Higgsfield name and that using their CEO's likeness is an infringement violation (man, the irony). Claimin</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi r/comfyui , last night, Higgsfield sent ComfyUI a cease and desist (attached) They want the Open Source Higgsfield challenge taken down within 48 hours. Their argument is that our use of the Higgsfield name and that using their CEO's likeness is an infringement violation (man, the irony). Claiming that it makes the event look like Higgsfield is associated with it. This couldn't be farther from the truth, which is that Higgsfield made a promise to open source its product and never did. For the past two weeks, builders have been recreating popular closed apps as open workflows anyone can run. So we asked our community to deliver where Higgsfield failed: apps in the open, built by the commun&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xixx2p/higgsfield_is_threatening_to_sue_comfyui_over/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xixgdb/speridlabs_idol_a_single_image_to_a_3d_gaussian/</id><title>Speridlabs - idol: A single image to a 3D Gaussian splat</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xixgdb/speridlabs_idol_a_single_image_to_a_3d_gaussian/"/>
+<published>2026-10-29T21:54:50+00:00</published><updated>2026-10-29T21:54:50+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="3d gaussian"/>
+<category term="render"/>
+<summary>"Idol turns one picture of an object into a 3D Gaussian splat. Give it a render, a generated image or a photo: it removes the background, frames the object and generates up to 1,048,576 Gaussians, written as a standard 3DGS .ply . It runs on consumer GPUs, using 7.2 GB of VRAM and can run in under 2</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · 3d gaussian, render&lt;/small&gt;&lt;/p&gt;&lt;p&gt;"Idol turns one picture of an object into a 3D Gaussian splat. Give it a render, a generated image or a photo: it removes the background, frames the object and generates up to 1,048,576 Gaussians, written as a standard 3DGS .ply . It runs on consumer GPUs, using 7.2 GB of VRAM and can run in under 2 seconds." HF: speridlabs/idol · Hugging Face submitted by /u/Crazy-Repeat-2006 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xixgdb/speridlabs_idol_a_single_image_to_a_3d_gaussian/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xixfwe/higgsfield_is_threatening_to_sue_comfyui_over/</id><title>Higgsfield is threatening to sue ComfyUI over Open Source Challenge</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xixfwe/higgsfield_is_threatening_to_sue_comfyui_over/"/>
+<published>2026-10-29T21:54:17+00:00</published><updated>2026-10-29T21:54:17+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<summary>Hi r/StableDiffusion , last night, Higgsfield sent ComfyUI a cease and desist (attached) They want the Open Source Higgsfield challenge taken down within 48 hours. Their argument is that our use of the Higgsfield name and that using their CEO's likeness is an infringement violation (man, the irony).</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi r/StableDiffusion , last night, Higgsfield sent ComfyUI a cease and desist (attached) They want the Open Source Higgsfield challenge taken down within 48 hours. Their argument is that our use of the Higgsfield name and that using their CEO's likeness is an infringement violation (man, the irony). Claiming that it makes the event look like Higgsfield is associated with it. This couldn't be farther from the truth, which is that Higgsfield made a promise to open source its product and never did. For the past two weeks, builders have been recreating popular closed apps as open workflows anyone can run. So we asked our community to deliver where Higgsfield failed: apps in the open, built by th&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xixfwe/higgsfield_is_threatening_to_sue_comfyui_over/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xiwk48/yue2_keygen_music_lora/</id><title>YuE2 Keygen Music LoRA</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xiwk48/yue2_keygen_music_lora/"/>
+<published>2026-10-29T21:19:04+00:00</published><updated>2026-10-29T21:19:04+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="lora"/>
+<summary>submitted by /u/MonsterovichIsBack [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/MonsterovichIsBack [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xiwk48/yue2_keygen_music_lora/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/vfx/comments/1xiv595/cutlist_a_tool_for_vfx_editors/</id><title>Cutlist - a tool for VFX Editors</title>
 <link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xiv595/cutlist_a_tool_for_vfx_editors/"/>
@@ -12,6 +59,15 @@
 <category term="vfx"/>
 <summary>Hi all, I posted a short demo to YouTube of a turnover workflow with an app I'm working on called Cutlist. It's meant to help VFX Editors efficiently deal with the insane volume of shots we have to manage today. The demo walks through how you can quickly ID shots, create plates for turnover, and the</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi all, I posted a short demo to YouTube of a turnover workflow with an app I'm working on called Cutlist. It's meant to help VFX Editors efficiently deal with the insane volume of shots we have to manage today. The demo walks through how you can quickly ID shots, create plates for turnover, and then bring it all back into Avid as an updated, ID'd sequences and subclips of all your plates, named accordingly with handles applied. Please let me know if you have any feedback, questions or feature requests. The app isn't for sale yet, but if you're currently on a project and want to try it out in your workflow in exchange for beta feedback, please get in touch through the support link on my webp&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xiv595/cutlist_a_tool_for_vfx_editors/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xiv24b/my_work_on_comfyui_full_studio_moviemake_and/</id><title>My work on Comfyui : Full Studio MovieMake and Editing</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xiv24b/my_work_on_comfyui_full_studio_moviemake_and/"/>
+<published>2026-10-29T20:21:09+00:00</published><updated>2026-10-29T20:21:09+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<summary>Hi everyone! I would like to share with you a project that is close to my heart and to which I have devoted a lot of time. I share with you my film creator studio and retouching studio. How it works (in summary): You click on New movie, you can choose the desired format (landscape/portrait) and the </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi everyone! I would like to share with you a project that is close to my heart and to which I have devoted a lot of time. I share with you my film creator studio and retouching studio. How it works (in summary): You click on New movie, you can choose the desired format (landscape/portrait) and the content style (Movie/vlog, shorts...), you choose the desired time and you put your simple prompt: « aliens invade the world » Then it goes through several steps (all controllable and editable manually or in natural language: « change this part put this instead »): 1.Content director creates the main acts of the film and the scenes Visual reference: asks you if you want to add reference and you ca&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xiv24b/my_work_on_comfyui_full_studio_moviemake_and/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xiutr4/moss_image_minimax_h3_hermes_agent_halloween/</id><title>MOSS Image + MiniMax H3 + Hermes Agent = Halloween Music Video</title>
@@ -30,6 +86,18 @@
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 9 · video generation, sam3, animation, render, comfyui, minimax, lora, storyboard&lt;/small&gt;&lt;/p&gt;&lt;p&gt;TL;DR: I wrote the lyrics and made the song with Suno. Hermes Agent then storyboarded it, rendered the stills, animated them in ComfyUI and added the lyric titles. I directed and approved every step. Setup: Hermes Agent is my daily driver, running on Claude Sonnet 5.5 through the smallest Claude Pro subscription. All the image and video generation runs locally in ComfyUI on an RTX 3090 (24 GB VRAM) with 64 GB system RAM. How Hermes talks to ComfyUI MCP. A comfy-mcp server exposes ComfyUI as tools: run a workflow, validate it, search models and nodes, fetch outputs, check VRAM, and so on. The REST API. For the music video I mostly used this route. Hermes writes small Python scripts that take &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xiutr4/moss_image_minimax_h3_hermes_agent_halloween/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xiup8q/i_map_light_onto_buildings_so_i_made_comfyui_do/</id><title>I map light onto buildings, so I made ComfyUI do my whole draft: masks, motion, edit, on the beat</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xiup8q/i_map_light_onto_buildings_so_i_made_comfyui_do/"/>
+<published>2026-10-29T20:08:14+00:00</published><updated>2026-10-29T20:08:14+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="render"/>
+<category term="comfyui"/>
+<category term="flux"/>
+<category term="ltx"/>
+<summary>I map light onto buildings, and drafting a show always meant five apps: render here, mask there, comp, cut, and export twice because the first one had the wrong codec. So I built a node pack that keeps the whole draft in ComfyUI. You throw in your masks (PNGs, ID passes, a vector file, even the 3D m</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 5 · render, comfyui, flux, ltx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I map light onto buildings, and drafting a show always meant five apps: render here, mask there, comp, cut, and export twice because the first one had the wrong codec. So I built a node pack that keeps the whole draft in ComfyUI. You throw in your masks (PNGs, ID passes, a vector file, even the 3D model), every region gets its own prompt, and LTX or H3 only moves what you mask. The stone stays stone, finally. Then there's a little compositor and a timeline in the bottom panel, and the masks switch on the kick drum, because why not. All open weights (Flux 2 / 3 Klein, Qwen Image, LTX, H3, your own LoRAs), all local, runs on my 12 GB laptop. The stills and clips in the video are my own, a few &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xiup8q/i_map_light_onto_buildings_so_i_made_comfyui_do/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
 <id>https://www.reddit.com/r/vfx/comments/1xitrsn/doctor_who_the_tenth_doctor_stays_for_series_5/</id><title>Doctor Who the Tenth Doctor stays for Series 5 | What If...? (BLENDER ANIMATION) PART 1</title>
 <link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xitrsn/doctor_who_the_tenth_doctor_stays_for_series_5/"/>
 <published>2026-10-29T19:33:42+00:00</published><updated>2026-10-29T19:33:42+00:00</updated>
@@ -38,6 +106,18 @@
 <category term="blender"/>
 <summary>submitted by /u/Serious_Meaning5220 [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 4 · animation, blender&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/Serious_Meaning5220 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xitrsn/doctor_who_the_tenth_doctor_stays_for_series_5/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xit8do/easycomfee_an_opensource_higgsfieldstyle_creative/</id><title>EasyComfee, an open-source, Higgsfield-style creative studio</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xit8do/easycomfee_an_opensource_higgsfieldstyle_creative/"/>
+<published>2026-10-29T19:13:07+00:00</published><updated>2026-10-29T19:13:07+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="lip sync"/>
+<category term="vfx"/>
+<category term="comfyui"/>
+<category term="ltx"/>
+<summary>I built EasyComfee , an open-source, Higgsfield-style creative studio that runs on ComfyUI, on your own GPU or on Comfy Cloud. 🎬 Video with LTX: text, image, first &amp; last frame, keyframes, plus one-click LTX VFX apps 🖼️ Image with one-tap looks that restyle your own photo 🎥 Cinema Studio, Lip Sync, </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · lip sync, vfx, comfyui, ltx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I built EasyComfee , an open-source, Higgsfield-style creative studio that runs on ComfyUI, on your own GPU or on Comfy Cloud. 🎬 Video with LTX: text, image, first &amp;amp; last frame, keyframes, plus one-click LTX VFX apps 🖼️ Image with one-tap looks that restyle your own photo 🎥 Cinema Studio, Lip Sync, Voice, Music, character swap 🔓 Open-weight models first, MIT licensed, every graph exportable as a ComfyUI workflow Free on your own GPU. No subscription. Repo: https://github.com/sintetizacom/easycomfee Demo: https://youtu.be/S93aa3AMzDQ #OpenSourceHiggsfield u/ComfyUI submitted by /u/sintetizacom [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xit8do/easycomfee_an_opensource_higgsfieldstyle_creative/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xit315/1500_styles_for_krea_2_in_a_comfyui_wildcards_node/</id><title>1500+ styles for Krea 2 in a Comfyui wildcards node</title>
@@ -127,6 +207,16 @@
 <category term="unreal engine"/>
 <summary>StableGen is my free and open-source Blender add-on that generates and textures 3D models with local models through ComfyUI. 0.4.0 is out, and everything in the video is a real run in the add-on: Prompt -&gt; mesh: a Preview gallery of candidate images to pick from, then TRELLIS.2 builds the mesh. Text</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 9 · pbr, animation, retargeting, comfyui, blender, unreal, unreal engine&lt;/small&gt;&lt;/p&gt;&lt;p&gt;StableGen is my free and open-source Blender add-on that generates and textures 3D models with local models through ComfyUI. 0.4.0 is out, and everything in the video is a real run in the add-on: Prompt -&amp;gt; mesh: a Preview gallery of candidate images to pick from, then TRELLIS.2 builds the mesh. Texturing with Qwen Image 2.1: every camera view is generated and projected onto the mesh, then Marigold V2 makes the PBR maps (albedo, roughness, metallic, normal). Masked Edit (new): paint a region on the model, describe the change, and only that part is regenerated, through the cameras that see it. Auto-rigging (new) with SkinTokens, plus retargeting FBX/BVH animations onto the rig. Experimental Qw&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xiolct/qwen_image_21_trellis2_in_blender_from_a_prompt/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xio8xw/comfyui_prompts_explained_clip_text_encode/</id><title>ComfyUI Prompts Explained: CLIP Text Encode, Negative and Dynamic Prompts</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xio8xw/comfyui_prompts_explained_clip_text_encode/"/>
+<published>2026-10-29T16:10:27+00:00</published><updated>2026-10-29T16:10:27+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<category term="flux"/>
+<summary>You will learn what CLIP Text Encode does, how positive and negative prompts work, why the negative prompt can do nothing at all, and how to write prompts that work on new models like Z-Image and Flux 2 Klein. We also test prompt weights, and try two tricks most people never find: random choices wit</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · comfyui, flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;You will learn what CLIP Text Encode does, how positive and negative prompts work, why the negative prompt can do nothing at all, and how to write prompts that work on new models like Z-Image and Flux 2 Klein. We also test prompt weights, and try two tricks most people never find: random choices with curly brackets, and comments. Everything is shown with Z-Image Turbo. At the end there is a small Practice workflow with tasks to try yourself, free on the page linked in the video description. the series https://workflows.pixaroma.com/comfyui-nodes-explained/ submitted by /u/pixaromadesign [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xio8xw/comfyui_prompts_explained_clip_text_encode/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1xinu2y/minimax_h3_seamless_long_video_with_clearer_fast/</id><title>MiniMax H3: Seamless Long Video with Clearer Fast Action | Martial Arts + Drama | Workflow &amp; BGM Fix</title>
@@ -408,6 +498,17 @@
 <category term="controlnet"/>
 <summary>I come bearing good news of a wonderous (hopefully not niche) tool a friend of mine has developed for Forge Neo canvases. It's basically a major QOL update to the integrated canvas that adds selection sub-tools to it that most people familiar with PS/CSP/etc. likely use. Newly-included functions inc</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · sam2, inpainting, controlnet&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I come bearing good news of a wonderous (hopefully not niche) tool a friend of mine has developed for Forge Neo canvases. It's basically a major QOL update to the integrated canvas that adds selection sub-tools to it that most people familiar with PS/CSP/etc. likely use. Newly-included functions include the following: Mask Inversion Magic Wand Lasso Tool SAM2 Clothing [color-based] Selection (This isn't region locked like the wand tool) Eraser (Compatible with all of the above for different erasure use cases) I personally use ControlNet a lot and also do a decent amount of post-generation detailing on my works and this effectively halves the time it normally takes. Anybody also familiar with&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xi6aki/forge_neo_canvas_helper_extension_controlnet/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xi4c3d/full_music_video_with_longcatvideoavatar_15/</id><title>Full music video with LongCat-Video-Avatar 1.5 running locally on a 5090 (plate-follow mode + INT8), lip sync finished with Sync 3</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xi4c3d/full_music_video_with_longcatvideoavatar_15/"/>
+<published>2026-10-28T23:39:59+00:00</published><updated>2026-10-28T23:39:59+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="lip sync"/>
+<category term="lora"/>
+<category term="dit"/>
+<summary>Made a full 3-minute music video for my song "Impossible Task", a cyberpunk track about AI agents reward-hacking impossible tasks (inspired by the METR report). Workflow: - Singer performance and head movement: LongCat-Video-Avatar 1.5 in plate-follow mode, run locally on an RTX 5090 - INT8 DiT + bf</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · lip sync, lora, dit&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Made a full 3-minute music video for my song "Impossible Task", a cyberpunk track about AI agents reward-hacking impossible tasks (inspired by the METR report). Workflow: - Singer performance and head movement: LongCat-Video-Avatar 1.5 in plate-follow mode, run locally on an RTX 5090 - INT8 DiT + bf16 distilled LoRA, 8 steps - SageAttention, T5 offloaded to CPU to fit in VRAM - 480p at 25 fps, then upscaled - Lip sync: LongCat's mouth had weird fake-looking teeth, so I ran Sync Labs sync-3 on top for the lips (not open source, about $1 per clip) - Sync 3 output was 63-87 ms early, so I measured every shot with SyncNet and shifted each one individually. All shots now land within about 3 ms of&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xi4c3d/full_music_video_with_longcatvideoavatar_15/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1xi3iso/cannot_get_h3_latent_upscaler_to_appear/</id><title>Cannot get H3 Latent Upscaler to appear.</title>
@@ -7014,37 +7115,5 @@
 <category term="flux"/>
 <summary>Just threw some of my usual testing prompts into it to get a feel for the model - I have to say, it's not entirely without merit in terms of atmosphere, most models struggle quite a bit more with concepts like snowstorms. But the details tend to be pretty messed up compared to other current models a</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Just threw some of my usual testing prompts into it to get a feel for the model - I have to say, it's not entirely without merit in terms of atmosphere, most models struggle quite a bit more with concepts like snowstorms. But the details tend to be pretty messed up compared to other current models and when it comes to anything living ... yeah, I don't think the model has ever seen proportions. submitted by /u/Schattenmensch [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x71khk/flux_3_klein_has_some_decent_capabilities_with/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1x70kab/were_giving_away_25k_for_higgsfield_opensource/</id><title>We’re giving away $25K for Higgsfield open-source rebuilds of creative apps on ComfyUI (2 weeks, 3× RTX 5090s up for grabs)</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x70kab/were_giving_away_25k_for_higgsfield_opensource/"/>
-<published>2026-10-15T23:14:30+00:00</published><updated>2026-10-15T23:14:30+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="video model"/>
-<category term="vfx"/>
-<category term="comfyui"/>
-<category term="flux"/>
-<category term="minimax"/>
-<category term="ltx"/>
-<summary>Higgsfield promised to open-source their entire platform. They didn’t, so we figured we’d help. For the next two weeks, Comfy is putting up $25,000 in prizes for the best open-source builds on the Comfy Developer Platform . Rebuild Genjutsu or Cinema Studio, or make a creative app nobody’s thought o</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 7 · video model, vfx, comfyui, flux, minimax, ltx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Higgsfield promised to open-source their entire platform. They didn’t, so we figured we’d help. For the next two weeks, Comfy is putting up $25,000 in prizes for the best open-source builds on the Comfy Developer Platform . Rebuild Genjutsu or Cinema Studio, or make a creative app nobody’s thought of yet. The only rule that matters: publish the repo so anyone can run it, fork it, and improve it. Prizes Grand Prize: $10,000. Every entry is automatically considered. Most Innovative: RTX 5090. A new kind of app, a novel custom node pack, or an unexpected use of ComfyUI. Your demo video needs to explain what makes it new. Most Viral: RTX 5090. Fun to use and made to be shared. Open Weights Only:&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x70kab/were_giving_away_25k_for_higgsfield_opensource/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1x6yy4t/flux_1_dev_released_in_2024_some_t2i_gens/</id><title>Flux 1 Dev - Released In 2024 - Some T2I Gens.</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x6yy4t/flux_1_dev_released_in_2024_some_t2i_gens/"/>
-<published>2026-10-15T22:02:41+00:00</published><updated>2026-10-15T22:02:41+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="flux"/>
-<summary>submitted by /u/-Ellary- [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/-Ellary- [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x6yy4t/flux_1_dev_released_in_2024_some_t2i_gens/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1x6ybgd/flux_3_in_fizgig_81/</id><title>Flux 3 in Fizgig 8.1</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x6ybgd/flux_3_in_fizgig_81/"/>
-<published>2026-10-15T21:35:24+00:00</published><updated>2026-10-15T21:35:24+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="flux"/>
-<summary>Just a quick update to say Flux 3 is in and fully supported across every feature. Cheers, Pete submitted by /u/shootthesound [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Just a quick update to say Flux 3 is in and fully supported across every feature. Cheers, Pete submitted by /u/shootthesound [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x6ybgd/flux_3_in_fizgig_81/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
