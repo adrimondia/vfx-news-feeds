@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-29T13:30:43+00:00</updated>
+<updated>2026-10-29T15:31:05+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1xijlg2/comfyui_inside_effectcraft_storyboard_and_markers/</id><title>ComfyUI inside EffectCraft: storyboard and markers on the timeline (open source)</title>
@@ -25,6 +25,18 @@
 <category term="flux"/>
 <summary>Saving the workflow JSON is only part of getting a ComfyUI session back. The graph can load successfully while pointing to missing weights or different custom-node code. Besides the JSON, I usually keep track of the model filenames and hashes (including the VAE and text encoders), custom-node repos </summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · comfyui, flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Saving the workflow JSON is only part of getting a ComfyUI session back. The graph can load successfully while pointing to missing weights or different custom-node code. Besides the JSON, I usually keep track of the model filenames and hashes (including the VAE and text encoders), custom-node repos and versions, seed, sampler, scheduler, steps, image size, batch size, and any input assets the workflow depends on. I tried Glows. ai and quite like it. Its preconfigured ComfyUI/FLUX.1-Kontext image makes spinning up a fresh environment straightforward, and having a cloud GPU environment can make reproducibility easier than rebuilding everything locally from scratch. I've also seen people use si&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xij8g6/what_else_do_you_save_with_a_comfyui_workflow/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xij723/i_made_a_free_and_opensource_filmmaking_app_with/</id><title>I made a free and opensource filmmaking app with easy character creation and a cinematic video studio using ComfyUI</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xij723/i_made_a_free_and_opensource_filmmaking_app_with/"/>
+<published>2026-10-29T12:55:30+00:00</published><updated>2026-10-29T12:55:30+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<category term="minimax"/>
+<category term="filmmaking"/>
+<category term="cinematic"/>
+<summary>Demo video on YouTube. Director’s Cut is a fully open-source app for ComfyUI with preset-based character creation and a video studio. It uses Qwen-Image 2.1 for image generation and editing, MiniMax H3 with an OmniRef option for video, optional SelfLift for faster generation, and Qwen 3.5 for in-app</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 7 · comfyui, minimax, filmmaking, cinematic&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Demo video on YouTube. Director’s Cut is a fully open-source app for ComfyUI with preset-based character creation and a video studio. It uses Qwen-Image 2.1 for image generation and editing, MiniMax H3 with an OmniRef option for video, optional SelfLift for faster generation, and Qwen 3.5 for in-app prompt enhancement. It also includes an MCP server with tools and prompt guides for compatible AI assistants. Download it here submitted by /u/oLeonardoFrito [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xij723/i_made_a_free_and_opensource_filmmaking_app_with/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1xij3ev/i_made_a_filmmaking_app_with_easy_character/</id><title>I made a filmmaking app with easy character creation and a cinematic video studio using ComfyUI</title>
@@ -62,6 +74,16 @@
 <category term="unreal engine"/>
 <summary>Firstly I am sorry for the title, I could not find a way to concisely articulate my question but if you read the body you will have a better understanding. So my Thesis will be coming up soon and I want to do a zombie project for it I have been learning CGI and 3d softwares since I was 9 (26 now) so</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 8 · render, nuke, houdini, blender, unreal, unreal engine&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Firstly I am sorry for the title, I could not find a way to concisely articulate my question but if you read the body you will have a better understanding. So my Thesis will be coming up soon and I want to do a zombie project for it I have been learning CGI and 3d softwares since I was 9 (26 now) so I have become pretty decent with Blender, Houdini, Nuke and Resolve. This covers most of bases for what I want to do I was thinking of having scenes with large crowds to depict a greater threat and I wanted to know to what extent can Unreal Engine be utilized for this? I dont have any experience with Unreal Engine only Unity. My Idea was to tier the crowds where the further crowds that dont need &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xigoem/feasibility_of_using_unreal_engine_5_for_crowds/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xifghh/krea2_workflow_how_to_add_pose_control_why_is/</id><title>Krea2 Workflow: How to add Pose Control &amp; why is SeedVR2 upscaling badly?</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xifghh/krea2_workflow_how_to_add_pose_control_why_is/"/>
+<published>2026-10-29T09:42:49+00:00</published><updated>2026-10-29T09:42:49+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="upscaling"/>
+<category term="upscaler"/>
+<summary>https://preview.redd.it/e9j4widumdyh1.png?width=1493&amp;format=png&amp;auto=webp&amp;s=b85f830d839ba34d1c420e6c0359a0a6d6aa2830 Noob here. I’m running a Krea2 workflow (screenshot attached) that uses two image inputs (outfit + background) and prompt/LoRAs for the face. I’m hitting two roadblocks: 1. Pose Contr</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · upscaling, upscaler&lt;/small&gt;&lt;/p&gt;&lt;p&gt;https://preview.redd.it/e9j4widumdyh1.png?width=1493&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=b85f830d839ba34d1c420e6c0359a0a6d6aa2830 Noob here. I’m running a Krea2 workflow (screenshot attached) that uses two image inputs (outfit + background) and prompt/LoRAs for the face. I’m hitting two roadblocks: 1. Pose Control: How do I add a third image input just for pose (like DWPose/OpenPose)? I read that standard SDXL ControlNets crash Krea2 UNETs. How do I actually wire a pose reference into this without breaking the conditioning? 2. SeedVR2 Upscaler: My raw generation looks decent, but the SeedVR2 block at the end completely destroys the skin texture and adds weird artifacts. Am I using the wrong settings, or &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xifghh/krea2_workflow_how_to_add_pose_control_why_is/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1xievsa/terraformer_design_a_city_get_a_dressed_unreal/</id><title>Terraformer: design a city, get a dressed Unreal Engine level, powered by ComfyUI + open weights only (#OpenSourceHiggsfield)</title>
@@ -140,6 +162,17 @@
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Workflow here: Dantesworks/MV_Maker: Makes music videos for ComfyUI/H3 Minimax This is a music video comprised of multiple clips. Each clip is sent the exact part of the song it corresponds to hence lip syncing is easy and automatic (if prompted to do so). Each clip has a "theme" - for example, cafe, garden etc. You can specify the themes at the start and assign a theme to each clip. Decide the timing of the clips too. What is missing is face refiner. You also need a way to assemble all the clips at the end. I have an all in one face refiner and clips assembly to run on your selected clips at the end but its slop coded and not fit for release. You can manually edit the prompts for each clip,&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xiajrd/updated_minimax_music_video_workflow/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xiaimv/aiming_ltx25_alphagen_at_one_person_sam3_inpaint/</id><title>Aiming LTX-2.5 alpha-gen at one person: SAM3 + inpaint trick gives native 4K hair mattes in ComfyUI (open source)</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xiaimv/aiming_ltx25_alphagen_at_one_person_sam3_inpaint/"/>
+<published>2026-10-29T04:36:20+00:00</published><updated>2026-10-29T04:36:20+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="sam3"/>
+<category term="comfyui"/>
+<category term="ltx"/>
+<summary>LTX-2.5's alpha-gen IC-LoRA draws great hair edges, but it mattes everyone in frame. I wanted one person out of a crowd, so I built a node around it: SAM3 picks the subject from one click. The other people get inpainted out of a copy of the plate. LTX alpha-gen runs on that copy, so it only has one </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 5 · sam3, comfyui, ltx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;LTX-2.5's alpha-gen IC-LoRA draws great hair edges, but it mattes everyone in frame. I wanted one person out of a crowd, so I built a node around it: SAM3 picks the subject from one click. The other people get inpainted out of a copy of the plate. LTX alpha-gen runs on that copy, so it only has one person to matte. On 4K plates LTX runs again on native 1920x1088 tiles along the edge. Overlap mode: three LTX passes (an attention mask per person) plus a Depth Anything vote decide who's in front. On a 247-frame shot: 88.7% edge detail match vs 45.0% (SAM3 + ViTMatte) and 29.4% (SAM3 mask). Runs on 12 GB VRAM and 16 GB RAM with weight streaming. Open weights only, GPL-3.0, in the ComfyUI Manager&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xiaimv/aiming_ltx25_alphagen_at_one_person_sam3_inpaint/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
 <id>https://www.reddit.com/r/comfyui/comments/1xi9f4s/i_built_a_comfyui_node_for_ai_roto_click_one/</id><title>I built a ComfyUI node for AI roto: click one person, get a native 4K hair matte (SAM3 + LTX-2.5 alpha-gen, open source)</title>
 <link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xi9f4s/i_built_a_comfyui_node_for_ai_roto_click_one/"/>
 <published>2026-10-29T03:37:18+00:00</published><updated>2026-10-29T03:37:18+00:00</updated>
@@ -174,6 +207,17 @@
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 3 · vfx, nuke, maya&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hello Everyone, I am really happy to show you guys these renders from a personal project i have been working on for quite sometime. As many of you cinephiles might know its a very infamous building known as The Palace of Culture "Energetik" at pripyat, Chernobyl. I was inspired from this location and always wanted to recreate it in 3d and after so much time and efforts im glad its done. It was really tough to finish this while working full time in a vfx studio. I wanted to achieve a cold winter environment with fog and haze which catches the mood and abandonment left behind the city. I modelled the building in maya,sculpted snow ground and railings in Zbrush Textured mostly in mari/painter+d&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xi6dxg/3d_abandoned_environment_inspired_from_chernobyl/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xi6aki/forge_neo_canvas_helper_extension_controlnet/</id><title>Forge Neo Canvas Helper Extension (ControlNet &amp; Inpaint)</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xi6aki/forge_neo_canvas_helper_extension_controlnet/"/>
+<published>2026-10-29T01:06:09+00:00</published><updated>2026-10-29T01:06:09+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="sam2"/>
+<category term="inpainting"/>
+<category term="controlnet"/>
+<summary>I come bearing good news of a wonderous (hopefully not niche) tool a friend of mine has developed for Forge Neo canvases. It's basically a major QOL update to the integrated canvas that adds selection sub-tools to it that most people familiar with PS/CSP/etc. likely use. Newly-included functions inc</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · sam2, inpainting, controlnet&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I come bearing good news of a wonderous (hopefully not niche) tool a friend of mine has developed for Forge Neo canvases. It's basically a major QOL update to the integrated canvas that adds selection sub-tools to it that most people familiar with PS/CSP/etc. likely use. Newly-included functions include the following: Mask Inversion Magic Wand Lasso Tool SAM2 Clothing [color-based] Selection (This isn't region locked like the wand tool) Eraser (Compatible with all of the above for different erasure use cases) I personally use ControlNet a lot and also do a decent amount of post-generation detailing on my works and this effectively halves the time it normally takes. Anybody also familiar with&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xi6aki/forge_neo_canvas_helper_extension_controlnet/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
 <id>https://www.reddit.com/r/comfyui/comments/1xi3iso/cannot_get_h3_latent_upscaler_to_appear/</id><title>Cannot get H3 Latent Upscaler to appear.</title>
 <link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xi3iso/cannot_get_h3_latent_upscaler_to_appear/"/>
 <published>2026-10-28T23:05:24+00:00</published><updated>2026-10-28T23:05:24+00:00</updated>
@@ -182,6 +226,17 @@
 <category term="comfyui"/>
 <summary>Hello, It seems a lot of workflows have the Latent Upscaler included. I go to Github and Install the repo. I see it in my custom nodes as installed, I also installed the checkpoint into latent_upscale_models folder and yet no dice. It will never appear, there is always a red ❌ on the H3 latent node.</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · upscaler, comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hello, It seems a lot of workflows have the Latent Upscaler included. I go to Github and Install the repo. I see it in my custom nodes as installed, I also installed the checkpoint into latent_upscale_models folder and yet no dice. It will never appear, there is always a red ❌ on the H3 latent node. I’ve restarted and all that as well. Any ideas on what Im doing wrong? My Comfyui desktop is updated to latest version. I’ve had the same problems in previous versions as well. I cloned to Documents/Comfyui/customnodes as it instructs. Thank you if anyone has any ideas. submitted by /u/Careless-Fishing-532 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xi3iso/cannot_get_h3_latent_upscaler_to_appear/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xi3d9s/1980s_cinematic_power_ballad_my_shadow/</id><title>[1980s cinematic power ballad] My Shadow</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xi3d9s/1980s_cinematic_power_ballad_my_shadow/"/>
+<published>2026-10-28T22:59:10+00:00</published><updated>2026-10-28T22:59:10+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="render"/>
+<category term="lora"/>
+<category term="cinematic"/>
+<summary>Song (requires Souna login): https://www.souna.app/song/617de4c0-d07e-4501-b7fa-de9c41c62d75 Song (Internet Archive): https://ia601405.us.archive.org/1/items/ai-power-ballads/My%20Shadow.mp3 (CC0) Process details (full general workflow here, but note that this generation used no LoRA: https://www.re</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · render, lora, cinematic&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Song (requires Souna login): https://www.souna.app/song/617de4c0-d07e-4501-b7fa-de9c41c62d75 Song (Internet Archive): https://ia601405.us.archive.org/1/items/ai-power-ballads/My%20Shadow.mp3 (CC0) Process details (full general workflow here, but note that this generation used no LoRA: https://www.reddit.com/r/StableDiffusion/comments/1xh0xfd/semiautomated_localish_music_workflow_eurodisco/ ) === STYLE PROMPT === English, 1980s cinematic power ballad in A minor with choruses in C major, 64 BPM. Intimate verses building to BELTED choruses with sustained high notes at the cadences; extended final chorus lifts a half step. Clear female lead, restrained 1980s vocal style, acoustic piano, lush syn&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xi3d9s/1980s_cinematic_power_ballad_my_shadow/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xi30az/minimax_h3_excellent_result_with_foreign/</id><title>Minimax h3, excellent result with foreign language(ITA) and cartoonish voices</title>
@@ -6996,51 +7051,5 @@
 <category term="flux"/>
 <summary>FLUX 3 Image Klein is here! Weights: https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy submitted by /u/LatentSpacer [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;FLUX 3 Image Klein is here! Weights: https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy submitted by /u/LatentSpacer [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x6oxvj/flux_3_image_klein/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1x6oh9d/flux_3_image_open_weights_is_released/</id><title>FLUX 3 Image Open Weights is released</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x6oh9d/flux_3_image_open_weights_is_released/"/>
-<published>2026-10-15T15:18:59+00:00</published><updated>2026-10-15T15:18:59+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="flux"/>
-<summary>submitted by /u/stephen370 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/stephen370 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x6oh9d/flux_3_image_open_weights_is_released/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1x6od1u/flux_3_image_klein_open_weights_image_generation/</id><title>FLUX 3 Image Klein: Open weights image generation and editing</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x6od1u/flux_3_image_klein_open_weights_image_generation/"/>
-<published>2026-10-15T15:14:46+00:00</published><updated>2026-10-15T15:14:46+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="flux"/>
-<summary>Black Forest Labs (BFL), the frontier AI research lab building visual intelligence, today announced the open weights release of FLUX 3 Image Klein, its most capable open weights image model to date. FLUX 3 Image Klein provides the quality of a large frontier model with the customization and speed of</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Black Forest Labs (BFL), the frontier AI research lab building visual intelligence, today announced the open weights release of FLUX 3 Image Klein, its most capable open weights image model to date. FLUX 3 Image Klein provides the quality of a large frontier model with the customization and speed of open weights, runs on consumer GPUs and laptops, and retains features from the larger FLUX 3 Image model such as native 4K generation, bounding boxes, and pixel perfect editing. The release includes a base model for fine-tuning, a distilled model for low-latency generation, and quantized FP8, NVFP4, and INT8 versions. Following September’s open weights release of FLUX 3 Action for robotics, today&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x6od1u/flux_3_image_klein_open_weights_image_generation/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1x6oct0/flux_3_klein_is_out/</id><title>Flux 3 Klein is out</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x6oct0/flux_3_klein_is_out/"/>
-<published>2026-10-15T15:14:30+00:00</published><updated>2026-10-15T15:14:30+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="flux"/>
-<summary>https://huggingface.co/collections/black-forest-labs/flux-3-image-klein submitted by /u/MoistRecognition69 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;https://huggingface.co/collections/black-forest-labs/flux-3-image-klein submitted by /u/MoistRecognition69 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x6oct0/flux_3_klein_is_out/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1x6o47w/comfyui_nodes_explained_the_basics_for_beginners/</id><title>ComfyUI Nodes Explained: The Basics for Beginners</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x6o47w/comfyui_nodes_explained_the_basics_for_beginners/"/>
-<published>2026-10-15T15:05:27+00:00</published><updated>2026-10-15T15:05:27+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="flux"/>
-<summary>This first video is the starting point: what a node is, how the wires connect, how to change the settings, and what to do when a node turns red. Then we build a Flux 2 Klein workflow together from an empty canvas, and a little painter analogy shows why every node is connected the way it is. There is</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · comfyui, flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;This first video is the starting point: what a node is, how the wires connect, how to change the settings, and what to do when a node turns red. Then we build a Flux 2 Klein workflow together from an empty canvas, and a little painter analogy shows why every node is connected the way it is. There is no workflow to download this time: we build it step by step on screen, so you can make it yourself. If you know someone who wants to learn ComfyUI from zero, send it their way. Leave a like and a comment on the video, it really helps! Thanks! ❤️ submitted by /u/pixaromadesign [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x6o47w/comfyui_nodes_explained_the_basics_for_beginners/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1x6mgat/major_bug_issue_with_comfyui_0400_update/</id><title>Major bug issue with ComfyUI 0.40.0 update!!</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x6mgat/major_bug_issue_with_comfyui_0400_update/"/>
-<published>2026-10-15T14:01:06+00:00</published><updated>2026-10-15T14:01:06+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<summary>Since the last update, 0.40.0, it's been buggy as hell! ComfUI is unusable; the interface is glitching, with duplicate images within the interface itself, and it's impossible to navigate! I did a quick search with ChatGPT, and it tells me there's a problem with the custom node Impact Pack, the laten</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Since the last update, 0.40.0, it's been buggy as hell! ComfUI is unusable; the interface is glitching, with duplicate images within the interface itself, and it's impossible to navigate! I did a quick search with ChatGPT, and it tells me there's a problem with the custom node Impact Pack, the latent Switch node, and something else... For your information, I'm on a Mac M1 Ultra and I'm using ComfUI Desktop. These updates that crash the software are really annoying. submitted by /u/No_Translator4032 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x6mgat/major_bug_issue_with_comfyui_0400_update/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
