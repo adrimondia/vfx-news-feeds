@@ -2,8 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-29T03:30:26+00:00</updated>
+<updated>2026-10-29T05:30:18+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xiajrd/updated_minimax_music_video_workflow/</id><title>Updated Minimax Music Video Workflow</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xiajrd/updated_minimax_music_video_workflow/"/>
+<published>2026-10-29T04:38:09+00:00</published><updated>2026-10-29T04:38:09+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<category term="minimax"/>
+<summary>Workflow here: Dantesworks/MV_Maker: Makes music videos for ComfyUI/H3 Minimax This is a music video comprised of multiple clips. Each clip is sent the exact part of the song it corresponds to hence lip syncing is easy and automatic (if prompted to do so). Each clip has a "theme" - for example, cafe</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Workflow here: Dantesworks/MV_Maker: Makes music videos for ComfyUI/H3 Minimax This is a music video comprised of multiple clips. Each clip is sent the exact part of the song it corresponds to hence lip syncing is easy and automatic (if prompted to do so). Each clip has a "theme" - for example, cafe, garden etc. You can specify the themes at the start and assign a theme to each clip. Decide the timing of the clips too. What is missing is face refiner. You also need a way to assemble all the clips at the end. I have an all in one face refiner and clips assembly to run on your selected clips at the end but its slop coded and not fit for release. You can manually edit the prompts for each clip,&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xiajrd/updated_minimax_music_video_workflow/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/vfx/comments/1xi6dxg/3d_abandoned_environment_inspired_from_chernobyl/</id><title>3D abandoned environment Inspired from Chernobyl.</title>
 <link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xi6dxg/3d_abandoned_environment_inspired_from_chernobyl/"/>
@@ -194,6 +204,18 @@
 <category term="flux"/>
 <summary>It's a tiny Text to Image model that's Denoiser is only 50M parameters, adding the custom text encoder, and the pretrained flux VAE, its total end to end inference parameters are around 90M It runs in: 27 Seconds @ 50 steps 11 Seconds @ 20 steps On a laptop CPU from 2016 (Intel i5 7200U) Samples and</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · denoiser, flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;It's a tiny Text to Image model that's Denoiser is only 50M parameters, adding the custom text encoder, and the pretrained flux VAE, its total end to end inference parameters are around 90M It runs in: 27 Seconds @ 50 steps 11 Seconds @ 20 steps On a laptop CPU from 2016 (Intel i5 7200U) Samples and a quick start in the model card it is licensed under Apache 2.0 Questions, feedback, or criticism is welcome! submitted by /u/Tall_Abrocoma_3533 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xhozjn/auroraimg250mpreview_releases/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xholms/wan22_ti2v5b_on_a_single_rtx_4090_at_stock/</id><title>Wan2.2 TI2V-5B on a single RTX 4090 at stock settings: ~8.5 min per 5 s clip, and faces broke in 2 of 3 (Qwen-Image-2.1 stills)</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xholms/wan22_ti2v5b_on_a_single_rtx_4090_at_stock/"/>
+<published>2026-10-28T13:49:54+00:00</published><updated>2026-10-28T13:49:54+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<category term="wan"/>
+<category term="wan2"/>
+<category term="lora"/>
+<summary>Wanted to see what the small 5B Wan2.2 does on a single 24 GB card, so I animated three Qwen-Image-2.1 stills with it on an RTX 4090 (and on a DGX Spark, out of curiosity) and wrote down what worked and what broke. The video is the three clips back to back: jellyfish, train, flooded city. ■ The pipe</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 5 · comfyui, wan, wan2, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Wanted to see what the small 5B Wan2.2 does on a single 24 GB card, so I animated three Qwen-Image-2.1 stills with it on an RTX 4090 (and on a DGX Spark, out of curiosity) and wrote down what worked and what broke. The video is the three clips back to back: jellyfish, train, flooded city. ■ The pipeline • Stills: Qwen-Image-2.1 (nf4, 40 steps, CFG off) on the 4090. Each one started as a first version from a prompt (stills and prompts are in the comments) and then went through editing in Qwen-Image-2.1: about six passes for the jellyfish, one or two for the city and train, because repeated edits kept adding noise. So the prompts won’t reproduce the exact stills. The city and train scenes used&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xholms/wan22_ti2v5b_on_a_single_rtx_4090_at_stock/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1xhnik6/datasets_for_lora/</id><title>Datasets for LORA</title>
@@ -7020,159 +7042,5 @@
 <category term="roto"/>
 <summary>So tried getting automated splines out, not just a matte. The goal was simple: get clean, editable splines out of AI roto instead of just a matte. The splines are fully automated and generated by AI. You type a prompt (man) and set a frame range, and AI builds the roto as closed cubic B-splines. Nob</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 1 · roto&lt;/small&gt;&lt;/p&gt;&lt;p&gt;So tried getting automated splines out, not just a matte. The goal was simple: get clean, editable splines out of AI roto instead of just a matte. The splines are fully automated and generated by AI. You type a prompt (man) and set a frame range, and AI builds the roto as closed cubic B-splines. Nobody draws or places a single point by hand. It splits the subject into parts (face, nose, head, torso, arms), each on its own layer. For this 117-frame shot, generation took about 2 minutes. Tried hard to keep the keyframes sparse. Each shape has only two to four keys, and everything in between is interpolated. That means no per-frame keys and very little chatter. Also wanted the points to stay pu&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1x6f0ix/what_do_you_guys_think/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2610.19290</id><title>Kandinsky S2V 1.0: Audio-Driven Avatar Video Generation</title>
-<link rel="alternate" href="https://arxiv.org/abs/2610.19290"/>
-<published>2026-10-15T04:00:00+00:00</published><updated>2026-10-15T04:00:00+00:00</updated>
-<author><name>arXiv cs.CV</name></author>
-<category term="video generation"/>
-<category term="avatar"/>
-<category term="animation"/>
-<summary>arXiv:2610.19290v1 Announce Type: new Abstract: We present Kandinsky S2V 1.0, an open family of speech-to-video models for controllable audio-driven human animation, comprising Kandinsky S2V 1.0 Lite (2B parameters) and Kandinsky S2V 1.0 Pro (21B parameters). From a single reference image, a speech </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · video generation, avatar, animation&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2610.19290v1 Announce Type: new Abstract: We present Kandinsky S2V 1.0, an open family of speech-to-video models for controllable audio-driven human animation, comprising Kandinsky S2V 1.0 Lite (2B parameters) and Kandinsky S2V 1.0 Pro (21B parameters). From a single reference image, a speech waveform, and a text prompt, the models generate long-form 25 FPS video in which lip motion, expression, pose, and gesture follow the speech. The architecture draws text and audio conditioning from one Qwen2.5-Omni model and adds a reference-aware three-scale visual memory. Training starts from the Kandinsky 5.0 Video foundation models [1] and combines mixed reference-memory layouts with an area-a&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2610.19290"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2610.19538</id><title>RDCompGS: Rate-Distortion Optimization for Compression of 3D Gaussian Splatting with Image Codecs</title>
-<link rel="alternate" href="https://arxiv.org/abs/2610.19538"/>
-<published>2026-10-15T04:00:00+00:00</published><updated>2026-10-15T04:00:00+00:00</updated>
-<author><name>arXiv cs.CV</name></author>
-<category term="novel view synthesis"/>
-<category term="gaussian splatting"/>
-<category term="3d gaussian"/>
-<category term="rendering"/>
-<summary>arXiv:2610.19538v1 Announce Type: new Abstract: 3D Gaussian Splatting (3DGS) enables high-quality, real-time novel view synthesis but requires significant storage and transmission resources. Mapping Gaussian attributes to 2D representations enables efficient compression using mature image codecs. Ho</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 6 · novel view synthesis, gaussian splatting, 3d gaussian, rendering&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2610.19538v1 Announce Type: new Abstract: 3D Gaussian Splatting (3DGS) enables high-quality, real-time novel view synthesis but requires significant storage and transmission resources. Mapping Gaussian attributes to 2D representations enables efficient compression using mature image codecs. However, Gaussian representations that achieve comparable rendering quality are generally treated similarly during optimization, despite substantial differences in coding rate, leading to limited rate-distortion (R-D) performance after compression. To address this limitation, we propose RDCompGS, a 3DGS compression method that enables overall R-D optimization of Gaussian representations with respect&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2610.19538"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2610.19674</id><title>Remember, Revisit, Revise: Scaffold Memory for Long-Horizon 3D Geometry</title>
-<link rel="alternate" href="https://arxiv.org/abs/2610.19674"/>
-<published>2026-10-15T04:00:00+00:00</published><updated>2026-10-15T04:00:00+00:00</updated>
-<author><name>arXiv cs.CV</name></author>
-<category term="novel view synthesis"/>
-<category term="camera pose"/>
-<category term="depth estimation"/>
-<category term="pose estimation"/>
-<category term="consistency"/>
-<category term="multi-view"/>
-<category term="scene reconstruction"/>
-<category term="slam"/>
-<summary>arXiv:2610.19674v1 Announce Type: new Abstract: Geometry foundation models estimate camera poses and 3D scene structure from video sequences, but maintaining consistent reconstructions over long horizons remains challenging. Feed-forward models process long sequences as independent, fixed-length fra</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 8 · novel view synthesis, camera pose, depth estimation, pose estimation, consistency, multi-view, scene reconstruction, slam&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2610.19674v1 Announce Type: new Abstract: Geometry foundation models estimate camera poses and 3D scene structure from video sequences, but maintaining consistent reconstructions over long horizons remains challenging. Feed-forward models process long sequences as independent, fixed-length frame windows and align their predictions, causing pose and reconstruction errors to accumulate across windows. Streaming models retain information from past frames to inform future predictions, but cannot revise earlier estimates when later observations reveal errors. To address this, we introduce Scaffold MemOry for Revision (SMORE), a framework equipping frozen geometry foundation models with a re&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2610.19674"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2610.19847</id><title>VisibilitySplat: Ray-Traced Occlusion for Relighting with 3D Gaussian Splatting</title>
-<link rel="alternate" href="https://arxiv.org/abs/2610.19847"/>
-<published>2026-10-15T04:00:00+00:00</published><updated>2026-10-15T04:00:00+00:00</updated>
-<author><name>arXiv cs.CV</name></author>
-<category term="gaussian splatting"/>
-<category term="3d gaussian"/>
-<category term="pbr"/>
-<category term="relighting"/>
-<category term="hdr"/>
-<category term="rendering"/>
-<summary>arXiv:2610.19847v1 Announce Type: new Abstract: We address inverse rendering with 3D Gaussian Splatting (3DGS) by introducing explicit visibility modeling for relighting as well as material and light decomposition. Our approach augments the standard rasterized 3DGS pipeline with a sparse visibility </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 9 · gaussian splatting, 3d gaussian, pbr, relighting, hdr, rendering&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2610.19847v1 Announce Type: new Abstract: We address inverse rendering with 3D Gaussian Splatting (3DGS) by introducing explicit visibility modeling for relighting as well as material and light decomposition. Our approach augments the standard rasterized 3DGS pipeline with a sparse visibility oracle that estimates transmittance-weighted occlusion for Gaussian primitives from sampled lighting directions. This oracle is implemented using a point-based ray tracer accelerated by a bounding volume hierarchy (BVH) and queried sparsely within the inverse-rendering objectives, while the original 3DGS loop is retained for training efficiency, interactive visualization, and tooling compatibility&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2610.19847"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2610.19931</id><title>SAM3RL: Memory Control via Reinforcement Learning for Visual Object Tracking</title>
-<link rel="alternate" href="https://arxiv.org/abs/2610.19931"/>
-<published>2026-10-15T04:00:00+00:00</published><updated>2026-10-15T04:00:00+00:00</updated>
-<author><name>arXiv cs.CV</name></author>
-<category term="segmentation"/>
-<category term="sam 2"/>
-<category term="video segmentation"/>
-<category term="tracking"/>
-<category term="consistency"/>
-<summary>arXiv:2610.19931v1 Announce Type: new Abstract: Segment Anything Model 3 (SAM 3) is a foundation model for image and video segmentation that sets the state of the art in visual object tracking. Its tracker, inherited from SAM 2, stores information from past frames in a memory bank, managed by a simp</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 6 · segmentation, sam 2, video segmentation, tracking, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2610.19931v1 Announce Type: new Abstract: Segment Anything Model 3 (SAM 3) is a foundation model for image and video segmentation that sets the state of the art in visual object tracking. Its tracker, inherited from SAM 2, stores information from past frames in a memory bank, managed by a simple First-In-First-Out rule, allowing temporal consistency in complex videos. Several recent methods improve SAM 2 with hand-crafted memory update rules, each targeting a specific failure mode, such as distractors, occlusions, or object motion. However, their gains transfer only partially to the stronger SAM 3 backbone. We instead present a more general, data-driven approach that frames memory cont&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2610.19931"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2610.20590</id><title>Feed-Forward Multi-View Feature Coding for 3D Gaussian Splatting</title>
-<link rel="alternate" href="https://arxiv.org/abs/2610.20590"/>
-<published>2026-10-15T04:00:00+00:00</published><updated>2026-10-15T04:00:00+00:00</updated>
-<author><name>arXiv cs.CV</name></author>
-<category term="gaussian splatting"/>
-<category term="3d gaussian"/>
-<category term="rendering"/>
-<category term="multi-view"/>
-<summary>arXiv:2610.20590v1 Announce Type: new Abstract: Feed-forward 3D Gaussian Splatting (3DGS) methods enable efficient reconstruction of 3D scenes from sparse multi-view images in a single forward pass, without scene-specific optimization. However, existing feed-forward scene-coding pipelines first gene</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 7 · gaussian splatting, 3d gaussian, rendering, multi-view&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2610.20590v1 Announce Type: new Abstract: Feed-forward 3D Gaussian Splatting (3DGS) methods enable efficient reconstruction of 3D scenes from sparse multi-view images in a single forward pass, without scene-specific optimization. However, existing feed-forward scene-coding pipelines first generate a complete Gaussian representation and then encode its geometry and appearance attributes separately, often involving non-differentiable operations. The resulting 'generate-then-compress' pipeline requires complex attribute-specific codec designs and limits rate-distortion performance by restricting the exploitation of cross-attribute redundancy. We propose multi-view feature coding for Gauss&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2610.20590"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2501.12375</id><title>Video Depth Anything: Consistent Depth Estimation for Super-Long Videos</title>
-<link rel="alternate" href="https://arxiv.org/abs/2501.12375"/>
-<published>2026-10-15T04:00:00+00:00</published><updated>2026-10-15T04:00:00+00:00</updated>
-<author><name>arXiv cs.CV</name></author>
-<category term="video generation"/>
-<category term="depth estimation"/>
-<category term="monocular depth"/>
-<category term="optical flow"/>
-<category term="consistency"/>
-<summary>arXiv:2501.12375v4 Announce Type: replace Abstract: Depth Anything has achieved remarkable success in monocular depth estimation with strong generalization ability. However, it suffers from temporal inconsistency in videos, hindering its practical applications. Various methods have been proposed to </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 6 · video generation, depth estimation, monocular depth, optical flow, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2501.12375v4 Announce Type: replace Abstract: Depth Anything has achieved remarkable success in monocular depth estimation with strong generalization ability. However, it suffers from temporal inconsistency in videos, hindering its practical applications. Various methods have been proposed to alleviate this issue by leveraging video generation models or introducing priors from optical flow and camera poses. Nonetheless, these methods are only applicable to short videos (&amp;lt; 10 seconds) and require a trade-off between quality and computational efficiency. We propose Video Depth Anything for high-quality, consistent depth estimation in super-long videos (over several minutes) without sacri&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2501.12375"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2609.33253</id><title>VGGT-Diff: Visual Geometry Meets Diffusion for Sparse-View Novel View Synthesis</title>
-<link rel="alternate" href="https://arxiv.org/abs/2609.33253"/>
-<published>2026-10-15T04:00:00+00:00</published><updated>2026-10-15T04:00:00+00:00</updated>
-<author><name>arXiv cs.CV</name></author>
-<category term="video diffusion"/>
-<category term="novel view synthesis"/>
-<category term="denoising"/>
-<category term="consistency"/>
-<category term="multi-view"/>
-<summary>arXiv:2609.33253v2 Announce Type: replace Abstract: We present VGGT-Diff, a geometry-routed multi-view diffusion model for sparse-view novel view synthesis. Existing novel view synthesis (NVS) methods face a fundamental trade-off: reconstruction-based approaches preserve observed geometry but strugg</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 6 · video diffusion, novel view synthesis, denoising, consistency, multi-view&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.33253v2 Announce Type: replace Abstract: We present VGGT-Diff, a geometry-routed multi-view diffusion model for sparse-view novel view synthesis. Existing novel view synthesis (NVS) methods face a fundamental trade-off: reconstruction-based approaches preserve observed geometry but struggle to synthesize unseen regions, while diffusion-based methods provide strong generative priors yet rely on implicit source-to-query correspondence. VGGT-Diff bridges these regimes by routing visual geometry latents from VGGT-{\Omega} into a pretrained video diffusion model. Each visual token is associated with a 3D point and confidence, then transformed into query-aligned latent conditions throug&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.33253"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2610.19520</id><title>Spectral World Renderer: Unified 3D Hyperspectral Unmixing</title>
-<link rel="alternate" href="https://arxiv.org/abs/2610.19520"/>
-<published>2026-10-15T04:00:00+00:00</published><updated>2026-10-15T04:00:00+00:00</updated>
-<author><name>arXiv cs.GR</name></author>
-<category term="compositing"/>
-<category term="render"/>
-<category term="rendering"/>
-<category term="multi-view"/>
-<summary>arXiv:2610.19520v1 Announce Type: cross Abstract: Cameras and the foundation models built on them recognize what a 3D scene contains, but not what it is made of: surfaces of the same colour can be different materials. Hyperspectral unmixing explains each spectrum as a mixture of material signatures,</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.GR · score 4 · compositing, render, rendering, multi-view&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2610.19520v1 Announce Type: cross Abstract: Cameras and the foundation models built on them recognize what a 3D scene contains, but not what it is made of: surfaces of the same colour can be different materials. Hyperspectral unmixing explains each spectrum as a mixture of material signatures, yet in 3D it is applied to rendered images after the views are composited, or tied to slow implicit fields, and no multi-view data with known composition exist to check the result. We present the Spectral World Renderer (SWR), which unifies world generation and unmixing. A coding agent builds executable 3D worlds that are rendered with measured spectra, so every hyperspectral image comes with exa&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2610.19520"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2609.01306</id><title>MeshSplatBench: A Unified Benchmark for Triangle- and Mesh-Based Neural Rendering</title>
-<link rel="alternate" href="https://arxiv.org/abs/2609.01306"/>
-<published>2026-10-15T04:00:00+00:00</published><updated>2026-10-15T04:00:00+00:00</updated>
-<author><name>arXiv cs.GR</name></author>
-<category term="compositing"/>
-<category term="render"/>
-<category term="rendering"/>
-<summary>arXiv:2609.01306v3 Announce Type: replace Abstract: Triangle- and mesh-based neural rendering seeks to bridge neural representations and graphics engines through triangle primitives compatible with standard rasterization. Yet existing methods were developed and evaluated under inconsistent settings,</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.GR · score 4 · compositing, render, rendering&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.01306v3 Announce Type: replace Abstract: Triangle- and mesh-based neural rendering seeks to bridge neural representations and graphics engines through triangle primitives compatible with standard rasterization. Yet existing methods were developed and evaluated under inconsistent settings, with few direct comparisons and little evaluation in graphics engines. We introduce MeshSuite, the first benchmark for systematic evaluation of engine deployment and Non-Engine Render in triangle- and mesh-based neural rendering. MeshSuite evaluates two deployment settings: Standard Deployment, using an opaque mesh pipeline with vertex colors and hardware Z-buffering; and Dedicated Deployment, us&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.01306"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1x6brk4/i_built_a_free_clientside_comfyui_vram_calculator/</id><title>I built a free client-side ComfyUI VRAM calculator for Flux, SDXL, Wan 2.1 &amp; LTX (checks GPU headroom + outputs launch flags)</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x6brk4/i_built_a_free_clientside_comfyui_vram_calculator/"/>
-<published>2026-10-15T03:59:18+00:00</published><updated>2026-10-15T03:59:18+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="tracking"/>
-<category term="comfyui"/>
-<category term="flux"/>
-<category term="wan"/>
-<category term="ltx"/>
-<category term="lora"/>
-<summary>Hey everyone, I was constantly checking whether my RTX GPU could run newer models like Flux.1-dev , Wan 2.1 , and LTX-Video 2.5 before downloading 15–30GB checkpoints. Most calculators out there only count raw weight sizes and completely ignore T5-XXL text encoder offloading , VAE latent expansion (</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 10 · tracking, comfyui, flux, wan, ltx, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey everyone, I was constantly checking whether my RTX GPU could run newer models like Flux.1-dev , Wan 2.1 , and LTX-Video 2.5 before downloading 15–30GB checkpoints. Most calculators out there only count raw weight sizes and completely ignore T5-XXL text encoder offloading , VAE latent expansion (which balloons at 1080p/2K) , and LoRA overhead . So I built a lightweight, 100% client-side calculator: 👉 https://9blog.in/tools/comfyui-vram-calculator/ What it calculates: 1. Model Weights: Quantization levels (FP16, FP8 e4m3fn, Q4/Q8 GGUF) for Flux, SDXL, Wan 2.1, LTX-Video, and Qwen. 2. Text Encoders: Separate toggles for T5-XXL / CLIP offloading (e.g. keeping T5 in system RAM instead of GPU &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x6brk4/i_built_a_free_clientside_comfyui_vram_calculator/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1x6beos/aspiring_vfx_artistanimator_parents_think_its_a_2/</id><title>Aspiring VFX Artist/Animator. Parents think it’s a "$2 hobby" and demand a non-mandatory diploma. Need industry pros for a reality check on salaries and portfolios.</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1x6beos/aspiring_vfx_artistanimator_parents_think_its_a_2/"/>
-<published>2026-10-15T03:39:33+00:00</published><updated>2026-10-15T03:39:33+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="animation"/>
-<category term="vfx"/>
-<category term="blender"/>
-<category term="unreal"/>
-<category term="unreal engine"/>
-<summary>Hi everyone, I downloaded Blender exactly a year ago (late August 2025) and posted my first animation 3 months later. Since then, I’ve been practicing every single day, researching the industry for hours, and I recently expanded into Unreal Engine 4.27.2. I am fully committed to becoming a 3D Design</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 6 · animation, vfx, blender, unreal, unreal engine&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi everyone, I downloaded Blender exactly a year ago (late August 2025) and posted my first animation 3 months later. Since then, I’ve been practicing every single day, researching the industry for hours, and I recently expanded into Unreal Engine 4.27.2. I am fully committed to becoming a 3D Designer, Animator, or VFX artist when I grow up. Here is my dilemma: My parents are heavily against this path. They literally think it is just "sitting on a computer, making a quick animation, and getting paid $2." They don't believe it's a sustainable career. They are completely fixated on me getting a traditional university diploma—even though it isn't legally mandatory where we live and won't teach &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1x6beos/aspiring_vfx_artistanimator_parents_think_its_a_2/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
