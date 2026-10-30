@@ -2,8 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-30T01:30:20+00:00</updated>
+<updated>2026-10-30T03:30:19+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xj2ibe/petunia_harry_potter_universe_a_minimax_h3_short/</id><title>Petunia - Harry Potter Universe, a Minimax H3 Short Film</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xj2ibe/petunia_harry_potter_universe_a_minimax_h3_short/"/>
+<published>2026-10-30T01:36:08+00:00</published><updated>2026-10-30T01:36:08+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<category term="minimax"/>
+<summary>Decided to try a short film with H3. This is made with the custom API https://github.com/r34vtraining/Longshot_Studio Which runs locally with your own instance of ComfyUI. If you would like to load the entire project and see how I made it in the studio, drag this zip file into the UI to open it. htt</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Decided to try a short film with H3. This is made with the custom API https://github.com/r34vtraining/Longshot_Studio Which runs locally with your own instance of ComfyUI. If you would like to load the entire project and see how I made it in the studio, drag this zip file into the UI to open it. https://github.com/r34vtraining/Longshot_Studio/releases/tag/project_Petunia This is my first attempt at editing a short film I will say it's way harder than a music video. Some of the latest updates and ease of user improvement to the studio: Group folders, you can now group your shots by scenes, act, etc. One button to restore all the reference that was used for that group. Audio separation. Didn't&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xj2ibe/petunia_harry_potter_universe_a_minimax_h3_short/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xj1xxe/kreamossmix_workflow_one_model_composes_the_other/</id><title>KreaMossMix Workflow: One model composes, the other finishes it</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xj1xxe/kreamossmix_workflow_one_model_composes_the_other/"/>
+<published>2026-10-30T01:09:46+00:00</published><updated>2026-10-30T01:09:46+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="inpainting"/>
+<category term="comfyui"/>
+<category term="wan"/>
+<category term="lora"/>
+<summary>I've been using MOSS-Image and Krea 2 a lot lately, and they're good at different things, so I built a ComfyUI workflow that runs both from the same prompt and lets them work on each other's images. Every run can give you four results: Full MOSS : MOSS-Image on its own Full Krea : Krea 2 on its own </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · inpainting, comfyui, wan, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I've been using MOSS-Image and Krea 2 a lot lately, and they're good at different things, so I built a ComfyUI workflow that runs both from the same prompt and lets them work on each other's images. Every run can give you four results: Full MOSS : MOSS-Image on its own Full Krea : Krea 2 on its own Mix A : MOSS builds the composition, Krea finishes it Mix B : Krea makes the image, MOSS repaints part of it The images in this post are one prompt and one seed through all four paths, with no LoRAs, no inpainting and no editing. What's inside One slider (FINISH SHARE) controls how much of the image the second model repaints in both mixes Krea's "Raw recipe": Krea 2 Raw + the official Turbo LoRA a&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xj1xxe/kreamossmix_workflow_one_model_composes_the_other/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xizf4l/pika_h3_flex_official_6step_vs_fused_4step_turbo/</id><title>Pika H3 Flex: official 6-step vs fused 4-step Turbo LoRA</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xizf4l/pika_h3_flex_official_6step_vs_fused_4step_turbo/"/>
@@ -7080,42 +7102,5 @@
 <category term="multi-view"/>
 <summary>arXiv:2604.11142v2 Announce Type: replace Abstract: Low-light inputs obscure scene content, distort color, and corrupt geometric priors, substantially degrading 3D Gaussian Splatting. Although image enhancement can recover visibility, it often introduces chromatic deviations and fine-scale artifacts</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · gaussian splatting, 3d gaussian, multi-view&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2604.11142v2 Announce Type: replace Abstract: Low-light inputs obscure scene content, distort color, and corrupt geometric priors, substantially degrading 3D Gaussian Splatting. Although image enhancement can recover visibility, it often introduces chromatic deviations and fine-scale artifacts that propagate through multi-view reconstruction. Moreover, dense point priors can further amplify these errors and increase optimization cost. To address the coupled challenges, we present Naka-GS, a low-light 3DGS framework that jointly improves observations and Gaussian initialization while retaining the standard 3DGS renderer and training objective. Our Naka-Guided Chroma Correction treats a &lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2604.11142"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1x755p1/your_favorite_way_to_merge_loras/</id><title>Your favorite way to merge loras?</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x755p1/your_favorite_way_to_merge_loras/"/>
-<published>2026-10-16T03:00:59+00:00</published><updated>2026-10-16T03:00:59+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="lora"/>
-<summary>I'm currently playing around with pm Lora merger in comfyui. But what is your preferred method of combining Loras to save vram and to merge similar Loras to prevent over saturated images? submitted by /u/EasternAverage8 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I'm currently playing around with pm Lora merger in comfyui. But what is your preferred method of combining Loras to save vram and to merge similar Loras to prevent over saturated images? submitted by /u/EasternAverage8 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x755p1/your_favorite_way_to_merge_loras/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1x751x5/flux_3_klein_is_very_good_at_infographics/</id><title>Flux 3 Klein is very good at Infographics</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x751x5/flux_3_klein_is_very_good_at_infographics/"/>
-<published>2026-10-16T02:55:46+00:00</published><updated>2026-10-16T02:55:46+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="flux"/>
-<summary>submitted by /u/JadedScorpion [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/JadedScorpion [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x751x5/flux_3_klein_is_very_good_at_infographics/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1x74z4h/flux_3_klien_is_very_good_at_infographics/</id><title>Flux 3 Klien is very good at Infographics</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x74z4h/flux_3_klien_is_very_good_at_infographics/"/>
-<published>2026-10-16T02:51:29+00:00</published><updated>2026-10-16T02:51:29+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="flux"/>
-<summary>submitted by /u/JadedScorpion [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/JadedScorpion [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x74z4h/flux_3_klien_is_very_good_at_infographics/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1x74jib/image_upscaler/</id><title>Image upscaler?</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x74jib/image_upscaler/"/>
-<published>2026-10-16T02:28:37+00:00</published><updated>2026-10-16T02:28:37+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="upscaler"/>
-<summary>submitted by /u/VasaFromParadise [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · upscaler&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/VasaFromParadise [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x74jib/image_upscaler/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
