@@ -2,8 +2,55 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-30T21:30:20+00:00</updated>
+<updated>2026-10-30T23:30:20+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xjt4vb/minimax_h3_how_to_be_fast_and_still_hit_speed/</id><title>MiniMax H3: How to Be Fast and Still Hit (Speed LoRAs, Quality, Voice)</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xjt4vb/minimax_h3_how_to_be_fast_and_still_hit_speed/"/>
+<published>2026-10-30T22:18:00+00:00</published><updated>2026-10-30T22:18:00+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="minimax"/>
+<summary>submitted by /u/fa6637 [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/fa6637 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xjt4vb/minimax_h3_how_to_be_fast_and_still_hit_speed/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xjt4bg/ostris_releases_primal_vae_better_than_flux2_vae/</id><title>Ostris releases Primal VAE - better than Flux.2 VAE.</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xjt4bg/ostris_releases_primal_vae_better_than_flux2_vae/"/>
+<published>2026-10-30T22:17:19+00:00</published><updated>2026-10-30T22:17:19+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="flux"/>
+<category term="dit"/>
+<summary>https://preview.redd.it/dk1llswoioyh1.png?width=1604&amp;format=png&amp;auto=webp&amp;s=b088413f7e31de407ead6de0ba2bd99b61f992bd "Primal VAE is a VAE that only does 2x spatial down to 1 channel (or 2). If you patch 4 the latent, you end up with 8x at 16 channels, the same as most modern VAEs, without the need f</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · flux, dit&lt;/small&gt;&lt;/p&gt;&lt;p&gt;https://preview.redd.it/dk1llswoioyh1.png?width=1604&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=b088413f7e31de407ead6de0ba2bd99b61f992bd "Primal VAE is a VAE that only does 2x spatial down to 1 channel (or 2). If you patch 4 the latent, you end up with 8x at 16 channels, the same as most modern VAEs, without the need for deep compression. The DiT does the patching, like it already does, and the VAE stays small. The latent is trained to keep its norm in line with noise, so there is no scaling factor, no shift factor, and no latent normalization to carry around. Encode, patch 4, diffuse." HF: ostris/primal_vae · Hugging Face submitted by /u/Crazy-Repeat-2006 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xjt4bg/ostris_releases_primal_vae_better_than_flux2_vae/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1xjsqpy/element_forge_editable_ai_vfx_for_real_footage/</id><title>Element Forge: editable AI VFX for real footage, inside ComfyUI #OpenSourceHiggsfield</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xjsqpy/element_forge_editable_ai_vfx_for_real_footage/"/>
+<published>2026-10-30T22:01:01+00:00</published><updated>2026-10-30T22:01:01+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="vfx"/>
+<category term="hdr"/>
+<category term="comfyui"/>
+<category term="nuke"/>
+<summary>Hey, please don't hate me for an AI post.. I made this ComfyUI app for a challenge they hosted. I work as a motion designer and I've always missed a simple way to actually use AI as a tool and keep the result editable, so I made a VFX generator that uses depth and normal maps to help the effects fit</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 6 · vfx, hdr, comfyui, nuke&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey, please don't hate me for an AI post.. I made this ComfyUI app for a challenge they hosted. I work as a motion designer and I've always missed a simple way to actually use AI as a tool and keep the result editable, so I made a VFX generator that uses depth and normal maps to help the effects fit into the scene and exports EXR files to use in After Effects, Nuke or anything else. You can directly generate an effect just by writing a prompt, but you can also generate guiding particles first that react to the motion of the tracked subject, and then use them directly or as a guide for the AI. Oh, and you can also just use the app to enhance your own footage with NVIDIA Super Resolution and H&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xjsqpy/element_forge_editable_ai_vfx_for_real_footage/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xjr6ns/open_source_comfyui_motion_previs_studio_3d/</id><title>[Open Source] ComfyUI Motion Previs Studio — 3D Camera Blocking, Character Animation, OpenPose/Depth Exports &amp; Direct ComfyUI Rendering</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xjr6ns/open_source_comfyui_motion_previs_studio_3d/"/>
+<published>2026-10-30T20:57:27+00:00</published><updated>2026-10-30T20:57:27+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="video generation"/>
+<category term="video model"/>
+<category term="tracking"/>
+<category term="camera control"/>
+<category term="character animation"/>
+<category term="animation"/>
+<category term="rendering"/>
+<category term="comfyui"/>
+<summary>Hey everyone! I've been working on an open-source project called ComfyUI Motion Previs Studio , and I'd love to get some feedback from people who are seriously into ComfyUI, AI filmmaking, and advanced video generation workflows. The idea came from a problem I kept running into: We have increasingly</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 22 · video generation, video model, tracking, camera control, character animation, animation, rendering, comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey everyone! I've been working on an open-source project called ComfyUI Motion Previs Studio , and I'd love to get some feedback from people who are seriously into ComfyUI, AI filmmaking, and advanced video generation workflows. The idea came from a problem I kept running into: We have increasingly powerful video generation models, but precise control over camera movement, character blocking, spatial composition, and action choreography is still challenging. Instead of relying entirely on long prompts and repeated generations, what if we could actually direct the scene in 3D before sending it to a video model? That's what I'm trying to build. What the project does It's a local-first, intera&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xjr6ns/open_source_comfyui_motion_previs_studio_3d/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/vfx/comments/1xjo3no/any_good_resources_for_learning_stylized_vfx_like/</id><title>Any good resources for learning stylized vfx like guilty gear in blender/Godot?</title>
 <link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xjo3no/any_good_resources_for_learning_stylized_vfx_like/"/>
@@ -7279,17 +7326,5 @@
 <category term="lora"/>
 <summary>I’m working on a ComfyUI pipeline that renders characters in a consistent stylized look (custom style LoRA). Each scene has 1–4 characters, and each character has a real reference photo. Sometimes there’s also a non-human character. Single-character scenes work well. Multi-character scenes are where</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · comfyui, flux, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I’m working on a ComfyUI pipeline that renders characters in a consistent stylized look (custom style LoRA). Each scene has 1–4 characters, and each character has a real reference photo. Sometimes there’s also a non-human character. Single-character scenes work well. Multi-character scenes are where it breaks: Identity leakage: with global reference conditioning, features bleed between characters. One character’s hairstyle or accessory shows up on another character or on a background figure. Wrong face in the refine pass: a post-generation face pass that picks faces by detection and similarity puts character A’s face on character B or on a background figure. On stylized faces, embedding simi&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x7vhzg/binding_multiple_realface_identities_to_their_own/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1x7v3v2/automated_way_to_target_a_specific_characters/</id><title>Automated way to target a specific character's face in a multi-person image for stylized PuLID inpainting (API workflow)?</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x7v3v2/automated_way_to_target_a_specific_characters/"/>
-<published>2026-10-16T23:20:02+00:00</published><updated>2026-10-16T23:20:02+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="sam2"/>
-<category term="inpainting"/>
-<category term="comfyui"/>
-<category term="flux"/>
-<summary>I'm building an automated 2-stage ComfyUI workflow for an API: The issue: Because it's an API, character positions vary per generation, so relying on bbox index order ( left-to-right or largest-face ) often swaps the face onto the wrong character, or bleeds the identity across both faces. What is th</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 5 · sam2, inpainting, comfyui, flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I'm building an automated 2-stage ComfyUI workflow for an API: The issue: Because it's an API, character positions vary per generation, so relying on bbox index order ( left-to-right or largest-face ) often swaps the face onto the wrong character, or bleeds the identity across both faces. What is the most reliable, deterministic way in Flux to semantically isolate the target character's face (e.g., via Florence2 + SAM2 -&amp;gt; SEGS) and apply stylized PuLID inpainting only to that specific SEGS region? submitted by /u/Dry_Preparation_6762 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x7v3v2/automated_way_to_target_a_specific_characters/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
