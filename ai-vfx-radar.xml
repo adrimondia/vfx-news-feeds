@@ -2,8 +2,17 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-30T07:30:24+00:00</updated>
+<updated>2026-10-30T08:00:41+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xj5wmo/pika_h3_flex_official_6step_vs_fused_singularity/</id><title>Pika H3 Flex: official 6-step vs fused Singularity 4-step Turbo LoRA</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xj5wmo/pika_h3_flex_official_6step_vs_fused_singularity/"/>
+<published>2026-10-30T04:26:59+00:00</published><updated>2026-10-30T04:26:59+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="lora"/>
+<summary>model: https://huggingface.co/akhaliq/Pika-H3-Flex-Turbo-LoRA submitted by /u/Illustrious_Row_9971 [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;model: https://huggingface.co/akhaliq/Pika-H3-Flex-Turbo-LoRA submitted by /u/Illustrious_Row_9971 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xj5wmo/pika_h3_flex_official_6step_vs_fused_singularity/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://arxiv.org/abs/2610.37983</id><title>Hierarchical Diffusion for Camera-controlled Autoregressive Video Generation</title>
 <link rel="alternate" href="https://arxiv.org/abs/2610.37983"/>
@@ -202,6 +211,18 @@
 <content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.GR · score 4 · gaussian splatting, 3d gaussian, rendering&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.37115v2 Announce Type: replace-cross Abstract: We revisit the role of appearance modeling in 3D Gaussian Splatting (3DGS) and show that limited expressiveness in view-dependent reflectance is a key driver of representation redundancy. In standard 3DGS, low-order spherical harmonics (SH) are used, restricting the splats' ability to model high-frequency directional effects, which is typically compensated by increasing the number of splats. We propose \emph{NRF-GS: Neural Residual Fields for Gaussian Splatting}, a hybrid representation that replaces per-splat SH-bases with a shared neural residual field. Each Gaussian encodes a compact set of appearance features and a lambertian base&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.37115"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xj5461/sameface_a_new_comfyui_node_pack_measures_it_and/</id><title>SameFace, a new ComfyUI node pack, measures it and moves it back.</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xj5461/sameface_a_new_comfyui_node_pack_measures_it_and/"/>
+<published>2026-10-30T03:45:08+00:00</published><updated>2026-10-30T03:45:08+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="sam 2"/>
+<category term="optical flow"/>
+<category term="image editing"/>
+<category term="comfyui"/>
+<summary>A #OpenSourceHiggsfield challenge entry Problem it trying to solve Image editing restore, colourise and restyle faces well enough that the result still looks like the same person, but the shape of the face often shifts a little: an eye higher, a jaw wider. In the demo, Lincoln's head came out 3.7% w</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 5 · sam 2, optical flow, image editing, comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;A #OpenSourceHiggsfield challenge entry Problem it trying to solve Image editing restore, colourise and restyle faces well enough that the result still looks like the same person, but the shape of the face often shifts a little: an eye higher, a jaw wider. In the demo, Lincoln's head came out 3.7% wider for its height. what it can do SameFace measures that before and after face drift and repairs it: RAFT optical flow follows a few hundred points of the face from the original into the edit, inside a Grounded SAM 2 face mask the move, scale and turn of the whole face are taken out; what is left is drift, in % of face size, with a shift map, a histogram and a grid of where it is a thin-plate sp&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xj5461/sameface_a_new_comfyui_node_pack_measures_it_and/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xj2y9e/comfiest_free_advance_workflows_skills_for_comfyui/</id><title>Comfiest - Free Advance Workflows &amp; Skills For ComfyUI</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xj2y9e/comfiest_free_advance_workflows_skills_for_comfyui/"/>
 <published>2026-10-30T01:57:40+00:00</published><updated>2026-10-30T01:57:40+00:00</updated>
@@ -211,6 +232,34 @@
 <category term="ltx"/>
 <summary>Hey guys, Buff here! You may remember me from such open source software as LTX Realtime &amp; Daydream Live Scope ! I'm here with a new 100% free and open-source tool. Website: Comfie.st Demo Output: https://comfie.st/usecases/music-rap.mp4 GitHub: https://github.com/BuffMcBigHuge/Comfiest 60+ Free Work</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · comfyui, minimax, ltx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey guys, Buff here! You may remember me from such open source software as LTX Realtime &amp;amp; Daydream Live Scope ! I'm here with a new 100% free and open-source tool. Website: Comfie.st Demo Output: https://comfie.st/usecases/music-rap.mp4 GitHub: https://github.com/BuffMcBigHuge/Comfiest 60+ Free Workflows &amp;amp; Skills for Comfy! What is it? It's a toolset of workflows &amp;amp; skills designed to work with Comfy MCP and an Agentic Harness. Point your agent to the repo, and your agent will install ComfyUI, download all the necessary nodes and models, and have access to a myriad of different advanced SOTA workflows that go beyond Comfy templates. Who's it For? If you have a 3090, 4090, 5090 or other 24GB c&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xj2y9e/comfiest_free_advance_workflows_skills_for_comfyui/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xj2omy/i_lost_track_of_my_takes_after_1200_h3_renders_so/</id><title>I lost track of my takes after 1,200 H3 renders, so I built a take manager and editor for ComfyUI (open source)</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xj2omy/i_lost_track_of_my_takes_after_1200_h3_renders_so/"/>
+<published>2026-10-30T01:44:28+00:00</published><updated>2026-10-30T01:44:28+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="video editing"/>
+<category term="render"/>
+<category term="comfyui"/>
+<category term="minimax"/>
+<summary>I made a short film with MiniMax H3. It took about 1,200 renders to get 85 keepers, and by the end my output folder was useless. Hundreds of ComfyUI_00xxx_.mp4 files, and no way to tell which prompt or seed made which, or which version of the prompt it came from. I re-rendered shots I already had, b</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 5 · video editing, render, comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I made a short film with MiniMax H3. It took about 1,200 renders to get 85 keepers, and by the end my output folder was useless. Hundreds of ComfyUI_00xxx_.mp4 files, and no way to tell which prompt or seed made which, or which version of the prompt it came from. I re-rendered shots I already had, because finding the good take was harder than making a new one. So I built Picky , a custom node pack plus a browser editor (it works like a small video editing app, with a timeline) that runs alongside ComfyUI. What it does: Takes stay on their shot. Every render is filed under the scene it belongs to, with the exact prompt text and seed. Old prompt versions are kept, so you can go back. Compare a&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xj2omy/i_lost_track_of_my_takes_after_1200_h3_renders_so/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xj2mnd/i_built_phaino_an_opensource_ai_image_and_video/</id><title>I built Phaino, an open-source AI image and video studio that runs on ComfyUI (my #OpenSourceHiggsfield entry)</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xj2mnd/i_built_phaino_an_opensource_ai_image_and_video/"/>
+<published>2026-10-30T01:41:48+00:00</published><updated>2026-10-30T01:41:48+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="video generation"/>
+<category term="relight"/>
+<category term="comfyui"/>
+<category term="flux"/>
+<category term="wan"/>
+<category term="hunyuanvideo"/>
+<category term="kling"/>
+<category term="minimax"/>
+<summary>I built Phaino for Comfy's Open Source Higgsfield challenge. Every image and video it makes comes from a ComfyUI workflow, so I'm sharing it here. Phaino is a free app you run on your own computer. It sends each job to Comfy Cloud or to your own ComfyUI. Every result comes from a real ComfyUI workfl</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 11 · video generation, relight, comfyui, flux, wan, hunyuanvideo, kling, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I built Phaino for Comfy's Open Source Higgsfield challenge. Every image and video it makes comes from a ComfyUI workflow, so I'm sharing it here. Phaino is a free app you run on your own computer. It sends each job to Comfy Cloud or to your own ComfyUI. Every result comes from a real ComfyUI workflow that you can open, edit and copy. What it does: Image and video generation. Choose from most of the open models that have official ComfyUI templates. These include FLUX, Qwen Image, Z-Image, HiDream, SDXL, SD 3.5, Chroma, Wan 2.1 and 2.2, LTX, HunyuanVideo and MiniMax H3. Depending on the model, you can make video from text, from an image, or between a first and last frame. You can also create &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xj2mnd/i_built_phaino_an_opensource_ai_image_and_video/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xj2ibe/petunia_harry_potter_universe_a_minimax_h3_short/</id><title>Petunia - Harry Potter Universe, a Minimax H3 Short Film</title>
@@ -242,6 +291,41 @@
 <category term="lora"/>
 <summary>I've been using MOSS-Image and Krea 2 a lot lately, and they're good at different things, so I built a ComfyUI workflow that runs both from the same prompt and lets them work on each other's images. Every run can give you four results: Full MOSS : MOSS-Image on its own Full Krea : Krea 2 on its own </summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · inpainting, comfyui, wan, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I've been using MOSS-Image and Krea 2 a lot lately, and they're good at different things, so I built a ComfyUI workflow that runs both from the same prompt and lets them work on each other's images. Every run can give you four results: Full MOSS : MOSS-Image on its own Full Krea : Krea 2 on its own Mix A : MOSS builds the composition, Krea finishes it Mix B : Krea makes the image, MOSS repaints part of it The images in this post are one prompt and one seed through all four paths, with no LoRAs, no inpainting and no editing. What's inside One slider (FINISH SHARE) controls how much of the image the second model repaints in both mixes Krea's "Raw recipe": Krea 2 Raw + the official Turbo LoRA a&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xj1xxe/kreamossmix_workflow_one_model_composes_the_other/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xj1ud3/comfyart_a_free_local_lovart_for_comfyui_canvas/</id><title>ComfyArt: a free, local "Lovart" for ComfyUI. Canvas, design agent, image/video/audio/3D, all on your GPU (MIT)</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xj1ud3/comfyart_a_free_local_lovart_for_comfyui_canvas/"/>
+<published>2026-10-30T01:04:57+00:00</published><updated>2026-10-30T01:04:57+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="lip sync"/>
+<category term="comfyui"/>
+<category term="flux"/>
+<category term="minimax"/>
+<category term="lora"/>
+<category term="storyboard"/>
+<summary>I've been building ComfyArt : an AI design canvas in the spirit of Lovart, but open source and running fully on your own ComfyUI. No account, no credits, no cloud unless you want it. https://github.com/jtydhr88/ComfyArt What it is An infinite canvas (tldraw + React) that lives at /comfyart/ inside C</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 7 · lip sync, comfyui, flux, minimax, lora, storyboard&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I've been building ComfyArt : an AI design canvas in the spirit of Lovart, but open source and running fully on your own ComfyUI. No account, no credits, no cloud unless you want it. https://github.com/jtydhr88/ComfyArt What it is An infinite canvas (tldraw + React) that lives at /comfyart/ inside ComfyUI, with a ComfyArt button in the top bar (works in Comfy Desktop too) A design agent that actually works on the canvas through MCP tools: it looks at the board, generates, edits, places text and frames, builds slides and web pages Every generation runs as a normal ComfyUI workflow on your machine What you can do on the canvas Generate : Qwen Image 2.1, Z-Image Turbo, FLUX.2 Klein, FLUX 3 Klei&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xj1ud3/comfyart_a_free_local_lovart_for_comfyui_canvas/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xj05w6/cant_copy_text_inside_comfyui_anymore_is_anyone/</id><title>Can't copy text inside Comfyui anymore. Is anyone else having this problem?</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xj05w6/cant_copy_text_inside_comfyui_anymore_is_anyone/"/>
+<published>2026-10-29T23:48:19+00:00</published><updated>2026-10-29T23:48:19+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<summary>Pretty much just since yesterday, I all of a sudden cannot copy text from inside Comfyui. I can copy text from something OUTSIDE and paste it inside, but I cannot copy anything from inside and paste it anywhere, inside or outside. The biggest problem here is that I use a prompt generator, and it bec</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Pretty much just since yesterday, I all of a sudden cannot copy text from inside Comfyui. I can copy text from something OUTSIDE and paste it inside, but I cannot copy anything from inside and paste it anywhere, inside or outside. The biggest problem here is that I use a prompt generator, and it becomes very tedious if I can't copy the text from the generator into my prompt text box in the various workflows. submitted by /u/TheRealWitsfool [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xj05w6/cant_copy_text_inside_comfyui_anymore_is_anyone/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xizgdl/i_built_an_opensource_film_studio_on_top_of/</id><title>I built an open-source film studio on top of ComfyUI: cast, script and render seamless LTX 2.5 takes on an 8GB card #OpenSourceHiggsfield</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xizgdl/i_built_an_opensource_film_studio_on_top_of/"/>
+<published>2026-10-29T23:17:24+00:00</published><updated>2026-10-29T23:17:24+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="render"/>
+<category term="comfyui"/>
+<category term="minimax"/>
+<category term="ltx"/>
+<summary>Hi comfyui community! This is Kinoloom, a film studio built on top of ComfyUI. Its MIT-licensed and renders everything locally. Everything in the video is the real app and real output, made on RTX 3070 (8GB) with 64GB Ram. What it does - Video studio: give it a starting picture and a prompt per piec</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 7 · render, comfyui, minimax, ltx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi comfyui community! This is Kinoloom, a film studio built on top of ComfyUI. Its MIT-licensed and renders everything locally. Everything in the video is the real app and real output, made on RTX 3070 (8GB) with 64GB Ram. What it does - Video studio: give it a starting picture and a prompt per piece, and LTX 2.5 renders them as one continuous take, with sound. - Image Studio: stills and start pictures - Movie mode: cast your characters and location, write the story with any LLM ( API, Local, Copy and paste into chat AI ), then render and review. Minimax H3 is also supported, but the installer never downloads its weights. Its license doesnt allow use in the EU, UK, US or South Korea. If it c&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xizgdl/i_built_an_opensource_film_studio_on_top_of/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xizf4l/pika_h3_flex_official_6step_vs_fused_4step_turbo/</id><title>Pika H3 Flex: official 6-step vs fused 4-step Turbo LoRA</title>
@@ -289,6 +373,15 @@
 <category term="render"/>
 <summary>"Idol turns one picture of an object into a 3D Gaussian splat. Give it a render, a generated image or a photo: it removes the background, frames the object and generates up to 1,048,576 Gaussians, written as a standard 3DGS .ply . It runs on consumer GPUs, using 7.2 GB of VRAM and can run in under 2</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · 3d gaussian, render&lt;/small&gt;&lt;/p&gt;&lt;p&gt;"Idol turns one picture of an object into a 3D Gaussian splat. Give it a render, a generated image or a photo: it removes the background, frames the object and generates up to 1,048,576 Gaussians, written as a standard 3DGS .ply . It runs on consumer GPUs, using 7.2 GB of VRAM and can run in under 2 seconds." HF: speridlabs/idol · Hugging Face submitted by /u/Crazy-Repeat-2006 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xixgdb/speridlabs_idol_a_single_image_to_a_3d_gaussian/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xixg7e/release_comfyui_updater_update_core_and_frontend/</id><title>[Release] ComfyUI Updater — update Core and Frontend from Settings dialog</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xixg7e/release_comfyui_updater_update_core_and_frontend/"/>
+<published>2026-10-29T21:54:38+00:00</published><updated>2026-10-29T21:54:38+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<summary>Hi everyone! I’ve released ComfyUI Updater , an extension that adds a native Settings → Updates section to ComfyUI. I built it to make Core and frontend updates clearer and less opaque—especially when an update temporarily takes ComfyUI offline and requires an automatic restart. What it can do Updat</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi everyone! I’ve released ComfyUI Updater , an extension that adds a native Settings → Updates section to ComfyUI. I built it to make Core and frontend updates clearer and less opaque—especially when an update temporarily takes ComfyUI offline and requires an automatic restart. What it can do Update **ComfyUI Core** and the **official frontend** separately. Update both together using the recommended tested version pair. Show installed and latest versions, including release dates. Detect incompatible Core/frontend combinations. Keep the interface blocked and clearly informed while an update is running. Compare Python package compatibility before and after updating. Recover from failed instal&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xixg7e/release_comfyui_updater_update_core_and_frontend/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xixfwe/higgsfield_is_threatening_to_sue_comfyui_over/</id><title>Higgsfield is threatening to sue ComfyUI over Open Source Challenge</title>
@@ -7158,34 +7251,5 @@
 <category term="compositing"/>
 <summary>Hello, Im writing this message because I would be in the need of a bit of help. I left the industry a couple of months ago due to personal reasons, but now I feel like I want to come back. I wanted to ask for feedback for my compositing reel, its all the I can offer to be very honest. Let me know wh</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · compositing&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hello, Im writing this message because I would be in the need of a bit of help. I left the industry a couple of months ago due to personal reasons, but now I feel like I want to come back. I wanted to ask for feedback for my compositing reel, its all the I can offer to be very honest. Let me know what you guys think and if Im able to get real opportunities in compositing. https://vimeo.com/1226405665 Thank you. submitted by /u/Unable-Funny-7004 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1x7b48y/compositing_opportunities/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1x7a0qu/flux_3_klein_vs_flux2_klein_9b_vs_qwen_image_21/</id><title>FLUX 3 Klein vs FLUX.2 Klein 9B vs Qwen Image 2.1 vs Krea2</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x7a0qu/flux_3_klein_vs_flux2_klein_9b_vs_qwen_image_21/"/>
-<published>2026-10-16T07:44:34+00:00</published><updated>2026-10-16T07:44:34+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="flux"/>
-<summary>Body anatomy and realism- Krea2 and qwen2.1 just way ahead of flux models. flux 3 is worst in terms of body anatomy. flux 3 still has best in prompt following i think. Overall, Flux 3 was probably a capable model, lobotomized by extreme and unnecessary censorship. Prompts- https://pastebin.com/x5Lea</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Body anatomy and realism- Krea2 and qwen2.1 just way ahead of flux models. flux 3 is worst in terms of body anatomy. flux 3 still has best in prompt following i think. Overall, Flux 3 was probably a capable model, lobotomized by extreme and unnecessary censorship. Prompts- https://pastebin.com/x5LeaM8u submitted by /u/Devajyoti1231 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x7a0qu/flux_3_klein_vs_flux2_klein_9b_vs_qwen_image_21/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1x79vwl/file_drag_and_drop_into_comfyui_stopped_working/</id><title>File drag and drop into ComfyUI stopped working</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x79vwl/file_drag_and_drop_into_comfyui_stopped_working/"/>
-<published>2026-10-16T07:35:37+00:00</published><updated>2026-10-16T07:35:37+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<summary>There are already some threads recommending removing Mixlab, but in my case another node pack, ComfyUI-JDCN , was also blocking file drops. You can give Claude Code, Codex, Qwen, or another coding assistant access to your custom_nodes folder and ask: Check frontend JavaScript for global drop handler</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;There are already some threads recommending removing Mixlab, but in my case another node pack, ComfyUI-JDCN , was also blocking file drops. You can give Claude Code, Codex, Qwen, or another coding assistant access to your custom_nodes folder and ask: Check frontend JavaScript for global drop handlers that call preventDefault() or stopPropagation() and block ComfyUI’s native file handling. ComfyUI’s native drop handler skips events marked defaultPrevented . Ensure files the extension does not handle, including ordinary workflow JSON files, reach ComfyUI’s native handler while preserving extension-specific import behavior. You can also check manually: search the extensions’ .js files for addEv&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x79vwl/file_drag_and_drop_into_comfyui_stopped_working/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1x79uvd/paid_vfx_artist_unreal_engine_5_dark_highfantasy/</id><title>[PAID] VFX Artist – Unreal Engine 5 | Dark High-Fantasy MMORPG</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1x79uvd/paid_vfx_artist_unreal_engine_5_dark_highfantasy/"/>
-<published>2026-10-16T07:33:50+00:00</published><updated>2026-10-16T07:33:50+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="vfx"/>
-<category term="unreal"/>
-<category term="unreal engine"/>
-<summary>We’re an indie studio currently developing a modern reimagining of a previously successful MMORPG **IP** in Unreal Engine 5. We’re currently building our **vertical slice and announcement trailer** and are looking for a talented **VFX Artist** to help establish the visual language of our combat and </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 6 · vfx, unreal, unreal engine&lt;/small&gt;&lt;/p&gt;&lt;p&gt;We’re an indie studio currently developing a modern reimagining of a previously successful MMORPG **IP** in Unreal Engine 5. We’re currently building our **vertical slice and announcement trailer** and are looking for a talented **VFX Artist** to help establish the visual language of our combat and abilities. **What we’re looking for:** Experience creating VFX in **Unreal Engine 5**, preferably using Niagara Strong experience with **fantasy combat VFX** Spell casting, projectiles, impacts, persistent effects and environmental VFX Good understanding of **combat timing, readability and impact** Ability to work collaboratively with our development and art team A portfolio or reel demonstrating &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1x79uvd/paid_vfx_artist_unreal_engine_5_dark_highfantasy/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
