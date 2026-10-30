@@ -2,8 +2,46 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-30T15:30:39+00:00</updated>
+<updated>2026-10-30T17:30:35+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xjjst7/i_made_zentrainer_an_opensource_lora_trainer_that/</id><title>I made ZenTrainer: an open-source LoRA trainer that runs inside ComfyUI (image + video models, live previews, NVIDIA or AMD)</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xjjst7/i_made_zentrainer_an_opensource_lora_trainer_that/"/>
+<published>2026-10-30T16:18:50+00:00</published><updated>2026-10-30T16:18:50+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<category term="flux"/>
+<category term="minimax"/>
+<category term="lora"/>
+<summary>Hi all, I've been building ZenTrainer, a LoRA trainer that lives inside ComfyUI, and 0.4.0 is out today. It's free and open source (MIT). Trailer: https://www.youtube.com/watch?v=YS4BkGonflg GitHub: https://github.com/Nynxz/ZenTrainer What it does Trains LoRAs from a ComfyUI tab: pick a model, drop </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 6 · comfyui, flux, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi all, I've been building ZenTrainer, a LoRA trainer that lives inside ComfyUI, and 0.4.0 is out today. It's free and open source (MIT). Trailer: https://www.youtube.com/watch?v=YS4BkGonflg GitHub: https://github.com/Nynxz/ZenTrainer What it does Trains LoRAs from a ComfyUI tab: pick a model, drop in your pictures, and it fills in the files, captions and settings Live previews as it trains, and for characters a likeness score per checkpoint, so you can see which one is best instead of guessing Runs on NVIDIA and AMD (ROCm, Linux and Windows) Uses the models you already have in ComfyUI, wherever they are Models trained end to end MOSS Image, Krea 2, Fibo 2.0, FLUX 3 Image, FLUX.2 Klein 9B, Q&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xjjst7/i_made_zentrainer_an_opensource_lora_trainer_that/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xjhh92/layershop_love_child_of_photocraft_and_comfyui/</id><title>LayerShop: Love child of Photocraft and ComfyUI.</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xjhh92/layershop_love_child_of_photocraft_and_comfyui/"/>
+<published>2026-10-30T14:51:51+00:00</published><updated>2026-10-30T14:51:51+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="relighting"/>
+<category term="inpainting"/>
+<category term="outpainting"/>
+<category term="comfyui"/>
+<category term="flux"/>
+<category term="lora"/>
+<summary>Hi all, I'm Slav creator of LayerShop an open-source image editor for Windows based on the Photocraft (open source Photosh*p clone) but with local AI integration via ComfyUI. Here are some AI features you get with LayerShop: - a guided ComfyUI install (the engine) - guided download and setup of loca</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 7 · relighting, inpainting, outpainting, comfyui, flux, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi all, I'm Slav creator of LayerShop an open-source image editor for Windows based on the Photocraft (open source Photosh*p clone) but with local AI integration via ComfyUI. Here are some AI features you get with LayerShop: - a guided ComfyUI install (the engine) - guided download and setup of local models, including the latest ones like MOSS Image, Ming, Ernie, FLUX.3 Klein, Z-Image, Krea 2 and Ideogram 4 - support for the latest cloud models as well. Features workflows like text to image, image to image, inpainting and outpainting, named image references, targeted or whole-image edits, style transfer, photo restoration, relighting and more. All of that in a familiar Photoshop-style UI, on&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xjhh92/layershop_love_child_of_photocraft_and_comfyui/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xjh55q/i_lost_track_of_my_takes_after_1200_h3_renders_so/</id><title>I lost track of my takes after 1,200 H3 renders, so I built a take manager and editor for ComfyUI (open source)</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xjh55q/i_lost_track_of_my_takes_after_1200_h3_renders_so/"/>
+<published>2026-10-30T14:38:38+00:00</published><updated>2026-10-30T14:38:38+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="video editing"/>
+<category term="render"/>
+<category term="comfyui"/>
+<category term="minimax"/>
+<summary>I made a short film with MiniMax H3. It took about 1,200 renders to get 85 keepers, and by the end my output folder was useless. Hundreds of ComfyUI_00xxx_.mp4 files, and no way to tell which prompt or seed made which, or which version of the prompt it came from. I re-rendered shots I already had, b</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 5 · video editing, render, comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I made a short film with MiniMax H3. It took about 1,200 renders to get 85 keepers, and by the end my output folder was useless. Hundreds of ComfyUI_00xxx_.mp4 files, and no way to tell which prompt or seed made which, or which version of the prompt it came from. I re-rendered shots I already had, because finding the good take was harder than making a new one. So I built Picky , a custom node pack plus a browser editor (it works like a small video editing app, with a timeline) that runs alongside ComfyUI. What it does: Takes stay on their shot. Every render is filed under the scene it belongs to, with the exact prompt text and seed. Old prompt versions are kept, so you can go back. Compare a&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xjh55q/i_lost_track_of_my_takes_after_1200_h3_renders_so/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xjgy2w/minimax_motion_control_workflow_and/</id><title>Minimax Motion Control (Workflow and #opensourcehiggsfield app)</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xjgy2w/minimax_motion_control_workflow_and/"/>
@@ -25,6 +63,16 @@
 <category term="minimax"/>
 <summary>Made this for the Open Source Higgsfield challenge. It's a studio UI on top of your own ComfyUI. Workflows and models are open, and everything runs on your GPU, nothing on our servers. Image tools (Qwen Image 2.1 / Qwen Image Edit 2509): Relight, Remove Background, Edit Image, AI Stylist, Create Ima</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · relight, comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Made this for the Open Source Higgsfield challenge. It's a studio UI on top of your own ComfyUI. Workflows and models are open, and everything runs on your GPU, nothing on our servers. Image tools (Qwen Image 2.1 / Qwen Image Edit 2509): Relight, Remove Background, Edit Image, AI Stylist, Create Image, Product Scene Video tools (MiniMax H3): Create Video, Animate Image, Restyle Video, Transition, Keyframes, Motion Control, Replace Person Use the hosted app at https://neomarcopolo.co/marcostudio (start ComfyUI with --enable-cors-header https://neomarcopolo.co ) or run it locally. Setup is in the repo: https://github.com/NeoMarcoPolo/marcostudio The times in the video are the real gen times. I&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xjfxnz/i_made_marcostudio_13_image_and_video_tools_that/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xjexq7/spool_timeline_inside_comfyui_generate_and/</id><title>Spool: timeline inside ComfyUI. Generate and compare versions for each shot</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xjexq7/spool_timeline_inside_comfyui_generate_and/"/>
+<published>2026-10-30T13:09:00+00:00</published><updated>2026-10-30T13:09:00+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="render"/>
+<category term="comfyui"/>
+<summary>Spool is a timeline that runs inside ComfyUI, in its own tab. You drop a workflow on it and that becomes a shot. Hit generate, get a few takes, scrub through them and pick one. The other takes stay with the shot, so you can change your mind later. If you like a take you can drag it out onto the time</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · render, comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Spool is a timeline that runs inside ComfyUI, in its own tab. You drop a workflow on it and that becomes a shot. Hit generate, get a few takes, scrub through them and pick one. The other takes stay with the shot, so you can change your mind later. If you like a take you can drag it out onto the timeline and run another workflow on top of it. It doesn't touch your workflows, there are no Spool nodes to add. Renders on your GPU, or on Comfy Cloud. When you're happy with the cut you can render it or export it to Resolve/Premiere and finish there. https://github.com/doubletwisted/ComfyUI-Spool I built it for the way I work, so I'm curious how other people put together longer stuff in ComfyUI and&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xjexq7/spool_timeline_inside_comfyui_generate_and/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1xjette/open_jutsu_studio_put_your_characters_into_real/</id><title>Open Jutsu Studio — put your characters into real footage, then keep going (open source, your own ComfyUI)</title>
@@ -63,6 +111,16 @@
 <category term="comfyui"/>
 <summary>Hi everyone! I’ve released a free local catalog for browsing images generated with MOSS-Image in ComfyUI and copying their prompts. 33,937 character samples + 314 style samples 34,251 images total , approximately 2.07 GB / 1.92 GiB Search by name, series, or tags; filter styles into eight categories</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi everyone! I’ve released a free local catalog for browsing images generated with MOSS-Image in ComfyUI and copying their prompts. 33,937 character samples + 314 style samples 34,251 images total , approximately 2.07 GB / 1.92 GiB Search by name, series, or tags; filter styles into eight categories Copy prompts, add your own images, and edit entries English/Japanese interface and two sample ComfyUI workflows The images are uncurated: no pass/fail selection has been applied. Incorrect characters, mismatched prompts, and weak style results are included. Treat this as a reference for experimentation, not a collection of verified matches. To use it, download the catalog ZIP from the Release pag&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xjcmqe/free_mossimage_character_style_catalog_v012_34251/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xjbxpn/minimax_h3_v2v_test_8gb_vram/</id><title>MiniMax H3 v2v Test (8GB VRAM)</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xjbxpn/minimax_h3_v2v_test_8gb_vram/"/>
+<published>2026-10-30T10:41:41+00:00</published><updated>2026-10-30T10:41:41+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="render"/>
+<category term="minimax"/>
+<summary>832 x 640, render time 19:09 RTX-4070 8GB VRAM, 64GB RAM Tutorial https://youtu.be/q2mhXp69Fgk submitted by /u/big-boss_97 [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · render, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;832 x 640, render time 19:09 RTX-4070 8GB VRAM, 64GB RAM Tutorial https://youtu.be/q2mhXp69Fgk submitted by /u/big-boss_97 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xjbxpn/minimax_h3_v2v_test_8gb_vram/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1xjbwoe/openh3regenerate2k_for_comfyui_refinement_nodes/</id><title>Open-H3-Regenerate-2K for ComfyUI: refinement nodes, noise controls and comparison examples</title>
@@ -7223,46 +7281,5 @@
 <category term="flux"/>
 <summary>F2K 9B is superior to F3K _|_B. Evolving backward. Faak you Black Forest Labs. I tried upscaling, T2I, texture upgrade, N-SFW, SFW, Anime.. Pleased to announce, F3K sucks in everything, Cheers. submitted by /u/RadioQuick6509 [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · upscaling, flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;F2K 9B is superior to F3K _|_B. Evolving backward. Faak you Black Forest Labs. I tried upscaling, T2I, texture upgrade, N-SFW, SFW, Anime.. Pleased to announce, F3K sucks in everything, Cheers. submitted by /u/RadioQuick6509 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x7mklw/excuse_me_flux3_klein_i_had_some_other_intention/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1x7lpzo/voice_prompts_not_working_with_audio_references/</id><title>Voice prompts not working with audio references (minimax H3)</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x7lpzo/voice_prompts_not_working_with_audio_references/"/>
-<published>2026-10-16T17:01:10+00:00</published><updated>2026-10-16T17:01:10+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="minimax"/>
-<summary>So, I have a workflow that does reference to video. I feed it the image reference sheet of the main character and also his voice captured as about 20 seconds of normal speech. It all works splendidly, results look and sound as I want - Except...... Trying to get any variation in the voice is impossi</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;So, I have a workflow that does reference to video. I feed it the image reference sheet of the main character and also his voice captured as about 20 seconds of normal speech. It all works splendidly, results look and sound as I want - Except...... Trying to get any variation in the voice is impossible, everything comes out at normal volume and timbre. Key prompts are: &amp;lt;Subject 1&amp;gt; is the man shown in &amp;lt;Picture 1&amp;gt; &amp;lt;Audio 1&amp;gt; is the voice of &amp;lt;Subject 1&amp;gt; I've tried speech denoted as: &amp;lt;Subject 1&amp;gt; says &amp;lt;S1&amp;gt;&amp;lt;d&amp;gt;[English]Hello my name is Bob and this is my voice test.&amp;lt;/d&amp;gt; &amp;lt;Subject 1&amp;gt; whispers quietly &amp;lt;S1&amp;gt;&amp;lt;d&amp;gt;[English]Hello my name is Bob and this is my voice test.&amp;lt;/d&amp;gt; &amp;lt;Subject 1&amp;gt; says &amp;lt;S1&amp;gt;&amp;lt;d&amp;gt;&amp;lt;Whisper&amp;gt;H&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x7lpzo/voice_prompts_not_working_with_audio_references/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1x7l1h4/moss_8_step_turbo_lora/</id><title>Moss - 8 step turbo lora</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x7l1h4/moss_8_step_turbo_lora/"/>
-<published>2026-10-16T16:35:30+00:00</published><updated>2026-10-16T16:35:30+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="lora"/>
-<summary>just apply it as is in your comfy node submitted by /u/LodestoneRock [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;just apply it as is in your comfy node submitted by /u/LodestoneRock [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x7l1h4/moss_8_step_turbo_lora/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1x7kc3o/mossimage_5b_apache_20_on_a_12_gb_rtx_3060_int8/</id><title>MOSS-Image (5B, Apache 2.0) on a 12 GB RTX 3060: INT8 quant + lodestones' 8-step DMD turbo in ComfyUI - 35 hard prompts, one seed, no cherry-picking</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x7kc3o/mossimage_5b_apache_20_on_a_12_gb_rtx_3060_int8/"/>
-<published>2026-10-16T16:09:06+00:00</published><updated>2026-10-16T16:09:06+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="rendering"/>
-<category term="comfyui"/>
-<category term="flux"/>
-<category term="lora"/>
-<category term="dit"/>
-<summary>Tested the new MOSS-Image (5B single-stream DiT, Qwen3.5-9B text encoder, FLUX.2 VAE, Apache 2.0) on a plain RTX 3060 12 GB / 16 GB RAM with 35 deliberately hard prompts: dense on-image text in English/Chinese/Japanese, accents, exact counts, attribute binding, spatial relations, negation, hands, cl</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 6 · rendering, comfyui, flux, lora, dit&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Tested the new MOSS-Image (5B single-stream DiT, Qwen3.5-9B text encoder, FLUX.2 VAE, Apache 2.0) on a plain RTX 3060 12 GB / 16 GB RAM with 35 deliberately hard prompts: dense on-image text in English/Chinese/Japanese, accents, exact counts, attribute binding, spatial relations, negation, hands, clocks, very long prompts, and MOSS's Layout JSON. One seed (42), first result, no cherry-picking , failures included. The first image is a contact sheet of all 35. Setup Model: u/XCEED123 's INT8 ConvRot quant ( HF ), ~15 GB total, with the official ComfyUI node ( comfyui/moss-image from the GitHub repo). Peaks at ~9.7 GB VRAM. Base: 50 steps, euler / sgm_uniform, CFG 3, shift 5, uncond layer-skip &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x7kc3o/mossimage_5b_apache_20_on_a_12_gb_rtx_3060_int8/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1x7k099/is_runpod_comfyui_the_cheapest_way_to_make_ai/</id><title>Is RunPod + ComfyUI the Cheapest Way to Make AI Videos Without the Slop?</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x7k099/is_runpod_comfyui_the_cheapest_way_to_make_ai/"/>
-<published>2026-10-16T15:57:12+00:00</published><updated>2026-10-16T15:57:12+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="minimax"/>
-<summary>Hey guys, I haven’t tried this yet, but do you think this is the cheapest way to make videos? I can rent a beefy GPU/VRAM from RunPod. It seems like a solid idea, and I watched a video on how to do it. There’s MiniMax H3 open source, and I can run it through ComfyUI, which is free (but needs strong </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey guys, I haven’t tried this yet, but do you think this is the cheapest way to make videos? I can rent a beefy GPU/VRAM from RunPod. It seems like a solid idea, and I watched a video on how to do it. There’s MiniMax H3 open source, and I can run it through ComfyUI, which is free (but needs strong VRAM). There’s also Krea, and it looks really great for images. My goal right now is just to avoid AI slop and make videos that are engaging and look really good. I saw some people complaining that ComfyUI is restrictive, but after watching a free course on YouTube, I think it’s totally worth it because it gives you control over the details—and I feel that’s better than Higgsfield. I also saw that&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x7k099/is_runpod_comfyui_the_cheapest_way_to_make_ai/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
