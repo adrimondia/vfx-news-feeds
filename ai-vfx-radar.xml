@@ -2,8 +2,59 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-30T13:30:49+00:00</updated>
+<updated>2026-10-30T15:30:39+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xjgy2w/minimax_motion_control_workflow_and/</id><title>Minimax Motion Control (Workflow and #opensourcehiggsfield app)</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xjgy2w/minimax_motion_control_workflow_and/"/>
+<published>2026-10-30T14:30:53+00:00</published><updated>2026-10-30T14:30:53+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="video editing"/>
+<category term="denoising"/>
+<category term="minimax"/>
+<summary>Hey all, I have an implementation of time-to-move dual clock denoising for Minimax H3, allowing for motion control by dragging objects: https://drive.google.com/file/d/1mOHYcRX6fY3OamSHHRmvUfthCBEwgJZh/view?usp=sharing I have also created an app to do the annoying parts of separating background from</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · video editing, denoising, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey all, I have an implementation of time-to-move dual clock denoising for Minimax H3, allowing for motion control by dragging objects: https://drive.google.com/file/d/1mOHYcRX6fY3OamSHHRmvUfthCBEwgJZh/view?usp=sharing I have also created an app to do the annoying parts of separating background from drag object, and creating motion paths and masks, interfacing directly with Comfy as part of the #opensourcehiggsfield comp: https://github.com/PxTicks/h3-motion Lastly, there is another implementation of this in my video editing app which bridges with Comfy: https://github.com/PxTicks/vlo submitted by /u/PxTicks [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xjgy2w/minimax_motion_control_workflow_and/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xjfxnz/i_made_marcostudio_13_image_and_video_tools_that/</id><title>I made MarcoStudio, 13 image and video tools that run on your own ComfyUI (open source, MIT)</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xjfxnz/i_made_marcostudio_13_image_and_video_tools_that/"/>
+<published>2026-10-30T13:51:28+00:00</published><updated>2026-10-30T13:51:28+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="relight"/>
+<category term="comfyui"/>
+<category term="minimax"/>
+<summary>Made this for the Open Source Higgsfield challenge. It's a studio UI on top of your own ComfyUI. Workflows and models are open, and everything runs on your GPU, nothing on our servers. Image tools (Qwen Image 2.1 / Qwen Image Edit 2509): Relight, Remove Background, Edit Image, AI Stylist, Create Ima</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · relight, comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Made this for the Open Source Higgsfield challenge. It's a studio UI on top of your own ComfyUI. Workflows and models are open, and everything runs on your GPU, nothing on our servers. Image tools (Qwen Image 2.1 / Qwen Image Edit 2509): Relight, Remove Background, Edit Image, AI Stylist, Create Image, Product Scene Video tools (MiniMax H3): Create Video, Animate Image, Restyle Video, Transition, Keyframes, Motion Control, Replace Person Use the hosted app at https://neomarcopolo.co/marcostudio (start ComfyUI with --enable-cors-header https://neomarcopolo.co ) or run it locally. Setup is in the repo: https://github.com/NeoMarcoPolo/marcostudio The times in the video are the real gen times. I&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xjfxnz/i_made_marcostudio_13_image_and_video_tools_that/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xjette/open_jutsu_studio_put_your_characters_into_real/</id><title>Open Jutsu Studio — put your characters into real footage, then keep going (open source, your own ComfyUI)</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xjette/open_jutsu_studio_put_your_characters_into_real/"/>
+<published>2026-10-30T13:04:14+00:00</published><updated>2026-10-30T13:04:14+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<summary>I kept running into the same wall: a character swap gives you a clip, and that's the end of it. Reopening it later means re-describing everything. So this keeps the native H3 state with every take, references, frozen recipe, and the parent it came from and lets you continue from there in the same wo</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I kept running into the same wall: a character swap gives you a clip, and that's the end of it. Reopening it later means re-describing everything. So this keeps the native H3 state with every take, references, frozen recipe, and the parent it came from and lets you continue from there in the same workspace. The part I care about: a take is not just an MP4. It keeps the MP4 + MCTX + COND capsule, so it can be reopened and continued later. Reels are a by-product, not the point. Honest limits: you bring ComfyUI with the declared node packs, and person selection is still by reference click-to-track is next on the roadmap. No account, no credits. Repo: https://github.com/lvsas/OpenJutsuStudio sub&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xjette/open_jutsu_studio_put_your_characters_into_real/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xjdt6p/night_scene_renders_moss_krea2_qwen21/</id><title>Night scene renders - MOSS, Krea2, Qwen2.1</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xjdt6p/night_scene_renders_moss_krea2_qwen21/"/>
+<published>2026-10-30T12:18:10+00:00</published><updated>2026-10-30T12:18:10+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="render"/>
+<category term="rendering"/>
+<summary>All images rendered on Turbo versions, same prompt. No additional Loras. Moss follows lighting and dark scene rendering quite well. Krea2 did sharp render of objects but leave the scene too bright. Qwen did the best dark rendering but lighting is off. submitted by /u/Loose-Journalist-555 [link] [com</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · render, rendering&lt;/small&gt;&lt;/p&gt;&lt;p&gt;All images rendered on Turbo versions, same prompt. No additional Loras. Moss follows lighting and dark scene rendering quite well. Krea2 did sharp render of objects but leave the scene too bright. Qwen did the best dark rendering but lighting is off. submitted by /u/Loose-Journalist-555 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xjdt6p/night_scene_renders_moss_krea2_qwen21/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xjdalp/everything_the_community_built_for/</id><title>Everything the community built for #OpenSourceHiggsfield in two weeks: 90 open-source apps in one list</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xjdalp/everything_the_community_built_for/"/>
+<published>2026-10-30T11:54:00+00:00</published><updated>2026-10-30T11:54:00+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="vfx"/>
+<category term="previs"/>
+<summary>Submissions closed today, so I went through the hashtag and GitHub and catalogued every real entry: character swap, VFX, camera re-shoots, full studios, all on open weights. By category: 24 all-in-one studios, 15 camera/reshoot/previs tools, 13 character swaps, 10 film and music-video pipelines, 9 e</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · vfx, previs&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Submissions closed today, so I went through the hashtag and GitHub and catalogued every real entry: character swap, VFX, camera re-shoots, full studios, all on open weights. By category: 24 all-in-one studios, 15 camera/reshoot/previs tools, 13 character swaps, 10 film and music-video pipelines, 9 effects, 8 canvases and front ends, 7 ads/UGC, 4 character and dataset tools. Plus 6 older open alternatives at the end. Each entry has a one-line summary, stars and license. Empty repos, clones of other entries and private placeholders are left out. https://github.com/jutsuhq/open-source-higgsfield If your project is missing, drop the repo in the comments and I'll add it. Disclosure: I maintain th&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xjdalp/everything_the_community_built_for/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xjcmqe/free_mossimage_character_style_catalog_v012_34251/</id><title>Free MOSS-Image Character &amp; Style Catalog v0.1.2 — 34,251 samples, reusable prompts, and ComfyUI workflows</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xjcmqe/free_mossimage_character_style_catalog_v012_34251/"/>
@@ -12,6 +63,29 @@
 <category term="comfyui"/>
 <summary>Hi everyone! I’ve released a free local catalog for browsing images generated with MOSS-Image in ComfyUI and copying their prompts. 33,937 character samples + 314 style samples 34,251 images total , approximately 2.07 GB / 1.92 GiB Search by name, series, or tags; filter styles into eight categories</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi everyone! I’ve released a free local catalog for browsing images generated with MOSS-Image in ComfyUI and copying their prompts. 33,937 character samples + 314 style samples 34,251 images total , approximately 2.07 GB / 1.92 GiB Search by name, series, or tags; filter styles into eight categories Copy prompts, add your own images, and edit entries English/Japanese interface and two sample ComfyUI workflows The images are uncurated: no pass/fail selection has been applied. Incorrect characters, mismatched prompts, and weak style results are included. Treat this as a reference for experimentation, not a collection of verified matches. To use it, download the catalog ZIP from the Release pag&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xjcmqe/free_mossimage_character_style_catalog_v012_34251/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xjbwoe/openh3regenerate2k_for_comfyui_refinement_nodes/</id><title>Open-H3-Regenerate-2K for ComfyUI: refinement nodes, noise controls and comparison examples</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xjbwoe/openh3regenerate2k_for_comfyui_refinement_nodes/"/>
+<published>2026-10-30T10:39:58+00:00</published><updated>2026-10-30T10:39:58+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="upscaler"/>
+<category term="comfyui"/>
+<category term="lora"/>
+<summary>Hi, I put together a small experimental ComfyUI wrapper for NVIDIA’s Open-H3-Regenerate-2K. IMHO it's a bit like SoL-Refiner when it comes to output, but I decided I'll still set up a node for own tests after initial disappointment. There are already other ComfyUI options for this like Kijai's LoRA </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · upscaler, comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi, I put together a small experimental ComfyUI wrapper for NVIDIA’s Open-H3-Regenerate-2K. IMHO it's a bit like SoL-Refiner when it comes to output, but I decided I'll still set up a node for own tests after initial disappointment. There are already other ComfyUI options for this like Kijai's LoRA (which I think contains the refiner only?), but this one wraps NVIDIA’s published merged adapters, Sharp curve branches and learned latent upscaler into a few nodes, mainly to make experimentation easier. Main features: Refine existing 24 fps video or native MiniMax-H3 latents. Adjustable noise, an upscale-only mode and memory controls. Longer clips through independent windows, which can show visi&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xjbwoe/openh3regenerate2k_for_comfyui_refinement_nodes/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xjbipg/update_tired_of_writing_prompts_or_using/</id><title>--- UPDATE --- Tired of writing prompts? Or using expensive agents? #OpenSourceHiggsfield</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xjbipg/update_tired_of_writing_prompts_or_using/"/>
+<published>2026-10-30T10:17:02+00:00</published><updated>2026-10-30T10:17:02+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<category term="houdini"/>
+<category term="blender"/>
+<category term="maya"/>
+<summary>agentY is a free, open-source AI agent that lives inside ComfyUI. This entire video was made using it - I didn’t drop a single node or shape myself. UPDATE: WorldLabs updated their API, so now you can make high-quality splats from single, generated images - Runs on any LLM, including cheap ones like</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · comfyui, houdini, blender, maya&lt;/small&gt;&lt;/p&gt;&lt;p&gt;agentY is a free, open-source AI agent that lives inside ComfyUI. This entire video was made using it - I didn’t drop a single node or shape myself. UPDATE: WorldLabs updated their API, so now you can make high-quality splats from single, generated images - Runs on any LLM, including cheap ones like Qwen and DeepSeek, or fully local and free with Ollama or Strata - able to build complex workflows it has never seen, from what it finds on the web - but also uses the official ComfyUI template library - Judges its own outputs against your brief and re-renders what misses - MCP support with preset for Blender, Maya, Houdini, After Effects, and more - Builds motion graphics and edits video using r&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xjbipg/update_tired_of_writing_prompts_or_using/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xj9obu/you_can_now_use_relight_in_openjutsu/</id><title>You can now use 'Relight' in openjutsu</title>
@@ -7190,79 +7264,5 @@
 <category term="minimax"/>
 <summary>Hey guys, I haven’t tried this yet, but do you think this is the cheapest way to make videos? I can rent a beefy GPU/VRAM from RunPod. It seems like a solid idea, and I watched a video on how to do it. There’s MiniMax H3 open source, and I can run it through ComfyUI, which is free (but needs strong </summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey guys, I haven’t tried this yet, but do you think this is the cheapest way to make videos? I can rent a beefy GPU/VRAM from RunPod. It seems like a solid idea, and I watched a video on how to do it. There’s MiniMax H3 open source, and I can run it through ComfyUI, which is free (but needs strong VRAM). There’s also Krea, and it looks really great for images. My goal right now is just to avoid AI slop and make videos that are engaging and look really good. I saw some people complaining that ComfyUI is restrictive, but after watching a free course on YouTube, I think it’s totally worth it because it gives you control over the details—and I feel that’s better than Higgsfield. I also saw that&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x7k099/is_runpod_comfyui_the_cheapest_way_to_make_ai/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1x7in1r/flux_3_vs_krea_2_vs_z_image_turbo_vs_qwen_21/</id><title>FLUX 3 vs KREA 2 vs Z image turbo vs Qwen 2.1</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x7in1r/flux_3_vs_krea_2_vs_z_image_turbo_vs_qwen_21/"/>
-<published>2026-10-16T15:04:34+00:00</published><updated>2026-10-16T15:04:34+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="flux"/>
-<summary>submitted by /u/Ok_Contribution8157 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/Ok_Contribution8157 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x7in1r/flux_3_vs_krea_2_vs_z_image_turbo_vs_qwen_21/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1x7ifgx/flux_3_vs_krea_2_vs_z_image_turbo_vs_qwen_21/</id><title>FLUX 3 vs KREA 2 vs Z image turbo vs Qwen 2.1</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x7ifgx/flux_3_vs_krea_2_vs_z_image_turbo_vs_qwen_21/"/>
-<published>2026-10-16T14:56:47+00:00</published><updated>2026-10-16T14:56:47+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="flux"/>
-<summary>In most of my tests, the results are similar across these 4 models. Clearly, the other models are on the same level as Z-Image Turbo. Z-Image Turbo : still the best for realism. Krea 2 Turbo : slightly ahead for illustration. Qwen Image 2.1 : OK, but the noise issue must be fixed. FLUX 3 Klein : has</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;In most of my tests, the results are similar across these 4 models. Clearly, the other models are on the same level as Z-Image Turbo. Z-Image Turbo : still the best for realism. Krea 2 Turbo : slightly ahead for illustration. Qwen Image 2.1 : OK, but the noise issue must be fixed. FLUX 3 Klein : has some potential, especially with the first picture. The first prompt can be a good starting point for creating great images. More images are on my substack . The workflows are available on Civitai and Github . (I2I and T2I). Those 2 workflows generate a big image with the 4 images and the model's name on it, like the 3 images above, so you can easily share your results on social networks. submitte&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x7ifgx/flux_3_vs_krea_2_vs_z_image_turbo_vs_qwen_21/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1x7icna/can_someone_create_a_distillation_lora_like/</id><title>Can someone create a distillation lora (like lightx) for yue2 ?</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x7icna/can_someone_create_a_distillation_lora_like/"/>
-<published>2026-10-16T14:53:43+00:00</published><updated>2026-10-16T14:53:43+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="lora"/>
-<summary>Unfortunately, I haven't seen this for the audio model yet. submitted by /u/Inevitable_Pen9043 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Unfortunately, I haven't seen this for the audio model yet. submitted by /u/Inevitable_Pen9043 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x7icna/can_someone_create_a_distillation_lora_like/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1x7i3bp/can_i_train_a_pose_lora_from_just_one_image_or_is/</id><title>Can I train a pose LoRA from just one image, or is there a better way to replicate exact poses in Anima?</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x7i3bp/can_i_train_a_pose_lora_from_just_one_image_or_is/"/>
-<published>2026-10-16T14:43:23+00:00</published><updated>2026-10-16T14:43:23+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="lora"/>
-<summary>I’m generating images using the Anima model and building prompts using tags from Danbooru. I often come across artworks with amazing poses, body curves, camera angles, and compositions, but it’s nearly impossible to reproduce those results using tags alone. OpenPose doesn’t work well for these image</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I’m generating images using the Anima model and building prompts using tags from Danbooru. I often come across artworks with amazing poses, body curves, camera angles, and compositions, but it’s nearly impossible to reproduce those results using tags alone. OpenPose doesn’t work well for these images either, as I can’t accurately extract the skeleton and preserve all the details of the pose. I recently discovered that it’s possible to train concept LoRAs for specific poses. Is it actually possible to train a high-quality pose concept LoRA using just a single reference image? I’ve never trained a LoRA before, so I’m completely new to this. Or are there any other ways to achieve this? Translat&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x7i3bp/can_i_train_a_pose_lora_from_just_one_image_or_is/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1x7hu4w/seedance_25_pricing_comparison_in_2026_some/</id><title>Seedance 2.5 pricing comparison in 2026 — some providers are 3–4x cheaper than others</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x7hu4w/seedance_25_pricing_comparison_in_2026_some/"/>
-<published>2026-10-16T14:32:54+00:00</published><updated>2026-10-16T14:32:54+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="seedance"/>
-<summary>submitted by /u/videorouter [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · seedance&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/videorouter [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x7hu4w/seedance_25_pricing_comparison_in_2026_some/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1x7h280/a_layerandmask_way_of_editing_with_local_models/</id><title>A layer-and-mask way of editing with local models, running on your ComfyUI model files (turboCLI, LGPL)</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x7h280/a_layerandmask_way_of_editing_with_local_models/"/>
-<published>2026-10-16T14:02:22+00:00</published><updated>2026-10-16T14:02:22+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="flux"/>
-<summary>I've been working on a different way to edit images with local models, and since it builds on ComfyUI in a few ways, I'd really like this community's take on it before going further. The idea: instead of re-prompting one image until it's right, you build the picture out of generated layers and masks</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · comfyui, flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I've been working on a different way to edit images with local models, and since it builds on ComfyUI in a few ways, I'd really like this community's take on it before going further. The idea: instead of re-prompting one image until it's right, you build the picture out of generated layers and masks. In the demo I generate a knight, cut her out with InSPyReNet, rebuild the background without her using FLUX.2 Klein 9B, move her around, make just the castle pink, switch to night, and change her hair while keeping her face. There's no brush at all, only generation and masking. Under the hood, everything runs on turboCLI , an engine I wrote and released under the LGPL. Its ComfyUI side: Your mod&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x7h280/a_layerandmask_way_of_editing_with_local_models/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1x7gmal/game_of_thrones_battle_of_the_bastards_orange_cat/</id><title>Game of Thrones - Battle of the Bastards (Orange Cat Cut)</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x7gmal/game_of_thrones_battle_of_the_bastards_orange_cat/"/>
-<published>2026-10-16T13:44:19+00:00</published><updated>2026-10-16T13:44:19+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="upscaler"/>
-<category term="minimax"/>
-<summary>I got fixated on one stupid idea: What if Jon Snow in the Battle of the Bastards was just a chaotic orange cat, specifically a scruffy stray with a notched ear? To pull this off locally, I fed the original scene through the built-in reference to video template , hooked up a custom character sheet in</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · upscaler, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I got fixated on one stupid idea: What if Jon Snow in the Battle of the Bastards was just a chaotic orange cat, specifically a scruffy stray with a notched ear? To pull this off locally, I fed the original scene through the built-in reference to video template , hooked up a custom character sheet in a local MiniMax H3 V2V pipeline to keep the fur and leather armor locked down, and ran it through an RTX upscaler to save the details. Slapped on some grain so it doesn't look like a plastic toy, plus a custom orchestral score. submitted by /u/AxonkaiLab [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x7gmal/game_of_thrones_battle_of_the_bastards_orange_cat/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1x7gls2/i_built_a_crowd_system_for_my_ue_stadium_3d_assets/</id><title>I built a crowd system for my UE stadium 3d assets</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1x7gls2/i_built_a_crowd_system_for_my_ue_stadium_3d_assets/"/>
-<published>2026-10-16T13:43:42+00:00</published><updated>2026-10-16T13:43:42+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="animation"/>
-<summary>I make a series of arenas and stadiums for commercial videos and Fab (esports, hockey, MMA, concert, and more). Empty stands always looked like the weak spot, so I built a crowd tool and filled them with animated fans. The setup is Vertex Animation Textures + Hierarchical Instanced Static Meshes. Th</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 1 · animation&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I make a series of arenas and stadiums for commercial videos and Fab (esports, hockey, MMA, concert, and more). Empty stands always looked like the weak spot, so I built a crowd tool and filled them with animated fans. The setup is Vertex Animation Textures + Hierarchical Instanced Static Meshes. The animation runs on the GPU and the crowd is instanced, so you can fill a whole arena without skeletal mesh overhead. The video shows the Esports Arena Stadium. Lighting, LED screens, and neon are all part of the scene. I’m rolling this out across the rest of the arena series. Happy to answer questions about the VAT/HISM setup or performance. submitted by /u/OlegVerenko [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1x7gls2/i_built_a_crowd_system_for_my_ue_stadium_3d_assets/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
