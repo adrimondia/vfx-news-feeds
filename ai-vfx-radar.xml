@@ -2,8 +2,205 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-30T05:30:27+00:00</updated>
+<updated>2026-10-30T07:30:24+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://arxiv.org/abs/2610.37983</id><title>Hierarchical Diffusion for Camera-controlled Autoregressive Video Generation</title>
+<link rel="alternate" href="https://arxiv.org/abs/2610.37983"/>
+<published>2026-10-30T04:00:00+00:00</published><updated>2026-10-30T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="video generation"/>
+<category term="camera control"/>
+<category term="denoising"/>
+<category term="denoiser"/>
+<category term="consistency"/>
+<summary>arXiv:2610.37983v1 Announce Type: new Abstract: We address the task of long-video, camera-controlled generation from a single image. The dominant autoregressive paradigm suffers from two key limitations: (1) error accumulation over time, as distant frames are conditioned on previously generated outp</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 6 · video generation, camera control, denoising, denoiser, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2610.37983v1 Announce Type: new Abstract: We address the task of long-video, camera-controlled generation from a single image. The dominant autoregressive paradigm suffers from two key limitations: (1) error accumulation over time, as distant frames are conditioned on previously generated outputs rather than ground truth, leading to drift; and (2) ambiguity in how to incorporate camera control. Standard solutions to both--such as self-forcing and conditioning on explicit 6-DOF poses--either incur significant computational overhead or produce drifting scene geometries over time. We propose a simple and lightweight framework that combines autoregressive generation (WanAR) with hierarchic&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2610.37983"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2610.38278</id><title>BudSplat: Feed-forward 3D Gaussian Splatting under a Rendering Budget</title>
+<link rel="alternate" href="https://arxiv.org/abs/2610.38278"/>
+<published>2026-10-30T04:00:00+00:00</published><updated>2026-10-30T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="novel view synthesis"/>
+<category term="gaussian splatting"/>
+<category term="3d gaussian"/>
+<category term="rendering"/>
+<category term="multi-view"/>
+<summary>arXiv:2610.38278v1 Announce Type: new Abstract: Feed-forward 3D Gaussian Splatting has recently emerged as a promising alternative to per-scene optimization, enabling fast novel view synthesis by predicting Gaussian primitives directly from input images. However, it quickly faces a bottleneck of ren</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 8 · novel view synthesis, gaussian splatting, 3d gaussian, rendering, multi-view&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2610.38278v1 Announce Type: new Abstract: Feed-forward 3D Gaussian Splatting has recently emerged as a promising alternative to per-scene optimization, enabling fast novel view synthesis by predicting Gaussian primitives directly from input images. However, it quickly faces a bottleneck of rendering efficiency while scaling from sparse to dense multi-view inputs, which offer more geometric constraints but produce a rapidly growing set of candidate Gaussians. Existing solutions cannot reliably distinguish redundant primitives, leading to many redundant primitives from repeatedly observed regions and increased rendering cost without much gain in visual quality. We propose BudSplat, a com&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2610.38278"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2610.39399</id><title>ACD-GS: Asymmetric Curvature-aware Densification for 3D Gaussian Splatting</title>
+<link rel="alternate" href="https://arxiv.org/abs/2610.39399"/>
+<published>2026-10-30T04:00:00+00:00</published><updated>2026-10-30T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="novel view synthesis"/>
+<category term="gaussian splatting"/>
+<category term="3d gaussian"/>
+<category term="rendering"/>
+<category term="consistency"/>
+<category term="multi-view"/>
+<summary>arXiv:2610.39399v1 Announce Type: new Abstract: 3D Gaussian Splatting (3DGS) has emerged as a powerful paradigm for real-time photorealistic novel view synthesis. However, its training-time densification remains largely heuristic, often resulting in redundant Gaussian proliferation and inaccurate ge</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 8 · novel view synthesis, gaussian splatting, 3d gaussian, rendering, consistency, multi-view&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2610.39399v1 Announce Type: new Abstract: 3D Gaussian Splatting (3DGS) has emerged as a powerful paradigm for real-time photorealistic novel view synthesis. However, its training-time densification remains largely heuristic, often resulting in redundant Gaussian proliferation and inaccurate geometric reconstruction. Existing methods predominantly rely on first-order screen-space gradients to trigger cloning and splitting, which fail to distinguish true geometric discontinuities from high-frequency textures or noisy residuals. To address this limitation, we propose ACD-GS, an Asymmetric Curvature-aware Densification framework for compact and geometry-aware 3D Gaussian optimization. Our &lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2610.39399"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2610.39936</id><title>MLLM-GS: Multimodal Large Language Model Prior-Guided Fast Novel View Synthesis in Extreme Environments</title>
+<link rel="alternate" href="https://arxiv.org/abs/2610.39936"/>
+<published>2026-10-30T04:00:00+00:00</published><updated>2026-10-30T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="novel view synthesis"/>
+<category term="3d reconstruction"/>
+<category term="multi-view"/>
+<category term="scene reconstruction"/>
+<summary>arXiv:2610.39936v1 Announce Type: new Abstract: Novel view synthesis (NVS) in degraded scenes aims to reconstruct 3D scenes from multi-view observations affected by various degradations, and to generate clear and photorealistic images at unseen viewpoints. Despite recent advances, existing methods o</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · novel view synthesis, 3d reconstruction, multi-view, scene reconstruction&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2610.39936v1 Announce Type: new Abstract: Novel view synthesis (NVS) in degraded scenes aims to reconstruct 3D scenes from multi-view observations affected by various degradations, and to generate clear and photorealistic images at unseen viewpoints. Despite recent advances, existing methods often rely on degradation-specific models, limiting their generalization across diverse extreme environments. Generative models provide rich visual priors, but their outputs often suffer from pixel misalignment and color deviations, which can propagate into the reconstructed 3D scene and compromise reconstruction quality. Furthermore, the high computational and memory costs of 3D reconstruction hin&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2610.39936"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2610.40607</id><title>Fight World Model: Customizable Combat through Visual Interaction Proxies</title>
+<link rel="alternate" href="https://arxiv.org/abs/2610.40607"/>
+<published>2026-10-30T04:00:00+00:00</published><updated>2026-10-30T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="world model"/>
+<category term="render"/>
+<category term="rendering"/>
+<category term="consistency"/>
+<summary>arXiv:2610.40607v1 Announce Type: new Abstract: A playable, programmable game world must maintain persistent state, enforce executable rules, and support extensible gameplay mechanics. Existing video world models can generate plausible combat, yet struggle to keep hit reactions and health updates co</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · world model, render, rendering, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2610.40607v1 Announce Type: new Abstract: A playable, programmable game world must maintain persistent state, enforce executable rules, and support extensible gameplay mechanics. Existing video world models can generate plausible combat, yet struggle to keep hit reactions and health updates consistent with game rules. We introduce Fight World Model (FWM), which separates rule-governed combat execution from video rendering. An executable engine maintains state and resolves interactions. A deterministic compiler encodes these outcomes and attempted actions in a spatially and temporally aligned interaction proxy. The proxy aligns action and skill windows, brief hit reactions, and persiste&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2610.40607"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2610.40614</id><title>L3G-World: Real-Time Infinite World Generation with Latent 3D Gaussian Memory</title>
+<link rel="alternate" href="https://arxiv.org/abs/2610.40614"/>
+<published>2026-10-30T04:00:00+00:00</published><updated>2026-10-30T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="video diffusion"/>
+<category term="3d gaussian"/>
+<category term="rendering"/>
+<category term="diffusion transformer"/>
+<category term="dit"/>
+<category term="consistency"/>
+<summary>arXiv:2610.40614v1 Announce Type: new Abstract: Interactive world models generate visual content conditioned on user actions, yet maintaining spatial consistency over long-horizon exploration in real time remains challenging. Existing approaches rely on either temporal context or explicit 3D memory,</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 7 · video diffusion, 3d gaussian, rendering, diffusion transformer, dit, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2610.40614v1 Announce Type: new Abstract: Interactive world models generate visual content conditioned on user actions, yet maintaining spatial consistency over long-horizon exploration in real time remains challenging. Existing approaches rely on either temporal context or explicit 3D memory, both of which scale poorly because memory grows with the length of the generated stream. Moreover, explicit 3D memories condition latent video generators by re-encoding RGB renderings, which precludes real-time generation. In this paper, we introduce a Latent 3D Gaussian Memory (L3G) that combines the efficiency of feed-forward reconstruction with a compact, rapidly renderable scene representatio&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2610.40614"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2610.38080</id><title>Efficacy of Monocular Depth Estimation in Lunar Environments</title>
+<link rel="alternate" href="https://arxiv.org/abs/2610.38080"/>
+<published>2026-10-30T04:00:00+00:00</published><updated>2026-10-30T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="depth estimation"/>
+<category term="monocular depth"/>
+<category term="stereo"/>
+<summary>arXiv:2610.38080v1 Announce Type: cross Abstract: Recent advances in monocular depth estimation have demonstrated highly accurate 3D reconstructions within in-distribution terrestrial domains. This study investigates the efficacy of several state-of-the-art approaches to reconstruct out-of-distribut</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · depth estimation, monocular depth, stereo&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2610.38080v1 Announce Type: cross Abstract: Recent advances in monocular depth estimation have demonstrated highly accurate 3D reconstructions within in-distribution terrestrial domains. This study investigates the efficacy of several state-of-the-art approaches to reconstruct out-of-distribution lunar environments using the NASA Ames Polar Optical Lunar Analog Reconstruction (POLAR) stereo dataset and Apollo 17 surface imagery. By leveraging these datasets, we establish a robust analog-to-field validation pipeline that evaluates quantitative performance against ground-truth physical analogs and qualitative performance against historical field data. Our results indicate that select sta&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2610.38080"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2602.04814</id><title>X2HDR: HDR Image Generation in a Perceptually Uniform Space</title>
+<link rel="alternate" href="https://arxiv.org/abs/2602.04814"/>
+<published>2026-10-30T04:00:00+00:00</published><updated>2026-10-30T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="hdr"/>
+<category term="denoiser"/>
+<category term="stable diffusion"/>
+<category term="flux"/>
+<summary>arXiv:2602.04814v2 Announce Type: replace Abstract: High-dynamic-range (HDR) formats and displays are becoming increasingly prevalent, yet state-of-the-art image generators (e.g., Stable Diffusion and FLUX) typically remain limited to low-dynamic-range (LDR) output due to the lack of large-scale HDR</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · hdr, denoiser, stable diffusion, flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2602.04814v2 Announce Type: replace Abstract: High-dynamic-range (HDR) formats and displays are becoming increasingly prevalent, yet state-of-the-art image generators (e.g., Stable Diffusion and FLUX) typically remain limited to low-dynamic-range (LDR) output due to the lack of large-scale HDR training data. In this work, we show that existing pretrained diffusion models can be easily adapted to HDR generation without retraining from scratch. A key challenge is that HDR images are natively represented in linear RGB, whose intensity and color statistics differ substantially from those of sRGB-encoded LDR images. This gap, however, can be effectively bridged by converting HDR inputs into&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2602.04814"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2605.29583</id><title>BitC-3DGS: High-Capacity 3D Gaussian Splatting Watermarking via Bit Compression</title>
+<link rel="alternate" href="https://arxiv.org/abs/2605.29583"/>
+<published>2026-10-30T04:00:00+00:00</published><updated>2026-10-30T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="gaussian splatting"/>
+<category term="3d gaussian"/>
+<category term="tracking"/>
+<category term="rendering"/>
+<category term="blender"/>
+<summary>arXiv:2605.29583v2 Announce Type: replace Abstract: High-capacity watermarking is necessary for 3D Gaussian Splatting (3DGS) assets to embed rich information (\eg, ownership, provenance, and authentication codes), enabling reliable identification and provenance tracking in large-scale 3D asset pipel</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 7 · gaussian splatting, 3d gaussian, tracking, rendering, blender&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2605.29583v2 Announce Type: replace Abstract: High-capacity watermarking is necessary for 3D Gaussian Splatting (3DGS) assets to embed rich information (\eg, ownership, provenance, and authentication codes), enabling reliable identification and provenance tracking in large-scale 3D asset pipelines. Existing bit-to-token watermarking methods based on a pre-trained text encoder are limited to 77-bit messages due to CLIP's fixed 77-token context length, as tokens beyond this limit are unsupported by learned positional embeddings. To address this limitation, we introduce BitC-3DGS, a bit-compression framework that encodes multiple message bits per token. It employs a bit-compressed tokeniz&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2605.29583"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2606.29976</id><title>Learning Motion-Expressive 4D Gaussian Representations from Monocular Videos with Flow Splatting</title>
+<link rel="alternate" href="https://arxiv.org/abs/2606.29976"/>
+<published>2026-10-30T04:00:00+00:00</published><updated>2026-10-30T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="4d"/>
+<category term="optical flow"/>
+<category term="render"/>
+<category term="consistency"/>
+<summary>arXiv:2606.29976v2 Announce Type: replace Abstract: Reconstructing dynamic 3D scenes from monocular videos remains challenging because limited observations provide insufficient motion constraints. Conventional 4D Gaussian representations model spatiotemporal appearance efficiently, but the restricte</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · 4d, optical flow, render, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2606.29976v2 Announce Type: replace Abstract: Reconstructing dynamic 3D scenes from monocular videos remains challenging because limited observations provide insufficient motion constraints. Conventional 4D Gaussian representations model spatiotemporal appearance efficiently, but the restricted temporal evolution of each primitive makes complex nonlinear dynamics difficult to represent compactly. We propose a motion-expressive 4D Gaussian representation with time-varying means and covariances. By analytically differentiating Gaussian trajectories, we obtain Gaussian velocities and introduce Flow Splatting to render optical flow while accounting for camera motion, enabling dense motion &lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2606.29976"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2607.26232</id><title>Image Forgery Detection under Generative and Composited Background Replacement: A Benchmark with Processing-Matched Controls</title>
+<link rel="alternate" href="https://arxiv.org/abs/2607.26232"/>
+<published>2026-10-30T04:00:00+00:00</published><updated>2026-10-30T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="relighting"/>
+<category term="relight"/>
+<category term="segmentation"/>
+<category term="inpainting"/>
+<category term="compositing"/>
+<category term="flux"/>
+<summary>arXiv:2607.26232v3 Announce Type: replace Abstract: Consumer tools can now keep the subject of a photograph and replace, relight or edit everything behind it. Such edits place genuine people and objects in scenes they were never in, yet involve processing--resampling, harmonization, diffusion autoen</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 6 · relighting, relight, segmentation, inpainting, compositing, flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2607.26232v3 Announce Type: replace Abstract: Consumer tools can now keep the subject of a photograph and replace, relight or edit everything behind it. Such edits place genuine people and objects in scenes they were never in, yet involve processing--resampling, harmonization, diffusion autoencoders--that also occurs in benign workflows. We introduce BG-REAL, a benchmark of 25,624 images built from 2,485 Open Images photographs with a dominant subject and real donor scenes. Each recipient is edited by donor compositing, learned harmonization, generative background inpainting, foreground-conditioned relighting and local background edits, and is paired with authentic controls that share &lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2607.26232"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2610.13309</id><title>NovaSplat: Model-Free 6D Object Pose Estimation via 3D Gaussian Splatting Onboarding and Refinement</title>
+<link rel="alternate" href="https://arxiv.org/abs/2610.13309"/>
+<published>2026-10-30T04:00:00+00:00</published><updated>2026-10-30T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="gaussian splatting"/>
+<category term="3d gaussian"/>
+<category term="pose estimation"/>
+<summary>arXiv:2610.13309v2 Announce Type: replace Abstract: 6D pose estimation of novel objects without CAD models remains an open challenge: model-free methods must build the object representation from scratch during onboarding and have long trailed their model-based counterparts. We present NovaSplat, a m</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 6 · gaussian splatting, 3d gaussian, pose estimation&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2610.13309v2 Announce Type: replace Abstract: 6D pose estimation of novel objects without CAD models remains an open challenge: model-free methods must build the object representation from scratch during onboarding and have long trailed their model-based counterparts. We present NovaSplat, a model-free pipeline that closes this gap. From a short smartphone video captured at onboarding, we train a 3D Gaussian Splatting (3DGS) model that serves both as a template source for detection and coarse pose estimation and as a differentiable backbone for pose refinement. Our refiner optimizes the object-to-camera pose with combined photometric and geometric losses under a continuous rotation par&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2610.13309"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2603.29572</id><title>Turbo4DGen: Ultra-Fast Acceleration for 4D Generation</title>
+<link rel="alternate" href="https://arxiv.org/abs/2603.29572"/>
+<published>2026-10-30T04:00:00+00:00</published><updated>2026-10-30T04:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="4d"/>
+<category term="denoising"/>
+<category term="consistency"/>
+<category term="multi-view"/>
+<summary>arXiv:2603.29572v2 Announce Type: replace-cross Abstract: 4D generation, or dynamic 3D content generation, integrates spatial, temporal, and view dimensions to model realistic dynamic scenes, playing a foundational role in advancing world models and physical AI. However, maintaining long-chain consi</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · 4d, denoising, consistency, multi-view&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2603.29572v2 Announce Type: replace-cross Abstract: 4D generation, or dynamic 3D content generation, integrates spatial, temporal, and view dimensions to model realistic dynamic scenes, playing a foundational role in advancing world models and physical AI. However, maintaining long-chain consistency across both frames and viewpoints through the unique spatio-camera-motion (SCM) attention mechanism introduces substantial computational and memory overhead, often leading to out-of-memory (OOM) failures and prohibitive generation times. To address these challenges, we propose Turbo4DGen, an ultra-fast acceleration framework for diffusion-based multi-view 4D content generation. Turbo4DGen i&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2603.29572"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2609.01306</id><title>MeshSuite: A Unified Benchmark for Triangle- and Mesh-Based Neural Rendering</title>
+<link rel="alternate" href="https://arxiv.org/abs/2609.01306"/>
+<published>2026-10-30T04:00:00+00:00</published><updated>2026-10-30T04:00:00+00:00</updated>
+<author><name>arXiv cs.GR</name></author>
+<category term="compositing"/>
+<category term="render"/>
+<category term="rendering"/>
+<summary>arXiv:2609.01306v5 Announce Type: replace Abstract: Triangle- and mesh-based neural rendering seeks to bridge neural representations and graphics engines through triangle primitives compatible with standard rasterization. Yet existing methods were developed and evaluated under inconsistent settings,</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.GR · score 4 · compositing, render, rendering&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.01306v5 Announce Type: replace Abstract: Triangle- and mesh-based neural rendering seeks to bridge neural representations and graphics engines through triangle primitives compatible with standard rasterization. Yet existing methods were developed and evaluated under inconsistent settings, with few direct comparisons and little evaluation in graphics engines. We introduce MeshSuite, the first benchmark for systematic evaluation of engine deployment and Non-Engine Render in triangle- and mesh-based neural rendering. MeshSuite evaluates two deployment settings: Standard Deployment, using an opaque mesh pipeline with vertex colors and hardware Z-buffering; and Dedicated Deployment, us&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.01306"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2609.26015</id><title>SemantiScene-Edit: Expert-Synthesized Supervision and Dual-Path Source Conditioning for Instruction-Based Video Editing</title>
+<link rel="alternate" href="https://arxiv.org/abs/2609.26015"/>
+<published>2026-10-30T04:00:00+00:00</published><updated>2026-10-30T04:00:00+00:00</updated>
+<author><name>arXiv cs.GR</name></author>
+<category term="video diffusion"/>
+<category term="video editing"/>
+<category term="diffusion transformer"/>
+<category term="consistency"/>
+<summary>arXiv:2609.26015v2 Announce Type: replace-cross Abstract: Instruction-guided video editing requires executing a requested change while preserving the source video's appearance and temporal structure. We present SemantiScene-Edit, a video editor that couples a multimodal encoder with a pretrained vid</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.GR · score 5 · video diffusion, video editing, diffusion transformer, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.26015v2 Announce Type: replace-cross Abstract: Instruction-guided video editing requires executing a requested change while preserving the source video's appearance and temporal structure. We present SemantiScene-Edit, a video editor that couples a multimodal encoder with a pretrained video diffusion transformer. The encoder jointly processes source frames and the editing instruction, and learnable queries convey their semantic context to the generator through a trainable connector and cross-attention. A complementary visual pathway concatenates source-video latents with noisy target latents before patch embedding, supplying dense spatial and temporal information for content prese&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.26015"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2609.37115</id><title>NRF-GS: Neural Residual Fields for Expressive and Compact Gaussian Splatting</title>
+<link rel="alternate" href="https://arxiv.org/abs/2609.37115"/>
+<published>2026-10-30T04:00:00+00:00</published><updated>2026-10-30T04:00:00+00:00</updated>
+<author><name>arXiv cs.GR</name></author>
+<category term="gaussian splatting"/>
+<category term="3d gaussian"/>
+<category term="rendering"/>
+<summary>arXiv:2609.37115v2 Announce Type: replace-cross Abstract: We revisit the role of appearance modeling in 3D Gaussian Splatting (3DGS) and show that limited expressiveness in view-dependent reflectance is a key driver of representation redundancy. In standard 3DGS, low-order spherical harmonics (SH) a</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.GR · score 4 · gaussian splatting, 3d gaussian, rendering&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.37115v2 Announce Type: replace-cross Abstract: We revisit the role of appearance modeling in 3D Gaussian Splatting (3DGS) and show that limited expressiveness in view-dependent reflectance is a key driver of representation redundancy. In standard 3DGS, low-order spherical harmonics (SH) are used, restricting the splats' ability to model high-frequency directional effects, which is typically compensated by increasing the number of splats. We propose \emph{NRF-GS: Neural Residual Fields for Gaussian Splatting}, a hybrid representation that replaces per-splat SH-bases with a shared neural residual field. Each Gaussian encodes a compact set of appearance features and a lambertian base&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.37115"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xj2y9e/comfiest_free_advance_workflows_skills_for_comfyui/</id><title>Comfiest - Free Advance Workflows &amp; Skills For ComfyUI</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xj2y9e/comfiest_free_advance_workflows_skills_for_comfyui/"/>
@@ -6990,14 +7187,5 @@
 <category term="unreal engine"/>
 <summary>We’re an indie studio currently developing a modern reimagining of a previously successful MMORPG **IP** in Unreal Engine 5. We’re currently building our **vertical slice and announcement trailer** and are looking for a talented **VFX Artist** to help establish the visual language of our combat and </summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 6 · vfx, unreal, unreal engine&lt;/small&gt;&lt;/p&gt;&lt;p&gt;We’re an indie studio currently developing a modern reimagining of a previously successful MMORPG **IP** in Unreal Engine 5. We’re currently building our **vertical slice and announcement trailer** and are looking for a talented **VFX Artist** to help establish the visual language of our combat and abilities. **What we’re looking for:** Experience creating VFX in **Unreal Engine 5**, preferably using Niagara Strong experience with **fantasy combat VFX** Spell casting, projectiles, impacts, persistent effects and environmental VFX Good understanding of **combat timing, readability and impact** Ability to work collaboratively with our development and art team A portfolio or reel demonstrating &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1x79uvd/paid_vfx_artist_unreal_engine_5_dark_highfantasy/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1x78lco/comfyui_v0410_released/</id><title>ComfyUI v0.41.0 released</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x78lco/comfyui_v0410_released/"/>
-<published>2026-10-16T06:15:25+00:00</published><updated>2026-10-16T06:15:25+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<summary>I wasn't expecting there to be a new (non-patch) release so soon after 0.40.0, but here is the next version of ComfyUI. Additions include Flux3-image model support, MiniMax-H3 LightVAE support, among other fixes/improvements. submitted by /u/Fcking_Chuck [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I wasn't expecting there to be a new (non-patch) release so soon after 0.40.0, but here is the next version of ComfyUI. Additions include Flux3-image model support, MiniMax-H3 LightVAE support, among other fixes/improvements. submitted by /u/Fcking_Chuck [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x78lco/comfyui_v0410_released/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
