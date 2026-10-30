@@ -2,8 +2,41 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-30T09:30:43+00:00</updated>
+<updated>2026-10-30T11:30:52+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xj9obu/you_can_now_use_relight_in_openjutsu/</id><title>You can now use 'Relight' in openjutsu</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xj9obu/you_can_now_use_relight_in_openjutsu/"/>
+<published>2026-10-30T08:21:11+00:00</published><updated>2026-10-30T08:21:11+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="relight"/>
+<category term="render"/>
+<summary>Basically It has 17 preset of relight , built in, you can use your own prompt which just uses flux3 klein. Repo- https://github.com/D3voz/openjutsu Other improvement is- From picture now tells H3 what happens in the video The problem: H3 only got the normal-map video and the prepared picture. It cou</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · relight, render&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Basically It has 17 preset of relight , built in, you can use your own prompt which just uses flux3 klein. Repo- https://github.com/D3voz/openjutsu Other improvement is- From picture now tells H3 what happens in the video The problem: H3 only got the normal-map video and the prepared picture. It could see how the body moves but not what was going on: a cake became an unlabeled shape, and expressions and blowing out candles were lost. The fix: clicking Use this image now runs the visual describer you picked on the welcome screen (Qwen3-VL 8B by default) twice: Pass 1 watches the part of the video you selected, at 2 frames per second. It writes down the actions, held objects, mouth actions, ex&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xj9obu/you_can_now_use_relight_in_openjutsu/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xj824f/rapidh3_super_fast_h3_video_audio_in_about_2/</id><title>Rapid-H3: Super fast H3 video + audio in about 2 minutes on one DGX Spark</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xj824f/rapidh3_super_fast_h3_video_audio_in_about_2/"/>
+<published>2026-10-30T06:36:17+00:00</published><updated>2026-10-30T06:36:17+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="lip sync"/>
+<category term="render"/>
+<category term="comfyui"/>
+<category term="stereo"/>
+<summary>Rapid-H3 makes MiniMax-H3 (text / image → video with stereo audio) render 3–5× faster on a single NVIDIA DGX Spark (GB10) than stock ComfyUI, with no human-noticeable loss in picture, motion, voice or lip sync. It is a ComfyUI node pack plus two ready-made render presets: ts_h2 (default): ≈117 s for</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · lip sync, render, comfyui, stereo&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Rapid-H3 makes MiniMax-H3 (text / image → video with stereo audio) render 3–5× faster on a single NVIDIA DGX Spark (GB10) than stock ComfyUI, with no human-noticeable loss in picture, motion, voice or lip sync. It is a ComfyUI node pack plus two ready-made render presets: ts_h2 (default): ≈117 s for a 768×1344, 141-frame (≈5.9 s) first-frame clip with audio. ts_s6 (camera moves, close-up faces): ≈201 s , at stock level on every criterion we score. Stock ComfyUI bf16 at the 10-step reference: 590–630 s . The first render is slower on a fresh install, while the CUDA kernels are built (once) and the models load. submitted by /u/vchauhan_ [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xj824f/rapidh3_super_fast_h3_video_audio_in_about_2/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xj7fwy/hi_i_made_a_proof_of_concept_lora_for_flux3_klein/</id><title>Hi! I made a proof of concept LoRA for FLUX.3 Klein to manipulate text with an intuitive UI.</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xj7fwy/hi_i_made_a_proof_of_concept_lora_for_flux3_klein/"/>
+<published>2026-10-30T05:57:44+00:00</published><updated>2026-10-30T05:57:44+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="image editing"/>
+<category term="flux"/>
+<category term="lora"/>
+<summary>Hello everyone! I made a new LoRA for FLUX.3 Image Klein to manipulate text with bboxes. I think we all know that FLUX.3 Image Klein is not a very good model, and yes it is disappointing, but these bbox tools are unprecedented currently for local image editing models (at least until Ideogram V4.5, w</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 5 · image editing, flux, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hello everyone! I made a new LoRA for FLUX.3 Image Klein to manipulate text with bboxes. I think we all know that FLUX.3 Image Klein is not a very good model, and yes it is disappointing, but these bbox tools are unprecedented currently for local image editing models (at least until Ideogram V4.5, which i am excited for!). It really allows you to train brand new concepts. Here's the rundown of what the FontBox LoRA can do/improves upon FLUX.3 Image Klein's native abilities: Adjust the size of text; change what text says and specify left, right, or center alignment; move text to completely different places; bold or italicize text; Adjust the vertical scale of text; all in a custom node that I&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xj7fwy/hi_i_made_a_proof_of_concept_lora_for_flux3_klein/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1xj5wmo/pika_h3_flex_official_6step_vs_fused_singularity/</id><title>Pika H3 Flex: official 6-step vs fused Singularity 4-step Turbo LoRA</title>
 <link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xj5wmo/pika_h3_flex_official_6step_vs_fused_singularity/"/>
@@ -7233,14 +7266,5 @@
 <category term="consistency"/>
 <summary>FLUX.3 Klein has been pretty underwhelming for image generation, but when it comes to editing while preserving consistency, pose, and camera angle, I've found it to be almost PERFECT. With FLUX.2 Klein and Qwen 2.1, I struggled with editing photos at very high resolutions. As a photographer, what I'</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · upscaling, flux, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;FLUX.3 Klein has been pretty underwhelming for image generation, but when it comes to editing while preserving consistency, pose, and camera angle, I've found it to be almost PERFECT. With FLUX.2 Klein and Qwen 2.1, I struggled with editing photos at very high resolutions. As a photographer, what I've really been looking for is a model that can preserve realistic skin texture, fine details, and overall consistency , even at high resolutions. Being able to make consistent edits at these resolutions is a huge deal. We're finally getting into territory that's genuinely usable for professional photography workflows. My setup: GPU: RTX 5090 RAM: 64 GB Diffusion model: flux3_image_klein_sd_bf16.sa&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x7fx0m/flux3_klein_is_disappointing_for_image_generation/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1x7d340/mossimage_int8_comfyui/</id><title>MOSS-Image INT8 ComfyUI</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x7d340/mossimage_int8_comfyui/"/>
-<published>2026-10-16T10:55:06+00:00</published><updated>2026-10-16T10:55:06+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<summary>I've quantized MOSS-Image to INT8! From my initial testing, it’s relatively lossless. For now, it requires the MOSS-Image custom node, so I’ve included both the install info and a ready-to-use workflow in the repo. Once native support lands in ComfyUI, this exact quant will work right out of the box</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I've quantized MOSS-Image to INT8! From my initial testing, it’s relatively lossless. For now, it requires the MOSS-Image custom node, so I’ve included both the install info and a ready-to-use workflow in the repo. Once native support lands in ComfyUI, this exact quant will work right out of the box without needing any changes. You guys are going to be seriously surprised by how uncensored this model is. Have fun! Link: https://huggingface.co/XCEED123/MOSS-Image-SFT-INT8-ComfyUI submitted by /u/East_Shoe8814 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x7d340/mossimage_int8_comfyui/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
