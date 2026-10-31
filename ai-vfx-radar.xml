@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-31T13:30:19+00:00</updated>
+<updated>2026-10-31T15:30:20+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xk5m1s/try_this_workflow_too/</id><title>Try this workflow, too.</title>
@@ -7241,57 +7241,5 @@
 <category term="lora"/>
 <summary>Flux 3 is heavy censored to the point of breaking the anatomy. Moss is crazy uncensored. It can do anything without a lora. Anything. Insane. submitted by /u/Future-Coffee8138 [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · flux, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Flux 3 is heavy censored to the point of breaking the anatomy. Moss is crazy uncensored. It can do anything without a lora. Anything. Insane. submitted by /u/Future-Coffee8138 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x8dir5/moss_and_flux_3_are_on_opposite_ends_of_the/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1x8ch9k/mossimage_lora_training_is_now_in_academiasd/</id><title>MOSS-Image LoRA training is now in AcademiaSD LoRAlab Trainer Studio (Base and SFT, under 6 GB VRAM)</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x8ch9k/mossimage_lora_training_is_now_in_academiasd/"/>
-<published>2026-10-17T15:05:16+00:00</published><updated>2026-10-17T15:05:16+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<category term="flux"/>
-<category term="lora"/>
-<summary>AcademiaSD LoRAlab Trainer Studio now supports MOSS-Image, the new open text-to-image model (Apache 2.0). It is the 12th model family in the Studio, next to Qwen-Image 2.1, FLUX.2 Klein 9B, FLUX.3 Image Klein, Krea 2, Z-Image, ERNIE-Image, Ideogram 4, Anima, SDXL, LTX-2.3 and MiniMax-H3. What you ge</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · comfyui, flux, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;AcademiaSD LoRAlab Trainer Studio now supports MOSS-Image, the new open text-to-image model (Apache 2.0). It is the 12th model family in the Studio, next to Qwen-Image 2.1, FLUX.2 Klein 9B, FLUX.3 Image Klein, Krea 2, Z-Image, ERNIE-Image, Ideogram 4, Anima, SDXL, LTX-2.3 and MiniMax-H3. What you get: - Train on MOSS-Image Base (recommended for LoRAs) or on MOSS-Image SFT. Both share the text encoder, so one pre-cache works for either. - The 5B transformer runs in NF4. In my tests at 512x512, rank 8, it trains at about 1 s/step on an RTX 5080 using under 6 GB of VRAM. - Text encoder (Qwen3.5-9B, used only during the pre-cache): BF16 CPU offload by default (exact, works on any GPU), or INT8 /&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x8ch9k/mossimage_lora_training_is_now_in_academiasd/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1x8c1n9/flux_3_klein_workflows_have_been_updated/</id><title>FLUX 3 Klein Workflows have been updated</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x8c1n9/flux_3_klein_workflows_have_been_updated/"/>
-<published>2026-10-17T14:47:01+00:00</published><updated>2026-10-17T14:47:01+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="flux"/>
-<summary>submitted by /u/stephen370 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/stephen370 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x8c1n9/flux_3_klein_workflows_have_been_updated/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1x8apux/mossing_around_in_4k/</id><title>MOSSing around in 4K</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x8apux/mossing_around_in_4k/"/>
-<published>2026-10-17T13:49:16+00:00</published><updated>2026-10-17T13:49:16+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="rendering"/>
-<category term="cinematic"/>
-<summary>I've been doing some testing to check the creative variety of MOSS image. It has got quite some cinematic looks in it. Nothing fancy about the workflow, just straight from the comfy template. diffusion model: moss_image_sft_int8_convrot.safetensors text econder: qwen3.5_9b_int8_convrot.safetensors v</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · rendering, cinematic&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I've been doing some testing to check the creative variety of MOSS image. It has got quite some cinematic looks in it. Nothing fancy about the workflow, just straight from the comfy template. diffusion model: moss_image_sft_int8_convrot.safetensors text econder: qwen3.5_9b_int8_convrot.safetensors vae: flux2-vae steps: 50 cfg: 3 sampler: euler scheduler: sgm_uniform / simple With these settings 4k res is rendering in about 55 sec on a GTX5090 with peak VRAM 19,5 GB. Great fun so far! submitted by /u/RauschCraft [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x8apux/mossing_around_in_4k/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1x8aplh/fizgig_lora_isolation_a_new_process_for_more/</id><title>Fizgig Lora Isolation - A new process for more powerful LoRAs</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x8aplh/fizgig_lora_isolation_a_new_process_for_more/"/>
-<published>2026-10-17T13:48:53+00:00</published><updated>2026-10-17T13:48:53+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="compositing"/>
-<category term="lora"/>
-<summary>Fizgig LoRA Isolation: train 2 identities into one LoRA and keep everyone else looking like themselves. A normal LoRA of a person spreads their face onto everyone else in the picture: strangers in the background, a friend beside them, a crowd. LoRA Isolation stops that. Your subjects can stand toget</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · compositing, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Fizgig LoRA Isolation: train 2 identities into one LoRA and keep everyone else looking like themselves. A normal LoRA of a person spreads their face onto everyone else in the picture: strangers in the background, a friend beside them, a crowd. LoRA Isolation stops that. Your subjects can stand together in one picture, or next to someone the model already knows, and every face stays its own. The numbers (Krea 2, same pictures, same settings): with a normal LoRA, 48 of 50 strangers came out looking like the trained person. With LoRA Isolation, 0 of 50. Likeness of the trained person stayed the same (ArcFace 0.78 vs 0.77). Demo video: (same as above) https://youtu.be/CNh4sN5vN_8 A second person&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x8aplh/fizgig_lora_isolation_a_new_process_for_more/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1x8alxb/portable_multi_char_support_upto_4_character_in/</id><title>Portable multi .char support, Upto 4 character in same generation: Minimax H3 &amp; Flux Klein workflows</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x8alxb/portable_multi_char_support_upto_4_character_in/"/>
-<published>2026-10-17T13:44:09+00:00</published><updated>2026-10-17T13:44:09+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="video generation"/>
-<category term="comfyui"/>
-<category term="flux"/>
-<category term="minimax"/>
-<summary>Hey guys, I have been working on the consistent character portable format (.char) for a while &amp; couple of reddit users asked me if multi character is possible for image &amp; video generation. I have enabled the same in Omnichar with upto 4 characters in the same video or images. Here I have created 3 w</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 6 · video generation, comfyui, flux, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey guys, I have been working on the consistent character portable format (.char) for a while &amp;amp; couple of reddit users asked me if multi character is possible for image &amp;amp; video generation. I have enabled the same in Omnichar with upto 4 characters in the same video or images. Here I have created 3 workflows: Encode Characters (one workflow, which builds .char with MMH3 &amp;amp; Flux support) Use multi .char with MinimaxH3 Use multi .char with Flux2 Klein 9B (4b also supported) Detailed guide on building full consistent character(workflow included): Previous reddit post Official repo: https://github.com/omnichar/OmniChar (Opensource) ComfyUI Node: https://github.com/omnichar/ComfyUI-Omnichar/tree/ma&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x8alxb/portable_multi_char_support_upto_4_character_in/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
