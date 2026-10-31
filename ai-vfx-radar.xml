@@ -2,8 +2,40 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-31T15:30:20+00:00</updated>
+<updated>2026-10-31T17:30:20+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1xkfpqm/how_to_understand_syntheyes_usd_export_options/</id><title>How to understand Syntheyes USD export options?</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xkfpqm/how_to_understand_syntheyes_usd_export_options/"/>
+<published>2026-10-31T17:13:02+00:00</published><updated>2026-10-31T17:13:02+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="animation"/>
+<category term="unreal"/>
+<category term="unreal engine"/>
+<summary>Hi, there are some nuanced options in this export window. In my case the pipeline is to Unreal Engine where I am adding animation that geometrically makes sense in the scene. I solved with 0.8 error, set alignment manually, added reference mesh that corresponds to a trail in the woods. It is along t</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 3 · animation, unreal, unreal engine&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi, there are some nuanced options in this export window. In my case the pipeline is to Unreal Engine where I am adding animation that geometrically makes sense in the scene. I solved with 0.8 error, set alignment manually, added reference mesh that corresponds to a trail in the woods. It is along that mesh where I am going to animate later. So with that said, here are the questions: Interpret units as: in syntheyes I set coordinate system as if meters. But Unreal Engine assumes cm, so people often scale by 0.01 when exporting to Unreal. Does that mean here I choose centimeters? Include projection screen. It says this is to hold shot image and distort it if the image preprocessor distorted i&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xkfpqm/how_to_understand_syntheyes_usd_export_options/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xkd1vl/minimax_h3_x2_detail_vae_update_add_int8_convrot/</id><title>MiniMax H3 X2 Detail VAE - update, add int8_ConvRot version</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xkd1vl/minimax_h3_x2_detail_vae_update_add_int8_convrot/"/>
+<published>2026-10-31T15:25:50+00:00</published><updated>2026-10-31T15:25:50+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="rendering"/>
+<category term="minimax"/>
+<summary>At the request of many of you, I added the Int8_ConvRot version speach1sdef178/MiniMax-H3-X2-Detail-VAE at main Original reddit post here: MiniMax H3 X2 Detail VAE – my attempt to get more detail from the H3 VAE or story about fail : r/StableDiffusion if you ask about quality, yes, the quality is sl</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · rendering, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;At the request of many of you, I added the Int8_ConvRot version speach1sdef178/MiniMax-H3-X2-Detail-VAE at main Original reddit post here: MiniMax H3 X2 Detail VAE – my attempt to get more detail from the H3 VAE or story about fail : r/StableDiffusion if you ask about quality, yes, the quality is slightly lower than the bf16 version (I add videos for comparison in speach1sdef178/MiniMax-H3-X2-Detail-VAE at main ), but this is expected, although the quality reduction is quite insignificant, but the rendering is slightly faster. Good luck with your projects. https://reddit.com/link/1xkd1vl/video/rtqu8fccltyh1/player submitted by /u/NoMouse9610 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xkd1vl/minimax_h3_x2_detail_vae_update_add_int8_convrot/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xka3ps/the_fact_that_i_can_make_videos_like_this_with/</id><title>The fact that I can make videos like this with MiniMax H3 proves that MiniMax is the king of open-source video models. We're only scratching the surface of its true potential.</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xka3ps/the_fact_that_i_can_make_videos_like_this_with/"/>
+<published>2026-10-31T13:22:14+00:00</published><updated>2026-10-31T13:22:14+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="frame interpolation"/>
+<category term="minimax"/>
+<category term="consistency"/>
+<summary>This video was generated at 0.6 megapixels, with 10 seconds per clip and 9 clips in total. It took around 2.5 hours to generate. After that, I upscaled it and applied 2x frame interpolation. I was inspired by Sinaboto's videos and wanted to create similar content for TikTok. After a lot of trial and</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · frame interpolation, minimax, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;This video was generated at 0.6 megapixels, with 10 seconds per clip and 9 clips in total. It took around 2.5 hours to generate. After that, I upscaled it and applied 2x frame interpolation. I was inspired by Sinaboto's videos and wanted to create similar content for TikTok. After a lot of trial and error, I can finally make seamless videos like this with MH3! Specs: RTX 3060 12GB, 16GB RAM Workflow: https://github.com/chanon/comfyui-obvpm-timeline I can't wait to see what other people cooking, especially now that we've reached this level. I really hope they release an updated model, maybe MiniMax H3.5, with improvements to distant faces and objects, as well as action speed and motion consis&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xka3ps/the_fact_that_i_can_make_videos_like_this_with/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xk5m1s/try_this_workflow_too/</id><title>Try this workflow, too.</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xk5m1s/try_this_workflow_too/"/>
@@ -7213,33 +7245,5 @@
 <category term="lora"/>
 <summary>Fizgig LoRA Isolation: train 2 identities into one LoRA and keep everyone else looking like themselves. A normal LoRA of a person spreads their face onto everyone else in the picture: strangers in the background, a friend beside them, a crowd. LoRA Isolation stops that. Your subjects can stand toget</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · compositing, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Fizgig LoRA Isolation: train 2 identities into one LoRA and keep everyone else looking like themselves. A normal LoRA of a person spreads their face onto everyone else in the picture: strangers in the background, a friend beside them, a crowd. LoRA Isolation stops that. Your subjects can stand together in one picture, or next to someone the model already knows, and every face stays its own. The numbers (Krea 2, same pictures, same settings): with a normal LoRA, 48 of 50 strangers came out looking like the trained person. With LoRA Isolation, 0 of 50. Likeness of the trained person stayed the same (ArcFace 0.78 vs 0.77). Demo video: (same as above) https://youtu.be/CNh4sN5vN_8 A second person&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x8g9bh/fizgig_lora_isolation_a_new_process_for_more/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1x8fdmv/moss_image_4_step_turbo_lora/</id><title>Moss Image 4 step turbo lora</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x8fdmv/moss_image_4_step_turbo_lora/"/>
-<published>2026-10-17T17:02:52+00:00</published><updated>2026-10-17T17:02:52+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="lora"/>
-<summary>https://huggingface.co/akhaliq/MOSS-Image-SFT-4-steps submitted by /u/Illustrious_Row_9971 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;https://huggingface.co/akhaliq/MOSS-Image-SFT-4-steps submitted by /u/Illustrious_Row_9971 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x8fdmv/moss_image_4_step_turbo_lora/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1x8emmt/graphic_for_2d_animation_ai/</id><title>Graphic for 2D Animation AI</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x8emmt/graphic_for_2d_animation_ai/"/>
-<published>2026-10-17T16:32:52+00:00</published><updated>2026-10-17T16:32:52+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="animation"/>
-<summary>Hi, I’m a 2D animator looking to get into the world of AI to optimize some of my workflows. My plan is to use AI for in-betweening (creating the intermediate frames) for animations that don’t require an ultra-polished, high-end finish; I will still be drawing the keyframes and breakdowns (the most i</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · animation&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi, I’m a 2D animator looking to get into the world of AI to optimize some of my workflows. My plan is to use AI for in-betweening (creating the intermediate frames) for animations that don’t require an ultra-polished, high-end finish; I will still be drawing the keyframes and breakdowns (the most important frames in the animation) myself. I’d also like to use AI to paint the occasional background. Currently, I have 32GB of DDR5 RAM and a Ryzen 5 8600G processor. I’m looking to buy a graphics card, but I’m not entirely sure which one would be the best fit. I’m considering an RTX 4070 Super, a 5070, or a 5060 Ti 16GB (my budget is around $800). submitted by /u/thecryptoanimator [link] [commen&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x8emmt/graphic_for_2d_animation_ai/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1x8dir5/moss_and_flux_3_are_on_opposite_ends_of_the/</id><title>Moss and Flux 3 are on opposite ends of the spectrum</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x8dir5/moss_and_flux_3_are_on_opposite_ends_of_the/"/>
-<published>2026-10-17T15:48:31+00:00</published><updated>2026-10-17T15:48:31+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="flux"/>
-<category term="lora"/>
-<summary>Flux 3 is heavy censored to the point of breaking the anatomy. Moss is crazy uncensored. It can do anything without a lora. Anything. Insane. submitted by /u/Future-Coffee8138 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · flux, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Flux 3 is heavy censored to the point of breaking the anatomy. Moss is crazy uncensored. It can do anything without a lora. Anything. Insane. submitted by /u/Future-Coffee8138 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x8dir5/moss_and_flux_3_are_on_opposite_ends_of_the/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
