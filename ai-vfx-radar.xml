@@ -2,8 +2,22 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-31T09:30:19+00:00</updated>
+<updated>2026-10-31T11:30:18+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xk5m1s/try_this_workflow_too/</id><title>Try this workflow, too.</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xk5m1s/try_this_workflow_too/"/>
+<published>2026-10-31T09:18:17+00:00</published><updated>2026-10-31T09:18:17+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="upscaler"/>
+<category term="render"/>
+<category term="rendering"/>
+<category term="comfyui"/>
+<category term="minimax"/>
+<category term="consistency"/>
+<summary>https://github.com/roycho87/clown_context_suite/blob/main/example_workflows/clowns_for_picard.json .98 MP No Upscaler Took about an hour on a 5090. It's slightly slower because to use the capstone and keystone i have to render about 14 extra steps but the results are pretty amazing. It manages to gi</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 6 · upscaler, render, rendering, comfyui, minimax, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;https://github.com/roycho87/clown_context_suite/blob/main/example_workflows/clowns_for_picard.json .98 MP No Upscaler Took about an hour on a 5090. It's slightly slower because to use the capstone and keystone i have to render about 14 extra steps but the results are pretty amazing. It manages to give near perfect consistency the entire way by rendering the full 8 steps of each context motion using keystone and capstone to prevent degradation from building too significantly, so that each next part of the chain can build off a fully denoised section. Then it throws away the top 2 steps of every window and does 2 context window passes. Final result is a perfectly consistent video with no degra&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xk5m1s/try_this_workflow_too/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xk4xpd/pika_h3_flex_openh3egenerate2k_running_locally_on/</id><title>Pika H3 Flex + open-h3-egenerate-2K running locally on Mac</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xk4xpd/pika_h3_flex_openh3egenerate2k_running_locally_on/"/>
@@ -7301,26 +7315,5 @@
 <category term="flux"/>
 <summary>You can watch full tutorial here : https://www.youtube.com/watch?v=nxsCBTcCVp4 submitted by /u/CeFurkan [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;You can watch full tutorial here : https://www.youtube.com/watch?v=nxsCBTcCVp4 submitted by /u/CeFurkan [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x88pav/tested_flux_3_klein_convrot_int8_hq_speed_ups_on/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1x87qai/mossimage_quants_sft_fix/</id><title>MossImage quants &amp; SFT fix</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x87qai/mossimage_quants_sft_fix/"/>
-<published>2026-10-17T11:17:14+00:00</published><updated>2026-10-17T11:17:14+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="render"/>
-<category term="flux"/>
-<category term="lora"/>
-<summary>https://huggingface.co/Abiray/MOSS-Image-SFT-INT8-convrot I recommend the INT8 as a start. nVidia RTX20x+ &amp; RDNA2 (RX6000)+ are good. ARM needs fairly recent GPUs to have the right OpCodes; Raspberry Pi 5 &amp; M5/ A17 Pro + for NE support. If those seem too slow, or if really VRAM constrained, then try</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · render, flux, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;https://huggingface.co/Abiray/MOSS-Image-SFT-INT8-convrot I recommend the INT8 as a start. nVidia RTX20x+ &amp;amp; RDNA2 (RX6000)+ are good. ARM needs fairly recent GPUs to have the right OpCodes; Raspberry Pi 5 &amp;amp; M5/ A17 Pro + for NE support. If those seem too slow, or if really VRAM constrained, then try a GGUF quant . Also there is a SFT banding fix LoRA . render speedups : https://huggingface.co/darask0/MOSS-Image_4-step_adapter_lora upgrade your Flux VAE : https://github.com/ClownsharkBatwing/RES4LYF OSS for the win! edit: early LoRAs &amp;amp; LoRA training in comment. submitted by /u/tomByrer [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x87qai/mossimage_quants_sft_fix/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1x870cm/m5_pro_macbook_vs_nvidia_workstation_advice_for_a/</id><title>M5 Pro MacBook vs NVIDIA workstation — advice for a multidisciplinary artist increasingly using Blender?</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1x870cm/m5_pro_macbook_vs_nvidia_workstation_advice_for_a/"/>
-<published>2026-10-17T10:34:19+00:00</published><updated>2026-10-17T10:34:19+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="animation"/>
-<category term="blender"/>
-<summary>Hi everyone! I'm a multidisciplinary multimedia artist working across illustration, animation, music, experimental video and 3D. My workflow is quite varied: I constantly jump between Ableton Live, TouchDesigner, Affinity, Blender, datamoshing and various image-processing techniques . I particularly</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 3 · animation, blender&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi everyone! I'm a multidisciplinary multimedia artist working across illustration, animation, music, experimental video and 3D. My workflow is quite varied: I constantly jump between Ableton Live, TouchDesigner, Affinity, Blender, datamoshing and various image-processing techniques . I particularly enjoy experimenting with degraded imagery, VHS aesthetics, textures and hybrid visual processes. Blender is becoming an increasingly central part of my practice, mainly because of its versatility. I'm not focused on one particular type of 3D work: I might explore organic modeling one day, procedural environments the next, or animation and abstract visuals. My dilemma I recently bought a 16" MacBo&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1x870cm/m5_pro_macbook_vs_nvidia_workstation_advice_for_a/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
