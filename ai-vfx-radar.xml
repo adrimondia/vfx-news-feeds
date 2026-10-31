@@ -2,8 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-31T08:00:25+00:00</updated>
+<updated>2026-10-31T09:30:19+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xk4xpd/pika_h3_flex_openh3egenerate2k_running_locally_on/</id><title>Pika H3 Flex + open-h3-egenerate-2K running locally on Mac</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xk4xpd/pika_h3_flex_openh3egenerate2k_running_locally_on/"/>
+<published>2026-10-31T08:35:59+00:00</published><updated>2026-10-31T08:35:59+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="upscaling"/>
+<category term="minimax"/>
+<summary>* Pika H3 Flex: A distilled MiniMax H3 model that reduces generation from 50 steps to just 6. * NVIDIA Open-H3-Regenerate-2K: Uses latent upscaling followed by 3 diffusion steps to regenerate details at higher resolution, rather than conventional pixel-space upscaling. Workflow shown in the video: G</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · upscaling, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;* Pika H3 Flex: A distilled MiniMax H3 model that reduces generation from 50 steps to just 6. * NVIDIA Open-H3-Regenerate-2K: Uses latent upscaling followed by 3 diffusion steps to regenerate details at higher resolution, rather than conventional pixel-space upscaling. Workflow shown in the video: Generate a 15-second video at 768p with Pika H3 Flex. Apply NVIDIA’s Regenerate-2K for high-resolution refinement. Final output: 1920 × 1088. Total time: 12m 19s on M5 Ultra locally using Valtz, including both generation and regeneration. submitted by /u/TgoAI [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xk4xpd/pika_h3_flex_openh3egenerate2k_running_locally_on/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xk3n70/i_unlocked_bf16_on_an_rtx_4090_and_compared_it_to/</id><title>I Unlocked BF16 on an RTX 4090 and Compared It to an RTX 5090 (on Windows 11)</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xk3n70/i_unlocked_bf16_on_an_rtx_4090_and_compared_it_to/"/>
+<published>2026-10-31T07:12:10+00:00</published><updated>2026-10-31T07:12:10+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="video generation"/>
+<category term="comfyui"/>
+<category term="minimax"/>
+<category term="lora"/>
+<summary>Using MarvinFS’s tool, I successfully unlocked BF16 on the RTX 4090 running Windows 11. https://github.com/MarvinFS/rtx4090-uefi/releases It was very easy, so if you have an RTX 4090 whose manufacturer’s warranty has expired, why not give it a try? I tested several image and video generation tasks u</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · video generation, comfyui, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Using MarvinFS’s tool, I successfully unlocked BF16 on the RTX 4090 running Windows 11. https://github.com/MarvinFS/rtx4090-uefi/releases It was very easy, so if you have an RTX 4090 whose manufacturer’s warranty has expired, why not give it a try? I tested several image and video generation tasks using ComfyUI and compared the results with those of the RTX 5090, as shown below. Hardware &amp;amp; Software CPU RAM SSD OS Driver ComfyUI Startup Flags All results were obtained using the same GeForce driver and the same computer. SDXL GPU Generate Speed RTX 5090 23.15 sec 12.10 it/s RTX 4090 Unlock 27.62 sec 10.14 it/s RTX 4090 Unlock(no --fast) 30.21 sec 9.27 it/s RTX 4090 30.11 sec 9.30 it/s prefectI&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xk3n70/i_unlocked_bf16_on_an_rtx_4090_and_compared_it_to/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xk38fa/scary_future_codex_disabled_my_comfyui_on_purpose/</id><title>[Scary Future?] Codex disabled my ComfyUI (on purpose) and refused to fix it</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xk38fa/scary_future_codex_disabled_my_comfyui_on_purpose/"/>
@@ -7300,14 +7322,5 @@
 <category term="blender"/>
 <summary>Hi everyone! I'm a multidisciplinary multimedia artist working across illustration, animation, music, experimental video and 3D. My workflow is quite varied: I constantly jump between Ableton Live, TouchDesigner, Affinity, Blender, datamoshing and various image-processing techniques . I particularly</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 3 · animation, blender&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi everyone! I'm a multidisciplinary multimedia artist working across illustration, animation, music, experimental video and 3D. My workflow is quite varied: I constantly jump between Ableton Live, TouchDesigner, Affinity, Blender, datamoshing and various image-processing techniques . I particularly enjoy experimenting with degraded imagery, VHS aesthetics, textures and hybrid visual processes. Blender is becoming an increasingly central part of my practice, mainly because of its versatility. I'm not focused on one particular type of 3D work: I might explore organic modeling one day, procedural environments the next, or animation and abstract visuals. My dilemma I recently bought a 16" MacBo&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1x870cm/m5_pro_macbook_vs_nvidia_workstation_advice_for_a/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1x85h8q/flares_studio_released/</id><title>Flares Studio Released</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1x85h8q/flares_studio_released/"/>
-<published>2026-10-17T08:58:42+00:00</published><updated>2026-10-17T08:58:42+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="vfx"/>
-<summary>We have recently released Flares Studio which has now replaced Flares OFX. Numerous new features have been developed and integrated in close collaboration with the VFX industry. While Flares Studio is primarily designed for studios (as the name subtly suggests), individual artists can absolutely use</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 1 · vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;We have recently released Flares Studio which has now replaced Flares OFX. Numerous new features have been developed and integrated in close collaboration with the VFX industry. While Flares Studio is primarily designed for studios (as the name subtly suggests), individual artists can absolutely use it as well. MacOS is now supported as well. Detailed tutorial and showcase of features is coming soon. submitted by /u/ppalm1 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1x85h8q/flares_studio_released/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
