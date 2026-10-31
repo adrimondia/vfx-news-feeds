@@ -2,8 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-31T21:30:19+00:00</updated>
+<updated>2026-10-31T23:30:27+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xkldof/i_trained_a_1536px_krea_2_lokr_to_test_wardrobe/</id><title>I trained a 1536px Krea 2 LoKr to test wardrobe &amp; character consistency across 10 concert eras — here’s my full breakdown on LoKr vs. LoRA, epochs, and trigger tokens [Workflow Included]</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xkldof/i_trained_a_1536px_krea_2_lokr_to_test_wardrobe/"/>
+<published>2026-10-31T21:05:35+00:00</published><updated>2026-10-31T21:05:35+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<category term="lora"/>
+<category term="consistency"/>
+<category term="character consistency"/>
+<summary>Hey everyone! Over the past few weeks I fell down a rabbit hole comparing fine-tuning architectures for Krea 2 (trained against Krea 2 RAW, inferred on krea2_turbo_fp8_scaled.safetensors). After training on RunPod, all of the checkpoint auditing, prompt engineering, and high-resolution generation wa</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 7 · comfyui, lora, consistency, character consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey everyone! Over the past few weeks I fell down a rabbit hole comparing fine-tuning architectures for Krea 2 (trained against Krea 2 RAW, inferred on krea2_turbo_fp8_scaled.safetensors). After training on RunPod, all of the checkpoint auditing, prompt engineering, and high-resolution generation was done locally in ComfyUI on my rig (RTX 5080 / Ryzen 9 9900X). I wanted to see how far I could push both facial consistency and complex couture stage wardrobe, so I set a goal to train a dedicated Krea 2 LoKr and stress-test it by recreating all 10 eras of The Eras Tour at native high resolution. Since the subreddit requires workflows, I’ve uploaded the exact ComfyUI .json workflow, the LoKr .saf&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xkldof/i_trained_a_1536px_krea_2_lokr_to_test_wardrobe/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/vfx/comments/1xkktnv/my_first_attempt_at_using_vfx/</id><title>My first attempt at using VFX</title>
 <link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xkktnv/my_first_attempt_at_using_vfx/"/>
@@ -12,6 +24,17 @@
 <category term="vfx"/>
 <summary>Would love some feedback for this video I spent around 1-2 weeks working on and off. I learnt a lot from this experience but am always up for improving and adapting my skills. Any advice / critique is truly appreciated! submitted by /u/Darius_Hawthorne [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Would love some feedback for this video I spent around 1-2 weeks working on and off. I learnt a lot from this experience but am always up for improving and adapting my skills. Any advice / critique is truly appreciated! submitted by /u/Darius_Hawthorne [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xkktnv/my_first_attempt_at_using_vfx/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xkivvu/happy_halloween_minimax_h3_did_it_again_music/</id><title>Happy Halloween! MiniMax H3 did it again! Music video using my video builder inside ComfyUI.</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xkivvu/happy_halloween_minimax_h3_did_it_again_music/"/>
+<published>2026-10-31T19:20:04+00:00</published><updated>2026-10-31T19:20:04+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<category term="minimax"/>
+<category term="lora"/>
+<summary>View video on YouTube if it's still pending Watch on Youtube Hey guys! I wanted to make a Halloween-inspired music video, so I put it together with my Video Builder in ComfyUI. Everything video-related ran locally on my own PC: the character images, every scene, and the final stitch. Please keep rud</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 5 · comfyui, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;View video on YouTube if it's still pending Watch on Youtube Hey guys! I wanted to make a Halloween-inspired music video, so I put it together with my Video Builder in ComfyUI. Everything video-related ran locally on my own PC: the character images, every scene, and the final stitch. Please keep rude and disrespectful comments to yourself. They don't help anyone or contribute anything constructive to the conversation. A quick note on the prompts, since I know people will ask: my Video Builder lets you use any LLM for prompt creation (Both for Ref image creation and Video prompt creation), including local open-source models. It even has a story mode that takes a story idea and then creates th&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xkivvu/happy_halloween_minimax_h3_did_it_again_music/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xkhlo1/piss_filter_remover_flux3_klein_base_lora/</id><title>"Piss Filter Remover" Flux.3 Klein Base LoRA</title>
@@ -144,6 +167,16 @@
 <category term="houdini"/>
 <summary>submitted by /u/No_Apricot5216 [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · houdini&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/No_Apricot5216 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xjzouy/new_houdini_rain_fx_tutorial_go_check_out/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xjy0in/flux1dev_1970s_lora/</id><title>Flux.1.Dev 1970s Lora</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xjy0in/flux1dev_1970s_lora/"/>
+<published>2026-10-31T01:57:52+00:00</published><updated>2026-10-31T01:57:52+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="flux"/>
+<category term="lora"/>
+<summary>also available here on civit.ai https://civitai.com/models/3028998/70s-style if you download or use it consider adding sample images or a comment. thanks and enjoy! apparently engaging politely gets me downvotes from the babies. so ill just edit this. if you have no use for a flux dev lora then just</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · flux, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;also available here on civit.ai https://civitai.com/models/3028998/70s-style if you download or use it consider adding sample images or a comment. thanks and enjoy! apparently engaging politely gets me downvotes from the babies. so ill just edit this. if you have no use for a flux dev lora then just leave. easy as that. it's not your compute to dictate its use. Flux 1 is still a good model and just because its not the latest or greatest doesn't negate it's worth. submitted by /u/freshstart2027 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xjy0in/flux1dev_1970s_lora/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xjw1jd/moss_image_with_akhaliqs_4step_lora_and_nvidia/</id><title>MOSS Image with akhaliq's 4-step LoRA and Nvidia PiD = Super-Fast High-Res (ComfyUI)</title>
@@ -7160,35 +7193,5 @@
 <category term="vfx"/>
 <summary>I'm a VFX compositor, and I wanted something that makes shooting HDRIs easier for artists and keeps everything in one place. So that's why I built a small web app for it. And yes, it's made with the help of AI, and it does have the recognisable llm look to it. But I don't really care. I just wanted </summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 1 · vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I'm a VFX compositor, and I wanted something that makes shooting HDRIs easier for artists and keeps everything in one place. So that's why I built a small web app for it. And yes, it's made with the help of AI, and it does have the recognisable llm look to it. But I don't really care. I just wanted something that works. I originally made it just for myself, but now that it's fully working, I'd like to share it and hear what you think. Set your darkest and brightest exposure, and it builds the bracket for you. Walks you through every angle for your lens and tracks what is done. Notes, location and a log for every HDRI you shoot. Works offline: you can install it to your home screen (in Chrome&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1x8p2o3/i_made_a_free_on_set_companion_app_for_shooting/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1x8nuuq/wanted_to_share_my_202627_showreel_hybrid_ai/</id><title>Wanted to share my 2026/27 showreel — Hybrid AI workflows</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x8nuuq/wanted_to_share_my_202627_showreel_hybrid_ai/"/>
-<published>2026-10-17T23:05:31+00:00</published><updated>2026-10-17T23:05:31+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="blender"/>
-<category term="cinematic"/>
-<summary>Hey everyone! Just wanted to share my latest showreel with the community. I've been working as a visual artist for over 10 years, mainly in concept art, matte painting and visual development. Over the past few months, I've been exploring more hybrid workflows, combining ComfyUI, Midjourney, Photosho</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · comfyui, blender, cinematic&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey everyone! Just wanted to share my latest showreel with the community. I've been working as a visual artist for over 10 years, mainly in concept art, matte painting and visual development. Over the past few months, I've been exploring more hybrid workflows, combining ComfyUI, Midjourney, Photoshop, Blender, Nano Banana and other tools to create both still images and cinematic sequences. This reel is a collection of those experiments, from sci-fi and dark fantasy to automotive and product visualization. Still learning, experimenting and figuring out what works best! Hope you enjoy it, and always happy to discuss workflows or answer questions. submitted by /u/neptune765 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x8nuuq/wanted_to_share_my_202627_showreel_hybrid_ai/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1x8ndhp/alternatives_to_flux3_that_support_reference/</id><title>Alternatives to FLUX.3 that support Reference Images?</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x8ndhp/alternatives_to_flux3_that_support_reference/"/>
-<published>2026-10-17T22:42:41+00:00</published><updated>2026-10-17T22:42:41+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="flux"/>
-<summary>I love the output of FLUX.3, but I am pulling my hair out over the extreme censorship! I've heard MOSS is much better about that, but it doesn't support reference images! I have character images that I've created as a base, and I want to use them as a reference for future images. Is there an uncenso</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I love the output of FLUX.3, but I am pulling my hair out over the extreme censorship! I've heard MOSS is much better about that, but it doesn't support reference images! I have character images that I've created as a base, and I want to use them as a reference for future images. Is there an uncensored model that lets me do that? Thanks! submitted by /u/AdmiralPelleon [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x8ndhp/alternatives_to_flux3_that_support_reference/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1x8n7dw/its_not_ammissibile_that_you_post_in_the_blog_the/</id><title>It's not ammissibile that you post in the Blog the new Nvidia RTX scaler, then it does not work or require much more than installing from Manager.</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x8n7dw/its_not_ammissibile_that_you_post_in_the_blog_the/"/>
-<published>2026-10-17T22:34:39+00:00</published><updated>2026-10-17T22:34:39+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="flux"/>
-<summary>In short: Nvidia RTX scaler, announced 4 day ago, workflows to dl and so on. Then a day or two later Flux Kleni 3. Nice, so I prefer to re install from scratch latest Comfyui Portable. Dl release 41. Installed. Then upload the RTX scaler workflow, 2 errors: missing input image, the proper node. Np. </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui, flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;In short: Nvidia RTX scaler, announced 4 day ago, workflows to dl and so on. Then a day or two later Flux Kleni 3. Nice, so I prefer to re install from scratch latest Comfyui Portable. Dl release 41. Installed. Then upload the RTX scaler workflow, 2 errors: missing input image, the proper node. Np. I'll go to the Manager and ask to install the missing Node. Restart. Reload the page. Same errors. Ok, let see, I drag and drop an image I did years ago on Midjourney. Ops! Error. WHAT??? Not even loading a png in Load Image node?? Then go to Manager and De install RTX nodes, re install through Git, Restart. Same errors. Ok, too much. Because it not the first time this happens, because quite often&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x8n7dw/its_not_ammissibile_that_you_post_in_the_blog_the/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
