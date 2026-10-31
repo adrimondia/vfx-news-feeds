@@ -2,8 +2,19 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-30T23:30:20+00:00</updated>
+<updated>2026-10-31T01:30:20+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xjvasi/i_made_tiny_sliders_for_minimax_h3_that_control/</id><title>I made tiny sliders for MiniMax H3 that control motion, emotion, and more without training a LoRA [ComfyUI]</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xjvasi/i_made_tiny_sliders_for_minimax_h3_that_control/"/>
+<published>2026-10-30T23:52:31+00:00</published><updated>2026-10-30T23:52:31+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<category term="minimax"/>
+<category term="lora"/>
+<summary>Made this for the Open Source Higgsfield challenge. ComfyUI-Dials lets you turn pairs of prompts into reusable ~14 KB sliders. No training required. You can control motion, mood, acting style, and more. Stack them with each other or with LoRAs. They can even influence generated audio. The video show</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 6 · comfyui, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Made this for the Open Source Higgsfield challenge. ComfyUI-Dials lets you turn pairs of prompts into reusable ~14 KB sliders. No training required. You can control motion, mood, acting style, and more. Stack them with each other or with LoRAs. They can even influence generated audio. The video shows some of the experiments and results. The UX is still being polished, and I'm working on better calibration for exporting dials as LoRAs. Hopefully more improvements coming soon! Demo: https://matlowai.github.io/ComfyUI-Dials/ GitHub: https://github.com/matlowai/ComfyUI-Dials Dials: https://huggingface.co/MATLOWAI/H3-Dials Curious what odd/fun things people will do. I'll adapt it for more models &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xjvasi/i_made_tiny_sliders_for_minimax_h3_that_control/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xjt4vb/minimax_h3_how_to_be_fast_and_still_hit_speed/</id><title>MiniMax H3: How to Be Fast and Still Hit (Speed LoRAs, Quality, Voice)</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xjt4vb/minimax_h3_how_to_be_fast_and_still_hit_speed/"/>
@@ -36,6 +47,16 @@
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 6 · vfx, hdr, comfyui, nuke&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey, please don't hate me for an AI post.. I made this ComfyUI app for a challenge they hosted. I work as a motion designer and I've always missed a simple way to actually use AI as a tool and keep the result editable, so I made a VFX generator that uses depth and normal maps to help the effects fit into the scene and exports EXR files to use in After Effects, Nuke or anything else. You can directly generate an effect just by writing a prompt, but you can also generate guiding particles first that react to the motion of the tracked subject, and then use them directly or as a guide for the AI. Oh, and you can also just use the app to enhance your own footage with NVIDIA Super Resolution and H&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xjsqpy/element_forge_editable_ai_vfx_for_real_footage/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xjs410/anima_krea_2_teacher_12step_lora_results_settings/</id><title>Anima + Krea 2 teacher: 12-step LoRA results, settings and lessons learned</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xjs410/anima_krea_2_teacher_12step_lora_results_settings/"/>
+<published>2026-10-30T21:34:47+00:00</published><updated>2026-10-30T21:34:47+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<category term="lora"/>
+<summary>I tried something a little unusual. I trained a LoRA for Anima that teaches it to imitate the way Krea2 Turbo generates images. You could think of it as a form of knowledge distillation. LoRA: https://civitai.red/models/2554528/animaloralab I've also shared the training code on that page, included i</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I tried something a little unusual. I trained a LoRA for Anima that teaches it to imitate the way Krea2 Turbo generates images. You could think of it as a form of knowledge distillation. LoRA: https://civitai.red/models/2554528/animaloralab I've also shared the training code on that page, included in the backup ZIP. It contains an example of an AI-assisted workflow that uses the RunPod API to automate Krea2 knowledge distillation, followed by CFG and step distillation. The code isn't ready to run out of the box. I'd recommend giving the entire folder to an AI coding assistant, having it analyze the project, and then working with it to adapt the code to your own environment and goals. You mig&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xjs410/anima_krea_2_teacher_12step_lora_results_settings/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xjr6ns/open_source_comfyui_motion_previs_studio_3d/</id><title>[Open Source] ComfyUI Motion Previs Studio — 3D Camera Blocking, Character Animation, OpenPose/Depth Exports &amp; Direct ComfyUI Rendering</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xjr6ns/open_source_comfyui_motion_previs_studio_3d/"/>
 <published>2026-10-30T20:57:27+00:00</published><updated>2026-10-30T20:57:27+00:00</updated>
@@ -50,6 +71,15 @@
 <category term="comfyui"/>
 <summary>Hey everyone! I've been working on an open-source project called ComfyUI Motion Previs Studio , and I'd love to get some feedback from people who are seriously into ComfyUI, AI filmmaking, and advanced video generation workflows. The idea came from a problem I kept running into: We have increasingly</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 22 · video generation, video model, tracking, camera control, character animation, animation, rendering, comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey everyone! I've been working on an open-source project called ComfyUI Motion Previs Studio , and I'd love to get some feedback from people who are seriously into ComfyUI, AI filmmaking, and advanced video generation workflows. The idea came from a problem I kept running into: We have increasingly powerful video generation models, but precise control over camera movement, character blocking, spatial composition, and action choreography is still challenging. Instead of relying entirely on long prompts and repeated generations, what if we could actually direct the scene in 3D before sending it to a video model? That's what I'm trying to build. What the project does It's a local-first, intera&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xjr6ns/open_source_comfyui_motion_previs_studio_3d/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1xjqrni/looking_for_vfx_production_coordinator_supervisor/</id><title>Looking for VFX Production Coordinator / Supervisor Opportunities in the US – Referrals Appreciated!</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xjqrni/looking_for_vfx_production_coordinator_supervisor/"/>
+<published>2026-10-30T20:40:35+00:00</published><updated>2026-10-30T20:40:35+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="vfx"/>
+<summary>submitted by /u/Ordinary_Bat4919 [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/Ordinary_Bat4919 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xjqrni/looking_for_vfx_production_coordinator_supervisor/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/vfx/comments/1xjo3no/any_good_resources_for_learning_stylized_vfx_like/</id><title>Any good resources for learning stylized vfx like guilty gear in blender/Godot?</title>
@@ -7306,25 +7336,5 @@
 <category term="comfyui"/>
 <summary>I've been experimenting with MOSS-Image's BBox layout feature and got frustrated with its absolute pixel coordinates. Changing resolutions or aspect ratios meant recalculating every bounding box, and mismatched coordinates sometimes seemed to cause unwanted white borders. So I made a small ComfyUI n</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I've been experimenting with MOSS-Image's BBox layout feature and got frustrated with its absolute pixel coordinates. Changing resolutions or aspect ratios meant recalculating every bounding box, and mismatched coordinates sometimes seemed to cause unwanted white borders. So I made a small ComfyUI node that converts a resolution-independent 0–1000 coordinate grid into MOSS-Image's native coordinate format, using the actual generation dimensions. You can now reuse the same layout JSON at different resolutions without manually adjusting every coordinate, similar to Ideogram's approach. It's lightweight, has no additional dependencies, and includes a basic system prompt for generating compatibl&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x7xxea/made_a_comfyui_node_to_fix_mossimages/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1x7wxnl/its_a_nice_change_of_pace_to_see_vfx_being/</id><title>It's a nice change of pace to see VFX being embraced by a big production</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1x7wxnl/its_a_nice_change_of_pace_to_see_vfx_being/"/>
-<published>2026-10-17T00:48:22+00:00</published><updated>2026-10-17T00:48:22+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="vfx"/>
-<summary>*Use of VFX being embraced! We live in a time where studios and directors go out of their way to say vfx was not used, so it's a fresh Breeze to see one where it's being proudly shown off Not sure how the final output will be but at the very least they are not shying away from calling it a vfx spect</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;*Use of VFX being embraced! We live in a time where studios and directors go out of their way to say vfx was not used, so it's a fresh Breeze to see one where it's being proudly shown off Not sure how the final output will be but at the very least they are not shying away from calling it a vfx spectacle Ofcourse all this has to happen since the movie itself is being produced by a vfx studio as a grand showreel What's your thoughts? Will we ever see hollywood go back to embracing vfx as being an important part of production and not hide it behind practical submitted by /u/MountainShine9056 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1x7wxnl/its_a_nice_change_of_pace_to_see_vfx_being/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1x7vhzg/binding_multiple_realface_identities_to_their_own/</id><title>Binding multiple real-face identities to their own regions in a stylized FLUX workflow</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x7vhzg/binding_multiple_realface_identities_to_their_own/"/>
-<published>2026-10-16T23:38:33+00:00</published><updated>2026-10-16T23:38:33+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="flux"/>
-<category term="lora"/>
-<summary>I’m working on a ComfyUI pipeline that renders characters in a consistent stylized look (custom style LoRA). Each scene has 1–4 characters, and each character has a real reference photo. Sometimes there’s also a non-human character. Single-character scenes work well. Multi-character scenes are where</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · comfyui, flux, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I’m working on a ComfyUI pipeline that renders characters in a consistent stylized look (custom style LoRA). Each scene has 1–4 characters, and each character has a real reference photo. Sometimes there’s also a non-human character. Single-character scenes work well. Multi-character scenes are where it breaks: Identity leakage: with global reference conditioning, features bleed between characters. One character’s hairstyle or accessory shows up on another character or on a background figure. Wrong face in the refine pass: a post-generation face pass that picks faces by detection and similarity puts character A’s face on character B or on a background figure. On stylized faces, embedding simi&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x7vhzg/binding_multiple_realface_identities_to_their_own/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
