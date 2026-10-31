@@ -2,8 +2,21 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-31T01:30:20+00:00</updated>
+<updated>2026-10-31T03:30:20+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xjw1jd/moss_image_with_akhaliqs_4step_lora_and_nvidia/</id><title>MOSS Image with akhaliq's 4-step LoRA and Nvidia PiD = Super-Fast High-Res (ComfyUI)</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xjw1jd/moss_image_with_akhaliqs_4step_lora_and_nvidia/"/>
+<published>2026-10-31T00:25:27+00:00</published><updated>2026-10-31T00:25:27+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="upscaler"/>
+<category term="render"/>
+<category term="comfyui"/>
+<category term="flux"/>
+<category term="lora"/>
+<summary>A few months ago, NVIDIA introduced a groundbreaking image generation module called PiD (Pixel Diffusion Decoder) that replaces traditional VAE decoding pipelines. By unifying decoding and upsampling into a single, four-step generative process, it can turn low-resolution latents directly into ultra-</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 7 · upscaler, render, comfyui, flux, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;A few months ago, NVIDIA introduced a groundbreaking image generation module called PiD (Pixel Diffusion Decoder) that replaces traditional VAE decoding pipelines. By unifying decoding and upsampling into a single, four-step generative process, it can turn low-resolution latents directly into ultra-sharp 4K images with stunning visual detail in under a second. Recently I tried it with MOSS Image since its VAE is perfectly compatible out of the box because MOSS actually uses the FLUX.2 VAE, allowing PiD to process those latents flawlessly for high-resolution decoding. I have created a deep dive on HF where I am providing 2 ComfyUI workflows, one for local and one for cloud, as well as Diffuse&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xjw1jd/moss_image_with_akhaliqs_4step_lora_and_nvidia/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xjvasi/i_made_tiny_sliders_for_minimax_h3_that_control/</id><title>I made tiny sliders for MiniMax H3 that control motion, emotion, and more without training a LoRA [ComfyUI]</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xjvasi/i_made_tiny_sliders_for_minimax_h3_that_control/"/>
@@ -7285,56 +7298,5 @@
 <category term="minimax"/>
 <summary>Everyone, including me was super hyped about Qwen image 2.1 but honestly i found the results to be wanting. In this video i show exactly why and also why its still a good model. submitted by /u/Disastrous-Agency675 [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · image editing, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Everyone, including me was super hyped about Qwen image 2.1 but honestly i found the results to be wanting. In this video i show exactly why and also why its still a good model. submitted by /u/Disastrous-Agency675 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x8064i/minimax_vs_qwen_image_editing/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1x7zky8/dasiwa_wan_22_fastfidelity_workflow_no_longer/</id><title>DaSiWa - Wan 2.2 FastFidelity workflow No Longer Working?</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x7zky8/dasiwa_wan_22_fastfidelity_workflow_no_longer/"/>
-<published>2026-10-17T03:07:49+00:00</published><updated>2026-10-17T03:07:49+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="wan"/>
-<summary>Hi guys, I'm new here. 🙂 I've been using Dasiwa's workflow for a while now and have been really enjoying it! But recently I updated comfyui to mess around with the new Moss-Image model, but when I realized DasiWa's Wan 2.2 workflow breaks with this new update, I decided to go back to an old ComfyUI </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · comfyui, wan&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi guys, I'm new here. 🙂 I've been using Dasiwa's workflow for a while now and have been really enjoying it! But recently I updated comfyui to mess around with the new Moss-Image model, but when I realized DasiWa's Wan 2.2 workflow breaks with this new update, I decided to go back to an old ComfyUI version that I believe I was last at. When I went back to use DasiWa's FastFidelity workflow, I get this error now whenever I click on the Run button no output node found for id [1512] slot[4] FLOAT I've attached the comfy version and frontend version I downgraded back to if that helps! I'm pretty new to this and not really a technical guy so I've been pretty stumped on this for the whole day, so &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x7zky8/dasiwa_wan_22_fastfidelity_workflow_no_longer/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1x7zf1r/hey_guys_im_one_of_the_core_developers_of/</id><title>Hey guys! I'm one of the core developers of MOSS-Image. AMA!</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x7zf1r/hey_guys_im_one_of_the_core_developers_of/"/>
-<published>2026-10-17T02:58:54+00:00</published><updated>2026-10-17T02:58:54+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="rendering"/>
-<category term="dit"/>
-<summary>Hey r/StableDiffusion ! I'm one of the core developers of MOSS-Image , the 5B DiT image generation model we just open-sourced! I've noticed quite a few discussions about MOSS-Image here already. It's been really exciting to see the community experimenting with the model, and I really appreciate all </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · rendering, dit&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey r/StableDiffusion ! I'm one of the core developers of MOSS-Image , the 5B DiT image generation model we just open-sourced! I've noticed quite a few discussions about MOSS-Image here already. It's been really exciting to see the community experimenting with the model, and I really appreciate all the feedback so far! We've been working on MOSS-Image for the past six months, with a particular focus on text rendering, layout-controlled generation, and building a flexible foundation for community fine-tuning. I'll try to be as open and detailed as I can! GitHub: https://github.com/OpenMOSS/MOSS-Image AMA! submitted by /u/KonoDIOda_666 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x7zf1r/hey_guys_im_one_of_the_core_developers_of/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1x7z1ih/recap_on_best_open_source_ai_models_so_far/</id><title>Recap on Best Open Source AI Models so far</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x7z1ih/recap_on_best_open_source_ai_models_so_far/"/>
-<published>2026-10-17T02:38:27+00:00</published><updated>2026-10-17T02:38:27+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="video model"/>
-<category term="video editing"/>
-<category term="wan"/>
-<category term="minimax"/>
-<category term="ltx"/>
-<summary>So after so many models have been released the past year, what are everyone's top models so far? And settings/loras? Since sometimes those can make the difference in results. I am sure most people are wondering this, so I want to collect everyone's thoughts on this, mainly want to hear thoughts from</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 5 · video model, video editing, wan, minimax, ltx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;So after so many models have been released the past year, what are everyone's top models so far? And settings/loras? Since sometimes those can make the difference in results. I am sure most people are wondering this, so I want to collect everyone's thoughts on this, mainly want to hear thoughts from people with 6gb of vram, to 24gb of vram, since people who run heavier models on servers or just by owning an expensive GPU are very rare so experiences would differ a lot from us commoners. I would say to keep this organized, to divide it into different areas. • Best Image to Video Model • Best Video Editing Model • Best T2I Model • Best Image Edit Model I would say those are the main ones most &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x7z1ih/recap_on_best_open_source_ai_models_so_far/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1x7y0bn/title_made_a_comfyui_node_to_fix_mossimages/</id><title>Title: Made a ComfyUI node to fix MOSS-Image's resolution-dependent BBox coordinates</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x7y0bn/title_made_a_comfyui_node_to_fix_mossimages/"/>
-<published>2026-10-17T01:43:57+00:00</published><updated>2026-10-17T01:43:57+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<summary>I've been experimenting with MOSS-Image's BBox layout feature and got frustrated with its absolute pixel coordinates. Changing resolutions or aspect ratios meant recalculating every bounding box, and mismatched coordinates sometimes seemed to cause unwanted white borders. So I made a small ComfyUI n</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I've been experimenting with MOSS-Image's BBox layout feature and got frustrated with its absolute pixel coordinates. Changing resolutions or aspect ratios meant recalculating every bounding box, and mismatched coordinates sometimes seemed to cause unwanted white borders. So I made a small ComfyUI node that converts a resolution-independent 0–1000 coordinate grid into MOSS-Image's native coordinate format, using the actual generation dimensions. You can now reuse the same layout JSON at different resolutions without manually adjusting every coordinate, similar to Ideogram's approach. It's lightweight, has no additional dependencies, and includes a basic system prompt for generating compatibl&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x7y0bn/title_made_a_comfyui_node_to_fix_mossimages/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1x7xxea/made_a_comfyui_node_to_fix_mossimages/</id><title>Made a ComfyUI node to fix MOSS-Image's resolution-dependent BBox coordinates</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x7xxea/made_a_comfyui_node_to_fix_mossimages/"/>
-<published>2026-10-17T01:39:41+00:00</published><updated>2026-10-17T01:39:41+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<summary>I've been experimenting with MOSS-Image's BBox layout feature and got frustrated with its absolute pixel coordinates. Changing resolutions or aspect ratios meant recalculating every bounding box, and mismatched coordinates sometimes seemed to cause unwanted white borders. So I made a small ComfyUI n</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I've been experimenting with MOSS-Image's BBox layout feature and got frustrated with its absolute pixel coordinates. Changing resolutions or aspect ratios meant recalculating every bounding box, and mismatched coordinates sometimes seemed to cause unwanted white borders. So I made a small ComfyUI node that converts a resolution-independent 0–1000 coordinate grid into MOSS-Image's native coordinate format, using the actual generation dimensions. You can now reuse the same layout JSON at different resolutions without manually adjusting every coordinate, similar to Ideogram's approach. It's lightweight, has no additional dependencies, and includes a basic system prompt for generating compatibl&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x7xxea/made_a_comfyui_node_to_fix_mossimages/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
