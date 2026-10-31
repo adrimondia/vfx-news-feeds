@@ -2,8 +2,26 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-31T05:30:23+00:00</updated>
+<updated>2026-10-31T07:30:22+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xk38fa/scary_future_codex_disabled_my_comfyui_on_purpose/</id><title>[Scary Future?] Codex disabled my ComfyUI (on purpose) and refused to fix it</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xk38fa/scary_future_codex_disabled_my_comfyui_on_purpose/"/>
+<published>2026-10-31T06:47:08+00:00</published><updated>2026-10-31T06:47:08+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<summary>For anyone unfamiliar, Codex is OpenAI’s AI coding agent. It can work with local files, run commands, and help set up or troubleshoot software. I downloaded eight Krea 2 checkpoints and asked Codex to create a comparison grid using the same neutral prompt for each one. I wanted to see how the models</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;For anyone unfamiliar, Codex is OpenAI’s AI coding agent. It can work with local files, run commands, and help set up or troubleshoot software. I downloaded eight Krea 2 checkpoints and asked Codex to create a comparison grid using the same neutral prompt for each one. I wanted to see how the models compared. About three images in, Codex stopped the job because it said one of the images contained nudity. That wasn’t what I’d requested. I checked the output myself. It wasn’t anything extreme: just a woman taking a selfie in an apartment with one breast partially exposed. She clearly appeared to be in her late twenties. Apparently, one of the checkpoints interpreted the neutral prompt differen&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xk38fa/scary_future_codex_disabled_my_comfyui_on_purpose/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xk2jhh/minimax_h3_4k/</id><title>MINIMAX H3 4K</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xk2jhh/minimax_h3_4k/"/>
+<published>2026-10-31T06:03:38+00:00</published><updated>2026-10-31T06:03:38+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="minimax"/>
+<summary>This is 4K footage generated using an RTX PRO 6000. The original, unedited output has been downscaled to 1080p due to file size constraints. It’s reaching a point where I no longer envy commercial models. submitted by /u/Extension-Yard1918 [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;This is 4K footage generated using an RTX PRO 6000. The original, unedited output has been downscaled to 1080p due to file size constraints. It’s reaching a point where I no longer envy commercial models. submitted by /u/Extension-Yard1918 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xk2jhh/minimax_h3_4k/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/vfx/comments/1xjzouy/new_houdini_rain_fx_tutorial_go_check_out/</id><title>New houdini Rain fx tutorial go check out</title>
 <link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xjzouy/new_houdini_rain_fx_tutorial_go_check_out/"/>
@@ -7291,34 +7309,5 @@
 <category term="comfyui"/>
 <summary>why？？comfyui updated to version 0.38 and above to support custom node Overlapping submitted by /u/OutrageousImpact931 [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;why？？comfyui updated to version 0.38 and above to support custom node Overlapping submitted by /u/OutrageousImpact931 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x84e2n/comfyui_updated_to_version_038_and_above_to/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1x82wje/ltx_25_or_any_other_model_running_into_shared/</id><title>Ltx 2.5 or any other model running into shared memory while second gpu stays idle</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x82wje/ltx_25_or_any_other_model_running_into_shared/"/>
-<published>2026-10-17T06:19:29+00:00</published><updated>2026-10-17T06:19:29+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="ltx"/>
-<summary>Hi, completely noob here and trying to play along with comfyui. Has anyone faced the issue of memory loading into shared gpu memory instead of second gpu even after using comfyui multigpu loader? Using desktop comfyui build with dual 3060 gpus and trying to run ltx-2.5-22b-distilled-transformer-comf</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · comfyui, ltx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi, completely noob here and trying to play along with comfyui. Has anyone faced the issue of memory loading into shared gpu memory instead of second gpu even after using comfyui multigpu loader? Using desktop comfyui build with dual 3060 gpus and trying to run ltx-2.5-22b-distilled-transformer-comfy-int8. Although i am getting the output without any error(10 seconds vid in avg 8-9mins but just curious about is there any way for it load into second gpu instead of ram? Thanks in advance. submitted by /u/Crusified90 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x82wje/ltx_25_or_any_other_model_running_into_shared/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1x829s3/thanks_to_chanons_timeline_tool_making_a_webtoon/</id><title>Thanks to chanon's timeline tool, making a Webtoon Drama with Minimax H3 is now super easy! Here is my first episode.</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x829s3/thanks_to_chanons_timeline_tool_making_a_webtoon/"/>
-<published>2026-10-17T05:41:01+00:00</published><updated>2026-10-17T05:41:01+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="minimax"/>
-<summary>Hey Reddit! I just finished the 1st episode of my K-Webtoon Thriller Drama using ComfyUI + Minimax H3. Honestly, the 'comfyui-obvpm-timeline' pack is an absolute game-changer. It makes extending clips and editing narratives right inside ComfyUI incredibly smooth. No more lighting flickers at the joi</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey Reddit! I just finished the 1st episode of my K-Webtoon Thriller Drama using ComfyUI + Minimax H3. Honestly, the 'comfyui-obvpm-timeline' pack is an absolute game-changer. It makes extending clips and editing narratives right inside ComfyUI incredibly smooth. No more lighting flickers at the joins! 🎬 Full Video with EN Subtitles on YouTube: 👉 https://www.youtube.com/watch?v=WjD9hxyVbQU I'd love to get some feedback from the community! workflow link 👉 https://github.com/chanon/comfyui-obvpm-timeline/tree/main/workflows submitted by /u/CirceWebtoonDrama [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x829s3/thanks_to_chanons_timeline_tool_making_a_webtoon/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1x8254a/moss_image_sft_8_steps_turbo_lora_test/</id><title>Moss image sft (8 steps turbo lora test)</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x8254a/moss_image_sft_8_steps_turbo_lora_test/"/>
-<published>2026-10-17T05:33:00+00:00</published><updated>2026-10-17T05:33:00+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="lora"/>
-<summary>(Left) lora.safetensors (Right) lora_latest.safetensors Euler, simple, 8 steps, 1 megapixels took 5 secs on 4070 super. The skin looks plasticky in studio photo style, but I like its amateur snapshot style. https://huggingface.co/lodestones/MOSS-Image-SFT-8-steps-dmd The other images removed by redd</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;(Left) lora.safetensors (Right) lora_latest.safetensors Euler, simple, 8 steps, 1 megapixels took 5 secs on 4070 super. The skin looks plasticky in studio photo style, but I like its amateur snapshot style. https://huggingface.co/lodestones/MOSS-Image-SFT-8-steps-dmd The other images removed by reddit filter. https://civitai.red/posts/31700334 submitted by /u/Ant_6431 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x8254a/moss_image_sft_8_steps_turbo_lora_test/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
