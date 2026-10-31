@@ -2,8 +2,17 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-10-31T19:30:19+00:00</updated>
+<updated>2026-10-31T21:30:19+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1xkktnv/my_first_attempt_at_using_vfx/</id><title>My first attempt at using VFX</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xkktnv/my_first_attempt_at_using_vfx/"/>
+<published>2026-10-31T20:40:55+00:00</published><updated>2026-10-31T20:40:55+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="vfx"/>
+<summary>Would love some feedback for this video I spent around 1-2 weeks working on and off. I learnt a lot from this experience but am always up for improving and adapting my skills. Any advice / critique is truly appreciated! submitted by /u/Darius_Hawthorne [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Would love some feedback for this video I spent around 1-2 weeks working on and off. I learnt a lot from this experience but am always up for improving and adapting my skills. Any advice / critique is truly appreciated! submitted by /u/Darius_Hawthorne [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xkktnv/my_first_attempt_at_using_vfx/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xkhlo1/piss_filter_remover_flux3_klein_base_lora/</id><title>"Piss Filter Remover" Flux.3 Klein Base LoRA</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xkhlo1/piss_filter_remover_flux3_klein_base_lora/"/>
@@ -87,6 +96,15 @@
 <category term="minimax"/>
 <summary>* Pika H3 Flex: A distilled MiniMax H3 model that reduces generation from 50 steps to just 6. * NVIDIA Open-H3-Regenerate-2K: Uses latent upscaling followed by 3 diffusion steps to regenerate details at higher resolution, rather than conventional pixel-space upscaling. Workflow shown in the video: G</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · upscaling, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;* Pika H3 Flex: A distilled MiniMax H3 model that reduces generation from 50 steps to just 6. * NVIDIA Open-H3-Regenerate-2K: Uses latent upscaling followed by 3 diffusion steps to regenerate details at higher resolution, rather than conventional pixel-space upscaling. Workflow shown in the video: Generate a 15-second video at 768p with Pika H3 Flex. Apply NVIDIA’s Regenerate-2K for high-resolution refinement. Final output: 1920 × 1088. Total time: 12m 19s on M5 Ultra locally using Valtz, including both generation and regeneration. submitted by /u/TgoAI [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xk4xpd/pika_h3_flex_openh3egenerate2k_running_locally_on/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1xk4g52/where_can_find_free_shotgun_firing_vfx_asset/</id><title>Where can find free shotgun firing vfx asset . please help</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xk4g52/where_can_find_free_shotgun_firing_vfx_asset/"/>
+<published>2026-10-31T08:03:56+00:00</published><updated>2026-10-31T08:03:56+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="vfx"/>
+<summary>submitted by /u/ColdAnimator5040 [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/ColdAnimator5040 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xk4g52/where_can_find_free_shotgun_firing_vfx_asset/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xk3n70/i_unlocked_bf16_on_an_rtx_4090_and_compared_it_to/</id><title>I Unlocked BF16 on an RTX 4090 and Compared It to an RTX 5090 (on Windows 11)</title>
@@ -7172,76 +7190,5 @@
 <category term="flux"/>
 <summary>In short: Nvidia RTX scaler, announced 4 day ago, workflows to dl and so on. Then a day or two later Flux Kleni 3. Nice, so I prefer to re install from scratch latest Comfyui Portable. Dl release 41. Installed. Then upload the RTX scaler workflow, 2 errors: missing input image, the proper node. Np. </summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui, flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;In short: Nvidia RTX scaler, announced 4 day ago, workflows to dl and so on. Then a day or two later Flux Kleni 3. Nice, so I prefer to re install from scratch latest Comfyui Portable. Dl release 41. Installed. Then upload the RTX scaler workflow, 2 errors: missing input image, the proper node. Np. I'll go to the Manager and ask to install the missing Node. Restart. Reload the page. Same errors. Ok, let see, I drag and drop an image I did years ago on Midjourney. Ops! Error. WHAT??? Not even loading a png in Load Image node?? Then go to Manager and De install RTX nodes, re install through Git, Restart. Same errors. Ok, too much. Because it not the first time this happens, because quite often&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x8n7dw/its_not_ammissibile_that_you_post_in_the_blog_the/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1x8l5il/what_do_you_think_the_future_of_this_industry/</id><title>What do you think the future of this industry looks like?</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1x8l5il/what_do_you_think_the_future_of_this_industry/"/>
-<published>2026-10-17T21:02:23+00:00</published><updated>2026-10-17T21:02:23+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="vfx"/>
-<summary>The future of this industry scares me, and being in my late 20s, I have time to pivot... but I don't want to become a plumber or study for another degree. And believe it or not, I quite enjoy VFX. So, I was curious what you think the future of this industry looks like, and how to stay employed and k</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 1 · vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;The future of this industry scares me, and being in my late 20s, I have time to pivot... but I don't want to become a plumber or study for another degree. And believe it or not, I quite enjoy VFX. So, I was curious what you think the future of this industry looks like, and how to stay employed and keep progressing? My guess: AI is here to stay, but for a long time just as a tool—we're a long, long way from it being able to create things from complete scratch. I think specialized roles will shrink and there will mostly just be generalists who are expected to handle most aspects of a shot/project. The workflow will likely involve using CG playblast-type renders (along with other methods) to di&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1x8l5il/what_do_you_think_the_future_of_this_industry/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1x8l3lc/do_we_really_need_more_5b_generalpurpose_image/</id><title>Do we really need more 5B general-purpose image models?</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x8l3lc/do_we_really_need_more_5b_generalpurpose_image/"/>
-<published>2026-10-17T21:00:13+00:00</published><updated>2026-10-17T21:00:13+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="flux"/>
-<category term="dit"/>
-<summary>Same prompt. 3 MP. Four generations per model. Best image selected. The pattern I keep seeing: larger DiTs tend to produce more coherent images. Cleaner shapes, better-defined objects, less visual garbage. Mechanical structures make more sense, spatial relationships hold together better, and fewer g</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · flux, dit&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Same prompt. 3 MP. Four generations per model. Best image selected. The pattern I keep seeing: larger DiTs tend to produce more coherent images. Cleaner shapes, better-defined objects, less visual garbage. Mechanical structures make more sense, spatial relationships hold together better, and fewer generations end up unusable. This isn’t a conclusion drawn from one prompt. It’s an observation from working with different models over time. This test is simply one example of that pattern. I’d rather have a larger model in INT4 than a smaller one at full precision. FLUX 2 Klein 9B is a perfect example: in my testing, it’s better than FLUX 3 Klein in practically every aspect of image quality—even &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x8l3lc/do_we_really_need_more_5b_generalpurpose_image/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1x8jo5s/upscaling_old_sdxl_highresfix_gens_from_24/</id><title>Upscaling old SDXL high-res-fix gens from ~2.4 megapixels to ~9.5 megapixels with Flux 3 Klein Distilled</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x8jo5s/upscaling_old_sdxl_highresfix_gens_from_24/"/>
-<published>2026-10-17T19:59:36+00:00</published><updated>2026-10-17T19:59:36+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="upscaling"/>
-<category term="flux"/>
-<summary>Prompts for all of these were some variation of: Faithfully and accurately upscale reference image 1 from an input resolution of 1536x1536 to an output resolution of 3072x3072. Very significantly improve the overall quality and overall detail level of reference image 1 and ensure the clean removal o</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · upscaling, flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Prompts for all of these were some variation of: Faithfully and accurately upscale reference image 1 from an input resolution of 1536x1536 to an output resolution of 3072x3072. Very significantly improve the overall quality and overall detail level of reference image 1 and ensure the clean removal of any pixelation or compression artifacts in reference image 1 while perfectly maintaining the original composition and original layout and original character design and original aspect ratio and original art style and original color palette of reference image 1. with minor variations / additions / removals to account for different image styles and specific details and such. Left side of each comp&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x8jo5s/upscaling_old_sdxl_highresfix_gens_from_24/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1x8jn4o/vertical_banding_in_mossimage_experiments/</id><title>Vertical Banding in MOSS-Image experiments</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x8jn4o/vertical_banding_in_mossimage_experiments/"/>
-<published>2026-10-17T19:58:24+00:00</published><updated>2026-10-17T19:58:24+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<category term="lora"/>
-<summary>Been digging into the vertical banding in MOSS-Image SFT. Big thanks to Kijai's lora pointing me in the right direction. I compared the SFT and Base models, tested swapping different transformer blocks, and narrowed most of the banding down to layers 37–41. The fix is a LoRA that reverts just those </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Been digging into the vertical banding in MOSS-Image SFT. Big thanks to Kijai's lora pointing me in the right direction. I compared the SFT and Base models, tested swapping different transformer blocks, and narrowed most of the banding down to layers 37–41. The fix is a LoRA that reverts just those layers to Base while keeping the rest of SFT intact. There's also an optional fix for layers 32–36 for more stubborn cases. Increasing resolution can also help with banding, although at higher resolutions it can turn into wider patterns instead. Hopefully this helps. More comparisons, ComfyUI workflows, and the full breakdown here (I should note that banding score isn't perfect by any means it fin&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x8jn4o/vertical_banding_in_mossimage_experiments/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1x8jme4/flux_3_comfyui_update_latest/</id><title>Flux 3 comfyui update latest</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x8jme4/flux_3_comfyui_update_latest/"/>
-<published>2026-10-17T19:57:33+00:00</published><updated>2026-10-17T19:57:33+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<category term="flux"/>
-<summary>Flux 3 got an update for comfyui UI yesterday After the criticism it's the latest one please check that out first https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy submitted by /u/ganrocks007 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · comfyui, flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Flux 3 got an update for comfyui UI yesterday After the criticism it's the latest one please check that out first https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy submitted by /u/ganrocks007 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x8jme4/flux_3_comfyui_update_latest/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1x8jjoi/is_there_any_way_to_add_a_seed_variance_enhancer/</id><title>Is there any way to add a Seed Variance Enhancer for Qwen 2.1 ? In ComfyUI, it throws an error when I connect it to the "text encode qwen image 2.1" node</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x8jjoi/is_there_any_way_to_add_a_seed_variance_enhancer/"/>
-<published>2026-10-17T19:54:25+00:00</published><updated>2026-10-17T19:54:25+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<summary>Is anyone else having this problem? Is this possible? Or does the model's architecture not allow it? submitted by /u/Inevitable_Pen9043 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Is anyone else having this problem? Is this possible? Or does the model's architecture not allow it? submitted by /u/Inevitable_Pen9043 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x8jjoi/is_there_any_way_to_add_a_seed_variance_enhancer/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1x8j7tm/openfill_use_comfyui_from_inside_gimp_3_for/</id><title>OpenFill: use ComfyUI from inside GIMP 3 for Generative Fill, Remove and Expand, no node graph</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x8j7tm/openfill_use_comfyui_from_inside_gimp_3_for/"/>
-<published>2026-10-17T19:40:28+00:00</published><updated>2026-10-17T19:40:28+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="inpainting"/>
-<category term="outpainting"/>
-<category term="comfyui"/>
-<category term="stable diffusion"/>
-<category term="flux"/>
-<summary>If you've got ComfyUI and a decent graphics card, you already have everything Photoshop charges a subscription for. OpenFill is a free GIMP 3 plugin that turns them into one powerful, Adobe-style AI editing suite right inside GIMP: Generative Fill: select, type, Enter Remove object: no prompt needed</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 6 · inpainting, outpainting, comfyui, stable diffusion, flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;If you've got ComfyUI and a decent graphics card, you already have everything Photoshop charges a subscription for. OpenFill is a free GIMP 3 plugin that turns them into one powerful, Adobe-style AI editing suite right inside GIMP: Generative Fill: select, type, Enter Remove object: no prompt needed Generative Expand: drag the canvas out or pick a ratio Text to Image: a new layer or a new image It finds your existing ComfyUI (portable, Desktop, Stability Matrix or Pinokio), starts it hidden when you need it and stops it when GIMP closes. No node graph to open, and nothing leaves your machine. Under the hood it runs Stable Diffusion inpainting and outpainting (DreamShaper 8, RealVisXL V5 with&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x8j7tm/openfill_use_comfyui_from_inside_gimp_3_for/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
