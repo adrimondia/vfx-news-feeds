@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-01T09:30:22+00:00</updated>
+<updated>2026-11-01T11:30:21+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
 <entry>
 <id>https://github.com/0x0funky/agent-sprite-forge</id><title>0x0funky/agent-sprite-forge</title>
@@ -140,6 +140,16 @@
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · image editing, comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi, first time poster here. I've been playing around with AI illustration generation for half a year, and getting into ComfyUI since as long ago (Forge Neo didn't kept me long :) ) and I'm more and more into image2image workflows as I move on, because they offer more control and can get to where I want to more often, especially when I want to do more complicated compositions. I like how potentially powerful ComfyUI can be and I looked at all those crazy node tools and thought, maybe I should try to make tools that are more suitable to my workflow needs better. And keep it focused with a concise feature set, so they still work inside of ComfyUI without making things too complicated. So I've d&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xkjdy0/i_built_an_i2ifriendly_image_loader_builtin/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xkj764/i_built_a_visual_canvas_lightweight_image_editing/</id><title>I built a visual canvas, lightweight image editing and regional prompting node suite for ComfyUI. Introducing LuCiD VRP.</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xkj764/i_built_a_visual_canvas_lightweight_image_editing/"/>
+<published>2026-10-31T19:33:01+00:00</published><updated>2026-10-31T19:33:01+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="image editing"/>
+<category term="comfyui"/>
+<summary>Hi, first time poster here (and anywhere). I've been playing around with AI illustration generation for half a year, and I'm more and more into image2image workflows as I move on because they offer more control and can get to where I want to more often. So I've developed a custom node suite that tai</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · image editing, comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi, first time poster here (and anywhere). I've been playing around with AI illustration generation for half a year, and I'm more and more into image2image workflows as I move on because they offer more control and can get to where I want to more often. So I've developed a custom node suite that tailors better to that use case: start with a draft, and improve it between runs until things are right enough to be fixed. Introducing: LuCiD VRP - Visual Regional Painter (Beta) Currently it's made up of three parts: An image loader with various QOL features, including resizable latent, undo-redo with editing history, auto latent size alignment; A lightweight, built-in image editor with a carefully&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xkj764/i_built_a_visual_canvas_lightweight_image_editing/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xkivvu/happy_halloween_minimax_h3_did_it_again_music/</id><title>Happy Halloween! MiniMax H3 did it again! Music video using my video builder inside ComfyUI.</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xkivvu/happy_halloween_minimax_h3_did_it_again_music/"/>
 <published>2026-10-31T19:20:04+00:00</published><updated>2026-10-31T19:20:04+00:00</updated>
@@ -274,6 +284,16 @@
 <category term="consistency"/>
 <summary>This video was generated at 0.6 megapixels, with 10 seconds per clip and 9 clips in total. It took around 2.5 hours to generate. After that, I upscaled it and applied 2x frame interpolation. I was inspired by Sinaboto's videos and wanted to create similar content for TikTok. After a lot of trial and</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · frame interpolation, minimax, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;This video was generated at 0.6 megapixels, with 10 seconds per clip and 9 clips in total. It took around 2.5 hours to generate. After that, I upscaled it and applied 2x frame interpolation. I was inspired by Sinaboto's videos and wanted to create similar content for TikTok. After a lot of trial and error, I can finally make seamless videos like this with MH3! Specs: RTX 3060 12GB, 16GB RAM Workflow: https://github.com/chanon/comfyui-obvpm-timeline I can't wait to see what other people cooking, especially now that we've reached this level. I really hope they release an updated model, maybe MiniMax H3.5, with improvements to distant faces and objects, as well as action speed and motion consis&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xka3ps/the_fact_that_i_can_make_videos_like_this_with/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xk9rzj/minimax_h3_lacking_better_ref2v_models_for/</id><title>Minimax H3 - Lacking better REF2V models for broader action and fighting scenes</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xk9rzj/minimax_h3_lacking_better_ref2v_models_for/"/>
+<published>2026-10-31T13:08:10+00:00</published><updated>2026-10-31T13:08:10+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="minimax"/>
+<category term="lora"/>
+<summary>I 100% use Ref2v models and I see a big lacking space in this domain. Though there are many ref2v models available but they lack in proper motion like dynamic actions, dance, fight scenes etc. Even if a model provides good motion, they either lacks in referencing or just simply invent details on the</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I 100% use Ref2v models and I see a big lacking space in this domain. Though there are many ref2v models available but they lack in proper motion like dynamic actions, dance, fight scenes etc. Even if a model provides good motion, they either lacks in referencing or just simply invent details on their own, even providing detailed prompt and references. Now before someone say your prompt or references could have issues, I tell you that keeping everything same, I just do a base model change and the referencing reaches to 90-100% accurate. So no, the prompt or references aren't the issue, the models are. Distilling the model with turbo lora is not the case here since I have seen the sound and m&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xk9rzj/minimax_h3_lacking_better_ref2v_models_for/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1xk8xkq/the_comfyui_desktop_application_lags_when_running/</id><title>The ComfyUI Desktop application lags when running in a full-screen window at 4K resolution</title>
@@ -7151,38 +7171,5 @@
 <category term="lora"/>
 <summary>Hi https://preview.redd.it/9tsp0p7928wh1.png?width=1697&amp;format=png&amp;auto=webp&amp;s=7d614256e50a6c6caa8fcc04b137cdeee77e30af So i recently got into LoRa training and i am making a character but the trained LoRa does some stupid things. First of all today i trained one on 10 epochs with a local batch of 2</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi https://preview.redd.it/9tsp0p7928wh1.png?width=1697&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=7d614256e50a6c6caa8fcc04b137cdeee77e30af So i recently got into LoRa training and i am making a character but the trained LoRa does some stupid things. First of all today i trained one on 10 epochs with a local batch of 2 and a balancing of 10 repeats. So i trained it using onetrainer and it was done and i put it into comfyUI. Then i generated it but it did not look like my character at all how can i fix this and make a decent looking LoRa. This was my prompt and i have no idea how it can turn out like that: mychar_camille, standing, looking at viewer Image it generated: https://preview.redd.it/icilzm7028wh1.png?w&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x92dzj/lora_training/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1x901jx/title_production_slate_v45_released_from_file/</id><title>Title: Production Slate V4.5 released — from file chaos to production order (Audio + Latent saving for ComfyUI)</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x901jx/title_production_slate_v45_released_from_file/"/>
-<published>2026-10-18T10:37:28+00:00</published><updated>2026-10-18T10:37:28+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="animation"/>
-<category term="comfyui"/>
-<category term="minimax"/>
-<category term="filmmaking"/>
-<summary>I've just released Production Slate V4.5 , a substantial update to my free, open-source ComfyUI production saver. I originally developed Production Slate to solve a problem I kept encountering while making AI films: hundreds of images, video takes, reference frames and sound files, with far too much</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 5 · animation, comfyui, minimax, filmmaking&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I've just released Production Slate V4.5 , a substantial update to my free, open-source ComfyUI production saver. I originally developed Production Slate to solve a problem I kept encountering while making AI films: hundreds of images, video takes, reference frames and sound files, with far too much time spent finding and organising them. The idea is simple: you concentrate on creating, while Production Slate handles file naming, take numbering and organisation automatically. V4.5 brings several major additions, including features requested by the community: Audio: Save FLAC, WAV and MP3, with an integrated waveform preview, duration, playback and scrubbing. Latents: Save standard ComfyUI .l&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x901jx/title_production_slate_v45_released_from_file/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1x8zogd/same_prompt_3_models_sdxl_waiillustrious_v17_vs/</id><title>Same prompt, 3 models: SDXL (WAI-Illustrious v17) vs Krea 2 turbo vs MOSS-Image-SFT (anime scenes, no LoRA)</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x8zogd/same_prompt_3_models_sdxl_waiillustrious_v17_vs/"/>
-<published>2026-10-18T10:14:48+00:00</published><updated>2026-10-18T10:14:48+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<category term="lora"/>
-<summary>https://preview.redd.it/52smrdfua7wh1.png?width=2400&amp;format=png&amp;auto=webp&amp;s=dc1dd989d95378b8a8269cbd20b09486c414d894 Tested the three side by side using the exact same text prompt (booru tags only, no style prefix, no quality tags, no negative prompt), 4 scenes × 2 seeds, 1024×1024. No LoRAs. Prompt</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;https://preview.redd.it/52smrdfua7wh1.png?width=2400&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=dc1dd989d95378b8a8269cbd20b09486c414d894 Tested the three side by side using the exact same text prompt (booru tags only, no style prefix, no quality tags, no negative prompt), 4 scenes × 2 seeds, 1024×1024. No LoRAs. Prompts 1girl, solo, long silver hair, blue eyes, school uniform, standing, cherry blossoms, upper body, looking at viewer, soft light, spring 1boy, solo, short black hair, hoodie, standing, rooftop, night, from behind, city lights, skyline, looking away 1girl, 1boy, sitting, table, cafe, cups, smiling, rain, window, indoors, warm lighting 1girl, solo, light armor, holding sword, running, forest, dynami&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x8zogd/same_prompt_3_models_sdxl_waiillustrious_v17_vs/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1x8z6x3/krea_2_prompting_skill_with_huge_references/</id><title>Krea 2 prompting skill with huge references library</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x8z6x3/krea_2_prompting_skill_with_huge_references/"/>
-<published>2026-10-18T09:44:19+00:00</published><updated>2026-10-18T09:44:19+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="consistency"/>
-<category term="character consistency"/>
-<summary>Here is what's inside: File What it does SKILL.md The entrypoint. Mental model, ComfyUI defaults, prompt order, core rules. Start here. photoreal.md Camera, lens, film, light, texture. Portraits, products, landscapes, architecture, heroes. krea2-core.md Deep architecture, negative families, poster t</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · comfyui, consistency, character consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Here is what's inside: File What it does SKILL.md The entrypoint. Mental model, ComfyUI defaults, prompt order, core rules. Start here. photoreal.md Camera, lens, film, light, texture. Portraits, products, landscapes, architecture, heroes. krea2-core.md Deep architecture, negative families, poster text, composition modules, resolution table, reference reverse-engineering, character consistency. comfyui-setup.md Pipeline, the CFG 1.0 trap, Krea2PromptWeight , the enhancer, troubleshooting. poses.md The 11-field pose schema, usage, taxonomy, and the field findings. pose-library.md 30 ready-to-paste pose blocks. Copy, paste, stop inventing poses from scratch. styles.md 289 style names, four ful&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x8z6x3/krea_2_prompting_skill_with_huge_references/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
