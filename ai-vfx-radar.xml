@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-01T08:00:20+00:00</updated>
+<updated>2026-11-01T09:30:22+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
 <entry>
 <id>https://github.com/0x0funky/agent-sprite-forge</id><title>0x0funky/agent-sprite-forge</title>
@@ -292,6 +292,16 @@
 <category term="image editing"/>
 <summary>submitted by /u/simpleuserhere [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · image editing&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/simpleuserhere [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xk6qcg/fastsdcpu_halloween_release_fibo_20_edit_turbo/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xk6dh8/minimax_h3_anybody_with_a_24gb_gpu_able_to_do/</id><title>MINIMAX H3: Anybody with a 24gb GPU able to do true 1MP with a 1080p 2nd pass? I'm getting OOM.</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xk6dh8/minimax_h3_anybody_with_a_24gb_gpu_able_to_do/"/>
+<published>2026-10-31T10:05:57+00:00</published><updated>2026-10-31T10:05:57+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="minimax"/>
+<category term="lora"/>
+<summary>Quick question for the 24 GB crowd: has anyone run a true 1 MP pass 1 (1344x768) into a 1080p pass 2 with H3 ref2va on a 4090? On Singularity v1.3 int8 with 141 frames, my 1344x768 pass 1 runs at about 43 s/it (weights streaming) and the 1920x1080 pass 2 crashed with a CUDA illegal memory access. Th</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Quick question for the 24 GB crowd: has anyone run a true 1 MP pass 1 (1344x768) into a 1080p pass 2 with H3 ref2va on a 4090? On Singularity v1.3 int8 with 141 frames, my 1344x768 pass 1 runs at about 43 s/it (weights streaming) and the 1920x1080 pass 2 crashed with a CUDA illegal memory access. This is what I've got to work so far: 1152x640, then 1.5x learned latent upscale, 2 steps with the ref2v turbo LoRA at 0.2 denoise, then RTX VSR to 1080, about 9 min per 6 s clip. submitted by /u/newaccount47 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xk6dh8/minimax_h3_anybody_with_a_24gb_gpu_able_to_do/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1xk65w7/local_comfy_agent_v040_update/</id><title>Local Comfy Agent v0.4.0 update</title>
