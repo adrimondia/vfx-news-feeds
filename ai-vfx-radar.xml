@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-01T03:30:21+00:00</updated>
+<updated>2026-11-01T05:30:21+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1xkq00c/rtx_4070_do_slightly_longer_videos_take_much_much/</id><title>RTX 4070, do slightly longer videos take much much longer? (minimax h3 r2v default workflow but with LoRA)</title>
@@ -184,6 +184,17 @@
 <category term="controlnet"/>
 <summary>Last week, a few of you asked about the software behind some of my posts. It's my "own" vibe coded paint app, Pai. I've been using it casually, and since people kept asking, I figured I'd do a proper follow up to see if there's real interest. Post 1 / Post 2 / Post 3 All in all, I wanted a regular p</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui, controlnet&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Last week, a few of you asked about the software behind some of my posts. It's my "own" vibe coded paint app, Pai. I've been using it casually, and since people kept asking, I figured I'd do a proper follow up to see if there's real interest. Post 1 / Post 2 / Post 3 All in all, I wanted a regular painting app with AI generation in the same window. No hopping between ComfyUI, a browser, and Photoshop or any other similar software. So this thing is a full raster paint app that also has its own generation, same canvas, same layers, same everything. Yes, there are plenty of alternatives like InvokeAI, Krita AI Diffusion, etc. To be honest, I haven't tried them and didn't bother. I just fired up&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xkgjor/as_promised_here_is_pai/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xkgbgo/release_morgana_12_a_photographyfocused_flux2/</id><title>[Release] Morgana 1.2: A photography-focused FLUX.2 Klein 4B finetune for realistic faces, natural lighting, and detailed textures (Free Weights + GGUF)</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xkgbgo/release_morgana_12_a_photographyfocused_flux2/"/>
+<published>2026-10-31T17:37:01+00:00</published><updated>2026-10-31T17:37:01+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="rendering"/>
+<category term="flux"/>
+<category term="lora"/>
+<summary>Morgana 1.2 is Kitani‘s photography focused finetune of Flux.2 Klein 4b. Our goal for the fine tune was for Klein to make images that don’t look like they came from a model - natural lighting, visible textures, great macro details &amp; true color. What it’s trained for: - Casual, regular faces - pores,</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · rendering, flux, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Morgana 1.2 is Kitani‘s photography focused finetune of Flux.2 Klein 4b. Our goal for the fine tune was for Klein to make images that don’t look like they came from a model - natural lighting, visible textures, great macro details &amp;amp; true color. What it’s trained for: - Casual, regular faces - pores, irregular hair, imperfect framing no AI telltales - Macro and materialistic textures - water droplets, feathers, fabric weave, ruse, leather - Landscape and night scenes - aurora reflections, breaking waves, wet neon - Paintings and anime - Anatomy Speed on 1x H100: 4.6 seconds for 15 steps, no LoRA Free everything: - Full safetensors: https://huggingface.com/kitaniai/morgana-1.2 - GGUF: BF16, Q8&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xkgbgo/release_morgana_12_a_photographyfocused_flux2/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/vfx/comments/1xkfpqm/how_to_understand_syntheyes_usd_export_options/</id><title>How to understand Syntheyes USD export options?</title>
@@ -7221,85 +7232,5 @@
 <category term="lora"/>
 <summary>Put together a quick T2I comparison at ~4MP resolution testing Qwen Image 2.1 Turbo , MOSS-Image-SFT , Krea 2 Turbo , and Flux 3 Klein across a variety of prompt styles—ranging from simple subjects and unique/mixed concepts to highly complex descriptions, intricate details, and multi-character compo</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · flux, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Put together a quick T2I comparison at ~4MP resolution testing Qwen Image 2.1 Turbo , MOSS-Image-SFT , Krea 2 Turbo , and Flux 3 Klein across a variety of prompt styles—ranging from simple subjects and unique/mixed concepts to highly complex descriptions, intricate details, and multi-character compositions. Sampling Parameters (Resolution: ~4 Megapixels): Qwen Image 2.1 Turbo: Sampler: euler_cfg_pp | Scheduler: Qwen turbo scheduler (interpolated to 10 steps) | CFG: 1 MOSS-Image-SFT: Sampler: euler | Scheduler: simple | Steps: 50 | CFG: 3 Krea 2 Turbo: Sampler: euler | Scheduler: beta | Steps: 12 | CFG: 1 Flux 3 Klein: Sampler: euler | Scheduler: simple | Steps: 16 | CFG: 1 P.S. Krea2_TextFus&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x8v4gx/t2i_comparison_4mp_qwen_image_21_turbo_vs/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1x8unhs/the_new_flux3_fixed_workflow_in_comfyui_rtx3060/</id><title>The new FLUX3 Fixed Workflow in comfyUI (RTX3060 6GBVRAM)</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x8unhs/the_new_flux3_fixed_workflow_in_comfyui_rtx3060/"/>
-<published>2026-10-18T05:04:29+00:00</published><updated>2026-10-18T05:04:29+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<summary>Hello everyone, BFL released new workflow that has fix for comfyui using the same models i did comparaison using the base and turbo version. With unsampler Generation Time (base): 6 min CFG 3.5, 25 steps at 3 megapixel Generation Time (Turbo): 2.5min CFG 1.0, 16 steps at 3 megapixel Without unsample</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hello everyone, BFL released new workflow that has fix for comfyui using the same models i did comparaison using the base and turbo version. With unsampler Generation Time (base): 6 min CFG 3.5, 25 steps at 3 megapixel Generation Time (Turbo): 2.5min CFG 1.0, 16 steps at 3 megapixel Without unsampler Generation Time (base): 3 min CFG 3.5, 25 steps at 3 megapixel Generation Time (Turbo): 1 min CFG 1.0, 16 steps at 3 megapixel i found out that using the unsampler helps a lot the model to understand the prompt and deliver better results, as for the image quality and details it seems the turbo version is better than the base. so make sure to update your comfyui to the latest version before using&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x8unhs/the_new_flux3_fixed_workflow_in_comfyui_rtx3060/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1x8um36/music_video_krea_2_stills_minimax_h3_in_comfyui/</id><title>Music Video. Krea 2 stills → MiniMax H3 in ComfyUI, 70 shots with refmods</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x8um36/music_video_krea_2_stills_minimax_h3_in_comfyui/"/>
-<published>2026-10-18T05:02:15+00:00</published><updated>2026-10-18T05:02:15+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="frame interpolation"/>
-<category term="comfyui"/>
-<category term="minimax"/>
-<summary>Happy Halloween! Full video: https://youtu.be/-U6E_U2YoRA Pipeline, all in ComfyUI on an RTX 5090: Stills: Krea 2 with a reference set per character (face sheet + body + outfit) so the bride stays herself (almost) across 70 first frames. Motion: MiniMax H3, two passes. A 0.3 MP preview to judge the </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 5 · frame interpolation, comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Happy Halloween! Full video: https://youtu.be/-U6E_U2YoRA Pipeline, all in ComfyUI on an RTX 5090: Stills: Krea 2 with a reference set per character (face sheet + body + outfit) so the bride stays herself (almost) across 70 first frames. Motion: MiniMax H3, two passes. A 0.3 MP preview to judge the motion, then the same latent resumed and refined at 2 MP for the final, so the approved motion survives into the final. Finish: VSR → DLSS5 upscale → DaVinci Resolve, at native 24 fps, no frame interpolation. Lessons: plan each shot as a new angle and a new action; lock identity with references rather than prompts; check faces on the exact cut window, because identity drifts after an internal cut &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x8um36/music_video_krea_2_stills_minimax_h3_in_comfyui/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1x8ucpe/comfyui_manager_342/</id><title>ComfyUI Manager (3.42)</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x8ucpe/comfyui_manager_342/"/>
-<published>2026-10-18T04:47:21+00:00</published><updated>2026-10-18T04:47:21+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<summary>Is there some reason this just gets more and more agonizingly slow to run updates ("Update All") and nothing shows in the console? It's just stuck on "FETCH DATA from: https://raw.githubusercontent.com/Comfy-Org/ComfyUI-Manager/main/custom-node-list.json [DONE]" Remember it used to show what it was </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Is there some reason this just gets more and more agonizingly slow to run updates ("Update All") and nothing shows in the console? It's just stuck on "FETCH DATA from: https://raw.githubusercontent.com/Comfy-Org/ComfyUI-Manager/main/custom-node-list.json [DONE]" Remember it used to show what it was processing/doing quite a few updates of the core ComfyUI a while ago, now it doesn't anymore and seems to be just hung not doing anything for 20 minutes now? submitted by /u/GraphicArtsFurry [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x8ucpe/comfyui_manager_342/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1x8u2gl/i_made_a_storyboard_and_video_prompt_tool_for/</id><title>I made a storyboard and video prompt tool for ComfyUI</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x8u2gl/i_made_a_storyboard_and_video_prompt_tool_for/"/>
-<published>2026-10-18T04:30:39+00:00</published><updated>2026-10-18T04:30:39+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="minimax"/>
-<category term="seedance"/>
-<category term="ltx"/>
-<category term="storyboard"/>
-<summary>Hi everyone, I’ve been making short 2D animations with MiniMax H3 and ended up building a tool to help with the planning and prompting. The video above was made using the generated storyboard and prompts, then rendered with MiniMax H3 and edited separately. I also reviewed and corrected the Japanese</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 7 · comfyui, minimax, seedance, ltx, storyboard&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi everyone, I’ve been making short 2D animations with MiniMax H3 and ended up building a tool to help with the planning and prompting. The video above was made using the generated storyboard and prompts, then rendered with MiniMax H3 and edited separately. I also reviewed and corrected the Japanese dialogue myself. You enter your characters’ personalities, how they speak, and what happens in the scene. It generates a text storyboard with dialogue, actions, and camera directions that you can review and edit before converting it into video prompts. The part I wanted most was being able to use those prompts directly in ComfyUI. You can pick the clips you want, add them as individual nodes, and&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x8u2gl/i_made_a_storyboard_and_video_prompt_tool_for/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1x8tteo/best_image_upscaler/</id><title>best image upscaler?</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x8tteo/best_image_upscaler/"/>
-<published>2026-10-18T04:16:06+00:00</published><updated>2026-10-18T04:16:06+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="upscaler"/>
-<summary>I'm testing out some new image upscalers. Which ones are your go-to options right now? submitted by /u/brocolongo [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · upscaler&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I'm testing out some new image upscalers. Which ones are your go-to options right now? submitted by /u/brocolongo [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x8tteo/best_image_upscaler/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1x8tsgo/the_greatest_model_ever_mossimagesft_at_4_steps/</id><title>THE GREATEST MODEL EVER - MOSS-IMAGE-SFT AT 4 STEPS</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x8tsgo/the_greatest_model_ever_mossimagesft_at_4_steps/"/>
-<published>2026-10-18T04:14:35+00:00</published><updated>2026-10-18T04:14:35+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="lora"/>
-<summary>It handles the latent space like no other model. It can generate images from 320×320 to 2K without producing visual monsters. It can generate all kinds of NSFW content without needing LoRAs. It handles lighting and realistic scenes better than Z-Image. I even tried 120×120 , and it didn't break the </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;It handles the latent space like no other model. It can generate images from 320×320 to 2K without producing visual monsters. It can generate all kinds of NSFW content without needing LoRAs. It handles lighting and realistic scenes better than Z-Image. I even tried 120×120 , and it didn't break the model. And it can run at just 4 steps right out of the gate . Links: Workflow and setup details Rapid-MOSS custom node Rapid-MOSS ComfyUI files MOSS-Image-SFT 8-step DMD LoRA How to set up Rapid-MOSS for 4-step generation Copy the rapid-moss custom node into your ComfyUI custom_nodes folder. Create this directory: C:\comfyui\models\rapid_moss\rapid-moss-4step Place these three files inside that fo&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x8tsgo/the_greatest_model_ever_mossimagesft_at_4_steps/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1x8tpjd/an_actual_direct_comparison_of_moss_sft_flux_3/</id><title>An actual direct comparison of MOSS SFT, Flux 3 Klein Distilled, and the original SD 3.0, on the same prompts (since apparently a lot of people don't remember what SD 3.0 was actually like to use)</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x8tpjd/an_actual_direct_comparison_of_moss_sft_flux_3/"/>
-<published>2026-10-18T04:10:08+00:00</published><updated>2026-10-18T04:10:08+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="flux"/>
-<summary>Suffice to say SD3 is not even remotely similar to any recent model (as anyone who knew what they were talking about in any way was already aware). Prompts were: 1: A high-fidelity social media portrait in a medium close-up framing, dominated by a stylish Black female influencer with a bold, high-gl</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Suffice to say SD3 is not even remotely similar to any recent model (as anyone who knew what they were talking about in any way was already aware). Prompts were: 1: A high-fidelity social media portrait in a medium close-up framing, dominated by a stylish Black female influencer with a bold, high-glam aesthetic. She holds a sleek smartphone in the lower foreground, caught mid-reaction as she gazes at the screen with widened, expressive dark eyes and gently bites her lower lip in a sultry, visibly impressed look of approval. Her deep brown complexion is radiant under expertly applied heavy makeup, featuring sharp cheekbone contouring, luminous highlighter along the bridge of her nose and chee&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x8tpjd/an_actual_direct_comparison_of_moss_sft_flux_3/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1x8t1zp/need_guidance_on_the_learning_progress_and_flow/</id><title>Need guidance on the learning progress and flow</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x8t1zp/need_guidance_on_the_learning_progress_and_flow/"/>
-<published>2026-10-18T03:33:40+00:00</published><updated>2026-10-18T03:33:40+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="lora"/>
-<summary>Hey awesome community! I just started ComfyUI like a week ago. I have moderate computer knowledge but 0 programming experience and have been learning from ChatGPT to explain, download and setup everything. However, I'm not sure if ChatGPT is making me go around circle or losing some memory that we d</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey awesome community! I just started ComfyUI like a week ago. I have moderate computer knowledge but 0 programming experience and have been learning from ChatGPT to explain, download and setup everything. However, I'm not sure if ChatGPT is making me go around circle or losing some memory that we did some of the steps before. I'm trying to make a realistic AI influencer. At first, It's teaching me SDXL then Qwen, then moving to masking to edit the buggy details. In the end, I'm still stuck with AI-like models. Then it towards RealVisXL, Inpaint &amp;amp; OpenPose, at this point I'm very lost and not sure what to do or if I'm doing it correctly anymore. At one point, I started asking GPT to generate&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x8t1zp/need_guidance_on_the_learning_progress_and_flow/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
