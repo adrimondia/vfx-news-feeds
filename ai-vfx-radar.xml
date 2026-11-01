@@ -2,8 +2,56 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-01T19:30:20+00:00</updated>
+<updated>2026-11-01T21:30:22+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1xldm4i/tribe_creature_blender/</id><title>Tribe Creature - Blender</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xldm4i/tribe_creature_blender/"/>
+<published>2026-11-01T20:32:17+00:00</published><updated>2026-11-01T20:32:17+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="blender"/>
+<summary>Tribe Creature rendered and painted in Blender submitted by /u/One_Willingness6034 [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · blender&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Tribe Creature rendered and painted in Blender submitted by /u/One_Willingness6034 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xldm4i/tribe_creature_blender/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1xldkv9/the_man_who_fell_to_earth_houdini_work/</id><title>The man who fell to earth - Houdini Work</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xldkv9/the_man_who_fell_to_earth_houdini_work/"/>
+<published>2026-11-01T20:30:52+00:00</published><updated>2026-11-01T20:30:52+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="houdini"/>
+<summary>Houdini Galaxy creation holographic in Houdini for OutpostVFX submitted by /u/One_Willingness6034 [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · houdini&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Houdini Galaxy creation holographic in Houdini for OutpostVFX submitted by /u/One_Willingness6034 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xldkv9/the_man_who_fell_to_earth_houdini_work/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xlcbcx/video_gen_on_9070_xt_nowadays/</id><title>Video gen on 9070 XT nowadays ?</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xlcbcx/video_gen_on_9070_xt_nowadays/"/>
+<published>2026-11-01T19:40:22+00:00</published><updated>2026-11-01T19:40:22+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="video model"/>
+<category term="minimax"/>
+<category term="ltx"/>
+<summary>Fellow AMD ai enthusiasts, now that image gen is already mastered on our gpus (zIT, MOSS, krea2 etc working fast enough with loras and as stable as a rock) what about video gen ? Have you got enough luck with minimax h3 or ltx 2.5 ( since it’s faster) ? I personally tried minimax h3 and the speed is</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · video model, minimax, ltx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Fellow AMD ai enthusiasts, now that image gen is already mastered on our gpus (zIT, MOSS, krea2 etc working fast enough with loras and as stable as a rock) what about video gen ? Have you got enough luck with minimax h3 or ltx 2.5 ( since it’s faster) ? I personally tried minimax h3 and the speed is awful, 8 minutes to generate 5 480p secondes, is there something for us AMD users to accelerate things or some video model that works good enough on our cards ??? submitted by /u/darthrehad [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xlcbcx/video_gen_on_9070_xt_nowadays/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xlbhck/long_wait_times_on_my_m1_ultra_mac/</id><title>Long wait times on my M1 Ultra mac</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xlbhck/long_wait_times_on_my_m1_ultra_mac/"/>
+<published>2026-11-01T19:07:29+00:00</published><updated>2026-11-01T19:07:29+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<category term="ltx"/>
+<summary>Hi all. To begin with, yes I have a Mac. It's the only computer I have and getting something with Cuda is not in the budget. I'm running LTX 2.5 image to video and it takes 18min to generate a 6 second clip. Using Comfyui desktop, I've installed and am running Q4KM gguf, Video and audio Vae bf16 nod</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui, ltx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi all. To begin with, yes I have a Mac. It's the only computer I have and getting something with Cuda is not in the budget. I'm running LTX 2.5 image to video and it takes 18min to generate a 6 second clip. Using Comfyui desktop, I've installed and am running Q4KM gguf, Video and audio Vae bf16 nodes, Gemma 12b bf16 text encoder, Vae decode tiled. Tile size 512. I've tried using default and GPU only in the startup arguments. System claims it is using MPS. Pytorch 2.13 for Apple Silicon. Python 3.13.12. It consistently takes approx 18 min to generate a 6 second clip and from what I've researched, it should take around 6-7 min. Even that is long compared to Nvidia computers, but I'd be deligh&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xlbhck/long_wait_times_on_my_m1_ultra_mac/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xlb650/comfyui_plugin_update_1400_visual_styles_for_krea/</id><title>ComfyUI Plugin Update: 1400+ Visual Styles for Krea 2, WebP Workflow Embedding, &amp; Persistent AI Prompt Storage!</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xlb650/comfyui_plugin_update_1400_visual_styles_for_krea/"/>
+<published>2026-11-01T18:55:24+00:00</published><updated>2026-11-01T18:55:24+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<summary>Hey SD community, I've put together a set of utilities designed to polish up the ComfyUI experience and supercharge prompting options. 🔗 Repository: https://github.com/skkut/ComfyUI-skkut-utils What's New &amp; Included: 1400+ Visual Style Picker for Krea 2: A massive visual selector for Krea 2 image ge</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey SD community, I've put together a set of utilities designed to polish up the ComfyUI experience and supercharge prompting options. 🔗 Repository: https://github.com/skkut/ComfyUI-skkut-utils What's New &amp;amp; Included: 1400+ Visual Style Picker for Krea 2: A massive visual selector for Krea 2 image generation (massive credits to u/Dear-Spend-2865 , Clio style preview and OreX nodes for sharing this prompt collection). AI Enhanced Prompt Preservation: Ever use an LLM or prompt expander inside ComfyUI only to lose the final enhanced prompt in the saved image metadata? The custom text node included here saves the enhanced prompt directly to the workflow JSON, allowing full prompt reconstruction u&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xlb650/comfyui_plugin_update_1400_visual_styles_for_krea/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xl9epi/few_tips_i_learned_as_a_total_noob_with_minimax_h3/</id><title>Few tips I learned as a total noob with minimax h3</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xl9epi/few_tips_i_learned_as_a_total_noob_with_minimax_h3/"/>
@@ -7179,14 +7227,5 @@
 <category term="houdini"/>
 <summary>Hey everyone, I’ve been working on a project called Houdini Oversimplified for a while, but I realized I never actually introduced it here. The idea behind HOS is pretty simple: breaking down Houdini topics in a way that feels easier to follow and less intimidating. Everything in the project is free</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · houdini&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey everyone, I’ve been working on a project called Houdini Oversimplified for a while, but I realized I never actually introduced it here. The idea behind HOS is pretty simple: breaking down Houdini topics in a way that feels easier to follow and less intimidating. Everything in the project is free to access. Here’s the project so far: https://volcano-jar-f61.notion.site/HOUDINI-OVER-SIMPLIFIED-HOS-3ad392019a5e80a48678e81cb47dfbd3 I thought I’d share it here in case it’s useful to anyone. Thanks for taking a look. submitted by /u/HouOversimplified [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1x9f0a9/houdini_oversimplified_notes_explanations_and/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1x9ec6d/update_me_on_minimax/</id><title>UPDATE ME ON MINIMAX</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x9ec6d/update_me_on_minimax/"/>
-<published>2026-10-18T21:02:59+00:00</published><updated>2026-10-18T21:02:59+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="minimax"/>
-<summary>Hey all back after long time can you guys please tell me what is best model right now Best - Fast best - Fast ok - Just Fast- Also what happened to minimax h3 max have they open sourced it no trace of it was found 99% tweets about opensourcing it are deleted submitted by /u/Pitiful_Archer_4381 [link</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey all back after long time can you guys please tell me what is best model right now Best - Fast best - Fast ok - Just Fast- Also what happened to minimax h3 max have they open sourced it no trace of it was found 99% tweets about opensourcing it are deleted submitted by /u/Pitiful_Archer_4381 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x9ec6d/update_me_on_minimax/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
