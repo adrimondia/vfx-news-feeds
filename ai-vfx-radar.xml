@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-01T15:30:21+00:00</updated>
+<updated>2026-11-01T17:30:24+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
 <entry>
 <id>https://www.reddit.com/r/vfx/comments/1xl3yqn/vfx_dailies_nuke_18_french_vfx_artists_walking/</id><title>VFX Dailies : Nuke 18, French VFX Artists Walking Out for 2 Hours!, SwitchHDR 2.0</title>
@@ -13,6 +13,19 @@
 <category term="nuke"/>
 <summary>submitted by /u/ranjith1016 [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 4 · vfx, nuke&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/ranjith1016 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xl3yqn/vfx_dailies_nuke_18_french_vfx_artists_walking/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xl3v4k/image_generation_on_a_laptop_igpu_ryzen_4750u/</id><title>Image generation on a laptop iGPU (Ryzen 4750U, Vega 7) with stable-diffusion.cpp + Vulkan: patches, numbers, and a video model that fits in 14 GB</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xl3v4k/image_generation_on_a_laptop_igpu_ryzen_4750u/"/>
+<published>2026-11-01T14:03:50+00:00</published><updated>2026-11-01T14:03:50+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="video model"/>
+<category term="upscaler"/>
+<category term="wan"/>
+<category term="ltx"/>
+<category term="lora"/>
+<summary>I’ve been squeezing diffusion models out of a ThinkPad T14s with a Ryzen 7 PRO 4750U (Radeon Vega 7, 7 CUs, no matrix cores, no int8 dot, no bf16) and 14 GiB of shared RAM, on Linux (Mesa RADV, Vulkan) with stable-diffusion.cpp. Everything I found along the way is written down in a repo, including w</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 6 · video model, upscaler, wan, ltx, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I’ve been squeezing diffusion models out of a ThinkPad T14s with a Ryzen 7 PRO 4750U (Radeon Vega 7, 7 CUs, no matrix cores, no int8 dot, no bf16) and 14 GiB of shared RAM, on Linux (Mesa RADV, Vulkan) with stable-diffusion.cpp. Everything I found along the way is written down in a repo, including what didn’t work. Repo: https://github.com/ayanoby/vega-igpu-diffusion What it is ggml-vega.patch: ggml-vulkan changes for Vega/GCN (fused kernels, a two-wave matmul tile, tiled f16 weights), with tests. sd-cpp.patch: sd.cpp changes (Anima, Wan VAE, LTX-2.5 speedups: removed redundant repeats, optional video-only mode, an on-disk prompt-embedding cache, freeing the diffusion weights before the VAE &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xl3v4k/image_generation_on_a_laptop_igpu_ryzen_4750u/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xl34bd/krea_2_turbo_with_my_4step_lora_and_nvidia_pid/</id><title>Krea 2 Turbo with my 4-step LoRA and Nvidia PiD = Super-Fast High-Res (ComfyUI)</title>
@@ -7156,33 +7169,5 @@
 <category term="vfx"/>
 <summary>Here's the library (Available on our new site, VFXAssets by Compositing Academy): https://vfxassets.com/d/demoreel-footage-for-compositors?mode=greenscreen All of the greenscreen clips give a free 2K version, as SLOG3 - Sgamut3.Cine Prores 4444 clips, and are free for non-commercial use. They can be</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 3 · compositing, vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Here's the library (Available on our new site, VFXAssets by Compositing Academy): https://vfxassets.com/d/demoreel-footage-for-compositors?mode=greenscreen All of the greenscreen clips give a free 2K version, as SLOG3 - Sgamut3.Cine Prores 4444 clips, and are free for non-commercial use. They can be used for portfolios or practice projects. As a professional compositor and 3D generalist myself, I'll be making a bunch of projects with these, but I figured other people might find them useful as source material as well! submitted by /u/CompositingAcademy [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1x99agr/new_150_free_professional_greenscreen_plates_for/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1x97q81/a_quick_mossimage_news_roundup_18th_october_2026/</id><title>A quick MOSS-Image news round-up - 18th October 2026</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x97q81/a_quick_mossimage_news_roundup_18th_october_2026/"/>
-<published>2026-10-18T16:38:28+00:00</published><updated>2026-10-18T16:38:28+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="lora"/>
-<summary>A quick MOSS-Image news and goodies round-up, for those who may have missed some items. -&gt; Spectrum for MOSS. A very pleasing speed-up, I find. Just wire in the 'auto' version of the node after the model. Tested without any turbo LoRa, and I can get pleasing 1:1 testing results in as low as 12 steps</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;A quick MOSS-Image news and goodies round-up, for those who may have missed some items. -&amp;gt; Spectrum for MOSS. A very pleasing speed-up, I find. Just wire in the 'auto' version of the node after the model. Tested without any turbo LoRa, and I can get pleasing 1:1 testing results in as low as 12 steps, for a 1.3Mpx generation (1168px) - in 30 seconds on an entry-level RTX 3060 12Gb card. Incidentally, I find that ComfyUI's built-in Kitchen Attention appears to have no effect on MOSS speed, so Spectrum is especially welcome. https://github.com/Rkkss/ComfyUI-Spectrum-MOSS -&amp;gt; MOSS-Image SFT DeBand (int8). The normal models, just with the 'vertical colour stripes, de-banding fix' merged in. Tested&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x97q81/a_quick_mossimage_news_roundup_18th_october_2026/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1x97782/fix_why_comfyui_sidebar_shows_tickmarks_instead/</id><title>Fix: Why ComfyUI Sidebar Shows Tickmarks (✓) Instead of Previews for JXL Files (And How to Fix It)</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x97782/fix_why_comfyui_sidebar_shows_tickmarks_instead/"/>
-<published>2026-10-18T16:17:03+00:00</published><updated>2026-10-18T16:17:03+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<summary>Fix: Why ComfyUI Sidebar Shows Tickmarks (✓) Instead of Previews for JXL Files (And How to Fix It) If you're using a node like Save Image Extended or custom JXL exporters in ComfyUI and notice that your .jxl images save fine to disk, but the ComfyUI sidebar feed / history only shows a double tickmar</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Fix: Why ComfyUI Sidebar Shows Tickmarks (✓) Instead of Previews for JXL Files (And How to Fix It) If you're using a node like Save Image Extended or custom JXL exporters in ComfyUI and notice that your .jxl images save fine to disk, but the ComfyUI sidebar feed / history only shows a double tickmark (✓) instead of an image thumbnail—even though your browser supports JPEG XL—here is the exact cause and fix. The Cause: It's a ComfyUI Frontend Whitelist Issue It turns out this isn't necessarily a browser decoding problem. In ComfyUI's modern frontend ( comfyui_frontend_package ), there is an internal media classifier in formatUtil-*.js with a hardcoded list of image extensions: `` javascript v&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x97782/fix_why_comfyui_sidebar_shows_tickmarks_instead/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1x973fp/is_using_an_egpu_viable_with_comfyui/</id><title>Is using an EGPU viable with ComfyUI?</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x973fp/is_using_an_egpu_viable_with_comfyui/"/>
-<published>2026-10-18T16:12:43+00:00</published><updated>2026-10-18T16:12:43+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<summary>I am an AI noob and i recently go a rtx 3090 to use with comfyUI. I already have a RTX 4080 but i want to leverage both. Turns out there is no way i'm fitting both on my current motherboard and in my current case. So basically its down to either i rebuild my system with a new mobo and case (and prob</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I am an AI noob and i recently go a rtx 3090 to use with comfyUI. I already have a RTX 4080 but i want to leverage both. Turns out there is no way i'm fitting both on my current motherboard and in my current case. So basically its down to either i rebuild my system with a new mobo and case (and probably power supply) or turn the 3090 into external gpu connected with thunderbolt. Honestly if i can get decent performance (70% of what i would get out of pcie x8 slot) with a external gpu that would be great cause that's a lot more flexible setup. Is that possible? submitted by /u/MrMagic550 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x973fp/is_using_an_egpu_viable_with_comfyui/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
