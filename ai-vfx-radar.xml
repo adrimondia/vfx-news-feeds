@@ -2,8 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-02T21:30:21+00:00</updated>
+<updated>2026-11-02T23:30:33+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xmal1l/openh3regenerate2k_to_preserve_draft_pass_details/</id><title>Open-H3-Regenerate-2K to preserve draft pass details</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xmal1l/openh3regenerate2k_to_preserve_draft_pass_details/"/>
+<published>2026-11-02T21:47:08+00:00</published><updated>2026-11-02T21:47:08+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="denoising"/>
+<category term="minimax"/>
+<category term="lora"/>
+<category term="consistency"/>
+<summary>NVIDIA’s original Open-H3-Regenerate-2K recipe can struggle to preserve facial features and text established during the draft pass. ( see my previous post here: https://www.reddit.com/r/StableDiffusion/s/Pm77j7t6xr ) Valtz introduces an alternative refinement recipe that addresses these issues while</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · denoising, minimax, lora, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;NVIDIA’s original Open-H3-Regenerate-2K recipe can struggle to preserve facial features and text established during the draft pass. ( see my previous post here: https://www.reddit.com/r/StableDiffusion/s/Pm77j7t6xr ) Valtz introduces an alternative refinement recipe that addresses these issues while retaining the same computational cost. The approach is not specific to Valtz and should be applicable to other frameworks as well. We generated MiniMax H3 videos beyond 768p in two passes: a 768p draft, followed by NVIDIA’s Open-H3-Regenerate-2K refinement at the requested resolution. The key difference is where the refinement begins on the noise schedule. Valtz offers two options: * Keep the Dra&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xmal1l/openh3regenerate2k_to_preserve_draft_pass_details/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xm7u3x/rtx_3090_tensor_unlock_on_windows_got_it_to/</id><title>RTX 3090 tensor unlock on Windows: got it to actually boot (BitLocker was the problem) + real ComfyUI video numbers</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xm7u3x/rtx_3090_tensor_unlock_on_windows_got_it_to/"/>
@@ -13,6 +25,27 @@
 <category term="minimax"/>
 <summary>Everyone's seen the 3090 tensor core unlock by now, but most of what I've read says it's a Linux thing and on Windows you can forget about it. The unlock itself already exists for Windows. What didn't work, for me and for the guy in issue #125, was getting back into Windows afterwards. That part is </summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Everyone's seen the 3090 tensor core unlock by now, but most of what I've read says it's a Linux thing and on Windows you can forget about it. The unlock itself already exists for Windows. What didn't work, for me and for the guy in issue #125, was getting back into Windows afterwards. That part is solved now. The project is Windows-GPU-UNLOCK ( https://github.com/windows-GPU-UNLOCK/Windows-GPU-UNLOCK , not mine). It lifts the GeForce cap on FP16/BF16 tensor throughput until the next power off. On my 3090 FE the log on the stick said success every single time, and then the PC just switched itself off before Windows came up. Turned out to be BitLocker. Booting the unsigned USB stick with Secu&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xm7u3x/rtx_3090_tensor_unlock_on_windows_got_it_to/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xm72g8/a_quick_mossimage_news_roundup_2nd_november_2026/</id><title>A quick MOSS-Image news round-up - 2nd November 2026</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xm72g8/a_quick_mossimage_news_roundup_2nd_november_2026/"/>
+<published>2026-11-02T19:34:34+00:00</published><updated>2026-11-02T19:34:34+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="rendering"/>
+<category term="comfyui"/>
+<category term="lora"/>
+<summary>Another quick MOSS-Image news and goodies round-up, for those who may have missed some items. -&gt; ComfyUI MOSS Smart Sampler. A dedicated MOSS sampler for your ComfyUI workflows, exposing tweakable settings... "It can reproduce a native ComfyUI sigma schedule or redistribute sampling positions using </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · rendering, comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Another quick MOSS-Image news and goodies round-up, for those who may have missed some items. -&amp;gt; ComfyUI MOSS Smart Sampler. A dedicated MOSS sampler for your ComfyUI workflows, exposing tweakable settings... "It can reproduce a native ComfyUI sigma schedule or redistribute sampling positions using Stage Weighted or Smooth Warp. An adjustable Sigma Strength lets you blend either experimental curve back toward the native schedule." For the rest of us, the node includes four setting presets in a drop-down. https://github.com/VictorDmAlves/comfyui-moss-smart-sampler -&amp;gt; The new Diffu-moss-hand-eight LoRA. Pushes MOSS-Image's outstanding text rendering into one of eight historic handwriting style&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xm72g8/a_quick_mossimage_news_roundup_2nd_november_2026/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xm71mi/single_shot_generation_experiment_minimax_h3slopus/</id><title>Single shot generation experiment (MiniMax H3/Slopus)</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xm71mi/single_shot_generation_experiment_minimax_h3slopus/"/>
+<published>2026-11-02T19:33:46+00:00</published><updated>2026-11-02T19:33:46+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<category term="minimax"/>
+<summary>Tried a two minute single shot generation and the result came out quite nice. There are no additional references in the middle, everything uses the start as the reference point and the start is generated by a text prompt. It uses some agentic behavior that is not available in the released slopus.ai </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Tried a two minute single shot generation and the result came out quite nice. There are no additional references in the middle, everything uses the start as the reference point and the start is generated by a text prompt. It uses some agentic behavior that is not available in the released slopus.ai yet, but manually generating this is already possible. With ComfyUI you can generate the same/similar using any Rolling Diffusion based workflow. submitted by /u/BittiAI [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xm71mi/single_shot_generation_experiment_minimax_h3slopus/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/vfx/comments/1xm4x2g/unreal_metahumans_with_custom_skin_shaders_blade/</id><title>Unreal Metahumans with custom Skin Shaders - Blade Runner Speech Test</title>
@@ -7311,32 +7344,5 @@
 <category term="vfx"/>
 <summary>Hi everyone! I’m a writer/director currently in post on my indie horror short, and I’m looking to connect with a VFX artist who might be interested in collaborating on the project! We’re not quite at picture lock yet, but should be within the next few weeks, so I’m hoping to start conversations now </summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 5 · smoke, compositing, vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi everyone! I’m a writer/director currently in post on my indie horror short, and I’m looking to connect with a VFX artist who might be interested in collaborating on the project! We’re not quite at picture lock yet, but should be within the next few weeks, so I’m hoping to start conversations now and get a better sense of scope, workflow, and budget. There are a handful of shots that need VFX work, most of which are compositing, a few things like blood, smoke, glass cracking, getting rid of a mirror reflection, iPhone screen replacement, along with one particularly fun sequence involving a supernatural portal/tunnel. We built and shot the portal practically, and I’d love to enhance and ext&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xaf2iq/paid_looking_for_vfx_artistcollaborator_for_indie/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xac6hw/american_dad_skit_i_made_in_minimax_h3/</id><title>American Dad skit I made in MiniMax H3</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xac6hw/american_dad_skit_i_made_in_minimax_h3/"/>
-<published>2026-10-19T23:13:09+00:00</published><updated>2026-10-19T23:13:09+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="minimax"/>
-<summary>submitted by /u/1upgamer [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/1upgamer [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xac6hw/american_dad_skit_i_made_in_minimax_h3/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xabitu/people_claiming_to_train_a_lora_in_30_mins_or/</id><title>People claiming to train a LoRA in 30 mins or less locally...you're lying right?</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xabitu/people_claiming_to_train_a_lora_in_30_mins_or/"/>
-<published>2026-10-19T22:44:19+00:00</published><updated>2026-10-19T22:44:19+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="lora"/>
-<summary>I keep seeing this comment, most recently with regard to MOSS, and it just doesn't compute for me. Over the past 3 years I've trained hundreds of LoRAs across image/video/audio models and I always need to run my image LoRAs for 3k-6k steps (for a dataset between 12-20 images) for a true 1:1 likeness</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I keep seeing this comment, most recently with regard to MOSS, and it just doesn't compute for me. Over the past 3 years I've trained hundreds of LoRAs across image/video/audio models and I always need to run my image LoRAs for 3k-6k steps (for a dataset between 12-20 images) for a true 1:1 likeness. I'm left to assume that the people saying this are either 1) Renting frontier hardware, 2) Lying, 3) Settling for an extremely vague likeness after ~500 steps. Is anyone actually able to train LoRAs that fast locally with good results? If so, please share your method! submitted by /u/the_bollo [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xabitu/people_claiming_to_train_a_lora_in_30_mins_or/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1xab4fq/art_student_considering_pivoting_out_of_vfx_after/</id><title>Art Student considering pivoting out of VFX after learning the current state of things, any advise?</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xab4fq/art_student_considering_pivoting_out_of_vfx_after/"/>
-<published>2026-10-19T22:27:17+00:00</published><updated>2026-10-19T22:27:17+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="vfx"/>
-<summary>For general context, I'm Undergraduate Visual Effect major currently 1/3 through Sophomore Year of Uni and recently, after doing some research, I've come to understand that the industries I'm studying to head into looks to be in a very undesirable state. I'm now at very stressful liminal space at th</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;For general context, I'm Undergraduate Visual Effect major currently 1/3 through Sophomore Year of Uni and recently, after doing some research, I've come to understand that the industries I'm studying to head into looks to be in a very undesirable state. I'm now at very stressful liminal space at the moment, trying to determine the best plan of action. I'm thinking of switching over to another discipline of study like Motion Media, which seems to be a far more optimal pathway, however another part of me thinks it's best to just stick with what I've already started in order not to extend my time in school, plus from what I heard, your degree doesn't matter either way and all that's really imp&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xab4fq/art_student_considering_pivoting_out_of_vfx_after/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
