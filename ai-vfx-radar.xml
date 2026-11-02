@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-02T01:30:35+00:00</updated>
+<updated>2026-11-02T03:30:23+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xlj4n4/1980s_italodisco_nar_lora_for_yue2_example_song/</id><title>1980s Italo-Disco NAR LoRA for YuE2 | Example song - Let Me Bring You Back</title>
@@ -7403,35 +7403,5 @@
 <category term="multi-view"/>
 <summary>arXiv:2602.11693v2 Announce Type: replace Abstract: Creating high-fidelity, animatable 3D avatars from a single image remains a formidable challenge. We identified three desirable attributes of avatar generation: 1) the method should be feed-forward, 2) model a 360{\deg} full-head, and 3) should be </summary>
 <content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.GR · score 4 · 3d gaussian, avatar, consistency, multi-view&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2602.11693v2 Announce Type: replace Abstract: Creating high-fidelity, animatable 3D avatars from a single image remains a formidable challenge. We identified three desirable attributes of avatar generation: 1) the method should be feed-forward, 2) model a 360{\deg} full-head, and 3) should be animation-ready. However, current work addresses only two of the three points simultaneously. To address these limitations, we propose OMEGA-Avatar, the first feed-forward framework that simultaneously generates a generalizable, 360{\deg}-complete, and animatable 3D Gaussian head from a single image. Starting from a feed-forward and animatable framework, we address the 360{\deg} full-head avatar g&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2602.11693"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1x9ln0f/i_made_a_windows_8gb_vram_fork_of_uniforge3d/</id><title>I made a Windows 8GB VRAM fork of UniForge3D — prebuilt wheels, Gradio WebUI, PBR texture export, and no CUDA compilation needed</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x9ln0f/i_made_a_windows_8gb_vram_fork_of_uniforge3d/"/>
-<published>2026-10-19T02:52:17+00:00</published><updated>2026-10-19T02:52:17+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="pbr"/>
-<category term="blender"/>
-<category term="multi-view"/>
-<summary>https://preview.redd.it/s36ajwfnbcwh1.jpg?width=2912&amp;format=pjpg&amp;auto=webp&amp;s=4e29ff87c568d816a3c75b6d3954316af3d2c14c Hey everyone, UniForge3D puts out some seriously impressive multi-view image-to-3D assets, but actually running it locally on consumer hardware has been a massive pain. Normally you'</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · pbr, blender, multi-view&lt;/small&gt;&lt;/p&gt;&lt;p&gt;https://preview.redd.it/s36ajwfnbcwh1.jpg?width=2912&amp;amp;format=pjpg&amp;amp;auto=webp&amp;amp;s=4e29ff87c568d816a3c75b6d3954316af3d2c14c Hey everyone, UniForge3D puts out some seriously impressive multi-view image-to-3D assets, but actually running it locally on consumer hardware has been a massive pain. Normally you're stuck dealing with Linux-first dependencies, ridiculous VRAM spikes, and the usual nightmare of manually compiling custom CUDA/C++ wheels in Windows. I wanted to run it comfortably on my 8GB RTX 3070 Ti without fighting nvcc or Visual Studio Build Tools, so I put together a standalone, heavily optimized Windows distribution for it. GitHub: https://github.com/HardeNNN/UniForge3D-Low-VRAM What I &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x9ln0f/i_made_a_windows_8gb_vram_fork_of_uniforge3d/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1x9let9/totally_spies_minimax_h3/</id><title>Totally Spies - Minimax H3</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x9let9/totally_spies_minimax_h3/"/>
-<published>2026-10-19T02:40:24+00:00</published><updated>2026-10-19T02:40:24+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="minimax"/>
-<summary>submitted by /u/Certain_Potato_4509 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/Certain_Potato_4509 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x9let9/totally_spies_minimax_h3/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1x9khtm/a_potential_fix_for_moss_training_issues/</id><title>A potential fix for MOSS training issues....</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x9khtm/a_potential_fix_for_moss_training_issues/"/>
-<published>2026-10-19T01:53:06+00:00</published><updated>2026-10-19T01:53:06+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<category term="minimax"/>
-<summary>Update Monday Morning: TLDR: The 60 setting worked very well. Setting it at 30 which I've run since works even better, a good balance where it still learns composition but attends to finer detail at a similar level as Krea 2 and Qwen Image 2.1 training schedules. Detail of all of this can be found b</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Update Monday Morning: TLDR: The 60 setting worked very well. Setting it at 30 which I've run since works even better, a good balance where it still learns composition but attends to finer detail at a similar level as Krea 2 and Qwen Image 2.1 training schedules. Detail of all of this can be found below. Monday Afternoon EDIT: 30 is the best setting so far for me. I've done trains today at 60 and 30, and 30 pulls ahead after about 300-400 steps and stays there, with some of the best likeness I've had from this dataset on any model and it translates to comfyui also. It also keeps a better balance of learning composition. It's also exciting to think about using this for composition-only trains&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x9khtm/a_potential_fix_for_moss_training_issues/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
