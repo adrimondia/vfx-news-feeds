@@ -2,8 +2,80 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-02T03:30:23+00:00</updated>
+<updated>2026-11-02T05:30:23+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://arxiv.org/abs/2610.41011</id><title>Prior-Guided Single-Exposure HDR Novel View Synthesis via Base-Gain Representation</title>
+<link rel="alternate" href="https://arxiv.org/abs/2610.41011"/>
+<published>2026-11-02T05:00:00+00:00</published><updated>2026-11-02T05:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="novel view synthesis"/>
+<category term="gaussian splatting"/>
+<category term="3d gaussian"/>
+<category term="hdr"/>
+<category term="scene reconstruction"/>
+<summary>arXiv:2610.41011v1 Announce Type: new Abstract: Single-exposure high dynamic range (HDR) novel view synthesis (NVS) recovers HDR scenes from low dynamic range (LDR) views captured at a single exposure and estimates camera response function (CRF) for LDR re-exposure. Without HDR ground-truth, using s</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 7 · novel view synthesis, gaussian splatting, 3d gaussian, hdr, scene reconstruction&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2610.41011v1 Announce Type: new Abstract: Single-exposure high dynamic range (HDR) novel view synthesis (NVS) recovers HDR scenes from low dynamic range (LDR) views captured at a single exposure and estimates camera response function (CRF) for LDR re-exposure. Without HDR ground-truth, using single-exposure LDR views as the sole source of direct supervision underconstrains HDR reconstruction and cannot ensure its faithful recovery, motivating the need for learned LDR-to-HDR reconstruction priors. Moreover, single-exposure LDR views supervise CRF only over a limited range, necessitating a learnable prior for reliable re-exposure beyond it. We propose PriorGS, a 3D Gaussian Splatting fra&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2610.41011"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2511.11231</id><title>DiTGaze: Geometry-Conditioned Diffusion Augmentation for Few-Shot Gaze Estimation</title>
+<link rel="alternate" href="https://arxiv.org/abs/2511.11231"/>
+<published>2026-11-02T05:00:00+00:00</published><updated>2026-11-02T05:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="gaussian splatting"/>
+<category term="3d gaussian"/>
+<category term="rendering"/>
+<category term="diffusion transformer"/>
+<category term="dit"/>
+<summary>arXiv:2511.11231v2 Announce Type: replace Abstract: Accurate person-specific gaze estimation benefits from labeled user data, but collecting images that densely cover gaze directions is burdensome. We present DiTGaze, a calibration-efficient augmentation system that follows a two-stream 3D Gaussian </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · gaussian splatting, 3d gaussian, rendering, diffusion transformer, dit&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2511.11231v2 Announce Type: replace Abstract: Accurate person-specific gaze estimation benefits from labeled user data, but collecting images that densely cover gaze directions is burdensome. We present DiTGaze, a calibration-efficient augmentation system that follows a two-stream 3D Gaussian Splatting backbone and reformulates its convolutional rendering stage as a geometry-conditioned latent Diffusion Transformer (DiT). A learnable projection and frozen VAE bridge rasterized Gaussian features to latent tokens, while timestep and identity/expression conditioning are integrated through Adaptive Layer Normalization. Intermediate yaw-pitch sampling densifies gaze supervision, and an orth&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2511.11231"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2602.21535</id><title>AdaGS: Confidence-Gated Diffusion Adaptation for Unposed Sparse-View 3D Gaussian Reconstruction</title>
+<link rel="alternate" href="https://arxiv.org/abs/2602.21535"/>
+<published>2026-11-02T05:00:00+00:00</published><updated>2026-11-02T05:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="gaussian splatting"/>
+<category term="3d gaussian"/>
+<category term="3d reconstruction"/>
+<category term="rendering"/>
+<category term="multi-view"/>
+<summary>arXiv:2602.21535v2 Announce Type: replace Abstract: Sparse-view outdoor 3D reconstruction remains challenging for Gaussian splatting. Although diffusion restorers can provide additional pseudo-view supervision, we identify a failure pattern in diffusion-guided reconstruction: an unguided diffusion m</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 6 · gaussian splatting, 3d gaussian, 3d reconstruction, rendering, multi-view&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2602.21535v2 Announce Type: replace Abstract: Sparse-view outdoor 3D reconstruction remains challenging for Gaussian splatting. Although diffusion restorers can provide additional pseudo-view supervision, we identify a failure pattern in diffusion-guided reconstruction: an unguided diffusion model may misinterpret floating artifacts and complete them into plausible but non-existent scene structures. To mitigate this challenge, we propose a confidence-gated diffusion adaptation framework for unposed sparse-view reconstruction. We introduce an artifact-aware adapter that is trained in two stages on our constructed Gaussian artifact dataset. The adapter suppresses floater-induced visual c&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2602.21535"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2609.33969</id><title>Gaussian Splatting-based Volumetric Video Compression with Sparse 4D Anchors</title>
+<link rel="alternate" href="https://arxiv.org/abs/2609.33969"/>
+<published>2026-11-02T05:00:00+00:00</published><updated>2026-11-02T05:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="gaussian splatting"/>
+<category term="3d gaussian"/>
+<category term="4d"/>
+<category term="rendering"/>
+<summary>arXiv:2609.33969v2 Announce Type: replace Abstract: Immersive video communication requires photorealistic, compact dynamic scene representations that support efficient rendering. 3D Gaussian Splatting (3DGS) is a promising approach, but dynamic 3DGS remains difficult to compress due to its dense pri</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · gaussian splatting, 3d gaussian, 4d, rendering&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.33969v2 Announce Type: replace Abstract: Immersive video communication requires photorealistic, compact dynamic scene representations that support efficient rendering. 3D Gaussian Splatting (3DGS) is a promising approach, but dynamic 3DGS remains difficult to compress due to its dense primitives and spatiotemporal redundancy. Anchor-based formulations improve compactness through sparse scaffolds that share geometry and appearance across primitives. However, existing designs typically deform a single canonical scaffold and condition each primitive solely on its associated anchor, limiting their ability to model non-local dynamics and disocclusions and exploit inter-anchor correlati&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.33969"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xlni9b/i_built_a_free_opensource_node_pack_for_23_minute/</id><title>I built a free open-source node pack for 2–3 minute videos with MiniMax H3 (1080P, one run)</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xlni9b/i_built_a_free_opensource_node_pack_for_23_minute/"/>
+<published>2026-11-02T04:12:27+00:00</published><updated>2026-11-02T04:12:27+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="text-to-video"/>
+<category term="render"/>
+<category term="comfyui"/>
+<category term="minimax"/>
+<summary>Most video workflows I tried topped out at 10–15 seconds, so over the past few months I built H3MD Director — a set of ComfyUI nodes that render 2–3 minute videos with MiniMax H3 in a single run, keeping faces, colors and lighting consistent. Everything in the clip was made with it: a music video, a</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 5 · text-to-video, render, comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Most video workflows I tried topped out at 10–15 seconds, so over the past few months I built H3MD Director — a set of ComfyUI nodes that render 2–3 minute videos with MiniMax H3 in a single run, keeping faces, colors and lighting consistent. Everything in the clip was made with it: a music video, a samba motion transfer, a text-to-video coastal ride, and a short fantasy drama. - GitHub (nodes + example workflow): https://github.com/1113800942/comfy-h3md-director - Full showcase video: https://youtu.be/plDxnModffs It builds on ideas from Luna, Niko, Marker, T8 and others in the community — thanks to all of them. Happy to answer questions; feedback and bug reports are very welcome. submitted &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xlni9b/i_built_a_free_opensource_node_pack_for_23_minute/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xln18y/for_those_of_you_running_both_comfyui_and_local/</id><title>For those of you running both ComfyUI and local LLMs, how are you managing GPU resources?</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xln18y/for_those_of_you_running_both_comfyui_and_local/"/>
+<published>2026-11-02T03:47:17+00:00</published><updated>2026-11-02T03:47:17+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<summary>I’m curious how people here switch between ComfyUI workflows and local LLM inference, especially on a single GPU. Are you manually unloading models, using something like LM Studio or llama-swap, relying on ComfyUI’s model management, or have you built something to handle switching automatically? I’m</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I’m curious how people here switch between ComfyUI workflows and local LLM inference, especially on a single GPU. Are you manually unloading models, using something like LM Studio or llama-swap, relying on ComfyUI’s model management, or have you built something to handle switching automatically? I’m particularly interested in how you handle VRAM contention when you want to move between image generation and LLM workloads without constantly waiting for models to reload. What’s your current setup, and what works well for you? Video attached is my project Berth but I’m here curious on how everyone else solved this problem? submitted by /u/Distinct-Pie2389 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xln18y/for_those_of_you_running_both_comfyui_and_local/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xlj4n4/1980s_italodisco_nar_lora_for_yue2_example_song/</id><title>1980s Italo-Disco NAR LoRA for YuE2 | Example song - Let Me Bring You Back</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xlj4n4/1980s_italodisco_nar_lora_for_yue2_example_song/"/>
@@ -7274,134 +7346,5 @@
 <category term="lora"/>
 <summary>Finally had some time today to tinker around with the latest open source releases, put together a gallery of results. Each model/prompt combination got 3 tries across different seeds and I picked the best of each for this post. Mostly using default ComfyUI workflows and settings, some basic prompts </summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Finally had some time today to tinker around with the latest open source releases, put together a gallery of results. Each model/prompt combination got 3 tries across different seeds and I picked the best of each for this post. Mostly using default ComfyUI workflows and settings, some basic prompts with some style checks (see comments for full prompts) Krea2 (turbo, 12 steps, 1 CFG, euler, beta) : solid all-around model, innately knows a lot of styles. Old news to some, but I haven't had much time to play with it. Weird patterns in many images (especially if prompting for grain), but plenty of lora options already that help a lot with that. I'm sure better workflows exist too by now. MOSS (2&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x9oi6x/basic_workflow_simple_prompt_testing_krea2_vs/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1x9o82o/i_built_flagship_scene_ui_a_scenebased_comfyui/</id><title>I built Flagship Scene UI — a scene-based ComfyUI interface for MiniMax H3</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x9o82o/i_built_flagship_scene_ui_a_scenebased_comfyui/"/>
-<published>2026-10-19T05:15:27+00:00</published><updated>2026-10-19T05:15:27+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="upscaling"/>
-<category term="comfyui"/>
-<category term="minimax"/>
-<category term="lora"/>
-<category term="consistency"/>
-<summary>https://reddit.com/link/1x9o82o/video/ekdhy1kpxcwh1/player I’m building Flagship Scene UI to make video workflows easier to learn and use, especially for people who find large ComfyUI node graphs intimidating. It runs inside ComfyUI as a custom-node interface, bringing existing workflows and my own </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 7 · upscaling, comfyui, minimax, lora, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;https://reddit.com/link/1x9o82o/video/ekdhy1kpxcwh1/player I’m building Flagship Scene UI to make video workflows easier to learn and use, especially for people who find large ComfyUI node graphs intimidating. It runs inside ComfyUI as a custom-node interface, bringing existing workflows and my own controls into a visual workspace. The goal is to make planning, generating, and revising a video more manageable. Plan a project with JSON Import a structured JSON plan containing prompts, reference assignments, and generation settings. You can then review and edit the project through the UI. Organize scenes and clips Instead of treating the entire project as one long chain, you can divide it into&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x9o82o/i_built_flagship_scene_ui_a_scenebased_comfyui/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1x9n62o/trellis2_working_on_amd_rx_9060_xt_on_windows/</id><title>TRELLIS.2 working on AMD RX 9060 XT on Windows: fixes and workflows</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x9n62o/trellis2_working_on_amd_rx_9060_xt_on_windows/"/>
-<published>2026-10-19T04:15:52+00:00</published><updated>2026-10-19T04:15:52+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="multiview"/>
-<summary>**Title:** TRELLIS.2 image-to-3D working on an RX 9060 XT (RDNA4) on Windows with ROCm: fixes, workflows and commercially usable components I got TRELLIS.2 running properly in ComfyUI on an AMD RX 9060 XT 16 GB (gfx1200) on Windows 11 with ROCm, and put the fixes and workflows in a repo: https://git</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui, multiview&lt;/small&gt;&lt;/p&gt;&lt;p&gt;**Title:** TRELLIS.2 image-to-3D working on an RX 9060 XT (RDNA4) on Windows with ROCm: fixes, workflows and commercially usable components I got TRELLIS.2 running properly in ComfyUI on an AMD RX 9060 XT 16 GB (gfx1200) on Windows 11 with ROCm, and put the fixes and workflows in a repo: https://github.com/ovaoz/trellis2-amd-windows What it fixes: - **Driver resets, BSODs, and models that come out as a thin slab.** CuMesh-ROCm corrupts any mesh above 2^20 vertices/faces (`hipErrorLaunchFailure` 719 in `connectivity.hip`). The workflows keep every CuMesh call below that limit. - **Speed.** `aule` sparse attention is ~20× slower than PyTorch SDPA on gfx1200. With SDPA, the 512 shape stage goes&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x9n62o/trellis2_working_on_amd_rx_9060_xt_on_windows/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1x9n0dl/h3_recast_swap_up_to_3_people_in_a_clip_in_one/</id><title>H3 Recast: swap up to 3 people in a clip in one pass (H3 + BFS lora)</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x9n0dl/h3_recast_swap_up_to_3_people_in_a_clip_in_one/"/>
-<published>2026-10-19T04:07:09+00:00</published><updated>2026-10-19T04:07:09+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="minimax"/>
-<category term="lora"/>
-<summary>It recasts the people in a clip you already have, up to three in one pass, and the motion, the set and the clip's own audio stay. The post video is a video with 2 characters swapped at the same time. same engine and FaceRefine lip pass as the workflow. Getting the lips right took me a while, that's </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;It recasts the people in a clip you already have, up to three in one pass, and the motion, the set and the clip's own audio stay. The post video is a video with 2 characters swapped at the same time. same engine and FaceRefine lip pass as the workflow. Getting the lips right took me a while, that's the FaceRefine pass added. How it goes: Load your clip. One shot, no hard cuts, any fps. Grab one frame and edit everyone into their new look (Qwen-Image, GPT Image, Photoshop, whatever you have). That frame is the scene reference. Write one line per person: the woman in the red dress becomes an old woman with long silver hair . As many lines as you fill in, that many people get swapped. Hit Run. &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x9n0dl/h3_recast_swap_up_to_3_people_in_a_clip_in_one/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2610.22744</id><title>OmniXRef: A Unified Framework for Multimodal Multi-Reference Video Editing</title>
-<link rel="alternate" href="https://arxiv.org/abs/2610.22744"/>
-<published>2026-10-19T04:00:00+00:00</published><updated>2026-10-19T04:00:00+00:00</updated>
-<author><name>arXiv cs.CV</name></author>
-<category term="video editing"/>
-<category term="vfx"/>
-<category term="visual effects"/>
-<category term="diffusion transformer"/>
-<summary>arXiv:2610.22744v1 Announce Type: new Abstract: Creative intent in video editing can be expressed through text instructions (e.g., "remove the people"), image references (e.g., subject appearance), video references (e.g., camera movement), or a combination of the above. We introduce OmniXRef, a unif</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · video editing, vfx, visual effects, diffusion transformer&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2610.22744v1 Announce Type: new Abstract: Creative intent in video editing can be expressed through text instructions (e.g., "remove the people"), image references (e.g., subject appearance), video references (e.g., camera movement), or a combination of the above. We introduce OmniXRef, a unified framework for multimodal multi-reference video editing that allows users to combine variable numbers of text, image, and video references to control diverse attributes of a source video. We first devise a unified input design with a reference-bank interface and introduce $R^2$-RoPE to support generalization to more references. Then our model, OmniXRef-Model, uses a single-stream diffusion tran&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2610.22744"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2610.23039</id><title>Frame-Consistent Feed-Forward 3D Gaussian Splatting from Sparse Unposed Images</title>
-<link rel="alternate" href="https://arxiv.org/abs/2610.23039"/>
-<published>2026-10-19T04:00:00+00:00</published><updated>2026-10-19T04:00:00+00:00</updated>
-<author><name>arXiv cs.CV</name></author>
-<category term="novel view synthesis"/>
-<category term="gaussian splatting"/>
-<category term="3d gaussian"/>
-<category term="pose estimation"/>
-<summary>arXiv:2610.23039v1 Announce Type: new Abstract: Feed-forward Gaussian models have made novel view synthesis almost instantaneous. Feed-forward methods predict Gaussians directly, either in two stages or in a single merged pass. Using two separately trained models is attractive because each can speci</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 6 · novel view synthesis, gaussian splatting, 3d gaussian, pose estimation&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2610.23039v1 Announce Type: new Abstract: Feed-forward Gaussian models have made novel view synthesis almost instantaneous. Feed-forward methods predict Gaussians directly, either in two stages or in a single merged pass. Using two separately trained models is attractive because each can specialize in its own objective: one for accurate pose estimation and the other for high-quality reconstruction, rather than forcing a single jointly trained network to compromise between the two. A natural instantiation pairs a frozen pose estimator, VGGT, with a frozen reconstruction backbone, TokenGS. Prior work, such as VGGT-X and 3R-GS, also adopts a two-stage design, but attributes the resulting &lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2610.23039"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2610.23856</id><title>Learning to Correct Geometry in Generated Videos</title>
-<link rel="alternate" href="https://arxiv.org/abs/2610.23856"/>
-<published>2026-10-19T04:00:00+00:00</published><updated>2026-10-19T04:00:00+00:00</updated>
-<author><name>arXiv cs.CV</name></author>
-<category term="image-to-video"/>
-<category term="video-to-video"/>
-<category term="optical flow"/>
-<category term="inpainting"/>
-<category term="consistency"/>
-<summary>arXiv:2610.23856v1 Announce Type: new Abstract: Generated videos often lose geometric consistency under camera motion: structures warp under viewpoint change, parallax becomes inconsistent, and smooth camera movement may collapse into shot-like transitions. We argue that this failure is largely a da</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · image-to-video, video-to-video, optical flow, inpainting, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2610.23856v1 Announce Type: new Abstract: Generated videos often lose geometric consistency under camera motion: structures warp under viewpoint change, parallax becomes inconsistent, and smooth camera movement may collapse into shot-like transitions. We argue that this failure is largely a data problem. In web-scale video corpora, most visible motion comes from dynamic objects captured by static or weakly moving cameras, leaving only sparse supervision for viewpoint-induced appearance changes. To address this, we propose Video Geometry Corrector (VGC), a post-hoc video-to-video model trained on synthetic paired supervision. Starting from real videos with diverse camera motion and pose&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2610.23856"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2602.07891</id><title>Scalable Adaptation of 3D Geometric Foundation Models via Weak Supervision from Internet Video</title>
-<link rel="alternate" href="https://arxiv.org/abs/2602.07891"/>
-<published>2026-10-19T04:00:00+00:00</published><updated>2026-10-19T04:00:00+00:00</updated>
-<author><name>arXiv cs.CV</name></author>
-<category term="3d gaussian"/>
-<category term="3d reconstruction"/>
-<category term="rendering"/>
-<category term="consistency"/>
-<category term="multi-view"/>
-<summary>arXiv:2602.07891v2 Announce Type: replace Abstract: Geometric foundation models show promise in 3D reconstruction. However, their progress is severely constrained by the scarcity of diverse, large-scale 3D annotations. While static-scene Internet videos are abundant and diverse, utilizing them as a </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · 3d gaussian, 3d reconstruction, rendering, consistency, multi-view&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2602.07891v2 Announce Type: replace Abstract: Geometric foundation models show promise in 3D reconstruction. However, their progress is severely constrained by the scarcity of diverse, large-scale 3D annotations. While static-scene Internet videos are abundant and diverse, utilizing them as a scaling source for geometric learning is challenging due to the absence of ground-truth geometry and the presence of observational noise. To address this, we propose SAGE, a framework for Scalable Adaptation of GEometric foundation models from raw video streams. SAGE leverages a hierarchical mining pipeline to transform videos into training trajectories and hybrid supervisions: (1) Informative tra&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2602.07891"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2605.04702</id><title>FaithfulFaces: Pose-Faithful Facial Identity Preservation for Text-to-Video Generation</title>
-<link rel="alternate" href="https://arxiv.org/abs/2605.04702"/>
-<published>2026-10-19T04:00:00+00:00</published><updated>2026-10-19T04:00:00+00:00</updated>
-<author><name>arXiv cs.CV</name></author>
-<category term="text-to-video"/>
-<category term="consistency"/>
-<category term="identity preservation"/>
-<summary>arXiv:2605.04702v2 Announce Type: replace Abstract: Identity-preserving text-to-video generation (IPT2V) empowers users to produce diverse and imaginative videos with consistent human facial identity. Despite recent progress, existing methods often suffer from significant identity distortion under l</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · text-to-video, consistency, identity preservation&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2605.04702v2 Announce Type: replace Abstract: Identity-preserving text-to-video generation (IPT2V) empowers users to produce diverse and imaginative videos with consistent human facial identity. Despite recent progress, existing methods often suffer from significant identity distortion under large facial pose variations or facial occlusions. In this paper, we propose FaithfulFaces, a pose-faithful facial identity preservation learning framework to improve IPT2V in complex dynamic scenes. The key of FaithfulFaces is a pose-shared identity aligner that refines and aligns facial poses across distinct views via a pose-shared dictionary and a pose variation-identity invariance constraint. B&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2605.04702"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2605.25563</id><title>CodecSplat: Ultra-Compact Latent Coding for Feed-Forward 3D Gaussian Splatting</title>
-<link rel="alternate" href="https://arxiv.org/abs/2605.25563"/>
-<published>2026-10-19T04:00:00+00:00</published><updated>2026-10-19T04:00:00+00:00</updated>
-<author><name>arXiv cs.CV</name></author>
-<category term="gaussian splatting"/>
-<category term="3d gaussian"/>
-<category term="multi-view"/>
-<summary>arXiv:2605.25563v2 Announce Type: replace Abstract: While feed-forward 3D Gaussian splatting reconstructs renderable Gaussian primitives from sparse context views without per-scene optimization, existing pipelines do not provide a compact scene representation for storage or transmission. A natural s</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · gaussian splatting, 3d gaussian, multi-view&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2605.25563v2 Announce Type: replace Abstract: While feed-forward 3D Gaussian splatting reconstructs renderable Gaussian primitives from sparse context views without per-scene optimization, existing pipelines do not provide a compact scene representation for storage or transmission. A natural solution is to apply existing 3DGS compression methods to the generated Gaussian primitives. However, this approach operates on the final irregular 3D representation and is decoupled from the internal feature-to-Gaussian generation process, which limits compression efficiency. To address this, we introduce CodecSplat, an ultra-compact latent coding framework for feed-forward 3D Gaussian splatting. &lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2605.25563"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2506.02620</id><title>FlexPainter: Flexible and Multi-View Consistent Texture Generation</title>
-<link rel="alternate" href="https://arxiv.org/abs/2506.02620"/>
-<published>2026-10-19T04:00:00+00:00</published><updated>2026-10-19T04:00:00+00:00</updated>
-<author><name>arXiv cs.CV</name></author>
-<category term="texture generation"/>
-<category term="rendering"/>
-<category term="consistency"/>
-<category term="multi-view"/>
-<summary>arXiv:2506.02620v2 Announce Type: replace-cross Abstract: Texture map production is an important part of 3D modeling and determines the rendering quality. Recently, diffusion-based methods have opened a new way for texture generation. However, restricted control flexibility and limited prompt modali</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 6 · texture generation, rendering, consistency, multi-view&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2506.02620v2 Announce Type: replace-cross Abstract: Texture map production is an important part of 3D modeling and determines the rendering quality. Recently, diffusion-based methods have opened a new way for texture generation. However, restricted control flexibility and limited prompt modalities may prevent creators from producing desired results. Furthermore, inconsistencies between generated multi-view images often lead to poor texture generation quality. To address these issues, we introduce \textbf{FlexPainter}, a novel texture generation pipeline that enables flexible multi-modal conditional guidance and achieves highly consistent texture generation. A shared conditional embeddi&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2506.02620"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2602.11693</id><title>OMEGA-Avatar: One-shot Modeling of 360{\deg} Gaussian Avatars</title>
-<link rel="alternate" href="https://arxiv.org/abs/2602.11693"/>
-<published>2026-10-19T04:00:00+00:00</published><updated>2026-10-19T04:00:00+00:00</updated>
-<author><name>arXiv cs.GR</name></author>
-<category term="3d gaussian"/>
-<category term="avatar"/>
-<category term="consistency"/>
-<category term="multi-view"/>
-<summary>arXiv:2602.11693v2 Announce Type: replace Abstract: Creating high-fidelity, animatable 3D avatars from a single image remains a formidable challenge. We identified three desirable attributes of avatar generation: 1) the method should be feed-forward, 2) model a 360{\deg} full-head, and 3) should be </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.GR · score 4 · 3d gaussian, avatar, consistency, multi-view&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2602.11693v2 Announce Type: replace Abstract: Creating high-fidelity, animatable 3D avatars from a single image remains a formidable challenge. We identified three desirable attributes of avatar generation: 1) the method should be feed-forward, 2) model a 360{\deg} full-head, and 3) should be animation-ready. However, current work addresses only two of the three points simultaneously. To address these limitations, we propose OMEGA-Avatar, the first feed-forward framework that simultaneously generates a generalizable, 360{\deg}-complete, and animatable 3D Gaussian head from a single image. Starting from a feed-forward and animatable framework, we address the 360{\deg} full-head avatar g&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2602.11693"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
