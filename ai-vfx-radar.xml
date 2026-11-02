@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-02T09:30:44+00:00</updated>
+<updated>2026-11-02T11:31:22+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
 <entry>
 <id>https://github.com/D4Vinci/Scrapling</id><title>D4Vinci/Scrapling</title>
@@ -7280,39 +7280,5 @@
 <category term="controlnet"/>
 <summary>Fully working example of depth map with Flux2 dev, keeping complete identity and style of reference image. Result is same room viewed from different angle. submitted by /u/mice7770001 [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · controlnet&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Fully working example of depth map with Flux2 dev, keeping complete identity and style of reference image. Result is same room viewed from different angle. submitted by /u/mice7770001 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x9ve5o/flux2_controlnet_with_depth_map_and_style_image/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1x9udxg/wan_22_i2v_on_a_12gb_card_only_used_89gb_of_vram/</id><title>Wan 2.2 I2V on a 12GB card only used 8–9GB of VRAM. System RAM was the real bottleneck (measured, 3 renders)</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x9udxg/wan_22_i2v_on_a_12gb_card_only_used_89gb_of_vram/"/>
-<published>2026-10-19T11:31:13+00:00</published><updated>2026-10-19T11:31:13+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="image-to-video"/>
-<category term="render"/>
-<category term="comfyui"/>
-<category term="wan"/>
-<category term="minimax"/>
-<category term="lora"/>
-<summary>I wanted to know whether Wan 2.2 image-to-video is realistic on smaller cards, so I watched where the memory actually goes during real renders. Setup: RTX 5070 12GB (PCIe 5.0 x16), 64GB DDR5-6000, ComfyUI 0.37 with dynamic VRAM loading. Wan 2.2 I2V A14B fp8 (high + low noise), lightx2v LoRA, 12+12 s</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 7 · image-to-video, render, comfyui, wan, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I wanted to know whether Wan 2.2 image-to-video is realistic on smaller cards, so I watched where the memory actually goes during real renders. Setup: RTX 5070 12GB (PCIe 5.0 x16), 64GB DDR5-6000, ComfyUI 0.37 with dynamic VRAM loading. Wan 2.2 I2V A14B fp8 (high + low noise), lightx2v LoRA, 12+12 steps, RIFE interpolation on, no upscale. All runs back to back, models already warm. Resolution Frames Time Dedicated VRAM Shared GPU mem System RAM 832×480 49 8m 28s ~9.0 GB 14.8 GB 32 GB 832×480 81 17m 30s 8.0 GB 13.7 GB 29 GB 1024×576 49 14m 00s 8.3 GB 11.8 GB 28 GB What surprised me: The models are ~34GB in total (high 13.9 + low 13.6 + UMT5 6.4), but the GPU never went above ~9GB. ComfyUI kee&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x9udxg/wan_22_i2v_on_a_12gb_card_only_used_89gb_of_vram/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1x9tze1/minimax_h3s_acting_in_this_argument_scene/</id><title>MiniMax H3’s acting in this argument scene surprised me</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x9tze1/minimax_h3s_acting_in_this_argument_scene/"/>
-<published>2026-10-19T11:09:53+00:00</published><updated>2026-10-19T11:09:53+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="flux"/>
-<category term="minimax"/>
-<summary>H3 has been out for a while, but I hadn’t had much time to play with it. Finally had some time over the weekend and started experimenting with refmods and motion context. One experiment led to another, and I ended up spending quite a bit of time with it. I didn’t really notice this when it first cam</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · flux, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;H3 has been out for a while, but I hadn’t had much time to play with it. Finally had some time over the weekend and started experimenting with refmods and motion context. One experiment led to another, and I ended up spending quite a bit of time with it. I didn’t really notice this when it first came out, but the acting and emotional delivery in certain scenes can be surprisingly good. Those moments are a lot of fun. Are there any scenes or tasks you’ve found H3 particularly good at? I’d love to hear from people who’ve spent more time with it. I’m only just getting into H3, and this sub is already buzzing about FLUX 3 Klein and MOSS Image. Lots to look forward to! Full video: https://youtu.b&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x9tze1/minimax_h3s_acting_in_this_argument_scene/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1x9sgr1/selfliftfish_longer_h3_videos_higher_resolutions/</id><title>selflift-Fish: Longer H3 videos &amp; higher resolutions on a 16GB GPU — 20s clips / 1920×1088 tested</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x9sgr1/selfliftfish_longer_h3_videos_higher_resolutions/"/>
-<published>2026-10-19T09:40:46+00:00</published><updated>2026-10-19T09:40:46+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="minimax"/>
-<summary>I’m sharing selflift-Fish , my improved version of facok’s SelfLift node for MiniMax H3 in ComfyUI. Generate longer clips and higher-resolution video with less VRAM pressure. Fix the background swelling/shifting I encountered with the original spatial tiling. Keep attention acceleration, with a simp</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I’m sharing selflift-Fish , my improved version of facok’s SelfLift node for MiniMax H3 in ComfyUI. Generate longer clips and higher-resolution video with less VRAM pressure. Fix the background swelling/shifting I encountered with the original spatial tiling. Keep attention acceleration, with a simpler interface and compatibility with existing workflows. Real generation results — RTX 5070 Ti 16GB + 128GB system RAM: https://preview.redd.it/9yc00nb89ewh1.png?width=1500&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=48ea9674936e8a50bba7db0d5dcbe4d7eaf59b5b For 10-second 1920×1088 development runs, recorded complete workflow time also dropped from 27m 50s to 12m 55s . These were different runs, not a fixed-seed benchm&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x9sgr1/selfliftfish_longer_h3_videos_higher_resolutions/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
