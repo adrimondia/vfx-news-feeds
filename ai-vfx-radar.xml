@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-02T08:00:21+00:00</updated>
+<updated>2026-11-02T09:30:44+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
 <entry>
 <id>https://github.com/D4Vinci/Scrapling</id><title>D4Vinci/Scrapling</title>
@@ -7314,36 +7314,5 @@
 <category term="minimax"/>
 <summary>I’m sharing selflift-Fish , my improved version of facok’s SelfLift node for MiniMax H3 in ComfyUI. Generate longer clips and higher-resolution video with less VRAM pressure. Fix the background swelling/shifting I encountered with the original spatial tiling. Keep attention acceleration, with a simp</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I’m sharing selflift-Fish , my improved version of facok’s SelfLift node for MiniMax H3 in ComfyUI. Generate longer clips and higher-resolution video with less VRAM pressure. Fix the background swelling/shifting I encountered with the original spatial tiling. Keep attention acceleration, with a simpler interface and compatibility with existing workflows. Real generation results — RTX 5070 Ti 16GB + 128GB system RAM: https://preview.redd.it/9yc00nb89ewh1.png?width=1500&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=48ea9674936e8a50bba7db0d5dcbe4d7eaf59b5b For 10-second 1920×1088 development runs, recorded complete workflow time also dropped from 27m 50s to 12m 55s . These were different runs, not a fixed-seed benchm&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x9sgr1/selfliftfish_longer_h3_videos_higher_resolutions/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1x9s1tr/11_allinone_comfyui_nodes_i_built_for_my_own_16gb/</id><title>11 all-in-one ComfyUI nodes I built for my own 16GB VRAM card (RTX 5060 Ti)</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1x9s1tr/11_allinone_comfyui_nodes_i_built_for_my_own_16gb/"/>
-<published>2026-10-19T09:14:47+00:00</published><updated>2026-10-19T09:14:47+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="minimax"/>
-<category term="ltx"/>
-<summary>I started this after seeing yanokusnir-ai’s one-node-flux-2-klein, just to make things easier for myself. It has grown to 11 nodes, so I’m sharing it in case others want to use it too. One node covers generate, edit, upscale, prompt writing and a gallery (7 image nodes, music, video stitch, MiniMax </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · comfyui, minimax, ltx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I started this after seeing yanokusnir-ai’s one-node-flux-2-klein, just to make things easier for myself. It has grown to 11 nodes, so I’m sharing it in case others want to use it too. One node covers generate, edit, upscale, prompt writing and a gallery (7 image nodes, music, video stitch, MiniMax H3, LTX 2.5). My setup: Windows 11 / RTX 5060 Ti 16GB / 64GB RAM yanokusnir-ai 님의 one-node-flux-2-klein을 보고 영감을 받아, 제가 쓰기 편하려고 만들기 시작했는데 어느새 노드가 11개가 됐습니다. 같이 쓰고 싶은 분들이 있을 것 같아 공유합니다. 노드 하나에서 생성 · 편집 · 업스케일 · 프롬프트 작성 · 갤러리까지 처리합니다 (이미지 7종, 음악, 영상 스티치, MiniMax H3, LTX 2.5). 제 환경: Windows 11 / RTX 5060 Ti 16GB / RAM 64GB Please read first I built this for myself. I won’t take feature requests or “pl&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1x9s1tr/11_allinone_comfyui_nodes_i_built_for_my_own_16gb/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1x9rsyi/are_the_days_of_free_opensource_and_shareware_over/</id><title>Are the days of free open-source and shareware over?</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x9rsyi/are_the_days_of_free_opensource_and_shareware_over/"/>
-<published>2026-10-19T09:00:06+00:00</published><updated>2026-10-19T09:00:06+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="flux"/>
-<category term="minimax"/>
-<category term="lora"/>
-<summary>Awful lot of people are busy making money from free stuff other people gave to them. Fal-AI might have started this trend with the MiniMax-H3 spin into Fast-H3, but now there are a whole bunch of people on CivitAI selling Moss, Flux 3 Klein, Krea-2, MiniMax and other models' spinoff scaped together </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · flux, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Awful lot of people are busy making money from free stuff other people gave to them. Fal-AI might have started this trend with the MiniMax-H3 spin into Fast-H3, but now there are a whole bunch of people on CivitAI selling Moss, Flux 3 Klein, Krea-2, MiniMax and other models' spinoff scaped together with the products of other people's hard work given to them free of cost. That's why I hangout on Huggingface more often lately, no one is trying to to sell me anything there (that's until Nvidia decides to monetize it). CivitAI is becoming more and more like Facebook or YouTube. I am waiting to see when they start showing full screen pop-up ads before, after and in the middle of a free LoRA or a &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x9rsyi/are_the_days_of_free_opensource_and_shareware_over/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1x9r2r7/more_than_just_talking_head_videos_with_clown/</id><title>More than just talking head videos with Clown Anchoring</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1x9r2r7/more_than_just_talking_head_videos_with_clown/"/>
-<published>2026-10-19T08:13:30+00:00</published><updated>2026-10-19T08:13:30+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="talking head"/>
-<summary>So this video was intended to release clown context but it's actually already been made by Seitanism. https://github.com/seitanism/ComfyUI-H3-Motion-Context-MultiRef But Clown Anchoring is still new and this is a pretty good showcase for that. But with Clown Anchoring you can make pretty crazy video</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · talking head&lt;/small&gt;&lt;/p&gt;&lt;p&gt;So this video was intended to release clown context but it's actually already been made by Seitanism. https://github.com/seitanism/ComfyUI-H3-Motion-Context-MultiRef But Clown Anchoring is still new and this is a pretty good showcase for that. But with Clown Anchoring you can make pretty crazy videos as you can see. https://github.com/roycho87/clown_context_workflow https://github.com/roycho87/clown_context https://github.com/roycho87/h3_clown_anchoring https://github.com/roycho87/comfyui-load-video-batch-from-dir https://github.com/roycho87/comfyui-load-text-batch-from-dir https://github.com/roycho87/comfyui-load-audio-batch-from-dir I'm gonna go cry now. submitted by /u/roychodraws [link] &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1x9r2r7/more_than_just_talking_head_videos_with_clown/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
