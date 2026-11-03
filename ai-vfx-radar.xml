@@ -2,8 +2,112 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-03T09:30:45+00:00</updated>
+<updated>2026-11-03T13:31:38+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xmrcyl/comfyui_tutorial_pika_h3_minimax_h3_singularity/</id><title>ComfyUI Tutorial: PIKA H3 + MiniMax H3 Singularity V2 + NVIDIA Regenerative 2K Upscaling KIJAI LORA (With 6GB of VRAM)</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xmrcyl/comfyui_tutorial_pika_h3_minimax_h3_singularity/"/>
+<published>2026-11-03T12:13:09+00:00</published><updated>2026-11-03T12:13:09+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="upscaling"/>
+<category term="comfyui"/>
+<category term="minimax"/>
+<category term="lora"/>
+<summary>Hello everyone today I am showing you a new ComfyUI workflow that combines MiniMax H3 Singularity V2 combined with the Pika H3 LoRA to generate videos at approximately 0.6 MP with only 6 steps. Then, using the Ultimate MiniMax H3 Upscale node and Kijai's Regenerative 2K LoRA at a lower weight, the v</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 8 · upscaling, comfyui, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hello everyone today I am showing you a new ComfyUI workflow that combines MiniMax H3 Singularity V2 combined with the Pika H3 LoRA to generate videos at approximately 0.6 MP with only 6 steps. Then, using the Ultimate MiniMax H3 Upscale node and Kijai's Regenerative 2K LoRA at a lower weight, the video is progressively enhanced with additional LoRAs to improve details, textures, and overall quality. My test results: Initial generation: 0.6MP Sampling steps: 6 Total generation + upscaling time: ~1 hour Final resolution: Full HD (1920×1080) The interesting part is that instead of generating directly at high resolution, we generate at a much lower resolution and let the regenerative upscaling &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xmrcyl/comfyui_tutorial_pika_h3_minimax_h3_singularity/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xmqxsr/ltx_25_static_camera_problem/</id><title>LTX 2.5 static camera problem</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xmqxsr/ltx_25_static_camera_problem/"/>
+<published>2026-11-03T11:52:00+00:00</published><updated>2026-11-03T11:52:00+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="text-to-video"/>
+<category term="image-to-video"/>
+<category term="comfyui"/>
+<category term="ltx"/>
+<category term="lora"/>
+<summary>I am trying to generate various short videos using ComfyUI and LTX 2.5. I want the camera to remain in a fixed position—completely static—throughout the videos, but I haven't been able to achieve this consistently. I downloaded the "Cinemagraph" LoRA and followed the instructions provided on its pag</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 6 · text-to-video, image-to-video, comfyui, ltx, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I am trying to generate various short videos using ComfyUI and LTX 2.5. I want the camera to remain in a fixed position—completely static—throughout the videos, but I haven't been able to achieve this consistently. I downloaded the "Cinemagraph" LoRA and followed the instructions provided on its page, yet it still doesn't work as intended. I encounter the same issue with both T2V (text-to-video) and I2V (image-to-video) methods. Even though my prompts are very simple and clear, I cannot get the camera to stay still. What approach do you use to create videos with a fixed, static camera? I am using an RTX 5060 Ti (16 GB VRAM); given the speed at which LTX operates, I haven't found another mode&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xmqxsr/ltx_25_static_camera_problem/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xmqefq/i_trained_rawsnap_v3_lokr_for_krea_2_on_749/</id><title>I trained rawsnap v3 (LoKr) for Krea 2 on 749 images and can't pick the best epoch — help me vote (public, no login)</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xmqefq/i_trained_rawsnap_v3_lokr_for_krea_2_on_749/"/>
+<published>2026-11-03T11:22:05+00:00</published><updated>2026-11-03T11:22:05+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<category term="lora"/>
+<summary>Hey everyone! i was working rawsnap , a realism LoRA for Krea 2 Turbo that aims for raw, candid smartphone photos instead of the usual polished AI look. About v3: Trained as a LoKr on RunPod - 749 images , 11,235 steps - Same dataset as v1/v2, but more images added each version and better captions. </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey everyone! i was working rawsnap , a realism LoRA for Krea 2 Turbo that aims for raw, candid smartphone photos instead of the usual polished AI look. About v3: Trained as a LoKr on RunPod - 749 images , 11,235 steps - Same dataset as v1/v2, but more images added each version and better captions. The problem: I can't decide which epoch is best. Some epochs have anatomy problems, others lose quality, so instead of guessing I built a ComfyUI comparison workflow that tests them all under identical conditions. The test: - 18 prompts , each rendered 35 times with the same prompt and seed - No LoRA (base Krea 2), v1 (LoRA, epoch 7), v2 (LoRA, epoch 9), and v3 LoKr epochs 8–15 at strengths 1.0 / &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xmqefq/i_trained_rawsnap_v3_lokr_for_krea_2_on_749/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xmqbyu/black_forest_labs_updated_flux3_image_klein/</id><title>Black Forest Labs updated Flux.3 Image Klein documentation to clarify that its primarily designed for image editing.</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xmqbyu/black_forest_labs_updated_flux3_image_klein/"/>
+<published>2026-11-03T11:18:00+00:00</published><updated>2026-11-03T11:18:00+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="image editing"/>
+<category term="flux"/>
+<summary>Updated yesterday . At least they're still attending to it, right? submitted by /u/MonkeyBoyPoop [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · image editing, flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Updated yesterday . At least they're still attending to it, right? submitted by /u/MonkeyBoyPoop [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xmqbyu/black_forest_labs_updated_flux3_image_klein/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xmpvcq/krea_2_general_edit_v2_what_results_are_people/</id><title>Krea 2 General Edit V2 – what results are people actually getting?</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xmpvcq/krea_2_general_edit_v2_what_results_are_people/"/>
+<published>2026-11-03T10:51:51+00:00</published><updated>2026-11-03T10:51:51+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="relighting"/>
+<category term="image editing"/>
+<category term="comfyui"/>
+<category term="lora"/>
+<category term="consistency"/>
+<summary>I've been experimenting with Krea 2 image editing in ComfyUI, particularly the new General Edit V2 LoRA, and I'm interested in hearing about other people's experiences. Krea 2 produces excellent Text To Image results, but so far I've struggled to achieve anything approaching that same level of quali</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 5 · relighting, image editing, comfyui, lora, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I've been experimenting with Krea 2 image editing in ComfyUI, particularly the new General Edit V2 LoRA, and I'm interested in hearing about other people's experiences. Krea 2 produces excellent Text To Image results, but so far I've struggled to achieve anything approaching that same level of quality and consistency when editing existing images. I'm using the ComfyUI-Krea2Edit custom nodes, but the published example workflow predates the V2 LoRAs. I've therefore also raised an issue with the developer asking whether the original workflow is still recommended and what settings are appropriate for General Edit V2. A few things I'd particularly like to understand: Are you getting consistently &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xmpvcq/krea_2_general_edit_v2_what_results_are_people/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xmp6dh/i_built_a_free_opensource_film_studio_on_top_of/</id><title>I built a free, open-source film studio on top of ComfyUI + MiniMax H3: idea to finished short film, on your own PC</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xmp6dh/i_built_a_free_opensource_film_studio_on_top_of/"/>
+<published>2026-11-03T10:10:02+00:00</published><updated>2026-11-03T10:10:02+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="render"/>
+<category term="comfyui"/>
+<category term="minimax"/>
+<category term="lora"/>
+<category term="previs"/>
+<category term="storyboard"/>
+<summary>This is IV Studio, my entry for Comfy's Open Source Higgsfield challenge. It's a Windows desktop app (MIT) that drives your own ComfyUI over its API, so you never touch a node graph unless you want to. What it does: - **Write it for me:** a local model (Qwen3-VL via Ollama or your AI Agent through M</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 8 · render, comfyui, minimax, lora, previs, storyboard&lt;/small&gt;&lt;/p&gt;&lt;p&gt;This is IV Studio, my entry for Comfy's Open Source Higgsfield challenge. It's a Windows desktop app (MIT) that drives your own ComfyUI over its API, so you never touch a node graph unless you want to. What it does: - **Write it for me:** a local model (Qwen3-VL via Ollama or your AI Agent through MCP) looks at your reference pictures and writes the H3 prompt. A checker catches the mistakes H3 punishes (frame-grid lengths, speaker tags, unattached references) and fixes most in one click. - **Hunt, then finish:** quick previews with live step pictures; takes are ranked by what OpenAI Whisper hears, likeness and sharpness. A review names each problem with its timestamp. The pick finishes from &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xmp6dh/i_built_a_free_opensource_film_studio_on_top_of/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xmocf7/free_image_to_3d_model_in_comfyui_and_local/</id><title>Free Image to 3D Model in ComfyUI and Local Gradio App (Low VRAM)</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xmocf7/free_image_to_3d_model_in_comfyui_and_local/"/>
+<published>2026-11-03T09:18:17+00:00</published><updated>2026-11-03T09:18:17+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<summary>submitted by /u/TheLocalLab [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/TheLocalLab [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xmocf7/free_image_to_3d_model_in_comfyui_and_local/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xmnxtj/we_opensourced_our_video_app_that_runs_on_your/</id><title>We open-sourced our video app that runs on your ComfyUI (H3 VFX LoRAs, Qwen, Flux)</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xmnxtj/we_opensourced_our_video_app_that_runs_on_your/"/>
+<published>2026-11-03T08:53:23+00:00</published><updated>2026-11-03T08:53:23+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="vfx"/>
+<category term="render"/>
+<category term="comfyui"/>
+<category term="flux"/>
+<category term="minimax"/>
+<category term="ai video"/>
+<summary>Hey there, fellow ComfyUI enjoyers I’m one of the founders of Mago and we've just open-sourced our AI video studio It’s made for long-form work like AI series, short films and microdramas. You start from an idea or a script, and it takes you through cast, shot list, storyboards and shots, keeping ch</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 9 · vfx, render, comfyui, flux, minimax, ai video&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey there, fellow ComfyUI enjoyers I’m one of the founders of Mago and we've just open-sourced our AI video studio It’s made for long-form work like AI series, short films and microdramas. You start from an idea or a script, and it takes you through cast, shot list, storyboards and shots, keeping characters consistent from shot to shot. You can also bring your own footage and restyle it. It runs on top of ComfyUI, with a plug-and-play bundled version, or you can connect your own install. Render locally with open models like MiniMax H3, Qwen, FLUX or any open-weights or API models you want (Nvidia GPU, 16+ GB VRAM recommended), with cloud models in the same app when you need them. It’s 0.19.0&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xmnxtj/we_opensourced_our_video_app_that_runs_on_your/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xmmlid/has_anyone_run_a_quality_and_speed_comparison/</id><title>Has Anyone Run a Quality and Speed Comparison Between the Full Singularity Diffusion Model and H3 Singularity LoRA?</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xmmlid/has_anyone_run_a_quality_and_speed_comparison/"/>
+<published>2026-11-03T07:26:15+00:00</published><updated>2026-11-03T07:26:15+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="lora"/>
+<summary>I find out now there is a Singularity LoRA, but I fail to see the benefit of it, when Singularity as the diffusion model swaps out the regular Ref2Video H3, leaving more room for other LoRAs such as R34l1sm and LMS. Has anyone run comparison tests using, as an example, Singularity model plus H3 Turb</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I find out now there is a Singularity LoRA, but I fail to see the benefit of it, when Singularity as the diffusion model swaps out the regular Ref2Video H3, leaving more room for other LoRAs such as R34l1sm and LMS. Has anyone run comparison tests using, as an example, Singularity model plus H3 Turbo 4step, vs Base R2V H3 model and Singularity LoRA? Which begs another question, is it possible to run too many LoRAs? If so, what is that limit? submitted by /u/robertwellesley [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xmmlid/has_anyone_run_a_quality_and_speed_comparison/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xmm9uk/flip_a_switch_and_stop_your_videos_from_degrading/</id><title>Flip a switch and stop your Videos from Degrading. 50 Clip Test No Degrading at the end. Geiru Context Suite</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xmm9uk/flip_a_switch_and_stop_your_videos_from_degrading/"/>
@@ -33,6 +137,26 @@
 <category term="lora"/>
 <summary>https://civitai.com/models/3034125/wall-street-journal-style Have you ever imagined yourself in a WSJ article? Now, your dream has partially come true! submitted by /u/CommodoreCarbonate [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;https://civitai.com/models/3034125/wall-street-journal-style Have you ever imagined yourself in a WSJ article? Now, your dream has partially come true! submitted by /u/CommodoreCarbonate [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xmllmx/the_wall_street_journal_stylea_krea_2_lora/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xmkqpe/what_can_i_use_to_extend_videos_past_15_seconds/</id><title>What can I use to extend videos past 15 seconds on Minimax H3 ref2va?</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xmkqpe/what_can_i_use_to_extend_videos_past_15_seconds/"/>
+<published>2026-11-03T05:36:41+00:00</published><updated>2026-11-03T05:36:41+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="minimax"/>
+<category term="consistency"/>
+<summary>I know this was asked before and you can use last frame or last couple of seconds of previous video but the quality gets worse each iteration. Are there any new custom nodes that preserves the quality and consistency of reference images/videos/audios for each extended generation via latent space? su</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · minimax, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I know this was asked before and you can use last frame or last couple of seconds of previous video but the quality gets worse each iteration. Are there any new custom nodes that preserves the quality and consistency of reference images/videos/audios for each extended generation via latent space? submitted by /u/throwaway0204055 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xmkqpe/what_can_i_use_to_extend_videos_past_15_seconds/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xmkpwi/wan_22_forcing_python_to_throw_critical_error_or/</id><title>Wan 2.2 forcing python to throw critical error, or to crash pc entirely when memory is filled up</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xmkpwi/wan_22_forcing_python_to_throw_critical_error_or/"/>
+<published>2026-11-03T05:35:25+00:00</published><updated>2026-11-03T05:35:25+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<category term="wan"/>
+<summary>-DIMM4 DDR 64GB (16x4) -RTX 3090 (downvolted to 90%) -I7-14700KF (downvolted by 0.030w) Quite a long read, sorry: Wan 2.2 worked flawlessly on 32gb of ddr4 running in dual channel. Albeit slow, it was reliable and could be left for hours. I have upgraded to 64gb running on 4 dimm slots. Two pairs of</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · comfyui, wan&lt;/small&gt;&lt;/p&gt;&lt;p&gt;-DIMM4 DDR 64GB (16x4) -RTX 3090 (downvolted to 90%) -I7-14700KF (downvolted by 0.030w) Quite a long read, sorry: Wan 2.2 worked flawlessly on 32gb of ddr4 running in dual channel. Albeit slow, it was reliable and could be left for hours. I have upgraded to 64gb running on 4 dimm slots. Two pairs of memory sticks were bought years apart, but are of the same brand and model. I have also ran a memtest86, tried to run memory at stock 2400ghz, checked GPU, issue is definitely not a hardware. System is stable. Even at memory running at 3200 in Cinebench I updated comfyUI itself after reading earlier releases in May of this year were fucky with memory - no success. I went as far as disabling upsca&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xmkpwi/wan_22_forcing_python_to_throw_critical_error_or/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://arxiv.org/abs/2611.00406</id><title>TAP-Out: Tracking Any Point in 360{\deg} via Outpainting</title>
@@ -286,6 +410,25 @@
 <category term="blender"/>
 <summary>Every texture on this street corner was generated with local models and projected onto the geometry in Blender, using StableGen, my free and open-source add-on. How it was made: The 3D assets (the car, the woman, the bench, lamp, hydrant, bin, crates and bush) are TRELLIS.2 meshes, each from a text </summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · pbr, render, blender&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Every texture on this street corner was generated with local models and projected onto the geometry in Blender, using StableGen, my free and open-source add-on. How it was made: The 3D assets (the car, the woman, the bench, lamp, hydrant, bin, crates and bush) are TRELLIS.2 meshes, each from a text prompt via a Qwen Image 2.1 reference image. The buildings, road and sidewalk are simple blocks. Texturing: Qwen Image 2.1 (int8), 10 cameras. Each view is generated from a depth/geometry render of that camera, then projected and blended onto all the meshes at once. Each camera also got a prompt listing only the objects it actually sees, which stopped views from painting things that aren't there. &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xmg8au/i_textured_an_entire_street_in_blender_with_qwen/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xmfrrc/i_made_a_comfyui_node_for_lato2_turn_dense/</id><title>I made a ComfyUI node for LATO.2: turn dense TRELLIS.2 / Hunyuan3D meshes into usable low-poly meshes</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xmfrrc/i_made_a_comfyui_node_for_lato2_turn_dense/"/>
+<published>2026-11-03T01:29:21+00:00</published><updated>2026-11-03T01:29:21+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<category term="blender"/>
+<summary>Image-to-3D models like TRELLIS.2 and Hunyuan3D give you great shapes, but as 500k–1M triangles of soup that you can't use in a game or animate. LATO.2 (HUST &amp; Meshy, MIT license) is a new model that generates a new low-poly mesh for a shape: you ask for a vertex count (200–5000), it places the vert</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · comfyui, blender&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Image-to-3D models like TRELLIS.2 and Hunyuan3D give you great shapes, but as 500k–1M triangles of soup that you can't use in a game or animate. LATO.2 (HUST &amp;amp; Meshy, MIT license) is a new model that generates a new low-poly mesh for a shape: you ask for a vertex count (200–5000), it places the vertices and predicts how they connect. It's not a decimator, so the edges mostly follow the form. It's not hand-modelled quality either: think fairly clean, not artist-clean. ComfyUI-LATO2 wraps it as a ComfyUI node and makes it usable out of the box: Works with ComfyUI's native 3D nodes : plug in a MESH straight from native TRELLIS.2 or Hunyuan3D, or a 3D file from Load 3D; get a MESH for Save 3D Mo&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xmfrrc/i_made_a_comfyui_node_for_lato2_turn_dense/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xmcemk/custom_node_yue2_auto_vocal_pro_v2_turn/</id><title>[Custom Node] YuE2 Auto Vocal PRO v2 – Turn Instrumental Music into Songs with AI-Generated Vocals and Custom Lyrics | Complete ComfyUI Example Workflow Included</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xmcemk/custom_node_yue2_auto_vocal_pro_v2_turn/"/>
+<published>2026-11-02T23:00:53+00:00</published><updated>2026-11-02T23:00:53+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<summary>Hey everyone! I'd like to share a custom node I've developed for ComfyUI , called YuE2 Auto Vocal PRO v2 , designed primarily for one specific purpose: turning instrumental music tracks (songs without vocals) into fully sung versions using your own custom lyrics and YuE2 . I've also included a compl</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey everyone! I'd like to share a custom node I've developed for ComfyUI , called YuE2 Auto Vocal PRO v2 , designed primarily for one specific purpose: turning instrumental music tracks (songs without vocals) into fully sung versions using your own custom lyrics and YuE2 . I've also included a complete example ComfyUI workflow , integrating SheetSage2, the custom node, and YuE2, so you can experiment with the entire process. 🎵 What does it do? Imagine having an instrumental track with no vocals at all, and wanting to transform it into a song with a singer performing your own lyrics. The main challenge is that when SheetSage2 extracts the melody from an audio track, the resulting ABC musical &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xmcemk/custom_node_yue2_auto_vocal_pro_v2_turn/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xmal1l/openh3regenerate2k_to_preserve_draft_pass_details/</id><title>Open-H3-Regenerate-2K to preserve draft pass details</title>
@@ -7187,74 +7330,5 @@
 <category term="lora"/>
 <summary>https://preview.redd.it/zwo422mwqmwh1.png?width=1358&amp;format=png&amp;auto=webp&amp;s=c48fa079d3cf9a59f584787ef79f4291c3d63750 https://huggingface.co/buckets/Ironleo78/IronLeo78BaloneyKitForMinimaxH3/tree/Full-Reference%20Video%20Editing%20%26%20Asset%20Swapping%20Guide.pdf Full Guide: https://huggingface.co/</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;https://preview.redd.it/zwo422mwqmwh1.png?width=1358&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=c48fa079d3cf9a59f584787ef79f4291c3d63750 https://huggingface.co/buckets/Ironleo78/IronLeo78BaloneyKitForMinimaxH3/tree/Full-Reference%20Video%20Editing%20%26%20Asset%20Swapping%20Guide.pdf Full Guide: https://huggingface.co/buckets/Ironleo78/IronLeo78BaloneyKitForMinimaxH3/tree/H3%20Minimax%20R2V%20Guide%20by%20Ironleo%2078.pdf Video Example: Original: https://huggingface.co/buckets/Ironleo78/IronLeo78BaloneyKitForMinimaxH3/tree/60percentofthetime.mp4 Gen: https://huggingface.co/buckets/Ironleo78/IronLeo78BaloneyKitForMinimaxH3/tree/60percentofthetime_00010_.mp4 My personal workflow (my personal h3 minimax custom nod&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xat9n2/sharing_a_useful_h3_minimax_guide_and_working/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xarw4c/how_to_train_mossimage_loras_locally_8_gb_vram/</id><title>How to train MOSS-Image LoRAs locally (8 GB VRAM): settings, tips and workflow</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xarw4c/how_to_train_mossimage_loras_locally_8_gb_vram/"/>
-<published>2026-10-20T13:16:52+00:00</published><updated>2026-10-20T13:16:52+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<category term="flux"/>
-<category term="lora"/>
-<summary>A lot of people have been asking me for the "right" settings to train MOSS-Image LoRAs, and some are getting terrible results after training for thousands of steps. So here's everything in one place, with screenshots of a real run. TL;DR: for a character LoRA, start with the default settings and tra</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, flux, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;A lot of people have been asking me for the "right" settings to train MOSS-Image LoRAs, and some are getting terrible results after training for thousands of steps. So here's everything in one place, with screenshots of a real run. TL;DR: for a character LoRA, start with the default settings and train 800 steps (just an example: other types of training may need other settings). The likeness should already be there by step ~800; go to 1200–1500 only if your dataset is large or the concept is hard. If you're at 8000 steps, you've gone way past the point where the LoRA was good. The tool I train with AcademiaSD LoRAlab Trainer Studio , a free, open-source local trainer (one installer, one launc&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xarw4c/how_to_train_mossimage_loras_locally_8_gb_vram/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xarqpu/jpop_you_me_君と僕_official_music_video_80s_japanese/</id><title>[J-POP] You &amp; Me (君と僕) | Official Music Video | 80s Japanese City Pop - MiniMax H3</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xarqpu/jpop_you_me_君と僕_official_music_video_80s_japanese/"/>
-<published>2026-10-20T13:10:21+00:00</published><updated>2026-10-20T13:10:21+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="minimax"/>
-<summary>submitted by /u/SeaTransportation457 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/SeaTransportation457 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xarqpu/jpop_you_me_君と僕_official_music_video_80s_japanese/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xarop9/a_quick_mossimage_news_roundup_20th_october_2026/</id><title>A quick MOSS-Image news round-up - 20th October 2026</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xarop9/a_quick_mossimage_news_roundup_20th_october_2026/"/>
-<published>2026-10-20T13:08:01+00:00</published><updated>2026-10-20T13:08:01+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="inpainting"/>
-<category term="comfyui"/>
-<category term="lora"/>
-<summary>Another quick MOSS news and goodies round-up, for those who may have missed some items. -&gt; The MOSS-Image Color-Depth Control LoRA now has integrated ComfyUI support in the latest Comfy Portable, thanks to a pull/merge request by Kijai. He has also shared a workflow. We thus now have at least basic </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · inpainting, comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Another quick MOSS news and goodies round-up, for those who may have missed some items. -&amp;gt; The MOSS-Image Color-Depth Control LoRA now has integrated ComfyUI support in the latest Comfy Portable, thanks to a pull/merge request by Kijai. He has also shared a workflow. We thus now have at least basic Controlnet-like functionality in MOSS-image, via depth and colour inputs. I'd add that the depth/colour renders required by the LoRA can also have poses added by using 3D-figure desktop software such as Poser 12. https://huggingface.co/darask0/MOSS-Image-color-depth-control https://github.com/Comfy-Org/ComfyUI/pull/17206 (includes Kijai's workflow) https://graphixly.com/products/poser-pro (the ful&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xarop9/a_quick_mossimage_news_roundup_20th_october_2026/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xarnzg/mossimage_base_new_dmd2_lora_8_steps/</id><title>Moss-Image base +new DMD2 lora , 8 Steps</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xarnzg/mossimage_base_new_dmd2_lora_8_steps/"/>
-<published>2026-10-20T13:07:06+00:00</published><updated>2026-10-20T13:07:06+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="lora"/>
-<summary>https://huggingface.co/lodestones/MOSS-Image-Base-8-steps-dmd/blob/main/lora_dmd2.safetensors submitted by /u/AgeNo5351 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;https://huggingface.co/lodestones/MOSS-Image-Base-8-steps-dmd/blob/main/lora_dmd2.safetensors submitted by /u/AgeNo5351 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xarnzg/mossimage_base_new_dmd2_lora_8_steps/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xaph61/testing_kissing_scenes_with_minimax_h3/</id><title>Testing Kissing scenes with Minimax H3</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xaph61/testing_kissing_scenes_with_minimax_h3/"/>
-<published>2026-10-20T11:20:59+00:00</published><updated>2026-10-20T11:20:59+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="minimax"/>
-<summary>This is a test of H3's kissing ability. I use the reference workflow with the actor's images as reference. I generated around 50 10sec clips that I cut and edited in Aftereffects before adding the vintage filter. submitted by /u/CQDSN [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;This is a test of H3's kissing ability. I use the reference workflow with the actor's images as reference. I generated around 50 10sec clips that I cut and edited in Aftereffects before adding the vintage filter. submitted by /u/CQDSN [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xaph61/testing_kissing_scenes_with_minimax_h3/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xaoome/best_workflow_for_a_3minute_continuous_shot_in/</id><title>Best workflow for a 3-minute continuous shot in MiniMax H3?</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xaoome/best_workflow_for_a_3minute_continuous_shot_in/"/>
-<published>2026-10-20T10:37:23+00:00</published><updated>2026-10-20T10:37:23+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<category term="minimax"/>
-<summary>I'm looking to create a single, continuous 3-minute shot using MiniMax H3 in ComfyUI. I've tried bridging, but it requires too much planning upfront. I'd prefer to keep extending the video and explore the shot organically as I go. I've seen several workflows to minimize quality degradation during ex</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I'm looking to create a single, continuous 3-minute shot using MiniMax H3 in ComfyUI. I've tried bridging, but it requires too much planning upfront. I'd prefer to keep extending the video and explore the shot organically as I go. I've seen several workflows to minimize quality degradation during extensions, but I'm unsure which works best for this use case. Can anyone recommend a good workflow for long, continuous shots with consistent characters and minimal degradation? Thanks! submitted by /u/Complete-Box-3030 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xaoome/best_workflow_for_a_3minute_continuous_shot_in/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1xao7ep/bts_of_war_horse_huge_production_with_vfx/</id><title>BTS of War Horse - huge production with VFX animation used for complicated jumps</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xao7ep/bts_of_war_horse_huge_production_with_vfx/"/>
-<published>2026-10-20T10:09:31+00:00</published><updated>2026-10-20T10:09:31+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="animation"/>
-<category term="vfx"/>
-<summary>submitted by /u/Milly_onaire [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 4 · animation, vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/Milly_onaire [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xao7ep/bts_of_war_horse_huge_production_with_vfx/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
