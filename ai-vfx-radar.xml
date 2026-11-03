@@ -2,8 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-03T15:31:27+00:00</updated>
+<updated>2026-11-03T17:31:04+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xmxobp/ppl_argue_over_moss_vs_krea_2_but_never_show/</id><title>Ppl argue over Moss vs Krea 2, but never show exemple, here they are.</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xmxobp/ppl_argue_over_moss_vs_krea_2_but_never_show/"/>
+<published>2026-11-03T16:31:55+00:00</published><updated>2026-11-03T16:31:55+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="render"/>
+<category term="comfyui"/>
+<category term="flux"/>
+<category term="lora"/>
+<summary>*Disclaimer : I use AI to help generate, document and be clear in instruction, deal with it* Link at the bottom : nothing Mature in the post itself, so we will see how rule 3 work. I was one of the people saying MOSS-Image looked soft and blurry next to Krea 2. I was running it wrong, and the fix tu</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · render, comfyui, flux, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;*Disclaimer : I use AI to help generate, document and be clear in instruction, deal with it* Link at the bottom : nothing Mature in the post itself, so we will see how rule 3 work. I was one of the people saying MOSS-Image looked soft and blurry next to Krea 2. I was running it wrong, and the fix turned out to be one setting. What I had wrong: I rendered it at 1024x1024 / 1248x832, around 1MP. That is the bottom of the range MOSS is documented for (roughly 1–2MP). At 1MP the output is genuinely soft - hair goes to mush, skin goes waxy, background edges smear. Same prompt, same seed, same everything at 1728x1152 (2MP) and the softness is gone. That was the whole problem. I wasted a month thin&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xmxobp/ppl_argue_over_moss_vs_krea_2_but_never_show/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/vfx/comments/1xmv8t0/still_thinking_about_how_godzilla_minus_one_won/</id><title>Still thinking about how Godzilla Minus One won an Oscar over The Creator.</title>
 <link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xmv8t0/still_thinking_about_how_godzilla_minus_one_won/"/>
@@ -47,6 +59,16 @@
 <category term="minimax"/>
 <summary>Is RTX 3090 enough for video generation with minimax h3 or wan 2.5 ? How much capacity of RAM should I pair it with ? Any estimates on the time taken for video generation? submitted by /u/Successful_Record_58 [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · video generation, wan, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Is RTX 3090 enough for video generation with minimax h3 or wan 2.5 ? How much capacity of RAM should I pair it with ? Any estimates on the time taken for video generation? submitted by /u/Successful_Record_58 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xmtzez/rtx_3090/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xmts60/comfyuih3semantictimeline/</id><title>ComfyUi-H3-Semantic-Timeline</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xmts60/comfyuih3semantictimeline/"/>
+<published>2026-11-03T14:04:29+00:00</published><updated>2026-11-03T14:04:29+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<category term="consistency"/>
+<summary>Made a small experimental H3 semantic timeline node for ComfyUI. The idea came from using Kijai’s context windows node and getting annoyed by H3 looping / restarting actions between windows. This basically fixes the semantic looping by giving each context window its own conditioning based on what sh</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Made a small experimental H3 semantic timeline node for ComfyUI. The idea came from using Kijai’s context windows node and getting annoyed by H3 looping / restarting actions between windows. This basically fixes the semantic looping by giving each context window its own conditioning based on what should be happening at that point. Seams are still kinda fucked, identity can drift/change, and audio across windows is messy, but that seems to be more of an H3/context-window issue than the timeline itself. Only tested with T2V so far. Haven’t properly tested refs yet, could actually help with identity consistency. Very experimental, definitely not finished. Also heavily vibe-coded with GPT-6 Astr&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xmts60/comfyuih3semantictimeline/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xms34h/the_1080p_pass_on_my_4090_added_50_minutes_a_clip/</id><title>The 1080p pass on my 4090 added 50 minutes a clip and never threw an error</title>
@@ -494,6 +516,15 @@
 <category term="blender"/>
 <summary>Image-to-3D models like TRELLIS.2 and Hunyuan3D give you great shapes, but as 500k–1M triangles of soup that you can't use in a game or animate. LATO.2 (HUST &amp; Meshy, MIT license) is a new model that generates a new low-poly mesh for a shape: you ask for a vertex count (200–5000), it places the vert</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · comfyui, blender&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Image-to-3D models like TRELLIS.2 and Hunyuan3D give you great shapes, but as 500k–1M triangles of soup that you can't use in a game or animate. LATO.2 (HUST &amp;amp; Meshy, MIT license) is a new model that generates a new low-poly mesh for a shape: you ask for a vertex count (200–5000), it places the vertices and predicts how they connect. It's not a decimator, so the edges mostly follow the form. It's not hand-modelled quality either: think fairly clean, not artist-clean. ComfyUI-LATO2 wraps it as a ComfyUI node and makes it usable out of the box: Works with ComfyUI's native 3D nodes : plug in a MESH straight from native TRELLIS.2 or Hunyuan3D, or a 3D file from Load 3D; get a MESH for Save 3D Mo&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xmfrrc/i_made_a_comfyui_node_for_lato2_turn_dense/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://replicate.com/blog/which-minimax-h3-model</id><title>Which MiniMax H3 model should you use?</title>
+<link rel="alternate" href="https://replicate.com/blog/which-minimax-h3-model"/>
+<published>2026-11-03T00:00:00+00:00</published><updated>2026-11-03T00:00:00+00:00</updated>
+<author><name>Replicate blog</name></author>
+<category term="minimax"/>
+<summary>Three MiniMax H3 models, three prices. Here's when to use H3 Highspeed, H3 Lite, and H3.</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;Replicate blog · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Three MiniMax H3 models, three prices. Here's when to use H3 Highspeed, H3 Lite, and H3.&lt;/p&gt;&lt;p&gt;&lt;a href="https://replicate.com/blog/which-minimax-h3-model"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1xmcemk/custom_node_yue2_auto_vocal_pro_v2_turn/</id><title>[Custom Node] YuE2 Auto Vocal PRO v2 – Turn Instrumental Music into Songs with AI-Generated Vocals and Custom Lyrics | Complete ComfyUI Example Workflow Included</title>
@@ -7359,14 +7390,5 @@
 <category term="comfyui"/>
 <summary>submitted by /u/CastWorkshop [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/CastWorkshop [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xayoqj/introducing_castworkshop_an_opensource_character/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xaxlu1/minimax_h3_got_hit_the_road_dude/</id><title>Minimax H3 GoT - Hit the road dude</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xaxlu1/minimax_h3_got_hit_the_road_dude/"/>
-<published>2026-10-20T16:58:37+00:00</published><updated>2026-10-20T16:58:37+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="minimax"/>
-<summary>Finally after alot of trial and error was able to make the Night King say "Hit the road dude" using RTX 6000 Pro Minimax H3 submitted by /u/kid_90 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Finally after alot of trial and error was able to make the Night King say "Hit the road dude" using RTX 6000 Pro Minimax H3 submitted by /u/kid_90 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xaxlu1/minimax_h3_got_hit_the_road_dude/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
