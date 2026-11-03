@@ -2,8 +2,21 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-03T21:30:20+00:00</updated>
+<updated>2026-11-03T23:30:38+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xn74pn/opensource_local_higgsfield_on_comfyui_update/</id><title>Open-source local "Higgsfield" on ComfyUI, update: restore old footage, train your character in the UI, 60+ tools (Krea 2, FLUX.2, FLUX 3 Klein, LTX-2.5, Wan 2.2, SeedVR2)</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xn74pn/opensource_local_higgsfield_on_comfyui_update/"/>
+<published>2026-11-03T22:22:43+00:00</published><updated>2026-11-03T22:22:43+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="render"/>
+<category term="comfyui"/>
+<category term="flux"/>
+<category term="wan"/>
+<category term="lora"/>
+<summary>CreatorOS Studio turns your local ComfyUI into a creator studio: open weights only, no credits, no subscription. New since my first post: - Restore: old photos repaired, colourised and upscaled; damaged clips rebuilt to 1080p with SeedVR2 7B (archive-clip colourisation with Wan VACE is in the lab) -</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 8 · render, comfyui, flux, wan, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;CreatorOS Studio turns your local ComfyUI into a creator studio: open weights only, no credits, no subscription. New since my first post: - Restore: old photos repaired, colourised and upscaled; damaged clips rebuilt to 1080p with SeedVR2 7B (archive-clip colourisation with Wan VACE is in the lab) - Character creation in the UI: 4 faces, a reference sheet, 12 images, its own LoRA, and its own voice - One-click reels whose shots all come from the same session, with voice-over cut on the beat - 36 one-click styles, 10 relights, Expand, Depth Map, Movie Studio (a shot card instead of a prompt), 3D Scene - FLUX 3 Klein added as a photo engine - A page per tool with its full render history Video &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xn74pn/opensource_local_higgsfield_on_comfyui_update/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xn5cfw/electricity_per_ai_image_on_an_rtx_pro_6000_rtx/</id><title>Electricity per AI image on an RTX PRO 6000, RTX 5090 Laptop, RTX 5080, RTX 3090 and more: about 3 to 10 cents per 1,000 images (FLUX.2 klein, 1024x1024)</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xn5cfw/electricity_per_ai_image_on_an_rtx_pro_6000_rtx/"/>
@@ -13,6 +26,37 @@
 <category term="flux"/>
 <summary>What one generated image costs in electricity on each GPU we've measured, at one dated price: 18.31 cents per kWh, the US residential average for July 2026. Power is the board's own reading from each card's driver. The page has two bar charts (cents per 1,000 images and seconds per image) and shows </summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;What one generated image costs in electricity on each GPU we've measured, at one dated price: 18.31 cents per kWh, the US residential average for July 2026. Power is the board's own reading from each card's driver. The page has two bar charts (cents per 1,000 images and seconds per image) and shows the arithmetic once, so you can redo it at your own rate. FLUX.2 [klein] 4B, 1024x1024, 8 steps, one pinned ComfyUI stack, images drawn back to back for ten minutes. Cents of board electricity per 1,000 images: - RTX 5090 Laptop GPU 24 GB, Dynamic Boost: 3.37 cents (4.48 s per image) - RTX PRO 6000 Blackwell Workstation Edition 96 GB at 300 W: 3.39 cents (2.30 s) - ZOTAC RTX 5080 Solid CORE OC 16 &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xn5cfw/electricity_per_ai_image_on_an_rtx_pro_6000_rtx/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xn4lrw/i_trained_and_released_a_pose_control_lora_for/</id><title>I trained and released a Pose Control LoRA for Krea-2</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xn4lrw/i_trained_and_released_a_pose_control_lora_for/"/>
+<published>2026-11-03T20:44:01+00:00</published><updated>2026-11-03T20:44:01+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="lora"/>
+<summary>submitted by /u/elephant-knight [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/elephant-knight [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xn4lrw/i_trained_and_released_a_pose_control_lora_for/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xn4cq4/i_used_a_blender_blockout_to_guide_an_aigenerated/</id><title>I used a Blender blockout to guide an AI-generated soda ad</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xn4cq4/i_used_a_blender_blockout_to_guide_an_aigenerated/"/>
+<published>2026-11-03T20:34:13+00:00</published><updated>2026-11-03T20:34:13+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<category term="blender"/>
+<category term="minimax"/>
+<category term="cinematic"/>
+<summary>I wanted more control over the composition and movement in each shot, so I created a simple 3D blockout using ChatGPT and Blender MCP. Then I made cinematic scene references with GPT Image in ComfyUI and paired each one with its blockout clip in MiniMax H3’s reference-to-video workflow. submitted by</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 5 · comfyui, blender, minimax, cinematic&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I wanted more control over the composition and movement in each shot, so I created a simple 3D blockout using ChatGPT and Blender MCP. Then I made cinematic scene references with GPT Image in ComfyUI and paired each one with its blockout clip in MiniMax H3’s reference-to-video workflow. submitted by /u/Time-Ad-7720 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xn4cq4/i_used_a_blender_blockout_to_guide_an_aigenerated/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xn4c5t/sonora_studio_11_a_free_local_music_studio_with/</id><title>Sonora Studio 1.1: a free local music studio, with YuE2 running on your own PC (even a 12 GB card)</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xn4c5t/sonora_studio_11_a_free_local_music_studio_with/"/>
+<published>2026-11-03T20:33:38+00:00</published><updated>2026-11-03T20:33:38+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<category term="lora"/>
+<summary>I listened to your feedback, and I’ve just published Sonora Studio 1.1 , a free, local music studio that now runs YuE2 on your own PC . It uses the lightest quantised version of the model (Q8_0), so it works even on a 12 GB graphics card: I tested it on an RTX 2060. Below is what it does and how to </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I listened to your feedback, and I’ve just published Sonora Studio 1.1 , a free, local music studio that now runs YuE2 on your own PC . It uses the lightest quantised version of the model (Q8_0), so it works even on a 12 GB graphics card: I tested it on an RTX 2060. Below is what it does and how to install it. I’ve been building Sonora Studio , a free, local-first music creation workspace (MIT licence), and version 1.1 is out. What it does Create music with ACE-Step 1.5 (ComfyUI on your PC, or RunPod) and YuE2 , plus Remix and Edit for songs you already made. YuE2 on your own PC: it runs the light quantised model (yue2.cpp, Q8_0). I tested it on an RTX 2060 with 12 GB. It writes the melody a&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xn4c5t/sonora_studio_11_a_free_local_music_studio_with/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/vfx/comments/1xn32gz/looking_for_a_compositing_vfx_artist_for_an_indie/</id><title>Looking for a Compositing / VFX Artist for an Indie Game Trailer!</title>
@@ -97,6 +141,22 @@
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey! We published a new image model built from MiniMax-H3. Open weights on Hugging Face and available natively on ComfyUI: https://huggingface.co/PrunaAI/P-H3-Image and https://huggingface.co/PrunaAI/P-H3-Image-Comfy Generate or edit images 5× faster, in 8 steps instead of 50. A 4 MP image takes 2.6 s instead of 12.4 s. The model is 7× smaller than H3, so high-resolution images are a light download and run on a much smaller GPU. Strongest at photorealism, documentary and editorial photography, film stills, and graphic styles with short quoted text. It renders 2 to 16 MP and edits with up to 8 input images. We reworked every component of H3: the prompt upsampler, the text encoder, the diffusi&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xmyovx/new_image_model_based_on_minimax_h3_7_smaller_5/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xmxsbe/the_contest_window_was_extended_so_i_rebuilt_my/</id><title>The contest window was extended, so I rebuilt my open-source Higgsfield on ComfyUI: restore old footage, train your character in the UI, 60+ tools in real menus (local, no credits)</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xmxsbe/the_contest_window_was_extended_so_i_rebuilt_my/"/>
+<published>2026-11-03T16:36:08+00:00</published><updated>2026-11-03T16:36:08+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="green screen"/>
+<category term="lip sync"/>
+<category term="avatar"/>
+<category term="hdr"/>
+<category term="render"/>
+<category term="comfyui"/>
+<category term="flux"/>
+<category term="wan"/>
+<summary>Hi all! Two weeks ago I shared CreatorOS Studio, a web app that drives a local ComfyUI and wraps it in creator tools, for the Comfy "Open Source Higgsfield" challenge. The window got extended, so here is what changed. What nobody else in the challenge does (as far as I know): Restore: old photos rep</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 10 · green screen, lip sync, avatar, hdr, render, comfyui, flux, wan&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi all! Two weeks ago I shared CreatorOS Studio, a web app that drives a local ComfyUI and wraps it in creator tools, for the Comfy "Open Source Higgsfield" challenge. The window got extended, so here is what changed. What nobody else in the challenge does (as far as I know): Restore: old photos repaired + colourised (Qwen-Image-Edit 2511) then rebuilt in HD (SeedVR2), with a before/after slider. Damaged clips go to 1080p with SeedVR2 7B, two passes for tiny sources. In the lab: whole archive clips colourised with Wan 2.2 Fun VACE from one coloured frame (the 1951 newsreel in the video). Not in the Restore button yet. Train your character in the UI : describe her, pick one of 4 faces, get a &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xmxsbe/the_contest_window_was_extended_so_i_rebuilt_my/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xmxobp/ppl_argue_over_moss_vs_krea_2_but_never_show/</id><title>Ppl argue over Moss vs Krea 2, but never show exemple, here they are.</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xmxobp/ppl_argue_over_moss_vs_krea_2_but_never_show/"/>
 <published>2026-11-03T16:31:55+00:00</published><updated>2026-11-03T16:31:55+00:00</updated>
@@ -107,6 +167,17 @@
 <category term="lora"/>
 <summary>*Disclaimer : I use AI to help generate, document and be clear in instruction, deal with it* Link at the bottom : nothing Mature in the post itself, so we will see how rule 3 work. I was one of the people saying MOSS-Image looked soft and blurry next to Krea 2. I was running it wrong, and the fix tu</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · render, comfyui, flux, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;*Disclaimer : I use AI to help generate, document and be clear in instruction, deal with it* Link at the bottom : nothing Mature in the post itself, so we will see how rule 3 work. I was one of the people saying MOSS-Image looked soft and blurry next to Krea 2. I was running it wrong, and the fix turned out to be one setting. What I had wrong: I rendered it at 1024x1024 / 1248x832, around 1MP. That is the bottom of the range MOSS is documented for (roughly 1–2MP). At 1MP the output is genuinely soft - hair goes to mush, skin goes waxy, background edges smear. Same prompt, same seed, same everything at 1728x1152 (2MP) and the softness is gone. That was the whole problem. I wasted a month thin&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xmxobp/ppl_argue_over_moss_vs_krea_2_but_never_show/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xmxghx/layershop_019_now_available_multiple_loras/</id><title>LayerShop 0.19 Now Available: Multiple loras / External Models folder</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xmxghx/layershop_019_now_available_multiple_loras/"/>
+<published>2026-11-03T16:24:00+00:00</published><updated>2026-11-03T16:24:00+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="rendering"/>
+<category term="comfyui"/>
+<category term="lora"/>
+<summary>Hi all, Slav here. Thanks for all the feedback on LayerShop last week. The two things people asked for most are in 0.19: 1) Multiple LoRAs: You can now assign bunch of LoRAs to the model and then picked them up when rendering image. You can stack up to five on a generation, each with its own strengt</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · rendering, comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi all, Slav here. Thanks for all the feedback on LayerShop last week. The two things people asked for most are in 0.19: 1) Multiple LoRAs: You can now assign bunch of LoRAs to the model and then picked them up when rendering image. You can stack up to five on a generation, each with its own strength and an on/off eye. Every model keeps its own LoRA library with trigger words, and a layer remembers the LoRAs it was made with. 2) Your own models folder: You can add your own external ComfyUI models folder and your models and LoRAs show up next to its own. Download from: https://layershop.aardvarkstudios.net/download/?ref=reddit-comfyui-019 Any issues? Let me know submitted by /u/HonestTicket60&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xmxghx/layershop_019_now_available_multiple_loras/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/vfx/comments/1xmx2ou/does_anyone_know_how_did_they_make_the_sky_a_dark/</id><title>Does anyone know how did they make the sky a dark color for this day for night scene in Where Eagles Dare? If it was such a simple technique that even primitive 60s VFX can achieve, then why isn't it used more often today? Was the sky rotoscoped or was the entire mountain a miniature?</title>
@@ -7463,34 +7534,5 @@
 <category term="minimax"/>
 <summary>submitted by /u/ExpressWarthog8505 [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/ExpressWarthog8505 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xb98cx/it_turns_out_minimax_h3_can_dance_just_by_giving/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xb6onv/lastnight_moss_lora/</id><title>LastNight - Moss lora</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xb6onv/lastnight_moss_lora/"/>
-<published>2026-10-20T22:50:48+00:00</published><updated>2026-10-20T22:50:48+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="lora"/>
-<summary>https://preview.redd.it/f21myzxdbpwh1.png?width=2568&amp;format=png&amp;auto=webp&amp;s=0a84f54a0ade1596da48797c8384958167769827 https://preview.redd.it/2c9gr1ydbpwh1.png?width=2568&amp;format=png&amp;auto=webp&amp;s=ef0acb5d1a0697bfe5b6731ea1369a994c6e55f9 https://preview.redd.it/dc16uhydbpwh1.png?width=2568&amp;format=png&amp;au</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;https://preview.redd.it/f21myzxdbpwh1.png?width=2568&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=0a84f54a0ade1596da48797c8384958167769827 https://preview.redd.it/2c9gr1ydbpwh1.png?width=2568&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=ef0acb5d1a0697bfe5b6731ea1369a994c6e55f9 https://preview.redd.it/dc16uhydbpwh1.png?width=2568&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=b8bbd843bc7365044c7c7aff9a57aaa38f04c1cf https://preview.redd.it/ko50e1ydbpwh1.png?width=2568&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=1978167c19deff120fe8cea997489d598872a834 https://preview.redd.it/6f1bxoydbpwh1.png?width=2568&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=328d82c43fe6bf09be8da925541cc53064a226ad https://preview.redd.it/7zznm1ydbpwh1.png?width=2568&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=031c624d81480f3843116f2205c6bf905e46c3e&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xb6onv/lastnight_moss_lora/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xb5fqe/mossimage_sft_new_dmd2_lora_for_sft_8_steps/</id><title>Moss-Image SFT +new DMD2 lora (for SFT) , 8 Steps</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xb5fqe/mossimage_sft_new_dmd2_lora_for_sft_8_steps/"/>
-<published>2026-10-20T21:56:39+00:00</published><updated>2026-10-20T21:56:39+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="lora"/>
-<category term="cinematic"/>
-<summary>base model + dmd2 for base gens here https://www.reddit.com/r/StableDiffusion/comments/1xarnzg/mossimage_base_new_dmd2_lora_8_steps/ all parameters for all pics were kept same as that post , only the models and lora were swapped. SFT gens are sharper and do not have the bokeh issue of base + dmd2 ba</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · lora, cinematic&lt;/small&gt;&lt;/p&gt;&lt;p&gt;base model + dmd2 for base gens here https://www.reddit.com/r/StableDiffusion/comments/1xarnzg/mossimage_base_new_dmd2_lora_8_steps/ all parameters for all pics were kept same as that post , only the models and lora were swapped. SFT gens are sharper and do not have the bokeh issue of base + dmd2 base gens. However , they also feel a bit style collapsed. for example 1. the cinematic still (pic7) doesn't evoke the texture of the 80s analog film in the prompt which is there in original post. 2. the last pic does not feel like a 90s DnD artstyle , in original it looks much closer. submitted by /u/AgeNo5351 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xb5fqe/mossimage_sft_new_dmd2_lora_for_sft_8_steps/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xb59yw/fibo_2_edit_is_what_klein_3_shouldve_been/</id><title>Fibo 2 Edit is what Klein 3 should've been.</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xb59yw/fibo_2_edit_is_what_klein_3_shouldve_been/"/>
-<published>2026-10-20T21:49:54+00:00</published><updated>2026-10-20T21:49:54+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<category term="flux"/>
-<summary>Very good so far. Must be the first time I actually believe the score. It's far from perfect, but it's extremely uncensored out of the box and fast. I haven't noticed any color drift or quality loss either. The Flux 2 VAE really helps this model. Really excited for proper ComfyUI support. And yes, i</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui, flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Very good so far. Must be the first time I actually believe the score. It's far from perfect, but it's extremely uncensored out of the box and fast. I haven't noticed any color drift or quality loss either. The Flux 2 VAE really helps this model. Really excited for proper ComfyUI support. And yes, it's extremely uncensored out of the box. To clarify, I am not saying it's the best edit model. My prompts are pretty simple, it handles them well, doesn't break anatomy, and isn't censored. You'll have to test it yourself for more complex tasks. Links: Model: https://huggingface.co/Comfy-Org/Fibo-2.0 Workflow: https://github.com/Comfy-Org/ComfyUI/pull/17240 submitted by /u/East_Shoe8814 [link] [co&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xb59yw/fibo_2_edit_is_what_klein_3_shouldve_been/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
