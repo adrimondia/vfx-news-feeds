@@ -2,8 +2,19 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-03T01:30:28+00:00</updated>
+<updated>2026-11-03T03:30:21+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xmg8au/i_textured_an_entire_street_in_blender_with_qwen/</id><title>I textured an entire street in Blender with Qwen Image 2.1, then made cyberpunk, anime and papercraft versions of it</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xmg8au/i_textured_an_entire_street_in_blender_with_qwen/"/>
+<published>2026-11-03T01:51:29+00:00</published><updated>2026-11-03T01:51:29+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="pbr"/>
+<category term="render"/>
+<category term="blender"/>
+<summary>Every texture on this street corner was generated with local models and projected onto the geometry in Blender, using StableGen, my free and open-source add-on. How it was made: The 3D assets (the car, the woman, the bench, lamp, hydrant, bin, crates and bush) are TRELLIS.2 meshes, each from a text </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · pbr, render, blender&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Every texture on this street corner was generated with local models and projected onto the geometry in Blender, using StableGen, my free and open-source add-on. How it was made: The 3D assets (the car, the woman, the bench, lamp, hydrant, bin, crates and bush) are TRELLIS.2 meshes, each from a text prompt via a Qwen Image 2.1 reference image. The buildings, road and sidewalk are simple blocks. Texturing: Qwen Image 2.1 (int8), 10 cameras. Each view is generated from a depth/geometry render of that camera, then projected and blended onto all the meshes at once. Each camera also got a prompt listing only the objects it actually sees, which stopped views from painting things that aren't there. &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xmg8au/i_textured_an_entire_street_in_blender_with_qwen/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xmal1l/openh3regenerate2k_to_preserve_draft_pass_details/</id><title>Open-H3-Regenerate-2K to preserve draft pass details</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xmal1l/openh3regenerate2k_to_preserve_draft_pass_details/"/>
@@ -7314,24 +7325,5 @@
 <category term="lora"/>
 <summary>View on YouTube while video is pending here if needed. https://youtu.be/87w4GFO6fd4 I did only a small amount of manual work on this. Barley any post edits besides one filter and one tiny scene edit. Keep your rude and disrespectful comments to yourself. They help no one. Polite and respectful feedb</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 6 · video model, comfyui, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;View on YouTube while video is pending here if needed. https://youtu.be/87w4GFO6fd4 I did only a small amount of manual work on this. Barley any post edits besides one filter and one tiny scene edit. Keep your rude and disrespectful comments to yourself. They help no one. Polite and respectful feedback is fine but this video turned out exactly as I planned. The expressive facial expressions on the singer were intended since it's supposed to theatrical. • The song, made with Suno, lyrics created by Chat GPT. • I Created a GPT plug-in that I was testing. It creates the full band, the song, the song style and the locations. I just gave the song to Suno. Model settings: MiniMax H3 Singularity, 2&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xahodr/minimax_h3_really_is_the_best_opensource_video/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xagikk/fizgig_moss_lora_training_help/</id><title>Fizgig MOSS lora training help</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xagikk/fizgig_moss_lora_training_help/"/>
-<published>2026-10-20T02:36:50+00:00</published><updated>2026-10-20T02:36:50+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<category term="lora"/>
-<summary>Has anyone had good success with Fizgig MOSS image lora training? I've tried 30-70 epoch, .25-.5 MP, 20imgs-40imgs, high quality face only or mix of high quality body and face, preset fast, alpha rank 16, learning rate 0.0001, and block 22 included in the workflow in comfyui. I get ok likeness occas</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Has anyone had good success with Fizgig MOSS image lora training? I've tried 30-70 epoch, .25-.5 MP, 20imgs-40imgs, high quality face only or mix of high quality body and face, preset fast, alpha rank 16, learning rate 0.0001, and block 22 included in the workflow in comfyui. I get ok likeness occasionally with 30 step workflow using no loras but the character lora and very meh likeness using 8 step lora workflow using 12 steps in my sampler and the character lora. I know it just came out so people are still fine tuning, but I have checked multiple threads on reddit and tried changing multiple settings. Sadly nothing seems to be working. I would like to be able to use the 8 step lora workflo&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xagikk/fizgig_moss_lora_training_help/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xafnmf/mossimagesft_3_step_lora_is_out/</id><title>MOSS-Image-SFT 3 step lora is out</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xafnmf/mossimagesft_3_step_lora_is_out/"/>
-<published>2026-10-20T01:55:03+00:00</published><updated>2026-10-20T01:55:03+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="lora"/>
-<summary>model: https://huggingface.co/akhaliq/MOSS-Image-SFT-4-steps#%E2%9A%A1-3-step-draft-tier--the-fastest-moss-image-that-stays-clean submitted by /u/Illustrious_Row_9971 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;model: https://huggingface.co/akhaliq/MOSS-Image-SFT-4-steps#%E2%9A%A1-3-step-draft-tier--the-fastest-moss-image-that-stays-clean submitted by /u/Illustrious_Row_9971 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xafnmf/mossimagesft_3_step_lora_is_out/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
