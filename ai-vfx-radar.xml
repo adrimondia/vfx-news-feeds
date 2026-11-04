@@ -2,8 +2,17 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-04T05:30:26+00:00</updated>
+<updated>2026-11-04T07:30:39+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xngaid/comfyui_v0440_released/</id><title>ComfyUI v0.44.0 released</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xngaid/comfyui_v0440_released/"/>
+<published>2026-11-04T05:42:58+00:00</published><updated>2026-11-04T05:42:58+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<summary>submitted by /u/Fcking_Chuck [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/Fcking_Chuck [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xngaid/comfyui_v0440_released/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://arxiv.org/abs/2611.04498</id><title>3DGS-VBench+ and 3DGSV-Assessor: A Multi-Dimensional Subjective Benchmark and a Reference-Flexible Objective Model for 3D Gaussian Splatting Video Quality Assessment</title>
 <link rel="alternate" href="https://arxiv.org/abs/2611.04498"/>
@@ -104,6 +113,16 @@
 <content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.GR · score 4 · 4d, animation, rigging&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2611.03775v1 Announce Type: cross Abstract: Automatic rigging is a fundamental task for both static 3D and dynamic 4D mesh animation, yet existing methods do not provide a unified feedforward solution for these two settings. While static 3D riggers achieve strong quality, they often provide limited control over bone count and become temporally unstable when applied frame by frame to dynamic meshes. Existing 4D methods, in contrast, typically rely on expensive per-sequence optimization. We propose MoTWorld, a template-free, data-efficient framework for unified 3D and 4D skeleton generation. Built on flow matching, MoTWorld generates temporally aligned skeletons for an entire sequence in&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2611.03775"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xnfh4i/i_built_a_free_opensource_tool_that_turns_any/</id><title>I built a free, open-source tool that turns any ComfyUI workflow into a clean control panel</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xnfh4i/i_built_a_free_opensource_tool_that_turns_any/"/>
+<published>2026-11-04T04:58:32+00:00</published><updated>2026-11-04T04:58:32+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<category term="lora"/>
+<summary>Hi everyone! I'm Neural Dreamer, I make ComfyUI tutorials, and I just released ComfyUI ND UI Builder — a free, open-source tool (AGPL-3.0) that turns any workflow into a clean control panel. How it works: you tag the nodes you need, press Edit, and drag widgets (prompts, sliders, size, seed, Generat</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi everyone! I'm Neural Dreamer, I make ComfyUI tutorials, and I just released ComfyUI ND UI Builder — a free, open-source tool (AGPL-3.0) that turns any workflow into a clean control panel. How it works: you tag the nodes you need, press Edit, and drag widgets (prompts, sliders, size, seed, Generate button, live result viewer) onto a page. Press ND UI and you get a tidy interface instead of a node graph — the workflow underneath stays exactly the same. What's in it: • tabs, spoilers, groups, themes • live preview while the sampler runs • image / video / audio players • LoRA picker with previews • interface in English, Russian and Chinese It's free, no accounts, nothing to pay for. Video abo&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xnfh4i/i_built_a_free_opensource_tool_that_turns_any/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xnceo4/openvivobluepixelturbo_native_4k_instructionbased/</id><title>openvivo/BluePixel-Turbo · Native 4K instruction-based image editing in 4 steps.</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xnceo4/openvivobluepixelturbo_native_4k_instructionbased/"/>
 <published>2026-11-04T02:21:40+00:00</published><updated>2026-11-04T02:21:40+00:00</updated>
@@ -130,6 +149,30 @@
 <category term="lora"/>
 <summary>I’ve been trying to work this out for a couple of days now and I’m about ready to write the model off. I cannot, for the life of me, get it to produce a photo that isn’t blurry like it was smeared in vaseline. I have tried: - Adding “blurry”, “blurred”, “low quality”, “low resolution”, etc. to the n</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · hdr, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I’ve been trying to work this out for a couple of days now and I’m about ready to write the model off. I cannot, for the life of me, get it to produce a photo that isn’t blurry like it was smeared in vaseline. I have tried: - Adding “blurry”, “blurred”, “low quality”, “low resolution”, etc. to the negative prompt. This works sometimes but it’s inconsistent. - Adding “high resolution”, “high quality”, “HDR”, “8K”, etc. to the positive prompt. This is also inconsistent (and wildly limiting). - Changing the sampler. I haven’t found one that has any effect on whether photos are blurry. - Enable/disable the turbo lora(s). I’ve tried the model on its own as well as with a few of the turbo LoRAs an&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xnbbsj/how_do_i_stop_moss_from_being_blurry/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xnbaec/minimax_pikavbvrsol_vae_workflow_mmh3_for_tts/</id><title>Minimax Pika-VBVR-Sol VAE Workflow - MMH3 for TTS &amp; Image Editing - 3mp Upscaler-Detailer &amp; More</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xnbaec/minimax_pikavbvrsol_vae_workflow_mmh3_for_tts/"/>
+<published>2026-11-04T01:27:05+00:00</published><updated>2026-11-04T01:27:05+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="image editing"/>
+<category term="vfx"/>
+<category term="hdr"/>
+<category term="comfyui"/>
+<category term="minimax"/>
+<category term="lora"/>
+<summary>Some things. Links below if you didn't want to watch the video. New Minimax H3 workflow I am using - 04:41 MMH3 for TTS (Text to Speech) to address the 3 people dialogue issue - 27:29 MMH3 for image editing and creation (up to 8K but it hasnt won me over yet) - 25:16 Why I wont be testing Singularit</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 8 · image editing, vfx, hdr, comfyui, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Some things. Links below if you didn't want to watch the video. New Minimax H3 workflow I am using - 04:41 MMH3 for TTS (Text to Speech) to address the 3 people dialogue issue - 27:29 MMH3 for image editing and creation (up to 8K but it hasnt won me over yet) - 25:16 Why I wont be testing Singularity v2 (there are loras for them too now) - 05:10 Sol VAE &amp;amp; Pika Lora (also DMAD, PDMD, and VBVR) for H3 - 11:35 CKNPDX Upscaler-Detailer to 3mp using Context Windows works even on 3060 RTX. - 19:48 VEDA conflicted with NVDIA RTX (VFX) so I have removed it SDR to HDR and why it might matter to us soon - 30:40 "Time + Energy = Quality" and why I am back considering quality improvements over speed tha&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xnbaec/minimax_pikavbvrsol_vae_workflow_mmh3_for_tts/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xn9ufc/pruna_ph3image_is_now_available_in_comfyui/</id><title>Pruna P-H3-Image is now available in ComfyUI</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xn9ufc/pruna_ph3image_is_now_available_in_comfyui/"/>
+<published>2026-11-04T00:20:10+00:00</published><updated>2026-11-04T00:20:10+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<category term="minimax"/>
+<summary>Pruna’s P-H3-Image is now supported in ComfyUI. It’s a distilled image model built on MiniMax H3 and paired with a 4B text encoder. The goal is to keep H3-quality output while making it lighter and faster to run. What you need to know: Base: distilled from MiniMax H3 Text encoder: 4B Works in ComfyU</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Pruna’s P-H3-Image is now supported in ComfyUI. It’s a distilled image model built on MiniMax H3 and paired with a 4B text encoder. The goal is to keep H3-quality output while making it lighter and faster to run. What you need to know: Base: distilled from MiniMax H3 Text encoder: 4B Works in ComfyUI locally Download the model below: P-H3-Image: Image Edit P-H3-Image: Text to Image submitted by /u/crystal_alpine [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xn9ufc/pruna_ph3image_is_now_available_in_comfyui/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xn74pn/opensource_local_higgsfield_on_comfyui_update/</id><title>Open-source local "Higgsfield" on ComfyUI, update: restore old footage, train your character in the UI, 60+ tools (Krea 2, FLUX.2, FLUX 3 Klein, LTX-2.5, Wan 2.2, SeedVR2)</title>
@@ -7449,15 +7492,5 @@
 <category term="flux"/>
 <summary>Hey everyone, If you generate images on modern diffusion and flow-matching models (Flux, SD3, Anima) at low step counts (8–14 steps), you're probably stuck between two bad options: Euler: Good macro anatomy, but surfaces look waxy and plastic. Ancestral samplers ( euler_a , etc.): Better texture, bu</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey everyone, If you generate images on modern diffusion and flow-matching models (Flux, SD3, Anima) at low step counts (8–14 steps), you're probably stuck between two bad options: Euler: Good macro anatomy, but surfaces look waxy and plastic. Ancestral samplers ( euler_a , etc.): Better texture, but anatomy drifts and degrades. ComfyUI actually has a brilliant solver under the hood called sa_solver (Xue et al., NeurIPS 2023). It runs an Adams predictor-corrector on the drift while keeping diffusion separate, costing exactly 1 NFE per step . But there was a catch: ComfyUI hardcoded its stochastic strength ( eta ) to 1.0 inside a fixed 20%–80% window , with no settings to adjust it. Together &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xbi156/resource_we_unlocked_sasolver_in_comfyui_why/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xbfjik/thoughts_on_fibo_20_image_editing/</id><title>Thoughts on Fibo 2.0 Image Editing</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xbfjik/thoughts_on_fibo_20_image_editing/"/>
-<published>2026-10-21T06:22:00+00:00</published><updated>2026-10-21T06:22:00+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="image editing"/>
-<category term="flux"/>
-<summary>Sorry in advance if this is hard to read, I'm not entirely sure how to format on Reddit. All images generated using my local comfy workflow ( Workflow , update to latest comfy version to use - the built-in comfy fibo node will automatically resize to 1 megapixel if width and height are left 0). Mode</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · image editing, flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Sorry in advance if this is hard to read, I'm not entirely sure how to format on Reddit. All images generated using my local comfy workflow ( Workflow , update to latest comfy version to use - the built-in comfy fibo node will automatically resize to 1 megapixel if width and height are left 0). Models used were fibo_dev_int8_convrot for diffusion model, qwen3vl_4b_int8_convrot for text encoder, and full_encoder_small_decoder for vae (flux2-vae with faster decoding). 50 steps, cfg 5, euler sampler, and simple scheduler. No negative prompt was used. These are my unbridled outputs, i.e. one seed per prompt as my machine take a while per each generation. So keep in mind that what you're about to&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xbfjik/thoughts_on_fibo_20_image_editing/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
