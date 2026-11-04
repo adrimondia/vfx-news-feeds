@@ -2,8 +2,107 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-04T03:30:21+00:00</updated>
+<updated>2026-11-04T05:30:26+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://arxiv.org/abs/2611.04498</id><title>3DGS-VBench+ and 3DGSV-Assessor: A Multi-Dimensional Subjective Benchmark and a Reference-Flexible Objective Model for 3D Gaussian Splatting Video Quality Assessment</title>
+<link rel="alternate" href="https://arxiv.org/abs/2611.04498"/>
+<published>2026-11-04T05:00:00+00:00</published><updated>2026-11-04T05:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="novel view synthesis"/>
+<category term="gaussian splatting"/>
+<category term="3d gaussian"/>
+<summary>arXiv:2611.04498v1 Announce Type: new Abstract: 3D Gaussian Splatting (3DGS) enables real-time novel view synthesis (NVS), but its heavy storage makes compression essential, and both training and compression introduce representation-specific distortions. Since generative compression in many methods </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · novel view synthesis, gaussian splatting, 3d gaussian&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2611.04498v1 Announce Type: new Abstract: 3D Gaussian Splatting (3DGS) enables real-time novel view synthesis (NVS), but its heavy storage makes compression essential, and both training and compression introduce representation-specific distortions. Since generative compression in many methods treats geometric and color attributes via different parameters, it can induce dimension-specific distortions, motivating multi-dimensional assessment. Moreover, real-world captures generally lack an aligned ground-truth video for a synthesized, continuous camera trajectory, leaving only sparse captured views as references. To enable multi-dimensional quality assessment of 3DGS videos with scarce a&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2611.04498"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2611.04666</id><title>Phase-DGS: Phase-guided Dynamic Gaussian Splatting from Unsynchronized Multi-view Video</title>
+<link rel="alternate" href="https://arxiv.org/abs/2611.04666"/>
+<published>2026-11-04T05:00:00+00:00</published><updated>2026-11-04T05:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="gaussian splatting"/>
+<category term="tracking"/>
+<category term="multi-view"/>
+<category term="scene reconstruction"/>
+<summary>arXiv:2611.04666v1 Announce Type: new Abstract: Spatiotemporal scene reconstruction with Dynamic Gaussian Splatting (DGS) fundamentally depends on perfect temporal synchronization across all cameras, an assumption rarely achievable in practice. Industry-standard synchronization requires expensive sp</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 6 · gaussian splatting, tracking, multi-view, scene reconstruction&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2611.04666v1 Announce Type: new Abstract: Spatiotemporal scene reconstruction with Dynamic Gaussian Splatting (DGS) fundamentally depends on perfect temporal synchronization across all cameras, an assumption rarely achievable in practice. Industry-standard synchronization requires expensive specialized hardware and complex setup, while data-driven alternatives including audio-based alignment, geometry matching, and pose tracking remain limited by restrictive environmental or scene-specific assumptions. To overcome these limitations, we propose Phase-DGS, a framework that replaces conventional timestamps with a semantic phase representing each frame's inherent state within the underlyin&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2611.04666"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2611.04916</id><title>Behind Video Generation: Observations and Insights on Multimodal Understanding from Kling</title>
+<link rel="alternate" href="https://arxiv.org/abs/2611.04916"/>
+<published>2026-11-04T05:00:00+00:00</published><updated>2026-11-04T05:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="video generation"/>
+<category term="rendering"/>
+<category term="kling"/>
+<category term="dit"/>
+<summary>arXiv:2611.04916v1 Announce Type: new Abstract: Video generation has progressed from isolated clips to coherent short-form audiovisual sequences, and the bottleneck is shifting from rendering to semantic control. This report summarizes the observations and insights on multimodal understanding gained</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 6 · video generation, rendering, kling, dit&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2611.04916v1 Announce Type: new Abstract: Video generation has progressed from isolated clips to coherent short-form audiovisual sequences, and the bottleneck is shifting from rendering to semantic control. This report summarizes the observations and insights on multimodal understanding gained from successive generations of Kling. We argue that generation quality is the projection of multimodal understanding through the entire data--conditioning--alignment--evaluation chain, and we examine this chain module by module. Kling-MLLM, a shared multimodal foundation model that unifies image, video, audio, synchronized audio--video, and interleaved inputs, is specialized for each downstream m&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2611.04916"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2508.12969</id><title>Compact Attention: Exploiting Structured Spatio-Temporal Sparsity for Fast Video Generation</title>
+<link rel="alternate" href="https://arxiv.org/abs/2508.12969"/>
+<published>2026-11-04T05:00:00+00:00</published><updated>2026-11-04T05:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="video generation"/>
+<category term="video diffusion"/>
+<category term="wan2"/>
+<category term="consistency"/>
+<summary>arXiv:2508.12969v2 Announce Type: replace Abstract: The quadratic computational complexity of self-attention mechanisms imposes a critical constraint on transformer-based video generation, particularly for synthesizing ultra-long and high-definition sequences. While most sparse attention techniques </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · video generation, video diffusion, wan2, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2508.12969v2 Announce Type: replace Abstract: The quadratic computational complexity of self-attention mechanisms imposes a critical constraint on transformer-based video generation, particularly for synthesizing ultra-long and high-definition sequences. While most sparse attention techniques employ fixed or heuristic patterns, they often struggle to accommodate the heterogeneous and layer-specific redundancies inherent in video diffusion transformers (VDiTs). We find that different attention heads consistently concentrate most of their attention mass in different coarse query-key regions, a behavior we call functional specialization. Although individual attention values vary with the &lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2508.12969"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2603.07604</id><title>EmbedTalk: Talking Head Synthesis using Gaussian Embeddings</title>
+<link rel="alternate" href="https://arxiv.org/abs/2603.07604"/>
+<published>2026-11-04T05:00:00+00:00</published><updated>2026-11-04T05:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="gaussian splatting"/>
+<category term="3d gaussian"/>
+<category term="4d"/>
+<category term="talking head"/>
+<category term="rendering"/>
+<category term="consistency"/>
+<category term="scene reconstruction"/>
+<summary>arXiv:2603.07604v3 Announce Type: replace Abstract: Deformable 3D Gaussian Splatting (3DGS) has emerged as a popular method for real-time talking head synthesis, offering high-quality renderings at low latency. Tri-planes are a common choice for encoding Gaussians prior to deformation since they pro</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 8 · gaussian splatting, 3d gaussian, 4d, talking head, rendering, consistency, scene reconstruction&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2603.07604v3 Announce Type: replace Abstract: Deformable 3D Gaussian Splatting (3DGS) has emerged as a popular method for real-time talking head synthesis, offering high-quality renderings at low latency. Tri-planes are a common choice for encoding Gaussians prior to deformation since they provide a compact and continuous representation. However, tri-plane encodings are limited by grid resolution and approximation errors introduced by projecting 3D volumetric fields onto 2D subspaces. Recent work has demonstrated the effectiveness of per-Gaussian embeddings for driving temporal deformations in 4D scene reconstruction. We introduce EmbedTalk, which leverages these embeddings to model sp&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2603.07604"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2606.29494</id><title>VCS-SLAM: Visibility-Consistent Semantic Fusion for 3D Gaussian SLAM</title>
+<link rel="alternate" href="https://arxiv.org/abs/2606.29494"/>
+<published>2026-11-04T05:00:00+00:00</published><updated>2026-11-04T05:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="3d gaussian"/>
+<category term="tracking"/>
+<category term="consistency"/>
+<category term="slam"/>
+<summary>arXiv:2606.29494v2 Announce Type: replace Abstract: Semantic 3D Gaussian SLAM commonly fuses 2D semantic priors into a persistent 3D map using uniform optimization weights. However, such priors are not equally reliable in online mapping: occlusions, unsupported semantic boundaries, and ambiguous ray</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 6 · 3d gaussian, tracking, consistency, slam&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2606.29494v2 Announce Type: replace Abstract: Semantic 3D Gaussian SLAM commonly fuses 2D semantic priors into a persistent 3D map using uniform optimization weights. However, such priors are not equally reliable in online mapping: occlusions, unsupported semantic boundaries, and ambiguous ray geometry introduce persistent semantic artifacts into the global Gaussian map. We propose VCS-SLAM, a visibility-consistent semantic fusion framework for RGB-D 3D Gaussian SLAM. Instead of treating all semantic priors as uniformly valid signals, VCS-SLAM evaluates their geometric reliability through visibility consistency, surface-supported boundary evidence, and ray-level conflict uncertainty. T&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2606.29494"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2607.18539</id><title>AniGS: Bridging Rendering and Diffusion Prior for 3D Scene Animation</title>
+<link rel="alternate" href="https://arxiv.org/abs/2607.18539"/>
+<published>2026-11-04T05:00:00+00:00</published><updated>2026-11-04T05:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="video diffusion"/>
+<category term="video-to-video"/>
+<category term="gaussian splatting"/>
+<category term="3d gaussian"/>
+<category term="animation"/>
+<category term="rendering"/>
+<summary>arXiv:2607.18539v2 Announce Type: replace Abstract: Novel view rendering of large and complex reconstructed scenes is becoming increasingly photorealistic. However, most reconstructions remain static and lack the ambient motion that makes environments immersive. We present AniGS, a method for scene-</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 8 · video diffusion, video-to-video, gaussian splatting, 3d gaussian, animation, rendering&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2607.18539v2 Announce Type: replace Abstract: Novel view rendering of large and complex reconstructed scenes is becoming increasingly photorealistic. However, most reconstructions remain static and lack the ambient motion that makes environments immersive. We present AniGS, a method for scene-level animation of 3D Gaussian Splatting (3DGS) reconstructions that adds subtle, distributed dynamics, e.g., vegetation motion, while preserving rigid structures. Unlike existing 3D animation techniques which are limited to object-centric subjects or small regions, AniGS is designed for large, cluttered, navigable scenes. AniGS represents the scene with a canonical 3DGS and models motion using a &lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2607.18539"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2611.03775</id><title>FlowRig: Unified Skeleton Generation for 3D and 4D Meshes via Flow Matching</title>
+<link rel="alternate" href="https://arxiv.org/abs/2611.03775"/>
+<published>2026-11-04T05:00:00+00:00</published><updated>2026-11-04T05:00:00+00:00</updated>
+<author><name>arXiv cs.GR</name></author>
+<category term="4d"/>
+<category term="animation"/>
+<category term="rigging"/>
+<summary>arXiv:2611.03775v1 Announce Type: cross Abstract: Automatic rigging is a fundamental task for both static 3D and dynamic 4D mesh animation, yet existing methods do not provide a unified feedforward solution for these two settings. While static 3D riggers achieve strong quality, they often provide li</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.GR · score 4 · 4d, animation, rigging&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2611.03775v1 Announce Type: cross Abstract: Automatic rigging is a fundamental task for both static 3D and dynamic 4D mesh animation, yet existing methods do not provide a unified feedforward solution for these two settings. While static 3D riggers achieve strong quality, they often provide limited control over bone count and become temporally unstable when applied frame by frame to dynamic meshes. Existing 4D methods, in contrast, typically rely on expensive per-sequence optimization. We propose MoTWorld, a template-free, data-efficient framework for unified 3D and 4D skeleton generation. Built on flow matching, MoTWorld generates temporally aligned skeletons for an entire sequence in&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2611.03775"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xnceo4/openvivobluepixelturbo_native_4k_instructionbased/</id><title>openvivo/BluePixel-Turbo · Native 4K instruction-based image editing in 4 steps.</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xnceo4/openvivobluepixelturbo_native_4k_instructionbased/"/>
@@ -7360,193 +7459,5 @@
 <category term="flux"/>
 <summary>Sorry in advance if this is hard to read, I'm not entirely sure how to format on Reddit. All images generated using my local comfy workflow ( Workflow , update to latest comfy version to use - the built-in comfy fibo node will automatically resize to 1 megapixel if width and height are left 0). Mode</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · image editing, flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Sorry in advance if this is hard to read, I'm not entirely sure how to format on Reddit. All images generated using my local comfy workflow ( Workflow , update to latest comfy version to use - the built-in comfy fibo node will automatically resize to 1 megapixel if width and height are left 0). Models used were fibo_dev_int8_convrot for diffusion model, qwen3vl_4b_int8_convrot for text encoder, and full_encoder_small_decoder for vae (flux2-vae with faster decoding). 50 steps, cfg 5, euler sampler, and simple scheduler. No negative prompt was used. These are my unbridled outputs, i.e. one seed per prompt as my machine take a while per each generation. So keep in mind that what you're about to&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xbfjik/thoughts_on_fibo_20_image_editing/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1xbe3ai/hiring_blender_artist_for_3d_cgi_compositing/</id><title>[Hiring] Blender artist for 3D CGI + compositing, ongoing work</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xbe3ai/hiring_blender_artist_for_3d_cgi_compositing/"/>
-<published>2026-10-21T04:56:37+00:00</published><updated>2026-10-21T04:56:37+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="tracking"/>
-<category term="compositing"/>
-<category term="blender"/>
-<summary>Hey! I run a clothing brand on Instagram with about 40K followers. I’ve been making my own short videos with 3D models composited into real footage, and I’m looking to hand that work off to someone else as I’m kind of ehhh at doing it. It’s not too difficult, but between the brand and life I’d rathe</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 5 · tracking, compositing, blender&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey! I run a clothing brand on Instagram with about 40K followers. I’ve been making my own short videos with 3D models composited into real footage, and I’m looking to hand that work off to someone else as I’m kind of ehhh at doing it. It’s not too difficult, but between the brand and life I’d rather just pay someone. Please see the video to understand what I’m trying to do. What the job involves: Placing 3D models into real footage, either still shots or moving shots that need camera/motion tracking Basic lighting, shadows, and compositing so the models look like they belong in the shot Matching the style of my existing videos (I’ll send a reference) What I provide: All footage and 3D model&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xbe3ai/hiring_blender_artist_for_3d_cgi_compositing/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2610.26918</id><title>GTSM: Gaussian Splatting with Thermal State-Space Dynamics for Spatio-Temporal Thermal Field Reconstruction and Prediction</title>
-<link rel="alternate" href="https://arxiv.org/abs/2610.26918"/>
-<published>2026-10-21T04:00:00+00:00</published><updated>2026-10-21T04:00:00+00:00</updated>
-<author><name>arXiv cs.CV</name></author>
-<category term="gaussian splatting"/>
-<category term="3d gaussian"/>
-<category term="4d"/>
-<category term="rendering"/>
-<category term="multi-view"/>
-<summary>arXiv:2610.26918v1 Announce Type: new Abstract: Temperature-field reconstruction and prediction are important for condition monitoring, process analysis, and state assessment in industrial and dynamic environments. This work aims to recover a four-dimensional spatio-temporal thermal state field dire</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 6 · gaussian splatting, 3d gaussian, 4d, rendering, multi-view&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2610.26918v1 Announce Type: new Abstract: Temperature-field reconstruction and prediction are important for condition monitoring, process analysis, and state assessment in industrial and dynamic environments. This work aims to recover a four-dimensional spatio-temporal thermal state field directly from two-dimensional observations, without requiring a predefined 3D model, prescribed thermodynamic equation, or predefined heating/cooling trajectory. To this end, we propose the Gaussian Thermal State-Space Model (GTSM), which represents thermal evolution through a shared scene-level latent process and Gaussian-specific local thermal states. The resulting continuous dynamics are propagated&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2610.26918"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2610.27108</id><title>Counting Contributions, Not Views: Occlusion-Aware Densification for 3D Gaussian Splatting</title>
-<link rel="alternate" href="https://arxiv.org/abs/2610.27108"/>
-<published>2026-10-21T04:00:00+00:00</published><updated>2026-10-21T04:00:00+00:00</updated>
-<author><name>arXiv cs.CV</name></author>
-<category term="gaussian splatting"/>
-<category term="3d gaussian"/>
-<category term="rendering"/>
-<summary>arXiv:2610.27108v1 Announce Type: new Abstract: 3D Gaussian Splatting grows a dense scene from a sparse initialization through adaptive density control (ADC), driven by per-Gaussian statistics gathered during rendering. These statistics pass a frustum-based visibility filter blind to occlusion: full</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · gaussian splatting, 3d gaussian, rendering&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2610.27108v1 Announce Type: new Abstract: 3D Gaussian Splatting grows a dense scene from a sparse initialization through adaptive density control (ADC), driven by per-Gaussian statistics gathered during rendering. These statistics pass a frustum-based visibility filter blind to occlusion: fully occluded Gaussians still count as observed, diluting the averaged gradient signal and suppressing densification precisely where geometry is occluded. We correct this with an occlusion-aware filter that restricts densification statistics to views in which a Gaussian actually contributes, and replace the criterion's raw view-count normalizer with an average-contribution one. Integrated into a Stop&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2610.27108"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2610.27594</id><title>Causal Spatiotemporal State Evolution for Monocular 4D Reconstruction</title>
-<link rel="alternate" href="https://arxiv.org/abs/2610.27594"/>
-<published>2026-10-21T04:00:00+00:00</published><updated>2026-10-21T04:00:00+00:00</updated>
-<author><name>arXiv cs.CV</name></author>
-<category term="4d"/>
-<category term="camera pose"/>
-<category term="optical flow"/>
-<category term="consistency"/>
-<summary>arXiv:2610.27594v1 Announce Type: new Abstract: While feed-forward models excel in static 3D geometry estimation, extending them to dynamic 4D scenes requires modeling visual geometry as a causally evolving state. Current methods typically rely on unordered temporal aggregation, which lacks the dire</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · 4d, camera pose, optical flow, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2610.27594v1 Announce Type: new Abstract: While feed-forward models excel in static 3D geometry estimation, extending them to dynamic 4D scenes requires modeling visual geometry as a causally evolving state. Current methods typically rely on unordered temporal aggregation, which lacks the directional structure of physical time. Furthermore, existing supervision often treats geometry and motion as disjoint objectives, failing to exploit their inherent physical coupling. Consequently, they lack a unified constraint to effectively supervise temporal state transitions, leading to inconsistent 4D scene representations. To address this, we propose a feed-forward framework for causal 4D visua&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2610.27594"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2610.27696</id><title>PanoGraphGS: Unifying Panoptic Segmentation and Hierarchical 3D Scene Graphs with Gaussian Splatting</title>
-<link rel="alternate" href="https://arxiv.org/abs/2610.27696"/>
-<published>2026-10-21T04:00:00+00:00</published><updated>2026-10-21T04:00:00+00:00</updated>
-<author><name>arXiv cs.CV</name></author>
-<category term="gaussian splatting"/>
-<category term="3d gaussian"/>
-<category term="segmentation"/>
-<summary>arXiv:2610.27696v1 Announce Type: new Abstract: 3D scene graphs support language-guided navigation by organizing physical entities and their containment and spatial relations into hierarchical maps. Building such structured maps requires a scene representation that consistently distinguishes semanti</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · gaussian splatting, 3d gaussian, segmentation&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2610.27696v1 Announce Type: new Abstract: 3D scene graphs support language-guided navigation by organizing physical entities and their containment and spatial relations into hierarchical maps. Building such structured maps requires a scene representation that consistently distinguishes semantic regions and object instances across viewpoints. To this end, we present PanoGraphGS, a unified framework that integrates panoptic 3D Gaussian representation learning with hierarchical 3D scene graph construction. The framework learns semantic and instance features on shared Gaussian geometry. Prototype-based semantic learning and association-based instance learning produce consistent panoptic pr&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2610.27696"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2610.27986</id><title>Recast the Past: Stable Long Video Generation with Full Context Memory</title>
-<link rel="alternate" href="https://arxiv.org/abs/2610.27986"/>
-<published>2026-10-21T04:00:00+00:00</published><updated>2026-10-21T04:00:00+00:00</updated>
-<author><name>arXiv cs.CV</name></author>
-<category term="video generation"/>
-<category term="denoising"/>
-<category term="diffusion transformer"/>
-<category term="consistency"/>
-<summary>arXiv:2610.27986v1 Announce Type: new Abstract: Long-horizon video generation requires retaining an ever-expanding history, but conditioning on its growing token sequence is costly. Existing methods restrict or compress historical context, potentially losing information needed for future generation.</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · video generation, denoising, diffusion transformer, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2610.27986v1 Announce Type: new Abstract: Long-horizon video generation requires retaining an ever-expanding history, but conditioning on its growing token sequence is costly. Existing methods restrict or compress historical context, potentially losing information needed for future generation. This work proposes ReCam, which groups local spatiotemporal blocks of historical latents into vectors and projects them directly into the high-dimensional hidden space of a Diffusion Transformer. The model learns to use the resulting memory tokens through native self-attention, reducing token count while retaining block-level access to the full history. To mitigate temporal drift during autoregre&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2610.27986"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2610.28004</id><title>Differentiable Task-Driven Coded Aperture Camera Design with 3D Gaussian Scene Representations</title>
-<link rel="alternate" href="https://arxiv.org/abs/2610.28004"/>
-<published>2026-10-21T04:00:00+00:00</published><updated>2026-10-21T04:00:00+00:00</updated>
-<author><name>arXiv cs.CV</name></author>
-<category term="gaussian splatting"/>
-<category term="3d gaussian"/>
-<category term="depth estimation"/>
-<category term="stereo"/>
-<summary>arXiv:2610.28004v1 Announce Type: new Abstract: Camera design heavily influences perception task performance, yet cameras are typically designed by domain experts through costly experimentation, in isolation from the tasks they serve. Existing joint-design methods either rely on differentiable simul</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · gaussian splatting, 3d gaussian, depth estimation, stereo&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2610.28004v1 Announce Type: new Abstract: Camera design heavily influences perception task performance, yet cameras are typically designed by domain experts through costly experimentation, in isolation from the tasks they serve. Existing joint-design methods either rely on differentiable simulation limited to pre-captured 2D images, restricting them to optics or image-processing pipeline design, or use non-differentiable camera simulators optimised with derivative-free or reinforcement-learning methods that scale poorly with the number of design parameters. We present a differentiable framework for jointly designing complex camera systems and downstream perception tasks. We use it to d&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2610.28004"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2610.28190</id><title>CrossFit-GS: Out-of-Fold Pose Estimation for COLMAP-Free 3D Gaussian Splatting</title>
-<link rel="alternate" href="https://arxiv.org/abs/2610.28190"/>
-<published>2026-10-21T04:00:00+00:00</published><updated>2026-10-21T04:00:00+00:00</updated>
-<author><name>arXiv cs.CV</name></author>
-<category term="gaussian splatting"/>
-<category term="3d gaussian"/>
-<category term="camera pose"/>
-<category term="pose estimation"/>
-<summary>arXiv:2610.28190v1 Announce Type: new Abstract: Pose-free 3D Gaussian Splatting (3DGS) aims to bypass cumbersome Structure-from-Motion (SfM) by directly reconstructing scenes from unposed image sequences. In this work, we present CrossFit-GS, a deferred-commitment progressive framework that mitigate</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 7 · gaussian splatting, 3d gaussian, camera pose, pose estimation&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2610.28190v1 Announce Type: new Abstract: Pose-free 3D Gaussian Splatting (3DGS) aims to bypass cumbersome Structure-from-Motion (SfM) by directly reconstructing scenes from unposed image sequences. In this work, we present CrossFit-GS, a deferred-commitment progressive framework that mitigates cumulative trajectory drift and breaks the self-reinforcing loop of distorted-map error propagation. Specifically, we partition the input sequence into interleaved subsets and maintain two complementary submaps. Each candidate pose is cross-refined against a frozen opposite submap that has never been optimized using the target frame, thereby providing an independent geometric reference for pose &lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2610.28190"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2610.28416</id><title>Code2Video-Compass: A Comprehensive Benchmark for General-Purpose Code-Based Video Generation across T2V, I2V, and V2V</title>
-<link rel="alternate" href="https://arxiv.org/abs/2610.28416"/>
-<published>2026-10-21T04:00:00+00:00</published><updated>2026-10-21T04:00:00+00:00</updated>
-<author><name>arXiv cs.CV</name></author>
-<category term="video generation"/>
-<category term="text-to-video"/>
-<category term="image-to-video"/>
-<category term="video-to-video"/>
-<category term="animation"/>
-<summary>arXiv:2610.28416v1 Announce Type: new Abstract: Code-based video generation offers fine-grained control, targeted editing, and component reuse compared with direct video generation. This approach requires multimodal large language models (MLLMs) to translate visual and temporal requirements into exe</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 6 · video generation, text-to-video, image-to-video, video-to-video, animation&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2610.28416v1 Announce Type: new Abstract: Code-based video generation offers fine-grained control, targeted editing, and component reuse compared with direct video generation. This approach requires multimodal large language models (MLLMs) to translate visual and temporal requirements into executable programs that produce complete videos. However, existing code-based benchmarks primarily target specialized tasks, leaving complete video creation across diverse creative categories and input modalities insufficiently evaluated. We introduce Code2Video-Compass, a general-purpose benchmark for code-based video generation across text-to-video (T2V), image-to-video (I2V), and video-to-video (&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2610.28416"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2610.28521</id><title>Latent Bridge: From Video Latents to 3D Geometry via Feature Alignment</title>
-<link rel="alternate" href="https://arxiv.org/abs/2610.28521"/>
-<published>2026-10-21T04:00:00+00:00</published><updated>2026-10-21T04:00:00+00:00</updated>
-<author><name>arXiv cs.CV</name></author>
-<category term="video generation"/>
-<category term="text-to-video"/>
-<category term="image-to-video"/>
-<category term="3d reconstruction"/>
-<category term="wan2"/>
-<summary>arXiv:2610.28521v1 Announce Type: new Abstract: Video generation and feed-forward 3D reconstruction typically use separate representations, requiring RGB decoding and visual re-encoding to recover geometry from generated latents. We propose Latent Bridge, which connects video generative latent space</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · video generation, text-to-video, image-to-video, 3d reconstruction, wan2&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2610.28521v1 Announce Type: new Abstract: Video generation and feed-forward 3D reconstruction typically use separate representations, requiring RGB decoding and visual re-encoding to recover geometry from generated latents. We propose Latent Bridge, which connects video generative latent spaces with geometric feature spaces to directly predict 3D geometry from video latents. We develop representation-specific bridges for Wan2.1 and V-RAE, enabling feed-forward prediction of cameras, depth, and 3D point clouds without the intermediate RGB pathway. Each bridge is trained on RGB videos through feature distillation, while the video encoder and geometry model remain frozen. Training require&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2610.28521"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2610.28594</id><title>Learning the 4D World through Point Trajectory Forecasting</title>
-<link rel="alternate" href="https://arxiv.org/abs/2610.28594"/>
-<published>2026-10-21T04:00:00+00:00</published><updated>2026-10-21T04:00:00+00:00</updated>
-<author><name>arXiv cs.CV</name></author>
-<category term="video generation"/>
-<category term="world model"/>
-<category term="4d"/>
-<category term="multi-view"/>
-<summary>arXiv:2610.28594v1 Announce Type: new Abstract: Reliable multi-view forecasting requires videos from different cameras to describe the same evolving 3D scene. To this end, we introduce Video-Point Model (VPM), a world model that conditions on multi-view video histories and a language instruction to </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · video generation, world model, 4d, multi-view&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2610.28594v1 Announce Type: new Abstract: Reliable multi-view forecasting requires videos from different cameras to describe the same evolving 3D scene. To this end, we introduce Video-Point Model (VPM), a world model that conditions on multi-view video histories and a language instruction to jointly forecast future videos from arbitrary viewpoints and the 3D trajectories of persistent scene points. We extend a pretrained world model with camera-conditioned multi-view processing that integrates complementary observations across cameras, and add a trajectory head that predicts how physical points move through time. Each trajectory tracks a single point across all views, and supervising &lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2610.28594"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2610.28631</id><title>AEON: Unifying Video and 3D World Models</title>
-<link rel="alternate" href="https://arxiv.org/abs/2610.28631"/>
-<published>2026-10-21T04:00:00+00:00</published><updated>2026-10-21T04:00:00+00:00</updated>
-<author><name>arXiv cs.CV</name></author>
-<category term="gaussian splatting"/>
-<category term="4d"/>
-<category term="rendering"/>
-<category term="sora"/>
-<category term="consistency"/>
-<category term="generative video"/>
-<summary>arXiv:2610.28631v1 Announce Type: new Abstract: Current world models for explicit world simulation typically follow two distinct pathways: (1) video generative models (e.g., Sora), which simulate realistic appearances but fail to preserve 3D consistency; and (2) 3D generative models (e.g., Marble), </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 6 · gaussian splatting, 4d, rendering, sora, consistency, generative video&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2610.28631v1 Announce Type: new Abstract: Current world models for explicit world simulation typically follow two distinct pathways: (1) video generative models (e.g., Sora), which simulate realistic appearances but fail to preserve 3D consistency; and (2) 3D generative models (e.g., Marble), which generate geometrically consistent scenes but often yield static, less realistic observations. We present AEON, a unified framework that bridges video-based and 3D-based world models and combines the benefits of both. The key insight of AEON lies in a generative model that operates within the text- or image-conditioned video latent space while producing renderable 4D graphics primitives---spe&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2610.28631"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2610.27410</id><title>Test-time Adaptation for Point Cloud Denoising under Unseen Noise</title>
-<link rel="alternate" href="https://arxiv.org/abs/2610.27410"/>
-<published>2026-10-21T04:00:00+00:00</published><updated>2026-10-21T04:00:00+00:00</updated>
-<author><name>arXiv cs.GR</name></author>
-<category term="denoising"/>
-<category term="point cloud"/>
-<summary>arXiv:2610.27410v1 Announce Type: cross Abstract: Although deep learning-based point cloud denoising methods have demonstrated impressive results in recent years, their effectiveness usually degrades substantially in real-world scenarios where the noise distribution of test point clouds deviates fro</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.GR · score 4 · denoising, point cloud&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2610.27410v1 Announce Type: cross Abstract: Although deep learning-based point cloud denoising methods have demonstrated impressive results in recent years, their effectiveness usually degrades substantially in real-world scenarios where the noise distribution of test point clouds deviates from that of the training set. To address this challenge, we propose a test-time adaptive denoising (TTAD) framework that enables existing denoising approaches to adapt to unknown noise patterns at test time without relying on additional supervision or retraining from source data. Taking a pre-trained denoising model and a test noisy point cloud as input, TTAD first employs a residual-driven noise mo&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2610.27410"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2610.27776</id><title>Geometry Regularization for Vanilla NeRF via Self-Supervised Cross-Ray Consistency</title>
-<link rel="alternate" href="https://arxiv.org/abs/2610.27776"/>
-<published>2026-10-21T04:00:00+00:00</published><updated>2026-10-21T04:00:00+00:00</updated>
-<author><name>arXiv cs.GR</name></author>
-<category term="nerf"/>
-<category term="consistency"/>
-<summary>arXiv:2610.27776v1 Announce Type: cross Abstract: Neural Radiance Fields (NeRF) achieve high-quality novel-view synthesis by representing a scene as a continuous volumetric radiance field. However, the geometry encoded by the density field of vanilla NeRF can be noisy and inaccurate, since different</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.GR · score 4 · nerf, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2610.27776v1 Announce Type: cross Abstract: Neural Radiance Fields (NeRF) achieve high-quality novel-view synthesis by representing a scene as a continuous volumetric radiance field. However, the geometry encoded by the density field of vanilla NeRF can be noisy and inaccurate, since different combinations of shape and radiance may explain the same input images. To reduce this ambiguity, we augment vanilla NeRF with a geometry-optimization branch based on self-supervised cross-ray consistency. Specifically, this branch samples candidate surface points from the density field, generates virtual rays that intersect at each point from different directions, and renders their appearance usin&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2610.27776"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2610.28490</id><title>Learning from Automatic 3D Gaussian Splatting Edits for Online Bayesian Scene Change Detection</title>
-<link rel="alternate" href="https://arxiv.org/abs/2610.28490"/>
-<published>2026-10-21T04:00:00+00:00</published><updated>2026-10-21T04:00:00+00:00</updated>
-<author><name>arXiv cs.GR</name></author>
-<category term="gaussian splatting"/>
-<category term="3d gaussian"/>
-<summary>arXiv:2610.28490v1 Announce Type: cross Abstract: Online scene change detection requires integrating incoming observations to determine which regions have changed relative to a reference scene. We update change beliefs as new images arrive using generalised Bayesian evidence fusion. However, the pri</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.GR · score 4 · gaussian splatting, 3d gaussian&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2610.28490v1 Announce Type: cross Abstract: Online scene change detection requires integrating incoming observations to determine which regions have changed relative to a reference scene. We update change beliefs as new images arrive using generalised Bayesian evidence fusion. However, the prior probability of change and evidence models are unknown beforehand, and numerical Bayesian inference can be costly. We address these challenges by learning offline from automatic edits to a reference 3D Gaussian Splatting (3DGS) model. These edits generate labelled training views without manual annotations. Together with unchanged reference observations, they provide supervision for learning scen&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2610.28490"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2610.28632</id><title>Joints, Camera, Action! Co-Generating 3D Motion and Video for Arbitrary Rigs</title>
-<link rel="alternate" href="https://arxiv.org/abs/2610.28632"/>
-<published>2026-10-21T04:00:00+00:00</published><updated>2026-10-21T04:00:00+00:00</updated>
-<author><name>arXiv cs.GR</name></author>
-<category term="video generation"/>
-<category term="video model"/>
-<category term="animation"/>
-<category term="generative video"/>
-<summary>arXiv:2610.28632v1 Announce Type: cross Abstract: Video generation models can now depict remarkably realistic motion. Yet it is unclear how to use this motion beyond pixels: to animate a specific 3D asset and replay the animation in its 3D scene. For instance, a video model can show a monkey jumping</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.GR · score 4 · video generation, video model, animation, generative video&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2610.28632v1 Announce Type: cross Abstract: Video generation models can now depict remarkably realistic motion. Yet it is unclear how to use this motion beyond pixels: to animate a specific 3D asset and replay the animation in its 3D scene. For instance, a video model can show a monkey jumping over a crossbar, but it cannot return that jump as replayable 3D motion placed in the 3D scene. Here we present a model that directly co-generates the video and 3D motion for any supplied rig, along with a camera that registers this motion to the scene. Prior video-motion models either handle only human skeletons, often adding billions of parameters, or triangulate 3D motion from generated 2D pos&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2610.28632"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
