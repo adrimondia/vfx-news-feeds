@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-04T08:00:22+00:00</updated>
+<updated>2026-11-04T09:30:30+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xni4yd/we_will_take_your_ram/</id><title>We will take your RAM</title>
@@ -7482,35 +7482,5 @@
 <category term="animation"/>
 <summary>submitted by /u/Serious_Meaning5220 [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · animation&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/Serious_Meaning5220 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xbiy9a/timepiece_animation/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1xbigg8/should_i_take_a_job_in_animation_or_games_if_my/</id><title>Should I take a job in animation or games if my goal is to work in film VFX?</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xbigg8/should_i_take_a_job_in_animation_or_games_if_my/"/>
-<published>2026-10-21T09:25:21+00:00</published><updated>2026-10-21T09:25:21+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="animation"/>
-<category term="vfx"/>
-<summary>I recently graduated in majoring VFX, and I’ve noticed that most film VFX studios aren’t hiring many junior artists or fresh graduates right now. On the other hand, there seem to be more entry-level opportunities in the animation and game industries. Personally, I’m much more interested in film VFX </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 4 · animation, vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I recently graduated in majoring VFX, and I’ve noticed that most film VFX studios aren’t hiring many junior artists or fresh graduates right now. On the other hand, there seem to be more entry-level opportunities in the animation and game industries. Personally, I’m much more interested in film VFX than animation or games, but I don’t have any professional experience working in the film VFX industry yet. I’m wondering if it would be a good idea to take a junior artist position in animation or games to gain industry experience, improve my skills, and work my way up. Would it still be possible to transition into film VFX later on, even if I’ve progressed to a mid-level or senior position in an&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xbigg8/should_i_take_a_job_in_animation_or_games_if_my/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xbi1cf/resource_we_unlocked_sasolver_in_comfyui_why/</id><title>[Resource] We unlocked SA-Solver in ComfyUI: why stochastic strength eta=1.7 beats Euler at 10 steps (and what didn't work)</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xbi1cf/resource_we_unlocked_sasolver_in_comfyui_why/"/>
-<published>2026-10-21T08:59:27+00:00</published><updated>2026-10-21T08:59:27+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="flux"/>
-<summary>Hey everyone, If you generate images on modern diffusion and flow-matching models (Flux, SD3, Anima) at low step counts (8–14 steps), you're probably stuck between two bad options: Euler: Good macro anatomy, but surfaces look waxy and plastic. Ancestral samplers ( euler_a , etc.): Better texture, bu</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · comfyui, flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey everyone, If you generate images on modern diffusion and flow-matching models (Flux, SD3, Anima) at low step counts (8–14 steps), you're probably stuck between two bad options: Euler: Good macro anatomy, but surfaces look waxy and plastic. Ancestral samplers ( euler_a , etc.): Better texture, but anatomy drifts and degrades. ComfyUI actually has a brilliant solver under the hood called sa_solver (Xue et al., NeurIPS 2023). It runs an Adams predictor-corrector on the drift while keeping diffusion separate, costing exactly 1 NFE per step . But there was a catch: ComfyUI hardcoded its stochastic strength ( eta ) to 1.0 inside a fixed 20%–80% window , with no settings to adjust it. Together &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xbi1cf/resource_we_unlocked_sasolver_in_comfyui_why/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xbi156/resource_we_unlocked_sasolver_in_comfyui_why/</id><title>[Resource] We unlocked SA-Solver in ComfyUI: why stochastic strength eta=1.7 beats Euler at 10 steps (and what didn't work)</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xbi156/resource_we_unlocked_sasolver_in_comfyui_why/"/>
-<published>2026-10-21T08:59:09+00:00</published><updated>2026-10-21T08:59:09+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<category term="flux"/>
-<summary>Hey everyone, If you generate images on modern diffusion and flow-matching models (Flux, SD3, Anima) at low step counts (8–14 steps), you're probably stuck between two bad options: Euler: Good macro anatomy, but surfaces look waxy and plastic. Ancestral samplers ( euler_a , etc.): Better texture, bu</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey everyone, If you generate images on modern diffusion and flow-matching models (Flux, SD3, Anima) at low step counts (8–14 steps), you're probably stuck between two bad options: Euler: Good macro anatomy, but surfaces look waxy and plastic. Ancestral samplers ( euler_a , etc.): Better texture, but anatomy drifts and degrades. ComfyUI actually has a brilliant solver under the hood called sa_solver (Xue et al., NeurIPS 2023). It runs an Adams predictor-corrector on the drift while keeping diffusion separate, costing exactly 1 NFE per step . But there was a catch: ComfyUI hardcoded its stochastic strength ( eta ) to 1.0 inside a fixed 20%–80% window , with no settings to adjust it. Together &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xbi156/resource_we_unlocked_sasolver_in_comfyui_why/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
