@@ -2,8 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-04T21:30:27+00:00</updated>
+<updated>2026-11-04T23:30:39+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xo0wir/graphn_cimgui_desktop_client_for_comfyui/</id><title>Graph-N. C++/ImGui Desktop Client for ComfyUI</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xo0wir/graphn_cimgui_desktop_client_for_comfyui/"/>
+<published>2026-11-04T21:45:15+00:00</published><updated>2026-11-04T21:45:15+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="tracking"/>
+<category term="comfyui"/>
+<summary>Hello community, A month ago I showed a sneak peek of my client and asked for your feature ideas. Today, the open-source Beta is live on GitHub. Key Features: Extreme Performance: Implements manual AABB-culling. Renders only the nodes currently visible in the viewport, allowing smooth navigation and</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · tracking, comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hello community, A month ago I showed a sneak peek of my client and asked for your feature ideas. Today, the open-source Beta is live on GitHub. Key Features: Extreme Performance: Implements manual AABB-culling. Renders only the nodes currently visible in the viewport, allowing smooth navigation and interaction with workflows containing thousands of nodes at sub-15ms latency. Native UI &amp;amp; Responsiveness: Built entirely on ImGui. No Electron, no NodeJS, and no browser memory leaks. Just a direct, high-performance interface for the ComfyUI backend. Advanced Queue Management: Features a built-in workflow manager with live Pending and Completed queues, keeping batch processing, history, and outpu&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xo0wir/graphn_cimgui_desktop_client_for_comfyui/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xnz6qm/16_gb_ram_minimax/</id><title>16 gb ram ! minimax</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xnz6qm/16_gb_ram_minimax/"/>
@@ -36,6 +46,18 @@
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 4 · vfx, blender&lt;/small&gt;&lt;/p&gt;&lt;p&gt;A VFX breakdown from my music video "The River, the Shore". 2+ years in the making, the music video combines real footage with Blender composited in After Effects and Resolve - with many scenes being fully CG! Full music video in the link below: https://www.youtube.com/watch?v=vrrZCnXuPCs&amp;amp;lc=UgxA5OVrazcW0YI43B54AaABAg Let me know what you think :) No generative AI was used for this work . submitted by /u/carmo97 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xnxr9c/selfmade_men_vfx_breakdown_blender_ae_resolve_no/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xnxlvv/refmods_for_minimax_h3_consistent_character_voice/</id><title>RefMods for MiniMax H3: consistent character + voice references, running on a 6 GB GPU (free workflow)</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xnxlvv/refmods_for_minimax_h3_consistent_character_voice/"/>
+<published>2026-11-04T19:36:15+00:00</published><updated>2026-11-04T19:36:15+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<category term="minimax"/>
+<category term="lora"/>
+<category term="ai video"/>
+<summary>Full video walkthrough + free workflow: https://www.youtube.com/watch?v=GHfHmrGeISM I’ve been testing RefMods with MiniMax H3 in ComfyUI, and it finally solves my biggest problem with AI video: keeping the same character and voice from clip to clip. What RefMods does You extract a reference once (a </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 5 · comfyui, minimax, lora, ai video&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Full video walkthrough + free workflow: https://www.youtube.com/watch?v=GHfHmrGeISM I’ve been testing RefMods with MiniMax H3 in ComfyUI, and it finally solves my biggest problem with AI video: keeping the same character and voice from clip to clip. What RefMods does You extract a reference once (a character from 8 images, or a voice from a short audio clip), save it as a reusable “mod,” and load it into any future generation. No retraining, no LoRA. Just load the mod and generate. My setup (6 GB VRAM laptop) Load H3 RefMods → Apply H3 RefMod (between the I2V node and the guider) Separate strengths per slot: visual 0.9 for the character, audio 0.9 for the voice Low VRAM stack: H3 SLA Attenti&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xnxlvv/refmods_for_minimax_h3_consistent_character_voice/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
 <id>https://www.reddit.com/r/vfx/comments/1xnx2is/can_someone_share_some_vfx/</id><title>Can someone share some VFX?</title>
 <link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xnx2is/can_someone_share_some_vfx/"/>
 <published>2026-11-04T19:15:24+00:00</published><updated>2026-11-04T19:15:24+00:00</updated>
@@ -57,6 +79,17 @@
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · animation, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;This LoRA captures the look of classic Disney 2D hand-drawn animation. Expect fluid, graceful linework, expressive character acting, soft painted backgrounds, and the warm, storybook charm of traditional cel-animated films. It works well for characters, portraits, fantasy scenes, and whimsical environments. Download Link: https://civitai.red/models/3037014/disney-style-moss Check sample images on Civitai for workflow and prompts. submitted by /u/vizsumit [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xnwot8/disney_style_lora_for_moss/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xnw0dt/i_made_a_free_opensource_web_tool_that_turns/</id><title>I made a free, open-source web tool that turns booru posts into clean prompts for Illustrious, Pony, SDXL, Anima, FLUX.2, Krea 2 and MOSS-Image</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xnw0dt/i_made_a_free_opensource_web_tool_that_turns/"/>
+<published>2026-11-04T18:34:41+00:00</published><updated>2026-11-04T18:34:41+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<category term="flux"/>
+<category term="lora"/>
+<summary>I train LoRAs and was spending way too much time writing prompts to test them. Booru sites already describe millions of images tag by tag, so I built a page that takes those tags and turns them into prompts you can paste into ComfyUI, Forge or A1111. I've spent about two years polishing and improvin</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · comfyui, flux, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I train LoRAs and was spending way too much time writing prompts to test them. Booru sites already describe millions of images tag by tag, so I built a page that takes those tags and turns them into prompts you can paste into ComfyUI, Forge or A1111. I've spent about two years polishing and improving it since. Site: https://booru-prompt-gallery.vercel.app GitHub: https://github.com/Mexes-GM/booru-prompt-gallery How I use it: Search a character, outfit or pose on Danbooru, Gelbooru or one of four other boorus. Pick the post closest to what I want and copy its prompt. Artist names, metadata and copyright tags are dropped, and redundant tags are merged ("long hair, white hair" becomes "long whi&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xnw0dt/i_made_a_free_opensource_web_tool_that_turns/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xnvslg/kandinsky_s2v_10_2b_and_21b_models/</id><title>Kandinsky S2V 1.0 - 2B and 21B models.</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xnvslg/kandinsky_s2v_10_2b_and_21b_models/"/>
 <published>2026-11-04T18:26:22+00:00</published><updated>2026-11-04T18:26:22+00:00</updated>
@@ -67,6 +100,15 @@
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · video generation, avatar&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Source: Kandinsky S2V 1.0: Audio-Driven Avatar Video Generation "Speech-to-video generation: an avatar video is produced from a reference frame and a speech track . The whole figure is animated, not only the head. The audio is a condition — the model does not generate sound, it animates the person in the reference frame to match the speech it is given." Lite 2B: kandinskylab/Kandinsky-S2V-1.0-Lite · Hugging Face kandinskylab/Kandinsky-S2V-1.0-Lite-distill · Hugging Face Pro 21.4B: kandinskylab/Kandinsky-S2V-1.0-Pro · Hugging Face submitted by /u/Crazy-Repeat-2006 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xnvslg/kandinsky_s2v_10_2b_and_21b_models/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xnvmiw/anywhere_to_check_how_current_nvidia_drivers/</id><title>Anywhere to check how current Nvidia drivers handle Comfyui?</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xnvmiw/anywhere_to_check_how_current_nvidia_drivers/"/>
+<published>2026-11-04T18:20:10+00:00</published><updated>2026-11-04T18:20:10+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<summary>I started doing this about 1 year ago, and learned pretty quickly that updating nvidia drivers was a great way to make everything explode. I haven't updated my drivers since December because of this. Newer games want newer drivers though. Is there anywhere I can check how stable things are for drive</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I started doing this about 1 year ago, and learned pretty quickly that updating nvidia drivers was a great way to make everything explode. I haven't updated my drivers since December because of this. Newer games want newer drivers though. Is there anywhere I can check how stable things are for driver releases with comfy? submitted by /u/Humble-Average-235 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xnvmiw/anywhere_to_check_how_current_nvidia_drivers/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
 <id>https://www.reddit.com/r/vfx/comments/1xnulld/course_pitch_mudship_mpm_in_houdini/</id><title>COURSE PITCH - MUDSHIP MPM IN HOUDINI</title>
 <link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xnulld/course_pitch_mudship_mpm_in_houdini/"/>
 <published>2026-11-04T17:41:45+00:00</published><updated>2026-11-04T17:41:45+00:00</updated>
@@ -74,6 +116,45 @@
 <category term="houdini"/>
 <summary>submitted by /u/One_Willingness6034 [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · houdini&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/One_Willingness6034 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xnulld/course_pitch_mudship_mpm_in_houdini/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xnubdp/comfyui_v0440/</id><title>ComfyUI v0.44.0</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xnubdp/comfyui_v0440/"/>
+<published>2026-11-04T17:31:13+00:00</published><updated>2026-11-04T17:31:13+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="camera control"/>
+<category term="upscaler"/>
+<category term="lip sync"/>
+<category term="comfyui"/>
+<category term="flux"/>
+<category term="minimax"/>
+<category term="seedance"/>
+<summary>Links Official changelog GitHub release Partner Node Updates MiniMax H3 Max editing nodes : Recast, Extend, Reframe, Insert, Lip Sync and Camera Control nodes for rewriting the cast of a clip, lengthening it, fitting it to a new aspect ratio, inserting a shot, syncing lips to new audio and steering </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 8 · camera control, upscaler, lip sync, comfyui, flux, minimax, seedance&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Links Official changelog GitHub release Partner Node Updates MiniMax H3 Max editing nodes : Recast, Extend, Reframe, Insert, Lip Sync and Camera Control nodes for rewriting the cast of a clip, lengthening it, fitting it to a new aspect ratio, inserting a shot, syncing lips to new audio and steering the camera Pruna P-Video Upscale : Upscale a finished video to a larger resolution Topaz Wonder 4 : A new model option on Topaz Image Enhance Sonilo Music 1.5 : Turn lyrics with verse and chorus tags into a full song Ideogram 4.5 Precise Edit context windows : Edit a region of the image inside the Precise Edit node OpenAI GPT-6.1 Terra and Sol : Two new models in the OpenAI nodes Flux Video Upscal&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xnubdp/comfyui_v0440/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xnu0y2/a_custom_node_preview_40_camera_moves_and_70_film/</id><title>A custom node Preview 40+ Camera Moves and 70+ Film Styles In ComfyUI</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xnu0y2/a_custom_node_preview_40_camera_moves_and_70_film/"/>
+<published>2026-11-04T17:20:22+00:00</published><updated>2026-11-04T17:20:22+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<category term="minimax"/>
+<category term="filmmaking"/>
+<category term="cinematic"/>
+<summary>film style Hello everyone. I have zero background in filmmaking. When creating cinematic shots with Minimax H3, I have rough ideas for the shots and stylistic requirements, but I struggle to put them into words. That’s why I built this ComfyUI node. It helps me reference styles more easily when gene</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 5 · comfyui, minimax, filmmaking, cinematic&lt;/small&gt;&lt;/p&gt;&lt;p&gt;film style Hello everyone. I have zero background in filmmaking. When creating cinematic shots with Minimax H3, I have rough ideas for the shots and stylistic requirements, but I struggle to put them into words. That’s why I built this ComfyUI node. It helps me reference styles more easily when generating Minimax H3 videos inside ComfyUI. All the examples were created by me using Minimax H3. Hope you enjoy it. I’m far from an expert on film styles, so there may be inaccuracies. Thank you for your understanding. github repo: https://github.com/wangweihong/comfyui-cinematic-gallery submitted by /u/Mysterious_Pride_858 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xnu0y2/a_custom_node_preview_40_camera_moves_and_70_film/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xntita/the_comfyui_template_and_the_mossimage_readme_use/</id><title>The ComfyUI template and the MOSS-Image README use different settings: here's my workflow</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xntita/the_comfyui_template_and_the_mossimage_readme_use/"/>
+<published>2026-11-04T17:02:03+00:00</published><updated>2026-11-04T17:02:03+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="render"/>
+<category term="comfyui"/>
+<category term="flux"/>
+<category term="dit"/>
+<summary>I wanted the exact MOSS-Image README recipe running in ComfyUI 0.43.0 on my Mac Studio, built-in nodes only. It took a few wrong turns, so here's the path in case it saves someone an evening. First snag was the download. My hf download line mixed file names with --include , and when you give it file</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 5 · render, comfyui, flux, dit&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I wanted the exact MOSS-Image README recipe running in ComfyUI 0.43.0 on my Mac Studio, built-in nodes only. It took a few wrong turns, so here's the path in case it saves someone an evening. First snag was the download. My hf download line mixed file names with --include , and when you give it file names it ignores --include , so the text encoder and VAE came down but the DiT didn't. The graph couldn't run until I fetched that file on its own. Second, I assumed the built-in template was the README config. It isn't: it loads the int8 DiT, a w4a8 encoder and the small VAE, and samples 25 steps at CFG 2.5 with er_sde. The README's table wants Euler at 50 steps and CFG 3, shift 5, and a layer-2&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xntita/the_comfyui_template_and_the_mossimage_readme_use/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xnsn7h/i_built_a_free_opensource_film_studio_on_top_of/</id><title>I built a free, open-source film studio on top of ComfyUI + MiniMax H3: idea to finished short film, on your own PC</title>
@@ -155,6 +236,19 @@
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 1 · vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Are the tax credits better in London this year? Noticed an increase in vfx job openings all through this year. submitted by /u/VanillaPhysical6444 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xnqdxz/london/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xnq08t/studiolight_controllable_studio_lighting_for/</id><title>StudioLight: controllable studio lighting for ComfyUI — open-source v1.0 release</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xnq08t/studiolight_controllable_studio_lighting_for/"/>
+<published>2026-11-04T14:45:07+00:00</published><updated>2026-11-04T14:45:07+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="relighting"/>
+<category term="relight"/>
+<category term="render"/>
+<category term="comfyui"/>
+<category term="flux"/>
+<summary>Hey everyone, Changing the lighting prompt in a generative portrait can also change the face, clothing, or other details. I wanted more direct control over the light, so I built ComfyUI-StudioLight . It lets you position virtual key, fill, and rim lights in camera space, choose photographic modifier</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 6 · relighting, relight, render, comfyui, flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey everyone, Changing the lighting prompt in a generative portrait can also change the face, clothing, or other details. I wanted more direct control over the light, so I built ComfyUI-StudioLight . It lets you position virtual key, fill, and rim lights in camera space, choose photographic modifiers, and adjust intensity and Kelvin color temperature. What’s included: Six modifiers: soft octabox, silver beauty dish, stripbox, Fresnel spotlight, hard snoot, and direct flash. Light positioning and aiming: azimuth, elevation, distance, and upper/center/lower subject targets. Two relighting modes: add studio light while retaining the original scene, or replace the subject’s lighting using estima&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xnq08t/studiolight_controllable_studio_lighting_for/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
 <id>https://www.reddit.com/r/vfx/comments/1xnp87e/depth_of_field_in_post_vs_rendered_in_cycles_at/</id><title>Depth of field in post vs rendered in Cycles at 1024 samples: how close can you get from one sharp frame + depth?</title>
 <link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xnp87e/depth_of_field_in_post_vs_rendered_in_cycles_at/"/>
 <published>2026-11-04T14:12:33+00:00</published><updated>2026-11-04T14:12:33+00:00</updated>
@@ -166,6 +260,17 @@
 <category term="unreal engine"/>
 <summary>I'm one of the developers of a lens plug-in, and I wanted to see how close depth of field done in post can get to the real thing, so I set up an honest test. One sharp Cycles render plus its depth pass (50 mm, 32 mm sensor). Cycles rendering the depth of field itself: f/1.4, focus at 2.27 m, 1024 sa</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 5 · render, rendering, nuke, unreal, unreal engine&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I'm one of the developers of a lens plug-in, and I wanted to see how close depth of field done in post can get to the real thing, so I set up an honest test. One sharp Cycles render plus its depth pass (50 mm, 32 mm sensor). Cycles rendering the depth of field itself: f/1.4, focus at 2.27 m, 1024 samples. Our plug-in on the sharp render, with the same camera values. The difference between 2 and 3, multiplied by 10. The average difference between 2 and 3 is about 1-2 levels out of 255 per pixel. Where it differs is at the depth edges in the foreground (the chair backs), where a single depth pass can't see what's behind an object: that's the known limit of any post DOF, and the part we're stil&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xnp87e/depth_of_field_in_post_vs_rendered_in_cycles_at/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xnodqp/the_13th_minimax_h3_comfy_ui/</id><title>The 13th [Minimax H3 Comfy UI]</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xnodqp/the_13th_minimax_h3_comfy_ui/"/>
+<published>2026-11-04T13:36:53+00:00</published><updated>2026-11-04T13:36:53+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<category term="minimax"/>
+<category term="lora"/>
+<summary>This is my first work fully made in ComfyUI with Minimax H3 Diffusion model: minimax_h3_hybrid_fl2va_ref2va_b25-49 Lora: minimax_h3_ref2v_turbo_8step_v1.1_768p_comfyui_bf16 RTX5060TI 16GB VRAM Local GPU: 8 steps GPU rental: RunningHub [20 steps] Model Preview Overide node must have, previewing now i</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · comfyui, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;This is my first work fully made in ComfyUI with Minimax H3 Diffusion model: minimax_h3_hybrid_fl2va_ref2va_b25-49 Lora: minimax_h3_ref2v_turbo_8step_v1.1_768p_comfyui_bf16 RTX5060TI 16GB VRAM Local GPU: 8 steps GPU rental: RunningHub [20 steps] Model Preview Overide node must have, previewing now includes audio for previewing dialogues. Editing and Post: Da Vinci Resolve 21 I still work with a modified workflow by Pixaroma for my personal use. I have tried Siingularity but it keeps changing the reference image, prompt adherence is still not as great comapred to the base and hybrid model. submitted by /u/JL_Films [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xnodqp/the_13th_minimax_h3_comfy_ui/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xnn67l/action_lora_for_minimax_h3_without_training/</id><title>Action LoRA for MiniMax H3 (without training)</title>
@@ -181,6 +286,15 @@
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 7 · image-to-video, optical flow, render, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Singularity v2 has better action than v1.3, but everything else about it looked worse to me. So instead of training, I diffed the checkpoints layer by layer, found where v2's action actually lives, and moved only that part onto v1.3. Then I did the same with JOKER141's Motion Repair V2, which hits harder but slows fights down and messes up dialogue. The result is one LoRA for Singularity v1.3: H3 ActionGraft v1 . https://huggingface.co/indhic-ai/H3-Singularity-ActionGraft Every pair in the comparison video is the same prompt, refs, seed and settings, rendered twice: Singularity v2 on the left, v1.3 + ActionGraft on the right. 720p, Pika 6-step + a 1-step DMAD refine, SLA 0.9, on a 5090. The &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xnn67l/action_lora_for_minimax_h3_without_training/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xnn5kt/flux_klein_9b_and_red_mods/</id><title>Flux klein 9b and red mods</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xnn5kt/flux_klein_9b_and_red_mods/"/>
+<published>2026-11-04T12:38:43+00:00</published><updated>2026-11-04T12:38:43+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="flux"/>
+<summary>submitted by /u/Crazy_Pickle_8311 [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/Crazy_Pickle_8311 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xnn5kt/flux_klein_9b_and_red_mods/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xnm5a4/how_to_get_this_specific_effect_in_krea2_turbo/</id><title>How to get this specific effect in krea2 turbo</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xnm5a4/how_to_get_this_specific_effect_in_krea2_turbo/"/>
 <published>2026-11-04T11:45:52+00:00</published><updated>2026-11-04T11:45:52+00:00</updated>
@@ -190,6 +304,22 @@
 <category term="cinematic"/>
 <summary>So, i was checking some GPT image 2.5 images and prompts on how to generate those images and came across this image which looked like a lens blur/dreamy effect and tried to get it on Krea2 turbo. I even asked chatgpt to generate as much detail as possible by uploading both the prompt and image, but </summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · rendering, lora, cinematic&lt;/small&gt;&lt;/p&gt;&lt;p&gt;So, i was checking some GPT image 2.5 images and prompts on how to generate those images and came across this image which looked like a lens blur/dreamy effect and tried to get it on Krea2 turbo. I even asked chatgpt to generate as much detail as possible by uploading both the prompt and image, but i cant seem to get this type of image no matter how many tweaks i made. My question is; is it possible to generate this type of image in krea2 turbo? or do i need a lora for it? The first two images are generated by gpt image 2.5 and the last two were generated using krea2 turbo. Here's the prompt I used: "Cinematic candid medium street photograph of a beautiful 25-year-old East Asian woman with a&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xnm5a4/how_to_get_this_specific_effect_in_krea2_turbo/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xnm2tl/from_a_raw_video_to_a_finished_shot_entirely/</id><title>From a raw video to a finished shot — entirely local, entirely inside ComfyUI, and all under 24 GB of VRAM</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xnm2tl/from_a_raw_video_to_a_finished_shot_entirely/"/>
+<published>2026-11-04T11:41:55+00:00</published><updated>2026-11-04T11:41:55+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="video generation"/>
+<category term="relight"/>
+<category term="tracking"/>
+<category term="camera tracking"/>
+<category term="vfx"/>
+<category term="comfyui"/>
+<category term="nuke"/>
+<category term="flux"/>
+<summary>Proud to introduce v0.1.0-preview of my local VFX studio built for the #OpenSourceHiggsfield challenge! What started as an obsession with controlling video generation through camera tracking (moving from early COLMAP/GLOMAP experiments to custom LTX-2.3 IC-LoRAs) has now evolved into a complete, end</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 9 · video generation, relight, tracking, camera tracking, vfx, comfyui, nuke, flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Proud to introduce v0.1.0-preview of my local VFX studio built for the #OpenSourceHiggsfield challenge! What started as an obsession with controlling video generation through camera tracking (moving from early COLMAP/GLOMAP experiments to custom LTX-2.3 IC-LoRAs) has now evolved into a complete, end-to-end browser-based studio. What makes it tick: 📥 Smart Pipeline: Drop in footage to automatically extract masks, depth, pose, and accurate camera tracks. 🧱 3D &amp;amp; Generative Control: Block scenes in 3D, design keyframes with FLUX.3 Klein, and generate backgrounds/characters using LTX-2.5 + layout-to-render IC-LoRAs. 🔗 Chained Workflows &amp;amp; API Customization: Add custom API workflows and chain multi&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xnm2tl/from_a_raw_video_to_a_finished_shot_entirely/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xnl6au/what_is_so_special_about_flux_3_klein_that_it_is/</id><title>What is so special about Flux 3 Klein that it is gaining 1 Million downloads in a short period of time (I only ever hear bad things from this sub)?</title>
@@ -211,6 +341,16 @@
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;These models (Qwen-Image 2.1, FIBO2, MOSS-Image) are declared in ComfyUI as bf16/fp32 only, but Turing GPUs only support fp16, not bf16. The current/default behaviour in ComfyUI is that it falls back to fp32, which is slow. I inspected the actual range of activations, none of them exceed ~65k. Hence, the fix is to simply add the fp16 declaration in ComfyUI. PR has been opened , but if you want it quicker, just manually copy this commit to your ComfyUI install: In ‎comfy/supported_models.py , find the corresponding model, and change supported_inference_dtypes = [torch.bfloat16, torch.float32] to supported_inference_dtypes = [torch.bfloat16, torch.float16, torch.float32] Only do this for these&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xnkt82/nvidia_2000_series_owners_double_your_performance/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xnkrt7/dual_gpu_split_workload/</id><title>Dual GPU split workload</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xnkrt7/dual_gpu_split_workload/"/>
+<published>2026-11-04T10:23:51+00:00</published><updated>2026-11-04T10:23:51+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<category term="minimax"/>
+<summary>I got an RTX 5090 and an RTX 3090. The concept is to use 3090 to offload the text encoder and maybe for VAE decoding, if that would make sense. Is there a specific node pack for that? I can see both of my GPUs appearing in comfyui when loading (linux) but no option by default to choose a specific GP</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I got an RTX 5090 and an RTX 3090. The concept is to use 3090 to offload the text encoder and maybe for VAE decoding, if that would make sense. Is there a specific node pack for that? I can see both of my GPUs appearing in comfyui when loading (linux) but no option by default to choose a specific GPU on any node. Mostly focusing on Minimax H3 workflows, but I might also split the models on workflows like Qwen image edit submitted by /u/vjustme_9104 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xnkrt7/dual_gpu_split_workload/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
 <id>https://www.reddit.com/r/vfx/comments/1xnjeqf/october_cg_vfx_roundup_vfx_breakdowns_animation/</id><title>October CG &amp; VFX Roundup | VFX breakdowns, animation, and industry news</title>
 <link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xnjeqf/october_cg_vfx_roundup_vfx_breakdowns_animation/"/>
 <published>2026-11-04T08:55:31+00:00</published><updated>2026-11-04T08:55:31+00:00</updated>
@@ -229,6 +369,16 @@
 <category term="minimax"/>
 <summary>Just the Situation few years. (Qwen -&gt; FastH3 (Minimax H3) -&gt; Blender Video Cut + Reaper for Sounddesign submitted by /u/Wonderful-Yak-3348 [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · blender, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Just the Situation few years. (Qwen -&amp;gt; FastH3 (Minimax H3) -&amp;gt; Blender Video Cut + Reaper for Sounddesign submitted by /u/Wonderful-Yak-3348 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xni4yd/we_will_take_your_ram/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xnhyt7/a_recipe_for_one_step_flawless_distant_faces_in_h3/</id><title>A Recipe For One Step Flawless Distant Faces in H3</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xnhyt7/a_recipe_for_one_step_flawless_distant_faces_in_h3/"/>
+<published>2026-11-04T07:22:13+00:00</published><updated>2026-11-04T07:22:13+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="hdr"/>
+<category term="lora"/>
+<summary>Trying to avoid having to run an extra SAM process in H3, having a SAM workflow swap out the face, I tested variants of Singularity + Pika. The primary goal of the generation, beyond not having to use SAM, was also to have it create an ACCURATE rendition of the face, with no glitches or distortion. </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · hdr, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Trying to avoid having to run an extra SAM process in H3, having a SAM workflow swap out the face, I tested variants of Singularity + Pika. The primary goal of the generation, beyond not having to use SAM, was also to have it create an ACCURATE rendition of the face, with no glitches or distortion. Length of generation was secondary, as I want it done once and done right, even if it takes longer to generate the still. This method presently works for stills, I have not tested for video yet, but as I am doing storyboarding, stills that I will subsequently animate, it works fine for me. I will post a later addendum, after I test dropping the image into H3, to generate a motion video. So, I star&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xnhyt7/a_recipe_for_one_step_flawless_distant_faces_in_h3/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xngaid/comfyui_v0440_released/</id><title>ComfyUI v0.44.0 released</title>
@@ -399,6 +549,19 @@
 <category term="lora"/>
 <summary>Some things. Links below if you didn't want to watch the video. New Minimax H3 workflow I am using - 04:41 MMH3 for TTS (Text to Speech) to address the 3 people dialogue issue - 27:29 MMH3 for image editing and creation (up to 8K but it hasnt won me over yet) - 25:16 Why I wont be testing Singularit</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 8 · image editing, vfx, hdr, comfyui, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Some things. Links below if you didn't want to watch the video. New Minimax H3 workflow I am using - 04:41 MMH3 for TTS (Text to Speech) to address the 3 people dialogue issue - 27:29 MMH3 for image editing and creation (up to 8K but it hasnt won me over yet) - 25:16 Why I wont be testing Singularity v2 (there are loras for them too now) - 05:10 Sol VAE &amp;amp; Pika Lora (also DMAD, PDMD, and VBVR) for H3 - 11:35 CKNPDX Upscaler-Detailer to 3mp using Context Windows works even on 3060 RTX. - 19:48 VEDA conflicted with NVDIA RTX (VFX) so I have removed it SDR to HDR and why it might matter to us soon - 30:40 "Time + Energy = Quality" and why I am back considering quality improvements over speed tha&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xnbaec/minimax_pikavbvrsol_vae_workflow_mmh3_for_tts/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xna30d/i_built_a_digital_twin_to_host_my_history/</id><title>I built a digital twin to host my history documentary channel: LTX 2.3 in ComfyUI + my cloned voice, rendered locally</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xna30d/i_built_a_digital_twin_to_host_my_history/"/>
+<published>2026-11-04T00:30:57+00:00</published><updated>2026-11-04T00:30:57+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="avatar"/>
+<category term="rendering"/>
+<category term="comfyui"/>
+<category term="flux"/>
+<category term="ltx"/>
+<summary>Full making-of, with videos, the actual ComfyUI graph and side-by-side tests: https://sebastienvolpe.com/en/generative-ai/ For the past few months I've been using my documentary channel, Historic Murders, as a real-world lab for generative AI in production. The host of every episode is my digital tw</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 7 · avatar, rendering, comfyui, flux, ltx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Full making-of, with videos, the actual ComfyUI graph and side-by-side tests: https://sebastienvolpe.com/en/generative-ai/ For the past few months I've been using my documentary channel, Historic Murders, as a real-world lab for generative AI in production. The host of every episode is my digital twin: my face and my cloned voice, rendered locally on an RTX 5090. What the making-of covers: the avatar: LTX 2.3 in ComfyUI, conditioned on a still image and on my cloned voice (Qwen3-TTS), so the lips, eyes and head follow the line an identity check: the face is compared to the reference at six points of every take. One drift (a smile appearing at the end of a shot) was fixed by rendering in a si&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xna30d/i_built_a_digital_twin_to_host_my_history/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1xn9ufc/pruna_ph3image_is_now_available_in_comfyui/</id><title>Pruna P-H3-Image is now available in ComfyUI</title>
@@ -7304,57 +7467,5 @@
 <category term="animation"/>
 <summary>is it known that the weights of the model are unencrypted in the cache? I just made an easy test completly without the topaz suite from the unencrypted model i found at '/Applications/Topaz Video.app/Contents/Resources/models/coreMLCache/ganim-v1-fp16-576x672-2x-OS15-mlp' on macos. Im not promoting </summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · animation&lt;/small&gt;&lt;/p&gt;&lt;p&gt;is it known that the weights of the model are unencrypted in the cache? I just made an easy test completly without the topaz suite from the unencrypted model i found at '/Applications/Topaz Video.app/Contents/Resources/models/coreMLCache/ganim-v1-fp16-576x672-2x-OS15-mlp' on macos. Im not promoting anything i have official topaz i just found the models and just used codex to make a quick proof on concept. First image is original, second image is my proof of concept third option is using topaz video directly submitted by /u/neudarkness [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xc30ue/gaia_2_gaia_animation_unencrypted/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xc2omf/turbo_edits_showdown_fibo_2_edit_vs_klein_9b_vs/</id><title>Turbo edits showdown: FIbo 2 edit vs Klein 9b vs Qwen 2.1 at 1 megapixel. (Caveats and links to the viewer in description)</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xc2omf/turbo_edits_showdown_fibo_2_edit_vs_klein_9b_vs/"/>
-<published>2026-10-21T23:22:01+00:00</published><updated>2026-10-21T23:22:01+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="lora"/>
-<category term="consistency"/>
-<summary>I was curious how Fibo fares against the rest of the solid editors and if it is time to swap. Comparing edits is a pain on reddit so I've put together a small website: Image Edit Showdon comarison page Hotkeys: [←][→] to cycle model / prompt combo [↑][↓] for next / previous scene [space] to see orig</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · lora, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I was curious how Fibo fares against the rest of the solid editors and if it is time to swap. Comparing edits is a pain on reddit so I've put together a small website: Image Edit Showdon comarison page Hotkeys: [←][→] to cycle model / prompt combo [↑][↓] for next / previous scene [space] to see original image TLDR: for my cases Qwen 2.1 still is the best, but FIbo might be a great option if the community supports it. There are lots of caveats here. 1. All three models are very prompt sensitive. Although I've run bare prompts as is and tried using "best" prompt enhancers for each model, the initial prompts are all over the place: some are super detailed, some are simple and a lot depends on e&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xc2omf/turbo_edits_showdown_fibo_2_edit_vs_klein_9b_vs/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xc2dxn/comparing_both_moss_image_edit_methods/</id><title>Comparing both Moss Image Edit methods</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xc2dxn/comparing_both_moss_image_edit_methods/"/>
-<published>2026-10-21T23:08:40+00:00</published><updated>2026-10-21T23:08:40+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="render"/>
-<category term="lora"/>
-<summary>I saw this post yesterday about being able to feed reference images in directly: https://www.reddit.com/r/StableDiffusion/comments/1xb2h1k/mossimage_accepts_image_inputs/ and it does alright but as you can see, without a lora it often mashes the inputs together or doesnt really edit properly. I trai</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · render, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I saw this post yesterday about being able to feed reference images in directly: https://www.reddit.com/r/StableDiffusion/comments/1xb2h1k/mossimage_accepts_image_inputs/ and it does alright but as you can see, without a lora it often mashes the inputs together or doesnt really edit properly. I trained a lora for it with AI toolkit for 6,000 steps and it made a big difference although there was still plenty of room for improvement if I kept training. I found that Ostris's AI toolkit also had his own Moss edit system that feeds the inputs in even more thuroughly to try to get better reference quality out of it. Without a lora it gives you essentially an overlaid version of the images but with&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xc2dxn/comparing_both_moss_image_edit_methods/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1xc1zwi/how_to_network_at_this_vfx_event/</id><title>How to network at this vfx event?</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xc1zwi/how_to_network_at_this_vfx_event/"/>
-<published>2026-10-21T22:51:03+00:00</published><updated>2026-10-21T22:51:03+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="animation"/>
-<category term="vfx"/>
-<category term="houdini"/>
-<category term="blender"/>
-<category term="maya"/>
-<summary>So a little background, I finished filmschool about 1.5 years ago, and along the way I discovered After Effects and later I learned more specialised software like Blender, Maya, Houdini and Fusion. Currently I study 3D animation, and I am leaning a bit more towards animation instead of vfx. Still I </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 6 · animation, vfx, houdini, blender, maya&lt;/small&gt;&lt;/p&gt;&lt;p&gt;So a little background, I finished filmschool about 1.5 years ago, and along the way I discovered After Effects and later I learned more specialised software like Blender, Maya, Houdini and Fusion. Currently I study 3D animation, and I am leaning a bit more towards animation instead of vfx. Still I love vfx tho. So tomorrow there is this vfx gathering and artists who worked on “the lost bus” will give a presentation about their approach to the vfx of the movie. Afterwards we’ll grab drinks and talk. This is my first time going to an event like this, so what do I do? I want to meet people and throw myself out there, but idk how to make lasting connections. I cant just ask for their number or &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xc1zwi/how_to_network_at_this_vfx_event/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xc1ivt/360_orbit_workflow_for_best_face_consistency/</id><title>360 orbit workflow for best face consistency images</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xc1ivt/360_orbit_workflow_for_best_face_consistency/"/>
-<published>2026-10-21T22:30:16+00:00</published><updated>2026-10-21T22:30:16+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="minimax"/>
-<category term="consistency"/>
-<summary>I dont know who needs to hear this, and many of you already know for sure... but the 360 orbitting minimax workflow is the definitive method i found for face consistency in different angles. In my case, im replicating a famouse face, so even slightly different image generations at different angles w</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · minimax, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I dont know who needs to hear this, and many of you already know for sure... but the 360 orbitting minimax workflow is the definitive method i found for face consistency in different angles. In my case, im replicating a famouse face, so even slightly different image generations at different angles would be noticable. Tried a lot of stuff... image editting with qwen, first putting a blank oval in the original face (bc qwen usually gets influenced by the previous face, even if you explicitly say to ignore it), GPT editting, sharing a lot of closeups, etc, etc... even when using the exact famous person refference, many times this photoshoots are a bit edited, and maybe from a profile view it do&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xc1ivt/360_orbit_workflow_for_best_face_consistency/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xc1dpl/flux_klein_9b_distilled_vs_flux_3_klein_distilled/</id><title>Flux Klein 9B Distilled vs Flux 3 Klein Distilled vs Qwen 2.1 Turbo vs Krea 3 vs Nano Banana 2.1 vs Ideogram 4.5 on a somewhat tricky two-input-image edit</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xc1dpl/flux_klein_9b_distilled_vs_flux_3_klein_distilled/"/>
-<published>2026-10-21T22:24:00+00:00</published><updated>2026-10-21T22:24:00+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="flux"/>
-<summary>Prompt: Completely change the art style of image 1 to fully lifelike real life professional editorial DSLR photograph style. Completely remove all of the text from image 1 including the large text behind the character in image 1. Completely replace the character in image 1 with the literal exact sam</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Prompt: Completely change the art style of image 1 to fully lifelike real life professional editorial DSLR photograph style. Completely remove all of the text from image 1 including the large text behind the character in image 1. Completely replace the character in image 1 with the literal exact same woman from image 2. Preserve the original composition and original layout and original character's pose and original character's clothing and original rectangles on the wall to the right from image 1. submitted by /u/ZootAllures9111 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xc1dpl/flux_klein_9b_distilled_vs_flux_3_klein_distilled/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
