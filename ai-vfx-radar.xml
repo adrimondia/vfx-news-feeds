@@ -2,8 +2,33 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-04T15:30:43+00:00</updated>
+<updated>2026-11-04T17:30:53+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xnrt67/better_imageedit_workflow_for_minimax_h3/</id><title>Better Image-Edit workflow for MiniMax H3</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xnrt67/better_imageedit_workflow_for_minimax_h3/"/>
+<published>2026-11-04T15:56:32+00:00</published><updated>2026-11-04T15:56:32+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="video model"/>
+<category term="upscaler"/>
+<category term="image editing"/>
+<category term="denoising"/>
+<category term="flux"/>
+<category term="wan2"/>
+<category term="minimax"/>
+<category term="lora"/>
+<summary>MiniMaxH3 is the great model and its the most powerful feature is what I call "identity-aware inpaint". The model could do denoise guided not only by text but by text and reference images. By using just this feature (and latent upscale) I created a workflow that lets you edit images and produce outp</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 12 · video model, upscaler, image editing, denoising, flux, wan2, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;MiniMaxH3 is the great model and its the most powerful feature is what I call "identity-aware inpaint". The model could do denoise guided not only by text but by text and reference images. By using just this feature (and latent upscale) I created a workflow that lets you edit images and produce output of 4K quality. Link to the workflow for impatient ones. Actually the secret of getting good quality image from MiniMaxH3 is to upscale both your image references and single frame latent to 4 megapixels. Fizgig-H3-Still workflow does that but if you want real quality image you have to upscale it to 4K (8 megapixels). Of course you can one-shot 4K image in MiniMax H3 but it leads to style and col&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xnrt67/better_imageedit_workflow_for_minimax_h3/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xnqzz4/free_tool_to_caption_lora_datasets_with_api/</id><title>Free tool to caption lora datasets with api (renames files, checks missing .txt, zip export)</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xnqzz4/free_tool_to_caption_lora_datasets_with_api/"/>
+<published>2026-11-04T15:24:31+00:00</published><updated>2026-11-04T15:24:31+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="lora"/>
+<summary>Hey, I made this for my own lora datasets and figured ppl here might use it. It’s free, no signup, hit “Continue as guest” and u can use it right away. What it does: drop ur images, it captions them with ur own API key (Gemini, Vertex, Kie, WaveSpeed or Grok), renames all the files, checks that ever</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey, I made this for my own lora datasets and figured ppl here might use it. It’s free, no signup, hit “Continue as guest” and u can use it right away. What it does: drop ur images, it captions them with ur own API key (Gemini, Vertex, Kie, WaveSpeed or Grok), renames all the files, checks that every image has its .txt and exports everything as a zip ready for training. Saves a lot of time vs doing it manually. Heads up since this sub is about local stuff: the captioning runs through those cloud APIs, not locally, so u need ur own key and the images get sent to the provider. Ur key only stays in ur browser and I don’t keep the images. The api cost is really low, around 50 images on a flash m&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xnqzz4/free_tool_to_caption_lora_datasets_with_api/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xnn67l/action_lora_for_minimax_h3_without_training/</id><title>Action LoRA for MiniMax H3 (without training)</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xnn67l/action_lora_for_minimax_h3_without_training/"/>
@@ -7340,43 +7365,5 @@
 <category term="flux"/>
 <summary>Free GIMP 3 plugin for Generative Fill, Remove object, Generative Expand and Text to Image, your selection is the mask and it runs through your own ComfyUI. Defaults are DreamShaper 8 Inpainting, RealVisXL V5 with the Fooocus patch and LaMa, FLUX.1 Fill optional, any local model works. beta.2 fixes </summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · inpainting, comfyui, flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Free GIMP 3 plugin for Generative Fill, Remove object, Generative Expand and Text to Image, your selection is the mask and it runs through your own ComfyUI. Defaults are DreamShaper 8 Inpainting, RealVisXL V5 with the Fooocus patch and LaMa, FLUX.1 Fill optional, any local model works. beta.2 fixes what testers hit, GTX 10 cards work, a CPU fallback warning, live previews, and FLUX Fill Q6_K for 12 GB cards https://github.com/beckettharriman/gimp-openfill submitted by /u/Speedeee_ [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xbu2rd/openfill_beta2_free_local_generative_fill_for/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xbtem0/bringing_120_audio_ai_models_to_comfyui_in_one/</id><title>Bringing 120+ Audio AI Models to ComfyUI in One Custom Node</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xbtem0/bringing_120_audio_ai_models_to_comfyui_in_one/"/>
-<published>2026-10-21T17:23:13+00:00</published><updated>2026-10-21T17:23:13+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<summary>I created ComfyUI-AudioCPP about two months ago, but made pretty much zero progress 😅. Today, a community contributor finally got things moving by implementing the first set of nodes! The goal is to bring the capabilities of audio.cpp into ComfyUI: All-in-one: TTS, ASR, voice conversion, music gener</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I created ComfyUI-AudioCPP about two months ago, but made pretty much zero progress 😅. Today, a community contributor finally got things moving by implementing the first set of nodes! The goal is to bring the capabilities of audio.cpp into ComfyUI: All-in-one: TTS, ASR, voice conversion, music generation, audio enhancement, separation, and more through a unified engine. Broad model coverage: 120+ audio model families, without maintaining separate inference implementations for each. Unified interface: Many models share the same interface in audio.cpp, so supporting additional models in ComfyUI can come almost for free once the corresponding task nodes are implemented. High performance: Optimi&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xbtem0/bringing_120_audio_ai_models_to_comfyui_in_one/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xbssdr/free_generative_fill_for_gimp_3_on_your_own/</id><title>Free Generative Fill for GIMP 3 on your own ComfyUI, beta.2 now runs on older GTX cards</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xbssdr/free_generative_fill_for_gimp_3_on_your_own/"/>
-<published>2026-10-21T17:00:46+00:00</published><updated>2026-10-21T17:00:46+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="flux"/>
-<summary>I didnt want to pay Adobe every month just for Generative Fill so I wrote OpenFill, a free plugin that adds it to GIMP 3 using your own ComfyUI in the background: Generative Fill , select and type Remove object , no prompt needed Generative Expand , any side or a ratio Text to Image No node graph, C</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · comfyui, flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I didnt want to pay Adobe every month just for Generative Fill so I wrote OpenFill, a free plugin that adds it to GIMP 3 using your own ComfyUI in the background: Generative Fill , select and type Remove object , no prompt needed Generative Expand , any side or a ratio Text to Image No node graph, Comfy starts hidden when you need it and stops when GIMP closes, any local model works. beta.2 just came out with fixes from your reports, older GTX 10 cards work, a warning when Comfy is on the CPU, live previews, and FLUX Fill Q6_K for 12 GB cards https://github.com/beckettharriman/gimp-openfill submitted by /u/Speedeee_ [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xbssdr/free_generative_fill_for_gimp_3_on_your_own/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1xbsrey/conductor_feedback/</id><title>Conductor feedback?</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xbsrey/conductor_feedback/"/>
-<published>2026-10-21T16:59:56+00:00</published><updated>2026-10-21T16:59:56+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="rendering"/>
-<summary>Is anyone using Conductor to manage their rendering? How is it? Is it saving money? Better than AWS? Are there alternatives which are superior? Please let me know your thoughts. submitted by /u/Colonel_Shame1 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 1 · rendering&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Is anyone using Conductor to manage their rendering? How is it? Is it saving money? Better than AWS? Are there alternatives which are superior? Please let me know your thoughts. submitted by /u/Colonel_Shame1 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xbsrey/conductor_feedback/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1xbqj4v/from_plain_grey_mesh_to_finished_cinematic_shot/</id><title>From plain grey mesh to finished cinematic shot (Blender + Lens Optics + Lightroom)</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xbqj4v/from_plain_grey_mesh_to_finished_cinematic_shot/"/>
-<published>2026-10-21T15:38:37+00:00</published><updated>2026-10-21T15:38:37+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="blender"/>
-<category term="cinematic"/>
-<summary>submitted by /u/astro_madeit_ [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 4 · blender, cinematic&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/astro_madeit_ [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xbqj4v/from_plain_grey_mesh_to_finished_cinematic_shot/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
