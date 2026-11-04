@@ -2,8 +2,17 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-04T09:30:30+00:00</updated>
+<updated>2026-11-04T11:31:04+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xnl6au/what_is_so_special_about_flux_3_klein_that_it_is/</id><title>What is so special about Flux 3 Klein that it is gaining 1 Million downloads in a short period of time (I only ever hear bad things from this sub)?</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xnl6au/what_is_so_special_about_flux_3_klein_that_it_is/"/>
+<published>2026-11-04T10:49:02+00:00</published><updated>2026-11-04T10:49:02+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="flux"/>
+<summary>submitted by /u/Snoo_64233 [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/Snoo_64233 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xnl6au/what_is_so_special_about_flux_3_klein_that_it_is/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xni4yd/we_will_take_your_ram/</id><title>We will take your RAM</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xni4yd/we_will_take_your_ram/"/>
@@ -7452,35 +7461,5 @@
 <category term="lora"/>
 <summary>Link Built in MOSS Image and Flux 3 support. No workflows or setup needed. Missing VAE/Text-Encoder? No problem, Heiss gets them for you and sets it all up. What it is: Image first-generation studio Works without workflows with almost any model (no setup) Support for custom workflows Video gen, refe</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 5 · inpainting, comfyui, flux, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Link Built in MOSS Image and Flux 3 support. No workflows or setup needed. Missing VAE/Text-Encoder? No problem, Heiss gets them for you and sets it all up. What it is: Image first-generation studio Works without workflows with almost any model (no setup) Support for custom workflows Video gen, reference images, and inpainting all work without setup Smart grouping of your images by similar prompts Automatically installs missing components (VAE, text encoders, nodes) it knows Use it from your phone over LAN, with a fully custom mobile UI Favorites, search, prompt history, LoRA stacks, and advanced settings Built to be graceful and not scream at you with errors 24/7 It’s built by me, and in my&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xblb76/comfyui_frontend_heiss_ui_now_supports_moss_flux3/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xbjxcr/mossimage_vision_text_encode_comfyui_node_workflow/</id><title>MOSS-Image Vision Text Encode (ComfyUI node + workflow)</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xbjxcr/mossimage_vision_text_encode_comfyui_node_workflow/"/>
-<published>2026-10-21T10:52:30+00:00</published><updated>2026-10-21T10:52:30+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<category term="lora"/>
-<summary>Built a custom node for MOSS-Image that feeds reference images directly through the Qwen3.5-9B vision tower and leaves its embeddings in the text conditioning - so the image conditions generation as part of the prompt, not as a VAE latent. - Custom Node + Workflow: https://github.com/ThetaCursed/Com</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Built a custom node for MOSS-Image that feeds reference images directly through the Qwen3.5-9B vision tower and leaves its embeddings in the text conditioning - so the image conditions generation as part of the prompt, not as a VAE latent. - Custom Node + Workflow: https://github.com/ThetaCursed/ComfyUI-MOSSImageTextEncoder - LoRA used: https://huggingface.co/lodestones/MOSS-Image-SFT-8-steps-dmd/tree/main submitted by /u/ThetaCursed [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xbjxcr/mossimage_vision_text_encode_comfyui_node_workflow/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xbjies/some_simple_fibo_20_workflows_dev_edit_turbo_with/</id><title>Some simple Fibo 2.0 workflows (Dev + Edit Turbo, with and without structured prompt conversion)</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xbjies/some_simple_fibo_20_workflows_dev_edit_turbo_with/"/>
-<published>2026-10-21T10:28:44+00:00</published><updated>2026-10-21T10:28:44+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="image editing"/>
-<category term="comfyui"/>
-<category term="flux"/>
-<summary>I put together some simple ComfyUI workflows for Fibo 2.0: text2image with Dev, and image editing (single and multi-reference) with both Dev and Edit Turbo. Each one comes in two versions, with and without structured prompt conversion. https://comfyui.nomadoor.net/en/basic-workflows/fibo-2/ For the </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · image editing, comfyui, flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I put together some simple ComfyUI workflows for Fibo 2.0: text2image with Dev, and image editing (single and multi-reference) with both Dev and Edit Turbo. Each one comes in two versions, with and without structured prompt conversion. https://comfyui.nomadoor.net/en/basic-workflows/fibo-2/ For the structured prompt conversion I'm using Qwen3.5 9B. You can reuse qwen3vl_4b, the text encoder Fibo already loads, but it just wasn't capable enough. That said, the interesting part is that you don't strictly need structured prompts. Plain, simple instructions work reasonably well too, so don't worry, it won't end up like Ideogram 4.0 or FLUX 3 Image Klein 🤔 I haven't used it much yet, so I can't s&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xbjies/some_simple_fibo_20_workflows_dev_edit_turbo_with/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1xbiy9a/timepiece_animation/</id><title>Timepiece Animation</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xbiy9a/timepiece_animation/"/>
-<published>2026-10-21T09:56:38+00:00</published><updated>2026-10-21T09:56:38+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="animation"/>
-<summary>submitted by /u/Serious_Meaning5220 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · animation&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/Serious_Meaning5220 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xbiy9a/timepiece_animation/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
