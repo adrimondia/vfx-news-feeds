@@ -2,8 +2,65 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-05T17:30:44+00:00</updated>
+<updated>2026-11-05T19:30:36+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xorcuq/vimooai_vimooai/</id><title>Vimoo-AI (Vimoo-AI)</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xorcuq/vimooai_vimooai/"/>
+<published>2026-11-05T19:09:35+00:00</published><updated>2026-11-05T19:09:35+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="video model"/>
+<category term="minimax"/>
+<summary>Video model. I haven't tried it or anything just sharing here, it's just 1 day old. Good thing is this: https://huggingface.co/Vimoo-AI/Vimoo-1.0-ComfyUI https://huggingface.co/Vimoo-AI/Vimoo-1.0-Lite-ComfyUI https://github.com/Vimoo-AI/ComfyUI-Vimoo I don't know about quality cuz I can't even downl</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · video model, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Video model. I haven't tried it or anything just sharing here, it's just 1 day old. Good thing is this: https://huggingface.co/Vimoo-AI/Vimoo-1.0-ComfyUI https://huggingface.co/Vimoo-AI/Vimoo-1.0-Lite-ComfyUI https://github.com/Vimoo-AI/ComfyUI-Vimoo I don't know about quality cuz I can't even download it yet. But demo looks good on their page, 5 seconds duration, and enhancer behind API like minimax probably, so 5 seconds video at 720p. submitted by /u/Ruiz_Mery97 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xorcuq/vimooai_vimooai/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://the-decoder.com/googles-gemini-omni-1-2-flash-stretches-ai-video-clips-to-15-seconds-and-cuts-pricing-by-30-percent/</id><title>Google's Gemini Omni 1.2 Flash stretches AI video clips to 15 seconds and cuts pricing by 30 percent</title>
+<link rel="alternate" href="https://the-decoder.com/googles-gemini-omni-1-2-flash-stretches-ai-video-clips-to-15-seconds-and-cuts-pricing-by-30-percent/"/>
+<published>2026-11-05T19:05:31+00:00</published><updated>2026-11-05T19:05:31+00:00</updated>
+<author><name>The Decoder</name></author>
+<category term="ai video"/>
+<summary>Google Deepmind is making Gemini Omni 1.2 Flash generally available. The video-generation model now creates clips up to 15 seconds long, can be edited step by step via conversation, and costs just $0.07 per second at 720p, 30 percent less than its predecessor. Users who draft in low resolution and u</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;The Decoder · score 2 · ai video&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Google Deepmind is making Gemini Omni 1.2 Flash generally available. The video-generation model now creates clips up to 15 seconds long, can be edited step by step via conversation, and costs just $0.07 per second at 720p, 30 percent less than its predecessor. Users who draft in low resolution and upscale only the final result can save even more. The article Google's Gemini Omni 1.2 Flash stretches AI video clips to 15 seconds and cuts pricing by 30 percent appeared first on The Decoder .&lt;/p&gt;&lt;p&gt;&lt;a href="https://the-decoder.com/googles-gemini-omni-1-2-flash-stretches-ai-video-clips-to-15-seconds-and-cuts-pricing-by-30-percent/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xor88g/from_a_oneline_brief_to_a_finished_poster_a_local/</id><title>From a one-line brief to a finished poster: a local LLM plans the layout, MOSS-Image renders it</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xor88g/from_a_oneline_brief_to_a_finished_poster_a_local/"/>
+<published>2026-11-05T19:04:33+00:00</published><updated>2026-11-05T19:04:33+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="render"/>
+<category term="comfyui"/>
+<summary>Writing the box coordinates was the tedious part of these posters, so I tried having a local LLM turn a one-line brief into the layout JSON. MOSS-Image takes that JSON as its prompt: a summary caption, then text and object items, each with a pixel box. Everything ran on one Mac Studio. Gemma 4 31B (</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · render, comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Writing the box coordinates was the tedious part of these posters, so I tried having a local LLM turn a one-line brief into the layout JSON. MOSS-Image takes that JSON as its prompt: a summary caption, then text and object items, each with a pixel box. Everything ran on one Mac Studio. Gemma 4 31B (MLX, bf16) gets a system prompt with the layout format from the MOSS-Image user guide plus a few rules (size each text box to its text, no overlapping text boxes, keep margins), then the canvas size and the brief. A small script checks the answer for valid JSON, boxes inside the canvas and no overlaps, and would hand any problem back for another try. Every plan here passed on the first try. The JS&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xor88g/from_a_oneline_brief_to_a_finished_poster_a_local/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xoqgn0/mossimagebase_two_stage_workflow/</id><title>MOSS-Image-Base: two stage workflow</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xoqgn0/mossimagebase_two_stage_workflow/"/>
+<published>2026-11-05T18:35:48+00:00</published><updated>2026-11-05T18:35:48+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="denoising"/>
+<category term="lora"/>
+<summary>Hi all, After having shared some MOSS image generations in previous posts, I have decided to share the workflow. It is a fairly simple two stage workflow, only using the MOSS-Image-Base diffusion model during the first stage and the same base model combined with the lodestones MOSS-Image-Base 8-step</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · denoising, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi all, After having shared some MOSS image generations in previous posts, I have decided to share the workflow. It is a fairly simple two stage workflow, only using the MOSS-Image-Base diffusion model during the first stage and the same base model combined with the lodestones MOSS-Image-Base 8-steps-dmd2 lora during the second stage. The custom node package which makes this all possible is Auryg's Krea-2-Two-Stage-Sampler . His package contains a sigma-locked two-stage sampler and dual resolution selector for Krea 2, which I used for my MOSS image generations. The main idea is that the sampler keeps everything in latent space across both stages, handing off the denoising to the second stage&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xoqgn0/mossimagebase_two_stage_workflow/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xoovpo/clothes_extraction_with_minimax_h3_single_frame/</id><title>Clothes extraction with MiniMax H3 single frame edit</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xoovpo/clothes_extraction_with_minimax_h3_single_frame/"/>
+<published>2026-11-05T17:36:28+00:00</published><updated>2026-11-05T17:36:28+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="minimax"/>
+<summary>Turns out MiniMaxH3 can make subjects invisible leaving only floating clothes. It's a useful feature if you want to isolate character clothes before doing outfit swap. Here's the prompt and single-frame edit workflow link: subject_definitions: &lt;Subject 1&gt; is the character in &lt;Picture 1&gt; and &lt;Picture</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Turns out MiniMaxH3 can make subjects invisible leaving only floating clothes. It's a useful feature if you want to isolate character clothes before doing outfit swap. Here's the prompt and single-frame edit workflow link: subject_definitions: &amp;lt;Subject 1&amp;gt; is the character in &amp;lt;Picture 1&amp;gt; and &amp;lt;Picture 2&amp;gt; summary: [keyframe completion] The target is a single still frame, the target frame is the edited version of &amp;lt;Picture&amp;gt; where &amp;lt;Subject 1&amp;gt; become invisible leaving only floating clothes - orange top and green shorts. retention_analysis: &amp;lt;Subject 1&amp;gt;: partially_preserved - clothes only. detailed_description: style: style matching art style of &amp;lt;Picture 1&amp;gt; - illustration overall_soundscape: N/A non_&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xoovpo/clothes_extraction_with_minimax_h3_single_frame/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xomh5m/comfyui_image_size_explained_empty_latent_image/</id><title>ComfyUI Image Size Explained: Empty Latent Image, Aspect Ratio and Batch Size</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xomh5m/comfyui_image_size_explained_empty_latent_image/"/>
+<published>2026-11-05T16:05:11+00:00</published><updated>2026-11-05T16:05:11+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<summary>In this video of ComfyUI Nodes Explained, you will learn how ComfyUI sets the size of your image: what the empty latent is, how width and height work, why the same seed gives a new image at a new size, why a bigger image is not always better, why 1080 becomes 1088, how aspect ratio works, what batch</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;In this video of ComfyUI Nodes Explained, you will learn how ComfyUI sets the size of your image: what the empty latent is, how width and height work, why the same seed gives a new image at a new size, why a bigger image is not always better, why 1080 becomes 1088, how aspect ratio works, what batch size does, which empty latent node to use, and an easier way with Resolution Pixaroma. Two "A Deeper Look" chapters show what a latent really is and where the steps of 16 come from. Everything is shown with Z-Image Turbo. 📥 PRACTICE + FINISHED WORKFLOWS for this video (free, no account): https://workflows.pixaroma.com/comfyui-nodes-explained/3/ Drag the Practice workflow into ComfyUI and do the t&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xomh5m/comfyui_image_size_explained_empty_latent_image/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xom1b9/hexanima_anima_on_the_snapdragon_8_gen_1_npu/</id><title>HexAnima: Anima on the Snapdragon 8 Gen 1 NPU, 512x768 in ~7 s, fully offline, no root</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xom1b9/hexanima_anima_on_the_snapdragon_8_gen_1_npu/"/>
@@ -15,6 +72,40 @@
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · diffusion transformer, dit&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi everyone! I built an Android app that generates anime pictures completely on the phone: no cloud, no account, no ads, no root. It runs on the NPU of Snapdragon 8 Gen 1 / 8+ Gen 1 (Hexagon V69), the chip generation that most NPU image apps skip. What you get A 512x768 picture in about 7 seconds (2B models) or 12 seconds (2.9B models), 4 steps, on my Xiaomi 12T Pro. Four models to download inside the app (one tap, resumable): MiaoMiao 3D Harem, MiaoMiao RealSkin (2B) and MiaoMiao Harem, MiaoMiao RealSkin (2.9B), all built on the Anima base model. Size presets (portrait / landscape / square, all multiples of 16) plus custom sizes, seed, batches, a stop button. History with favourites, trash,&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xom1b9/hexanima_anima_on_the_snapdragon_8_gen_1_npu/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xolqqe/i_made_nodeui_a_native_comfyui_workflow_editor/</id><title>I made NodeUI, a native ComfyUI workflow editor for iPhone, iPad and Android</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xolqqe/i_made_nodeui_a_native_comfyui_workflow_editor/"/>
+<published>2026-11-05T15:36:13+00:00</published><updated>2026-11-05T15:36:13+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<summary>Hi everyone, I’m the developer of NodeUI. I wanted to share what I’ve been building and get feedback from people who use ComfyUI. It’s a native mobile workspace where you can edit your workflow, change prompts and node settings, import or export workflow JSON, queue a run, and follow progress and pr</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi everyone, I’m the developer of NodeUI. I wanted to share what I’ve been building and get feedback from people who use ComfyUI. It’s a native mobile workspace where you can edit your workflow, change prompts and node settings, import or export workflow JSON, queue a run, and follow progress and previews. Generation runs on your own ComfyUI computer or Comfy Cloud. The screenshots show sample workflows. • It’s a one-time $4.99 USD purchase per platform. • You need a reachable ComfyUI installation, or Comfy Cloud with a paid subscription, API key and generation credits. Cloud costs are separate. • iPhone and iPad require iOS/iPadOS 26 or newer; Android requires Android 8 or newer. • Full sel&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xolqqe/i_made_nodeui_a_native_comfyui_workflow_editor/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xokquu/sensenova_vs_qwen_vs_zimage_three_chinese/</id><title>SenseNova vs Qwen vs Z-Image : three Chinese Open-sourced image model running in ComfyUIBody</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xokquu/sensenova_vs_qwen_vs_zimage_three_chinese/"/>
+<published>2026-11-05T14:57:43+00:00</published><updated>2026-11-05T14:57:43+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="image editing"/>
+<category term="render"/>
+<category term="comfyui"/>
+<summary>Tried SenseNova U1.5 Lite, Qwen-Image 3.0, and Z-Image-Turbo on six tasks: annotated edits, combining four references, adapting a poster's style, and generating layouts with lots of exact text. The prompts asked for specific things: remove the annotations, keep photographic people and anime characte</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · image editing, render, comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Tried SenseNova U1.5 Lite, Qwen-Image 3.0, and Z-Image-Turbo on six tasks: annotated edits, combining four references, adapting a poster's style, and generating layouts with lots of exact text. The prompts asked for specific things: remove the annotations, keep photographic people and anime characters in their original styles, preserve particular wording. Those details made the results more interesting than a straight image-quality comparison. A few things to look for as you swipe: Garden edit: SenseNova added the requested landscaping and removed the markings. Qwen made a convincing garden but kept the blue outlines. That last cleanup instruction turned out to be a meaningful difference. Fo&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xokquu/sensenova_vs_qwen_vs_zimage_three_chinese/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xokqpv/i_stopped_improving_paint_a_plate_and_started/</id><title>I stopped improving Paint a plate and started playing with with it: painted fluids, a set extension and a relight, all in ComfyUI</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xokqpv/i_stopped_improving_paint_a_plate_and_started/"/>
+<published>2026-11-05T14:57:33+00:00</published><updated>2026-11-05T14:57:33+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="relight"/>
+<category term="smoke"/>
+<category term="hdr"/>
+<category term="render"/>
+<category term="comfyui"/>
+<category term="houdini"/>
+<summary>Hi lovely ComfyUI people, A week ago I shared Paint a plate here, my entry for Comfy's #OpenSourceHiggsfield challenge. The code is frozen until the review ends on the 10th, so I did the thing I never have time for: I stopped coding and just played with it. Here's what came out. A bit of background:</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 8 · relight, smoke, hdr, render, comfyui, houdini&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi lovely ComfyUI people, A week ago I shared Paint a plate here, my entry for Comfy's #OpenSourceHiggsfield challenge. The code is frozen until the review ends on the 10th, so I did the thing I never have time for: I stopped coding and just played with it. Here's what came out. A bit of background: I always loved lookdeving FX in Houdini when I was in production, from the first rough concept to the first time you show it to the client. Paint a plate is my attempt to keep that excitement while hiding the graph: you paint on the first frame, and ComfyUI does the rest. Under the hood it's all ComfyUI, a node pack plus a page that ComfyUI serves, and every scene still exports as one ComfyUI gra&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xokqpv/i_stopped_improving_paint_a_plate_and_started/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xoju07/how_would_i_make_a_simple_prompt_builder_with/</id><title>How would I make a simple prompt builder with selectable text inputs in Comfyui</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xoju07/how_would_i_make_a_simple_prompt_builder_with/"/>
 <published>2026-11-05T14:19:59+00:00</published><updated>2026-11-05T14:19:59+00:00</updated>
@@ -22,6 +113,27 @@
 <category term="comfyui"/>
 <summary>I want to make a simple prompt builder in comfyui that would allow me to change a text in the prompt by clicking a selection in a table. Is there a simple way to do that? submitted by /u/Top_dog_forever [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I want to make a simple prompt builder in comfyui that would allow me to change a text in the prompt by clicking a selection in a table. Is there a simple way to do that? submitted by /u/Top_dog_forever [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xoju07/how_would_i_make_a_simple_prompt_builder_with/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xojr8m/53_styles_1_mazda_mx5_miata_sensenova_u15_no_lora/</id><title>53 Styles, 1 Mazda MX-5 Miata : SenseNova U1.5, No LoRA</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xojr8m/53_styles_1_mazda_mx5_miata_sensenova_u15_no_lora/"/>
+<published>2026-11-05T14:16:57+00:00</published><updated>2026-11-05T14:16:57+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="lora"/>
+<category term="consistency"/>
+<summary>Saw this Krea 2 post and had to give it a go. Big thanks to u/Dear-Spend-2865 for sharing the style prompts! I adapted the descriptions and tried them with SenseNova U1.5. https://www.reddit.com/r/StableDiffusion/comments/1xfeonr/krea_2_king_of_styles/ What surprised me was how the style carried thr</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · lora, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Saw this Krea 2 post and had to give it a go. Big thanks to u/Dear-Spend-2865 for sharing the style prompts! I adapted the descriptions and tried them with SenseNova U1.5. https://www.reddit.com/r/StableDiffusion/comments/1xfeonr/krea_2_king_of_styles/ What surprised me was how the style carried through the car, background, and lettering. The whole page felt designed around the same medium. All of these are native model outputs, with no LoRAs used. Cyanotype gives the page the feel of a photographic print while keeping the layout recognizable. Stained Glass goes further and rearranges the lettering. One feels like a new edition of the same poster. The other feels like a redesign. The setup w&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xojr8m/53_styles_1_mazda_mx5_miata_sensenova_u15_no_lora/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xoj0u7/layershop_020_prompt_enhancement_batch_rendering/</id><title>LayerShop 0.20: Prompt Enhancement, Batch Rendering &amp; Styles</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xoj0u7/layershop_020_prompt_enhancement_batch_rendering/"/>
+<published>2026-11-05T13:45:53+00:00</published><updated>2026-11-05T13:45:53+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="render"/>
+<category term="rendering"/>
+<category term="cinematic"/>
+<summary>Hello , just released LayerShop 0.20.1 Preview 1 . In this release I implemented some new (hopefully exciting) features! Mainly: - Prompt Enhancement: Both local (Gemma / Qwen) and cloud models (from OpenAI, xAI, Google, Anthropic). These are fully configurable, style aware, and some of them quite f</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · render, rendering, cinematic&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hello , just released LayerShop 0.20.1 Preview 1 . In this release I implemented some new (hopefully exciting) features! Mainly: - Prompt Enhancement: Both local (Gemma / Qwen) and cloud models (from OpenAI, xAI, Google, Anthropic). These are fully configurable, style aware, and some of them quite fast. - Batch rendering: You can now render multiple (1x-10x) images from the same prompt. They are rendered in one batch and then land each on a separate layer. - Styles: You can now choose from 24 presets with thumbnails: Photography, Illustration, Traditional art, 3D &amp;amp; craft, and Graphic &amp;amp; experimental. Anime, Watercolour, Cinematic, Clay Model, Pixel Art, Black &amp;amp; White, Comic Book, Flat Vector &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xoj0u7/layershop_020_prompt_enhancement_batch_rendering/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xohwh5/krea_2_turbo_4_step_lora_comeback_trained_to_133k/</id><title>Krea 2 Turbo - 4 Step LoRA comeback (trained to 133K checkpoint, around 55K more than the 'final' 78K in Sep)</title>
@@ -42,6 +154,25 @@
 <category term="vfx"/>
 <summary>submitted by /u/InterestingSpray2018 [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/InterestingSpray2018 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xohidd/quick_predictions_for_what_the_vfx_industry_will/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xof0i2/disney_style_lora_for_moss/</id><title>Disney Style LoRA for MOSS</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xof0i2/disney_style_lora_for_moss/"/>
+<published>2026-11-05T10:10:32+00:00</published><updated>2026-11-05T10:10:32+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="lora"/>
+<summary>submitted by /u/vizsumit [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/vizsumit [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xof0i2/disney_style_lora_for_moss/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xoekfp/ph3_flux3klein_moss_krea2raw_firstshot_results_no/</id><title>P-H3 / Flux3-Klein / Moss / Krea2-Raw | First-Shot Results (No Cherry-Picking)</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xoekfp/ph3_flux3klein_moss_krea2raw_firstshot_results_no/"/>
+<published>2026-11-05T09:41:28+00:00</published><updated>2026-11-05T09:41:28+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="inpainting"/>
+<category term="comfyui"/>
+<summary>Decided to test how different models handle raw, unoptimized prompts featuring complex spatial reasoning, specific counting, lighting constraints, and anatomy. Method: Zero cherry-picking, first-shot outputs using a custom ComfyUI backend. No upscalers, no inpainting. Slider Order (Left to Right / S</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · inpainting, comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Decided to test how different models handle raw, unoptimized prompts featuring complex spatial reasoning, specific counting, lighting constraints, and anatomy. Method: Zero cherry-picking, first-shot outputs using a custom ComfyUI backend. No upscalers, no inpainting. Slider Order (Left to Right / Slide by Slide): P-H3 / Flux3-Klein / Moss / Krea2-Raw (Note: Sets go 1 to 4 following the prompt list below.) The 4 Prompts Used: Rainy Bus Stop: A candid photograph of a woman in her early sixties waiting at a rainy city bus stop. She wears a faded green raincoat and holds a folded newspaper in one hand and a small paper bag in the other. Her short gray hair is slightly damp, with natural wrinkle&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xoekfp/ph3_flux3klein_moss_krea2raw_firstshot_results_no/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://github.com/harry0703/MoneyPrinterTurbo</id><title>harry0703/MoneyPrinterTurbo</title>
@@ -65,6 +196,15 @@
 <category term="lora"/>
 <summary>🧑‍🏫 60+ Implementations/tutorials of deep learning papers with side-by-side notes 📝; including transformers (original, xl, switch, feedback, vit, ...), optimizers (adam, adabelief, sophia, ...), gans(cyclegan, stylegan2, ...), 🎮 reinforcement learning (ppo, dqn), capsnet, distillation, ... 🧠 https:/</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;GitHub trending (Python) · score 3 · denoising, stable diffusion, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;🧑‍🏫 60+ Implementations/tutorials of deep learning papers with side-by-side notes 📝; including transformers (original, xl, switch, feedback, vit, ...), optimizers (adam, adabelief, sophia, ...), gans(cyclegan, stylegan2, ...), 🎮 reinforcement learning (ppo, dqn), capsnet, distillation, ... 🧠 https://nn.labml.ai labml.ai Deep Learning Paper Implementations Note : use the Annotated Implementation Skill with coding agents to implement any paper with annotations. This is a collection of simple PyTorch implementations of neural networks and related algorithms. These implementations are documented with explanations, The website renders these as side-by-side formatted notes. We believe these would &lt;/p&gt;&lt;p&gt;&lt;a href="https://github.com/labmlai/annotated_deep_learning_paper_implementations"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xodw5i/low_vram_upscaler/</id><title>low VRAM upscaler</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xodw5i/low_vram_upscaler/"/>
+<published>2026-11-05T08:56:43+00:00</published><updated>2026-11-05T08:56:43+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="upscaler"/>
+<summary>I created a custom node to upscale exteriors and fix vertical perspective it's useful for architecture and concept art. You can find the workflows in the repo . It is officially registered in the main registry and I would really appreciate some feedback on this both on the registry or on github befo</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · upscaler&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I created a custom node to upscale exteriors and fix vertical perspective it's useful for architecture and concept art. You can find the workflows in the repo . It is officially registered in the main registry and I would really appreciate some feedback on this both on the registry or on github before releasing the next version. submitted by /u/jeeltcraft [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xodw5i/low_vram_upscaler/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1xodpsg/can_we_skip_the_prompt_unsampler_qwen_35_9b_in/</id><title>Can we skip the prompt unsampler (qwen 3.5 9b) in flux 3 klein workflow . If yes then how ??</title>
@@ -7415,23 +7555,5 @@
 <category term="video model"/>
 <summary>I am a complete beginner in local video generation, but have 500+ hours in image generation in comfy. Can someone please say whats like top 3 models, their speed and quality. I have an RTX 3090. submitted by /u/b3nz1k [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · video generation, video model&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I am a complete beginner in local video generation, but have 500+ hours in image generation in comfy. Can someone please say whats like top 3 models, their speed and quality. I have an RTX 3090. submitted by /u/b3nz1k [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xcsrbi/whats_the_best_current_local_video_model_for_24gb/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1xcpn88/what_do_stylized_vfx_real_time_vfx_artist_draw/</id><title>What do stylized vfx real time vfx artist draw?</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xcpn88/what_do_stylized_vfx_real_time_vfx_artist_draw/"/>
-<published>2026-10-22T17:52:49+00:00</published><updated>2026-10-22T17:52:49+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="vfx"/>
-<summary>I’m just starting my journey of learning how to draw stylized VFX and was wondering what they hand draw? Because I want to incorporate it into my workflow. submitted by /u/Lane-Huddleston [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I’m just starting my journey of learning how to draw stylized VFX and was wondering what they hand draw? Because I want to incorporate it into my workflow. submitted by /u/Lane-Huddleston [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xcpn88/what_do_stylized_vfx_real_time_vfx_artist_draw/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xcpm1i/random_moss_image_5b_base_gens_no_lora_no_finetune/</id><title>Random MOSS Image 5B Base Gens - No Lora, No Finetune</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xcpm1i/random_moss_image_5b_base_gens_no_lora_no_finetune/"/>
-<published>2026-10-22T17:51:39+00:00</published><updated>2026-10-22T17:51:39+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="lora"/>
-<summary>Another month and another model to bang my head against. Most images here were generated with the standard 50 steps, 3 CFG, 1.5 megapixels, and with the Base model. NOT the SFT model. But there are exceptions here and there. The pure image files are located here , but some may have meta data destroy</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Another month and another model to bang my head against. Most images here were generated with the standard 50 steps, 3 CFG, 1.5 megapixels, and with the Base model. NOT the SFT model. But there are exceptions here and there. The pure image files are located here , but some may have meta data destroyed due to exporting through Invoke. Due to the sheer number of slightly different workflows on display, just comment with the Image number and I will reply with the specific process for that image. submitted by /u/Unit2209 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xcpm1i/random_moss_image_5b_base_gens_no_lora_no_finetune/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
