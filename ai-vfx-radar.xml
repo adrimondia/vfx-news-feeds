@@ -2,8 +2,19 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-05T13:31:27+00:00</updated>
+<updated>2026-11-05T15:30:55+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xohwh5/krea_2_turbo_4_step_lora_comeback_trained_to_133k/</id><title>Krea 2 Turbo - 4 Step LoRA comeback (trained to 133K checkpoint, around 55K more than the 'final' 78K in Sep)</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xohwh5/krea_2_turbo_4_step_lora_comeback_trained_to_133k/"/>
+<published>2026-11-05T12:53:55+00:00</published><updated>2026-11-05T12:53:55+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="render"/>
+<category term="rendering"/>
+<category term="lora"/>
+<summary>This version (chk00133000) replaces the first 'final' release (chk00078000), from two months ago. I decided to train a 'few more' samples (55K more to be precise), the newer part with five critic heads where the first release had one. Measured against the 8-step teacher on the 15 test prompts at 12 </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · render, rendering, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;This version (chk00133000) replaces the first 'final' release (chk00078000), from two months ago. I decided to train a 'few more' samples (55K more to be precise), the newer part with five critic heads where the first release had one. Measured against the 8-step teacher on the 15 test prompts at 12 sizes: cleaner fine structure — the 8- and 16-pixel grid patterns at 0.96–0.98× the teacher's, where the first release was at 1.09–1.11× less ghosting and fewer doubled edges — closer to the teacher at 10 of 12 sizes on both measures cleaner flat areas — grain at 0.99× the teacher's, down from 1.08× no over-sharpening at large sizes — fine texture at 1.01–1.04× the teacher's at 1440 px, down from &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xohwh5/krea_2_turbo_4_step_lora_comeback_trained_to_133k/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/vfx/comments/1xohidd/quick_predictions_for_what_the_vfx_industry_will/</id><title>Quick predictions for what the vfx industry will look like in 10 years time go</title>
 <link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xohidd/quick_predictions_for_what_the_vfx_industry_will/"/>
@@ -240,6 +251,15 @@
 <category term="minimax"/>
 <summary>When you use chinese mandarin or cantonese, the voice and the lines actually sound decent and carry emotions. You can kinda hear without prompting much how the model know how a line is delivered, probably from chinese videos, films, shows, radio, audiobooks. So if you tried it in english or other la</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;When you use chinese mandarin or cantonese, the voice and the lines actually sound decent and carry emotions. You can kinda hear without prompting much how the model know how a line is delivered, probably from chinese videos, films, shows, radio, audiobooks. So if you tried it in english or other languages and had underwhelming line deliveries, it is probably because of that. It also helps a lot that Chinese is a tonal language. So words are guided by words you write. But the model knows when it needs to deviate when colloquial speaking is different. In english i sometimes used ú à ō to replicate the benefits and help the model. I wonder if french speakers can confirm that the model can hand&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xo8nka/minimax_h3_voice_acting_capabilities_seem_to_be/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xo7l65/ant_way_of_keeping_background_consistent_minimax/</id><title>Ant way of keeping background consistent? (Minimax H3)</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xo7l65/ant_way_of_keeping_background_consistent_minimax/"/>
+<published>2026-11-05T02:48:19+00:00</published><updated>2026-11-05T02:48:19+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="minimax"/>
+<summary>As you see the galaxy spiral was at his right side, which became his back once he got up, the galaxy reappear later (on the full shot) again, but at his left for whatever reason. I thought of; Generating a 360° orbit view at start of a scene, but would waste nearly 3-5s + 3-6 minutes of generation t</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;As you see the galaxy spiral was at his right side, which became his back once he got up, the galaxy reappear later (on the full shot) again, but at his left for whatever reason. I thought of; Generating a 360° orbit view at start of a scene, but would waste nearly 3-5s + 3-6 minutes of generation time. Attaching 2-4 background images to omni reference (think of a room), but would take 4/9 slots, less characters could be in a scene. Just letting it imagine whatever it might look like, but only a affordable idea in case of open field scenes (being throw through a wall or travelling). Attaching a panoramic image as reference, but these are usually over 21:9 ratio and might give the model an an&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xo7l65/ant_way_of_keeping_background_consistent_minimax/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1xo5rcw/minimax_h3_loopstudio/</id><title>Minimax H3 LoopStudio</title>
@@ -7446,90 +7466,5 @@
 <category term="minimax"/>
 <summary>Help me to choose: Official MiniMax H3 pruned FastH3 8 step pruned FastH3 Trim 8 step FastH3 Omniref 8 step MiniMax H3 Singularity 10Eros Mah h3Turbo hybrid I'm interested in Ref2va and no censored. submitted by /u/ElderberryPutrid2049 [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Help me to choose: Official MiniMax H3 pruned FastH3 8 step pruned FastH3 Trim 8 step FastH3 Omniref 8 step MiniMax H3 Singularity 10Eros Mah h3Turbo hybrid I'm interested in Ref2va and no censored. submitted by /u/ElderberryPutrid2049 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xclzn4/which_minimax_h3/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xclgg2/mossimageedit_lora/</id><title>MOSS-Image-Edit LoRA</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xclgg2/mossimageedit_lora/"/>
-<published>2026-10-22T15:19:25+00:00</published><updated>2026-10-22T15:19:25+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<category term="lora"/>
-<summary>An edit LoRA for MOSS Image has been released. Works with both Base and SFT. Weights: https://huggingface.co/chinoll/Moss-Image-Edit Custom nodes / Workflows: https://github.com/Chenkin-x/ComfyUI-Moss-Image-Edit/blob/main/README.en.md Edit: I implemented it natively with caching for faster inference</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;An edit LoRA for MOSS Image has been released. Works with both Base and SFT. Weights: https://huggingface.co/chinoll/Moss-Image-Edit Custom nodes / Workflows: https://github.com/Chenkin-x/ComfyUI-Moss-Image-Edit/blob/main/README.en.md Edit: I implemented it natively with caching for faster inference. The LoRA is a bit rough. Let me know how it's working for you. Custom nodes / Workflows: https://github.com/PedroMarinhoDev/ComfyUI-Moss-Image-Edit-Native ComfyUI-compatible weights: https://huggingface.co/PedroMarinhoDev/Moss-Image-Edit-ComfyUI There's an open PR by Kijai on ComfyUI so it might be merged and supported natively later. https://github.com/Comfy-Org/ComfyUI/pull/17296 https://previ&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xclgg2/mossimageedit_lora/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xcl4s2/comfyui_models_explained_download_folders_and/</id><title>ComfyUI Models Explained: Download, Folders and Model Loaders</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xcl4s2/comfyui_models_explained_download_folders_and/"/>
-<published>2026-10-22T15:07:27+00:00</published><updated>2026-10-22T15:07:27+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<summary>📥 PRACTICE + FINISHED WORKFLOWS for this video (free, no account): https://workflows.pixaroma.com/comfyui-nodes-explained/1/ Drag the Practice workflow into ComfyUI and do the tasks in the notes. The Finished workflow shows every answer. submitted by /u/pixaromadesign [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;📥 PRACTICE + FINISHED WORKFLOWS for this video (free, no account): https://workflows.pixaroma.com/comfyui-nodes-explained/1/ Drag the Practice workflow into ComfyUI and do the tasks in the notes. The Finished workflow shows every answer. submitted by /u/pixaromadesign [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xcl4s2/comfyui_models_explained_download_folders_and/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1xcl44z/houdini_karma_nuke_volcano_crater_fumaroles/</id><title>[Houdini / Karma / Nuke] Volcano Crater Fumaroles – Close-Up Environment &amp; Volume FX Breakdown</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xcl44z/houdini_karma_nuke_volcano_crater_fumaroles/"/>
-<published>2026-10-22T15:06:47+00:00</published><updated>2026-10-22T15:06:47+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="nuke"/>
-<category term="houdini"/>
-<summary>submitted by /u/holtbryan13 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 4 · nuke, houdini&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/holtbryan13 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xcl44z/houdini_karma_nuke_volcano_crater_fumaroles/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xcks9b/plain_prompt_vs_layout_json_for_a_poster_a_menu/</id><title>Plain prompt vs layout JSON for a poster, a menu and a product label, 8 seeds each: when the boxes are worth it</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xcks9b/plain_prompt_vs_layout_json_for_a_poster_a_menu/"/>
-<published>2026-10-22T14:54:25+00:00</published><updated>2026-10-22T14:54:25+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="flux"/>
-<summary>On a five-row price board, layout JSON kept all 88 blocks in place against 67 for a careful prompt; on the poster and label the two were within one block. Each grid is one design rendered 16 times: the top half with positions written as words, the bottom half with the same positions as boxes, seeds </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui, flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;On a five-row price board, layout JSON kept all 88 blocks in place against 67 for a careful prompt; on the poster and label the two were within one block. Each grid is one design rendered 16 times: the top half with positions written as words, the bottom half with the same positions as boxes, seeds 1 to 8 in both. I hadn't seen anyone count this, so I did. Setup: MOSS-Image-SFT in bf16 with the bf16 Qwen3.5-9B text encoder and the small FLUX.2 VAE, built-in ComfyUI nodes on v0.42.3. Euler with sgm_uniform at 50 steps, CFG 3 and shift 5, SLG skipping layer 22 on the uncond pass, the user guide's negative prompt. Poster and price board at 1024x1536, label at 1536x1024. One 24 GB A10, about 136&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xcks9b/plain_prompt_vs_layout_json_for_a_poster_a_menu/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xcklp4/combating_moss_image_blur_by_sharpening_latents/</id><title>Combating MOSS Image Blur by Sharpening Latents</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xcklp4/combating_moss_image_blur_by_sharpening_latents/"/>
-<published>2026-10-22T14:47:23+00:00</published><updated>2026-10-22T14:47:23+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="denoising"/>
-<category term="lora"/>
-<summary>Here is a method you can use to decrease the amount of blur in MOSS Image outputs. I use the base model and https://huggingface.co/lodestones/Kromoss/blob/main/8-steps-dmd2-lora.safetensors LoRa, but you may be able to adapt the workflows for use without this LoRa. The method utilizes a two stage pr</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · denoising, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Here is a method you can use to decrease the amount of blur in MOSS Image outputs. I use the base model and https://huggingface.co/lodestones/Kromoss/blob/main/8-steps-dmd2-lora.safetensors LoRa, but you may be able to adapt the workflows for use without this LoRa. The method utilizes a two stage process: Denoise regularly for the first 5 steps Apply the LatentOperationSharpen to the latent image and then continue denoising The first image comparison in this post shows the result of also applying the SFT model as a LoRa to the base model for the second stage denoising: https://civitai.com/models/3012507/moss-image-sft-extracted-lora . See the workflow here: https://civitai.com/images/1464675&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xcklp4/combating_moss_image_blur_by_sharpening_latents/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xcjw1f/the_fifth_element_but_making_more_sense/</id><title>The Fifth Element But Making More Sense</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xcjw1f/the_fifth_element_but_making_more_sense/"/>
-<published>2026-10-22T14:19:47+00:00</published><updated>2026-10-22T14:19:47+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="upscaling"/>
-<category term="upscaler"/>
-<category term="minimax"/>
-<category term="lora"/>
-<summary>Minimax H3 Ref2v, RTX 3060, 64 GBs RAM. I use a workflow with latent upscaling. The first pass is a low-res video which is upscaled later. The overall quality looks better and it also helps to fix smearing. The upscaler - link . Turbo Lora - link You also need to install these nodes submitted by /u/</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · upscaling, upscaler, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Minimax H3 Ref2v, RTX 3060, 64 GBs RAM. I use a workflow with latent upscaling. The first pass is a low-res video which is upscaled later. The overall quality looks better and it also helps to fix smearing. The upscaler - link . Turbo Lora - link You also need to install these nodes submitted by /u/Dry-Statistician-684 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xcjw1f/the_fifth_element_but_making_more_sense/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xcipdf/minimax_with_turbo_lora_or_fast_h3/</id><title>minimax with turbo lora or fast h3?</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xcipdf/minimax_with_turbo_lora_or_fast_h3/"/>
-<published>2026-10-22T13:33:19+00:00</published><updated>2026-10-22T13:33:19+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="minimax"/>
-<category term="lora"/>
-<summary>im kinda confused im ngl ,whats the difference between them? witch one is the fastest? my specs btw:rtx30608gb 32gb ram i5 12400 f submitted by /u/Medium_Face_2458 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;im kinda confused im ngl ,whats the difference between them? witch one is the fastest? my specs btw:rtx30608gb 32gb ram i5 12400 f submitted by /u/Medium_Face_2458 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xcipdf/minimax_with_turbo_lora_or_fast_h3/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xcipat/made_an_ai_music_video_with_openai_imagegen/</id><title>Made an AI music video with OpenAI ImageGen, ComfyUI/WAN and ACE-Step on an AMD RX 7900 XTX</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xcipat/made_an_ai_music_video_with_openai_imagegen/"/>
-<published>2026-10-22T13:33:14+00:00</published><updated>2026-10-22T13:33:14+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="video generation"/>
-<category term="frame interpolation"/>
-<category term="animation"/>
-<category term="rendering"/>
-<category term="comfyui"/>
-<category term="wan"/>
-<summary>I wanted to see how far I could push my AI production pipeline, so I made a complete music video called Dancing in the Dark . https://www.youtube.com/watch?v=CYn9HesiBR8 The production involved: OpenAI ImageGen for the original images ComfyUI + WAN for video generation ACE-Step for the music RIFE / </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 8 · video generation, frame interpolation, animation, rendering, comfyui, wan&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I wanted to see how far I could push my AI production pipeline, so I made a complete music video called Dancing in the Dark . https://www.youtube.com/watch?v=CYn9HesiBR8 The production involved: OpenAI ImageGen for the original images ComfyUI + WAN for video generation ACE-Step for the music RIFE / FlowFrames for frame interpolation FFmpeg for final assembly All video generation, music production and rendering were performed locally on an AMD RX 7900 XTX. It's a deliberately silly music video, but the production pipeline is quite serious. I'd be interested in hearing what other ComfyUI users think about the animation, motion and overall production. submitted by /u/Grumpf_be [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xcipat/made_an_ai_music_video_with_openai_imagegen/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
