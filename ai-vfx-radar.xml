@@ -2,8 +2,40 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-05T07:30:28+00:00</updated>
+<updated>2026-11-05T08:00:30+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xoc3tv/minimax_h3_singularity_v2_on_rtx_3060_12gb_4step/</id><title>MiniMax H3 Singularity V2 on RTX 3060 12GB — 4-Step Tests up to 2336×1312</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xoc3tv/minimax_h3_singularity_v2_on_rtx_3060_12gb_4step/"/>
+<published>2026-11-05T06:58:00+00:00</published><updated>2026-11-05T06:58:00+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="video generation"/>
+<category term="comfyui"/>
+<category term="minimax"/>
+<category term="lora"/>
+<summary>I've been experimenting with MiniMax H3 Singularity V2 locally on my RTX 3060 12GB using ComfyUI. I wanted to see how far I could push video generation on a consumer GPU with limited VRAM, using an INT8 model, DMAD 4-step sampling, and memory optimizations. My hardware: GPU: NVIDIA RTX 3060 12GB RAM</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 5 · video generation, comfyui, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I've been experimenting with MiniMax H3 Singularity V2 locally on my RTX 3060 12GB using ComfyUI. I wanted to see how far I could push video generation on a consumer GPU with limited VRAM, using an INT8 model, DMAD 4-step sampling, and memory optimizations. My hardware: GPU: NVIDIA RTX 3060 12GB RAM: 32GB OS: Windows 11 UI: ComfyUI Main workflow configuration: MiniMax H3 Singularity Ref2VA V2 INT8 Qwen3-VL 32B NVFP4 text encoder DMAD 4-step LoRA Camera Motion LoRA res_multistep sampler simple scheduler Comfy Kitchen Attention Sparse Attention optimization Selected local test results: Resolution Frames Generation Time 1280×768 600 1347 s 1536×864 243 632.42 s 2048×1152 243 1390.32 s 2336×1312&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xoc3tv/minimax_h3_singularity_v2_on_rtx_3060_12gb_4step/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xoboo3/help_with_comfyui_genating_explicit_content/</id><title>Help with ComfyUI - genating explicit content</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xoboo3/help_with_comfyui_genating_explicit_content/"/>
+<published>2026-11-05T06:31:45+00:00</published><updated>2026-11-05T06:31:45+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<summary>Hey guys, I am trying to build a ComfyUI workflow to generate explicit content. Here is my goal to have some options before genertion like: - uploading a file in a Load Image node to select how the person looks like - uploading a pose (In the Load Image node at the top) to select the pose (possably </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey guys, I am trying to build a ComfyUI workflow to generate explicit content. Here is my goal to have some options before genertion like: - uploading a file in a Load Image node to select how the person looks like - uploading a pose (In the Load Image node at the top) to select the pose (possably linking a map of different poses) At this point in time I got the looks of the person good but I am struggling with the poses. Can anyone help me with this? Until now I had help from ChatGPT as I am very new to this but I can't figure it out submitted by /u/Erik_the_Alfa [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xoboo3/help_with_comfyui_genating_explicit_content/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xob6fz/trobleshooting_minimax_h3_upscaler/</id><title>Trobleshooting Minimax H3 Upscaler</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xob6fz/trobleshooting_minimax_h3_upscaler/"/>
+<published>2026-11-05T06:01:30+00:00</published><updated>2026-11-05T06:01:30+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="upscaling"/>
+<category term="upscaler"/>
+<category term="minimax"/>
+<summary>Hello!. As the title says i have trouble when using latent upscaling in minimax, I'm not trying to generate 4k video just 1mpx and i don't know if that is what is breaking my generations. here is the video in question before the upscaling, some warping but no artifacts, i don't know how to fix the w</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 5 · upscaling, upscaler, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hello!. As the title says i have trouble when using latent upscaling in minimax, I'm not trying to generate 4k video just 1mpx and i don't know if that is what is breaking my generations. here is the video in question before the upscaling, some warping but no artifacts, i don't know how to fix the warping yet but ill try other things in the future. Amd 5700g, 40 Gb DDR4. Rtx 3090 24gb Vram. 0.4 Mpx 9:16 Portrait Widescreen: Video at 0.4 Mpx 9:16 Portrait Widescreen And here is the video after the upscaling to 1Mbpx Video at 0.4 Mpx 9:16 Portrait Widescreen -&amp;gt; latent upscaled to 1Mpx the face is WAY better, but there are some "squares" that show up, more apparently on the high movement areas &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xob6fz/trobleshooting_minimax_h3_upscaler/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://arxiv.org/abs/2611.05593</id><title>GaussianRenderFormer: Transformer-based Rendering of 3D Gaussian Splats</title>
 <link rel="alternate" href="https://arxiv.org/abs/2611.05593"/>
@@ -133,6 +165,25 @@
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;When you use chinese mandarin or cantonese, the voice and the lines actually sound decent and carry emotions. You can kinda hear without prompting much how the model know how a line is delivered, probably from chinese videos, films, shows, radio, audiobooks. So if you tried it in english or other languages and had underwhelming line deliveries, it is probably because of that. It also helps a lot that Chinese is a tonal language. So words are guided by words you write. But the model knows when it needs to deviate when colloquial speaking is different. In english i sometimes used ú à ō to replicate the benefits and help the model. I wonder if french speakers can confirm that the model can hand&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xo8nka/minimax_h3_voice_acting_capabilities_seem_to_be/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xo5rcw/minimax_h3_loopstudio/</id><title>Minimax H3 LoopStudio</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xo5rcw/minimax_h3_loopstudio/"/>
+<published>2026-11-05T01:18:07+00:00</published><updated>2026-11-05T01:18:07+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<category term="minimax"/>
+<summary>https://github.com/pxl-pshr/LoopStudio A local web app for making seamless looping GIFs with MiniMax H3 on your own ComfyUI , with a coding agent of your choice built into a terminal drawer. Uses https://github.com/pxl-pshr/ComfyUI-MiniMaxH3-Loop nodes. submitted by /u/screean [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;https://github.com/pxl-pshr/LoopStudio A local web app for making seamless looping GIFs with MiniMax H3 on your own ComfyUI , with a coding agent of your choice built into a terminal drawer. Uses https://github.com/pxl-pshr/ComfyUI-MiniMaxH3-Loop nodes. submitted by /u/screean [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xo5rcw/minimax_h3_loopstudio/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xo3q4q/comfyui_refuses_to_load_any_checkpoint/</id><title>ComfyUI refuses to load any checkpoint?</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xo3q4q/comfyui_refuses_to_load_any_checkpoint/"/>
+<published>2026-11-04T23:45:23+00:00</published><updated>2026-11-04T23:45:23+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<summary>I don't know what to do. I tried to make an "extra_model_paths.yaml "to redirect the program to where the checkpoints are stored = Nothing I tried to swap the directory completely from Desktop settings &gt; Storage = Nothing. Am I missing something, or am I dumb? submitted by /u/Reasonable-Eye-5055 [li</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I don't know what to do. I tried to make an "extra_model_paths.yaml "to redirect the program to where the checkpoints are stored = Nothing I tried to swap the directory completely from Desktop settings &amp;gt; Storage = Nothing. Am I missing something, or am I dumb? submitted by /u/Reasonable-Eye-5055 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xo3q4q/comfyui_refuses_to_load_any_checkpoint/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
 <id>https://www.reddit.com/r/vfx/comments/1xo2d8a/hypershade_replacement_for_maya_2027_called/</id><title>Hypershade replacement for Maya 2027 called UltraShade, it's finally in public beta</title>
 <link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xo2d8a/hypershade_replacement_for_maya_2027_called/"/>
 <published>2026-11-04T22:45:49+00:00</published><updated>2026-11-04T22:45:49+00:00</updated>
@@ -160,6 +211,19 @@
 <category term="vfx"/>
 <summary>submitted by /u/Delicious_Tooth_9453 [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/Delicious_Tooth_9453 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xo0qla/pixars_cofounder_edwin_catmull_history_of_vfx/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xo09cp/i_built_a_free_opensource_desktop_studio_for_ai/</id><title>I built a free open-source desktop studio for AI video and images, and a ComfyUI node is coming</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xo09cp/i_built_a_free_opensource_desktop_studio_for_ai/"/>
+<published>2026-11-04T21:19:20+00:00</published><updated>2026-11-04T21:19:20+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<category term="flux"/>
+<category term="wan"/>
+<category term="seedance"/>
+<category term="ai video"/>
+<summary>I always wanted to build something open source, and I realized I have enough dev experience to create a cool AI studio app and share it, so people have the cheapest option: local through ComfyUI, OpenRouter, and maybe other APIs later. What pushed me: I made a short video for an anniversary and saw </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 7 · comfyui, flux, wan, seedance, ai video&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I always wanted to build something open source, and I realized I have enough dev experience to create a cool AI studio app and share it, so people have the cheapest option: local through ComfyUI, OpenRouter, and maybe other APIs later. What pushed me: I made a short video for an anniversary and saw how fast online platforms add up. It turned into an expensive gift. P.S. Snowboarding is my life, which is why every demo has a snowboarder in it :D Unplatform AI A desktop app for Mac (Apple Silicon), Windows and Linux. You plug in your own OpenRouter key, the Generate button shows the exact price before you click, and the app adds nothing on top. No server, no account. Keys live in your system k&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xo09cp/i_built_a_free_opensource_desktop_studio_for_ai/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xnzuv9/starcraft_protoss_minimax/</id><title>StarCraft / Protoss. Minimax</title>
@@ -274,6 +338,16 @@
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I started doing this about 1 year ago, and learned pretty quickly that updating nvidia drivers was a great way to make everything explode. I haven't updated my drivers since December because of this. Newer games want newer drivers though. Is there anywhere I can check how stable things are for driver releases with comfy? submitted by /u/Humble-Average-235 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xnvmiw/anywhere_to_check_how_current_nvidia_drivers/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xnviil/how_do_you_get_a_usable_arm_for_a_2d_game/</id><title>How do you get a usable arm for a 2D game character out of one image in ComfyUI?</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xnviil/how_do_you_get_a_usable_arm_for_a_2d_game/"/>
+<published>2026-11-04T18:15:57+00:00</published><updated>2026-11-04T18:15:57+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="animation"/>
+<category term="comfyui"/>
+<summary>I’m new to cut-out animation. I can get a character image I like, but when I try to make the upper arm, forearm and hand separately, the pieces come back at slightly different angles or with different lighting. Sometimes they look fine put together until I bend the elbow and a gap opens in the sleev</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · animation, comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I’m new to cut-out animation. I can get a character image I like, but when I try to make the upper arm, forearm and hand separately, the pieces come back at slightly different angles or with different lighting. Sometimes they look fine put together until I bend the elbow and a gap opens in the sleeve. I tried Qwen-Image-Layered . It separated the character from the background, but I couldn’t get separate arm pieces I could actually animate. If you’ve done this in ComfyUI, how would you make one arm ? Would you cut the visible pieces out of the original and fill in the hidden parts, or generate the pieces separately using the original as a reference? I’d love to see a workflow or even a rough&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xnviil/how_do_you_get_a_usable_arm_for_a_2d_game/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
 <id>https://www.reddit.com/r/vfx/comments/1xnulld/course_pitch_mudship_mpm_in_houdini/</id><title>COURSE PITCH - MUDSHIP MPM IN HOUDINI</title>
 <link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xnulld/course_pitch_mudship_mpm_in_houdini/"/>
 <published>2026-11-04T17:41:45+00:00</published><updated>2026-11-04T17:41:45+00:00</updated>
@@ -281,6 +355,17 @@
 <category term="houdini"/>
 <summary>submitted by /u/One_Willingness6034 [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · houdini&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/One_Willingness6034 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xnulld/course_pitch_mudship_mpm_in_houdini/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://news.ycombinator.com/item?id=50368804</id><title>Launch HN: Kino AI (YC S23) – AI media manager and video editor</title>
+<link rel="alternate" href="https://news.ycombinator.com/item?id=50368804"/>
+<published>2026-11-04T17:31:53+00:00</published><updated>2026-11-04T17:31:53+00:00</updated>
+<author><name>Hacker News</name></author>
+<category term="rotoscoping"/>
+<category term="visual effects"/>
+<category term="color grading"/>
+<summary>Hi HN! I'm Luke from Kino ( https://kino.ai ). Kino lets you make great videos with your agents and your teammates. Storage of footage and assets, a rich video editor, and review links for teammates are all bundled into one. Your colleagues and Codex / Claude Code can work on the same timeline with </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;Hacker News · score 3 · rotoscoping, visual effects, color grading&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi HN! I'm Luke from Kino ( https://kino.ai ). Kino lets you make great videos with your agents and your teammates. Storage of footage and assets, a rich video editor, and review links for teammates are all bundled into one. Your colleagues and Codex / Claude Code can work on the same timeline with review notes and footage all in one place. See a basic overview at https://kino.ai/walkthrough-video and our launch video (made entirely with Kino!) at https://kino.ai/launch-video Opus 5.5 can edit videos and make great motion graphics now. But with a raw agent harness, you need to describe tiny edits either in words or in quick one-off UIs, you can’t refer to footage shared across your devices, &lt;/p&gt;&lt;p&gt;&lt;a href="https://news.ycombinator.com/item?id=50368804"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1xnubdp/comfyui_v0440/</id><title>ComfyUI v0.44.0</title>
@@ -7386,15 +7471,5 @@
 <category term="vfx"/>
 <summary>Flash inspired reel submitted by /u/Additional_Doubt8877 [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Flash inspired reel submitted by /u/Additional_Doubt8877 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xcfuqd/beginner_vfx_hobbyist_how_can_i_improve_my_skills/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xcc6kc/face_swap_in_flux3_image_klein/</id><title>Face swap in FLUX.3 Image Klein?</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xcc6kc/face_swap_in_flux3_image_klein/"/>
-<published>2026-10-22T07:39:03+00:00</published><updated>2026-10-22T07:39:03+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="face swap"/>
-<category term="flux"/>
-<summary>submitted by /u/xuman1 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · face swap, flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/xuman1 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xcc6kc/face_swap_in_flux3_image_klein/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
