@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-05T05:30:20+00:00</updated>
+<updated>2026-11-05T07:30:28+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
 <entry>
 <id>https://arxiv.org/abs/2611.05593</id><title>GaussianRenderFormer: Transformer-based Rendering of 3D Gaussian Splats</title>
@@ -7396,39 +7396,5 @@
 <category term="flux"/>
 <summary>submitted by /u/xuman1 [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · face swap, flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/xuman1 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xcc6kc/face_swap_in_flux3_image_klein/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xcb5w3/with_wsl2s_wslc_capability_its_easier_to_run/</id><title>With wsl2's wslc capability, it's easier to run comfyui in windows now</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xcb5w3/with_wsl2s_wslc_capability_its_easier_to_run/"/>
-<published>2026-10-22T06:34:56+00:00</published><updated>2026-10-22T06:34:56+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<summary>You can install Microsoft's wsl2 with wsl --install in an admin powershell, restart, then just run something like: wslc run -p 8188:8188 -it --gpus all -v "input:/app/input" -v "user:/app/user/" -v "./workflows:/app/user/default/workflows" -v "./custom_nodes:/app/custom_nodes" -v "./models:/app/mode</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;You can install Microsoft's wsl2 with wsl --install in an admin powershell, restart, then just run something like: wslc run -p 8188:8188 -it --gpus all -v "input:/app/input" -v "user:/app/user/" -v "./workflows:/app/user/default/workflows" -v "./custom_nodes:/app/custom_nodes" -v "./models:/app/models" -v "./output:/app/output" yanwk/comfyui-boot:cu130-slim No need for docker, python, nor anything else. You will have to manually open http://localhost:8188 instead of clicking the link in the terminal, which will show 0.0.0.0:8188 . And it'll basically get everything you need and set up folders for you to put your models and such in. Just run that from the same folder every time or put it in a&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xcb5w3/with_wsl2s_wslc_capability_its_easier_to_run/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://github.com/Emily2040/seedance-2.0</id><title>Emily2040/seedance-2.0</title>
-<link rel="alternate" href="https://github.com/Emily2040/seedance-2.0"/>
-<published>2026-10-22T06:30:25+00:00</published><updated>2026-10-22T06:30:25+00:00</updated>
-<author><name>GitHub trending (Python)</name></author>
-<category term="seedance"/>
-<category term="storyboard"/>
-<category term="filmmaking"/>
-<category term="cinematic"/>
-<summary>Comprehensive production pipeline for quad-modal AI filmmaking with Seedance 2.0 Turn an idea into a directed video prompt. Seedance 2.0 Skill OS is an agent skill for planning shots, binding references and continuing from an accepted clip. Your video provider handles generation and its costs. Watch</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;GitHub trending (Python) · score 4 · seedance, storyboard, filmmaking, cinematic&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Comprehensive production pipeline for quad-modal AI filmmaking with Seedance 2.0 Turn an idea into a directed video prompt. Seedance 2.0 Skill OS is an agent skill for planning shots, binding references and continuing from an accepted clip. Your video provider handles generation and its costs. Watch the clips · Try a first prompt · Install · Choose a workflow · Evidence status v6.7.0 · MIT · Changelog · Emily / Iamemily2050 Languages: English (this page) · 中文 · 日本語 · 한국어 · Español · Русский Five-minute quickstarts: English · 中文 · 日本語 · 한국어 · Español · Русский Seen, not told Seven scenes, seven prompts, five languages. Each is a complete fifteen-second story: the situation legible by shot two&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.com/Emily2040/seedance-2.0"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xca8za/just_trying_to_learn_how_to_make_a_proper_vid_gen/</id><title>Just trying to learn how to make a proper vid gen flow</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xca8za/just_trying_to_learn_how_to_make_a_proper_vid_gen/"/>
-<published>2026-10-22T05:41:18+00:00</published><updated>2026-10-22T05:41:18+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="frame interpolation"/>
-<category term="render"/>
-<category term="comfyui"/>
-<category term="wan2"/>
-<category term="lora"/>
-<summary>This is just one flow I started making here is the link (not promo, seriously want help) https://www.youtube.com/watch?v=fNoObriGL2w I got up to this point then I started looking into how to make realistic videos, but the cutscenes and the hands and everything become very fake and make 3 arms etc. C</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 5 · frame interpolation, render, comfyui, wan2, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;This is just one flow I started making here is the link (not promo, seriously want help) https://www.youtube.com/watch?v=fNoObriGL2w I got up to this point then I started looking into how to make realistic videos, but the cutscenes and the hands and everything become very fake and make 3 arms etc. Can I ask which tools / models , are they opensource? etc? at the moment I use Yue2 locally and comfyui here is the current flow Flow step ComfyUI? What runs inside ComfyUI 1. Song ❌ audio.cpp (YuE2, separation, speech recognition, aligner) 3. Director: cast portraits ✅ Z-Image Turbo text-to-image (1920×1088) 3. Director: keyframes ✅ Pass 1: Qwen-Image-Edit 2511 + Lightning LoRA, one image with one&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xca8za/just_trying_to_learn_how_to_make_a_proper_vid_gen/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
