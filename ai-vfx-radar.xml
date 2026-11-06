@@ -2,8 +2,29 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-06T17:31:51+00:00</updated>
+<updated>2026-11-06T19:30:38+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xpiuyk/i_hosted_a_live_san_altman_avatar_locally_on_my/</id><title>I hosted a live San Altman avatar locally on my RAM</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xpiuyk/i_hosted_a_live_san_altman_avatar_locally_on_my/"/>
+<published>2026-11-06T17:34:39+00:00</published><updated>2026-11-06T17:34:39+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="avatar"/>
+<summary>submitted by /u/Mikasa0xdev [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · avatar&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/Mikasa0xdev [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xpiuyk/i_hosted_a_live_san_altman_avatar_locally_on_my/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xph4o1/testing_the_new_relayvsr_vs_seedvr2_vs_native/</id><title>Testing the new RelayVSR vs SeedVR2 vs native finish for 1080P</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xph4o1/testing_the_new_relayvsr_vs_seedvr2_vs_native/"/>
+<published>2026-11-06T16:28:23+00:00</published><updated>2026-11-06T16:28:23+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="upscaler"/>
+<category term="render"/>
+<category term="comfyui"/>
+<category term="minimax"/>
+<summary>RelayVSR (USTC, Apache-2.0) got native ComfyUI support this week (PR #17511, repack at https://huggingface.co/Comfy-Org/RelayVSR ), so I ran it on a take from my current short. All four versions come from the same H3 render, so the acting is identical and only the route to 1080p differs. Base take: </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · upscaler, render, comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;RelayVSR (USTC, Apache-2.0) got native ComfyUI support this week (PR #17511, repack at https://huggingface.co/Comfy-Org/RelayVSR ), so I ran it on a take from my current short. All four versions come from the same H3 render, so the acting is identical and only the route to 1080p differs. Base take: MiniMax H3 ref2v, 12.25 s / 294 frames @ 24 fps with audio, two-stage: 15 steps at 576×352, H3 3D latent upscaler, last 5 steps at 1312×768. 5.7 min on an RTX 4090. Route Time Notes SeedVR2 7B → 1080p +13.1 min Clean, natural skin, holds the small far face well Native H3 1080p finish (latent-upscale to 1856×1088, last 5 steps there) 13.3 min total Softest, most "filmed" close-up; from a 576×352 lo&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xph4o1/testing_the_new_relayvsr_vs_seedvr2_vs_native/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xph0pt/comfyuiminimaxh3temporalwindowspatialtiles_works/</id><title>ComfyUI-MiniMaxH3-TemporalWindow-SpatialTiles works on 16GB VRAM + 32GB RAM with NO OOM</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xph0pt/comfyuiminimaxh3temporalwindowspatialtiles_works/"/>
@@ -26,6 +47,41 @@
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · upscaling, animation, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;https://registry.comfy.org/publishers/mo-akkakk/nodes/comfyui-minimax-h3-temporal-window-spatial-tiles You can now run a video to video workflow in High resolution from the first stage, I tested it for 2.5 MP on Nvidia RTX TI 12GB VRAM, and it works like a charm, split your generation into tiles and temporal windows while maintaining accurate animation transfer with no shifting or ghosting. You can also use it for a second upscale stage, splitting a high resolution long video into manageable tiles and windows, to get the best quality you can squeeze from u/minimax . Give it a try and let me know about your Feedback. Important Note: This was not tested nor recommended to do Fully Generated fr&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xp9nbb/super_huge_update_for_minimax_h3_temporal_spatial/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xp9mfh/super_huge_update_for_minimax_h3_temporal_spatial/</id><title>Super Huge Update for Minimax H3 Temporal Spatial Node 🔥🔥🔥</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xp9mfh/super_huge_update_for_minimax_h3_temporal_spatial/"/>
+<published>2026-11-06T10:33:11+00:00</published><updated>2026-11-06T10:33:11+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="upscaling"/>
+<category term="animation"/>
+<category term="comfyui"/>
+<category term="minimax"/>
+<summary>following up on this post: https://www.reddit.com/r/comfyui/s/B36dbYjB3Y Custom Node: https://registry.comfy.org/publishers/mo-akkakk/nodes/comfyui-minimax-h3-temporal-window-spatial-tiles You can now run a video to video workflow in High resolution from the first stage, I tested it for 2.5 MP on Nv</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 5 · upscaling, animation, comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;following up on this post: https://www.reddit.com/r/comfyui/s/B36dbYjB3Y Custom Node: https://registry.comfy.org/publishers/mo-akkakk/nodes/comfyui-minimax-h3-temporal-window-spatial-tiles You can now run a video to video workflow in High resolution from the first stage, I tested it for 2.5 MP on Nvidia RTX 4070 TI 12GB VRAM, and it works like a charm, split your generation into tiles and temporal windows while maintaining accurate animation transfer with no shifting or ghosting. You can also use it for a second upscale stage, splitting a high resolution long video into manageable tiles and windows, to get the best quality you can squeeze from u/minimax . Give it a try and let me know about &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xp9mfh/super_huge_update_for_minimax_h3_temporal_spatial/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xp9cws/missing_template_filters_in_comfyui_removed_or/</id><title>Missing template filters in ComfyUI – removed or hidden behind a setting?</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xp9cws/missing_template_filters_in_comfyui_removed_or/"/>
+<published>2026-11-06T10:16:26+00:00</published><updated>2026-11-06T10:16:26+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<summary>Is it just me, or did ComfyUI lose the filtering options for templates in recent releases? Previously, you could filter cleanly by workflow type (e.g., text-to-image) and sort/filter by model size or specific criteria. Now, there’s only a single search bar. Given how many templates have been added l</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Is it just me, or did ComfyUI lose the filtering options for templates in recent releases? Previously, you could filter cleanly by workflow type (e.g., text-to-image) and sort/filter by model size or specific criteria. Now, there’s only a single search bar. Given how many templates have been added lately, searching blindly makes it pretty frustrating to browse workflows that fit my VRAM and hardware limits. Did the devs relocate this to the settings menu, or was the filter system deprecated? Honestly feels like the UI gets a bit more cluttered and less practical with each update. Any tips or custom extensions that fix this? submitted by /u/FruehstuecksTee [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xp9cws/missing_template_filters_in_comfyui_removed_or/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xp95uk/techno_girl_music_video/</id><title>Techno Girl - Music Video</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xp95uk/techno_girl_music_video/"/>
+<published>2026-11-06T10:04:02+00:00</published><updated>2026-11-06T10:04:02+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="image editing"/>
+<category term="animation"/>
+<category term="comfyui"/>
+<category term="minimax"/>
+<category term="consistency"/>
+<category term="ai video"/>
+<summary>I've been working on this music video for the past week, finally got it finished. It's a hardstyle/techno reimagining of "Barbie Girl," set in a futuristic cyberpunk world populated entirely by living, cybernetically enhanced dolls. Figured I'd share a little about how I put it together. I used YuE </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 6 · image editing, animation, comfyui, minimax, consistency, ai video&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I've been working on this music video for the past week, finally got it finished. It's a hardstyle/techno reimagining of "Barbie Girl," set in a futuristic cyberpunk world populated entirely by living, cybernetically enhanced dolls. Figured I'd share a little about how I put it together. I used YuE 2 to create the music, then ComfyUI to develop the characters and their overall look. Qwen 2.1 helped with image editing and refinements, while Krea 2 was used to build the different environments. Once the characters and environments were ready, I used MiniMax H3 to animate everything, generating each shot individually before editing them together to match the music. The animation was easily the m&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xp95uk/techno_girl_music_video/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xp8f15/tailsteer_trajectorytail_steering_for/</id><title>TailSteer: Trajectory-Tail Steering for Drift-Resistant Multi-turn Image Editing</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xp8f15/tailsteer_trajectorytail_steering_for/"/>
 <published>2026-11-06T09:15:13+00:00</published><updated>2026-11-06T09:15:13+00:00</updated>
@@ -33,6 +89,16 @@
 <category term="image editing"/>
 <summary>model: https://huggingface.co/Lyricccco/Qwen-Image-2.1-TailSteer app: https://huggingface.co/spaces/akhaliq/endless-edit-tailsteer submitted by /u/Illustrious_Row_9971 [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · image editing&lt;/small&gt;&lt;/p&gt;&lt;p&gt;model: https://huggingface.co/Lyricccco/Qwen-Image-2.1-TailSteer app: https://huggingface.co/spaces/akhaliq/endless-edit-tailsteer submitted by /u/Illustrious_Row_9971 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xp8f15/tailsteer_trajectorytail_steering_for/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xp83r3/autofix_color_drift_from_v2v_generations_wan_vace/</id><title>Auto-Fix Color Drift from V2V Generations (WAN VACE, Seedance, etc)</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xp83r3/autofix_color_drift_from_v2v_generations_wan_vace/"/>
+<published>2026-11-06T08:54:50+00:00</published><updated>2026-11-06T08:54:50+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="wan"/>
+<category term="seedance"/>
+<summary>submitted by /u/pftq [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · wan, seedance&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/pftq [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xp83r3/autofix_color_drift_from_v2v_generations_wan_vace/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://github.com/google-gemini/gemini-skills</id><title>google-gemini/gemini-skills</title>
@@ -66,6 +132,17 @@
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 4 · animation, previs&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/OrFenn-D-Gamer [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xp6gxf/jurassic_park_used_stop_motion_animation_for_its/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xp6d6f/dataset_creation_with_character_consistency/</id><title>Dataset Creation with Character Consistency</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xp6d6f/dataset_creation_with_character_consistency/"/>
+<published>2026-11-06T06:59:58+00:00</published><updated>2026-11-06T06:59:58+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="lora"/>
+<category term="consistency"/>
+<category term="character consistency"/>
+<summary>Hi. I'm trying to create a consistent dataset for some niche characters from manhwa/anime etc, with the issue being how little they appear. I have successfully created a reference sheet using GPT, and it's somewhat able to transfer the artstyle as well whereas Gemini is consistent with character, bu</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 5 · lora, consistency, character consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi. I'm trying to create a consistent dataset for some niche characters from manhwa/anime etc, with the issue being how little they appear. I have successfully created a reference sheet using GPT, and it's somewhat able to transfer the artstyle as well whereas Gemini is consistent with character, but not with artstyle. Looking for any workflows that can help in creating a dataset for lora training. Anima is preferable, illustrious will also work. submitted by /u/CladesWho [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xp6d6f/dataset_creation_with_character_consistency/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
 <id>https://www.reddit.com/r/vfx/comments/1xp6asr/cloned_subjects_with_a_moving_camera_and/</id><title>Cloned Subjects with a moving camera and foreground element</title>
 <link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xp6asr/cloned_subjects_with_a_moving_camera_and/"/>
 <published>2026-11-06T06:55:48+00:00</published><updated>2026-11-06T06:55:48+00:00</updated>
@@ -74,6 +151,15 @@
 <category term="render"/>
 <summary>I was watching old SNL Digital Shorts (as one does), and was taken by this shot they did. You can see the slowed-down clip below. What looks to be a handheld camera, no cuts, a mainstay foreground object, and yet the camera pans and we have cloned subjects. It's a small but impressive flex. I don't </summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · vfx, render&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I was watching old SNL Digital Shorts (as one does), and was taken by this shot they did. You can see the slowed-down clip below. What looks to be a handheld camera, no cuts, a mainstay foreground object, and yet the camera pans and we have cloned subjects. It's a small but impressive flex. I don't know how to 3D render or anything. These are the kinds of VFX that I want to know how to do. Stuff like this is pretty commonplace, I know, but I can't figure it out. How would you guys go about doing something like this? https://reddit.com/link/1xp6asr/video/758vhjaowxzh1/player submitted by /u/OhHayullNaw [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xp6asr/cloned_subjects_with_a_moving_camera_and/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xp5vys/combined_image_and_ref_to_video_workflow_minimax/</id><title>combined image and ref to video workflow minimax h3</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xp5vys/combined_image_and_ref_to_video_workflow_minimax/"/>
+<published>2026-11-06T06:29:46+00:00</published><updated>2026-11-06T06:29:46+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="minimax"/>
+<summary>I’m looking for a workflow in Minimax H3 that allows me to upload a photo as the first frame, followed by reference images to continue the video. I know this can be done using the "ref2vid" workflow, but the quality of the first frame is quite poor compared to the "image2vid" workflow. If anyone has</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I’m looking for a workflow in Minimax H3 that allows me to upload a photo as the first frame, followed by reference images to continue the video. I know this can be done using the "ref2vid" workflow, but the quality of the first frame is quite poor compared to the "image2vid" workflow. If anyone has any ideas on where I might find something like this, thanks! submitted by /u/robertpalmsss [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xp5vys/combined_image_and_ref_to_video_workflow_minimax/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1xp4q0c/a_quick_mossimage_news_roundup_6th_november_2026/</id><title>A quick MOSS-Image news round-up - 6th November 2026</title>
@@ -269,6 +355,27 @@
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Charles Dana Gibson, famous for the "Gibson Girl", was a well-know illustrator from the late 19th and early 20th centuries. I picked three of his books, "Drawings" (1896), "London as seen by Charles Dana Gibson" (1897), and "Americans" (1900), and trained a style LoRA against 209 of his images. Enjoy! submitted by /u/newsock999 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xp4bij/charles_dana_gibson_krea2_style_lora/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xp3yqu/comfyui_errors_after_update/</id><title>Comfyui errors after update</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xp3yqu/comfyui_errors_after_update/"/>
+<published>2026-11-06T04:39:17+00:00</published><updated>2026-11-06T04:39:17+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<category term="wan2"/>
+<summary>Hi folks, So, I'm still just beginning to wrap my brain around Comfyui, I'm running Easy-Install version. Admittedly on very low-end hardware, but I'm really just trying to learn rather than do any real production. Anyway, I made what is apparently a cardinal error... I updated. I THINK I resolved m</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · comfyui, wan2&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi folks, So, I'm still just beginning to wrap my brain around Comfyui, I'm running Easy-Install version. Admittedly on very low-end hardware, but I'm really just trying to learn rather than do any real production. Anyway, I made what is apparently a cardinal error... I updated. I THINK I resolved most issues, but the lingering one is with Wan2.2 using a GGUF model. It runs for a few minutes, then throws an error: ComfyUI Error Report Error Details Node ID:** 1512:1579 Node Type:** KSamplerAdvanced Exception Type:** RuntimeError Exception Message:** RuntimeError: cutlass_fp16_linear: K mismatch Node 1512 is the KSampler subgraph, so there's an awful lot going on in there, but I can't track d&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xp3yqu/comfyui_errors_after_update/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xp3t4c/built_a_shortdrama_pipeline_on_top_of_comfyui/</id><title>Built a short-drama pipeline on top of ComfyUI: storyboard → shots with consistent characters</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xp3t4c/built_a_shortdrama_pipeline_on_top_of_comfyui/"/>
+<published>2026-11-06T04:30:26+00:00</published><updated>2026-11-06T04:30:26+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<category term="seedance"/>
+<category term="storyboard"/>
+<summary>I built a self-hosted studio for making AI short dramas that can use your own ComfyUI as the image/video backend. Script → characters → scenes → props → storyboard → voice → edit, with reference assets reused across shots so characters stay consistent. It runs with Docker Compose, works with any Ope</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 5 · comfyui, seedance, storyboard&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I built a self-hosted studio for making AI short dramas that can use your own ComfyUI as the image/video backend. Script → characters → scenes → props → storyboard → voice → edit, with reference assets reused across shots so characters stay consistent. It runs with Docker Compose, works with any OpenAI-compatible LLM, and uses your own ComfyUI or the paid Seedream/Seedance APIs for images and video. AGPL-3.0. Repo: https://github.com/charliewwdev/OpenMontage Demo: https://openmontage.dtok.io Feedback on the deployment setup is welcome. submitted by /u/Direct_Grab7063 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xp3t4c/built_a_shortdrama_pipeline_on_top_of_comfyui/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
 <id>https://www.reddit.com/r/vfx/comments/1xp2nna/silkfx_an_after_effects_panel_for_text_animation/</id><title>SilkFX: an After Effects panel for text animation, glass, easing and sounds (I’m the developer)</title>
 <link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xp2nna/silkfx_an_after_effects_panel_for_text_animation/"/>
 <published>2026-11-06T03:28:24+00:00</published><updated>2026-11-06T03:28:24+00:00</updated>
@@ -276,6 +383,15 @@
 <category term="animation"/>
 <summary>Problem I kept rebuilding the same text animations, easing curves and glass looks in every project. SilkFX is a dockable panel with 449 presets and live previews. You pick one and it applies as a single undo step. It includes spring/bounce text animators (real animators you can edit afterwards), Liq</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · animation&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Problem I kept rebuilding the same text animations, easing curves and glass looks in every project. SilkFX is a dockable panel with 449 presets and live previews. You pick one and it applies as a single undo step. It includes spring/bounce text animators (real animators you can edit afterwards), Liquid Glass, an easing graph editor, transitions, loops, backgrounds, expressions, 145 sound effects (plus your own packs) and automatic beat markers. There’s also a Premiere Pro beta with fewer tools, because Premiere has no text animators or expressions. Compare There are good existing options for this kind of thing, like Motion Bro, Animation Composer and Flow, and many people will already be hap&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xp2nna/silkfx_an_after_effects_panel_for_text_animation/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xp1bk1/help_needed_is_there_a_comfyui_node_that_lets_you/</id><title>[Help needed] Is there a ComfyUI node that lets you choose the output folder?</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xp1bk1/help_needed_is_there_a_comfyui_node_that_lets_you/"/>
+<published>2026-11-06T02:21:48+00:00</published><updated>2026-11-06T02:21:48+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<summary>I couldn't manage to find a node that lets you manually choose the output folder :0 submitted by /u/Realtinytensor [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I couldn't manage to find a node that lets you manually choose the output folder :0 submitted by /u/Realtinytensor [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xp1bk1/help_needed_is_there_a_comfyui_node_that_lets_you/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/vfx/comments/1xp0ly5/gods_game_vfx_breakdown/</id><title>God's Game Vfx breakdown</title>
@@ -327,6 +443,16 @@
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 3 · animation, vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I did about 70% of the effects in the video. All the data moshing, rotoscoped effects, drawn animation stuff in the beginning, the 3D logo spinning in the background, and some of the cuts and edits. Hope y’all like it :) (ps this song rips, you should check out drewBOOGIE) submitted by /u/marie_got_the_keys [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xowyy6/music_video_i_did_vfx_for/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xowfxi/minimaxh3_captioning_dataset_for_lora_training/</id><title>MinimaxH3 captioning dataset for lora training (MOTION specifically)</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xowfxi/minimaxh3_captioning_dataset_for_lora_training/"/>
+<published>2026-11-05T22:34:01+00:00</published><updated>2026-11-05T22:34:01+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="wan"/>
+<category term="lora"/>
+<summary>I'm having a hard time finding good information. There's plenty of character lora training info, in relative comparison hardly any motion at all, and dataset prep often gets glossed over. Since H3 drastically alters how prompts (and therefore captions?) are handled, and motion training may be quite </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · wan, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I'm having a hard time finding good information. There's plenty of character lora training info, in relative comparison hardly any motion at all, and dataset prep often gets glossed over. Since H3 drastically alters how prompts (and therefore captions?) are handled, and motion training may be quite different from other models such as wan, How the heck are you suppose to caption each clip properly? Do you have multiple paragraphs describing everything under the sun in the clip, big bulky walls of text? One main paragraph trying to capture everything? Do you only focus on the motion? Do you only describe everything except the motion, so the motion bakes in? If there's slight variation between &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xowfxi/minimaxh3_captioning_dataset_for_lora_training/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
 <id>https://www.reddit.com/r/vfx/comments/1xovpus/doctor_who_the_highlanders_3d_animation_trailer/</id><title>Doctor Who: The Highlanders 3D animation trailer</title>
 <link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xovpus/doctor_who_the_highlanders_3d_animation_trailer/"/>
 <published>2026-11-05T22:03:08+00:00</published><updated>2026-11-05T22:03:08+00:00</updated>
@@ -334,6 +460,16 @@
 <category term="animation"/>
 <summary>submitted by /u/Serious_Meaning5220 [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · animation&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/Serious_Meaning5220 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xovpus/doctor_who_the_highlanders_3d_animation_trailer/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xovpnx/autofix_color_drift_from_v2v_generations_wan_vace/</id><title>Auto-Fix Color Drift from V2V Generations (WAN VACE, Seedance, etc)</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xovpnx/autofix_color_drift_from_v2v_generations_wan_vace/"/>
+<published>2026-11-05T22:02:57+00:00</published><updated>2026-11-05T22:02:57+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="wan"/>
+<category term="seedance"/>
+<summary>I split out the Color Match feature in VideoFrameSync I posted earlier to its own tool - corrects color drift, contrast, etc, but particularly useful for V2V AI edits from WAN VACE or Seedance which often have a slight tint (but for Seedance, you should use the VideoFrameSync which corrects the fram</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · wan, seedance&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I split out the Color Match feature in VideoFrameSync I posted earlier to its own tool - corrects color drift, contrast, etc, but particularly useful for V2V AI edits from WAN VACE or Seedance which often have a slight tint (but for Seedance, you should use the VideoFrameSync which corrects the frame-sync drift as well). As a bonus, it also matches noise/grain. https://github.com/pftq/VideoColorMatch https://preview.redd.it/46dpatno9vzh1.png?width=873&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=c28287fb36c34ebf37a316db55a870f585433f3d submitted by /u/pftq [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xovpnx/autofix_color_drift_from_v2v_generations_wan_vace/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1xov7du/nitrofusion2_in_int8_w6a8_w4a8_quants_for_stock/</id><title>NitroFusion2 in int8 / W6A8 / W4A8 quants for stock ComfyUI: 6.2 / 5.0 / 3.5 GB, ~1.7× faster than bf16</title>
@@ -7497,23 +7633,5 @@
 <category term="lora"/>
 <summary>Moss SFT int8 that I merged with the stripe fix lora + Qwen 9b int8 So appearently it can create story sequences or comics within the same image. This model is insane. It follows prompts extremely well down to the smallest details. Manual simple sentence prompting. I used Lenovo lora for the photo s</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · image editing, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Moss SFT int8 that I merged with the stripe fix lora + Qwen 9b int8 So appearently it can create story sequences or comics within the same image. This model is insane. It follows prompts extremely well down to the smallest details. Manual simple sentence prompting. I used Lenovo lora for the photo style images. Generated with my experimental turbo method with the dmd2 turbo lora but high cfg to fix blur and bokeh problems with negative prompts so it was still quite fast. All pics are native 1080p. This model has huge potential for image editing and editing loras. submitted by /u/AltruisticList6000 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xdnxkr/moss_can_natively_generate_comics_and_image/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xdnla9/fastvideo_fasth3_omni_open_source_realtime/</id><title>FastVideo FastH3 Omni: Open Source Real-Time Minimax FastH3 Ref2VA on NVIDIA Blackwell, RTX Spark, and RTX GPUs.</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xdnla9/fastvideo_fasth3_omni_open_source_realtime/"/>
-<published>2026-10-23T19:28:15+00:00</published><updated>2026-10-23T19:28:15+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="minimax"/>
-<summary>submitted by /u/hoodadyy [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/hoodadyy [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xdnla9/fastvideo_fasth3_omni_open_source_realtime/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xdla8a/messing_around_with_minimax_h3/</id><title>Messing around with MiniMax H3</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xdla8a/messing_around_with_minimax_h3/"/>
-<published>2026-10-23T18:01:38+00:00</published><updated>2026-10-23T18:01:38+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="minimax"/>
-<summary>Tried MiniMax H3 for the first time about 2 days ago, I've been practicing how to train LoRAs for this model with ai-toolkit. These were some of the first clips that I was able to produce locally. Meant to jump in sooner but man there are so many configurations and model variants that I needed some </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Tried MiniMax H3 for the first time about 2 days ago, I've been practicing how to train LoRAs for this model with ai-toolkit. These were some of the first clips that I was able to produce locally. Meant to jump in sooner but man there are so many configurations and model variants that I needed some time to figure it out. These were all text to video without first frame or references. Blown away by how well it picked up on the characteristics of the style I was going for. submitted by /u/renderartist [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xdla8a/messing_around_with_minimax_h3/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
