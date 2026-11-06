@@ -2,8 +2,35 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-06T19:30:38+00:00</updated>
+<updated>2026-11-06T21:30:28+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1xplgrq/tried_to_update_the_review_workflow_review_notes/</id><title>Tried to update the review workflow : "Review notes, in the scene themselves"</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xplgrq/tried_to_update_the_review_workflow_review_notes/"/>
+<published>2026-11-06T19:15:29+00:00</published><updated>2026-11-06T19:15:29+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="blender"/>
+<summary>For a while now I've been working and experiment in what a CG pipeline for small studios could look like. It's a place where I try ideas, with the motive of either automating some technical debts either efficiency, storage or simplicity. The first part I want to show is how review notes reach the ar</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 1 · blender&lt;/small&gt;&lt;/p&gt;&lt;p&gt;For a while now I've been working and experiment in what a CG pipeline for small studios could look like. It's a place where I try ideas, with the motive of either automating some technical debts either efficiency, storage or simplicity. The first part I want to show is how review notes reach the artist. In most review loops, the supervisor leaves notes in a web player, and the artist reads them in a browser on another screen. Then they look for the frame in Blender and try to remember where the circle was drawn. Every round, something gets missed or applied to the wrong frame. In Zeno, the notes open inside DCC. Click a note and you're on its frame. Look through the shot camera and the supe&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xplgrq/tried_to_update_the_review_workflow_review_notes/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xpkwtr/made_a_face_swap_that_runs_entirely_in_your/</id><title>Made a face swap that runs entirely in your browser, no setup or huge downloads</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xpkwtr/made_a_face_swap_that_runs_entirely_in_your/"/>
+<published>2026-11-06T18:53:53+00:00</published><updated>2026-11-06T18:53:53+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="face swap"/>
+<summary>Been working on this for a while. You drop in a photo or video, pick a face to use, and it swaps it right on your own GPU using WebGPU (all the processing happens in your browser so nothing is uploaded anywhere). Mostly because, last time i tried using one of these projects it had me download 50 gig</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · face swap&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Been working on this for a while. You drop in a photo or video, pick a face to use, and it swaps it right on your own GPU using WebGPU (all the processing happens in your browser so nothing is uploaded anywhere). Mostly because, last time i tried using one of these projects it had me download 50 gigs of files 😵 and they always felt super complicated. The first time, it downloads necessary models, and that's it. Everything is saved in browser cache for later use. Try it here: https://i2m3d.github.io/FaceJutsu/ Let me know what you think : ) And if you want more speed, turn on WebNN (it's behind a flag in Chrome/Edge, then switch the engine in settings). It's experimental, but on my RTX 4060 l&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xpkwtr/made_a_face_swap_that_runs_entirely_in_your/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xpkvth/regarding_minimax_ref2vid_how_have_you_handled/</id><title>Regarding Minimax Ref2Vid, how have you handled the characters' voices?</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xpkvth/regarding_minimax_ref2vid_how_have_you_handled/"/>
+<published>2026-11-06T18:52:51+00:00</published><updated>2026-11-06T18:52:51+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="minimax"/>
+<summary>I’ve been trying to create scenes featuring a couple of characters for a while now, but I haven’t found a solution yet—so I’m turning to those with more experience for some advice. If there’s only one character in a scene, there’s no issue: if I upload an image and a reference audio clip, Minimax pe</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I’ve been trying to create scenes featuring a couple of characters for a while now, but I haven’t found a solution yet—so I’m turning to those with more experience for some advice. If there’s only one character in a scene, there’s no issue: if I upload an image and a reference audio clip, Minimax perfectly generates a video featuring that character with the corresponding voice. However, if two characters appear in the video, Minimax struggles to distinguish which voice belongs to which character. For instance, if Character A speaks first, followed by Character B, the output isn't correct—even when I specify that Character A should have "Voice A" and Character B should have "Voice B." I’ve tr&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xpkvth/regarding_minimax_ref2vid_how_have_you_handled/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xpiuyk/i_hosted_a_live_san_altman_avatar_locally_on_my/</id><title>I hosted a live San Altman avatar locally on my RAM</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xpiuyk/i_hosted_a_live_san_altman_avatar_locally_on_my/"/>
@@ -34,6 +61,39 @@
 <category term="minimax"/>
 <summary>I modified some workflow and added to it ComfyUI-MiniMaxH3-TemporalWindow-SpatialTiles (from this post https://www.reddit.com/r/StableDiffusion/comments/1xgcjvw/i_created_a_custom_node_that_can_help_you/ ). My 10sec video with 960x544 resolution could take 2 hours for 4K (3840×2176). No OOM at all !</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I modified some workflow and added to it ComfyUI-MiniMaxH3-TemporalWindow-SpatialTiles (from this post https://www.reddit.com/r/StableDiffusion/comments/1xgcjvw/i_created_a_custom_node_that_can_help_you/ ). My 10sec video with 960x544 resolution could take 2 hours for 4K (3840×2176). No OOM at all !!! Workflow itself : https://pastebin.com/xJpm84f7 😍 [MinimaxH3-3D] Latent 60x34 -&amp;gt; 240x136 | Pixels 3840x2176 | scale=4.000 [MinimaxH3-3D] temporal chunking: T=72 chunks=3 overlap=5 [MinimaxH3-3D] ✅ Model offloaded to CPU. VRAM released. [INFO] Found quantization metadata version 1 [INFO] Detected mixed precision quantization [INFO] Using mixed precision operations [INFO] Native ops: convrot_w4a4&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xph0pt/comfyuiminimaxh3temporalwindowspatialtiles_works/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xpdsyd/how_are_you_fixing_the_lighting_shift_when_doing/</id><title>How are you fixing the lighting shift when doing continuation videos with Minimax?</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xpdsyd/how_are_you_fixing_the_lighting_shift_when_doing/"/>
+<published>2026-11-06T14:13:11+00:00</published><updated>2026-11-06T14:13:11+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="minimax"/>
+<category term="lora"/>
+<summary>Im using the same seed, same sampler settings and same prompt for the lighting but I always get a slight color/lighting shift. The only thing i could think of is a color match node but ive never had much success with them and i dont think i have enough ram for large videos. Im using the seed hunter </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Im using the same seed, same sampler settings and same prompt for the lighting but I always get a slight color/lighting shift. The only thing i could think of is a color match node but ive never had much success with them and i dont think i have enough ram for large videos. Im using the seed hunter workflow. With the Singularity model and DMAD turbo lora. https://civitai.red/models/2881362/minimax-h3-seed-hunter-latent-upscaler-seamless-video-continuation-dialogue-gen-tool-speedups-ref-mods?modelVersionId=3453566 submitted by /u/Nefarious_AI_Agent [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xpdsyd/how_are_you_fixing_the_lighting_shift_when_doing/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1xpbp6c/what_happens_to_all_the_hardware_assets_when_a/</id><title>What happens to all the hardware assets when a neo cloud dies? Can it be reused?</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xpbp6c/what_happens_to_all_the_hardware_assets_when_a/"/>
+<published>2026-11-06T12:34:30+00:00</published><updated>2026-11-06T12:34:30+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="vfx"/>
+<summary>It is painfully obvious that a ton of neocloud companies are going to soon go under soon. That means that a ton of cheap hardware is going to flood the market soon.. So how difficult it would be to reconfigure it for local use? Is it economically feasible? We are talking here for small vfx studio ru</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 1 · vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;It is painfully obvious that a ton of neocloud companies are going to soon go under soon. That means that a ton of cheap hardware is going to flood the market soon.. So how difficult it would be to reconfigure it for local use? Is it economically feasible? We are talking here for small vfx studio running local ai models.. If so, how small can it be implemented ? I ask this since all the hardware is build for larger installations. submitted by /u/Miserable-Debt-8390 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xpbp6c/what_happens_to_all_the_hardware_assets_when_a/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xpak8j/techno_girl_music_video/</id><title>Techno Girl - Music Video</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xpak8j/techno_girl_music_video/"/>
+<published>2026-11-06T11:31:13+00:00</published><updated>2026-11-06T11:31:13+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="image editing"/>
+<category term="animation"/>
+<category term="comfyui"/>
+<category term="minimax"/>
+<category term="consistency"/>
+<category term="ai video"/>
+<summary>I've been working on this music video for the past week, finally got it finished. It's a hardstyle/techno reimagining of "Barbie Girl," set in a futuristic cyberpunk world populated entirely by living, cybernetically enhanced dolls. Figured I'd share a little about how I put it together. I used YuE </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 6 · image editing, animation, comfyui, minimax, consistency, ai video&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I've been working on this music video for the past week, finally got it finished. It's a hardstyle/techno reimagining of "Barbie Girl," set in a futuristic cyberpunk world populated entirely by living, cybernetically enhanced dolls. Figured I'd share a little about how I put it together. I used YuE 2 to create the music, then ComfyUI to develop the characters and their overall look. Qwen 2.1 helped with image editing and refinements, while Krea 2 was used to build the different environments. Once the characters and environments were ready, I used MiniMax H3 to animate everything, generating each shot individually before editing them together to match the music. Everything was rendered at 2MP&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xpak8j/techno_girl_music_video/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xp9nbb/super_huge_update_for_minimax_h3_temporal_spatial/</id><title>Super Huge Update for Minimax H3 Temporal Spatial Node 🔥🔥🔥</title>
@@ -7568,70 +7628,5 @@
 <category term="comfyui"/>
 <summary>So I've finally gotten around to testing the very popular H3 finetunes Singularity v1.3 and the newly updated V2. Both are the pruned Int8 varient. (Uncompressed clip comparison at https://drive.google.com/file/d/17aE5KmcRwqBAcieRnRNu8O-RAkJIPN7l/view?usp=sharing ) tl:dr - V1.3 is better at characte</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · rendering, comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;So I've finally gotten around to testing the very popular H3 finetunes Singularity v1.3 and the newly updated V2. Both are the pruned Int8 varient. (Uncompressed clip comparison at https://drive.google.com/file/d/17aE5KmcRwqBAcieRnRNu8O-RAkJIPN7l/view?usp=sharing ) tl:dr - V1.3 is better at character aesthetics when not a lot of motion is involved, V2 is a lot better at rendering action scenes. Both of them seems to be equally good at prompt adherence. For the comparisons I've used the ref2v_turbo_4step_V0.1 (at 0.75 strength) from lightx2v, so results could be vastly different from others. All the clips use the same seeds and prompts for both. I've included the full prompts for all clips be&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xdr3bn/singularity_v13_and_v2_test_generations/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1xdq35v/game_changer_corridor_key_20/</id><title>Game Changer - Corridor Key 2.0</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xdq35v/game_changer_corridor_key_20/"/>
-<published>2026-10-23T21:06:16+00:00</published><updated>2026-10-23T21:06:16+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="keying"/>
-<category term="vfx"/>
-<summary>Straight out of the box keying via the standalone app 🤯 I’m blown away by its possibility in postvis and indie vfx! 🤩 submitted by /u/Failed_Actor [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · keying, vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Straight out of the box keying via the standalone app 🤯 I’m blown away by its possibility in postvis and indie vfx! 🤩 submitted by /u/Failed_Actor [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xdq35v/game_changer_corridor_key_20/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xdq0v5/how_to_add_negative_prompts_for_minimax_h3/</id><title>How to add negative prompts for Minimax H3?</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xdq0v5/how_to_add_negative_prompts_for_minimax_h3/"/>
-<published>2026-10-23T21:03:44+00:00</published><updated>2026-10-23T21:03:44+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="minimax"/>
-<summary>I was wondering on how do I add negative prompts for Minimax H3. I did a search and it mentions about adding [NEGATIVE PROMPT] and whatever as the negative prompt to a minimax H3 prompt, But it doesn't seem to have any effect. Is there a proper way of doing this? submitted by /u/TigerClaw305 [link] </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I was wondering on how do I add negative prompts for Minimax H3. I did a search and it mentions about adding [NEGATIVE PROMPT] and whatever as the negative prompt to a minimax H3 prompt, But it doesn't seem to have any effect. Is there a proper way of doing this? submitted by /u/TigerClaw305 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xdq0v5/how_to_add_negative_prompts_for_minimax_h3/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xdp47p/making_workflows_with_claude/</id><title>Making workflows with claude</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xdp47p/making_workflows_with_claude/"/>
-<published>2026-10-23T20:27:30+00:00</published><updated>2026-10-23T20:27:30+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="image editing"/>
-<category term="flux"/>
-<category term="wan"/>
-<category term="minimax"/>
-<category term="controlnet"/>
-<category term="lora"/>
-<summary>I've been workflow-hopping for a long time, testing different workflows, and spending hours upon hours making my own workflows. Then I started testing codex and claude's ability to make workflows. Codex (Astra, Ultra) failed pretty bad. Then I tried Fable 5.1. I gave it a large general instructions,</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 6 · image editing, flux, wan, minimax, controlnet, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I've been workflow-hopping for a long time, testing different workflows, and spending hours upon hours making my own workflows. Then I started testing codex and claude's ability to make workflows. Codex (Astra, Ultra) failed pretty bad. Then I tried Fable 5.1. I gave it a large general instructions, then specific instructions for each workflow. My requirements was AIO workflows with "almost" every single tech available, but no spaghetti, no confusion, just simple toggles. Fable works 10+ hours on a single workflow, but the results are pure awesomeness. Everything is tidy, easy and "just works". I have two workflows for image generation (includes every single image generation that matters + s&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xdp47p/making_workflows_with_claude/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xdovs4/minimax_h3_dual_segment_has_evolved_into_minimax/</id><title>MiniMax H3 Dual Segment has evolved into MiniMax H3 Chain Director V1.0 for ComfyUI</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xdovs4/minimax_h3_dual_segment_has_evolved_into_minimax/"/>
-<published>2026-10-23T20:17:54+00:00</published><updated>2026-10-23T20:17:54+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="upscaling"/>
-<category term="render"/>
-<category term="comfyui"/>
-<category term="minimax"/>
-<summary>My previous MiniMax H3 Dual Segment workflow has evolved into MiniMax H3 Chain Director V1.0 . This is no longer just a fixed two-segment workflow. It now includes a custom Director node that controls the complete MiniMax H3 generation process from one centralized panel. What’s new? Single and Chain</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 6 · upscaling, render, comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;My previous MiniMax H3 Dual Segment workflow has evolved into MiniMax H3 Chain Director V1.0 . This is no longer just a fixed two-segment workflow. It now includes a custom Director node that controls the complete MiniMax H3 generation process from one centralized panel. What’s new? Single and Chain modes: generate one standalone segment or build longer multi-segment video sequences. General and independent segment prompts: define shared instructions for the whole project and separate prompts for each segment. Video continuity: MiniMax H3 Motion Context carries audiovisual context between segments and helps maintain consistent motion, scenes and transitions. Automatic context trimming: remov&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xdovs4/minimax_h3_dual_segment_has_evolved_into_minimax/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xdoh8k/i_tested_the_rtx_30series_gpu_unlock_up_to_59/</id><title>I tested the RTX 30-series GPU Unlock: up to 59% higher throughput in ComfyUI (3090 Ti)</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xdoh8k/i_tested_the_rtx_30series_gpu_unlock_up_to_59/"/>
-<published>2026-10-23T20:02:37+00:00</published><updated>2026-10-23T20:02:37+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<category term="flux"/>
-<summary>Everybody's been glazing Zagitta’s GPU Unlock , so I figured I’d test it on my 3090 Ti. Overall, I’m pretty impressed. Can't complain about free performance. Results (median time per image) Model / configuration Stock Unlocked Throughput gain MOSS-Image SFT BF16 71.98 s 45.40 s +58.6% MOSS-Image SFT</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Everybody's been glazing Zagitta’s GPU Unlock , so I figured I’d test it on my 3090 Ti. Overall, I’m pretty impressed. Can't complain about free performance. Results (median time per image) Model / configuration Stock Unlocked Throughput gain MOSS-Image SFT BF16 71.98 s 45.40 s +58.6% MOSS-Image SFT INT8 27.31 s 27.23 s +0.3% Qwen-Image 2.1 Turbo BF16 8.51 s 5.41 s +57.2% Z-Image Turbo BF16 6.79 s 4.35 s +56.1% FLUX.1 dev FP8 checkpoint* 31.96 s 20.66 s +54.6% Z-Image Turbo BF16 + SageAttention 6.47 s 4.38 s +47.7% Qwen-Image 2.1 Turbo INT8 3.92 s 3.75 s +4.6% Qwen-Image 2.1 Turbo INT8 + SageAttention 3.92 s 3.76 s +4.3% All 120 matched stock/unlocked image pairs had identical decoded RGB pi&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xdoh8k/i_tested_the_rtx_30series_gpu_unlock_up_to_59/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xdnxkr/moss_can_natively_generate_comics_and_image/</id><title>Moss can natively generate comics and image sequences of the same character in any style</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xdnxkr/moss_can_natively_generate_comics_and_image/"/>
-<published>2026-10-23T19:41:26+00:00</published><updated>2026-10-23T19:41:26+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="image editing"/>
-<category term="lora"/>
-<summary>Moss SFT int8 that I merged with the stripe fix lora + Qwen 9b int8 So appearently it can create story sequences or comics within the same image. This model is insane. It follows prompts extremely well down to the smallest details. Manual simple sentence prompting. I used Lenovo lora for the photo s</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · image editing, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Moss SFT int8 that I merged with the stripe fix lora + Qwen 9b int8 So appearently it can create story sequences or comics within the same image. This model is insane. It follows prompts extremely well down to the smallest details. Manual simple sentence prompting. I used Lenovo lora for the photo style images. Generated with my experimental turbo method with the dmd2 turbo lora but high cfg to fix blur and bokeh problems with negative prompts so it was still quite fast. All pics are native 1080p. This model has huge potential for image editing and editing loras. submitted by /u/AltruisticList6000 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xdnxkr/moss_can_natively_generate_comics_and_image/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
