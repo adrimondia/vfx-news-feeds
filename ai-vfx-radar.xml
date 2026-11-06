@@ -2,8 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-05T23:30:32+00:00</updated>
+<updated>2026-11-06T01:30:33+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xoxg7n/minimax_h3_character_swap_is/</id><title>Minimax H3 character swap is 🤌</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xoxg7n/minimax_h3_character_swap_is/"/>
+<published>2026-11-05T23:18:56+00:00</published><updated>2026-11-05T23:18:56+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="minimax"/>
+<category term="lora"/>
+<summary>Just goofing around with the stock ref2vid workflow, character swap Lora, and some character sheets. Did all of the shots separately and reassembled in my NLE. Almost all of the clips were first attempts. I was floored by how well it tracked the guys without any masking. submitted by /u/tindell- [li</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Just goofing around with the stock ref2vid workflow, character swap Lora, and some character sheets. Did all of the shots separately and reassembled in my NLE. Almost all of the clips were first attempts. I was floored by how well it tracked the guys without any masking. submitted by /u/tindell- [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xoxg7n/minimax_h3_character_swap_is/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1xov7du/nitrofusion2_in_int8_w6a8_w4a8_quants_for_stock/</id><title>NitroFusion2 in int8 / W6A8 / W4A8 quants for stock ComfyUI: 6.2 / 5.0 / 3.5 GB, ~1.7× faster than bf16</title>
 <link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xov7du/nitrofusion2_in_int8_w6a8_w4a8_quants_for_stock/"/>
@@ -12,6 +22,16 @@
 <category term="comfyui"/>
 <summary>submitted by /u/LatentSpacer [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/LatentSpacer [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xov7du/nitrofusion2_in_int8_w6a8_w4a8_quants_for_stock/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xov71y/nitrofusion2_in_int8_w6a8_w4a8_quants_for_stock/</id><title>NitroFusion2 in int8 / W6A8 / W4A8 quants for stock ComfyUI: 6.2 / 5.0 / 3.5 GB, ~1.7× faster than bf16</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xov71y/nitrofusion2_in_int8_w6a8_w4a8_quants_for_stock/"/>
+<published>2026-11-05T21:42:06+00:00</published><updated>2026-11-05T21:42:06+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<category term="lora"/>
+<summary>NitroFusion2 came out this week: a 1–2 step distillation of Z-Image-Turbo by Dar-Yen Chen and Yi-Zhe Song, built for sharp text and detail in a single step. I converted it to ComfyUI's own quantized formats, so it runs in stock ComfyUI with no custom nodes, through the normal Load Diffusion Model no</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;NitroFusion2 came out this week: a 1–2 step distillation of Z-Image-Turbo by Dar-Yen Chen and Yi-Zhe Song, built for sharp text and detail in a single step. I converted it to ComfyUI's own quantized formats, so it runs in stock ComfyUI with no custom nodes, through the normal Load Diffusion Model node. int8 : 6.18 GB, 0.29 s per sampling step at 1024² on a 4090 (bf16: 0.50 s) W6A8 : 5.02 GB, 0.30 s W4A8 : 3.49 GB, 0.29 s int8 looks practically the same as bf16. W4A8 changes small details but keeps the composition, faces and text; there are side-by-side comparisons on the model card. The repo has the official 1-step and 2-step workflows set up for these files, and the publisher's 2-step de-di&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xov71y/nitrofusion2_in_int8_w6a8_w4a8_quants_for_stock/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xousq3/vimooaivimoo10litecomfyui_hugging_face/</id><title>Vimoo-AI/Vimoo-1.0-Lite-ComfyUI · Hugging Face</title>
@@ -7610,15 +7630,5 @@
 <category term="cinematic"/>
 <summary>This may not be the most accurate way to change camera angles of existing images. It's more of a hint to the model and may require some seed hunting, but I still find it useful, so I thought I’d share it anyway. You can use this method to create keyframes or panels for comic books, VNs etc. It's com</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · storyboard, cinematic&lt;/small&gt;&lt;/p&gt;&lt;p&gt;This may not be the most accurate way to change camera angles of existing images. It's more of a hint to the model and may require some seed hunting, but I still find it useful, so I thought I’d share it anyway. You can use this method to create keyframes or panels for comic books, VNs etc. It's compatible with any basic Ref2Vid workflow, after applying only the following two changes: Set the length of the video to exactly 22 frames. Connect the output of the VAE Decode node to a Preview or Save Image node. How does this work? Add one or more reference pictures for your background, characters and props and build your prompt as usual. Then draw a simple sketch that shows the scene from a diff&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xd0ter/h3_change_the_angle_of_any_image/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xd05y1/testing_minimax_h3_ref2va_with_my_ps2_style_lora/</id><title>testing minimax h3 ref2va with my ps2 style lora</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xd05y1/testing_minimax_h3_ref2va_with_my_ps2_style_lora/"/>
-<published>2026-10-23T01:00:27+00:00</published><updated>2026-10-23T01:00:27+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="minimax"/>
-<category term="lora"/>
-<summary>you can get my lora in here: https://civitai.com/models/2983280/modern-ps2-style works with text to image and image to video too. submitted by /u/aziib [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;you can get my lora in here: https://civitai.com/models/2983280/modern-ps2-style works with text to image and image to video too. submitted by /u/aziib [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xd05y1/testing_minimax_h3_ref2va_with_my_ps2_style_lora/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
