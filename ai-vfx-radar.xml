@@ -2,8 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-06T15:31:04+00:00</updated>
+<updated>2026-11-06T17:31:51+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xph0pt/comfyuiminimaxh3temporalwindowspatialtiles_works/</id><title>ComfyUI-MiniMaxH3-TemporalWindow-SpatialTiles works on 16GB VRAM + 32GB RAM with NO OOM</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xph0pt/comfyuiminimaxh3temporalwindowspatialtiles_works/"/>
+<published>2026-11-06T16:24:13+00:00</published><updated>2026-11-06T16:24:13+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<category term="minimax"/>
+<summary>I modified some workflow and added to it ComfyUI-MiniMaxH3-TemporalWindow-SpatialTiles (from this post https://www.reddit.com/r/StableDiffusion/comments/1xgcjvw/i_created_a_custom_node_that_can_help_you/ ). My 10sec video with 960x544 resolution could take 2 hours for 4K (3840×2176). No OOM at all !</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I modified some workflow and added to it ComfyUI-MiniMaxH3-TemporalWindow-SpatialTiles (from this post https://www.reddit.com/r/StableDiffusion/comments/1xgcjvw/i_created_a_custom_node_that_can_help_you/ ). My 10sec video with 960x544 resolution could take 2 hours for 4K (3840×2176). No OOM at all !!! Workflow itself : https://pastebin.com/xJpm84f7 😍 [MinimaxH3-3D] Latent 60x34 -&amp;gt; 240x136 | Pixels 3840x2176 | scale=4.000 [MinimaxH3-3D] temporal chunking: T=72 chunks=3 overlap=5 [MinimaxH3-3D] ✅ Model offloaded to CPU. VRAM released. [INFO] Found quantization metadata version 1 [INFO] Detected mixed precision quantization [INFO] Using mixed precision operations [INFO] Native ops: convrot_w4a4&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xph0pt/comfyuiminimaxh3temporalwindowspatialtiles_works/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xp9nbb/super_huge_update_for_minimax_h3_temporal_spatial/</id><title>Super Huge Update for Minimax H3 Temporal Spatial Node 🔥🔥🔥</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xp9nbb/super_huge_update_for_minimax_h3_temporal_spatial/"/>
@@ -7505,127 +7515,5 @@
 <category term="minimax"/>
 <summary>Tried MiniMax H3 for the first time about 2 days ago, I've been practicing how to train LoRAs for this model with ai-toolkit. These were some of the first clips that I was able to produce locally. Meant to jump in sooner but man there are so many configurations and model variants that I needed some </summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Tried MiniMax H3 for the first time about 2 days ago, I've been practicing how to train LoRAs for this model with ai-toolkit. These were some of the first clips that I was able to produce locally. Meant to jump in sooner but man there are so many configurations and model variants that I needed some time to figure it out. These were all text to video without first frame or references. Blown away by how well it picked up on the characteristics of the style I was going for. submitted by /u/renderartist [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xdla8a/messing_around_with_minimax_h3/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xdkghu/whats_feasible_for_a_local_video_generation_with/</id><title>What's Feasible for a Local Video Generation with a 24GB 4090 GPU?</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xdkghu/whats_feasible_for_a_local_video_generation_with/"/>
-<published>2026-10-23T17:30:28+00:00</published><updated>2026-10-23T17:30:28+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="video generation"/>
-<category term="animation"/>
-<category term="comfyui"/>
-<category term="flux"/>
-<category term="wan"/>
-<category term="minimax"/>
-<category term="ai video"/>
-<summary>I’m trying to Run Comfy UI locally. I’m new to Comfy &amp; Gen-AI, and Reddit, but experienced in traditional 3D Animation. How much AI video (length &amp; resolution) can I realistically expect to generate locally on a 24GB 4090 GPU? (my full specs are below). I’m also getting lots of GPU crashes: screens </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 8 · video generation, animation, comfyui, flux, wan, minimax, ai video&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I’m trying to Run Comfy UI locally. I’m new to Comfy &amp;amp; Gen-AI, and Reddit, but experienced in traditional 3D Animation. How much AI video (length &amp;amp; resolution) can I realistically expect to generate locally on a 24GB 4090 GPU? (my full specs are below). I’m also getting lots of GPU crashes: screens go black, but my PC fans, lights, and Spotify keep running. Is this normal? I still have a lot to learn, and I mostly work with existing workflow templates, but I keep hearing reports of people running 15 seconds of Minimax H3 1280x720 video with my hardware setup. I’m not even coming close. With MiniMax H3 the most I got was: ◦ 4 seconds of t2i video at 0.2 megapixels (608 x 342) ◦ 2 seconds of t&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xdkghu/whats_feasible_for_a_local_video_generation_with/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1xdk83p/framestore_talk_about_how_they_used_4d_gaussian/</id><title>Framestore talk about how they used 4D Gaussian Splats on Superman</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xdk83p/framestore_talk_about_how_they_used_4d_gaussian/"/>
-<published>2026-10-23T17:21:28+00:00</published><updated>2026-10-23T17:21:28+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="4d"/>
-<summary>submitted by /u/Milly_onaire [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · 4d&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/Milly_onaire [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xdk83p/framestore_talk_about_how_they_used_4d_gaussian/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xdjnh7/fibo_2_is_1_on_the_open_edit_leaderboard_so_i/</id><title>FIBO 2 is #1 on the open edit leaderboard, so i tested it blind against Qwen Image 2.1 and FLUX 3 Klein (workflow in comments)</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xdjnh7/fibo_2_is_1_on_the_open_edit_leaderboard_so_i/"/>
-<published>2026-10-23T17:00:21+00:00</published><updated>2026-10-23T17:00:21+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="flux"/>
-<summary>workflow: https://civitai.com/models/3008600 (no paywall or login required for any of my workflows or models) short version: FIBO won everyday edits (15 i loved vs Qwen 12, FLUX 11), Qwen won 3 of the 5 rounds, and FIBO Dev tied FLUX on new pictures. a Turbo edit takes about 2.4 s on my 5090, about </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;workflow: https://civitai.com/models/3008600 (no paywall or login required for any of my workflows or models) short version: FIBO won everyday edits (15 i loved vs Qwen 12, FLUX 11), Qwen won 3 of the 5 rounds, and FIBO Dev tied FLUX on new pictures. a Turbo edit takes about 2.4 s on my 5090, about 10 s with the prompt writer. heads up it’s non-commercial (CC BY-NC 4.0) all my other workflows and models: https://civitai.com/user/AusBoss https://huggingface.co/ausboss submitted by /u/AuzBoss [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xdjnh7/fibo_2_is_1_on_the_open_edit_leaderboard_so_i/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xdj75w/heres_my_h3_character_swap_workflow_with_matched/</id><title>Here's my H3 Character swap workflow with matched lighting and lip-sync! Any user feedback is welcome as I want to optimize it further ;)</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xdj75w/heres_my_h3_character_swap_workflow_with_matched/"/>
-<published>2026-10-23T16:43:04+00:00</published><updated>2026-10-23T16:43:04+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="lip-sync"/>
-<category term="comfyui"/>
-<summary>Full ComfyUI Tutorial Download the workflow for free from my patreon if you want to support me :) or directly from here submitted by /u/Medmehrez [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · lip-sync, comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Full ComfyUI Tutorial Download the workflow for free from my patreon if you want to support me :) or directly from here submitted by /u/Medmehrez [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xdj75w/heres_my_h3_character_swap_workflow_with_matched/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xdj0tk/relight_studio_interactive_physically_based/</id><title>Relight Studio: interactive, physically based relighting inside ComfyUI (no generative re-render, nothing leaves your GPU)</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xdj0tk/relight_studio_interactive_physically_based/"/>
-<published>2026-10-23T16:36:18+00:00</published><updated>2026-10-23T16:36:18+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="relighting"/>
-<category term="relight"/>
-<category term="compositing"/>
-<category term="vfx"/>
-<category term="render"/>
-<category term="comfyui"/>
-<summary>Same photo. Four completely different lighting setups. None of them were shot. For the past few weeks I've been building a relighting tool inside ComfyUI. The path there was more interesting than the result. It started with my library of film stills that I use for lighting reference. I built a node </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 9 · relighting, relight, compositing, vfx, render, comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Same photo. Four completely different lighting setups. None of them were shot. For the past few weeks I've been building a relighting tool inside ComfyUI. The path there was more interesting than the result. It started with my library of film stills that I use for lighting reference. I built a node that indexes it locally and lets me search in plain words, like "neon rain night, hard rim light". It ranks results by mood, composition and colour. The next question was obvious: can I put that light onto my own image? Generative image-to-image got close, but faces drifted and I couldn't move a light ten degrees and get a predictable result. So I changed approach. The workflow now: → cuts out the&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xdj0tk/relight_studio_interactive_physically_based/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xdiyb4/relight_studio_interactive_physically_based/</id><title>Relight Studio: interactive, physically based relighting inside ComfyUI (no generative re-render, nothing leaves your GPU)</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xdiyb4/relight_studio_interactive_physically_based/"/>
-<published>2026-10-23T16:33:37+00:00</published><updated>2026-10-23T16:33:37+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="relighting"/>
-<category term="relight"/>
-<category term="compositing"/>
-<category term="vfx"/>
-<category term="render"/>
-<category term="comfyui"/>
-<summary>Same photo. Four completely different lighting setups. None of them were shot. For the past few weeks I've been building a relighting tool inside ComfyUI. The path there was more interesting than the result. It started with my library of film stills that I use for lighting reference. I built a node </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 9 · relighting, relight, compositing, vfx, render, comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Same photo. Four completely different lighting setups. None of them were shot. For the past few weeks I've been building a relighting tool inside ComfyUI. The path there was more interesting than the result. It started with my library of film stills that I use for lighting reference. I built a node that indexes it locally and lets me search in plain words, like "neon rain night, hard rim light". It ranks results by mood, composition and colour. The next question was obvious: can I put that light onto my own image? Generative image-to-image got close, but faces drifted and I couldn't move a light ten degrees and get a predictable result. So I changed approach. The workflow now: → cuts out the&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xdiyb4/relight_studio_interactive_physically_based/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xdimhp/abyssbeacon_v151_find_new_loras_and_checkpoints/</id><title>AbyssBeacon v1.5.1: Find new LoRAs and checkpoints, track updates, and download into ComfyUI</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xdimhp/abyssbeacon_v151_find_new_loras_and_checkpoints/"/>
-<published>2026-10-23T16:21:34+00:00</published><updated>2026-10-23T16:21:34+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="tracking"/>
-<category term="comfyui"/>
-<category term="flux"/>
-<summary>Finding a new model is one thing. Remembering which site it came from, whether it updated, and where you saved it is another. AbyssBeacon brings model discovery, previews, update tracking, and downloads into one local app, with files downloaded directly into your ComfyUI folders. It searches CivitAI</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · tracking, comfyui, flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Finding a new model is one thing. Remembering which site it came from, whether it updated, and where you saved it is another. AbyssBeacon brings model discovery, previews, update tracking, and downloads into one local app, with files downloaded directly into your ComfyUI folders. It searches CivitAI, CivitAI Red, Hugging Face, ModelScope, SeaArt, and TensorHub Art . Choose the architectures and model types you use, scan your preferred sources, then browse the results together. GitHub / download: https://github.com/Tomat0223/AbyssBeacon Discord Server: https://discord.gg/gdNWuwEBEB - Just made this but anyone is welcome to join and suggest features or requests. An earlier version was shared h&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xdimhp/abyssbeacon_v151_find_new_loras_and_checkpoints/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1xdije1/hiring_experienced_nuke_compositors_feature_film/</id><title>Hiring: Experienced Nuke Compositors — Feature Film / Approx. 3 Months</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xdije1/hiring_experienced_nuke_compositors_feature_film/"/>
-<published>2026-10-23T16:18:16+00:00</published><updated>2026-10-23T16:18:16+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="nuke"/>
-<summary>submitted by /u/KingsRansomMedia [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · nuke&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/KingsRansomMedia [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xdije1/hiring_experienced_nuke_compositors_feature_film/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xdidzz/abyssbeacon_v151_find_track_and_download_loras/</id><title>AbyssBeacon v1.5.1 - Find, track, and download LoRAs and checkpoints across six model sites</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xdidzz/abyssbeacon_v151_find_track_and_download_loras/"/>
-<published>2026-10-23T16:12:40+00:00</published><updated>2026-10-23T16:12:40+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="tracking"/>
-<category term="comfyui"/>
-<category term="flux"/>
-<summary>Checking CivitAI for new LoRAs, switching to Hugging Face, checking whether a favorite checkpoint updated, then repeating everything for another architecture gets old pretty quickly. AbyssBeacon brings model discovery, update tracking, previews, and downloads into one local app. Choose the architect</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · tracking, comfyui, flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Checking CivitAI for new LoRAs, switching to Hugging Face, checking whether a favorite checkpoint updated, then repeating everything for another architecture gets old pretty quickly. AbyssBeacon brings model discovery, update tracking, previews, and downloads into one local app. Choose the architectures and sources you care about, scan for new or updated models, browse image and video previews, read model information, and download files into your ComfyUI folders. Favorites, creator pages, collections, and downloaded/update-available tracking help you keep track of what you actually use. It searches CivitAI, CivitAI Red, Hugging Face, ModelScope, SeaArt, and TensorHub Art. You can run archite&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xdidzz/abyssbeacon_v151_find_track_and_download_loras/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1xdibwc/on_set_vfx_sup_looking_to_make_connections/</id><title>On Set VFX Sup looking to make connections</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xdibwc/on_set_vfx_sup_looking_to_make_connections/"/>
-<published>2026-10-23T16:10:37+00:00</published><updated>2026-10-23T16:10:37+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="vfx"/>
-<summary>I’m an Emmy nominated VFX Sup with 6 years experience on set looking to find other collaborators and connections. I’d love to job share with other VFX Sups, give free or affordable advice to indie films and connect with any producers or companies. Especially if they might be looking to hire an On Se</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I’m an Emmy nominated VFX Sup with 6 years experience on set looking to find other collaborators and connections. I’d love to job share with other VFX Sups, give free or affordable advice to indie films and connect with any producers or companies. Especially if they might be looking to hire an On Set VFX Sup. I’ve worked on two jobs here in the UK so far and my CV from New Zealand is mainly medium to ultra large budget projects. I’ve had to move countries to the UK due to circumstances beyond my control. Which, as we all know, is tough to do when you can only get jobs through friends or trusted colleagues. So any pointers or friendly faces would be very appreciated! Edit: Im especially keen &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xdibwc/on_set_vfx_sup_looking_to_make_connections/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1xdhk29/anyone_else_think_we_could_use_a_little_more/</id><title>Anyone else think we could use a little more positivity around here?</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xdhk29/anyone_else_think_we_could_use_a_little_more/"/>
-<published>2026-10-23T15:42:39+00:00</published><updated>2026-10-23T15:42:39+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="vfx"/>
-<category term="blender"/>
-<category term="unreal"/>
-<summary>I've been in VFX for 13 years, and I get it. Things are rough right now. The job market is scary, studios are struggling, AI is changing things, and a lot of people are understandably frustrated. But man, sometimes I come on here and feel like there's absolutely nothing left to be positive about. I </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 3 · vfx, blender, unreal&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I've been in VFX for 13 years, and I get it. Things are rough right now. The job market is scary, studios are struggling, AI is changing things, and a lot of people are understandably frustrated. But man, sometimes I come on here and feel like there's absolutely nothing left to be positive about. I understand the negativity, I really do, but I also think we might be doing ourselves a disservice by constantly focusing on the worst parts of this industry. I got into VFX because I loved creating things. One of my personal goals was to get my name in the Star Wars credits, and I managed to do that. I'm still proud of it. But honestly, some of the best things I've gotten out of these 13 years hav&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xdhk29/anyone_else_think_we_could_use_a_little_more/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
