@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-06T11:31:07+00:00</updated>
+<updated>2026-11-06T13:30:57+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xp9nbb/super_huge_update_for_minimax_h3_temporal_spatial/</id><title>Super Huge Update for Minimax H3 Temporal Spatial Node 🔥🔥🔥</title>
@@ -14,6 +14,15 @@
 <category term="minimax"/>
 <summary>https://registry.comfy.org/publishers/mo-akkakk/nodes/comfyui-minimax-h3-temporal-window-spatial-tiles You can now run a video to video workflow in High resolution from the first stage, I tested it for 2.5 MP on Nvidia RTX TI 12GB VRAM, and it works like a charm, split your generation into tiles and</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · upscaling, animation, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;https://registry.comfy.org/publishers/mo-akkakk/nodes/comfyui-minimax-h3-temporal-window-spatial-tiles You can now run a video to video workflow in High resolution from the first stage, I tested it for 2.5 MP on Nvidia RTX TI 12GB VRAM, and it works like a charm, split your generation into tiles and temporal windows while maintaining accurate animation transfer with no shifting or ghosting. You can also use it for a second upscale stage, splitting a high resolution long video into manageable tiles and windows, to get the best quality you can squeeze from u/minimax . Give it a try and let me know about your Feedback. Important Note: This was not tested nor recommended to do Fully Generated fr&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xp9nbb/super_huge_update_for_minimax_h3_temporal_spatial/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xp8f15/tailsteer_trajectorytail_steering_for/</id><title>TailSteer: Trajectory-Tail Steering for Drift-Resistant Multi-turn Image Editing</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xp8f15/tailsteer_trajectorytail_steering_for/"/>
+<published>2026-11-06T09:15:13+00:00</published><updated>2026-11-06T09:15:13+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="image editing"/>
+<summary>model: https://huggingface.co/Lyricccco/Qwen-Image-2.1-TailSteer app: https://huggingface.co/spaces/akhaliq/endless-edit-tailsteer submitted by /u/Illustrious_Row_9971 [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · image editing&lt;/small&gt;&lt;/p&gt;&lt;p&gt;model: https://huggingface.co/Lyricccco/Qwen-Image-2.1-TailSteer app: https://huggingface.co/spaces/akhaliq/endless-edit-tailsteer submitted by /u/Illustrious_Row_9971 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xp8f15/tailsteer_trajectorytail_steering_for/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://github.com/google-gemini/gemini-skills</id><title>google-gemini/gemini-skills</title>
@@ -7691,48 +7700,5 @@
 <category term="flux"/>
 <summary>So now that enough days has been passed, and we see how bad the model flux 3 is, what are any responses from BFL team? I heard they said that some node did this and i tried updating and testing it again but with same body horrors. What are your thoughts? Was this to troll OS community? Now that this</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · video model, flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;So now that enough days has been passed, and we see how bad the model flux 3 is, what are any responses from BFL team? I heard they said that some node did this and i tried updating and testing it again but with same body horrors. What are your thoughts? Was this to troll OS community? Now that this is so messed up what do you expect for OS Flux 3 video model? Also one more thing. When they released the demo to try free a month or so ago, i tested cococola can and added vague prompting, the result was astonishing. Sadly i deleted that image. What could be the reason? submitted by /u/Mysterious_Movie4748 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xdepyv/so_now_that_dust_setteled_flux_3/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xddxh7/good_character_replacement/</id><title>Good character replacement</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xddxh7/good_character_replacement/"/>
-<published>2026-10-23T13:23:22+00:00</published><updated>2026-10-23T13:23:22+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="wan"/>
-<category term="minimax"/>
-<summary>Hi everyone, I’ve been using Wan SCAIL for character replacement. Sometimes it turns out spectacular and spot-on, but other times it hallucinates/invents details. Plus, generation times on my RTX 4080 Super are quite long. I also tried a MiniMax H3 workflow, but the results were terrible: it either </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · wan, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi everyone, I’ve been using Wan SCAIL for character replacement. Sometimes it turns out spectacular and spot-on, but other times it hallucinates/invents details. Plus, generation times on my RTX 4080 Super are quite long. I also tried a MiniMax H3 workflow, but the results were terrible: it either completely hallucinates and fails to include the person from the source image, or—in the best case—it gives a decent video but leaves the original face intact instead of replacing it. I see a lot of hype around MiniMax, so I’m wondering: does it actually work well for you and I just downloaded a bad workflow, or is it as inconsistent as I’ve experienced? Any advice, tips, or recommendations on wha&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xddxh7/good_character_replacement/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xddqdo/is_moss_the_new_anima_hitoon_lora_showcase_for/</id><title>Is Moss the new Anima? HiToon LoRA Showcase for Moss Image</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xddqdo/is_moss_the_new_anima_hitoon_lora_showcase_for/"/>
-<published>2026-10-23T13:15:16+00:00</published><updated>2026-10-23T13:15:16+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="lora"/>
-<summary>Moss generates incredibly fast (with a turbo LoRA) and can still keep it's insane prompt adherence. I've really enjoyed using it so far. The HiToon LoRA is in the comments! submitted by /u/Putrid-Dark2076 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Moss generates incredibly fast (with a turbo LoRA) and can still keep it's insane prompt adherence. I've really enjoyed using it so far. The HiToon LoRA is in the comments! submitted by /u/Putrid-Dark2076 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xddqdo/is_moss_the_new_anima_hitoon_lora_showcase_for/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xdcmku/lora_moss_image_max_ultra_hires_by_comfyui_team/</id><title>[Lora] MOSS Image - MAX ULTRA hires by ComfyUI Team</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xdcmku/lora_moss_image_max_ultra_hires_by_comfyui_team/"/>
-<published>2026-10-23T12:27:00+00:00</published><updated>2026-10-23T12:27:00+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<category term="lora"/>
-<summary>A LoHa adapter for MOSS-Image-Base (Comfy-Org) , trained to improve generation at 4 MP and higher resolutions. Trained on a mix of probably too much anime and photographs 3.5MP to 10MP. https://preview.redd.it/n9t6xkd3n7xh1.png?width=4096&amp;format=png&amp;auto=webp&amp;s=0679dd99204555fdd27d630c00a942c28e8581</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;A LoHa adapter for MOSS-Image-Base (Comfy-Org) , trained to improve generation at 4 MP and higher resolutions. Trained on a mix of probably too much anime and photographs 3.5MP to 10MP. https://preview.redd.it/n9t6xkd3n7xh1.png?width=4096&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=0679dd99204555fdd27d630c00a942c28e8581d4 Link: comfyanonymous/MOSS_image_MAX_ULTRA_hires_lora_test · Hugging Face submitted by /u/Crazy-Repeat-2006 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xdcmku/lora_moss_image_max_ultra_hires_by_comfyui_team/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xdbrfi/tired_of_paying_higgsfield_to_get_my_sfw_prompts/</id><title>Tired of paying Higgsfield to get my SFW prompts censored, so I rebuilt it on ComfyUI: one-click reels, 25 camera moves, re-shoot from a new angle. All workflows included.</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xdbrfi/tired_of_paying_higgsfield_to_get_my_sfw_prompts/"/>
-<published>2026-10-23T11:45:34+00:00</published><updated>2026-10-23T11:45:34+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="sam3"/>
-<category term="avatar"/>
-<category term="comfyui"/>
-<category term="flux"/>
-<category term="wan"/>
-<category term="cinematic"/>
-<summary>Credits gone, "this content violates our guidelines" on a perfectly SFW prompt, try again, more credits gone. I was done. So I built CreatorOS Studio : the one-click experience of the hosted video apps, but on your own GPU, with open-weights models only. No credits, no subscription, no one else's fi</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 7 · sam3, avatar, comfyui, flux, wan, cinematic&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Credits gone, "this content violates our guidelines" on a perfectly SFW prompt, try again, more credits gone. I was done. So I built CreatorOS Studio : the one-click experience of the hosted video apps, but on your own GPU, with open-weights models only. No credits, no subscription, no one else's filter on your machine. It's Apache-2.0. What you get, one click each: - 🎬 Brief → finished reel. Write one line. A local LLM plans the shots, each one gets animated with sound (LTX-2.5) and the reel is edited for you, with hook, fades and music. - 🎥 25 camera moves &amp;amp; effects on any photo: dolly, crash zoom, orbit, bullet time, dolly zoom… plus squish, inflate, cakeify, explode. - 🔁 Re-shoot : take &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xdbrfi/tired_of_paying_higgsfield_to_get_my_sfw_prompts/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
