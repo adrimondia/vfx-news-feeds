@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-07T05:30:20+00:00</updated>
+<updated>2026-11-07T07:30:26+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xpwnro/why_are_all_the_newly_released_image_edit_models/</id><title>Why are all the newly released Image Edit models junk?</title>
@@ -7556,26 +7556,5 @@
 <category term="lora"/>
 <summary>1st Nano Banana 2.1, 2nd GPT Image 2.5, 3rd Muse Image, 4th Qwen image 2.1 turbo, 5th Flux 3 Klein (he's trying to compete alright..), 6th Krea 2 turbo, 7th Moss-image-sft (8 steps lora).. Prompt used for the comparison: A candid medium-full photograph of a 19-year-old East Asian woman with refined </summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · flux, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;1st Nano Banana 2.1, 2nd GPT Image 2.5, 3rd Muse Image, 4th Qwen image 2.1 turbo, 5th Flux 3 Klein (he's trying to compete alright..), 6th Krea 2 turbo, 7th Moss-image-sft (8 steps lora).. Prompt used for the comparison: A candid medium-full photograph of a 19-year-old East Asian woman with refined K-pop idol aesthetics, captured mid-motion as she leans forward gently at the waist to pick a wildflower in a vibrant, sun-drenched meadow. She has a natural, unposed demeanor with a soft, warm smile and downward gaze focused on the blossoms in her hand. Her face features delicate, dewy makeup with soft peach-pink blush, subtle gradient coral lips, and natural skin texture with visible pores and f&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xe3sw3/comparison_between_sota_model_and_open_weight/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1xe28p0/vfx_noob_question_surrounding_the_corridor_key_20/</id><title>VFX Noob question surrounding the Corridor Key 2.0 release.</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xe28p0/vfx_noob_question_surrounding_the_corridor_key_20/"/>
-<published>2026-10-24T07:24:24+00:00</published><updated>2026-10-24T07:24:24+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="green screen"/>
-<category term="vfx"/>
-<summary>Hello VFX community, I’ve been working as a cameraman for 10+ years. I’ve done quite a bit of green screen work on set, and every so often, I do post for smaller projects. When I’m doing post, the green screen work is always quite straightforward as I expect. Even with a properly lit green screen, I</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 3 · green screen, vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hello VFX community, I’ve been working as a cameraman for 10+ years. I’ve done quite a bit of green screen work on set, and every so often, I do post for smaller projects. When I’m doing post, the green screen work is always quite straightforward as I expect. Even with a properly lit green screen, I still find motion blur and glancing reflections problematic. I watched the release video for Corridor Key 2.0 and as someone who doesn’t do VFX for a living, I was blown away. Especially with how it handled semi transparent objects like the bubble wrap. I was even more shocked when I went to the comments section in this community and saw all the criticism. None of the criticism I saw mention what&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xe28p0/vfx_noob_question_surrounding_the_corridor_key_20/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xe1gse/i_trained_a_lora_that_makes_mossimage_output_real/</id><title>I trained a LoRA that makes MOSS-Image output real transparent PNGs (proof of concept, 39 training images)</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xe1gse/i_trained_a_lora_that_makes_mossimage_output_real/"/>
-<published>2026-10-24T06:37:51+00:00</published><updated>2026-10-24T06:37:51+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<category term="flux"/>
-<category term="lora"/>
-<summary>It's late, so Claude wrote this for me, but basically: there's a project, https://huggingface.co/trmz/flux2-klein-alpha , where they trained Flux Klein to work with RGBA. Since the VAE is the same, I wondered whether MOSS-Image could produce RGBA too, and surprisingly, it can! It only takes a small </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · comfyui, flux, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;It's late, so Claude wrote this for me, but basically: there's a project, https://huggingface.co/trmz/flux2-klein-alpha , where they trained Flux Klein to work with RGBA. Since the VAE is the same, I wondered whether MOSS-Image could produce RGBA too, and surprisingly, it can! It only takes a small dataset and a short training run. Anyway, here's the text Claude wrote: Hi! I've been experimenting with getting MOSS-Image to generate images with a real alpha channel, and the proof of concept turned out better than I expected, so I'm sharing it. How it works: you end your prompt with "isolated on a transparent background" and decode with the RGBA VAE from trmz/flux2-klein-alpha. You get a trans&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xe1gse/i_trained_a_lora_that_makes_mossimage_output_real/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
