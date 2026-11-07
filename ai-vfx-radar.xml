@@ -2,8 +2,19 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-07T07:30:26+00:00</updated>
+<updated>2026-11-07T08:00:44+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xq0kuk/updated_hyperflowh3flash_4_6_or_8_steps/</id><title>Updated hyperflow-h3-flash (4, 6, or 8 steps)</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xq0kuk/updated_hyperflowh3flash_4_6_or_8_steps/"/>
+<published>2026-11-07T07:32:27+00:00</published><updated>2026-11-07T07:32:27+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<category term="lora"/>
+<category term="stereo"/>
+<summary>ComfyUI custom node: https://github.com/Video-Rebirth/ComfyUI-HyperFlow-Flash This is for GGUF so you also need https://github.com/city96/ComfyUI-GGUF (There is a int8convrot version, but I guess there is no ComfyUI loader for it yet?) It is also interesting to note that the original 21B MMH3 has be</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, lora, stereo&lt;/small&gt;&lt;/p&gt;&lt;p&gt;ComfyUI custom node: https://github.com/Video-Rebirth/ComfyUI-HyperFlow-Flash This is for GGUF so you also need https://github.com/city96/ComfyUI-GGUF (There is a int8convrot version, but I guess there is no ComfyUI loader for it yet?) It is also interesting to note that the original 21B MMH3 has been pared down to 14B, which mean that it will run faster than other turbo models even at 8 steps. HyperFlow H3 Flash is Video Rebirth 's compressed, few-step version of MiniMax-H3 . It generates video and synchronized stereo audio together. Showcase: See HyperFlow H3 Flash generated video and audio examples . Output: a 5.2 to 15 s video at 24 fps (1344×768 by default) with a 32 kHz stereo soundtra&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xq0kuk/updated_hyperflowh3flash_4_6_or_8_steps/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xpwnro/why_are_all_the_newly_released_image_edit_models/</id><title>Why are all the newly released Image Edit models junk?</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xpwnro/why_are_all_the_newly_released_image_edit_models/"/>
