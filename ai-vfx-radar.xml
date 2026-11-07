@@ -2,8 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-07T11:30:21+00:00</updated>
+<updated>2026-11-07T13:30:21+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1xq5651/animator_open_to_commissions_and_freelance_work/</id><title>[ANIMATOR] Open to commissions and freelance work.</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xq5651/animator_open_to_commissions_and_freelance_work/"/>
+<published>2026-11-07T12:25:30+00:00</published><updated>2026-11-07T12:25:30+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="animation"/>
+<category term="vfx"/>
+<summary>I'm open to 2D 3D animation and VFX, CGI work. submitted by /u/villamossnake [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · animation, vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I'm open to 2D 3D animation and VFX, CGI work. submitted by /u/villamossnake [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xq5651/animator_open_to_commissions_and_freelance_work/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xq2wze/scail2_vs_minimax_for_motion_control_rtx_5090/</id><title>SCAIL-2 vs MiniMax for Motion Control – RTX 5090</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xq2wze/scail2_vs_minimax_for_motion_control_rtx_5090/"/>
@@ -22,6 +32,15 @@
 <category term="comfyui"/>
 <summary>When I first started with ComfyUI, the first thing I looked for was a native desktop client without browser lag and DOM-based architecture. I'm a C++ dev with over 20 years of commercial experience, so I eventually just started writing my own client on the side. I used an ultra-fast UI framework tha</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;When I first started with ComfyUI, the first thing I looked for was a native desktop client without browser lag and DOM-based architecture. I'm a C++ dev with over 20 years of commercial experience, so I eventually just started writing my own client on the side. I used an ultra-fast UI framework that can easily chew through thousands of nodes on a canvas without the slightest stutter, boost for networking, sqlite as a DB, and the fmt library - the fastest formatting framework out there, leaving room for an easy port to Linux/Mac. The main reason all existing clients are forced into the browser is custom JS nodes, which are themselves bottlenecked by Litegraph's architecture. Bypassing this t&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xq2eei/c_desktop_client_for_comfyui/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xq27mf/tbg_comfyui_node_for_layered_decomposition/</id><title>TBG ComfyUi Node for Layered Decomposition – RevealLayer</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xq27mf/tbg_comfyui_node_for_layered_decomposition/"/>
+<published>2026-11-07T09:17:36+00:00</published><updated>2026-11-07T09:17:36+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<summary>Today’s takeaway: decomposing images Links, workflows, custom_node Do you remember Qwen-Image-Layered? The idea was exciting: take one flattened image and split it into multiple RGBA layers — foreground elements, background and the things in between — so you can move, edit or refine each piece separ</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Today’s takeaway: decomposing images Links, workflows, custom_node Do you remember Qwen-Image-Layered? The idea was exciting: take one flattened image and split it into multiple RGBA layers — foreground elements, background and the things in between — so you can move, edit or refine each piece separately. When we tested it, the experience was not always as smooth as we hoped. In our workflows it could be slow and a little temperamental, and we sometimes saw noticeable quality loss in the resulting layers. That does not make it a bad model. You can build some genuinely nice workflows with it. It simply left us wanting a more controllable route for the kind of work we had in mind. So we went d&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xq27mf/tbg_comfyui_node_for_layered_decomposition/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xq1po9/ph3image_2_step_lora_is_out/</id><title>p-h3-image 2 step lora is out</title>
