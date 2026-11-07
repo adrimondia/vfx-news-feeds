@@ -2,8 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-07T03:30:21+00:00</updated>
+<updated>2026-11-07T05:30:20+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xpwnro/why_are_all_the_newly_released_image_edit_models/</id><title>Why are all the newly released Image Edit models junk?</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xpwnro/why_are_all_the_newly_released_image_edit_models/"/>
+<published>2026-11-07T03:46:15+00:00</published><updated>2026-11-07T03:46:15+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="flux"/>
+<category term="lora"/>
+<summary>I was trying to test the new Viggle-Remake-Swap LoRA in MiniMax-H3. For this I needed to character swap in one of the frames of my source video clip (3.75s, 90 frames), so that the target video would have the new character in it. I went through all the new image edit models released recently to do t</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · flux, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I was trying to test the new Viggle-Remake-Swap LoRA in MiniMax-H3. For this I needed to character swap in one of the frames of my source video clip (3.75s, 90 frames), so that the target video would have the new character in it. I went through all the new image edit models released recently to do the character swap. I tried Flux.3 Klein, Qwen 2.1, Fibo Image Edit 2.0, p-H3-Image-Edit and they all failed. So, I went back to the older image edit models Qwen 2511, Klein 9B, Krea2-Identity-Edit v1.2. The first two worked perfectly, while Krea2 Identity Edit did a far better job than any of the newer edit models. Final conclusion - Flux.3 Klein: crap much much worse than even Klein 4B; Qwen 2.1:&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xpwnro/why_are_all_the_newly_released_image_edit_models/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xpuf8b/first_test_of_geiru_context_suite_to_produce_a_2/</id><title>First test of Geiru Context Suite to produce a 2 minute shot! Works great!!</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xpuf8b/first_test_of_geiru_context_suite_to_produce_a_2/"/>
@@ -7567,34 +7577,5 @@
 <category term="lora"/>
 <summary>It's late, so Claude wrote this for me, but basically: there's a project, https://huggingface.co/trmz/flux2-klein-alpha , where they trained Flux Klein to work with RGBA. Since the VAE is the same, I wondered whether MOSS-Image could produce RGBA too, and surprisingly, it can! It only takes a small </summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · comfyui, flux, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;It's late, so Claude wrote this for me, but basically: there's a project, https://huggingface.co/trmz/flux2-klein-alpha , where they trained Flux Klein to work with RGBA. Since the VAE is the same, I wondered whether MOSS-Image could produce RGBA too, and surprisingly, it can! It only takes a small dataset and a short training run. Anyway, here's the text Claude wrote: Hi! I've been experimenting with getting MOSS-Image to generate images with a real alpha channel, and the proof of concept turned out better than I expected, so I'm sharing it. How it works: you end your prompt with "isolated on a transparent background" and decode with the RGBA VAE from trmz/flux2-klein-alpha. You get a trans&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xe1gse/i_trained_a_lora_that_makes_mossimage_output_real/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xdyu4a/higgsfield_genjutsu_character_replace_is_now/</id><title>Higgsfield Genjutsu (Character Replace) is Now Available With SwarmUI v185 and ComfyUI v145 locally for free via MiniMax H3 - 1 click to install and use</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xdyu4a/higgsfield_genjutsu_character_replace_is_now/"/>
-<published>2026-10-24T04:07:19+00:00</published><updated>2026-10-24T04:07:19+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="minimax"/>
-<summary>You can read changelogs and download ComfyUI and workflow from here : https://www.patreon.com/SECourses/posts/comfyui-auto-2-105023709 submitted by /u/CeFurkan [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;You can read changelogs and download ComfyUI and workflow from here : https://www.patreon.com/SECourses/posts/comfyui-auto-2-105023709 submitted by /u/CeFurkan [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xdyu4a/higgsfield_genjutsu_character_replace_is_now/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1xdynqg/built_my_own_little_nodebased_comp_app_for_mac/</id><title>Built my own little node-based comp app for Mac, looking for 10-15 testers (free private beta)</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xdynqg/built_my_own_little_nodebased_comp_app_for_mac/"/>
-<published>2026-10-24T03:58:04+00:00</published><updated>2026-10-24T03:58:04+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="nuke"/>
-<summary>Hey all, Flame artist in Paris here (mostly beauty and luxury). I've been building Nodalt on the side for quite a while now, a small node-based comp app for Mac shaped by years on Flame, Nuke and After Effects: Batch-style linking, local AI tools. Not trying to compete with any of them, it's just my</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 1 · nuke&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey all, Flame artist in Paris here (mostly beauty and luxury). I've been building Nodalt on the side for quite a while now, a small node-based comp app for Mac shaped by years on Flame, Nuke and After Effects: Batch-style linking, local AI tools. Not trying to compete with any of them, it's just my playground for ideas. It's still rough, so I'm looking for 10 to 15 compositors to try the free private beta and tell me what works, what's confusing and what's missing. Brutal is fine. Apple silicon Mac, macOS 14+: https://nodalt.visualt.fr/#beta Thanks for reading, Thanks to the mods for the OK! Owen x submitted by /u/Ligieb [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xdynqg/built_my_own_little_nodebased_comp_app_for_mac/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xdy95o/18_clip_reel_of_my_minimax_h3_lora_on_a_3090/</id><title>18 clip reel of my Minimax H3 LoRA on a 3090</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xdy95o/18_clip_reel_of_my_minimax_h3_lora_on_a_3090/"/>
-<published>2026-10-24T03:35:51+00:00</published><updated>2026-10-24T03:35:51+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="minimax"/>
-<category term="lora"/>
-<summary>More info and workflows here: https://www.reddit.com/r/StableDiffusion/comments/1xbobrr/original_character_lora_for_minimax_h3_learnings/ submitted by /u/DeliciousGorilla [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;More info and workflows here: https://www.reddit.com/r/StableDiffusion/comments/1xbobrr/original_character_lora_for_minimax_h3_learnings/ submitted by /u/DeliciousGorilla [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xdy95o/18_clip_reel_of_my_minimax_h3_lora_on_a_3090/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
