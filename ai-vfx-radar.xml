@@ -2,8 +2,68 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-07T15:30:20+00:00</updated>
+<updated>2026-11-07T17:30:20+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xqbon5/viggle_remake_is_a_beast/</id><title>Viggle Remake is a beast</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xqbon5/viggle_remake_is_a_beast/"/>
+<published>2026-11-07T17:21:06+00:00</published><updated>2026-11-07T17:21:06+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="video generation"/>
+<category term="comfyui"/>
+<summary>https://huggingface.co/Viggle/Viggle-Remake For this video I used their included MCP. However, it's currently set up to run with diffusers which means that no consumer GPU works, despite them offering ComfyUI compatible loras along with custom nodes. Fortunately, the MCP was built with using custom </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · video generation, comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;https://huggingface.co/Viggle/Viggle-Remake For this video I used their included MCP. However, it's currently set up to run with diffusers which means that no consumer GPU works, despite them offering ComfyUI compatible loras along with custom nodes. Fortunately, the MCP was built with using custom workers in mind. So I (read: Claude) set that up so the MCP uses a custom comfy worker. Then your favorite agent can do everything . I had Claude use the Codex CLI to generate the necessary edited frames and present them to me for approval before it sent it off to comfy for video generation. I'm sure it's possible to set it up so that it uses a local edit model too, so that's the next thing to try&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xqbon5/viggle_remake_is_a_beast/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1xqawms/comp_02_beta_is_now_available_for_windows_macos/</id><title>Comp 0.2 beta is now available for Windows, macOS and Linux.</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xqawms/comp_02_beta_is_now_available_for_windows_macos/"/>
+<published>2026-11-07T16:48:43+00:00</published><updated>2026-11-07T16:48:43+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="keying"/>
+<category term="sam3"/>
+<category term="animation"/>
+<category term="compositing"/>
+<category term="vfx"/>
+<category term="hdr"/>
+<category term="render"/>
+<summary>Comp 0.2 beta is out. Here’s what I’ve been building since August. You can now bring in an animated camera from FBX or Alembic, project footage onto cards and render from another camera. The 3D Renderer keeps the source layers and adds depth plus per-object UV, motion-vector and alpha passes. Camera</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 7 · keying, sam3, animation, compositing, vfx, hdr, render&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Comp 0.2 beta is out. Here’s what I’ve been building since August. You can now bring in an animated camera from FBX or Alembic, project footage onto cards and render from another camera. The 3D Renderer keeps the source layers and adds depth plus per-object UV, motion-vector and alpha passes. Camera and card motion blur are supported too. For lens work, LensDistortion adds nine 3DE models and imports supported 3DE Nuke-format exports, including animated coefficients. You can undistort a plate, work on the composite and reapply the lens distortion. Keying has had a lot of attention. CCkey brings local AI green-screen keying based on Corridor Crew Keyer 1. Alongside the new despill tools, Edge&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xqawms/comp_02_beta_is_now_available_for_windows_macos/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1xqahgi/knitted_bb8_interactive_breakdown_and_closeups/</id><title>Knitted BB8 - Interactive Breakdown and Closeups</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xqahgi/knitted_bb8_interactive_breakdown_and_closeups/"/>
+<published>2026-11-07T16:30:48+00:00</published><updated>2026-11-07T16:30:48+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="houdini"/>
+<category term="storyboard"/>
+<summary>I wanted to show some breakdowns and closeup renderings of the knitted BB8 Short done in Houdini and using KTT for the environment and Fibric for all the curves. The complete interactive breakdown is on cglounge breakdowns as I can share the full experience here. You have to click and scroll through</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · houdini, storyboard&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I wanted to show some breakdowns and closeup renderings of the knitted BB8 Short done in Houdini and using KTT for the environment and Fibric for all the curves. The complete interactive breakdown is on cglounge breakdowns as I can share the full experience here. You have to click and scroll through to reveal all the images, animations, scripts, storyboard etc. Happy to answer any questions on the setups and workflows - The full long form breakdown video is coming soon. But the interactive one should give great insights already. submitted by /u/arvidurs [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xqahgi/knitted_bb8_interactive_breakdown_and_closeups/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1xq9p09/freelance_senior_houdini_fx_cg_generalist/</id><title>Freelance Senior Houdini FX / CG Generalist – Character Rotomation, Organic FX &amp; Compositing | Feature Film</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xq9p09/freelance_senior_houdini_fx_cg_generalist/"/>
+<published>2026-11-07T15:57:59+00:00</published><updated>2026-11-07T15:57:59+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="tracking"/>
+<category term="compositing"/>
+<category term="vfx"/>
+<category term="rendering"/>
+<category term="nuke"/>
+<category term="houdini"/>
+<summary>We are looking for an experienced freelance Houdini FX Artist / CG Generalist to work on a live-action horror feature film. The main task involves a character crawling across the floor, requiring the digital removal of the legs, reconstruction of the lower torso, and realistic organic FX simulations</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 8 · tracking, compositing, vfx, rendering, nuke, houdini&lt;/small&gt;&lt;/p&gt;&lt;p&gt;We are looking for an experienced freelance Houdini FX Artist / CG Generalist to work on a live-action horror feature film. The main task involves a character crawling across the floor, requiring the digital removal of the legs, reconstruction of the lower torso, and realistic organic FX simulations. Scope of work: Character body tracking / rotomation from live-action footage. Digital removal of the legs. 3D modeling and reconstruction of the lower torso, including an exposed anatomical cross-section. Simulation of intestines and organic tissue interacting with the character's movement. Realistic dragging, collisions and secondary motion as the character crawls across the floor. Blood simula&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xq9p09/freelance_senior_houdini_fx_cg_generalist/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xq9ky5/need_help_making_my_krea_2_turbo_workflow/</id><title>Need help making my Krea 2 Turbo workflow photorealistic (ComfyUI)</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xq9ky5/need_help_making_my_krea_2_turbo_workflow/"/>
+<published>2026-11-07T15:53:03+00:00</published><updated>2026-11-07T15:53:03+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="render"/>
+<category term="comfyui"/>
+<category term="lora"/>
+<summary>Hi everyone! I've been working on this workflow for a week, but I'm struggling to get realistic results. As you can see in the attached output, the image looks washed out and oil-painted, with weird textures around the elevator metal. The jewelry looks like plastic, skin is too smooth, and the light</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · render, comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi everyone! I've been working on this workflow for a week, but I'm struggling to get realistic results. As you can see in the attached output, the image looks washed out and oil-painted, with weird textures around the elevator metal. The jewelry looks like plastic, skin is too smooth, and the lighting and shadows look very artificial. I'm a beginner with ComfyUI, nodes, models, and LoRAs, so I'm not sure what I'm doing wrong. I've also been using Claude for help, but I'm going in circles without much improvement. I need your help to achieve proper photorealism. I'm open to changing my entire workflow, trying different models or LoRAs, or following someone else's workflow. I've attached my c&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xq9ky5/need_help_making_my_krea_2_turbo_workflow/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/vfx/comments/1xq5651/animator_open_to_commissions_and_freelance_work/</id><title>[ANIMATOR] Open to commissions and freelance work.</title>
 <link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xq5651/animator_open_to_commissions_and_freelance_work/"/>
@@ -7508,57 +7568,5 @@
 <category term="dit"/>
 <summary>https://preview.redd.it/0wzb4mbs8gxh1.png?width=1280&amp;format=png&amp;auto=webp&amp;s=44d9cbb4ccb9968c0ea54508b88e8d58413f2f79 Hi everyone! I've released my very first text-to-image model for face generation. I collected my own dataset and captioned it with Qwen3.5-4B and a bunch of other face-analysis models</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, flux, dit&lt;/small&gt;&lt;/p&gt;&lt;p&gt;https://preview.redd.it/0wzb4mbs8gxh1.png?width=1280&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=44d9cbb4ccb9968c0ea54508b88e8d58413f2f79 Hi everyone! I've released my very first text-to-image model for face generation. I collected my own dataset and captioned it with Qwen3.5-4B and a bunch of other face-analysis models. I didn't like the results I got with the FLUX.2 VAE, so I decided to train my own narrow-domain autoencoder. It turned out to beat FLUX.2 on iFID on my dataset, and in my opinion, on generation quality too. The Qwen-VAE-2.0 tech report helped hugely with that - getting to FLUX.2 quality was hard. Overall, it's a basic single-stream DiT with a rectified flow objective and a couple of modern trick&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xehgeb/release_visageimage_a_small_texttoimage_model_for/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xeec7i/random_kromoss_gens_made_by_claude_over_a_couple/</id><title>Random kromoss gens made by claude over a couple of hours</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xeec7i/random_kromoss_gens_made_by_claude_over_a_couple/"/>
-<published>2026-10-24T17:20:16+00:00</published><updated>2026-10-24T17:20:16+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<category term="lora"/>
-<summary>~500 gens are here https://kromoss-site.vercel.app/ Decided to play some roulette with claude and gave opus 5.5 access to a comfyui instance with kromoss on vastai for a couple of hours for fun and (no) profit. Definitely a lot of variety of styles and the bounding boxes work fairly well. I still pr</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;~500 gens are here https://kromoss-site.vercel.app/ Decided to play some roulette with claude and gave opus 5.5 access to a comfyui instance with kromoss on vastai for a couple of hours for fun and (no) profit. Definitely a lot of variety of styles and the bounding boxes work fairly well. I still prefer krea 2 for the lora variety and ideogram 4 for the fine-tuned controls for now, but excited to see where moss goes. submitted by /u/hazadaza [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xeec7i/random_kromoss_gens_made_by_claude_over_a_couple/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xee5rc/minimax_vs_a_deadpan_ww2_soldier_lighting/</id><title>MiniMax vs. a deadpan WW2 soldier. Lighting, environment and physics tests. (SLA + 8 step lora)</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xee5rc/minimax_vs_a_deadpan_ww2_soldier_lighting/"/>
-<published>2026-10-24T17:12:56+00:00</published><updated>2026-10-24T17:12:56+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="smoke"/>
-<category term="minimax"/>
-<category term="lora"/>
-<summary>I know everyone is onto the new image models now but tandomly playing around with H3 again after traveling for a few weeks with work. Wanted to do some testing on some envirometal effects. (Mud splashes, smoke, detailed physics descriptions like the tank pancake flip) Still quite impressed with how </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 5 · smoke, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I know everyone is onto the new image models now but tandomly playing around with H3 again after traveling for a few weeks with work. Wanted to do some testing on some envirometal effects. (Mud splashes, smoke, detailed physics descriptions like the tank pancake flip) Still quite impressed with how it handles interaction and visual quality especially when prompted for a flatter diffused lighting. This is an old workflow actually because of said traveling, but can upload if people want. Just added DLLS5 as an extra pass. YT for slightly better compression ... come on now Reddit. Thoughts? submitted by /u/legarth [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xee5rc/minimax_vs_a_deadpan_ww2_soldier_lighting/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xedtfs/zpix_a_local_opensource_app_now_supports/</id><title>ZPix (a local open-source app) now supports inpainting with lasso and other familiar tools</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xedtfs/zpix_a_local_opensource_app_now_supports/"/>
-<published>2026-10-24T16:59:48+00:00</published><updated>2026-10-24T16:59:48+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="inpainting"/>
-<summary>You can use Photoshop-like keyboard shortcuts to go fullscreen, recover a selection, etc. Also, this version provides image-to-image for Krea 2. Download at https://github.com/SamuelTallet/ZPix Hope you like it! As always, your feedback is welcome. About this recording: made on an RTX 3070M 8GB; thr</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · inpainting&lt;/small&gt;&lt;/p&gt;&lt;p&gt;You can use Photoshop-like keyboard shortcuts to go fullscreen, recover a selection, etc. Also, this version provides image-to-image for Krea 2. Download at https://github.com/SamuelTallet/ZPix Hope you like it! As always, your feedback is welcome. About this recording: made on an RTX 3070M 8GB; three seeds were discarded; gen time was cut. submitted by /u/SamuelTallet [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xedtfs/zpix_a_local_opensource_app_now_supports/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1xedm01/should_i_stay_in_vfx_or_change_careers/</id><title>Should I Stay in VFX or Change Careers</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xedm01/should_i_stay_in_vfx_or_change_careers/"/>
-<published>2026-10-24T16:51:24+00:00</published><updated>2026-10-24T16:51:24+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="tracking"/>
-<category term="animation"/>
-<category term="vfx"/>
-<category term="maya"/>
-<summary>I’m in Quebec, Canada, with 5 years of experience as a VFX Layout Artist. My work mainly involved camera animation, shot setup, and technical troubleshooting. I know Maya, ZBrush, and Photoshop, but not tracking or programming. I’m getting close to my 40s and losing faith in the future of VFX. I’m u</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 5 · tracking, animation, vfx, maya&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I’m in Quebec, Canada, with 5 years of experience as a VFX Layout Artist. My work mainly involved camera animation, shot setup, and technical troubleshooting. I know Maya, ZBrush, and Photoshop, but not tracking or programming. I’m getting close to my 40s and losing faith in the future of VFX. I’m unsure whether to learn new skills within the industry or start over in another field. I’m considering building automation (controlling building systems like HVAC and lighting) or cybersecurity, but I would be starting from scratch in both. Since I can’t spend years in school, I’m looking for a realistic path to stable employment, ideally with 1–1.5 years of training. What would you recommend? ● Is&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xedm01/should_i_stay_in_vfx_or_change_careers/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1xecjuv/please_critique_my_houdini_fx_reel_confused_if_i/</id><title>Please critique my Houdini FX reel. Confused if I should keep or remove the 2 personal project shots at the end</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xecjuv/please_critique_my_houdini_fx_reel_confused_if_i/"/>
-<published>2026-10-24T16:08:44+00:00</published><updated>2026-10-24T16:08:44+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="vfx"/>
-<category term="houdini"/>
-<summary>I'm looking for job again and since Houdini FX is my strongest skill, I wanted to ask you guys could look at my reel and lmk what you think. Im especially worried that maybe having those 2 shots at 1min 21sec and 1min 31sec is a bad idea. Thank you! P.S. I've worked 3 years as a Houdini FX artist in</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 3 · vfx, houdini&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I'm looking for job again and since Houdini FX is my strongest skill, I wanted to ask you guys could look at my reel and lmk what you think. Im especially worried that maybe having those 2 shots at 1min 21sec and 1min 31sec is a bad idea. Thank you! P.S. I've worked 3 years as a Houdini FX artist in the industry on projects like Halo, Home Alone 6, Rubble Trouble, etc in studios like Mr.X, MPC, Jam Filled (no etc). For the past year I've been away from the VFX industry and been working as an editor, 3D artist, and instructor at a tech-ed startup (where I also play around a lot with gen AI). submitted by /u/OldOneHadMyNameInIt [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xecjuv/please_critique_my_houdini_fx_reel_confused_if_i/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
