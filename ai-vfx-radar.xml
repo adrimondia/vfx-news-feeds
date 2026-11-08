@@ -2,8 +2,49 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-08T19:30:20+00:00</updated>
+<updated>2026-11-08T21:30:20+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1xr7v6j/we_built_a_set_of_inhouse_pipeline_tools_at_our/</id><title>We built a set of in-house pipeline tools at our studio and opened most of them up: keying, shot launching, media browsing, Nuke and AE tools</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xr7v6j/we_built_a_set_of_inhouse_pipeline_tools_at_our/"/>
+<published>2026-11-08T20:11:46+00:00</published><updated>2026-11-08T20:11:46+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="keying"/>
+<category term="nuke"/>
+<summary>submitted by /u/npittas [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 4 · keying, nuke&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/npittas [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xr7v6j/we_built_a_set_of_inhouse_pipeline_tools_at_our/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xr7doc/we_connected_nuke_and_after_effects_to_comfyui/</id><title>We connected Nuke and After Effects to ComfyUI, and built a prompt/storyboard app that renders through it (open source)</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xr7doc/we_connected_nuke_and_after_effects_to_comfyui/"/>
+<published>2026-11-08T19:52:15+00:00</published><updated>2026-11-08T19:52:15+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="video model"/>
+<category term="sam3"/>
+<category term="animation"/>
+<category term="vfx"/>
+<category term="render"/>
+<category term="comfyui"/>
+<category term="nuke"/>
+<category term="flux"/>
+<summary>Hi all, At KENT Post Production we use ComfyUI daily inside a VFX pipeline, so we built the pieces we were missing. Most of them are free and on GitHub, and feedback is very welcome. Director's Console : a workspace that drives ComfyUI. Prompt Engineer : pick an image or video model (FLUX, Qwen, See</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 16 · video model, sam3, animation, vfx, render, comfyui, nuke, flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi all, At KENT Post Production we use ComfyUI daily inside a VFX pipeline, so we built the pieces we were missing. Most of them are free and on GitHub, and feedback is very welcome. Director's Console : a workspace that drives ComfyUI. Prompt Engineer : pick an image or video model (FLUX, Qwen, Seedream, LTX, Wan, Kling…) and the prompt is written for that model. Camera, lens, movement, lighting and visual-grammar parameters, plus presets based on real films and a separate set for animation. Storyboard : each panel gets its own ComfyUI workflow and settings, and renders across one or many ComfyUI nodes with live GPU/VRAM stats. Gallery : grid, list or masonry view, and the viewer keeps each&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xr7doc/we_connected_nuke_and_after_effects_to_comfyui/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xr7bl2/use_agents_claude_code_codex_antigravity_to_make/</id><title>Use agents (Claude Code, Codex, Antigravity, ...) to make videos, images and music locally</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xr7bl2/use_agents_claude_code_codex_antigravity_to_make/"/>
+<published>2026-11-08T19:49:57+00:00</published><updated>2026-11-08T19:49:57+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="upscaling"/>
+<category term="inpainting"/>
+<category term="outpainting"/>
+<category term="lip-sync"/>
+<category term="comfyui"/>
+<category term="minimax"/>
+<category term="lora"/>
+<summary>I built slopfab , a native command-line tool that lets your coding agent generate media directly. Unzip it, start your agent in that folder, and ask for a music video, a short film or a product shot. Your agent plans the shots, runs the generations and builds a project page you can review. This is t</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 7 · upscaling, inpainting, outpainting, lip-sync, comfyui, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I built slopfab , a native command-line tool that lets your coding agent generate media directly. Unzip it, start your agent in that folder, and ask for a music video, a short film or a product shot. Your agent plans the shots, runs the generations and builds a project page you can review. This is the same native backend that slopus.ai uses, no ComfyUI, no Python. What it does Video with audio: MiniMax H3 (text/image/video/audio references, long-form continuation, clip bridging, inpainting/outpainting), LoRA support Images: Krea 2, MOSS, Fibo 2.0, MiniMax H3 (including multi-reference edits) Music: YuE2 and MiniMax Music3, songs with lyrics or instrumentals Utilities: Transcription, stem/lyr&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xr7bl2/use_agents_claude_code_codex_antigravity_to_make/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/vfx/comments/1xr3wyr/have_fire_vfx_become_uglier_now/</id><title>Have fire VFX become uglier now ?</title>
 <link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xr3wyr/have_fire_vfx_become_uglier_now/"/>
@@ -12,6 +53,26 @@
 <category term="vfx"/>
 <summary>Frankenstein (2025), Guillermo Del Toro Carrie (2026), Mike Flanagan I can't help but notice a lot of VFX-based fire shots are now quite unrealistic and weirdly integrated into the scene. I don't know if it's the lighting or the texture but I'm often pulled out of the story by "bad" fire VFX. Has it</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Frankenstein (2025), Guillermo Del Toro Carrie (2026), Mike Flanagan I can't help but notice a lot of VFX-based fire shots are now quite unrealistic and weirdly integrated into the scene. I don't know if it's the lighting or the texture but I'm often pulled out of the story by "bad" fire VFX. Has it gotten worse because studios only rely on VFX and no real fire on set or am I just looking at this through nostalgia lenses ? submitted by /u/SamuelTandonnet [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xr3wyr/have_fire_vfx_become_uglier_now/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xr1o0p/getting_started_fully_local_oneshot_music_videos/</id><title>Getting started - Fully Local one-shot music video's using my ComfyUI Video builder full guide.</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xr1o0p/getting_started_fully_local_oneshot_music_videos/"/>
+<published>2026-11-08T15:58:01+00:00</published><updated>2026-11-08T15:58:01+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="render"/>
+<category term="comfyui"/>
+<summary>I keep getting asked how to run the Video Builder fully local, so I made one video that goes from a fresh ComfyUI install all the way to building a video in Story Mode all fully local. Reddit does not allow videos over 15 mins. so, the 2nd part of this video is HERE which walks through story mode. W</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · render, comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I keep getting asked how to run the Video Builder fully local, so I made one video that goes from a fresh ComfyUI install all the way to building a video in Story Mode all fully local. Reddit does not allow videos over 15 mins. so, the 2nd part of this video is HERE which walks through story mode. What it covers: Installing ComfyUI portable from scratch, plus running the update before your first launch (lots of people skip this) Turning on the new built-in Manager. It's off by default in the portable build, which trips people up Installing my nodes and opening the Builder Getting the custom nodes and models from the Models button. You only need the models for the parts you'll actually use, n&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xr1o0p/getting_started_fully_local_oneshot_music_videos/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xqzr5z/i_made_an_optimizer_called_apexw_to_speed_up/</id><title>i made an optimizer called ApexW to speed up PyTorch training on low-end GPUs Looking for feedback/benchmarks(got ~6.3% faster SD 1.5 LoRA training on a NVIDIA T4)</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xqzr5z/i_made_an_optimizer_called_apexw_to_speed_up/"/>
+<published>2026-11-08T14:32:13+00:00</published><updated>2026-11-08T14:32:13+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="stable diffusion"/>
+<category term="lora"/>
+<summary>Hey everyone I've been working on a custom optimizer called ApexW , designed to reduce CUDA kernel launch overhead during PyTorch training, particularly when dealing with lots of smaller parameter updates. Since I'm a student running on a free NVIDIA T4 GPU (16GB), I decided to benchmark it against </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · stable diffusion, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey everyone I've been working on a custom optimizer called ApexW , designed to reduce CUDA kernel launch overhead during PyTorch training, particularly when dealing with lots of smaller parameter updates. Since I'm a student running on a free NVIDIA T4 GPU (16GB), I decided to benchmark it against standard PyTorch AdamW using Stable Diffusion 1.5 LoRA training for 1,000 steps. Here's how the runs went: Rank 16 LoRA (Standard) AdamW: 1.92 it/s | 516.2s total time | 4.68 GB VRAM ApexW: 2.04 it/s | 485.6s total time | 4.68 GB VRAM ApexW saved approximately 30.6 seconds, delivering around 6.3% higher throughput without additional VRAM usage. Rank 32 LoRA (Heavier load) AdamW: 2.03 it/s | 488.2s&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xqzr5z/i_made_an_optimizer_called_apexw_to_speed_up/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xqzhtx/a_new_ai_video_model_for_christmas/</id><title>A New AI Video Model for Christmas 🎅</title>
@@ -7386,79 +7447,5 @@
 <category term="minimax"/>
 <summary>ComfyUI with MiniMax H3 on a 5090. The song was made with Treblo. Used the vocal stem for lip sync, then put the full mix back in for the edit. Tape effects are ntsc-rs. https://reddit.com/link/1xfez10/video/ua9ycvempoxh1/player submitted by /u/Effective_Garbage_34 [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · lip sync, comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;ComfyUI with MiniMax H3 on a 5090. The song was made with Treblo. Used the vocal stem for lip sync, then put the full mix back in for the edit. Tape effects are ntsc-rs. https://reddit.com/link/1xfez10/video/ua9ycvempoxh1/player submitted by /u/Effective_Garbage_34 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xfez10/80sstyle_flock_safety_commercial/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xfdym8/best_video_generation_workflows_models_for_16gb/</id><title>Best Video Generation Workflows &amp; Models for 16GB VRAM (RTX 5070 Ti + Ryzen 5 7600X)?</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xfdym8/best_video_generation_workflows_models_for_16gb/"/>
-<published>2026-10-25T21:11:15+00:00</published><updated>2026-10-25T21:11:15+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="video generation"/>
-<category term="text-to-video"/>
-<category term="image-to-video"/>
-<category term="comfyui"/>
-<category term="wan"/>
-<category term="hunyuanvideo"/>
-<summary>Hey everyone, I’m looking to get into local Video Generation in ComfyUI (both Text-to-Video and Image-to-Video) and would love some recommendations on the best workflows, models, and quantization techniques for my specs. Here is my hardware setup: GPU: NVIDIA GeForce RTX 5070 Ti (16GB GDDR7 VRAM) CP</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 7 · video generation, text-to-video, image-to-video, comfyui, wan, hunyuanvideo&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey everyone, I’m looking to get into local Video Generation in ComfyUI (both Text-to-Video and Image-to-Video) and would love some recommendations on the best workflows, models, and quantization techniques for my specs. Here is my hardware setup: GPU: NVIDIA GeForce RTX 5070 Ti (16GB GDDR7 VRAM) CPU: AMD Ryzen 5 7600X RAM: 32GB DDR5 (5600 MT/s) OS: Windows 11 A few specific questions: Model Recommendations: Which current video generation models (e.g., LTX-Video, Wan 2.1/2.2,HunyuanVideo, CogVideoX, or AnimateDiff) run best within 16GB VRAM without heavy CPU offloading bottlenecks? Quantization / Precision: Should I be running FP8 or specific GGUF quants to keep frame generation times low an&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xfdym8/best_video_generation_workflows_models_for_16gb/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xfdp08/minimax_h3_blurry_text_issue_has_anyone_found_a/</id><title>MINIMAX H3 Blurry Text Issue: Has anyone found a good solution to fix blurry text in minimax h3 ? I am almost there.</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xfdp08/minimax_h3_blurry_text_issue_has_anyone_found_a/"/>
-<published>2026-10-25T21:00:24+00:00</published><updated>2026-10-25T21:00:24+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="minimax"/>
-<summary>submitted by /u/OkSilver7237 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/OkSilver7237 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xfdp08/minimax_h3_blurry_text_issue_has_anyone_found_a/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xfdl2o/updated_comfyuihswqloaderandtools_v367_hswq/</id><title>Updated ComfyUI-HSWQ-Loader-and-Tools v3.6.7 - HSWQ Moss-Image Prompt Enhancer &amp; Vision LLM Integration</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xfdl2o/updated_comfyuihswqloaderandtools_v367_hswq/"/>
-<published>2026-10-25T20:56:06+00:00</published><updated>2026-10-25T20:56:06+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="dit"/>
-<summary>To begin with, as the standard node integrates everything—including the prompt enhancer—into a single unit, it was incredibly difficult to use, so I built my own. https://github.com/ussoewwin/ComfyUI-HSWQ-Loader-and-Tools/releases/tag/v3.6.7 After all, when everything’s integrated, you can’t offload</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui, dit&lt;/small&gt;&lt;/p&gt;&lt;p&gt;To begin with, as the standard node integrates everything—including the prompt enhancer—into a single unit, it was incredibly difficult to use, so I built my own. https://github.com/ussoewwin/ComfyUI-HSWQ-Loader-and-Tools/releases/tag/v3.6.7 After all, when everything’s integrated, you can’t offload the workload to the CPU either. The tricky bit was that Qwen 3.5 9b doesn’t have image recognition capabilities. I had no choice but to repurpose the Qwen3 4b VL(※or another VLM) model intended for Krea2. The system prompts for MOSS-Image have been implemented by directly reusing the code that was originally implemented in the standard ComfyUI nodes. ... Overview A specialized prompt expansion an&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xfdl2o/updated_comfyuihswqloaderandtools_v367_hswq/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xfd1tv/i_built_an_opensource_local_film_studio_for_8_gb/</id><title>I built an open-source local film studio for 8 GB cards (LTX 2.5 and MiniMax H3), with long takes joined in latent space</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xfd1tv/i_built_an_opensource_local_film_studio_for_8_gb/"/>
-<published>2026-10-25T20:34:18+00:00</published><updated>2026-10-25T20:34:18+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<category term="wan"/>
-<category term="minimax"/>
-<category term="ltx"/>
-<summary>I have been working on this for a while now, and i just made the repo public. Kinoloom is a web app that runs on your Windows PC and using your cast it takes a idea and turns it in to a movie. You write the story with any LLM, generate the cast and the studio renders the shots, checks them and cuts </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 6 · comfyui, wan, minimax, ltx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I have been working on this for a while now, and i just made the repo public. Kinoloom is a web app that runs on your Windows PC and using your cast it takes a idea and turns it in to a movie. You write the story with any LLM, generate the cast and the studio renders the shots, checks them and cuts them together. Everything runs locally on top of ComfyUI. My PC has a RTX 3070 8GB and 64GB ram, and its the only system it has been tested on. About Minimax H3 : Its fully supported, but every clip in the showcase is generated by LTX 2.5. H3's license only allows use outside of EU, UK, South Korea and US, and they limit showing the output. I live in the EU, so i dont publish H3 clips. If you're o&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xfd1tv/i_built_an_opensource_local_film_studio_for_8_gb/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xfcja7/we_put_together_an_atlas_of_500_visual_effects/</id><title>We put together an atlas of &gt;500 visual effects that you can use for your prompts</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xfcja7/we_put_together_an_atlas_of_500_visual_effects/"/>
-<published>2026-10-25T20:13:44+00:00</published><updated>2026-10-25T20:13:44+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="visual effects"/>
-<summary>Enjoy this rabbit hole 😌✌️ submitted by /u/mitchoz [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · visual effects&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Enjoy this rabbit hole 😌✌️ submitted by /u/mitchoz [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xfcja7/we_put_together_an_atlas_of_500_visual_effects/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xfc2am/trying_to_use_loras_with_flux2_dev_mistral_3/</id><title>Trying to use LORAs with flux2 dev (mistral_3_small_flux2_bf16) but they are not having an effect.</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xfc2am/trying_to_use_loras_with_flux2_dev_mistral_3/"/>
-<published>2026-10-25T19:55:31+00:00</published><updated>2026-10-25T19:55:31+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="flux"/>
-<category term="lora"/>
-<summary>I downloaded a flux2 text to image workflow using mistral_3_small_flux2_bf16 and I'm trying to get a lora to apply (marked it NSFW because I'm attempting to generate NSFW images). Specifically I'm trying to use SQNSFW or SNOFs. I don't really care what LORA I use, I just want to have realism and the</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · flux, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I downloaded a flux2 text to image workflow using mistral_3_small_flux2_bf16 and I'm trying to get a lora to apply (marked it NSFW because I'm attempting to generate NSFW images). Specifically I'm trying to use SQNSFW or SNOFs. I don't really care what LORA I use, I just want to have realism and the ability to generate genitals. Whenever I try I just get a mannequin bottom. Secondary question: I'm trying to mix in KREA2 with various success since it's also Flux. I'm using the mistral because I heard its the most realistic skin texture. I see people making incredible things and I'm still stuck at trying to work out what nodes go where... I've watched so many tutorials but its just not clickin&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xfc2am/trying_to_use_loras_with_flux2_dev_mistral_3/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xfc06r/vfx_nodes/</id><title>VFX nodes</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xfc06r/vfx_nodes/"/>
-<published>2026-10-25T19:53:17+00:00</published><updated>2026-10-25T19:53:17+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="vfx"/>
-<category term="comfyui"/>
-<summary>is it just me having trouble installing " ComfyUi Nvidia VFX Nodes" in pixxorama Easy Install. no problem in the native comfyUI desktop but cant get it into portable. submitted by /u/Quiet-Analysis-3807 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · vfx, comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;is it just me having trouble installing " ComfyUi Nvidia VFX Nodes" in pixxorama Easy Install. no problem in the native comfyUI desktop but cant get it into portable. submitted by /u/Quiet-Analysis-3807 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xfc06r/vfx_nodes/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
