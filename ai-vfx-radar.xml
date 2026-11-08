@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-08T05:30:23+00:00</updated>
+<updated>2026-11-08T07:30:23+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
 <entry>
 <id>https://www.reddit.com/r/vfx/comments/1xqospp/how_would_i_go_about_tracking_this_shot/</id><title>How would I go about tracking this shot?</title>
@@ -7569,27 +7569,5 @@
 <category term="flux"/>
 <summary>submitted by /u/RobbaW [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/RobbaW [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xewwx4/fibo_2_vs_flux_3_klein/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xev4vb/followup_to_my_4mp_mossimage_post_quick_3s_local/</id><title>Follow-up to my 4MP MOSS-Image post: Quick 3s local MiniMax H3 I2V tests.</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xev4vb/followup_to_my_4mp_mossimage_post_quick_3s_local/"/>
-<published>2026-10-25T06:39:02+00:00</published><updated>2026-10-25T06:39:02+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="image-to-video"/>
-<category term="video model"/>
-<category term="comfyui"/>
-<category term="minimax"/>
-<category term="consistency"/>
-<summary>I wanted to see how yesterday's raw 4MP MOSS-Image outputs behave in a local MiniMax H3 Image-to-Video pipeline before I had to head out. Kept the renders short (~3s each) for a fast turnaround, expecting some morphing, but the detail retention and temporal consistency honestly surprised me. Pipelin</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 6 · image-to-video, video model, comfyui, minimax, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I wanted to see how yesterday's raw 4MP MOSS-Image outputs behave in a local MiniMax H3 Image-to-Video pipeline before I had to head out. Kept the renders short (~3s each) for a fast turnaround, expecting some morphing, but the detail retention and temporal consistency honestly surprised me. Pipeline &amp;amp; Specs: Base Frames: MOSS-Image (5B) Native 4MP raw outputs (from my previous post) Video Model: Local MiniMax H3 (Image-to-Video) Hardware: NVIDIA RTX PRO 6000 Prompts: Dead simple 3–4 word prompts focusing only on expression/attitude to see how the model reacts to the base image alone. What stood out: Even in a quick test, feeding native 4MP micro-textures into MiniMax H3 makes a massive diff&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xev4vb/followup_to_my_4mp_mossimage_post_quick_3s_local/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xeunzs/my_moss_character_lora_training_results/</id><title>My MOSS Character Lora Training Results</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xeunzs/my_moss_character_lora_training_results/"/>
-<published>2026-10-25T06:10:36+00:00</published><updated>2026-10-25T06:10:36+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="lora"/>
-<summary>Hi all! What do we think of MOSS Image so far? Personally I'm loving it. The variety in images? The differences in people's faces, ethnicities, body types, etc? And it's so easy to get my favourite style of photo to create, amateur candid realism. It really is a great model. Lora training was kind o</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi all! What do we think of MOSS Image so far? Personally I'm loving it. The variety in images? The differences in people's faces, ethnicities, body types, etc? And it's so easy to get my favourite style of photo to create, amateur candid realism. It really is a great model. Lora training was kind of a tough nut to crack though, but I'm pretty certain I have settings that work, so I figured I'd share. With these settings, I get good results every time. Most of my datasets were between 50 and 100 images, with natural language captions. Best settings I found are Automagic3, with Sigmoid and High (balanced didn't work well, but High worked a treat). I start the learning rate quite high, at 0.00&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xeunzs/my_moss_character_lora_training_results/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
