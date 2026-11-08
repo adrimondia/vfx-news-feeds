@@ -2,8 +2,57 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-08T01:30:20+00:00</updated>
+<updated>2026-11-08T03:30:20+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xqnnlk/ltx_25_music_video_good_character_consistency_but/</id><title>LTX 2.5 music video: good character consistency, but mushy motion and facial detail. How would you improve this workflow?</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xqnnlk/ltx_25_music_video_good_character_consistency_but/"/>
+<published>2026-11-08T02:32:25+00:00</published><updated>2026-11-08T02:32:25+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="upscaling"/>
+<category term="lip sync"/>
+<category term="ltx"/>
+<category term="lora"/>
+<category term="consistency"/>
+<category term="character consistency"/>
+<summary>I made this AI rap music video and would appreciate some honest, practical workflow advice. The character, outfit and locations stay surprisingly consistent. However, the result still has that “AI slop” feeling: movements look mushy, facial features lose definition during motion, hands smear, and th</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 9 · upscaling, lip sync, ltx, lora, consistency, character consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I made this AI rap music video and would appreciate some honest, practical workflow advice. The character, outfit and locations stay surprisingly consistent. However, the result still has that “AI slop” feeling: movements look mushy, facial features lose definition during motion, hands smear, and the face becomes less recognizable during strong gestures or extreme camera angles. Lip sync is also inconsistent. What I used: Six reference images created with ChatGPT Images, keeping the same character and outfit. LTX 2.5 22B dev, BF16 , running on a Runpod B200 through the official native Python two-stage audio-to-video pipeline. The original song’s full mix as audio conditioning, plus a referen&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xqnnlk/ltx_25_music_video_good_character_consistency_but/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xqnfr0/wanted_to_create_a_music_reactivity_project_using/</id><title>Wanted to create a music reactivity project using Unreal and a pre-existing NYC 2016 subway model. I took the model and upscaled every texture to 4k using SeedVR2 and used Krea 2 to add more details and then used Touch Designer for the light reactivity</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xqnfr0/wanted_to_create_a_music_reactivity_project_using/"/>
+<published>2026-11-08T02:20:40+00:00</published><updated>2026-11-08T02:20:40+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="gaussian splatting"/>
+<category term="tracking"/>
+<category term="unreal"/>
+<summary>First yes I def used AI please don’t kill me but I saw all these cool music visualization projects on IG and I wanted to make one so I used this tutorial https://youtu.be/PQAeUkcykVo?is=cS8qrDHOv1-_yRlG but I then upscaled each texture in the train car asset to 4k using SeedVR2 and Krea 2 to add mor</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · gaussian splatting, tracking, unreal&lt;/small&gt;&lt;/p&gt;&lt;p&gt;First yes I def used AI please don’t kill me but I saw all these cool music visualization projects on IG and I wanted to make one so I used this tutorial https://youtu.be/PQAeUkcykVo?is=cS8qrDHOv1-_yRlG but I then upscaled each texture in the train car asset to 4k using SeedVR2 and Krea 2 to add more details. I also added DLSS5 to enhance the overall scene and lighting. I then added tracks and weather effects and the head tracking to create the illusion of 3d. Also added subway car door opening and weather effects like snow and rain plus rain on glass. ulitmate goal is to use Gaussian splatting to capture the environment behind the monitor to create illusion of the subway being inside the mo&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xqnfr0/wanted_to_create_a_music_reactivity_project_using/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xqltcv/mossimage_5b_now_runs_fully_on_a_phone_npu/</id><title>MOSS-Image 5B now runs fully on a phone NPU (Snapdragon 8 Gen 1 / 8+ Gen 1): ~30 s for 512x768, free app, your own LoRA supported</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xqltcv/mossimage_5b_now_runs_fully_on_a_phone_npu/"/>
+<published>2026-11-08T00:57:04+00:00</published><updated>2026-11-08T00:57:04+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="flux"/>
+<category term="lora"/>
+<category term="dit"/>
+<summary>I’ve been building HexAnima , a free, non-commercial, open-source Android app that runs diffusion models entirely on the Hexagon NPU (no root, no cloud, no account, no ads). Until now it ran the Anima anime models (2B and 2.9B, ~7–12 s for 512x768). Version 1.3.0 adds a much bigger model: MOSS-Image</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · flux, lora, dit&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I’ve been building HexAnima , a free, non-commercial, open-source Android app that runs diffusion models entirely on the Hexagon NPU (no root, no cloud, no account, no ads). Until now it ran the Anima anime models (2B and 2.9B, ~7–12 s for 512x768). Version 1.3.0 adds a much bigger model: MOSS-Image 5B (OpenMOSS, Apache-2.0). What runs where Everything heavy is on the NPU: the Qwen3.5-9B text encoder, the 5.1B DiT, and the FLUX.2 small VAE decoder. Weights are converted to 8-bit tiles for the Hexagon matrix unit (HMX) and streamed from flash for every picture (a 5.7 GB DiT doesn’t fit next to the encoder in RAM). It uses the community 4-step “rapid-moss” adapter, kept as an unmerged LoRA bec&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xqltcv/mossimage_5b_now_runs_fully_on_a_phone_npu/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xqgu4e/filmworkbench_making_semiautomated_short_films/</id><title>Filmworkbench: making (semi-)automated short films through a chat interface, with MiniMax H3 and eight scene recipes (workflow and GitHub included)</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xqgu4e/filmworkbench_making_semiautomated_short_films/"/>
+<published>2026-11-07T21:01:54+00:00</published><updated>2026-11-07T21:01:54+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="upscaler"/>
+<category term="render"/>
+<category term="rendering"/>
+<category term="comfyui"/>
+<category term="minimax"/>
+<summary>I've been putting together Filmworkbench, a MiniMax H3 workflow for guided or automated short films. You run it from a project folder through a tool-capable AI agent such as Claude Code, Codex or a local LLM. The GitHub repository is public . To get started: Download the v0.1.1 starter ZIP . Extract</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 6 · upscaler, render, rendering, comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I've been putting together Filmworkbench, a MiniMax H3 workflow for guided or automated short films. You run it from a project folder through a tool-capable AI agent such as Claude Code, Codex or a local LLM. The GitHub repository is public . To get started: Download the v0.1.1 starter ZIP . Extract it and open the folder in your AI agent. Ask: “Read AGENTS.md , check my setup, and help me make a short film using these recipes. Discuss the plan with me and wait for my approval after each rendered stage.” The tutorial above walks through the idea. The package includes all eight recipes plus the marketplace case, reference images, prompts, render graphs and settings. The setup checker identifi&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xqgu4e/filmworkbench_making_semiautomated_short_films/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xqg7j2/iv_studio_10_i_rebuilt_my_free_opensource_film/</id><title>IV Studio 1.0: I rebuilt my free, open-source film studio for ComfyUI + MiniMax H3 from your comments (now on Linux and Mac)</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xqg7j2/iv_studio_10_i_rebuilt_my_free_opensource_film/"/>
@@ -7533,35 +7582,5 @@
 <category term="render"/>
 <summary>Here is a shot I found in Cinefex Magazine #94 (July 2003) of the shot where the Hulk grows from 9ft tall to 12ft fall and the screenshot from the Hulk 2003 video game movie short Hulk Movie F/X this shot was a pre viz raw render The top reads BH18----HULK----BH18 and the bottom reads CGHK-06166-27-</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 1 · render&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Here is a shot I found in Cinefex Magazine #94 (July 2003) of the shot where the Hulk grows from 9ft tall to 12ft fall and the screenshot from the Hulk 2003 video game movie short Hulk Movie F/X this shot was a pre viz raw render The top reads BH18----HULK----BH18 and the bottom reads CGHK-06166-27-November-02-PM you can see some tissue overlay of BH18 or (Banner Hulk) transformation concept by Robert MacKenzie dated 11/06/2002. You can see the underwear at the leg part ripping a bit as he grows. The shot in the final movie Pre viz animated sequence submitted by /u/Bitter-Pomelo-2345 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xesuw7/the_hulk_grows_from_9ft_to_12ft_tall_sequence/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xeq5uj/what_are_the_current_custom_nodes_turbo_loras_for/</id><title>What are the current custom nodes + turbo loras for Minimax?</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xeq5uj/what_are_the_current_custom_nodes_turbo_loras_for/"/>
-<published>2026-10-25T02:03:16+00:00</published><updated>2026-10-25T02:03:16+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<category term="minimax"/>
-<summary>Hey everyone! I was in the early days of minimax launch, trying the spectral nodes and some other tweaks to make it faster. Those first turbo loras with bad audio, etc. I took a long break from comfyui and now i can't find the new methods to balance speed and quality. Any help or guidance to actuali</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey everyone! I was in the early days of minimax launch, trying the spectral nodes and some other tweaks to make it faster. Those first turbo loras with bad audio, etc. I took a long break from comfyui and now i can't find the new methods to balance speed and quality. Any help or guidance to actualize my knowledge on the current state of this? Thank you in advance! submitted by /u/rarezin [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xeq5uj/what_are_the_current_custom_nodes_turbo_loras_for/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xeq35g/sdxl_twoperson_contact_poses_depth_openpose/</id><title>SDXL two-person contact poses: depth + OpenPose + per-person masks from 3D — which conditioning setup works best?</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xeq35g/sdxl_twoperson_contact_poses_depth_openpose/"/>
-<published>2026-10-25T01:59:40+00:00</published><updated>2026-10-25T01:59:40+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="blender"/>
-<category term="controlnet"/>
-<summary>Using RealVisXL + xinsir ControlNet union/depth/openpose on a Mac (MPS). Inputs are rendered from Blender: depth, normal, OpenPose, and a mask per character (adult fictional characters, no real faces). With bodies overlapping, limbs get swapped/merged. What strengths/end-steps and regional condition</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · blender, controlnet&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Using RealVisXL + xinsir ControlNet union/depth/openpose on a Mac (MPS). Inputs are rendered from Blender: depth, normal, OpenPose, and a mask per character (adult fictional characters, no real faces). With bodies overlapping, limbs get swapped/merged. What strengths/end-steps and regional conditioning (attention couple, regional prompts, IPAdapter masks) have worked for you? submitted by /u/Lower-Luck3119 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xeq35g/sdxl_twoperson_contact_poses_depth_openpose/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xeprfe/comfyui_gpuunlock_timings_bf16_vs_int8_with/</id><title>ComfyUI gpu-unlock timings: BF16 vs INT8, with seconds saved (free comparison)</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xeprfe/comfyui_gpuunlock_timings_bf16_vs_int8_with/"/>
-<published>2026-10-25T01:42:39+00:00</published><updated>2026-10-25T01:42:39+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="minimax"/>
-<summary>Disclosure: I maintain this free site. It was assembled with AI assistance and source review; I have not tested the hardware myself. Update (25 Oct): The page now has GPU + model + precision filters and a shareable link for each selection. Choose your combination to see whether the published runs co</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Disclosure: I maintain this free site. It was assembled with AI assistance and source review; I have not tested the hardware myself. Update (25 Oct): The page now has GPU + model + precision filters and a shareable link for each selection. Choose your combination to see whether the published runs cover it. Missing combinations show no matching reports and disable the estimate. There is still no paired 3060 + MiniMax H3 stock/unlocked result in this dataset. The 18 measured configurations are unchanged. I made a comparison of 18 ComfyUI configurations from three original Linux reports, with filters for GPU, model and precision, actual seconds, original sources and a time-saved calculator: htt&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xeprfe/comfyui_gpuunlock_timings_bf16_vs_int8_with/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
