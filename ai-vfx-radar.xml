@@ -2,8 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-08T11:30:20+00:00</updated>
+<updated>2026-11-08T13:30:20+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xqx0jt/minimax_h3_single_frame_edit_excels_at_character/</id><title>MiniMax H3 single frame edit excels at character consistency and identity preservation. Do we really need character LoRAs anymore?</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xqx0jt/minimax_h3_single_frame_edit_excels_at_character/"/>
+<published>2026-11-08T12:10:45+00:00</published><updated>2026-11-08T12:10:45+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="minimax"/>
+<category term="consistency"/>
+<category term="identity preservation"/>
+<category term="character consistency"/>
+<summary>Basically MiniMax H3: Has great prompt following Respects character identity (art style and design) from the input images Can generate single frame images So what's the point of training a character model if you can just give MiniMax H3 character design reference and generate any scene? The only two</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 8 · minimax, consistency, identity preservation, character consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Basically MiniMax H3: Has great prompt following Respects character identity (art style and design) from the input images Can generate single frame images So what's the point of training a character model if you can just give MiniMax H3 character design reference and generate any scene? The only two reasons I see is 1) you want to use style known by your target base model to generate image of the learned character. 2) you want to apply some concepts known by the target base model only. What do you think? Here's the workflow I used for the images. submitted by /u/arthan1011 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xqx0jt/minimax_h3_single_frame_edit_excels_at_character/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xqutdx/has_anyone_found_a_surefire_way_to_do_faceswaps/</id><title>Has anyone found a surefire way to do Faceswaps in MiniMax yet ?</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xqutdx/has_anyone_found_a_surefire_way_to_do_faceswaps/"/>
@@ -7579,23 +7591,5 @@
 <category term="lora"/>
 <summary>Another quick MOSS-Image news and goodies round-up, for those who may have missed some items. -&gt; Advice for training character LoRAs for MOSS-Image, plus an associated Automagic settings config file. https://www.reddit.com/r/StableDiffusion/comments/1xeunzs/my_moss_character_lora_training_results/ h</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Another quick MOSS-Image news and goodies round-up, for those who may have missed some items. -&amp;gt; Advice for training character LoRAs for MOSS-Image, plus an associated Automagic settings config file. https://www.reddit.com/r/StableDiffusion/comments/1xeunzs/my_moss_character_lora_training_results/ https://github.com/ostris/ai-toolkit (for Automagic V4) -&amp;gt; MOSS-Image-Toriigate-dataset-autocaptioner. Auto-captions the inputs for your MOSS-Image LoRA, via local llama.cpp and LLMs. https://github.com/paoloinverse/MOSS-Image-Toriigate-dataset-autocaptioner -&amp;gt; "Three general-purpose sigma schedulers for ComfyUI, developed for MOSS-Image workflows: MOSS Shift Scheduler, MOSS Curve Scheduler, and MO&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xf2nwp/a_quick_mossimage_news_roundup_25th_october_2026/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1xf1yr5/modern_home_defense/</id><title>Modern Home Defense</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xf1yr5/modern_home_defense/"/>
-<published>2026-10-25T13:09:19+00:00</published><updated>2026-10-25T13:09:19+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="blender"/>
-<summary>A practice project to work on my Blender and DaVinci Resolve skills. Knock responsibly. submitted by /u/nun_de_plume [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 1 · blender&lt;/small&gt;&lt;/p&gt;&lt;p&gt;A practice project to work on my Blender and DaVinci Resolve skills. Knock responsibly. submitted by /u/nun_de_plume [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xf1yr5/modern_home_defense/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xf1wpt/fastsdcpu_release_with_flux_3_image_klein/</id><title>FastSDCPU release with Flux 3 Image Klein OpenVINO support( 2 to 4 steps)</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xf1wpt/fastsdcpu_release_with_flux_3_image_klein/"/>
-<published>2026-10-25T13:06:45+00:00</published><updated>2026-10-25T13:06:45+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="flux"/>
-<summary>submitted by /u/simpleuserhere [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/simpleuserhere [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xf1wpt/fastsdcpu_release_with_flux_3_image_klein/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
