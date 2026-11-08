@@ -2,8 +2,26 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-08T03:30:20+00:00</updated>
+<updated>2026-11-08T05:30:23+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1xqospp/how_would_i_go_about_tracking_this_shot/</id><title>How would I go about tracking this shot?</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xqospp/how_would_i_go_about_tracking_this_shot/"/>
+<published>2026-11-08T03:34:44+00:00</published><updated>2026-11-08T03:34:44+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="tracking"/>
+<summary>I am working on a recreation of the Vertigo scene from the backrooms movie with a friend and we shot this on a stage at my school with a set prop me and my dad made. Issue is, when I try to track this footage, the graininess of the footage and the slight shakiness of the green board lead to the trac</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · tracking&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I am working on a recreation of the Vertigo scene from the backrooms movie with a friend and we shot this on a stage at my school with a set prop me and my dad made. Issue is, when I try to track this footage, the graininess of the footage and the slight shakiness of the green board lead to the track either failing or sliding and shaking. Any help? submitted by /u/blosiv [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xqospp/how_would_i_go_about_tracking_this_shot/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xqojjf/viggle_remake_mcp_now_has_a_comfyui_worker_int8/</id><title>Viggle Remake MCP now has a ComfyUI worker (int8 + offload). Raw results: what it nails and where it breaks</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xqojjf/viggle_remake_mcp_now_has_a_comfyui_worker_int8/"/>
+<published>2026-11-08T03:20:53+00:00</published><updated>2026-11-08T03:20:53+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<summary>Update: I added a ComfyUI worker to the MCP (tested on an 5090). https://huggingface.co/Viggle/Viggle-Remake#agent-the-mcp-server It runs the int8 model and streams weights from system RAM, so it should be easier to set up on GPUs with less VRAM. So far I've only tested it on 32 GB. Tests at 24 GB a</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Update: I added a ComfyUI worker to the MCP (tested on an 5090). https://huggingface.co/Viggle/Viggle-Remake#agent-the-mcp-server It runs the int8 model and streams weights from system RAM, so it should be easier to set up on GPUs with less VRAM. So far I've only tested it on 32 GB. Tests at 24 GB and 20 GB are running now, and I'll post the numbers when they finish. The attached video is one-round raw output, no multi-round iteration, no manual cleanup. I t shows both what the model does well and where it breaks, so you get a realistic picture of the model before you try it. Most errors are in the first 30s and small faces. ‼️ Most useful tip‼️: if any part of a result looks wrong, tell the&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xqojjf/viggle_remake_mcp_now_has_a_comfyui_worker_int8/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xqnnlk/ltx_25_music_video_good_character_consistency_but/</id><title>LTX 2.5 music video: good character consistency, but mushy motion and facial detail. How would you improve this workflow?</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xqnnlk/ltx_25_music_video_good_character_consistency_but/"/>
@@ -7573,14 +7591,5 @@
 <category term="lora"/>
 <summary>Hi all! What do we think of MOSS Image so far? Personally I'm loving it. The variety in images? The differences in people's faces, ethnicities, body types, etc? And it's so easy to get my favourite style of photo to create, amateur candid realism. It really is a great model. Lora training was kind o</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi all! What do we think of MOSS Image so far? Personally I'm loving it. The variety in images? The differences in people's faces, ethnicities, body types, etc? And it's so easy to get my favourite style of photo to create, amateur candid realism. It really is a great model. Lora training was kind of a tough nut to crack though, but I'm pretty certain I have settings that work, so I figured I'd share. With these settings, I get good results every time. Most of my datasets were between 50 and 100 images, with natural language captions. Best settings I found are Automagic3, with Sigmoid and High (balanced didn't work well, but High worked a treat). I start the learning rate quite high, at 0.00&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xeunzs/my_moss_character_lora_training_results/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1xesuw7/the_hulk_grows_from_9ft_to_12ft_tall_sequence/</id><title>The Hulk grows from 9ft to 12ft tall sequence What was the scene like to be animated?</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xesuw7/the_hulk_grows_from_9ft_to_12ft_tall_sequence/"/>
-<published>2026-10-25T04:25:20+00:00</published><updated>2026-10-25T04:25:20+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="render"/>
-<summary>Here is a shot I found in Cinefex Magazine #94 (July 2003) of the shot where the Hulk grows from 9ft tall to 12ft fall and the screenshot from the Hulk 2003 video game movie short Hulk Movie F/X this shot was a pre viz raw render The top reads BH18----HULK----BH18 and the bottom reads CGHK-06166-27-</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 1 · render&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Here is a shot I found in Cinefex Magazine #94 (July 2003) of the shot where the Hulk grows from 9ft tall to 12ft fall and the screenshot from the Hulk 2003 video game movie short Hulk Movie F/X this shot was a pre viz raw render The top reads BH18----HULK----BH18 and the bottom reads CGHK-06166-27-November-02-PM you can see some tissue overlay of BH18 or (Banner Hulk) transformation concept by Robert MacKenzie dated 11/06/2002. You can see the underwear at the leg part ripping a bit as he grows. The shot in the final movie Pre viz animated sequence submitted by /u/Bitter-Pomelo-2345 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xesuw7/the_hulk_grows_from_9ft_to_12ft_tall_sequence/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
