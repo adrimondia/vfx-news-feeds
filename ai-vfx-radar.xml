@@ -2,8 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-08T23:30:30+00:00</updated>
+<updated>2026-11-09T01:30:28+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xrdfkg/tip_better_acting_performance_and_voice_delivery/</id><title>Tip: Better acting performance and voice delivery in H3</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xrdfkg/tip_better_acting_performance_and_voice_delivery/"/>
+<published>2026-11-09T00:20:03+00:00</published><updated>2026-11-09T00:20:03+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="lip-sync"/>
+<category term="render"/>
+<category term="minimax"/>
+<summary>Here's a quick tip on how to get rid of that flat sounding AI voice in H3, and as a bonus improve somewhat the acting of your virtual characters. I'll be using Pika H3 Flex with the H3 reference model and workflow. Step 1: Add a pre-rendered first frame at index 0 using the Add Guide for MiniMax H3 </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · lip-sync, render, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Here's a quick tip on how to get rid of that flat sounding AI voice in H3, and as a bonus improve somewhat the acting of your virtual characters. I'll be using Pika H3 Flex with the H3 reference model and workflow. Step 1: Add a pre-rendered first frame at index 0 using the Add Guide for MiniMax H3 node. Then in your prompt, describe the desired action and emotion of the character on screen, but without specifying too many details or providing exact spoken dialogue. In this example I simply used the phrase: "A static medium two-shot establishes &amp;lt;Subject 1&amp;gt;, the female orc, and &amp;lt;Subject 2&amp;gt;, the tall, female paladin, sitting across each other at a table in &amp;lt;Subject 3&amp;gt;, the dimly lit main room &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xrdfkg/tip_better_acting_performance_and_voice_delivery/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xrcesv/followup_to_my_ltx_25_music_video_trying_pika_h3/</id><title>Follow-up to my LTX 2.5 music video — trying Pika H3 Flex for cleaner motion and singing lip-sync</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xrcesv/followup_to_my_ltx_25_music_video_trying_pika_h3/"/>
+<published>2026-11-08T23:32:06+00:00</published><updated>2026-11-08T23:32:06+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="lip-sync"/>
+<category term="minimax"/>
+<category term="ltx"/>
+<summary>Follow-up to my LTX 2.5 music video — trying Pika H3 Flex for cleaner motion and singing lip-sync Post A few people suggested trying MiniMax H3 after I shared my LTX 2.5 rap video. That video kept the character consistent, but the face and hands lost detail during movement, and the lip-sync was unev</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 5 · lip-sync, minimax, ltx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Follow-up to my LTX 2.5 music video — trying Pika H3 Flex for cleaner motion and singing lip-sync Post A few people suggested trying MiniMax H3 after I shared my LTX 2.5 rap video. That video kept the character consistent, but the face and hands lost detail during movement, and the lip-sync was uneven. I took that feedback into a new project called One Last Bullet , a melancholic music video set among clouds, pink interiors and desert landscapes. Previous LTX 2.5 post and discussion What I’m using now Suno for the song and ChatGPT Images for reference frames of the same performer across different settings and camera angles. Pika H3 Flex Ref2VA on the MiniMax H3 base model, running through Py&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xrcesv/followup_to_my_ltx_25_music_video_trying_pika_h3/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1xrayzl/beta_testers_wanted_for_local_ai_software/</id><title>Beta Testers wanted for Local AI Software</title>
 <link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xrayzl/beta_testers_wanted_for_local_ai_software/"/>
@@ -7517,52 +7539,5 @@
 <category term="comfyui"/>
 <summary>I built RenderRepo because useful ComfyUI workflows are scattered across GitHub, Reddit posts, local folders, and other sources. A workflow JSON gives ComfyUI a graph to open, but there’s no consistent package identity or revision trail, and it can be hard to tell what the workflow needs or whether </summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I built RenderRepo because useful ComfyUI workflows are scattered across GitHub, Reddit posts, local folders, and other sources. A workflow JSON gives ComfyUI a graph to open, but there’s no consistent package identity or revision trail, and it can be hard to tell what the workflow needs or whether those files are already installed. The idea is a little like apt for workflows: manage sources, find packages, check local dependencies, review an install plan, then open the original graph in ComfyUI. A RenderRepo capsule adds package identity, schema version, source and revision provenance, and hashes around the unchanged workflow JSON. The graph stays ordinary ComfyUI JSON; the capsule gives RR&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xfkqzq/my_entry_for_comfys_open_source_higgsfield/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1xfjmvw/looking_to_pivot_into_vfx_is_this_a_good_desicion/</id><title>Looking to Pivot into VFX, is this a good desicion?</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xfjmvw/looking_to_pivot_into_vfx_is_this_a_good_desicion/"/>
-<published>2026-10-26T01:24:05+00:00</published><updated>2026-10-26T01:24:05+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="vfx"/>
-<summary>Hi everyone! For context I am a 2D animator who is looking to pivot into real time VFX and was wondering what would be a good starting point to learn. I'm looking to purchase at least a month of vfxapprenticeship and I've also seen CGHOW on youtube. Besides that I've just been looking at Artstation </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi everyone! For context I am a 2D animator who is looking to pivot into real time VFX and was wondering what would be a good starting point to learn. I'm looking to purchase at least a month of vfxapprenticeship and I've also seen CGHOW on youtube. Besides that I've just been looking at Artstation and finding whatever tutorials online. I wonder if there are any VFX communities besides reddit online where I can show some of my beginner work to get some feedback, I'm also looking for like a study buddy or like a couple of people who are down to just learn VFX together! Does anyone know any other resources to look out for besides that? And does anyone personally do mentoring for VFX like a tut&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xfjmvw/looking_to_pivot_into_vfx_is_this_a_good_desicion/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xfjayi/i_built_an_localfirst_spatial_catalog_to_organize/</id><title>I built an local-first spatial catalog to organize and search thousands of ComfyUI outputs &amp; workflows (FOSS)</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xfjayi/i_built_an_localfirst_spatial_catalog_to_organize/"/>
-<published>2026-10-26T01:08:27+00:00</published><updated>2026-10-26T01:08:27+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<summary>Hey everyone, Like many of you guys, my ComfyUI output folder quickly grew to tens of thousands of images, and Windows Explorer was either freezing or completely useless for finding which generation had which prompt or node setup. I used AI to build a fast, local-first alternative to organize massiv</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey everyone, Like many of you guys, my ComfyUI output folder quickly grew to tens of thousands of images, and Windows Explorer was either freezing or completely useless for finding which generation had which prompt or node setup. I used AI to build a fast, local-first alternative to organize massive image collections and ComfyUI outputs without using proprietary software or sending data to cloud services. Key Features: • Spatial Grid: Fluid navigation designed to pan and zoom through 40,000+ images instantly without UI stutter. • ComfyUI Metadata Extraction: Automatically parses PNG chunks (tEXt / iTXt) to show positive and negative prompts, seed, sampler, steps, checkpoint, and the full wo&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xfjayi/i_built_an_localfirst_spatial_catalog_to_organize/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xfiu6p/update_tired_of_guessing_how_long_your_batch/</id><title>[Update] Tired of guessing how long your batch generations take? I made two free ComfyUI timer nodes to accurately track macro-duration. (v0.2.2)</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xfiu6p/update_tired_of_guessing_how_long_your_batch/"/>
-<published>2026-10-26T00:46:32+00:00</published><updated>2026-10-26T00:46:32+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<summary>Hey SD folks, I love running large batches of images overnight, but I always found it frustrating that there was no clean way to see the total elapsed time of a whole batch loop. ComfyUI only shows the time for individual prompts, not the whole batch. I wanted something that felt like a physical pie</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey SD folks, I love running large batches of images overnight, but I always found it frustrating that there was no clean way to see the total elapsed time of a whole batch loop. ComfyUI only shows the time for individual prompts, not the whole batch. I wanted something that felt like a physical piece of hardware on my dashboard. So, I built two free, open-source timer nodes for ComfyUI: Batch Image Timer (for image generation loops, like Sequential Loaders) Universal Timer (for video, audio, or training workflows) Features you might like: 📺 Retro 7-Segment LED Design : It looks like a real digital clock on your canvas, complete with a subtle neon glow. 🟢 Smart Status Colors : The counter tu&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xfiu6p/update_tired_of_guessing_how_long_your_batch/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xfh9ds/model_lora_merging_help/</id><title>Model Lora Merging Help</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xfh9ds/model_lora_merging_help/"/>
-<published>2026-10-25T23:35:34+00:00</published><updated>2026-10-25T23:35:34+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="lora"/>
-<summary>submitted by /u/Time-Teaching1926 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/Time-Teaching1926 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xfh9ds/model_lora_merging_help/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xfh9a4/sonnet_55_created_a_music_video_in_comfyui_fully/</id><title>Sonnet 5.5 created a music video in ComfyUI - fully automated.</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xfh9a4/sonnet_55_created_a_music_video_in_comfyui_fully/"/>
-<published>2026-10-25T23:35:26+00:00</published><updated>2026-10-25T23:35:26+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="minimax"/>
-<category term="lora"/>
-<summary>I made this last week and wasn't going to share it but then decided to because I think it's still pretty cool. It's not the best video and still has its issues, but it's still not terrible for a one-shot music video, only giving Sonnet 5.5 one prompt. Keep your rude and disrespectful comments to you</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · comfyui, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I made this last week and wasn't going to share it but then decided to because I think it's still pretty cool. It's not the best video and still has its issues, but it's still not terrible for a one-shot music video, only giving Sonnet 5.5 one prompt. Keep your rude and disrespectful comments to yourself. They help no one. Polite and respectful feedback is fine, but Claude created this, not me. I used my Video Builder UI custom node MCP feature and had Claude Sonnet 5.5 come up with its own ideas to create this music video. (I didn't even have to open ComfyUI) All I did was prompt: "Create a theatrical rock/metal music video with creative costumes. Female singer." Sonnet did the following on&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xfh9a4/sonnet_55_created_a_music_video_in_comfyui_fully/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
