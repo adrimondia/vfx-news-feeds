@@ -2,8 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-09T05:30:20+00:00</updated>
+<updated>2026-11-09T07:30:24+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xrkcea/openh3regenerate2kic/</id><title>Open-H3-Regenerate-2K-IC</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xrkcea/openh3regenerate2kic/"/>
+<published>2026-11-09T06:22:01+00:00</published><updated>2026-11-09T06:22:01+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<category term="lora"/>
+<summary>https://huggingface.co/Efficient-Large-Model/Open-H3-Regenerate-2K-IC https://github.com/NVlabs/Sana/tree/sol-engine/models/Open-H3-Regenerate-2K/IC New latent upscale model by NVIDIA-labs. Basically, it's v2. A few highlights compared to v1: - Face &amp; Text are more consistent with the original video</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;https://huggingface.co/Efficient-Large-Model/Open-H3-Regenerate-2K-IC https://github.com/NVlabs/Sana/tree/sol-engine/models/Open-H3-Regenerate-2K/IC New latent upscale model by NVIDIA-labs. Basically, it's v2. A few highlights compared to v1: - Face &amp;amp; Text are more consistent with the original video - Use H3 Ref2VA instead of fl2va. - Turbo LoRA, Regenerate LoRA, LMS LoRA are not merged. They also use Hyperflow 8-step LoRA - New samplings: 3, 4, 8 steps. - Fast VAE-v2. The v1 fast VAE has grid artifacts in ComfyUI submitted by /u/fallengt [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xrkcea/openh3regenerate2kic/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://arxiv.org/abs/2611.09069</id><title>UniRGBA: Unifying RGB and Alpha in Pretrained Video Diffusion Models</title>
 <link rel="alternate" href="https://arxiv.org/abs/2611.09069"/>
@@ -7425,48 +7435,5 @@
 <category term="lora"/>
 <summary>I keep seeing "turbo LoRA or FastH3 on a 3060?" and "H3 takes 40 min even on a 5090", so I put the speed-up options next to each other from their own model cards. Short version: on a small card the slow part is usually weights or the text encoder streaming from system RAM, and turbo LoRAs cut steps,</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 7 · upscaling, render, comfyui, minimax, controlnet, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I keep seeing "turbo LoRA or FastH3 on a 3060?" and "H3 takes 40 min even on a 5090", so I put the speed-up options next to each other from their own model cards. Short version: on a small card the slow part is usually weights or the text encoder streaming from system RAM, and turbo LoRAs cut steps, not the cost of one step. The ComfyUI docs say it directly: "Turbo LoRAs shorten the schedule, not per-step time." Option Size / format Steps Built for Comfy-Org turbo LoRA (LightX2V) 1.96 GB 8 T2V/I2V, 4 R2V Native ComfyUI, any H3 base Larry Turbo v4 step600 EMA 0.78 GB 4 to 8 Larryvrh custom nodes DMAD 4-step LoRA 2.0 GB 4, cfg 1.0 Text to video only molbal Turbo GGUF (LoRA merged) 11.4 GB at Q&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xfrdh3/minimax_h3_on_1216_gb_the_seven_speedups_compared/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://github.com/unslothai/unsloth</id><title>unslothai/unsloth</title>
-<link rel="alternate" href="https://github.com/unslothai/unsloth"/>
-<published>2026-10-26T07:30:19+00:00</published><updated>2026-10-26T07:30:19+00:00</updated>
-<author><name>GitHub trending (Python)</name></author>
-<category term="video diffusion"/>
-<category term="flux"/>
-<category term="lora"/>
-<summary>Local UI to run and train LLMs and diffusion models. Supports GGUF, MLX, Qwen3.8, DeepSeek-V4.1, MiniMax-H3, Gemma 4, FLUX and more. https://unsloth.ai/docs Unsloth is the first desktop app to run and train models. Features • Quickstart • Notebooks • Documentation ⚡ Get started Download the native U</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;GitHub trending (Python) · score 3 · video diffusion, flux, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Local UI to run and train LLMs and diffusion models. Supports GGUF, MLX, Qwen3.8, DeepSeek-V4.1, MiniMax-H3, Gemma 4, FLUX and more. https://unsloth.ai/docs Unsloth is the first desktop app to run and train models. Features • Quickstart • Notebooks • Documentation ⚡ Get started Download the native Unsloth Desktop app for your operating system: Platform Link Windows Download macOS Download Linux / Ubuntu (deb) Download Linux / Ubuntu (ARM64) (deb) Download Linux (AppImage) Download Windows (ARM64) Download Download from Unsloth or GitHub Releases . Or if you prefer to install manually: macOS, Linux, WSL: curl -fsSL https://unsloth.ai/install.sh | sh Windows: irm https://unsloth.ai/install.ps1&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.com/unslothai/unsloth"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1xfonzx/how_would_yall_balance_a_200sq_meter_water_tank/</id><title>how would y’all balance a 200sq meter water tank and 600 vfx shots on a hurricane film?</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xfonzx/how_would_yall_balance_a_200sq_meter_water_tank/"/>
-<published>2026-10-26T05:52:36+00:00</published><updated>2026-10-26T05:52:36+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="compositing"/>
-<category term="vfx"/>
-<category term="unreal"/>
-<category term="storyboard"/>
-<summary>i just finished watching surviving hurricane otis and started reading up on the film, on the practical side, they equipped a 200 square meter at churubusco, boats, fans, gimbals, and a water recycling setup and on the digital side, it packed 600 vfx shots, 300+ people across mexico, spain, india, ko</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 5 · compositing, vfx, unreal, storyboard&lt;/small&gt;&lt;/p&gt;&lt;p&gt;i just finished watching surviving hurricane otis and started reading up on the film, on the practical side, they equipped a 200 square meter at churubusco, boats, fans, gimbals, and a water recycling setup and on the digital side, it packed 600 vfx shots, 300+ people across mexico, spain, india, korea and canada, along with a storyboard which was animated in unreal first which is all pretty cool but got me thinking hard on how an aspiring vfx enthusiast would handle the same so my question to you guys is: Has anyone worked here on water sims before at this scale? I’d really love to know whether a tank plus gimbal approach saves time in the end or just moves the pain to compositing submitted&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xfonzx/how_would_yall_balance_a_200sq_meter_water_tank/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xfonos/introducing_krea2mossimage_manga_alpha_image_lora/</id><title>Introducing Krea2/Moss-Image Manga Alpha Image Lora</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xfonos/introducing_krea2mossimage_manga_alpha_image_lora/"/>
-<published>2026-10-26T05:52:02+00:00</published><updated>2026-10-26T05:52:02+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="lora"/>
-<summary>Hi, After a weekend experimenting with RGBA generation using MOSS-Image, I found myself training a LoRA for a manga project I have in mind. I was wondering if the same approach would work with Krea 2, and after doing some research with Claude, I found that there was a VAE compatible with Krea 2. So </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi, After a weekend experimenting with RGBA generation using MOSS-Image, I found myself training a LoRA for a manga project I have in mind. I was wondering if the same approach would work with Krea 2, and after doing some research with Claude, I found that there was a VAE compatible with Krea 2. So after that, it was just a matter of training with the same dataset I used for MOSS. Here are the results of both trainings: MOSS-Image: https://huggingface.co/paralaif/MOSS-Manga-Alpha-Image-LoRA Krea 2: https://huggingface.co/paralaif/Krea2-Manga-Alpha-Image-LoRA In the case of Krea 2, sadly it doesn't work with Kroma 😢, but I tried it with Kreamax Edit and got good results. However, I recommend &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xfonos/introducing_krea2mossimage_manga_alpha_image_lora/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1xfoen0/which_degree_is_more_useful_for_an_fx_artist_bsc/</id><title>Which Degree Is More Useful for an FX Artist: BSc Animation, Design, BCA or BTech? Especially for Working Abroad</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xfoen0/which_degree_is_more_useful_for_an_fx_artist_bsc/"/>
-<published>2026-10-26T05:36:14+00:00</published><updated>2026-10-26T05:36:14+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="animation"/>
-<category term="vfx"/>
-<category term="houdini"/>
-<summary>Hi everyone, I'm planning my long-term career as a Houdini FX Artist and would like advice from people working in the VFX industry, especially those working abroad. I'm confused about which degree would be the most useful alongside developing strong Houdini skills and building a professional showree</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 4 · animation, vfx, houdini&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi everyone, I'm planning my long-term career as a Houdini FX Artist and would like advice from people working in the VFX industry, especially those working abroad. I'm confused about which degree would be the most useful alongside developing strong Houdini skills and building a professional showreel. I'm considering these options: - BSc Animation or a related design degree - BCA (Computer Applications) - BTech in Computer Science or a related technical field My questions are: For an FX Artist career: Do studios care about which degree you have, or are your showreel, technical skills, and production experience more important? For becoming an FX TD: Would a BCA or BTech provide a meaningful a&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xfoen0/which_degree_is_more_useful_for_an_fx_artist_bsc/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
