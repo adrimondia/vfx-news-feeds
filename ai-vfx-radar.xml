@@ -2,8 +2,44 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-09T03:30:22+00:00</updated>
+<updated>2026-11-09T05:30:20+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://arxiv.org/abs/2611.09069</id><title>UniRGBA: Unifying RGB and Alpha in Pretrained Video Diffusion Models</title>
+<link rel="alternate" href="https://arxiv.org/abs/2611.09069"/>
+<published>2026-11-09T05:00:00+00:00</published><updated>2026-11-09T05:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="video diffusion"/>
+<category term="text-to-video"/>
+<category term="wan2"/>
+<category term="dit"/>
+<summary>arXiv:2611.09069v1 Announce Type: new Abstract: Recent advances in video diffusion models have achieved remarkable photorealistic RGB synthesis, yet generating videos with a native alpha channel remains an open challenge. Existing approaches often rely on matting-style data and non-native RGBA desig</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · video diffusion, text-to-video, wan2, dit&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2611.09069v1 Announce Type: new Abstract: Recent advances in video diffusion models have achieved remarkable photorealistic RGB synthesis, yet generating videos with a native alpha channel remains an open challenge. Existing approaches often rely on matting-style data and non-native RGBA designs, causing them to specialize in real-object scenes and to degrade severely on visual-effect content whose semi-transparency is spatially non-local and non-elliptical. We present UniRGBA, a unified framework whose key insight is that RGBA generation does not require a dedicated alpha encoder or complex latent-space restructuring---a minimal, targeted extension of the existing RGB pathway is suffi&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2611.09069"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2605.16981</id><title>Rethinking the State Update Gate for Long-Sequence Recurrent 3D Reconstruction</title>
+<link rel="alternate" href="https://arxiv.org/abs/2605.16981"/>
+<published>2026-11-09T05:00:00+00:00</published><updated>2026-11-09T05:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="3d reconstruction"/>
+<category term="camera pose"/>
+<category term="pose estimation"/>
+<category term="slam"/>
+<summary>arXiv:2605.16981v4 Announce Type: replace Abstract: Streaming 3D reconstruction under a strict constant-memory budget hinges on how the recurrent state is updated as the stream evolves. We profile TTT3R-style per-token gates across five benchmarks and discover a structural bottleneck: the gate is in</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · 3d reconstruction, camera pose, pose estimation, slam&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2605.16981v4 Announce Type: replace Abstract: Streaming 3D reconstruction under a strict constant-memory budget hinges on how the recurrent state is updated as the stream evolves. We profile TTT3R-style per-token gates across five benchmarks and discover a structural bottleneck: the gate is intrinsically bounded in magnitude (median $0.31$; never exceeding $0.6$) and nearly frame-invariant, yielding an effective memory horizon of only $\sim$3 frames per state token, which serves as the structural origin of long-sequence drift. We trace this to a missing axis: existing inference-time methods modulate updates only at the per-token, intra-frame level, while the orthogonal frame-level ques&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2605.16981"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2609.24997</id><title>VideoGen-Agent: Reinforcing Video Generation Agents</title>
+<link rel="alternate" href="https://arxiv.org/abs/2609.24997"/>
+<published>2026-11-09T05:00:00+00:00</published><updated>2026-11-09T05:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="video generation"/>
+<category term="text-to-video"/>
+<category term="consistency"/>
+<category term="identity preservation"/>
+<summary>arXiv:2609.24997v4 Announce Type: replace Abstract: Recent advances in video generative models have enabled high-fidelity, temporally coherent video generation. However, these models often struggle to satisfy prompts requiring specialized knowledge, specific identities, physical consistency, or orde</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · video generation, text-to-video, consistency, identity preservation&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.24997v4 Announce Type: replace Abstract: Recent advances in video generative models have enabled high-fidelity, temporally coherent video generation. However, these models often struggle to satisfy prompts requiring specialized knowledge, specific identities, physical consistency, or ordered events. In this paper, we present VideoGen-Agent, a multimodal agent trained through multitask agentic reinforcement learning to use external tools for video generation. The agent coordinates augmentation, generation, and verification tools through multi-turn interactions, using the prompt and intermediate observations to guide its decisions. We train a shared policy on a category-balanced dat&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.24997"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xrdsj8/liveaction_blender_wan_22_lora_hybrid_test/</id><title>Live-Action + Blender + Wan 2.2 Lora Hybrid Test</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xrdsj8/liveaction_blender_wan_22_lora_hybrid_test/"/>
@@ -7432,117 +7468,5 @@
 <category term="houdini"/>
 <summary>Hi everyone, I'm planning my long-term career as a Houdini FX Artist and would like advice from people working in the VFX industry, especially those working abroad. I'm confused about which degree would be the most useful alongside developing strong Houdini skills and building a professional showree</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 4 · animation, vfx, houdini&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi everyone, I'm planning my long-term career as a Houdini FX Artist and would like advice from people working in the VFX industry, especially those working abroad. I'm confused about which degree would be the most useful alongside developing strong Houdini skills and building a professional showreel. I'm considering these options: - BSc Animation or a related design degree - BCA (Computer Applications) - BTech in Computer Science or a related technical field My questions are: For an FX Artist career: Do studios care about which degree you have, or are your showreel, technical skills, and production experience more important? For becoming an FX TD: Would a BCA or BTech provide a meaningful a&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xfoen0/which_degree_is_more_useful_for_an_fx_artist_bsc/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2610.31747</id><title>AudioLift: Audio-Driven Single Image to Full-Head Gaussian Avatar via Multi-view Video Generation</title>
-<link rel="alternate" href="https://arxiv.org/abs/2610.31747"/>
-<published>2026-10-26T04:00:00+00:00</published><updated>2026-10-26T04:00:00+00:00</updated>
-<author><name>arXiv cs.CV</name></author>
-<category term="video generation"/>
-<category term="avatar"/>
-<category term="consistency"/>
-<category term="multi-view"/>
-<summary>arXiv:2610.31747v1 Announce Type: new Abstract: Existing 3D talking avatar methods mainly rely on parametric face models including 3DMM or FLAME, whose compact motion representations limit their ability to synthesize extreme expressions and to model accessories such as headwear. We introduce AudioLi</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 7 · video generation, avatar, consistency, multi-view&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2610.31747v1 Announce Type: new Abstract: Existing 3D talking avatar methods mainly rely on parametric face models including 3DMM or FLAME, whose compact motion representations limit their ability to synthesize extreme expressions and to model accessories such as headwear. We introduce AudioLift, a two-stage framework that uses generated multi-view videos as the intermediate representation for audio-driven avatar generation without parametric face models or per-instance optimization. Our framework combines a synchronized multi-view video generation stage with an inconsistency-robust Gaussian reconstruction stage to recover coherent full-head geometry from a single portrait image. Exten&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2610.31747"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2610.31765</id><title>SyncVid: World-Equivariant Diffusion for Synchronized Video Generation</title>
-<link rel="alternate" href="https://arxiv.org/abs/2610.31765"/>
-<published>2026-10-26T04:00:00+00:00</published><updated>2026-10-26T04:00:00+00:00</updated>
-<author><name>arXiv cs.CV</name></author>
-<category term="video generation"/>
-<category term="video diffusion"/>
-<category term="4d"/>
-<category term="rendering"/>
-<category term="consistency"/>
-<summary>arXiv:2610.31765v1 Announce Type: new Abstract: Generating multiple videos of a dynamic scene from a single reference video requires synthesizing both observed and unobserved content consistently across viewpoints. Existing camera-control methods for video diffusion typically rely on architectural m</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 6 · video generation, video diffusion, 4d, rendering, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2610.31765v1 Announce Type: new Abstract: Generating multiple videos of a dynamic scene from a single reference video requires synthesizing both observed and unobserved content consistently across viewpoints. Existing camera-control methods for video diffusion typically rely on architectural mechanisms, including camera embeddings, cross-view attention, and geometric conditioning. Although effective for static scene content, these approaches often struggle with the fine-grained, dynamic geometry that must remain coherent across views and over time. We synchronize the diffusion process itself by sampling the Gaussian noise prior in a canonical 3D space derived from the source video and &lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2610.31765"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2610.31908</id><title>PixGR: Pixel-Space Generative Decoding for Fast Feed-Forward 3D Reconstruction</title>
-<link rel="alternate" href="https://arxiv.org/abs/2610.31908"/>
-<published>2026-10-26T04:00:00+00:00</published><updated>2026-10-26T04:00:00+00:00</updated>
-<author><name>arXiv cs.CV</name></author>
-<category term="3d gaussian"/>
-<category term="3d reconstruction"/>
-<category term="rendering"/>
-<category term="dit"/>
-<summary>arXiv:2610.31908v1 Announce Type: new Abstract: We present PixGR, an efficient framework that integrates lightweight pixel-space generative modeling into feed-forward 3D Gaussian reconstruction to model scene uncertainty. Context observations are encoded once into a scene latent representation, whic</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · 3d gaussian, 3d reconstruction, rendering, dit&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2610.31908v1 Announce Type: new Abstract: We present PixGR, an efficient framework that integrates lightweight pixel-space generative modeling into feed-forward 3D Gaussian reconstruction to model scene uncertainty. Context observations are encoded once into a scene latent representation, which conditions generative decoding from noisy target views to produce a shared 3D Gaussian representation. We formulate this process using pixel-space flow matching, enabling end-to-end optimization of 3D reconstruction with direct pixel-space generative supervision through differentiable rendering. This avoids VAE-based latent compression and error propagation inherent in previous two-stage pipelin&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2610.31908"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2610.32800</id><title>CompMVR: Compression-Aware Multi-View Restoration Using Diffusion Models for Geometrically Consistent 3D Reconstruction</title>
-<link rel="alternate" href="https://arxiv.org/abs/2610.32800"/>
-<published>2026-10-26T04:00:00+00:00</published><updated>2026-10-26T04:00:00+00:00</updated>
-<author><name>arXiv cs.CV</name></author>
-<category term="novel view synthesis"/>
-<category term="3d reconstruction"/>
-<category term="camera pose"/>
-<category term="pose estimation"/>
-<category term="consistency"/>
-<category term="multi-view"/>
-<summary>arXiv:2610.32800v1 Announce Type: new Abstract: Real-world 3D reconstruction pipelines often rely on multi-view images degraded by lossy compression. While compression artifacts have been extensively studied in single-image or video restoration, their impact on multi-view geometry remains largely ov</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 8 · novel view synthesis, 3d reconstruction, camera pose, pose estimation, consistency, multi-view&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2610.32800v1 Announce Type: new Abstract: Real-world 3D reconstruction pipelines often rely on multi-view images degraded by lossy compression. While compression artifacts have been extensively studied in single-image or video restoration, their impact on multi-view geometry remains largely overlooked. In this work, we identify compression-induced cross-view geometric inconsistency as a critical failure mode, where view-dependent artifacts disrupt feature matching, dense correspondence, camera parameter estimation, and downstream 3D reconstruction tasks such as novel view synthesis. To address this problem, we propose CompMVR, a compression-aware multi-view diffusion restoration framew&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2610.32800"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2606.06685</id><title>RigPAPR: Rig-Based Animation of Static Neural Point Clouds from a Fixed-Viewpoint Video</title>
-<link rel="alternate" href="https://arxiv.org/abs/2606.06685"/>
-<published>2026-10-26T04:00:00+00:00</published><updated>2026-10-26T04:00:00+00:00</updated>
-<author><name>arXiv cs.CV</name></author>
-<category term="image-to-video"/>
-<category term="animation"/>
-<category term="render"/>
-<category term="rendering"/>
-<summary>arXiv:2606.06685v2 Announce Type: replace Abstract: Static neural point reconstructions capture a subject at high fidelity from posed images. Given such a reconstruction, we aim to animate it to follow a monocular fixed-viewpoint driving video of the subject, whether captured or produced by image-to</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · image-to-video, animation, render, rendering&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2606.06685v2 Announce Type: replace Abstract: Static neural point reconstructions capture a subject at high fidelity from posed images. Given such a reconstruction, we aim to animate it to follow a monocular fixed-viewpoint driving video of the subject, whether captured or produced by image-to-video (I2V) generation, and to recover a rigged, re-posable 3D asset. Existing methods deform Gaussian splats through direct linear blend skinning (LBS) or mesh proxies, both of which are prone to joint-boundary artifacts under articulation, even with per-primitive corrections. We trace the artifact to the representation: each splat carries an individual shape calibrated in the canonical pose to &lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2606.06685"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2606.07419</id><title>DisPOSE: Projected Polystochastic Diffusion for Self-Supervised Multi-View 3D Human Pose Estimation</title>
-<link rel="alternate" href="https://arxiv.org/abs/2606.07419"/>
-<published>2026-10-26T04:00:00+00:00</published><updated>2026-10-26T04:00:00+00:00</updated>
-<author><name>arXiv cs.CV</name></author>
-<category term="pose estimation"/>
-<category term="denoising"/>
-<category term="multi-view"/>
-<summary>arXiv:2606.07419v4 Announce Type: replace Abstract: Recovering 3D human poses for multiple individuals from different camera views is a fundamental bottleneck for analyzing interacting behaviors. Existing self-supervised approaches leverage synthetic catalogues of 3D poses; however, this leads to po</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · pose estimation, denoising, multi-view&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2606.07419v4 Announce Type: replace Abstract: Recovering 3D human poses for multiple individuals from different camera views is a fundamental bottleneck for analyzing interacting behaviors. Existing self-supervised approaches leverage synthetic catalogues of 3D poses; however, this leads to poor generalization in real-world scenarios due to distribution shifts. We therefore introduce DisPOSE, a self-supervised framework that approximates the inherently discrete multi-view person-assignment problem as a generative diffusion process over the space of polystochastic tensors. By employing differentiable Sinkhorn projections during denoising, our model learns to guide solutions toward valid&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2606.07419"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2606.23254</id><title>SteerVTE: Seamless Video Text Editing with Style and Glyph Control</title>
-<link rel="alternate" href="https://arxiv.org/abs/2606.23254"/>
-<published>2026-10-26T04:00:00+00:00</published><updated>2026-10-26T04:00:00+00:00</updated>
-<author><name>arXiv cs.CV</name></author>
-<category term="video diffusion"/>
-<category term="video editing"/>
-<category term="rendering"/>
-<category term="diffusion transformer"/>
-<category term="consistency"/>
-<summary>arXiv:2606.23254v2 Announce Type: replace Abstract: Visual text editing aims to precisely modify text in images and videos while preserving stylistic consistency and visual realism. Despite significant advances in the image domain, video text editing remains largely unexplored: it is a localized tas</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · video diffusion, video editing, rendering, diffusion transformer, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2606.23254v2 Announce Type: replace Abstract: Visual text editing aims to precisely modify text in images and videos while preserving stylistic consistency and visual realism. Despite significant advances in the image domain, video text editing remains largely unexplored: it is a localized task demanding stroke-level precision within small text regions, which compounds the challenges of cross-frame accuracy, temporal coherence, and stylistic fidelity. We introduce SteerVTE, a unified framework that steers a frozen video diffusion model to perform precise Video Text Editing through style and glyph control. Built on a frozen diffusion transformer, SteerVTE attaches a lightweight text con&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2606.23254"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2607.01202</id><title>World from Motion: Generative Dynamic Gaussian Reconstruction from Monocular Video</title>
-<link rel="alternate" href="https://arxiv.org/abs/2607.01202"/>
-<published>2026-10-26T04:00:00+00:00</published><updated>2026-10-26T04:00:00+00:00</updated>
-<author><name>arXiv cs.CV</name></author>
-<category term="video model"/>
-<category term="3d gaussian"/>
-<category term="4d"/>
-<category term="rendering"/>
-<category term="multiview"/>
-<summary>arXiv:2607.01202v2 Announce Type: replace Abstract: We present World from Motion, a method for generating freely renderable dynamic 3D Gaussian representations from monocular videos. Our approach conditions a video model on dense, pixel-aligned renderings that encode appearance, geometry, and 3D sce</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · video model, 3d gaussian, 4d, rendering, multiview&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2607.01202v2 Announce Type: replace Abstract: We present World from Motion, a method for generating freely renderable dynamic 3D Gaussian representations from monocular videos. Our approach conditions a video model on dense, pixel-aligned renderings that encode appearance, geometry, and 3D scene motion along both input and target camera trajectories to correct rendering artifacts and fill in missing regions from an initial reconstruction. To train this model, we construct a dataset of aligned multiview video pairs and dynamic 3DGS representations, with simulated artifacts characteristic of monocular reconstruction. At test time, we distill the model's generations, including newly obser&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2607.01202"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xfmo04/testing_out_a_2x2_storyboard_grid_with_minimax/</id><title>Testing out a 2x2 storyboard grid with MiniMax reference-to-video</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xfmo04/testing_out_a_2x2_storyboard_grid_with_minimax/"/>
-<published>2026-10-26T03:56:46+00:00</published><updated>2026-10-26T03:56:46+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="minimax"/>
-<category term="lora"/>
-<category term="storyboard"/>
-<summary>In case the video's is still pending it can be watched here too Okay, so I was working on a music video using MiniMax reference-to-video, and some of the scenes I wanted to create were a little too complex for MiniMax to follow with just a prompt and even first / last frame had issues. So, I started</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 6 · comfyui, minimax, lora, storyboard&lt;/small&gt;&lt;/p&gt;&lt;p&gt;In case the video's is still pending it can be watched here too Okay, so I was working on a music video using MiniMax reference-to-video, and some of the scenes I wanted to create were a little too complex for MiniMax to follow with just a prompt and even first / last frame had issues. So, I started thinking about keyframing. I know there are ways to do actual keyframes, but I was curious what would happen if I created a 2x2 storyboard grid and used that as a reference image instead. I used GPT image 2 to create the grids. Basically, each grid has 4 panels that show how I wanted the scene to play out. The first panel is the starting frame, the last panel is the ending frame, and the two pane&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xfmo04/testing_out_a_2x2_storyboard_grid_with_minimax/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
