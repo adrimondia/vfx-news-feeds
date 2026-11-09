@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-09T07:30:24+00:00</updated>
+<updated>2026-11-09T08:00:20+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xrkcea/openh3regenerate2kic/</id><title>Open-H3-Regenerate-2K-IC</title>
@@ -13,6 +13,18 @@
 <category term="lora"/>
 <summary>https://huggingface.co/Efficient-Large-Model/Open-H3-Regenerate-2K-IC https://github.com/NVlabs/Sana/tree/sol-engine/models/Open-H3-Regenerate-2K/IC New latent upscale model by NVIDIA-labs. Basically, it's v2. A few highlights compared to v1: - Face &amp; Text are more consistent with the original video</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;https://huggingface.co/Efficient-Large-Model/Open-H3-Regenerate-2K-IC https://github.com/NVlabs/Sana/tree/sol-engine/models/Open-H3-Regenerate-2K/IC New latent upscale model by NVIDIA-labs. Basically, it's v2. A few highlights compared to v1: - Face &amp;amp; Text are more consistent with the original video - Use H3 Ref2VA instead of fl2va. - Turbo LoRA, Regenerate LoRA, LMS LoRA are not merged. They also use Hyperflow 8-step LoRA - New samplings: 3, 4, 8 steps. - Fast VAE-v2. The v1 fast VAE has grid artifacts in ComfyUI submitted by /u/fallengt [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xrkcea/openh3regenerate2kic/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xrjtny/ph3image_in_comfyui_8mp_image_generation_4mp/</id><title>P-H3-Image in ComfyUI! 8MP Image Generation &amp; 4MP Editing on 6GB VRAM</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xrjtny/ph3image_in_comfyui_8mp_image_generation_4mp/"/>
+<published>2026-11-09T05:51:55+00:00</published><updated>2026-11-09T05:51:55+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="texture generation"/>
+<category term="image editing"/>
+<category term="rendering"/>
+<category term="comfyui"/>
+<summary>Hello Everyone i tested New P-H3-Image ComfyUI workflow! This powerful model combines high-resolution image generation up to 8 megapixels with image editing up to 4 megapixels. I'm using the INT8 ConvRot version, optimized and tested on my RTX 3060 6GB VRAM + 16GB RAM and here are my verdict about t</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 5 · texture generation, image editing, rendering, comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hello Everyone i tested New P-H3-Image ComfyUI workflow! This powerful model combines high-resolution image generation up to 8 megapixels with image editing up to 4 megapixels. I'm using the INT8 ConvRot version, optimized and tested on my RTX 3060 6GB VRAM + 16GB RAM and here are my verdict about the model. Model Advantages &amp;amp; Strong Points: Excellent realistic human skin and natural texture generation. Very good human portraits and facial details. Impressive animal generation. Strong text rendering capabilities. Supports both image generation and image editing in one model. Excellent editing capabilities for style changing and camera angle changes. Can create character sheets and modify lig&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xrjtny/ph3image_in_comfyui_8mp_image_generation_4mp/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://arxiv.org/abs/2611.09069</id><title>UniRGBA: Unifying RGB and Alpha in Pretrained Video Diffusion Models</title>
@@ -244,6 +256,18 @@
 <category term="comfyui"/>
 <summary>I keep getting asked how to run the Video Builder fully local, so I made one video that goes from a fresh ComfyUI install all the way to building a video in Story Mode all fully local. Reddit does not allow videos over 15 mins. so, the 2nd part of this video is HERE which walks through story mode. W</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · render, comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I keep getting asked how to run the Video Builder fully local, so I made one video that goes from a fresh ComfyUI install all the way to building a video in Story Mode all fully local. Reddit does not allow videos over 15 mins. so, the 2nd part of this video is HERE which walks through story mode. What it covers: Installing ComfyUI portable from scratch, plus running the update before your first launch (lots of people skip this) Turning on the new built-in Manager. It's off by default in the portable build, which trips people up Installing my nodes and opening the Builder Getting the custom nodes and models from the Models button. You only need the models for the parts you'll actually use, n&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xr1o0p/getting_started_fully_local_oneshot_music_videos/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xr16kc/same_5_prompts_same_seed_flux2_klein_4b9b_vs_krea/</id><title>Same 5 prompts, same seed: FLUX.2 klein 4B/9B vs Krea 2 Turbo vs Z-Image Turbo vs Nano Banana 2.1 (12 GB laptop, ComfyUI)</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xr16kc/same_5_prompts_same_seed_flux2_klein_4b9b_vs_krea/"/>
+<published>2026-11-08T15:36:28+00:00</published><updated>2026-11-08T15:36:28+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<category term="flux"/>
+<category term="filmmaking"/>
+<category term="cinematic"/>
+<summary>Before starting an AI filmmaking course, I wanted to pick image models for key frames. I ran 5 cinematic prompts, same seed, same official template settings, on an RTX 4080 Laptop (12 GB) in ComfyUI. Nano Banana 2.1 was run through the API. All images are AI-generated. Score /54 (skin, light, compos</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 6 · comfyui, flux, filmmaking, cinematic&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Before starting an AI filmmaking course, I wanted to pick image models for key frames. I ran 5 cinematic prompts, same seed, same official template settings, on an RTX 4080 Laptop (12 GB) in ComfyUI. Nano Banana 2.1 was run through the API. All images are AI-generated. Score /54 (skin, light, composition, prompt adherence; /12 with a face, /9 without; subjective) Model Score Time (excl. model load) Nano Banana 2.1 (hosted) 46 API Z-Image Turbo 42 ~11 s Krea 2 Turbo 41 ~11.5 s FLUX.2 klein 4B 40 ~19 s FLUX.2 klein 9B 40 ~35 s Prompts: window portrait (85mm, 5600K side light), concrete stairwell (low angle, hard key, Rembrandt), night apartment (2700K lamp + cold laptop glow), macro old photog&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xr16kc/same_5_prompts_same_seed_flux2_klein_4b9b_vs_krea/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xqzr5z/i_made_an_optimizer_called_apexw_to_speed_up/</id><title>i made an optimizer called ApexW to speed up PyTorch training on low-end GPUs Looking for feedback/benchmarks(got ~6.3% faster SD 1.5 LoRA training on a NVIDIA T4)</title>
