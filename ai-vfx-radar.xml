@@ -2,8 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-09T19:30:31+00:00</updated>
+<updated>2026-11-09T21:30:22+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xs3biq/a_new_8steps_dmd2_lora_for_moss/</id><title>A new 8-steps DMD2 Lora for MOSS</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xs3biq/a_new_8steps_dmd2_lora_for_moss/"/>
+<published>2026-11-09T20:49:33+00:00</published><updated>2026-11-09T20:49:33+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="flux"/>
+<category term="lora"/>
+<summary>An 8-step LoRA (rank 128) for MOSS-Image-Base , distilled by distribution matching: 8 forwards at CFG 1, without a negative prompt, in place of the base model's 50 guided steps. It adapts only the transformer; the text encoder (Qwen3.5-9B), VAE (FLUX.2 small decoder), tokenizer and inference pipelin</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · flux, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;An 8-step LoRA (rank 128) for MOSS-Image-Base , distilled by distribution matching: 8 forwards at CFG 1, without a negative prompt, in place of the base model's 50 guided steps. It adapts only the transformer; the text encoder (Qwen3.5-9B), VAE (FLUX.2 small decoder), tokenizer and inference pipeline are MOSS-Image-Base's, unchanged. How it was trained is in TECH_REPORT.md . It was trained on MOSS-Image-Base, but should work with most fine-tunes of it and with other LoRAs: load it alongside them, at strength 1. More info here: https://huggingface.co/data-archetype/moss_image_base_dmd2 PS: Lora isn't mine, but it's definitely worth paying attention to because, even though (in my opinion) it's&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xs3biq/a_new_8steps_dmd2_lora_for_moss/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1xs0um8/need_advice/</id><title>Need advice</title>
 <link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xs0um8/need_advice/"/>
@@ -50,6 +60,24 @@
 <category term="filmmaking"/>
 <summary>https://fuobe.com My partner has been working on this for the past few weeks for the ComfyUI challenge, and I thought I’d share it here. It’s called Fuobe . The idea is to bring a whole bunch of creative AI tools and workflows together in one place. Image, video, audio, 3D, live editing, camera move</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui, filmmaking&lt;/small&gt;&lt;/p&gt;&lt;p&gt;https://fuobe.com My partner has been working on this for the past few weeks for the ComfyUI challenge, and I thought I’d share it here. It’s called Fuobe . The idea is to bring a whole bunch of creative AI tools and workflows together in one place. Image, video, audio, 3D, live editing, camera movements, effects and a lot more. Since launch, we’ve crossed 10K pageviews in the first 48 hours, picked up 44 GitHub stars and 7 forks (one of them is mine!). We’ve also got local generation running on our RTX 5090, so you can head over and experiment for free. Would love for people working with ComfyUI, generative AI, filmmaking, design and creative production to give it a try. Tell us what you th&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xrwka5/dont_burn_our_5090_we_only_have_one_and_in_this/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1xrvtgh/interview_with_everything_everywhere_all_at_once/</id><title>Interview with Everything Everywhere All at Once VFX Artist Ethan Feldbau</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xrvtgh/interview_with_everything_everywhere_all_at_once/"/>
+<published>2026-11-09T16:13:29+00:00</published><updated>2026-11-09T16:13:29+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="vfx"/>
+<summary>submitted by /u/wetalk2people [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/wetalk2people [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xrvtgh/interview_with_everything_everywhere_all_at_once/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1xrvlw2/looking_for_vfx_artists_for_an_independent_scifi/</id><title>Looking for VFX Artists for an Independent Sci-Fi Short Film (India)</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xrvlw2/looking_for_vfx_artists_for_an_independent_scifi/"/>
+<published>2026-11-09T16:05:53+00:00</published><updated>2026-11-09T16:05:53+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="vfx"/>
+<summary>submitted by /u/Itchy_Ad_5392 [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/Itchy_Ad_5392 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xrvlw2/looking_for_vfx_artists_for_an_independent_scifi/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xrv6ig/qwen_image_21_texture_inpaint_and_outpaint_lora/</id><title>Qwen Image 2.1 Texture inpaint and outpaint lora + custom_nodes for ComfyUI</title>
@@ -117,6 +145,20 @@
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;What are you guys Using for config parameters with Fizgig? I seem to be getting extremely slow speeds. I'm a total noob at training LORAs https://preview.redd.it/lyhzkpz00l0i1.png?width=1607&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=d74e2a504634ac768ec878797cec535113b755af Model Krea 2 · bf16 Dataset Training 42 epochs · 2814 steps · batch 1 · 1.0 MP Optimizer adamw8bit · from 0.0001 Network LoRA · rank 32 · EMA 0.98 Memory block swap 8 ADAPTIVE_LR = false ADAPTIVE_LR_MAX = 4e-4 ADAPTIVE_LR_MIN = 1e-4 BATCH_SIZE = 1 BLOCKS_SWAP = 8 (Moderate — 12GB fp8 / 16GB bf16) BUCKET_NO_UPSCALE = true CAPTION_DROPOUT = Off COMPILE_BLOCKS = Auto CONTEXT_LORA_STRENGTH = 1.0 DATASET_CAPTION_EXT = .txt DATASET_MEGAPIXELS = 1.&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xrqmdw/need_help_for_fizgig_lora_training_with_krea2/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
+<id>https://www.reddit.com/r/vfx/comments/1xrp6ho/baraddûr_the_lower_fortress_wip/</id><title>Barad-Dûr — The Lower Fortress | WIP</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xrp6ho/baraddûr_the_lower_fortress_wip/"/>
+<published>2026-11-09T11:22:03+00:00</published><updated>2026-11-09T11:22:03+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="compositing"/>
+<category term="vfx"/>
+<category term="post-production"/>
+<category term="color grading"/>
+<category term="render"/>
+<category term="cinematic"/>
+<summary>Getting close to finishing the third section of my Barad-Dûr cinematic project. The 3D work is done (except for additional render passes like smokes etc') and I'm now working on the final post-production. Before I wrap it up, I'd love to get some feedback from you guys. I'm particularly interested i</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 6 · compositing, vfx, post-production, color grading, render, cinematic&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Getting close to finishing the third section of my Barad-Dûr cinematic project. The 3D work is done (except for additional render passes like smokes etc') and I'm now working on the final post-production. Before I wrap it up, I'd love to get some feedback from you guys. I'm particularly interested in thoughts on color grading, atmosphere, compositing and any additional VFX or post-processing touches that could help push the shot further. submitted by /u/Zivcg [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xrp6ho/baraddûr_the_lower_fortress_wip/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xro2fv/which_version_of_stable_diffusion_should_i_use_to/</id><title>Which version of stable diffusion should i use to generate car liveries for assetto corsa? (RTX 5080)</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xro2fv/which_version_of_stable_diffusion_should_i_use_to/"/>
 <published>2026-11-09T10:15:59+00:00</published><updated>2026-11-09T10:15:59+00:00</updated>
@@ -135,6 +177,15 @@
 <category term="lora"/>
 <summary>Made on comfyui with new Viggle Remake Lora / Minimax H3 Dasiwa Turbo v2 / Dasiwa turbo lora v1 4steps submitted by /u/harikot [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Made on comfyui with new Viggle Remake Lora / Minimax H3 Dasiwa Turbo v2 / Dasiwa turbo lora v1 4steps submitted by /u/harikot [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xro1e6/harold_risitas/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1xrnx0v/i_made_my_own_version_of_green_lanterns_finale/</id><title>I made my own version of Green lantern's finale moment with VFX. Shot at home in 7 days</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xrnx0v/i_made_my_own_version_of_green_lanterns_finale/"/>
+<published>2026-11-09T10:07:08+00:00</published><updated>2026-11-09T10:07:08+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="vfx"/>
+<summary>submitted by /u/LeoTash6 [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/LeoTash6 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xrnx0v/i_made_my_own_version_of_green_lanterns_finale/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xrmz20/new_solution_animaedit_reference_instruction/</id><title>New Solution - AnimaEdit: Reference &amp; Instruction Image Editing LoRA</title>
@@ -7320,55 +7371,5 @@
 <category term="lora"/>
 <summary>Turbo loras give that weird thickened lines, overcooked type of look. It's well known and discussed so i don't think i need to show examples, but my question is, for those who use minimax h3 a lot, is there any good ways to speed it up without getting too much of that? I tried 0.7 strength on the st</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Turbo loras give that weird thickened lines, overcooked type of look. It's well known and discussed so i don't think i need to show examples, but my question is, for those who use minimax h3 a lot, is there any good ways to speed it up without getting too much of that? I tried 0.7 strength on the step4 larry ema lora, and i tried 8 and 10 steps. 0.6mp. Comes out much better, but still has a bit of the turbo look. submitted by /u/maxiedaniels [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xgaa1s/minimax_h3_faster_than_baseline_options_without/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xg9tis/nowhere_is_safe_in_the_backroomsh3_minimax/</id><title>Nowhere is safe in the backrooms-H3 minimax</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xg9tis/nowhere_is_safe_in_the_backroomsh3_minimax/"/>
-<published>2026-10-26T21:29:24+00:00</published><updated>2026-10-26T21:29:24+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="minimax"/>
-<summary>submitted by /u/warzone_afro [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/warzone_afro [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xg9tis/nowhere_is_safe_in_the_backroomsh3_minimax/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xg8xqo/odissey_of_aeons_video_generado_con_minimax_h3_y/</id><title>Odissey of Aeons - Video generado con minimax h3 y musica con Acesteep 1.5</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xg8xqo/odissey_of_aeons_video_generado_con_minimax_h3_y/"/>
-<published>2026-10-26T20:55:45+00:00</published><updated>2026-10-26T20:55:45+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="minimax"/>
-<summary>submitted by /u/Musikalandia [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/Musikalandia [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xg8xqo/odissey_of_aeons_video_generado_con_minimax_h3_y/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xg8peo/i_built_a_free_opensource_video_studio_that_runs/</id><title>I built a free, open-source video studio that runs locally: one idea → storyboard → chained scenes with sound → montage → 4K (H3 / LTX / WAN, 16 GB RTX)</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xg8peo/i_built_a_free_opensource_video_studio_that_runs/"/>
-<published>2026-10-26T20:46:40+00:00</published><updated>2026-10-26T20:46:40+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="upscaling"/>
-<category term="comfyui"/>
-<category term="wan"/>
-<category term="minimax"/>
-<category term="ltx"/>
-<category term="storyboard"/>
-<summary>Hi everyone! Full disclosure up front: I'm the author of Remiqora Video , an open-source (GPL-3.0) local video studio for Windows. It's a UI and orchestration layer over existing open models, not a new model. Today I published the first pre-release (v0.1.0). https://reddit.com/link/1xg8peo/video/ken</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 9 · upscaling, comfyui, wan, minimax, ltx, storyboard&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi everyone! Full disclosure up front: I'm the author of Remiqora Video , an open-source (GPL-3.0) local video studio for Windows. It's a UI and orchestration layer over existing open models, not a new model. Today I published the first pre-release (v0.1.0). https://reddit.com/link/1xg8peo/video/ken9w3bwhvxh1/player The video above is a 33-second reel cut from seven music videos. The music was made with Remiqora , and the video with Remiqora Video . https://preview.redd.it/uxrm3xgxhvxh1.png?width=1280&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=4f6da5c42a945fe4a501fbe524dca1cc3d071cf5 The problem: current models give you 5–15 s clips. A 1–2 minute film means writing a prompt per scene, keeping the character cons&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xg8peo/i_built_a_free_opensource_video_studio_that_runs/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1xg8dg0/need_after_effect_vfx_editor_that_can_work_with/</id><title>need after effect vfx editor that can work with ai generations</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xg8dg0/need_after_effect_vfx_editor_that_can_work_with/"/>
-<published>2026-10-26T20:33:39+00:00</published><updated>2026-10-26T20:33:39+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="vfx"/>
-<summary>no simple motion graphics please dm your best 30 seconds work - one piece only no overlay vfx, all motion work made from scratch!! will check composition. do not send other people’s work !! project is for an event india only submitted by /u/byaameka [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;no simple motion graphics please dm your best 30 seconds work - one piece only no overlay vfx, all motion work made from scratch!! will check composition. do not send other people’s work !! project is for an event india only submitted by /u/byaameka [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xg8dg0/need_after_effect_vfx_editor_that_can_work_with/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1xg7b39/mac_studio_m5_max_or_windows_rtx_5080_ryzen_9_for/</id><title>Mac studio M5 max or Windows rtx 5080 + ryzen 9 for VFX and motion graphics</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xg7b39/mac_studio_m5_max_or_windows_rtx_5080_ryzen_9_for/"/>
-<published>2026-10-26T19:54:04+00:00</published><updated>2026-10-26T19:54:04+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="vfx"/>
-<summary>submitted by /u/Green_Card_215 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/Green_Card_215 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xg7b39/mac_studio_m5_max_or_windows_rtx_5080_ryzen_9_for/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
