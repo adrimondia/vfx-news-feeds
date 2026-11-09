@@ -2,8 +2,21 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-09T01:30:28+00:00</updated>
+<updated>2026-11-09T03:30:22+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xrdsj8/liveaction_blender_wan_22_lora_hybrid_test/</id><title>Live-Action + Blender + Wan 2.2 Lora Hybrid Test</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xrdsj8/liveaction_blender_wan_22_lora_hybrid_test/"/>
+<published>2026-11-09T00:36:59+00:00</published><updated>2026-11-09T00:36:59+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="keying"/>
+<category term="comfyui"/>
+<category term="blender"/>
+<category term="wan"/>
+<category term="lora"/>
+<summary>I directed this, composited it in Flame, and did all the ComfyUI/Ai Toolkit stuff that fed into those composites. I was teaching myself the ComfyUI side as I went. It's basically a cracked out version of the old MDMZ Wan 2.2 workflow, modified to use a custom LoRA and work on 12-bit Sony Log 3 foota</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 8 · keying, comfyui, blender, wan, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I directed this, composited it in Flame, and did all the ComfyUI/Ai Toolkit stuff that fed into those composites. I was teaching myself the ComfyUI side as I went. It's basically a cracked out version of the old MDMZ Wan 2.2 workflow, modified to use a custom LoRA and work on 12-bit Sony Log 3 footage. My buddy designed all the CG animals in Blender, and stills of them were used to train custom LORAs that were then mapped to Sethward's live-action face. SammieRoto was used for the keying and paintouts. I've been lurking here a long time and can't thank you guys enough for the guidance! Happy to answer any questions about how it was done. submitted by /u/tomhon [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xrdsj8/liveaction_blender_wan_22_lora_hybrid_test/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xrdfkg/tip_better_acting_performance_and_voice_delivery/</id><title>Tip: Better acting performance and voice delivery in H3</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xrdfkg/tip_better_acting_performance_and_voice_delivery/"/>
@@ -41,6 +54,16 @@
 <category term="ltx"/>
 <summary>Looking for a couple of Beta testers — GLITCH Studio (Local AI Filmmaking) Website: https://glitch-studio.app I've spent the last year building GLITCH Studio , a Windows application that brings local AI image generation, editing, animation and filmmaking into one interface. It's built around ComfyUI</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 10 · image editing, animation, rendering, comfyui, flux, wan, minimax, ltx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Looking for a couple of Beta testers — GLITCH Studio (Local AI Filmmaking) Website: https://glitch-studio.app I've spent the last year building GLITCH Studio , a Windows application that brings local AI image generation, editing, animation and filmmaking into one interface. It's built around ComfyUI, but aims to take the fiddly stuff out of using it. GLITCH handles ComfyUI setup, model provisioning and workflow integration, so users can concentrate on creating rather than managing nodes and dependencies. The broader GLITCH platform includes workflows involving WAN, MiniMax H3, Krea 2, LTX 2.5 and FLUX , alongside image enhancement, character creation, animation, audio and video tools. I've n&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xrayzl/beta_testers_wanted_for_local_ai_software/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xray5a/zpix_a_friendly_local_app_now_supports_mossimage/</id><title>ZPix (a friendly local app) now supports MOSS-Image SFT</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xray5a/zpix_a_friendly_local_app_now_supports_mossimage/"/>
+<published>2026-11-08T22:24:59+00:00</published><updated>2026-11-08T22:24:59+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="inpainting"/>
+<category term="flux"/>
+<summary>Included MOSS model is the turbo 16-steps version from Coffmeteor , merged and optimized. LoRAs and image-to-image are supported, and inpainting to some extent. As requested by the community I also added SDXL, FLUX.1 Fill [dev] and FLUX.2 [klein] 9B. You can now reclaim the space used by the models </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · inpainting, flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Included MOSS model is the turbo 16-steps version from Coffmeteor , merged and optimized. LoRAs and image-to-image are supported, and inpainting to some extent. As requested by the community I also added SDXL, FLUX.1 Fill [dev] and FLUX.2 [klein] 9B. You can now reclaim the space used by the models downloaded by ZPix; click on the broom icon in the sidebar to do that. Hope you'll like this version. You can download it at https://github.com/SamuelTallet/ZPix submitted by /u/SamuelTallet [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xray5a/zpix_a_friendly_local_app_now_supports_mossimage/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1xraqls/h3_multi_character_swap_workfow_14/</id><title>H3 Multi character swap workfow (1-4)</title>
@@ -7521,23 +7544,5 @@
 <category term="storyboard"/>
 <summary>In case the video's is still pending it can be watched here too Okay, so I was working on a music video using MiniMax reference-to-video, and some of the scenes I wanted to create were a little too complex for MiniMax to follow with just a prompt and even first / last frame had issues. So, I started</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 6 · comfyui, minimax, lora, storyboard&lt;/small&gt;&lt;/p&gt;&lt;p&gt;In case the video's is still pending it can be watched here too Okay, so I was working on a music video using MiniMax reference-to-video, and some of the scenes I wanted to create were a little too complex for MiniMax to follow with just a prompt and even first / last frame had issues. So, I started thinking about keyframing. I know there are ways to do actual keyframes, but I was curious what would happen if I created a 2x2 storyboard grid and used that as a reference image instead. I used GPT image 2 to create the grids. Basically, each grid has 4 panels that show how I wanted the scene to play out. The first panel is the starting frame, the last panel is the ending frame, and the two pane&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xfmo04/testing_out_a_2x2_storyboard_grid_with_minimax/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1xfl1no/can_someone_answer_a_vfx_question/</id><title>Can someone answer a VFX question?</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xfl1no/can_someone_answer_a_vfx_question/"/>
-<published>2026-10-26T02:32:45+00:00</published><updated>2026-10-26T02:32:45+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="vfx"/>
-<summary>I'm watching the making of The Mist. There's a few shots where a crew member is holding a puppet on a pole (the puppet was later replaced with CGI and the pole was removed digitally) My question is what happens when the pole passes in front of an object in the frame, such as the "2" in the above ima</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I'm watching the making of The Mist. There's a few shots where a crew member is holding a puppet on a pole (the puppet was later replaced with CGI and the pole was removed digitally) My question is what happens when the pole passes in front of an object in the frame, such as the "2" in the above image? Once the pole is removed, does the VFX team have to digitally recreate everything the pole was in front of in that scene, frame-by-frame? submitted by /u/Cultural-Cry-5149 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xfl1no/can_someone_answer_a_vfx_question/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xfkqzq/my_entry_for_comfys_open_source_higgsfield/</id><title>My entry for Comfy’s Open Source Higgsfield challenge: RenderRepo, a package manager for ComfyUI workflows</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xfkqzq/my_entry_for_comfys_open_source_higgsfield/"/>
-<published>2026-10-26T02:17:38+00:00</published><updated>2026-10-26T02:17:38+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<summary>I built RenderRepo because useful ComfyUI workflows are scattered across GitHub, Reddit posts, local folders, and other sources. A workflow JSON gives ComfyUI a graph to open, but there’s no consistent package identity or revision trail, and it can be hard to tell what the workflow needs or whether </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I built RenderRepo because useful ComfyUI workflows are scattered across GitHub, Reddit posts, local folders, and other sources. A workflow JSON gives ComfyUI a graph to open, but there’s no consistent package identity or revision trail, and it can be hard to tell what the workflow needs or whether those files are already installed. The idea is a little like apt for workflows: manage sources, find packages, check local dependencies, review an install plan, then open the original graph in ComfyUI. A RenderRepo capsule adds package identity, schema version, source and revision provenance, and hashes around the unchanged workflow JSON. The graph stays ordinary ComfyUI JSON; the capsule gives RR&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xfkqzq/my_entry_for_comfys_open_source_higgsfield/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
