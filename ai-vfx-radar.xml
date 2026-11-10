@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-10T11:31:07+00:00</updated>
+<updated>2026-11-10T13:31:00+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xsj747/h3_editor_a_timeline_video_editor_for_minimax_h3/</id><title>H3 Editor: a timeline video editor for MiniMax H3 inside ComfyUI. You write shots instead of wiring graphs (open source, GPL-3.0)</title>
@@ -300,6 +300,15 @@
 <category term="lora"/>
 <summary>Early release candidate (checkpoint 6000) - training continues. Experimental! Good for quick previews, not production videos. A LoRA for the distilled LTX-2.5 that takes stage 1 from 8 steps down to 2 , picture and sound together, for text to video and image to video. The included ComfyUI workflows </summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 6 · render, comfyui, ltx, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Early release candidate (checkpoint 6000) - training continues. Experimental! Good for quick previews, not production videos. A LoRA for the distilled LTX-2.5 that takes stage 1 from 8 steps down to 2 , picture and sound together, for text to video and image to video. The included ComfyUI workflows combine speed improvements at every stage: Stage 1 render: this LoRA, 2 steps instead of 8. Refining: NVIDIA's SoL-Refiner-LTX-2.3-One-Step , 1 step instead of 3. VAE decoding: PrunaAI's pruned, faster decoder, P-LTX-2.3-VAED . Trained with DMD2 on a single NVIDIA H200. This checkpoint is 6000 updates at rank 64. The teacher is LTX-2.5 distilled at its standard 8 steps for stage 1. The LoRA learns&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xs8efa/ltx_25_stage_1_2_step_lora_8_2_alongside_sol/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xs89gk/tired_of_that_plasticky_airbrushed_ai_look_for/</id><title>Tired of that plasticky, airbrushed "AI look" for manga? I retrained Hollowlight V2 on 272 crisp ink images to get authentic G-Pen linework, real background geometry, and zero digital smudge. (NoobAI-XL V-Pred LoRA)</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xs89gk/tired_of_that_plasticky_airbrushed_ai_look_for/"/>
+<published>2026-11-10T00:08:06+00:00</published><updated>2026-11-10T00:08:06+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="lora"/>
+<summary>Hey everyone! I got sick of downloading "manga" or "line art" models only to get that oily, 2.5D airbrushed look. Mainstream models always introduce gray gradients, smooth out the lines, or warp backgrounds. I wanted something that looks like hand-drawn, traditional manga with sharp black-and-white </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey everyone! I got sick of downloading "manga" or "line art" models only to get that oily, 2.5D airbrushed look. Mainstream models always introduce gray gradients, smooth out the lines, or warp backgrounds. I wanted something that looks like hand-drawn, traditional manga with sharp black-and-white contrast. I just released V2.0 of Hollowlight over on Civitai with two separate checkpoint steps depending on how sharp you want your linework. 🚨 IMPORTANT: This is a V-PRED LoRA. You MUST use it with NoobAI-XL V-Pred 1.0 as your base, and ensure you use v-prediction sampling with Zero Terminal SNR turned ON, or your outputs will look completely washed out/burnt! LoRA Link: https://civitai.com/mod&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xs89gk/tired_of_that_plasticky_airbrushed_ai_look_for/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xs7f3x/full_friends_episode_minimax_h3/</id><title>Full Friends Episode - MiniMax H3</title>
@@ -7387,14 +7396,5 @@
 <category term="minimax"/>
 <summary>I mostly used claude to build Openjutsu, a free, local version of Higgsfield’s Genjutsu character swap, for Comfy’s Open Source Higgsfield challenge. Repo (MIT): https://github.com/D3voz/openjutsu What it does Upload a video and a picture of the person you want in it, then press Run. It finds the pe</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 5 · video generation, comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I mostly used claude to build Openjutsu, a free, local version of Higgsfield’s Genjutsu character swap, for Comfy’s Open Source Higgsfield challenge. Repo (MIT): https://github.com/D3voz/openjutsu What it does Upload a video and a picture of the person you want in it, then press Run. It finds the person, swaps them in clip by clip and keeps the original audio. There are also modes for: Object swap (change or remove an object, or change the background) From picture (put a person and a setting from one image into a video) Fix faces and Fix colours as post-processing How it’s built A Next.js web app that talks to ComfyUI through u/comfyorg /sdk and comfy-api-proxy MiniMax H3 does the video gene&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xgt2h1/here_is_my_submission_for_comfyuis_open_source/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xgrtxb/ive_been_working_on_a_different_approach_to/</id><title>I've been working on a different approach to regional prompting in ComfyUI, with paintable regions and more control over blending</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xgrtxb/ive_been_working_on_a_different_approach_to/"/>
-<published>2026-10-27T12:58:36+00:00</published><updated>2026-10-27T12:58:36+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<summary>I've been working on an open-source ComfyUI extension called Conditioning Layers and wanted to share it here. The idea is to give you more control over where different prompts influence an image, especially with irregular shapes and overlapping regions. It uses editable grayscale Influence Fields , </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I've been working on an open-source ComfyUI extension called Conditioning Layers and wanted to share it here. The idea is to give you more control over where different prompts influence an image, especially with irregular shapes and overlapping regions. It uses editable grayscale Influence Fields , which you can paint or generate procedurally. You can assign exclusive regions (FIXED), blend multiple prompts with normalized weights (BLENDED), and inspect their effective contributions before sampling. The examples show a castle transitioning into an underwater reef and a single tree with four seasons following curved influence fields. Both were generated locally using Krea 2 Turbo . GitHub: ht&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xgrtxb/ive_been_working_on_a_different_approach_to/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
