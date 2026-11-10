@@ -2,8 +2,242 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-10T08:00:42+00:00</updated>
+<updated>2026-11-10T11:31:07+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xsj747/h3_editor_a_timeline_video_editor_for_minimax_h3/</id><title>H3 Editor: a timeline video editor for MiniMax H3 inside ComfyUI. You write shots instead of wiring graphs (open source, GPL-3.0)</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xsj747/h3_editor_a_timeline_video_editor_for_minimax_h3/"/>
+<published>2026-11-10T10:09:05+00:00</published><updated>2026-11-10T10:09:05+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="render"/>
+<category term="comfyui"/>
+<category term="minimax"/>
+<category term="lora"/>
+<category term="cinematic"/>
+<summary>I built a custom node pack that puts a full-screen timeline editor inside ComfyUI for MiniMax H3. Instead of building a graph per clip, you write each shot as text (what happens, camera, sound), render it, and cut the shots together with their sound on a timeline. Repo: https://github.com/igorls/com</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 7 · render, comfyui, minimax, lora, cinematic&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I built a custom node pack that puts a full-screen timeline editor inside ComfyUI for MiniMax H3. Instead of building a graph per clip, you write each shot as text (what happens, camera, sound), render it, and cut the shots together with their sound on a timeline. Repo: https://github.com/igorls/comfyui-h3-editor Docs: https://igorls.github.io/comfyui-h3-editor Model: HyperFlow H3 Flash INT8 https://huggingface.co/VideoRebirthAI/hyperflow-h3-flash Realism LoRA for HyperFlow: https://civitai.com/models/3041489/mmh3-realism-slider-hyperflow-h3-flash-port What it does Write shots, not graphs. Each clip is a few text fields. One project style is applied to every shot. Keep people and places the &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xsj747/h3_editor_a_timeline_video_editor_for_minimax_h3/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xsh4xq/mossimagesft_control_loras_pose_depth_canny_and/</id><title>MOSS-Image-SFT control LoRAs — pose, depth, canny and the rest</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xsh4xq/mossimagesft_control_loras_pose_depth_canny_and/"/>
+<published>2026-11-10T07:55:14+00:00</published><updated>2026-11-10T07:55:14+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="segmentation"/>
+<category term="comfyui"/>
+<summary>A set of control LoRAs for MOSS-Image-SFT. You give it a pose, a depth map, or an edge drawing, and the prompt decides who is in the picture and what the world looks like. Each repo has the weight and a ComfyUI workflow. Pose: https://huggingface.co/thedeoxen/MOSS-Image-pose-controlnet Depth: https:</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · segmentation, comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;A set of control LoRAs for MOSS-Image-SFT. You give it a pose, a depth map, or an edge drawing, and the prompt decides who is in the picture and what the world looks like. Each repo has the weight and a ComfyUI workflow. Pose: https://huggingface.co/thedeoxen/MOSS-Image-pose-controlnet Depth: https://huggingface.co/thedeoxen/MOSS-Image-depth-controlnet Canny: https://huggingface.co/thedeoxen/MOSS-Image-canny-controlnet Lineart: https://huggingface.co/thedeoxen/MOSS-Image-lineart-controlnet Normal: https://huggingface.co/thedeoxen/MOSS-Image-normal-controlnet Scribble: https://huggingface.co/thedeoxen/MOSS-Image-scribble-controlnet Segmentation: huggingface.co/thedeoxen/MOSS-Image-segmentatio&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xsh4xq/mossimagesft_control_loras_pose_depth_canny_and/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xsgva6/comfyui_quant_benchmark_10_gpus_15_models_and_467/</id><title>ComfyUI Quant Benchmark: 10 GPUs, 15 models, and 467 runs comparing int8 ConvRot, nvfp4, w4a8, and fp8 against bf16. Real numbers on what fits, what drifts, and why turbo LoRAs break on quants.</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xsgva6/comfyui_quant_benchmark_10_gpus_15_models_and_467/"/>
+<published>2026-11-10T07:37:39+00:00</published><updated>2026-11-10T07:37:39+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<category term="lora"/>
+<summary>I wanted real numbers for "which quant should I use on my card," so I measured it. Five storage formats (fp8 cast, fp8 scaled, int8 ConvRot, w4a8, nvfp4) against the bf16 original, on base and turbo versions of Anima, Z-Image, MOSS-Image, Krea 2 and SDXL/Illustrious. Quality was graded on an RTX PRO</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I wanted real numbers for "which quant should I use on my card," so I measured it. Five storage formats (fp8 cast, fp8 scaled, int8 ConvRot, w4a8, nvfp4) against the bf16 original, on base and turbo versions of Anima, Z-Image, MOSS-Image, Krea 2 and SDXL/Illustrious. Quality was graded on an RTX PRO 6000 and a 3090; speed and fit were timed on ten cards: PRO 6000, 5090, 5080, two 5070 Ti, 5060 Ti, 3090, 3080 Ti, 3080, 3060 Ti. Everything is stock ComfyUI with its default memory handling, same seed, same prompts. **Report, with a "will my card run it?" box (pick your card + model):** https://ai-evolution.dev/quant-bench/ (Also as a PDF with every option laid out, if you'd rather scroll.) What&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xsgva6/comfyui_quant_benchmark_10_gpus_15_models_and_467/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1xsgo3j/honestly_what_should_i_do_to_get_a_job/</id><title>Honestly what should I do to get a job?</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xsgo3j/honestly_what_should_i_do_to_get_a_job/"/>
+<published>2026-11-10T07:24:29+00:00</published><updated>2026-11-10T07:24:29+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="animation"/>
+<category term="vfx"/>
+<summary>I just graduated in VFX recently and there’s literally no opportunity for fresh graduate. I wanna go for film vfx industry but most of the studio are requiring at least 2 3 year of experience. What should I do? It’s been 3 months since I graduated. Should I just leave this path and proceed to other </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · animation, vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I just graduated in VFX recently and there’s literally no opportunity for fresh graduate. I wanna go for film vfx industry but most of the studio are requiring at least 2 3 year of experience. What should I do? It’s been 3 months since I graduated. Should I just leave this path and proceed to other field? I got 1 interview on an animation studio last week and they just didn’t give me any update since then. I’ve been having anxiety on and off of not getting a job everyday and I don’t know what do to honestly. Anybody coming through similar situation and could give me advice? Thank you. submitted by /u/Puzzleheaded_Bar2482 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xsgo3j/honestly_what_should_i_do_to_get_a_job/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1xsfk33/seeking_vfx_artist_for_indie_feature_i_know/</id><title>Seeking VFX artist for indie feature. (I know nothing of VFX world and lingo) but I need a realistic split in the tree that happens very suddenly and another crack in the ceiling in the 2nd frame. Please send rates via DM!</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xsfk33/seeking_vfx_artist_for_indie_feature_i_know/"/>
+<published>2026-11-10T06:16:10+00:00</published><updated>2026-11-10T06:16:10+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="vfx"/>
+<summary>Bonus if you can make the picture frame on the wall fall down, I know that may be a huge ask but let me know! Edit - everything is shot still. It’s 2D, and both shots are only about 10 seconds long. Hope that helps submitted by /u/EenieMeeany [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Bonus if you can make the picture frame on the wall fall down, I know that may be a huge ask but let me know! Edit - everything is shot still. It’s 2D, and both shots are only about 10 seconds long. Hope that helps submitted by /u/EenieMeeany [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xsfk33/seeking_vfx_artist_for_indie_feature_i_know/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2611.10013</id><title>From Video to Digital Twin: An Exploratory Study of World Models and Gaussian Splatting on In-the-Wild Video</title>
+<link rel="alternate" href="https://arxiv.org/abs/2611.10013"/>
+<published>2026-11-10T05:00:00+00:00</published><updated>2026-11-10T05:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="world model"/>
+<category term="gaussian splatting"/>
+<category term="3d gaussian"/>
+<category term="blender"/>
+<summary>arXiv:2611.10013v1 Announce Type: new Abstract: Generative world models and 3D Gaussian Splatting promise to turn ordinary video into explorable 3D scenes, but little is reported on how they behave on uncurated, in-the-wild footage. We study what these models recover when the only input is a publicl</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · world model, gaussian splatting, 3d gaussian, blender&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2611.10013v1 Announce Type: new Abstract: Generative world models and 3D Gaussian Splatting promise to turn ordinary video into explorable 3D scenes, but little is reported on how they behave on uncurated, in-the-wild footage. We study what these models recover when the only input is a publicly available news walkthrough of a food bank warehouse, with presenters walking through every shot and no drawings, scans or site visit, and we use the result as the geometry of a digital twin. A commercial world model given 20 frames recovered camera poses and metric depth for three areas, which we fused into about 747,000 Gaussian splats for 200 credits (20 US cents). Splat models optimized local&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2611.10013"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2611.10199</id><title>RigidGS: Geometry-Aware Object Decoupling for Rigid-Body Interaction in 3D Gaussian Splatting</title>
+<link rel="alternate" href="https://arxiv.org/abs/2611.10199"/>
+<published>2026-11-10T05:00:00+00:00</published><updated>2026-11-10T05:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="gaussian splatting"/>
+<category term="3d gaussian"/>
+<category term="segmentation"/>
+<category term="sam2"/>
+<category term="rendering"/>
+<summary>arXiv:2611.10199v1 Announce Type: new Abstract: Interactive VR/MR applications demand photorealistic 3D representations that support real-time rendering and object-level manipulation. While 3D Gaussian Splatting (3DGS) achieves high rendering quality, it represents scenes as unstructured, monolithic</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 7 · gaussian splatting, 3d gaussian, segmentation, sam2, rendering&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2611.10199v1 Announce Type: new Abstract: Interactive VR/MR applications demand photorealistic 3D representations that support real-time rendering and object-level manipulation. While 3D Gaussian Splatting (3DGS) achieves high rendering quality, it represents scenes as unstructured, monolithic primitives. Existing object-aware 3DGS methods jointly optimize geometry and semantic states but suffer from two key failure modes: noisy foundation-model masks on complex geometry, and label-geometry coupling, in which co-optimized identity gradients mislabel boundary Gaussians. We introduce RigidGS, an end-to-end pipeline that decouples geometric learning from object identity. We propose a dept&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2611.10199"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2611.10370</id><title>ClearForm: Shared-Surface Gaussian Splatting for Transparent and Opaque Scenes</title>
+<link rel="alternate" href="https://arxiv.org/abs/2611.10370"/>
+<published>2026-11-10T05:00:00+00:00</published><updated>2026-11-10T05:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="gaussian splatting"/>
+<category term="depth estimation"/>
+<category term="compositing"/>
+<category term="multi-view"/>
+<summary>arXiv:2611.10370v1 Announce Type: new Abstract: Transparent-interface reconstruction must recover glass surfaces even when most observed color comes from the scene behind them. We present ClearForm, a shared-planar-Gaussian method for jointly reconstructing transparent interfaces and the appearance </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · gaussian splatting, depth estimation, compositing, multi-view&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2611.10370v1 Announce Type: new Abstract: Transparent-interface reconstruction must recover glass surfaces even when most observed color comes from the scene behind them. We present ClearForm, a shared-planar-Gaussian method for jointly reconstructing transparent interfaces and the appearance seen through them. We identify and analyze the Geometry-Appearance Compositing Dilemma (GACD): when the same transparency-dependent alpha controls both color and geometry, revealing the background can weaken a transparent surface's contribution to geometric reconstruction. We derive its effect on plane-based depth estimation, identify a mechanism that can weaken geometric learning, and quantify th&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2611.10370"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2611.10379</id><title>RefineSplat: Reconstruction-Guided Object-Centric Gaussian Splatting for Open-Vocabulary Querying</title>
+<link rel="alternate" href="https://arxiv.org/abs/2611.10379"/>
+<published>2026-11-10T05:00:00+00:00</published><updated>2026-11-10T05:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="gaussian splatting"/>
+<category term="3d gaussian"/>
+<category term="3d reconstruction"/>
+<category term="segmentation"/>
+<category term="tracking"/>
+<category term="consistency"/>
+<category term="multi-view"/>
+<category term="scene reconstruction"/>
+<summary>arXiv:2611.10379v1 Announce Type: new Abstract: Open-vocabulary 3D scene understanding aims to segment and retrieve arbitrary objects in 3D scenes using natural language queries. Most existing methods typically follow a splat-then-segment paradigm, where 3D Gaussian Splatting is first reconstructed </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 9 · gaussian splatting, 3d gaussian, 3d reconstruction, segmentation, tracking, consistency, multi-view, scene reconstruction&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2611.10379v1 Announce Type: new Abstract: Open-vocabulary 3D scene understanding aims to segment and retrieve arbitrary objects in 3D scenes using natural language queries. Most existing methods typically follow a splat-then-segment paradigm, where 3D Gaussian Splatting is first reconstructed and then augmented with labels or language features for subsequent segmentation. However, this pipeline often suffers from view inconsistency, ambiguous object boundaries, and weak object-level correspondence, especially in complex static and dynamic scenes. Building on our prior Segment-then-Splat framework, we present RefineSplat, a reconstruction-guided extension that retains its object-centric&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2611.10379"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2611.10652</id><title>SHIN: Scalable Hierarchy for INcremental 3D Gaussian Splatting</title>
+<link rel="alternate" href="https://arxiv.org/abs/2611.10652"/>
+<published>2026-11-10T05:00:00+00:00</published><updated>2026-11-10T05:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="gaussian splatting"/>
+<category term="3d gaussian"/>
+<category term="compositing"/>
+<summary>arXiv:2611.10652v1 Announce Type: new Abstract: 3D Gaussian Splatting (3DGS) provides high-quality real-time novel-view synthesis, but deployment budgets vary across devices and network conditions. Most compact methods target one operating point, so another budget requires a separate representation.</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · gaussian splatting, 3d gaussian, compositing&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2611.10652v1 Announce Type: new Abstract: 3D Gaussian Splatting (3DGS) provides high-quality real-time novel-view synthesis, but deployment budgets vary across devices and network conditions. Most compact methods target one operating point, so another budget requires a separate representation. SHIN is a scalable 3DGS hierarchy with a reusable Base and additive enhancement layers, so each higher-quality operating point extends rather than replaces the decoded representation. Constructing this hierarchy requires deciding which Gaussians each stage adds and how much spherical-harmonic (SH) appearance each retains, because these choices remain fixed in later prefixes. SHIN derives one shar&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2611.10652"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2611.11770</id><title>Towards Rotation-Only Imaging Geometry: Multi-View Pose Estimation</title>
+<link rel="alternate" href="https://arxiv.org/abs/2611.11770"/>
+<published>2026-11-10T05:00:00+00:00</published><updated>2026-11-10T05:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="pose estimation"/>
+<category term="consistency"/>
+<category term="multi-view"/>
+<summary>arXiv:2611.11770v1 Announce Type: new Abstract: Global structure-from-motion (SfM) commonly refines relative poses on individual image pairs and then estimates global rotations by rotation averaging. Pairwise refinement does not explicitly combine feature-level constraints with multi-view consistenc</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · pose estimation, consistency, multi-view&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2611.11770v1 Announce Type: new Abstract: Global structure-from-motion (SfM) commonly refines relative poses on individual image pairs and then estimates global rotations by rotation averaging. Pairwise refinement does not explicitly combine feature-level constraints with multi-view consistency during rotation initialization. We introduce Global Rotations from Aggregated Matches (GRAM), which estimates global rotations directly from initial relative rotations and inlier matches by minimizing edge-wise rotation-only algebraic residuals. GRAM replaces two-view relative-pose optimization and rotation averaging with a single stage. We further extend rotation- only imaging geometry to multi&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2611.11770"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2611.12011</id><title>HIST3R: Decomposing and Rectifying State Updates with History for Streaming 3D Reconstruction</title>
+<link rel="alternate" href="https://arxiv.org/abs/2611.12011"/>
+<published>2026-11-10T05:00:00+00:00</published><updated>2026-11-10T05:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="3d reconstruction"/>
+<category term="camera pose"/>
+<category term="depth estimation"/>
+<category term="pose estimation"/>
+<summary>arXiv:2611.12011v1 Announce Type: new Abstract: Streaming 3D reconstruction with recurrent states enables long-video scene understanding under bounded memory, but turns reconstruction into a state-evolution problem: each incoming frame updates a compact scene memory on which all subsequent predictio</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · 3d reconstruction, camera pose, depth estimation, pose estimation&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2611.12011v1 Announce Type: new Abstract: Streaming 3D reconstruction with recurrent states enables long-video scene understanding under bounded memory, but turns reconstruction into a state-evolution problem: each incoming frame updates a compact scene memory on which all subsequent predictions depend, so unreliable updates overwrite historical context and accumulate into long-horizon geometric drift. We analyze CUT3R-style recurrent updates through a direction--magnitude decomposition, in which the magnitude sets the update gain, i.e., how strongly an observation is written into the state, and the direction encodes the geometric intent, i.e., where the update drives the state. This d&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2611.12011"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2611.12069</id><title>MPEG-Diffusion: Mixed-Resolution Video Generation</title>
+<link rel="alternate" href="https://arxiv.org/abs/2611.12069"/>
+<published>2026-11-10T05:00:00+00:00</published><updated>2026-11-10T05:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="video generation"/>
+<category term="video diffusion"/>
+<category term="denoising"/>
+<category term="wan2"/>
+<category term="dit"/>
+<summary>arXiv:2611.12069v1 Announce Type: new Abstract: Video diffusion transformers (DiTs) generate realistic videos, but their heavy computational cost limits broader real-world applications. Mixed-resolution generation reduces this cost by generating the visually important region at high resolution (HR) </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 6 · video generation, video diffusion, denoising, wan2, dit&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2611.12069v1 Announce Type: new Abstract: Video diffusion transformers (DiTs) generate realistic videos, but their heavy computational cost limits broader real-world applications. Mixed-resolution generation reduces this cost by generating the visually important region at high resolution (HR) and the rest at low resolution (LR), yet existing methods suffer a severe quality drop on videos and require knowing the HR region in advance. We show that these failures are not inherent to mixed resolution, and propose $\textbf{MPEG-Diffusion}$ to address their three root causes: (1) dual-resolution attention to mitigate the curse of mixed resolution, where each query reads the K/V of its own re&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2611.12069"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2611.12716</id><title>Spaghetti Splatting: Differentiating Curvilinear Dirac Masses via Convolution</title>
+<link rel="alternate" href="https://arxiv.org/abs/2611.12716"/>
+<published>2026-11-10T05:00:00+00:00</published><updated>2026-11-10T05:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="gaussian splatting"/>
+<category term="3d gaussian"/>
+<category term="physics simulation"/>
+<category term="render"/>
+<category term="rendering"/>
+<summary>arXiv:2611.12716v1 Announce Type: new Abstract: In production systems, 3D geometry is represented by primitives such as points, lines, and triangles, as rendering hardware is optimized to generate images from them very efficiently. Learning such primitives from images by volume rendering is challeng</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · gaussian splatting, 3d gaussian, physics simulation, render, rendering&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2611.12716v1 Announce Type: new Abstract: In production systems, 3D geometry is represented by primitives such as points, lines, and triangles, as rendering hardware is optimized to generate images from them very efficiently. Learning such primitives from images by volume rendering is challenging, as they are Dirac masses defined at infinitesimal locations in space. EWA splatting, Poisson reconstruction, and 3D Gaussian Splatting overcome this by convolving Dirac masses with a low-frequency kernel, a recipe that generalizes along two axes: the kernel and the primitive. As points and triangles have already received significant attention, we investigate this recipe for curvilinear primit&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2611.12716"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2611.12739</id><title>Plant Orbiter: 3D Plant Reconstruction and Generation with Video Diffusion Orbit Cameras and 3D Gaussian Splatting</title>
+<link rel="alternate" href="https://arxiv.org/abs/2611.12739"/>
+<published>2026-11-10T05:00:00+00:00</published><updated>2026-11-10T05:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="video diffusion"/>
+<category term="gaussian splatting"/>
+<category term="3d gaussian"/>
+<summary>arXiv:2611.12739v1 Announce Type: new Abstract: Modern digital phenotyping pipelines require the precise measurement of a range of 3D morphological plant traits. The accurate, high throughput acquisition of these traits helps breeders and researchers accelerate the development of new varieties, tech</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 6 · video diffusion, gaussian splatting, 3d gaussian&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2611.12739v1 Announce Type: new Abstract: Modern digital phenotyping pipelines require the precise measurement of a range of 3D morphological plant traits. The accurate, high throughput acquisition of these traits helps breeders and researchers accelerate the development of new varieties, techniques and products. Recent advances in 3D technologies have enabled a rapid transition from 2D to 3D pipelines, but high throughput acquisition of digital 3D twins of plants remains a significant challenge due to complex morphology, thin structures and occlusions. In this paper we present Plant Orbiter, a new approach to generating 3D plants that leverages recent advances in video diffusion to pr&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2611.12739"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2611.12038</id><title>DPGS-SLAM: Diffusion-Prior and Provenance-Aware Monocular Gaussian Splatting SLAM for Dynamic Visual Sensing</title>
+<link rel="alternate" href="https://arxiv.org/abs/2611.12038"/>
+<published>2026-11-10T05:00:00+00:00</published><updated>2026-11-10T05:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="gaussian splatting"/>
+<category term="3d gaussian"/>
+<category term="sam2"/>
+<category term="tracking"/>
+<category term="camera tracking"/>
+<category term="inpainting"/>
+<category term="scene reconstruction"/>
+<category term="slam"/>
+<summary>arXiv:2611.12038v1 Announce Type: cross Abstract: This paper presents DPGS-SLAM (Diffusion-Prior and Provenance-Aware Monocular Gaussian Splatting SLAM) for dense mapping in environments containing dynamic objects. Dynamic observations can contaminate camera tracking and scene reconstruction in visu</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 10 · gaussian splatting, 3d gaussian, sam2, tracking, camera tracking, inpainting, scene reconstruction, slam&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2611.12038v1 Announce Type: cross Abstract: This paper presents DPGS-SLAM (Diffusion-Prior and Provenance-Aware Monocular Gaussian Splatting SLAM) for dense mapping in environments containing dynamic objects. Dynamic observations can contaminate camera tracking and scene reconstruction in visual SLAM (simultaneous localization and mapping). Although 3DGS (3D Gaussian splatting) enables efficient dense mapping, existing 3DGS-SLAM systems may exhibit instability when dynamic objects violate their underlying static-scene assumption. Excluding dynamic observations can reduce their influence on tracking and mapping, but may leave occluded static backgrounds missing or weakly constrained. Ou&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2611.12038"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2603.10801</id><title>PolGS++: Physically-Guided Polarimetric Gaussian Splatting for Fast Reflective Surface Reconstruction</title>
+<link rel="alternate" href="https://arxiv.org/abs/2603.10801"/>
+<published>2026-11-10T05:00:00+00:00</published><updated>2026-11-10T05:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="gaussian splatting"/>
+<category term="3d gaussian"/>
+<category term="rendering"/>
+<category term="consistency"/>
+<summary>arXiv:2603.10801v2 Announce Type: replace Abstract: Accurate reconstruction of reflective surfaces remains a fundamental challenge in computer vision, with broad applications in real-time virtual reality and digital content creation. Although 3D Gaussian Splatting (3DGS) enables efficient novel-view</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · gaussian splatting, 3d gaussian, rendering, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2603.10801v2 Announce Type: replace Abstract: Accurate reconstruction of reflective surfaces remains a fundamental challenge in computer vision, with broad applications in real-time virtual reality and digital content creation. Although 3D Gaussian Splatting (3DGS) enables efficient novel-view rendering with explicit representations, its performance on reflective surfaces still lags behind implicit neural methods, especially in recovering fine geometry and surface normals. To address this gap, we propose PolGS++, a physically-guided polarimetric Gaussian Splatting framework for fast reflective surface reconstruction. Specifically, we integrate a polarized BRDF (pBRDF) model into 3DGS t&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2603.10801"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2605.12297</id><title>EgoEV-HandPose: Egocentric 3D Hand Pose Estimation and Gesture Recognition with Stereo Event Cameras</title>
+<link rel="alternate" href="https://arxiv.org/abs/2605.12297"/>
+<published>2026-11-10T05:00:00+00:00</published><updated>2026-11-10T05:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="monocular depth"/>
+<category term="pose estimation"/>
+<category term="stereo"/>
+<summary>arXiv:2605.12297v2 Announce Type: replace Abstract: Egocentric 3D hand pose estimation and gesture recognition are fundamental to understanding hand interactions from first-person observations. Robust perception remains challenging: frame-based cameras suffer from motion blur and limited dynamic ran</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · monocular depth, pose estimation, stereo&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2605.12297v2 Announce Type: replace Abstract: Egocentric 3D hand pose estimation and gesture recognition are fundamental to understanding hand interactions from first-person observations. Robust perception remains challenging: frame-based cameras suffer from motion blur and limited dynamic range, while event-based approaches face ego-motion interference, monocular depth ambiguity, and limited real-world datasets. We propose EgoEV-HandPose, an end-to-end framework for joint 3D bimanual hand pose estimation and gesture recognition from stereo event streams. Its core module, KeypointBEV, combines sparse 3D joint hypotheses with geometry-aware stereo fusion and iterative reprojection-guide&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2605.12297"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1xscfvl/how_is_ai_changing_vfx_work_where_you_are/</id><title>How is AI changing VFX work where you are?</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xscfvl/how_is_ai_changing_vfx_work_where_you_are/"/>
+<published>2026-11-10T03:26:34+00:00</published><updated>2026-11-10T03:26:34+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="vfx"/>
+<summary>I’m curious about how people here view AI. I’m from China. I know many film VFX artists who have moved into the game industry, and the film industry has also become hourglass-shaped: on one hand, it has become much harder for junior VFX artists to enter the industry, and many are discouraged by the </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I’m curious about how people here view AI. I’m from China. I know many film VFX artists who have moved into the game industry, and the film industry has also become hourglass-shaped: on one hand, it has become much harder for junior VFX artists to enter the industry, and many are discouraged by the pay; on the other hand, because AI still cannot be controlled precisely enough, senior VFX artists remain scarce positions. But at the same time, due to the impact of AI, the demand for VFX shot production has dropped significantly compared with a few years ago. I know a VFX artist who started a VFX company, and later, after carefully checking the finances, found that he was earning less than when&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xscfvl/how_is_ai_changing_vfx_work_where_you_are/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1xsc8wn/im_an_australian_animator_currently_in_vancouver/</id><title>I'm an Australian animator currently in Vancouver with an open work visa and have been offered a job at a VFX studio, that is now asking me for documents as proof of residency such as a Notice of Assessment and copy of my Lease. I do not have either, what alternatives can I offer?</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xsc8wn/im_an_australian_animator_currently_in_vancouver/"/>
+<published>2026-11-10T03:16:46+00:00</published><updated>2026-11-10T03:16:46+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="animation"/>
+<category term="vfx"/>
+<summary>Hi! I'm new to the community but I have been an animator for over 6 years with VFX, feature animation and game cinematics experience. I have recently come to Canada from Australia because there is much less work available and seem to be many more studios in Canada that I could potentially work for. </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 3 · animation, vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi! I'm new to the community but I have been an animator for over 6 years with VFX, feature animation and game cinematics experience. I have recently come to Canada from Australia because there is much less work available and seem to be many more studios in Canada that I could potentially work for. I have acquired my own open work visa and am currently in Vancouver. I have only been here for 3 weeks presently but have already interviewed at 2 different VFX studios and received an offer from one them. Like the title says, they have requested documents for my proof of residency in British Columbia (as I understand it these are for tax purposes so the company gets their tax breaks for hiring wi&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xsc8wn/im_an_australian_animator_currently_in_vancouver/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xsal47/minimax_h3_with_turbo_silver_dareties_comfy_full/</id><title>Minimax H3 with turbo_silver_dareties_comfy_full_v1 (8 step)</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xsal47/minimax_h3_with_turbo_silver_dareties_comfy_full/"/>
@@ -7162,18 +7396,5 @@
 <category term="comfyui"/>
 <summary>I've been working on an open-source ComfyUI extension called Conditioning Layers and wanted to share it here. The idea is to give you more control over where different prompts influence an image, especially with irregular shapes and overlapping regions. It uses editable grayscale Influence Fields , </summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I've been working on an open-source ComfyUI extension called Conditioning Layers and wanted to share it here. The idea is to give you more control over where different prompts influence an image, especially with irregular shapes and overlapping regions. It uses editable grayscale Influence Fields , which you can paint or generate procedurally. You can assign exclusive regions (FIXED), blend multiple prompts with normalized weights (BLENDED), and inspect their effective contributions before sampling. The examples show a castle transitioning into an underwater reef and a single tree with four seasons following curved influence fields. Both were generated locally using Krea 2 Turbo . GitHub: ht&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xgrtxb/ive_been_working_on_a_different_approach_to/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xgp5cg/high_speed_speed_combat/</id><title>High speed speed combat</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xgp5cg/high_speed_speed_combat/"/>
-<published>2026-10-27T10:44:18+00:00</published><updated>2026-10-27T10:44:18+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="video generation"/>
-<category term="comfyui"/>
-<category term="minimax"/>
-<category term="lora"/>
-<category term="consistency"/>
-<summary>Claude code + r2v MINIMAX H3 and some loras + casual prompt like "this shit is not good make it better" My goal is make a 2-5 fucking dinamic anime, but i dont like anime For anyone interested, here's the current workflow I'm using to make this AI anime. Hardware &amp; Setup RunPod with an RTX 4090 (24G</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 5 · video generation, comfyui, minimax, lora, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Claude code + r2v MINIMAX H3 and some loras + casual prompt like "this shit is not good make it better" My goal is make a 2-5 fucking dinamic anime, but i dont like anime For anyone interested, here's the current workflow I'm using to make this AI anime. Hardware &amp;amp; Setup RunPod with an RTX 4090 (24GB VRAM) ComfyUI 0.42.0 Custom Python automation script ( h3_ctrl.py ) 1. Character Design &amp;amp; Keyframes Model: Krea 2 Turbo (INT8) Text Encoder: Qwen3VL 4B LoRA: Kegant V5 (1.0) for that dark, mystical anime aesthetic 8–10 steps, CFG 1, Euler/Simple Around 12 seconds per image I generate character reference sheets and keyframes for each scene, including the starting frame and the exact impact frame.&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xgp5cg/high_speed_speed_combat/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
