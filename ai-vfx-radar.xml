@@ -2,8 +2,28 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-10T21:30:24+00:00</updated>
+<updated>2026-11-10T23:30:25+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xszz5f/300_random_prompts_across_styles_on_minimax_h3/</id><title>300 random prompts across styles on MiniMax H3</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xszz5f/300_random_prompts_across_styles_on_minimax_h3/"/>
+<published>2026-11-10T21:57:26+00:00</published><updated>2026-11-10T21:57:26+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="minimax"/>
+<summary>Base workflow, no custom nodes, no cherry picking, ran on my 5080, about 23s per image. submitted by /u/JoNike [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Base workflow, no custom nodes, no cherry picking, ran on my 5080, about 23s per image. submitted by /u/JoNike [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xszz5f/300_random_prompts_across_styles_on_minimax_h3/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xsz700/mmh3_samples_quick_takeaways/</id><title>MMH3 Samples &amp; Quick Takeaways</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xsz700/mmh3_samples_quick_takeaways/"/>
+<published>2026-11-10T21:25:47+00:00</published><updated>2026-11-10T21:25:47+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="upscaling"/>
+<category term="flux"/>
+<category term="identity preservation"/>
+<summary>MMH3-Image . All tests done with the default workflow and settings. Overall takeaways: You must use a minimum resolution of 4048 for decent results. It doesn't have a moat against other image models (doesn't solve any unsolved problems). It does ok at text, but it's not great. Pros: It's impressivel</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · upscaling, flux, identity preservation&lt;/small&gt;&lt;/p&gt;&lt;p&gt;MMH3-Image . All tests done with the default workflow and settings. Overall takeaways: You must use a minimum resolution of 4048 for decent results. It doesn't have a moat against other image models (doesn't solve any unsolved problems). It does ok at text, but it's not great. Pros: It's impressively fast for how large the generations are. Seems to handle realism well. Softcore works. Cons: No more coherent than Krea2 or MOSS (objects that terminate mysteriously, illogical physical layout). Body horror / anatomy fuckups are fairly common, especially with distorted faces. Hardcore is not supported (unable to depict non-horrifying genitalia). Innate knowledge of copyrighted characters is worse&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xsz700/mmh3_samples_quick_takeaways/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xsyifz/minimax_h3_image_t2i_tests_and_some_findings/</id><title>Minimax H3 Image T2I Tests and some findings</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xsyifz/minimax_h3_image_t2i_tests_and_some_findings/"/>
@@ -13,6 +33,16 @@
 <category term="minimax"/>
 <summary>I've tested Minimax H3 Image with the ComfyUI standard workflow on some random prompts I've had saved -most of these are from other generated images so I don't claim ownership over any- with only change of adding ModelSamplingSD3 before KSampler at shift 3. I'm not sure whether it changes anything a</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I've tested Minimax H3 Image with the ComfyUI standard workflow on some random prompts I've had saved -most of these are from other generated images so I don't claim ownership over any- with only change of adding ModelSamplingSD3 before KSampler at shift 3. I'm not sure whether it changes anything at all, I don't suppose it changes too much but someone had suggested and I've added it. Other than that, this is plain H3 Image Pruned W4A8 with qwen3vl_32b_minimax_h3-int4_convrot.safetensors with default vae and PE off. I ran each at 16MP at 6 steps, euler-simple, then downscaled the images to 5mp to upload them. I think there are two issues compounding for most people. 1- This model works great&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xsyifz/minimax_h3_image_t2i_tests_and_some_findings/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xsxsd7/minimax_image_t2i_and_edit/</id><title>MiniMax image T2I and edit</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xsxsd7/minimax_image_t2i_and_edit/"/>
+<published>2026-11-10T20:30:29+00:00</published><updated>2026-11-10T20:30:29+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<category term="minimax"/>
+<summary>All individual images were created with the official MiniMax ComfyUI workflows without PE. Image 1 is a composition out of image 2-5 T2I, the dog and the jacket looked OK from the beginning, even at lower resolutions. The person in the images always had some weird artifacts, the face was extremely b</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;All individual images were created with the official MiniMax ComfyUI workflows without PE. Image 1 is a composition out of image 2-5 T2I, the dog and the jacket looked OK from the beginning, even at lower resolutions. The person in the images always had some weird artifacts, the face was extremely bad most of the time. I tried different sizes: 4MP was pretty much unusable, and the recommended 16MP looked even worse. 8MP or 12MP was acceptable, but still far from great. I have no idea whether it's the official workflow, the model, or the prompt (although I varied the prompts too). The park image caused problems as well. Everything in the background (the trees, leaves further back, etc.) looke&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xsxsd7/minimax_image_t2i_and_edit/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xsx45t/minimax_h3_image_is_about_to_clean_the_field_but/</id><title>Minimax H3 Image is about to clean the field... But can it?</title>
@@ -7461,44 +7491,5 @@
 <category term="minimax"/>
 <summary>A few weeks ago I had no clue how to use ComfyUI or generate AI videos, but I had this crazy idea to make an entire animated music video for one of my songs. https://www.youtube.com/watch?v=P9PLyWLSu7M After countless hours of experimenting, fixing weird AI mistakes, and questioning my sanity, I fin</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · animation, comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;A few weeks ago I had no clue how to use ComfyUI or generate AI videos, but I had this crazy idea to make an entire animated music video for one of my songs. https://www.youtube.com/watch?v=P9PLyWLSu7M After countless hours of experimenting, fixing weird AI mistakes, and questioning my sanity, I finally finished it! 😭 I wrote the story, directed around 40 individual clips using MiniMax H3, and pieced everything together in Premiere Pro. It's definitely not perfect, but seeing something I imagined actually come to life is such a cool feeling. Just wanted to share it with people who might appreciate the process. Hope you guys enjoy it! ❤️ submitted by /u/Capable-Insurance-58 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xh8nh7/a_few_weeks_ago_i_knew_absolutely_nothing_about/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xh7wv3/minimax_h3_persona_5_the_animation/</id><title>Minimax H3 - Persona 5: The Animation</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xh7wv3/minimax_h3_persona_5_the_animation/"/>
-<published>2026-10-27T23:11:28+00:00</published><updated>2026-10-27T23:11:28+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="animation"/>
-<category term="minimax"/>
-<summary>Happy Halloween! submitted by /u/Certain_Potato_4509 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · animation, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Happy Halloween! submitted by /u/Certain_Potato_4509 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xh7wv3/minimax_h3_persona_5_the_animation/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xh77e2/9950x_vs_9700x_real_life_difference_video/</id><title>9950x vs 9700x - real life difference video generation paired with 5090 and 64gbs ram</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xh77e2/9950x_vs_9700x_real_life_difference_video/"/>
-<published>2026-10-27T22:41:29+00:00</published><updated>2026-10-27T22:41:29+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="video generation"/>
-<summary>anybody know if the trade offs are that big in terms of generation time? submitted by /u/Foooners [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · video generation&lt;/small&gt;&lt;/p&gt;&lt;p&gt;anybody know if the trade offs are that big in terms of generation time? submitted by /u/Foooners [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xh77e2/9950x_vs_9700x_real_life_difference_video/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xh6t6z/the_case_for_ltx/</id><title>The case for LTX</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xh6t6z/the_case_for_ltx/"/>
-<published>2026-10-27T22:25:02+00:00</published><updated>2026-10-27T22:25:02+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="minimax"/>
-<category term="ltx"/>
-<category term="lora"/>
-<summary>I mostly enjoy making abstract visuals for music, and so far LTX 2.3 combined with the audio-reactive LoRA still seems hard to beat for that. Even 2.5 isn't any better. The attached video was made on a puny RTX 4070 in about 2 hours, with an agent acting as the director, driving a vibe-coded tool th</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · minimax, ltx, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I mostly enjoy making abstract visuals for music, and so far LTX 2.3 combined with the audio-reactive LoRA still seems hard to beat for that. Even 2.5 isn't any better. The attached video was made on a puny RTX 4070 in about 2 hours, with an agent acting as the director, driving a vibe-coded tool through an MCP server that controls Wan2GP. It uses start-frame and end-frame with audio conditioning. I've experimented with MiniMax too, and while it's clearly superior for things like lip syncing and dance moves, I find it way too demanding in terms of prompting for abstract things. You have to be incredibly specific to get what you want, which makes it pretty impractical for this kind of workflo&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xh6t6z/the_case_for_ltx/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1xh6lje/virtual_production_3d_motion_blur/</id><title>Virtual production + 3d = motion blur?</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xh6lje/virtual_production_3d_motion_blur/"/>
-<published>2026-10-27T22:16:29+00:00</published><updated>2026-10-27T22:16:29+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="virtual production"/>
-<summary>submitted by /u/Clean_Ocelot7985 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · virtual production&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/Clean_Ocelot7985 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xh6lje/virtual_production_3d_motion_blur/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
