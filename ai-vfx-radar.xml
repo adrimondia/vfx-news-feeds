@@ -2,8 +2,39 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-10T13:31:00+00:00</updated>
+<updated>2026-11-10T15:31:00+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xsp1f5/a_quick_breakdown_of_minimax_h3image_and_its/</id><title>A quick breakdown of MiniMax H3-Image and its multi-reference workflow</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xsp1f5/a_quick_breakdown_of_minimax_h3image_and_its/"/>
+<published>2026-11-10T14:59:21+00:00</published><updated>2026-11-10T14:59:21+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="image editing"/>
+<category term="minimax"/>
+<category term="consistency"/>
+<category term="character consistency"/>
+<summary>Been sorting through all the MiniMax model releases floating around here, and I wanted to share a quick breakdown of the new MiniMax H3-Image. This dedicated still-image model handles text-to-image generation and static editing, and is different from H3 video, MiniMax Image 2.5, and that third-party</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 5 · image editing, minimax, consistency, character consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Been sorting through all the MiniMax model releases floating around here, and I wanted to share a quick breakdown of the new MiniMax H3-Image. This dedicated still-image model handles text-to-image generation and static editing, and is different from H3 video, MiniMax Image 2.5, and that third-party P-H3-Image repo shared in this community recently. Looking at its documented specs, it runs both T2I and image editing within the same workflow. We can upload up to 16 reference images and choose between 1K, 2K or 4K output sizes. The thing I find most interesting is having those 16 reference slots paired with direct editing in a single run. That means we can drop in character sheets, style refer&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xsp1f5/a_quick_breakdown_of_minimax_h3image_and_its/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xsoblk/minimax_h3image_released/</id><title>MiniMax H3-Image released</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xsoblk/minimax_h3image_released/"/>
+<published>2026-11-10T14:29:48+00:00</published><updated>2026-11-10T14:29:48+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="minimax"/>
+<summary>submitted by /u/tricck3zz [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/tricck3zz [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xsoblk/minimax_h3image_released/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xsn793/is_controlnet_a_thing_of_past_now/</id><title>Is ControlNet a thing of past now?</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xsn793/is_controlnet_a_thing_of_past_now/"/>
+<published>2026-11-10T13:41:59+00:00</published><updated>2026-11-10T13:41:59+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="controlnet"/>
+<category term="dit"/>
+<summary>New models have been released. For example, Anima, Krea2, MOSS etc in DiT architectures. I have been using Illustrious and is a huge fan of ControlNets. However, the developers of the new models don't seem to have any interest in training ControlNet models. I have been waiting but I started to wonde</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · controlnet, dit&lt;/small&gt;&lt;/p&gt;&lt;p&gt;New models have been released. For example, Anima, Krea2, MOSS etc in DiT architectures. I have been using Illustrious and is a huge fan of ControlNets. However, the developers of the new models don't seem to have any interest in training ControlNet models. I have been waiting but I started to wonder if ControlNet models aren't needed anymore because there are some models or workflows out there that can completely replace ControlNets. Is there something that I've been missing? Let's pretend that LLLite LoRAs don't exist. Glad that we have them but I didn't find them much useful. EDIT: Thanks guys, appreciate all the response. I should look into using edit models. I still want ControlNet mode&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xsn793/is_controlnet_a_thing_of_past_now/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xsj747/h3_editor_a_timeline_video_editor_for_minimax_h3/</id><title>H3 Editor: a timeline video editor for MiniMax H3 inside ComfyUI. You write shots instead of wiring graphs (open source, GPL-3.0)</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xsj747/h3_editor_a_timeline_video_editor_for_minimax_h3/"/>
@@ -46,6 +77,18 @@
 <category term="vfx"/>
 <summary>I just graduated in VFX recently and there’s literally no opportunity for fresh graduate. I wanna go for film vfx industry but most of the studio are requiring at least 2 3 year of experience. What should I do? It’s been 3 months since I graduated. Should I just leave this path and proceed to other </summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · animation, vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I just graduated in VFX recently and there’s literally no opportunity for fresh graduate. I wanna go for film vfx industry but most of the studio are requiring at least 2 3 year of experience. What should I do? It’s been 3 months since I graduated. Should I just leave this path and proceed to other field? I got 1 interview on an animation studio last week and they just didn’t give me any update since then. I’ve been having anxiety on and off of not getting a job everyday and I don’t know what do to honestly. Anybody coming through similar situation and could give me advice? Thank you. submitted by /u/Puzzleheaded_Bar2482 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xsgo3j/honestly_what_should_i_do_to_get_a_job/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xsg5w7/h3_on_an_m1_macbook_air_16gb/</id><title>H3 on an M1 macbook air 16gb</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xsg5w7/h3_on_an_m1_macbook_air_16gb/"/>
+<published>2026-11-10T06:53:24+00:00</published><updated>2026-11-10T06:53:24+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="talking head"/>
+<category term="render"/>
+<category term="rendering"/>
+<category term="lora"/>
+<summary>After getting (slow) results from krea2, moss and YuE2 out of my old M1 air, I wanted to see if h3 would run too. I used my fork of h3.c , a C and Metal inference engine with no Python. The fork adds int8 and SSD streaming. My checkpoint was int8 with a turbo lora folded in, so 6 steps. This ends up</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · talking head, render, rendering, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;After getting (slow) results from krea2, moss and YuE2 out of my old M1 air, I wanted to see if h3 would run too. I used my fork of h3.c , a C and Metal inference engine with no Python. The fork adds int8 and SSD streaming. My checkpoint was int8 with a turbo lora folded in, so 6 steps. This ends up with about 10±gb of continuous RAM load, on my m5 pro with 48gb it's totally usable to render in background and do other activities (and can also handle 1mp at 12+ steps fine). The clip is two renders back to back. First a 20 s talking head at 864x480, five chained links, about 17 hours. Then a 20 s street musician clip of nine chained links of 73 frames, 58 hours. So context chaining also works.&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xsg5w7/h3_on_an_m1_macbook_air_16gb/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/vfx/comments/1xsfk33/seeking_vfx_artist_for_indie_feature_i_know/</id><title>Seeking VFX artist for indie feature. (I know nothing of VFX world and lingo) but I need a realistic split in the tree that happens very suddenly and another crack in the ceiling in the 2nd frame. Please send rates via DM!</title>
@@ -7385,16 +7428,5 @@
 <category term="cinematic"/>
 <summary>There are a thousand minimax workflow, and while each serve their purpose, I’ve yet to find one that produces the same near-lossless or cinematic quality output I’ve seen others post here. Almost every workflow uses 8 steps and/or Patch Sage Attention, Model Attention Backend, H3 Memory Optimization</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · minimax, cinematic&lt;/small&gt;&lt;/p&gt;&lt;p&gt;There are a thousand minimax workflow, and while each serve their purpose, I’ve yet to find one that produces the same near-lossless or cinematic quality output I’ve seen others post here. Almost every workflow uses 8 steps and/or Patch Sage Attention, Model Attention Backend, H3 Memory Optimization, etc, which ultimately hurt the output. I have tried 20, 25, 30 steps — and while they’re good, they’re not great. I have used LM Studio to build my prompts, which has drastically improved the adherence and flow, but the quality still isn’t there. I have tried resolution ranging from .5 - 1.5, marginally impacts quality but hinders adherence when above 1.1. Assuming a clapped out system with a 50&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xgwamv/minimax_workflow_for_absolute_highest_quality/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xgt2h1/here_is_my_submission_for_comfyuis_open_source/</id><title>Here is my submission for ComfyUI’s Open Source Higgsfield challenge: Openjutsu, one-click character swap for videos, fully local using Minimax H3 only</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xgt2h1/here_is_my_submission_for_comfyuis_open_source/"/>
-<published>2026-10-27T13:50:05+00:00</published><updated>2026-10-27T13:50:05+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="video generation"/>
-<category term="comfyui"/>
-<category term="minimax"/>
-<summary>I mostly used claude to build Openjutsu, a free, local version of Higgsfield’s Genjutsu character swap, for Comfy’s Open Source Higgsfield challenge. Repo (MIT): https://github.com/D3voz/openjutsu What it does Upload a video and a picture of the person you want in it, then press Run. It finds the pe</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 5 · video generation, comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I mostly used claude to build Openjutsu, a free, local version of Higgsfield’s Genjutsu character swap, for Comfy’s Open Source Higgsfield challenge. Repo (MIT): https://github.com/D3voz/openjutsu What it does Upload a video and a picture of the person you want in it, then press Run. It finds the person, swaps them in clip by clip and keeps the original audio. There are also modes for: Object swap (change or remove an object, or change the background) From picture (put a person and a setting from one image into a video) Fix faces and Fix colours as post-processing How it’s built A Next.js web app that talks to ComfyUI through u/comfyorg /sdk and comfy-api-proxy MiniMax H3 does the video gene&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xgt2h1/here_is_my_submission_for_comfyuis_open_source/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
