@@ -2,8 +2,19 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-11T01:30:35+00:00</updated>
+<updated>2026-11-11T03:30:21+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xt50cj/amazed_by_the_generation_speed_of_minimax_h3image/</id><title>Amazed by the generation speed of MiniMax H3-Image.</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xt50cj/amazed_by_the_generation_speed_of_minimax_h3image/"/>
+<published>2026-11-11T01:38:27+00:00</published><updated>2026-11-11T01:38:27+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="video generation"/>
+<category term="comfyui"/>
+<category term="minimax"/>
+<summary>H3-Image is built on MiniMax H3, originally a video generation model, and it seems to retain some of that video-frame softness in finer details. But when it comes to speed, this thing is an absolute beast. At 8.41 MP (2368 × 3552) , running on an AMD Radeon RX 9060 XT with 16 GB of VRAM and 64 GB of</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · video generation, comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;H3-Image is built on MiniMax H3, originally a video generation model, and it seems to retain some of that video-frame softness in finer details. But when it comes to speed, this thing is an absolute beast. At 8.41 MP (2368 × 3552) , running on an AMD Radeon RX 9060 XT with 16 GB of VRAM and 64 GB of DDR4 system RAM, it generates images in just 35.03–42.53 seconds . None of the other models I've tested comes close to this performance on my hardware. Its aesthetic appeal and creativity are also on point, easily on par with Krea 2. For a six-step model, it's remarkably good at producing varied compositions rather than falling back on the same visual formulas. Some examples above. For anyone int&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xt50cj/amazed_by_the_generation_speed_of_minimax_h3image/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1xt3dgc/minimax_h3image_2_step_lora_realtime/</id><title>MiniMax H3-Image 2 step lora realtime</title>
 <link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xt3dgc/minimax_h3image_2_step_lora_realtime/"/>
@@ -22,6 +33,15 @@
 <category term="minimax"/>
 <summary>submitted by /u/CeFurkan [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/CeFurkan [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xt33ua/minimax_h3_image_is_insane_a_revolutionary_model/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1xt2onc/short_film_vfx_need/</id><title>Short film VFX need!!!</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xt2onc/short_film_vfx_need/"/>
+<published>2026-11-10T23:53:28+00:00</published><updated>2026-11-10T23:53:28+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="vfx"/>
+<summary>Hello! I am a college sophomore directing a short film and need someone to handle VFX. I can guarantee that whatever I try to do wouldn't be worth the squeeze. As of right now, it would just be a very tall but narrow fire coming out of a bucket/open-top container, similar to the shape of a jet. It i</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hello! I am a college sophomore directing a short film and need someone to handle VFX. I can guarantee that whatever I try to do wouldn't be worth the squeeze. As of right now, it would just be a very tall but narrow fire coming out of a bucket/open-top container, similar to the shape of a jet. It is a low-budget film. Looking forward to connecting! - Max submitted by /u/Lanky_Winner_3250 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xt2onc/short_film_vfx_need/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1xt2m3p/is_qwen_image_21_faster_on_linux_than_on_windows/</id><title>Is Qwen Image 2.1 faster on Linux than on Windows, or is it just my perception?</title>
@@ -7656,24 +7676,5 @@
 <category term="rendering"/>
 <summary>arXiv:2610.37668v1 Announce Type: cross Abstract: Novel view synthesis and 3D reconstruction have advanced rapidly with radiance fields and splatting, yet their memory and computational demands limit their use in resource-constrained settings. We introduce Hexels: novel planar hexagonal surface elem</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.GR · score 4 · novel view synthesis, 3d reconstruction, rendering&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2610.37668v1 Announce Type: cross Abstract: Novel view synthesis and 3D reconstruction have advanced rapidly with radiance fields and splatting, yet their memory and computational demands limit their use in resource-constrained settings. We introduce Hexels: novel planar hexagonal surface elements with a first-order spatial color field for efficient 3D scene and 2D image representation. Hexels exploit locally planar regions with smoothly varying appearance using fewer, larger primitives. Their hexagonal support provides an area- and boundary-efficient domain, while the local color field captures appearance variation within each primitive. Across 34 scenes, Hexels improve PSNR over memo&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2610.37668"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xhctgq/krea_2_is_amazing/</id><title>Krea 2 is amazing</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xhctgq/krea_2_is_amazing/"/>
-<published>2026-10-28T02:55:09+00:00</published><updated>2026-10-28T02:55:09+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<category term="lora"/>
-<summary>I’ve messed with a new workflow, took a while but damn I really like KREA 2 even after using MOSS for a few days. I’m using 5 different bases at anytime: Turbo RealDream SickRealism RedCraft RedCraft4 Bunch of lora’s Generated in ComfyUI on: I9-14900k RTX 4090 64GB DDR5 submitted by /u/Distinct-Pie2</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I’ve messed with a new workflow, took a while but damn I really like KREA 2 even after using MOSS for a few days. I’m using 5 different bases at anytime: Turbo RealDream SickRealism RedCraft RedCraft4 Bunch of lora’s Generated in ComfyUI on: I9-14900k RTX 4090 64GB DDR5 submitted by /u/Distinct-Pie2389 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xhctgq/krea_2_is_amazing/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xhc66g/just_a_little_teaser_krea_2_turbo_distill_3step/</id><title>Just a little teaser - Krea 2 Turbo Distill 3step LoRA</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xhc66g/just_a_little_teaser_krea_2_turbo_distill_3step/"/>
-<published>2026-10-28T02:23:16+00:00</published><updated>2026-10-28T02:23:16+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="lora"/>
-<summary>Teaser Gallery: https://huggingface.co/lvladikov/Krea2-Turbo-Distill-3step-LoRA Early release candidate ... soon submitted by /u/TimeTruth2490 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Teaser Gallery: https://huggingface.co/lvladikov/Krea2-Turbo-Distill-3step-LoRA Early release candidate ... soon submitted by /u/TimeTruth2490 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xhc66g/just_a_little_teaser_krea_2_turbo_distill_3step/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
