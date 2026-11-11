@@ -2,8 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-11T17:30:55+00:00</updated>
+<updated>2026-11-11T19:30:32+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xtmjml/ltx_25minimax_workflow_for_blocking_with/</id><title>LTX 2.5/Minimax workflow for blocking with refernces to render?</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xtmjml/ltx_25minimax_workflow_for_blocking_with/"/>
+<published>2026-11-11T16:39:49+00:00</published><updated>2026-11-11T16:39:49+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="render"/>
+<category term="minimax"/>
+<category term="ltx"/>
+<category term="lora"/>
+<summary>What workflows and models do you use for blocking with references to render? Any LoRa? I suposo should have input for a video and an image at least. For 16 Gb vram if is possible. Is there any documentation or tutorial usefull for this? submitted by /u/Several-Fish-7707 [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 7 · render, minimax, ltx, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;What workflows and models do you use for blocking with references to render? Any LoRa? I suposo should have input for a video and an image at least. For 16 Gb vram if is possible. Is there any documentation or tutorial usefull for this? submitted by /u/Several-Fish-7707 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xtmjml/ltx_25minimax_workflow_for_blocking_with/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xtlqo5/viggle_remake_in_comfyui_swap_any_character_in/</id><title>Viggle Remake in ComfyUI - Swap Any Character in Your Own Videos (MiniMax H3)</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xtlqo5/viggle_remake_in_comfyui_swap_any_character_in/"/>
+<published>2026-11-11T16:09:53+00:00</published><updated>2026-11-11T16:09:53+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<category term="minimax"/>
+<summary>submitted by /u/TheLocalLab [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/TheLocalLab [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xtlqo5/viggle_remake_in_comfyui_swap_any_character_in/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xtlj1t/minimaxh3image_at_16_mp_6_steps_20_s_per_image/</id><title>MiniMax-H3-Image at 16 MP, 6 steps, ~20 s per image</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xtlj1t/minimaxh3image_at_16_mp_6_steps_20_s_per_image/"/>
@@ -36,6 +58,30 @@
 <category term="lora"/>
 <summary>UPDATE: As usual I've made a few tweaks based on user feedback, so keep running the update script for next day or so for H3 Image Tweaks I've just released Fizgig 9.6, which adds MiniMax H3 Image, MiniMax's new picture model from the H3 family: text-to-image and edits with up to 16 reference picture</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · comfyui, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;UPDATE: As usual I've made a few tweaks based on user feedback, so keep running the update script for next day or so for H3 Image Tweaks I've just released Fizgig 9.6, which adds MiniMax H3 Image, MiniMax's new picture model from the H3 family: text-to-image and edits with up to 16 reference pictures, 6 steps, no CFG. What you can train: LoRAs, LoKRs, edit LoRAs from before/after pairs, and slider LoRAs from photo pairs. Masked training, Multi Concept and LoRA Isolation all work, and so do Studio, LoRA Royale, the Profiler and Extract. Pick it on the Training tab, press Download models for me in Preferences, and pick a preset; nothing is gated. I trained a training adapter for it , which pre&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xtkg94/fizgig_96_train_loras_on_minimax_h3_image/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xtjbn9/turn_any_comfyui_workflow_into_a_oneclick_model/</id><title>Turn any ComfyUI workflow into a one-click model (MiniMax H3 Video / Image, Qwen 2.1 + 7 more included)</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xtjbn9/turn_any_comfyui_workflow_into_a_oneclick_model/"/>
+<published>2026-11-11T14:35:54+00:00</published><updated>2026-11-11T14:35:54+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<category term="flux"/>
+<category term="wan"/>
+<category term="minimax"/>
+<category term="ltx"/>
+<summary>Last time I posted my AI studio app I said a ComfyUI node was “in progress”. It took way longer than I thought, but it’s out. The idea is simple: set up a workflow in Comfy once, choose how many refs and which settings it takes, save it, and paste one URL into the app. From then on it's just a model</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 7 · comfyui, flux, wan, minimax, ltx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Last time I posted my AI studio app I said a ComfyUI node was “in progress”. It took way longer than I thought, but it’s out. The idea is simple: set up a workflow in Comfy once, choose how many refs and which settings it takes, save it, and paste one URL into the app. From then on it's just a model in a clean UI, next to the API models. Pick it, type a prompt, hit generate, and everything lands in one history, local and API. I also adapted 9 workflows I actually tried and wired my nodes into them, 19 models in total, each with a prompt guide you can also use as a Claude skill: - MiniMax H3 (video, fast, extend, image, image fast) - Qwen 2.1 (plus head swap, body swap and outpaint) - LTX 2.5&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xtjbn9/turn_any_comfyui_workflow_into_a_oneclick_model/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xtjanb/this_took_x_hrs_35_mins_to_make_on_a_rtx_3050_6gb/</id><title>THIS TOOK X Hrs 35 Mins TO MAKE ON A RTX 3050 6GB VRAM USING MINIMAX H3</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xtjanb/this_took_x_hrs_35_mins_to_make_on_a_rtx_3050_6gb/"/>
+<published>2026-11-11T14:34:49+00:00</published><updated>2026-11-11T14:34:49+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<category term="minimax"/>
+<category term="ai video"/>
+<summary>60 seconds of AI video, 100% local on an RTX 3050 (6 GB) Work in progress, and the quality isn’t where I want it yet. Here’s how it was made: Model: MiniMax H3 reference-to-video, using ComfyUI’s native H3 nodes with the int8 quantized model and the Qwen3-VL text encoder. References: two character i</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · comfyui, minimax, ai video&lt;/small&gt;&lt;/p&gt;&lt;p&gt;60 seconds of AI video, 100% local on an RTX 3050 (6 GB) Work in progress, and the quality isn’t where I want it yet. Here’s how it was made: Model: MiniMax H3 reference-to-video, using ComfyUI’s native H3 nodes with the int8 quantized model and the Qwen3-VL text encoder. References: two character images, re-used in every shot to keep the characters consistent. Prompts: the official six-section reference prompt format (subject definitions, summary, retention analysis, detailed description, soundscape, music). No negative prompts, because H3 doesn’t use them. Shots: six shots of 260 frames (10.8 s) at 864×480 and 25 steps, with the res_multistep sampler and the simple scheduler. Continuity: e&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xtjanb/this_took_x_hrs_35_mins_to_make_on_a_rtx_3050_6gb/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1xtj5xr/minimax_h3_singularity_v2_on_a_6_gb_gpu/</id><title>MiniMax H3 Singularity V2 on a 6 GB GPU: Text2Video, Img2Video, MultiRef + Audio and 4K upscale (free workflow)</title>
@@ -394,6 +440,15 @@
 <category term="minimax"/>
 <summary>All individual images were created with the official MiniMax ComfyUI workflows without PE. Image 1 is a composition out of image 2-5 T2I, the dog and the jacket looked OK from the beginning, even at lower resolutions. The person in the images always had some weird artifacts, the face was extremely b</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;All individual images were created with the official MiniMax ComfyUI workflows without PE. Image 1 is a composition out of image 2-5 T2I, the dog and the jacket looked OK from the beginning, even at lower resolutions. The person in the images always had some weird artifacts, the face was extremely bad most of the time. I tried different sizes: 4MP was pretty much unusable, and the recommended 16MP looked even worse. 8MP or 12MP was acceptable, but still far from great. I have no idea whether it's the official workflow, the model, or the prompt (although I varied the prompts too). The park image caused problems as well. Everything in the background (the trees, leaves further back, etc.) looke&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xsxsd7/minimax_image_t2i_and_edit/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xsx77h/comfyui_desktop_windowss_11_and_unbuntu_26011/</id><title>ComfyUI Desktop - Windowss 11 and Unbuntu 26.01.1</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xsx77h/comfyui_desktop_windowss_11_and_unbuntu_26011/"/>
+<published>2026-11-10T20:07:34+00:00</published><updated>2026-11-10T20:07:34+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<summary>Hello, been running ComfyUI desktop on my Windows 11 machine with good success and thought I would try Linux as everything I had read it should have a faster generation. My system is Ryzen 7600X, 32GB RAM and RX7800XT (16GB). Have it all installed on Unbuntu via the AppImage and running this with th</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hello, been running ComfyUI desktop on my Windows 11 machine with good success and thought I would try Linux as everything I had read it should have a faster generation. My system is Ryzen 7600X, 32GB RAM and RX7800XT (16GB). Have it all installed on Unbuntu via the AppImage and running this with the --no-sandbox. So far I have had to put an argument --disable-smart-memory which is the same Arg I used for Windows as it was just crashing with LTX2.5. With the stock Flux2_klein_base-4b model it would generate the first image then subsequent images would be black screens, now I can generate the hedghog demo every time with this --disable-smart-memory, but seems slows 58s per image. The stock Z-&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xsx77h/comfyui_desktop_windowss_11_and_unbuntu_26011/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xsx45t/minimax_h3_image_is_about_to_clean_the_field_but/</id><title>Minimax H3 Image is about to clean the field... But can it?</title>
@@ -7555,46 +7610,5 @@
 <category term="lora"/>
 <summary>I asked Claude Code to try NVIDIA’s new Open-H3-Regenerate-2K on my 4090. Sharp, but it changes the actor’s performance, did i use it wrong? open to suggestions NVlabs just released Open-H3-Regenerate-2K , an open 2K refiner for MiniMax-H3 drafts. Their code needs ~150 GB of VRAM, so I asked Claude </summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · upscaler, comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I asked Claude Code to try NVIDIA’s new Open-H3-Regenerate-2K on my 4090. Sharp, but it changes the actor’s performance, did i use it wrong? open to suggestions NVlabs just released Open-H3-Regenerate-2K , an open 2K refiner for MiniMax-H3 drafts. Their code needs ~150 GB of VRAM, so I asked Claude Code to get it running in ComfyUI on my 4090. It converted their LoRA to ComfyUI’s format and tested it on one of my shots against SeedVR2. The test shot is an exhausted office worker doing a long, slow yawn (5 s, H3 draft at 1312×768). The whole shot is the acting: heavy eyelids, a loose tie, a coffee stain. Results: Default strength (σ 0.909): very crisp, but it’s a different man. He’s younger, &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xhz3l1/nvidias_new_openh3regenerate2k/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xhwplb/retro_anime_style_lora_for_moss/</id><title>Retro Anime Style LoRA for MOSS</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xhwplb/retro_anime_style_lora_for_moss/"/>
-<published>2026-10-28T18:44:42+00:00</published><updated>2026-10-28T18:44:42+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="animation"/>
-<category term="lora"/>
-<summary>I’ve been a big fan of old-school anime (think 80s/90s OVAs, grainy cel animation, soft pastel palettes, hand-painted backgrounds), so I trained a LoRA to capture that look. You can experiment with character portraits, everyday activities, different outfits, atmospheric environments, and much more. </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · animation, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I’ve been a big fan of old-school anime (think 80s/90s OVAs, grainy cel animation, soft pastel palettes, hand-painted backgrounds), so I trained a LoRA to capture that look. You can experiment with character portraits, everyday activities, different outfits, atmospheric environments, and much more. What it does: Classic cel-shaded characters with that vintage, slightly faded color palette Film grain, soft lighting, and hand-painted background vibes Works well for portraits, city scenes, and nostalgic “lost episode” style shots Recommended settings: Weight: 0.7 - 1.0 Trigger word: retro anime style illustration 🔗 Download - https://civitai.red/models/1970260/retro-anime-style submitted by /u/&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xhwplb/retro_anime_style_lora_for_moss/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1xhwjx3/i_remade_one_of_my_favorite_vfx_shots_with_ai_to/</id><title>I remade one of my favorite VFX shots with AI to see if it could do better. Which do you think wins?</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xhwjx3/i_remade_one_of_my_favorite_vfx_shots_with_ai_to/"/>
-<published>2026-10-28T18:38:54+00:00</published><updated>2026-10-28T18:38:54+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="compositing"/>
-<category term="vfx"/>
-<category term="ai video"/>
-<summary>I have seen a lot of folks' work on this subreddit and I just have to say, wow. There is some incredible talent here. My 2D compositing seems pretty puny compared to the insane shit some of y'all do 😂 But I'm still proud of my superhero film and all its hand-made VFX, and as AI video continues to ev</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 4 · compositing, vfx, ai video&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I have seen a lot of folks' work on this subreddit and I just have to say, wow. There is some incredible talent here. My 2D compositing seems pretty puny compared to the insane shit some of y'all do 😂 But I'm still proud of my superhero film and all its hand-made VFX, and as AI video continues to evolve I keep getting the existential dread sit in that maybe all of those hours of work could have been saved had the film come out 3 years later. End goal product-wise, perhaps, but my team and I still take pride in and love to highlight the human artistry in our work, even the simple stuff. What do you think? submitted by /u/Schopix [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xhwjx3/i_remade_one_of_my_favorite_vfx_shots_with_ai_to/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xhvr66/recreating_part_of_a_higgsfield_festival_video/</id><title>Recreating part of a Higgsfield Festival video with MiniMax H3 in ComfyUI</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xhvr66/recreating_part_of_a_higgsfield_festival_video/"/>
-<published>2026-10-28T18:10:07+00:00</published><updated>2026-10-28T18:10:07+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="minimax"/>
-<category term="lora"/>
-<summary>I tried recreating the first 90 seconds of a Higgsfield Festival nominee with MiniMax H3 in ComfyUI. I used my LoRA Pilot setup for this. https://www.youtube.com/watch?v=-zY9Qz84Qf0 any feedback how to improve it? submitted by /u/no3us [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 5 · comfyui, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I tried recreating the first 90 seconds of a Higgsfield Festival nominee with MiniMax H3 in ComfyUI. I used my LoRA Pilot setup for this. https://www.youtube.com/watch?v=-zY9Qz84Qf0 any feedback how to improve it? submitted by /u/no3us [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xhvr66/recreating_part_of_a_higgsfield_festival_video/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xhvbxi/comfyui_featured_in_apples_new_touchscreen/</id><title>comfyUI featured in apple's new touch-screen MacBook Pro w/ M5 chip</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xhvbxi/comfyui_featured_in_apples_new_touchscreen/"/>
-<published>2026-10-28T17:55:03+00:00</published><updated>2026-10-28T17:55:03+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<summary>just noticed apple shows comfyUI with their new MacBook. I've always thought apple M chip would perform poorly for AI image generation. https://www.apple.com/macbook-pro/proled-xdr-display/ submitted by /u/lostaccountby2fa [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;just noticed apple shows comfyUI with their new MacBook. I've always thought apple M chip would perform poorly for AI image generation. https://www.apple.com/macbook-pro/proled-xdr-display/ submitted by /u/lostaccountby2fa [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xhvbxi/comfyui_featured_in_apples_new_touchscreen/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
