@@ -2,8 +2,51 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-11T13:30:39+00:00</updated>
+<updated>2026-11-11T15:30:42+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xtj5xr/minimax_h3_singularity_v2_on_a_6_gb_gpu/</id><title>MiniMax H3 Singularity V2 on a 6 GB GPU: Text2Video, Img2Video, MultiRef + Audio and 4K upscale (free workflow)</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xtj5xr/minimax_h3_singularity_v2_on_a_6_gb_gpu/"/>
+<published>2026-11-11T14:29:24+00:00</published><updated>2026-11-11T14:29:24+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="frame interpolation"/>
+<category term="lip sync"/>
+<category term="minimax"/>
+<category term="lora"/>
+<summary>I’ve been testing Singularity V2 , the MiniMax H3 fine-tune, on a 6 GB VRAM card. It runs better than I expected, so I put everything into one workflow. Free Workflow in the Youtube video description: https://www.youtube.com/watch?v=opoqT6fB_Nk What’s inside: Text2Video: structured H3 prompt (style,</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 5 · frame interpolation, lip sync, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I’ve been testing Singularity V2 , the MiniMax H3 fine-tune, on a 6 GB VRAM card. It runs better than I expected, so I put everything into one workflow. Free Workflow in the Youtube video description: https://www.youtube.com/watch?v=opoqT6fB_Nk What’s inside: Text2Video: structured H3 prompt (style, subject, setting, camera, action, dialogue, soundscape) Img2Video: animate any image with native audio MultiRef + Audio2Video: character + environment images plus your own voice clip, with solid lip sync Ref2Video: up to 4 reference images, each with its own role (great for product ads) 4K upscale + frame interpolation: 720p → 4K, 24 → 48 fps My times on 6 GB VRAM: Text2Video: 0.6 MP in ~18 min I&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xtj5xr/minimax_h3_singularity_v2_on_a_6_gb_gpu/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xtir24/my_openh3regenerate2k_nodes_for_comfyui_updated/</id><title>My Open-H3-Regenerate-2K nodes for ComfyUI updated with IC support</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xtir24/my_openh3regenerate2k_nodes_for_comfyui_updated/"/>
+<published>2026-11-11T14:12:10+00:00</published><updated>2026-11-11T14:12:10+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="upscaler"/>
+<category term="comfyui"/>
+<summary>I’ve updated my experimental Open-H3-Regenerate-2K nodes with support for NVIDIA’s newer IC model. It's still very much mostly for testing, and it's not exactly a low VRAM model. Repo: https://github.com/o-l-l-i/ComfyUI-Olm-Open-H3-Regenerate-2K In my tests there's a noticeable improvement over the </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · upscaler, comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I’ve updated my experimental Open-H3-Regenerate-2K nodes with support for NVIDIA’s newer IC model. It's still very much mostly for testing, and it's not exactly a low VRAM model. Repo: https://github.com/o-l-l-i/ComfyUI-Olm-Open-H3-Regenerate-2K In my tests there's a noticeable improvement over the previous version. Faces, shading and small shapes stay closer to the source while details gain definition. It feels more useful as a refiner now, although it can still reinterpret features, lettering and textures as it's a generative upscaler. The update to my nodes includes: Separate IC loader and video refinement nodes. Adjustable IC and LMS Sharp strengths, plus three- and four-step sampling. E&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xtir24/my_openh3regenerate2k_nodes_for_comfyui_updated/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xtimco/this_took_x_hrs_35_mins_to_make_on_a_rtx_3050_6gb/</id><title>THIS TOOK X Hrs 35 Mins TO MAKE ON A RTX 3050 6GB VRAM USING MINIMAX H3</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xtimco/this_took_x_hrs_35_mins_to_make_on_a_rtx_3050_6gb/"/>
+<published>2026-11-11T14:06:55+00:00</published><updated>2026-11-11T14:06:55+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<category term="minimax"/>
+<category term="ai video"/>
+<summary>60 seconds of AI video, 100% local on an RTX 3050 (6 GB) Work in progress, and the quality isn’t where I want it yet. Here’s how it was made: Model: MiniMax H3 reference-to-video, using ComfyUI’s native H3 nodes with the int8 quantized model and the Qwen3-VL text encoder. References: two character i</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · comfyui, minimax, ai video&lt;/small&gt;&lt;/p&gt;&lt;p&gt;60 seconds of AI video, 100% local on an RTX 3050 (6 GB) Work in progress, and the quality isn’t where I want it yet. Here’s how it was made: Model: MiniMax H3 reference-to-video, using ComfyUI’s native H3 nodes with the int8 quantized model and the Qwen3-VL text encoder. References: two character images, re-used in every shot to keep the characters consistent. Prompts: the official six-section reference prompt format (subject definitions, summary, retention analysis, detailed description, soundscape, music). No negative prompts, because H3 doesn’t use them. Shots: six shots of 260 frames (10.8 s) at 864×480 and 25 steps, with the res_multistep sampler and the simple scheduler. Continuity: e&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xtimco/this_took_x_hrs_35_mins_to_make_on_a_rtx_3050_6gb/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xtgxpn/new_to_comfyui_looking_for_recommendations_based/</id><title>New to ComfyUI, looking for recommendations based on my specs</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xtgxpn/new_to_comfyui_looking_for_recommendations_based/"/>
+<published>2026-11-11T12:50:47+00:00</published><updated>2026-11-11T12:50:47+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<category term="wan"/>
+<summary>Hey guys, I'm currently trying to create a YouTube shorts series based on whimsical characters (which I haven't really decided on yet). I've just been experimenting with different templates, settings and prompts so far. My specs are: RTX 3080 12GB i7-12700 32GB RAM First I used Wan 2.2 5b with many </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · comfyui, wan&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey guys, I'm currently trying to create a YouTube shorts series based on whimsical characters (which I haven't really decided on yet). I've just been experimenting with different templates, settings and prompts so far. My specs are: RTX 3080 12GB i7-12700 32GB RAM First I used Wan 2.2 5b with many different settings and prompts but the results were disappointing. I was unable to generate even the simplest movements as everything would become distorted and surreal. Then I switched to 14b and the results were a huge improvement. I don't expect photorealistic output, cartoony and childish stuff would work well as long as I can create a consistent and engaging story. I haven't got to voiceovers&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xtgxpn/new_to_comfyui_looking_for_recommendations_based/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/vfx/comments/1xtfali/killsave_scifi_feature_neon_city_window_shot/</id><title>KILL/SAVE (sci-fi feature): neon city window shot breakdown, Blender + Nuke</title>
 <link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xtfali/killsave_scifi_feature_neon_city_window_shot/"/>
@@ -25,6 +68,16 @@
 <category term="cinematic"/>
 <summary>We put together visual reference boards before every fashion shoot. I've tried pulling AI moodboards before, and the model or bottle usually changes the moment you ask for different camera angles on one page. I ran this contact sheet prompt on the open-weights MiniMax H3-Image model. I asked for six</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · minimax, cinematic&lt;/small&gt;&lt;/p&gt;&lt;p&gt;We put together visual reference boards before every fashion shoot. I've tried pulling AI moodboards before, and the model or bottle usually changes the moment you ask for different camera angles on one page. I ran this contact sheet prompt on the open-weights MiniMax H3-Image model. I asked for six frames in a 3x2 grid and both runs came back as a 3x3 board of nine, which honestly works even better as a reference board. Tbh it held together well enough to bring straight to set as a shooting reference board. Every frame keeps the same adult model, ivory styling, cosmetic bottle, Mediterranean limestone walls, and hard midday shadows while changing the pose and lens angle. Another thing I app&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xtf8au/trying_minimax_h3image_for_fashion_and_beauty/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xtetc0/realism_and_visual_integration_in_minimax_h3/</id><title>Realism and visual integration in Minimax h3</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xtetc0/realism_and_visual_integration_in_minimax_h3/"/>
+<published>2026-11-11T10:54:04+00:00</published><updated>2026-11-11T10:54:04+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="minimax"/>
+<category term="consistency"/>
+<summary>Beyond the specific checkpoints and LoRAs that each of us uses, I would like to know what prompt text—specifically regarding camera and lens settings—yields good results for enhancing realism in Minimax h3. I’d like to try some options I haven’t used yet and compare them. The prompt text that works </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · minimax, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Beyond the specific checkpoints and LoRAs that each of us uses, I would like to know what prompt text—specifically regarding camera and lens settings—yields good results for enhancing realism in Minimax h3. I’d like to try some options I haven’t used yet and compare them. The prompt text that works best for me is the following—though I must admit I’m not always satisfied with the result, which often leads to many "wasted" generations: detailed_description: Photorealistic live-action video, natural camera capture, coherent photographic perspective throughout the shot, realistic lens behavior, natural depth of field, consistent focus behavior, natural motion blur, realistic exposure adaptation&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xtetc0/realism_and_visual_integration_in_minimax_h3/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1xte9pj/best_workflow_for_minimax_image_so_far/</id><title>best workflow for minimax image so far</title>
@@ -151,6 +204,15 @@
 <category term="comfyui"/>
 <summary>submitted by /u/Fcking_Chuck [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/Fcking_Chuck [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xt6x0y/comfyui_v0450_released/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xt6u2c/comfyui_v0450_released/</id><title>ComfyUI v0.45.0 released</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xt6u2c/comfyui_v0450_released/"/>
+<published>2026-11-11T03:06:49+00:00</published><updated>2026-11-11T03:06:49+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<summary>submitted by /u/Fcking_Chuck [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/Fcking_Chuck [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xt6u2c/comfyui_v0450_released/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xt50cj/amazed_by_the_generation_speed_of_minimax_h3image/</id><title>Amazed by the generation speed of MiniMax H3-Image.</title>
@@ -7471,70 +7533,5 @@
 <category term="seedance"/>
 <summary>I've waited a long time, but now it's possible to do it. The thing is that those clips don't have to be perfect (and they are definitely not), but it's enough to be able to present a coherent story that played out at the table. I was able to do it with Seedance, but the cost was too big to try to ma</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · minimax, seedance&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I've waited a long time, but now it's possible to do it. The thing is that those clips don't have to be perfect (and they are definitely not), but it's enough to be able to present a coherent story that played out at the table. I was able to do it with Seedance, but the cost was too big to try to make something more then a single 15 second scene for each character. Minimax allows to replay longer scenes, which is fantastic for me. Unfortunately nothing very complicated was used to generate it, pretty standard Ref2va workflow, with a lot of references. This sample video suffers from video degradation in some parts, but it's fixable. submitted by /u/Impossiblebearclaw [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xhrif9/for_me_the_use_of_minimax_h3_is_to_animate_dd/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xhr1ak/im_vibe_coding_an_image_video_audio_generation/</id><title>I'm vibe coding an image + video + audio generation app with comfyui backend</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xhr1ak/im_vibe_coding_an_image_video_audio_generation/"/>
-<published>2026-10-28T15:22:16+00:00</published><updated>2026-10-28T15:22:16+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="relight"/>
-<category term="comfyui"/>
-<category term="stable diffusion"/>
-<category term="minimax"/>
-<summary>I always loved how nice to look at was automatic1111 stable diffusion webui and how easy it was for a beginner to just press generate and watch your image being made. But the need for more user control that came with comfyui basically replaced the webui space where it's no longer being used as the n</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 5 · relight, comfyui, stable diffusion, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I always loved how nice to look at was automatic1111 stable diffusion webui and how easy it was for a beginner to just press generate and watch your image being made. But the need for more user control that came with comfyui basically replaced the webui space where it's no longer being used as the need for dynamic control over workflows keep changing at a rapid pace and more models are being released every day. So I been vibe coding this app for weeks now slowly sprinkling my ideas in it and fixing what I think doesn't work , I'm basically just the creative lead on this thing. It works as a frontend wrapper for comfyui where you just need to press a button and not worry about the workflow be&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xhr1ak/im_vibe_coding_an_image_video_audio_generation/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xhqyc5/minimax_h3_creating_a_continuous_music_video_with/</id><title>MiniMax H3: Creating a Continuous Music Video with Seamless Audio-Video</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xhqyc5/minimax_h3_creating_a_continuous_music_video_with/"/>
-<published>2026-10-28T15:19:29+00:00</published><updated>2026-10-28T15:19:29+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="minimax"/>
-<summary>Details and workflow in the comments. submitted by /u/EinhornArt [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Details and workflow in the comments. submitted by /u/EinhornArt [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xhqyc5/minimax_h3_creating_a_continuous_music_video_with/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xhqpee/moss_met_the_comfyui_team_im_hoping_for_the/</id><title>MOSS met the ComfyUI team. I’m hoping for the boring improvements.</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xhqpee/moss_met_the_comfyui_team_im_hoping_for_the/"/>
-<published>2026-10-28T15:10:25+00:00</published><updated>2026-10-28T15:10:25+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<summary>MOSS-Image already works with ComfyUI, so the meetup post made me think about the less glamorous stuff: a workflow you can open without going on a scavenger hunt. Give me one small example with the model files, node versions, settings, and expected output all in the same place. Add a note saying whi</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;MOSS-Image already works with ComfyUI, so the meetup post made me think about the less glamorous stuff: a workflow you can open without going on a scavenger hunt. Give me one small example with the model files, node versions, settings, and expected output all in the same place. Add a note saying which version it was built for, and that’s already something useful to keep around. That’s my wishlist, not an announced plan from the meeting. The boring improvements are the ones I’m hoping for. What’s the first thing you’d want made easier? submitted by /u/Physical_Hat4022 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xhqpee/moss_met_the_comfyui_team_im_hoping_for_the/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xhpm2l/character_swap_without_an_nvidia_card_i_built_a/</id><title>Character swap without an NVIDIA card: I built a Mac app that does all the prep locally on Apple Silicon and renders through Comfy</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xhpm2l/character_swap_without_an_nvidia_card_i_built_a/"/>
-<published>2026-10-28T14:29:02+00:00</published><updated>2026-10-28T14:29:02+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="tracking"/>
-<category term="render"/>
-<category term="comfyui"/>
-<category term="wan"/>
-<category term="seedance"/>
-<summary>Every character swap workflow here assumes a 3090 or a 4070 with 64 GB of RAM. I'm on a MacBook, so I built the Mac version of it: a native app called Swapjutsu. You drop in a clip and a character image. The app finds the people and the shot cuts, tracks the one you want to replace, paints them as d</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 5 · tracking, render, comfyui, wan, seedance&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Every character swap workflow here assumes a 3090 or a 4070 with 64 GB of RAM. I'm on a MacBook, so I built the Mac version of it: a native app called Swapjutsu. You drop in a clip and a character image. The app finds the people and the shot cuts, tracks the one you want to replace, paints them as depth over the original footage and writes the prompt. All of that runs on the Mac: tracking: EdgeTAM, which I ported to Core ML (20–45× faster than SAM 3.1 for me) depth: Depth Anything V2 in Core ML people, faces, poses and hands: Apple's Vision framework prompt: Qwen3-VL 8B on MLX, locally On my M4 that takes about 3–5 s per second of video and well under a GB of memory. No Python, no local Comf&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xhpm2l/character_swap_without_an_nvidia_card_i_built_a/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xhozjn/auroraimg250mpreview_releases/</id><title>AuroraIMG2-50M-Preview Releases!</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xhozjn/auroraimg250mpreview_releases/"/>
-<published>2026-10-28T14:04:25+00:00</published><updated>2026-10-28T14:04:25+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="denoiser"/>
-<category term="flux"/>
-<summary>It's a tiny Text to Image model that's Denoiser is only 50M parameters, adding the custom text encoder, and the pretrained flux VAE, its total end to end inference parameters are around 90M It runs in: 27 Seconds @ 50 steps 11 Seconds @ 20 steps On a laptop CPU from 2016 (Intel i5 7200U) Samples and</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · denoiser, flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;It's a tiny Text to Image model that's Denoiser is only 50M parameters, adding the custom text encoder, and the pretrained flux VAE, its total end to end inference parameters are around 90M It runs in: 27 Seconds @ 50 steps 11 Seconds @ 20 steps On a laptop CPU from 2016 (Intel i5 7200U) Samples and a quick start in the model card it is licensed under Apache 2.0 Questions, feedback, or criticism is welcome! submitted by /u/Tall_Abrocoma_3533 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xhozjn/auroraimg250mpreview_releases/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xholms/wan22_ti2v5b_on_a_single_rtx_4090_at_stock/</id><title>Wan2.2 TI2V-5B on a single RTX 4090 at stock settings: ~8.5 min per 5 s clip, and faces broke in 2 of 3 (Qwen-Image-2.1 stills)</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xholms/wan22_ti2v5b_on_a_single_rtx_4090_at_stock/"/>
-<published>2026-10-28T13:49:54+00:00</published><updated>2026-10-28T13:49:54+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<category term="wan"/>
-<category term="wan2"/>
-<category term="lora"/>
-<summary>Wanted to see what the small 5B Wan2.2 does on a single 24 GB card, so I animated three Qwen-Image-2.1 stills with it on an RTX 4090 (and on a DGX Spark, out of curiosity) and wrote down what worked and what broke. The video is the three clips back to back: jellyfish, train, flooded city. ■ The pipe</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 5 · comfyui, wan, wan2, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Wanted to see what the small 5B Wan2.2 does on a single 24 GB card, so I animated three Qwen-Image-2.1 stills with it on an RTX 4090 (and on a DGX Spark, out of curiosity) and wrote down what worked and what broke. The video is the three clips back to back: jellyfish, train, flooded city. ■ The pipeline • Stills: Qwen-Image-2.1 (nf4, 40 steps, CFG off) on the 4090. Each one started as a first version from a prompt (stills and prompts are in the comments) and then went through editing in Qwen-Image-2.1: about six passes for the jellyfish, one or two for the city and train, because repeated edits kept adding noise. So the prompts won’t reproduce the exact stills. The city and train scenes used&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xholms/wan22_ti2v5b_on_a_single_rtx_4090_at_stock/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
