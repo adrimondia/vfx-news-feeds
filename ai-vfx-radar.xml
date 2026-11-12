@@ -2,8 +2,32 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-12T03:30:26+00:00</updated>
+<updated>2026-11-12T05:30:33+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xu3wg9/generated_a_20second_anime_video_with_audio_on_my/</id><title>Generated a 20-second anime video with audio on my RTX 4070 Super 12GB + 16GB RAM in under 4 minutes</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xu3wg9/generated_a_20second_anime_video_with_audio_on_my/"/>
+<published>2026-11-12T04:57:33+00:00</published><updated>2026-11-12T04:57:33+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="upscaling"/>
+<category term="lip-sync"/>
+<category term="animation"/>
+<category term="comfyui"/>
+<category term="minimax"/>
+<category term="consistency"/>
+<summary>Been experimenting with ComfyUI and MiniMax H3 over the last couple of days, and I'm genuinely surprised by what my PC managed to pull off. Managed to generate a 20-second anime video (481 frames at 24fps, 960×544) in around 200 seconds , including dialogue, multiple camera angles and character move</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 6 · upscaling, lip-sync, animation, comfyui, minimax, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Been experimenting with ComfyUI and MiniMax H3 over the last couple of days, and I'm genuinely surprised by what my PC managed to pull off. Managed to generate a 20-second anime video (481 frames at 24fps, 960×544) in around 200 seconds , including dialogue, multiple camera angles and character movements. My specs aren't anything crazy: RTX 4070 Super 12GB i5-14600K 16GB DDR5 RAM Workflow: MiniMax H3 MATLOW fused INT8 ConvRot model 4 steps, res_multistep sampler Comfy Kitchen Attention BlockSparseAttention (SLA, 20% keep) H3 Chunk FeedForward (8 chunks) Sigma shift: 12/3 I know this might not seem all that impressive when everyone is chasing photorealistic human videos, but I wanted to try m&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xu3wg9/generated_a_20second_anime_video_with_audio_on_my/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xu3dum/native_100_megapixel_no_upscaling_minimax_h3/</id><title>Native 100 megapixel (no upscaling) Minimax H3 Image Generation on 5090 @ 240 seconds.</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xu3dum/native_100_megapixel_no_upscaling_minimax_h3/"/>
+<published>2026-11-12T04:29:12+00:00</published><updated>2026-11-12T04:29:12+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="upscaling"/>
+<category term="minimax"/>
+<summary>Yes this was obviously a silly test. But I was curious to see what H3-Image could do when pushed, which is why I decided to crank it up to 100mpx (7456x13376) just for the lulz. There's no real reason to go this high, the image is definitely showing issues, so I then dialed it down to a 61 Megapixel</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · upscaling, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Yes this was obviously a silly test. But I was curious to see what H3-Image could do when pushed, which is why I decided to crank it up to 100mpx (7456x13376) just for the lulz. There's no real reason to go this high, the image is definitely showing issues, so I then dialed it down to a 61 Megapixel image (5824x10464) which is the same size I get from my a7r5 camera, and it looks much cleaner and only takes about 110 seconds per image. IMHO the 61 Megapixel renders are superior, and good enough for professional work. Linking images because there's no way reddit will like these image sizes Full Resolution Links: 61-H : https://photos.smugmug.com/photos/i-wXnW4sV/0/LtVzr2Hfr2NthLGMNnn4BGqc22W9&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xu3dum/native_100_megapixel_no_upscaling_minimax_h3/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xu1bpt/tried_minimax_h3_image_with_some_surreal_prompts/</id><title>Tried MiniMax H3 Image with some surreal prompts. It handled them better than I expected.</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xu1bpt/tried_minimax_h3_image_with_some_surreal_prompts/"/>
@@ -32,6 +56,15 @@
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Most of ComfyUI local users still run it on an RTX 3060: a 5 years old card with just 12 GB of VRAM. That’s why our team keeps optimizing for consumer hardware. Comfy is known as a leader in visual AI. But what about LLMs and text generation? Text is everywhere in creative workflows: for prompt generation, of course, but also for building local creative harnesses like the Comfy Agent. We thought it deserved better, so Rattus made Qwen models twice as fast in Comfy... Read more on our blog: https://blog.comfy.org/p/doubling-llm-token-rates-in-comfyui submitted by /u/Lexius2129 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xtyvxr/llms_just_got_twice_as_fast_in_comfyui/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xtxsr5/simple_request_for_future_image_and_video_models/</id><title>Simple request for future image and video models, attach a distinct name to that model especially if adding a new type of model to an existing ecosystem to make searching easier (I'm looking at you, MiniMax)</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xtxsr5/simple_request_for_future_image_and_video_models/"/>
+<published>2026-11-11T23:59:57+00:00</published><updated>2026-11-11T23:59:57+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="minimax"/>
+<summary>I've seen this requested elsewhere every now and then but it's quite annoying when for instance, Minimax h3 becomes strongly associated with video, and then they release an image generation form and just append "image" to the name. If I am troubleshooting something or looking for ideas, prompts what</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I've seen this requested elsewhere every now and then but it's quite annoying when for instance, Minimax h3 becomes strongly associated with video, and then they release an image generation form and just append "image" to the name. If I am troubleshooting something or looking for ideas, prompts whatever I will get loads of things related to the older well known video version that have little to do with what I'm looking for. I understand they want to use the existing name branding but at least come up with a unique model name I can filter by that isn't "image". submitted by /u/stook [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xtxsr5/simple_request_for_future_image_and_video_models/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
 <id>https://www.reddit.com/r/comfyui/comments/1xtwg1a/github_emperorofrome13comfyq_qualityoflife_tools/</id><title>GitHub - emperorofrome13/ComfyQ: Quality-of-life tools for ComfyUI: open model folders from nodes, one-click download of missing models, and unpack subgraphs. Works with Nodes 1 and Nodes 2.</title>
 <link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xtwg1a/github_emperorofrome13comfyq_qualityoflife_tools/"/>
 <published>2026-11-11T22:59:43+00:00</published><updated>2026-11-11T22:59:43+00:00</updated>
@@ -39,6 +72,26 @@
 <category term="comfyui"/>
 <summary>Just a quality of life node. You can download or make one. Got tired of spending token or manually moving files . Honestly something like this should be included in comfy portable submitted by /u/emperorofrome13 [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Just a quality of life node. You can download or make one. Got tired of spending token or manually moving files . Honestly something like this should be included in comfy portable submitted by /u/emperorofrome13 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xtwg1a/github_emperorofrome13comfyq_qualityoflife_tools/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xtvmiy/60_sec_clip_lipsync_with_ltx/</id><title>60 sec clip lip-sync with LTX</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xtvmiy/60_sec_clip_lipsync_with_ltx/"/>
+<published>2026-11-11T22:24:52+00:00</published><updated>2026-11-11T22:24:52+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="lip-sync"/>
+<category term="ltx"/>
+<summary>I endly fund a way to lip-sync long clips without loosing quality in comfy with LTX 2.3 Will continue to test and improve the workflow to see how far I can go with this setup on my rtx5090. This is done in one pass. Next challenge is to process more than 90 seconds in one pass. submitted by /u/nelsi</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · lip-sync, ltx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I endly fund a way to lip-sync long clips without loosing quality in comfy with LTX 2.3 Will continue to test and improve the workflow to see how far I can go with this setup on my rtx5090. This is done in one pass. Next challenge is to process more than 90 seconds in one pass. submitted by /u/nelsig [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xtvmiy/60_sec_clip_lipsync_with_ltx/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xtv96k/minimax_h3_video_lora_loader_for_h3_image/</id><title>Minimax H3 Video LoRA Loader for H3 Image</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xtv96k/minimax_h3_video_lora_loader_for_h3_image/"/>
+<published>2026-11-11T22:09:51+00:00</published><updated>2026-11-11T22:09:51+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="minimax"/>
+<category term="lora"/>
+<summary>submitted by /u/IntellectuallDeviant [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/IntellectuallDeviant [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xtv96k/minimax_h3_video_lora_loader_for_h3_image/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xtuj87/first_testings_with_minimax_h3_image_i_am_happy/</id><title>First testings with MiniMax H3 Image - I am happy with it</title>
@@ -210,6 +263,15 @@
 <category term="ai video"/>
 <summary>60 seconds of AI video, 100% local on an RTX 3050 (6 GB) Work in progress, and the quality isn’t where I want it yet. Here’s how it was made: Model: MiniMax H3 reference-to-video, using ComfyUI’s native H3 nodes with the int8 quantized model and the Qwen3-VL text encoder. References: two character i</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · comfyui, minimax, ai video&lt;/small&gt;&lt;/p&gt;&lt;p&gt;60 seconds of AI video, 100% local on an RTX 3050 (6 GB) Work in progress, and the quality isn’t where I want it yet. Here’s how it was made: Model: MiniMax H3 reference-to-video, using ComfyUI’s native H3 nodes with the int8 quantized model and the Qwen3-VL text encoder. References: two character images, re-used in every shot to keep the characters consistent. Prompts: the official six-section reference prompt format (subject definitions, summary, retention analysis, detailed description, soundscape, music). No negative prompts, because H3 doesn’t use them. Shots: six shots of 260 frames (10.8 s) at 864×480 and 25 steps, with the res_multistep sampler and the simple scheduler. Continuity: e&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xtimco/this_took_x_hrs_35_mins_to_make_on_a_rtx_3050_6gb/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xth62s/is_minimax_image_uncensored/</id><title>is minimax image uncensored?</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xth62s/is_minimax_image_uncensored/"/>
+<published>2026-11-11T13:01:56+00:00</published><updated>2026-11-11T13:01:56+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="minimax"/>
+<summary>is there any implemented censorship for minimax image? i didnt found any information right now about that. submitted by /u/planBpizz [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;is there any implemented censorship for minimax image? i didnt found any information right now about that. submitted by /u/planBpizz [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xth62s/is_minimax_image_uncensored/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/vfx/comments/1xth0sg/wip_spaceship_crash_test/</id><title>WIP: Spaceship Crash Test</title>
@@ -7529,39 +7591,5 @@
 <category term="lora"/>
 <summary>Another quick MOSS-Image news and goodies round-up, for those who may have missed some items. -&gt; The new MOSS-Image-Edit-HQ is described as... "an open effort to build an instruction-based image-editing LoRA for MOSS-Image SFT, that beats chinoll/Moss-Image-Edit on quality". Now has six versions, wi</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · face swap, comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Another quick MOSS-Image news and goodies round-up, for those who may have missed some items. -&amp;gt; The new MOSS-Image-Edit-HQ is described as... "an open effort to build an instruction-based image-editing LoRA for MOSS-Image SFT, that beats chinoll/Moss-Image-Edit on quality". Now has six versions, with matching workflows. https://huggingface.co/akhaliq/MOSS-Image-Edit-HQ -&amp;gt; Vicii_Influencer_HyperRealism_1.0. Among the suite of 'influencer' tools, it also claims a working face swap for MOSS-Image. https://github.com/alexgar4-afk/Vicii_Influencer_HyperRealism_1.0 -&amp;gt; Moss-pixelart-v.0.3 LoRA, assisting with little '8×8 pixel grid' pixelart style. Trigger is adding pxl8x to the front of the promp&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xibslu/a_quick_mossimage_news_roundup_29th_october_2026/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xiajrd/updated_minimax_music_video_workflow/</id><title>Updated Minimax Music Video Workflow</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xiajrd/updated_minimax_music_video_workflow/"/>
-<published>2026-10-29T04:38:09+00:00</published><updated>2026-10-29T04:38:09+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<category term="minimax"/>
-<summary>Workflow here: Dantesworks/MV_Maker: Makes music videos for ComfyUI/H3 Minimax This is a music video comprised of multiple clips. Each clip is sent the exact part of the song it corresponds to hence lip syncing is easy and automatic (if prompted to do so). Each clip has a "theme" - for example, cafe</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Workflow here: Dantesworks/MV_Maker: Makes music videos for ComfyUI/H3 Minimax This is a music video comprised of multiple clips. Each clip is sent the exact part of the song it corresponds to hence lip syncing is easy and automatic (if prompted to do so). Each clip has a "theme" - for example, cafe, garden etc. You can specify the themes at the start and assign a theme to each clip. Decide the timing of the clips too. What is missing is face refiner. You also need a way to assemble all the clips at the end. I have an all in one face refiner and clips assembly to run on your selected clips at the end but its slop coded and not fit for release. You can manually edit the prompts for each clip,&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xiajrd/updated_minimax_music_video_workflow/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xiaimv/aiming_ltx25_alphagen_at_one_person_sam3_inpaint/</id><title>Aiming LTX-2.5 alpha-gen at one person: SAM3 + inpaint trick gives native 4K hair mattes in ComfyUI (open source)</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xiaimv/aiming_ltx25_alphagen_at_one_person_sam3_inpaint/"/>
-<published>2026-10-29T04:36:20+00:00</published><updated>2026-10-29T04:36:20+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="sam3"/>
-<category term="comfyui"/>
-<category term="ltx"/>
-<summary>LTX-2.5's alpha-gen IC-LoRA draws great hair edges, but it mattes everyone in frame. I wanted one person out of a crowd, so I built a node around it: SAM3 picks the subject from one click. The other people get inpainted out of a copy of the plate. LTX alpha-gen runs on that copy, so it only has one </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 5 · sam3, comfyui, ltx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;LTX-2.5's alpha-gen IC-LoRA draws great hair edges, but it mattes everyone in frame. I wanted one person out of a crowd, so I built a node around it: SAM3 picks the subject from one click. The other people get inpainted out of a copy of the plate. LTX alpha-gen runs on that copy, so it only has one person to matte. On 4K plates LTX runs again on native 1920x1088 tiles along the edge. Overlap mode: three LTX passes (an attention mask per person) plus a Depth Anything vote decide who's in front. On a 247-frame shot: 88.7% edge detail match vs 45.0% (SAM3 + ViTMatte) and 29.4% (SAM3 mask). Runs on 12 GB VRAM and 16 GB RAM with weight streaming. Open weights only, GPL-3.0, in the ComfyUI Manager&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xiaimv/aiming_ltx25_alphagen_at_one_person_sam3_inpaint/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xi9f4s/i_built_a_comfyui_node_for_ai_roto_click_one/</id><title>I built a ComfyUI node for AI roto: click one person, get a native 4K hair matte (SAM3 + LTX-2.5 alpha-gen, open source)</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xi9f4s/i_built_a_comfyui_node_for_ai_roto_click_one/"/>
-<published>2026-10-29T03:37:18+00:00</published><updated>2026-10-29T03:37:18+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="roto"/>
-<category term="sam3"/>
-<category term="vfx"/>
-<category term="comfyui"/>
-<category term="ltx"/>
-<summary>I'm a VFX compositor, and hair on a busy plate is the roto job nobody wants. So I built a node that does the first pass. How it works: - Click the person on the plate (alt-click cuts a part, shift-click adds a prop). SAM3 picks them. - The other people get inpainted out of a copy of the plate, then </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 8 · roto, sam3, vfx, comfyui, ltx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I'm a VFX compositor, and hair on a busy plate is the roto job nobody wants. So I built a node that does the first pass. How it works: - Click the person on the plate (alt-click cuts a part, shift-click adds a prop). SAM3 picks them. - The other people get inpainted out of a copy of the plate, then LTX-2.5 alpha-gen draws the edge of the one person left. On its own LTX mattes everyone in frame, so this is how you aim it. - On 4K plates it runs LTX again on native 1920x1088 tiles along the edge, so the strands are real, not upscaled. - Overlap mode handles hair or hands crossing another person. Depth Anything decides who's in front. On a 247-frame shot the edge detail match was 88.7%, against&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xi9f4s/i_built_a_comfyui_node_for_ai_roto_click_one/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
