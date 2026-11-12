@@ -2,8 +2,17 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-12T13:30:43+00:00</updated>
+<updated>2026-11-12T15:30:51+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xucyj0/testing_multiobject_reference_layouts_with/</id><title>Testing multi-object reference layouts with MiniMax H3-Image</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xucyj0/testing_multiobject_reference_layouts_with/"/>
+<published>2026-11-12T13:37:33+00:00</published><updated>2026-11-12T13:37:33+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="minimax"/>
+<summary>I have tried the new open-weighted MiniMax H3-Image. The model can work with up to 16 reference images, with each file capped at 64 MiB, 128–8192 px, and an aspect ratio between 1:4 and 4:1. For this test, I fed it 5 separate object reference images: -a silver rotary phone -a glass cube -a red apple</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I have tried the new open-weighted MiniMax H3-Image. The model can work with up to 16 reference images, with each file capped at 64 MiB, 128–8192 px, and an aspect ratio between 1:4 and 4:1. For this test, I fed it 5 separate object reference images: -a silver rotary phone -a glass cube -a red apple -a tiny staircase -a chrome sphere I used the default auto setting for quick 4K exports. Instead of getting a cut-and-paste collage, I aimed to blend all the objects into a cohesive dark studio still life lit by a single top spotlight. I explicitly labelled Reference 1 through 5 in my prompt to lock each object’s intended layout. My layout plan was as follows: -the apple suspended inside the glas&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xucyj0/testing_multiobject_reference_layouts_with/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1xubdkh/minimax_h3images_open_weights_merging_8_classic/</id><title>MiniMax H3-Image's open weights: Merging 8 classic paintings into one scene</title>
 <link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xubdkh/minimax_h3images_open_weights_merging_8_classic/"/>
@@ -7551,27 +7560,5 @@
 <category term="lora"/>
 <summary>I updated my MiniMax H3 context workflow after feedback that fast movement could look blurry. Separate LoRA stacks for SelfLift's low- and high-resolution stages improved the action setup while keeping the previous dialogue configuration. During testing, I also ran into unwanted background music, so</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I updated my MiniMax H3 context workflow after feedback that fast movement could look blurry. Separate LoRA stacks for SelfLift's low- and high-resolution stages improved the action setup while keeping the previous dialogue configuration. During testing, I also ran into unwanted background music, so this video covers both the generation workflow and ways to handle the audio afterward. The workflow uses simple scheduling with one extra low-sigma midpoint: 9 sampling steps in regular mode and 13 in combat mode. Regular mode uses a 6+3 split without context or 4+5 with context, at a low-resolution scale of 0.5 or 0.65 respectively. Combat mode uses 6+7 and a 0.65 scale whether context is enable&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xinu2y/minimax_h3_seamless_long_video_with_clearer_fast/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1ximik9/krea_2_turbo_distill_3_step_lora/</id><title>Krea 2 Turbo Distill - 3 step LoRA</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1ximik9/krea_2_turbo_distill_3_step_lora/"/>
-<published>2026-10-29T15:06:20+00:00</published><updated>2026-10-29T15:06:20+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="denoising"/>
-<category term="comfyui"/>
-<category term="lora"/>
-<summary>Krea 2 Turbo Distill - 3 step LoRA (work in progress) The third of my step-distillation LoRAs for Krea 2 Turbo, picking up where the other two left off. The 4-step LoRA took Turbo from 8 steps to 4 and the 2-step LoRA went down to 2 for fast previews but, despite best efforts, never quite reached th</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · denoising, comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Krea 2 Turbo Distill - 3 step LoRA (work in progress) The third of my step-distillation LoRAs for Krea 2 Turbo, picking up where the other two left off. The 4-step LoRA took Turbo from 8 steps to 4 and the 2-step LoRA went down to 2 for fast previews but, despite best efforts, never quite reached the 4-step's quality. At one step fewer than the 4-step and one more than the 2-step, this one renders more fine detail than either, trained on a single cloud H100 with everything the 2-step project taught me. Three steps instead of eight · 2.6× faster denoising (text encoding and VAE decode excluded) · fine detail at 1.15× the 8-step teacher's on the 22 test prompts, above the 4-step LoRA 's 1.04× &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1ximik9/krea_2_turbo_distill_3_step_lora/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1ximghg/how_do_yall_do_it/</id><title>How do yall do it?</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1ximghg/how_do_yall_do_it/"/>
-<published>2026-10-29T15:04:23+00:00</published><updated>2026-10-29T15:04:23+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="flux"/>
-<category term="lora"/>
-<summary>I genuinely don’t understand how people are pulling this off anymore. I keep coming across Instagram accounts posting AI-generated images and videos that look almost indistinguishable from reality. Meanwhile, I’ve spent DAYS trying to get anywhere near this level of realism, and nothing comes close.</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · comfyui, flux, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I genuinely don’t understand how people are pulling this off anymore. I keep coming across Instagram accounts posting AI-generated images and videos that look almost indistinguishable from reality. Meanwhile, I’ve spent DAYS trying to get anywhere near this level of realism, and nothing comes close. I’ve tried Qwen, FLUX, Z-Image, Higgsfield, custom LoRAs, and countless ComfyUI workflows. I’ve even had Claude Opus 5.5 working through different workflows, tweaking settings, experimenting with LoRAs, and troubleshooting everything for days. Still nowhere near these results. And it’s not like I’m completely new to this. I’ve been using ComfyUI for 2–3 years. I’m not an expert, but I understand &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1ximghg/how_do_yall_do_it/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
