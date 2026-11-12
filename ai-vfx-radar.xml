@@ -2,8 +2,47 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-12T15:30:51+00:00</updated>
+<updated>2026-11-12T17:30:54+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xuh85d/been_testing_minimax_h3image_for_futuristic/</id><title>Been testing MiniMax H3-Image for futuristic magazine covers — portraits, colors, and typography</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xuh85d/been_testing_minimax_h3image_for_futuristic/"/>
+<published>2026-11-12T16:26:12+00:00</published><updated>2026-11-12T16:26:12+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<category term="minimax"/>
+<summary>I've been experimenting with different editorial design concepts. I went through multiple rounds of generation and ended up with several sets of images. These four covers are some of my favorites. What impressed me most was the variety in the results. The model didn't just keep giving me the same po</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I've been experimenting with different editorial design concepts. I went through multiple rounds of generation and ended up with several sets of images. These four covers are some of my favorites. What impressed me most was the variety in the results. The model didn't just keep giving me the same portrait with different backgrounds. The compositions, lighting, and color palettes felt noticeably different across the set. What stood out to me was how naturally H3-Image handled the portraits and colors. Skin tones, lighting, and facial details looked pretty convincing, even with some fairly experimental visual styles. The colors were rich without feeling overly saturated, and the transitions be&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xuh85d/been_testing_minimax_h3image_for_futuristic/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xuft8g/mossimage_vs_minimax_h3image_on_15_identical/</id><title>MOSS-Image vs MiniMax H3-Image on 15 identical prompts — the gap is smaller than I expected</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xuft8g/mossimage_vs_minimax_h3image_on_15_identical/"/>
+<published>2026-11-12T15:32:51+00:00</published><updated>2026-11-12T15:32:51+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="minimax"/>
+<summary>Same 15 prompts through both models, same aspect ratio, roughly matched output size. Left is MOSS-Image, right is MiniMax H3-Image. What stood out: Text: both got English poster type and Chinese signage right. No misspellings in either. Portraits and product shots: both convincing. MOSS leans sharpe</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Same 15 prompts through both models, same aspect ratio, roughly matched output size. Left is MOSS-Image, right is MiniMax H3-Image. What stood out: Text: both got English poster type and Chinese signage right. No misspellings in either. Portraits and product shots: both convincing. MOSS leans sharper and more editorial, H3 leans softer and more photographic. Crowds and hands: both hold up, small artifacts on both sides. UI mockups: both fail. MOSS keeps the layout but garbles labels and units; H3 mirrored the entire screen. Charts: both produce plausible-looking but meaningless labels and bar lengths. Don't use either for real data. Net: the quality gap is much smaller than the threads here &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xuft8g/mossimage_vs_minimax_h3image_on_15_identical/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xufdvb/after_12_hours_of_tests_and_tweaks_h3image_hits/</id><title>After 12 hours of tests and tweaks, H3-Image hits top likeness scores for character LoRA training in v9.7.0 of Fizgig.</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xufdvb/after_12_hours_of_tests_and_tweaks_h3image_hits/"/>
+<published>2026-11-12T15:16:15+00:00</published><updated>2026-11-12T15:16:15+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="minimax"/>
+<category term="lora"/>
+<summary>I've spent the last couple of days running side-by-side MiniMax H3 Image trainings to find what actually drives likeness. On the hardest dataset I tested (few headshots, mostly medium and wider shots), the best previews scored closer to the person than all but two of their own 45 photos, measured ag</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I've spent the last couple of days running side-by-side MiniMax H3 Image trainings to find what actually drives likeness. On the hardest dataset I tested (few headshots, mostly medium and wider shots), the best previews scored closer to the person than all but two of their own 45 photos, measured against the same reference photos. Two more datasets gave equally good results, one of them harder still. What's new A retuned H3 Image Standard preset. A new Likeness optimization schedule (it changes which noise levels training focuses on as the run goes), Automagic v4 (tweaked to avoid its known issues for steering too high), 0.25 MP and 30 epochs. Of every schedule I tried, it brought the face s&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xufdvb/after_12_hours_of_tests_and_tweaks_h3image_hits/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xue4ud/moss_image_with_the_4step_lora_running_on_an/</id><title>MOSS Image with the 4-step LoRA running on an iPhone</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xue4ud/moss_image_with_the_4step_lora_running_on_an/"/>
+<published>2026-11-12T14:26:33+00:00</published><updated>2026-11-12T14:26:33+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="lora"/>
+<category term="dit"/>
+<summary>The DiT and TE are 4-bit quantization aware distilled (QAD) and running on the GPU. VAE is fp16 and runs on the Neural Engine. Needs an Apple device with at least 12GB of RAM to run. If you've got 16GB, it also runs Krea 2 Turbo and a couple of other models, all QAD distilled. With MOSS Image SFT, a</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · lora, dit&lt;/small&gt;&lt;/p&gt;&lt;p&gt;The DiT and TE are 4-bit quantization aware distilled (QAD) and running on the GPU. VAE is fp16 and runs on the Neural Engine. Needs an Apple device with at least 12GB of RAM to run. If you've got 16GB, it also runs Krea 2 Turbo and a couple of other models, all QAD distilled. With MOSS Image SFT, a 1024x1024 image takes ~30s and a 512x512 image takes ~10s to generate. Testflight link if anyone would like to try it out. Please feel free to DM me here or on my Discord if you have any ideas, suggestions or bug reports. submitted by /u/woadwarrior [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xue4ud/moss_image_with_the_4step_lora_running_on_an/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xucyj0/testing_multiobject_reference_layouts_with/</id><title>Testing multi-object reference layouts with MiniMax H3-Image</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xucyj0/testing_multiobject_reference_layouts_with/"/>
@@ -7492,73 +7531,5 @@
 <category term="minimax"/>
 <summary>Weights: https://huggingface.co/Pika-Labs/Pika-H3-Flex Code: https://github.com/Pika-Labs/Pika-H3-Flex ComfyUI workflows/weights: https://docs.comfy.org/tutorials/video/pika/pika-h3-flex submitted by /u/LatentSpacer [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Weights: https://huggingface.co/Pika-Labs/Pika-H3-Flex Code: https://github.com/Pika-Labs/Pika-H3-Flex ComfyUI workflows/weights: https://docs.comfy.org/tutorials/video/pika/pika-h3-flex submitted by /u/LatentSpacer [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xiqifk/new_minimax_h3_finetune_by_pika_labs/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xiq02d/ltx_is_trash_compared_to_h3_or_its_me_dont_know/</id><title>LTX is trash compared to H3 or its me don’t know how to use it ?</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xiq02d/ltx_is_trash_compared_to_h3_or_its_me_dont_know/"/>
-<published>2026-10-29T17:13:30+00:00</published><updated>2026-10-29T17:13:30+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="ltx"/>
-<summary>submitted by /u/PhilosopherSweaty826 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · ltx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/PhilosopherSweaty826 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xiq02d/ltx_is_trash_compared_to_h3_or_its_me_dont_know/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xipg4b/my_entry_to_the_comfy_open_source_higgsfield/</id><title>My entry to the Comfy Open Source Higgsfield challenge: HyperKut Studio, an open-source multi-shot AI video studio on ComfyUI</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xipg4b/my_entry_to_the_comfy_open_source_higgsfield/"/>
-<published>2026-10-29T16:53:43+00:00</published><updated>2026-10-29T16:53:43+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="render"/>
-<category term="comfyui"/>
-<category term="minimax"/>
-<category term="ai video"/>
-<summary>This is my entry to the Comfy Open Source Higgsfield challenge (#OpenSourceHiggsfield): HyperKut Studio, a local studio that turns a reference edit, an idea or your own track into a short multi-shot video you can keep directing. https://majoorwaldi.github.io/HyperKut-Studio/ Demo (under 2 min): http</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 6 · render, comfyui, minimax, ai video&lt;/small&gt;&lt;/p&gt;&lt;p&gt;This is my entry to the Comfy Open Source Higgsfield challenge (#OpenSourceHiggsfield): HyperKut Studio, a local studio that turns a reference edit, an idea or your own track into a short multi-shot video you can keep directing. https://majoorwaldi.github.io/HyperKut-Studio/ Demo (under 2 min): https://youtu.be/9p3kYovVeYU **Three ways in** - **Remix**: give it an edit you like plus photos of your subject. It reads the cuts, framing and rhythm, then redraws every shot with your subject. - **Text**: write a short idea. Gemma 4 writes the shot list, MiniMax H3 renders the shots, YuE2 makes a soundtrack. - **Music**: drop your track. The beats set where each cut lands. **What I cared about: the&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xipg4b/my_entry_to_the_comfy_open_source_higgsfield/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xioxj5/comfyuis_open_source_higgsfield_challenge/</id><title>ComfyUI’s Open Source Higgsfield challenge: Openjutsu, one-click character swap for videos, fully local using Minimax H3 only</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xioxj5/comfyuis_open_source_higgsfield_challenge/"/>
-<published>2026-10-29T16:34:59+00:00</published><updated>2026-10-29T16:34:59+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="video generation"/>
-<category term="relight"/>
-<category term="comfyui"/>
-<category term="minimax"/>
-<summary>Ok, i have already posted it in r/StableDiffusion . Posting it here too. extra added stuff is relight but that is like very beta. I mostly used claude to build Openjutsu, a free, local version of Higgsfield’s Genjutsu character swap, for Comfy’s Open Source Higgsfield challenge. Repo (MIT): https://</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 6 · video generation, relight, comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Ok, i have already posted it in r/StableDiffusion . Posting it here too. extra added stuff is relight but that is like very beta. I mostly used claude to build Openjutsu, a free, local version of Higgsfield’s Genjutsu character swap, for Comfy’s Open Source Higgsfield challenge. Repo (MIT): https://github.com/D3voz/openjutsu What it does Upload a video and a picture of the person you want in it, then press Run. It finds the person, swaps them in clip by clip and keeps the original audio. There are also modes for: Object swap (change or remove an object, or change the background) From picture (put a person and a setting from one image into a video) Fix faces and Fix colours as post-processing&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xioxj5/comfyuis_open_source_higgsfield_challenge/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xiolct/qwen_image_21_trellis2_in_blender_from_a_prompt/</id><title>Qwen Image 2.1 + TRELLIS.2 in Blender: from a prompt to a textured, rigged character, then a whole village in Unreal (StableGen 0.4.0)</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xiolct/qwen_image_21_trellis2_in_blender_from_a_prompt/"/>
-<published>2026-10-29T16:22:36+00:00</published><updated>2026-10-29T16:22:36+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="pbr"/>
-<category term="animation"/>
-<category term="retargeting"/>
-<category term="comfyui"/>
-<category term="blender"/>
-<category term="unreal"/>
-<category term="unreal engine"/>
-<summary>StableGen is my free and open-source Blender add-on that generates and textures 3D models with local models through ComfyUI. 0.4.0 is out, and everything in the video is a real run in the add-on: Prompt -&gt; mesh: a Preview gallery of candidate images to pick from, then TRELLIS.2 builds the mesh. Text</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 9 · pbr, animation, retargeting, comfyui, blender, unreal, unreal engine&lt;/small&gt;&lt;/p&gt;&lt;p&gt;StableGen is my free and open-source Blender add-on that generates and textures 3D models with local models through ComfyUI. 0.4.0 is out, and everything in the video is a real run in the add-on: Prompt -&amp;gt; mesh: a Preview gallery of candidate images to pick from, then TRELLIS.2 builds the mesh. Texturing with Qwen Image 2.1: every camera view is generated and projected onto the mesh, then Marigold V2 makes the PBR maps (albedo, roughness, metallic, normal). Masked Edit (new): paint a region on the model, describe the change, and only that part is regenerated, through the cameras that see it. Auto-rigging (new) with SkinTokens, plus retargeting FBX/BVH animations onto the rig. Experimental Qw&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xiolct/qwen_image_21_trellis2_in_blender_from_a_prompt/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xio8xw/comfyui_prompts_explained_clip_text_encode/</id><title>ComfyUI Prompts Explained: CLIP Text Encode, Negative and Dynamic Prompts</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xio8xw/comfyui_prompts_explained_clip_text_encode/"/>
-<published>2026-10-29T16:10:27+00:00</published><updated>2026-10-29T16:10:27+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="flux"/>
-<summary>You will learn what CLIP Text Encode does, how positive and negative prompts work, why the negative prompt can do nothing at all, and how to write prompts that work on new models like Z-Image and Flux 2 Klein. We also test prompt weights, and try two tricks most people never find: random choices wit</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · comfyui, flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;You will learn what CLIP Text Encode does, how positive and negative prompts work, why the negative prompt can do nothing at all, and how to write prompts that work on new models like Z-Image and Flux 2 Klein. We also test prompt weights, and try two tricks most people never find: random choices with curly brackets, and comments. Everything is shown with Z-Image Turbo. At the end there is a small Practice workflow with tasks to try yourself, free on the page linked in the video description. the series https://workflows.pixaroma.com/comfyui-nodes-explained/ submitted by /u/pixaromadesign [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xio8xw/comfyui_prompts_explained_clip_text_encode/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xinu2y/minimax_h3_seamless_long_video_with_clearer_fast/</id><title>MiniMax H3: Seamless Long Video with Clearer Fast Action | Martial Arts + Drama | Workflow &amp; BGM Fix</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xinu2y/minimax_h3_seamless_long_video_with_clearer_fast/"/>
-<published>2026-10-29T15:55:41+00:00</published><updated>2026-10-29T15:55:41+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="minimax"/>
-<category term="lora"/>
-<summary>I updated my MiniMax H3 context workflow after feedback that fast movement could look blurry. Separate LoRA stacks for SelfLift's low- and high-resolution stages improved the action setup while keeping the previous dialogue configuration. During testing, I also ran into unwanted background music, so</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I updated my MiniMax H3 context workflow after feedback that fast movement could look blurry. Separate LoRA stacks for SelfLift's low- and high-resolution stages improved the action setup while keeping the previous dialogue configuration. During testing, I also ran into unwanted background music, so this video covers both the generation workflow and ways to handle the audio afterward. The workflow uses simple scheduling with one extra low-sigma midpoint: 9 sampling steps in regular mode and 13 in combat mode. Regular mode uses a 6+3 split without context or 4+5 with context, at a low-resolution scale of 0.5 or 0.65 respectively. Combat mode uses 6+7 and a 0.65 scale whether context is enable&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xinu2y/minimax_h3_seamless_long_video_with_clearer_fast/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
