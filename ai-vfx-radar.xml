@@ -2,8 +2,19 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-12T17:30:54+00:00</updated>
+<updated>2026-11-12T19:30:32+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xuk5dd/i_built_a_timeline_editor_for_ltx_25_in_comfyui/</id><title>I built a timeline editor for LTX 2.5 in ComfyUI (workflow included)</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xuk5dd/i_built_a_timeline_editor_for_ltx_25_in_comfyui/"/>
+<published>2026-11-12T18:13:48+00:00</published><updated>2026-11-12T18:13:48+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="upscaling"/>
+<category term="comfyui"/>
+<category term="ltx"/>
+<summary>I created a ComfyUI node package called Happy Latent that makes it easy to use LTX 2.5 through a timeline editor. With it, you can create multi-scene videos, upscale videos to 4K, provide reference frames, and supply your own audio. I hope you all find it useful and enjoy using it! GitHub: Happy Lat</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 5 · upscaling, comfyui, ltx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I created a ComfyUI node package called Happy Latent that makes it easy to use LTX 2.5 through a timeline editor. With it, you can create multi-scene videos, upscale videos to 4K, provide reference frames, and supply your own audio. I hope you all find it useful and enjoy using it! GitHub: Happy Latent Free workflows: Starter workflow Workflow with upscaling submitted by /u/VennifyAI [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xuk5dd/i_built_a_timeline_editor_for_ltx_25_in_comfyui/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xuh85d/been_testing_minimax_h3image_for_futuristic/</id><title>Been testing MiniMax H3-Image for futuristic magazine covers — portraits, colors, and typography</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xuh85d/been_testing_minimax_h3image_for_futuristic/"/>
@@ -13,6 +24,15 @@
 <category term="minimax"/>
 <summary>I've been experimenting with different editorial design concepts. I went through multiple rounds of generation and ended up with several sets of images. These four covers are some of my favorites. What impressed me most was the variety in the results. The model didn't just keep giving me the same po</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I've been experimenting with different editorial design concepts. I went through multiple rounds of generation and ended up with several sets of images. These four covers are some of my favorites. What impressed me most was the variety in the results. The model didn't just keep giving me the same portrait with different backgrounds. The compositions, lighting, and color palettes felt noticeably different across the set. What stood out to me was how naturally H3-Image handled the portraits and colors. Skin tones, lighting, and facial details looked pretty convincing, even with some fairly experimental visual styles. The colors were rich without feeling overly saturated, and the transitions be&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xuh85d/been_testing_minimax_h3image_for_futuristic/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xugnvk/comfyui_ksampler_explained_seed_steps_cfg_and/</id><title>ComfyUI KSampler Explained: Seed, Steps, CFG and Denoise</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xugnvk/comfyui_ksampler_explained_seed_steps_cfg_and/"/>
+<published>2026-11-12T16:05:04+00:00</published><updated>2026-11-12T16:05:04+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<summary>In this video of ComfyUI Nodes Explained, you will learn what every setting on the KSampler does: the seed and control after generate, how many steps you really need, what CFG does and why it can burn your image, how the sampler and the scheduler work together, and why denoise stays at 1 with an emp</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;In this video of ComfyUI Nodes Explained, you will learn what every setting on the KSampler does: the seed and control after generate, how many steps you really need, what CFG does and why it can burn your image, how the sampler and the scheduler work together, and why denoise stays at 1 with an empty latent. Four "A Deeper Look" chapters show the starting noise a seed makes, how much noise each step removes, how CFG mixes two guesses, and how the samplers differ. Everything is shown with Z-Image Turbo, and the full Z-Image model for CFG. submitted by /u/pixaromadesign [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xugnvk/comfyui_ksampler_explained_seed_steps_cfg_and/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xuft8g/mossimage_vs_minimax_h3image_on_15_identical/</id><title>MOSS-Image vs MiniMax H3-Image on 15 identical prompts — the gap is smaller than I expected</title>
@@ -42,6 +62,15 @@
 <category term="dit"/>
 <summary>The DiT and TE are 4-bit quantization aware distilled (QAD) and running on the GPU. VAE is fp16 and runs on the Neural Engine. Needs an Apple device with at least 12GB of RAM to run. If you've got 16GB, it also runs Krea 2 Turbo and a couple of other models, all QAD distilled. With MOSS Image SFT, a</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · lora, dit&lt;/small&gt;&lt;/p&gt;&lt;p&gt;The DiT and TE are 4-bit quantization aware distilled (QAD) and running on the GPU. VAE is fp16 and runs on the Neural Engine. Needs an Apple device with at least 12GB of RAM to run. If you've got 16GB, it also runs Krea 2 Turbo and a couple of other models, all QAD distilled. With MOSS Image SFT, a 1024x1024 image takes ~30s and a 512x512 image takes ~10s to generate. Testflight link if anyone would like to try it out. Please feel free to DM me here or on my Discord if you have any ideas, suggestions or bug reports. submitted by /u/woadwarrior [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xue4ud/moss_image_with_the_4step_lora_running_on_an/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xudey9/release_offline_and_fast_comfyui_reader_that/</id><title>[Release] Offline and fast comfyui reader that doesn't need any server</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xudey9/release_offline_and_fast_comfyui_reader_that/"/>
+<published>2026-11-12T13:57:26+00:00</published><updated>2026-11-12T13:57:26+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<summary>Hello. dchatel/comfyui_workflow_reader: Read-only ComfyUI workflow viewer (json/png/webp/mp4) that runs in the browser https://preview.redd.it/c4c7pgxjt61i1.png?width=1904&amp;format=png&amp;auto=webp&amp;s=006dc2efbfe64f868b0cfd0871add5ecd37c6757 submitted by /u/Occsan [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hello. dchatel/comfyui_workflow_reader: Read-only ComfyUI workflow viewer (json/png/webp/mp4) that runs in the browser https://preview.redd.it/c4c7pgxjt61i1.png?width=1904&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=006dc2efbfe64f868b0cfd0871add5ecd37c6757 submitted by /u/Occsan [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xudey9/release_offline_and_fast_comfyui_reader_that/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xucyj0/testing_multiobject_reference_layouts_with/</id><title>Testing multi-object reference layouts with MiniMax H3-Image</title>
@@ -7466,70 +7495,5 @@
 <category term="blender"/>
 <summary>submitted by /u/Serious_Meaning5220 [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 4 · animation, blender&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/Serious_Meaning5220 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xitrsn/doctor_who_the_tenth_doctor_stays_for_series_5/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xit8do/easycomfee_an_opensource_higgsfieldstyle_creative/</id><title>EasyComfee, an open-source, Higgsfield-style creative studio</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xit8do/easycomfee_an_opensource_higgsfieldstyle_creative/"/>
-<published>2026-10-29T19:13:07+00:00</published><updated>2026-10-29T19:13:07+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="lip sync"/>
-<category term="vfx"/>
-<category term="comfyui"/>
-<category term="ltx"/>
-<summary>I built EasyComfee , an open-source, Higgsfield-style creative studio that runs on ComfyUI, on your own GPU or on Comfy Cloud. 🎬 Video with LTX: text, image, first &amp; last frame, keyframes, plus one-click LTX VFX apps 🖼️ Image with one-tap looks that restyle your own photo 🎥 Cinema Studio, Lip Sync, </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · lip sync, vfx, comfyui, ltx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I built EasyComfee , an open-source, Higgsfield-style creative studio that runs on ComfyUI, on your own GPU or on Comfy Cloud. 🎬 Video with LTX: text, image, first &amp;amp; last frame, keyframes, plus one-click LTX VFX apps 🖼️ Image with one-tap looks that restyle your own photo 🎥 Cinema Studio, Lip Sync, Voice, Music, character swap 🔓 Open-weight models first, MIT licensed, every graph exportable as a ComfyUI workflow Free on your own GPU. No subscription. Repo: https://github.com/sintetizacom/easycomfee Demo: https://youtu.be/S93aa3AMzDQ #OpenSourceHiggsfield u/ComfyUI submitted by /u/sintetizacom [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xit8do/easycomfee_an_opensource_higgsfieldstyle_creative/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xit315/1500_styles_for_krea_2_in_a_comfyui_wildcards_node/</id><title>1500+ styles for Krea 2 in a Comfyui wildcards node</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xit315/1500_styles_for_krea_2_in_a_comfyui_wildcards_node/"/>
-<published>2026-10-29T19:07:33+00:00</published><updated>2026-10-29T19:07:33+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<summary>I Have no merit, Claude did it all by himself, I didn't do it for the community, I needed a node like this, there's similar nodes but they didnt satisfy my needs as a style junkie. I tested it slightly and it works best in Krea 2 and Qwen 2.1, but Krea 2 knows more styles. Kroma 0.3.1 comes third in</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I Have no merit, Claude did it all by himself, I didn't do it for the community, I needed a node like this, there's similar nodes but they didnt satisfy my needs as a style junkie. I tested it slightly and it works best in Krea 2 and Qwen 2.1, but Krea 2 knows more styles. Kroma 0.3.1 comes third in my view with less details and more body horror,, didnt like the results in Moss... Hope it will help amateurs like me. https://github.com/atlasimp/Style\_Atlas submitted by /u/Dear-Spend-2865 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xit315/1500_styles_for_krea_2_in_a_comfyui_wildcards_node/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xirlwp/henge_my_opensource_video_editing_interface_for/</id><title>Henge - my open-source video editing interface for the Comfy Challenge</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xirlwp/henge_my_opensource_video_editing_interface_for/"/>
-<published>2026-10-29T18:12:30+00:00</published><updated>2026-10-29T18:12:30+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="video editing"/>
-<category term="comfyui"/>
-<category term="minimax"/>
-<category term="lora"/>
-<summary>Hey everyone! I started building Henge for the Comfy Challenge, bringing my MiniMax H3 LoRAs into a dedicated interface powered by ComfyUI. It has four main tools, all using LoRAs I trained: - Character Swap: replace characters using reference images while following the original scene and performanc</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 5 · video editing, comfyui, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey everyone! I started building Henge for the Comfy Challenge, bringing my MiniMax H3 LoRAs into a dedicated interface powered by ComfyUI. It has four main tools, all using LoRAs I trained: - Character Swap: replace characters using reference images while following the original scene and performance. - Motion Transfer: transfer movement from a guide video to subjects defined by your reference images. - Head Swap: replace a subject’s head using a reference image. - Sharpness / Upscale: enhance details with my Little More Sharpness LoRA, with an optional Open-H3 Refiner upscale stage. You may already know my Character Swap, Head Swap, and Little More Sharpness LoRAs from the community. Motion&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xirlwp/henge_my_opensource_video_editing_interface_for/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xirbr2/tired_of_writing_prompts_or_using_expensive/</id><title>Tired of writing prompts? Or using expensive agents? #OpenSourceHiggsfield</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xirbr2/tired_of_writing_prompts_or_using_expensive/"/>
-<published>2026-10-29T18:02:04+00:00</published><updated>2026-10-29T18:02:04+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="houdini"/>
-<category term="blender"/>
-<category term="maya"/>
-<summary>Well, then this might be for you: agentY is a free, open-source AI agent that lives inside ComfyUI. - Runs on any LLM, including cheap ones like Qwen and DeepSeek, or fully local and free with Ollama or Strata - able to build complex workflows it has never seen, from what it finds on the web - but a</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · comfyui, houdini, blender, maya&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Well, then this might be for you: agentY is a free, open-source AI agent that lives inside ComfyUI. - Runs on any LLM, including cheap ones like Qwen and DeepSeek, or fully local and free with Ollama or Strata - able to build complex workflows it has never seen, from what it finds on the web - but also uses the official ComfyUI template library - Judges its own outputs against your brief and re-renders what misses - MCP support with preset for Blender, Maya, Houdini, After Effects, and more - Builds motion graphics and edits video using remotion - tightly integrated into it's own image, video and 3D viewer inside ComfyUI - comes with a tagging system (to reuse images you created in your syst&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xirbr2/tired_of_writing_prompts_or_using_expensive/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xiqqkd/my_entry_to_the_comfy_open_source_higgsfield/</id><title>My entry to the Comfy Open Source Higgsfield challenge: HyperKut Studio, an open-source multi-shot AI video studio on ComfyUI</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xiqqkd/my_entry_to_the_comfy_open_source_higgsfield/"/>
-<published>2026-10-29T17:40:20+00:00</published><updated>2026-10-29T17:40:20+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="ai video"/>
-<summary>submitted by /u/Main_Creme9190 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · comfyui, ai video&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/Main_Creme9190 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xiqqkd/my_entry_to_the_comfy_open_source_higgsfield/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xiqifk/new_minimax_h3_finetune_by_pika_labs/</id><title>New MiniMax H3 Finetune by Pika Labs -</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xiqifk/new_minimax_h3_finetune_by_pika_labs/"/>
-<published>2026-10-29T17:31:48+00:00</published><updated>2026-10-29T17:31:48+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<category term="minimax"/>
-<summary>Weights: https://huggingface.co/Pika-Labs/Pika-H3-Flex Code: https://github.com/Pika-Labs/Pika-H3-Flex ComfyUI workflows/weights: https://docs.comfy.org/tutorials/video/pika/pika-h3-flex submitted by /u/LatentSpacer [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Weights: https://huggingface.co/Pika-Labs/Pika-H3-Flex Code: https://github.com/Pika-Labs/Pika-H3-Flex ComfyUI workflows/weights: https://docs.comfy.org/tutorials/video/pika/pika-h3-flex submitted by /u/LatentSpacer [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xiqifk/new_minimax_h3_finetune_by_pika_labs/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
