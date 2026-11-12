@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-12T07:30:24+00:00</updated>
+<updated>2026-11-12T08:00:29+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
 <entry>
 <id>https://www.reddit.com/r/vfx/comments/1xu63zf/restonic_commercial_ai_background_replacement/</id><title>Restonic commercial — AI background replacement, lighting and match-cut breakdown</title>
@@ -175,6 +175,15 @@
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 4 · roto, vfx, nuke&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Anyone using Huion kamvas pro 16 or xp pen for some serious Vfx work such as texturing in substance or mari or Zbrush or doing roto in Nuke? submitted by /u/manuce94 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xtsugg/anyone_using_huion_kamvas_pro_16_or_xp_pen_for/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xtr4en/minimax_h3_image_test_3_sampler_moss/</id><title>Minimax H3 image, test 3 Sampler + Moss</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xtr4en/minimax_h3_image_test_3_sampler_moss/"/>
+<published>2026-11-11T19:27:40+00:00</published><updated>2026-11-11T19:27:40+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="minimax"/>
+<summary>Minimax H3 image comparing the 3 main samplers, all at 16 megapixels, I had to reduce them to be able to post them, the images weigh more than 20mb of what is allowed, thus reaching around 28 megapixels on average as a comparison I used the Moss image sft and Kromoss latest version, I didn't use the</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Minimax H3 image comparing the 3 main samplers, all at 16 megapixels, I had to reduce them to be able to post them, the images weigh more than 20mb of what is allowed, thus reaching around 28 megapixels on average as a comparison I used the Moss image sft and Kromoss latest version, I didn't use the moss base because the Kromoss is base and has superior quality with DMD2 with blur and saturation correction I used Kroma instead of Krea2 because, in my tests, Kroma is a significantly better version than Krea2 when not using LoRAs. Kromoss, Kroma, Moss Image—all at 2 megapixels; anything higher causes the model to start breaking down. Prompt I used from another Post with more than 300 prompts g&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xtr4en/minimax_h3_image_test_3_sampler_moss/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xtpitz/i_built_trellis_studio_a_local_interface_for_3d/</id><title>I built TRELLIS Studio: a local interface for 3D generation, automatic rigging and animation</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xtpitz/i_built_trellis_studio_a_local_interface_for_3d/"/>
 <published>2026-11-11T18:28:02+00:00</published><updated>2026-11-11T18:28:02+00:00</updated>
@@ -295,6 +304,18 @@
 <category term="comfyui"/>
 <summary>I’ve updated my experimental Open-H3-Regenerate-2K nodes with support for NVIDIA’s newer IC model. It's still very much mostly for testing, and it's not exactly a low VRAM model. Repo: https://github.com/o-l-l-i/ComfyUI-Olm-Open-H3-Regenerate-2K In my tests there's a noticeable improvement over the </summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · upscaler, comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I’ve updated my experimental Open-H3-Regenerate-2K nodes with support for NVIDIA’s newer IC model. It's still very much mostly for testing, and it's not exactly a low VRAM model. Repo: https://github.com/o-l-l-i/ComfyUI-Olm-Open-H3-Regenerate-2K In my tests there's a noticeable improvement over the previous version. Faces, shading and small shapes stay closer to the source while details gain definition. It feels more useful as a refiner now, although it can still reinterpret features, lettering and textures as it's a generative upscaler. The update to my nodes includes: Separate IC loader and video refinement nodes. Adjustable IC and LMS Sharp strengths, plus three- and four-step sampling. E&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xtir24/my_openh3regenerate2k_nodes_for_comfyui_updated/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xtipl7/testing_minimax_h3image_exploded_view_of_an/</id><title>Testing MiniMax H3-Image: Exploded view of an espresso machine from a single photo</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xtipl7/testing_minimax_h3image_exploded_view_of_an/"/>
+<published>2026-11-11T14:10:27+00:00</published><updated>2026-11-11T14:10:27+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="upscaling"/>
+<category term="image editing"/>
+<category term="rendering"/>
+<category term="minimax"/>
+<summary>I took a single photo of a vintage Italian espresso machine and ran it through MiniMax H3-Image (open weights) to see if it could pull the whole thing apart into a clean technical breakdown. First image is the input photo, second is the output. It laid out 15 separate parts floating along a diagonal</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 5 · upscaling, image editing, rendering, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I took a single photo of a vintage Italian espresso machine and ran it through MiniMax H3-Image (open weights) to see if it could pull the whole thing apart into a clean technical breakdown. First image is the input photo, second is the output. It laid out 15 separate parts floating along a diagonal with leader lines and English labels, plus all the copper and brass internals inside the stainless-steel shell. What I found interesting was how much structural detail it could pull from a single reference image. An exploded view is a pretty demanding editing task since the model needs to preserve the original design while generating components that aren't fully visible in the input. On the techn&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xtipl7/testing_minimax_h3image_exploded_view_of_an/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1xtimco/this_took_x_hrs_35_mins_to_make_on_a_rtx_3050_6gb/</id><title>THIS TOOK X Hrs 35 Mins TO MAKE ON A RTX 3050 6GB VRAM USING MINIMAX H3</title>
@@ -7581,36 +7602,5 @@
 <category term="flux"/>
 <summary>My entry for the Open Source Higgsfield challenge. Terraformer lets you design a city and turns it into a dressed Unreal Engine 5 level. You set the design: - City shape from 20 layout presets (walls, districts, hubs, highways) and 8 terrain presets, or describe the terrain in plain words - Rules fo</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 8 · comfyui, blender, unreal, unreal engine, flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;My entry for the Open Source Higgsfield challenge. Terraformer lets you design a city and turns it into a dressed Unreal Engine 5 level. You set the design: - City shape from 20 layout presets (walls, districts, hubs, highways) and 8 terrain presets, or describe the terrain in plain words - Rules for building types, density, street pattern, green space and waterfront, keeping what you like and rerolling the rest - A style for the whole city - Edit the greybox in Blender if you want; the app reads your changes back The tool does the building: - Blender builds the greybox from your layout - Each shot camera renders depth, canny and ID passes - ComfyUI (through the official Comfy SDK) turns tho&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xievsa/terraformer_design_a_city_get_a_dressed_unreal/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xidflv/i_made_a_fake_lost_1980s_anime_episode_with/</id><title>I made a fake “lost” 1980s anime episode with Comfyui cloud (Krea 2 + MiniMax H3 + Seedance 2.5)</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xidflv/i_made_a_fake_lost_1980s_anime_episode_with/"/>
-<published>2026-10-29T07:33:29+00:00</published><updated>2026-10-29T07:33:29+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="minimax"/>
-<category term="seedance"/>
-<summary>submitted by /u/sneakpik [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 6 · comfyui, minimax, seedance&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/sneakpik [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xidflv/i_made_a_fake_lost_1980s_anime_episode_with/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://github.com/shitagaki-lab/see-through</id><title>shitagaki-lab/see-through</title>
-<link rel="alternate" href="https://github.com/shitagaki-lab/see-through"/>
-<published>2026-10-29T07:30:31+00:00</published><updated>2026-10-29T07:30:31+00:00</updated>
-<author><name>GitHub trending (Python)</name></author>
-<category term="segmentation"/>
-<category term="sam2"/>
-<summary>"Single-image Layer Decomposition for Anime Characters" (SIGGRAPH 2026 Conference Paper) See-through: Single-image Layer Decomposition for Anime Characters Jian Lin 1 , Chengze Li 1* , Haoyun Qin 2,3,4 , Kwun Wang Chan 1 , Yanghua Jin 3 , Hanyuan Liu 1 , Stephen Chun Wang Choy 1 , Xueting Liu 1 1 Sa</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;GitHub trending (Python) · score 2 · segmentation, sam2&lt;/small&gt;&lt;/p&gt;&lt;p&gt;"Single-image Layer Decomposition for Anime Characters" (SIGGRAPH 2026 Conference Paper) See-through: Single-image Layer Decomposition for Anime Characters Jian Lin 1 , Chengze Li 1* , Haoyun Qin 2,3,4 , Kwun Wang Chan 1 , Yanghua Jin 3 , Hanyuan Liu 1 , Stephen Chun Wang Choy 1 , Xueting Liu 1 1 Saint Francis University 2 University of Pennsylvania 3 Spellbrush 4 Shitagaki Lab * Corresponding author Published in ACM SIGGRAPH 2026 Conference Papers . Notice: This is an open-source research project. We have not set up any paid service for this tool. If you encounter a website charging for this functionality, it is not from us. Use at your own risk. 声明： 本项目为开源研究项目，我们未开设任何付费服务。如遇到以此功能收费的网站，均与我们&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.com/shitagaki-lab/see-through"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://github.com/ruvnet/RuView</id><title>ruvnet/RuView</title>
-<link rel="alternate" href="https://github.com/ruvnet/RuView"/>
-<published>2026-10-29T07:30:31+00:00</published><updated>2026-10-29T07:30:31+00:00</updated>
-<author><name>GitHub trending (all)</name></author>
-<category term="world model"/>
-<category term="lora"/>
-<summary>π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video. https://Cognitum.One/RuView π RuView Start here Hardware Models AI toolkit Smart home Cognitum Seed See through walls with WiFi Turn ordinar</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;GitHub trending (all) · score 2 · world model, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video. https://Cognitum.One/RuView π RuView Start here Hardware Models AI toolkit Smart home Cognitum Seed See through walls with WiFi Turn ordinary WiFi into a spatial intelligence / sensing system. Detect people, measure breathing and heart rate, track movement, and monitor rooms — through walls, in the dark, with no cameras or wearables. Just physics. Works natively with the four major smart-home ecosystems: Home Assistant via the HA-DISCO MQTT publisher, Apple Home &amp;amp; HomePod as a discoverable HAP-1.1 bridge, Google Home + Amazon Alexa vi&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.com/ruvnet/RuView"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
