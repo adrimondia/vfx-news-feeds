@@ -2,8 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-13T15:30:36+00:00</updated>
+<updated>2026-11-13T17:30:47+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xva70a/rtx_5070_ti_comfyui_benchmarks_overclock_cut_gen/</id><title>RTX 5070 Ti ComfyUI benchmarks: Overclock cut gen times ~10%, tuned flags more than halved H3 video time</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xva70a/rtx_5070_ti_comfyui_benchmarks_overclock_cut_gen/"/>
+<published>2026-11-13T15:03:54+00:00</published><updated>2026-11-13T15:03:54+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<category term="flux"/>
+<category term="minimax"/>
+<category term="lora"/>
+<summary>I tested how much GPU overclocking, ComfyUI launch flags, and moving my display to the iGPU actually affected generation speed on my 5070 Ti 16 GB . The biggest finding: OC helped consistently, but the launch flags made a much bigger difference on certain models. On others, those same flags did almo</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 5 · comfyui, flux, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I tested how much GPU overclocking, ComfyUI launch flags, and moving my display to the iGPU actually affected generation speed on my 5070 Ti 16 GB . The biggest finding: OC helped consistently, but the launch flags made a much bigger difference on certain models. On others, those same flags did almost nothing. Going forward I implemented a script in ComfyUI launch that automatically applies stable overclock settings to my GPU on run and then reverts to stock once ComfyUI is closed. All diffusion models tested were int8_convrot builds, using the official ComfyUI template settings. Setup RTX 5070 Ti 16 GB (Gigabyte Gaming OC), AMD Ryzen 7 9800X3D, 48 GB DDR5-6000 Windows 11 Pro, Samsung 9100 P&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xva70a/rtx_5070_ti_comfyui_benchmarks_overclock_cut_gen/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1xv8gex/ltx25_and_reference_images/</id><title>LTX2.5 and reference images?</title>
 <link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xv8gex/ltx25_and_reference_images/"/>
@@ -7290,26 +7302,5 @@
 <category term="ltx"/>
 <summary>Hi lovely StableDiffusion people, Sharing my entry for Comfy's Open Source Higgsfield challenge: Paint a plate, an open-source app for VFX edits on video and image sequences, on open weights only. You paint on the first frame of a plate to erase something, add an element or change the light. FLUX 3 </summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 9 · smoke, compositing, vfx, comfyui, flux, ltx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi lovely StableDiffusion people, Sharing my entry for Comfy's Open Source Higgsfield challenge: Paint a plate, an open-source app for VFX edits on video and image sequences, on open weights only. You paint on the first frame of a plate to erase something, add an element or change the light. FLUX 3 Image Klein makes the edit on that frame, SAM 3.1 tracks the object, and LTX 2.5 with IC-LoRAs carries it through every frame. Untouched pixels stay identical, and the shot exports with a matte, so it drops into a compositing pipeline. It also paints smoke and fire from a blank plate with ainvfx-fluid, an IC-LoRA we trained. It runs locally in ComfyUI, or can be deployed easily on Runpod. 2-min de&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xjmmrd/paint_on_the_first_frame_and_the_whole_shot/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xjjst7/i_made_zentrainer_an_opensource_lora_trainer_that/</id><title>I made ZenTrainer: an open-source LoRA trainer that runs inside ComfyUI (image + video models, live previews, NVIDIA or AMD)</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xjjst7/i_made_zentrainer_an_opensource_lora_trainer_that/"/>
-<published>2026-10-30T16:18:50+00:00</published><updated>2026-10-30T16:18:50+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<category term="flux"/>
-<category term="minimax"/>
-<category term="lora"/>
-<summary>Hi all, I've been building ZenTrainer, a LoRA trainer that lives inside ComfyUI, and 0.4.0 is out today. It's free and open source (MIT). Trailer: https://www.youtube.com/watch?v=YS4BkGonflg GitHub: https://github.com/Nynxz/ZenTrainer What it does Trains LoRAs from a ComfyUI tab: pick a model, drop </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 6 · comfyui, flux, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi all, I've been building ZenTrainer, a LoRA trainer that lives inside ComfyUI, and 0.4.0 is out today. It's free and open source (MIT). Trailer: https://www.youtube.com/watch?v=YS4BkGonflg GitHub: https://github.com/Nynxz/ZenTrainer What it does Trains LoRAs from a ComfyUI tab: pick a model, drop in your pictures, and it fills in the files, captions and settings Live previews as it trains, and for characters a likeness score per checkpoint, so you can see which one is best instead of guessing Runs on NVIDIA and AMD (ROCm, Linux and Windows) Uses the models you already have in ComfyUI, wherever they are Models trained end to end MOSS Image, Krea 2, Fibo 2.0, FLUX 3 Image, FLUX.2 Klein 9B, Q&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xjjst7/i_made_zentrainer_an_opensource_lora_trainer_that/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xjj0fy/the_creator_of_minimaxh3characterswaplora_has/</id><title>The creator of MiniMax-H3-Character-Swap-LoRA has released an open-source ComfyUI interface as an alternative to Higgsfield’s Genjutsu / Influencer Studio.</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xjj0fy/the_creator_of_minimaxh3characterswaplora_has/"/>
-<published>2026-10-30T15:50:21+00:00</published><updated>2026-10-30T15:50:21+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<summary>Aparentemente, solo está usando el modelo Pika H3 Flex en vez de su MiniMax-H3-Character-Swap-LoRA. Dice que es mejor y más rápido. Enlace al post de X: https://x.com/akatz_ai/status/2116187080821027327?a=7bun0h9gM5l92i5UPIQ&amp;s=20 submitted by /u/infroy28 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Aparentemente, solo está usando el modelo Pika H3 Flex en vez de su MiniMax-H3-Character-Swap-LoRA. Dice que es mejor y más rápido. Enlace al post de X: https://x.com/akatz_ai/status/2116187080821027327?a=7bun0h9gM5l92i5UPIQ&amp;amp;s=20 submitted by /u/infroy28 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xjj0fy/the_creator_of_minimaxh3characterswaplora_has/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
