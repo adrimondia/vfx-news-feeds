@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-12T23:30:38+00:00</updated>
+<updated>2026-11-13T01:30:25+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1xur2ms/comfyui_fable_experiment/</id><title>Comfyui + Fable Experiment</title>
@@ -17,6 +17,22 @@
 <category term="storyboard"/>
 <summary>I made a song with AI, then tested Fable on it. My entire prompt: "Visualize this song using my open models in comfyui" This is what it built. I didn't give it a concept, a storyboard or a workflow. What it did with that one sentence: Found ComfyUI running on my machine Checked which models I had in</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 7 · video model, rendering, comfyui, minimax, lora, storyboard&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I made a song with AI, then tested Fable on it. My entire prompt: "Visualize this song using my open models in comfyui" This is what it built. I didn't give it a concept, a storyboard or a workflow. What it did with that one sentence: Found ComfyUI running on my machine Checked which models I had installed Read the lyrics out of the song file Decided the song was about a freediver on one breath I found out the concept when I saw the first frames. Then it just kept going: Wrote a 22-shot storyboard locked to the song's bars Gnerated 28 stills (MiniMax H3 Image) Rendered 22 shots between them (Pika H3 Flex) Wrote its own editing script and cut the video All on my own RTX 4090. About an hour an&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xur2ms/comfyui_fable_experiment/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1xuqrri/i_built_a_linux_file_manager_for_vfx_work/</id><title>I built a Linux file manager for VFX work: previews VDBs, EXRs, Model caches and scene files without opening a DCC</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xuqrri/i_built_a_linux_file_manager_for_vfx_work/"/>
+<published>2026-11-12T22:28:26+00:00</published><updated>2026-11-12T22:28:26+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="smoke"/>
+<category term="vfx"/>
+<category term="hdr"/>
+<category term="render"/>
+<category term="houdini"/>
+<category term="blender"/>
+<category term="unreal"/>
+<category term="maya"/>
+<summary>I work on Linux and got tired of opening Houdini or Maya just to find out if I grabbed the correct cache, so I wrote a file manager that understands production files. It's called Shotrover. What it does that Nautilus and Dolphin don't: - **VDB and Houdini cache previews** Fog volumes show as smoke, </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 9 · smoke, vfx, hdr, render, houdini, blender, unreal, maya&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I work on Linux and got tired of opening Houdini or Maya just to find out if I grabbed the correct cache, so I wrote a file manager that understands production files. It's called Shotrover. What it does that Nautilus and Dolphin don't: - **VDB and Houdini cache previews** Fog volumes show as smoke, level sets as surfaces. Select a run of frames and scrub or play them as a sequence. - **3D previews** for Alembic, USD, FBX, OBJ, glTF and .bgeo, in a preview pane beside the file list. - **EXR, HDR, PSD and Maya IFF** previews and thumbnails. - **Scene breakdowns** for Maya, Blender, Unreal and Unity files: the outliner, plus every referenced file with a missing-file check. No DCC needed. - **Fi&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xuqrri/i_built_a_linux_file_manager_for_vfx_work/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1xupcow/is_it_possible_to_pause_a_comfyui_job_save_the/</id><title>Is it possible to pause a comfyui job, save the intermediate results in files on a Friday, and then continue on Monday?</title>
@@ -7429,49 +7445,5 @@
 <category term="minimax"/>
 <summary>Decided to try a short film with H3. This is made with the custom API https://github.com/r34vtraining/Longshot_Studio Which runs locally with your own instance of ComfyUI. If you would like to load the entire project and see how I made it in the studio, drag this zip file into the UI to open it. htt</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Decided to try a short film with H3. This is made with the custom API https://github.com/r34vtraining/Longshot_Studio Which runs locally with your own instance of ComfyUI. If you would like to load the entire project and see how I made it in the studio, drag this zip file into the UI to open it. https://github.com/r34vtraining/Longshot_Studio/releases/tag/project_Petunia This is my first attempt at editing a short film I will say it's way harder than a music video. Some of the latest updates and ease of user improvement to the studio: Group folders, you can now group your shots by scenes, act, etc. One button to restore all the reference that was used for that group. Audio separation. Didn't&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xj2ibe/petunia_harry_potter_universe_a_minimax_h3_short/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1xj1z32/any_image_campus_reference/</id><title>any image campus reference?</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xj1z32/any_image_campus_reference/"/>
-<published>2026-10-30T01:11:10+00:00</published><updated>2026-10-30T01:11:10+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="vfx"/>
-<summary>i want to take a vfx course at image campus, but it's a LOT of money and it bothers me to be throwing it away, does anyone have any reference? submitted by /u/grandisimoop [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 1 · vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;i want to take a vfx course at image campus, but it's a LOT of money and it bothers me to be throwing it away, does anyone have any reference? submitted by /u/grandisimoop [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xj1z32/any_image_campus_reference/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xj1xxe/kreamossmix_workflow_one_model_composes_the_other/</id><title>KreaMossMix Workflow: One model composes, the other finishes it</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xj1xxe/kreamossmix_workflow_one_model_composes_the_other/"/>
-<published>2026-10-30T01:09:46+00:00</published><updated>2026-10-30T01:09:46+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="inpainting"/>
-<category term="comfyui"/>
-<category term="wan"/>
-<category term="lora"/>
-<summary>I've been using MOSS-Image and Krea 2 a lot lately, and they're good at different things, so I built a ComfyUI workflow that runs both from the same prompt and lets them work on each other's images. Every run can give you four results: Full MOSS : MOSS-Image on its own Full Krea : Krea 2 on its own </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · inpainting, comfyui, wan, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I've been using MOSS-Image and Krea 2 a lot lately, and they're good at different things, so I built a ComfyUI workflow that runs both from the same prompt and lets them work on each other's images. Every run can give you four results: Full MOSS : MOSS-Image on its own Full Krea : Krea 2 on its own Mix A : MOSS builds the composition, Krea finishes it Mix B : Krea makes the image, MOSS repaints part of it The images in this post are one prompt and one seed through all four paths, with no LoRAs, no inpainting and no editing. What's inside One slider (FINISH SHARE) controls how much of the image the second model repaints in both mixes Krea's "Raw recipe": Krea 2 Raw + the official Turbo LoRA a&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xj1xxe/kreamossmix_workflow_one_model_composes_the_other/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xj1ud3/comfyart_a_free_local_lovart_for_comfyui_canvas/</id><title>ComfyArt: a free, local "Lovart" for ComfyUI. Canvas, design agent, image/video/audio/3D, all on your GPU (MIT)</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xj1ud3/comfyart_a_free_local_lovart_for_comfyui_canvas/"/>
-<published>2026-10-30T01:04:57+00:00</published><updated>2026-10-30T01:04:57+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="lip sync"/>
-<category term="comfyui"/>
-<category term="flux"/>
-<category term="minimax"/>
-<category term="lora"/>
-<category term="storyboard"/>
-<summary>I've been building ComfyArt : an AI design canvas in the spirit of Lovart, but open source and running fully on your own ComfyUI. No account, no credits, no cloud unless you want it. https://github.com/jtydhr88/ComfyArt What it is An infinite canvas (tldraw + React) that lives at /comfyart/ inside C</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 7 · lip sync, comfyui, flux, minimax, lora, storyboard&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I've been building ComfyArt : an AI design canvas in the spirit of Lovart, but open source and running fully on your own ComfyUI. No account, no credits, no cloud unless you want it. https://github.com/jtydhr88/ComfyArt What it is An infinite canvas (tldraw + React) that lives at /comfyart/ inside ComfyUI, with a ComfyArt button in the top bar (works in Comfy Desktop too) A design agent that actually works on the canvas through MCP tools: it looks at the board, generates, edits, places text and frames, builds slides and web pages Every generation runs as a normal ComfyUI workflow on your machine What you can do on the canvas Generate : Qwen Image 2.1, Z-Image Turbo, FLUX.2 Klein, FLUX 3 Klei&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xj1ud3/comfyart_a_free_local_lovart_for_comfyui_canvas/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xj05w6/cant_copy_text_inside_comfyui_anymore_is_anyone/</id><title>Can't copy text inside Comfyui anymore. Is anyone else having this problem?</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xj05w6/cant_copy_text_inside_comfyui_anymore_is_anyone/"/>
-<published>2026-10-29T23:48:19+00:00</published><updated>2026-10-29T23:48:19+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<summary>Pretty much just since yesterday, I all of a sudden cannot copy text from inside Comfyui. I can copy text from something OUTSIDE and paste it inside, but I cannot copy anything from inside and paste it anywhere, inside or outside. The biggest problem here is that I use a prompt generator, and it bec</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Pretty much just since yesterday, I all of a sudden cannot copy text from inside Comfyui. I can copy text from something OUTSIDE and paste it inside, but I cannot copy anything from inside and paste it anywhere, inside or outside. The biggest problem here is that I use a prompt generator, and it becomes very tedious if I can't copy the text from the generator into my prompt text box in the various workflows. submitted by /u/TheRealWitsfool [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xj05w6/cant_copy_text_inside_comfyui_anymore_is_anyone/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
