@@ -2,8 +2,192 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-13T07:30:23+00:00</updated>
+<updated>2026-11-13T08:00:27+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xuze4s/a_quick_mossimage_news_roundup_13th_november_2026/</id><title>A quick MOSS-Image news round-up - 13th November 2026</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xuze4s/a_quick_mossimage_news_roundup_13th_november_2026/"/>
+<published>2026-11-13T05:21:33+00:00</published><updated>2026-11-13T05:21:33+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<category term="lora"/>
+<category term="cinematic"/>
+<summary>Another quick MOSS-Image news and goodies round-up, for those who may have missed some items. -&gt; As MOSS-Image hits 6 million downloads on Hugging Face... meet the developers behind MOSS-Image. The previously mooted specialist 'anime model' is confirmed, and a planned editing model is announced. The</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · comfyui, lora, cinematic&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Another quick MOSS-Image news and goodies round-up, for those who may have missed some items. -&amp;gt; As MOSS-Image hits 6 million downloads on Hugging Face... meet the developers behind MOSS-Image. The previously mooted specialist 'anime model' is confirmed, and a planned editing model is announced. There are also plans for alpha channel output and multi-character reference input. https://www.reddit.com/r/comfyui/comments/1xuak1y/wasnt_expecting_the_mossimage_anime_update_to/ -&amp;gt; ComfyUI-MOSS-MultiID. Locks each character LoRA to its designated screen area, preventing 'face overlap' in scenes with multiple characters. https://github.com/shutong-queyue/ComfyUI-MOSS-MultiID https://github-com.trans&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xuze4s/a_quick_mossimage_news_roundup_13th_november_2026/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2611.14815</id><title>BirdDreams: Joint Perspective and BEV Video Generation for a Plausible, Reactive Driving World Model</title>
+<link rel="alternate" href="https://arxiv.org/abs/2611.14815"/>
+<published>2026-11-13T05:00:00+00:00</published><updated>2026-11-13T05:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="video generation"/>
+<category term="video diffusion"/>
+<category term="world model"/>
+<summary>arXiv:2611.14815v1 Announce Type: new Abstract: Driving world models aim to simulate how a scene unfolds under different ego actions. This requires plausible motion of surrounding vehicles as well as precise ego-trajectory control. Learning vehicle motion from perspective video alone is challenging </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · video generation, video diffusion, world model&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2611.14815v1 Announce Type: new Abstract: Driving world models aim to simulate how a scene unfolds under different ego actions. This requires plausible motion of surrounding vehicles as well as precise ego-trajectory control. Learning vehicle motion from perspective video alone is challenging because motion is entangled with appearance and vehicles can be occluded. Prior work therefore conditions video generation on layouts that specify vehicle motion, providing control over surrounding vehicles but requiring their future trajectories as inputs. We introduce BirdDreams, an autoregressive driving world model that jointly generates perspective video and a schematic bird's-eye-view (BEV) &lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2611.14815"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2611.15153</id><title>MatrixSplat: Matrix-Parallel and Feature-Scalable 3D Gaussian Splatting Rendering on GPUs</title>
+<link rel="alternate" href="https://arxiv.org/abs/2611.15153"/>
+<published>2026-11-13T05:00:00+00:00</published><updated>2026-11-13T05:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="novel view synthesis"/>
+<category term="gaussian splatting"/>
+<category term="3d gaussian"/>
+<category term="3d reconstruction"/>
+<category term="compositing"/>
+<category term="rendering"/>
+<summary>arXiv:2611.15153v1 Announce Type: new Abstract: 3D Gaussian Splatting (3DGS) has emerged as a mainstream representation for real-time novel view synthesis and 3D reconstruction. However, existing 3DGS rendering pipelines are poorly aligned with modern GPU architectures: depth-sorted alpha compositin</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 9 · novel view synthesis, gaussian splatting, 3d gaussian, 3d reconstruction, compositing, rendering&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2611.15153v1 Announce Type: new Abstract: 3D Gaussian Splatting (3DGS) has emerged as a mainstream representation for real-time novel view synthesis and 3D reconstruction. However, existing 3DGS rendering pipelines are poorly aligned with modern GPU architectures: depth-sorted alpha compositing introduces strong per-pixel sequential dependencies, limiting parallelism and resulting in scalar FMA-dominated execution that underutilizes high-throughput matrix units such as Tensor Cores. This mismatch becomes more severe for multimodal and semantically enriched 3DGS, where high-dimensional features must be accumulated from millions of Gaussians, leading to rapidly increasing computation and&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2611.15153"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2611.15287</id><title>Track4D: Representing Dense 3D Tracking for Video Diffusion Models</title>
+<link rel="alternate" href="https://arxiv.org/abs/2611.15287"/>
+<published>2026-11-13T05:00:00+00:00</published><updated>2026-11-13T05:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="video diffusion"/>
+<category term="4d"/>
+<category term="tracking"/>
+<category term="wan"/>
+<category term="lora"/>
+<summary>arXiv:2611.15287v1 Announce Type: new Abstract: We study how to repurpose video diffusion models (VDMs), pretrained on millions of videos, for dense 3D point tracking, where training data is scarce. Doing so is non-trivial, as it requires representing 3D tracks as video-like signals that may lie out</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 7 · video diffusion, 4d, tracking, wan, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2611.15287v1 Announce Type: new Abstract: We study how to repurpose video diffusion models (VDMs), pretrained on millions of videos, for dense 3D point tracking, where training data is scarce. Doing so is non-trivial, as it requires representing 3D tracks as video-like signals that may lie outside the natural-video distribution on which the VDM was trained. We thus systematically assess the effectiveness of two such video representations. The first, Residual 3D Tracking Video (RTV), encodes per-pixel 3D offsets relative to a query frame and allows recovery of 3D trajectories directly from the generated video. The second, Normalized Coordinate Map Video (NCMV), labels each pixel with a &lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2611.15287"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2611.15789</id><title>VibePrevisBench: Evaluating Agentic Coding for 4D Scene Generation in Blender</title>
+<link rel="alternate" href="https://arxiv.org/abs/2611.15789"/>
+<published>2026-11-13T05:00:00+00:00</published><updated>2026-11-13T05:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="video generation"/>
+<category term="4d"/>
+<category term="blender"/>
+<category term="scene reconstruction"/>
+<summary>arXiv:2611.15789v1 Announce Type: new Abstract: Controllable real-world video generation models can condition on a rendered graybox proxy video, which fixes layout, motion and camera. Coding agents can build such videos by reconstructing a 4D scene in Blender, yet no benchmark checks both these vide</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 6 · video generation, 4d, blender, scene reconstruction&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2611.15789v1 Announce Type: new Abstract: Controllable real-world video generation models can condition on a rendered graybox proxy video, which fixes layout, motion and camera. Coding agents can build such videos by reconstructing a 4D scene in Blender, yet no benchmark checks both these videos and the long, multi-shot scenes behind them. We introduce VibePrevisBench, a benchmark for 4D scene reconstruction: an agent turns a brief into an executable 4D scene and renders its proxy video. Its 242 tasks span four input kinds, including scripts, photos, continuations, and reference videos. Each delivery is scored along two evaluation dimensions. Rule-based Scene Check re-runs the code and&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2611.15789"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2611.16217</id><title>WorldDraft: If Code Builds the World, Can Video Models Just Render It?</title>
+<link rel="alternate" href="https://arxiv.org/abs/2611.16217"/>
+<published>2026-11-13T05:00:00+00:00</published><updated>2026-11-13T05:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="video generation"/>
+<category term="4d"/>
+<category term="render"/>
+<category term="rendering"/>
+<category term="previs"/>
+<summary>arXiv:2611.16217v1 Announce Type: new Abstract: Multimodal coding agents decouple 4D world construction from visual generation, repurposing video models from world generators toward generative renderers. This division of labor raises a fundamental question: if code builds the world, can video models</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 6 · video generation, 4d, render, rendering, previs&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2611.16217v1 Announce Type: new Abstract: Multimodal coding agents decouple 4D world construction from visual generation, repurposing video models from world generators toward generative renderers. This division of labor raises a fundamental question: if code builds the world, can video models just render it? A reliable generative renderer hinges on two complementary criteria: (i) world preservation, retaining prescribed 4D kinematics and camera paths; and (ii) visual realization, persistently binding text-specified target attributes over time. To evaluate this capability, we introduce WorldDraft, a benchmark of $432$ strictly paired test cases across $48$ executable 4D world families &lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2611.16217"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2611.16259</id><title>Reconstruct What You Can: Distractor-free 4D Gaussian Splatting</title>
+<link rel="alternate" href="https://arxiv.org/abs/2611.16259"/>
+<published>2026-11-13T05:00:00+00:00</published><updated>2026-11-13T05:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="gaussian splatting"/>
+<category term="4d"/>
+<category term="smoke"/>
+<summary>arXiv:2611.16259v1 Announce Type: new Abstract: Dynamic reconstruction from casual video must preserve valid subject motion while suppressing transient occluders, shadows, and volumetric effects. Existing methods either suppress valid motion through static-scene assumptions or model all observations</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · gaussian splatting, 4d, smoke&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2611.16259v1 Announce Type: new Abstract: Dynamic reconstruction from casual video must preserve valid subject motion while suppressing transient occluders, shadows, and volumetric effects. Existing methods either suppress valid motion through static-scene assumptions or model all observations jointly, producing ghosting and unstable geometry. We introduce ReCan-GS, a 4D Gaussian Splatting framework that separates coherent scene content from inconsistent observations. It derives a Jacobian-based deformation-sensitivity score from the learned deformation field, using it as an empirical proxy for reconstruction ambiguity. The score guides separation into dynamic Core Gaussians and per-vi&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2611.16259"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2611.16897</id><title>TokenStream: Multi-Subject Personalized Video Generation with Token-wise LoRA and Guided Attention</title>
+<link rel="alternate" href="https://arxiv.org/abs/2611.16897"/>
+<published>2026-11-13T05:00:00+00:00</published><updated>2026-11-13T05:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="video generation"/>
+<category term="text-to-video"/>
+<category term="denoising"/>
+<category term="lora"/>
+<category term="identity preservation"/>
+<summary>arXiv:2611.16897v1 Announce Type: new Abstract: We introduce TokenStream, an optimization-based framework that composes independently learned subject identities in text-to-video generation without a reference-video training dataset or joint optimization of each new subject combination. Learning from</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 7 · video generation, text-to-video, denoising, lora, identity preservation&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2611.16897v1 Announce Type: new Abstract: We introduce TokenStream, an optimization-based framework that composes independently learned subject identities in text-to-video generation without a reference-video training dataset or joint optimization of each new subject combination. Learning from a single reference image makes subject appearance difficult to separate from static-image bias, while merging independently trained adapters can mix identities. Token-wise LoRA (ToRA) restricts low-rank updates to the cross-attention value projections of subject-associated text tokens, providing a separate adaptation path for each subject. A T2V-guided stream copies queries and keys from the froz&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2611.16897"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2611.17336</id><title>Back to Pixels: Lifting Latent Video Diffusion into Pixel Space</title>
+<link rel="alternate" href="https://arxiv.org/abs/2611.17336"/>
+<published>2026-11-13T05:00:00+00:00</published><updated>2026-11-13T05:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="video generation"/>
+<category term="video diffusion"/>
+<category term="video model"/>
+<category term="video editing"/>
+<category term="wan2"/>
+<category term="diffusion transformer"/>
+<summary>arXiv:2611.17336v1 Announce Type: new Abstract: Frontier video generation models work in a VAE latent space that compresses video in both space and time. This compression made training tractable, but now limits high-resolution, controllable, and interactive generation -- doubling resolution quadrupl</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 7 · video generation, video diffusion, video model, video editing, wan2, diffusion transformer&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2611.17336v1 Announce Type: new Abstract: Frontier video generation models work in a VAE latent space that compresses video in both space and time. This compression made training tractable, but now limits high-resolution, controllable, and interactive generation -- doubling resolution quadruples token count, conditions apply to groups of frames rather than individual ones, and each response must wait for the rest of its multi-frame block. We present PixVid, a simple yet effective method that lifts a pretrained latent video model to directly generate every frame in pixel space. PixVid keeps the diffusion transformer and replaces the VAE decoder with a convolutional head that renders its&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2611.17336"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2611.17185</id><title>Neural Render Proxies for Interactive and Differentiable Lighting</title>
+<link rel="alternate" href="https://arxiv.org/abs/2611.17185"/>
+<published>2026-11-13T05:00:00+00:00</published><updated>2026-11-13T05:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="relighting"/>
+<category term="animation"/>
+<category term="render"/>
+<category term="rendering"/>
+<category term="path tracing"/>
+<summary>arXiv:2611.17185v1 Announce Type: cross Abstract: Within the CG animation production pipeline, the challenges artists tackle in Lighting can be immense. Even minor adjustments require re-rendering massive scenes with slow offline renderers; global illumination has to be sampled and complex shaders h</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 6 · relighting, animation, render, rendering, path tracing&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2611.17185v1 Announce Type: cross Abstract: Within the CG animation production pipeline, the challenges artists tackle in Lighting can be immense. Even minor adjustments require re-rendering massive scenes with slow offline renderers; global illumination has to be sampled and complex shaders have to be evaluated, leading to iteration times of minutes to hours per frame. To accelerate this process, we introduce a novel neural render proxy (NRP) that enables differentiable relighting of static scenes with fixed camera and materials at interactive rates. Our main insight is the decoupling of traditional rendering into path sampling and emission computation. From a single, light-agnostic r&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2611.17185"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2510.03857</id><title>Optimized Minimal 4D Gaussian Splatting for Efficient Dynamic Scene Representation</title>
+<link rel="alternate" href="https://arxiv.org/abs/2510.03857"/>
+<published>2026-11-13T05:00:00+00:00</published><updated>2026-11-13T05:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="gaussian splatting"/>
+<category term="4d"/>
+<category term="rendering"/>
+<summary>arXiv:2510.03857v2 Announce Type: replace Abstract: 4D Gaussian Splatting has emerged as a new paradigm for dynamic scene representation, enabling real-time rendering of scenes with complex motions. However, it faces a major challenge of storage overhead, as millions of Gaussians are required for hi</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · gaussian splatting, 4d, rendering&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2510.03857v2 Announce Type: replace Abstract: 4D Gaussian Splatting has emerged as a new paradigm for dynamic scene representation, enabling real-time rendering of scenes with complex motions. However, it faces a major challenge of storage overhead, as millions of Gaussians are required for high-fidelity reconstruction. Compressing explicit 4D Gaussians is challenging because they exhibit heterogeneous redundancy across static and dynamic regions, and their temporal attributes make direct quantization unstable. In this work, we present OMG4 (Optimized Minimal 4D Gaussian Splatting), a framework that constructs a compact set of salient Gaussians capable of faithfully representing 4D Gau&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2510.03857"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2602.17807</id><title>VidEoMT: Your ViT is Secretly Also a Video Segmentation Model</title>
+<link rel="alternate" href="https://arxiv.org/abs/2602.17807"/>
+<published>2026-11-13T05:00:00+00:00</published><updated>2026-11-13T05:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="segmentation"/>
+<category term="video segmentation"/>
+<category term="tracking"/>
+<summary>arXiv:2602.17807v4 Announce Type: replace Abstract: Existing online video segmentation models typically combine a per-frame segmenter with complex specialized tracking modules. While effective, these modules introduce significant architectural complexity and computational overhead. Recent studies su</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · segmentation, video segmentation, tracking&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2602.17807v4 Announce Type: replace Abstract: Existing online video segmentation models typically combine a per-frame segmenter with complex specialized tracking modules. While effective, these modules introduce significant architectural complexity and computational overhead. Recent studies suggest that plain Vision Transformer (ViT) encoders, when scaled with sufficient capacity and large-scale pre-training, can conduct accurate image segmentation without requiring specialized modules. Motivated by this observation, we propose the Video Encoder-only Mask Transformer (VidEoMT), a simple encoder-only video segmentation model that eliminates the need for dedicated tracking modules. To en&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2602.17807"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2607.05243</id><title>GUSH3R: Everyone Everywhere All at Once as Gaussians</title>
+<link rel="alternate" href="https://arxiv.org/abs/2607.05243"/>
+<published>2026-11-13T05:00:00+00:00</published><updated>2026-11-13T05:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="novel view synthesis"/>
+<category term="gaussian splatting"/>
+<category term="3d gaussian"/>
+<category term="3d reconstruction"/>
+<category term="rendering"/>
+<summary>arXiv:2607.05243v2 Announce Type: replace Abstract: Reconstructing dynamic human-scene environments from monocular videos is a challenging problem that requires jointly modeling scene geometry, camera motion, and non-rigid human dynamics while enabling photorealistic rendering. Recent feed-forward m</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · novel view synthesis, gaussian splatting, 3d gaussian, 3d reconstruction, rendering&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2607.05243v2 Announce Type: replace Abstract: Reconstructing dynamic human-scene environments from monocular videos is a challenging problem that requires jointly modeling scene geometry, camera motion, and non-rigid human dynamics while enabling photorealistic rendering. Recent feed-forward methods can efficiently predict geometry, but they are often limited to non-photorealistic representations such as point clouds and meshes, or they fail to handle non-rigid objects, particularly dynamic humans. To fill this gap, we present GUSH3R (Gaussian-Unified Scene Human 3D Reconstruction), a feed-forward framework for online dynamic human-scene reconstruction. From a monocular human-scene vid&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2607.05243"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2610.33070</id><title>PhaseBreak: Proactive Temporal Protection against Unauthorized Image-to-Video Animation</title>
+<link rel="alternate" href="https://arxiv.org/abs/2610.33070"/>
+<published>2026-11-13T05:00:00+00:00</published><updated>2026-11-13T05:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="video diffusion"/>
+<category term="image-to-video"/>
+<category term="animation"/>
+<category term="denoiser"/>
+<summary>arXiv:2610.33070v2 Announce Type: replace Abstract: Image-to-Video (I2V) diffusion models can animate a single portrait or photograph, enabling shared images to be repurposed for motion synthesis without the subject's authorization. We study proactive visual protection against such use: before an im</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 6 · video diffusion, image-to-video, animation, denoiser&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2610.33070v2 Announce Type: replace Abstract: Image-to-Video (I2V) diffusion models can animate a single portrait or photograph, enabling shared images to be repurposed for motion synthesis without the subject's authorization. We study proactive visual protection against such use: before an image is released, its owner applies a bounded perturbation that preserves the sharing workflow but disrupts downstream motion generation. Existing spectral disruption objectives globally attenuate temporal representations and therefore provide limited control over subtle or spatially localized motion. Our key idea is that generated dynamics depend not only on temporal feature strength, but also on &lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2610.33070"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2610.37036</id><title>GraftRay: Physically Based Mesh Insertion into Gaussian Splatting Scenes via Path Tracing</title>
+<link rel="alternate" href="https://arxiv.org/abs/2610.37036"/>
+<published>2026-11-13T05:00:00+00:00</published><updated>2026-11-13T05:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="gaussian splatting"/>
+<category term="3d gaussian"/>
+<category term="rendering"/>
+<category term="path tracing"/>
+<summary>arXiv:2610.37036v2 Announce Type: replace Abstract: We present GraftRay, a unified method for physically consistent insertion of mesh objects into 2D and 3D Gaussian Splatting (2DGS/3DGS) indoor scenes. We lift albedo, roughness, metallic and normals from diffusion-based 2D priors onto the Gaussians</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 6 · gaussian splatting, 3d gaussian, rendering, path tracing&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2610.37036v2 Announce Type: replace Abstract: We present GraftRay, a unified method for physically consistent insertion of mesh objects into 2D and 3D Gaussian Splatting (2DGS/3DGS) indoor scenes. We lift albedo, roughness, metallic and normals from diffusion-based 2D priors onto the Gaussians by back-projection, model windows and lamps as analytic area emitters, and recover their absolute radiance from ordinary LDR captures with a low-dimensional fit over unit-radiance bases. A path tracer over Gaussians and meshes then produces view-consistent shading, interreflections and soft shadows, which are composited onto the original reconstruction by differential rendering, preserving the un&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2610.37036"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xuyirz/i_got_minimax_h3image_running_on_a_macbook_air/</id><title>I got MiniMax H3-Image running on a MacBook air with just ~3GB memory and almost no speed loss</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xuyirz/i_got_minimax_h3image_running_on_a_macbook_air/"/>
@@ -14,6 +198,27 @@
 <category term="dit"/>
 <summary>Hey everyone! I've been working on bringing MiniMax's new ~67B H3-Image model to Apple Silicon with MLX. And yes, it actually runs on a 16GB MacBook Air! A community contributor tested it on an M5 MacBook Air (16GB): 1024×1024 in as little as 34.8s ~2.5GB peak process memory Original 6-step model, n</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · image editing, minimax, dit&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey everyone! I've been working on bringing MiniMax's new ~67B H3-Image model to Apple Silicon with MLX. And yes, it actually runs on a 16GB MacBook Air! A community contributor tested it on an M5 MacBook Air (16GB): 1024×1024 in as little as 34.8s ~2.5GB peak process memory Original 6-step model, no extra quantization The key is keeping memory usage low without sacrificing speed or image quality. I combined staged inference, on-demand DiT weight streaming, asynchronous evaluation, weight prefetching, and W8A8 Metal acceleration. On my M5 Pro (48GB), at 1024×1024: Resident: 23.63s / 21.18GB Streaming: 32.33s / 2.53GB Streaming + prefetch + async: 23.61s / 3.23GB That's ~85% less peak process&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xuyirz/i_got_minimax_h3image_running_on_a_macbook_air/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xuy5v5/finally_a_way_to_increase_the_batch_size_in/</id><title>Finally a way to increase the batch size in Minimax H3/Pruna H3 Image and Video workflows</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xuy5v5/finally_a_way_to_increase_the_batch_size_in/"/>
+<published>2026-11-13T04:15:32+00:00</published><updated>2026-11-13T04:15:32+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<category term="flux"/>
+<category term="minimax"/>
+<summary>Hey everyone! I literally got this created earlier today and busted butt to share it with the community because this is incredible and I wanted to contribute back. I built this custom node with Claude Code because one thing about MiniMax H3 kept bugging me the fact that you can't increase the batch </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · comfyui, flux, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey everyone! I literally got this created earlier today and busted butt to share it with the community because this is incredible and I wanted to contribute back. I built this custom node with Claude Code because one thing about MiniMax H3 kept bugging me the fact that you can't increase the batch size like in Flux.2 Klein 9b or other models that can. I made two nodes that let one run make 2 or more different images or videos (depending on your system) that are exactly what should happen inside an increased batch size. It's MIT licensed and already on the ComfyUI Registry. I've worked in IT for 20 years but I'm not a programmer. -- I didn't include a workflow because I literally just grabbe&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xuy5v5/finally_a_way_to_increase_the_batch_size_in/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xuwkfi/accord_gpu_for_comfyui_a_coordination_tool_to/</id><title>Accord GPU for ComfyUI, a coordination tool to stop GPU apps from fighting each other for VRAM</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xuwkfi/accord_gpu_for_comfyui_a_coordination_tool_to/"/>
+<published>2026-11-13T02:54:39+00:00</published><updated>2026-11-13T02:54:39+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<category term="blender"/>
+<summary>TL;DR: Accord GPU is a free, open beta coordination layer for Windows. If ComfyUI has ever crashed or OOM'd because something else on the machine grabbed the GPU first, this is built to prevent that. The problem: GPU renderers, image/video generators, and local inference servers all assume exclusive</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · comfyui, blender&lt;/small&gt;&lt;/p&gt;&lt;p&gt;TL;DR: Accord GPU is a free, open beta coordination layer for Windows. If ComfyUI has ever crashed or OOM'd because something else on the machine grabbed the GPU first, this is built to prevent that. The problem: GPU renderers, image/video generators, and local inference servers all assume exclusive GPU ownership. Run two at once, or even back to back before VRAM actually clears, and you get CUDA OOM crashes, driver resets, or corrupted output. There's no coordination layer between separate applications today. How it works: A tray app (Console) manages a shared GPU queue. Every component, DAZ Studio, Blender, ComfyUI, Ollama, writes a ticket when it needs the GPU and waits its turn if someth&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xuwkfi/accord_gpu_for_comfyui_a_coordination_tool_to/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1xur2ms/comfyui_fable_experiment/</id><title>Comfyui + Fable Experiment</title>
@@ -110,6 +315,16 @@
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 10 · text-to-video, upscaler, face swap, comfyui, ltx, storyboard, filmmaking&lt;/small&gt;&lt;/p&gt;&lt;p&gt;The above video was generated as text-to-video (T2V) at 0.2 MP (smaller clip in upper-left corner) and upscaled to 1080p entirely with my nodes in a single run (no cherry-picking), without ever needing to intervene, all while keeping system ram and VRAM way under load. If you're interested, keep reading. Note that the upscale for this run was done quickly and is not perfect, particularly for the face detailer, but the settings can be adjusted to improve its accuracy. The picture-in-picture size comparison is the actual ratio from before and after the upscale. Disclaimer: This post is not to showcase quality, but that fully automated long runs is entirely possible. Yes, I know that there have&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xunyzm/fully_automated_featurelength_minimaxh3/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xunpn3/i_just_want_to_share_a_process_ive_been_working/</id><title>I just want to share a process I've been working on, I want to learn more about what I'm doing, show those who don't know and just chit-chat.</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xunpn3/i_just_want_to_share_a_process_ive_been_working/"/>
+<published>2026-11-12T20:26:11+00:00</published><updated>2026-11-12T20:26:11+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="animation"/>
+<category term="minimax"/>
+<summary>**The process** Character to pose Refine however you need Pose to 4 angles place on 360 for lighting while looking at original refined image for more texture refinement 5 frame video= subject orbit **Environment** 2 environment images Pad edges and connect Gen to remove the gap Cut into 4 slices 5-f</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · animation, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;**The process** Character to pose Refine however you need Pose to 4 angles place on 360 for lighting while looking at original refined image for more texture refinement 5 frame video= subject orbit **Environment** 2 environment images Pad edges and connect Gen to remove the gap Cut into 4 slices 5-frame video = environment 360 **Putting it together** Composite the orbit video onto the 360 video subject on environment images for references MiniMax Fun Control: - Control video = depth of the composite video - Reference images = subject front, back, then front again, pasted on the background - Reference video = the 360 environment **A few details** After the pose, I run a gen that asks for the &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xunpn3/i_just_want_to_share_a_process_ive_been_working/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
 <id>https://www.reddit.com/r/comfyui/comments/1xumvzt/wan_22_vs_minimax_h3_which_is_better_for_local/</id><title>WAN 2.2 vs MiniMax H3 - Which is better for local?</title>
 <link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xumvzt/wan_22_vs_minimax_h3_which_is_better_for_local/"/>
 <published>2026-11-12T19:54:35+00:00</published><updated>2026-11-12T19:54:35+00:00</updated>
@@ -120,6 +335,16 @@
 <category term="minimax"/>
 <summary>WAN 2.2 vs MiniMax H3 - Which is better for local? I wad told For running video generation models locally on your own GPU in ComfyUI, Wan 2.2 and LTX-2.3 are generally much more practical than MiniMax H3. While MiniMax H3 is newer, its open weights (H3-Base) carry licensing restrictions and require </summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 6 · video generation, comfyui, wan, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;WAN 2.2 vs MiniMax H3 - Which is better for local? I wad told For running video generation models locally on your own GPU in ComfyUI, Wan 2.2 and LTX-2.3 are generally much more practical than MiniMax H3. While MiniMax H3 is newer, its open weights (H3-Base) carry licensing restrictions and require higher-end hardware, whereas Wan 2.2 and LTX-2.3 have quantized versions built specifically for consumer graphics cards. submitted by /u/Informal-Force7417 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xumvzt/wan_22_vs_minimax_h3_which_is_better_for_local/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xum86v/h3_image_character_sheet_builder/</id><title>H3 Image Character Sheet Builder</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xum86v/h3_image_character_sheet_builder/"/>
+<published>2026-11-12T19:30:09+00:00</published><updated>2026-11-12T19:30:09+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="render"/>
+<category term="comfyui"/>
+<summary>I found H3 image to be really good at creating different angles of characters and keeping the likeness and quality high. I built a workflow which automates creating character sheets; this workflow one shots pretty much every character I’ve thrown at it. Give it a try and let me know what you think. </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · render, comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I found H3 image to be really good at creating different angles of characters and keeping the likeness and quality high. I built a workflow which automates creating character sheets; this workflow one shots pretty much every character I’ve thrown at it. Give it a try and let me know what you think. I’ve tried to keep it versatile to allow for characters of different types, including vehicles and four legged creatures. Civitai Workflow Update 11/12/26 : I just pushed an update which addressed multiple issues that were brought to my attention, the release notes are as follows. What's new in v3.0 Most of these changes came from your comments and messages. Thank you! - The whole sheet is ONE ren&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xum86v/h3_image_character_sheet_builder/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1xulxbq/the_pink_hotel_is_a_threeminute_surreal_short/</id><title>The Pink Hotel is a three-minute surreal short film I originally released in June 2026, created using LTX 2.0.</title>
@@ -7167,14 +7392,5 @@
 <category term="render"/>
 <summary>Basically It has 17 preset of relight , built in, you can use your own prompt which just uses flux3 klein. Repo- https://github.com/D3voz/openjutsu Other improvement is- From picture now tells H3 what happens in the video The problem: H3 only got the normal-map video and the prepared picture. It cou</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · relight, render&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Basically It has 17 preset of relight , built in, you can use your own prompt which just uses flux3 klein. Repo- https://github.com/D3voz/openjutsu Other improvement is- From picture now tells H3 what happens in the video The problem: H3 only got the normal-map video and the prepared picture. It could see how the body moves but not what was going on: a cake became an unlabeled shape, and expressions and blowing out candles were lost. The fix: clicking Use this image now runs the visual describer you picked on the welcome screen (Qwen3-VL 8B by default) twice: Pass 1 watches the part of the video you selected, at 2 frames per second. It writes down the actions, held objects, mouth actions, ex&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xj9obu/you_can_now_use_relight_in_openjutsu/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1xj96zh/dissect_the_vfx_on_this_one_pls/</id><title>dissect the VFX on this one pls.</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xj96zh/dissect_the_vfx_on_this_one_pls/"/>
-<published>2026-10-30T07:49:45+00:00</published><updated>2026-10-30T07:49:45+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="vfx"/>
-<summary>submitted by /u/zaiphy [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/zaiphy [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xj96zh/dissect_the_vfx_on_this_one_pls/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
