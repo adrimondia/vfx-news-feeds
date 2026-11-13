@@ -2,8 +2,40 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-13T17:30:47+00:00</updated>
+<updated>2026-11-13T19:31:11+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xvfcho/whats_the_best_model_for_generating_images_like/</id><title>What's the best model for generating images like this? My goal is to generate images, then use MiniMax for I2V to create videos like this</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xvfcho/whats_the_best_model_for_generating_images_like/"/>
+<published>2026-11-13T18:17:32+00:00</published><updated>2026-11-13T18:17:32+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="minimax"/>
+<summary>I've already ask GPT, Claude, GLM 5.2 and Deepseek then tried MOSS, Krea 2, and Nano Banana, but none of them gave me the results I wanted. submitted by /u/irmemon225 [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I've already ask GPT, Claude, GLM 5.2 and Deepseek then tried MOSS, Krea 2, and Nano Banana, but none of them gave me the results I wanted. submitted by /u/irmemon225 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xvfcho/whats_the_best_model_for_generating_images_like/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xvey5t/rtx_5070_ti_vs_rtx_3090_minimax_h3_imagetovideo/</id><title>RTX 5070 Ti vs RTX 3090 — MiniMax H3 image-to-video benchmark (non-turbo, 20 steps)</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xvey5t/rtx_5070_ti_vs_rtx_3090_minimax_h3_imagetovideo/"/>
+<published>2026-11-13T18:02:42+00:00</published><updated>2026-11-13T18:02:42+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="image-to-video"/>
+<category term="render"/>
+<category term="comfyui"/>
+<category term="minimax"/>
+<summary>Two LAN ComfyUI render boxes: RTX 5070 Ti (16 GB) vs RTX 3090 (24 GB). Ran MiniMax H3 image-to-video, non-turbo — 22B int8 UNet + 32B Qwen3VL CLIP (nvfp4), 20 full steps, 5 s clip at 704×1280, identical start frame and prompt, int8 video VAE on both, fresh noise seed every pass. The 5070 Ti wins by </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 6 · image-to-video, render, comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Two LAN ComfyUI render boxes: RTX 5070 Ti (16 GB) vs RTX 3090 (24 GB). Ran MiniMax H3 image-to-video, non-turbo — 22B int8 UNet + 32B Qwen3VL CLIP (nvfp4), 20 full steps, 5 s clip at 704×1280, identical start frame and prompt, int8 video VAE on both, fresh noise seed every pass. The 5070 Ti wins by ~25% — and it won cold too, which surprised me given it has 8 GB less VRAM. H3 at full steps is pure compute: the sampler node alone took 474 s vs 645 s. The 3090's VRAM headroom never mattered; everything fit even on 16 GB once offloaded. Same config both boxes: ComfyUI standalone portable, --fast fp16_accumulation, torch cu130, default attention (PyTorch SDPA — cuDNN kernels on Blackwell, FA2/me&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xvey5t/rtx_5070_ti_vs_rtx_3090_minimax_h3_imagetovideo/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xvesum/minimax_h3_image_is_awesome_please_dont_confuse/</id><title>Minimax H3 Image is awesome - Please don't confuse photographic realism with sharpness</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xvesum/minimax_h3_image_is_awesome_please_dont_confuse/"/>
+<published>2026-11-13T17:57:32+00:00</published><updated>2026-11-13T17:57:32+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="rendering"/>
+<category term="minimax"/>
+<category term="consistency"/>
+<summary>Please don't confuse photographic realism with sharpness I've spent around 20 years working with photography and design, long before AI image generation existed. One thing I genuinely appreciate about MiniMax H3 Image is its photographic character. Real photographs aren't perfectly sharp. Lenses hav</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · rendering, minimax, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Please don't confuse photographic realism with sharpness I've spent around 20 years working with photography and design, long before AI image generation existed. One thing I genuinely appreciate about MiniMax H3 Image is its photographic character. Real photographs aren't perfectly sharp. Lenses have different rendering characteristics. Depth of field, motion blur, sensor noise, diffraction and optical imperfections all contribute to the final image. A 50MP photograph isn't automatically razor-sharp, and a photograph doesn't become more realistic simply because every texture has been enhanced. I've seen many people criticize H3 for being too soft or lacking detail. That's a perfectly valid p&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xvesum/minimax_h3_image_is_awesome_please_dont_confuse/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xva70a/rtx_5070_ti_comfyui_benchmarks_overclock_cut_gen/</id><title>RTX 5070 Ti ComfyUI benchmarks: Overclock cut gen times ~10%, tuned flags more than halved H3 video time</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xva70a/rtx_5070_ti_comfyui_benchmarks_overclock_cut_gen/"/>
@@ -95,6 +127,15 @@
 <category term="minimax"/>
 <summary>It's that the Minimax team is still dedicated to open models. I, like, I think, many people here, assumed that h3 image isn't coming anymore. Now I actually really like it's quality, if Kijai's Minimax prompt weight node is used with "text with empty image". It's still not quite my thing though, bec</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;It's that the Minimax team is still dedicated to open models. I, like, I think, many people here, assumed that h3 image isn't coming anymore. Now I actually really like it's quality, if Kijai's Minimax prompt weight node is used with "text with empty image". It's still not quite my thing though, because it doesn't seem to recognize artists by name. However, now, there's a room to be cautiously optimistic about their potential upcoming video releases. submitted by /u/Druck_Triver [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xv2077/the_real_best_thing_about_minimax_image/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1xv0wpw/catwalk_water_demo_scene/</id><title>Catwalk water demo scene</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xv0wpw/catwalk_water_demo_scene/"/>
+<published>2026-11-13T06:49:04+00:00</published><updated>2026-11-13T06:49:04+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="blender"/>
+<summary>Blender 5.2 Water simulation: Atlántica plugin Cycles renderer submitted by /u/sergeialmazov [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 1 · blender&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Blender 5.2 Water simulation: Atlántica plugin Cycles renderer submitted by /u/sergeialmazov [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xv0wpw/catwalk_water_demo_scene/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1xuze4s/a_quick_mossimage_news_roundup_13th_november_2026/</id><title>A quick MOSS-Image news round-up - 13th November 2026</title>
@@ -424,6 +465,16 @@
 <category term="minimax"/>
 <summary>**The process** Character to pose Refine however you need Pose to 4 angles place on 360 for lighting while looking at original refined image for more texture refinement 5 frame video= subject orbit **Environment** 2 environment images Pad edges and connect Gen to remove the gap Cut into 4 slices 5-f</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · animation, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;**The process** Character to pose Refine however you need Pose to 4 angles place on 360 for lighting while looking at original refined image for more texture refinement 5 frame video= subject orbit **Environment** 2 environment images Pad edges and connect Gen to remove the gap Cut into 4 slices 5-frame video = environment 360 **Putting it together** Composite the orbit video onto the 360 video subject on environment images for references MiniMax Fun Control: - Control video = depth of the composite video - Reference images = subject front, back, then front again, pasted on the background - Reference video = the 360 environment **A few details** After the pose, I run a gen that asks for the &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xunpn3/i_just_want_to_share_a_process_ive_been_working/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xun1e9/just_getting_into_using_models_locally_on_my_puny/</id><title>Just getting into using models locally on my puny 4060 but i think the results look very good.</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xun1e9/just_getting_into_using_models_locally_on_my_puny/"/>
+<published>2026-11-12T20:00:15+00:00</published><updated>2026-11-12T20:00:15+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<category term="flux"/>
+<summary>I just started experimenting with running image models locally on an RTX 4060 and 16GB RAM using ComfyUI I was looking at heavier setups like MOSS-Image / Kromoss and Flux, but decided to try RealVisXL V5.0 (SDXL) first since it fits completely in 8GB VRAM. The skin texture and image quality looked </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui, flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I just started experimenting with running image models locally on an RTX 4060 and 16GB RAM using ComfyUI I was looking at heavier setups like MOSS-Image / Kromoss and Flux, but decided to try RealVisXL V5.0 (SDXL) first since it fits completely in 8GB VRAM. The skin texture and image quality looked really good for this model i think. For those of you also on 8GB cards what are your personal go-to models and workflows for photorealism right now? Any fine-tunes or LoRAs you recommend trying out next? submitted by /u/Artistic-Theme-7948 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xun1e9/just_getting_into_using_models_locally_on_my_puny/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1xumvzt/wan_22_vs_minimax_h3_which_is_better_for_local/</id><title>WAN 2.2 vs MiniMax H3 - Which is better for local?</title>
@@ -7278,29 +7329,5 @@
 <category term="vfx"/>
 <summary>submitted by /u/Ordinary_Bat4919 [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/Ordinary_Bat4919 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xjqrni/looking_for_vfx_production_coordinator_supervisor/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1xjo3no/any_good_resources_for_learning_stylized_vfx_like/</id><title>Any good resources for learning stylized vfx like guilty gear in blender/Godot?</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xjo3no/any_good_resources_for_learning_stylized_vfx_like/"/>
-<published>2026-10-30T18:58:15+00:00</published><updated>2026-10-30T18:58:15+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="vfx"/>
-<category term="blender"/>
-<summary>submitted by /u/Dmpadavano [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 4 · vfx, blender&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/Dmpadavano [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xjo3no/any_good_resources_for_learning_stylized_vfx_like/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xjmmrd/paint_on_the_first_frame_and_the_whole_shot/</id><title>Paint on the first frame and the whole shot follows: open-source VFX edits with LTX 2.5, FLUX 3 Image Klein and SAM 3.1</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xjmmrd/paint_on_the_first_frame_and_the_whole_shot/"/>
-<published>2026-10-30T18:02:49+00:00</published><updated>2026-10-30T18:02:49+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="smoke"/>
-<category term="compositing"/>
-<category term="vfx"/>
-<category term="comfyui"/>
-<category term="flux"/>
-<category term="ltx"/>
-<summary>Hi lovely StableDiffusion people, Sharing my entry for Comfy's Open Source Higgsfield challenge: Paint a plate, an open-source app for VFX edits on video and image sequences, on open weights only. You paint on the first frame of a plate to erase something, add an element or change the light. FLUX 3 </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 9 · smoke, compositing, vfx, comfyui, flux, ltx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi lovely StableDiffusion people, Sharing my entry for Comfy's Open Source Higgsfield challenge: Paint a plate, an open-source app for VFX edits on video and image sequences, on open weights only. You paint on the first frame of a plate to erase something, add an element or change the light. FLUX 3 Image Klein makes the edit on that frame, SAM 3.1 tracks the object, and LTX 2.5 with IC-LoRAs carries it through every frame. Untouched pixels stay identical, and the shot exports with a matte, so it drops into a compositing pipeline. It also paints smoke and fire from a blank plate with ainvfx-fluid, an IC-LoRA we trained. It runs locally in ComfyUI, or can be deployed easily on Runpod. 2-min de&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xjmmrd/paint_on_the_first_frame_and_the_whole_shot/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
