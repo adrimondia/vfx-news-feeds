@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-13T08:00:27+00:00</updated>
+<updated>2026-11-13T09:30:30+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1xuze4s/a_quick_mossimage_news_roundup_13th_november_2026/</id><title>A quick MOSS-Image news round-up - 13th November 2026</title>
@@ -7382,15 +7382,5 @@
 <category term="maya"/>
 <summary>agentY is a free, open-source AI agent that lives inside ComfyUI. This entire video was made using it - I didn’t drop a single node or shape myself. UPDATE: WorldLabs updated their API, so now you can make high-quality splats from single, generated images - Runs on any LLM, including cheap ones like</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · comfyui, houdini, blender, maya&lt;/small&gt;&lt;/p&gt;&lt;p&gt;agentY is a free, open-source AI agent that lives inside ComfyUI. This entire video was made using it - I didn’t drop a single node or shape myself. UPDATE: WorldLabs updated their API, so now you can make high-quality splats from single, generated images - Runs on any LLM, including cheap ones like Qwen and DeepSeek, or fully local and free with Ollama or Strata - able to build complex workflows it has never seen, from what it finds on the web - but also uses the official ComfyUI template library - Judges its own outputs against your brief and re-renders what misses - MCP support with preset for Blender, Maya, Houdini, After Effects, and more - Builds motion graphics and edits video using r&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xjbipg/update_tired_of_writing_prompts_or_using/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xj9obu/you_can_now_use_relight_in_openjutsu/</id><title>You can now use 'Relight' in openjutsu</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xj9obu/you_can_now_use_relight_in_openjutsu/"/>
-<published>2026-10-30T08:21:11+00:00</published><updated>2026-10-30T08:21:11+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="relight"/>
-<category term="render"/>
-<summary>Basically It has 17 preset of relight , built in, you can use your own prompt which just uses flux3 klein. Repo- https://github.com/D3voz/openjutsu Other improvement is- From picture now tells H3 what happens in the video The problem: H3 only got the normal-map video and the prepared picture. It cou</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · relight, render&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Basically It has 17 preset of relight , built in, you can use your own prompt which just uses flux3 klein. Repo- https://github.com/D3voz/openjutsu Other improvement is- From picture now tells H3 what happens in the video The problem: H3 only got the normal-map video and the prepared picture. It could see how the body moves but not what was going on: a cake became an unlabeled shape, and expressions and blowing out candles were lost. The fix: clicking Use this image now runs the visual describer you picked on the welcome screen (Qwen3-VL 8B by default) twice: Pass 1 watches the part of the video you selected, at 2 frames per second. It writes down the actions, held objects, mouth actions, ex&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xj9obu/you_can_now_use_relight_in_openjutsu/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
