@@ -2,8 +2,19 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-13T05:30:27+00:00</updated>
+<updated>2026-11-13T07:30:23+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xuyirz/i_got_minimax_h3image_running_on_a_macbook_air/</id><title>I got MiniMax H3-Image running on a MacBook air with just ~3GB memory and almost no speed loss</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xuyirz/i_got_minimax_h3image_running_on_a_macbook_air/"/>
+<published>2026-11-13T04:34:56+00:00</published><updated>2026-11-13T04:34:56+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="image editing"/>
+<category term="minimax"/>
+<category term="dit"/>
+<summary>Hey everyone! I've been working on bringing MiniMax's new ~67B H3-Image model to Apple Silicon with MLX. And yes, it actually runs on a 16GB MacBook Air! A community contributor tested it on an M5 MacBook Air (16GB): 1024×1024 in as little as 34.8s ~2.5GB peak process memory Original 6-step model, n</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · image editing, minimax, dit&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey everyone! I've been working on bringing MiniMax's new ~67B H3-Image model to Apple Silicon with MLX. And yes, it actually runs on a 16GB MacBook Air! A community contributor tested it on an M5 MacBook Air (16GB): 1024×1024 in as little as 34.8s ~2.5GB peak process memory Original 6-step model, no extra quantization The key is keeping memory usage low without sacrificing speed or image quality. I combined staged inference, on-demand DiT weight streaming, asynchronous evaluation, weight prefetching, and W8A8 Metal acceleration. On my M5 Pro (48GB), at 1024×1024: Resident: 23.63s / 21.18GB Streaming: 32.33s / 2.53GB Streaming + prefetch + async: 23.61s / 3.23GB That's ~85% less peak process&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xuyirz/i_got_minimax_h3image_running_on_a_macbook_air/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1xur2ms/comfyui_fable_experiment/</id><title>Comfyui + Fable Experiment</title>
 <link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xur2ms/comfyui_fable_experiment/"/>
@@ -7165,37 +7176,5 @@
 <category term="vfx"/>
 <summary>submitted by /u/zaiphy [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/zaiphy [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xj96zh/dissect_the_vfx_on_this_one_pls/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.arsaze.com</id><title>Show HN: Arsaze – Cursor for video editing (Tab-complete and agent edits)</title>
-<link rel="alternate" href="https://www.arsaze.com"/>
-<published>2026-10-30T06:55:33+00:00</published><updated>2026-10-30T06:55:33+00:00</updated>
-<author><name>Hacker News</name></author>
-<category term="video editing"/>
-<summary>Article URL: https://www.arsaze.com Comments URL: https://news.ycombinator.com/item?id=50300618 Points: 60 # Comments: 0</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;Hacker News · score 2 · video editing&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Article URL: https://www.arsaze.com Comments URL: https://news.ycombinator.com/item?id=50300618 Points: 60 # Comments: 0&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.arsaze.com"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xj824f/rapidh3_super_fast_h3_video_audio_in_about_2/</id><title>Rapid-H3: Super fast H3 video + audio in about 2 minutes on one DGX Spark</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xj824f/rapidh3_super_fast_h3_video_audio_in_about_2/"/>
-<published>2026-10-30T06:36:17+00:00</published><updated>2026-10-30T06:36:17+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="lip sync"/>
-<category term="render"/>
-<category term="comfyui"/>
-<category term="stereo"/>
-<summary>Rapid-H3 makes MiniMax-H3 (text / image → video with stereo audio) render 3–5× faster on a single NVIDIA DGX Spark (GB10) than stock ComfyUI, with no human-noticeable loss in picture, motion, voice or lip sync. It is a ComfyUI node pack plus two ready-made render presets: ts_h2 (default): ≈117 s for</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · lip sync, render, comfyui, stereo&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Rapid-H3 makes MiniMax-H3 (text / image → video with stereo audio) render 3–5× faster on a single NVIDIA DGX Spark (GB10) than stock ComfyUI, with no human-noticeable loss in picture, motion, voice or lip sync. It is a ComfyUI node pack plus two ready-made render presets: ts_h2 (default): ≈117 s for a 768×1344, 141-frame (≈5.9 s) first-frame clip with audio. ts_s6 (camera moves, close-up faces): ≈201 s , at stock level on every criterion we score. Stock ComfyUI bf16 at the 10-step reference: 590–630 s . The first render is slower on a fresh install, while the CUDA kernels are built (once) and the models load. submitted by /u/vchauhan_ [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xj824f/rapidh3_super_fast_h3_video_audio_in_about_2/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xj7fwy/hi_i_made_a_proof_of_concept_lora_for_flux3_klein/</id><title>Hi! I made a proof of concept LoRA for FLUX.3 Klein to manipulate text with an intuitive UI.</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xj7fwy/hi_i_made_a_proof_of_concept_lora_for_flux3_klein/"/>
-<published>2026-10-30T05:57:44+00:00</published><updated>2026-10-30T05:57:44+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="image editing"/>
-<category term="flux"/>
-<category term="lora"/>
-<summary>Hello everyone! I made a new LoRA for FLUX.3 Image Klein to manipulate text with bboxes. I think we all know that FLUX.3 Image Klein is not a very good model, and yes it is disappointing, but these bbox tools are unprecedented currently for local image editing models (at least until Ideogram V4.5, w</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 5 · image editing, flux, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hello everyone! I made a new LoRA for FLUX.3 Image Klein to manipulate text with bboxes. I think we all know that FLUX.3 Image Klein is not a very good model, and yes it is disappointing, but these bbox tools are unprecedented currently for local image editing models (at least until Ideogram V4.5, which i am excited for!). It really allows you to train brand new concepts. Here's the rundown of what the FontBox LoRA can do/improves upon FLUX.3 Image Klein's native abilities: Adjust the size of text; change what text says and specify left, right, or center alignment; move text to completely different places; bold or italicize text; Adjust the vertical scale of text; all in a custom node that I&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xj7fwy/hi_i_made_a_proof_of_concept_lora_for_flux3_klein/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
