@@ -2,8 +2,49 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-13T11:30:38+00:00</updated>
+<updated>2026-11-13T13:30:33+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xv6jlk/generating_good_images_out_of_sillytavern_with/</id><title>Generating good Images out of SillyTavern with Comfy and Krea 2 (or others)</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xv6jlk/generating_good_images_out_of_sillytavern_with/"/>
+<published>2026-11-13T12:26:02+00:00</published><updated>2026-11-13T12:26:02+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<category term="minimax"/>
+<summary>I've been generating images from SillyTavern through ComfyUI for a while. Until recently, it was more hit and miss, but now I get mostly usable images, relevant for the scene and chat. I got there by changing the LLM prompts who ask for the image prompt, by a lot. To be clear about what these are: S</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I've been generating images from SillyTavern through ComfyUI for a while. Until recently, it was more hit and miss, but now I get mostly usable images, relevant for the scene and chat. I got there by changing the LLM prompts who ask for the image prompt, by a lot. To be clear about what these are: SillyTavern hands your chat context to a text model and asks it to write an image prompt. These are that request — the instructions, not the image prompts. I run GLM and DeepSeek for the prompt-writing step. Other LLMs might work as well, just test it. Easy to edit: make the LLM answer in sections Instead of one paragraph, the generated prompt comes back in labelled blocks: Setting — location, ligh&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xv6jlk/generating_good_images_out_of_sillytavern_with/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xv60ls/comfyui_keeps_crashing_on_me_since_the_last_update/</id><title>Comfyui keeps crashing on me since the last update.</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xv60ls/comfyui_keeps_crashing_on_me_since_the_last_update/"/>
+<published>2026-11-13T11:59:49+00:00</published><updated>2026-11-13T11:59:49+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<summary>Muy buenas, Since the last update of ComfyUI Portable, Python randomly closes on me. It doesn't give me any error messages and it doesn't happen when it's using a lot of memory; it happens randomly when running a workflow. On Windows, I get this error: ------------ Nombre de aplicación con errores: </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Muy buenas, Since the last update of ComfyUI Portable, Python randomly closes on me. It doesn't give me any error messages and it doesn't happen when it's using a lot of memory; it happens randomly when running a workflow. On Windows, I get this error: ------------ Nombre de aplicación con errores: python.exe, versión: 3.11.8150.1013, marca de tiempo: 0x65c2ad47 Nombre del módulo con errores: VCRUNTIME140.dll, versión: 14.38.33126.1, marca de tiempo: 0x576312c5 Código de excepción: 0xc0000005 -------------- Looking at the ComfyUI installation, that file hasn't been recently updated. Any suggestions? Thanks a lot. submitted by /u/galo64 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xv60ls/comfyui_keeps_crashing_on_me_since_the_last_update/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xv5jrj/minimax_h3_video_how_to_keep_faces_consistent/</id><title>MiniMax H3 video: how to keep faces consistent during dynamic camera motion?</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xv5jrj/minimax_h3_video_how_to_keep_faces_consistent/"/>
+<published>2026-11-13T11:34:28+00:00</published><updated>2026-11-13T11:34:28+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="rendering"/>
+<category term="comfyui"/>
+<category term="minimax"/>
+<category term="lora"/>
+<category term="dit"/>
+<summary>Question : I can't make my rendering pipeline produce dynamic motion videos without glitches. On the attached video you see the face/eyes are slightly 'glitching/wobbling', how to fix that? Config : MiniMax H3 video (ref2va DiT, w6a8 quant) via ComfyUI, 1344×768 @ 24 fps, 192 frames (8 s), single li</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 6 · rendering, comfyui, minimax, lora, dit&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Question : I can't make my rendering pipeline produce dynamic motion videos without glitches. On the attached video you see the face/eyes are slightly 'glitching/wobbling', how to fix that? Config : MiniMax H3 video (ref2va DiT, w6a8 quant) via ComfyUI, 1344×768 @ 24 fps, 192 frames (8 s), single link with exact latent carry (no seams, no re-conditioning) Prompt was: " She stands centered on the foggy harbour promenade at dawn in a crimson wool coat with a knitted scarf, still, facing the camera; the camera orbits one slow full revolution around her, from directly in front, around her right side, behind her, around her left side, and back to the front, holding her full figure at a constant s&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xv5jrj/minimax_h3_video_how_to_keep_faces_consistent/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xv4da5/what_are_people_using_for_cleanup_deroping_in/</id><title>What are people using for cleanup / deroping in Minimax h3?</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xv4da5/what_are_people_using_for_cleanup_deroping_in/"/>
+<published>2026-11-13T10:25:52+00:00</published><updated>2026-11-13T10:25:52+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="minimax"/>
+<summary>submitted by /u/Portable_Solar_ZA [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/Portable_Solar_ZA [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xv4da5/what_are_people_using_for_cleanup_deroping_in/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1xv4d69/leebkit_by_leeblaab_offline_kinetic_promo_videos/</id><title>LEEBKIT by LEEBLAAB — offline kinetic promo videos V1.4 is out</title>
 <link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xv4d69/leebkit_by_leeblaab_offline_kinetic_promo_videos/"/>
@@ -365,6 +406,15 @@
 <category term="comfyui"/>
 <summary>I found H3 image to be really good at creating different angles of characters and keeping the likeness and quality high. I built a workflow which automates creating character sheets; this workflow one shots pretty much every character I’ve thrown at it. Give it a try and let me know what you think. </summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · render, comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I found H3 image to be really good at creating different angles of characters and keeping the likeness and quality high. I built a workflow which automates creating character sheets; this workflow one shots pretty much every character I’ve thrown at it. Give it a try and let me know what you think. I’ve tried to keep it versatile to allow for characters of different types, including vehicles and four legged creatures. Civitai Workflow Update 11/12/26 : I just pushed an update which addressed multiple issues that were brought to my attention, the release notes are as follows. What's new in v3.0 Most of these changes came from your comments and messages. Thank you! - The whole sheet is ONE ren&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xum86v/h3_image_character_sheet_builder/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xum2do/h3_with_multiple_lora/</id><title>H3 with multiple Lora</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xum2do/h3_with_multiple_lora/"/>
+<published>2026-11-12T19:24:13+00:00</published><updated>2026-11-12T19:24:13+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="lora"/>
+<summary>I’m running multiple Lora and noticing a significant decrease in quality! Does anyone have a hack for using multiple Lora for I2V-ref2v? Is there a trick I’m not aware of? submitted by /u/SnooMachines1543 [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I’m running multiple Lora and noticing a significant decrease in quality! Does anyone have a hack for using multiple Lora for I2V-ref2v? Is there a trick I’m not aware of? submitted by /u/SnooMachines1543 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xum2do/h3_with_multiple_lora/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1xulxbq/the_pink_hotel_is_a_threeminute_surreal_short/</id><title>The Pink Hotel is a three-minute surreal short film I originally released in June 2026, created using LTX 2.0.</title>
@@ -7301,54 +7351,5 @@
 <category term="unreal engine"/>
 <summary>Hi, Syntheyes and lens workflow is something I am starting to dive into. I solved camera footage by choosing calculate distortion, have error around 0.8, added mesh that corresponds to trail in woods. I need to then add animation in Unreal Engine such that an animated character walks along a path al</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 6 · animation, unreal, unreal engine&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi, Syntheyes and lens workflow is something I am starting to dive into. I solved camera footage by choosing calculate distortion, have error around 0.8, added mesh that corresponds to trail in woods. I need to then add animation in Unreal Engine such that an animated character walks along a path along the mesh. I want to minimize any floating that can happen with this sort of work. That is, animation when viewed along with camera projection in Unreal Engine needs to have as little feet jitter as possible. It can't appear like the animation is floating. I understand lens workflow can affect how this "floating" can occur and so I am trying to choose lens workflow that maximizes success in Unr&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xjflbh/camera_solve_in_syntheyes_use_for_adding/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1xjezgt/first_time_vfx_noob_questions/</id><title>First time VFX noob questions</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xjezgt/first_time_vfx_noob_questions/"/>
-<published>2026-10-30T13:10:55+00:00</published><updated>2026-10-30T13:10:55+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="vfx"/>
-<category term="blender"/>
-<summary>I'm a blender 3D designer trying VFX for the first time. I got a list of shots from a film shot in Red Dragon 6K, master timeline in 4K. The issue I'm facing is that they have not marked lenses in shots. And they have no notes of the same in shot list. So how do I go about this ? Software pipeline -</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 3 · vfx, blender&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I'm a blender 3D designer trying VFX for the first time. I got a list of shots from a film shot in Red Dragon 6K, master timeline in 4K. The issue I'm facing is that they have not marked lenses in shots. And they have no notes of the same in shot list. So how do I go about this ? Software pipeline - Resolve to Blender &amp;amp; back, EXRs using ASES. Eg: Static shot with a chair in foreground that needs to be extended backwards in time. Modelling objects is fine. But how do I match it without any knowledge of the lens they use (Guess estimates manually land me at 24 prime - because they said all lenses were block prime lenses so I ruled out Telephotos). What could I do in this situation ? submitted &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xjezgt/first_time_vfx_noob_questions/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xjexq7/spool_timeline_inside_comfyui_generate_and/</id><title>Spool: timeline inside ComfyUI. Generate and compare versions for each shot</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xjexq7/spool_timeline_inside_comfyui_generate_and/"/>
-<published>2026-10-30T13:09:00+00:00</published><updated>2026-10-30T13:09:00+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="render"/>
-<category term="comfyui"/>
-<summary>Spool is a timeline that runs inside ComfyUI, in its own tab. You drop a workflow on it and that becomes a shot. Hit generate, get a few takes, scrub through them and pick one. The other takes stay with the shot, so you can change your mind later. If you like a take you can drag it out onto the time</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · render, comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Spool is a timeline that runs inside ComfyUI, in its own tab. You drop a workflow on it and that becomes a shot. Hit generate, get a few takes, scrub through them and pick one. The other takes stay with the shot, so you can change your mind later. If you like a take you can drag it out onto the timeline and run another workflow on top of it. It doesn't touch your workflows, there are no Spool nodes to add. Renders on your GPU, or on Comfy Cloud. When you're happy with the cut you can render it or export it to Resolve/Premiere and finish there. https://github.com/doubletwisted/ComfyUI-Spool I built it for the way I work, so I'm curious how other people put together longer stuff in ComfyUI and&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xjexq7/spool_timeline_inside_comfyui_generate_and/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xjette/open_jutsu_studio_put_your_characters_into_real/</id><title>Open Jutsu Studio — put your characters into real footage, then keep going (open source, your own ComfyUI)</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xjette/open_jutsu_studio_put_your_characters_into_real/"/>
-<published>2026-10-30T13:04:14+00:00</published><updated>2026-10-30T13:04:14+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<summary>I kept running into the same wall: a character swap gives you a clip, and that's the end of it. Reopening it later means re-describing everything. So this keeps the native H3 state with every take, references, frozen recipe, and the parent it came from and lets you continue from there in the same wo</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I kept running into the same wall: a character swap gives you a clip, and that's the end of it. Reopening it later means re-describing everything. So this keeps the native H3 state with every take, references, frozen recipe, and the parent it came from and lets you continue from there in the same workspace. The part I care about: a take is not just an MP4. It keeps the MP4 + MCTX + COND capsule, so it can be reopened and continued later. Reels are a by-product, not the point. Honest limits: you bring ComfyUI with the declared node packs, and person selection is still by reference click-to-track is next on the roadmap. No account, no credits. Repo: https://github.com/lvsas/OpenJutsuStudio sub&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xjette/open_jutsu_studio_put_your_characters_into_real/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xjdt6p/night_scene_renders_moss_krea2_qwen21/</id><title>Night scene renders - MOSS, Krea2, Qwen2.1</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xjdt6p/night_scene_renders_moss_krea2_qwen21/"/>
-<published>2026-10-30T12:18:10+00:00</published><updated>2026-10-30T12:18:10+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="render"/>
-<category term="rendering"/>
-<summary>All images rendered on Turbo versions, same prompt. No additional Loras. Moss follows lighting and dark scene rendering quite well. Krea2 did sharp render of objects but leave the scene too bright. Qwen did the best dark rendering but lighting is off. submitted by /u/Loose-Journalist-555 [link] [com</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · render, rendering&lt;/small&gt;&lt;/p&gt;&lt;p&gt;All images rendered on Turbo versions, same prompt. No additional Loras. Moss follows lighting and dark scene rendering quite well. Krea2 did sharp render of objects but leave the scene too bright. Qwen did the best dark rendering but lighting is off. submitted by /u/Loose-Journalist-555 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xjdt6p/night_scene_renders_moss_krea2_qwen21/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xjdalp/everything_the_community_built_for/</id><title>Everything the community built for #OpenSourceHiggsfield in two weeks: 90 open-source apps in one list</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xjdalp/everything_the_community_built_for/"/>
-<published>2026-10-30T11:54:00+00:00</published><updated>2026-10-30T11:54:00+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="vfx"/>
-<category term="previs"/>
-<summary>Submissions closed today, so I went through the hashtag and GitHub and catalogued every real entry: character swap, VFX, camera re-shoots, full studios, all on open weights. By category: 24 all-in-one studios, 15 camera/reshoot/previs tools, 13 character swaps, 10 film and music-video pipelines, 9 e</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · vfx, previs&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Submissions closed today, so I went through the hashtag and GitHub and catalogued every real entry: character swap, VFX, camera re-shoots, full studios, all on open weights. By category: 24 all-in-one studios, 15 camera/reshoot/previs tools, 13 character swaps, 10 film and music-video pipelines, 9 effects, 8 canvases and front ends, 7 ads/UGC, 4 character and dataset tools. Plus 6 older open alternatives at the end. Each entry has a one-line summary, stars and license. Empty repos, clones of other entries and private placeholders are left out. https://github.com/jutsuhq/open-source-higgsfield If your project is missing, drop the repo in the comments and I'll add it. Disclosure: I maintain th&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xjdalp/everything_the_community_built_for/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
