@@ -2,8 +2,54 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-13T19:31:11+00:00</updated>
+<updated>2026-11-13T21:31:08+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1xvk4xu/macro_petri_dish_practical_effects_through_the/</id><title>Macro Petri Dish Practical Effects - Through the Void</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xvk4xu/macro_petri_dish_practical_effects_through_the/"/>
+<published>2026-11-13T21:21:46+00:00</published><updated>2026-11-13T21:21:46+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="compositing"/>
+<summary>Hey there everyone, Just wanted to share more experiments I've been doing with a cloud tank and macro photography in an effort to create other worldly nebula/universe shots. When it comes to the macro photography I used a Canon 100m f/2.8 L macro series lens and a petri dish with various materials (</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 1 · compositing&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey there everyone, Just wanted to share more experiments I've been doing with a cloud tank and macro photography in an effort to create other worldly nebula/universe shots. When it comes to the macro photography I used a Canon 100m f/2.8 L macro series lens and a petri dish with various materials (epoxy alcohol ink, glycerine, dish soap, vegetable oil, and isopropyl alcohol). All of which is only about 6-10mm worth of space. For the cloud tank elements, it's just a 20 gallon tank with a mixture of liquid latex and ammonia being injected with a syringe/check release valve for the most flexibility. This time around I tried stacking multiple takes together in 3D space to help create a larger s&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xvk4xu/macro_petri_dish_practical_effects_through_the/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xviq6r/new_moss_dmd_lora_from_lodestone/</id><title>New MOSS DMD Lora from Lodestone</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xviq6r/new_moss_dmd_lora_from_lodestone/"/>
+<published>2026-11-13T20:26:35+00:00</published><updated>2026-11-13T20:26:35+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="lora"/>
+<summary>Lodestone continued experimenting with Lora for MOSS, creating several versions, but has now released a new version that works well with both 4 and 8-step processes. You can find more information here: https://huggingface.co/lodestones/Kromoss/blob/main/experimental/README.md Lora is available here </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Lodestone continued experimenting with Lora for MOSS, creating several versions, but has now released a new version that works well with both 4 and 8-step processes. You can find more information here: https://huggingface.co/lodestones/Kromoss/blob/main/experimental/README.md Lora is available here and can be used with several MOSS models: https://huggingface.co/lodestones/Kromoss/blob/main/experimental/opd-priming-8-steps-dmd-lora_cfg-ramp-neg_12000.safetensors Meanwhile, the main Kromoss model has also been updated; version 69800 is now available here: https://huggingface.co/lodestones/Kromoss/tree/main/diffusion_models submitted by /u/mikemend [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xviq6r/new_moss_dmd_lora_from_lodestone/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xvi9ko/why_does_minimax_h3_image_even_run_and_fast_on_my/</id><title>Why does Minimax H3 Image even run (and fast!) on my 8GB VRAM/32GB RAM system despite the entire stack being about ~50GB (int8 pruned)?</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xvi9ko/why_does_minimax_h3_image_even_run_and_fast_on_my/"/>
+<published>2026-11-13T20:08:08+00:00</published><updated>2026-11-13T20:08:08+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<category term="minimax"/>
+<summary>i2i, 2 1024x1024 reference photos. My system is RTX 2070 8GB (Turing), 32GB DDR4 (2666Mhz), Ryzen 1700 (1st gen). Ubuntu 24.02 server. ~ 57 seconds per image! (ComfyUI) This is MUCH faster than my Krea2, Flux2 Klein, or Qwen 2.1 edit workflows! It's about the same as m Fibo2 edit workflow, but Fibo2</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;i2i, 2 1024x1024 reference photos. My system is RTX 2070 8GB (Turing), 32GB DDR4 (2666Mhz), Ryzen 1700 (1st gen). Ubuntu 24.02 server. ~ 57 seconds per image! (ComfyUI) This is MUCH faster than my Krea2, Flux2 Klein, or Qwen 2.1 edit workflows! It's about the same as m Fibo2 edit workflow, but Fibo2 is smol ! My question is, how does this even not OOM? Correct me if I'm wrong, but don't ALL the models need to load entirely (including that stupidly massive 32b text encoder) into memory? submitted by /u/wreck_of_u [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xvi9ko/why_does_minimax_h3_image_even_run_and_fast_on_my/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1xvhlyz/i_was_lucky_enough_to_interview_dj_desjardin/</id><title>I was lucky enough to interview DJ Desjardin about his VFX work on Godzilla v Kong, Sucker Punch, Man of Steel, and all these other elaborate movies</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xvhlyz/i_was_lucky_enough_to_interview_dj_desjardin/"/>
+<published>2026-11-13T19:42:46+00:00</published><updated>2026-11-13T19:42:46+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="vfx"/>
+<summary>submitted by /u/LifeguardMundane5668 [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/LifeguardMundane5668 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xvhlyz/i_was_lucky_enough_to_interview_dj_desjardin/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xvhaf3/physics_understanding_of_minimax_h3/</id><title>Physics understanding of MiniMax H3</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xvhaf3/physics_understanding_of_minimax_h3/"/>
+<published>2026-11-13T19:30:22+00:00</published><updated>2026-11-13T19:30:22+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="minimax"/>
+<summary>Made some trials with how well MiniMax H3 understands different kinds of physics and it seemed to succeed pretty well with everything I threw at it. Video was generated with slopfab &amp; Fable 5.2 as the agent. submitted by /u/BittiAI [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Made some trials with how well MiniMax H3 understands different kinds of physics and it seemed to succeed pretty well with everything I threw at it. Video was generated with slopfab &amp;amp; Fable 5.2 as the agent. submitted by /u/BittiAI [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xvhaf3/physics_understanding_of_minimax_h3/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xvfcho/whats_the_best_model_for_generating_images_like/</id><title>What's the best model for generating images like this? My goal is to generate images, then use MiniMax for I2V to create videos like this</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xvfcho/whats_the_best_model_for_generating_images_like/"/>
@@ -7295,39 +7341,5 @@
 <category term="lora"/>
 <summary>I tried something a little unusual. I trained a LoRA for Anima that teaches it to imitate the way Krea2 Turbo generates images. You could think of it as a form of knowledge distillation. LoRA: https://civitai.red/models/2554528/animaloralab I've also shared the training code on that page, included i</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I tried something a little unusual. I trained a LoRA for Anima that teaches it to imitate the way Krea2 Turbo generates images. You could think of it as a form of knowledge distillation. LoRA: https://civitai.red/models/2554528/animaloralab I've also shared the training code on that page, included in the backup ZIP. It contains an example of an AI-assisted workflow that uses the RunPod API to automate Krea2 knowledge distillation, followed by CFG and step distillation. The code isn't ready to run out of the box. I'd recommend giving the entire folder to an AI coding assistant, having it analyze the project, and then working with it to adapt the code to your own environment and goals. You mig&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xjs410/anima_krea_2_teacher_12step_lora_results_settings/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xjr6ns/open_source_comfyui_motion_previs_studio_3d/</id><title>[Open Source] ComfyUI Motion Previs Studio — 3D Camera Blocking, Character Animation, OpenPose/Depth Exports &amp; Direct ComfyUI Rendering</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xjr6ns/open_source_comfyui_motion_previs_studio_3d/"/>
-<published>2026-10-30T20:57:27+00:00</published><updated>2026-10-30T20:57:27+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="video generation"/>
-<category term="video model"/>
-<category term="tracking"/>
-<category term="camera control"/>
-<category term="character animation"/>
-<category term="animation"/>
-<category term="rendering"/>
-<category term="comfyui"/>
-<summary>Hey everyone! I've been working on an open-source project called ComfyUI Motion Previs Studio , and I'd love to get some feedback from people who are seriously into ComfyUI, AI filmmaking, and advanced video generation workflows. The idea came from a problem I kept running into: We have increasingly</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 22 · video generation, video model, tracking, camera control, character animation, animation, rendering, comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey everyone! I've been working on an open-source project called ComfyUI Motion Previs Studio , and I'd love to get some feedback from people who are seriously into ComfyUI, AI filmmaking, and advanced video generation workflows. The idea came from a problem I kept running into: We have increasingly powerful video generation models, but precise control over camera movement, character blocking, spatial composition, and action choreography is still challenging. Instead of relying entirely on long prompts and repeated generations, what if we could actually direct the scene in 3D before sending it to a video model? That's what I'm trying to build. What the project does It's a local-first, intera&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xjr6ns/open_source_comfyui_motion_previs_studio_3d/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xjqtga/using_minimax_is_there_a_way_to_input_a_video_and/</id><title>Using minimax , is there a way to input a video and change the camera position? So you get the exact same video with another POV or camera direction ?</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xjqtga/using_minimax_is_there_a_way_to_input_a_video_and/"/>
-<published>2026-10-30T20:42:41+00:00</published><updated>2026-10-30T20:42:41+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="minimax"/>
-<summary>submitted by /u/PhilosopherSweaty826 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/PhilosopherSweaty826 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xjqtga/using_minimax_is_there_a_way_to_input_a_video_and/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1xjqrni/looking_for_vfx_production_coordinator_supervisor/</id><title>Looking for VFX Production Coordinator / Supervisor Opportunities in the US – Referrals Appreciated!</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xjqrni/looking_for_vfx_production_coordinator_supervisor/"/>
-<published>2026-10-30T20:40:35+00:00</published><updated>2026-10-30T20:40:35+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="vfx"/>
-<summary>submitted by /u/Ordinary_Bat4919 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/Ordinary_Bat4919 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xjqrni/looking_for_vfx_production_coordinator_supervisor/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
