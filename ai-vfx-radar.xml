@@ -2,8 +2,21 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-14T19:31:09+00:00</updated>
+<updated>2026-11-14T21:31:09+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xwb3qz/i_built_a_pipeline_that_turns_rigged_3d/</id><title>I built a pipeline that turns rigged 3D characters into SDXL LoRAs (auto-posing in Maya → Kohya → ComfyUI). Identity is great, but outfits drift. Ideas?</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xwb3qz/i_built_a_pipeline_that_turns_rigged_3d/"/>
+<published>2026-11-14T19:31:45+00:00</published><updated>2026-11-14T19:31:45+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="vfx"/>
+<category term="render"/>
+<category term="comfyui"/>
+<category term="maya"/>
+<category term="lora"/>
+<summary>I have a background in pipeline and tools development for 3D/VFX. Over the last couple of months I built a pipeline that turns rigged 3D characters into SDXL LoRAs, so they can be generated in new scenes. Sharing what I learned, and I'd love input on one problem I haven't solved. The pipeline 1. May</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 7 · vfx, render, comfyui, maya, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I have a background in pipeline and tools development for 3D/VFX. Over the last couple of months I built a pipeline that turns rigged 3D characters into SDXL LoRAs, so they can be generated in new scenes. Sharing what I learned, and I'd love input on one problem I haven't solved. The pipeline 1. Maya: auto-posing + capture. A tool reads the rig, figures out the limb axes, and puts the character into ~47 poses (standing, walking, sitting, crouching, arms up, etc.). It also renders each pose from multiple angles and distances with Arnold. One character ends up with ~2000 renders. 2. Dataset + captions. I pick a balanced set of ~1000 images (angles, framing, poses) and auto-write captions from &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xwb3qz/i_built_a_pipeline_that_turns_rigged_3d/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xw9oja/the_minimax_h3_image_is_a_beast_at_ultrahigh/</id><title>The Minimax H3 Image is a beast at ultra-high resolutions (48MP)</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xw9oja/the_minimax_h3_image_is_a_beast_at_ultrahigh/"/>
@@ -7080,70 +7093,5 @@
 <category term="ai video"/>
 <summary>submitted by /u/no3us [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · upscaling, ai video&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/no3us [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xkms2f/a_quick_check_before_upscaling_an_ai_video_take/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xkldof/i_trained_a_1536px_krea_2_lokr_to_test_wardrobe/</id><title>I trained a 1536px Krea 2 LoKr to test wardrobe &amp; character consistency across 10 concert eras — here’s my full breakdown on LoKr vs. LoRA, epochs, and trigger tokens [Workflow Included]</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xkldof/i_trained_a_1536px_krea_2_lokr_to_test_wardrobe/"/>
-<published>2026-10-31T21:05:35+00:00</published><updated>2026-10-31T21:05:35+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<category term="lora"/>
-<category term="consistency"/>
-<category term="character consistency"/>
-<summary>Hey everyone! Over the past few weeks I fell down a rabbit hole comparing fine-tuning architectures for Krea 2 (trained against Krea 2 RAW, inferred on krea2_turbo_fp8_scaled.safetensors). After training on RunPod, all of the checkpoint auditing, prompt engineering, and high-resolution generation wa</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 7 · comfyui, lora, consistency, character consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey everyone! Over the past few weeks I fell down a rabbit hole comparing fine-tuning architectures for Krea 2 (trained against Krea 2 RAW, inferred on krea2_turbo_fp8_scaled.safetensors). After training on RunPod, all of the checkpoint auditing, prompt engineering, and high-resolution generation was done locally in ComfyUI on my rig (RTX 5080 / Ryzen 9 9900X). I wanted to see how far I could push both facial consistency and complex couture stage wardrobe, so I set a goal to train a dedicated Krea 2 LoKr and stress-test it by recreating all 10 eras of The Eras Tour at native high resolution. Since the subreddit requires workflows, I’ve uploaded the exact ComfyUI .json workflow, the LoKr .saf&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xkldof/i_trained_a_1536px_krea_2_lokr_to_test_wardrobe/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xkkwnm/slopus_040_is_out_moss_krea_2_fibo_20_support/</id><title>Slopus 0.4.0 is out – MOSS, Krea 2, Fibo 2.0 support, music generation and improved video workflows</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xkkwnm/slopus_040_is_out_moss_krea_2_fibo_20_support/"/>
-<published>2026-10-31T20:44:43+00:00</published><updated>2026-10-31T20:44:43+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="video generation"/>
-<category term="comfyui"/>
-<category term="minimax"/>
-<category term="lora"/>
-<category term="consistency"/>
-<summary>I’m building Slopus, a free, open-source desktop app for generating and editing AI videos, images and now music on your own GPU. Ease of use is the main goal. Version 0.4.0 just came out. Here’s what’s new: New image models. MOSS Image, Fibo 2.0 Base/Edit Turbo, and Krea 2 Turbo/Raw are now supporte</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 5 · video generation, comfyui, minimax, lora, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I’m building Slopus, a free, open-source desktop app for generating and editing AI videos, images and now music on your own GPU. Ease of use is the main goal. Version 0.4.0 just came out. Here’s what’s new: New image models. MOSS Image, Fibo 2.0 Base/Edit Turbo, and Krea 2 Turbo/Raw are now supported. With just few clicks these generations can be made into videos. Music generation. Generate music with YuE2 and MiniMax Music3, create album covers, organize songs into folders, and add them to your timeline. Export to WAV, MP3, FLAC and more. Videos, scenes and shots. Organize larger projects, play scenes together, tools to create music videos, and queue generations that depend on earlier shots&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xkkwnm/slopus_040_is_out_moss_krea_2_fibo_20_support/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1xkktnv/my_first_attempt_at_using_vfx/</id><title>My first attempt at using VFX</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xkktnv/my_first_attempt_at_using_vfx/"/>
-<published>2026-10-31T20:40:55+00:00</published><updated>2026-10-31T20:40:55+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="vfx"/>
-<summary>Would love some feedback for this video I spent around 1-2 weeks working on and off. I learnt a lot from this experience but am always up for improving and adapting my skills. Any advice / critique is truly appreciated! submitted by /u/Darius_Hawthorne [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Would love some feedback for this video I spent around 1-2 weeks working on and off. I learnt a lot from this experience but am always up for improving and adapting my skills. Any advice / critique is truly appreciated! submitted by /u/Darius_Hawthorne [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xkktnv/my_first_attempt_at_using_vfx/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xkjqb4/human_vocals_over_ai_audio_video_tracks_full/</id><title>Human vocals over AI audio &amp; video tracks: full music video with LTX 2.5 in ComfyUI</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xkjqb4/human_vocals_over_ai_audio_video_tracks_full/"/>
-<published>2026-10-31T19:55:10+00:00</published><updated>2026-10-31T19:55:10+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="image-to-video"/>
-<category term="comfyui"/>
-<category term="ltx"/>
-<summary>Made a rap song about my GPU and wanted every clip local, here is the result. How it's built: - 13 stills (Gemini), 4 LTX 2.5 image-to-video prompts per still, batched through ComfyUI's API on a 5090. About 25 s per 4 s clip at 832x480, 52 clips total. A script queues them and skips anything already</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 5 · image-to-video, comfyui, ltx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Made a rap song about my GPU and wanted every clip local, here is the result. How it's built: - 13 stills (Gemini), 4 LTX 2.5 image-to-video prompts per still, batched through ComfyUI's API on a 5090. About 25 s per 4 s clip at 832x480, 52 clips total. A script queues them and skips anything already rendered, so I can stop and restart. - Two tracks woven together: a story track (a guy in a trench coat in a neon city) and a literal track where the lyrics actually happen ("cut the tether" = an astronaut cutting a cable, "smash the laser" = a sledgehammer). - Beat-tracked the song and snapped every cut to the kick. My original grid was one beat late, so every cut was landing on the snare. Fixin&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xkjqb4/human_vocals_over_ai_audio_video_tracks_full/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xkjdy0/i_built_an_i2ifriendly_image_loader_builtin/</id><title>I built an i2i-friendly image loader, built-in lightweight image editing and regional prompting node suite for ComfyUI. Introducing LuCiD VRP.</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xkjdy0/i_built_an_i2ifriendly_image_loader_builtin/"/>
-<published>2026-10-31T19:40:58+00:00</published><updated>2026-10-31T19:40:58+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="image editing"/>
-<category term="comfyui"/>
-<summary>Hi, first time poster here. I've been playing around with AI illustration generation for half a year, and getting into ComfyUI since as long ago (Forge Neo didn't kept me long :) ) and I'm more and more into image2image workflows as I move on, because they offer more control and can get to where I w</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · image editing, comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi, first time poster here. I've been playing around with AI illustration generation for half a year, and getting into ComfyUI since as long ago (Forge Neo didn't kept me long :) ) and I'm more and more into image2image workflows as I move on, because they offer more control and can get to where I want to more often, especially when I want to do more complicated compositions. I like how potentially powerful ComfyUI can be and I looked at all those crazy node tools and thought, maybe I should try to make tools that are more suitable to my workflow needs better. And keep it focused with a concise feature set, so they still work inside of ComfyUI without making things too complicated. So I've d&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xkjdy0/i_built_an_i2ifriendly_image_loader_builtin/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xkj764/i_built_a_visual_canvas_lightweight_image_editing/</id><title>I built a visual canvas, lightweight image editing and regional prompting node suite for ComfyUI. Introducing LuCiD VRP.</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xkj764/i_built_a_visual_canvas_lightweight_image_editing/"/>
-<published>2026-10-31T19:33:01+00:00</published><updated>2026-10-31T19:33:01+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="image editing"/>
-<category term="comfyui"/>
-<summary>Hi, first time poster here (and anywhere). I've been playing around with AI illustration generation for half a year, and I'm more and more into image2image workflows as I move on because they offer more control and can get to where I want to more often. So I've developed a custom node suite that tai</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · image editing, comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi, first time poster here (and anywhere). I've been playing around with AI illustration generation for half a year, and I'm more and more into image2image workflows as I move on because they offer more control and can get to where I want to more often. So I've developed a custom node suite that tailors better to that use case: start with a draft, and improve it between runs until things are right enough to be fixed. Introducing: LuCiD VRP - Visual Regional Painter (Beta) Currently it's made up of three parts: An image loader with various QOL features, including resizable latent, undo-redo with editing history, auto latent size alignment; A lightweight, built-in image editor with a carefully&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xkj764/i_built_a_visual_canvas_lightweight_image_editing/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
