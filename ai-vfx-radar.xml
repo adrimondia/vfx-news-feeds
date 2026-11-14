@@ -2,8 +2,58 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-14T17:31:09+00:00</updated>
+<updated>2026-11-14T19:31:09+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xw9oja/the_minimax_h3_image_is_a_beast_at_ultrahigh/</id><title>The Minimax H3 Image is a beast at ultra-high resolutions (48MP)</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xw9oja/the_minimax_h3_image_is_a_beast_at_ultrahigh/"/>
+<published>2026-11-14T18:33:56+00:00</published><updated>2026-11-14T18:33:56+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="minimax"/>
+<summary>I tested Minimax H3 Image at 4, 8, and 16 MP resolutions; it was okay, I suppose, but not exactly impressive. The images contained errors and distortions. Then I stumbled upon a thread where a Redditor tested 100 MP images using this specific workflow: https://www.reddit.com/r/StableDiffusion/commen</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I tested Minimax H3 Image at 4, 8, and 16 MP resolutions; it was okay, I suppose, but not exactly impressive. The images contained errors and distortions. Then I stumbled upon a thread where a Redditor tested 100 MP images using this specific workflow: https://www.reddit.com/r/StableDiffusion/comments/1xt9ocv/minimax_h3_image_20mp_workflow/ It turns out the sweet spot is somewhere between 48 and 56 megapixels—and that’s when you get a "WOW" factor; the model produces very, very good images. All made at 48MP on RTX 5080 ~162s submitted by /u/Altruistic_Print717 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xw9oja/the_minimax_h3_image_is_a_beast_at_ultrahigh/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xw8oqx/a_33b_image_model_minimaxh3image_now_runs_fully/</id><title>A 33B image model (MiniMax-H3-Image) now runs fully on a phone NPU (Snapdragon 8 Gen 1)</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xw8oqx/a_33b_image_model_minimaxh3image_now_runs_fully/"/>
+<published>2026-11-14T17:54:20+00:00</published><updated>2026-11-14T17:54:20+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="minimax"/>
+<category term="dit"/>
+<summary>HexAnima 1.6.0 adds MiniMax-H3-Image to the in-app model catalog. It’s a 33B-parameter DiT with a Qwen3-VL text encoder, INT8-ConvRot quantized, and the whole pipeline (text encoder, 50 DiT blocks, VAE) runs on the Hexagon NPU of a Snapdragon 8 Gen 1 phone. No cloud, no PC, no GPU offload. Why it fi</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax, dit&lt;/small&gt;&lt;/p&gt;&lt;p&gt;HexAnima 1.6.0 adds MiniMax-H3-Image to the in-app model catalog. It’s a 33B-parameter DiT with a Qwen3-VL text encoder, INT8-ConvRot quantized, and the whole pipeline (text encoder, 50 DiT blocks, VAE) runs on the Hexagon NPU of a Snapdragon 8 Gen 1 phone. No cloud, no PC, no GPU offload. Why it fits: the 48 GB of weights are streamed from flash (UFS) block by block instead of being held in RAM. Small pictures are limited by storage reads, large ones by NPU compute. Storage: you need about 50 GB free for the pack. It downloads from a public Hugging Face repo ( ayanoby/hexanima-h3 ) with a per-file sha256 manifest, resumable. License heads-up: the weights are under the MiniMax H3 Community L&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xw8oqx/a_33b_image_model_minimaxh3image_now_runs_fully/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xw8708/styles_atlas_nodes_for_comfyui_1000_styles_800/</id><title>Styles Atlas nodes for Comfyui: +1000 styles +800 characters.</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xw8708/styles_atlas_nodes_for_comfyui_1000_styles_800/"/>
+<published>2026-11-14T17:34:20+00:00</published><updated>2026-11-14T17:34:20+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="rendering"/>
+<category term="comfyui"/>
+<summary>Heres three ComfyUI nodes that turn a giant Excel sheets into prompts (+1000 styles, 800+ characters) Style Atlas is three nodes that each handle one question: 🧑 Character Atlas: who is in the picture 🏞 Setting Atlas: where they are 🎨 Style Atlas: how it's rendered Chain them, hit queue, done. Each </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · rendering, comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Heres three ComfyUI nodes that turn a giant Excel sheets into prompts (+1000 styles, 800+ characters) Style Atlas is three nodes that each handle one question: 🧑 Character Atlas: who is in the picture 🏞 Setting Atlas: where they are 🎨 Style Atlas: how it's rendered Chain them, hit queue, done. Each node starts on "None (bypass)" and folds down to a couple of lines, so your workflow doesn't turn into spaghetti. Some numbers: ~1,600 rendering styles (oil painting to Soviet storybook to "Acid Pulp Scratchwork"), plus ~120 modifiers for quality, genre, palette and composition 827 known characters across 217 franchises, with variants like masked/unmasked and costume forms, plus 95 actor-in-a-role&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xw8708/styles_atlas_nodes_for_comfyui_1000_styles_800/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xw83dc/im_releasing_a_world_model_ive_trained_that/</id><title>I'm releasing a World Model Ive trained that hallucinates GTA. It works on RTX 3060, 4060 and anything above, linking huggingface weights</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xw83dc/im_releasing_a_world_model_ive_trained_that/"/>
+<published>2026-11-14T17:30:15+00:00</published><updated>2026-11-14T17:30:15+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="world model"/>
+<category term="consistency"/>
+<summary>Play it Now in browser (nonlocal, streaming) : https://lucidml.ai/dashboard/minidemo?world=gta5 Full Weights and Inference code : https://huggingface.co/lucidml/gta The architecture is a transformer which uses learned summaries. Ive written about it in detail in tech reports and some more I know the</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · world model, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Play it Now in browser (nonlocal, streaming) : https://lucidml.ai/dashboard/minidemo?world=gta5 Full Weights and Inference code : https://huggingface.co/lucidml/gta The architecture is a transformer which uses learned summaries. Ive written about it in detail in tech reports and some more I know there are a lot of limitations still like consistency and quality improvements, and am hoping to train this more to fix all of those. submitted by /u/lucidml_lover [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xw83dc/im_releasing_a_world_model_ive_trained_that/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xw72p9/best_ai_for_precise_image_editing_character/</id><title>Best AI for Precise Image Editing &amp; Character Consistency?</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xw72p9/best_ai_for_precise_image_editing_character/"/>
+<published>2026-11-14T16:49:41+00:00</published><updated>2026-11-14T16:49:41+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="image editing"/>
+<category term="consistency"/>
+<category term="character consistency"/>
+<summary>Helllooo What’s the best AI tool or program for editing specific parts of an existing illustration without regenerating or changing the entire image? I’m working on a children’s book with semi-realistic illustrations, and my biggest struggle has been character consistency. I’ll finally get an illust</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 6 · image editing, consistency, character consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Helllooo What’s the best AI tool or program for editing specific parts of an existing illustration without regenerating or changing the entire image? I’m working on a children’s book with semi-realistic illustrations, and my biggest struggle has been character consistency. I’ll finally get an illustration almost perfect, but when I try to fix one small detail (like the character’s face), the AI changes everything else or makes the character look completely different. I’ve mainly been using OpenArt and Leonardo AI, along with ChatGPT, Gemini, and Grok. So far, I’ve only managed to finish 2 out of 17 illustrations, and I’m losing my mind haha. Ideally, I’m looking for something that can edit o&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xw72p9/best_ai_for_precise_image_editing_character/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xw4km3/best_workflow_to_generate_portraits_with_minimax/</id><title>Best workflow to generate portraits with Minimax H3 Image (even at 8mp)</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xw4km3/best_workflow_to_generate_portraits_with_minimax/"/>
@@ -7095,100 +7145,5 @@
 <category term="comfyui"/>
 <summary>Hi, first time poster here (and anywhere). I've been playing around with AI illustration generation for half a year, and I'm more and more into image2image workflows as I move on because they offer more control and can get to where I want to more often. So I've developed a custom node suite that tai</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · image editing, comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi, first time poster here (and anywhere). I've been playing around with AI illustration generation for half a year, and I'm more and more into image2image workflows as I move on because they offer more control and can get to where I want to more often. So I've developed a custom node suite that tailors better to that use case: start with a draft, and improve it between runs until things are right enough to be fixed. Introducing: LuCiD VRP - Visual Regional Painter (Beta) Currently it's made up of three parts: An image loader with various QOL features, including resizable latent, undo-redo with editing history, auto latent size alignment; A lightweight, built-in image editor with a carefully&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xkj764/i_built_a_visual_canvas_lightweight_image_editing/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xkivvu/happy_halloween_minimax_h3_did_it_again_music/</id><title>Happy Halloween! MiniMax H3 did it again! Music video using my video builder inside ComfyUI.</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xkivvu/happy_halloween_minimax_h3_did_it_again_music/"/>
-<published>2026-10-31T19:20:04+00:00</published><updated>2026-10-31T19:20:04+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<category term="minimax"/>
-<category term="lora"/>
-<summary>View video on YouTube if it's still pending Watch on Youtube Hey guys! I wanted to make a Halloween-inspired music video, so I put it together with my Video Builder in ComfyUI. Everything video-related ran locally on my own PC: the character images, every scene, and the final stitch. Please keep rud</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 5 · comfyui, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;View video on YouTube if it's still pending Watch on Youtube Hey guys! I wanted to make a Halloween-inspired music video, so I put it together with my Video Builder in ComfyUI. Everything video-related ran locally on my own PC: the character images, every scene, and the final stitch. Please keep rude and disrespectful comments to yourself. They don't help anyone or contribute anything constructive to the conversation. A quick note on the prompts, since I know people will ask: my Video Builder lets you use any LLM for prompt creation (Both for Ref image creation and Video prompt creation), including local open-source models. It even has a story mode that takes a story idea and then creates th&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xkivvu/happy_halloween_minimax_h3_did_it_again_music/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xkiq96/i_made_tiny_sliders_for_minimax_h3_that_control/</id><title>I made tiny sliders for MiniMax H3 that control motion, emotion, and more without training a LoRA [ComfyUI]</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xkiq96/i_made_tiny_sliders_for_minimax_h3_that_control/"/>
-<published>2026-10-31T19:13:43+00:00</published><updated>2026-10-31T19:13:43+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="minimax"/>
-<category term="lora"/>
-<summary>submitted by /u/MatlowAI [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 6 · comfyui, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/MatlowAI [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xkiq96/i_made_tiny_sliders_for_minimax_h3_that_control/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xkhlo1/piss_filter_remover_flux3_klein_base_lora/</id><title>"Piss Filter Remover" Flux.3 Klein Base LoRA</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xkhlo1/piss_filter_remover_flux3_klein_base_lora/"/>
-<published>2026-10-31T18:27:46+00:00</published><updated>2026-10-31T18:27:46+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="flux"/>
-<category term="lora"/>
-<summary>Description I specifically trained this LoRA to make images look more natural. Its main focus is correcting that yellowish color cast that professional photographers seem to love using (for whatever reason). It's often referred to as the so-called "piss filter" 😄 The goal of this LoRA is to neutrali</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · flux, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Description I specifically trained this LoRA to make images look more natural. Its main focus is correcting that yellowish color cast that professional photographers seem to love using (for whatever reason). It's often referred to as the so-called "piss filter" 😄 The goal of this LoRA is to neutralize the colors in these images and give them a more natural look without unnecessarily altering the actual content of the image. In other words, it's mainly designed to remove the "piss filter" without changing the image itself. Important: Image Size and Processing If you need to edit images "pixel-perfectly" and want the result to match the original image exactly, there's one important thing to ke&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xkhlo1/piss_filter_remover_flux3_klein_base_lora/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xkhkea/happy_halloween_minimax_h3_did_it_again_music/</id><title>Happy Halloween! MiniMax H3 did it again! Music video using my video builder inside ComfyUI.</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xkhkea/happy_halloween_minimax_h3_did_it_again_music/"/>
-<published>2026-10-31T18:26:20+00:00</published><updated>2026-10-31T18:26:20+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="lip-sync"/>
-<category term="render"/>
-<category term="comfyui"/>
-<category term="minimax"/>
-<category term="lora"/>
-<summary>View video on YouTube if it's still pending Watch on Youtube Hey guys, I wanted to make a Halloween inspired music video, so I used my MCP/API support in my Video builder and let Claude run it in ComfyUI. Here's what I did by hand, what Claude did on its own, and my settings, so you can see exactly </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 7 · lip-sync, render, comfyui, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;View video on YouTube if it's still pending Watch on Youtube Hey guys, I wanted to make a Halloween inspired music video, so I used my MCP/API support in my Video builder and let Claude run it in ComfyUI. Here's what I did by hand, what Claude did on its own, and my settings, so you can see exactly which parts were me and which parts Claude did without me stepping in. Please keep rude and disrespectful comments to yourself. They don't help anyone or contribute anything constructive to the conversation. What I did by hand • Gave Claude the story idea: a fun pop-punk style female rock song, a Halloween house party in a Victorian mansion, the band playing on a stage, and the singer working the &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xkhkea/happy_halloween_minimax_h3_did_it_again_music/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xkh9wx/a_copyable_error_report_for_comfyui_workflows/</id><title>A copyable error report for ComfyUI workflows</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xkh9wx/a_copyable_error_report_for_comfyui_workflows/"/>
-<published>2026-10-31T18:14:53+00:00</published><updated>2026-10-31T18:14:53+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<summary>if a workflow fails and you want someone else to reproduce it, this is a useful starting point: Install: Desktop, portable or manual ComfyUI version: GPU and VRAM: Workflow JSON: Model filenames: Custom node named in the error, and its version: Full error text: Last change before it stopped working:</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;if a workflow fails and you want someone else to reproduce it, this is a useful starting point: Install: Desktop, portable or manual ComfyUI version: GPU and VRAM: Workflow JSON: Model filenames: Custom node named in the error, and its version: Full error text: Last change before it stopped working: Include the input image or a small replacement that causes the same failure. Remove private inputs, tokens and credentials before sharing. Keep a seperate copy of the broken workflow. If you can reduce it to a smaller graph that still produces the error, share that too. Mention whether the failure happens while loading a model, sampling, decoding or saving. For a wrong-looking result rather than &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xkh9wx/a_copyable_error_report_for_comfyui_workflows/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xkh6gk/the_warning_waste_your_time_on_me_minimax_h3/</id><title>The Warning - Waste Your Time on Me (MiniMax H3 Music Video)</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xkh6gk/the_warning_waste_your_time_on_me_minimax_h3/"/>
-<published>2026-10-31T18:11:07+00:00</published><updated>2026-10-31T18:11:07+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="flux"/>
-<category term="minimax"/>
-<summary>YouTube 1440p Version: https://www.youtube.com/watch?v=z29BHDS6Wuc Generated on a 3090 + 128 GB RAM (PC was built for 3d FX simulations, several years ago when prices were sane). Comfyui + MiniMax H3 + Flux 2 Klein submitted by /u/inane-fx [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · comfyui, flux, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;YouTube 1440p Version: https://www.youtube.com/watch?v=z29BHDS6Wuc Generated on a 3090 + 128 GB RAM (PC was built for 3d FX simulations, several years ago when prices were sane). Comfyui + MiniMax H3 + Flux 2 Klein submitted by /u/inane-fx [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xkh6gk/the_warning_waste_your_time_on_me_minimax_h3/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1xkgyfx/curatedcompany_3_vancouver_review/</id><title>Curated/Company 3 Vancouver - Review</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xkgyfx/curatedcompany_3_vancouver_review/"/>
-<published>2026-10-31T18:02:18+00:00</published><updated>2026-10-31T18:02:18+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="vfx"/>
-<summary>Can anyone please share any experience on working at Curated in Vancouver? Specifically in the VFX dept? submitted by /u/Igot1000Questions [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 1 · vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Can anyone please share any experience on working at Curated in Vancouver? Specifically in the VFX dept? submitted by /u/Igot1000Questions [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xkgyfx/curatedcompany_3_vancouver_review/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xkgjor/as_promised_here_is_pai/</id><title>As promised, here is Pai</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xkgjor/as_promised_here_is_pai/"/>
-<published>2026-10-31T17:46:15+00:00</published><updated>2026-10-31T17:46:15+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<category term="controlnet"/>
-<summary>Last week, a few of you asked about the software behind some of my posts. It's my "own" vibe coded paint app, Pai. I've been using it casually, and since people kept asking, I figured I'd do a proper follow up to see if there's real interest. Post 1 / Post 2 / Post 3 All in all, I wanted a regular p</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui, controlnet&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Last week, a few of you asked about the software behind some of my posts. It's my "own" vibe coded paint app, Pai. I've been using it casually, and since people kept asking, I figured I'd do a proper follow up to see if there's real interest. Post 1 / Post 2 / Post 3 All in all, I wanted a regular painting app with AI generation in the same window. No hopping between ComfyUI, a browser, and Photoshop or any other similar software. So this thing is a full raster paint app that also has its own generation, same canvas, same layers, same everything. Yes, there are plenty of alternatives like InvokeAI, Krita AI Diffusion, etc. To be honest, I haven't tried them and didn't bother. I just fired up&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xkgjor/as_promised_here_is_pai/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xkgbgo/release_morgana_12_a_photographyfocused_flux2/</id><title>[Release] Morgana 1.2: A photography-focused FLUX.2 Klein 4B finetune for realistic faces, natural lighting, and detailed textures (Free Weights + GGUF)</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xkgbgo/release_morgana_12_a_photographyfocused_flux2/"/>
-<published>2026-10-31T17:37:01+00:00</published><updated>2026-10-31T17:37:01+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="rendering"/>
-<category term="flux"/>
-<category term="lora"/>
-<summary>Morgana 1.2 is Kitani‘s photography focused finetune of Flux.2 Klein 4b. Our goal for the fine tune was for Klein to make images that don’t look like they came from a model - natural lighting, visible textures, great macro details &amp; true color. What it’s trained for: - Casual, regular faces - pores,</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · rendering, flux, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Morgana 1.2 is Kitani‘s photography focused finetune of Flux.2 Klein 4b. Our goal for the fine tune was for Klein to make images that don’t look like they came from a model - natural lighting, visible textures, great macro details &amp;amp; true color. What it’s trained for: - Casual, regular faces - pores, irregular hair, imperfect framing no AI telltales - Macro and materialistic textures - water droplets, feathers, fabric weave, ruse, leather - Landscape and night scenes - aurora reflections, breaking waves, wet neon - Paintings and anime - Anatomy Speed on 1x H100: 4.6 seconds for 15 steps, no LoRA Free everything: - Full safetensors: https://huggingface.com/kitaniai/morgana-1.2 - GGUF: BF16, Q8&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xkgbgo/release_morgana_12_a_photographyfocused_flux2/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
