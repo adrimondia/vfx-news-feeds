@@ -2,8 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-14T13:31:08+00:00</updated>
+<updated>2026-11-14T15:31:08+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xw1nut/i_am_so_tired_of_the_upscale_chain_are_we_finally/</id><title>I am so tired of the upscale chain. Are we finally done with it?</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xw1nut/i_am_so_tired_of_the_upscale_chain_are_we_finally/"/>
+<published>2026-11-14T12:50:58+00:00</published><updated>2026-11-14T12:50:58+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="upscaling"/>
+<category term="minimax"/>
+<summary>Usually I spend much time trying to get the image right. You finally get the perfect 1K or 2K output. The layout is good. Then upscale, poof, all that hard work, gone. When I run it through Hires. Fix or whatever upscale nodes, some odd things will inevitably change. Things like, the original compos</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · upscaling, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Usually I spend much time trying to get the image right. You finally get the perfect 1K or 2K output. The layout is good. Then upscale, poof, all that hard work, gone. When I run it through Hires. Fix or whatever upscale nodes, some odd things will inevitably change. Things like, the original composition shifted. Skin pores gone, and turn into something plasticky. Clothes lose texture. It makes everything look more AI. All of which is kinda the opposite of what I am trying to do. Hope that this is fr. I was reading about the new MiniMax H3-Image open weights. It says it support 4K output, and 4K is actually the default setting. Which sounds kind of insane to me. Can my GPU handle this? Has a&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xw1nut/i_am_so_tired_of_the_upscale_chain_are_we_finally/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/vfx/comments/1xvz9kk/does_anyone_know_what_this_effect_is/</id><title>Does anyone know what this effect is?</title>
 <link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xvz9kk/does_anyone_know_what_this_effect_is/"/>
@@ -7173,24 +7183,5 @@
 <category term="unreal engine"/>
 <summary>Hi, there are some nuanced options in this export window. In my case the pipeline is to Unreal Engine where I am adding animation that geometrically makes sense in the scene. I solved with 0.8 error, set alignment manually, added reference mesh that corresponds to a trail in the woods. It is along t</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 3 · animation, unreal, unreal engine&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi, there are some nuanced options in this export window. In my case the pipeline is to Unreal Engine where I am adding animation that geometrically makes sense in the scene. I solved with 0.8 error, set alignment manually, added reference mesh that corresponds to a trail in the woods. It is along that mesh where I am going to animate later. So with that said, here are the questions: Interpret units as: in syntheyes I set coordinate system as if meters. But Unreal Engine assumes cm, so people often scale by 0.01 when exporting to Unreal. Does that mean here I choose centimeters? Include projection screen. It says this is to hold shot image and distort it if the image preprocessor distorted i&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xkfpqm/how_to_understand_syntheyes_usd_export_options/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xkd1vl/minimax_h3_x2_detail_vae_update_add_int8_convrot/</id><title>MiniMax H3 X2 Detail VAE - update, add int8_ConvRot version</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xkd1vl/minimax_h3_x2_detail_vae_update_add_int8_convrot/"/>
-<published>2026-10-31T15:25:50+00:00</published><updated>2026-10-31T15:25:50+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="rendering"/>
-<category term="minimax"/>
-<summary>At the request of many of you, I added the Int8_ConvRot version speach1sdef178/MiniMax-H3-X2-Detail-VAE at main Original reddit post here: MiniMax H3 X2 Detail VAE – my attempt to get more detail from the H3 VAE or story about fail : r/StableDiffusion if you ask about quality, yes, the quality is sl</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · rendering, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;At the request of many of you, I added the Int8_ConvRot version speach1sdef178/MiniMax-H3-X2-Detail-VAE at main Original reddit post here: MiniMax H3 X2 Detail VAE – my attempt to get more detail from the H3 VAE or story about fail : r/StableDiffusion if you ask about quality, yes, the quality is slightly lower than the bf16 version (I add videos for comparison in speach1sdef178/MiniMax-H3-X2-Detail-VAE at main ), but this is expected, although the quality reduction is quite insignificant, but the rendering is slightly faster. Good luck with your projects. https://reddit.com/link/1xkd1vl/video/rtqu8fccltyh1/player submitted by /u/NoMouse9610 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xkd1vl/minimax_h3_x2_detail_vae_update_add_int8_convrot/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xkcrk8/seedvr2_video_upscaling_now_runs_on_amd_on_windows/</id><title>SeedVR2 video upscaling now runs on AMD on Windows</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xkcrk8/seedvr2_video_upscaling_now_runs_on_amd_on_windows/"/>
-<published>2026-10-31T15:13:56+00:00</published><updated>2026-10-31T15:13:56+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="upscaling"/>
-<summary>Turn blurry, low-res video into crisp HD: SeedVR2 upscales your clips right on your own PC. It used to be NVIDIA-only, and our developer team got it running on AMD on Windows. SeedVR2 is coming soon at https://www.hiimhal.com , and the YuE2 song generator is a free download there now. submitted by /</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · upscaling&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Turn blurry, low-res video into crisp HD: SeedVR2 upscales your clips right on your own PC. It used to be NVIDIA-only, and our developer team got it running on AMD on Windows. SeedVR2 is coming soon at https://www.hiimhal.com , and the YuE2 song generator is a free download there now. submitted by /u/HiImHalStudios [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xkcrk8/seedvr2_video_upscaling_now_runs_on_amd_on_windows/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
