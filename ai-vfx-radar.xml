@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-13T23:31:09+00:00</updated>
+<updated>2026-11-14T01:31:09+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
 <entry>
 <id>https://www.reddit.com/r/vfx/comments/1xvk4xu/macro_petri_dish_practical_effects_through_the/</id><title>Macro Petri Dish Practical Effects - Through the Void</title>
@@ -58,6 +58,15 @@
 <category term="minimax"/>
 <summary>Made some trials with how well MiniMax H3 understands different kinds of physics and it seemed to succeed pretty well with everything I threw at it. Video was generated with slopfab &amp; Fable 5.2 as the agent. submitted by /u/BittiAI [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Made some trials with how well MiniMax H3 understands different kinds of physics and it seemed to succeed pretty well with everything I threw at it. Video was generated with slopfab &amp;amp; Fable 5.2 as the agent. submitted by /u/BittiAI [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xvhaf3/physics_understanding_of_minimax_h3/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xvfg53/two_cc0_street_photos_through_ten_photoedit_style/</id><title>Two CC0 street photos through ten photo-edit style templates (open 8B model, local, no LoRA)</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xvfg53/two_cc0_street_photos_through_ten_photoedit_style/"/>
+<published>2026-11-13T18:21:12+00:00</published><updated>2026-11-13T18:21:12+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="lora"/>
+<summary>There's a new image studio skill in this repo with 61 style templates, 43 of them for restyling a photo you upload: https://github.com/OpenSenseNova/SenseNova-Skills Here are ten of the edit ones on two CC0 photos from Wikimedia Commons, a tram square in Lisbon and the old town street in Innsbruck. </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;There's a new image studio skill in this repo with 61 style templates, 43 of them for restyling a photo you upload: https://github.com/OpenSenseNova/SenseNova-Skills Here are ten of the edit ones on two CC0 photos from Wikimedia Commons, a tram square in Lisbon and the old town street in Innsbruck. The originals are image 2 and image 7. Setup: SenseNova-U1.5-8B-MoT with the official editing script, 2048x2048 pixel budget, 50 steps, CFG 4, seed 42. One run each, no LoRA. I barely touched the prompts. I filled in the bracketed placeholders and swapped the sample titles for the right city, which is where LISBON STREET NOTES and the other titles come from. The prompts are the part worth stealing&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xvfg53/two_cc0_street_photos_through_ten_photoedit_style/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xvfcho/whats_the_best_model_for_generating_images_like/</id><title>What's the best model for generating images like this? My goal is to generate images, then use MiniMax for I2V to create videos like this</title>
@@ -7285,29 +7294,5 @@
 <category term="lora"/>
 <summary>also available here on civit.ai https://civitai.com/models/3028998/70s-style if you download or use it consider adding sample images or a comment. thanks and enjoy! apparently engaging politely gets me downvotes from the babies. so ill just edit this. if you have no use for a flux dev lora then just</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · flux, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;also available here on civit.ai https://civitai.com/models/3028998/70s-style if you download or use it consider adding sample images or a comment. thanks and enjoy! apparently engaging politely gets me downvotes from the babies. so ill just edit this. if you have no use for a flux dev lora then just leave. easy as that. it's not your compute to dictate its use. Flux 1 is still a good model and just because its not the latest or greatest doesn't negate it's worth. submitted by /u/freshstart2027 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xjy0in/flux1dev_1970s_lora/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xjw1jd/moss_image_with_akhaliqs_4step_lora_and_nvidia/</id><title>MOSS Image with akhaliq's 4-step LoRA and Nvidia PiD = Super-Fast High-Res (ComfyUI)</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xjw1jd/moss_image_with_akhaliqs_4step_lora_and_nvidia/"/>
-<published>2026-10-31T00:25:27+00:00</published><updated>2026-10-31T00:25:27+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="upscaler"/>
-<category term="render"/>
-<category term="comfyui"/>
-<category term="flux"/>
-<category term="lora"/>
-<summary>A few months ago, NVIDIA introduced a groundbreaking image generation module called PiD (Pixel Diffusion Decoder) that replaces traditional VAE decoding pipelines. By unifying decoding and upsampling into a single, four-step generative process, it can turn low-resolution latents directly into ultra-</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 7 · upscaler, render, comfyui, flux, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;A few months ago, NVIDIA introduced a groundbreaking image generation module called PiD (Pixel Diffusion Decoder) that replaces traditional VAE decoding pipelines. By unifying decoding and upsampling into a single, four-step generative process, it can turn low-resolution latents directly into ultra-sharp 4K images with stunning visual detail in under a second. Recently I tried it with MOSS Image since its VAE is perfectly compatible out of the box because MOSS actually uses the FLUX.2 VAE, allowing PiD to process those latents flawlessly for high-resolution decoding. I have created a deep dive on HF where I am providing 2 ComfyUI workflows, one for local and one for cloud, as well as Diffuse&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xjw1jd/moss_image_with_akhaliqs_4step_lora_and_nvidia/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xjvasi/i_made_tiny_sliders_for_minimax_h3_that_control/</id><title>I made tiny sliders for MiniMax H3 that control motion, emotion, and more without training a LoRA [ComfyUI]</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xjvasi/i_made_tiny_sliders_for_minimax_h3_that_control/"/>
-<published>2026-10-30T23:52:31+00:00</published><updated>2026-10-30T23:52:31+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<category term="minimax"/>
-<category term="lora"/>
-<summary>Made this for the Open Source Higgsfield challenge. ComfyUI-Dials lets you turn pairs of prompts into reusable ~14 KB sliders. No training required. You can control motion, mood, acting style, and more. Stack them with each other or with LoRAs. They can even influence generated audio. The video show</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 6 · comfyui, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Made this for the Open Source Higgsfield challenge. ComfyUI-Dials lets you turn pairs of prompts into reusable ~14 KB sliders. No training required. You can control motion, mood, acting style, and more. Stack them with each other or with LoRAs. They can even influence generated audio. The video shows some of the experiments and results. The UX is still being polished, and I'm working on better calibration for exporting dials as LoRAs. Hopefully more improvements coming soon! Demo: https://matlowai.github.io/ComfyUI-Dials/ GitHub: https://github.com/matlowai/ComfyUI-Dials Dials: https://huggingface.co/MATLOWAI/H3-Dials Curious what odd/fun things people will do. I'll adapt it for more models &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xjvasi/i_made_tiny_sliders_for_minimax_h3_that_control/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
