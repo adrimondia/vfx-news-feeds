@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-14T05:31:10+00:00</updated>
+<updated>2026-11-14T07:31:11+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xvt03y/moss_anypaint_arbitrarymask_inpainting_and/</id><title>MOSS AnyPaint: arbitrary-mask inpainting and outpainting in one LoRA</title>
@@ -26,6 +26,15 @@
 <category term="lora"/>
 <summary>I'm kind of on hurry to wait for community to make them and they are confusing with video model one, do they work? And the important question are they as good as one's that will be trained later? Like for example, Realism or Old camera style ones. I have a feeling the video model had lower quality a</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 5 · video model, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I'm kind of on hurry to wait for community to make them and they are confusing with video model one, do they work? And the important question are they as good as one's that will be trained later? Like for example, Realism or Old camera style ones. I have a feeling the video model had lower quality and plastic skin due to being a video than the image model had, that's why I'm asking that. submitted by /u/Star-Light-9698 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xvr272/do_minimax_h3_videos_lora_work_on_minimax_h3_image/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xvoh0a/one_of_the_biggest_challenges_in_lora_training_is/</id><title>One of the biggest challenges in LoRA training is the issue of LoRA weight. Adjusting it—increasing it to 1.1 or decreasing it to 0.9—introduces another variable. Furthermore, there are now new nodes that allow for increasing the weight of specific words</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xvoh0a/one_of_the_biggest_challenges_in_lora_training_is/"/>
+<published>2026-11-14T00:27:17+00:00</published><updated>2026-11-14T00:27:17+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="lora"/>
+<summary>Should I train my LoRA for longer, or just increase the weight? Could an overtrained LoRA actually perform better if used at a lower weight? And what about the weight of specific prompts—especially the trigger word? submitted by /u/Inevitable_Pen9043 [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Should I train my LoRA for longer, or just increase the weight? Could an overtrained LoRA actually perform better if used at a lower weight? And what about the weight of specific prompts—especially the trigger word? submitted by /u/Inevitable_Pen9043 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xvoh0a/one_of_the_biggest_challenges_in_lora_training_is/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/vfx/comments/1xvm4ie/scientific_animator_here_how_do_you_combine/</id><title>Scientific animator here: how do you combine color-managed EXRs (Filmic/AgX) with non-color-managed graphics in the same shot? Resolve vs. AE from Blender</title>
@@ -7237,67 +7246,5 @@
 <category term="vfx"/>
 <summary>submitted by /u/ColdAnimator5040 [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/ColdAnimator5040 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xk4g52/where_can_find_free_shotgun_firing_vfx_asset/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xk3n70/i_unlocked_bf16_on_an_rtx_4090_and_compared_it_to/</id><title>I Unlocked BF16 on an RTX 4090 and Compared It to an RTX 5090 (on Windows 11)</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xk3n70/i_unlocked_bf16_on_an_rtx_4090_and_compared_it_to/"/>
-<published>2026-10-31T07:12:10+00:00</published><updated>2026-10-31T07:12:10+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="video generation"/>
-<category term="comfyui"/>
-<category term="minimax"/>
-<category term="lora"/>
-<summary>Using MarvinFS’s tool, I successfully unlocked BF16 on the RTX 4090 running Windows 11. https://github.com/MarvinFS/rtx4090-uefi/releases It was very easy, so if you have an RTX 4090 whose manufacturer’s warranty has expired, why not give it a try? I tested several image and video generation tasks u</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · video generation, comfyui, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Using MarvinFS’s tool, I successfully unlocked BF16 on the RTX 4090 running Windows 11. https://github.com/MarvinFS/rtx4090-uefi/releases It was very easy, so if you have an RTX 4090 whose manufacturer’s warranty has expired, why not give it a try? I tested several image and video generation tasks using ComfyUI and compared the results with those of the RTX 5090, as shown below. Hardware &amp;amp; Software CPU RAM SSD OS Driver ComfyUI Startup Flags All results were obtained using the same GeForce driver and the same computer. SDXL GPU Generate Speed RTX 5090 23.15 sec 12.10 it/s RTX 4090 Unlock 27.62 sec 10.14 it/s RTX 4090 Unlock(no --fast) 30.21 sec 9.27 it/s RTX 4090 30.11 sec 9.30 it/s prefectI&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xk3n70/i_unlocked_bf16_on_an_rtx_4090_and_compared_it_to/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xk3c1x/i_built_a_zerovram_disk_streaming_engine_comfyui/</id><title>I built a Zero-VRAM disk streaming engine &amp; ComfyUI node to run 14B Video (Wan2.1) &amp; 12B DiTs on 8GB GPUs and 16GB Macs (788MB Peak VRAM)</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xk3c1x/i_built_a_zerovram_disk_streaming_engine_comfyui/"/>
-<published>2026-10-31T06:53:35+00:00</published><updated>2026-10-31T06:53:35+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="denoising"/>
-<category term="comfyui"/>
-<category term="flux"/>
-<category term="wan2"/>
-<category term="dit"/>
-<summary>Hey everyone! Running massive frontier DiT models like Wan2.1 (14B), FLUX.1 (12B), and Z-Image-Turbo (11B) usually demands 24GB–40GB of VRAM, instantly crashing consumer 8GB/12GB RTX GPUs and 16GB Macs. To solve this, I built and open-sourced **PhobosStream** and its companion custom node **ComfyUI-</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 7 · denoising, comfyui, flux, wan2, dit&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey everyone! Running massive frontier DiT models like Wan2.1 (14B), FLUX.1 (12B), and Z-Image-Turbo (11B) usually demands 24GB–40GB of VRAM, instantly crashing consumer 8GB/12GB RTX GPUs and 16GB Macs. To solve this, I built and open-sourced **PhobosStream** and its companion custom node **ComfyUI-PhobosStream**: 🔗 GitHub: https://github.com/martianacademy/phobos-stream 🎨 ComfyUI Node: https://github.com/martianacademy/ComfyUI-PhobosStream ### 📊 Benchmark Numbers (Live on Apple Silicon Metal GPU): - Monolithic VRAM Baseline: ~38.4 GB (Instant OOM) - **PhobosStream Peak VRAM: 788.11 MB (&amp;gt;97% memory saved!)** - Z-Image-Turbo (11B DiT @ 1024x1024): 4.79s / step (8 steps = 38.33s pure sampling)&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xk3c1x/i_built_a_zerovram_disk_streaming_engine_comfyui/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xk38fa/scary_future_codex_disabled_my_comfyui_on_purpose/</id><title>[Scary Future?] Codex disabled my ComfyUI (on purpose) and refused to fix it</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xk38fa/scary_future_codex_disabled_my_comfyui_on_purpose/"/>
-<published>2026-10-31T06:47:08+00:00</published><updated>2026-10-31T06:47:08+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<summary>For anyone unfamiliar, Codex is OpenAI’s AI coding agent. It can work with local files, run commands, and help set up or troubleshoot software. I downloaded eight Krea 2 checkpoints and asked Codex to create a comparison grid using the same neutral prompt for each one. I wanted to see how the models</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;For anyone unfamiliar, Codex is OpenAI’s AI coding agent. It can work with local files, run commands, and help set up or troubleshoot software. I downloaded eight Krea 2 checkpoints and asked Codex to create a comparison grid using the same neutral prompt for each one. I wanted to see how the models compared. About three images in, Codex stopped the job because it said one of the images contained nudity. That wasn’t what I’d requested. I checked the output myself. It wasn’t anything extreme: just a woman taking a selfie in an apartment with one breast partially exposed. She clearly appeared to be in her late twenties. Apparently, one of the checkpoints interpreted the neutral prompt differen&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xk38fa/scary_future_codex_disabled_my_comfyui_on_purpose/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xk2sx1/its_not_perfect_but_i_made_this_on_8gb_vram_in/</id><title>It’s not perfect but I made this on 8gb vram in comfy with chat gpt making the first frames (song is original too)</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xk2sx1/its_not_perfect_but_i_made_this_on_8gb_vram_in/"/>
-<published>2026-10-31T06:20:00+00:00</published><updated>2026-10-31T06:20:00+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="ltx"/>
-<category term="lora"/>
-<summary>Doing some spooky content for Halloween, will probably delete later. Ltx 2.5 base workflow with a Lora added. I’m not as smart as yall so I’m not doing crazy tech stuff. submitted by /u/izzray [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · ltx, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Doing some spooky content for Halloween, will probably delete later. Ltx 2.5 base workflow with a Lora added. I’m not as smart as yall so I’m not doing crazy tech stuff. submitted by /u/izzray [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xk2sx1/its_not_perfect_but_i_made_this_on_8gb_vram_in/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xk2l8f/minimax_h3_4k/</id><title>MINIMAX H3 4K</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xk2l8f/minimax_h3_4k/"/>
-<published>2026-10-31T06:06:45+00:00</published><updated>2026-10-31T06:06:45+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="minimax"/>
-<summary>submitted by /u/Extension-Yard1918 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/Extension-Yard1918 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xk2l8f/minimax_h3_4k/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xk2jhh/minimax_h3_4k/</id><title>MINIMAX H3 4K</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xk2jhh/minimax_h3_4k/"/>
-<published>2026-10-31T06:03:38+00:00</published><updated>2026-10-31T06:03:38+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="minimax"/>
-<summary>This is 4K footage generated using an RTX PRO 6000. The original, unedited output has been downscaled to 1080p due to file size constraints. It’s reaching a point where I no longer envy commercial models. submitted by /u/Extension-Yard1918 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;This is 4K footage generated using an RTX PRO 6000. The original, unedited output has been downscaled to 1080p due to file size constraints. It’s reaching a point where I no longer envy commercial models. submitted by /u/Extension-Yard1918 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xk2jhh/minimax_h3_4k/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
