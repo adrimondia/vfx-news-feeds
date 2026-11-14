@@ -2,8 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-14T01:31:09+00:00</updated>
+<updated>2026-11-14T03:31:08+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1xvm4ie/scientific_animator_here_how_do_you_combine/</id><title>Scientific animator here: how do you combine color-managed EXRs (Filmic/AgX) with non-color-managed graphics in the same shot? Resolve vs. AE from Blender</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xvm4ie/scientific_animator_here_how_do_you_combine/"/>
+<published>2026-11-13T22:43:19+00:00</published><updated>2026-11-13T22:43:19+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="animation"/>
+<category term="compositing"/>
+<category term="render"/>
+<category term="blender"/>
+<summary>Hi Friends, I have a specific workflow that I think other people also have, but I haven't come up with a good solution and haven't seen this summarized in another post, which is why I am making a new one. I’m a freelance scientific animator working in Blender, plus After Effects or Resolve. Most of </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 5 · animation, compositing, render, blender&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi Friends, I have a specific workflow that I think other people also have, but I haven't come up with a good solution and haven't seen this summarized in another post, which is why I am making a new one. I’m a freelance scientific animator working in Blender, plus After Effects or Resolve. Most of my work is fully 3D animation (no real footage), with graphics on top of or integrated into it: indicators, insert shots with borders, masks, text callouts, etc. I haven’t found a great way to do this in either Resolve or AE. I render out of Blender with Filmic, AgX, or ACES because it gives me more control over color in compositing, and Standard blows out highlights way too easily. That makes com&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xvm4ie/scientific_animator_here_how_do_you_combine/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/vfx/comments/1xvk4xu/macro_petri_dish_practical_effects_through_the/</id><title>Macro Petri Dish Practical Effects - Through the Void</title>
 <link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xvk4xu/macro_petri_dish_practical_effects_through_the/"/>
@@ -111,6 +123,16 @@
 <category term="lora"/>
 <summary>I tested how much GPU overclocking, ComfyUI launch flags, and moving my display to the iGPU actually affected generation speed on my 5070 Ti 16 GB . The biggest finding: OC helped consistently, but the launch flags made a much bigger difference on certain models. On others, those same flags did almo</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 5 · comfyui, flux, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I tested how much GPU overclocking, ComfyUI launch flags, and moving my display to the iGPU actually affected generation speed on my 5070 Ti 16 GB . The biggest finding: OC helped consistently, but the launch flags made a much bigger difference on certain models. On others, those same flags did almost nothing. Going forward I implemented a script in ComfyUI launch that automatically applies stable overclock settings to my GPU on run and then reverts to stock once ComfyUI is closed. All diffusion models tested were int8_convrot builds, using the official ComfyUI template settings. Setup RTX 5070 Ti 16 GB (Gigabyte Gaming OC), AMD Ryzen 7 9800X3D, 48 GB DDR5-6000 Windows 11 Pro, Samsung 9100 P&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xva70a/rtx_5070_ti_comfyui_benchmarks_overclock_cut_gen/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1xva59f/how_bad_of_an_idea_is_it_to_start_a_small_vfx/</id><title>How bad of an idea is it to start a small vfx studio right now?</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xva59f/how_bad_of_an_idea_is_it_to_start_a_small_vfx/"/>
+<published>2026-11-13T15:02:08+00:00</published><updated>2026-11-13T15:02:08+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="tracking"/>
+<category term="vfx"/>
+<summary>I know you're initially thinking that that sounds like the worst idea ever... but... I'm tired of working this long, hard job for somebody else, as I'm sure most of us are. VFX is definitely fading in some ways, and I see this as the rise of the 'boutique', 'independent', 'small' studio. It would fo</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 3 · tracking, vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I know you're initially thinking that that sounds like the worst idea ever... but... I'm tired of working this long, hard job for somebody else, as I'm sure most of us are. VFX is definitely fading in some ways, and I see this as the rise of the 'boutique', 'independent', 'small' studio. It would focus on short-form media; think ads, billboards, social media. And it will also use AI tools, such as Comfy UI. I know it's probably controversial to say that in this chat, but... if we don't embrace AI at least as a tool, we will get left behind by the ones who do. UV mapping and tracking isn't here forever. Using these tools will allow a small team of a few people to complete these jobs... Though&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xva59f/how_bad_of_an_idea_is_it_to_start_a_small_vfx/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1xv8gex/ltx25_and_reference_images/</id><title>LTX2.5 and reference images?</title>
@@ -7264,35 +7286,5 @@
 <category term="comfyui"/>
 <summary>Since I needed to do some video editing work, I had to switch my main workflow environment back to Windows. I’ve been following the official llm-scaler/omni/ repo for a bit, and they’ve done a lot of validation and support specifically for Windows ComfyUI users. Component Structure I tried building </summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · video editing, comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Since I needed to do some video editing work, I had to switch my main workflow environment back to Windows. I’ve been following the official llm-scaler/omni/ repo for a bit, and they’ve done a lot of validation and support specifically for Windows ComfyUI users. Component Structure I tried building it myself to run on both the Arc B580 and B70, and it compiled smoothly on both—with noticeable performance improvements. Later, I ran a side-by-side benchmark at work comparing the omnixpu accelerated environment with the native pytorchxpu environment. Here are the log results: Krea2Edit H3-Fl2va, 10s While the official repo currently targets BMG (Battlemage) architecture GPUs, you can already fi&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xk138h/been_using_intel_omni_acceleration_on_b580_b70_in/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xjzrty/making_a_short_anime_scene_from_character_sheets/</id><title>Making a short anime scene from character sheets with FastH3 + ComfyUI</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xjzrty/making_a_short_anime_scene_from_character_sheets/"/>
-<published>2026-10-31T03:27:24+00:00</published><updated>2026-10-31T03:27:24+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="animation"/>
-<category term="comfyui"/>
-<category term="mochi"/>
-<summary>I’ve been experimenting with turning character sheets and a location reference into short anime scenes. This one is a ten-second laundromat comedy: Kai opens a washer, Mochi gets covered in foam, and Niko laughs. The video shows the result alongside the workflow. No audio on this post. Here’s the ba</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · animation, comfyui, mochi&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I’ve been experimenting with turning character sheets and a location reference into short anime scenes. This one is a ten-second laundromat comedy: Kai opens a washer, Mochi gets covered in foam, and Niko laughs. The video shows the result alongside the workflow. No audio on this post. Here’s the basic process: Create the references. I used my custom Krea 2 Wulver fine-tune to make separate character sheets for Kai, Niko and Mochi, plus an empty laundromat image. Load all four images into ComfyUI. Each reference has a specific role: three define the characters, and one defines the environment. Write the scene shot by shot. The prompt breaks the action into five two-second beats, describing s&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xjzrty/making_a_short_anime_scene_from_character_sheets/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1xjzouy/new_houdini_rain_fx_tutorial_go_check_out/</id><title>New houdini Rain fx tutorial go check out</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xjzouy/new_houdini_rain_fx_tutorial_go_check_out/"/>
-<published>2026-10-31T03:23:08+00:00</published><updated>2026-10-31T03:23:08+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="houdini"/>
-<summary>submitted by /u/No_Apricot5216 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · houdini&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/No_Apricot5216 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xjzouy/new_houdini_rain_fx_tutorial_go_check_out/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xjy0in/flux1dev_1970s_lora/</id><title>Flux.1.Dev 1970s Lora</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xjy0in/flux1dev_1970s_lora/"/>
-<published>2026-10-31T01:57:52+00:00</published><updated>2026-10-31T01:57:52+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="flux"/>
-<category term="lora"/>
-<summary>also available here on civit.ai https://civitai.com/models/3028998/70s-style if you download or use it consider adding sample images or a comment. thanks and enjoy! apparently engaging politely gets me downvotes from the babies. so ill just edit this. if you have no use for a flux dev lora then just</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · flux, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;also available here on civit.ai https://civitai.com/models/3028998/70s-style if you download or use it consider adding sample images or a comment. thanks and enjoy! apparently engaging politely gets me downvotes from the babies. so ill just edit this. if you have no use for a flux dev lora then just leave. easy as that. it's not your compute to dictate its use. Flux 1 is still a good model and just because its not the latest or greatest doesn't negate it's worth. submitted by /u/freshstart2027 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xjy0in/flux1dev_1970s_lora/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
