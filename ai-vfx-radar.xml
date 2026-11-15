@@ -2,8 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-15T17:31:09+00:00</updated>
+<updated>2026-11-15T19:31:09+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xx376j/realtime_talking_avatar_generated_locally_with/</id><title>Real-time talking avatar generated locally with SoulX-FlashHead + LFM3-Audio</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xx376j/realtime_talking_avatar_generated_locally_with/"/>
+<published>2026-11-15T18:42:29+00:00</published><updated>2026-11-15T18:42:29+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="video generation"/>
+<category term="avatar"/>
+<summary>I've been experimenting with real-time talking-head generation using SoulX-FlashHead, combined with local speech models to build an interactive avatar that can listen and respond. The whole pipeline runs locally, and the demo is available in the audio.cpp v0.9.5 WebUI. The workflow combines three mo</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · video generation, avatar&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I've been experimenting with real-time talking-head generation using SoulX-FlashHead, combined with local speech models to build an interactive avatar that can listen and respond. The whole pipeline runs locally, and the demo is available in the audio.cpp v0.9.5 WebUI. The workflow combines three models: SoulX-FlashHead: Animates a portrait in real time from generated speech. OWSM v4: Transcribes voice input. LFM3-Audio: Handles conversational responses and speech synthesis. One interesting detail: LFM3-Audio is called twice. Its speech-to-speech path only offers one voice, so we use its TTS capability separately to synthesize responses in a different voice. Performance and limitations On an&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xx376j/realtime_talking_avatar_generated_locally_with/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/vfx/comments/1xx0tm3/trying_a_little_amount_of_compositing_work_for_an/</id><title>Trying a little amount of compositing work for an ad.</title>
 <link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xx0tm3/trying_a_little_amount_of_compositing_work_for_an/"/>
@@ -13,6 +23,19 @@
 <category term="blender"/>
 <summary>Used blender to create the cg background and I did the rest in after effects to make it match with the character plate and the cg lighting. submitted by /u/superz123q [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 3 · compositing, blender&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Used blender to create the cg background and I did the rest in after effects to make it match with the character plate and the cg lighting. submitted by /u/superz123q [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xx0tm3/trying_a_little_amount_of_compositing_work_for_an/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xx06c8/the_new_minimax_h3_image_model_seems_rushed_and/</id><title>The new Minimax H3- Image Model seems rushed and buggy.</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xx06c8/the_new_minimax_h3_image_model_seems_rushed_and/"/>
+<published>2026-11-15T16:45:03+00:00</published><updated>2026-11-15T16:45:03+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="video model"/>
+<category term="minimax"/>
+<category term="hailuo"/>
+<category term="consistency"/>
+<category term="character consistency"/>
+<summary>I will be honest, i have tried the Minimax H3 Image when it dropped on comfy day 0 and the images were amazing, but lacking detail despite being very high resolution. I thought maybe upping the MP would fix it but it didn't and then there came the anatomy issues as well. I checked some posts about t</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 6 · video model, minimax, hailuo, consistency, character consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I will be honest, i have tried the Minimax H3 Image when it dropped on comfy day 0 and the images were amazing, but lacking detail despite being very high resolution. I thought maybe upping the MP would fix it but it didn't and then there came the anatomy issues as well. I checked some posts about this, got the p-h3 vae and all but it still didn't fix it. So checked another post talking about how the edit mode is better and i was happy but that was actually FAR WORSE. It lacks character consistency, its too prompt sensitive in a bad way, and its just not good. Now i do not know if Hailuo is at fault or Comfy just released some poorly fine tuned version, is anybody else feeling the same way o&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xx06c8/the_new_minimax_h3_image_model_seems_rushed_and/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xwz98f/looks_like_ltx25_are_faking_likes_to_game_the/</id><title>Looks like LTX-2.5 are faking likes to game the trending tab, with heavy evidence</title>
@@ -6936,54 +6959,5 @@
 <category term="ltx"/>
 <summary>Fellow AMD ai enthusiasts, now that image gen is already mastered on our gpus (zIT, MOSS, krea2 etc working fast enough with loras and as stable as a rock) what about video gen ? Have you got enough luck with minimax h3 or ltx 2.5 ( since it’s faster) ? I personally tried minimax h3 and the speed is</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · video model, minimax, ltx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Fellow AMD ai enthusiasts, now that image gen is already mastered on our gpus (zIT, MOSS, krea2 etc working fast enough with loras and as stable as a rock) what about video gen ? Have you got enough luck with minimax h3 or ltx 2.5 ( since it’s faster) ? I personally tried minimax h3 and the speed is awful, 8 minutes to generate 5 480p secondes, is there something for us AMD users to accelerate things or some video model that works good enough on our cards ??? submitted by /u/darthrehad [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xlcbcx/video_gen_on_9070_xt_nowadays/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xlbhck/long_wait_times_on_my_m1_ultra_mac/</id><title>Long wait times on my M1 Ultra mac</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xlbhck/long_wait_times_on_my_m1_ultra_mac/"/>
-<published>2026-11-01T19:07:29+00:00</published><updated>2026-11-01T19:07:29+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<category term="ltx"/>
-<summary>Hi all. To begin with, yes I have a Mac. It's the only computer I have and getting something with Cuda is not in the budget. I'm running LTX 2.5 image to video and it takes 18min to generate a 6 second clip. Using Comfyui desktop, I've installed and am running Q4KM gguf, Video and audio Vae bf16 nod</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui, ltx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi all. To begin with, yes I have a Mac. It's the only computer I have and getting something with Cuda is not in the budget. I'm running LTX 2.5 image to video and it takes 18min to generate a 6 second clip. Using Comfyui desktop, I've installed and am running Q4KM gguf, Video and audio Vae bf16 nodes, Gemma 12b bf16 text encoder, Vae decode tiled. Tile size 512. I've tried using default and GPU only in the startup arguments. System claims it is using MPS. Pytorch 2.13 for Apple Silicon. Python 3.13.12. It consistently takes approx 18 min to generate a 6 second clip and from what I've researched, it should take around 6-7 min. Even that is long compared to Nvidia computers, but I'd be deligh&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xlbhck/long_wait_times_on_my_m1_ultra_mac/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xlb650/comfyui_plugin_update_1400_visual_styles_for_krea/</id><title>ComfyUI Plugin Update: 1400+ Visual Styles for Krea 2, WebP Workflow Embedding, &amp; Persistent AI Prompt Storage!</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xlb650/comfyui_plugin_update_1400_visual_styles_for_krea/"/>
-<published>2026-11-01T18:55:24+00:00</published><updated>2026-11-01T18:55:24+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<summary>Hey SD community, I've put together a set of utilities designed to polish up the ComfyUI experience and supercharge prompting options. 🔗 Repository: https://github.com/skkut/ComfyUI-skkut-utils What's New &amp; Included: 1400+ Visual Style Picker for Krea 2: A massive visual selector for Krea 2 image ge</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey SD community, I've put together a set of utilities designed to polish up the ComfyUI experience and supercharge prompting options. 🔗 Repository: https://github.com/skkut/ComfyUI-skkut-utils What's New &amp;amp; Included: 1400+ Visual Style Picker for Krea 2: A massive visual selector for Krea 2 image generation (massive credits to u/Dear-Spend-2865 , Clio style preview and OreX nodes for sharing this prompt collection). AI Enhanced Prompt Preservation: Ever use an LLM or prompt expander inside ComfyUI only to lose the final enhanced prompt in the saved image metadata? The custom text node included here saves the enhanced prompt directly to the workflow JSON, allowing full prompt reconstruction u&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xlb650/comfyui_plugin_update_1400_visual_styles_for_krea/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xlb61g/plenio_15_a_complete_song_studio_inside_comfyui/</id><title>Plenio 1.5: A complete song studio inside ComfyUI: your own lyrics sung as written, templates you can see, creativity up to 200, freer covers</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xlb61g/plenio_15_a_complete_song_studio_inside_comfyui/"/>
-<published>2026-11-01T18:55:18+00:00</published><updated>2026-11-01T18:55:18+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="flux"/>
-<category term="minimax"/>
-<summary>Hi r/comfyui It's me again. There is a massive update of the completely free and open source YuE2 generation tool! Plenio is a custom node pack that turns ComfyUI into a complete song production suite. Let it make a batch of finished, mastered songs on its ow, or take every word and every note into </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · comfyui, flux, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi r/comfyui It's me again. There is a massive update of the completely free and open source YuE2 generation tool! Plenio is a custom node pack that turns ComfyUI into a complete song production suite. Let it make a batch of finished, mastered songs on its ow, or take every word and every note into your own hands: DAW style: a brief → a local LLM writes title, style and lyrics → you see and edit exactly what the music model gets (Song Sheet, with the exact token budget) → YuE2 or MiniMax Music 3 renders it → Plenio masters it (Audio HQ, tone match, −14 LUFS / −1 dBTP) → release files with tags, cover art (FLUX.2 Klein), timed lyrics, sheet music and the whole project inside the FLAC. A playe&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xlb61g/plenio_15_a_complete_song_studio_inside_comfyui/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xl9epi/few_tips_i_learned_as_a_total_noob_with_minimax_h3/</id><title>Few tips I learned as a total noob with minimax h3</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xl9epi/few_tips_i_learned_as_a_total_noob_with_minimax_h3/"/>
-<published>2026-11-01T17:46:27+00:00</published><updated>2026-11-01T17:46:27+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="minimax"/>
-<summary>I'm finally kind of happy about my last video ( french ). Here's a few tips that are obvious but didn't know in order to avoid spending hours doing reshoots: Work the audio first. Don't try to squeeze a line so that it fits a shot, it's the other way around. Use distinguishable characters: in this v</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I'm finally kind of happy about my last video ( french ). Here's a few tips that are obvious but didn't know in order to avoid spending hours doing reshoots: Work the audio first. Don't try to squeeze a line so that it fits a shot, it's the other way around. Use distinguishable characters: in this video, I purposely added a hood to the male cyber scavenger as I was getting character swaps in the prompts with two people "having fluo shirts". Also, the scene having a red neon side and a green neon side helps for character placement. Use a skill for prompt on top of the h3 prompting skill and add the rules you like ( don't look at the camera, use shallow depth of field, etc.) This is ref2va, av&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xl9epi/few_tips_i_learned_as_a_total_noob_with_minimax_h3/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xl9edx/benchmark_technical_analysis_flux1dev_inference/</id><title>[Benchmark &amp; Technical Analysis] FLUX.1-dev inference scaling &amp; FP16 tensor throughput on RTX 4090 under Windows</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xl9edx/benchmark_technical_analysis_flux1dev_inference/"/>
-<published>2026-11-01T17:46:09+00:00</published><updated>2026-11-01T17:46:09+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<category term="flux"/>
-<summary>Hey everyone, I've been conducting a series of reproducible benchmarks examining tensor execution throughput and driver-level rate limits on Ada Lovelace architecture under Windows, specifically testing whether FLUX.1-dev generation times can scale closer to raw silicon limits.Here are the test resu</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey everyone, I've been conducting a series of reproducible benchmarks examining tensor execution throughput and driver-level rate limits on Ada Lovelace architecture under Windows, specifically testing whether FLUX.1-dev generation times can scale closer to raw silicon limits.Here are the test results, methodology, and thermal telemetry from my local test rig. ### 1. Generative AI Benchmark: FLUX.1-dev (ComfyUI) * **Configuration:** ComfyUI, FLUX.1-dev (fp8 checkpoint, fp16 text encoders), Euler sampler, 20 steps, 1024x1024 resolution. * **Stock Baseline:** 34.2 seconds (~1.20 it/s) * **Optimized Hardware State:** 24.1 seconds (~1.97 it/s) * **Observed Speedup:** +64.2% higher inference thr&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xl9edx/benchmark_technical_analysis_flux1dev_inference/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
