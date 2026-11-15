@@ -2,8 +2,52 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-15T15:31:08+00:00</updated>
+<updated>2026-11-15T17:31:09+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1xx0tm3/trying_a_little_amount_of_compositing_work_for_an/</id><title>Trying a little amount of compositing work for an ad.</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xx0tm3/trying_a_little_amount_of_compositing_work_for_an/"/>
+<published>2026-11-15T17:09:52+00:00</published><updated>2026-11-15T17:09:52+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="compositing"/>
+<category term="blender"/>
+<summary>Used blender to create the cg background and I did the rest in after effects to make it match with the character plate and the cg lighting. submitted by /u/superz123q [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 3 · compositing, blender&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Used blender to create the cg background and I did the rest in after effects to make it match with the character plate and the cg lighting. submitted by /u/superz123q [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xx0tm3/trying_a_little_amount_of_compositing_work_for_an/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xwz98f/looks_like_ltx25_are_faking_likes_to_game_the/</id><title>Looks like LTX-2.5 are faking likes to game the trending tab, with heavy evidence</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xwz98f/looks_like_ltx25_are_faking_likes_to_game_the/"/>
+<published>2026-11-15T16:08:59+00:00</published><updated>2026-11-15T16:08:59+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="wan2"/>
+<category term="minimax"/>
+<category term="ltx"/>
+<category term="consistency"/>
+<summary>TL;DR LTX-2.5 likes are anomalous. Full HF thread: https://huggingface.co/Lightricks/LTX-2.5/discussions/97 . For those who already forgot about it, LTX-2 was basically the only open text-to-video-audio model earlier this year, even though it was censored, had poor copyright/anime knowledge, and was</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · wan2, minimax, ltx, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;TL;DR LTX-2.5 likes are anomalous. Full HF thread: https://huggingface.co/Lightricks/LTX-2.5/discussions/97 . For those who already forgot about it, LTX-2 was basically the only open text-to-video-audio model earlier this year, even though it was censored, had poor copyright/anime knowledge, and was weak compared to closed models (Wan2.5, Sora2). Then MiniMax suddenly dropped H3 in August and blew past it. LTX quickly followed with LTX-2.5, which was even more censored, less impressive follow-up. Objective video benchmarks (IFM measured it in comparison with their own recent PAN2 model and MiniMax - https://huggingface.co/IFM/PAN2 ) show that it is far behind H3 mathematically, therefore it'&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xwz98f/looks_like_ltx25_are_faking_likes_to_game_the/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xwycw5/is_one_5090_enough_to_make_a_whole_ai_series_at/</id><title>Is one 5090 enough to make a whole AI series at home? What a 2.5-minute sci-fi pilot took with MiniMax H3 in ComfyUI</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xwycw5/is_one_5090_enough_to_make_a_whole_ai_series_at/"/>
+<published>2026-11-15T15:32:01+00:00</published><updated>2026-11-15T15:32:01+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="render"/>
+<category term="comfyui"/>
+<category term="minimax"/>
+<category term="lora"/>
+<category term="consistency"/>
+<summary>I'm making a hard sci-fi series alone in Budapest, and I wanted to find out how far one home GPU actually goes. Every shot in the pilot is MiniMax H3 running locally in ComfyUI on a single RTX 5090, hybrid fl2va + ref2va in int8. No cloud, no credits, no meter running per generation. What made it wo</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 7 · render, comfyui, minimax, lora, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I'm making a hard sci-fi series alone in Budapest, and I wanted to find out how far one home GPU actually goes. Every shot in the pilot is MiniMax H3 running locally in ComfyUI on a single RTX 5090, hybrid fl2va + ref2va in int8. No cloud, no credits, no meter running per generation. What made it workable is splitting every shot into two stages. First a 4-step preview with the DMAD LoRA at 672x384, about a minute per take, usually three seeds per idea. I watch those, throw most of them away, and only the take I'd actually cut in goes to the native render at 1344x768, 20 steps, same seed and same refs. That one then goes through a tiled 2x H3 upscale and down to 1080p. Most of the GPU time go&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xwycw5/is_one_5090_enough_to_make_a_whole_ai_series_at/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xwy7do/minimax_h3_image_edit/</id><title>MiniMax h3 Image Edit?</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xwy7do/minimax_h3_image_edit/"/>
+<published>2026-11-15T15:25:36+00:00</published><updated>2026-11-15T15:25:36+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="minimax"/>
+<summary>If a model can do this, does that mean she's an editing model?)) All generations from 1 attempt, even one fail in terms of pose. submitted by /u/VasaFromParadise [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;If a model can do this, does that mean she's an editing model?)) All generations from 1 attempt, even one fail in terms of pose. submitted by /u/VasaFromParadise [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xwy7do/minimax_h3_image_edit/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xwvd4f/if_minimax_h3_image_can_do_16mp_why_testing_on/</id><title>If Minimax H3 Image can do 16MP why testing on 1girl? Let's go straight to 16girls!</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xwvd4f/if_minimax_h3_image_can_do_16mp_why_testing_on/"/>
@@ -6941,57 +6985,5 @@
 <category term="flux"/>
 <summary>Hey everyone, I've been conducting a series of reproducible benchmarks examining tensor execution throughput and driver-level rate limits on Ada Lovelace architecture under Windows, specifically testing whether FLUX.1-dev generation times can scale closer to raw silicon limits.Here are the test resu</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey everyone, I've been conducting a series of reproducible benchmarks examining tensor execution throughput and driver-level rate limits on Ada Lovelace architecture under Windows, specifically testing whether FLUX.1-dev generation times can scale closer to raw silicon limits.Here are the test results, methodology, and thermal telemetry from my local test rig. ### 1. Generative AI Benchmark: FLUX.1-dev (ComfyUI) * **Configuration:** ComfyUI, FLUX.1-dev (fp8 checkpoint, fp16 text encoders), Euler sampler, 20 steps, 1024x1024 resolution. * **Stock Baseline:** 34.2 seconds (~1.20 it/s) * **Optimized Hardware State:** 24.1 seconds (~1.97 it/s) * **Observed Speedup:** +64.2% higher inference thr&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xl9edx/benchmark_technical_analysis_flux1dev_inference/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xl8hgc/how_are_people_replacing_characters_in_porn_so/</id><title>How are people replacing characters in porn so consistently</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xl8hgc/how_are_people_replacing_characters_in_porn_so/"/>
-<published>2026-11-01T17:10:58+00:00</published><updated>2026-11-01T17:10:58+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="wan"/>
-<category term="ltx"/>
-<summary>I see the exact videos with two different people and it's really well done and I just cant figure out how. Tried H3, wan animate, SCAIL, LTX, generate first frame with Krea then animate with mvmnt nothing comes close. Wan Animate seems like the closest thing but it doesn't really do NSFW, so the wom</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · wan, ltx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I see the exact videos with two different people and it's really well done and I just cant figure out how. Tried H3, wan animate, SCAIL, LTX, generate first frame with Krea then animate with mvmnt nothing comes close. Wan Animate seems like the closest thing but it doesn't really do NSFW, so the woman just does bj to air or something submitted by /u/likingfirst [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xl8hgc/how_are_people_replacing_characters_in_porn_so/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xl8fyk/need_suggestions_for_models/</id><title>Need Suggestions for models.</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xl8fyk/need_suggestions_for_models/"/>
-<published>2026-11-01T17:09:25+00:00</published><updated>2026-11-01T17:09:25+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="image-to-video"/>
-<category term="comfyui"/>
-<category term="ltx"/>
-<summary>Hello Folks. So I have recently downloaded ComfyUI. I tested the high-end models that I was eager to try out, but unfortunately, my system is just too weak. I can create at low resolutions, like if I use an LTX 2.3, but the result is just horrible. Maybe my workflow is wrong. I don't know. Can someo</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · image-to-video, comfyui, ltx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hello Folks. So I have recently downloaded ComfyUI. I tested the high-end models that I was eager to try out, but unfortunately, my system is just too weak. I can create at low resolutions, like if I use an LTX 2.3, but the result is just horrible. Maybe my workflow is wrong. I don't know. Can someone check my configuration and tell me what models would work well? I prefer image-to-video because I have some plans for YouTube video content. In case someone is curious, I am planning to create episodes, and the video would be like 15- 20 minutes in an arcane style. My laptop is an ASUS TUF Gaming A15. Any advice would be helpful. Thanks. submitted by /u/Starfieldmemer [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xl8fyk/need_suggestions_for_models/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xl8dyb/install_ltx_25_msr/</id><title>Install LTX 2.5 MSR</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xl8dyb/install_ltx_25_msr/"/>
-<published>2026-11-01T17:07:20+00:00</published><updated>2026-11-01T17:07:20+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="ltx"/>
-<summary>I've just startied using ComfyUI for generating images and short videos. I tryng to install LTX 2.5 MSR. How would I do that? Would I install into the diffusion_models folder? Thanks submitted by /u/MissJewel2021 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · comfyui, ltx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I've just startied using ComfyUI for generating images and short videos. I tryng to install LTX 2.5 MSR. How would I do that? Would I install into the diffusion_models folder? Thanks submitted by /u/MissJewel2021 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xl8dyb/install_ltx_25_msr/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xl7ck6/wan_22_colour_pulse_midway_through_a_clip_check/</id><title>Wan 2.2 colour pulse midway through a clip? Check temporal_size on VAE Decode (Tiled). Plus other notes from a second music video on one AMD card</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xl7ck6/wan_22_colour_pulse_midway_through_a_clip_check/"/>
-<published>2026-11-01T16:26:51+00:00</published><updated>2026-11-01T16:26:51+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="lip sync"/>
-<category term="render"/>
-<category term="comfyui"/>
-<category term="wan"/>
-<summary>Things I learned this round on an RX 7800 XT (16 GB, ROCm), 64 GB RAM. Claude ran the renders, I judged them by eye. Each of these cost us real time. Wan 2.2 colour pulse. Every clip jumped in colour at frame 28, seven clips in a row. Cause: tiled VAE decode with temporal tiles of 32, overlap 4; fra</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 5 · lip sync, render, comfyui, wan&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Things I learned this round on an RX 7800 XT (16 GB, ROCm), 64 GB RAM. Claude ran the renders, I judged them by eye. Each of these cost us real time. Wan 2.2 colour pulse. Every clip jumped in colour at frame 28, seven clips in a row. Cause: tiled VAE decode with temporal tiles of 32, overlap 4; frame 28 is where the second tile starts. Fix: tile in space only. On VAE Decode (Tiled), tile_size 256, overlap 32, temporal_size 4096, temporal_overlap 4. Same seed gave the same motion, no jump, and no memory trouble at 1280x720. The decode "worked" and nothing errored, so it's easy to miss. Lip sync on sung vocals. InfiniteTalk from a still is great on close-ups facing the lens, mixed on stage me&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xl7ck6/wan_22_colour_pulse_midway_through_a_clip_check/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xl76nm/multiple_character_using_lora/</id><title>Multiple character using Lora</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xl76nm/multiple_character_using_lora/"/>
-<published>2026-11-01T16:20:16+00:00</published><updated>2026-11-01T16:20:16+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="lora"/>
-<summary>Hi everyone, does anyone here have a workflow for generating an image of 2 or more characters without them blending together, or a video they could recommend? submitted by /u/jonaCoC503 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi everyone, does anyone here have a workflow for generating an image of 2 or more characters without them blending together, or a video they could recommend? submitted by /u/jonaCoC503 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xl76nm/multiple_character_using_lora/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
