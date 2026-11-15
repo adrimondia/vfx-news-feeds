@@ -2,8 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-15T05:31:09+00:00</updated>
+<updated>2026-11-15T07:31:08+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xwo95l/minimax_h3_image_using_using_uluciferianism666s/</id><title>Minimax H3 image using using u/luciferianism666's system prompt (prompt expander)</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xwo95l/minimax_h3_image_using_using_uluciferianism666s/"/>
+<published>2026-11-15T06:18:38+00:00</published><updated>2026-11-15T06:18:38+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<category term="minimax"/>
+<summary>The prompt expander model is Gemma 4 31B IT, temp 2.0, high thinking, 0.95 top p Thank you for the system prompt u/luciferianism666 man it's the best. (I didn't even use ComfyUI/workflows, Gemma 4 31B IT is from Google AI studio and Minimax H3 image from minimax cloud agent, I told minimax 3.1 flash</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;The prompt expander model is Gemma 4 31B IT, temp 2.0, high thinking, 0.95 top p Thank you for the system prompt u/luciferianism666 man it's the best. (I didn't even use ComfyUI/workflows, Gemma 4 31B IT is from Google AI studio and Minimax H3 image from minimax cloud agent, I told minimax 3.1 flash to just input the prompt from Gemma and not expand anything, but all models I said here are open source, I just use cloud one because my hardware is a bit ahh) Edit: Here's the system prompt comment if you struggled to find it: https://www.reddit.com/r/StableDiffusion/s/drtDrKy7Ax submitted by /u/Big-Welcome-3169 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xwo95l/minimax_h3_image_using_using_uluciferianism666s/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xwo2xh/minimax_h3_image_edit/</id><title>Minimax h3 image edit</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xwo2xh/minimax_h3_image_edit/"/>
+<published>2026-11-15T06:08:46+00:00</published><updated>2026-11-15T06:08:46+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="minimax"/>
+<summary>Reference image: https://civitai.red/images/147124307 Euler, simple, 6 steps, no prompt enhancement Each prompt executed in 45~55 secs (Rtx 4070s, offloading?) Sometimes a sort of safety filter randomly jumped in and reduced the image quality. https://huggingface.co/Comfy-Org/MiniMax-H3-Image/blob/m</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Reference image: https://civitai.red/images/147124307 Euler, simple, 6 steps, no prompt enhancement Each prompt executed in 45~55 secs (Rtx 4070s, offloading?) Sometimes a sort of safety filter randomly jumped in and reduced the image quality. https://huggingface.co/Comfy-Org/MiniMax-H3-Image/blob/main/diffusion_models/minimax_h3_image_pruned_w4a8.safetensors https://huggingface.co/Merserk/MiniMax-H3-Image-Text-Encoder-INT4-ConvRot/blob/main/qwen3vl_32b_minimax_h3_int4_convrot.safetensors https://huggingface.co/Comfy-Org/MiniMax-H3-Image/blob/main/vae/minimax_h3_image_vae_fp16.safetensors 1: Pose Change Change the woman's sitting pose to a standing pose in &amp;lt;Picture 1&amp;gt; 2: Outfit Replacement R&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xwo2xh/minimax_h3_image_edit/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xwhi9v/i_have_tested_and_compared_the_small_details_fix/</id><title>I have tested and compared the small details fix of MiniMax H3 Image here it is. It really improves zoomed in tiny details significantly. Both ComfyUI and SwarmUI working with Kijai</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xwhi9v/i_have_tested_and_compared_the_small_details_fix/"/>
@@ -7039,44 +7058,5 @@
 <category term="minimax"/>
 <summary>I finished my PC upgrade yesterday and downloaded the MMH3 models today. Then I made 27 video generation tests ;) If anybody is making the same low resolution short animations, and you get lower times, please tell me how you are doing it :D Is anybody using an RTX 5060 with 16GB VRAM? Can you check </summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · video generation, comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I finished my PC upgrade yesterday and downloaded the MMH3 models today. Then I made 27 video generation tests ;) If anybody is making the same low resolution short animations, and you get lower times, please tell me how you are doing it :D Is anybody using an RTX 5060 with 16GB VRAM? Can you check if there's a difference? Will increasing the RAM allow 10 second videos at 1 MP? The GPU was at 100% utilization the whole time, which means that it didn't slow down due to VRAM overfill. Is the RAM-pocalyse over with the good memory management in ComfyUI? Or is this a wrong interpretation? My PCIE is not optimal (see image) submitted by /u/rguerraf [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xkyrid/minimax_h3_what_you_could_expect_from_a_budget_gpu/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://github.com/0x0funky/agent-sprite-forge</id><title>0x0funky/agent-sprite-forge</title>
-<link rel="alternate" href="https://github.com/0x0funky/agent-sprite-forge"/>
-<published>2026-11-01T07:30:24+00:00</published><updated>2026-11-01T07:30:24+00:00</updated>
-<author><name>GitHub trending (Python)</name></author>
-<category term="image-to-video"/>
-<category term="keying"/>
-<category term="character animation"/>
-<category term="animation"/>
-<summary>Agent Skill for generating 2D sprite sheets and map, transparent PNG frames, and animated GIFs from prompts. Agent Sprite Forge Languages: English | 繁體中文 | 简体中文 | 日本語 | 한국어 0.4 launch teaser: every frame is real ASF output. One still → a whole game-ready sprite set Approve one generated still. Get e</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;GitHub trending (Python) · score 4 · image-to-video, keying, character animation, animation&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Agent Skill for generating 2D sprite sheets and map, transparent PNG frames, and animated GIFs from prompts. Agent Sprite Forge Languages: English | 繁體中文 | 简体中文 | 日本語 | 한국어 0.4 launch teaser: every frame is real ASF output. One still → a whole game-ready sprite set Approve one generated still. Get every action of the character, keyed, looped, timed and exported for your engine. Agent skills for Claude Code (plugin), Codex and Grok . The agent generates a master still with the best image route you have, makes one image-to-video clip per action from it, and deterministic Python tools gate, key, register, loop, retime, finish and package every action for Godot, Aseprite or a web game. 1. One ap&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.com/0x0funky/agent-sprite-forge"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://github.com/calesthio/OpenMontage</id><title>calesthio/OpenMontage</title>
-<link rel="alternate" href="https://github.com/calesthio/OpenMontage"/>
-<published>2026-11-01T07:30:24+00:00</published><updated>2026-11-01T07:30:24+00:00</updated>
-<author><name>GitHub trending (Python)</name></author>
-<category term="image-to-video"/>
-<category term="animation"/>
-<category term="blender"/>
-<category term="kling"/>
-<category term="cinematic"/>
-<summary>World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio. https://www.openmontage.video/ Monty the Clapper — the official mascot of OpenMontage O</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;GitHub trending (Python) · score 5 · image-to-video, animation, blender, kling, cinematic&lt;/small&gt;&lt;/p&gt;&lt;p&gt;World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio. https://www.openmontage.video/ Monty the Clapper — the official mascot of OpenMontage OpenMontage The first open-source, agentic video production system. Paste A Video · Quick Start · Try These Prompts · Pipelines · How It Works · Providers · Review Guide · Agent Guide Follow The Build Turn your AI coding assistant into a full video production studio. Describe what you want in plain language — your agent handles research, scripting, asset generation, editing, and final composition. &lt;/p&gt;&lt;p&gt;&lt;a href="https://github.com/calesthio/OpenMontage"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xkwghv/need_for_help_with_veeery_specific_task/</id><title>Need for help with veeery specific task 🙏🙏</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xkwghv/need_for_help_with_veeery_specific_task/"/>
-<published>2026-11-01T06:57:44+00:00</published><updated>2026-11-01T06:57:44+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="lip sync"/>
-<category term="vfx"/>
-<category term="comfyui"/>
-<category term="wan"/>
-<category term="minimax"/>
-<category term="ltx"/>
-<summary>Hey guys, looking for some advice from experienced VFX / AI people on a music video transition setup (Russian hip-hop) where I need to take a static shot and replace a car in the background with a different one, then swap it for a pack of Dalmatians, clear the scene entirely, and have an elephant wa</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 6 · lip sync, vfx, comfyui, wan, minimax, ltx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey guys, looking for some advice from experienced VFX / AI people on a music video transition setup (Russian hip-hop) where I need to take a static shot and replace a car in the background with a different one, then swap it for a pack of Dalmatians, clear the scene entirely, and have an elephant walk into frame, all while keeping my original body movements and lip sync completely intact without turning my face into mush. I've tried Minimax h3 (total mess), LTX 2.5 ripple (okay from afar, no detail up close), and Wan 2.2 Animate (better motion, but weak lip sync and prompt adherence), and recently saw someone rotoscope their face to protect it in Wan 2.2, so I'm wondering what the absolute b&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xkwghv/need_for_help_with_veeery_specific_task/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
