@@ -2,8 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-16T05:31:09+00:00</updated>
+<updated>2026-11-16T07:31:10+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xxhyy9/brightness_issue_solved_geiru_keystone_attention/</id><title>Brightness Issue Solved: Geiru Keystone Attention and Hybrid Improvements</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xxhyy9/brightness_issue_solved_geiru_keystone_attention/"/>
+<published>2026-11-16T06:11:48+00:00</published><updated>2026-11-16T06:11:48+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<category term="minimax"/>
+<summary>Geiru Keystone Attention + Hybrid Windows update: brighter chains, half the VRAM Geiru Keystone Attention is a new node that keeps long H3 chains from slowly darkening. It makes the keystone (clip 1's clean first frame) pull harder on each new clip than the frames carried over from the clip before. </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Geiru Keystone Attention + Hybrid Windows update: brighter chains, half the VRAM Geiru Keystone Attention is a new node that keeps long H3 chains from slowly darkening. It makes the keystone (clip 1's clean first frame) pull harder on each new clip than the frames carried over from the clip before. The prompt, references and sound keep their normal share. It only runs on the 13 blocks I found carry brightness (31-33, 36-44, 47), so it holds clip 1's look without messing with motion much. By clip 10 of my test chain, brightness dropped 28% with no protection, 22% with keystone only, and 8% with Keystone Attention Over 30 clips it held about -9% , vs -17% for keystone + capstone Geiru Hybrid W&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xxhyy9/brightness_issue_solved_geiru_keystone_attention/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://arxiv.org/abs/2611.17752</id><title>Stage-wise Lineage-aware Dropout for Sparse-View 3D Gaussian Splatting</title>
 <link rel="alternate" href="https://arxiv.org/abs/2611.17752"/>
@@ -38,6 +48,17 @@
 <category term="ai video"/>
 <summary>arXiv:2611.17938v1 Announce Type: cross Abstract: Text-to-video generation runs at commercial scale, but its broader environmental impacts remain, to our knowledge, understudied. Providers rarely disclose video volumes or energy needs; we measured the yearly video output of two commercial platforms </summary>
 <content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · video generation, text-to-video, ai video&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2611.17938v1 Announce Type: cross Abstract: Text-to-video generation runs at commercial scale, but its broader environmental impacts remain, to our knowledge, understudied. Providers rarely disclose video volumes or energy needs; we measured the yearly video output of two commercial platforms and built a prospective model of such services' absolute footprint from training to storage. Our projections suggest that reducing emissions depends on both limiting growth in video generation and achieving substantial efficiency gains. Under continued growth, emissions rise nearly seventy-five-fold by 2030 despite technological improvements. When usage remains at 2026 levels, the same improvement&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2611.17938"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xxgmwy/h3_continuity_studio_10_is_here_a_lot_has_changed/</id><title>H3 Continuity Studio 1.0 is here – a lot has changed since the contest</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xxgmwy/h3_continuity_studio_10_is_here_a_lot_has_changed/"/>
+<published>2026-11-16T04:56:16+00:00</published><updated>2026-11-16T04:56:16+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="rendering"/>
+<category term="comfyui"/>
+<category term="minimax"/>
+<summary>Hey everyone! Since my last post and the ComfyUI contest, I’ve been working hard on H3 Continuity Studio, and it’s now at 1.0. Here’s a look at what’s new: • Generate cast and frame images with MiniMax H3 Image • A redesigned, simpler Studio interface • Multiple video clip lanes for arranging your s</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · rendering, comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey everyone! Since my last post and the ComfyUI contest, I’ve been working hard on H3 Continuity Studio, and it’s now at 1.0. Here’s a look at what’s new: • Generate cast and frame images with MiniMax H3 Image • A redesigned, simpler Studio interface • Multiple video clip lanes for arranging your story • Story tools, visual continuity and more control over frames and joins I also made an updated walkthrough: https://youtu.be/UZfIrmkC0zM The project is open source: https://github.com/KadoBOT/ComfyUI-H3-Continuity-Studio I’d love to hear what you think and what you make with it! https://reddit.com/link/1xxgmwy/video/s3utv75how1i1/player https://reddit.com/link/1xxgmwy/video/g06cequjow1i1/play&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xxgmwy/h3_continuity_studio_10_is_here_a_lot_has_changed/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xxg2bc/what_im_i_doing_wrong_minimax_h3_image/</id><title>What I'm I doing wrong? [Minimax H3 image]</title>
@@ -128,6 +149,15 @@
 <category term="blender"/>
 <summary>Hey everyone, I want to know what artists think about ML/AI based approaches towards animation if introduced inside blender as an extension like what i have attached here. Would you use this if you could fully author the whole sequence by hand inside blender using an AI motion system then polish the</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · animation, blender&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey everyone, I want to know what artists think about ML/AI based approaches towards animation if introduced inside blender as an extension like what i have attached here. Would you use this if you could fully author the whole sequence by hand inside blender using an AI motion system then polish the base generated animation with all the existing tools it has like the graph editor, NLA, action slots and more with one coherent work flow all while being non destructive and updating in real time with motion debugging? I mean real time in the sense immediate feedback with 800-1000 ms? Good news is you don’t have to type anything inside a text box and get some slop out because these models don’t s&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xx5b8g/ml_assisted_motion_rigs/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xx49is/a_world_model_you_can_run_locally_as_a/</id><title>A world model you can run locally as a multiplayer game</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xx49is/a_world_model_you_can_run_locally_as_a/"/>
+<published>2026-11-15T19:24:40+00:00</published><updated>2026-11-15T19:24:40+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="world model"/>
+<summary>We trained a world model on ~4,000 hours of CS:GO gameplay and turned it into a playable multiplayer game. Each player runs the model locally on their GPU, while a lightweight server keeps the game state in sync. It's still early: one small map, pistols only, some drift over time, and limited fine d</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · world model&lt;/small&gt;&lt;/p&gt;&lt;p&gt;We trained a world model on ~4,000 hours of CS:GO gameplay and turned it into a playable multiplayer game. Each player runs the model locally on their GPU, while a lightweight server keeps the game state in sync. It's still early: one small map, pistols only, some drift over time, and limited fine detail. The beta is free and open to try (RTX 3080+ recommended). More and the download: https://vor.tech/x/reddit-stable submitted by /u/bengal7ion [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xx49is/a_world_model_you_can_run_locally_as_a/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xx376j/realtime_talking_avatar_generated_locally_with/</id><title>Real-time talking avatar generated locally with SoulX-FlashHead + LFM3-Audio</title>
@@ -6808,47 +6838,5 @@
 <category term="minimax"/>
 <summary>Hi everyone! I just released REC Frame Overlay for ComfyUI. It's a pixel-perfect, self-contained camera viewfinder and REC HUD generator designed for both still images and video generation pipelines (Wan, MiniMax, AnimateDiff, etc.). ### 🌟 Key Highlights: - Dedicated Nodes: - `RecFrameImageOverlay`:</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 8 · video generation, frame interpolation, upscaling, animation, rendering, comfyui, wan, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi everyone! I just released REC Frame Overlay for ComfyUI. It's a pixel-perfect, self-contained camera viewfinder and REC HUD generator designed for both still images and video generation pipelines (Wan, MiniMax, AnimateDiff, etc.). ### 🌟 Key Highlights: - Dedicated Nodes: - `RecFrameImageOverlay`: Fast single-pass rendering for single images or batches. - `RecFrameVideoOverlay`: Frame-accurate timecode advance (hh:mm:ss:ff) + customizable blinking REC dot. - `RecFramePreview`: Real-time canvas overlay inspector without queuing prompts. - 2000s Digicam Degradation (`retro_effect: 0–6`): Non-destructive RGB shift, CRT bloom, and retro downscaling applied strictly to the UI layer. - Auto-inve&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xlqytt/custom_node_rec_frame_overlay_authentic_camera/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://github.com/D4Vinci/Scrapling</id><title>D4Vinci/Scrapling</title>
-<link rel="alternate" href="https://github.com/D4Vinci/Scrapling"/>
-<published>2026-11-02T07:30:30+00:00</published><updated>2026-11-02T07:30:30+00:00</updated>
-<author><name>GitHub trending (Python)</name></author>
-<category term="tracking"/>
-<category term="render"/>
-<category term="rendering"/>
-<summary>🕷️ The BEST Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://discord.gg/EMgGbDceNQ and follow here for daily tips and tricks: https://x.com/Scrapling_dev https://scrapling.readthedocs.io/en/latest/ Effortless Web Scraping fo</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;GitHub trending (Python) · score 3 · tracking, render, rendering&lt;/small&gt;&lt;/p&gt;&lt;p&gt;🕷️ The BEST Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://discord.gg/EMgGbDceNQ and follow here for daily tips and tricks: https://x.com/Scrapling_dev https://scrapling.readthedocs.io/en/latest/ Effortless Web Scraping for the Modern Web Selection methods · Fetchers · Spiders · Proxy Rotation · CLI · MCP Scrapling is a Python Web Scraping framework that brings fast HTTP requests, stealth browsers, powerful parsing, and concurrent crawling into one library. Scrape static pages, render JavaScript, interact with websites, and extract data from the API calls behind them. Build crawlers with reusable sessions, proxy ro&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.com/D4Vinci/Scrapling"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://github.com/scenario-labs/skills</id><title>scenario-labs/skills</title>
-<link rel="alternate" href="https://github.com/scenario-labs/skills"/>
-<published>2026-11-02T07:30:30+00:00</published><updated>2026-11-02T07:30:30+00:00</updated>
-<author><name>GitHub trending (Python)</name></author>
-<category term="blender"/>
-<category term="unreal"/>
-<category term="unreal engine"/>
-<category term="maya"/>
-<summary>Get production-ready images, video, audio, and 3D from any AI agent: skills that pick the right model, price before spending, and keep characters and brands consistent through the Scenario MCP, plus expert teams that drive Blender, Maya, ZBrush, Unreal, and Unity. https://www.skills.sh/scenario-labs</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;GitHub trending (Python) · score 4 · blender, unreal, unreal engine, maya&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Get production-ready images, video, audio, and 3D from any AI agent: skills that pick the right model, price before spending, and keep characters and brands consistent through the Scenario MCP, plus expert teams that drive Blender, Maya, ZBrush, Unreal, and Unity. https://www.skills.sh/scenario-labs/skills Scenario Agent Skills Agent Skills that teach AI coding agents (Claude Code, Cursor, Codex, Copilot, and 70+ others) how to create production-ready content with Scenario through the Scenario MCP server : images, video, audio, textures, skyboxes, 3D assets, and custom-trained models, for games, entertainment, and any creative vertical. The expert tools at the bottom of the list work differe&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.com/scenario-labs/skills"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xlp3uv/i_built_an_h3_timeline_for_comfyui_with_scene/</id><title>I built an H3 timeline for ComfyUI with scene memory and individual clip retakes — my Higgsfield contest entry</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xlp3uv/i_built_an_h3_timeline_for_comfyui_with_scene/"/>
-<published>2026-11-02T05:40:54+00:00</published><updated>2026-11-02T05:40:54+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<summary>Sharing this here too since it's built as a ComfyUI node pack. H3 Continuity Studio is my submission to Comfy's Open Source Higgsfield contest. The demo cuts from a detailed room to the house exterior, then returns inside and tries a different camera angle. Later clips can use selected moments from </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Sharing this here too since it's built as a ComfyUI node pack. H3 Continuity Studio is my submission to Comfy's Open Source Higgsfield contest. The demo cuts from a detailed room to the house exterior, then returns inside and tries a different camera angle. Later clips can use selected moments from earlier shots as memory; you can also continue a clip or retake just one part of the timeline. There's a same-prompt, same-seed memory-off comparison in the video. It still takes retakes, and memory doesn't guarantee perfect geometry. Code, setup and example workflows: https://github.com/KadoBOT/ComfyUI-H3-Continuity-Studio It's free, with MIT-licensed project code. The repo includes the demo's pr&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xlp3uv/i_built_an_h3_timeline_for_comfyui_with_scene/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xlp0kg/i_made_a_comfyui_tool_to_bring_back_earlier/</id><title>I made a ComfyUI tool to bring back earlier scenes in H3 videos — my Open Source Higgsfield entry</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xlp0kg/i_made_a_comfyui_tool_to_bring_back_earlier/"/>
-<published>2026-11-02T05:35:35+00:00</published><updated>2026-11-02T05:35:35+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<category term="minimax"/>
-<summary>I just submitted H3 Continuity Studio to Comfy's Open Source Higgsfield contest and wanted to share it here. The test I cared about was pretty simple: generate a room with lots of little details, cut outside the house, then come back inside. Does it still look like the same room? And what happens if</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I just submitted H3 Continuity Studio to Comfy's Open Source Higgsfield contest and wanted to share it here. The test I cared about was pretty simple: generate a room with lots of little details, cut outside the house, then come back inside. Does it still look like the same room? And what happens if you move the camera to another corner? That's what the demo is built around. It follows the room, an exterior, a return inside, a different camera angle and a final continuation. I marked a few details so they're easier to compare: the sunburst mirror, fig plant, mustard cushions, ginger cat, teapot and fireplace. There's also a memory-off comparison using the same prompt and seed. The tool is a &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xlp0kg/i_made_a_comfyui_tool_to_bring_back_earlier/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
