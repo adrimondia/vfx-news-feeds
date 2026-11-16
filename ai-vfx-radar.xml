@@ -2,8 +2,70 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-16T15:31:28+00:00</updated>
+<updated>2026-11-16T17:31:31+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xxv2au/making_consistent_character_creation_easier/</id><title>Making consistent character creation easier</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xxv2au/making_consistent_character_creation_easier/"/>
+<published>2026-11-16T17:13:51+00:00</published><updated>2026-11-16T17:13:51+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<category term="flux"/>
+<category term="lora"/>
+<summary>Some of you probably have superb custom workflows for creating LoRAs. I'm trying to make it easier for the rest of us. This meant tackling a few things like character sheet generation, selecting a good dataset and running LoRA training in one simple package after quite frankly being sick of my colle</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, flux, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Some of you probably have superb custom workflows for creating LoRAs. I'm trying to make it easier for the rest of us. This meant tackling a few things like character sheet generation, selecting a good dataset and running LoRA training in one simple package after quite frankly being sick of my collection of Python scripts. I'm not saying I have the full answer to everything here, but PixlStash, my open source image management application, is under active development and has the advantage of an image database backend that calculates facial likeness pairs across the database anyway, meaning clustering on facial likeness comes practically for free, which comes in handy when trying to find pictu&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xxv2au/making_consistent_character_creation_easier/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xxv09f/longcat_video_avatar_16/</id><title>LongCat Video Avatar 1.6</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xxv09f/longcat_video_avatar_16/"/>
+<published>2026-11-16T17:11:44+00:00</published><updated>2026-11-16T17:11:44+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="video generation"/>
+<category term="avatar"/>
+<category term="consistency"/>
+<summary>"We are excited to announce the release of LongCat-Video-Avatar 1.6, the latest upgrade to our open-source framework for audio-driven human video generation. Building upon LongCat-Video-Avatar 1.5, 1.6 improves expressive naturalness, lip–audio synchronization, coordinated facial and body motion, an</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · video generation, avatar, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;"We are excited to announce the release of LongCat-Video-Avatar 1.6, the latest upgrade to our open-source framework for audio-driven human video generation. Building upon LongCat-Video-Avatar 1.5, 1.6 improves expressive naturalness, lip–audio synchronization, coordinated facial and body motion, and visual consistency during long-form generation. It also introduces comprehensive inference optimizations for faster and more efficient deployment." HF: meituan-longcat/LongCat-Video-Avatar-1.6 · Hugging Face submitted by /u/Crazy-Repeat-2006 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xxv09f/longcat_video_avatar_16/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xxtmp1/why_is_my_lora_training_session_taking_10_hours/</id><title>Why is my LoRA training session taking 10 hours?</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xxtmp1/why_is_my_lora_training_session_taking_10_hours/"/>
+<published>2026-11-16T16:21:19+00:00</published><updated>2026-11-16T16:21:19+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="lora"/>
+<summary>Hi, all. I was hoping someone could answer why my LoRA training sessions are taking at least 10 hours, when the expected training time is one to three. Here are the details of my situation: My computer has 32 GB of RAM, 12 GB of VRAM (GeForce RTX 5070), and my processor is an Intel Core Ultra 9 285k</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi, all. I was hoping someone could answer why my LoRA training sessions are taking at least 10 hours, when the expected training time is one to three. Here are the details of my situation: My computer has 32 GB of RAM, 12 GB of VRAM (GeForce RTX 5070), and my processor is an Intel Core Ultra 9 285k. I am using the Amanatsu checkpoint model. I am training the LoRA on 15 1024x1024 images, with .txt files. I am using 1,500 steps, rank 32, bf16, and otherwise default settings. I'm at a loss why it should take so long. If anyone can provide any answers, I'd be immensely grateful. Thanks! submitted by /u/DoA_Reader_007 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xxtmp1/why_is_my_lora_training_session_taking_10_hours/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xxs8k1/moss_image_allpurpose_texttoimage_stunning/</id><title>MOSS Image: All-Purpose Text-to-Image | Stunning Aesthetics, Blazing Speed, Top-Tier Quality | Tuned Fusion Parameters | Beat Closed-Source Models</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xxs8k1/moss_image_allpurpose_texttoimage_stunning/"/>
+<published>2026-11-16T15:27:51+00:00</published><updated>2026-11-16T15:27:51+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="upscaling"/>
+<category term="comfyui"/>
+<category term="lora"/>
+<summary>I tuned a MOSS Image workflow in ComfyUI around layer-specific Base/SFT blending, a low-strength Guanlan LoRA, and an 8-step acceleration option. For everyday text-to-image work, this is the combination I preferred: less of the overly polished look I got from SFT alone, without giving up the visual </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · upscaling, comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I tuned a MOSS Image workflow in ComfyUI around layer-specific Base/SFT blending, a low-strength Guanlan LoRA, and an 8-step acceleration option. For everyday text-to-image work, this is the combination I preferred: less of the overly polished look I got from SFT alone, without giving up the visual appeal I found missing in Base alone. The non-accelerated route remains available when texture matters more than turnaround time. I started with the individual models, then tested uniform blends ranging from 90% Base / 10% SFT to the reverse. After that, I moved to different ratios for different parts of the model and refined them through further image tests. The workflow stores those settings; it&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xxs8k1/moss_image_allpurpose_texttoimage_stunning/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xxrrsc/minimax_h3_image_can_not_make_eyes/</id><title>Minimax H3 Image can not make eyes!</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xxrrsc/minimax_h3_image_can_not_make_eyes/"/>
+<published>2026-11-16T15:09:33+00:00</published><updated>2026-11-16T15:09:33+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="hdr"/>
+<category term="minimax"/>
+<summary>I have tried lower resolution, higher resolution, bf16 vae, P-H3 vae, HDR vae. I have tried with the image-detail hack posted by SEcourses and without, with different combinations of the hack from 10% all the way up to 90% (Which would obviously not work). Nothing helps. It just can't make eyes! I m</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · hdr, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I have tried lower resolution, higher resolution, bf16 vae, P-H3 vae, HDR vae. I have tried with the image-detail hack posted by SEcourses and without, with different combinations of the hack from 10% all the way up to 90% (Which would obviously not work). Nothing helps. It just can't make eyes! I mean at a first glance it looks great, but then... You see it and zooming in... OMG... Horrible!😣 It can't seem to be avoided. Something is strange about eyes! https://preview.redd.it/kuxao10vnz1i1.png?width=1965&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=1e3eaeafaf02a0a5e117d3b31cd1feda5161bdf2 https://textdrop.sh/yaZtxR#WTmOpEK65kVA7reQgqXf8MCvC7YXJBh-Xlg4O4u65JU submitted by /u/VirusCharacter [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xxrrsc/minimax_h3_image_can_not_make_eyes/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xxr2u0/what_is_the_best_ai_video_gen_i_can_do_on_my_specs/</id><title>What is the best AI video gen I can do on my specs?</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xxr2u0/what_is_the_best_ai_video_gen_i_can_do_on_my_specs/"/>
+<published>2026-11-16T14:42:37+00:00</published><updated>2026-11-16T14:42:37+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="video generation"/>
+<category term="ai video"/>
+<summary>I know nothing about video generation, so I am in need of help. These are my specs: GPU: RTX 3060 12GB VRAM CPU: Intel i5-10400F 2.90GHz RAM: 32GB I would prefer good times but then again I don't know anything. Thanks! submitted by /u/vixxzplayz123 [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · video generation, ai video&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I know nothing about video generation, so I am in need of help. These are my specs: GPU: RTX 3060 12GB VRAM CPU: Intel i5-10400F 2.90GHz RAM: 32GB I would prefer good times but then again I don't know anything. Thanks! submitted by /u/vixxzplayz123 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xxr2u0/what_is_the_best_ai_video_gen_i_can_do_on_my_specs/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xxqdn5/graufels_a_minimax_h3_lighthouse_short_and_the/</id><title>Graufels, a MiniMax H3 lighthouse short, and the Filmworkbench v0.1.2 update</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xxqdn5/graufels_a_minimax_h3_lighthouse_short_and_the/"/>
@@ -17,6 +79,18 @@
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 5 · upscaler, rendering, comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I updated my Filmworkbench, which is a a skill for your chat interface that let's you make semi-automated short films up to three minutes. It runs on claude or any local llm. This was a one-shot . One prompt and your LLM can flesh out the story, pick scenes and create a short movie. It basically uses clip chaining and and different scene recipes and can hold the world quite consistent. The project is still ongoing, so there will be lots of ideas for the future (different genres, longer length). Original: https://www.reddit.com/r/StableDiffusion/comments/1xqgu4e/filmworkbench_making_semiautomated_short_films/ As an example: Here's Graufels , a short about two lighthouse keepers trying to get &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xxqdn5/graufels_a_minimax_h3_lighthouse_short_and_the/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xxpxb9/how_i_tried_to_animate_ai_art_for_a_2d_game_how/</id><title>How I tried to animate AI art for a 2D game. How would you do it?</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xxpxb9/how_i_tried_to_animate_ai_art_for_a_2d_game_how/"/>
+<published>2026-11-16T13:54:37+00:00</published><updated>2026-11-16T13:54:37+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="image-to-video"/>
+<category term="smoke"/>
+<category term="flux"/>
+<category term="lora"/>
+<summary>I'm building a 2D game that generates its art while you play, on FLUX.2 klein 4B with a LoRA trained on an illustrator's style. Things like fire, smoke or steam need to loop constantly, and this takes only a few frames and therefore should be cheap and fast. Approach 1: describing the motion The mod</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · image-to-video, smoke, flux, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I'm building a 2D game that generates its art while you play, on FLUX.2 klein 4B with a LoRA trained on an illustrator's style. Things like fire, smoke or steam need to loop constantly, and this takes only a few frames and therefore should be cheap and fast. Approach 1: describing the motion The model gets the base drawing as reference and one prompt per frame e.g, "flames leaning left" and "flames leaning right" then put together into a loop. The model kinda overdid each swing and it looks unnatural, and since it redraws the whole image, the stones under the fire changed as well. https://i.redd.it/c24va39icz1i1.gif Approach 2: masked variants I stopped describing the motion and instead have&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xxpxb9/how_i_tried_to_animate_ai_art_for_a_2d_game_how/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xxp779/qwen_image_21_minimax_h3_image/</id><title>Qwen image 2.1 &amp; Minimax h3 image</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xxp779/qwen_image_21_minimax_h3_image/"/>
 <published>2026-11-16T13:21:40+00:00</published><updated>2026-11-16T13:21:40+00:00</updated>
@@ -26,6 +100,26 @@
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Convert to a realistic photography, and apply natural colors Restore this old analog film photo, and apply natural colors submitted by /u/Ant_6431 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xxp779/qwen_image_21_minimax_h3_image/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xxoysz/cubee_run_second_version_minimax_h3/</id><title>Cubee run, second version. Minimax H3</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xxoysz/cubee_run_second_version_minimax_h3/"/>
+<published>2026-11-16T13:10:44+00:00</published><updated>2026-11-16T13:10:44+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="minimax"/>
+<summary>submitted by /u/JahJedi [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/JahJedi [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xxoysz/cubee_run_second_version_minimax_h3/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xxokgy/minimax_h3_image_subject_loras_anyone_getting/</id><title>Minimax H3 Image Subject LoRAs – Anyone Getting Good Likeness?</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xxokgy/minimax_h3_image_subject_loras_anyone_getting/"/>
+<published>2026-11-16T12:51:28+00:00</published><updated>2026-11-16T12:51:28+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="video model"/>
+<category term="minimax"/>
+<category term="lora"/>
+<summary>Anyone having success training Subject LoRAs with Minimax H3 Image? I've been struggling to train a successful Subject LoRA with Minimax H3 Image, and I'm curious to know if others are experiencing the same issues. I've experimented with pretty much everything: Different ranks, ranging from 16 to 64</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · video model, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Anyone having success training Subject LoRAs with Minimax H3 Image? I've been struggling to train a successful Subject LoRA with Minimax H3 Image, and I'm curious to know if others are experiencing the same issues. I've experimented with pretty much everything: Different ranks, ranging from 16 to 64. Different optimizers, from AdamW to Automagic3/4. Both AI Toolkit and Fizgig. Different subjects and dataset sizes, ranging from relatively small to very large datasets. Unfortunately, the results are consistently disappointing. The model seems to learn an approximation of the subject rather than the actual person or character. The likeness is usually very poor, almost as if it's learning a diff&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xxokgy/minimax_h3_image_subject_loras_anyone_getting/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
 <id>https://www.reddit.com/r/vfx/comments/1xxocp3/how_does_this_help_the_vfx_team/</id><title>How does this help the vfx team?</title>
 <link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xxocp3/how_does_this_help_the_vfx_team/"/>
 <published>2026-11-16T12:40:05+00:00</published><updated>2026-11-16T12:40:05+00:00</updated>
@@ -33,6 +127,24 @@
 <category term="vfx"/>
 <summary>Hi there, I'm trying to learn more about vfx and would like to ask vfx people about this behind the scenes shot of Robert Bobroczkyi as Captain Clark in the Backrooms. How does making his leg and shoe green help the fx team. Wouldn't it cause problems with green cast on the set that would have to be</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi there, I'm trying to learn more about vfx and would like to ask vfx people about this behind the scenes shot of Robert Bobroczkyi as Captain Clark in the Backrooms. How does making his leg and shoe green help the fx team. Wouldn't it cause problems with green cast on the set that would have to be removed? Obviously it worked out and the team did an amazing job, but I would like to know how this is helpful for you to do your work. Thank you! submitted by /u/JellyFishMover [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xxocp3/how_does_this_help_the_vfx_team/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xxnytp/coming_from_after_effectspremiere_what_made/</id><title>Coming from After Effects/Premiere: what made ComfyUI click for you, and what wasted your time?</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xxnytp/coming_from_after_effectspremiere_what_made/"/>
+<published>2026-11-16T12:20:01+00:00</published><updated>2026-11-16T12:20:01+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<summary>Hey all, I'm starting ComfyUI from a video background (Premiere and After Effects). I think in layers and timelines, so node graphs are new to me. Goal: short microdramas [1–2 min]. vertical episodes with recurring original characters. My wife already makes microdramas in Google Flow/CapCut, and I w</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey all, I'm starting ComfyUI from a video background (Premiere and After Effects). I think in layers and timelines, so node graphs are new to me. Goal: short microdramas [1–2 min]. vertical episodes with recurring original characters. My wife already makes microdramas in Google Flow/CapCut, and I want to see what ComfyUI can do that CapCut can't, mainly keeping characters consistent across shots and episodes. I’m planning to run it via vast/runpod. I've been through comfy docs. A few questions: Which tutorials or channels actually got you from zero to building your own workflows? Free or paid. If you've made multi-shot or narrative video: how do you keep characters consistent across scenes?&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xxnytp/coming_from_after_effectspremiere_what_made/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xxnbeb/recommendations_or_comparisons_for_comfyui/</id><title>Recommendations or comparisons for comfyui extending/continuation as of Nov 26?</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xxnbeb/recommendations_or_comparisons_for_comfyui/"/>
+<published>2026-11-16T11:45:04+00:00</published><updated>2026-11-16T11:45:04+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<summary>Given the state of new or constant improvements within the platform, nodes and models, what is the current top standing ways of generating clips at length and that are simple to setup and use for longform content creation? I have the hardware but now i seek ways of speeding up and automating my work</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Given the state of new or constant improvements within the platform, nodes and models, what is the current top standing ways of generating clips at length and that are simple to setup and use for longform content creation? I have the hardware but now i seek ways of speeding up and automating my workflow, submitted by /u/Cumchukka67 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xxnbeb/recommendations_or_comparisons_for_comfyui/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://github.com/ManimCommunity/manim</id><title>ManimCommunity/manim</title>
@@ -6825,72 +6937,5 @@
 <category term="comfyui"/>
 <summary>Complete noob question. While tech-savvy haven't done much in local models yet, learning curve is steep. Can anybody recommend a tutorial that covers talking the talk and walking the walk? submitted by /u/JohnTheFisherman142 [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Complete noob question. While tech-savvy haven't done much in local models yet, learning curve is steep. Can anybody recommend a tutorial that covers talking the talk and walking the walk? submitted by /u/JohnTheFisherman142 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xm4mte/where_to_start_getting_traction_on_comfyui/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xm3bwe/i_turned_my_front_windows_into_a_fivewindow/</id><title>I turned my front windows into a five-window Halloween show using Minimax generated clips, Unreal Engine 5, touch designer, depth maps, and one projector (sample clip included)</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xm3bwe/i_turned_my_front_windows_into_a_fivewindow/"/>
-<published>2026-11-02T17:21:48+00:00</published><updated>2026-11-02T17:21:48+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<category term="unreal"/>
-<category term="unreal engine"/>
-<category term="minimax"/>
-<summary>This Halloween I rear-projected a show onto the front of my house: a tall centre window with a double-hung window on each side, five panes in all. One 4K projector sits inside behind sheets, and the show is watched from the street. How it works Clips: characters and rooms generated locally with Mini</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 7 · comfyui, unreal, unreal engine, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;This Halloween I rear-projected a show onto the front of my house: a tall centre window with a double-hung window on each side, five panes in all. One 4K projector sits inside behind sheets, and the show is watched from the street. How it works Clips: characters and rooms generated locally with MiniMax H3 in ComfyUI from reference photos, 100+ clips across 23 themes. Show: Unreal Engine 5 runs each theme as an 80-second loop: the side rooms, a blackout, the character arrives in the centre window, a climax, a reset. Feature scenes open in the centre and spread across all five windows. Depth: every room has a depth map (Depth Anything), so fog rolls in from the back of the room, lightning ligh&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xm3bwe/i_turned_my_front_windows_into_a_fivewindow/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xm2scl/someone_said_every_ai_music_video_has_attractive/</id><title>Someone said every AI music video has attractive models in the band and asked for Muppets instead, so I made it (rendered locally with MiniMax H3 + my Video Builder in ComfyUI)</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xm2scl/someone_said_every_ai_music_video_has_attractive/"/>
-<published>2026-11-02T17:02:41+00:00</published><updated>2026-11-02T17:02:41+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="minimax"/>
-<summary>submitted by /u/Cheap_Credit_3957 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/Cheap_Credit_3957 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xm2scl/someone_said_every_ai_music_video_has_attractive/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xm2o6v/someone_said_every_ai_music_video_has_attractive/</id><title>Someone said every AI music video has attractive models in the band and asked for Muppets instead, so I made it (rendered locally with MiniMax H3 + my Video Builder in ComfyUI)</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xm2o6v/someone_said_every_ai_music_video_has_attractive/"/>
-<published>2026-11-02T16:58:43+00:00</published><updated>2026-11-02T16:58:43+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<category term="minimax"/>
-<category term="lora"/>
-<summary>Hey guys! On one of my last videos, someone commented that every AI music video they see has a band full of very attractive models, and they'd love to see Muppets for a change. Challenge accepted. So, here's an all-puppet rock band: original felt characters in the classic Muppet style. I put the who</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 5 · comfyui, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey guys! On one of my last videos, someone commented that every AI music video they see has a band full of very attractive models, and they'd love to see Muppets for a change. Challenge accepted. So, here's an all-puppet rock band: original felt characters in the classic Muppet style. I put the whole video together with my Video Builder in ComfyUI. Every scene and the final stitch were rendered locally on my own PC (the reference images were made with GPT Image 2). Please keep rude and disrespectful comments to yourself. They don't help anyone or contribute anything constructive to the conversation. A quick note on the prompts, since I know people will ask: my Video Builder lets you use any&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xm2o6v/someone_said_every_ai_music_video_has_attractive/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1xm1y27/for_sale_rokoko_smartsuit_pro_ii_smartgloves/</id><title>FOR SALE: Rokoko Smartsuit Pro II + Smartgloves – Excellent Condition – €2,450</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xm1y27/for_sale_rokoko_smartsuit_pro_ii_smartgloves/"/>
-<published>2026-11-02T16:32:01+00:00</published><updated>2026-11-02T16:32:01+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="motion capture"/>
-<category term="character animation"/>
-<category term="animation"/>
-<category term="vfx"/>
-<category term="filmmaking"/>
-<summary>FOR SALE: Rokoko Smartsuit Pro II + Smartgloves – Excellent Condition – €2,450 Hi everyone! I'm offering my Rokoko Smartsuit Pro II Motion Capture System , purchased in 2025 and in like-new condition. The system is fully equipped and includes: Rokoko Smartsuit Pro II Rokoko Smartgloves Complete orig</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 5 · motion capture, character animation, animation, vfx, filmmaking&lt;/small&gt;&lt;/p&gt;&lt;p&gt;FOR SALE: Rokoko Smartsuit Pro II + Smartgloves – Excellent Condition – €2,450 Hi everyone! I'm offering my Rokoko Smartsuit Pro II Motion Capture System , purchased in 2025 and in like-new condition. The system is fully equipped and includes: Rokoko Smartsuit Pro II Rokoko Smartgloves Complete original accessories It's an excellent solution for professional character animation, 3D production, VFX, game development, and independent filmmaking. Whether you're a 3D artist, animator, filmmaker, studio, or educational institution looking to add motion capture capabilities to your workflow, this is a great opportunity to get a complete system in excellent condition. Asking price: €2,450 I'm based&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xm1y27/for_sale_rokoko_smartsuit_pro_ii_smartgloves/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xm0q3j/i_used_local_minimax_h3_in_comfyui_for/</id><title>I used local MiniMax H3 in ComfyUI for four-language rap performances</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xm0q3j/i_used_local_minimax_h3_in_comfyui_for/"/>
-<published>2026-11-02T15:47:10+00:00</published><updated>2026-11-02T15:47:10+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="upscaling"/>
-<category term="comfyui"/>
-<category term="minimax"/>
-<category term="seedance"/>
-<summary>The two characters began as Z-Image LoRAs in ComfyUI. For this video I directed separate English, Korean, Japanese, and Romanian MiniMax H3 performance clips locally, using character references and the corresponding song audio. The H3 clips went through latent upscaling and separate face enhancement</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 6 · upscaling, comfyui, minimax, seedance&lt;/small&gt;&lt;/p&gt;&lt;p&gt;The two characters began as Z-Image LoRAs in ComfyUI. For this video I directed separate English, Korean, Japanese, and Romanian MiniMax H3 performance clips locally, using character references and the corresponding song audio. The H3 clips went through latent upscaling and separate face enhancement before the final Topaz pass. The first English section is Seedance 2.5 through Higgsfield for comparison; these were separately directed takes, not a same-prompt benchmark. The original song was made in Suno. Explicit lyrics. Happy to explain any specific part of the workflow. submitted by /u/alecubudulecu [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xm0q3j/i_used_local_minimax_h3_in_comfyui_for/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1xm0gwa/vfx_for_blade_of_a_sword_niagara_ue_58/</id><title>VFX for blade of a sword, Niagara UE 5.8</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xm0gwa/vfx_for_blade_of_a_sword_niagara_ue_58/"/>
-<published>2026-11-02T15:37:30+00:00</published><updated>2026-11-02T15:37:30+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="vfx"/>
-<summary>submitted by /u/Kapkin [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/Kapkin [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xm0gwa/vfx_for_blade_of_a_sword_niagara_ue_58/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
