@@ -2,8 +2,29 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-16T13:31:27+00:00</updated>
+<updated>2026-11-16T15:31:28+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xxqdn5/graufels_a_minimax_h3_lighthouse_short_and_the/</id><title>Graufels, a MiniMax H3 lighthouse short, and the Filmworkbench v0.1.2 update</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xxqdn5/graufels_a_minimax_h3_lighthouse_short_and_the/"/>
+<published>2026-11-16T14:13:44+00:00</published><updated>2026-11-16T14:13:44+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="upscaler"/>
+<category term="rendering"/>
+<category term="comfyui"/>
+<category term="minimax"/>
+<summary>I updated my Filmworkbench, which is a a skill for your chat interface that let's you make semi-automated short films up to three minutes. It runs on claude or any local llm. This was a one-shot . One prompt and your LLM can flesh out the story, pick scenes and create a short movie. It basically use</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 5 · upscaler, rendering, comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I updated my Filmworkbench, which is a a skill for your chat interface that let's you make semi-automated short films up to three minutes. It runs on claude or any local llm. This was a one-shot . One prompt and your LLM can flesh out the story, pick scenes and create a short movie. It basically uses clip chaining and and different scene recipes and can hold the world quite consistent. The project is still ongoing, so there will be lots of ideas for the future (different genres, longer length). Original: https://www.reddit.com/r/StableDiffusion/comments/1xqgu4e/filmworkbench_making_semiautomated_short_films/ As an example: Here's Graufels , a short about two lighthouse keepers trying to get &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xxqdn5/graufels_a_minimax_h3_lighthouse_short_and_the/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xxp779/qwen_image_21_minimax_h3_image/</id><title>Qwen image 2.1 &amp; Minimax h3 image</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xxp779/qwen_image_21_minimax_h3_image/"/>
+<published>2026-11-16T13:21:40+00:00</published><updated>2026-11-16T13:21:40+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="minimax"/>
+<summary>Convert to a realistic photography, and apply natural colors Restore this old analog film photo, and apply natural colors submitted by /u/Ant_6431 [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Convert to a realistic photography, and apply natural colors Restore this old analog film photo, and apply natural colors submitted by /u/Ant_6431 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xxp779/qwen_image_21_minimax_h3_image/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/vfx/comments/1xxocp3/how_does_this_help_the_vfx_team/</id><title>How does this help the vfx team?</title>
 <link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xxocp3/how_does_this_help_the_vfx_team/"/>
@@ -6871,75 +6892,5 @@
 <category term="vfx"/>
 <summary>submitted by /u/Kapkin [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/Kapkin [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xm0gwa/vfx_for_blade_of_a_sword_niagara_ue_58/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xlzvyc/my_hybrid_ai_demo_reel_need_opinion_and_feedback/</id><title>My hybrid AI demo reel. Need opinion and feedback !</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xlzvyc/my_hybrid_ai_demo_reel_need_opinion_and_feedback/"/>
-<published>2026-11-02T15:15:50+00:00</published><updated>2026-11-02T15:15:50+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="text-to-video"/>
-<category term="vfx"/>
-<category term="comfyui"/>
-<category term="maya"/>
-<category term="consistency"/>
-<summary>worked as a VFX animator on features like Sonic 2, Wicked and The Little Mermaid. For the past year I’ve been building a hybrid pipeline instead of pure text-to-video: -Animation, blocking and virtual camera in Maya, with colour-coded proxies to lock each character’s position -AI renders on top with</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 5 · text-to-video, vfx, comfyui, maya, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;worked as a VFX animator on features like Sonic 2, Wicked and The Little Mermaid. For the past year I’ve been building a hybrid pipeline instead of pure text-to-video: -Animation, blocking and virtual camera in Maya, with colour-coded proxies to lock each character’s position -AI renders on top with model sheets for consistency -Some rendered in layers to get better control (depth and alpha out of ComfyUI) Some shots near the end are fully AI-generated for comparison. What I’d love your take on: Which shot convinced you most, and which one broke the illusion? (Timestamps help.) Do the breakdowns make the process clear, or do they get in the way? Do you think hybrid CG + AI is worth the extra&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xlzvyc/my_hybrid_ai_demo_reel_need_opinion_and_feedback/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xlzhfk/what_changes_are_needed_for_krea2_to_change_from/</id><title>What changes are needed for Krea2 to change from using a LoRA to instead using a character LoKR?</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xlzhfk/what_changes_are_needed_for_krea2_to_change_from/"/>
-<published>2026-11-02T15:00:48+00:00</published><updated>2026-11-02T15:00:48+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="lora"/>
-<summary>I have been having a lot of success with training and using loRAs for Krea2. Like 90% consistent. I was looking to get that extra 10% and saw that for Krea2, people were having better results using LoKRs. I tried swapping Lora for lokR and the results were quite bad, like not close to my character a</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I have been having a lot of success with training and using loRAs for Krea2. Like 90% consistent. I was looking to get that extra 10% and saw that for Krea2, people were having better results using LoKRs. I tried swapping Lora for lokR and the results were quite bad, like not close to my character at all. What do I need to change to use a lokr instead of a Lora? I can't find a lokr loading node, it's all Lora named. Maybe I need to change ksampler settings for LoKRs? Aitoolkit settings: 30 images 1200-2400 steps (to find the sweet spot) Krea2 raw Low vram Quatize:Qfloat8 Liner rank 32 Data type bf16 Optimizer AdamW8Bit Lr 0.0001 Weight decay 0.0001 Timestep linear , balanced Loss type: Mean &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xlzhfk/what_changes_are_needed_for_krea2_to_change_from/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xlz1lz/using_ai_to_generate_comfyui_nodes/</id><title>Using AI to generate ComfyUI nodes</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xlz1lz/using_ai_to_generate_comfyui_nodes/"/>
-<published>2026-11-02T14:43:48+00:00</published><updated>2026-11-02T14:43:48+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<summary>Does anybody use AI to write ComfyUI nodes for personal use or sharing? For example, I had the problem that, when I wanted to use wildcards, say, for colors, I could either use the "__colors__" syntax combined with a wildcard text file or the {red|green|blue|...} variant but not both, let alone nest</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Does anybody use AI to write ComfyUI nodes for personal use or sharing? For example, I had the problem that, when I wanted to use wildcards, say, for colors, I could either use the "__colors__" syntax combined with a wildcard text file or the {red|green|blue|...} variant but not both, let alone nested variants such as {{pastel|technicolor|watercolor} __colors__}. I dropped this problem into Meta AI (others would probably have worked out just as well) and the AI, instead of suggesting an existing node, offered to write one. The result was exactly on the money, working with both types of wildcards even when nested over several layers. Another node that was generated for me by Meta is one that &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xlz1lz/using_ai_to_generate_comfyui_nodes/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xlyfcr/i_made_an_allinone_regional_prompter_for_comfyui/</id><title>I made an all-in-one Regional Prompter for ComfyUI: paint regions in the node.</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xlyfcr/i_made_an_allinone_regional_prompter_for_comfyui/"/>
-<published>2026-11-02T14:19:16+00:00</published><updated>2026-11-02T14:19:16+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<summary>I wanted regional prompting in ComfyUI without wiring a pile of mask and conditioning nodes, so I made the Universal Regional Prompter. It isn't tied to one model family: I've tested it with Illustrious and Anima, and it works with other model types too. You paint your regions right inside the node,</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I wanted regional prompting in ComfyUI without wiring a pile of mask and conditioning nodes, so I made the Universal Regional Prompter. It isn't tied to one model family: I've tested it with Illustrious and Anima, and it works with other model types too. You paint your regions right inside the node, write one prompt with BREAK between the parts, and connect it to a normal KSampler. Each color gets its own part of the prompt, and you can add a base prompt that every region shares. It doesn't work quite the same way as the usual regional prompters. So results can look a bit different from what you'd get with other regional prompting tools. The pack also has a Universal Model Loader (checkpoint&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xlyfcr/i_made_an_allinone_regional_prompter_for_comfyui/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1xlxklj/preferred_way_to_do_screen_replacement_on_phone/</id><title>Preferred way to do screen replacement on phone screen with occlusion?</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xlxklj/preferred_way_to_do_screen_replacement_on_phone/"/>
-<published>2026-11-02T13:45:21+00:00</published><updated>2026-11-02T13:45:21+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="green screen"/>
-<category term="tracking"/>
-<summary>If you had a shoot coming right up with tens of phone screen replacement shots, what would be your preferred method to do it as quickly and good as possible? Handheld shots with occasional occlusion (fingers and hands over the screen). I always go with green screen + some tracking points, but then I</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · green screen, tracking&lt;/small&gt;&lt;/p&gt;&lt;p&gt;If you had a shoot coming right up with tens of phone screen replacement shots, what would be your preferred method to do it as quickly and good as possible? Handheld shots with occasional occlusion (fingers and hands over the screen). I always go with green screen + some tracking points, but then I found myself tracking with mocha in AE and not needing them. Never the less the masking on the occlusion it’s very time consuming in mocha. submitted by /u/emeahacheese [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xlxklj/preferred_way_to_do_screen_replacement_on_phone/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1xlxio5/gods_game_original_cg_animated_short_filmclip1/</id><title>God's Game | Original CG Animated Short Film-clip1</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xlxio5/gods_game_original_cg_animated_short_filmclip1/"/>
-<published>2026-11-02T13:43:06+00:00</published><updated>2026-11-02T13:43:06+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="animation"/>
-<summary>Hey everyone! Here's Clip 1 from God's Game , a short film I co-directed. It's a 10-minute monster film made by our independent animation team. We spent two years bringing it to life. Hope you enjoy it! submitted by /u/xieboli_ [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 1 · animation&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey everyone! Here's Clip 1 from God's Game , a short film I co-directed. It's a 10-minute monster film made by our independent animation team. We spent two years bringing it to life. Hope you enjoy it! submitted by /u/xieboli_ [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xlxio5/gods_game_original_cg_animated_short_filmclip1/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1xlxh9g/where_are_you_getting_human_motion_data_for/</id><title>Where are you getting human motion data for humanoid training? We run an optical mocap stage and are curious what is missing from public datasets</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xlxh9g/where_are_you_getting_human_motion_data_for/"/>
-<published>2026-11-02T13:41:24+00:00</published><updated>2026-11-02T13:41:24+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="mocap"/>
-<category term="human motion"/>
-<summary>submitted by /u/appleartsstudios [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 4 · mocap, human motion&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/appleartsstudios [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xlxh9g/where_are_you_getting_human_motion_data_for/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
