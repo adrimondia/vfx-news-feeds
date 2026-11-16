@@ -2,8 +2,61 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-16T03:37:09+00:00</updated>
+<updated>2026-11-16T05:31:09+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://arxiv.org/abs/2611.17752</id><title>Stage-wise Lineage-aware Dropout for Sparse-View 3D Gaussian Splatting</title>
+<link rel="alternate" href="https://arxiv.org/abs/2611.17752"/>
+<published>2026-11-16T05:00:00+00:00</published><updated>2026-11-16T05:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="gaussian splatting"/>
+<category term="3d gaussian"/>
+<category term="blender"/>
+<summary>arXiv:2611.17752v1 Announce Type: new Abstract: Sparse-view 3D Gaussian Splatting (3DGS) is prone to overfitting because only a limited number of images are available to constrain scene geometry. Dropout is one regularization strategy for alleviating this problem. We introduce the concept of a linea</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · gaussian splatting, 3d gaussian, blender&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2611.17752v1 Announce Type: new Abstract: Sparse-view 3D Gaussian Splatting (3DGS) is prone to overfitting because only a limited number of images are available to constrain scene geometry. Dropout is one regularization strategy for alleviating this problem. We introduce the concept of a lineage family to describe a set of Gaussian primitives derived from the same founder through cloning or splitting operations. The founder Gaussians refer to all Gaussian primitives generated during initialization. Descendants within the same family often jointly contribute to the refinement of adjacent local regions. However, dropping individual Gaussians can be less effective due to the compensation &lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2611.17752"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2611.18024</id><title>JaRS: Contrast-Free Localization of Memorized Regions in Diffusion Models via Jacobian Row Sums</title>
+<link rel="alternate" href="https://arxiv.org/abs/2611.18024"/>
+<published>2026-11-16T05:00:00+00:00</published><updated>2026-11-16T05:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="denoising"/>
+<category term="denoiser"/>
+<category term="stable diffusion"/>
+<category term="diffusion transformer"/>
+<category term="dit"/>
+<summary>arXiv:2611.18024v1 Announce Type: new Abstract: Diffusion models sometimes memorize and reproduce regions of their training images, raising privacy and copyright concerns. We aim to localize these regions. Existing contrast-based methods use the diagonal of the denoiser Jacobian, which reflects the </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · denoising, denoiser, stable diffusion, diffusion transformer, dit&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2611.18024v1 Announce Type: new Abstract: Diffusion models sometimes memorize and reproduce regions of their training images, raising privacy and copyright concerns. We aim to localize these regions. Existing contrast-based methods use the diagonal of the denoiser Jacobian, which reflects the posterior variance of each pixel. However, a small diagonal entry is ambiguous: it signals either memorization or averaging over many neighboring pixels in smooth or predictable regions. To resolve this ambiguity, these methods subtract a reference map, which requires a second evaluation with a null prompt or an earlier checkpoint. Unconditional models have no null prompt, and earlier checkpoints &lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2611.18024"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2611.17938</id><title>Measured from the feed: the unsustainable growth of AI video generation</title>
+<link rel="alternate" href="https://arxiv.org/abs/2611.17938"/>
+<published>2026-11-16T05:00:00+00:00</published><updated>2026-11-16T05:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="video generation"/>
+<category term="text-to-video"/>
+<category term="ai video"/>
+<summary>arXiv:2611.17938v1 Announce Type: cross Abstract: Text-to-video generation runs at commercial scale, but its broader environmental impacts remain, to our knowledge, understudied. Providers rarely disclose video volumes or energy needs; we measured the yearly video output of two commercial platforms </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · video generation, text-to-video, ai video&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2611.17938v1 Announce Type: cross Abstract: Text-to-video generation runs at commercial scale, but its broader environmental impacts remain, to our knowledge, understudied. Providers rarely disclose video volumes or energy needs; we measured the yearly video output of two commercial platforms and built a prospective model of such services' absolute footprint from training to storage. Our projections suggest that reducing emissions depends on both limiting growth in video generation and achieving substantial efficiency gains. Under continued growth, emissions rise nearly seventy-five-fold by 2030 despite technological improvements. When usage remains at 2026 levels, the same improvement&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2611.17938"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xxg2bc/what_im_i_doing_wrong_minimax_h3_image/</id><title>What I'm I doing wrong? [Minimax H3 image]</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xxg2bc/what_im_i_doing_wrong_minimax_h3_image/"/>
+<published>2026-11-16T04:24:13+00:00</published><updated>2026-11-16T04:24:13+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="minimax"/>
+<summary>I use this gguf model and the result is broken. Diffusion Model : MiniMax-H3-Image-Pruned-Q3_K_M.gguf Text Encoder : qwen3vl-32B-MiniMax-H3-Q2_K.gguf i use model from here https://huggingface.co/Abiray/MiniMax-H3-Image-GGUF I use rtx2060 12gb can anyone suggest me how to fix this Thanks submitted by</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I use this gguf model and the result is broken. Diffusion Model : MiniMax-H3-Image-Pruned-Q3_K_M.gguf Text Encoder : qwen3vl-32B-MiniMax-H3-Q2_K.gguf i use model from here https://huggingface.co/Abiray/MiniMax-H3-Image-GGUF I use rtx2060 12gb can anyone suggest me how to fix this Thanks submitted by /u/Economy_Version_6707 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xxg2bc/what_im_i_doing_wrong_minimax_h3_image/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1xxeziu/remaking_this_doomsday_scene_with_vfx_vs_ai_who/</id><title>Remaking this Doomsday Scene with VFX vs AI... Who Won?</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xxeziu/remaking_this_doomsday_scene_with_vfx_vs_ai_who/"/>
+<published>2026-11-16T03:26:59+00:00</published><updated>2026-11-16T03:26:59+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="vfx"/>
+<summary>I saw this Doomsday trailer scene and figured it was something I could do decently at remaking. It wasn't as easy as I expected. Curious what you guys think of this breakdown. Open to all critiques on the VFX, AI, and video edit as well. submitted by /u/Schopix [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I saw this Doomsday trailer scene and figured it was something I could do decently at remaking. It wasn't as easy as I expected. Curious what you guys think of this breakdown. Open to all critiques on the VFX, AI, and video edit as well. submitted by /u/Schopix [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xxeziu/remaking_this_doomsday_scene_with_vfx_vs_ai_who/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/vfx/comments/1xxdqro/where_can_i_contact_or_find_cosplay_vfx_artists/</id><title>Where can I contact or find Cosplay VFX Artists to help with my content?</title>
 <link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xxdqro/where_can_i_contact_or_find_cosplay_vfx_artists/"/>
@@ -6797,87 +6850,5 @@
 <category term="minimax"/>
 <summary>I just submitted H3 Continuity Studio to Comfy's Open Source Higgsfield contest and wanted to share it here. The test I cared about was pretty simple: generate a room with lots of little details, cut outside the house, then come back inside. Does it still look like the same room? And what happens if</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I just submitted H3 Continuity Studio to Comfy's Open Source Higgsfield contest and wanted to share it here. The test I cared about was pretty simple: generate a room with lots of little details, cut outside the house, then come back inside. Does it still look like the same room? And what happens if you move the camera to another corner? That's what the demo is built around. It follows the room, an exterior, a return inside, a different camera angle and a final continuation. I marked a few details so they're easier to compare: the sunburst mirror, fig plant, mustard cushions, ginger cat, teapot and fireplace. There's also a memory-off comparison using the same prompt and seed. The tool is a &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xlp0kg/i_made_a_comfyui_tool_to_bring_back_earlier/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2610.41011</id><title>Prior-Guided Single-Exposure HDR Novel View Synthesis via Base-Gain Representation</title>
-<link rel="alternate" href="https://arxiv.org/abs/2610.41011"/>
-<published>2026-11-02T05:00:00+00:00</published><updated>2026-11-02T05:00:00+00:00</updated>
-<author><name>arXiv cs.CV</name></author>
-<category term="novel view synthesis"/>
-<category term="gaussian splatting"/>
-<category term="3d gaussian"/>
-<category term="hdr"/>
-<category term="scene reconstruction"/>
-<summary>arXiv:2610.41011v1 Announce Type: new Abstract: Single-exposure high dynamic range (HDR) novel view synthesis (NVS) recovers HDR scenes from low dynamic range (LDR) views captured at a single exposure and estimates camera response function (CRF) for LDR re-exposure. Without HDR ground-truth, using s</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 7 · novel view synthesis, gaussian splatting, 3d gaussian, hdr, scene reconstruction&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2610.41011v1 Announce Type: new Abstract: Single-exposure high dynamic range (HDR) novel view synthesis (NVS) recovers HDR scenes from low dynamic range (LDR) views captured at a single exposure and estimates camera response function (CRF) for LDR re-exposure. Without HDR ground-truth, using single-exposure LDR views as the sole source of direct supervision underconstrains HDR reconstruction and cannot ensure its faithful recovery, motivating the need for learned LDR-to-HDR reconstruction priors. Moreover, single-exposure LDR views supervise CRF only over a limited range, necessitating a learnable prior for reliable re-exposure beyond it. We propose PriorGS, a 3D Gaussian Splatting fra&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2610.41011"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2511.11231</id><title>DiTGaze: Geometry-Conditioned Diffusion Augmentation for Few-Shot Gaze Estimation</title>
-<link rel="alternate" href="https://arxiv.org/abs/2511.11231"/>
-<published>2026-11-02T05:00:00+00:00</published><updated>2026-11-02T05:00:00+00:00</updated>
-<author><name>arXiv cs.CV</name></author>
-<category term="gaussian splatting"/>
-<category term="3d gaussian"/>
-<category term="rendering"/>
-<category term="diffusion transformer"/>
-<category term="dit"/>
-<summary>arXiv:2511.11231v2 Announce Type: replace Abstract: Accurate person-specific gaze estimation benefits from labeled user data, but collecting images that densely cover gaze directions is burdensome. We present DiTGaze, a calibration-efficient augmentation system that follows a two-stream 3D Gaussian </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · gaussian splatting, 3d gaussian, rendering, diffusion transformer, dit&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2511.11231v2 Announce Type: replace Abstract: Accurate person-specific gaze estimation benefits from labeled user data, but collecting images that densely cover gaze directions is burdensome. We present DiTGaze, a calibration-efficient augmentation system that follows a two-stream 3D Gaussian Splatting backbone and reformulates its convolutional rendering stage as a geometry-conditioned latent Diffusion Transformer (DiT). A learnable projection and frozen VAE bridge rasterized Gaussian features to latent tokens, while timestep and identity/expression conditioning are integrated through Adaptive Layer Normalization. Intermediate yaw-pitch sampling densifies gaze supervision, and an orth&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2511.11231"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2602.21535</id><title>AdaGS: Confidence-Gated Diffusion Adaptation for Unposed Sparse-View 3D Gaussian Reconstruction</title>
-<link rel="alternate" href="https://arxiv.org/abs/2602.21535"/>
-<published>2026-11-02T05:00:00+00:00</published><updated>2026-11-02T05:00:00+00:00</updated>
-<author><name>arXiv cs.CV</name></author>
-<category term="gaussian splatting"/>
-<category term="3d gaussian"/>
-<category term="3d reconstruction"/>
-<category term="rendering"/>
-<category term="multi-view"/>
-<summary>arXiv:2602.21535v2 Announce Type: replace Abstract: Sparse-view outdoor 3D reconstruction remains challenging for Gaussian splatting. Although diffusion restorers can provide additional pseudo-view supervision, we identify a failure pattern in diffusion-guided reconstruction: an unguided diffusion m</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 6 · gaussian splatting, 3d gaussian, 3d reconstruction, rendering, multi-view&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2602.21535v2 Announce Type: replace Abstract: Sparse-view outdoor 3D reconstruction remains challenging for Gaussian splatting. Although diffusion restorers can provide additional pseudo-view supervision, we identify a failure pattern in diffusion-guided reconstruction: an unguided diffusion model may misinterpret floating artifacts and complete them into plausible but non-existent scene structures. To mitigate this challenge, we propose a confidence-gated diffusion adaptation framework for unposed sparse-view reconstruction. We introduce an artifact-aware adapter that is trained in two stages on our constructed Gaussian artifact dataset. The adapter suppresses floater-induced visual c&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2602.21535"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2609.33969</id><title>Gaussian Splatting-based Volumetric Video Compression with Sparse 4D Anchors</title>
-<link rel="alternate" href="https://arxiv.org/abs/2609.33969"/>
-<published>2026-11-02T05:00:00+00:00</published><updated>2026-11-02T05:00:00+00:00</updated>
-<author><name>arXiv cs.CV</name></author>
-<category term="gaussian splatting"/>
-<category term="3d gaussian"/>
-<category term="4d"/>
-<category term="rendering"/>
-<summary>arXiv:2609.33969v2 Announce Type: replace Abstract: Immersive video communication requires photorealistic, compact dynamic scene representations that support efficient rendering. 3D Gaussian Splatting (3DGS) is a promising approach, but dynamic 3DGS remains difficult to compress due to its dense pri</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · gaussian splatting, 3d gaussian, 4d, rendering&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.33969v2 Announce Type: replace Abstract: Immersive video communication requires photorealistic, compact dynamic scene representations that support efficient rendering. 3D Gaussian Splatting (3DGS) is a promising approach, but dynamic 3DGS remains difficult to compress due to its dense primitives and spatiotemporal redundancy. Anchor-based formulations improve compactness through sparse scaffolds that share geometry and appearance across primitives. However, existing designs typically deform a single canonical scaffold and condition each primitive solely on its associated anchor, limiting their ability to model non-local dynamics and disocclusions and exploit inter-anchor correlati&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.33969"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xlnocn/am_i_missing_out_by_using_the_default_h3_workflows/</id><title>Am i missing out by using the default H3 workflows?</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xlnocn/am_i_missing_out_by_using_the_default_h3_workflows/"/>
-<published>2026-11-02T04:21:38+00:00</published><updated>2026-11-02T04:21:38+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="upscaling"/>
-<category term="minimax"/>
-<summary>I've only used the official workflow for fl2va/ref2va, plus a single music video wf. I think I tried a couple of others but they needed 10 custom nodes and ran far longer due to extra features I couldn't figure out how to turn off. (forced local prompt enhancement, upscaling, and those are just the </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · upscaling, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I've only used the official workflow for fl2va/ref2va, plus a single music video wf. I think I tried a couple of others but they needed 10 custom nodes and ran far longer due to extra features I couldn't figure out how to turn off. (forced local prompt enhancement, upscaling, and those are just the ones I actually understand) Is the official workflow considered good enough, or am I missing out here? I ask because I just noticed in the 'Minimax H3: Image To Video' from the template gallery, it has a Scale Image To Total Pixels and Get Image Size nodes at the bottom, but they're not connected to the rest of the workflow. I thought maybe these workflows are abandoned/unmaintained, and community&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xlnocn/am_i_missing_out_by_using_the_default_h3_workflows/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xlni9b/i_built_a_free_opensource_node_pack_for_23_minute/</id><title>I built a free open-source node pack for 2–3 minute videos with MiniMax H3 (1080P, one run)</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xlni9b/i_built_a_free_opensource_node_pack_for_23_minute/"/>
-<published>2026-11-02T04:12:27+00:00</published><updated>2026-11-02T04:12:27+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="text-to-video"/>
-<category term="render"/>
-<category term="comfyui"/>
-<category term="minimax"/>
-<summary>Most video workflows I tried topped out at 10–15 seconds, so over the past few months I built H3MD Director — a set of ComfyUI nodes that render 2–3 minute videos with MiniMax H3 in a single run, keeping faces, colors and lighting consistent. Everything in the clip was made with it: a music video, a</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 5 · text-to-video, render, comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Most video workflows I tried topped out at 10–15 seconds, so over the past few months I built H3MD Director — a set of ComfyUI nodes that render 2–3 minute videos with MiniMax H3 in a single run, keeping faces, colors and lighting consistent. Everything in the clip was made with it: a music video, a samba motion transfer, a text-to-video coastal ride, and a short fantasy drama. - GitHub (nodes + example workflow): https://github.com/1113800942/comfy-h3md-director - Full showcase video: https://youtu.be/plDxnModffs It builds on ideas from Luna, Niko, Marker, T8 and others in the community — thanks to all of them. Happy to answer questions; feedback and bug reports are very welcome. submitted &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xlni9b/i_built_a_free_opensource_node_pack_for_23_minute/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xln18y/for_those_of_you_running_both_comfyui_and_local/</id><title>For those of you running both ComfyUI and local LLMs, how are you managing GPU resources?</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xln18y/for_those_of_you_running_both_comfyui_and_local/"/>
-<published>2026-11-02T03:47:17+00:00</published><updated>2026-11-02T03:47:17+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<summary>I’m curious how people here switch between ComfyUI workflows and local LLM inference, especially on a single GPU. Are you manually unloading models, using something like LM Studio or llama-swap, relying on ComfyUI’s model management, or have you built something to handle switching automatically? I’m</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I’m curious how people here switch between ComfyUI workflows and local LLM inference, especially on a single GPU. Are you manually unloading models, using something like LM Studio or llama-swap, relying on ComfyUI’s model management, or have you built something to handle switching automatically? I’m particularly interested in how you handle VRAM contention when you want to move between image generation and LLM workloads without constantly waiting for models to reload. What’s your current setup, and what works well for you? Video attached is my project Berth but I’m here curious on how everyone else solved this problem? submitted by /u/Distinct-Pie2389 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xln18y/for_those_of_you_running_both_comfyui_and_local/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
