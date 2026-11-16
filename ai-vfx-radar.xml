@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-16T07:31:10+00:00</updated>
+<updated>2026-11-16T08:01:14+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xxhyy9/brightness_issue_solved_geiru_keystone_attention/</id><title>Brightness Issue Solved: Geiru Keystone Attention and Hybrid Improvements</title>
@@ -6813,30 +6813,5 @@
 <category term="lora"/>
 <summary>I'm using Krea 2 Ostris Edit with a trained identity LoRA, clothing reference and DWPose reference. However, the generated image doesn't follow the target pose accurately, even with the identity LoRA disabled. My current setup: DWPose skeleton connected to image1 Clothing reference connected to imag</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · comfyui, controlnet, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I'm using Krea 2 Ostris Edit with a trained identity LoRA, clothing reference and DWPose reference. However, the generated image doesn't follow the target pose accurately, even with the identity LoRA disabled. My current setup: DWPose skeleton connected to image1 Clothing reference connected to image2 Original pose image connected to image3 krea2_turbo_openpose_controlnet.safetensors loaded through Power LoRA Loader Questions: Is this the correct way to use DWPose with Krea 2? How should I connect the POSE_KEYPOINT output? Is there a proper OpenPose/ControlNet workflow for Krea 2? I've attached my workflow JSON. Could someone check the connections and suggest the correct setup? Thanks! Workf&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xltqd4/help_with_dwposeopenpose_conditioning_in_krea_2/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xlr1ne/minimax_05_megapixel_takes_three_times_more_than/</id><title>Minimax 0.5 megapixel takes three times more than 0.4 megapixel. GPU TDP drops quite a bit too. Any workarounds?</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xlr1ne/minimax_05_megapixel_takes_three_times_more_than/"/>
-<published>2026-11-02T07:39:51+00:00</published><updated>2026-11-02T07:39:51+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="minimax"/>
-<summary>6700 XT 12 GB VRAM and 32 GB ram. Reducing the duration to three seconds doesn't help either. Rife makes it bearable but I wanted to see if I could keep the TDP higher with tiling or something, like VAE tiling in image gen. Is there a hack/workaround that keeps the GPU at full utilization. Workflow </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;6700 XT 12 GB VRAM and 32 GB ram. Reducing the duration to three seconds doesn't help either. Rife makes it bearable but I wanted to see if I could keep the TDP higher with tiling or something, like VAE tiling in image gen. Is there a hack/workaround that keeps the GPU at full utilization. Workflow link . Ty!:) submitted by /u/ltraconservativetip [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xlr1ne/minimax_05_megapixel_takes_three_times_more_than/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xlqytt/custom_node_rec_frame_overlay_authentic_camera/</id><title>[Custom Node] REC Frame Overlay — Authentic Camera Viewfinder &amp; 2000s Digicam Overlays for Images &amp; Video Batches</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xlqytt/custom_node_rec_frame_overlay_authentic_camera/"/>
-<published>2026-11-02T07:34:53+00:00</published><updated>2026-11-02T07:34:53+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="video generation"/>
-<category term="frame interpolation"/>
-<category term="upscaling"/>
-<category term="animation"/>
-<category term="rendering"/>
-<category term="comfyui"/>
-<category term="wan"/>
-<category term="minimax"/>
-<summary>Hi everyone! I just released REC Frame Overlay for ComfyUI. It's a pixel-perfect, self-contained camera viewfinder and REC HUD generator designed for both still images and video generation pipelines (Wan, MiniMax, AnimateDiff, etc.). ### 🌟 Key Highlights: - Dedicated Nodes: - `RecFrameImageOverlay`:</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 8 · video generation, frame interpolation, upscaling, animation, rendering, comfyui, wan, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi everyone! I just released REC Frame Overlay for ComfyUI. It's a pixel-perfect, self-contained camera viewfinder and REC HUD generator designed for both still images and video generation pipelines (Wan, MiniMax, AnimateDiff, etc.). ### 🌟 Key Highlights: - Dedicated Nodes: - `RecFrameImageOverlay`: Fast single-pass rendering for single images or batches. - `RecFrameVideoOverlay`: Frame-accurate timecode advance (hh:mm:ss:ff) + customizable blinking REC dot. - `RecFramePreview`: Real-time canvas overlay inspector without queuing prompts. - 2000s Digicam Degradation (`retro_effect: 0–6`): Non-destructive RGB shift, CRT bloom, and retro downscaling applied strictly to the UI layer. - Auto-inve&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xlqytt/custom_node_rec_frame_overlay_authentic_camera/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
