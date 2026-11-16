@@ -2,8 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-15T23:37:12+00:00</updated>
+<updated>2026-11-16T01:37:22+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/vfx/comments/1xxc9a9/crowd_simulation_shot_done_inside_blender/</id><title>Crowd Simulation shot, done inside blender</title>
+<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xxc9a9/crowd_simulation_shot_done_inside_blender/"/>
+<published>2026-11-16T01:11:26+00:00</published><updated>2026-11-16T01:11:26+00:00</updated>
+<author><name>r/vfx</name></author>
+<category term="vfx"/>
+<category term="blender"/>
+<summary>I have been working on a shot for a short film, they required a crowd horde running towards a helicopter, everything is done inside blender, The city model is extracted from google map with addon, helicopter model and other models are downloaded from sketchfab, Crowd sim is made with BlenderAdd-on P</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 3 · vfx, blender&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I have been working on a shot for a short film, they required a crowd horde running towards a helicopter, everything is done inside blender, The city model is extracted from google map with addon, helicopter model and other models are downloaded from sketchfab, Crowd sim is made with BlenderAdd-on Procedural crowd. #vfx #crowd #cgi #blender #visualeffects submitted by /u/Historical-Gene8214 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xxc9a9/crowd_simulation_shot_done_inside_blender/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xx8zu0/as_a_mosskrea2_user_i_wasnt_sold_on_minimax_image/</id><title>As a Moss/Krea2 user I wasn't sold on Minimax Image at first but now it's definitely a model I'll use.</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xx8zu0/as_a_mosskrea2_user_i_wasnt_sold_on_minimax_image/"/>
@@ -6847,30 +6857,5 @@
 <category term="lora"/>
 <summary>Generating a video using Minimax H3 on an RX 6600 GPU was successful. I used the default ComfyUI workflow, simply swapping out a few models, adding a Turbo LoRA (Taomate H3 3-step), incorporating ClipProj for the text encoder, and adjusting the script used to run ComfyUI. A 5-second, 512x768 video w</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · comfyui, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Generating a video using Minimax H3 on an RX 6600 GPU was successful. I used the default ComfyUI workflow, simply swapping out a few models, adding a Turbo LoRA (Taomate H3 3-step), incorporating ClipProj for the text encoder, and adjusting the script used to run ComfyUI. A 5-second, 512x768 video was generated in 10 minutes, a result I find quite impressive, considering my RAM just 8gb . the main idea is gain advantage of disk streaming offload rather than gpu/cpu offloading (that will crash/oom) diffusion and vae using int 8 convrot model (provided by comfy) Specs: os : cachyos cpu : ryzen 7500f gpu: rx 6600 ram: 8gb ddr5 5600MT Python 3.12.15 rocm: torch 2.15.0.dev20260827+rocm7.2 my work&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xlms4a/minimax_h3_on_rx_6600_with_8gb_ram/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xljadr/easycomfee_v2_an_opensource_creative_studio_on/</id><title>EasyComfee V2: an open-source creative studio on top of ComfyUI</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xljadr/easycomfee_v2_an_opensource_creative_studio_on/"/>
-<published>2026-11-02T00:40:28+00:00</published><updated>2026-11-02T00:40:28+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="lip sync"/>
-<category term="vfx"/>
-<category term="render"/>
-<category term="comfyui"/>
-<category term="blender"/>
-<category term="wan"/>
-<category term="hunyuanvideo"/>
-<category term="ltx"/>
-<summary>EasyComfee V2: an open-source creative studio on top of ComfyUI For years ComfyUI felt like a fight: models that didn’t fit on my GPU, and more time wiring nodes than creating. So I built EasyComfee, a Higgsfield-style studio with Image, Video, VFX, Lip Sync, Music, Voice and Genjutsu, all running r</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 9 · lip sync, vfx, render, comfyui, blender, wan, hunyuanvideo, ltx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;EasyComfee V2: an open-source creative studio on top of ComfyUI For years ComfyUI felt like a fight: models that didn’t fit on my GPU, and more time wiring nodes than creating. So I built EasyComfee, a Higgsfield-style studio with Image, Video, VFX, Lip Sync, Music, Voice and Genjutsu, all running real ComfyUI workflows. It reads your graphics card first. If the model fits, it runs locally for free. If it doesn’t, one click sends it to Comfy Cloud, with the price shown before you press Generate. New in V2: A new interface with a side menu and a refined palette LTX at the core: keyframes on a timeline, 14 one-click VFX (3D render → video, day → night, remove people, swap character…), lip sync&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xljadr/easycomfee_v2_an_opensource_creative_studio_on/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xlj4n4/1980s_italodisco_nar_lora_for_yue2_example_song/</id><title>1980s Italo-Disco NAR LoRA for YuE2 | Example song - Let Me Bring You Back</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xlj4n4/1980s_italodisco_nar_lora_for_yue2_example_song/"/>
-<published>2026-11-02T00:32:32+00:00</published><updated>2026-11-02T00:32:32+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="lora"/>
-<summary>LoRA: https://huggingface.co/jamespetts/yue2-1980s-italo-disco-lora (CC0) Note: this is an NAR LoRA, which I trained locally on my 2080Ti. Music (Internet Archive): https://ia601602.us.archive.org/6/items/ai-italo-disco/Let%20me%20bring%20you%20back.mp3 (CC0) Music (Souna - login required): https://</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;LoRA: https://huggingface.co/jamespetts/yue2-1980s-italo-disco-lora (CC0) Note: this is an NAR LoRA, which I trained locally on my 2080Ti. Music (Internet Archive): https://ia601602.us.archive.org/6/items/ai-italo-disco/Let%20me%20bring%20you%20back.mp3 (CC0) Music (Souna - login required): https://www.souna.app/song/a16fdd23-f2a3-47a2-acc6-e94b6781740e The song is a dark-romantic song about bringing the ghost of Italo-Disco from the dead using AI, which I thought was a fitting test piece for the LoRA. My general music pipeline workflow is here: https://www.reddit.com/r/StableDiffusion/comments/1xh0xfd/semiautomated_localish_music_workflow_eurodisco/ The image was also generated locally usin&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xlj4n4/1980s_italodisco_nar_lora_for_yue2_example_song/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
