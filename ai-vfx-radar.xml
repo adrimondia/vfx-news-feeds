@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-17T09:30:29+00:00</updated>
+<updated>2026-11-17T11:30:53+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
 <entry>
 <id>https://github.com/superdesigndev/treg</id><title>superdesigndev/treg</title>
@@ -24,6 +24,16 @@
 <category term="flux"/>
 <summary>Hi everyone! I’m looking for advice, ideas, or ComfyUI workflows for transforming existing images into a completely different visual style . My current use case involves low-detail 3D CGI comics that I’d like to transform into convincing photorealistic images. The goal is true stylistic reinterpreta</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · upscaling, comfyui, flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi everyone! I’m looking for advice, ideas, or ComfyUI workflows for transforming existing images into a completely different visual style . My current use case involves low-detail 3D CGI comics that I’d like to transform into convincing photorealistic images. The goal is true stylistic reinterpretation rather than simply applying a filter, upscaling, or enhancing the original image . Ideally, the transformation should preserve most of the original content, including characters, identities, poses, composition, objects, and text, while completely reimagining the visual appearance. I’d also love a solution that works across different scenes without having to manually describe the image content&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xyfl2x/looking_for_comfyui_workflows_or_tips_for_true/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xydt2j/vid_upscalers_relayvsr_5x_render_speed_vs/</id><title>vid upscalers: RelayVSR (5x render speed) vs Starlight (more details)</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xydt2j/vid_upscalers_relayvsr_5x_render_speed_vs/"/>
+<published>2026-11-17T07:03:28+00:00</published><updated>2026-11-17T07:03:28+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="render"/>
+<category term="comfyui"/>
+<summary>ComfyUI nodes also! submitted by /u/reeight [link] [comments]</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · render, comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;ComfyUI nodes also! submitted by /u/reeight [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xydt2j/vid_upscalers_relayvsr_5x_render_speed_vs/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xyd6gl/posewright_a_simple_program_to_pose_figures_for/</id><title>Posewright: A Simple program to pose figures for img2img generations</title>
@@ -6768,70 +6778,5 @@
 <category term="lora"/>
 <summary>I am trying to generate various short videos using ComfyUI and LTX 2.5. I want the camera to remain in a fixed position—completely static—throughout the videos, but I haven't been able to achieve this consistently. I downloaded the "Cinemagraph" LoRA and followed the instructions provided on its pag</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 6 · text-to-video, image-to-video, comfyui, ltx, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I am trying to generate various short videos using ComfyUI and LTX 2.5. I want the camera to remain in a fixed position—completely static—throughout the videos, but I haven't been able to achieve this consistently. I downloaded the "Cinemagraph" LoRA and followed the instructions provided on its page, yet it still doesn't work as intended. I encounter the same issue with both T2V (text-to-video) and I2V (image-to-video) methods. Even though my prompts are very simple and clear, I cannot get the camera to stay still. What approach do you use to create videos with a fixed, static camera? I am using an RTX 5060 Ti (16 GB VRAM); given the speed at which LTX operates, I haven't found another mode&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xmqxsr/ltx_25_static_camera_problem/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xmqefq/i_trained_rawsnap_v3_lokr_for_krea_2_on_749/</id><title>I trained rawsnap v3 (LoKr) for Krea 2 on 749 images and can't pick the best epoch — help me vote (public, no login)</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xmqefq/i_trained_rawsnap_v3_lokr_for_krea_2_on_749/"/>
-<published>2026-11-03T11:22:05+00:00</published><updated>2026-11-03T11:22:05+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<category term="lora"/>
-<summary>Hey everyone! i was working rawsnap , a realism LoRA for Krea 2 Turbo that aims for raw, candid smartphone photos instead of the usual polished AI look. About v3: Trained as a LoKr on RunPod - 749 images , 11,235 steps - Same dataset as v1/v2, but more images added each version and better captions. </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey everyone! i was working rawsnap , a realism LoRA for Krea 2 Turbo that aims for raw, candid smartphone photos instead of the usual polished AI look. About v3: Trained as a LoKr on RunPod - 749 images , 11,235 steps - Same dataset as v1/v2, but more images added each version and better captions. The problem: I can't decide which epoch is best. Some epochs have anatomy problems, others lose quality, so instead of guessing I built a ComfyUI comparison workflow that tests them all under identical conditions. The test: - 18 prompts , each rendered 35 times with the same prompt and seed - No LoRA (base Krea 2), v1 (LoRA, epoch 7), v2 (LoRA, epoch 9), and v3 LoKr epochs 8–15 at strengths 1.0 / &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xmqefq/i_trained_rawsnap_v3_lokr_for_krea_2_on_749/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xmqbyu/black_forest_labs_updated_flux3_image_klein/</id><title>Black Forest Labs updated Flux.3 Image Klein documentation to clarify that its primarily designed for image editing.</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xmqbyu/black_forest_labs_updated_flux3_image_klein/"/>
-<published>2026-11-03T11:18:00+00:00</published><updated>2026-11-03T11:18:00+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="image editing"/>
-<category term="flux"/>
-<summary>Updated yesterday . At least they're still attending to it, right? submitted by /u/MonkeyBoyPoop [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · image editing, flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Updated yesterday . At least they're still attending to it, right? submitted by /u/MonkeyBoyPoop [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xmqbyu/black_forest_labs_updated_flux3_image_klein/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xmpvcq/krea_2_general_edit_v2_what_results_are_people/</id><title>Krea 2 General Edit V2 – what results are people actually getting?</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xmpvcq/krea_2_general_edit_v2_what_results_are_people/"/>
-<published>2026-11-03T10:51:51+00:00</published><updated>2026-11-03T10:51:51+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="relighting"/>
-<category term="image editing"/>
-<category term="comfyui"/>
-<category term="lora"/>
-<category term="consistency"/>
-<summary>I've been experimenting with Krea 2 image editing in ComfyUI, particularly the new General Edit V2 LoRA, and I'm interested in hearing about other people's experiences. Krea 2 produces excellent Text To Image results, but so far I've struggled to achieve anything approaching that same level of quali</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 5 · relighting, image editing, comfyui, lora, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I've been experimenting with Krea 2 image editing in ComfyUI, particularly the new General Edit V2 LoRA, and I'm interested in hearing about other people's experiences. Krea 2 produces excellent Text To Image results, but so far I've struggled to achieve anything approaching that same level of quality and consistency when editing existing images. I'm using the ComfyUI-Krea2Edit custom nodes, but the published example workflow predates the V2 LoRAs. I've therefore also raised an issue with the developer asking whether the original workflow is still recommended and what settings are appropriate for General Edit V2. A few things I'd particularly like to understand: Are you getting consistently &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xmpvcq/krea_2_general_edit_v2_what_results_are_people/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1xmpfs0/ive_spent_years_creating_vfx_finally_decided_to/</id><title>I’ve spent years creating VFX — finally decided to share my entire library!</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xmpfs0/ive_spent_years_creating_vfx_finally_decided_to/"/>
-<published>2026-11-03T10:25:52+00:00</published><updated>2026-11-03T10:25:52+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="vfx"/>
-<summary>Hey fellow editors! I'm a filmmaker and video editor, and over the years I've created thousands of effects for my own projects — film burns, light leaks, VHS textures, glitches, transitions, overlays, and much more. I recently decided to organize everything and make it available to other editors thr</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey fellow editors! I'm a filmmaker and video editor, and over the years I've created thousands of effects for my own projects — film burns, light leaks, VHS textures, glitches, transitions, overlays, and much more. I recently decided to organize everything and make it available to other editors through my own website. There are now over 2,000 video effects , all designed to be easy to use in Premiere Pro, After Effects, DaVinci Resolve, or pretty much any editing software. There are also free effects available to download , so you can try them out and use them in your own projects! You can grab individual effects or entire packs depending on what you need. I’d love to hear what you think, e&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xmpfs0/ive_spent_years_creating_vfx_finally_decided_to/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xmp6dh/i_built_a_free_opensource_film_studio_on_top_of/</id><title>I built a free, open-source film studio on top of ComfyUI + MiniMax H3: idea to finished short film, on your own PC</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xmp6dh/i_built_a_free_opensource_film_studio_on_top_of/"/>
-<published>2026-11-03T10:10:02+00:00</published><updated>2026-11-03T10:10:02+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="render"/>
-<category term="comfyui"/>
-<category term="minimax"/>
-<category term="lora"/>
-<category term="previs"/>
-<category term="storyboard"/>
-<summary>This is IV Studio, my entry for Comfy's Open Source Higgsfield challenge. It's a Windows desktop app (MIT) that drives your own ComfyUI over its API, so you never touch a node graph unless you want to. What it does: - **Write it for me:** a local model (Qwen3-VL via Ollama or your AI Agent through M</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 8 · render, comfyui, minimax, lora, previs, storyboard&lt;/small&gt;&lt;/p&gt;&lt;p&gt;This is IV Studio, my entry for Comfy's Open Source Higgsfield challenge. It's a Windows desktop app (MIT) that drives your own ComfyUI over its API, so you never touch a node graph unless you want to. What it does: - **Write it for me:** a local model (Qwen3-VL via Ollama or your AI Agent through MCP) looks at your reference pictures and writes the H3 prompt. A checker catches the mistakes H3 punishes (frame-grid lengths, speaker tags, unattached references) and fixes most in one click. - **Hunt, then finish:** quick previews with live step pictures; takes are ranked by what OpenAI Whisper hears, likeness and sharpness. A review names each problem with its timestamp. The pick finishes from &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xmp6dh/i_built_a_free_opensource_film_studio_on_top_of/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1xmovae/relight_alternative/</id><title>Relight Alternative?</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xmovae/relight_alternative/"/>
-<published>2026-11-03T09:51:21+00:00</published><updated>2026-11-03T09:51:21+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="relight"/>
-<summary>I want to place actors in cgi environments. i tried beeble ai but the result is plastic looking faces. do you think there will be an alternative in the future? submitted by /u/AntiSlopMafia [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · relight&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I want to place actors in cgi environments. i tried beeble ai but the result is plastic looking faces. do you think there will be an alternative in the future? submitted by /u/AntiSlopMafia [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xmovae/relight_alternative/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
