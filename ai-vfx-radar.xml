@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-17T15:30:50+00:00</updated>
+<updated>2026-11-17T17:30:51+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1xyj9vg/anyone_skipping_the_upscale_chain_with_native_4k/</id><title>Anyone skipping the upscale chain with native 4K generation on 16GB VRAM?</title>
@@ -54,6 +54,15 @@
 <category term="flux"/>
 <summary>Hi everyone! I’m looking for advice, ideas, or ComfyUI workflows for transforming existing images into a completely different visual style . My current use case involves low-detail 3D CGI comics that I’d like to transform into convincing photorealistic images. The goal is true stylistic reinterpreta</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · upscaling, comfyui, flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi everyone! I’m looking for advice, ideas, or ComfyUI workflows for transforming existing images into a completely different visual style . My current use case involves low-detail 3D CGI comics that I’d like to transform into convincing photorealistic images. The goal is true stylistic reinterpretation rather than simply applying a filter, upscaling, or enhancing the original image . Ideally, the transformation should preserve most of the original content, including characters, identities, poses, composition, objects, and text, while completely reimagining the visual appearance. I’d also love a solution that works across different scenes without having to manually describe the image content&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xyfl2x/looking_for_comfyui_workflows_or_tips_for_true/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xydyog/large_lora_collection_helper_extension_forge_neo/</id><title>Large LoRA Collection Helper Extension (Forge Neo)</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xydyog/large_lora_collection_helper_extension_forge_neo/"/>
+<published>2026-11-17T07:13:07+00:00</published><updated>2026-11-17T07:13:07+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="lora"/>
+<summary>I have upwards of 30,000 loras in my collection, and it was getting increasingly difficult to access them without severe slowdown. So, I had ChatGPT develop an extension that fixes basically all the issues I had. Mainly Incremental LoRA loading and an optimized, debounced search - as well as adding </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I have upwards of 30,000 loras in my collection, and it was getting increasingly difficult to access them without severe slowdown. So, I had ChatGPT develop an extension that fixes basically all the issues I had. Mainly Incremental LoRA loading and an optimized, debounced search - as well as adding a random sort option, and adjustable heights for the card display while accessing it on mobile). It now has performance comparable to having a very minimalist lora collection. https://github.com/Kaybe97/forge-large-collection-helper submitted by /u/Artistic-Account-423 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xydyog/large_lora_collection_helper_extension_forge_neo/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xydt2j/vid_upscalers_relayvsr_5x_render_speed_vs/</id><title>vid upscalers: RelayVSR (5x render speed) vs Starlight (more details)</title>
@@ -275,6 +284,17 @@
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · inpainting, comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey everyone! 👋 Some of you may have seen the original HexAnima project by "ayanoby" ( https://github.com/ayanoby/hexanima ), which brought offline anime image generation to Snapdragon 8 Gen 1 and 8+ Gen 1 devices. First of all, a huge thank you to ayanoby for creating HexAnima and making it open source! ❤️ The original project is genuinely impressive. The custom NPU kernels, on-device inference server, Android application, and optimized model packs are all the result of their work. I wanted to bring this experience to Snapdragon 8 Gen 2 devices while expanding the tools available for image generation. So I'd like to share my fork of HexAnima! GitHub: https://github.com/GrimmDev-Glitch/hexan&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xy6bz7/hexanima_fork_offline_ai_image_generation_on/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xy4pkf/whats_the_gold_standard_for_relighting/</id><title>What's the gold standard for relighting objects/subjects into a scene in 2026?</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xy4pkf/whats_the_gold_standard_for_relighting/"/>
+<published>2026-11-16T23:26:37+00:00</published><updated>2026-11-16T23:26:37+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="relighting"/>
+<category term="relight"/>
+<category term="comfyui"/>
+<summary>After using the harmonize option in photoshop for some time, I would like to move to local image generation and I'm looking for the best ComfyUI workflows, models, or custom nodes for realistically relighting an object or subject to match the lighting, shadows, and color temperature of a target scen</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · relighting, relight, comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;After using the harmonize option in photoshop for some time, I would like to move to local image generation and I'm looking for the best ComfyUI workflows, models, or custom nodes for realistically relighting an object or subject to match the lighting, shadows, and color temperature of a target scene as photoshop harmonize does. I have been reading about IC-Light and IC-Light 2 (seems not to have a local version) but these are about 2 years old. What are you guys using in 2026? Any recommended workflows or must-have nodes? Ideally, looking for something that produces convincing, seamless results with minimal manual tweaking. P.S. Can models like Qwen Image 2.1 handle relighting through promp&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xy4pkf/whats_the_gold_standard_for_relighting/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
 <id>https://www.reddit.com/r/comfyui/comments/1xy3fhc/a_quick_mossimage_news_roundup_16th_november_2026/</id><title>A quick MOSS-Image news round-up - 16th November 2026</title>
 <link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xy3fhc/a_quick_mossimage_news_roundup_16th_november_2026/"/>
 <published>2026-11-16T22:32:25+00:00</published><updated>2026-11-16T22:32:25+00:00</updated>
@@ -284,6 +304,19 @@
 <category term="lora"/>
 <summary>Another quick MOSS-Image news and goodies round-up, for those who may have missed some items. -&gt; RS-Camera-Control-MOSS. A new... "experimental 42-view camera adapter for MOSS-Image-SFT" which uses the Camera Control node from the RS MultiCharacter Sampler pack for ComfyUI. https://huggingface.co/ra</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · camera control, comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Another quick MOSS-Image news and goodies round-up, for those who may have missed some items. -&amp;gt; RS-Camera-Control-MOSS. A new... "experimental 42-view camera adapter for MOSS-Image-SFT" which uses the Camera Control node from the RS MultiCharacter Sampler pack for ComfyUI. https://huggingface.co/raspie/RS-CAMERA-CONTROL-MOSS https://github.com/raspie10032/ComfyUI_RS_MultiCharacter_Sampler (RS MultiCharacter Sampler, required) -&amp;gt; MOSS-Image-LoRA-Polaroid. Click, whirrr, ker-chunk. https://huggingface.co/SEEDRAAI/MOSS-Image-LoRA-Polaroid -&amp;gt; A Eurocomics version of the versatile Nix-Comics LoRA for MOSS-Image. I imagine this might be usefully combined with the Moebius LoRA at low strength? Not&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xy3fhc/a_quick_mossimage_news_roundup_16th_november_2026/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xy09b1/how_to_preserve_facial_identity_when_replacing_a/</id><title>How to preserve facial identity when replacing a character’s face in a stylized 3D scene?</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xy09b1/how_to_preserve_facial_identity_when_replacing_a/"/>
+<published>2026-11-16T20:27:14+00:00</published><updated>2026-11-16T20:27:14+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="inpainting"/>
+<category term="image editing"/>
+<category term="comfyui"/>
+<category term="controlnet"/>
+<category term="identity preservation"/>
+<summary>I’m building an AI image-generation pipeline and struggling with facial identity preservation. My current workflow: Take a real person’s face photo as input. Transform it into a semi-realistic, stylized 3D illustration. Take an existing 3D-style scene containing a character. Replace the character’s </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 5 · inpainting, image editing, comfyui, controlnet, identity preservation&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I’m building an AI image-generation pipeline and struggling with facial identity preservation. My current workflow: Take a real person’s face photo as input. Transform it into a semi-realistic, stylized 3D illustration. Take an existing 3D-style scene containing a character. Replace the character’s face and hair with the generated 3D face while preserving the original scene, character’s pose, body proportions, lighting, and objects. The problem: I’m using Google’s Nano Banana models (Flash, Pro, etc.) for image editing. The models do a pretty good job preserving the scene’s composition, objects, and character pose. However, they consistently fail to preserve the facial identity of the refere&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xy09b1/how_to_preserve_facial_identity_when_replacing_a/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1xy06x5/ww1_rap_made_with_comfyui_with_only_local_models/</id><title>WW1 RAP. Made with ComfyUI with only local models.</title>
@@ -6587,113 +6620,5 @@
 <category term="dit"/>
 <summary>As someone with an RTX 4060 and 16 GB of RAM, I got curious… could I actually run a model of this caliber on my PC? Turns out, yes! A 5-second video generated at 540p, upscaled with flashVSR Turbo and frame-interpolated with RIFE, takes just 8 minutes. I used a text encoder quantized to hell and bac</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · minimax, dit&lt;/small&gt;&lt;/p&gt;&lt;p&gt;As someone with an RTX 4060 and 16 GB of RAM, I got curious… could I actually run a model of this caliber on my PC? Turns out, yes! A 5-second video generated at 540p, upscaled with flashVSR Turbo and frame-interpolated with RIFE, takes just 8 minutes. I used a text encoder quantized to hell and back (Q2), paired with a Q4 DiT, running everything through Wan2GP. Codex fixed every error I ran into. This showcase features the results. Enjoy! submitted by /u/DependentKey7761 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xmzyv2/generation_result_in_minimax_h3_on_an_rtx_4060/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xmz4lb/check_out_the_workflows_ive_been_working_on_ive/</id><title>Check out the workflows I've been working on! I've smashed them together for this example and to share but you can change or keep poses and backgrounds, reposition and resize! It's 2 land images to a 360 enviornment, 1 subject image you can pose, position and resize, Wan Vace 5 keyframes.</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xmz4lb/check_out_the_workflows_ive_been_working_on_ive/"/>
-<published>2026-11-03T17:24:57+00:00</published><updated>2026-11-03T17:24:57+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="wan"/>
-<summary>https://drive.google.com/file/d/1F0cxSa4Sn80asdxSDWPJmeEnUSn3crCo/view?usp=sharing submitted by /u/o0ANARKY0o [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · wan&lt;/small&gt;&lt;/p&gt;&lt;p&gt;https://drive.google.com/file/d/1F0cxSa4Sn80asdxSDWPJmeEnUSn3crCo/view?usp=sharing submitted by /u/o0ANARKY0o [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xmz4lb/check_out_the_workflows_ive_been_working_on_ive/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xmyovx/new_image_model_based_on_minimax_h3_7_smaller_5/</id><title>New image model based on Minimax H3, 7× smaller, 5× faster, 8 steps</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xmyovx/new_image_model_based_on_minimax_h3_7_smaller_5/"/>
-<published>2026-11-03T17:09:19+00:00</published><updated>2026-11-03T17:09:19+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="minimax"/>
-<summary>Hey! We published a new image model built from MiniMax-H3. Open weights on Hugging Face and available natively on ComfyUI: https://huggingface.co/PrunaAI/P-H3-Image and https://huggingface.co/PrunaAI/P-H3-Image-Comfy Generate or edit images 5× faster, in 8 steps instead of 50. A 4 MP image takes 2.6</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey! We published a new image model built from MiniMax-H3. Open weights on Hugging Face and available natively on ComfyUI: https://huggingface.co/PrunaAI/P-H3-Image and https://huggingface.co/PrunaAI/P-H3-Image-Comfy Generate or edit images 5× faster, in 8 steps instead of 50. A 4 MP image takes 2.6 s instead of 12.4 s. The model is 7× smaller than H3, so high-resolution images are a light download and run on a much smaller GPU. Strongest at photorealism, documentary and editorial photography, film stills, and graphic styles with short quoted text. It renders 2 to 16 MP and edits with up to 8 input images. We reworked every component of H3: the prompt upsampler, the text encoder, the diffusi&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xmyovx/new_image_model_based_on_minimax_h3_7_smaller_5/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xmxwul/layershop_0190_preview_1_out_now_multiple_loras/</id><title>LayerShop 0.19.0 Preview 1 Out now. Multiple LoRAs and more!</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xmxwul/layershop_0190_preview_1_out_now_multiple_loras/"/>
-<published>2026-11-03T16:40:50+00:00</published><updated>2026-11-03T16:40:50+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<category term="lora"/>
-<summary>Hi all, as requested, multiple LoRA support is now avialable in the newest release of LayerShop. Also ability to add existing (ComfyUI) models folder. LayerShop will scan this folder for all existing models and LoRAs. You can then assign any number of LoRAs to the specific model. This will create po</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi all, as requested, multiple LoRA support is now avialable in the newest release of LayerShop. Also ability to add existing (ComfyUI) models folder. LayerShop will scan this folder for all existing models and LoRAs. You can then assign any number of LoRAs to the specific model. This will create pool of available LoRAs for that model, and when you are generating with that model, you can simply choose which lora / combination of loras you want the image be generated with. Each LoRA can have it's strength setting, and every of these settings is stored together with the layer. Download from: here Any issues? Let me know submitted by /u/HonestTicket6013 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xmxwul/layershop_0190_preview_1_out_now_multiple_loras/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xmxsbe/the_contest_window_was_extended_so_i_rebuilt_my/</id><title>The contest window was extended, so I rebuilt my open-source Higgsfield on ComfyUI: restore old footage, train your character in the UI, 60+ tools in real menus (local, no credits)</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xmxsbe/the_contest_window_was_extended_so_i_rebuilt_my/"/>
-<published>2026-11-03T16:36:08+00:00</published><updated>2026-11-03T16:36:08+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="green screen"/>
-<category term="lip sync"/>
-<category term="avatar"/>
-<category term="hdr"/>
-<category term="render"/>
-<category term="comfyui"/>
-<category term="flux"/>
-<category term="wan"/>
-<summary>Hi all! Two weeks ago I shared CreatorOS Studio, a web app that drives a local ComfyUI and wraps it in creator tools, for the Comfy "Open Source Higgsfield" challenge. The window got extended, so here is what changed. What nobody else in the challenge does (as far as I know): Restore: old photos rep</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 10 · green screen, lip sync, avatar, hdr, render, comfyui, flux, wan&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi all! Two weeks ago I shared CreatorOS Studio, a web app that drives a local ComfyUI and wraps it in creator tools, for the Comfy "Open Source Higgsfield" challenge. The window got extended, so here is what changed. What nobody else in the challenge does (as far as I know): Restore: old photos repaired + colourised (Qwen-Image-Edit 2511) then rebuilt in HD (SeedVR2), with a before/after slider. Damaged clips go to 1080p with SeedVR2 7B, two passes for tiny sources. In the lab: whole archive clips colourised with Wan 2.2 Fun VACE from one coloured frame (the 1951 newsreel in the video). Not in the Restore button yet. Train your character in the UI : describe her, pick one of 4 faces, get a &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xmxsbe/the_contest_window_was_extended_so_i_rebuilt_my/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xmxobp/ppl_argue_over_moss_vs_krea_2_but_never_show/</id><title>Ppl argue over Moss vs Krea 2, but never show exemple, here they are.</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xmxobp/ppl_argue_over_moss_vs_krea_2_but_never_show/"/>
-<published>2026-11-03T16:31:55+00:00</published><updated>2026-11-03T16:31:55+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="render"/>
-<category term="comfyui"/>
-<category term="flux"/>
-<category term="lora"/>
-<summary>*Disclaimer : I use AI to help generate, document and be clear in instruction, deal with it* Link at the bottom : nothing Mature in the post itself, so we will see how rule 3 work. I was one of the people saying MOSS-Image looked soft and blurry next to Krea 2. I was running it wrong, and the fix tu</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · render, comfyui, flux, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;*Disclaimer : I use AI to help generate, document and be clear in instruction, deal with it* Link at the bottom : nothing Mature in the post itself, so we will see how rule 3 work. I was one of the people saying MOSS-Image looked soft and blurry next to Krea 2. I was running it wrong, and the fix turned out to be one setting. What I had wrong: I rendered it at 1024x1024 / 1248x832, around 1MP. That is the bottom of the range MOSS is documented for (roughly 1–2MP). At 1MP the output is genuinely soft - hair goes to mush, skin goes waxy, background edges smear. Same prompt, same seed, same everything at 1728x1152 (2MP) and the softness is gone. That was the whole problem. I wasted a month thin&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xmxobp/ppl_argue_over_moss_vs_krea_2_but_never_show/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xmxghx/layershop_019_now_available_multiple_loras/</id><title>LayerShop 0.19 Now Available: Multiple loras / External Models folder</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xmxghx/layershop_019_now_available_multiple_loras/"/>
-<published>2026-11-03T16:24:00+00:00</published><updated>2026-11-03T16:24:00+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="rendering"/>
-<category term="comfyui"/>
-<category term="lora"/>
-<summary>Hi all, Slav here. Thanks for all the feedback on LayerShop last week. The two things people asked for most are in 0.19: 1) Multiple LoRAs: You can now assign bunch of LoRAs to the model and then picked them up when rendering image. You can stack up to five on a generation, each with its own strengt</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · rendering, comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi all, Slav here. Thanks for all the feedback on LayerShop last week. The two things people asked for most are in 0.19: 1) Multiple LoRAs: You can now assign bunch of LoRAs to the model and then picked them up when rendering image. You can stack up to five on a generation, each with its own strength and an on/off eye. Every model keeps its own LoRA library with trigger words, and a layer remembers the LoRAs it was made with. 2) Your own models folder: You can add your own external ComfyUI models folder and your models and LoRAs show up next to its own. Download from: https://layershop.aardvarkstudios.net/download/?ref=reddit-comfyui-019 Any issues? Let me know submitted by /u/HonestTicket60&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xmxghx/layershop_019_now_available_multiple_loras/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1xmx2ou/does_anyone_know_how_did_they_make_the_sky_a_dark/</id><title>Does anyone know how did they make the sky a dark color for this day for night scene in Where Eagles Dare? If it was such a simple technique that even primitive 60s VFX can achieve, then why isn't it used more often today? Was the sky rotoscoped or was the entire mountain a miniature?</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xmx2ou/does_anyone_know_how_did_they_make_the_sky_a_dark/"/>
-<published>2026-11-03T16:10:03+00:00</published><updated>2026-11-03T16:10:03+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="vfx"/>
-<summary>submitted by /u/IronLover64 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/IronLover64 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xmx2ou/does_anyone_know_how_did_they_make_the_sky_a_dark/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xmx04k/minimax_h3_in_comfyui_character_swap_talk_sing/</id><title>MiniMax H3 in ComfyUI | Character Swap, Talk, Sing &amp; Timeline (Ep41)</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xmx04k/minimax_h3_in_comfyui_character_swap_talk_sing/"/>
-<published>2026-11-03T16:07:24+00:00</published><updated>2026-11-03T16:07:24+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="video model"/>
-<category term="comfyui"/>
-<category term="flux"/>
-<category term="minimax"/>
-<summary>In this episode, we test MiniMax H3 in ComfyUI with 25 free workflows, plus 2 bonus workflows. H3 is a video model that makes video with sound, from your images, videos and audio. We test them all, and see what H3 does well and where it struggles. Part 1, change your video: a character sheet from on</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 6 · video model, comfyui, flux, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;In this episode, we test MiniMax H3 in ComfyUI with 25 free workflows, plus 2 bonus workflows. H3 is a video model that makes video with sound, from your images, videos and audio. We test them all, and see what H3 does well and where it struggles. Part 1, change your video: a character sheet from one picture, then swap the person in your video (a character, only the head, or a cartoon and mascot), motion transfer, edit a video by text, change the outfit from pictures, restyle a video, sharpen it to Full HD, and join your clips into one video with their sound. Part 2, bring a picture to life: tell it what to do, make a picture talk from typed words, make it talk or sing with your own voice or&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xmx04k/minimax_h3_in_comfyui_character_swap_talk_sing/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xmwv8l/weve_made_this_episode_of_yokai_from_a_script/</id><title>We've made this episode of Yokai from a script with our own tool (and just open-sourced it)</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xmwv8l/weve_made_this_episode_of_yokai_from_a_script/"/>
-<published>2026-11-03T16:02:23+00:00</published><updated>2026-11-03T16:02:23+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="flux"/>
-<category term="minimax"/>
-<summary>This started as a script. In Mago, we built the cast, generated the shot list and storyboards, then rendered shots where each one picks up from the previous one. Mago is what we’ve been building for long-form AI videos (series, films, microdramas). As of today it’s open source. You can run it on you</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · flux, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;This started as a script. In Mago, we built the cast, generated the shot list and storyboards, then rendered shots where each one picks up from the previous one. Mago is what we’ve been building for long-form AI videos (series, films, microdramas). As of today it’s open source. You can run it on your own GPU, or use cloud models in the same app. Built on top of Qwen as LLM and visual, Qwen Image/Edit and Flux for images, MiniMax h3 turbo/pdd for videos. you can easily switch to your favorite models/workflows too. AGPL-3.0, still in beta I’m one of the founders and I'd really appreciate any feedback on how it works for you, that would help us a ton. Let me know what you think about it, and th&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xmwv8l/weve_made_this_episode_of_yokai_from_a_script/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xmwk7a/i_built_an_opensource_ai_agent_for_comfyui/</id><title>I built an open-source AI agent for ComfyUI</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xmwk7a/i_built_an_opensource_ai_agent_for_comfyui/"/>
-<published>2026-11-03T15:51:07+00:00</published><updated>2026-11-03T15:51:07+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<summary>I built an open-source AI agent for ComfyUI I've been working on ComfyUI-Agent, an open-source AI assistant that can directly interact with the ComfyUI canvas. Unlike a regular chatbot, it can: - Build and edit workflows from natural language. - Run and debug generations. - Validate workflows and fi</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I built an open-source AI agent for ComfyUI I've been working on ComfyUI-Agent, an open-source AI assistant that can directly interact with the ComfyUI canvas. Unlike a regular chatbot, it can: - Build and edit workflows from natural language. - Run and debug generations. - Validate workflows and fix issues. - Inspect previous generations. - Work with nested subgraphs. - Plan multi-step tasks before execution. - Undo changes and roll back failed operations. What makes it different? - Supports local LLMs through Ollama and LM Studio. - Works with multiple API providers. - Includes Plan Mode and Fast Mode. - Has transactional edits with Undo. - Supports Markdown tables, attachments, references&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xmwk7a/i_built_an_opensource_ai_agent_for_comfyui/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
