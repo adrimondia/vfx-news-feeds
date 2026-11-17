@@ -2,8 +2,29 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-17T11:30:53+00:00</updated>
+<updated>2026-11-17T13:30:33+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xyj9vg/anyone_skipping_the_upscale_chain_with_native_4k/</id><title>Anyone skipping the upscale chain with native 4K generation on 16GB VRAM?</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xyj9vg/anyone_skipping_the_upscale_chain_with_native_4k/"/>
+<published>2026-11-17T12:32:44+00:00</published><updated>2026-11-17T12:32:44+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="upscaling"/>
+<category term="minimax"/>
+<summary>Anyone tested the new MiniMax H3-Image open weights locally at 4K? I am running a 4070 Ti Super (16GB VRAM) and I wonder if my card can even handle generating at that resolution out of the box without running into OOM errors. To be honest I am tired of the upscale workflows. You dial in a great 1K o</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · upscaling, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Anyone tested the new MiniMax H3-Image open weights locally at 4K? I am running a 4070 Ti Super (16GB VRAM) and I wonder if my card can even handle generating at that resolution out of the box without running into OOM errors. To be honest I am tired of the upscale workflows. You dial in a great 1K or 2K generation, running it through Hires.fix or an upscale node ends up ruining the best parts of the image. Things like, the original composition gets shifted. Skin pores are gone, and turn into something plasticky. Clothes lose texture. It just kicks back in that AI sheen. Skipping the whole upscaling chain would be nice if 4K does hold up. Would be good to know if anyone’s got a workflow runni&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xyj9vg/anyone_skipping_the_upscale_chain_with_native_4k/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xyis6a/btw_pan2_native_on_comfy_now/</id><title>Btw PAN2 native on Comfy now</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xyis6a/btw_pan2_native_on_comfy_now/"/>
+<published>2026-11-17T12:07:16+00:00</published><updated>2026-11-17T12:07:16+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="world model"/>
+<category term="wan"/>
+<category term="minimax"/>
+<summary>if there is already mentioned about this on comfy native please feel free to take down. TLDR: I think their approach is more so on world model / physic prediction engine just like Cosmos, so for those of you who want to test on VLA it is a welcome. Latent compression is Wan 2.2 VAE, could be as fast</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · world model, wan, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;if there is already mentioned about this on comfy native please feel free to take down. TLDR: I think their approach is more so on world model / physic prediction engine just like Cosmos, so for those of you who want to test on VLA it is a welcome. Latent compression is Wan 2.2 VAE, could be as fast as Minimax H3. TE is 9B Qwen (YEY CHEAP TE) No WF yet, even from Comfy submitted by /u/Altruistic_Heat_9531 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xyis6a/btw_pan2_native_on_comfy_now/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://github.com/superdesigndev/treg</id><title>superdesigndev/treg</title>
 <link rel="alternate" href="https://github.com/superdesigndev/treg"/>
@@ -6741,42 +6762,5 @@
 <category term="ltx"/>
 <summary>Hey guys - first time reddit post from this account. Made this a few weeks back and just shipped a big update. You take a video of a person, it builds a 4D capture, you fly a new camera through it inside ComfyUI, and you get the same moment back from the new angle. Everything runs locally. Capture: </summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 6 · 4d, render, comfyui, blender, ltx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey guys - first time reddit post from this account. Made this a few weeks back and just shipped a big update. You take a video of a person, it builds a 4D capture, you fly a new camera through it inside ComfyUI, and you get the same moment back from the new angle. Everything runs locally. Capture: turns a video of one person into a 4D capture: their motion in 3D, the background around them, and where the original camera was and how it moved. Quick mode for fast previews, or a full 4D Gaussian splat if you want a closer look while you direct Virtual Camera: a 4D camera editor that opens right inside the node, so no separate app. Keyframe the camera anywhere on the timeline, look through it o&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xmtqu0/reshoot_4d_reshoot_anyone_in_4d/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xms34h/the_1080p_pass_on_my_4090_added_50_minutes_a_clip/</id><title>The 1080p pass on my 4090 added 50 minutes a clip and never threw an error</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xms34h/the_1080p_pass_on_my_4090_added_50_minutes_a_clip/"/>
-<published>2026-11-03T12:49:35+00:00</published><updated>2026-11-03T12:49:35+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<category term="hunyuan"/>
-<category term="hunyuanvideo"/>
-<category term="ai video"/>
-<summary>Three weeks ago my sister roped me into doing the video for her wedding, the how they met thing, out of their old photos.. First i had been playing with HunyuanVideo 1.5 image to video in ComfyUI on my 4090. Did all the drafts at 720p since 20 steps is already like half an hour a clip, and on my mon</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · comfyui, hunyuan, hunyuanvideo, ai video&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Three weeks ago my sister roped me into doing the video for her wedding, the how they met thing, out of their old photos.. First i had been playing with HunyuanVideo 1.5 image to video in ComfyUI on my 4090. Did all the drafts at 720p since 20 steps is already like half an hour a clip, and on my monitor they looked great.. Last sat we tried one on the projector at the venue and it was soft, faces especially. So 1080p, i turned on the SR upscale and the first clip took another 50 mins(no error), nothing in the console, it just crawled. Task Manager showed like 14GB in shared GPU memory. The old sysmem fallback thing from 2023 that ate everyone’s speed, and I did not even think of it for a who&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xms34h/the_1080p_pass_on_my_4090_added_50_minutes_a_clip/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xmrcyl/comfyui_tutorial_pika_h3_minimax_h3_singularity/</id><title>ComfyUI Tutorial: PIKA H3 + MiniMax H3 Singularity V2 + NVIDIA Regenerative 2K Upscaling KIJAI LORA (With 6GB of VRAM)</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xmrcyl/comfyui_tutorial_pika_h3_minimax_h3_singularity/"/>
-<published>2026-11-03T12:13:09+00:00</published><updated>2026-11-03T12:13:09+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="upscaling"/>
-<category term="comfyui"/>
-<category term="minimax"/>
-<category term="lora"/>
-<summary>Hello everyone today I am showing you a new ComfyUI workflow that combines MiniMax H3 Singularity V2 combined with the Pika H3 LoRA to generate videos at approximately 0.6 MP with only 6 steps. Then, using the Ultimate MiniMax H3 Upscale node and Kijai's Regenerative 2K LoRA at a lower weight, the v</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 8 · upscaling, comfyui, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hello everyone today I am showing you a new ComfyUI workflow that combines MiniMax H3 Singularity V2 combined with the Pika H3 LoRA to generate videos at approximately 0.6 MP with only 6 steps. Then, using the Ultimate MiniMax H3 Upscale node and Kijai's Regenerative 2K LoRA at a lower weight, the video is progressively enhanced with additional LoRAs to improve details, textures, and overall quality. My test results: Initial generation: 0.6MP Sampling steps: 6 Total generation + upscaling time: ~1 hour Final resolution: Full HD (1920×1080) The interesting part is that instead of generating directly at high resolution, we generate at a much lower resolution and let the regenerative upscaling &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xmrcyl/comfyui_tutorial_pika_h3_minimax_h3_singularity/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xmqxsr/ltx_25_static_camera_problem/</id><title>LTX 2.5 static camera problem</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xmqxsr/ltx_25_static_camera_problem/"/>
-<published>2026-11-03T11:52:00+00:00</published><updated>2026-11-03T11:52:00+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="text-to-video"/>
-<category term="image-to-video"/>
-<category term="comfyui"/>
-<category term="ltx"/>
-<category term="lora"/>
-<summary>I am trying to generate various short videos using ComfyUI and LTX 2.5. I want the camera to remain in a fixed position—completely static—throughout the videos, but I haven't been able to achieve this consistently. I downloaded the "Cinemagraph" LoRA and followed the instructions provided on its pag</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 6 · text-to-video, image-to-video, comfyui, ltx, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I am trying to generate various short videos using ComfyUI and LTX 2.5. I want the camera to remain in a fixed position—completely static—throughout the videos, but I haven't been able to achieve this consistently. I downloaded the "Cinemagraph" LoRA and followed the instructions provided on its page, yet it still doesn't work as intended. I encounter the same issue with both T2V (text-to-video) and I2V (image-to-video) methods. Even though my prompts are very simple and clear, I cannot get the camera to stay still. What approach do you use to create videos with a fixed, static camera? I am using an RTX 5060 Ti (16 GB VRAM); given the speed at which LTX operates, I haven't found another mode&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xmqxsr/ltx_25_static_camera_problem/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
