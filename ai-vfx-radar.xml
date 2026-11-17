@@ -2,8 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-17T05:30:26+00:00</updated>
+<updated>2026-11-17T07:30:24+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xyd6gl/posewright_a_simple_program_to_pose_figures_for/</id><title>Posewright: A Simple program to pose figures for img2img generations</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xyd6gl/posewright_a_simple_program_to_pose_figures_for/"/>
+<published>2026-11-17T06:25:15+00:00</published><updated>2026-11-17T06:25:15+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<category term="controlnet"/>
+<summary>This program allows you to pose up to four 3D figures right in your browser, then export ControlNet images straight from the same camera view, with everything lined up pixel for pixel. What it exports: OpenPose (with optional hands and face) Depth, normals, and a wireframe for canny or lineart Per-f</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui, controlnet&lt;/small&gt;&lt;/p&gt;&lt;p&gt;This program allows you to pose up to four 3D figures right in your browser, then export ControlNet images straight from the same camera view, with everything lined up pixel for pixel. What it exports: OpenPose (with optional hands and face) Depth, normals, and a wireframe for canny or lineart Per-figure masks and per-figure OpenPose images, handy for regional prompting with multiple characters A shaded 3D model plate and a 3D outline for Anima's 3D pose ControlNet It has body and pose presets, FK and IK posing, mirroring, and joint limits. Export sizes run from 512 up to 1024×1536, or any custom size, and you can export everything at once as a zip. Drop the images into Load Image, then Appl&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xyd6gl/posewright_a_simple_program_to_pose_figures_for/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xy8p5i/minimax_h3_image_morrigan/</id><title>MiniMax H3 Image - Morrigan</title>
 <link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xy8p5i/minimax_h3_image_morrigan/"/>
@@ -6671,73 +6681,5 @@
 <category term="ai video"/>
 <summary>Hey there, fellow ComfyUI enjoyers I’m one of the founders of Mago and we've just open-sourced our AI video studio It’s made for long-form work like AI series, short films and microdramas. You start from an idea or a script, and it takes you through cast, shot list, storyboards and shots, keeping ch</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 9 · vfx, render, comfyui, flux, minimax, ai video&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey there, fellow ComfyUI enjoyers I’m one of the founders of Mago and we've just open-sourced our AI video studio It’s made for long-form work like AI series, short films and microdramas. You start from an idea or a script, and it takes you through cast, shot list, storyboards and shots, keeping characters consistent from shot to shot. You can also bring your own footage and restyle it. It runs on top of ComfyUI, with a plug-and-play bundled version, or you can connect your own install. Render locally with open models like MiniMax H3, Qwen, FLUX or any open-weights or API models you want (Nvidia GPU, 16+ GB VRAM recommended), with cloud models in the same app when you need them. It’s 0.19.0&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xmnxtj/we_opensourced_our_video_app_that_runs_on_your/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xmmlid/has_anyone_run_a_quality_and_speed_comparison/</id><title>Has Anyone Run a Quality and Speed Comparison Between the Full Singularity Diffusion Model and H3 Singularity LoRA?</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xmmlid/has_anyone_run_a_quality_and_speed_comparison/"/>
-<published>2026-11-03T07:26:15+00:00</published><updated>2026-11-03T07:26:15+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="lora"/>
-<summary>I find out now there is a Singularity LoRA, but I fail to see the benefit of it, when Singularity as the diffusion model swaps out the regular Ref2Video H3, leaving more room for other LoRAs such as R34l1sm and LMS. Has anyone run comparison tests using, as an example, Singularity model plus H3 Turb</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I find out now there is a Singularity LoRA, but I fail to see the benefit of it, when Singularity as the diffusion model swaps out the regular Ref2Video H3, leaving more room for other LoRAs such as R34l1sm and LMS. Has anyone run comparison tests using, as an example, Singularity model plus H3 Turbo 4step, vs Base R2V H3 model and Singularity LoRA? Which begs another question, is it possible to run too many LoRAs? If so, what is that limit? submitted by /u/robertwellesley [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xmmlid/has_anyone_run_a_quality_and_speed_comparison/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xmm9uk/flip_a_switch_and_stop_your_videos_from_degrading/</id><title>Flip a switch and stop your Videos from Degrading. 50 Clip Test No Degrading at the end. Geiru Context Suite</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xmm9uk/flip_a_switch_and_stop_your_videos_from_degrading/"/>
-<published>2026-11-03T07:06:19+00:00</published><updated>2026-11-03T07:06:19+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<category term="nuke"/>
-<category term="minimax"/>
-<summary>I did the thing where I nuke the first post because I forgot to do something also the title sucked and I forgot to credit literally the most important contributor in the video. Skip to 8:11 to see the results. Also, if you guys are curious you can visit this repository to read about everything I tes</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, nuke, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I did the thing where I nuke the first post because I forgot to do something also the title sucked and I forgot to credit literally the most important contributor in the video. Skip to 8:11 to see the results. Also, if you guys are curious you can visit this repository to read about everything I tested to get to this point. https://github.com/roycho87/NerdNotes Lots of information in there. Maybe you guys can read it and come up with an even better solution. If you have some good info, please leave an issue on the Github and I'll compile it all together. Any experiments you've done and the results, what you've learned etc. All of it is helpul. Geiru Context Suite: degradation protection for &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xmm9uk/flip_a_switch_and_stop_your_videos_from_degrading/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xmlzhi/best_way_to_combine_pose_identity_clothing_and/</id><title>Best way to combine pose, identity, clothing and background in Krea 2 ComfyUI?</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xmlzhi/best_way_to_combine_pose_identity_clothing_and/"/>
-<published>2026-11-03T06:48:46+00:00</published><updated>2026-11-03T06:48:46+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<category term="lora"/>
-<summary>I'm building a ComfyUI workflow using Krea 2 Turbo, a trained identity LoRA, clothing reference, background reference and DWPose/OpenPose LoRA. I want to preserve the exact face, outfit and room while following a completely different pose reference. Currently, pose adherence is inconsistent and the </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I'm building a ComfyUI workflow using Krea 2 Turbo, a trained identity LoRA, clothing reference, background reference and DWPose/OpenPose LoRA. I want to preserve the exact face, outfit and room while following a completely different pose reference. Currently, pose adherence is inconsistent and the clothing/background details also change. Would you recommend a two-pass workflow (first generate the pose and composition, then refine identity, clothing and background), or is there a better single-pass conditioning method in Krea 2? What's the most reliable approach, and what would you recommend I change? submitted by /u/DragonfruitNo9822 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xmlzhi/best_way_to_combine_pose_identity_clothing_and/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xmllmx/the_wall_street_journal_stylea_krea_2_lora/</id><title>The Wall Street Journal Style-A Krea 2 LoRA</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xmllmx/the_wall_street_journal_stylea_krea_2_lora/"/>
-<published>2026-11-03T06:25:37+00:00</published><updated>2026-11-03T06:25:37+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="lora"/>
-<summary>https://civitai.com/models/3034125/wall-street-journal-style Have you ever imagined yourself in a WSJ article? Now, your dream has partially come true! submitted by /u/CommodoreCarbonate [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;https://civitai.com/models/3034125/wall-street-journal-style Have you ever imagined yourself in a WSJ article? Now, your dream has partially come true! submitted by /u/CommodoreCarbonate [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xmllmx/the_wall_street_journal_stylea_krea_2_lora/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1xmla0j/hulks_hand_goes_through_his_father_in_the_2003/</id><title>Hulk's hand goes through his father in the 2003 Hulk workprint was this an early VFX shot?</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xmla0j/hulks_hand_goes_through_his_father_in_the_2003/"/>
-<published>2026-11-03T06:07:15+00:00</published><updated>2026-11-03T06:07:15+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="vfx"/>
-<summary>I have found out that the Hulk 2003 workprint in the battle of the banner's scene as Hulk cluthes his father David Banner (nick Notle) who has absorbed into rock you can see that the Hulk's hand goes through his head. Look very carefully at this image submitted by /u/Bitter-Pomelo-2345 [link] [comme</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I have found out that the Hulk 2003 workprint in the battle of the banner's scene as Hulk cluthes his father David Banner (nick Notle) who has absorbed into rock you can see that the Hulk's hand goes through his head. Look very carefully at this image submitted by /u/Bitter-Pomelo-2345 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xmla0j/hulks_hand_goes_through_his_father_in_the_2003/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xmkqpe/what_can_i_use_to_extend_videos_past_15_seconds/</id><title>What can I use to extend videos past 15 seconds on Minimax H3 ref2va?</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xmkqpe/what_can_i_use_to_extend_videos_past_15_seconds/"/>
-<published>2026-11-03T05:36:41+00:00</published><updated>2026-11-03T05:36:41+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="minimax"/>
-<category term="consistency"/>
-<summary>I know this was asked before and you can use last frame or last couple of seconds of previous video but the quality gets worse each iteration. Are there any new custom nodes that preserves the quality and consistency of reference images/videos/audios for each extended generation via latent space? su</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · minimax, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I know this was asked before and you can use last frame or last couple of seconds of previous video but the quality gets worse each iteration. Are there any new custom nodes that preserves the quality and consistency of reference images/videos/audios for each extended generation via latent space? submitted by /u/throwaway0204055 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xmkqpe/what_can_i_use_to_extend_videos_past_15_seconds/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xmkpwi/wan_22_forcing_python_to_throw_critical_error_or/</id><title>Wan 2.2 forcing python to throw critical error, or to crash pc entirely when memory is filled up</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xmkpwi/wan_22_forcing_python_to_throw_critical_error_or/"/>
-<published>2026-11-03T05:35:25+00:00</published><updated>2026-11-03T05:35:25+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="wan"/>
-<summary>-DIMM4 DDR 64GB (16x4) -RTX 3090 (downvolted to 90%) -I7-14700KF (downvolted by 0.030w) Quite a long read, sorry: Wan 2.2 worked flawlessly on 32gb of ddr4 running in dual channel. Albeit slow, it was reliable and could be left for hours. I have upgraded to 64gb running on 4 dimm slots. Two pairs of</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · comfyui, wan&lt;/small&gt;&lt;/p&gt;&lt;p&gt;-DIMM4 DDR 64GB (16x4) -RTX 3090 (downvolted to 90%) -I7-14700KF (downvolted by 0.030w) Quite a long read, sorry: Wan 2.2 worked flawlessly on 32gb of ddr4 running in dual channel. Albeit slow, it was reliable and could be left for hours. I have upgraded to 64gb running on 4 dimm slots. Two pairs of memory sticks were bought years apart, but are of the same brand and model. I have also ran a memtest86, tried to run memory at stock 2400ghz, checked GPU, issue is definitely not a hardware. System is stable. Even at memory running at 3200 in Cinebench I updated comfyUI itself after reading earlier releases in May of this year were fucky with memory - no success. I went as far as disabling upsca&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xmkpwi/wan_22_forcing_python_to_throw_critical_error_or/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
