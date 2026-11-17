@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-17T07:30:24+00:00</updated>
+<updated>2026-11-17T08:00:24+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xyd6gl/posewright_a_simple_program_to_pose_figures_for/</id><title>Posewright: A Simple program to pose figures for img2img generations</title>
@@ -13,6 +13,56 @@
 <category term="controlnet"/>
 <summary>This program allows you to pose up to four 3D figures right in your browser, then export ControlNet images straight from the same camera view, with everything lined up pixel for pixel. What it exports: OpenPose (with optional hands and face) Depth, normals, and a wireframe for canny or lineart Per-f</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui, controlnet&lt;/small&gt;&lt;/p&gt;&lt;p&gt;This program allows you to pose up to four 3D figures right in your browser, then export ControlNet images straight from the same camera view, with everything lined up pixel for pixel. What it exports: OpenPose (with optional hands and face) Depth, normals, and a wireframe for canny or lineart Per-figure masks and per-figure OpenPose images, handy for regional prompting with multiple characters A shaded 3D model plate and a 3D outline for Anima's 3D pose ControlNet It has body and pose presets, FK and IK posing, mirroring, and joint limits. Export sizes run from 512 up to 1024×1536, or any custom size, and you can export everything at once as a zip. Drop the images into Load Image, then Appl&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xyd6gl/posewright_a_simple_program_to_pose_figures_for/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xycr1g/open_source_animation_and_vfx_pipeline/</id><title>Open Source animation and VFX pipeline integration for ComfyUI and Prism Pipeline</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xycr1g/open_source_animation_and_vfx_pipeline/"/>
+<published>2026-11-17T06:00:57+00:00</published><updated>2026-11-17T06:00:57+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="animation"/>
+<category term="vfx"/>
+<category term="comfyui"/>
+<category term="nuke"/>
+<category term="blender"/>
+<summary>We released an open-source animation and VFX pipeline integration for ComfyUI and Prism Pipeline. It lets you manage and version your ComfyUI workflows in projects with assets, sequences and shots. You can easily bring in media or 3D assets from other tools like Blender and publish generated content</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 8 · animation, vfx, comfyui, nuke, blender&lt;/small&gt;&lt;/p&gt;&lt;p&gt;We released an open-source animation and VFX pipeline integration for ComfyUI and Prism Pipeline. It lets you manage and version your ComfyUI workflows in projects with assets, sequences and shots. You can easily bring in media or 3D assets from other tools like Blender and publish generated content back to the project for use in Nuke, After Effects and other tools. You can find the custom node in the ComfyUI Nodes Manager by searching for the "Prism Pipeline" node pack. https://registry.comfy.org/nodes/ComfyUI-Prism-Pipeline You can also download Prism from our website and add the ComfyUI integration from there. Check out the docs here: https://prism-pipeline.com/docs/latest/plugins/comfyui&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xycr1g/open_source_animation_and_vfx_pipeline/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xycqcn/viggle_character_motion_transfer_in_comfyui_6gb/</id><title>Viggle Character Motion Transfer in ComfyUI – 6GB VRAM + Fully Automated Workflow</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xycqcn/viggle_character_motion_transfer_in_comfyui_6gb/"/>
+<published>2026-11-17T06:00:03+00:00</published><updated>2026-11-17T06:00:03+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="upscaling"/>
+<category term="comfyui"/>
+<category term="minimax"/>
+<category term="lora"/>
+<summary>Hello everyone I’ve just released a new fully automated Viggle character motion transfer workflow that works with 6GB of vram. This workflow allows you to take any character reference image and transfer the motion from a video onto that character with impressive precision,it is optimized for low-VRA</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 5 · upscaling, comfyui, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hello everyone I’ve just released a new fully automated Viggle character motion transfer workflow that works with 6GB of vram. This workflow allows you to take any character reference image and transfer the motion from a video onto that character with impressive precision,it is optimized for low-VRAM users thanks to the INT8 ConvRot version of the Viggle model . you can also use LoRA version that converts MiniMax H3 Ref2V into Viggle mode for the motion-transfer process. The entire workflow is highly automated: ➡️ Load your character reference image ➡️ Upload your motion video ➡️ Choose the video duration ➡️ Let the integrated Qwen VL prompt system analyze the video and handle the prompting &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xycqcn/viggle_character_motion_transfer_in_comfyui_6gb/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xy9b4v/h3_image_makes_surprisingly_good_stills_416_mp_in/</id><title>H3 Image makes surprisingly good stills: 4–16 MP in 6 steps (free all-in-one workflow: text-to-image + edit)</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xy9b4v/h3_image_makes_surprisingly_good_stills_416_mp_in/"/>
+<published>2026-11-17T02:59:14+00:00</published><updated>2026-11-17T02:59:14+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="video model"/>
+<category term="image editing"/>
+<category term="rendering"/>
+<category term="comfyui"/>
+<category term="minimax"/>
+<category term="lora"/>
+<summary>EP06 Reddit 帖子（r/comfyui，11-16） 图片：4_封面\civitai\H3ImageAIO_01–05.jpg（女王、仙侠、风衣、海报、角色卡，5 张，每张都在 1 MB 以内） 发帖方式：Create Post → Images &amp; Video → 拖 5 张图 → 标题 → 正文（Markdown 模式粘贴下面的正文）→ Flair 选 Workflow Included（看版块有没有） 不要放 RunningHub 带邀请码的链接。 Title MiniMax H3 is a video model, but it makes surprisingly good</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 6 · video model, image editing, rendering, comfyui, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;EP06 Reddit 帖子（r/comfyui，11-16） 图片：4_封面\civitai\H3ImageAIO_01–05.jpg（女王、仙侠、风衣、海报、角色卡，5 张，每张都在 1 MB 以内） 发帖方式：Create Post → Images &amp;amp; Video → 拖 5 张图 → 标题 → 正文（Markdown 模式粘贴下面的正文）→ Flair 选 Workflow Included（看版块有没有） 不要放 RunningHub 带邀请码的链接。 Title MiniMax H3 is a video model, but it makes surprisingly good stills: 4–16 MP in 6 steps (free all-in-one workflow: text-to-image + edit) Body All five images were made with H3 Image AIO, a single ComfyUI workflow for MiniMax H3 that does both text-to-image and image editing. Because H3 is a video model, backgrounds come out with real depth instead of the usual dreamy blur. What made the difference in my tests The editing LoRA. It gives the biggest quality &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xy9b4v/h3_image_makes_surprisingly_good_stills_416_mp_in/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/comfyui/comments/1xy8tzi/consistency_between_background_and_object/</id><title>Consistency between background and object.</title>
+<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xy8tzi/consistency_between_background_and_object/"/>
+<published>2026-11-17T02:35:53+00:00</published><updated>2026-11-17T02:35:53+00:00</updated>
+<author><name>r/comfyui</name></author>
+<category term="comfyui"/>
+<category term="lora"/>
+<category term="consistency"/>
+<summary>Hey guys, I am looking around to make a full movie out of comfyui But I want allways the same model. So I make a lora out of each characters that work great it been a month now that I use muse ai try to solve my main problem. I want allways the same back ground using different angle. I got it very c</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · comfyui, lora, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey guys, I am looking around to make a full movie out of comfyui But I want allways the same model. So I make a lora out of each characters that work great it been a month now that I use muse ai try to solve my main problem. I want allways the same back ground using different angle. I got it very close for exemple a bedroom the bed will look very similar but not the same, same has a kitchen the fridge is similar but not the same. How do I resolve this situation. And how do we generated a real action between object for exemple the guy open the fridge, take the milk out and pour a glass for exemple. I got it very close to be real looking. But because the background change all the time and its&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xy8tzi/consistency_between_background_and_object/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xy8p5i/minimax_h3_image_morrigan/</id><title>MiniMax H3 Image - Morrigan</title>
@@ -127,6 +177,15 @@
 <category term="lora"/>
 <summary>TL;DR: One RTX 3090 runs a 27B LLM agent (a Discord bot) and ComfyUI image/video generation by swapping models in and out of VRAM. I get ~72 tok/s on Qwen3.8 27B at 64k context, SDXL images in ~32 s, and 10-second Wan 2.2 videos in 4–6 minutes. All numbers come from real daily use, not synthetic ben</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 8 · video generation, text-to-video, image-to-video, upscaling, render, comfyui, wan, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;TL;DR: One RTX 3090 runs a 27B LLM agent (a Discord bot) and ComfyUI image/video generation by swapping models in and out of VRAM. I get ~72 tok/s on Qwen3.8 27B at 64k context, SDXL images in ~32 s, and 10-second Wan 2.2 videos in 4–6 minutes. All numbers come from real daily use, not synthetic benchmarks. The rig GPU: RTX 3090 24GB (does all the AI work) CPU: Core Ultra 7 265K (sits around 10% load) RAM: 96GB DDR5-6000 Storage: Samsung 9100 PRO Gen5 NVMe for models OS: Windows 11 The stack LM Studio serves the LLM through an OpenAI-compatible API Hermes Agent runs as a Discord bot, so I can use it from my phone. Local Whisper handles voice. ComfyUI handles images and video A small custom M&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xxwzon/single_rtx_3090_running_a_local_agent_imagevideo/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://www.reddit.com/r/StableDiffusion/comments/1xxwdkc/i_made_an_offline_danbooru_tag_indexer_for/</id><title>I made an offline Danbooru Tag Indexer for ComfyUI and Windows/Linux</title>
+<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xxwdkc/i_made_an_offline_danbooru_tag_indexer_for/"/>
+<published>2026-11-16T18:03:17+00:00</published><updated>2026-11-16T18:03:17+00:00</updated>
+<author><name>r/StableDiffusion</name></author>
+<category term="comfyui"/>
+<summary>Heyyy! 💜 I've been working on two open-source projects for browsing, searching, and organizing Danbooru tags offline. One is a ComfyUI extension , and the other is a standalone desktop application . Both include a built-in Danbooru tag database, so you don't need an internet connection to browse or </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Heyyy! 💜 I've been working on two open-source projects for browsing, searching, and organizing Danbooru tags offline. One is a ComfyUI extension , and the other is a standalone desktop application . Both include a built-in Danbooru tag database, so you don't need an internet connection to browse or search tags. 🔹 Danbooru Tag Indexer for ComfyUI Images 1–4 The ComfyUI extension adds two connectable nodes directly into your workflow: one for browsing the tag index and another for managing saved tags. Features: Search through 155,000+ Danbooru tags. Browse hierarchical categories and nested subgroups. View tag descriptions and related entries. Copy tag names directly to your clipboard. Favorit&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xxwdkc/i_made_an_offline_danbooru_tag_indexer_for/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1xxw950/i_made_an_offline_danbooru_tag_indexer_for/</id><title>I made an offline Danbooru Tag Indexer for ComfyUI and Windows/Linux</title>
