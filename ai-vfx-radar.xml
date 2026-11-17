@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-17T19:30:31+00:00</updated>
+<updated>2026-11-17T21:30:35+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1xyj9vg/anyone_skipping_the_upscale_chain_with_native_4k/</id><title>Anyone skipping the upscale chain with native 4K generation on 16GB VRAM?</title>
@@ -6506,67 +6506,5 @@
 <category term="vfx"/>
 <summary>Our graduation film has finally been released! 🎬 It's been a full year of work with a team of 9, taking the project all the way from the initial script to the final image, including all the 3D, animation and VFX. We've put a lot of time and effort into this project, and we're really proud of what we</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · animation, vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Our graduation film has finally been released! 🎬 It's been a full year of work with a team of 9, taking the project all the way from the initial script to the final image, including all the 3D, animation and VFX. We've put a lot of time and effort into this project, and we're really proud of what we've achieved. Hope you enjoy watching it as much as we enjoyed making it! We'd love to hear your feedback! submitted by /u/FabingFX [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xn5tsy/gate_66_film_artfx_2026/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xn5cfw/electricity_per_ai_image_on_an_rtx_pro_6000_rtx/</id><title>Electricity per AI image on an RTX PRO 6000, RTX 5090 Laptop, RTX 5080, RTX 3090 and more: about 3 to 10 cents per 1,000 images (FLUX.2 klein, 1024x1024)</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xn5cfw/electricity_per_ai_image_on_an_rtx_pro_6000_rtx/"/>
-<published>2026-11-03T21:12:10+00:00</published><updated>2026-11-03T21:12:10+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<category term="flux"/>
-<summary>What one generated image costs in electricity on each GPU we've measured, at one dated price: 18.31 cents per kWh, the US residential average for July 2026. Power is the board's own reading from each card's driver. The page has two bar charts (cents per 1,000 images and seconds per image) and shows </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;What one generated image costs in electricity on each GPU we've measured, at one dated price: 18.31 cents per kWh, the US residential average for July 2026. Power is the board's own reading from each card's driver. The page has two bar charts (cents per 1,000 images and seconds per image) and shows the arithmetic once, so you can redo it at your own rate. FLUX.2 [klein] 4B, 1024x1024, 8 steps, one pinned ComfyUI stack, images drawn back to back for ten minutes. Cents of board electricity per 1,000 images: - RTX 5090 Laptop GPU 24 GB, Dynamic Boost: 3.37 cents (4.48 s per image) - RTX PRO 6000 Blackwell Workstation Edition 96 GB at 300 W: 3.39 cents (2.30 s) - ZOTAC RTX 5080 Solid CORE OC 16 &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xn5cfw/electricity_per_ai_image_on_an_rtx_pro_6000_rtx/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xn4lrw/i_trained_and_released_a_pose_control_lora_for/</id><title>I trained and released a Pose Control LoRA for Krea-2</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xn4lrw/i_trained_and_released_a_pose_control_lora_for/"/>
-<published>2026-11-03T20:44:01+00:00</published><updated>2026-11-03T20:44:01+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="lora"/>
-<summary>submitted by /u/elephant-knight [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/elephant-knight [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xn4lrw/i_trained_and_released_a_pose_control_lora_for/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xn4cq4/i_used_a_blender_blockout_to_guide_an_aigenerated/</id><title>I used a Blender blockout to guide an AI-generated soda ad</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xn4cq4/i_used_a_blender_blockout_to_guide_an_aigenerated/"/>
-<published>2026-11-03T20:34:13+00:00</published><updated>2026-11-03T20:34:13+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="blender"/>
-<category term="minimax"/>
-<category term="cinematic"/>
-<summary>I wanted more control over the composition and movement in each shot, so I created a simple 3D blockout using ChatGPT and Blender MCP. Then I made cinematic scene references with GPT Image in ComfyUI and paired each one with its blockout clip in MiniMax H3’s reference-to-video workflow. submitted by</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 5 · comfyui, blender, minimax, cinematic&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I wanted more control over the composition and movement in each shot, so I created a simple 3D blockout using ChatGPT and Blender MCP. Then I made cinematic scene references with GPT Image in ComfyUI and paired each one with its blockout clip in MiniMax H3’s reference-to-video workflow. submitted by /u/Time-Ad-7720 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xn4cq4/i_used_a_blender_blockout_to_guide_an_aigenerated/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xn4c5t/sonora_studio_11_a_free_local_music_studio_with/</id><title>Sonora Studio 1.1: a free local music studio, with YuE2 running on your own PC (even a 12 GB card)</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xn4c5t/sonora_studio_11_a_free_local_music_studio_with/"/>
-<published>2026-11-03T20:33:38+00:00</published><updated>2026-11-03T20:33:38+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="lora"/>
-<summary>I listened to your feedback, and I’ve just published Sonora Studio 1.1 , a free, local music studio that now runs YuE2 on your own PC . It uses the lightest quantised version of the model (Q8_0), so it works even on a 12 GB graphics card: I tested it on an RTX 2060. Below is what it does and how to </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I listened to your feedback, and I’ve just published Sonora Studio 1.1 , a free, local music studio that now runs YuE2 on your own PC . It uses the lightest quantised version of the model (Q8_0), so it works even on a 12 GB graphics card: I tested it on an RTX 2060. Below is what it does and how to install it. I’ve been building Sonora Studio , a free, local-first music creation workspace (MIT licence), and version 1.1 is out. What it does Create music with ACE-Step 1.5 (ComfyUI on your PC, or RunPod) and YuE2 , plus Remix and Edit for songs you already made. YuE2 on your own PC: it runs the light quantised model (yue2.cpp, Q8_0). I tested it on an RTX 2060 with 12 GB. It writes the melody a&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xn4c5t/sonora_studio_11_a_free_local_music_studio_with/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1xn4bny/corridor_key_20_any_tips_for_getting_a_cleaner_key/</id><title>Corridor Key 2.0 – Any tips for getting a cleaner key?</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xn4bny/corridor_key_20_any_tips_for_getting_a_cleaner_key/"/>
-<published>2026-11-03T20:33:06+00:00</published><updated>2026-11-03T20:33:06+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="keying"/>
-<category term="green screen"/>
-<summary>Hi everyone, I'd like to ask for some advice regarding the new Corridor Key 2.0 . I've tried the free GitHub version, but so far I haven't been able to achieve particularly good results. For comparison, I've attached three images: Original footage before keying (green screen). Result using DaVinci R</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · keying, green screen&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi everyone, I'd like to ask for some advice regarding the new Corridor Key 2.0 . I've tried the free GitHub version, but so far I haven't been able to achieve particularly good results. For comparison, I've attached three images: Original footage before keying (green screen). Result using DaVinci Resolve's 3D Keyer. Result using Corridor Key 2.0 (GitHub version). I know this isn't exactly the most challenging shot to key, but I'm not a professional and this was my first test with the tool. I wanted to start with something relatively simple to see what it could do. However, I also have several more challenging shots, and unfortunately, I'm getting similar results with those as well. So far, &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xn4bny/corridor_key_20_any_tips_for_getting_a_cleaner_key/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1xn32gz/looking_for_a_compositing_vfx_artist_for_an_indie/</id><title>Looking for a Compositing / VFX Artist for an Indie Game Trailer!</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xn32gz/looking_for_a_compositing_vfx_artist_for_an_indie/"/>
-<published>2026-11-03T19:46:49+00:00</published><updated>2026-11-03T19:46:49+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="compositing"/>
-<category term="vfx"/>
-<category term="cinematic"/>
-<summary>Hey everyone! We're currently finishing a stylized 3D cinematic trailer for our indie adventure game, with a visual style somewhat similar to the series ARCANE, and we're looking for a compositing artist to help us with one of the shots! The shot involves a weapon appearing through a magical materia</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 5 · compositing, vfx, cinematic&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey everyone! We're currently finishing a stylized 3D cinematic trailer for our indie adventure game, with a visual style somewhat similar to the series ARCANE, and we're looking for a compositing artist to help us with one of the shots! The shot involves a weapon appearing through a magical materialization effect. We're working with a super talented friend of ours who's a 2D FX animator on ARCANE, and he's kindly helping us bring this little project to life! We're now looking for someone who can help us blend his hand-drawn 2D FX into the 3D scene, potentially add some VFX, and make the whole effect feel cohesive and polished. We're putting the finishing touches on this trailer to help us s&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xn32gz/looking_for_a_compositing_vfx_artist_for_an_indie/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
