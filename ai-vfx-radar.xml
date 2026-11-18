@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-17T23:30:27+00:00</updated>
+<updated>2026-11-18T01:30:32+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
 <entry>
 <id>https://www.reddit.com/r/comfyui/comments/1xyj9vg/anyone_skipping_the_upscale_chain_with_native_4k/</id><title>Anyone skipping the upscale chain with native 4K generation on 16GB VRAM?</title>
@@ -6436,52 +6436,5 @@
 <category term="flux"/>
 <summary>Just got this email from Civitai. Anyone know the story behind it? Did BFL start chasing license breakers? Are any other sites following suit? Are we finally getting away from letting people lock models behind pay walls? submitted by /u/Mabuse046 [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Just got this email from Civitai. Anyone know the story behind it? Did BFL start chasing license breakers? Are any other sites following suit? Are we finally getting away from letting people lock models behind pay walls? submitted by /u/Mabuse046 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xncdmm/no_more_paywalls_for_flux_2_klein_checkpoints_on/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xnbbsj/how_do_i_stop_moss_from_being_blurry/</id><title>How do I stop MOSS from being blurry?</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xnbbsj/how_do_i_stop_moss_from_being_blurry/"/>
-<published>2026-11-04T01:28:59+00:00</published><updated>2026-11-04T01:28:59+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="hdr"/>
-<category term="lora"/>
-<summary>I’ve been trying to work this out for a couple of days now and I’m about ready to write the model off. I cannot, for the life of me, get it to produce a photo that isn’t blurry like it was smeared in vaseline. I have tried: - Adding “blurry”, “blurred”, “low quality”, “low resolution”, etc. to the n</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · hdr, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I’ve been trying to work this out for a couple of days now and I’m about ready to write the model off. I cannot, for the life of me, get it to produce a photo that isn’t blurry like it was smeared in vaseline. I have tried: - Adding “blurry”, “blurred”, “low quality”, “low resolution”, etc. to the negative prompt. This works sometimes but it’s inconsistent. - Adding “high resolution”, “high quality”, “HDR”, “8K”, etc. to the positive prompt. This is also inconsistent (and wildly limiting). - Changing the sampler. I haven’t found one that has any effect on whether photos are blurry. - Enable/disable the turbo lora(s). I’ve tried the model on its own as well as with a few of the turbo LoRAs an&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xnbbsj/how_do_i_stop_moss_from_being_blurry/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xnbaec/minimax_pikavbvrsol_vae_workflow_mmh3_for_tts/</id><title>Minimax Pika-VBVR-Sol VAE Workflow - MMH3 for TTS &amp; Image Editing - 3mp Upscaler-Detailer &amp; More</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xnbaec/minimax_pikavbvrsol_vae_workflow_mmh3_for_tts/"/>
-<published>2026-11-04T01:27:05+00:00</published><updated>2026-11-04T01:27:05+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="image editing"/>
-<category term="vfx"/>
-<category term="hdr"/>
-<category term="comfyui"/>
-<category term="minimax"/>
-<category term="lora"/>
-<summary>Some things. Links below if you didn't want to watch the video. New Minimax H3 workflow I am using - 04:41 MMH3 for TTS (Text to Speech) to address the 3 people dialogue issue - 27:29 MMH3 for image editing and creation (up to 8K but it hasnt won me over yet) - 25:16 Why I wont be testing Singularit</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 8 · image editing, vfx, hdr, comfyui, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Some things. Links below if you didn't want to watch the video. New Minimax H3 workflow I am using - 04:41 MMH3 for TTS (Text to Speech) to address the 3 people dialogue issue - 27:29 MMH3 for image editing and creation (up to 8K but it hasnt won me over yet) - 25:16 Why I wont be testing Singularity v2 (there are loras for them too now) - 05:10 Sol VAE &amp;amp; Pika Lora (also DMAD, PDMD, and VBVR) for H3 - 11:35 CKNPDX Upscaler-Detailer to 3mp using Context Windows works even on 3060 RTX. - 19:48 VEDA conflicted with NVDIA RTX (VFX) so I have removed it SDR to HDR and why it might matter to us soon - 30:40 "Time + Energy = Quality" and why I am back considering quality improvements over speed tha&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xnbaec/minimax_pikavbvrsol_vae_workflow_mmh3_for_tts/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xna30d/i_built_a_digital_twin_to_host_my_history/</id><title>I built a digital twin to host my history documentary channel: LTX 2.3 in ComfyUI + my cloned voice, rendered locally</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xna30d/i_built_a_digital_twin_to_host_my_history/"/>
-<published>2026-11-04T00:30:57+00:00</published><updated>2026-11-04T00:30:57+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="avatar"/>
-<category term="rendering"/>
-<category term="comfyui"/>
-<category term="flux"/>
-<category term="ltx"/>
-<summary>Full making-of, with videos, the actual ComfyUI graph and side-by-side tests: https://sebastienvolpe.com/en/generative-ai/ For the past few months I've been using my documentary channel, Historic Murders, as a real-world lab for generative AI in production. The host of every episode is my digital tw</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 7 · avatar, rendering, comfyui, flux, ltx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Full making-of, with videos, the actual ComfyUI graph and side-by-side tests: https://sebastienvolpe.com/en/generative-ai/ For the past few months I've been using my documentary channel, Historic Murders, as a real-world lab for generative AI in production. The host of every episode is my digital twin: my face and my cloned voice, rendered locally on an RTX 5090. What the making-of covers: the avatar: LTX 2.3 in ComfyUI, conditioned on a still image and on my cloned voice (Qwen3-TTS), so the lips, eyes and head follow the line an identity check: the face is compared to the reference at six points of every take. One drift (a smile appearing at the end of a shot) was fixed by rendering in a si&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xna30d/i_built_a_digital_twin_to_host_my_history/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xn9ufc/pruna_ph3image_is_now_available_in_comfyui/</id><title>Pruna P-H3-Image is now available in ComfyUI</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xn9ufc/pruna_ph3image_is_now_available_in_comfyui/"/>
-<published>2026-11-04T00:20:10+00:00</published><updated>2026-11-04T00:20:10+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="minimax"/>
-<summary>Pruna’s P-H3-Image is now supported in ComfyUI. It’s a distilled image model built on MiniMax H3 and paired with a 4B text encoder. The goal is to keep H3-quality output while making it lighter and faster to run. What you need to know: Base: distilled from MiniMax H3 Text encoder: 4B Works in ComfyU</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Pruna’s P-H3-Image is now supported in ComfyUI. It’s a distilled image model built on MiniMax H3 and paired with a 4B text encoder. The goal is to keep H3-quality output while making it lighter and faster to run. What you need to know: Base: distilled from MiniMax H3 Text encoder: 4B Works in ComfyUI locally Download the model below: P-H3-Image: Image Edit P-H3-Image: Text to Image submitted by /u/crystal_alpine [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xn9ufc/pruna_ph3image_is_now_available_in_comfyui/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
