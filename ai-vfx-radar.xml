@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-18T09:30:35+00:00</updated>
+<updated>2026-11-18T11:30:52+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
 <entry>
 <id>https://arxiv.org/abs/2611.21846</id><title>Can a World Model Predict a Deepfake Video? A Consistency Margin Prior for Deepfake Detection</title>
@@ -6364,34 +6364,5 @@
 <category term="flux"/>
 <summary>Proud to introduce v0.1.0-preview of my local VFX studio built for the #OpenSourceHiggsfield challenge! What started as an obsession with controlling video generation through camera tracking (moving from early COLMAP/GLOMAP experiments to custom LTX-2.3 IC-LoRAs) has now evolved into a complete, end</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 9 · video generation, relight, tracking, camera tracking, vfx, comfyui, nuke, flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Proud to introduce v0.1.0-preview of my local VFX studio built for the #OpenSourceHiggsfield challenge! What started as an obsession with controlling video generation through camera tracking (moving from early COLMAP/GLOMAP experiments to custom LTX-2.3 IC-LoRAs) has now evolved into a complete, end-to-end browser-based studio. What makes it tick: 📥 Smart Pipeline: Drop in footage to automatically extract masks, depth, pose, and accurate camera tracks. 🧱 3D &amp;amp; Generative Control: Block scenes in 3D, design keyframes with FLUX.3 Klein, and generate backgrounds/characters using LTX-2.5 + layout-to-render IC-LoRAs. 🔗 Chained Workflows &amp;amp; API Customization: Add custom API workflows and chain multi&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xnm2tl/from_a_raw_video_to_a_finished_shot_entirely/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xnl6au/what_is_so_special_about_flux_3_klein_that_it_is/</id><title>What is so special about Flux 3 Klein that it is gaining 1 Million downloads in a short period of time (I only ever hear bad things from this sub)?</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xnl6au/what_is_so_special_about_flux_3_klein_that_it_is/"/>
-<published>2026-11-04T10:49:02+00:00</published><updated>2026-11-04T10:49:02+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="flux"/>
-<summary>submitted by /u/Snoo_64233 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/Snoo_64233 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xnl6au/what_is_so_special_about_flux_3_klein_that_it_is/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xnkt82/nvidia_2000_series_owners_double_your_performance/</id><title>Nvidia 2000 series owners: double your performance of Qwen 2.1, Fibo 2.0, MOSS with 1 line edit.</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xnkt82/nvidia_2000_series_owners_double_your_performance/"/>
-<published>2026-11-04T10:26:24+00:00</published><updated>2026-11-04T10:26:24+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<category term="minimax"/>
-<summary>These models (Qwen-Image 2.1, FIBO2, MOSS-Image) are declared in ComfyUI as bf16/fp32 only, but Turing GPUs only support fp16, not bf16. The current/default behaviour in ComfyUI is that it falls back to fp32, which is slow. I inspected the actual range of activations, none of them exceed ~65k. Hence</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;These models (Qwen-Image 2.1, FIBO2, MOSS-Image) are declared in ComfyUI as bf16/fp32 only, but Turing GPUs only support fp16, not bf16. The current/default behaviour in ComfyUI is that it falls back to fp32, which is slow. I inspected the actual range of activations, none of them exceed ~65k. Hence, the fix is to simply add the fp16 declaration in ComfyUI. PR has been opened , but if you want it quicker, just manually copy this commit to your ComfyUI install: In ‎comfy/supported_models.py , find the corresponding model, and change supported_inference_dtypes = [torch.bfloat16, torch.float32] to supported_inference_dtypes = [torch.bfloat16, torch.float16, torch.float32] Only do this for these&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xnkt82/nvidia_2000_series_owners_double_your_performance/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xnkrt7/dual_gpu_split_workload/</id><title>Dual GPU split workload</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xnkrt7/dual_gpu_split_workload/"/>
-<published>2026-11-04T10:23:51+00:00</published><updated>2026-11-04T10:23:51+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="minimax"/>
-<summary>I got an RTX 5090 and an RTX 3090. The concept is to use 3090 to offload the text encoder and maybe for VAE decoding, if that would make sense. Is there a specific node pack for that? I can see both of my GPUs appearing in comfyui when loading (linux) but no option by default to choose a specific GP</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I got an RTX 5090 and an RTX 3090. The concept is to use 3090 to offload the text encoder and maybe for VAE decoding, if that would make sense. Is there a specific node pack for that? I can see both of my GPUs appearing in comfyui when loading (linux) but no option by default to choose a specific GPU on any node. Mostly focusing on Minimax H3 workflows, but I might also split the models on workflows like Qwen image edit submitted by /u/vjustme_9104 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xnkrt7/dual_gpu_split_workload/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
