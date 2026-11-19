@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-18T23:30:54+00:00</updated>
+<updated>2026-11-19T01:30:45+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
 <entry>
 <id>https://arxiv.org/abs/2611.21846</id><title>Can a World Model Predict a Deepfake Video? A Consistency Margin Prior for Deepfake Detection</title>
@@ -437,6 +437,16 @@
 <category term="lora"/>
 <summary>Another quick MOSS-Image news and goodies round-up, for those who may have missed some items. -&gt; RS-Camera-Control-MOSS. A new... "experimental 42-view camera adapter for MOSS-Image-SFT" which uses the Camera Control node from the RS MultiCharacter Sampler pack for ComfyUI. https://huggingface.co/ra</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · camera control, comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Another quick MOSS-Image news and goodies round-up, for those who may have missed some items. -&amp;gt; RS-Camera-Control-MOSS. A new... "experimental 42-view camera adapter for MOSS-Image-SFT" which uses the Camera Control node from the RS MultiCharacter Sampler pack for ComfyUI. https://huggingface.co/raspie/RS-CAMERA-CONTROL-MOSS https://github.com/raspie10032/ComfyUI_RS_MultiCharacter_Sampler (RS MultiCharacter Sampler, required) -&amp;gt; MOSS-Image-LoRA-Polaroid. Click, whirrr, ker-chunk. https://huggingface.co/SEEDRAAI/MOSS-Image-LoRA-Polaroid -&amp;gt; A Eurocomics version of the versatile Nix-Comics LoRA for MOSS-Image. I imagine this might be usefully combined with the Moebius LoRA at low strength? Not&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xy3fhc/a_quick_mossimage_news_roundup_16th_november_2026/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://github.com/aryamandarda/tamserve</id><title>Show HN: Open-source, real-time object tracking for live video feeds</title>
+<link rel="alternate" href="https://github.com/aryamandarda/tamserve"/>
+<published>2026-11-16T21:14:39+00:00</published><updated>2026-11-16T21:14:39+00:00</updated>
+<author><name>Hacker News</name></author>
+<category term="sam3"/>
+<category term="tracking"/>
+<summary>I type "forklift" on a live warehouse camera, and tamserve finds and tracks both forklifts, including the one driving in. Then I add "person" without stopping it. tamserve runs Meta's SAM 3 on live camera feeds. SAM 3's own tracker handles one recorded video at a time, runs at about 8 fps, and runs </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;Hacker News · score 3 · sam3, tracking&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I type "forklift" on a live warehouse camera, and tamserve finds and tracks both forklifts, including the one driving in. Then I add "person" without stopping it. tamserve runs Meta's SAM 3 on live camera feeds. SAM 3's own tracker handles one recorded video at a time, runs at about 8 fps, and runs out of memory on long videos. tamserve uses SAM 3 to find objects every few frames and a lightweight tracker (EdgeTAM) to follow them in between, with one copy of each model shared across all your cameras. *On one RTX 4090:* * *Any object you name:* 4x faster than SAM 3's tracker, at 92% of its accuracy * *People:* 16 cameras at once, 14x less GPU per frame, and slightly more accurate than SAM 3 (&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.com/aryamandarda/tamserve"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
 <id>https://www.reddit.com/r/StableDiffusion/comments/1xy09b1/how_to_preserve_facial_identity_when_replacing_a/</id><title>How to preserve facial identity when replacing a character’s face in a stylized 3D scene?</title>
@@ -5923,24 +5933,5 @@
 <category term="minimax"/>
 <summary>As you see the galaxy spiral was at his right side, which became his back once he got up, the galaxy reappear later (on the full shot) again, but at his left for whatever reason. I thought of; Generating a 360° orbit view at start of a scene, but would waste nearly 3-5s + 3-6 minutes of generation t</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;As you see the galaxy spiral was at his right side, which became his back once he got up, the galaxy reappear later (on the full shot) again, but at his left for whatever reason. I thought of; Generating a 360° orbit view at start of a scene, but would waste nearly 3-5s + 3-6 minutes of generation time. Attaching 2-4 background images to omni reference (think of a room), but would take 4/9 slots, less characters could be in a scene. Just letting it imagine whatever it might look like, but only a affordable idea in case of open field scenes (being throw through a wall or travelling). Attaching a panoramic image as reference, but these are usually over 21:9 ratio and might give the model an an&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xo7l65/ant_way_of_keeping_background_consistent_minimax/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xo5rcw/minimax_h3_loopstudio/</id><title>Minimax H3 LoopStudio</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xo5rcw/minimax_h3_loopstudio/"/>
-<published>2026-11-05T01:18:07+00:00</published><updated>2026-11-05T01:18:07+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="minimax"/>
-<summary>https://github.com/pxl-pshr/LoopStudio A local web app for making seamless looping GIFs with MiniMax H3 on your own ComfyUI , with a coding agent of your choice built into a terminal drawer. Uses https://github.com/pxl-pshr/ComfyUI-MiniMaxH3-Loop nodes. submitted by /u/screean [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;https://github.com/pxl-pshr/LoopStudio A local web app for making seamless looping GIFs with MiniMax H3 on your own ComfyUI , with a coding agent of your choice built into a terminal drawer. Uses https://github.com/pxl-pshr/ComfyUI-MiniMaxH3-Loop nodes. submitted by /u/screean [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xo5rcw/minimax_h3_loopstudio/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xo3q4q/comfyui_refuses_to_load_any_checkpoint/</id><title>ComfyUI refuses to load any checkpoint?</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xo3q4q/comfyui_refuses_to_load_any_checkpoint/"/>
-<published>2026-11-04T23:45:23+00:00</published><updated>2026-11-04T23:45:23+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<summary>I don't know what to do. I tried to make an "extra_model_paths.yaml "to redirect the program to where the checkpoints are stored = Nothing I tried to swap the directory completely from Desktop settings &gt; Storage = Nothing. Am I missing something, or am I dumb? submitted by /u/Reasonable-Eye-5055 [li</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I don't know what to do. I tried to make an "extra_model_paths.yaml "to redirect the program to where the checkpoints are stored = Nothing I tried to swap the directory completely from Desktop settings &amp;gt; Storage = Nothing. Am I missing something, or am I dumb? submitted by /u/Reasonable-Eye-5055 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xo3q4q/comfyui_refuses_to_load_any_checkpoint/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
