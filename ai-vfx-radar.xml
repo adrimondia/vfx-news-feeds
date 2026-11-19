@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-19T05:30:24+00:00</updated>
+<updated>2026-11-19T07:30:29+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
 <entry>
 <id>https://arxiv.org/abs/2611.23417</id><title>Autoregressive View Model</title>
@@ -5893,60 +5893,5 @@
 <category term="lora"/>
 <summary>Hi all, I’m generating short vertical clips (5.17 s, 124 frames, 24 fps) with MiniMax H3 I2VA (fl2va checkpoint, turbo LoRA) in ComfyUI, then upscaling to 1080x1920 with RTX Video Super Resolution. Motion and structure are great, but on fine static textures (frost on a window, snow on roofs, a night</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 6 · video-to-video, upscaling, comfyui, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi all, I’m generating short vertical clips (5.17 s, 124 frames, 24 fps) with MiniMax H3 I2VA (fl2va checkpoint, turbo LoRA) in ComfyUI, then upscaling to 1080x1920 with RTX Video Super Resolution. Motion and structure are great, but on fine static textures (frost on a window, snow on roofs, a night sky) I get two artifacts: Noisy “boiling” texture: the fine detail shimmers from frame to frame instead of staying still. A regular pulse roughly every 4 frames. My frame-difference check shows spikes at frames 6, 10, 14, 19, 23, 27… on a nearly static shot (mean diff ~1.3, spikes ~2.6). I suspect the VAE’s 4x temporal compression (latent frame boundaries). Setup: RTX 3060 12 GB, 0.6 MP generatio&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xod3ig/minimax_h3_i2v_texture_boiling_subtle_pulse_every/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1xoc9lz/vfxmeme_vfxfun_viral/</id><title>#vfxmeme #vfxfun #viral</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xoc9lz/vfxmeme_vfxfun_viral/"/>
-<published>2026-11-05T07:08:09+00:00</published><updated>2026-11-05T07:08:09+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="vfx"/>
-<summary>#4000crfilm #vfxmeme #vfxartists #vfxmeme #diwaliBonus #vfx submitted by /u/MonsterLounge [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 1 · vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;#4000crfilm #vfxmeme #vfxartists #vfxmeme #diwaliBonus #vfx submitted by /u/MonsterLounge [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xoc9lz/vfxmeme_vfxfun_viral/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xoc3tv/minimax_h3_singularity_v2_on_rtx_3060_12gb_4step/</id><title>MiniMax H3 Singularity V2 on RTX 3060 12GB — 4-Step Tests up to 2336×1312</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xoc3tv/minimax_h3_singularity_v2_on_rtx_3060_12gb_4step/"/>
-<published>2026-11-05T06:58:00+00:00</published><updated>2026-11-05T06:58:00+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="video generation"/>
-<category term="comfyui"/>
-<category term="minimax"/>
-<category term="lora"/>
-<summary>I've been experimenting with MiniMax H3 Singularity V2 locally on my RTX 3060 12GB using ComfyUI. I wanted to see how far I could push video generation on a consumer GPU with limited VRAM, using an INT8 model, DMAD 4-step sampling, and memory optimizations. My hardware: GPU: NVIDIA RTX 3060 12GB RAM</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 5 · video generation, comfyui, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I've been experimenting with MiniMax H3 Singularity V2 locally on my RTX 3060 12GB using ComfyUI. I wanted to see how far I could push video generation on a consumer GPU with limited VRAM, using an INT8 model, DMAD 4-step sampling, and memory optimizations. My hardware: GPU: NVIDIA RTX 3060 12GB RAM: 32GB OS: Windows 11 UI: ComfyUI Main workflow configuration: MiniMax H3 Singularity Ref2VA V2 INT8 Qwen3-VL 32B NVFP4 text encoder DMAD 4-step LoRA Camera Motion LoRA res_multistep sampler simple scheduler Comfy Kitchen Attention Sparse Attention optimization Selected local test results: Resolution Frames Generation Time 1280×768 600 1347 s 1536×864 243 632.42 s 2048×1152 243 1390.32 s 2336×1312&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xoc3tv/minimax_h3_singularity_v2_on_rtx_3060_12gb_4step/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xoboo3/help_with_comfyui_genating_explicit_content/</id><title>Help with ComfyUI - genating explicit content</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xoboo3/help_with_comfyui_genating_explicit_content/"/>
-<published>2026-11-05T06:31:45+00:00</published><updated>2026-11-05T06:31:45+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<summary>Hey guys, I am trying to build a ComfyUI workflow to generate explicit content. Here is my goal to have some options before genertion like: - uploading a file in a Load Image node to select how the person looks like - uploading a pose (In the Load Image node at the top) to select the pose (possably </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey guys, I am trying to build a ComfyUI workflow to generate explicit content. Here is my goal to have some options before genertion like: - uploading a file in a Load Image node to select how the person looks like - uploading a pose (In the Load Image node at the top) to select the pose (possably linking a map of different poses) At this point in time I got the looks of the person good but I am struggling with the poses. Can anyone help me with this? Until now I had help from ChatGPT as I am very new to this but I can't figure it out submitted by /u/Erik_the_Alfa [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xoboo3/help_with_comfyui_genating_explicit_content/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xob7nl/i_tested_regenerate_2k_with_minimax_h3_14_runs/</id><title>I tested Regenerate 2K with MiniMax H3: 14 runs, same seed. More detail, but for real people it either invents flaws or changes the face</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xob7nl/i_tested_regenerate_2k_with_minimax_h3_14_runs/"/>
-<published>2026-11-05T06:03:28+00:00</published><updated>2026-11-05T06:03:28+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="upscaler"/>
-<category term="render"/>
-<category term="rendering"/>
-<category term="comfyui"/>
-<category term="minimax"/>
-<category term="lora"/>
-<summary>Regenerate 2K (the refiner LoRA plus a stronger re-noise in the high-res pass) promises to turn a rough draft into a clean 2K render. I ran it on my own GPU with one change at a time to see what it actually does. Setup RTX 5090 32 GB, ComfyUI, MiniMax H3, my own long-video nodes Two shots from my ow</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 7 · upscaler, render, rendering, comfyui, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Regenerate 2K (the refiner LoRA plus a stronger re-noise in the high-res pass) promises to turn a rough draft into a clean 2K render. I ran it on my own GPU with one change at a time to see what it actually does. Setup RTX 5090 32 GB, ComfyUI, MiniMax H3, my own long-video nodes Two shots from my own music video: a 12 s wide shot (1080p) and a 5 s close-up (124 frames, 1080p and 2K) Same seed for every run Sharpness = Laplacian variance (average of 3 frames). Halos = share of edge pixels with a visible bright or dark rim. Round 1: 1080p wide shot (sharpness / edge halos) Normal pipeline (0.8 start): 7.5 / 13.6 % Official 0.909 + refiner: 20.7 / 24.9 %, but the whole shot gets redrawn (clouds&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xob7nl/i_tested_regenerate_2k_with_minimax_h3_14_runs/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xob6fz/trobleshooting_minimax_h3_upscaler/</id><title>Trobleshooting Minimax H3 Upscaler</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xob6fz/trobleshooting_minimax_h3_upscaler/"/>
-<published>2026-11-05T06:01:30+00:00</published><updated>2026-11-05T06:01:30+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="upscaling"/>
-<category term="upscaler"/>
-<category term="minimax"/>
-<summary>Hello!. As the title says i have trouble when using latent upscaling in minimax, I'm not trying to generate 4k video just 1mpx and i don't know if that is what is breaking my generations. here is the video in question before the upscaling, some warping but no artifacts, i don't know how to fix the w</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 5 · upscaling, upscaler, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hello!. As the title says i have trouble when using latent upscaling in minimax, I'm not trying to generate 4k video just 1mpx and i don't know if that is what is breaking my generations. here is the video in question before the upscaling, some warping but no artifacts, i don't know how to fix the warping yet but ill try other things in the future. Amd 5700g, 40 Gb DDR4. Rtx 3090 24gb Vram. 0.4 Mpx 9:16 Portrait Widescreen: Video at 0.4 Mpx 9:16 Portrait Widescreen And here is the video after the upscaling to 1Mbpx Video at 0.4 Mpx 9:16 Portrait Widescreen -&amp;gt; latent upscaled to 1Mpx the face is WAY better, but there are some "squares" that show up, more apparently on the high movement areas &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xob6fz/trobleshooting_minimax_h3_upscaler/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
