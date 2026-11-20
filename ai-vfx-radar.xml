@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-20T17:31:32+00:00</updated>
+<updated>2026-11-20T19:31:11+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
 <entry>
 <id>https://github.com/FlashML-org/FreeVideo</id><title>FlashML-org/FreeVideo</title>
@@ -5194,41 +5194,5 @@
 <category term="lora"/>
 <summary>I've been working on a repeatable process to do character swaps (&amp; other types of changes) across a complete TV episode / movie. It's working pretty well now. I thought this was just funny... not so much a true "swap" but asking the character to dance in every scene. Choreography courtesy of an LLM.</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I've been working on a repeatable process to do character swaps (&amp;amp; other types of changes) across a complete TV episode / movie. It's working pretty well now. I thought this was just funny... not so much a true "swap" but asking the character to dance in every scene. Choreography courtesy of an LLM. If you've seen the show, it's Serious Detective Drama (TM) so the fact the main character suddenly starts pumping his arms or sliding into every scene with a dance move made me laugh out loud when I saw some of the generations. Details on the workflow: Model: MiniMax H3, first-and-last-frame mode (FL2VA), in ComfyUI. 8-step turbo LoRA, generated at 1024×512 for the 2:1 picture. First and Last: Ev&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xpo5g6/changing_a_character_across_an_hour_long_tv/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1xplgrq/tried_to_update_the_review_workflow_review_notes/</id><title>Tried to update the review workflow : "Review notes, in the scene themselves"</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xplgrq/tried_to_update_the_review_workflow_review_notes/"/>
-<published>2026-11-06T19:15:29+00:00</published><updated>2026-11-06T19:15:29+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="blender"/>
-<summary>For a while now I've been working and experiment in what a CG pipeline for small studios could look like. It's a place where I try ideas, with the motive of either automating some technical debts either efficiency, storage or simplicity. The first part I want to show is how review notes reach the ar</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 1 · blender&lt;/small&gt;&lt;/p&gt;&lt;p&gt;For a while now I've been working and experiment in what a CG pipeline for small studios could look like. It's a place where I try ideas, with the motive of either automating some technical debts either efficiency, storage or simplicity. The first part I want to show is how review notes reach the artist. In most review loops, the supervisor leaves notes in a web player, and the artist reads them in a browser on another screen. Then they look for the frame in Blender and try to remember where the circle was drawn. Every round, something gets missed or applied to the wrong frame. In Zeno, the notes open inside DCC. Click a note and you're on its frame. Look through the shot camera and the supe&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xplgrq/tried_to_update_the_review_workflow_review_notes/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xpkwtr/made_a_face_swap_that_runs_entirely_in_your/</id><title>Made a face swap that runs entirely in your browser, no setup or huge downloads</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xpkwtr/made_a_face_swap_that_runs_entirely_in_your/"/>
-<published>2026-11-06T18:53:53+00:00</published><updated>2026-11-06T18:53:53+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="face swap"/>
-<summary>Been working on this for a while. You drop in a photo or video, pick a face to use, and it swaps it right on your own GPU using WebGPU (all the processing happens in your browser so nothing is uploaded anywhere). Mostly because, last time i tried using one of these projects it had me download 50 gig</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · face swap&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Been working on this for a while. You drop in a photo or video, pick a face to use, and it swaps it right on your own GPU using WebGPU (all the processing happens in your browser so nothing is uploaded anywhere). Mostly because, last time i tried using one of these projects it had me download 50 gigs of files 😵 and they always felt super complicated. The first time, it downloads necessary models, and that's it. Everything is saved in browser cache for later use. Try it here: https://i2m3d.github.io/FaceJutsu/ Let me know what you think : ) And if you want more speed, turn on WebNN (it's behind a flag in Chrome/Edge, then switch the engine in settings). It's experimental, but on my RTX 4060 l&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xpkwtr/made_a_face_swap_that_runs_entirely_in_your/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xpkvth/regarding_minimax_ref2vid_how_have_you_handled/</id><title>Regarding Minimax Ref2Vid, how have you handled the characters' voices?</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xpkvth/regarding_minimax_ref2vid_how_have_you_handled/"/>
-<published>2026-11-06T18:52:51+00:00</published><updated>2026-11-06T18:52:51+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="minimax"/>
-<summary>I’ve been trying to create scenes featuring a couple of characters for a while now, but I haven’t found a solution yet—so I’m turning to those with more experience for some advice. If there’s only one character in a scene, there’s no issue: if I upload an image and a reference audio clip, Minimax pe</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I’ve been trying to create scenes featuring a couple of characters for a while now, but I haven’t found a solution yet—so I’m turning to those with more experience for some advice. If there’s only one character in a scene, there’s no issue: if I upload an image and a reference audio clip, Minimax perfectly generates a video featuring that character with the corresponding voice. However, if two characters appear in the video, Minimax struggles to distinguish which voice belongs to which character. For instance, if Character A speaks first, followed by Character B, the output isn't correct—even when I specify that Character A should have "Voice A" and Character B should have "Voice B." I’ve tr&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xpkvth/regarding_minimax_ref2vid_how_have_you_handled/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xpiuyk/i_hosted_a_live_san_altman_avatar_locally_on_my/</id><title>I hosted a live San Altman avatar locally on my RAM</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xpiuyk/i_hosted_a_live_san_altman_avatar_locally_on_my/"/>
-<published>2026-11-06T17:34:39+00:00</published><updated>2026-11-06T17:34:39+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="avatar"/>
-<summary>submitted by /u/Mikasa0xdev [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · avatar&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/Mikasa0xdev [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xpiuyk/i_hosted_a_live_san_altman_avatar_locally_on_my/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
