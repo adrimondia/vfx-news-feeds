@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-20T15:31:35+00:00</updated>
+<updated>2026-11-20T17:31:32+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
 <entry>
 <id>https://github.com/FlashML-org/FreeVideo</id><title>FlashML-org/FreeVideo</title>
@@ -5230,27 +5230,5 @@
 <category term="avatar"/>
 <summary>submitted by /u/Mikasa0xdev [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · avatar&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/Mikasa0xdev [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xpiuyk/i_hosted_a_live_san_altman_avatar_locally_on_my/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xph4o1/testing_the_new_relayvsr_vs_seedvr2_vs_native/</id><title>Testing the new RelayVSR vs SeedVR2 vs native finish for 1080P</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xph4o1/testing_the_new_relayvsr_vs_seedvr2_vs_native/"/>
-<published>2026-11-06T16:28:23+00:00</published><updated>2026-11-06T16:28:23+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="upscaler"/>
-<category term="render"/>
-<category term="comfyui"/>
-<category term="minimax"/>
-<summary>RelayVSR (USTC, Apache-2.0) got native ComfyUI support this week (PR #17511, repack at https://huggingface.co/Comfy-Org/RelayVSR ), so I ran it on a take from my current short. All four versions come from the same H3 render, so the acting is identical and only the route to 1080p differs. Base take: </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · upscaler, render, comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;RelayVSR (USTC, Apache-2.0) got native ComfyUI support this week (PR #17511, repack at https://huggingface.co/Comfy-Org/RelayVSR ), so I ran it on a take from my current short. All four versions come from the same H3 render, so the acting is identical and only the route to 1080p differs. Base take: MiniMax H3 ref2v, 12.25 s / 294 frames @ 24 fps with audio, two-stage: 15 steps at 576×352, H3 3D latent upscaler, last 5 steps at 1312×768. 5.7 min on an RTX 4090. Route Time Notes SeedVR2 7B → 1080p +13.1 min Clean, natural skin, holds the small far face well Native H3 1080p finish (latent-upscale to 1856×1088, last 5 steps there) 13.3 min total Softest, most "filmed" close-up; from a 576×352 lo&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xph4o1/testing_the_new_relayvsr_vs_seedvr2_vs_native/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xph0pt/comfyuiminimaxh3temporalwindowspatialtiles_works/</id><title>ComfyUI-MiniMaxH3-TemporalWindow-SpatialTiles works on 16GB VRAM + 32GB RAM with NO OOM</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xph0pt/comfyuiminimaxh3temporalwindowspatialtiles_works/"/>
-<published>2026-11-06T16:24:13+00:00</published><updated>2026-11-06T16:24:13+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<category term="minimax"/>
-<summary>I modified some workflow and added to it ComfyUI-MiniMaxH3-TemporalWindow-SpatialTiles (from this post https://www.reddit.com/r/StableDiffusion/comments/1xgcjvw/i_created_a_custom_node_that_can_help_you/ ). My 10sec video with 960x544 resolution could take 2 hours for 4K (3840×2176). No OOM at all !</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I modified some workflow and added to it ComfyUI-MiniMaxH3-TemporalWindow-SpatialTiles (from this post https://www.reddit.com/r/StableDiffusion/comments/1xgcjvw/i_created_a_custom_node_that_can_help_you/ ). My 10sec video with 960x544 resolution could take 2 hours for 4K (3840×2176). No OOM at all !!! Workflow itself : https://pastebin.com/xJpm84f7 😍 [MinimaxH3-3D] Latent 60x34 -&amp;gt; 240x136 | Pixels 3840x2176 | scale=4.000 [MinimaxH3-3D] temporal chunking: T=72 chunks=3 overlap=5 [MinimaxH3-3D] ✅ Model offloaded to CPU. VRAM released. [INFO] Found quantization metadata version 1 [INFO] Detected mixed precision quantization [INFO] Using mixed precision operations [INFO] Native ops: convrot_w4a4&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xph0pt/comfyuiminimaxh3temporalwindowspatialtiles_works/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
