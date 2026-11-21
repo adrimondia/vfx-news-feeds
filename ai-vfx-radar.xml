@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-21T21:30:23+00:00</updated>
+<updated>2026-11-21T23:30:23+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
 <entry>
 <id>https://github.com/FlashML-org/FreeVideo</id><title>FlashML-org/FreeVideo</title>
@@ -4890,25 +4890,5 @@
 <category term="dit"/>
 <summary>I’ve been building HexAnima , a free, non-commercial, open-source Android app that runs diffusion models entirely on the Hexagon NPU (no root, no cloud, no account, no ads). Until now it ran the Anima anime models (2B and 2.9B, ~7–12 s for 512x768). Version 1.3.0 adds a much bigger model: MOSS-Image</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · flux, lora, dit&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I’ve been building HexAnima , a free, non-commercial, open-source Android app that runs diffusion models entirely on the Hexagon NPU (no root, no cloud, no account, no ads). Until now it ran the Anima anime models (2B and 2.9B, ~7–12 s for 512x768). Version 1.3.0 adds a much bigger model: MOSS-Image 5B (OpenMOSS, Apache-2.0). What runs where Everything heavy is on the NPU: the Qwen3.5-9B text encoder, the 5.1B DiT, and the FLUX.2 small VAE decoder. Weights are converted to 8-bit tiles for the Hexagon matrix unit (HMX) and streamed from flash for every picture (a 5.7 GB DiT doesn’t fit next to the encoder in RAM). It uses the community 4-step “rapid-moss” adapter, kept as an unmerged LoRA bec&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xqltcv/mossimage_5b_now_runs_fully_on_a_phone_npu/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xqilq0/is_this_possible_with_comfyui/</id><title>Is this possible with comfyui?</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xqilq0/is_this_possible_with_comfyui/"/>
-<published>2026-11-07T22:22:09+00:00</published><updated>2026-11-07T22:22:09+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<summary>This ad keeps popping up on my Instagram feed, its from krea, and its like a real time sketch to image? Anyone know if this is possible in comfy? submitted by /u/Wanderson90 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;This ad keeps popping up on my Instagram feed, its from krea, and its like a real time sketch to image? Anyone know if this is possible in comfy? submitted by /u/Wanderson90 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xqilq0/is_this_possible_with_comfyui/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xqhxpp/making_a_movie_with_minimax_h3_using_hybrid_fl2va/</id><title>Making a movie with MiniMax H3 using Hybrid_FL2VA_REF2VA</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xqhxpp/making_a_movie_with_minimax_h3_using_hybrid_fl2va/"/>
-<published>2026-11-07T21:51:58+00:00</published><updated>2026-11-07T21:51:58+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="render"/>
-<category term="comfyui"/>
-<category term="minimax"/>
-<summary>https://reddit.com/link/1xqhxpp/video/jvajxpvrg90i1/player I had a story in my head since my childhood and with the help of AI, I finally finished my first chapter of the book with all the lores, background, etc... etc... I can tell you, it is probably not a very large book, but when you want to pus</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · render, comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;https://reddit.com/link/1xqhxpp/video/jvajxpvrg90i1/player I had a story in my head since my childhood and with the help of AI, I finally finished my first chapter of the book with all the lores, background, etc... etc... I can tell you, it is probably not a very large book, but when you want to push your story telling into actual scenes, it is a lot more work. So... I am a web developer in Laravel and Symfony and currently I own several AI stations at home to render movies, music, speeches, anything with AI. They are not the fastest, but they get the work done like a tank (DGX Spark). The screenshots I put in the next comment is a Laravel application that is connected to ComfyUI API, voice &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xqhxpp/making_a_movie_with_minimax_h3_using_hybrid_fl2va/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
