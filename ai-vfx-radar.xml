@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-22T13:30:24+00:00</updated>
+<updated>2026-11-22T15:30:24+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
 <entry>
 <id>https://github.com/FlashML-org/FreeVideo</id><title>FlashML-org/FreeVideo</title>
@@ -4647,44 +4647,5 @@
 <category term="cinematic"/>
 <summary>Before starting an AI filmmaking course, I wanted to pick image models for key frames. I ran 5 cinematic prompts, same seed, same official template settings, on an RTX 4080 Laptop (12 GB) in ComfyUI. Nano Banana 2.1 was run through the API. All images are AI-generated. Score /54 (skin, light, compos</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 6 · comfyui, flux, filmmaking, cinematic&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Before starting an AI filmmaking course, I wanted to pick image models for key frames. I ran 5 cinematic prompts, same seed, same official template settings, on an RTX 4080 Laptop (12 GB) in ComfyUI. Nano Banana 2.1 was run through the API. All images are AI-generated. Score /54 (skin, light, composition, prompt adherence; /12 with a face, /9 without; subjective) Model Score Time (excl. model load) Nano Banana 2.1 (hosted) 46 API Z-Image Turbo 42 ~11 s Krea 2 Turbo 41 ~11.5 s FLUX.2 klein 4B 40 ~19 s FLUX.2 klein 9B 40 ~35 s Prompts: window portrait (85mm, 5600K side light), concrete stairwell (low angle, hard key, Rembrandt), night apartment (2700K lamp + cold laptop glow), macro old photog&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xr16kc/same_5_prompts_same_seed_flux2_klein_4b9b_vs_krea/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xqzr5z/i_made_an_optimizer_called_apexw_to_speed_up/</id><title>i made an optimizer called ApexW to speed up PyTorch training on low-end GPUs Looking for feedback/benchmarks(got ~6.3% faster SD 1.5 LoRA training on a NVIDIA T4)</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xqzr5z/i_made_an_optimizer_called_apexw_to_speed_up/"/>
-<published>2026-11-08T14:32:13+00:00</published><updated>2026-11-08T14:32:13+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="stable diffusion"/>
-<category term="lora"/>
-<summary>Hey everyone I've been working on a custom optimizer called ApexW , designed to reduce CUDA kernel launch overhead during PyTorch training, particularly when dealing with lots of smaller parameter updates. Since I'm a student running on a free NVIDIA T4 GPU (16GB), I decided to benchmark it against </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · stable diffusion, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey everyone I've been working on a custom optimizer called ApexW , designed to reduce CUDA kernel launch overhead during PyTorch training, particularly when dealing with lots of smaller parameter updates. Since I'm a student running on a free NVIDIA T4 GPU (16GB), I decided to benchmark it against standard PyTorch AdamW using Stable Diffusion 1.5 LoRA training for 1,000 steps. Here's how the runs went: Rank 16 LoRA (Standard) AdamW: 1.92 it/s | 516.2s total time | 4.68 GB VRAM ApexW: 2.04 it/s | 485.6s total time | 4.68 GB VRAM ApexW saved approximately 30.6 seconds, delivering around 6.3% higher throughput without additional VRAM usage. Rank 32 LoRA (Heavier load) AdamW: 2.03 it/s | 488.2s&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xqzr5z/i_made_an_optimizer_called_apexw_to_speed_up/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xqzn6e/i_made_a_10minute_sherlock_holmes_anime_with/</id><title>I made a 10-minute Sherlock Holmes anime with ComfyUI and Claude Code (project files included)</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xqzn6e/i_made_a_10minute_sherlock_holmes_anime_with/"/>
-<published>2026-11-08T14:27:10+00:00</published><updated>2026-11-08T14:27:10+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="minimax"/>
-<summary>I made the opening of “The Adventure of the Three Garridebs” into an anime-style video using ComfyUI, with Claude Code handling production through konte, an open-source tool I’m developing. The dialogue is in Japanese because I'm a native Japanese speaker and can judge the delivery and wording more </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I made the opening of “The Adventure of the Three Garridebs” into an anime-style video using ComfyUI, with Claude Code handling production through konte, an open-source tool I’m developing. The dialogue is in Japanese because I'm a native Japanese speaker and can judge the delivery and wording more easily. English subtitles are included. Models, all via ComfyUI: Krea 2 Turbo for character sheets and backgrounds, MiniMax H3 for keyframes, dialogue and motion, Zonos2 for narration, and Stable Audio 3 for music and SFX. With konte's source feature, adapting fiction into video has become much easier for me. I imported the EPUB of The Case-Book of Sherlock Holmes and asked the agent to adapt the &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xqzn6e/i_made_a_10minute_sherlock_holmes_anime_with/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xqzhtx/a_new_ai_video_model_for_christmas/</id><title>A New AI Video Model for Christmas 🎅</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xqzhtx/a_new_ai_video_model_for_christmas/"/>
-<published>2026-11-08T14:20:07+00:00</published><updated>2026-11-08T14:20:07+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="video model"/>
-<category term="ai video"/>
-<summary>submitted by /u/Roman53275 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · video model, ai video&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/Roman53275 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xqzhtx/a_new_ai_video_model_for_christmas/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1xqzfc5/do_you_know_any_vfx_youtubers/</id><title>Do you know any VFX YouTubers?</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xqzfc5/do_you_know_any_vfx_youtubers/"/>
-<published>2026-11-08T14:16:50+00:00</published><updated>2026-11-08T14:16:50+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="vfx"/>
-<summary>Do you know any YouTuber does VFX?I want to find some VFX YouTubers but there are not a lot of people doing it? submitted by /u/Own_Insurance_7436 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Do you know any YouTuber does VFX?I want to find some VFX YouTubers but there are not a lot of people doing it? submitted by /u/Own_Insurance_7436 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xqzfc5/do_you_know_any_vfx_youtubers/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
