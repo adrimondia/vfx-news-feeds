@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-22T01:30:23+00:00</updated>
+<updated>2026-11-22T03:30:26+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
 <entry>
 <id>https://github.com/FlashML-org/FreeVideo</id><title>FlashML-org/FreeVideo</title>
@@ -4832,39 +4832,5 @@
 <category term="tracking"/>
 <summary>I am working on a recreation of the Vertigo scene from the backrooms movie with a friend and we shot this on a stage at my school with a set prop me and my dad made. Issue is, when I try to track this footage, the graininess of the footage and the slight shakiness of the green board lead to the trac</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · tracking&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I am working on a recreation of the Vertigo scene from the backrooms movie with a friend and we shot this on a stage at my school with a set prop me and my dad made. Issue is, when I try to track this footage, the graininess of the footage and the slight shakiness of the green board lead to the track either failing or sliding and shaking. Any help? submitted by /u/blosiv [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xqospp/how_would_i_go_about_tracking_this_shot/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xqojjf/viggle_remake_mcp_now_has_a_comfyui_worker_int8/</id><title>Viggle Remake MCP now has a ComfyUI worker (int8 + offload). Raw results: what it nails and where it breaks</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xqojjf/viggle_remake_mcp_now_has_a_comfyui_worker_int8/"/>
-<published>2026-11-08T03:20:53+00:00</published><updated>2026-11-08T03:20:53+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<summary>Update: I added a ComfyUI worker to the MCP (tested on an 5090). https://huggingface.co/Viggle/Viggle-Remake#agent-the-mcp-server It runs the int8 model and streams weights from system RAM, so it should be easier to set up on GPUs with less VRAM. So far I've only tested it on 32 GB. Tests at 24 GB a</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Update: I added a ComfyUI worker to the MCP (tested on an 5090). https://huggingface.co/Viggle/Viggle-Remake#agent-the-mcp-server It runs the int8 model and streams weights from system RAM, so it should be easier to set up on GPUs with less VRAM. So far I've only tested it on 32 GB. Tests at 24 GB and 20 GB are running now, and I'll post the numbers when they finish. The attached video is one-round raw output, no multi-round iteration, no manual cleanup. I t shows both what the model does well and where it breaks, so you get a realistic picture of the model before you try it. Most errors are in the first 30s and small faces. ‼️ Most useful tip‼️: if any part of a result looks wrong, tell the&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xqojjf/viggle_remake_mcp_now_has_a_comfyui_worker_int8/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xqnnlk/ltx_25_music_video_good_character_consistency_but/</id><title>LTX 2.5 music video: good character consistency, but mushy motion and facial detail. How would you improve this workflow?</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xqnnlk/ltx_25_music_video_good_character_consistency_but/"/>
-<published>2026-11-08T02:32:25+00:00</published><updated>2026-11-08T02:32:25+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="upscaling"/>
-<category term="lip sync"/>
-<category term="ltx"/>
-<category term="lora"/>
-<category term="consistency"/>
-<category term="character consistency"/>
-<summary>I made this AI rap music video and would appreciate some honest, practical workflow advice. The character, outfit and locations stay surprisingly consistent. However, the result still has that “AI slop” feeling: movements look mushy, facial features lose definition during motion, hands smear, and th</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 9 · upscaling, lip sync, ltx, lora, consistency, character consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I made this AI rap music video and would appreciate some honest, practical workflow advice. The character, outfit and locations stay surprisingly consistent. However, the result still has that “AI slop” feeling: movements look mushy, facial features lose definition during motion, hands smear, and the face becomes less recognizable during strong gestures or extreme camera angles. Lip sync is also inconsistent. What I used: Six reference images created with ChatGPT Images, keeping the same character and outfit. LTX 2.5 22B dev, BF16 , running on a Runpod B200 through the official native Python two-stage audio-to-video pipeline. The original song’s full mix as audio conditioning, plus a referen&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xqnnlk/ltx_25_music_video_good_character_consistency_but/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xqnfr0/wanted_to_create_a_music_reactivity_project_using/</id><title>Wanted to create a music reactivity project using Unreal and a pre-existing NYC 2016 subway model. I took the model and upscaled every texture to 4k using SeedVR2 and used Krea 2 to add more details and then used Touch Designer for the light reactivity</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xqnfr0/wanted_to_create_a_music_reactivity_project_using/"/>
-<published>2026-11-08T02:20:40+00:00</published><updated>2026-11-08T02:20:40+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="gaussian splatting"/>
-<category term="tracking"/>
-<category term="unreal"/>
-<summary>First yes I def used AI please don’t kill me but I saw all these cool music visualization projects on IG and I wanted to make one so I used this tutorial https://youtu.be/PQAeUkcykVo?is=cS8qrDHOv1-_yRlG but I then upscaled each texture in the train car asset to 4k using SeedVR2 and Krea 2 to add mor</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · gaussian splatting, tracking, unreal&lt;/small&gt;&lt;/p&gt;&lt;p&gt;First yes I def used AI please don’t kill me but I saw all these cool music visualization projects on IG and I wanted to make one so I used this tutorial https://youtu.be/PQAeUkcykVo?is=cS8qrDHOv1-_yRlG but I then upscaled each texture in the train car asset to 4k using SeedVR2 and Krea 2 to add more details. I also added DLSS5 to enhance the overall scene and lighting. I then added tracks and weather effects and the head tracking to create the illusion of 3d. Also added subway car door opening and weather effects like snow and rain plus rain on glass. ulitmate goal is to use Gaussian splatting to capture the environment behind the monitor to create illusion of the subway being inside the mo&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xqnfr0/wanted_to_create_a_music_reactivity_project_using/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
