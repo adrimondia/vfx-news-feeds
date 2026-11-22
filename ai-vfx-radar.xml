@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-21T23:30:23+00:00</updated>
+<updated>2026-11-22T01:30:23+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
 <entry>
 <id>https://github.com/FlashML-org/FreeVideo</id><title>FlashML-org/FreeVideo</title>
@@ -4866,29 +4866,5 @@
 <category term="unreal"/>
 <summary>First yes I def used AI please don’t kill me but I saw all these cool music visualization projects on IG and I wanted to make one so I used this tutorial https://youtu.be/PQAeUkcykVo?is=cS8qrDHOv1-_yRlG but I then upscaled each texture in the train car asset to 4k using SeedVR2 and Krea 2 to add mor</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · gaussian splatting, tracking, unreal&lt;/small&gt;&lt;/p&gt;&lt;p&gt;First yes I def used AI please don’t kill me but I saw all these cool music visualization projects on IG and I wanted to make one so I used this tutorial https://youtu.be/PQAeUkcykVo?is=cS8qrDHOv1-_yRlG but I then upscaled each texture in the train car asset to 4k using SeedVR2 and Krea 2 to add more details. I also added DLSS5 to enhance the overall scene and lighting. I then added tracks and weather effects and the head tracking to create the illusion of 3d. Also added subway car door opening and weather effects like snow and rain plus rain on glass. ulitmate goal is to use Gaussian splatting to capture the environment behind the monitor to create illusion of the subway being inside the mo&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xqnfr0/wanted_to_create_a_music_reactivity_project_using/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xqm7ma/3d_blockout_to_ai_video_blender_minimaxh3_ref2vid/</id><title>3D Blockout to AI Video [Blender + MinimaxH3 Ref2Vid]</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xqm7ma/3d_blockout_to_ai_video_blender_minimaxh3_ref2vid/"/>
-<published>2026-11-08T01:17:09+00:00</published><updated>2026-11-08T01:17:09+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="blender"/>
-<category term="minimax"/>
-<category term="seedance"/>
-<category term="ai video"/>
-<summary>Inspired by ComfyUI IG's original post: https://www.instagram.com/p/DfU5R2PHgYY/ which was done using Seedance 2.5, I tried to recreate it using minimax h3 ref to video workflow. I rendered each scene separately using blender and comfyui and stitched them in capcut. To create the 3D blockouts I used</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 7 · comfyui, blender, minimax, seedance, ai video&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Inspired by ComfyUI IG's original post: https://www.instagram.com/p/DfU5R2PHgYY/ which was done using Seedance 2.5, I tried to recreate it using minimax h3 ref to video workflow. I rendered each scene separately using blender and comfyui and stitched them in capcut. To create the 3D blockouts I used blender mcp with a coding agent, then created the reference images for the room and the character. Film grain and flash effects added in post. submitted by /u/Time-Ad-7720 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xqm7ma/3d_blockout_to_ai_video_blender_minimaxh3_ref2vid/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xqltcv/mossimage_5b_now_runs_fully_on_a_phone_npu/</id><title>MOSS-Image 5B now runs fully on a phone NPU (Snapdragon 8 Gen 1 / 8+ Gen 1): ~30 s for 512x768, free app, your own LoRA supported</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xqltcv/mossimage_5b_now_runs_fully_on_a_phone_npu/"/>
-<published>2026-11-08T00:57:04+00:00</published><updated>2026-11-08T00:57:04+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="flux"/>
-<category term="lora"/>
-<category term="dit"/>
-<summary>I’ve been building HexAnima , a free, non-commercial, open-source Android app that runs diffusion models entirely on the Hexagon NPU (no root, no cloud, no account, no ads). Until now it ran the Anima anime models (2B and 2.9B, ~7–12 s for 512x768). Version 1.3.0 adds a much bigger model: MOSS-Image</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · flux, lora, dit&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I’ve been building HexAnima , a free, non-commercial, open-source Android app that runs diffusion models entirely on the Hexagon NPU (no root, no cloud, no account, no ads). Until now it ran the Anima anime models (2B and 2.9B, ~7–12 s for 512x768). Version 1.3.0 adds a much bigger model: MOSS-Image 5B (OpenMOSS, Apache-2.0). What runs where Everything heavy is on the NPU: the Qwen3.5-9B text encoder, the 5.1B DiT, and the FLUX.2 small VAE decoder. Weights are converted to 8-bit tiles for the Hexagon matrix unit (HMX) and streamed from flash for every picture (a 5.7 GB DiT doesn’t fit next to the encoder in RAM). It uses the community 4-step “rapid-moss” adapter, kept as an unmerged LoRA bec&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xqltcv/mossimage_5b_now_runs_fully_on_a_phone_npu/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
