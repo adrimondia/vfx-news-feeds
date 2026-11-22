@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-22T19:30:26+00:00</updated>
+<updated>2026-11-22T21:30:24+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
 <entry>
 <id>https://github.com/FlashML-org/FreeVideo</id><title>FlashML-org/FreeVideo</title>
@@ -4531,72 +4531,5 @@
 <category term="ai video"/>
 <summary>I was sitting there wondering when H3 Max would finally get its open-weight release. Then I thought, maybe Santa will bring it for Christmas... and suddenly this image came to mind. 🎅 Generated locally in ComfyUI with Krea-2 Turbo, then edited with Qwen-Image 2.1. submitted by /u/Roman53275 [link] [</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 5 · video model, comfyui, ai video&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I was sitting there wondering when H3 Max would finally get its open-weight release. Then I thought, maybe Santa will bring it for Christmas... and suddenly this image came to mind. 🎅 Generated locally in ComfyUI with Krea-2 Turbo, then edited with Qwen-Image 2.1. submitted by /u/Roman53275 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xracdb/a_new_ai_video_model_for_christmas_krea2_turbo/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xr8hws/benchmarking_rtx_3090_stock_and_with_a_tensorrate/</id><title>Benchmarking RTX 3090 (stock and with a tensor-rate unlock) vs ASUS RTX Spark 128GB vs M5 Max 128GB: same MiniMax H3 ComfyUI video workflows, same seeds, 11 rows</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xr8hws/benchmarking_rtx_3090_stock_and_with_a_tensorrate/"/>
-<published>2026-11-08T20:38:42+00:00</published><updated>2026-11-08T20:38:42+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="minimax"/>
-<summary>submitted by /u/Ok_Bird4483 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/Ok_Bird4483 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xr8hws/benchmarking_rtx_3090_stock_and_with_a_tensorrate/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1xr7v6j/we_built_a_set_of_inhouse_pipeline_tools_at_our/</id><title>We built a set of in-house pipeline tools at our studio and opened most of them up: keying, shot launching, media browsing, Nuke and AE tools</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xr7v6j/we_built_a_set_of_inhouse_pipeline_tools_at_our/"/>
-<published>2026-11-08T20:11:46+00:00</published><updated>2026-11-08T20:11:46+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="keying"/>
-<category term="nuke"/>
-<summary>submitted by /u/npittas [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 4 · keying, nuke&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/npittas [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xr7v6j/we_built_a_set_of_inhouse_pipeline_tools_at_our/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xr7doc/we_connected_nuke_and_after_effects_to_comfyui/</id><title>We connected Nuke and After Effects to ComfyUI, and built a prompt/storyboard app that renders through it (open source)</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xr7doc/we_connected_nuke_and_after_effects_to_comfyui/"/>
-<published>2026-11-08T19:52:15+00:00</published><updated>2026-11-08T19:52:15+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="video model"/>
-<category term="sam3"/>
-<category term="animation"/>
-<category term="vfx"/>
-<category term="render"/>
-<category term="comfyui"/>
-<category term="nuke"/>
-<category term="flux"/>
-<summary>Hi all, At KENT Post Production we use ComfyUI daily inside a VFX pipeline, so we built the pieces we were missing. Most of them are free and on GitHub, and feedback is very welcome. Director's Console : a workspace that drives ComfyUI. Prompt Engineer : pick an image or video model (FLUX, Qwen, See</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 16 · video model, sam3, animation, vfx, render, comfyui, nuke, flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi all, At KENT Post Production we use ComfyUI daily inside a VFX pipeline, so we built the pieces we were missing. Most of them are free and on GitHub, and feedback is very welcome. Director's Console : a workspace that drives ComfyUI. Prompt Engineer : pick an image or video model (FLUX, Qwen, Seedream, LTX, Wan, Kling…) and the prompt is written for that model. Camera, lens, movement, lighting and visual-grammar parameters, plus presets based on real films and a separate set for animation. Storyboard : each panel gets its own ComfyUI workflow and settings, and renders across one or many ComfyUI nodes with live GPU/VRAM stats. Gallery : grid, list or masonry view, and the viewer keeps each&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xr7doc/we_connected_nuke_and_after_effects_to_comfyui/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xr7bl2/use_agents_claude_code_codex_antigravity_to_make/</id><title>Use agents (Claude Code, Codex, Antigravity, ...) to make videos, images and music locally</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xr7bl2/use_agents_claude_code_codex_antigravity_to_make/"/>
-<published>2026-11-08T19:49:57+00:00</published><updated>2026-11-08T19:49:57+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="upscaling"/>
-<category term="inpainting"/>
-<category term="outpainting"/>
-<category term="lip-sync"/>
-<category term="comfyui"/>
-<category term="minimax"/>
-<category term="lora"/>
-<summary>I built slopfab , a native command-line tool that lets your coding agent generate media directly. Unzip it, start your agent in that folder, and ask for a music video, a short film or a product shot. Your agent plans the shots, runs the generations and builds a project page you can review. This is t</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 7 · upscaling, inpainting, outpainting, lip-sync, comfyui, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I built slopfab , a native command-line tool that lets your coding agent generate media directly. Unzip it, start your agent in that folder, and ask for a music video, a short film or a product shot. Your agent plans the shots, runs the generations and builds a project page you can review. This is the same native backend that slopus.ai uses, no ComfyUI, no Python. What it does Video with audio: MiniMax H3 (text/image/video/audio references, long-form continuation, clip bridging, inpainting/outpainting), LoRA support Images: Krea 2, MOSS, Fibo 2.0, MiniMax H3 (including multi-reference edits) Music: YuE2 and MiniMax Music3, songs with lyrics or instrumentals Utilities: Transcription, stem/lyr&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xr7bl2/use_agents_claude_code_codex_antigravity_to_make/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xr7bbl/comfyui_tools_from_our_studio_corridorkey_20_as/</id><title>ComfyUI tools from our studio: CorridorKey 2.0 as nodes, Nuke and After Effects bridges, a media loader/viewer and a 3D camera-angle picker</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xr7bbl/comfyui_tools_from_our_studio_corridorkey_20_as/"/>
-<published>2026-11-08T19:49:39+00:00</published><updated>2026-11-08T19:49:39+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="video model"/>
-<category term="sam3"/>
-<category term="animation"/>
-<category term="vfx"/>
-<category term="render"/>
-<category term="comfyui"/>
-<category term="nuke"/>
-<category term="flux"/>
-<summary>Hi all, At KENT Post Production we use ComfyUI daily inside a VFX pipeline, so we built the pieces we were missing. Most of them are free and on GitHub, and feedback is very welcome. Director's Console : a workspace that drives ComfyUI. Prompt Engineer : pick an image or video model (FLUX, Qwen, See</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 15 · video model, sam3, animation, vfx, render, comfyui, nuke, flux&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi all, At KENT Post Production we use ComfyUI daily inside a VFX pipeline, so we built the pieces we were missing. Most of them are free and on GitHub, and feedback is very welcome. Director's Console : a workspace that drives ComfyUI. Prompt Engineer : pick an image or video model (FLUX, Qwen, Seedream, LTX, Wan, Kling…) and the prompt is written for that model. Camera, lens, movement, lighting and visual-grammar parameters, plus presets based on real films and a separate set for animation. Storyboard : each panel gets its own ComfyUI workflow and settings, and renders across one or many ComfyUI nodes with live GPU/VRAM stats. Gallery : grid, list or masonry view, and the viewer keeps each&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xr7bbl/comfyui_tools_from_our_studio_corridorkey_20_as/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
