@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-22T03:30:26+00:00</updated>
+<updated>2026-11-22T05:30:23+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
 <entry>
 <id>https://github.com/FlashML-org/FreeVideo</id><title>FlashML-org/FreeVideo</title>
@@ -4794,43 +4794,5 @@
 <category term="seedance"/>
 <summary>So I've been wanting to make something like a K-Drama Mini Series for a while, I ran out of money of doing it with Seedance 2.5 with lots of Trial and Errors, Video not generated as intended, I'm Kinda perfectionist, trying to make it as Good as possible with the most minimal "Slop" Vibe like camera</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax, seedance&lt;/small&gt;&lt;/p&gt;&lt;p&gt;So I've been wanting to make something like a K-Drama Mini Series for a while, I ran out of money of doing it with Seedance 2.5 with lots of Trial and Errors, Video not generated as intended, I'm Kinda perfectionist, trying to make it as Good as possible with the most minimal "Slop" Vibe like camera blocking changed suddenly, props position changed mid scene, hence where the money went out 🤣 but since I have my own PC maybe I'd try using it for a while, I actually generated few scenes for this Project with Seedance 2.5 but didn't complete the whole Project, so I'm planning to use Minimax H3 to Complete it, is there any Best Combination of Minimax H3 Model Currently, focusing on Realism, Micr&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xqs59t/h3_model_focusing_on_acting/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xqqhxh/minimax_h3_best_remix_tool_friendly_ultrafast/</id><title>Minimax H3 Best Remix Tool | Friendly Ultra-Fast Character Replacement | Create 1080p Ultra-Long Videos</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xqqhxh/minimax_h3_best_remix_tool_friendly_ultrafast/"/>
-<published>2026-11-08T05:11:07+00:00</published><updated>2026-11-08T05:11:07+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="minimax"/>
-<category term="lora"/>
-<summary>I built a MiniMax H3 character swap / motion transfer workflow in ComfyUI, plus an agent skill that writes the prompts and batch-runs the clips. Two things kept H3 character swaps from being practical for me: video references are slow, and on long clips the model loses the reference in the later par</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · comfyui, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I built a MiniMax H3 character swap / motion transfer workflow in ComfyUI, plus an agent skill that writes the prompts and batch-runs the clips. Two things kept H3 character swaps from being practical for me: video references are slow, and on long clips the model loses the reference in the later part. This setup handles both reasonably well, as long as you cut long videos sensibly. What's in the workflow Frame alignment. H3 needs a 17n+5 frame length, so the workflow pads the source clip with its last frame, then trims the padding (and any context guide frames) before saving. Output is 24 fps and exactly as long as the input clip. Context continuation. When one long shot is split into pieces&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xqqhxh/minimax_h3_best_remix_tool_friendly_ultrafast/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xqp2w5/driving_comfyui_from_an_orchestrator_for_a/</id><title>Driving ComfyUI from an orchestrator for a consistent game art pipeline, what should be deterministic?</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xqp2w5/driving_comfyui_from_an_orchestrator_for_a/"/>
-<published>2026-11-08T03:50:27+00:00</published><updated>2026-11-08T03:50:27+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<summary>I’m building the art pipeline for a small isometric RPG, so I want to do it properly. The plan is an orchestrating agent that calls ComfyUI over its API or MCP, with separate steps for the written brief, silhouette options, an orthographic model sheet, per-garment generation, and assembly, followed </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I’m building the art pipeline for a small isometric RPG, so I want to do it properly. The plan is an orchestrating agent that calls ComfyUI over its API or MCP, with separate steps for the written brief, silhouette options, an orthographic model sheet, per-garment generation, and assembly, followed by checks that can reject an image. For people who’ve automated ComfyUI like this, which steps do you keep as plain scripts and which as model calls? Do you check things like palette use, light direction and proportions with code, and does that catch the problems a vision model misses? How do you stop loops from running forever and burning GPU time? I’d also like to know about pixel art post-proce&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xqp2w5/driving_comfyui_from_an_orchestrator_for_a/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xqouh9/prompt_vault_desktop_v71_with_custom_comfyui_node/</id><title>Prompt Vault Desktop v7.1 with custom ComfyUI Node Metadata Import</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xqouh9/prompt_vault_desktop_v71_with_custom_comfyui_node/"/>
-<published>2026-11-08T03:37:22+00:00</published><updated>2026-11-08T03:37:22+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<summary>Prompt Vault Desktop keeps the text prompts you write for image generators, together with the picture each one produced, in one encrypted file on your own PC. Find a prompt months later instead of digging through old chats, folders and PNG metadata. What it does - Save prompts with a negative prompt</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Prompt Vault Desktop keeps the text prompts you write for image generators, together with the picture each one produced, in one encrypted file on your own PC. Find a prompt months later instead of digging through old chats, folders and PNG metadata. What it does - Save prompts with a negative prompt, reference image, seed, generation size and ratio, tags and notes - Image import from ComfyUI : add the free Prompt Vault Card nodes to your workflow, then drop the saved PNGs onto Prompt Vault. Each card fills itself in: prompt, negative, seed, size, ratio, model, LoRAs (only the ones actually in use), sampler settings, category, tags and credit - Generation settings and credit (prompt author, a&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xqouh9/prompt_vault_desktop_v71_with_custom_comfyui_node/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1xqospp/how_would_i_go_about_tracking_this_shot/</id><title>How would I go about tracking this shot?</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xqospp/how_would_i_go_about_tracking_this_shot/"/>
-<published>2026-11-08T03:34:44+00:00</published><updated>2026-11-08T03:34:44+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="tracking"/>
-<summary>I am working on a recreation of the Vertigo scene from the backrooms movie with a friend and we shot this on a stage at my school with a set prop me and my dad made. Issue is, when I try to track this footage, the graininess of the footage and the slight shakiness of the green board lead to the trac</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · tracking&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I am working on a recreation of the Vertigo scene from the backrooms movie with a friend and we shot this on a stage at my school with a set prop me and my dad made. Issue is, when I try to track this footage, the graininess of the footage and the slight shakiness of the green board lead to the track either failing or sliding and shaking. Any help? submitted by /u/blosiv [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xqospp/how_would_i_go_about_tracking_this_shot/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
