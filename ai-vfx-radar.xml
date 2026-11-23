@@ -2,8 +2,119 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-23T03:30:51+00:00</updated>
+<updated>2026-11-23T05:30:24+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://arxiv.org/abs/2611.26963</id><title>Causal Diffusion for Extreme Super-Resolution in Interactive Games</title>
+<link rel="alternate" href="https://arxiv.org/abs/2611.26963"/>
+<published>2026-11-23T05:00:00+00:00</published><updated>2026-11-23T05:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="video diffusion"/>
+<category term="super-resolution"/>
+<category term="upscaling"/>
+<category term="consistency"/>
+<summary>arXiv:2611.26963v1 Announce Type: new Abstract: Existing game super-resolution methods typically operate at moderate upscaling factors, struggling to recover fine visual details from extremely low-resolution inputs (e.g., 120p). At such resolutions, super-resolution shifts from reconstructing existi</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · video diffusion, super-resolution, upscaling, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2611.26963v1 Announce Type: new Abstract: Existing game super-resolution methods typically operate at moderate upscaling factors, struggling to recover fine visual details from extremely low-resolution inputs (e.g., 120p). At such resolutions, super-resolution shifts from reconstructing existing information toward synthesizing missing visual details. While video diffusion models offer powerful generative priors for this challenging task, their dependence on future frames limits their applicability to interactive games. We present CIDER, a causal diffusion framework for extreme game super-resolution that synthesizes high-frequency details from current and past low-resolution frames, gui&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2611.26963"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2611.27030</id><title>TSIR: Ray-Traced Triangle Splats for Inverse Rendering</title>
+<link rel="alternate" href="https://arxiv.org/abs/2611.27030"/>
+<published>2026-11-23T05:00:00+00:00</published><updated>2026-11-23T05:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="relighting"/>
+<category term="compositing"/>
+<category term="visual effects"/>
+<category term="rendering"/>
+<category term="multi-view"/>
+<summary>arXiv:2611.27030v1 Announce Type: new Abstract: Inverse rendering enables realistic relighting for visual effects and augmented reality. However, overlapping Gaussian primitives complicate surface recovery and require costly multi-layer traversal and compositing for light transport. We propose TSIR,</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 6 · relighting, compositing, visual effects, rendering, multi-view&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2611.27030v1 Announce Type: new Abstract: Inverse rendering enables realistic relighting for visual effects and augmented reality. However, overlapping Gaussian primitives complicate surface recovery and require costly multi-layer traversal and compositing for light transport. We propose TSIR, a two-stage inverse rendering method that reconstructs relightable triangle splats from multi-view images. The first stage prepares opaque triangle splats with learnable vertex shading normals. The second stage directly traces these surfaces to estimate materials through Monte Carlo integration of direct illumination and indirect reflections, reducing reliance on multi-layer compositing. Anti-ali&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2611.27030"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2611.27266</id><title>PP-CFG: Polarity-Preserving Guidance for Controllable Few-Step Image and Video Generation</title>
+<link rel="alternate" href="https://arxiv.org/abs/2611.27266"/>
+<published>2026-11-23T05:00:00+00:00</published><updated>2026-11-23T05:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="video generation"/>
+<category term="denoising"/>
+<category term="wan2"/>
+<category term="consistency"/>
+<summary>arXiv:2611.27266v1 Announce Type: new Abstract: Few-step diffusion distillation reduces sampling cost but often weakens adjustable classifier-free guidance (CFG) and runtime negative prompting. We introduce PP-CFG, an architecture that keeps positive and negative text conditions separate and combine</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · video generation, denoising, wan2, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2611.27266v1 Announce Type: new Abstract: Few-step diffusion distillation reduces sampling cost but often weakens adjustable classifier-free guidance (CFG) and runtime negative prompting. We introduce PP-CFG, an architecture that keeps positive and negative text conditions separate and combines their attention responses with opposite signs within a shared visual backbone. Its Scale-Time Polarity Mixer refines each condition using the guidance scale and denoising timestep, allowing prompt influence to vary throughout generation. The student retains a continuous scale input and selectable negative prompts with one visual backbone pass per step. We evaluate PP-CFG on Wan2.1 for video gene&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2611.27266"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2611.27336</id><title>Zing-1.0: A Playable World System Built on Controllable Rendering</title>
+<link rel="alternate" href="https://arxiv.org/abs/2611.27336"/>
+<published>2026-11-23T05:00:00+00:00</published><updated>2026-11-23T05:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="video model"/>
+<category term="denoising"/>
+<category term="rendering"/>
+<category term="dit"/>
+<summary>arXiv:2611.27336v1 Announce Type: new Abstract: We present Zing-1.0, a Playable World System built on Controllable Rendering. An executable engine resolves player actions under the world's rules and produces proxy video from the updated state. A streaming video model synthesizes the player's view fr</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · video model, denoising, rendering, dit&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2611.27336v1 Announce Type: new Abstract: We present Zing-1.0, a Playable World System built on Controllable Rendering. An executable engine resolves player actions under the world's rules and produces proxy video from the updated state. A streaming video model synthesizes the player's view from this proxy, and the runtime delivers it to inform subsequent actions. (1) Principle and system. We formulate Controllable Rendering and define the interfaces among world construction, world execution, observation synthesis, and the interaction runtime. To our knowledge, this is the first implementation-independent specification of a Playable World System. (2) AI-native engine. WorldKit provides&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2611.27336"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2611.27516</id><title>PhiJEPA: Denoising Latent Predictions for Visual Representation Learning</title>
+<link rel="alternate" href="https://arxiv.org/abs/2611.27516"/>
+<published>2026-11-23T05:00:00+00:00</published><updated>2026-11-23T05:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="world model"/>
+<category term="segmentation"/>
+<category term="inpainting"/>
+<category term="denoising"/>
+<summary>arXiv:2611.27516v1 Announce Type: new Abstract: Can a predictor trained to infer hidden image regions still help a world model plan when part of an object disappears from view and the visible context is blurred? We introduce PhiJEPA, a joint-embedding predictive architecture that adapts PhiNet's two</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · world model, segmentation, inpainting, denoising&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2611.27516v1 Announce Type: new Abstract: Can a predictor trained to infer hidden image regions still help a world model plan when part of an object disappears from view and the visible context is blurred? We introduce PhiJEPA, a joint-embedding predictive architecture that adapts PhiNet's two-stage prediction to masked Transformers. From sparse, photometrically corrupted context, a Transformer block predicts hidden tokens of an independently corrupted teacher view. A token-wise MLP then maps these predictions to clean teacher tokens. Controlled ablations show that the combined objective improves dense features over the tested one-stage alternatives. Pre-trained on ImageNet-1K with $5.&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2611.27516"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2611.27719</id><title>VeilGS: Solving Darkness as a Veil of 2D Basis Maps over Retinex 3DGS</title>
+<link rel="alternate" href="https://arxiv.org/abs/2611.27719"/>
+<published>2026-11-23T05:00:00+00:00</published><updated>2026-11-23T05:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="novel view synthesis"/>
+<category term="gaussian splatting"/>
+<category term="3d gaussian"/>
+<category term="3d reconstruction"/>
+<category term="rendering"/>
+<summary>arXiv:2611.27719v1 Announce Type: new Abstract: In a dark capture, the darkness is not uniform. How much light reaches a surface depends on where it lies relative to the few light sources, and the camera compresses what remains with a tone curve. Most low-light 3D reconstruction methods either apply</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · novel view synthesis, gaussian splatting, 3d gaussian, 3d reconstruction, rendering&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2611.27719v1 Announce Type: new Abstract: In a dark capture, the darkness is not uniform. How much light reaches a surface depends on where it lies relative to the few light sources, and the camera compresses what remains with a tone curve. Most low-light 3D reconstruction methods either apply one curve to every pixel of a view, so a dark object beside a lamp and a bright one in an unlit corner receive the same correction, or store the darkness in the 3D representation, where it can absorb scene detail. We present VeilGS, a 3D Gaussian Splatting method for low-light novel view synthesis that treats the degradation as a veil drawn over a clear scene. Each Gaussian carries an albedo and &lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2611.27719"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2605.15196</id><title>RefDecoder: Enhancing Visual Generation with Conditional Video Decoding</title>
+<link rel="alternate" href="https://arxiv.org/abs/2605.15196"/>
+<published>2026-11-23T05:00:00+00:00</published><updated>2026-11-23T05:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="video generation"/>
+<category term="video editing"/>
+<category term="denoising"/>
+<category term="wan"/>
+<category term="consistency"/>
+<summary>arXiv:2605.15196v2 Announce Type: replace Abstract: Video generation powers a vast array of downstream applications. However, while the de facto standard, i.e., latent diffusion models, typically employ heavily conditioned denoising networks, their decoders often remain unconditional. We observe tha</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · video generation, video editing, denoising, wan, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2605.15196v2 Announce Type: replace Abstract: Video generation powers a vast array of downstream applications. However, while the de facto standard, i.e., latent diffusion models, typically employ heavily conditioned denoising networks, their decoders often remain unconditional. We observe that this architectural asymmetry leads to significant loss of detail and inconsistency relative to the input image. To address this, we argue that the decoder requires equal conditioning to preserve structural integrity. We introduce RefDecoder, a reference-conditioned video VAE decoder by injecting high-fidelity reference image signal directly into the decoding process via reference attention. Spec&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2605.15196"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2609.31248</id><title>TailorGS: Made-to-Measure Density Control for 3D Gaussian Splatting</title>
+<link rel="alternate" href="https://arxiv.org/abs/2609.31248"/>
+<published>2026-11-23T05:00:00+00:00</published><updated>2026-11-23T05:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="gaussian splatting"/>
+<category term="3d gaussian"/>
+<category term="rendering"/>
+<summary>arXiv:2609.31248v2 Announce Type: replace Abstract: 3D Gaussian Splatting reconstructs a scene from a set of posed photographs called the capture; Gaussian count affects reconstruction quality, storage, and rendering cost. How to select this number automatically across capture scales remains unresol</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · gaussian splatting, 3d gaussian, rendering&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.31248v2 Announce Type: replace Abstract: 3D Gaussian Splatting reconstructs a scene from a set of posed photographs called the capture; Gaussian count affects reconstruction quality, storage, and rendering cost. How to select this number automatically across capture scales remains unresolved: density control techniques effective on standard benchmarks can leave larger captures with too few Gaussians to reconstruct fine details. We observe that the surface to represent, given by capture extent and resolution, is known before training, whereas the capacity needed to reconstruct its content depends strongly on the 3D optimization trajectory and becomes apparent during reconstruction.&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.31248"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2610.34845</id><title>PosePlaner: Denoising Any Feed-Forward Pose Predictor from Pairwise Planar Geometry</title>
+<link rel="alternate" href="https://arxiv.org/abs/2610.34845"/>
+<published>2026-11-23T05:00:00+00:00</published><updated>2026-11-23T05:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="3d reconstruction"/>
+<category term="pose estimation"/>
+<category term="denoising"/>
+<category term="multi-view"/>
+<category term="slam"/>
+<summary>arXiv:2610.34845v2 Announce Type: replace Abstract: Recent multi-view Transformers (e.g., DUSt3R and VGGT) have advanced 3D reconstruction by scaling training data and model capacity from two views to many views and long sequences, subsuming the classical SfM/SLAM pipeline of feature extraction, mat</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 6 · 3d reconstruction, pose estimation, denoising, multi-view, slam&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2610.34845v2 Announce Type: replace Abstract: Recent multi-view Transformers (e.g., DUSt3R and VGGT) have advanced 3D reconstruction by scaling training data and model capacity from two views to many views and long sequences, subsuming the classical SfM/SLAM pipeline of feature extraction, matching, and pose estimation in a single feed-forward pass. Yet this subsumption hides the interfaces between pipeline stages---correspondences, geometry, and pose are entangled in a single forward pass, leaving supervised fine-tuning as the major path to improvement and offering no mechanism to correct predictions from geometric evidence at test time. We propose PosePlaner to close this gap by revi&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2610.34845"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://github.com/FlashML-org/FreeVideo</id><title>FlashML-org/FreeVideo</title>
 <link rel="alternate" href="https://github.com/FlashML-org/FreeVideo"/>
@@ -4394,41 +4505,5 @@
 <category term="comfyui"/>
 <summary>Hello Everyone i tested New P-H3-Image ComfyUI workflow! This powerful model combines high-resolution image generation up to 8 megapixels with image editing up to 4 megapixels. I'm using the INT8 ConvRot version, optimized and tested on my RTX 3060 6GB VRAM + 16GB RAM and here are my verdict about t</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 5 · texture generation, image editing, rendering, comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hello Everyone i tested New P-H3-Image ComfyUI workflow! This powerful model combines high-resolution image generation up to 8 megapixels with image editing up to 4 megapixels. I'm using the INT8 ConvRot version, optimized and tested on my RTX 3060 6GB VRAM + 16GB RAM and here are my verdict about the model. Model Advantages &amp;amp; Strong Points: Excellent realistic human skin and natural texture generation. Very good human portraits and facial details. Impressive animal generation. Strong text rendering capabilities. Supports both image generation and image editing in one model. Excellent editing capabilities for style changing and camera angle changes. Can create character sheets and modify lig&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xrjtny/ph3image_in_comfyui_8mp_image_generation_4mp/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2611.09069</id><title>UniRGBA: Unifying RGB and Alpha in Pretrained Video Diffusion Models</title>
-<link rel="alternate" href="https://arxiv.org/abs/2611.09069"/>
-<published>2026-11-09T05:00:00+00:00</published><updated>2026-11-09T05:00:00+00:00</updated>
-<author><name>arXiv cs.CV</name></author>
-<category term="video diffusion"/>
-<category term="text-to-video"/>
-<category term="wan2"/>
-<category term="dit"/>
-<summary>arXiv:2611.09069v1 Announce Type: new Abstract: Recent advances in video diffusion models have achieved remarkable photorealistic RGB synthesis, yet generating videos with a native alpha channel remains an open challenge. Existing approaches often rely on matting-style data and non-native RGBA desig</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · video diffusion, text-to-video, wan2, dit&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2611.09069v1 Announce Type: new Abstract: Recent advances in video diffusion models have achieved remarkable photorealistic RGB synthesis, yet generating videos with a native alpha channel remains an open challenge. Existing approaches often rely on matting-style data and non-native RGBA designs, causing them to specialize in real-object scenes and to degrade severely on visual-effect content whose semi-transparency is spatially non-local and non-elliptical. We present UniRGBA, a unified framework whose key insight is that RGBA generation does not require a dedicated alpha encoder or complex latent-space restructuring---a minimal, targeted extension of the existing RGB pathway is suffi&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2611.09069"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2605.16981</id><title>Rethinking the State Update Gate for Long-Sequence Recurrent 3D Reconstruction</title>
-<link rel="alternate" href="https://arxiv.org/abs/2605.16981"/>
-<published>2026-11-09T05:00:00+00:00</published><updated>2026-11-09T05:00:00+00:00</updated>
-<author><name>arXiv cs.CV</name></author>
-<category term="3d reconstruction"/>
-<category term="camera pose"/>
-<category term="pose estimation"/>
-<category term="slam"/>
-<summary>arXiv:2605.16981v4 Announce Type: replace Abstract: Streaming 3D reconstruction under a strict constant-memory budget hinges on how the recurrent state is updated as the stream evolves. We profile TTT3R-style per-token gates across five benchmarks and discover a structural bottleneck: the gate is in</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · 3d reconstruction, camera pose, pose estimation, slam&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2605.16981v4 Announce Type: replace Abstract: Streaming 3D reconstruction under a strict constant-memory budget hinges on how the recurrent state is updated as the stream evolves. We profile TTT3R-style per-token gates across five benchmarks and discover a structural bottleneck: the gate is intrinsically bounded in magnitude (median $0.31$; never exceeding $0.6$) and nearly frame-invariant, yielding an effective memory horizon of only $\sim$3 frames per state token, which serves as the structural origin of long-sequence drift. We trace this to a missing axis: existing inference-time methods modulate updates only at the per-token, intra-frame level, while the orthogonal frame-level ques&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2605.16981"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://arxiv.org/abs/2609.24997</id><title>VideoGen-Agent: Reinforcing Video Generation Agents</title>
-<link rel="alternate" href="https://arxiv.org/abs/2609.24997"/>
-<published>2026-11-09T05:00:00+00:00</published><updated>2026-11-09T05:00:00+00:00</updated>
-<author><name>arXiv cs.CV</name></author>
-<category term="video generation"/>
-<category term="text-to-video"/>
-<category term="consistency"/>
-<category term="identity preservation"/>
-<summary>arXiv:2609.24997v4 Announce Type: replace Abstract: Recent advances in video generative models have enabled high-fidelity, temporally coherent video generation. However, these models often struggle to satisfy prompts requiring specialized knowledge, specific identities, physical consistency, or orde</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · video generation, text-to-video, consistency, identity preservation&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.24997v4 Announce Type: replace Abstract: Recent advances in video generative models have enabled high-fidelity, temporally coherent video generation. However, these models often struggle to satisfy prompts requiring specialized knowledge, specific identities, physical consistency, or ordered events. In this paper, we present VideoGen-Agent, a multimodal agent trained through multitask agentic reinforcement learning to use external tools for video generation. The agent coordinates augmentation, generation, and verification tools through multi-turn interactions, using the prompt and intermediate observations to guide its decisions. We train a shared policy on a category-balanced dat&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.24997"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
