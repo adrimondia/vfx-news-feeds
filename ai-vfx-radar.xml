@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-23T19:31:30+00:00</updated>
+<updated>2026-11-23T21:30:54+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
 <entry>
 <id>https://arxiv.org/abs/2611.26963</id><title>Causal Diffusion for Extreme Super-Resolution in Interactive Games</title>
@@ -4218,67 +4218,5 @@
 <category term="comfyui"/>
 <summary>Am I missing some settings for reference image? All I'm doing is connect reference image Generate Text and p-h3-image conditioning blocks as image 2. I'm referring to pictures as &lt;Picture 1&gt; and &lt;Picture 2&gt;. Note that 1 out of 10 tries it works but I don't know why. All I'm changing is one word in t</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Am I missing some settings for reference image? All I'm doing is connect reference image Generate Text and p-h3-image conditioning blocks as image 2. I'm referring to pictures as &amp;lt;Picture 1&amp;gt; and &amp;lt;Picture 2&amp;gt;. Note that 1 out of 10 tries it works but I don't know why. All I'm changing is one word in the prompt. It has more success when the main image is lower resolution like 1600x1000. submitted by /u/koroner55 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xs4py8/ph3image_workflow_in_comfyui_works_fine_for/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xs4d9u/a_very_special_workplace_h3_director_studio_v2/</id><title>A very special workplace... [H3 Director Studio V2] Motion Context Dual</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xs4d9u/a_very_special_workplace_h3_director_studio_v2/"/>
-<published>2026-11-09T21:29:49+00:00</published><updated>2026-11-09T21:29:49+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="rendering"/>
-<category term="comfyui"/>
-<category term="minimax"/>
-<summary>H3 Director Studio V2 is here H3 Director Studio V2 turns the MiniMax H3 workflow into a cleaner, more controllable segment-based pipeline. You can now generate a BASE pass, review it, and upscale that exact accepted result with Latent 3D — or switch to a direct BASE + Upscale run when you do not ne</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · rendering, comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;H3 Director Studio V2 is here H3 Director Studio V2 turns the MiniMax H3 workflow into a cleaner, more controllable segment-based pipeline. You can now generate a BASE pass, review it, and upscale that exact accepted result with Latent 3D — or switch to a direct BASE + Upscale run when you do not need to stop. Chain handles multi-segment videos with Motion Context continuity for both motion and audio. Main additions BASE review → keep the chosen BASE → Latent 3D Upscale Direct BASE + Upscale mode Chain workflow with automatic continuity between clips Clear separation between manual clip work and automated sequence rendering Active clip selector: Chain starts on the selected clip if it has no&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xs4d9u/a_very_special_workplace_h3_director_studio_v2/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xs41gi/h3_context_windows_ghost_on_long_videos_because/</id><title>H3 Context Windows ghost on long videos because the overlaps are averaged. Chaining the windows instead fixes it (H3MD 0.4, tested on a 2:20 music video)</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xs41gi/h3_context_windows_ghost_on_long_videos_because/"/>
-<published>2026-11-09T21:16:56+00:00</published><updated>2026-11-09T21:16:56+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="rendering"/>
-<category term="comfyui"/>
-<category term="minimax"/>
-<summary>Left: ComfyUI core Context Windows (overlaps averaged). Right: chained windows (CCW). Same plan, prompts, pictures and seed. Shot 1 of a 2:20 music video, 1920×1088, ghosting replayed at half speed. What goes wrong - ComfyUI 0.44 added context windows for MiniMax H3: the timeline is denoised as over</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · rendering, comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Left: ComfyUI core Context Windows (overlaps averaged). Right: chained windows (CCW). Same plan, prompts, pictures and seed. Shot 1 of a 2:20 music video, 1920×1088, ghosting replayed at half speed. What goes wrong - ComfyUI 0.44 added context windows for MiniMax H3: the timeline is denoised as overlapping windows, and each overlap is the average of the two windows. - That's fine while both windows draw the same thing. When the picture changes a lot inside an overlap (fast motion, a camera move, new background coming in), the two windows draw different pictures and the average shows both. In our test: a see-through railing across his hands, two lamp posts, a boardwalk dissolving into a diffe&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xs41gi/h3_context_windows_ghost_on_long_videos_because/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xs3biq/a_new_8steps_dmd2_lora_for_moss/</id><title>A new 8-steps DMD2 Lora for MOSS</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xs3biq/a_new_8steps_dmd2_lora_for_moss/"/>
-<published>2026-11-09T20:49:33+00:00</published><updated>2026-11-09T20:49:33+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="flux"/>
-<category term="lora"/>
-<summary>An 8-step LoRA (rank 128) for MOSS-Image-Base , distilled by distribution matching: 8 forwards at CFG 1, without a negative prompt, in place of the base model's 50 guided steps. It adapts only the transformer; the text encoder (Qwen3.5-9B), VAE (FLUX.2 small decoder), tokenizer and inference pipelin</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · flux, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;An 8-step LoRA (rank 128) for MOSS-Image-Base , distilled by distribution matching: 8 forwards at CFG 1, without a negative prompt, in place of the base model's 50 guided steps. It adapts only the transformer; the text encoder (Qwen3.5-9B), VAE (FLUX.2 small decoder), tokenizer and inference pipeline are MOSS-Image-Base's, unchanged. How it was trained is in TECH_REPORT.md . It was trained on MOSS-Image-Base, but should work with most fine-tunes of it and with other LoRAs: load it alongside them, at strength 1. More info here: https://huggingface.co/data-archetype/moss_image_base_dmd2 PS: Lora isn't mine, but it's definitely worth paying attention to because, even though (in my opinion) it's&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xs3biq/a_new_8steps_dmd2_lora_for_moss/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xs3b13/a_quick_mossimage_news_roundup_9th_november_2026/</id><title>A quick MOSS-Image news round-up - 9th November 2026</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xs3b13/a_quick_mossimage_news_roundup_9th_november_2026/"/>
-<published>2026-11-09T20:49:01+00:00</published><updated>2026-11-09T20:49:01+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="lora"/>
-<summary>Another quick MOSS-Image news and goodies round-up, for those who may have missed some items. -&gt; A new 'Juggernaut' as a MOSS v1 finetune. Despite the big name, the INT8 version of the file is still a modest 5.4Gb. https://huggingface.co/Kandoo/Juggernaut-Moss/tree/main/diffusion_models -&gt; A Natural</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Another quick MOSS-Image news and goodies round-up, for those who may have missed some items. -&amp;gt; A new 'Juggernaut' as a MOSS v1 finetune. Despite the big name, the INT8 version of the file is still a modest 5.4Gb. https://huggingface.co/Kandoo/Juggernaut-Moss/tree/main/diffusion_models -&amp;gt; A Natural Hands LoRA for MOSS-Image, with the trigger of h4nds and a suitable prompt. https://civitai.com/models/3043418/natural-hands-or-moss-or-by-seedraai -&amp;gt; MOSS Image Lip Biting LoRA (v2), aiding a "natural lip-biting" expression in your characters. The trigger is lipb1te and a suitable prompt. https://huggingface.co/abide1622/moss-lora-lipbiting-v2 -&amp;gt; A LoRA to help you emulate the darker claymation &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xs3b13/a_quick_mossimage_news_roundup_9th_november_2026/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1xs35x0/looking_for_freelance_compositor_for_a_short_film/</id><title>looking for freelance compositor for a short film, solid budget, rotoscoping heavy-ish!</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xs35x0/looking_for_freelance_compositor_for_a_short_film/"/>
-<published>2026-11-09T20:43:36+00:00</published><updated>2026-11-09T20:43:36+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="rotoscoping"/>
-<summary>hi! looking for a freelance compositor with strong rotoscoping skills who can execute a 2d glowing effect on roughly 20 shots in an upcoming short film. submitted by /u/glow_girl_vfx [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · rotoscoping&lt;/small&gt;&lt;/p&gt;&lt;p&gt;hi! looking for a freelance compositor with strong rotoscoping skills who can execute a 2d glowing effect on roughly 20 shots in an upcoming short film. submitted by /u/glow_girl_vfx [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xs35x0/looking_for_freelance_compositor_for_a_short_film/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xs24qp/local_comfyui_workflow_for_turning_character_art/</id><title>Local ComfyUI workflow for turning character art into a reusable animated character?</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xs24qp/local_comfyui_workflow_for_turning_character_art/"/>
-<published>2026-11-09T20:04:07+00:00</published><updated>2026-11-09T20:04:07+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="animation"/>
-<category term="rigging"/>
-<category term="comfyui"/>
-<summary>I am making a 2D action game without an artist or animator. I generate character artwork with AI and want to turn a chosen design into an editable character I can keep posing and animating. Is there a ComfyUI workflow that provides a useful starting point for this, whether through separated 2D parts</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · animation, rigging, comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I am making a 2D action game without an artist or animator. I generate character artwork with AI and want to turn a chosen design into an editable character I can keep posing and animating. Is there a ComfyUI workflow that provides a useful starting point for this, whether through separated 2D parts, image-to-3D or a hybrid? The character needs running, crouching, jumping and shooting, with consistent faces, clothing and hand grips. The final output would be detailed pixel sprites around 124 pixels tall when standing. Which models and nodes would you recommend, and what drawing, modelling, rigging or animation work remains afterward? I rely heavily on AI assistance and scripting, so I need t&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xs24qp/local_comfyui_workflow_for_turning_character_art/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
