@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-23T21:30:54+00:00</updated>
+<updated>2026-11-23T23:31:18+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
 <entry>
 <id>https://arxiv.org/abs/2611.26963</id><title>Causal Diffusion for Extreme Super-Resolution in Interactive Games</title>
@@ -4132,91 +4132,5 @@
 <category term="minimax"/>
 <summary>Greetings, I wanted to see how far I could take a project using Minimax H3. I created a complete Friends episode using Ref2VA, almost all with RefMods, and then did editing in Davinci Resolve. I wrote an outline for what I wanted to happen in the episode. This was a really fun project. Here is part </summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Greetings, I wanted to see how far I could take a project using Minimax H3. I created a complete Friends episode using Ref2VA, almost all with RefMods, and then did editing in Davinci Resolve. I wrote an outline for what I wanted to happen in the episode. This was a really fun project. Here is part 1. submitted by /u/Thorozar [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xs7f3x/full_friends_episode_minimax_h3/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xs6sbg/creativefield_image_video_and_3d_workflows_in_one/</id><title>CreativeField: Image, video and 3D workflows in one ComfyUI interface, with a built-in photo editor</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xs6sbg/creativefield_image_video_and_3d_workflows_in_one/"/>
-<published>2026-11-09T23:05:37+00:00</published><updated>2026-11-09T23:05:37+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="video generation"/>
-<category term="video editing"/>
-<category term="image editing"/>
-<category term="comfyui"/>
-<category term="flux"/>
-<category term="minimax"/>
-<summary>We've been building CreativeField, a free, open-source interface for ComfyUI that brings image generation, video, 3D and photo editing into one workspace. The idea came from using ComfyUI ourselves. It's incredibly powerful, but for most creative tasks we kept coming back to a few basic actions: cre</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 7 · video generation, video editing, image editing, comfyui, flux, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;We've been building CreativeField, a free, open-source interface for ComfyUI that brings image generation, video, 3D and photo editing into one workspace. The idea came from using ComfyUI ourselves. It's incredibly powerful, but for most creative tasks we kept coming back to a few basic actions: create an image, modify it, turn it into a video, or use it as a reference for something else. So we started building a simpler interface around those workflows, without removing access to ComfyUI itself. What it does Image and video generation: Create images with FLUX or Qwen, generate videos with MiniMax H3 or HyperFlow, use start and end frames, and edit existing results. FotoField: We built a fre&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xs6sbg/creativefield_image_video_and_3d_workflows_in_one/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xs68tq/beyond_345_frames_in_viggle_remake_a_long_video/</id><title>Beyond 345 Frames in Viggle Remake: A Long Video Node for ComfyUI</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xs68tq/beyond_345_frames_in_viggle_remake_a_long_video/"/>
-<published>2026-11-09T22:44:15+00:00</published><updated>2026-11-09T22:44:15+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="render"/>
-<category term="comfyui"/>
-<summary>Viggle Remake works well for short shots, but the usual ComfyUI workflow runs into a practical limit: up to 345 frames per render. At 24 fps, that is a little over 14 seconds. To work with longer videos, I adapted the workflow to render overlapping windows and join them into a single output. The res</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · render, comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Viggle Remake works well for short shots, but the usual ComfyUI workflow runs into a practical limit: up to 345 frames per render. At 24 fps, that is a little over 14 seconds. To work with longer videos, I adapted the workflow to render overlapping windows and join them into a single output. The result is a custom long video node for ComfyUI. I tried the workflow with several clips converted to 24 fps. The completed renders looked good in visual review, but continuity still needs to be checked at every join. I did not measure quality with automated metrics; the evaluation was visual. How the windows connect The node takes the full video and divides it into windows that stay within the model’&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xs68tq/beyond_345_frames_in_viggle_remake_a_long_video/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1xs64er/how_can_i_better_translate_2d_fighting_game/</id><title>How can I better translate 2D fighting game effects into live action?</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xs64er/how_can_i_better_translate_2d_fighting_game/"/>
-<published>2026-11-09T22:39:24+00:00</published><updated>2026-11-09T22:39:24+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="compositing"/>
-<summary>Hey everyone! I’m recreating Setsuna’s sword attacks from The Last Blade 2 using my own sword choreography and hand-drawn effects in After Effects. I want to preserve the original effect’s shapes and timing while making it feel integrated into the live-action footage. How would you approach this? I’</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 1 · compositing&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey everyone! I’m recreating Setsuna’s sword attacks from The Last Blade 2 using my own sword choreography and hand-drawn effects in After Effects. I want to preserve the original effect’s shapes and timing while making it feel integrated into the live-action footage. How would you approach this? I’d especially appreciate feedback on timing, shapes, lighting and compositing. What would you improve first? Still learning, so any specific tips would help. Thanks! submitted by /u/Mmawarrior1 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xs64er/how_can_i_better_translate_2d_fighting_game/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1xs5s2g/i_made_an_audio_visualizer/</id><title>I made an audio visualizer</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xs5s2g/i_made_an_audio_visualizer/"/>
-<published>2026-11-09T22:25:14+00:00</published><updated>2026-11-09T22:25:14+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="vfx"/>
-<category term="color grading"/>
-<summary>So, I coded an audio visualizer which is VFX-based, and you can use it in your browser without logging in. I have added some cool VFX to it, like Beat Camera, which shakes and zooms the camera on every kick, and RGB split, glitch, VHS/grain, kaleidoscope effects, strobe flash, bloom-like glow, color</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · vfx, color grading&lt;/small&gt;&lt;/p&gt;&lt;p&gt;So, I coded an audio visualizer which is VFX-based, and you can use it in your browser without logging in. I have added some cool VFX to it, like Beat Camera, which shakes and zooms the camera on every kick, and RGB split, glitch, VHS/grain, kaleidoscope effects, strobe flash, bloom-like glow, color grading, audio-reactive dust particle effects. It's on https://shimga.app , so I showed it to my colleagues, and they liked it and suggested I create a website. So, I bought a domain name about 7 months ago, and people started coming to the site. Yeah, I used some AI stuff to develop faster, but it created a mess and went wrong, and my cloud bill came to double-digit dollars (I'm from India, so i&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xs5s2g/i_made_an_audio_visualizer/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1xs5qw7/iatse_vfxgames_community_forum_1115_3pm_pt6pm_et/</id><title>IATSE VFX/Games Community Forum 11/15 @ 3pm PT/6pm ET</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xs5qw7/iatse_vfxgames_community_forum_1115_3pm_pt6pm_et/"/>
-<published>2026-11-09T22:24:00+00:00</published><updated>2026-11-09T22:24:00+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="vfx"/>
-<category term="visual effects"/>
-<category term="post-production"/>
-<summary>IATSE continues to organize VFX and Games crews, secure strong contracts, and bring our community together to expand our collective voice on the job and in the halls of power. Hear the latest updates and learn how you can get involved in organizing at your workplace! The 1-hour event will feature gu</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 4 · vfx, visual effects, post-production&lt;/small&gt;&lt;/p&gt;&lt;p&gt;IATSE continues to organize VFX and Games crews, secure strong contracts, and bring our community together to expand our collective voice on the job and in the halls of power. Hear the latest updates and learn how you can get involved in organizing at your workplace! The 1-hour event will feature guest speakers, including IATSE leadership, member leaders who organized and negotiated strong first contracts, and legislative advocates leading the call to pass the Motion Picture, Television, and Entertainment Revitalization Act. This critical legislation includes a key provision to “provide a 20% base credit for qualifying traditional post-production and visual effects work when at least 75% of &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xs5qw7/iatse_vfxgames_community_forum_1115_3pm_pt6pm_et/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xs5io9/papers_ltxvideo_realtime_video_latent_diffusion/</id><title>[Papers] LTX-Video: Realtime Video Latent Diffusion - research promises to deliver even faster video generation and real-time capabilities.</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xs5io9/papers_ltxvideo_realtime_video_latent_diffusion/"/>
-<published>2026-11-09T22:14:54+00:00</published><updated>2026-11-09T22:14:54+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="video generation"/>
-<category term="text-to-video"/>
-<category term="image-to-video"/>
-<category term="denoising"/>
-<category term="ltx"/>
-<category term="consistency"/>
-<summary>I particularly love that they remain focused on open source and on doing more with less. All the best of luck to these guys. "We introduce LTX-Video , a transformer-based latent diffusion model that adopts a holistic approach to video generation by seamlessly integrating the responsibilities of the </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 7 · video generation, text-to-video, image-to-video, denoising, ltx, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I particularly love that they remain focused on open source and on doing more with less. All the best of luck to these guys. "We introduce LTX-Video , a transformer-based latent diffusion model that adopts a holistic approach to video generation by seamlessly integrating the responsibilities of the Video-VAE and the denoising transformer. Unlike existing methods, which treat these components as independent, LTX-Video aims to optimize their interaction for improved efficiency and quality. At its core is a carefully designed Video-VAE that achieves a high compression ratio of 1:192, with spatiotemporal downscaling of32×32×8pixels per token, enabled by relocating the patchifying operation from &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xs5io9/papers_ltxvideo_realtime_video_latent_diffusion/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1xs4xsv/is_there_any_good_course_free_or_paid_on_building/</id><title>Is there any good course (free or paid) on building 2D VFX for games with after effects?</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xs4xsv/is_there_any_good_course_free_or_paid_on_building/"/>
-<published>2026-11-09T21:52:04+00:00</published><updated>2026-11-09T21:52:04+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="vfx"/>
-<summary>Hi! I've been working as a game programmer for several years, but I'd love to get into VFX so I can start creating my own 2D effects. Could anyone recommend any good courses on the subject? YouTube tutorials or video series would be great too. I don't mind whether they're free or paid. Thanks in adv</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi! I've been working as a game programmer for several years, but I'd love to get into VFX so I can start creating my own 2D effects. Could anyone recommend any good courses on the subject? YouTube tutorials or video series would be great too. I don't mind whether they're free or paid. Thanks in advance! submitted by /u/wacomlover [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xs4xsv/is_there_any_good_course_free_or_paid_on_building/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xs4py8/ph3image_workflow_in_comfyui_works_fine_for/</id><title>P-H3-Image workflow in ComfyUI works fine for editing image without reference but when I add second image for reference "Add/replace this character..." it just generates the first image unchanged</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xs4py8/ph3image_workflow_in_comfyui_works_fine_for/"/>
-<published>2026-11-09T21:43:38+00:00</published><updated>2026-11-09T21:43:38+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<summary>Am I missing some settings for reference image? All I'm doing is connect reference image Generate Text and p-h3-image conditioning blocks as image 2. I'm referring to pictures as &lt;Picture 1&gt; and &lt;Picture 2&gt;. Note that 1 out of 10 tries it works but I don't know why. All I'm changing is one word in t</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Am I missing some settings for reference image? All I'm doing is connect reference image Generate Text and p-h3-image conditioning blocks as image 2. I'm referring to pictures as &amp;lt;Picture 1&amp;gt; and &amp;lt;Picture 2&amp;gt;. Note that 1 out of 10 tries it works but I don't know why. All I'm changing is one word in the prompt. It has more success when the main image is lower resolution like 1600x1000. submitted by /u/koroner55 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xs4py8/ph3image_workflow_in_comfyui_works_fine_for/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
