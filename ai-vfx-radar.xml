@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-24T07:30:37+00:00</updated>
+<updated>2026-11-24T08:00:32+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
 <entry>
 <id>https://arxiv.org/abs/2611.26963</id><title>Causal Diffusion for Extreme Super-Resolution in Interactive Games</title>
@@ -3818,25 +3818,5 @@
 <category term="cinematic"/>
 <summary>I built a custom node pack that puts a full-screen timeline editor inside ComfyUI for MiniMax H3. Instead of building a graph per clip, you write each shot as text (what happens, camera, sound), render it, and cut the shots together with their sound on a timeline. Repo: https://github.com/igorls/com</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 7 · render, comfyui, minimax, lora, cinematic&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I built a custom node pack that puts a full-screen timeline editor inside ComfyUI for MiniMax H3. Instead of building a graph per clip, you write each shot as text (what happens, camera, sound), render it, and cut the shots together with their sound on a timeline. Repo: https://github.com/igorls/comfyui-h3-editor Docs: https://igorls.github.io/comfyui-h3-editor Model: HyperFlow H3 Flash INT8 https://huggingface.co/VideoRebirthAI/hyperflow-h3-flash Realism LoRA for HyperFlow: https://civitai.com/models/3041489/mmh3-realism-slider-hyperflow-h3-flash-port What it does Write shots, not graphs. Each clip is a few text fields. One project style is applied to every shot. Keep people and places the &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xsj747/h3_editor_a_timeline_video_editor_for_minimax_h3/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xsh4xq/mossimagesft_control_loras_pose_depth_canny_and/</id><title>MOSS-Image-SFT control LoRAs — pose, depth, canny and the rest</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xsh4xq/mossimagesft_control_loras_pose_depth_canny_and/"/>
-<published>2026-11-10T07:55:14+00:00</published><updated>2026-11-10T07:55:14+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="segmentation"/>
-<category term="comfyui"/>
-<summary>A set of control LoRAs for MOSS-Image-SFT. You give it a pose, a depth map, or an edge drawing, and the prompt decides who is in the picture and what the world looks like. Each repo has the weight and a ComfyUI workflow. Pose: https://huggingface.co/thedeoxen/MOSS-Image-pose-controlnet Depth: https:</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · segmentation, comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;A set of control LoRAs for MOSS-Image-SFT. You give it a pose, a depth map, or an edge drawing, and the prompt decides who is in the picture and what the world looks like. Each repo has the weight and a ComfyUI workflow. Pose: https://huggingface.co/thedeoxen/MOSS-Image-pose-controlnet Depth: https://huggingface.co/thedeoxen/MOSS-Image-depth-controlnet Canny: https://huggingface.co/thedeoxen/MOSS-Image-canny-controlnet Lineart: https://huggingface.co/thedeoxen/MOSS-Image-lineart-controlnet Normal: https://huggingface.co/thedeoxen/MOSS-Image-normal-controlnet Scribble: https://huggingface.co/thedeoxen/MOSS-Image-scribble-controlnet Segmentation: huggingface.co/thedeoxen/MOSS-Image-segmentatio&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xsh4xq/mossimagesft_control_loras_pose_depth_canny_and/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xsgva6/comfyui_quant_benchmark_10_gpus_15_models_and_467/</id><title>ComfyUI Quant Benchmark: 10 GPUs, 15 models, and 467 runs comparing int8 ConvRot, nvfp4, w4a8, and fp8 against bf16. Real numbers on what fits, what drifts, and why turbo LoRAs break on quants.</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xsgva6/comfyui_quant_benchmark_10_gpus_15_models_and_467/"/>
-<published>2026-11-10T07:37:39+00:00</published><updated>2026-11-10T07:37:39+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<category term="lora"/>
-<summary>I wanted real numbers for "which quant should I use on my card," so I measured it. Five storage formats (fp8 cast, fp8 scaled, int8 ConvRot, w4a8, nvfp4) against the bf16 original, on base and turbo versions of Anima, Z-Image, MOSS-Image, Krea 2 and SDXL/Illustrious. Quality was graded on an RTX PRO</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I wanted real numbers for "which quant should I use on my card," so I measured it. Five storage formats (fp8 cast, fp8 scaled, int8 ConvRot, w4a8, nvfp4) against the bf16 original, on base and turbo versions of Anima, Z-Image, MOSS-Image, Krea 2 and SDXL/Illustrious. Quality was graded on an RTX PRO 6000 and a 3090; speed and fit were timed on ten cards: PRO 6000, 5090, 5080, two 5070 Ti, 5060 Ti, 3090, 3080 Ti, 3080, 3060 Ti. Everything is stock ComfyUI with its default memory handling, same seed, same prompts. **Report, with a "will my card run it?" box (pick your card + model):** https://ai-evolution.dev/quant-bench/ (Also as a PDF with every option laid out, if you'd rather scroll.) What&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xsgva6/comfyui_quant_benchmark_10_gpus_15_models_and_467/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
