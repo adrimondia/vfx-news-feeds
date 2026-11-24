@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-24T21:31:23+00:00</updated>
+<updated>2026-11-24T23:31:25+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
 <entry>
 <id>https://github.com/zhouxiaoka/autoclip</id><title>zhouxiaoka/autoclip</title>
@@ -3557,24 +3557,5 @@
 <category term="stable diffusion"/>
 <summary>Hi all, This is a follow-up to the same question I posted on the Stable Diffusion subreddit. After several people confirmed my observations, I decided to bring the discussion here to ask whether it's possible to achieve the same speed on Windows. Below is the original message: I have been using Qwen</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui, stable diffusion&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi all, This is a follow-up to the same question I posted on the Stable Diffusion subreddit. After several people confirmed my observations, I decided to bring the discussion here to ask whether it's possible to achieve the same speed on Windows. Below is the original message: I have been using Qwen Image 2.1 on linux but had to move to windows because of some programs that I had to use. I installed windows 11 in another SDD and Installed comfy UI too. After checking Qwen Image 2.1 in comfy ui I noticed it was slower, not just a little but around a 30-40%. I can't return to linux to test it because my brother took the ssd. I was using the standard Qwen Image edit in comfyui with a Nvidia 408&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xt2m3p/is_qwen_image_21_faster_on_linux_than_on_windows/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xt20ue/is_ksampler_failing_for_anyone_else_after_the/</id><title>Is KSampler failing for anyone else after the last update?</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xt20ue/is_ksampler_failing_for_anyone_else_after_the/"/>
-<published>2026-11-10T23:24:19+00:00</published><updated>2026-11-10T23:24:19+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="minimax"/>
-<summary>I tried the image_minimax_h3_image_t2i template. Error log follows: Node threw an error during execution. ComfyUI Error Report Error Details Node ID: 23:7 Node Type: KSampler Exception Type: AttributeError Exception Message: AttributeError: 'list' object has no attribute 'device' Stack Trace ``` Fil</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I tried the image_minimax_h3_image_t2i template. Error log follows: Node threw an error during execution. ComfyUI Error Report Error Details Node ID: 23:7 Node Type: KSampler Exception Type: AttributeError Exception Message: AttributeError: 'list' object has no attribute 'device' Stack Trace ``` File "C:\Users\i\AppData\Local\Comfy-Desktop\ComfyUI-Installs\ComfyUI\ComfyUI\execution.py", line 556, in execute output_data, output_ui, has_subgraph, has_pending_tasks = await get_output_data(prompt_id, unique_id, obj, input_data_all, execution_block_cb=execution_block_cb, pre_execute_cb=pre_execute_cb, v3_data=v3_data) Obviously, there's more, but I can't put all that text in this window. I'm usin&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xt20ue/is_ksampler_failing_for_anyone_else_after_the/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xszz5f/300_random_prompts_across_styles_on_minimax_h3/</id><title>300 random prompts across styles on MiniMax H3</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xszz5f/300_random_prompts_across_styles_on_minimax_h3/"/>
-<published>2026-11-10T21:57:26+00:00</published><updated>2026-11-10T21:57:26+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="minimax"/>
-<summary>Base workflow, no custom nodes, no cherry picking, ran on my 5080, about 23s per image. submitted by /u/JoNike [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Base workflow, no custom nodes, no cherry picking, ran on my 5080, about 23s per image. submitted by /u/JoNike [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xszz5f/300_random_prompts_across_styles_on_minimax_h3/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
