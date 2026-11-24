@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-24T19:31:25+00:00</updated>
+<updated>2026-11-24T21:31:23+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
 <entry>
 <id>https://github.com/zhouxiaoka/autoclip</id><title>zhouxiaoka/autoclip</title>
@@ -3576,65 +3576,5 @@
 <category term="minimax"/>
 <summary>Base workflow, no custom nodes, no cherry picking, ran on my 5080, about 23s per image. submitted by /u/JoNike [link] [comments]</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Base workflow, no custom nodes, no cherry picking, ran on my 5080, about 23s per image. submitted by /u/JoNike [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xszz5f/300_random_prompts_across_styles_on_minimax_h3/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xsz700/mmh3_samples_quick_takeaways/</id><title>MMH3 Samples &amp; Quick Takeaways</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xsz700/mmh3_samples_quick_takeaways/"/>
-<published>2026-11-10T21:25:47+00:00</published><updated>2026-11-10T21:25:47+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="upscaling"/>
-<category term="flux"/>
-<category term="identity preservation"/>
-<summary>MMH3-Image . All tests done with the default workflow and settings. Overall takeaways: You must use a minimum resolution of 4048 for decent results. It doesn't have a moat against other image models (doesn't solve any unsolved problems). It does ok at text, but it's not great. Pros: It's impressivel</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · upscaling, flux, identity preservation&lt;/small&gt;&lt;/p&gt;&lt;p&gt;MMH3-Image . All tests done with the default workflow and settings. Overall takeaways: You must use a minimum resolution of 4048 for decent results. It doesn't have a moat against other image models (doesn't solve any unsolved problems). It does ok at text, but it's not great. Pros: It's impressively fast for how large the generations are. Seems to handle realism well. Softcore works. Cons: No more coherent than Krea2 or MOSS (objects that terminate mysteriously, illogical physical layout). Body horror / anatomy fuckups are fairly common, especially with distorted faces. Hardcore is not supported (unable to depict non-horrifying genitalia). Innate knowledge of copyrighted characters is worse&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xsz700/mmh3_samples_quick_takeaways/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xsyifz/minimax_h3_image_t2i_tests_and_some_findings/</id><title>Minimax H3 Image T2I Tests and some findings</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xsyifz/minimax_h3_image_t2i_tests_and_some_findings/"/>
-<published>2026-11-10T20:59:20+00:00</published><updated>2026-11-10T20:59:20+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<category term="minimax"/>
-<summary>I've tested Minimax H3 Image with the ComfyUI standard workflow on some random prompts I've had saved -most of these are from other generated images so I don't claim ownership over any- with only change of adding ModelSamplingSD3 before KSampler at shift 3. I'm not sure whether it changes anything a</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I've tested Minimax H3 Image with the ComfyUI standard workflow on some random prompts I've had saved -most of these are from other generated images so I don't claim ownership over any- with only change of adding ModelSamplingSD3 before KSampler at shift 3. I'm not sure whether it changes anything at all, I don't suppose it changes too much but someone had suggested and I've added it. Other than that, this is plain H3 Image Pruned W4A8 with qwen3vl_32b_minimax_h3-int4_convrot.safetensors with default vae and PE off. I ran each at 16MP at 6 steps, euler-simple, then downscaled the images to 5mp to upload them. I think there are two issues compounding for most people. 1- This model works great&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xsyifz/minimax_h3_image_t2i_tests_and_some_findings/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xsxxap/can_comfyui_handle_these_3_video_workflows/</id><title>Can ComfyUI Handle These 3 Video Workflows?</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xsxxap/can_comfyui_handle_these_3_video_workflows/"/>
-<published>2026-11-10T20:35:58+00:00</published><updated>2026-11-10T20:35:58+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<summary>Can I create some or all of these examples using ComfyUI? The first one is a regular chroma key setup, where I’d like to be able to write a prompt and have it place the subject from a reference video into different backgrounds. The second one is this technique where you record with just one camera f</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Can I create some or all of these examples using ComfyUI? The first one is a regular chroma key setup, where I’d like to be able to write a prompt and have it place the subject from a reference video into different backgrounds. The second one is this technique where you record with just one camera facing the subject, and then simulate multiple cameras and different camera movements. The third one is similar to the first, but a bit more complex. What do you guys think? Which of these are actually possible, and what workflows should I use for each one? submitted by /u/Arkafan [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xsxxap/can_comfyui_handle_these_3_video_workflows/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xsxsd7/minimax_image_t2i_and_edit/</id><title>MiniMax image T2I and edit</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xsxsd7/minimax_image_t2i_and_edit/"/>
-<published>2026-11-10T20:30:29+00:00</published><updated>2026-11-10T20:30:29+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<category term="minimax"/>
-<summary>All individual images were created with the official MiniMax ComfyUI workflows without PE. Image 1 is a composition out of image 2-5 T2I, the dog and the jacket looked OK from the beginning, even at lower resolutions. The person in the images always had some weird artifacts, the face was extremely b</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;All individual images were created with the official MiniMax ComfyUI workflows without PE. Image 1 is a composition out of image 2-5 T2I, the dog and the jacket looked OK from the beginning, even at lower resolutions. The person in the images always had some weird artifacts, the face was extremely bad most of the time. I tried different sizes: 4MP was pretty much unusable, and the recommended 16MP looked even worse. 8MP or 12MP was acceptable, but still far from great. I have no idea whether it's the official workflow, the model, or the prompt (although I varied the prompts too). The park image caused problems as well. Everything in the background (the trees, leaves further back, etc.) looke&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xsxsd7/minimax_image_t2i_and_edit/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xsx77h/comfyui_desktop_windowss_11_and_unbuntu_26011/</id><title>ComfyUI Desktop - Windowss 11 and Unbuntu 26.01.1</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xsx77h/comfyui_desktop_windowss_11_and_unbuntu_26011/"/>
-<published>2026-11-10T20:07:34+00:00</published><updated>2026-11-10T20:07:34+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<summary>Hello, been running ComfyUI desktop on my Windows 11 machine with good success and thought I would try Linux as everything I had read it should have a faster generation. My system is Ryzen 7600X, 32GB RAM and RX7800XT (16GB). Have it all installed on Unbuntu via the AppImage and running this with th</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hello, been running ComfyUI desktop on my Windows 11 machine with good success and thought I would try Linux as everything I had read it should have a faster generation. My system is Ryzen 7600X, 32GB RAM and RX7800XT (16GB). Have it all installed on Unbuntu via the AppImage and running this with the --no-sandbox. So far I have had to put an argument --disable-smart-memory which is the same Arg I used for Windows as it was just crashing with LTX2.5. With the stock Flux2_klein_base-4b model it would generate the first image then subsequent images would be black screens, now I can generate the hedghog demo every time with this --disable-smart-memory, but seems slows 58s per image. The stock Z-&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xsx77h/comfyui_desktop_windowss_11_and_unbuntu_26011/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xsx45t/minimax_h3_image_is_about_to_clean_the_field_but/</id><title>Minimax H3 Image is about to clean the field... But can it?</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xsx45t/minimax_h3_image_is_about_to_clean_the_field_but/"/>
-<published>2026-11-10T20:04:07+00:00</published><updated>2026-11-10T20:04:07+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="relighting"/>
-<category term="flux"/>
-<category term="minimax"/>
-<summary>since i am mostly interested in image-to-image and edit capabilities, i have run the simple chain of edits, starting from the manual hand-drawn doodle, and to the closeup zoom. All the images are H3 Image, 1K, and only the three last ones have been post-processed to remove the text from "cctv camera</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · relighting, flux, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;since i am mostly interested in image-to-image and edit capabilities, i have run the simple chain of edits, starting from the manual hand-drawn doodle, and to the closeup zoom. All the images are H3 Image, 1K, and only the three last ones have been post-processed to remove the text from "cctv camera" prompts. ✅ Edit WORKS like charm. Posing, restyling, relighting, etc. Prompt for the second image is intentionally dumb, like " its almost natural language " at this point: zoom upclose allowing this guy on the photo to hold the fabric of his gray jacket next to his heck and chin with fingers pinch so that we can see the texture at 4k distance to camera: 10cm, macrophoto extreme closeup shot Not&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xsx45t/minimax_h3_image_is_about_to_clean_the_field_but/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
