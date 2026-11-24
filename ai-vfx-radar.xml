@@ -2,8 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-24T09:30:31+00:00</updated>
+<updated>2026-11-24T11:31:58+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://github.com/zhouxiaoka/autoclip</id><title>zhouxiaoka/autoclip</title>
+<link rel="alternate" href="https://github.com/zhouxiaoka/autoclip"/>
+<published>2026-11-24T11:31:58+00:00</published><updated>2026-11-24T11:31:58+00:00</updated>
+<author><name>GitHub trending (Python)</name></author>
+<category term="rendering"/>
+<category term="ai video"/>
+<summary>AutoClip｜一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。Open-source AI video clipping &amp; content repurposing. https://zhouxiaoka.github.io/autoclip_intro/ AutoClip Turn any video, link, or live stream into ready-to-post clips. Open-source, local-firs</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;GitHub trending (Python) · score 2 · rendering, ai video&lt;/small&gt;&lt;/p&gt;&lt;p&gt;AutoClip｜一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。Open-source AI video clipping &amp;amp; content repurposing. https://zhouxiaoka.github.io/autoclip_intro/ AutoClip Turn any video, link, or live stream into ready-to-post clips. Open-source, local-first AI clipping for podcasts, interviews, and gaming streams — with smart reframing, captions, covers, and titles built in. Website · Download · Live Replays (v1.6) · Showcase · Quick Start · Docs · Issues English · 简体中文 · 繁體中文 · 日本語 · 한국어 · Español · Português · Русский · Français · Bahasa Indonesia · Türkçe · Tiếng Việt · Deutsch ⭐ Free, MIT-licensed, zero subscriptions — everything cuts and rende&lt;/p&gt;&lt;p&gt;&lt;a href="https://github.com/zhouxiaoka/autoclip"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://arxiv.org/abs/2611.28111</id><title>GC-GS: Optimizing 3D Gaussian Splatting with Gradient Conflict as a Geometry Signal</title>
 <link rel="alternate" href="https://arxiv.org/abs/2611.28111"/>
@@ -3946,39 +3956,5 @@
 <category term="lora"/>
 <summary>Hello everyone i've been testing a new video upscaling method in ComfyUI called RelayVSR , and the results are really impressive! Unlike conventional upscaling methods that can sometimes modify the original video, introduce unwanted details, or change the appearance of characters and scenes, RelayVS</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 8 · video generation, upscaling, comfyui, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hello everyone i've been testing a new video upscaling method in ComfyUI called RelayVSR , and the results are really impressive! Unlike conventional upscaling methods that can sometimes modify the original video, introduce unwanted details, or change the appearance of characters and scenes, RelayVSR uses a different approach. A large generative model creates high-quality reference latents for selected keyframes, while a lightweight Dual-Memory Video Transformer uses these references to reconstruct the remaining frames while preserving the original video structure and details. For this workflow, I've combined RelayVSR with my optimized MiniMax H3 workflow , Pika H3 6-step LoRA, attention opt&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xsmep4/comfyui_tutorial_fixing_minimax_h3_video/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1xsjsqm/poc_release_sundari_spectral_path_tracer/</id><title>[POC Release] Sundari: Spectral Path Tracer &amp; Look-Dev/Lighting Studio for Apple Silicon (USD, MaterialX, OpenPBR, Blender Live-Link)</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xsjsqm/poc_release_sundari_spectral_path_tracer/"/>
-<published>2026-11-10T10:45:12+00:00</published><updated>2026-11-10T10:45:12+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="animation"/>
-<category term="rendering"/>
-<category term="blender"/>
-<summary>Hey everyone, I've been developing Sundari : a native spectral path tracer and interactive look-development/lighting workspace written from scratch for Apple Silicon, and just released the first public Proof-of-Concept build (v0.1.0). Rather than continuing to test in a vacuum, I wanted to get it in</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 4 · animation, rendering, blender&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey everyone, I've been developing Sundari : a native spectral path tracer and interactive look-development/lighting workspace written from scratch for Apple Silicon, and just released the first public Proof-of-Concept build (v0.1.0). Rather than continuing to test in a vacuum, I wanted to get it into the wild so artists and graphics folks can throw real production assets at it and tell me where it fails. What it currently does: Open Standards: Native loading of OpenUSD stages ( .usd , .usda , .usdc , .usdz ), MaterialX graphs ( .mtlx ), and Sundari Scene Descriptors ( .ssd ). Look-Dev &amp;amp; Lighting: Interactive shader node editor with live 2D node previews, OpenPBR surface model, rotatable HDR&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xsjsqm/poc_release_sundari_spectral_path_tracer/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xsj82z/h3_editor_a_timeline_video_editor_for_minimax_h3/</id><title>H3 Editor: a timeline video editor for MiniMax H3 inside ComfyUI. You write shots instead of wiring graphs (open source, GPL-3.0)</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xsj82z/h3_editor_a_timeline_video_editor_for_minimax_h3/"/>
-<published>2026-11-10T10:10:44+00:00</published><updated>2026-11-10T10:10:44+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="minimax"/>
-<summary>submitted by /u/igorls1 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/igorls1 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xsj82z/h3_editor_a_timeline_video_editor_for_minimax_h3/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xsj747/h3_editor_a_timeline_video_editor_for_minimax_h3/</id><title>H3 Editor: a timeline video editor for MiniMax H3 inside ComfyUI. You write shots instead of wiring graphs (open source, GPL-3.0)</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xsj747/h3_editor_a_timeline_video_editor_for_minimax_h3/"/>
-<published>2026-11-10T10:09:05+00:00</published><updated>2026-11-10T10:09:05+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="render"/>
-<category term="comfyui"/>
-<category term="minimax"/>
-<category term="lora"/>
-<category term="cinematic"/>
-<summary>I built a custom node pack that puts a full-screen timeline editor inside ComfyUI for MiniMax H3. Instead of building a graph per clip, you write each shot as text (what happens, camera, sound), render it, and cut the shots together with their sound on a timeline. Repo: https://github.com/igorls/com</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 7 · render, comfyui, minimax, lora, cinematic&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I built a custom node pack that puts a full-screen timeline editor inside ComfyUI for MiniMax H3. Instead of building a graph per clip, you write each shot as text (what happens, camera, sound), render it, and cut the shots together with their sound on a timeline. Repo: https://github.com/igorls/comfyui-h3-editor Docs: https://igorls.github.io/comfyui-h3-editor Model: HyperFlow H3 Flash INT8 https://huggingface.co/VideoRebirthAI/hyperflow-h3-flash Realism LoRA for HyperFlow: https://civitai.com/models/3041489/mmh3-realism-slider-hyperflow-h3-flash-port What it does Write shots, not graphs. Each clip is a few text fields. One project style is applied to every shot. Keep people and places the &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xsj747/h3_editor_a_timeline_video_editor_for_minimax_h3/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
