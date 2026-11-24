@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-24T11:31:58+00:00</updated>
+<updated>2026-11-24T13:31:48+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
 <entry>
 <id>https://github.com/zhouxiaoka/autoclip</id><title>zhouxiaoka/autoclip</title>
@@ -3932,29 +3932,5 @@
 <category term="dit"/>
 <summary>New models have been released. For example, Anima, Krea2, MOSS etc in DiT architectures. I have been using Illustrious and is a huge fan of ControlNets. However, the developers of the new models don't seem to have any interest in training ControlNet models. I have been waiting but I started to wonde</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · controlnet, dit&lt;/small&gt;&lt;/p&gt;&lt;p&gt;New models have been released. For example, Anima, Krea2, MOSS etc in DiT architectures. I have been using Illustrious and is a huge fan of ControlNets. However, the developers of the new models don't seem to have any interest in training ControlNet models. I have been waiting but I started to wonder if ControlNet models aren't needed anymore because there are some models or workflows out there that can completely replace ControlNets. Is there something that I've been missing? Let's pretend that LLLite LoRAs don't exist. Glad that we have them but I didn't find them much useful. EDIT: Thanks guys, appreciate all the response. I should look into using edit models. I still want ControlNet mode&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xsn793/is_controlnet_a_thing_of_past_now/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xsmt6h/a_quick_mossimage_news_roundup_10th_november_2026/</id><title>A quick MOSS-Image news round-up - 10th November 2026</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xsmt6h/a_quick_mossimage_news_roundup_10th_november_2026/"/>
-<published>2026-11-10T13:24:26+00:00</published><updated>2026-11-10T13:24:26+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="segmentation"/>
-<category term="comfyui"/>
-<category term="lora"/>
-<summary>Another quick MOSS-Image news and goodies round-up, for those who may have missed some items. -&gt; An unexpected wealth of new MOSS-Image Control LoRAs, as an initial release. Including: OpenPose; Lineart; Depth-map; Color-map (called here 'Segmentation'); and there's even one for a Colour Normal-map.</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · segmentation, comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Another quick MOSS-Image news and goodies round-up, for those who may have missed some items. -&amp;gt; An unexpected wealth of new MOSS-Image Control LoRAs, as an initial release. Including: OpenPose; Lineart; Depth-map; Color-map (called here 'Segmentation'); and there's even one for a Colour Normal-map. Workflows included, per LoRA. I'm uncertain, as yet, if these LoRAs can be combined in the same ComfyUI workflow or not. https://huggingface.co/collections/thedeoxen/moss-image-control -&amp;gt; The MOSS Character Catalog continues to update. In the last few days 461 new characters were added, along with their demo images and prompts. There's also a new 'Classic Cartoon' character filter for the databas&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xsmt6h/a_quick_mossimage_news_roundup_10th_november_2026/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xsmep4/comfyui_tutorial_fixing_minimax_h3_video/</id><title>ComfyUI Tutorial :Fixing MiniMax H3 Video Upscaling Details loss with RelayVSR &amp; DLSS5 Nodes with only 6GB of Vram</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xsmep4/comfyui_tutorial_fixing_minimax_h3_video/"/>
-<published>2026-11-10T13:05:48+00:00</published><updated>2026-11-10T13:05:48+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="video generation"/>
-<category term="upscaling"/>
-<category term="comfyui"/>
-<category term="minimax"/>
-<category term="lora"/>
-<summary>Hello everyone i've been testing a new video upscaling method in ComfyUI called RelayVSR , and the results are really impressive! Unlike conventional upscaling methods that can sometimes modify the original video, introduce unwanted details, or change the appearance of characters and scenes, RelayVS</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 8 · video generation, upscaling, comfyui, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hello everyone i've been testing a new video upscaling method in ComfyUI called RelayVSR , and the results are really impressive! Unlike conventional upscaling methods that can sometimes modify the original video, introduce unwanted details, or change the appearance of characters and scenes, RelayVSR uses a different approach. A large generative model creates high-quality reference latents for selected keyframes, while a lightweight Dual-Memory Video Transformer uses these references to reconstruct the remaining frames while preserving the original video structure and details. For this workflow, I've combined RelayVSR with my optimized MiniMax H3 workflow , Pika H3 6-step LoRA, attention opt&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xsmep4/comfyui_tutorial_fixing_minimax_h3_video/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
