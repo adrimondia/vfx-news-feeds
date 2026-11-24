@@ -2,8 +2,170 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-24T08:00:32+00:00</updated>
+<updated>2026-11-24T09:30:31+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://arxiv.org/abs/2611.28111</id><title>GC-GS: Optimizing 3D Gaussian Splatting with Gradient Conflict as a Geometry Signal</title>
+<link rel="alternate" href="https://arxiv.org/abs/2611.28111"/>
+<published>2026-11-24T05:00:00+00:00</published><updated>2026-11-24T05:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="gaussian splatting"/>
+<category term="3d gaussian"/>
+<category term="rendering"/>
+<summary>arXiv:2611.28111v1 Announce Type: new Abstract: 3D Gaussian Splatting (3DGS) is commonly optimized with multiple reconstruction losses, which naturally forms a multi-objective optimization problem. This issue becomes more pronounced when perceptual losses are introduced to improve visual quality, as</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · gaussian splatting, 3d gaussian, rendering&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2611.28111v1 Announce Type: new Abstract: 3D Gaussian Splatting (3DGS) is commonly optimized with multiple reconstruction losses, which naturally forms a multi-objective optimization problem. This issue becomes more pronounced when perceptual losses are introduced to improve visual quality, as different objectives may impose competing update directions on Gaussian primitives and make it difficult to simultaneously improve fidelity, perceptual quality, and representation efficiency. Based on this view, we reformulate 3DGS training as a multi-objective optimization problem and derive selective conflict-aware position updates that reduce interference between competing objectives while pre&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2611.28111"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2611.28520</id><title>VG3R: Video Generation Model for Feed-Forward 3D Reconstruction</title>
+<link rel="alternate" href="https://arxiv.org/abs/2611.28520"/>
+<published>2026-11-24T05:00:00+00:00</published><updated>2026-11-24T05:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="video generation"/>
+<category term="novel view synthesis"/>
+<category term="3d reconstruction"/>
+<category term="depth estimation"/>
+<category term="denoising"/>
+<category term="wan2"/>
+<summary>arXiv:2611.28520v1 Announce Type: new Abstract: Video generation models are widely used as 3D priors for novel view synthesis and 3D scene generation. Fine-tuned for perception, generation models also excel at dense prediction such as depth estimation. However, methods that apply video generation mo</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 8 · video generation, novel view synthesis, 3d reconstruction, depth estimation, denoising, wan2&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2611.28520v1 Announce Type: new Abstract: Video generation models are widely used as 3D priors for novel view synthesis and 3D scene generation. Fine-tuned for perception, generation models also excel at dense prediction such as depth estimation. However, methods that apply video generation models to 3D reconstruction either predict depth without cameras or generate geometry and estimate cameras through many iterative denoising steps, which makes them slower. In this paper, we present $\textbf{VG3R}$, which turns a pretrained video generation model into a feed-forward 3D reconstruction model. Our key observation is that such a model already captures the depth and camera motion of a vid&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2611.28520"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2611.29236</id><title>Complementary Geometry in Gaussian Splatting</title>
+<link rel="alternate" href="https://arxiv.org/abs/2611.29236"/>
+<published>2026-11-24T05:00:00+00:00</published><updated>2026-11-24T05:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="novel view synthesis"/>
+<category term="gaussian splatting"/>
+<category term="rendering"/>
+<category term="multi-view"/>
+<summary>arXiv:2611.29236v1 Announce Type: new Abstract: Gaussian Splatting has achieved high visual quality in novel view synthesis, but the accuracy of its rendered geometry remains a challenge. In particular, the rendered depth is computed as an opacity-weighted average along each ray, which may not corre</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · novel view synthesis, gaussian splatting, rendering, multi-view&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2611.29236v1 Announce Type: new Abstract: Gaussian Splatting has achieved high visual quality in novel view synthesis, but the accuracy of its rendered geometry remains a challenge. In particular, the rendered depth is computed as an opacity-weighted average along each ray, which may not correspond to the actual scene surface. In this paper, we observe that depth predictions from different views of the same frozen Gaussian representation exhibit complementary errors, allowing us to improve novel-view geometry using information from other views without modifying the original representation. Based on this observation, we propose REVEAL, a general framework that selectively refines novel-&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2611.29236"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2611.29388</id><title>SpectralGS: Spectral Gaussian Splatting for Unsupervised Spectral Super-Resolution</title>
+<link rel="alternate" href="https://arxiv.org/abs/2611.29388"/>
+<published>2026-11-24T05:00:00+00:00</published><updated>2026-11-24T05:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="gaussian splatting"/>
+<category term="super-resolution"/>
+<category term="rendering"/>
+<category term="consistency"/>
+<summary>arXiv:2611.29388v1 Announce Type: new Abstract: Unsupervised spectral super-resolution aims to recover spectral information from RGB images without paired hyperspectral data. However, the limited spectral information in RGB observations makes learning an effective spatial-spectral representation cha</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 6 · gaussian splatting, super-resolution, rendering, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2611.29388v1 Announce Type: new Abstract: Unsupervised spectral super-resolution aims to recover spectral information from RGB images without paired hyperspectral data. However, the limited spectral information in RGB observations makes learning an effective spatial-spectral representation challenging, requiring the incorporation of structured spectral modeling with sensor imaging. In this paper, we propose SpectralGS, a spectral Gaussian splatting framework comprising two components: Shared Spectral Gaussian Representation and Spectral Response Projection Rendering. The representation module constructs a continuous spatial-spectral representation via shared spectral and local spatial &lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2611.29388"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2611.29417</id><title>MSBench: Benchmarking Script-Controlled Multi-Shot Text-to-Video Generation</title>
+<link rel="alternate" href="https://arxiv.org/abs/2611.29417"/>
+<published>2026-11-24T05:00:00+00:00</published><updated>2026-11-24T05:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="video generation"/>
+<category term="text-to-video"/>
+<category term="render"/>
+<category term="consistency"/>
+<summary>arXiv:2611.29417v1 Announce Type: new Abstract: Text-to-video (T2V) models can now generate visually plausible short clips, but multi-shot generation requires a different set of skills: composing multiple shots with intended cut timing, transition style, camera language, and cross-shot continuity. H</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · video generation, text-to-video, render, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2611.29417v1 Announce Type: new Abstract: Text-to-video (T2V) models can now generate visually plausible short clips, but multi-shot generation requires a different set of skills: composing multiple shots with intended cut timing, transition style, camera language, and cross-shot continuity. How far this multi-shot output can be controlled from text remains unmeasured: existing benchmarks either evaluate single shots or, when they provide shot-level scripts, typically check whether the requested shots appear but not when they change or how they are joined. We introduce MSBench, a benchmark for controllable text-driven multi-shot video generation built around structured Scene-Entity-Sho&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2611.29417"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2611.30102</id><title>LMnOP: Pruning 3D Gaussian Splatting via Leave-Many-Out Importance</title>
+<link rel="alternate" href="https://arxiv.org/abs/2611.30102"/>
+<published>2026-11-24T05:00:00+00:00</published><updated>2026-11-24T05:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="gaussian splatting"/>
+<category term="3d gaussian"/>
+<category term="render"/>
+<summary>arXiv:2611.30102v1 Announce Type: new Abstract: 3D Gaussian Splatting renders photorealistic views in real time. However, a single scene often needs millions of Gaussians, so these models are costly to store and render. Pruning reduces this cost by keeping a subset of the Gaussians. A common score i</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · gaussian splatting, 3d gaussian, render&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2611.30102v1 Announce Type: new Abstract: 3D Gaussian Splatting renders photorealistic views in real time. However, a single scene often needs millions of Gaussians, so these models are costly to store and render. Pruning reduces this cost by keeping a subset of the Gaussians. A common score is the leave-one-out importance, which is the loss increase when a Gaussian alone is removed. At high pruning ratios, many Gaussians are removed together, so Gaussians that are redundant alone but essential together are lost. We present LMnOP (Leave-Many-Out Pruning), which estimates the importance of each Gaussian under the removal of the other Gaussians. This leave-many-out importance is the aver&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2611.30102"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2611.30328</id><title>Draft Forcing: Target-guided Speculative Drafting and Learned Verifier for Autoregressive Video Generation</title>
+<link rel="alternate" href="https://arxiv.org/abs/2611.30328"/>
+<published>2026-11-24T05:00:00+00:00</published><updated>2026-11-24T05:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="video generation"/>
+<category term="video diffusion"/>
+<category term="dit"/>
+<category term="consistency"/>
+<summary>arXiv:2611.30328v1 Announce Type: new Abstract: Autoregressive video diffusion models enable streaming synthesis chunk by chunk, yet invoking the large model for every chunk remains costly. While chunk-level speculative decoding can offload chunks to a lightweight draft model, existing approaches su</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · video generation, video diffusion, dit, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2611.30328v1 Announce Type: new Abstract: Autoregressive video diffusion models enable streaming synthesis chunk by chunk, yet invoking the large model for every chunk remains costly. While chunk-level speculative decoding can offload chunks to a lightweight draft model, existing approaches suffer from two limitations: (1) an off-the-shelf draft diverges from the target's trajectory, compounding errors in history; and (2) they either omit verification or rely on costly post-decode aesthetic scores rather than verifying consistency against the target. We address both with Draft Forcing, a framework coupling target-guided drafting with an on-policy trained verifier. Specifically, to alig&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2611.30328"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2611.30777</id><title>AvatarAnyone: Agentic Reconstruction of Mesh-Based Layered Avatars from YouTube Video</title>
+<link rel="alternate" href="https://arxiv.org/abs/2611.30777"/>
+<published>2026-11-24T05:00:00+00:00</published><updated>2026-11-24T05:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="avatar"/>
+<category term="cloth simulation"/>
+<category term="render"/>
+<category term="blender"/>
+<category term="unreal"/>
+<category term="unreal engine"/>
+<summary>arXiv:2611.30777v1 Announce Type: new Abstract: We introduce AvatarAnyone, a method for reconstructing avatars from casual YouTube videos as layered meshes, with each garment and footwear as a separate mesh layered on top of the body mesh. In such videos, people differ in garment classes, clothing t</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 6 · avatar, cloth simulation, render, blender, unreal, unreal engine&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2611.30777v1 Announce Type: new Abstract: We introduce AvatarAnyone, a method for reconstructing avatars from casual YouTube videos as layered meshes, with each garment and footwear as a separate mesh layered on top of the body mesh. In such videos, people differ in garment classes, clothing types, and layers, and each combination needs a different reconstruction. A single fixed layered reconstruction pipeline therefore fails. AvatarAnyone solves this problem with AI agents that plan a custom optimization for each person's reconstruction. The agents predict the garment classes, the clothing type, and the layering. They use these predictions to choose an initialization and stage the opt&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2611.30777"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2611.30787</id><title>BridgeMVS: Bridging Multi-View Stereo and Monodepth via Bidirectional Dynamic Fusion</title>
+<link rel="alternate" href="https://arxiv.org/abs/2611.30787"/>
+<published>2026-11-24T05:00:00+00:00</published><updated>2026-11-24T05:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="3d reconstruction"/>
+<category term="depth estimation"/>
+<category term="monocular depth"/>
+<category term="consistency"/>
+<category term="multi-view"/>
+<category term="stereo"/>
+<summary>arXiv:2611.30787v1 Announce Type: new Abstract: Multi-View Stereo (MVS) and Monocular Depth Estimation (MDE) provide complementary cues for dense 3D reconstruction. While MVS leverages explicit geometry for metric depth, it struggles in challenging regions where feature matching is unreliable. Conve</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 8 · 3d reconstruction, depth estimation, monocular depth, consistency, multi-view, stereo&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2611.30787v1 Announce Type: new Abstract: Multi-View Stereo (MVS) and Monocular Depth Estimation (MDE) provide complementary cues for dense 3D reconstruction. While MVS leverages explicit geometry for metric depth, it struggles in challenging regions where feature matching is unreliable. Conversely, MDE provides robust structural priors but typically yields scale-ambiguous results. Existing hybrid methods mainly exploit monocular cues in a unidirectional manner, leaving the mutual enhancement between MDE and MVS insufficiently explored. To address this limitation, we propose BridgeMVS, a unified cascaded multi-stage MVS framework that bridges monocular depth features and multi-view cos&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2611.30787"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2611.31023</id><title>WildAnySplat: Feed-Forward 3D Gaussian Splatting in the Wild</title>
+<link rel="alternate" href="https://arxiv.org/abs/2611.31023"/>
+<published>2026-11-24T05:00:00+00:00</published><updated>2026-11-24T05:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="gaussian splatting"/>
+<category term="3d gaussian"/>
+<category term="camera pose"/>
+<category term="multi-view"/>
+<summary>arXiv:2611.31023v1 Announce Type: new Abstract: We present WildAnySplat, a feed-forward 3D Gaussian Splatting framework that enables robust novel-view synthesis from in-the-wild multi-view images. Unlike controlled captures, real-world images often contain multi-view inconsistencies caused by transi</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 6 · gaussian splatting, 3d gaussian, camera pose, multi-view&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2611.31023v1 Announce Type: new Abstract: We present WildAnySplat, a feed-forward 3D Gaussian Splatting framework that enables robust novel-view synthesis from in-the-wild multi-view images. Unlike controlled captures, real-world images often contain multi-view inconsistencies caused by transient occluders, illumination changes, and camera ISP, which degrade the quality of existing feed-forward reconstruction methods. To address this challenge, we introduce a student-teacher framework that learns transient-robust and appearance-consistent 3D representations. A teacher network operates on clean images, while a student processes the corresponding in-the-wild inputs. The teacher provides &lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2611.31023"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2611.31184</id><title>On-Policy Codec Distillation for Efficient All-in-One Video Generation</title>
+<link rel="alternate" href="https://arxiv.org/abs/2611.31184"/>
+<published>2026-11-24T05:00:00+00:00</published><updated>2026-11-24T05:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="video generation"/>
+<category term="video diffusion"/>
+<category term="denoising"/>
+<category term="dit"/>
+<summary>arXiv:2611.31184v1 Announce Type: new Abstract: Modern visual generative models operate on tokens, and every visual asset they receive, whether an identity, a scribble, a depth map, or a motion video, is tokenized and appended to the input token sequence. Consequently, conditioning quickly dominates</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · video generation, video diffusion, denoising, dit&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2611.31184v1 Announce Type: new Abstract: Modern visual generative models operate on tokens, and every visual asset they receive, whether an identity, a scribble, a depth map, or a motion video, is tokenized and appended to the input token sequence. Consequently, conditioning quickly dominates the computation cost. Yet most of these tokens carry redundant spatiotemporal information. Our key insight is that identifying what is genuinely new is exactly the problem that classical video codecs have long solved. Thus, we first introduce a codec-based token pruning method that discards redundant tokens. Then, we propose an on-policy self-distillation (OPSD) strategy to train a DiT adapter ca&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2611.31184"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2609.24984</id><title>WorldCrafter: Consistent Video World Model with Implicit 3D-aware Memory</title>
+<link rel="alternate" href="https://arxiv.org/abs/2609.24984"/>
+<published>2026-11-24T05:00:00+00:00</published><updated>2026-11-24T05:00:00+00:00</updated>
+<author><name>arXiv cs.GR</name></author>
+<category term="world model"/>
+<category term="denoising"/>
+<category term="consistency"/>
+<category term="multi-view"/>
+<summary>arXiv:2609.24984v2 Announce Type: replace-cross Abstract: Video world models enable interactive exploration of dynamic environments, yet struggle to respect prior observations over long horizons and across viewpoints. We present WorldCrafter, a video world model that learns a camera-queryable implic</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.GR · score 5 · world model, denoising, consistency, multi-view&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.24984v2 Announce Type: replace-cross Abstract: Video world models enable interactive exploration of dynamic environments, yet struggle to respect prior observations over long horizons and across viewpoints. We present WorldCrafter, a video world model that learns a camera-queryable implicit 3D-aware memory for this purpose. The key insight is to let the requested viewpoint shape how multi-view evidence is compressed into the video generator's limited token budget. Trained jointly with the video generator, a memory encoder and pose-conditioned readout module integrate historical observations into a fixed set of target view-specific tokens before denoising, without explicit depth-ba&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.24984"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2610.36853</id><title>D4GS: Efficient Gaussian Splatting SLAM with Depth Priors</title>
+<link rel="alternate" href="https://arxiv.org/abs/2610.36853"/>
+<published>2026-11-24T05:00:00+00:00</published><updated>2026-11-24T05:00:00+00:00</updated>
+<author><name>arXiv cs.GR</name></author>
+<category term="gaussian splatting"/>
+<category term="tracking"/>
+<category term="camera pose"/>
+<category term="camera tracking"/>
+<category term="depth estimation"/>
+<category term="slam"/>
+<summary>arXiv:2610.36853v2 Announce Type: replace-cross Abstract: Achieving high-quality reconstruction and responsive camera tracking remains challenging for monocular RGB Gaussian splatting SLAM under a limited optimization budget. We present an online system that addresses this challenge by combining lea</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.GR · score 8 · gaussian splatting, tracking, camera pose, camera tracking, depth estimation, slam&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2610.36853v2 Announce Type: replace-cross Abstract: Achieving high-quality reconstruction and responsive camera tracking remains challenging for monocular RGB Gaussian splatting SLAM under a limited optimization budget. We present an online system that addresses this challenge by combining learned geometric priors with explicit geometric camera tracking, which efficiently performs camera tracking while maintaining the map to keep the predicted depth scale consistent. A frozen depth model serves as a virtual RGB-D sensor, providing depth estimation from monocular video. An explicit geometric solver then estimates camera pose through feature reprojection, and a streaming Gaussian mapper &lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2610.36853"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://arxiv.org/abs/2611.26963</id><title>Causal Diffusion for Extreme Super-Resolution in Interactive Games</title>
 <link rel="alternate" href="https://arxiv.org/abs/2611.26963"/>
