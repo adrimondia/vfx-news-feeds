@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-24T05:30:26+00:00</updated>
+<updated>2026-11-24T07:30:37+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
 <entry>
 <id>https://arxiv.org/abs/2611.26963</id><title>Causal Diffusion for Extreme Super-Resolution in Interactive Games</title>
@@ -3838,36 +3838,5 @@
 <category term="lora"/>
 <summary>I wanted real numbers for "which quant should I use on my card," so I measured it. Five storage formats (fp8 cast, fp8 scaled, int8 ConvRot, w4a8, nvfp4) against the bf16 original, on base and turbo versions of Anima, Z-Image, MOSS-Image, Krea 2 and SDXL/Illustrious. Quality was graded on an RTX PRO</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I wanted real numbers for "which quant should I use on my card," so I measured it. Five storage formats (fp8 cast, fp8 scaled, int8 ConvRot, w4a8, nvfp4) against the bf16 original, on base and turbo versions of Anima, Z-Image, MOSS-Image, Krea 2 and SDXL/Illustrious. Quality was graded on an RTX PRO 6000 and a 3090; speed and fit were timed on ten cards: PRO 6000, 5090, 5080, two 5070 Ti, 5060 Ti, 3090, 3080 Ti, 3080, 3060 Ti. Everything is stock ComfyUI with its default memory handling, same seed, same prompts. **Report, with a "will my card run it?" box (pick your card + model):** https://ai-evolution.dev/quant-bench/ (Also as a PDF with every option laid out, if you'd rather scroll.) What&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xsgva6/comfyui_quant_benchmark_10_gpus_15_models_and_467/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1xsgo3j/honestly_what_should_i_do_to_get_a_job/</id><title>Honestly what should I do to get a job?</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xsgo3j/honestly_what_should_i_do_to_get_a_job/"/>
-<published>2026-11-10T07:24:29+00:00</published><updated>2026-11-10T07:24:29+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="animation"/>
-<category term="vfx"/>
-<summary>I just graduated in VFX recently and there’s literally no opportunity for fresh graduate. I wanna go for film vfx industry but most of the studio are requiring at least 2 3 year of experience. What should I do? It’s been 3 months since I graduated. Should I just leave this path and proceed to other </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · animation, vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I just graduated in VFX recently and there’s literally no opportunity for fresh graduate. I wanna go for film vfx industry but most of the studio are requiring at least 2 3 year of experience. What should I do? It’s been 3 months since I graduated. Should I just leave this path and proceed to other field? I got 1 interview on an animation studio last week and they just didn’t give me any update since then. I’ve been having anxiety on and off of not getting a job everyday and I don’t know what do to honestly. Anybody coming through similar situation and could give me advice? Thank you. submitted by /u/Puzzleheaded_Bar2482 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xsgo3j/honestly_what_should_i_do_to_get_a_job/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xsg5w7/h3_on_an_m1_macbook_air_16gb/</id><title>H3 on an M1 macbook air 16gb</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xsg5w7/h3_on_an_m1_macbook_air_16gb/"/>
-<published>2026-11-10T06:53:24+00:00</published><updated>2026-11-10T06:53:24+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="talking head"/>
-<category term="render"/>
-<category term="rendering"/>
-<category term="lora"/>
-<summary>After getting (slow) results from krea2, moss and YuE2 out of my old M1 air, I wanted to see if h3 would run too. I used my fork of h3.c , a C and Metal inference engine with no Python. The fork adds int8 and SSD streaming. My checkpoint was int8 with a turbo lora folded in, so 6 steps. This ends up</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · talking head, render, rendering, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;After getting (slow) results from krea2, moss and YuE2 out of my old M1 air, I wanted to see if h3 would run too. I used my fork of h3.c , a C and Metal inference engine with no Python. The fork adds int8 and SSD streaming. My checkpoint was int8 with a turbo lora folded in, so 6 steps. This ends up with about 10±gb of continuous RAM load, on my m5 pro with 48gb it's totally usable to render in background and do other activities (and can also handle 1mp at 12+ steps fine). The clip is two renders back to back. First a 20 s talking head at 864x480, five chained links, about 17 hours. Then a 20 s street musician clip of nine chained links of 73 frames, 58 hours. So context chaining also works.&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xsg5w7/h3_on_an_m1_macbook_air_16gb/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1xsfk33/seeking_vfx_artist_for_indie_feature_i_know/</id><title>Seeking VFX artist for indie feature. (I know nothing of VFX world and lingo) but I need a realistic split in the tree that happens very suddenly and another crack in the ceiling in the 2nd frame. Please send rates via DM!</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xsfk33/seeking_vfx_artist_for_indie_feature_i_know/"/>
-<published>2026-11-10T06:16:10+00:00</published><updated>2026-11-10T06:16:10+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="vfx"/>
-<summary>Bonus if you can make the picture frame on the wall fall down, I know that may be a huge ask but let me know! Edit - everything is shot still. It’s 2D, and both shots are only about 10 seconds long. Hope that helps submitted by /u/EenieMeeany [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Bonus if you can make the picture frame on the wall fall down, I know that may be a huge ask but let me know! Edit - everything is shot still. It’s 2D, and both shots are only about 10 seconds long. Hope that helps submitted by /u/EenieMeeany [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xsfk33/seeking_vfx_artist_for_indie_feature_i_know/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
