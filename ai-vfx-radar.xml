@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-25T19:31:26+00:00</updated>
+<updated>2026-11-25T21:31:02+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
 <entry>
 <id>https://arxiv.org/abs/2611.31428</id><title>Enhancing Sparse-View Gaussian Splatting with Feed-Forward Priors via Spectral Fusion and Distillation</title>
@@ -3347,34 +3347,5 @@
 <category term="minimax"/>
 <summary>Lots of people seem to be unhappy with MiniMax H3, or at least it sounds like it, but at least I have been happy with it now when I have tested it couple of hours. For my taste this seems excellent (after changing Euler to lcm) and 8 Mpx images is generating around one minute in RTX 4060 Ti + 32 GB </summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Lots of people seem to be unhappy with MiniMax H3, or at least it sounds like it, but at least I have been happy with it now when I have tested it couple of hours. For my taste this seems excellent (after changing Euler to lcm) and 8 Mpx images is generating around one minute in RTX 4060 Ti + 32 GB RAM. Without changing Euler to lcm I was not impressed for the quality at all, but glad that I didn't ditched it immediately but instead searched what could be wrong. So far so good, images with "technicolor" does nice style for my personal taste. submitted by /u/Mr_Unknown_Hero [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xtuj87/first_testings_with_minimax_h3_image_i_am_happy/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xttu9s/comfyui_tip_paint_an_inpaint_mask_on_its_own/</id><title>ComfyUI tip: paint an inpaint mask on its own layers and reuse it between runs</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xttu9s/comfyui_tip_paint_an_inpaint_mask_on_its_own/"/>
-<published>2026-11-11T21:12:57+00:00</published><updated>2026-11-11T21:12:57+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<summary>When a character’s silhouette or a foreground edge needs to stay sharp, it helps to keep the inpaint mask as a layered drawing. You can revise the mask by hand and try a new run without touching the original painting. In your painting app, export a PNG of the artwork. On the same canvas, use a solid</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;When a character’s silhouette or a foreground edge needs to stay sharp, it helps to keep the inpaint mask as a layered drawing. You can revise the mask by hand and try a new run without touching the original painting. In your painting app, export a PNG of the artwork. On the same canvas, use a solid black background layer for the mask and paint the areas you want ComfyUI to change in white on a layer above it. Keep separate white layers for parts you might want to toggle, like a sleeve and a background detail. Hide the artwork while you export the mask PNG, at the same width and height as the artwork. In ComfyUI, open the artwork with Load Image . Open the mask PNG with Load Image (as Mask) &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xttu9s/comfyui_tip_paint_an_inpaint_mask_on_its_own/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xtt6zf/there_are_so_many_variables_you_have_the_base/</id><title>There are so many variables. You have the base model, but there’s also the scheduler and the sampler—plus the number of steps. You might even use a LoRA trained with a specific number of steps. When training a LoRA, you can choose settings like high, medium, or low noise bias ...</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xtt6zf/there_are_so_many_variables_you_have_the_base/"/>
-<published>2026-11-11T20:47:28+00:00</published><updated>2026-11-11T20:47:28+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="lora"/>
-<summary>as well as shift, weighted, sigmoid, or linear approaches. Then there’s the training resolution—and on top of that, you also have the inference shift LoRA number of steps, training rate, batch size, and simulated batch size Could the problem be the model? What about the LoRA? The resolution? A shift</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;as well as shift, weighted, sigmoid, or linear approaches. Then there’s the training resolution—and on top of that, you also have the inference shift LoRA number of steps, training rate, batch size, and simulated batch size Could the problem be the model? What about the LoRA? The resolution? A shift between training and inference? Is low noise useless? Should I run a few more steps, or fewer? Samplers—there are at least 20 of them. And schedulers—more than 10. Then there are other things, like ETA and noise injection. submitted by /u/Inevitable_Pen9043 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xtt6zf/there_are_so_many_variables_you_have_the_base/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1xtsugg/anyone_using_huion_kamvas_pro_16_or_xp_pen_for/</id><title>Anyone using Huion kamvas pro 16 or xp pen for serious Vfx work?</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xtsugg/anyone_using_huion_kamvas_pro_16_or_xp_pen_for/"/>
-<published>2026-11-11T20:33:43+00:00</published><updated>2026-11-11T20:33:43+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="roto"/>
-<category term="vfx"/>
-<category term="nuke"/>
-<summary>Anyone using Huion kamvas pro 16 or xp pen for some serious Vfx work such as texturing in substance or mari or Zbrush or doing roto in Nuke? submitted by /u/manuce94 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 4 · roto, vfx, nuke&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Anyone using Huion kamvas pro 16 or xp pen for some serious Vfx work such as texturing in substance or mari or Zbrush or doing roto in Nuke? submitted by /u/manuce94 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xtsugg/anyone_using_huion_kamvas_pro_16_or_xp_pen_for/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
