@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-25T09:30:28+00:00</updated>
+<updated>2026-11-25T11:34:26+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
 <entry>
 <id>https://arxiv.org/abs/2611.31428</id><title>Enhancing Sparse-View Gaussian Splatting with Feed-Forward Priors via Spectral Fusion and Distillation</title>
@@ -3559,60 +3559,5 @@
 <category term="wan"/>
 <summary>Hey guys, I'm currently trying to create a YouTube shorts series based on whimsical characters (which I haven't really decided on yet). I've just been experimenting with different templates, settings and prompts so far. My specs are: RTX 3080 12GB i7-12700 32GB RAM First I used Wan 2.2 5b with many </summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · comfyui, wan&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey guys, I'm currently trying to create a YouTube shorts series based on whimsical characters (which I haven't really decided on yet). I've just been experimenting with different templates, settings and prompts so far. My specs are: RTX 3080 12GB i7-12700 32GB RAM First I used Wan 2.2 5b with many different settings and prompts but the results were disappointing. I was unable to generate even the simplest movements as everything would become distorted and surreal. Then I switched to 14b and the results were a huge improvement. I don't expect photorealistic output, cartoony and childish stuff would work well as long as I can create a consistent and engaging story. I haven't got to voiceovers&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xtgxpn/new_to_comfyui_looking_for_recommendations_based/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xtfgdc/repost_update_recavsr_a_onestep_streaming_video/</id><title>[REPOST + UPDATE] ReCaVSR - A one-step streaming video super-resolution built on Wan2.2 - ComfyUI custom nodes</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xtfgdc/repost_update_recavsr_a_onestep_streaming_video/"/>
-<published>2026-11-11T11:31:42+00:00</published><updated>2026-11-11T11:31:42+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="super-resolution"/>
-<category term="upscaler"/>
-<category term="comfyui"/>
-<category term="wan"/>
-<category term="wan2"/>
-<summary>Reddit filters deleted my previous post, probably because of a link I had posted, so I'm reposting it without that link. https://preview.redd.it/8eork6ufsy0i1.png?width=1146&amp;format=png&amp;auto=webp&amp;s=e9f2944a6f1898aaf3f83fd433a4d27c04e5f2dd I ported ReCaVSR, a one-step streaming video super-resolution,</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 8 · super-resolution, upscaler, comfyui, wan, wan2&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Reddit filters deleted my previous post, probably because of a link I had posted, so I'm reposting it without that link. https://preview.redd.it/8eork6ufsy0i1.png?width=1146&amp;amp;format=png&amp;amp;auto=webp&amp;amp;s=e9f2944a6f1898aaf3f83fd433a4d27c04e5f2dd I ported ReCaVSR, a one-step streaming video super-resolution, built on Wan2.2 TI2V-5B to native ComfyUI nodes. - 4× or 2×, one diffusion step per block of 8 frames. Its own FlashDecoder decodes each block as it goes, so a longer clip costs time, not memory. - 149 frames, 960×480 → 3840×1920: 36 s on an RTX 4090, 67 s on a 3090 (int8 file, fast kernels) - int8 ConvRot transformer: about 1.8× faster, 4 GB less VRAM, 47–48 dB from bf16 - 1440×1440 output runs &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xtfgdc/repost_update_recavsr_a_onestep_streaming_video/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1xtfali/killsave_scifi_feature_neon_city_window_shot/</id><title>KILL/SAVE (sci-fi feature): neon city window shot breakdown, Blender + Nuke</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xtfali/killsave_scifi_feature_neon_city_window_shot/"/>
-<published>2026-11-11T11:22:04+00:00</published><updated>2026-11-11T11:22:04+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="compositing"/>
-<category term="vfx"/>
-<category term="nuke"/>
-<category term="blender"/>
-<summary>Breakdown of one city shot from our indie sci-fi feature KILL/SAVE. The actor was shot in the studio at a window. Everything outside was built in CG: the city in Blender, textures and matte work in Photoshop, compositing in Nuke, final touches in After Effects. All VFX were done by our small remote </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 6 · compositing, vfx, nuke, blender&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Breakdown of one city shot from our indie sci-fi feature KILL/SAVE. The actor was shot in the studio at a window. Everything outside was built in CG: the city in Blender, textures and matte work in Photoshop, compositing in Nuke, final touches in After Effects. All VFX were done by our small remote freelance team, spread from Brazil to Kazakhstan. Honestly, the hardest part wasn’t technical. Audiences today know cyberpunk so well that every schoolkid can tell you exactly what a city of the future looks like: Blade Runner rain, Ghost in the Shell holograms, Cyberpunk 2077 neon. Making our own future city that doesn’t copy any of them and still feels believable was the real challenge. The rest&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xtfali/killsave_scifi_feature_neon_city_window_shot/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xtf8au/trying_minimax_h3image_for_fashion_and_beauty/</id><title>Trying MiniMax H3-Image for fashion and beauty contact sheets</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xtf8au/trying_minimax_h3image_for_fashion_and_beauty/"/>
-<published>2026-11-11T11:18:10+00:00</published><updated>2026-11-11T11:18:10+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="minimax"/>
-<category term="cinematic"/>
-<summary>We put together visual reference boards before every fashion shoot. I've tried pulling AI moodboards before, and the model or bottle usually changes the moment you ask for different camera angles on one page. I ran this contact sheet prompt on the open-weights MiniMax H3-Image model. I asked for six</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · minimax, cinematic&lt;/small&gt;&lt;/p&gt;&lt;p&gt;We put together visual reference boards before every fashion shoot. I've tried pulling AI moodboards before, and the model or bottle usually changes the moment you ask for different camera angles on one page. I ran this contact sheet prompt on the open-weights MiniMax H3-Image model. I asked for six frames in a 3x2 grid and both runs came back as a 3x3 board of nine, which honestly works even better as a reference board. Tbh it held together well enough to bring straight to set as a shooting reference board. Every frame keeps the same adult model, ivory styling, cosmetic bottle, Mediterranean limestone walls, and hard midday shadows while changing the pose and lens angle. Another thing I app&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xtf8au/trying_minimax_h3image_for_fashion_and_beauty/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xtetc0/realism_and_visual_integration_in_minimax_h3/</id><title>Realism and visual integration in Minimax h3</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xtetc0/realism_and_visual_integration_in_minimax_h3/"/>
-<published>2026-11-11T10:54:04+00:00</published><updated>2026-11-11T10:54:04+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="minimax"/>
-<category term="consistency"/>
-<summary>Beyond the specific checkpoints and LoRAs that each of us uses, I would like to know what prompt text—specifically regarding camera and lens settings—yields good results for enhancing realism in Minimax h3. I’d like to try some options I haven’t used yet and compare them. The prompt text that works </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · minimax, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Beyond the specific checkpoints and LoRAs that each of us uses, I would like to know what prompt text—specifically regarding camera and lens settings—yields good results for enhancing realism in Minimax h3. I’d like to try some options I haven’t used yet and compare them. The prompt text that works best for me is the following—though I must admit I’m not always satisfied with the result, which often leads to many "wasted" generations: detailed_description: Photorealistic live-action video, natural camera capture, coherent photographic perspective throughout the shot, realistic lens behavior, natural depth of field, consistent focus behavior, natural motion blur, realistic exposure adaptation&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xtetc0/realism_and_visual_integration_in_minimax_h3/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xte9pj/best_workflow_for_minimax_image_so_far/</id><title>best workflow for minimax image so far</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xte9pj/best_workflow_for_minimax_image_so_far/"/>
-<published>2026-11-11T10:20:48+00:00</published><updated>2026-11-11T10:20:48+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="upscaling"/>
-<category term="minimax"/>
-<summary>whats your best workflow for using T2I on the brandnew minimax image? i was looking for a more advanced workflow with a upscaling and maybe prompt guiding? submitted by /u/planBpizz [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · upscaling, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;whats your best workflow for using T2I on the brandnew minimax image? i was looking for a more advanced workflow with a upscaling and maybe prompt guiding? submitted by /u/planBpizz [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xte9pj/best_workflow_for_minimax_image_so_far/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
