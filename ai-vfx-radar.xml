@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-25T11:34:26+00:00</updated>
+<updated>2026-11-25T13:31:35+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
 <entry>
 <id>https://arxiv.org/abs/2611.31428</id><title>Enhancing Sparse-View Gaussian Splatting with Feed-Forward Priors via Spectral Fusion and Distillation</title>
@@ -3530,34 +3530,5 @@
 <category term="ai video"/>
 <summary>60 seconds of AI video, 100% local on an RTX 3050 (6 GB) Work in progress, and the quality isn’t where I want it yet. Here’s how it was made: Model: MiniMax H3 reference-to-video, using ComfyUI’s native H3 nodes with the int8 quantized model and the Qwen3-VL text encoder. References: two character i</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · comfyui, minimax, ai video&lt;/small&gt;&lt;/p&gt;&lt;p&gt;60 seconds of AI video, 100% local on an RTX 3050 (6 GB) Work in progress, and the quality isn’t where I want it yet. Here’s how it was made: Model: MiniMax H3 reference-to-video, using ComfyUI’s native H3 nodes with the int8 quantized model and the Qwen3-VL text encoder. References: two character images, re-used in every shot to keep the characters consistent. Prompts: the official six-section reference prompt format (subject definitions, summary, retention analysis, detailed description, soundscape, music). No negative prompts, because H3 doesn’t use them. Shots: six shots of 260 frames (10.8 s) at 864×480 and 25 steps, with the res_multistep sampler and the simple scheduler. Continuity: e&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xtimco/this_took_x_hrs_35_mins_to_make_on_a_rtx_3050_6gb/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xth62s/is_minimax_image_uncensored/</id><title>is minimax image uncensored?</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xth62s/is_minimax_image_uncensored/"/>
-<published>2026-11-11T13:01:56+00:00</published><updated>2026-11-11T13:01:56+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="minimax"/>
-<summary>is there any implemented censorship for minimax image? i didnt found any information right now about that. submitted by /u/planBpizz [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;is there any implemented censorship for minimax image? i didnt found any information right now about that. submitted by /u/planBpizz [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xth62s/is_minimax_image_uncensored/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1xth0sg/wip_spaceship_crash_test/</id><title>WIP: Spaceship Crash Test</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xth0sg/wip_spaceship_crash_test/"/>
-<published>2026-11-11T12:55:06+00:00</published><updated>2026-11-11T12:55:06+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="visual effects"/>
-<category term="blender"/>
-<summary>WIP: Spaceship Crash Test in Blender. Next up: adding visual effects and building out a full environment! Let me know in the comments if you have any feedback or ideas for improvement. Thanks submitted by /u/elikemJefferson [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · visual effects, blender&lt;/small&gt;&lt;/p&gt;&lt;p&gt;WIP: Spaceship Crash Test in Blender. Next up: adding visual effects and building out a full environment! Let me know in the comments if you have any feedback or ideas for improvement. Thanks submitted by /u/elikemJefferson [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xth0sg/wip_spaceship_crash_test/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xtgxpn/new_to_comfyui_looking_for_recommendations_based/</id><title>New to ComfyUI, looking for recommendations based on my specs</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xtgxpn/new_to_comfyui_looking_for_recommendations_based/"/>
-<published>2026-11-11T12:50:47+00:00</published><updated>2026-11-11T12:50:47+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="wan"/>
-<summary>Hey guys, I'm currently trying to create a YouTube shorts series based on whimsical characters (which I haven't really decided on yet). I've just been experimenting with different templates, settings and prompts so far. My specs are: RTX 3080 12GB i7-12700 32GB RAM First I used Wan 2.2 5b with many </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · comfyui, wan&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey guys, I'm currently trying to create a YouTube shorts series based on whimsical characters (which I haven't really decided on yet). I've just been experimenting with different templates, settings and prompts so far. My specs are: RTX 3080 12GB i7-12700 32GB RAM First I used Wan 2.2 5b with many different settings and prompts but the results were disappointing. I was unable to generate even the simplest movements as everything would become distorted and surreal. Then I switched to 14b and the results were a huge improvement. I don't expect photorealistic output, cartoony and childish stuff would work well as long as I can create a consistent and engaging story. I haven't got to voiceovers&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xtgxpn/new_to_comfyui_looking_for_recommendations_based/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
