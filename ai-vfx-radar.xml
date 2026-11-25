@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-24T23:31:25+00:00</updated>
+<updated>2026-11-25T01:30:45+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
 <entry>
 <id>https://github.com/zhouxiaoka/autoclip</id><title>zhouxiaoka/autoclip</title>
@@ -3510,52 +3510,5 @@
 <category term="minimax"/>
 <summary>H3-Image is built on MiniMax H3, originally a video generation model, and it seems to retain some of that video-frame softness in finer details. But when it comes to speed, this thing is an absolute beast. At 8.41 MP (2368 × 3552) , running on an AMD Radeon RX 9060 XT with 16 GB of VRAM and 64 GB of</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · video generation, comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;H3-Image is built on MiniMax H3, originally a video generation model, and it seems to retain some of that video-frame softness in finer details. But when it comes to speed, this thing is an absolute beast. At 8.41 MP (2368 × 3552) , running on an AMD Radeon RX 9060 XT with 16 GB of VRAM and 64 GB of DDR4 system RAM, it generates images in just 35.03–42.53 seconds . None of the other models I've tested comes close to this performance on my hardware. Its aesthetic appeal and creativity are also on point, easily on par with Krea 2. For a six-step model, it's remarkably good at producing varied compositions rather than falling back on the same visual formulas. Some examples above. For anyone int&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xt50cj/amazed_by_the_generation_speed_of_minimax_h3image/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xt4690/rx_6800_rdna2_3x_faster_images_in_comfyui_int8/</id><title>RX 6800 (RDNA2): 3x faster images in ComfyUI (int8 convrot)</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xt4690/rx_6800_rdna2_3x_faster_images_in_comfyui_int8/"/>
-<published>2026-11-11T00:59:20+00:00</published><updated>2026-11-11T00:59:20+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<summary>I was not happy with my RX 6800 speeds on newer diffusion modes like Qwen Image 2.1 for example and decided to do something about it using Deepsek V4 Flash 1017. Personally I don't know much details about what is going on here, but gains are insane, so I thought this might be useful for RDNA2 owners</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I was not happy with my RX 6800 speeds on newer diffusion modes like Qwen Image 2.1 for example and decided to do something about it using Deepsek V4 Flash 1017. Personally I don't know much details about what is going on here, but gains are insane, so I thought this might be useful for RDNA2 owners to keep their cards alive longer. Buying new shiny NVIDIA in current economy is just rough. We with Deepseek been working on ComfyUI speed on an RX 6800 (ROCm, Linux) and got about 3x on images. Qwen Image 2.1 (int8 convrot), 1024x1024, same seed, per image, text encode and VAE included: base, 25 steps: 180 s → 60 s turbo, 8 steps: 70 s → 20 s How to use it git clone -b rdna2-all https://github.c&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xt4690/rx_6800_rdna2_3x_faster_images_in_comfyui_int8/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xt3dgc/minimax_h3image_2_step_lora_realtime/</id><title>MiniMax H3-Image 2 step lora realtime</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xt3dgc/minimax_h3image_2_step_lora_realtime/"/>
-<published>2026-11-11T00:22:35+00:00</published><updated>2026-11-11T00:22:35+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="minimax"/>
-<category term="lora"/>
-<summary>model: https://huggingface.co/akhaliq/minimax-h3-image-pdmd-2step submitted by /u/Illustrious_Row_9971 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;model: https://huggingface.co/akhaliq/minimax-h3-image-pdmd-2step submitted by /u/Illustrious_Row_9971 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xt3dgc/minimax_h3image_2_step_lora_realtime/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xt33ua/minimax_h3_image_is_insane_a_revolutionary_model/</id><title>MiniMax H3 Image is insane - a Revolutionary model - 1 MP 3.4 is second, 4 MP is 5.7 second, 16 MP is 15.7 second, works great even on low VRAM GPUs like 12 GB or lower - here full tutorial</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xt33ua/minimax_h3_image_is_insane_a_revolutionary_model/"/>
-<published>2026-11-11T00:10:39+00:00</published><updated>2026-11-11T00:10:39+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="minimax"/>
-<summary>submitted by /u/CeFurkan [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/CeFurkan [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xt33ua/minimax_h3_image_is_insane_a_revolutionary_model/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1xt2onc/short_film_vfx_need/</id><title>Short film VFX need!!!</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xt2onc/short_film_vfx_need/"/>
-<published>2026-11-10T23:53:28+00:00</published><updated>2026-11-10T23:53:28+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="vfx"/>
-<summary>Hello! I am a college sophomore directing a short film and need someone to handle VFX. I can guarantee that whatever I try to do wouldn't be worth the squeeze. As of right now, it would just be a very tall but narrow fire coming out of a bucket/open-top container, similar to the shape of a jet. It i</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hello! I am a college sophomore directing a short film and need someone to handle VFX. I can guarantee that whatever I try to do wouldn't be worth the squeeze. As of right now, it would just be a very tall but narrow fire coming out of a bucket/open-top container, similar to the shape of a jet. It is a low-budget film. Looking forward to connecting! - Max submitted by /u/Lanky_Winner_3250 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xt2onc/short_film_vfx_need/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xt2m3p/is_qwen_image_21_faster_on_linux_than_on_windows/</id><title>Is Qwen Image 2.1 faster on Linux than on Windows, or is it just my perception?</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xt2m3p/is_qwen_image_21_faster_on_linux_than_on_windows/"/>
-<published>2026-11-10T23:50:22+00:00</published><updated>2026-11-10T23:50:22+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="stable diffusion"/>
-<summary>Hi all, This is a follow-up to the same question I posted on the Stable Diffusion subreddit. After several people confirmed my observations, I decided to bring the discussion here to ask whether it's possible to achieve the same speed on Windows. Below is the original message: I have been using Qwen</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui, stable diffusion&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hi all, This is a follow-up to the same question I posted on the Stable Diffusion subreddit. After several people confirmed my observations, I decided to bring the discussion here to ask whether it's possible to achieve the same speed on Windows. Below is the original message: I have been using Qwen Image 2.1 on linux but had to move to windows because of some programs that I had to use. I installed windows 11 in another SDD and Installed comfy UI too. After checking Qwen Image 2.1 in comfy ui I noticed it was slower, not just a little but around a 30-40%. I can't return to linux to test it because my brother took the ssd. I was using the standard Qwen Image edit in comfyui with a Nvidia 408&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xt2m3p/is_qwen_image_21_faster_on_linux_than_on_windows/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
