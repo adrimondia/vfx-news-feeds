@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-25T13:31:35+00:00</updated>
+<updated>2026-11-25T15:31:38+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
 <entry>
 <id>https://arxiv.org/abs/2611.31428</id><title>Enhancing Sparse-View Gaussian Splatting with Feed-Forward Priors via Spectral Fusion and Distillation</title>
@@ -3450,85 +3450,5 @@
 <category term="comfyui"/>
 <summary>Ever since the realism settings went around here I've been stuck on one look: the harsh on-camera flash of a 2000s point-and-shoot. The background dropping into black, everyone a little shiny, somebody caught mid-sentence. MOSS-Image-Base gets that look really well if you describe the camera and wha</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · upscaling, comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Ever since the realism settings went around here I've been stuck on one look: the harsh on-camera flash of a 2000s point-and-shoot. The background dropping into black, everyone a little shiny, somebody caught mid-sentence. MOSS-Image-Base gets that look really well if you describe the camera and what's wrong with the shot as well as the scene. I write the flaws into the prompt too: crooked framing, a little motion blur, red-eye on one friend, the fridge door hanging open a crack. My prompts ended up around a hundred words each, and a good part of that is the camera and the mistakes. My setup is MOSS-Image-Base bf16 with the realism graph everyone's been using: cfg 3, ER-SDE sampler with s_no&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xtl83k/i_cant_stop_making_cheap_flash_photos_with/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xtkg94/fizgig_96_train_loras_on_minimax_h3_image/</id><title>Fizgig 9.6: train LoRAs on MiniMax H3 Image</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xtkg94/fizgig_96_train_loras_on_minimax_h3_image/"/>
-<published>2026-11-11T15:20:36+00:00</published><updated>2026-11-11T15:20:36+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<category term="minimax"/>
-<category term="lora"/>
-<summary>UPDATE: As usual I've made a few tweaks based on user feedback, so keep running the update script for next day or so for H3 Image Tweaks I've just released Fizgig 9.6, which adds MiniMax H3 Image, MiniMax's new picture model from the H3 family: text-to-image and edits with up to 16 reference picture</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · comfyui, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;UPDATE: As usual I've made a few tweaks based on user feedback, so keep running the update script for next day or so for H3 Image Tweaks I've just released Fizgig 9.6, which adds MiniMax H3 Image, MiniMax's new picture model from the H3 family: text-to-image and edits with up to 16 reference pictures, 6 steps, no CFG. What you can train: LoRAs, LoKRs, edit LoRAs from before/after pairs, and slider LoRAs from photo pairs. Masked training, Multi Concept and LoRA Isolation all work, and so do Studio, LoRA Royale, the Profiler and Extract. Pick it on the Training tab, press Download models for me in Preferences, and pick a preset; nothing is gated. I trained a training adapter for it , which pre&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xtkg94/fizgig_96_train_loras_on_minimax_h3_image/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xtjbn9/turn_any_comfyui_workflow_into_a_oneclick_model/</id><title>Turn any ComfyUI workflow into a one-click model (MiniMax H3 Video / Image, Qwen 2.1 + 7 more included)</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xtjbn9/turn_any_comfyui_workflow_into_a_oneclick_model/"/>
-<published>2026-11-11T14:35:54+00:00</published><updated>2026-11-11T14:35:54+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="flux"/>
-<category term="wan"/>
-<category term="minimax"/>
-<category term="ltx"/>
-<summary>Last time I posted my AI studio app I said a ComfyUI node was “in progress”. It took way longer than I thought, but it’s out. The idea is simple: set up a workflow in Comfy once, choose how many refs and which settings it takes, save it, and paste one URL into the app. From then on it's just a model</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 7 · comfyui, flux, wan, minimax, ltx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Last time I posted my AI studio app I said a ComfyUI node was “in progress”. It took way longer than I thought, but it’s out. The idea is simple: set up a workflow in Comfy once, choose how many refs and which settings it takes, save it, and paste one URL into the app. From then on it's just a model in a clean UI, next to the API models. Pick it, type a prompt, hit generate, and everything lands in one history, local and API. I also adapted 9 workflows I actually tried and wired my nodes into them, 19 models in total, each with a prompt guide you can also use as a Claude skill: - MiniMax H3 (video, fast, extend, image, image fast) - Qwen 2.1 (plus head swap, body swap and outpaint) - LTX 2.5&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xtjbn9/turn_any_comfyui_workflow_into_a_oneclick_model/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xtjanb/this_took_x_hrs_35_mins_to_make_on_a_rtx_3050_6gb/</id><title>THIS TOOK X Hrs 35 Mins TO MAKE ON A RTX 3050 6GB VRAM USING MINIMAX H3</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xtjanb/this_took_x_hrs_35_mins_to_make_on_a_rtx_3050_6gb/"/>
-<published>2026-11-11T14:34:49+00:00</published><updated>2026-11-11T14:34:49+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="comfyui"/>
-<category term="minimax"/>
-<category term="ai video"/>
-<summary>60 seconds of AI video, 100% local on an RTX 3050 (6 GB) Work in progress, and the quality isn’t where I want it yet. Here’s how it was made: Model: MiniMax H3 reference-to-video, using ComfyUI’s native H3 nodes with the int8 quantized model and the Qwen3-VL text encoder. References: two character i</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · comfyui, minimax, ai video&lt;/small&gt;&lt;/p&gt;&lt;p&gt;60 seconds of AI video, 100% local on an RTX 3050 (6 GB) Work in progress, and the quality isn’t where I want it yet. Here’s how it was made: Model: MiniMax H3 reference-to-video, using ComfyUI’s native H3 nodes with the int8 quantized model and the Qwen3-VL text encoder. References: two character images, re-used in every shot to keep the characters consistent. Prompts: the official six-section reference prompt format (subject definitions, summary, retention analysis, detailed description, soundscape, music). No negative prompts, because H3 doesn’t use them. Shots: six shots of 260 frames (10.8 s) at 864×480 and 25 steps, with the res_multistep sampler and the simple scheduler. Continuity: e&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xtjanb/this_took_x_hrs_35_mins_to_make_on_a_rtx_3050_6gb/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xtj5xr/minimax_h3_singularity_v2_on_a_6_gb_gpu/</id><title>MiniMax H3 Singularity V2 on a 6 GB GPU: Text2Video, Img2Video, MultiRef + Audio and 4K upscale (free workflow)</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xtj5xr/minimax_h3_singularity_v2_on_a_6_gb_gpu/"/>
-<published>2026-11-11T14:29:24+00:00</published><updated>2026-11-11T14:29:24+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="frame interpolation"/>
-<category term="lip sync"/>
-<category term="minimax"/>
-<category term="lora"/>
-<summary>I’ve been testing Singularity V2 , the MiniMax H3 fine-tune, on a 6 GB VRAM card. It runs better than I expected, so I put everything into one workflow. Free Workflow in the Youtube video description: https://www.youtube.com/watch?v=opoqT6fB_Nk What’s inside: Text2Video: structured H3 prompt (style,</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 5 · frame interpolation, lip sync, minimax, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I’ve been testing Singularity V2 , the MiniMax H3 fine-tune, on a 6 GB VRAM card. It runs better than I expected, so I put everything into one workflow. Free Workflow in the Youtube video description: https://www.youtube.com/watch?v=opoqT6fB_Nk What’s inside: Text2Video: structured H3 prompt (style, subject, setting, camera, action, dialogue, soundscape) Img2Video: animate any image with native audio MultiRef + Audio2Video: character + environment images plus your own voice clip, with solid lip sync Ref2Video: up to 4 reference images, each with its own role (great for product ads) 4K upscale + frame interpolation: 720p → 4K, 24 → 48 fps My times on 6 GB VRAM: Text2Video: 0.6 MP in ~18 min I&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xtj5xr/minimax_h3_singularity_v2_on_a_6_gb_gpu/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xtir24/my_openh3regenerate2k_nodes_for_comfyui_updated/</id><title>My Open-H3-Regenerate-2K nodes for ComfyUI updated with IC support</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xtir24/my_openh3regenerate2k_nodes_for_comfyui_updated/"/>
-<published>2026-11-11T14:12:10+00:00</published><updated>2026-11-11T14:12:10+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="upscaler"/>
-<category term="comfyui"/>
-<summary>I’ve updated my experimental Open-H3-Regenerate-2K nodes with support for NVIDIA’s newer IC model. It's still very much mostly for testing, and it's not exactly a low VRAM model. Repo: https://github.com/o-l-l-i/ComfyUI-Olm-Open-H3-Regenerate-2K In my tests there's a noticeable improvement over the </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · upscaler, comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I’ve updated my experimental Open-H3-Regenerate-2K nodes with support for NVIDIA’s newer IC model. It's still very much mostly for testing, and it's not exactly a low VRAM model. Repo: https://github.com/o-l-l-i/ComfyUI-Olm-Open-H3-Regenerate-2K In my tests there's a noticeable improvement over the previous version. Faces, shading and small shapes stay closer to the source while details gain definition. It feels more useful as a refiner now, although it can still reinterpret features, lettering and textures as it's a generative upscaler. The update to my nodes includes: Separate IC loader and video refinement nodes. Adjustable IC and LMS Sharp strengths, plus three- and four-step sampling. E&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xtir24/my_openh3regenerate2k_nodes_for_comfyui_updated/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xtipl7/testing_minimax_h3image_exploded_view_of_an/</id><title>Testing MiniMax H3-Image: Exploded view of an espresso machine from a single photo</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xtipl7/testing_minimax_h3image_exploded_view_of_an/"/>
-<published>2026-11-11T14:10:27+00:00</published><updated>2026-11-11T14:10:27+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="upscaling"/>
-<category term="image editing"/>
-<category term="rendering"/>
-<category term="minimax"/>
-<summary>I took a single photo of a vintage Italian espresso machine and ran it through MiniMax H3-Image (open weights) to see if it could pull the whole thing apart into a clean technical breakdown. First image is the input photo, second is the output. It laid out 15 separate parts floating along a diagonal</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 5 · upscaling, image editing, rendering, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I took a single photo of a vintage Italian espresso machine and ran it through MiniMax H3-Image (open weights) to see if it could pull the whole thing apart into a clean technical breakdown. First image is the input photo, second is the output. It laid out 15 separate parts floating along a diagonal with leader lines and English labels, plus all the copper and brass internals inside the stainless-steel shell. What I found interesting was how much structural detail it could pull from a single reference image. An exploded view is a pretty demanding editing task since the model needs to preserve the original design while generating components that aren't fully visible in the input. On the techn&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xtipl7/testing_minimax_h3image_exploded_view_of_an/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xtimco/this_took_x_hrs_35_mins_to_make_on_a_rtx_3050_6gb/</id><title>THIS TOOK X Hrs 35 Mins TO MAKE ON A RTX 3050 6GB VRAM USING MINIMAX H3</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xtimco/this_took_x_hrs_35_mins_to_make_on_a_rtx_3050_6gb/"/>
-<published>2026-11-11T14:06:55+00:00</published><updated>2026-11-11T14:06:55+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="minimax"/>
-<category term="ai video"/>
-<summary>60 seconds of AI video, 100% local on an RTX 3050 (6 GB) Work in progress, and the quality isn’t where I want it yet. Here’s how it was made: Model: MiniMax H3 reference-to-video, using ComfyUI’s native H3 nodes with the int8 quantized model and the Qwen3-VL text encoder. References: two character i</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · comfyui, minimax, ai video&lt;/small&gt;&lt;/p&gt;&lt;p&gt;60 seconds of AI video, 100% local on an RTX 3050 (6 GB) Work in progress, and the quality isn’t where I want it yet. Here’s how it was made: Model: MiniMax H3 reference-to-video, using ComfyUI’s native H3 nodes with the int8 quantized model and the Qwen3-VL text encoder. References: two character images, re-used in every shot to keep the characters consistent. Prompts: the official six-section reference prompt format (subject definitions, summary, retention analysis, detailed description, soundscape, music). No negative prompts, because H3 doesn’t use them. Shots: six shots of 260 frames (10.8 s) at 864×480 and 25 steps, with the res_multistep sampler and the simple scheduler. Continuity: e&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xtimco/this_took_x_hrs_35_mins_to_make_on_a_rtx_3050_6gb/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
