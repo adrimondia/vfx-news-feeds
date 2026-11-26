@@ -2,8 +2,239 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-26T03:30:58+00:00</updated>
+<updated>2026-11-26T05:30:31+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
+<entry>
+<id>https://arxiv.org/abs/2611.33378</id><title>DreamTour: Layout Steering for Training-Free World Exploration</title>
+<link rel="alternate" href="https://arxiv.org/abs/2611.33378"/>
+<published>2026-11-26T05:00:00+00:00</published><updated>2026-11-26T05:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="video diffusion"/>
+<category term="camera control"/>
+<category term="inpainting"/>
+<category term="denoising"/>
+<category term="rendering"/>
+<category term="consistency"/>
+<summary>arXiv:2611.33378v1 Announce Type: new Abstract: Video diffusion and world models generate plausible videos but do not reliably match the requested camera direction and travel distance. We present DreamTour, a training-free framework that generates camera tours from a single image with more accurate </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 6 · video diffusion, camera control, inpainting, denoising, rendering, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2611.33378v1 Announce Type: new Abstract: Video diffusion and world models generate plausible videos but do not reliably match the requested camera direction and travel distance. We present DreamTour, a training-free framework that generates camera tours from a single image with more accurate control over camera motion. DreamTour first uses a frozen image inpainting prior to extend the photograph beyond its original field of view while preserving the input pixels. Depth-based rendering of this extended scene along the requested camera path produces approximate target views that serve as spatial guidance. We introduce Layout Steering, which aligns early video latents with these views th&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2611.33378"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2611.33591</id><title>VivaWorld: Long-Horizon Video World Model With Compositional 3D Priors</title>
+<link rel="alternate" href="https://arxiv.org/abs/2611.33591"/>
+<published>2026-11-26T05:00:00+00:00</published><updated>2026-11-26T05:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="video generation"/>
+<category term="world model"/>
+<category term="camera control"/>
+<category term="consistency"/>
+<summary>arXiv:2611.33591v1 Announce Type: new Abstract: Long-horizon video generation is key to interactive world modeling, physical intelligence, and spatial reasoning, yet maintaining geometric consistency and accurate camera control remains challenging without 3D grounding. We introduce \textbf{VivaWorld</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · video generation, world model, camera control, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2611.33591v1 Announce Type: new Abstract: Long-horizon video generation is key to interactive world modeling, physical intelligence, and spatial reasoning, yet maintaining geometric consistency and accurate camera control remains challenging without 3D grounding. We introduce \textbf{VivaWorld}, a framework for generating geometry- and view-consistent long videos from an image. We first construct a compositional hybrid 3D representation that combines reconstructed point clouds, which preserve observed scene geometry and appearance, with generated textured meshes, which provide complete object geometry across $360^\circ$ novel views. We also introduce a connected-region filter removing &lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2611.33591"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2611.33698</id><title>Efficient Scene-Distribution-Aware Second-Order Optimization for 3D Gaussian Splatting</title>
+<link rel="alternate" href="https://arxiv.org/abs/2611.33698"/>
+<published>2026-11-26T05:00:00+00:00</published><updated>2026-11-26T05:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="gaussian splatting"/>
+<category term="3d gaussian"/>
+<category term="compositing"/>
+<category term="rendering"/>
+<category term="multi-view"/>
+<summary>arXiv:2611.33698v1 Announce Type: new Abstract: 3D Gaussian Splatting (3DGS) optimization updates the Gaussian parameters one training view at a time, tens of thousands of times. Unlike such single-view updates, multi-view batches reduce dependence on individual training views, and second-order opti</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 7 · gaussian splatting, 3d gaussian, compositing, rendering, multi-view&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2611.33698v1 Announce Type: new Abstract: 3D Gaussian Splatting (3DGS) optimization updates the Gaussian parameters one training view at a time, tens of thousands of times. Unlike such single-view updates, multi-view batches reduce dependence on individual training views, and second-order optimization reduces the number of updates with larger, structured parameter changes. Because fewer updates leave fewer chances to correct a change that fits only the views used in one update, scene coverage becomes more important for each second-order update. Multi-view second-order updates, however, are expensive. Pixel sampling reduces this cost, but two issues remain. First, selecting views withou&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2611.33698"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2611.33734</id><title>DualCast: Dual-Image Conditioned Diffusion Transformers for Digital Human E-Commerce Video Generation</title>
+<link rel="alternate" href="https://arxiv.org/abs/2611.33734"/>
+<published>2026-11-26T05:00:00+00:00</published><updated>2026-11-26T05:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="video generation"/>
+<category term="video model"/>
+<category term="camera pose"/>
+<category term="camera control"/>
+<category term="digital human"/>
+<category term="pose estimation"/>
+<summary>arXiv:2611.33734v1 Announce Type: new Abstract: Recent advances in world models for game interaction and control have increased the demand for large-scale gameplay videos paired with camera trajectories. However, capturing synchronized camera trajectories often requires game-specific pipelines, limi</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 8 · video generation, video model, camera pose, camera control, digital human, pose estimation&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2611.33734v1 Announce Type: new Abstract: Recent advances in world models for game interaction and control have increased the demand for large-scale gameplay videos paired with camera trajectories. However, capturing synchronized camera trajectories often requires game-specific pipelines, limiting scalability. We therefore propose GameWeaver, a unified diffusion framework that automatically produces paired video--camera data through three complementary tasks: camera pose estimation from observed video, video generation along a prescribed camera trajectory, and joint video--camera generation from a reference image and text. First, each tipxel stores the normalized 3D coordinates of a pi&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2611.33734"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2611.33824</id><title>Revisiting Monocular In-Hand Object Scanning: Dataset, Pose Estimation, and Surface Reconstruction</title>
+<link rel="alternate" href="https://arxiv.org/abs/2611.33824"/>
+<published>2026-11-26T05:00:00+00:00</published><updated>2026-11-26T05:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="gaussian splatting"/>
+<category term="camera pose"/>
+<category term="pose estimation"/>
+<category term="rendering"/>
+<summary>arXiv:2611.33824v1 Announce Type: new Abstract: In-Hand Object Scanning (IHOS) from monocular video captured by a commodity smartphone holds immense potential to democratize 3D digitization for non-expert users, facilitating applications in digital archiving, augmented reality, and custom fabricatio</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · gaussian splatting, camera pose, pose estimation, rendering&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2611.33824v1 Announce Type: new Abstract: In-Hand Object Scanning (IHOS) from monocular video captured by a commodity smartphone holds immense potential to democratize 3D digitization for non-expert users, facilitating applications in digital archiving, augmented reality, and custom fabrication. Yet, IHOS remains largely understudied due to a lack of realistic datasets and systematic benchmarks. To bridge this gap, we introduce ToysRUs, a high-quality dataset featuring diverse figurines captured by 4K Ultra High-Definition (UHD) monocular videos. Studying IHOS from first principles, we examine structure-from-motion (SfM) for camera pose estimation, which is key to IHOS. We identify two&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2611.33824"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2611.34064</id><title>SPARC: Geometry-Guided Attention Pruning for Long-Horizon Camera-Controlled Video Generation</title>
+<link rel="alternate" href="https://arxiv.org/abs/2611.34064"/>
+<published>2026-11-26T05:00:00+00:00</published><updated>2026-11-26T05:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="video generation"/>
+<category term="video diffusion"/>
+<category term="camera control"/>
+<category term="consistency"/>
+<summary>arXiv:2611.34064v1 Announce Type: new Abstract: We present SPARC, a geometry-guided attention pruning framework that turns the native self-attention of pretrained video diffusion transformers into a unified mechanism for camera control and persistent scene memory. Our key insight is that attention c</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · video generation, video diffusion, camera control, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2611.34064v1 Announce Type: new Abstract: We present SPARC, a geometry-guided attention pruning framework that turns the native self-attention of pretrained video diffusion transformers into a unified mechanism for camera control and persistent scene memory. Our key insight is that attention connectivity can simultaneously serve as geometric conditioning for camera control and spatial addressing for historical memory retrieval. Motivated by the asymmetric contextual requirements of reconstructing observed content and synthesizing novel regions, SPARC restricts observed tokens to geometrically corresponding historical tokens and local spatiotemporal context, while preserving dense atten&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2611.34064"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2611.34223</id><title>AnyCam4D: Ray-Based 4D Gaussian Rendering for Arbitrary Camera Models</title>
+<link rel="alternate" href="https://arxiv.org/abs/2611.34223"/>
+<published>2026-11-26T05:00:00+00:00</published><updated>2026-11-26T05:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="gaussian splatting"/>
+<category term="4d"/>
+<category term="render"/>
+<category term="rendering"/>
+<summary>arXiv:2611.34223v1 Announce Type: new Abstract: Real cameras are not pinholes, yet most dynamic Gaussian splatting assumes they are. Footage is therefore undistorted first, losing field of view or detail, especially with wide-angle and fisheye cameras. Static Gaussian splatting has largely solved th</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 6 · gaussian splatting, 4d, render, rendering&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2611.34223v1 Announce Type: new Abstract: Real cameras are not pinholes, yet most dynamic Gaussian splatting assumes they are. Footage is therefore undistorted first, losing field of view or detail, especially with wide-angle and fisheye cameras. Static Gaussian splatting has largely solved this with ray-based rendering, which suits any camera. Native 4D Gaussians, which model motion in space-time, cannot use it directly: each Gaussian's orientation and size cannot be recovered reliably from its covariance. We present AnyCam4D, which trains native 4D Gaussians on original footage by ray-based rasterization, preserving field of view and resolution at about the per-step cost of standard &lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2611.34223"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2611.34393</id><title>Plausible Is Not Proven: Testing Failure Explanations in Monocular Depth Estimation</title>
+<link rel="alternate" href="https://arxiv.org/abs/2611.34393"/>
+<published>2026-11-26T05:00:00+00:00</published><updated>2026-11-26T05:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="depth estimation"/>
+<category term="monocular depth"/>
+<category term="veo"/>
+<summary>arXiv:2611.34393v1 Announce Type: new Abstract: Failure analyses of monocular depth models often name a cause for each error, such as an occluding boundary, a thin object or a reflective surface, but such labels are rarely tested. We present the Vision Error Observatory (VEO), an audit that finds re</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · depth estimation, monocular depth, veo&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2611.34393v1 Announce Type: new Abstract: Failure analyses of monocular depth models often name a cause for each error, such as an occluding boundary, a thin object or a reflective surface, but such labels are rarely tested. We present the Vision Error Observatory (VEO), an audit that finds regions failing the $\delta_1$ criterion on sensor-measured pixels, labels each with a likely cause or abstains, and then subjects the labels to four tests: agreement with object annotations on data the label model never saw, agreement with blinded human raters, response to targeted image edits, and value as a training signal. We apply it to eight models on NYU Depth V2, DIODE and iBims-1, with labe&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2611.34393"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2611.34680</id><title>Neural Rendering Compiler: Generative Video Models as Programmable Renderers</title>
+<link rel="alternate" href="https://arxiv.org/abs/2611.34680"/>
+<published>2026-11-26T05:00:00+00:00</published><updated>2026-11-26T05:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="text-to-video"/>
+<category term="image-to-video"/>
+<category term="rendering"/>
+<category term="blender"/>
+<category term="wan"/>
+<category term="minimax"/>
+<category term="seedance"/>
+<category term="generative video"/>
+<summary>arXiv:2611.34680v1 Announce Type: new Abstract: Generative video models are becoming powerful renderers, yet lack the predictable control interfaces of conventional systems such as HTML/CSS engines or Blender. Their capabilities emerge implicitly from training, making it difficult to determine what </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 10 · text-to-video, image-to-video, rendering, blender, wan, minimax, seedance, generative video&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2611.34680v1 Announce Type: new Abstract: Generative video models are becoming powerful renderers, yet lack the predictable control interfaces of conventional systems such as HTML/CSS engines or Blender. Their capabilities emerge implicitly from training, making it difficult to determine what they can reliably execute. We present Neural Rendering Compiler (NeurCo), which automatically probes frozen video models to construct model-specific capability manuals describing which semantic requirements they can reliably satisfy. NeurCo represents user intent in a model-agnostic intermediate representation of objects, constraints, events, and cameras, then compiles it into model-specific execu&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2611.34680"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2611.34931</id><title>DynMF2: Rigid Motion Factorization by Expectation-Maximization for Monocular 4D Reconstruction and Motion Segmentation</title>
+<link rel="alternate" href="https://arxiv.org/abs/2611.34931"/>
+<published>2026-11-26T05:00:00+00:00</published><updated>2026-11-26T05:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="4d"/>
+<category term="segmentation"/>
+<category term="tracking"/>
+<category term="rendering"/>
+<summary>arXiv:2611.34931v1 Announce Type: new Abstract: A single casual video leaves a moving scene under-determined: a point seen once from each place can slide toward or away from the camera and still match every frame. We constrain the reconstruction with the structure of the motion itself. Building on D</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 6 · 4d, segmentation, tracking, rendering&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2611.34931v1 Announce Type: new Abstract: A single casual video leaves a moving scene under-determined: a point seen once from each place can slide toward or away from the camera and still match every frame. We constrain the reconstruction with the structure of the motion itself. Building on DynMF, we model a scene's motion as a handful of SE(3) trajectories, each rigid, and let every point follow one of them alone, never a blend. DynMF2 computes this factorization directly from 3D point trajectories, with no rendering, by Expectation-Maximization (EM). Its M-step fits, in closed form, every rigid motion to the points assigned to it, and its E-step reassigns every point to the motion t&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2611.34931"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2611.34940</id><title>LuxAvatar: Real-Time Relightable Head Avatars via Causal Neural Shading of 3D Intrinsic Proxies</title>
+<link rel="alternate" href="https://arxiv.org/abs/2611.34940"/>
+<published>2026-11-26T05:00:00+00:00</published><updated>2026-11-26T05:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="video diffusion"/>
+<category term="pbr"/>
+<category term="relighting"/>
+<category term="avatar"/>
+<category term="animation"/>
+<category term="rendering"/>
+<summary>arXiv:2611.34940v1 Announce Type: new Abstract: We present LuxAvatar, a feed-forward framework for real-time head avatar animation and relighting from a single portrait. To achieve both 3D controllability and complex facial light transport, we factorize avatar synthesis into an animatable 3D intrins</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 6 · video diffusion, pbr, relighting, avatar, animation, rendering&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2611.34940v1 Announce Type: new Abstract: We present LuxAvatar, a feed-forward framework for real-time head avatar animation and relighting from a single portrait. To achieve both 3D controllability and complex facial light transport, we factorize avatar synthesis into an animatable 3D intrinsic Gaussian proxy and a causal autoregressive neural shader. This proxy disentangles canonical geometry and reflectance attributes, rapidly rasterizing deformed Gaussians into view- and motion-consistent PBR buffers. Conditioned on these buffers, our neural shader formulates forward rendering as a conditional video diffusion process, bypassing explicit PBR computation to synthesize realistic shadi&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2611.34940"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2611.34941</id><title>Improving and Expanding Video Editing Capabilities Without Videos</title>
+<link rel="alternate" href="https://arxiv.org/abs/2611.34941"/>
+<published>2026-11-26T05:00:00+00:00</published><updated>2026-11-26T05:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="image-to-video"/>
+<category term="relighting"/>
+<category term="video editing"/>
+<category term="image editing"/>
+<category term="denoising"/>
+<category term="consistency"/>
+<summary>arXiv:2611.34941v1 Announce Type: new Abstract: Image editing models can follow a wide range of instructions, but video editing models still lag behind, limited in part by the difficulty of collecting paired source and edited videos. Is it possible to transfer advanced image editing capabilities to </summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 7 · image-to-video, relighting, video editing, image editing, denoising, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2611.34941v1 Announce Type: new Abstract: Image editing models can follow a wide range of instructions, but video editing models still lag behind, limited in part by the difficulty of collecting paired source and edited videos. Is it possible to transfer advanced image editing capabilities to video editors without new paired videos? We introduce Image-to-Video Transfer (I2VT), which improves pretrained video editors and expands them to new editing tasks using an image editor. It enables efficient post-training with no architectural changes and no new videos, using only individual images. Our key idea is to let the video editor role-play as an image editor: it edits an image as a one-fr&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2611.34941"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2611.34944</id><title>AnyCam: Anything Can Represent Camera for Video Generation</title>
+<link rel="alternate" href="https://arxiv.org/abs/2611.34944"/>
+<published>2026-11-26T05:00:00+00:00</published><updated>2026-11-26T05:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="video generation"/>
+<category term="video diffusion"/>
+<category term="3d reconstruction"/>
+<category term="camera control"/>
+<category term="render"/>
+<summary>arXiv:2611.34944v1 Announce Type: new Abstract: Camera-controlled video generation re-renders a video along a target camera trajectory, yet moving the camera around an object, the most natural way to change the viewpoint of an object-centric scene, remains difficult. Existing methods condition eithe</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 6 · video generation, video diffusion, 3d reconstruction, camera control, render&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2611.34944v1 Announce Type: new Abstract: Camera-controlled video generation re-renders a video along a target camera trajectory, yet moving the camera around an object, the most natural way to change the viewpoint of an object-centric scene, remains difficult. Existing methods condition either on camera parameters, which are scale-ambiguous in monocular video, or on explicit geometry such as warped point clouds or depth, which breaks down under large viewpoint changes. We present AnyCam, a method that represents the camera with an anchor object in the scene: we reconstruct it in 3D and render it along the target trajectory, a camera signal that is scale-aware, view-complete and easy t&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2611.34944"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2605.16582</id><title>ArtMesh: Part-Aware Articulated Mesh Fields with Motion-Consistent Dynamics</title>
+<link rel="alternate" href="https://arxiv.org/abs/2605.16582"/>
+<published>2026-11-26T05:00:00+00:00</published><updated>2026-11-26T05:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="gaussian splatting"/>
+<category term="3d gaussian"/>
+<category term="rendering"/>
+<category term="consistency"/>
+<category term="multi-view"/>
+<summary>arXiv:2605.16582v2 Announce Type: replace Abstract: We present ArtMesh, a mesh-native method for reconstructing articulated objects explicitly as connected triangle meshes with per-part rigid motion from multi-view observations in start and end states. Existing 3D Gaussian Splatting pipelines for ar</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · gaussian splatting, 3d gaussian, rendering, consistency, multi-view&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2605.16582v2 Announce Type: replace Abstract: We present ArtMesh, a mesh-native method for reconstructing articulated objects explicitly as connected triangle meshes with per-part rigid motion from multi-view observations in start and end states. Existing 3D Gaussian Splatting pipelines for articulated reconstruction inherit the unstructured point-based geometry of their splatting base, which provides no surface topology for reasoning about part boundaries or enforcing motion consistency along the object's connectivity. ArtMesh instead builds on a mesh-based differentiable rendering backbone, enabling part-aware dynamics to act directly on the structured topology. To make the topology &lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2605.16582"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2607.19986</id><title>STEREOFLOW: Progressive Stereo Matching with StereoDiT and Transition Flow Matching</title>
+<link rel="alternate" href="https://arxiv.org/abs/2607.19986"/>
+<published>2026-11-26T05:00:00+00:00</published><updated>2026-11-26T05:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="3d reconstruction"/>
+<category term="diffusion transformer"/>
+<category term="consistency"/>
+<category term="stereo"/>
+<summary>arXiv:2607.19986v2 Announce Type: replace Abstract: Stereo matching is a fundamental task in 3D reconstruction. Despite remarkable advances, the prevailing paradigms formulate stereo matching as a deterministic regression problem, collapsing the multimodal distribution modeling into a single-point e</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · 3d reconstruction, diffusion transformer, consistency, stereo&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2607.19986v2 Announce Type: replace Abstract: Stereo matching is a fundamental task in 3D reconstruction. Despite remarkable advances, the prevailing paradigms formulate stereo matching as a deterministic regression problem, collapsing the multimodal distribution modeling into a single-point estimation. This formulation suffers from a regression-to-mean bias, frequently struggling with ambiguous regions. In contrast, we introduce a prior-guided generative framework that integrates deterministic matching regression and generative distribution modeling within a complementary formulation. Built upon this formulation, we introduce StereoFlow through three key components: (i) a two-stage pr&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2607.19986"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2609.31050</id><title>Where Compute Matters: Heterogeneous Attention for Efficient Video Diffusion</title>
+<link rel="alternate" href="https://arxiv.org/abs/2609.31050"/>
+<published>2026-11-26T05:00:00+00:00</published><updated>2026-11-26T05:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="video generation"/>
+<category term="video diffusion"/>
+<category term="denoising"/>
+<category term="wan2"/>
+<summary>arXiv:2609.31050v2 Announce Type: replace Abstract: Efficient video generation requires reducing the quadratic cost of self-attention over long spatiotemporal token sequences. Denoising difficulty varies across video regions and evolves throughout generation, motivating an adaptive allocation of glo</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 5 · video generation, video diffusion, denoising, wan2&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2609.31050v2 Announce Type: replace Abstract: Efficient video generation requires reducing the quadratic cost of self-attention over long spatiotemporal token sequences. Denoising difficulty varies across video regions and evolves throughout generation, motivating an adaptive allocation of global context. We introduce HetA-DiT, a heterogeneous attention mechanism that routes uncertain tokens through global attention and processes more reliable tokens with local attention. A lightweight uncertainty branch is trained with an uncertainty-aware distribution-matching objective. At inference, its preceding-step predictions are shared across attention heads and reused across blocks, without a&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2609.31050"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2605.05876</id><title>3DSS: 3D Surface Splatting for Inverse Rendering</title>
+<link rel="alternate" href="https://arxiv.org/abs/2605.05876"/>
+<published>2026-11-26T05:00:00+00:00</published><updated>2026-11-26T05:00:00+00:00</updated>
+<author><name>arXiv cs.CV</name></author>
+<category term="novel view synthesis"/>
+<category term="relighting"/>
+<category term="compositing"/>
+<category term="hdr"/>
+<category term="rendering"/>
+<category term="multi-view"/>
+<summary>arXiv:2605.05876v4 Announce Type: replace-cross Abstract: We present 3D Surface Splatting (3DSS), the first differentiable surface splatting renderer for physically-based inverse rendering from multi-view images. Our central insight is that surface separation, which groups the surfels covering a pix</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.CV · score 7 · novel view synthesis, relighting, compositing, hdr, rendering, multi-view&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2605.05876v4 Announce Type: replace-cross Abstract: We present 3D Surface Splatting (3DSS), the first differentiable surface splatting renderer for physically-based inverse rendering from multi-view images. Our central insight is that surface separation, which groups the surfels covering a pixel by the surface they sample, can be formulated with the reconstruction kernels themselves: two surfels sample the same surface when their kernels overlap in depth. Compositing each resulting surface layer with a coverage opacity derived from its accumulated Elliptical Weighted Average (EWA) weight yields anti-aliased silhouettes and informative visibility gradients at sparsely covered edges. Wit&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2605.05876"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+<id>https://arxiv.org/abs/2611.34284</id><title>ReMeDi: Single-Image PBR Material Estimation via Reparameterization between Metal and Dielectric Hypotheses</title>
+<link rel="alternate" href="https://arxiv.org/abs/2611.34284"/>
+<published>2026-11-26T05:00:00+00:00</published><updated>2026-11-26T05:00:00+00:00</updated>
+<author><name>arXiv cs.GR</name></author>
+<category term="pbr"/>
+<category term="relighting"/>
+<category term="rendering"/>
+<summary>arXiv:2611.34284v1 Announce Type: cross Abstract: Physically based rendering (PBR) material estimation facilitates relighting, material editing, and 3D content creation. As the reflectance of a surface heavily depends on whether it is a metal or a dielectric, producing any map that determines albedo</summary>
+<content type="html">&lt;p&gt;&lt;small&gt;arXiv cs.GR · score 4 · pbr, relighting, rendering&lt;/small&gt;&lt;/p&gt;&lt;p&gt;arXiv:2611.34284v1 Announce Type: cross Abstract: Physically based rendering (PBR) material estimation facilitates relighting, material editing, and 3D content creation. As the reflectance of a surface heavily depends on whether it is a metal or a dielectric, producing any map that determines albedo involves a decision on metalness, which we call the "intended metalness" of the map. Rendering maps with mismatched intended metalness yields physically implausible or misinterpreted materials. The metallic--roughness workflow makes metalness explicit and thus encourages base color to match it, but does not enforce this match, especially for automated methods directly predicting each map. Therefo&lt;/p&gt;&lt;p&gt;&lt;a href="https://arxiv.org/abs/2611.34284"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
 <id>https://arxiv.org/abs/2611.31428</id><title>Enhancing Sparse-View Gaussian Splatting with Feed-Forward Priors via Spectral Fusion and Distillation</title>
 <link rel="alternate" href="https://arxiv.org/abs/2611.31428"/>
@@ -3206,59 +3437,5 @@
 <category term="minimax"/>
 <summary>Geiru Window Director + Geiru Hybrid Windows: build long H3 videos one window at a time Geiru Hybrid Windows makes one long MiniMax H3 render (a minute or more) as overlapping windows instead of a chain of separate clips, so fast motion stays seamless. It works the way plain hybrid windows does, wit</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 3 · render, comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Geiru Window Director + Geiru Hybrid Windows: build long H3 videos one window at a time Geiru Hybrid Windows makes one long MiniMax H3 render (a minute or more) as overlapping windows instead of a chain of separate clips, so fast motion stays seamless. It works the way plain hybrid windows does, with my keystone and capstone added in every window to cut down on degradation over long videos. Geiru Window Director is an optional node that goes after it. A normal render makes every window in one go, so if window 4 comes out wrong you redo the whole video. With the Director you make window 1, look at it, then: Approve it and the next window is made Re-roll it until it's right (change the prompt &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xu5tul/geiru_window_director_one_node_so_long_form/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/vfx/comments/1xu4f7o/takis_alien_commercial_shot_performance_reference/</id><title>Takis alien commercial shot — performance reference and AI-assisted VFX breakdown</title>
-<link rel="alternate" href="https://www.reddit.com/r/vfx/comments/1xu4f7o/takis_alien_commercial_shot_performance_reference/"/>
-<published>2026-11-12T05:24:58+00:00</published><updated>2026-11-12T05:24:58+00:00</updated>
-<author><name>r/vfx</name></author>
-<category term="vfx"/>
-<summary>A short breakdown of my work on the Takis alien with Simulacro Estudio earlier this year. My role: AI Specialist / VFX. The clip shows the character design, scene plate, performance reference and integrated shot. The hand-to-temple gesture was a useful way to carry the expression from the reference </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/vfx · score 2 · vfx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;A short breakdown of my work on the Takis alien with Simulacro Estudio earlier this year. My role: AI Specialist / VFX. The clip shows the character design, scene plate, performance reference and integrated shot. The hand-to-temple gesture was a useful way to carry the expression from the reference into the character. I’m sharing the stages to discuss how the performance reads and how the character sits in the night lighting. What would you improve in the integration? Credit: JCL Aragón / Simulacro Estudio. Original upload: https://youtu.be/6TGx24z2kr8 submitted by /u/Careful-Example4965 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/vfx/comments/1xu4f7o/takis_alien_commercial_shot_performance_reference/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xu4bgx/a_quick_mossimage_news_roundup_12th_november_2026/</id><title>A quick MOSS-Image news round-up - 12th November 2026</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xu4bgx/a_quick_mossimage_news_roundup_12th_november_2026/"/>
-<published>2026-11-12T05:19:15+00:00</published><updated>2026-11-12T05:19:15+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="lora"/>
-<summary>Another quick MOSS-Image news and goodies round-up, for those who may have missed some items. -&gt; A free ComfyUI workflow for MOSS-Image... "that works more like a camera" in terms of focus/out-of-focus. "Click what you want in focus. A box shows what the lens will keep." Uses DepthAnything v2 and Bi</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui, lora&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Another quick MOSS-Image news and goodies round-up, for those who may have missed some items. -&amp;gt; A free ComfyUI workflow for MOSS-Image... "that works more like a camera" in terms of focus/out-of-focus. "Click what you want in focus. A box shows what the lens will keep." Uses DepthAnything v2 and BiRefNet Lite, and comes with a ComfyUI depth_lens_fx node. Impressive examples and guidance. https://github.com/rgourley/moss-camera-settings https://www.robertcreative.com/blog/moss-image-camera-settings -&amp;gt; Anime-to-Real 1:1 Photorealistic Redraw, for MOSS Image used in an Edit workflow. The demo images suggest the eyes go a little squishy, but it may be what you need? I guess you might plug in a &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xu4bgx/a_quick_mossimage_news_roundup_12th_november_2026/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xu3wg9/generated_a_20second_anime_video_with_audio_on_my/</id><title>Generated a 20-second anime video with audio on my RTX 4070 Super 12GB + 16GB RAM in under 4 minutes</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xu3wg9/generated_a_20second_anime_video_with_audio_on_my/"/>
-<published>2026-11-12T04:57:33+00:00</published><updated>2026-11-12T04:57:33+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="upscaling"/>
-<category term="lip-sync"/>
-<category term="animation"/>
-<category term="comfyui"/>
-<category term="minimax"/>
-<category term="consistency"/>
-<summary>Been experimenting with ComfyUI and MiniMax H3 over the last couple of days, and I'm genuinely surprised by what my PC managed to pull off. Managed to generate a 20-second anime video (481 frames at 24fps, 960×544) in around 200 seconds , including dialogue, multiple camera angles and character move</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 6 · upscaling, lip-sync, animation, comfyui, minimax, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Been experimenting with ComfyUI and MiniMax H3 over the last couple of days, and I'm genuinely surprised by what my PC managed to pull off. Managed to generate a 20-second anime video (481 frames at 24fps, 960×544) in around 200 seconds , including dialogue, multiple camera angles and character movements. My specs aren't anything crazy: RTX 4070 Super 12GB i5-14600K 16GB DDR5 RAM Workflow: MiniMax H3 MATLOW fused INT8 ConvRot model 4 steps, res_multistep sampler Comfy Kitchen Attention BlockSparseAttention (SLA, 20% keep) H3 Chunk FeedForward (8 chunks) Sigma shift: 12/3 I know this might not seem all that impressive when everyone is chasing photorealistic human videos, but I wanted to try m&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xu3wg9/generated_a_20second_anime_video_with_audio_on_my/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xu3dum/native_100_megapixel_no_upscaling_minimax_h3/</id><title>Native 100 megapixel (no upscaling) Minimax H3 Image Generation on 5090 @ 240 seconds.</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xu3dum/native_100_megapixel_no_upscaling_minimax_h3/"/>
-<published>2026-11-12T04:29:12+00:00</published><updated>2026-11-12T04:29:12+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="upscaling"/>
-<category term="minimax"/>
-<summary>Yes this was obviously a silly test. But I was curious to see what H3-Image could do when pushed, which is why I decided to crank it up to 100mpx (7456x13376) just for the lulz. There's no real reason to go this high, the image is definitely showing issues, so I then dialed it down to a 61 Megapixel</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · upscaling, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Yes this was obviously a silly test. But I was curious to see what H3-Image could do when pushed, which is why I decided to crank it up to 100mpx (7456x13376) just for the lulz. There's no real reason to go this high, the image is definitely showing issues, so I then dialed it down to a 61 Megapixel image (5824x10464) which is the same size I get from my a7r5 camera, and it looks much cleaner and only takes about 110 seconds per image. IMHO the 61 Megapixel renders are superior, and good enough for professional work. Linking images because there's no way reddit will like these image sizes Full Resolution Links: 61-H : https://photos.smugmug.com/photos/i-wXnW4sV/0/LtVzr2Hfr2NthLGMNnn4BGqc22W9&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xu3dum/native_100_megapixel_no_upscaling_minimax_h3/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xu2szr/free_simple_workflow_realistic_1girl_minimax_h3/</id><title>Free simple Workflow Realistic 1Girl Minimax H3 Image</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xu2szr/free_simple_workflow_realistic_1girl_minimax_h3/"/>
-<published>2026-11-12T03:59:02+00:00</published><updated>2026-11-12T03:59:02+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="minimax"/>
-<category term="lora"/>
-<category term="consistency"/>
-<summary>Yo, I share this simple workflow I made since I don't find anything else for now on minimax that handle a good quality for text to image or image to image. I think this model has a great future, It really feel like using nano banana or gpt somehow, since the consistency about the face is really good</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 4 · minimax, lora, consistency&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Yo, I share this simple workflow I made since I don't find anything else for now on minimax that handle a good quality for text to image or image to image. I think this model has a great future, It really feel like using nano banana or gpt somehow, since the consistency about the face is really good, you don't even need a lora. It will be improved a lot, but it's a good base and results are pretty good for a day one on h3. The only problem I got so far is the prompt adherence, that looks not very good, but I'm sure we will find many ways to improve later If you have ideas to improve results share me guys. Workflow : https://civitai.red/models/3047310/minimax-h3-image-t2i-and-i2i-simple-workf&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xu2szr/free_simple_workflow_realistic_1girl_minimax_h3/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
