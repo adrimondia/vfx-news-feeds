@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-27T07:30:28+00:00</updated>
+<updated>2026-11-27T08:00:34+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
 <entry>
 <id>https://arxiv.org/abs/2611.33378</id><title>DreamTour: Layout Steering for Training-Free World Exploration</title>
@@ -2822,14 +2822,5 @@
 <category term="minimax"/>
 <summary>MiniMax H3-Image swapping the subject, coat, and pose in a 6-step edit (with scale and grade locked) Specs : RTX 3090, int8, ~60 s Workflow : UNETLoader(int8) → KSampler(euler/simple, 6 steps, cfg 1) CLIPLoader(nvfp4, type minimax) VAELoader(image_vae_fp16) → VAEDecode LoadImage ×2 → MiniMaxH3ImageC</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;MiniMax H3-Image swapping the subject, coat, and pose in a 6-step edit (with scale and grade locked) Specs : RTX 3090, int8, ~60 s Workflow : UNETLoader(int8) → KSampler(euler/simple, 6 steps, cfg 1) CLIPLoader(nvfp4, type minimax) VAELoader(image_vae_fp16) → VAEDecode LoadImage ×2 → MiniMaxH3ImageConditioning(prompt, refs=&amp;lt;Picture 1/2&amp;gt;) → ConditioningZeroOut(neg) submitted by /u/Atagor [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xv3ogw/minimax_h3image_onecheckpoint_edit/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xv2077/the_real_best_thing_about_minimax_image/</id><title>The real best thing about Minimax Image</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xv2077/the_real_best_thing_about_minimax_image/"/>
-<published>2026-11-13T07:57:17+00:00</published><updated>2026-11-13T07:57:17+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="minimax"/>
-<summary>It's that the Minimax team is still dedicated to open models. I, like, I think, many people here, assumed that h3 image isn't coming anymore. Now I actually really like it's quality, if Kijai's Minimax prompt weight node is used with "text with empty image". It's still not quite my thing though, bec</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;It's that the Minimax team is still dedicated to open models. I, like, I think, many people here, assumed that h3 image isn't coming anymore. Now I actually really like it's quality, if Kijai's Minimax prompt weight node is used with "text with empty image". It's still not quite my thing though, because it doesn't seem to recognize artists by name. However, now, there's a room to be cautiously optimistic about their potential upcoming video releases. submitted by /u/Druck_Triver [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xv2077/the_real_best_thing_about_minimax_image/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
