@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-27T11:31:37+00:00</updated>
+<updated>2026-11-27T13:31:35+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
 <entry>
 <id>https://arxiv.org/abs/2611.33378</id><title>DreamTour: Layout Steering for Training-Free World Exploration</title>
@@ -2761,37 +2761,5 @@
 <category term="ltx"/>
 <summary>I finally got around to giving LTX2.5 a go, having been using MiniMax for a while now, and I love the speed of it :30 of 1080p generated in 2 minutes on my 5090 with first frame references every :10 and the results are pretty astounding. I wonder, however, why LTX doesn’t have the option of using el</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · minimax, ltx&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I finally got around to giving LTX2.5 a go, having been using MiniMax for a while now, and I love the speed of it :30 of 1080p generated in 2 minutes on my 5090 with first frame references every :10 and the results are pretty astounding. I wonder, however, why LTX doesn’t have the option of using elements as references? I recall reading it had the capability in its weights but that it hadn’t yet been exposed in the open source model. Anybody know why? submitted by /u/rileygstaliger [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xv8gex/ltx25_and_reference_images/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xv6jlk/generating_good_images_out_of_sillytavern_with/</id><title>Generating good Images out of SillyTavern with Comfy and Krea 2 (or others)</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xv6jlk/generating_good_images_out_of_sillytavern_with/"/>
-<published>2026-11-13T12:26:02+00:00</published><updated>2026-11-13T12:26:02+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="minimax"/>
-<summary>I've been generating images from SillyTavern through ComfyUI for a while. Until recently, it was more hit and miss, but now I get mostly usable images, relevant for the scene and chat. I got there by changing the LLM prompts who ask for the image prompt, by a lot. To be clear about what these are: S</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I've been generating images from SillyTavern through ComfyUI for a while. Until recently, it was more hit and miss, but now I get mostly usable images, relevant for the scene and chat. I got there by changing the LLM prompts who ask for the image prompt, by a lot. To be clear about what these are: SillyTavern hands your chat context to a text model and asks it to write an image prompt. These are that request — the instructions, not the image prompts. I run GLM and DeepSeek for the prompt-writing step. Other LLMs might work as well, just test it. Easy to edit: make the LLM answer in sections Instead of one paragraph, the generated prompt comes back in labelled blocks: Setting — location, ligh&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xv6jlk/generating_good_images_out_of_sillytavern_with/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xv60ls/comfyui_keeps_crashing_on_me_since_the_last_update/</id><title>Comfyui keeps crashing on me since the last update.</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xv60ls/comfyui_keeps_crashing_on_me_since_the_last_update/"/>
-<published>2026-11-13T11:59:49+00:00</published><updated>2026-11-13T11:59:49+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<summary>Muy buenas, Since the last update of ComfyUI Portable, Python randomly closes on me. It doesn't give me any error messages and it doesn't happen when it's using a lot of memory; it happens randomly when running a workflow. On Windows, I get this error: ------------ Nombre de aplicación con errores: </summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · comfyui&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Muy buenas, Since the last update of ComfyUI Portable, Python randomly closes on me. It doesn't give me any error messages and it doesn't happen when it's using a lot of memory; it happens randomly when running a workflow. On Windows, I get this error: ------------ Nombre de aplicación con errores: python.exe, versión: 3.11.8150.1013, marca de tiempo: 0x65c2ad47 Nombre del módulo con errores: VCRUNTIME140.dll, versión: 14.38.33126.1, marca de tiempo: 0x576312c5 Código de excepción: 0xc0000005 -------------- Looking at the ComfyUI installation, that file hasn't been recently updated. Any suggestions? Thanks a lot. submitted by /u/galo64 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xv60ls/comfyui_keeps_crashing_on_me_since_the_last_update/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xv5jrj/minimax_h3_video_how_to_keep_faces_consistent/</id><title>MiniMax H3 video: how to keep faces consistent during dynamic camera motion?</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xv5jrj/minimax_h3_video_how_to_keep_faces_consistent/"/>
-<published>2026-11-13T11:34:28+00:00</published><updated>2026-11-13T11:34:28+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="rendering"/>
-<category term="comfyui"/>
-<category term="minimax"/>
-<category term="lora"/>
-<category term="dit"/>
-<summary>Question : I can't make my rendering pipeline produce dynamic motion videos without glitches. On the attached video you see the face/eyes are slightly 'glitching/wobbling', how to fix that? Config : MiniMax H3 video (ref2va DiT, w6a8 quant) via ComfyUI, 1344×768 @ 24 fps, 192 frames (8 s), single li</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 6 · rendering, comfyui, minimax, lora, dit&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Question : I can't make my rendering pipeline produce dynamic motion videos without glitches. On the attached video you see the face/eyes are slightly 'glitching/wobbling', how to fix that? Config : MiniMax H3 video (ref2va DiT, w6a8 quant) via ComfyUI, 1344×768 @ 24 fps, 192 frames (8 s), single link with exact latent carry (no seams, no re-conditioning) Prompt was: " She stands centered on the foggy harbour promenade at dawn in a crimson wool coat with a knitted scarf, still, facing the camera; the camera orbits one slow full revolution around her, from directly in front, around her right side, behind her, around her left side, and back to the front, holding her full figure at a constant s&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xv5jrj/minimax_h3_video_how_to_keep_faces_consistent/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
