@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-27T01:30:58+00:00</updated>
+<updated>2026-11-27T03:30:53+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
 <entry>
 <id>https://arxiv.org/abs/2611.33378</id><title>DreamTour: Layout Steering for Training-Free World Exploration</title>
@@ -3046,24 +3046,5 @@
 <category term="minimax"/>
 <summary>Hey everyone! I literally got this created earlier today and busted butt to share it with the community because this is incredible and I wanted to contribute back. I built this custom node with Claude Code because one thing about MiniMax H3 kept bugging me the fact that you can't increase the batch </summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 4 · comfyui, flux, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Hey everyone! I literally got this created earlier today and busted butt to share it with the community because this is incredible and I wanted to contribute back. I built this custom node with Claude Code because one thing about MiniMax H3 kept bugging me the fact that you can't increase the batch size like in Flux.2 Klein 9b or other models that can. I made two nodes that let one run make 2 or more different images or videos (depending on your system) that are exactly what should happen inside an increased batch size. It's MIT licensed and already on the ComfyUI Registry. I've worked in IT for 20 years but I'm not a programmer. -- I didn't include a workflow because I literally just grabbe&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xuy5v5/finally_a_way_to_increase_the_batch_size_in/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xuwu8o/minimax_h3_image_prompt_blending/</id><title>Minimax H3 Image Prompt Blending</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xuwu8o/minimax_h3_image_prompt_blending/"/>
-<published>2026-11-13T03:07:54+00:00</published><updated>2026-11-13T03:07:54+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="minimax"/>
-<summary>Workflow https://pastebin.com/pZaWnBY4 Custom Node (Minimax H3 Prompt Weight) https://github.com/kijai/ComfyUI-KJNodes submitted by /u/More-Competition4459 [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Workflow https://pastebin.com/pZaWnBY4 Custom Node (Minimax H3 Prompt Weight) https://github.com/kijai/ComfyUI-KJNodes submitted by /u/More-Competition4459 [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xuwu8o/minimax_h3_image_prompt_blending/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xuwkfi/accord_gpu_for_comfyui_a_coordination_tool_to/</id><title>Accord GPU for ComfyUI, a coordination tool to stop GPU apps from fighting each other for VRAM</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xuwkfi/accord_gpu_for_comfyui_a_coordination_tool_to/"/>
-<published>2026-11-13T02:54:39+00:00</published><updated>2026-11-13T02:54:39+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="comfyui"/>
-<category term="blender"/>
-<summary>TL;DR: Accord GPU is a free, open beta coordination layer for Windows. If ComfyUI has ever crashed or OOM'd because something else on the machine grabbed the GPU first, this is built to prevent that. The problem: GPU renderers, image/video generators, and local inference servers all assume exclusive</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · comfyui, blender&lt;/small&gt;&lt;/p&gt;&lt;p&gt;TL;DR: Accord GPU is a free, open beta coordination layer for Windows. If ComfyUI has ever crashed or OOM'd because something else on the machine grabbed the GPU first, this is built to prevent that. The problem: GPU renderers, image/video generators, and local inference servers all assume exclusive GPU ownership. Run two at once, or even back to back before VRAM actually clears, and you get CUDA OOM crashes, driver resets, or corrupted output. There's no coordination layer between separate applications today. How it works: A tray app (Console) manages a shared GPU queue. Every component, DAZ Studio, Blender, ComfyUI, Ollama, writes a ticket when it needs the GPU and waits its turn if someth&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xuwkfi/accord_gpu_for_comfyui_a_coordination_tool_to/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
