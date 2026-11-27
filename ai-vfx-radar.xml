@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-27T09:30:31+00:00</updated>
+<updated>2026-11-27T11:31:37+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
 <entry>
 <id>https://arxiv.org/abs/2611.33378</id><title>DreamTour: Layout Steering for Training-Free World Exploration</title>
@@ -2793,34 +2793,5 @@
 <category term="dit"/>
 <summary>Question : I can't make my rendering pipeline produce dynamic motion videos without glitches. On the attached video you see the face/eyes are slightly 'glitching/wobbling', how to fix that? Config : MiniMax H3 video (ref2va DiT, w6a8 quant) via ComfyUI, 1344×768 @ 24 fps, 192 frames (8 s), single li</summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 6 · rendering, comfyui, minimax, lora, dit&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Question : I can't make my rendering pipeline produce dynamic motion videos without glitches. On the attached video you see the face/eyes are slightly 'glitching/wobbling', how to fix that? Config : MiniMax H3 video (ref2va DiT, w6a8 quant) via ComfyUI, 1344×768 @ 24 fps, 192 frames (8 s), single link with exact latent carry (no seams, no re-conditioning) Prompt was: " She stands centered on the foggy harbour promenade at dawn in a crimson wool coat with a knitted scarf, still, facing the camera; the camera orbits one slow full revolution around her, from directly in front, around her right side, behind her, around her left side, and back to the front, holding her full figure at a constant s&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xv5jrj/minimax_h3_video_how_to_keep_faces_consistent/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xv4da5/what_are_people_using_for_cleanup_deroping_in/</id><title>What are people using for cleanup / deroping in Minimax h3?</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xv4da5/what_are_people_using_for_cleanup_deroping_in/"/>
-<published>2026-11-13T10:25:52+00:00</published><updated>2026-11-13T10:25:52+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="minimax"/>
-<summary>submitted by /u/Portable_Solar_ZA [link] [comments]</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;submitted by /u/Portable_Solar_ZA [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xv4da5/what_are_people_using_for_cleanup_deroping_in/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/comfyui/comments/1xv4d69/leebkit_by_leeblaab_offline_kinetic_promo_videos/</id><title>LEEBKIT by LEEBLAAB — offline kinetic promo videos V1.4 is out</title>
-<link rel="alternate" href="https://www.reddit.com/r/comfyui/comments/1xv4d69/leebkit_by_leeblaab_offline_kinetic_promo_videos/"/>
-<published>2026-11-13T10:25:40+00:00</published><updated>2026-11-13T10:25:40+00:00</updated>
-<author><name>r/comfyui</name></author>
-<category term="smoke"/>
-<category term="comfyui"/>
-<category term="slam"/>
-<summary>As someone who use ComfyUI for Image and video geenrations, I have built this Open source project to use in my own promo videos, because most of the time i generate some tons of images and needs to show them off or create a promo video for the shots today I have released LEEBKIT V1.4 , which is offl</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/comfyui · score 3 · smoke, comfyui, slam&lt;/small&gt;&lt;/p&gt;&lt;p&gt;As someone who use ComfyUI for Image and video geenrations, I have built this Open source project to use in my own promo videos, because most of the time i generate some tons of images and needs to show them off or create a promo video for the shots today I have released LEEBKIT V1.4 , which is offline kinetic promo videos. No cloud. No API. No subscription. Turn 1-10 images into a finished 9:16 / 1:1 / 16:9 promo MP4 on your own machine: 7 presets, 8 kinetic caption kinds, voiceover + CC0 music beds, GIF/WebP share teasers. In simple terms, yo ucreate / edit your own videos , turn your images to promo videos Whats included Text + Animations + Images (your own) + Voiceover + Music + /sounds &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/comfyui/comments/1xv4d69/leebkit_by_leeblaab_offline_kinetic_promo_videos/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xv3ogw/minimax_h3image_onecheckpoint_edit/</id><title>MiniMax H3-Image one-checkpoint Edit</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xv3ogw/minimax_h3image_onecheckpoint_edit/"/>
-<published>2026-11-13T09:42:58+00:00</published><updated>2026-11-13T09:42:58+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="minimax"/>
-<summary>MiniMax H3-Image swapping the subject, coat, and pose in a 6-step edit (with scale and grade locked) Specs : RTX 3090, int8, ~60 s Workflow : UNETLoader(int8) → KSampler(euler/simple, 6 steps, cfg 1) CLIPLoader(nvfp4, type minimax) VAELoader(image_vae_fp16) → VAEDecode LoadImage ×2 → MiniMaxH3ImageC</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;MiniMax H3-Image swapping the subject, coat, and pose in a 6-step edit (with scale and grade locked) Specs : RTX 3090, int8, ~60 s Workflow : UNETLoader(int8) → KSampler(euler/simple, 6 steps, cfg 1) CLIPLoader(nvfp4, type minimax) VAELoader(image_vae_fp16) → VAEDecode LoadImage ×2 → MiniMaxH3ImageConditioning(prompt, refs=&amp;lt;Picture 1/2&amp;gt;) → ConditioningZeroOut(neg) submitted by /u/Atagor [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xv3ogw/minimax_h3image_onecheckpoint_edit/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
