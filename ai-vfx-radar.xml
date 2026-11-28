@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>AI × VFX radar (auto-filtered)</title>
 <id>urn:vfx-news-digest:radar:ai-vfx-radar</id>
-<updated>2026-11-28T11:30:23+00:00</updated>
+<updated>2026-11-28T13:30:23+00:00</updated>
 <author><name>VFX News Digest radar</name></author>
 <entry>
 <id>https://arxiv.org/abs/2611.33378</id><title>DreamTour: Layout Steering for Training-Free World Exploration</title>
@@ -2532,15 +2532,5 @@
 <category term="minimax"/>
 <summary>I offloaded the extra layers to system memory so the model fits across 16GB of VRAM and 32GB of DDR5 RAM (⁠[BF16 / quant]⁠). Everything needed to reproduce the run on RDNA 4, including the launch flags and configs, is in this repo: https://github.com/0c33/minimax-h3-rdna4 Let me know if you test it </summary>
 <content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;I offloaded the extra layers to system memory so the model fits across 16GB of VRAM and 32GB of DDR5 RAM (⁠[BF16 / quant]⁠). Everything needed to reproduce the run on RDNA 4, including the launch flags and configs, is in this repo: https://github.com/0c33/minimax-h3-rdna4 Let me know if you test it on another RDNA 4 card or get better token speeds with different offload settings. submitted by /u/NigaTroubles [link] [comments]&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xw4f1r/running_minimax_h3_on_an_rx_9070_xt_32gb_ddr5_ram/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-<id>https://www.reddit.com/r/StableDiffusion/comments/1xw1nut/i_am_so_tired_of_the_upscale_chain_are_we_finally/</id><title>I am so tired of the upscale chain. Are we finally done with it?</title>
-<link rel="alternate" href="https://www.reddit.com/r/StableDiffusion/comments/1xw1nut/i_am_so_tired_of_the_upscale_chain_are_we_finally/"/>
-<published>2026-11-14T12:50:58+00:00</published><updated>2026-11-14T12:50:58+00:00</updated>
-<author><name>r/StableDiffusion</name></author>
-<category term="upscaling"/>
-<category term="minimax"/>
-<summary>Usually I spend much time trying to get the image right. You finally get the perfect 1K or 2K output. The layout is good. Then upscale, poof, all that hard work, gone. When I run it through Hires. Fix or whatever upscale nodes, some odd things will inevitably change. Things like, the original compos</summary>
-<content type="html">&lt;p&gt;&lt;small&gt;r/StableDiffusion · score 2 · upscaling, minimax&lt;/small&gt;&lt;/p&gt;&lt;p&gt;Usually I spend much time trying to get the image right. You finally get the perfect 1K or 2K output. The layout is good. Then upscale, poof, all that hard work, gone. When I run it through Hires. Fix or whatever upscale nodes, some odd things will inevitably change. Things like, the original composition shifted. Skin pores gone, and turn into something plasticky. Clothes lose texture. It makes everything look more AI. All of which is kinda the opposite of what I am trying to do. Hope that this is fr. I was reading about the new MiniMax H3-Image open weights. It says it support 4K output, and 4K is actually the default setting. Which sounds kind of insane to me. Can my GPU handle this? Has a&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.reddit.com/r/StableDiffusion/comments/1xw1nut/i_am_so_tired_of_the_upscale_chain_are_we_finally/"&gt;Open&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
